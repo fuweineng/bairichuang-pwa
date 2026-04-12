@@ -1,0 +1,1486 @@
+[
+  {
+    "id": "chinese-001",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音",
+      "多音字"
+    ],
+    "question": "下列词语中，加点字的读音完全正确的一项是：",
+    "options": [
+      "惩罚(chéng)",
+      "勉强(qiǎng)",
+      "干涸(hé)",
+      "瞥见(biē)"
+    ],
+    "answer": "勉强(qiǎng)",
+    "explanation": "惩罚读chéng，干涸读hé，瞥见读piē，勉强读qiǎng。"
+  },
+  {
+    "id": "chinese-002",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形",
+      "形近字"
+    ],
+    "question": "下列词语中，没有错别字的一项是：",
+    "options": [
+      "迫不急待",
+      "直接了当",
+      "再接再厉",
+      "走头无路"
+    ],
+    "answer": "再接再厉",
+    "explanation": "迫不急待→迫不及待，直接了当→直截了当，走头无路→走投无路。"
+  },
+  {
+    "id": "chinese-003",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音",
+      "多音字"
+    ],
+    "question": "根据拼音写汉字：他把东西____(cáng)起来了，怕被人发现。",
+    "options": null,
+    "answer": "藏",
+    "explanation": "藏在这里读cáng，动词，躲藏的意思。"
+  },
+  {
+    "id": "chinese-004",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "近义词辨析"
+    ],
+    "question": "依次填入下列句中横线处的词语，最恰当的一项是：\n①他_____地接受了大家的批评。\n②这山谷_____深邃，别有洞天。\n③在困难面前，我们要_____面对。",
+    "options": [
+      "诚恳 风景 坦然",
+      "诚实 景象 坦然",
+      "诚恳 景象 坦然",
+      "诚实 风景 坦然"
+    ],
+    "answer": "诚恳 景象 坦然",
+    "explanation": "诚恳指态度真诚，景象指风景的样子，坦然指心里平静。"
+  },
+  {
+    "id": "chinese-005",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "成语运用"
+    ],
+    "question": "下列句子中，加点成语使用恰当的一项是：",
+    "options": [
+      "他处心积虑地策划这次行动。",
+      "这次考试小明取得了好成绩，真是喜从天降。",
+      "他对我有求必应，真是罪不容诛。",
+      "这本书的内容言之有序，值得一读。"
+    ],
+    "answer": "这本书的内容言之有序，值得一读。",
+    "explanation": "言之有序指说话写文章有条理。罪不容诛指罪行极大，处死还不够；处心积虑指蓄谋已久，含贬义。"
+  },
+  {
+    "id": "chinese-006",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "下列句子没有语病的一项是：",
+    "options": [
+      "通过这次活动，使我受益匪浅。",
+      "有没有良好的学习态度，是取得好成绩的关键。",
+      "我们要及时发现并解决问题。",
+      "他的写作水平比上学期越来越好了。"
+    ],
+    "answer": "我们要及时发现并解决问题。",
+    "explanation": "A句缺主语，B句两面对一面不搭配，D句'越来越'搭配不当。"
+  },
+  {
+    "id": "chinese-007",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "句子成分"
+    ],
+    "question": "指出下列句子的主干：'小明今天早上在教室里认真地写作业。' 主语是____，谓语是____，宾语是____。",
+    "options": null,
+    "answer": "小明, 写, 作业",
+    "explanation": "主语回答'谁'，谓语回答'做什么'，宾语回答'什么'。"
+  },
+  {
+    "id": "chinese-008",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法",
+      "比喻"
+    ],
+    "question": "下列句子使用了比喻修辞手法的一项是：",
+    "options": [
+      "敌人的残暴行为令人发指。",
+      "运动员像离弦的箭一样冲过终点。",
+      "太阳出来了，小草高兴地眨着眼睛。",
+      "他急得团团转。"
+    ],
+    "answer": "运动员像离弦的箭一样冲过终点。",
+    "explanation": "'像离弦的箭'是明喻，本体是运动员，喻体是箭。"
+  },
+  {
+    "id": "chinese-009",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法",
+      "排比"
+    ],
+    "question": "下列句子使用了排比修辞手法的一项是：",
+    "options": [
+      "学而时习之，不亦说乎？",
+      "红的花，黄的花，漂亮极了。",
+      "他山之石，可以攻玉。",
+      "虚心使人进步，骄傲使人落后。"
+    ],
+    "answer": "红的花，黄的花，漂亮极了。",
+    "explanation": "排比需要三个或以上结构相同、语气一致的并列成分。"
+  },
+  {
+    "id": "chinese-010",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文言实词",
+      "一词多义"
+    ],
+    "question": "《论语》中'学而时习之'的'时'意思是：",
+    "options": [
+      "时常",
+      "按时",
+      "曾经",
+      "及时"
+    ],
+    "answer": "按时",
+    "explanation": "'时习之'指按时复习，'时'在这里是副词，按时的意思。"
+  },
+  {
+    "id": "chinese-011",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文言句式",
+      "翻译"
+    ],
+    "question": "下列句子属于被动句式的一项是：",
+    "options": [
+      "吾十有五而志于学",
+      "舜发于畎亩之中",
+      "征于色发于声而后喻",
+      "入则无法家拂士"
+    ],
+    "answer": "舜发于畎亩之中",
+    "explanation": "'发于畎亩'是被起用之意，属于意念上的被动句。"
+  },
+  {
+    "id": "chinese-012",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗理解性默写"
+    ],
+    "question": "《望岳》中表达诗人远大抱负的诗句是：______，______。",
+    "options": null,
+    "answer": [
+      "会当凌绝顶",
+      "一览众山小"
+    ],
+    "explanation": "这两句诗表达了杜甫想要登上泰山顶峰、俯瞰众山的雄心壮志，象征着远大抱负。"
+  },
+  {
+    "id": "chinese-013",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗鉴赏",
+      "意象"
+    ],
+    "question": "《使至塞上》中'大漠孤烟直，长河落日圆'一联使用了哪种表现手法？",
+    "options": [
+      "比喻",
+      "夸张",
+      "对偶",
+      "借景抒情"
+    ],
+    "answer": "对偶",
+    "explanation": "'大漠'对'长河'，'孤烟直'对'落日圆'，字数相等、结构相同，是对偶。"
+  },
+  {
+    "id": "chinese-014",
+    "type": "short_answer",
+    "subject": "chinese",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "现代文阅读",
+      "人物形象分析"
+    ],
+    "question": "阅读《背影》片段，回答问题：父亲攀爬月台买橘子的背影，表达了怎样的思想感情？",
+    "options": null,
+    "answer": "感激、思念和愧疚，深沉父爱",
+    "explanation": "通过描写父亲送别儿子时爬月台买橘子的背影，表达了儿子对父亲深深的感激、思念和愧疚之情，体现了深沉而真挚的父爱。"
+  },
+  {
+    "id": "chinese-015",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "说明文阅读",
+      "段落作用"
+    ],
+    "question": "说明文的语言特点不包括：",
+    "options": [
+      "准确性",
+      "严密性",
+      "文学性",
+      "简洁性"
+    ],
+    "answer": "文学性",
+    "explanation": "说明文要求语言准确、严密、简洁，通常不使用文学性的夸张、虚构等手法。"
+  },
+  {
+    "id": "math-001",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "有理数运算"
+    ],
+    "question": "计算：(-3) + (-5) - (+2)的结果是：",
+    "options": [
+      "-10",
+      "-6",
+      "6",
+      "10"
+    ],
+    "answer": "-10",
+    "explanation": "(-3)+(-5)=-8，-8-(+2)=-10"
+  },
+  {
+    "id": "math-002",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数运算",
+      "平方根"
+    ],
+    "question": "平方根为±4的数是____。",
+    "options": null,
+    "answer": "16",
+    "explanation": "平方根是±4，则这个数是(±4)²=16"
+  },
+  {
+    "id": "math-003",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一元二次方程"
+    ],
+    "question": "解方程：x² - 5x + 6 = 0，正确的是：",
+    "options": [
+      "x=1或x=6",
+      "x=2或x=3",
+      "x=-2或x=-3",
+      "x=1或x=-6"
+    ],
+    "answer": "x=2或x=3",
+    "explanation": "因式分解：(x-2)(x-3)=0，所以x=2或x=3"
+  },
+  {
+    "id": "math-004",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "代数式化简"
+    ],
+    "question": "化简：3(2x - 1) - 2(x - 3) = ____",
+    "options": null,
+    "answer": "4x + 3",
+    "explanation": "3(2x-1)=6x-3，-2(x-3)=-2x+6，合并：4x+3"
+  },
+  {
+    "id": "math-005",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式 2x - 3 > 5 的解集在数轴上表示为：",
+    "options": [
+      "原点左侧",
+      "原点右侧",
+      "包括原点",
+      "无解"
+    ],
+    "answer": "原点右侧",
+    "explanation": "2x-3>5 → 2x>8 → x>4，在数轴上表示为原点右侧"
+  },
+  {
+    "id": "math-006",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "一次函数 y = -2x + 3，y随x增大而____。",
+    "options": [
+      "增大",
+      "减小",
+      "不变",
+      "先增后减"
+    ],
+    "answer": "减小",
+    "explanation": "一次函数y=kx+b，k<0时y随x增大而减小。这里k=-2<0"
+  },
+  {
+    "id": "math-007",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "二次函数图像"
+    ],
+    "question": "二次函数 y = x² - 4x + 3 的顶点坐标是：",
+    "options": [
+      "(2,-1)",
+      "(2,1)",
+      "(-2,-1)",
+      "(-2,1)"
+    ],
+    "answer": "(2,-1)",
+    "explanation": "顶点x坐标=-b/2a=4/2=2，代入：y=4-8+3=-1，顶点(2,-1)"
+  },
+  {
+    "id": "math-008",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形内角和"
+    ],
+    "question": "在△ABC中，∠A=50°，∠B=60°，则∠C=____°。",
+    "options": [
+      "60",
+      "70",
+      "80",
+      "90"
+    ],
+    "answer": "70",
+    "explanation": "三角形内角和为180°，∠C=180°-50°-60°=70°"
+  },
+  {
+    "id": "math-009",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "勾股定理"
+    ],
+    "question": "直角三角形的两直角边分别为5和12，则斜边长为：",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "17"
+    ],
+    "answer": "13",
+    "explanation": "勾股定理：斜边=√(5²+12²)=√(25+144)=√169=13"
+  },
+  {
+    "id": "math-010",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "全等三角形"
+    ],
+    "question": "在△ABC和△DEF中，已知AB=DE，∠A=∠D，AC=DF，则这两个三角形_____（填'全等'或'不全等'）。",
+    "options": null,
+    "answer": "全等",
+    "explanation": "两边及其夹角相等(SAS)，两三角形全等"
+  },
+  {
+    "id": "math-011",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "圆的性质"
+    ],
+    "question": "圆的半径为5，则其周长为（结果保留π）：",
+    "options": [
+      "10π",
+      "25π",
+      "5π",
+      "10"
+    ],
+    "answer": "10π",
+    "explanation": "圆周长C=2πr=2π×5=10π"
+  },
+  {
+    "id": "math-012",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "空间几何体体积"
+    ],
+    "question": "底面半径为3、高为4的圆锥的体积是____。（结果保留π）",
+    "options": null,
+    "answer": "12π",
+    "explanation": "圆锥体积V=1/3πr²h=1/3×π×9×4=12π"
+  },
+  {
+    "id": "math-013",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "相似三角形"
+    ],
+    "question": "两个相似三角形的相似比是3:2，较大三角形的面积是27cm²，则较小三角形的面积是____cm²。",
+    "options": [
+      "12",
+      "18",
+      "8",
+      "16"
+    ],
+    "answer": "12",
+    "explanation": "面积比=相似比的平方=9:4，27:x=9:4，x=12cm²"
+  },
+  {
+    "id": "math-014",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "图形变换",
+      "平移"
+    ],
+    "question": "点(2,3)向右平移3个单位，再向上平移2个单位，所得点的坐标是____。",
+    "options": null,
+    "answer": "(5,5)",
+    "explanation": "横坐标+3，纵坐标+2，得(2+3,3+2)=(5,5)"
+  },
+  {
+    "id": "math-015",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "平均数"
+    ],
+    "question": "数据2、4、6、8、10的平均数是：",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "平均数=(2+4+6+8+10)/5=30/5=6"
+  },
+  {
+    "id": "math-016",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中位数"
+    ],
+    "question": "数据3、1、4、2、5的中位数是：",
+    "options": [
+      "2",
+      "3",
+      "3.5",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "排序后：1,2,3,4,5，中位数是第3个数，即3"
+  },
+  {
+    "id": "math-017",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "袋中有3个红球和2个白球，它们除颜色外完全相同。从中任意摸出一球，摸到红球的概率是：",
+    "options": [
+      "3/5",
+      "2/5",
+      "1/2",
+      "1/3"
+    ],
+    "answer": "3/5",
+    "explanation": "总球数5，红球3，概率=3/5"
+  },
+  {
+    "id": "math-018",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "频数分布"
+    ],
+    "question": "某班50名学生数学成绩统计：得优的有10人，良的有20人，及格的有15人，不及格的有5人。优的频率是____。",
+    "options": null,
+    "answer": "0.2",
+    "explanation": "频率=频数/总数=10/50=0.2"
+  },
+  {
+    "id": "english-001",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态",
+      "现在完成时"
+    ],
+    "question": "She ______ to Beijing three times.",
+    "options": [
+      "has been",
+      "has gone",
+      "went",
+      "is going"
+    ],
+    "answer": "has been",
+    "explanation": "'has been to' means 'has visited and returned'. 'has gone to' means 'has gone and not returned yet'."
+  },
+  {
+    "id": "english-002",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态",
+      "现在进行时"
+    ],
+    "question": "Look! The children ______ on the playground.",
+    "options": [
+      "play",
+      "played",
+      "are playing",
+      "were playing"
+    ],
+    "answer": "are playing",
+    "explanation": "'Look!' indicates an action happening right now, so present continuous tense 'are playing' is used."
+  },
+  {
+    "id": "english-003",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态",
+      "一般过去时"
+    ],
+    "question": "When I arrived at the station, the train ______.",
+    "options": [
+      "left",
+      "has left",
+      "had left",
+      "was leaving"
+    ],
+    "answer": "had left",
+    "explanation": "'had left' (past perfect) shows the train left BEFORE I arrived."
+  },
+  {
+    "id": "english-004",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态",
+      "主将从现"
+    ],
+    "question": "If it _______ tomorrow, I will stay at home.",
+    "options": null,
+    "answer": "rains",
+    "explanation": "In if-clauses referring to future time, use present simple (rains) to express future condition."
+  },
+  {
+    "id": "english-005",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "被动语态"
+    ],
+    "question": "The song ______ by millions of people.",
+    "options": [
+      "is known",
+      "knows",
+      "was known",
+      "has known"
+    ],
+    "answer": "is known",
+    "explanation": "Present simple passive: am/is/are + past participle. 'is known' shows current general truth."
+  },
+  {
+    "id": "english-006",
+    "type": "short_answer",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "被动语态",
+      "句型转换"
+    ],
+    "question": "Change into passive voice: The teacher wrote the letter.",
+    "options": null,
+    "answer": "The letter was written by the teacher.",
+    "explanation": "Active: The teacher wrote the letter. Passive: The letter was written by the teacher."
+  },
+  {
+    "id": "english-007",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "非谓语动词",
+      "不定式"
+    ],
+    "question": "My dream is ______ a doctor.",
+    "options": [
+      "be",
+      "to be",
+      "being",
+      "been"
+    ],
+    "answer": "to be",
+    "explanation": "'be' as complement of 'is' requires infinitive form: My dream is to be a doctor."
+  },
+  {
+    "id": "english-008",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "非谓语动词",
+      "动名词"
+    ],
+    "question": "She enjoys ______ music in her free time.",
+    "options": [
+      "listen",
+      "listening",
+      "to listen",
+      "listened"
+    ],
+    "answer": "listening",
+    "explanation": "Verbs followed by gerund (-ing): enjoy, like, finish, practice, etc."
+  },
+  {
+    "id": "english-009",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "宾语从句"
+    ],
+    "question": "I don't know ______.",
+    "options": [
+      "where does he live",
+      "where he lives",
+      "where is he living",
+      "where he does live"
+    ],
+    "answer": "where he lives",
+    "explanation": "In indirect speech/embedded questions, use normal word order (subject+verb), not question order."
+  },
+  {
+    "id": "english-010",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "定语从句"
+    ],
+    "question": "The book ______ I bought yesterday is very interesting.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "which",
+    "explanation": "'which' is used for things. Here it refers to 'the book' and functions as the object of 'bought'."
+  },
+  {
+    "id": "english-011",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "状语从句"
+    ],
+    "question": "______ it rained heavily, we still went to school.",
+    "options": [
+      "Although",
+      "Because",
+      "Since",
+      "Unless"
+    ],
+    "answer": "Although",
+    "explanation": "'Although' introduces a contrast/concession clause."
+  },
+  {
+    "id": "english-012",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "The word 'quiet' and 'quite' have ______ meanings.",
+    "options": [
+      "same",
+      "different",
+      "similar",
+      "no"
+    ],
+    "answer": "different",
+    "explanation": "'quiet' means silent/no sound, 'quite' means completely/fairly. They are completely different words."
+  },
+  {
+    "id": "english-013",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词性转换"
+    ],
+    "question": "She is very ______ (chemistry) - she always does experiments carefully.",
+    "options": null,
+    "answer": "chemical",
+    "explanation": "chemistry→chemical (adj)."
+  },
+  {
+    "id": "english-014",
+    "type": "short_answer",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "阅读理解",
+      "主旨大意"
+    ],
+    "question": "Read the passage and answer: What is the main idea of the passage? (About the importance of reading)",
+    "options": null,
+    "answer": "Reading is important for knowledge and personal growth",
+    "explanation": "The passage mainly discusses how reading helps people gain knowledge and develop critical thinking skills."
+  },
+  {
+    "id": "english-015",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "阅读理解",
+      "细节理解"
+    ],
+    "question": "According to the passage, how many hours should a student sleep every night?",
+    "options": [
+      "About 5 hours",
+      "About 7 hours",
+      "About 8 hours",
+      "About 10 hours"
+    ],
+    "answer": "About 8 hours",
+    "explanation": "The passage states that teenagers need about 8 hours of sleep for good health."
+  },
+  {
+    "id": "science-001",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "声学",
+      "声音传播"
+    ],
+    "question": "声音在下列哪种介质中传播最快？",
+    "options": [
+      "空气",
+      "水",
+      "钢铁",
+      "真空"
+    ],
+    "answer": "钢铁",
+    "explanation": "声音在固体中传播最快，液体次之，气体最慢，真空中不能传播。"
+  },
+  {
+    "id": "science-002",
+    "type": "fill",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "声学",
+      "音调响度"
+    ],
+    "question": "声音的三个特性是音调、响度和______。",
+    "options": null,
+    "answer": "音色",
+    "explanation": "声音的三要素是：音调（高低）、响度（强弱）、音色（特色）。"
+  },
+  {
+    "id": "science-003",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "光学",
+      "反射定律"
+    ],
+    "question": "光线射到平面镜上，入射角为30°，则反射角为：",
+    "options": [
+      "15°",
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "answer": "30°",
+    "explanation": "反射定律：反射角等于入射角。入射角30°，反射角也是30°。"
+  },
+  {
+    "id": "science-004",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "光学",
+      "凸透镜成像"
+    ],
+    "question": "当物体位于凸透镜二倍焦距以外时，成像特点是：",
+    "options": [
+      "倒立缩小的实像",
+      "倒立放大的实像",
+      "正立放大的虚像",
+      "正立缩小的虚像"
+    ],
+    "answer": "倒立缩小的实像",
+    "explanation": "物距u>2f时，成倒立缩小的实像，用于照相机原理。"
+  },
+  {
+    "id": "science-005",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "力学",
+      "力的概念"
+    ],
+    "question": "力的单位是：",
+    "options": [
+      "米",
+      "千克",
+      "牛顿",
+      "帕斯卡"
+    ],
+    "answer": "牛顿",
+    "explanation": "力的单位是牛顿(N)，以科学家牛顿命名。"
+  },
+  {
+    "id": "science-006",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "力学",
+      "二力平衡"
+    ],
+    "question": "一个物体受到两个力的作用，且这两个力大小相等、方向相反并在同一直线上，则该物体：",
+    "options": [
+      "一定静止",
+      "一定匀速直线运动",
+      "可能静止或匀速直线运动",
+      "一定加速运动"
+    ],
+    "answer": "可能静止或匀速直线运动",
+    "explanation": "二力平衡条件满足时，物体保持静止或匀速直线运动状态。"
+  },
+  {
+    "id": "science-007",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "力学",
+      "压强"
+    ],
+    "question": "把同一块砖平放、侧放、竖放在水平地面上，三种情况下对地面的压强：",
+    "options": [
+      "平放最大",
+      "侧放最大",
+      "竖放最大",
+      "一样大"
+    ],
+    "answer": "竖放最大",
+    "explanation": "压强P=F/S。砖重不变，竖放时接触面积最小，压强最大。"
+  },
+  {
+    "id": "science-008",
+    "type": "fill",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "力学",
+      "浮力"
+    ],
+    "question": "浸在液体中的物体，受到向上和向下的压力差，这种力叫______。",
+    "options": null,
+    "answer": "浮力",
+    "explanation": "浮力产生的原因：液体对物体上下表面的压力差。方向竖直向上。"
+  },
+  {
+    "id": "science-009",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "热学",
+      "物态变化"
+    ],
+    "question": "下列现象中，属于凝固的是：",
+    "options": [
+      "春天冰雪消融",
+      "冬天窗户玻璃内侧出现水珠",
+      "铁块化成铁水",
+      "滴水成冰"
+    ],
+    "answer": "滴水成冰",
+    "explanation": "凝固是液态变为固态。滴水成冰（水→冰）是凝固。"
+  },
+  {
+    "id": "science-010",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "热学",
+      "比热容"
+    ],
+    "question": "沿海地区昼夜温差小，内陆地区昼夜温差大，原因是：",
+    "options": [
+      "海水比热容大",
+      "陆地比热容大",
+      "海水吸收热量多",
+      "陆地吸收热量多"
+    ],
+    "answer": "海水比热容大",
+    "explanation": "水的比热容最大，吸收相同热量温度变化小，所以沿海温差小。"
+  },
+  {
+    "id": "science-011",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学",
+      "欧姆定律"
+    ],
+    "question": "电阻为10Ω的导体，通过的电流为0.3A，则其两端的电压为：",
+    "options": [
+      "3V",
+      "0.03V",
+      "30V",
+      "33V"
+    ],
+    "answer": "3V",
+    "explanation": "欧姆定律：U=IR=0.3A×10Ω=3V"
+  },
+  {
+    "id": "science-012",
+    "type": "fill",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学",
+      "电功率"
+    ],
+    "question": "某用电器在220V电压下工作，电流为2A，其电功率为______W。",
+    "options": null,
+    "answer": "440",
+    "explanation": "电功率P=UI=220V×2A=440W"
+  },
+  {
+    "id": "science-013",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学",
+      "电路连接"
+    ],
+    "question": "两个灯泡串联在同一电路中，它们两端的电压之比为1:3，则它们的电阻之比为：",
+    "options": [
+      "1:1",
+      "1:3",
+      "3:1",
+      "1:9"
+    ],
+    "answer": "1:3",
+    "explanation": "串联电路中，电压比等于电阻比（U1:U2=R1:R2）。"
+  },
+  {
+    "id": "science-014",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学式"
+    ],
+    "question": "水的化学式是H₂O，表示的意义不包括：",
+    "options": [
+      "水这种物质",
+      "一个水分子",
+      "水由氢气和氧气组成",
+      "一个水分子由两个氢原子和一个氧原子构成"
+    ],
+    "answer": "水由氢气和氧气组成",
+    "explanation": "H₂O表示水由氢、氧两种元素组成，不是氢气和氧气。"
+  },
+  {
+    "id": "science-015",
+    "type": "fill",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学方程式"
+    ],
+    "question": "配平化学方程式：2H₂ + O₂ = 2H₂O，左边O₂前面应填系数____。",
+    "options": null,
+    "answer": "1",
+    "explanation": "2H₂ + O₂ = 2H₂O 已配平。O₂系数为1。"
+  },
+  {
+    "id": "science-016",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学反应类型"
+    ],
+    "question": "下列反应属于复分解反应的是：",
+    "options": [
+      "CaCO₃ = CaO + CO₂↑",
+      "Zn + H₂SO₄ = ZnSO₄ + H₂↑",
+      "NaOH + HCl = NaCl + H₂O",
+      "2Mg + O₂ = 2MgO"
+    ],
+    "answer": "NaOH + HCl = NaCl + H₂O",
+    "explanation": "复分解反应：两种化合物互相交换成分。NaOH+HCl→NaCl+H₂O是中和反应，属于复分解。"
+  },
+  {
+    "id": "science-017",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "植物细胞特有的结构是：",
+    "options": [
+      "细胞壁",
+      "细胞膜",
+      "细胞质",
+      "细胞核"
+    ],
+    "answer": "细胞壁",
+    "explanation": "细胞壁是植物细胞特有的，动物细胞没有。"
+  },
+  {
+    "id": "science-018",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "下列各项中，属于生态系统的是：",
+    "options": [
+      "一片森林中的所有生物",
+      "一个池塘中的所有鱼",
+      "一个湖泊",
+      "一块农田中的所有水稻"
+    ],
+    "answer": "一个湖泊",
+    "explanation": "生态系统=生物+环境。一个湖泊包括生物及其环境，是完整的生态系统。"
+  },
+  {
+    "id": "society-001",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "朝代"
+    ],
+    "question": "我国历史上第一个统一的中央集权的封建国家是：",
+    "options": [
+      "夏朝",
+      "商朝",
+      "秦朝",
+      "汉朝"
+    ],
+    "answer": "秦朝",
+    "explanation": "秦朝(公元前221年)是我国历史上第一个统一的多民族中央集权封建国家。"
+  },
+  {
+    "id": "society-002",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争爆发的年份是：",
+    "options": [
+      "1839年",
+      "1840年",
+      "1841年",
+      "1856年"
+    ],
+    "answer": "1840年",
+    "explanation": "鸦片战争爆发于1840年，英国以林则徐虎门销烟为借口发动侵略战争。"
+  },
+  {
+    "id": "society-003",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "洋务运动"
+    ],
+    "question": "洋务运动的指导思想是'______，师夷长技以自强'。",
+    "options": null,
+    "answer": "中学为体",
+    "explanation": "洋务运动以'中学为体，西学为用'为指导思想。"
+  },
+  {
+    "id": "society-004",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "辛亥革命"
+    ],
+    "question": "辛亥革命的历史意义不包括：",
+    "options": [
+      "推翻了清朝统治",
+      "结束了我国两千多年的封建制度",
+      "建立了资产阶级共和国",
+      "使中国真正成为独立国家"
+    ],
+    "answer": "使中国真正成为独立国家",
+    "explanation": "辛亥革命推翻了清朝统治，但中国半殖民地半封建社会的性质没有改变。"
+  },
+  {
+    "id": "society-005",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界史",
+      "工业革命"
+    ],
+    "question": "工业革命首先发生在哪个国家？",
+    "options": [
+      "法国",
+      "德国",
+      "英国",
+      "美国"
+    ],
+    "answer": "英国",
+    "explanation": "第一次工业革命首先在英国发生(18世纪60年代)，以蒸汽机的发明和应用为标志。"
+  },
+  {
+    "id": "society-006",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "经纬网"
+    ],
+    "question": "地球上的0°经线又称为：",
+    "options": [
+      "赤道",
+      "本初子午线",
+      "国际日期变更线",
+      "南北回归线"
+    ],
+    "answer": "本初子午线",
+    "explanation": "0°经线称为本初子午线，是经度的起始线，通过英国格林尼治天文台旧址。"
+  },
+  {
+    "id": "society-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "西藏自治区",
+      "内蒙古自治区",
+      "青海省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区。"
+  },
+  {
+    "id": "society-008",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上最大的大洋是______，跨经度最多的大洋是______。",
+    "options": null,
+    "answer": [
+      "太平洋",
+      "北冰洋"
+    ],
+    "explanation": "太平洋是世界上最大、最深的大洋。北冰洋是跨经度最多的大洋。"
+  },
+  {
+    "id": "society-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "地形"
+    ],
+    "question": "我国地形的主要特征是：",
+    "options": [
+      "地形单一",
+      "地形复杂多样，山区面积广",
+      "以平原为主",
+      "以盆地为主"
+    ],
+    "answer": "地形复杂多样，山区面积广",
+    "explanation": "我国地形复杂多样，五种基本地形齐全，山区面积约占全国陆地面积的三分之二。"
+  },
+  {
+    "id": "society-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "气候"
+    ],
+    "question": "我国季风气候最显著的特点是：",
+    "options": [
+      "夏季多雨，冬季干燥",
+      "雨热同期",
+      "全年温和多雨",
+      "温差小"
+    ],
+    "answer": "雨热同期",
+    "explanation": "我国是世界上季风气候最显著的国家之一，特点是雨热同期。"
+  },
+  {
+    "id": "society-011",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "道德教育",
+      "诚信"
+    ],
+    "question": "下列体现诚信品质的是：",
+    "options": [
+      "抄袭作业",
+      "考试作弊",
+      "守时守约",
+      "说谎推卸责任"
+    ],
+    "answer": "守时守约",
+    "explanation": "诚信就是诚实守信。守时守约是诚信的表现。"
+  },
+  {
+    "id": "society-012",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育",
+      "法律作用"
+    ],
+    "question": "法律最主要的特征是：",
+    "options": [
+      "由国家制定或认可",
+      "靠国家强制力保证实施",
+      "对全体社会成员具有普遍约束力",
+      "维护公平正义"
+    ],
+    "answer": "靠国家强制力保证实施",
+    "explanation": "法律有三个特征，最主要的是靠国家强制力保证实施。"
+  },
+  {
+    "id": "society-013",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "我国宪法规定，公民的基本权利有政治权利和自由、人身自由权利、社会经济权利、______和教育的权利等。",
+    "options": null,
+    "answer": "宗教信仰自由",
+    "explanation": "我国公民的基本权利包括政治权利和自由、人身自由权利、社会经济权利、宗教信仰自由等。"
+  },
+  {
+    "id": "society-014",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "依法纳税是公民的：",
+    "options": [
+      "基本权利",
+      "基本义务",
+      "道德义务",
+      "自愿行为"
+    ],
+    "answer": "基本义务",
+    "explanation": "依法纳税是公民的基本义务。我国宪法规定公民有依照法律纳税的义务。"
+  },
+  {
+    "id": "society-015",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "责任意识"
+    ],
+    "question": "下列行为体现了社会责任意识的是：",
+    "options": [
+      "过马路闯红灯",
+      "主动参加社区志愿服务",
+      "在文物上刻字留念",
+      "随手乱扔垃圾"
+    ],
+    "answer": "主动参加社区志愿服务",
+    "explanation": "参加社区志愿服务是服务社会、奉献社会的表现，体现了良好的社会责任意识。"
+  }
+]
