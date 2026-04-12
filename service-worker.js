@@ -1,5 +1,5 @@
 // Service Worker v1.0.0
-const CACHE_NAME = 'bairichuang-v1.0.0';
+const CACHE_NAME = 'bairichuang-v1.0.1';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -9,7 +9,10 @@ const STATIC_ASSETS = [
   '/js/checkin.js',
   '/manifest.webmanifest',
   '/icons/icon-192.png',
-  '/icons/icon-512.png'
+  '/icons/icon-512.png',
+  '/icons/icon-192-maskable.png',
+  '/icons/icon-512-maskable.png',
+  '/questions/question_bank_v1.json'
 ];
 
 // Install: precache static assets
