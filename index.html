@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4CAF50">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="百日闯 - 初二学习打卡PWA">
+  <title>百日闯 - 初二学习打卡</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>百日闯</h1>
+      <p class="subtitle">初二学习打卡</p>
+    </header>
+
+    <main>
+      <section id="home-view" class="view active">
+        <div class="streak-info">
+          <span class="streak-label">连续打卡</span>
+          <span class="streak-count" id="streak-count">0</span>
+          <span class="streak-unit">天</span>
+        </div>
+        <button id="checkin-btn" class="primary-btn">今日打卡</button>
+        <div class="menu">
+          <button class="menu-btn" data-route="#/practice">开始练习</button>
+          <button class="menu-btn" data-route="#/progress">查看进度</button>
+        </div>
+      </section>
+
+      <section id="practice-view" class="view">
+        <h2>练习模式</h2>
+        <div id="question-container">
+          <p class="placeholder">选择科目开始练习</p>
+        </div>
+        <div class="subjects">
+          <button class="subject-btn" data-subject="math">数学</button>
+          <button class="subject-btn" data-subject="english">英语</button>
+          <button class="subject-btn" data-subject="chinese">语文</button>
+          <button class="subject-btn" data-subject="physics">物理</button>
+        </div>
+      </section>
+
+      <section id="progress-view" class="view">
+        <h2>学习进度</h2>
+        <div id="history-container">
+          <p class="placeholder">暂无打卡记录</p>
+        </div>
+        <button class="back-btn" data-route="#/index">返回</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>本项目由 Hermes Agent 生成</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/idb-keyval@6/dist/idb-keyval.min.js"></script>
+  <script src="js/checkin.js"></script>
+  <script src="js/question_bank.js"></script>
+  <script src="js/app.js"></script>
+</body>
+<!-- 本项目由 Hermes Agent 生成 | 技术方案: ~/projects/bairichuang-pwa/README.md -->
+</html>
