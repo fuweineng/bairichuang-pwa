@@ -2,7 +2,7 @@
 // Main entry point for 百日闯 PWA
 
 import { checkin, getCheckinStreak, getCheckinHistoryList } from './checkin.js';
-import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions } from './question_bank.js';
+import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData } from './question_bank.js';
 
 // State
 let currentView = 'index';
@@ -167,11 +167,12 @@ async function refreshUI() {
   if (accuracyEl) accuracyEl.textContent = accuracy !== null ? `${accuracy}%` : '--%';
 
   // Update daily goal progress
-  const DAILY_GOAL = 10;
+  const settings = await getSettings();
+  const dailyGoal = settings.dailyGoal || 10;
   const progressText = document.getElementById('goal-progress-text');
   const goalFill = document.getElementById('goal-fill');
-  if (progressText) progressText.textContent = `${practiceCount}/${DAILY_GOAL}`;
-  if (goalFill) goalFill.style.width = `${Math.min((practiceCount / DAILY_GOAL) * 100, 100)}%`;
+  if (progressText) progressText.textContent = `${practiceCount}/${dailyGoal}`;
+  if (goalFill) goalFill.style.width = `${Math.min((practiceCount / dailyGoal) * 100, 100)}%`;
 
   // Update wrong badge
   const wrongList = await getWrongQuestions();
@@ -191,8 +192,14 @@ async function startPracticeSession(subject) {
   const questions = await getQuestionsBySubject(subject);
   if (questions.length === 0) return;
 
+  // Filter by difficulty from settings
+  const settings = await getSettings();
+  const filtered = settings.difficultyFilter
+    ? questions.filter(q => q.difficulty === settings.difficultyFilter)
+    : questions;
+
   // Shuffle and pick up to 10
-  const shuffled = questions.sort(() => Math.random() - 0.5).slice(0, 10);
+  const shuffled = filtered.sort(() => Math.random() - 0.5).slice(0, 10);
   sessionQuestions = shuffled;
   sessionIndex = 0;
   sessionScore = { correct: 0, wrong: 0 };
@@ -238,40 +245,83 @@ function renderCurrentQuestion() {
       html += `<button class="option-btn" data-index="${i}">${opt}</button>`;
     });
     html += '</div>';
+  } else if (q.type === 'fill') {
+    html += `
+      <div class="fill-area">
+        <input type="text" class="fill-input" placeholder="请输入答案..." autocomplete="off" />
+        <button class="primary-btn fill-submit-btn">提交答案</button>
+      </div>
+    `;
   }
 
   container.innerHTML = html;
 
-  // Bind option click
-  container.querySelectorAll('.option-btn').forEach(optBtn => {
-    optBtn.addEventListener('click', () => handleAnswer(optBtn, q));
-  });
+  // Bind events
+  if (q.type === 'choice' && q.options) {
+    container.querySelectorAll('.option-btn').forEach(optBtn => {
+      optBtn.addEventListener('click', () => handleAnswer(optBtn, q));
+    });
+  } else if (q.type === 'fill') {
+    const submitBtn = container.querySelector('.fill-submit-btn');
+    const input = container.querySelector('.fill-input');
+    if (submitBtn) submitBtn.addEventListener('click', () => handleFillSubmit(q));
+    if (input) input.addEventListener('keydown', e => { if (e.key === 'Enter') handleFillSubmit(q); });
+  }
 }
 
-// Handle answer selection
+// Handle answer for choice questions
 async function handleAnswer(optBtn, q) {
   const selectedIndex = parseInt(optBtn.dataset.index);
   const isCorrect = q.answer === q.options[selectedIndex];
+  await processAnswer(q, q.options[selectedIndex], isCorrect, () => {
+    const container = document.getElementById('question-container');
+    container.querySelectorAll('.option-btn').forEach(b => {
+      b.disabled = true;
+      const idx = parseInt(b.dataset.index);
+      if (idx === q.options.indexOf(q.answer)) b.classList.add('correct');
+      else if (idx === selectedIndex && !isCorrect) b.classList.add('wrong');
+    });
+  });
+}
 
-  await saveProgress(q.id, q.options[selectedIndex], isCorrect);
+// Handle fill-in-the-blank submission
+async function handleFillSubmit(q) {
+  const container = document.getElementById('question-container');
+  const input = container.querySelector('.fill-input');
+  if (!input) return;
+  const userAnswer = input.value.trim();
+  if (!userAnswer) return;
+
+  // Normalize for comparison
+  const isCorrect = userAnswer === q.answer || userAnswer === q.answer.replace(/[\\s　]+/g, '').trim();
+  await processAnswer(q, userAnswer, isCorrect, () => {
+    input.disabled = true;
+    const submitBtn = container.querySelector('.fill-submit-btn');
+    if (submitBtn) submitBtn.disabled = true;
+    // Show correct answer
+    const answerHint = document.createElement('p');
+    answerHint.className = isCorrect ? 'fill-correct' : 'fill-wrong';
+    answerHint.textContent = isCorrect ? `✓ 正确！` : `✗ 正确答案：${q.answer}`;
+    input.parentNode.appendChild(answerHint);
+  });
+}
+
+// Process answer: save progress, update scores, record knowledge
+async function processAnswer(q, userAnswer, isCorrect, onFeedback) {
+  await saveProgress(q.id, userAnswer, isCorrect);
+  await recordKnowledgeTag(q, isCorrect);
 
   if (!isCorrect) {
-    await addWrongQuestion(q, q.options[selectedIndex]);
+    await addWrongQuestion(q, userAnswer);
     sessionScore.wrong++;
   } else {
     sessionScore.correct++;
   }
 
-  // Show correct/wrong feedback
-  const container = document.getElementById('question-container');
-  container.querySelectorAll('.option-btn').forEach(b => {
-    b.disabled = true;
-    const idx = parseInt(b.dataset.index);
-    if (idx === q.options.indexOf(q.answer)) b.classList.add('correct');
-    else if (idx === selectedIndex && !isCorrect) b.classList.add('wrong');
-  });
+  onFeedback();
 
   // Show next button
+  const container = document.getElementById('question-container');
   const isLast = sessionIndex >= sessionQuestions.length - 1;
   const nextLabel = isLast ? '查看结果' : '下一题';
   const nextBtn = document.createElement('button');
