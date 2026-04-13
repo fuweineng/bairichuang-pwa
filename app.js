@@ -681,9 +681,9 @@ function renderQuestion() {
   }
 
   // ── LISTENING TYPE: listening (choice with audio_text) ────────────
-  const isListening = q.type === 'listening' || q.tts || q.audioUrl;
-  const listenBtn = isListening
-    ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听对话/短文</button>`
+  const shouldShowListenBtn = q.type === 'listening';
+  const listenBtn = shouldShowListenBtn
+    ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 播放音频</button>`
     : '';
 
   // ── 判断题型 ──────────────────────────────────────────────────────────
