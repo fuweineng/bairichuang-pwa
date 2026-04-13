@@ -1230,6 +1230,13 @@ main {
 
 .settings-danger-btn:hover { background: #ffcdd2; }
 
+.settings-version {
+  text-align: center;
+  font-size: 0.72rem;
+  color: #999;
+  padding: 12px 0 4px;
+}
+
 .diff-filter-row {
   display: flex;
   gap: 4px;
