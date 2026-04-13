@@ -99,32 +99,10 @@ function navigate(route) {
 
 // Bind UI events
 function bindEvents() {
-  // 3 entry cards on home
-  document.querySelectorAll('.entry-card').forEach(card => {
-    card.addEventListener('click', async () => {
-      const entry = card.dataset.entry;
-      practiceEntry = entry;
-      window.location.hash = '#/practice';
-    });
-  });
-
-  // Route buttons
-  document.querySelectorAll('[data-route]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      window.location.hash = btn.dataset.route;
-    });
-  });
-
-  // Practice: Subject grid buttons
-  document.querySelectorAll('.subject-grid-btn').forEach(btn => {
-    btn.addEventListener('click', async () => {
-      const subject = btn.dataset.subject;
-      // Highlight active
-      document.querySelectorAll('.subject-grid-btn').forEach(b => b.classList.toggle('active', b === btn));
-      // Start session
-      await startPracticeSession(subject);
-    });
-  });
+  // Expose startSubject for HTML onclick (must be before any routing)
+  window._startSubject = function(subject) {
+    startPracticeSession(subject);
+  };
 
   // Mastery subject tabs
   document.querySelectorAll('.mastery-subject-tabs .tab-btn').forEach(btn => {

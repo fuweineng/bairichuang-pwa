@@ -20,30 +20,29 @@
         <span class="subtitle">初二</span>
       </div>
       <div class="header-right">
-        <button class="header-btn" id="header-history-btn" data-route="#/progress">📊</button>
-        <button class="header-settings-btn" id="header-settings-btn">⚙️</button>
+        <button class="header-btn" id="header-history-btn" onclick="nav('#/progress')">📊</button>
+        <button class="header-settings-btn" id="header-settings-btn" onclick="nav('#/settings')">⚙️</button>
       </div>
     </header>
 
     <main>
       <!-- ===== HOME VIEW ===== -->
       <section id="home-view" class="view active">
-        <!-- Streak Banner with sparkline + 100-day Progress -->
-        <div class="home-top-row">
-          <div class="streak-card">
-            <div class="streak-card-left">
-              <div class="streak-main">
-                <span class="streak-count" id="streak-count">0</span>
-                <span class="streak-unit">天连续</span>
-              </div>
-              <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
-              <div class="streak-today-row">
-                <span class="streak-today-dot" id="streak-today-dot">○</span>
-                <span class="streak-today-label" id="streak-today-score">今日得分: --</span>
-              </div>
+
+        <!-- Streak Banner (compact, click to progress view) -->
+        <div class="streak-card" onclick="nav('#/progress')">
+          <div class="streak-card-left">
+            <div class="streak-main">
+              <span class="streak-count" id="streak-count">0</span>
+              <span class="streak-unit">天连续</span>
             </div>
-            <canvas id="sparkline-canvas" class="sparkline-canvas"></canvas>
+            <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
+            <div class="streak-today-row">
+              <span class="streak-today-dot" id="streak-today-dot">○</span>
+              <span class="streak-today-label" id="streak-today-score">今日得分: --</span>
+            </div>
           </div>
+          <canvas id="sparkline-canvas" class="sparkline-canvas"></canvas>
         </div>
 
         <!-- 100-day progress bar -->
@@ -99,7 +98,7 @@
 
         <!-- 3 Practice Entry Cards -->
         <div class="entry-cards" id="entry-cards">
-          <div class="entry-card new" data-entry="new">
+          <div class="entry-card new" onclick="startEntry('new')">
             <div class="entry-card-icon">🆕</div>
             <div class="entry-card-body">
               <div class="entry-card-title">全新题目</div>
@@ -107,7 +106,7 @@
               <div class="entry-card-count" id="entry-new-count">0题</div>
             </div>
           </div>
-          <div class="entry-card weak" data-entry="weak">
+          <div class="entry-card weak" onclick="startEntry('weak')">
             <div class="entry-card-icon">🔴</div>
             <div class="entry-card-body">
               <div class="entry-card-title">易错汇总</div>
@@ -115,7 +114,7 @@
               <div class="entry-card-count" id="entry-weak-count">0题</div>
             </div>
           </div>
-          <div class="entry-card mastered" data-entry="mastered">
+          <div class="entry-card mastered" onclick="startEntry('mastered')">
             <div class="entry-card-icon">✅</div>
             <div class="entry-card-body">
               <div class="entry-card-title">熟练掌握</div>
@@ -127,16 +126,14 @@
 
         <!-- Bottom Menu -->
         <div class="home-menu">
-          <button class="home-menu-btn" data-route="#/progress">
-            📊 打卡记录
-          </button>
+          <button class="home-menu-btn" onclick="nav('#/progress')">📊 打卡记录</button>
         </div>
       </section>
 
       <!-- ===== PRACTICE VIEW ===== -->
       <section id="practice-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
           <span class="view-title" id="practice-view-title">选择科目</span>
         </div>
         <div id="practice-entry-info" class="practice-entry-info" style="display:none">
@@ -144,14 +141,14 @@
           <span id="practice-entry-count"></span>
         </div>
         <div class="subjects-grid" id="subjects-grid">
-          <button class="subject-grid-btn active" data-subject="math">数学</button>
-          <button class="subject-grid-btn" data-subject="english">英语</button>
-          <button class="subject-grid-btn" data-subject="chinese">语文</button>
-          <button class="subject-grid-btn" data-subject="science">科学</button>
-          <button class="subject-grid-btn" data-subject="biology">生物</button>
-          <button class="subject-grid-btn" data-subject="history">历史</button>
-          <button class="subject-grid-btn" data-subject="geography">地理</button>
-          <button class="subject-grid-btn" data-subject="politics">道法</button>
+          <button class="subject-grid-btn active" onclick="startSubject('math')">数学</button>
+          <button class="subject-grid-btn" onclick="startSubject('english')">英语</button>
+          <button class="subject-grid-btn" onclick="startSubject('chinese')">语文</button>
+          <button class="subject-grid-btn" onclick="startSubject('science')">科学</button>
+          <button class="subject-grid-btn" onclick="startSubject('biology')">生物</button>
+          <button class="subject-grid-btn" onclick="startSubject('history')">历史</button>
+          <button class="subject-grid-btn" onclick="startSubject('geography')">地理</button>
+          <button class="subject-grid-btn" onclick="startSubject('politics')">道法</button>
         </div>
         <div id="question-container">
           <p class="placeholder">选择科目开始练习</p>
@@ -161,7 +158,7 @@
       <!-- ===== PROGRESS VIEW ===== -->
       <section id="progress-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
           <span class="view-title">打卡记录</span>
         </div>
         <div id="history-container">
@@ -172,7 +169,7 @@
       <!-- ===== WRONG VIEW ===== -->
       <section id="wrong-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
           <span class="view-title">易错汇总</span>
         </div>
         <div id="wrong-container">
@@ -183,7 +180,7 @@
       <!-- ===== SETTINGS VIEW ===== -->
       <section id="settings-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
           <span class="view-title">设置</span>
         </div>
         <div id="settings-content">
@@ -241,6 +238,34 @@
   </div>
 
   <!-- ===== SCRIPTS ===== -->
+  <script>
+    // Global nav functions available immediately (before module loads)
+    window.nav = function(hash) {
+      if (!hash || hash === '#/index') {
+        showView('home');
+        window.location.hash = '';
+      } else {
+        window.location.hash = hash;
+      }
+    };
+    window.startEntry = function(entry) {
+      window.practiceEntry = entry;
+      window.location.hash = '#/practice';
+    };
+    window.startSubject = function(subject) {
+      if (window._startSubject) window._startSubject(subject);
+    };
+    window.showView = function(name) {
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      const el = document.getElementById(name + '-view');
+      if (el) el.classList.add('active');
+    };
+    window.dismissPwaBanner = function() {
+      var b = document.getElementById('pwa-install-banner');
+      if (b) b.style.display = 'none';
+    };
+  </script>
+
   <script src="https://cdn.jsdelivr.net/npm/idb-keyval@3.0.0/dist/idb-keyval-iife.min.js"></script>
   <script>
     window.get = window.idbKeyval.get;
@@ -251,24 +276,6 @@
   </script>
   <script src="js/checkin.js"></script>
   <script src="js/question_bank.js"></script>
-  <script type="module" src="js/app.js?v=120"></script>
-  <script>
-    // Event delegation for entry cards — works even when module is cached
-    document.addEventListener('click', function(e) {
-      var card = e.target.closest('.entry-card');
-      if (card) {
-        var entry = card.dataset.entry;
-        if (window.navigate) window.navigate('#/practice');
-        else window.location.hash = '#/practice';
-        return;
-      }
-      var routeBtn = e.target.closest('[data-route]');
-      if (routeBtn) {
-        var route = routeBtn.dataset.route;
-        if (window.navigate) window.navigate(route);
-        else window.location.hash = route;
-      }
-    });
-  </script>
+  <script type="module" src="js/app.js?v=130"></script>
 </body>
 </html>
