@@ -158,6 +158,17 @@ function renderHome() {
     homeChartEl.innerHTML = drawChart();
   }
 
+  // Update badge: show if local cache is empty or older than today
+  // (QB is loaded from GitHub JS files on first load, so missing today = needs refresh)
+  const today = todayKey();
+  const lastUpdate = state.settings.lastQuestionBankUpdate;
+  const badge = document.getElementById('update-badge');
+  if (badge) {
+    // Show badge if never updated, or last update was before today
+    const needsUpdate = !lastUpdate || lastUpdate < today;
+    badge.style.display = needsUpdate ? 'inline-block' : 'none';
+  }
+
   // Entry card counts
   updateEntryCounts();
   // Per-subject badges on the grid
@@ -1109,7 +1120,11 @@ async function clearAllData() {
   state.daily = {};
   state.meta = {};
   state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null };
-  location.reload();
+
+  // Reload question bank from GitHub, then refresh UI (no full page reload)
+  await upgradeQuestionBank();
+  renderHome();
+  showToast('数据已清除，题库已重新加载');
 }
 
 // ============================================================

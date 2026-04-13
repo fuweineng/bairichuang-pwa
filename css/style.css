@@ -1580,6 +1580,28 @@ main {
 .chart-ylabel { font-size: 9px; fill: #999; }
 .history-list { display: flex; flex-direction: column; gap: 6px; }
 .chart-wrapper { background: white; border-radius: 12px; padding: 12px; margin-top: 12px; }
+.home-chart-section { margin-bottom: 0; }
+.chart-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
+.chart-title { font-size: 0.9rem; font-weight: 600; color: #333; }
+.chart-hint { font-size: 0.72rem; color: #999; }
+.update-badge {
+  display: inline-block;
+  background: #f44336;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  vertical-align: middle;
+  animation: pulse-red 2s infinite;
+  flex-shrink: 0;
+}
+@keyframes pulse-red {
+  0%,100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.app-title-wrap { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 
 .history-row { background: white; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; gap: 8px; }
 .history-date { font-size: 0.8rem; color: #888; flex: 1; }
