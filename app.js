@@ -58,16 +58,17 @@ async function init() {
   if (cached) {
     state.questionBank = cached;
   } else {
-    // Parallel import of all subject files
+    // Parallel import of all subject files — add cache-busting to defeat HTTP cache
+    const ts = Date.now();
     const [math, english, chinese, science, biology, history, geography, politics] = await Promise.all([
-      import('./questions/math.js'),
-      import('./questions/english.js'),
-      import('./questions/chinese.js'),
-      import('./questions/science.js'),
-      import('./questions/biology.js'),
-      import('./questions/history.js'),
-      import('./questions/geography.js'),
-      import('./questions/politics.js'),
+      import(`./questions/math.js?_cb=${ts}`),
+      import(`./questions/english.js?_cb=${ts}`),
+      import(`./questions/chinese.js?_cb=${ts}`),
+      import(`./questions/science.js?_cb=${ts}`),
+      import(`./questions/biology.js?_cb=${ts}`),
+      import(`./questions/history.js?_cb=${ts}`),
+      import(`./questions/geography.js?_cb=${ts}`),
+      import(`./questions/politics.js?_cb=${ts}`),
     ]);
     state.questionBank = {
       math:      math.default || [],
@@ -951,16 +952,17 @@ async function upgradeQuestionBank() {
   if (btn) { btn.disabled = true; btn.textContent = '加载中...'; }
 
   try {
-    // Dynamically import all subject modules and merge
+    // Dynamically import all subject modules and merge — always bypass HTTP cache
+    const ts = Date.now();
     const modules = await Promise.allSettled([
-      import('questions/english.js'),
-      import('questions/math.js'),
-      import('questions/chinese.js'),
-      import('questions/science.js'),
-      import('questions/biology.js'),
-      import('questions/geography.js'),
-      import('questions/history.js'),
-      import('questions/politics.js'),
+      import(`questions/english.js?_cb=${ts}`),
+      import(`questions/math.js?_cb=${ts}`),
+      import(`questions/chinese.js?_cb=${ts}`),
+      import(`questions/science.js?_cb=${ts}`),
+      import(`questions/biology.js?_cb=${ts}`),
+      import(`questions/geography.js?_cb=${ts}`),
+      import(`questions/history.js?_cb=${ts}`),
+      import(`questions/politics.js?_cb=${ts}`),
     ]);
 
     const merged = {};
