@@ -154,6 +154,8 @@ function renderHome() {
 
   // Entry card counts
   updateEntryCounts();
+  // Per-subject badges on the grid
+  renderSubjectBadges();
 }
 
 function updateEntryCounts() {
@@ -167,6 +169,41 @@ function updateEntryCounts() {
   setCount('entry-new-count', counts.new);
   setCount('entry-weak-count', counts.weak);
   setCount('entry-mastered-count', counts.mastered);
+}
+
+// Update per-subject weak/mastered badges on the home screen grid
+function renderSubjectBadges() {
+  const entry = state.entry || 'new';
+  const threshold = state.settings.weakThreshold;
+  const thresholdPct = threshold * 100;
+
+  ['math','english','chinese','science','biology','history','geography','politics'].forEach(subj => {
+    const questions = state.questionBank[subj] || [];
+    const badge = document.getElementById('badge-' + subj);
+    if (!badge) return;
+
+    let count = 0;
+    questions.forEach(q => {
+      const rec = state.progress[q.id];
+      if (!rec) return;
+      if (entry === 'weak') {
+        // Wrong count >= 2 or accuracy below threshold
+        const total = rec.correct + rec.wrong;
+        const acc = total > 0 ? rec.correct / total : 0;
+        if (rec.wrong >= 2 || acc * 100 < thresholdPct) count++;
+      } else if (entry === 'mastered') {
+        if (rec.status === 'mastered') count++;
+      }
+    });
+
+    if (count > 0) {
+      badge.textContent = count > 99 ? '99+' : count;
+      badge.style.display = 'inline-block';
+    } else {
+      badge.textContent = '';
+      badge.style.display = 'none';
+    }
+  });
 }
 
 function setCount(id, n) {
@@ -265,43 +302,45 @@ function speakQuestion() {
   const q = state.sessionQuestions[state.sessionIndex];
   if (!q) return;
 
-  // Cancel any ongoing speech
+  // Cancel any ongoing speech first, then wait a tick for browser to release audio
   speechSynthesis.cancel();
+  setTimeout(() => {
+    const lang = q.tts || 'en-US';
+    const utter = new SpeechSynthesisUtterance(q.question);
+    utter.lang = lang;
+    utter.rate = 0.75;  // Slightly slower for clarity
+    utter.pitch = 1;
+    utter.volume = 1;
 
-  const lang = q.tts || 'en-US';
-  const utter = new SpeechSynthesisUtterance(q.question);
-  utter.lang = lang;
-  utter.rate = 0.9;
-  utter.pitch = 1;
+    // Disable options while speaking
+    const grid = document.querySelector('.answer-grid');
+    if (grid) grid.style.pointerEvents = 'none';
 
-  // Disable options while speaking
-  const grid = document.querySelector('.answer-grid');
-  if (grid) grid.style.pointerEvents = 'none';
-
-  const btn = document.getElementById('listen-btn');
-  if (btn) {
-    btn.textContent = '🔊 播放中...';
-    btn.disabled = true;
-  }
-
-  utter.onend = () => {
-    if (grid) grid.style.pointerEvents = '';
+    const btn = document.getElementById('listen-btn');
     if (btn) {
-      btn.textContent = '✅ 已听完';
-      btn.disabled = false;
+      btn.textContent = '🔊 播放中...';
+      btn.disabled = true;
     }
-  };
 
-  utter.onerror = () => {
-    if (grid) grid.style.pointerEvents = '';
-    if (btn) {
-      btn.textContent = '🔊 重试';
-      btn.disabled = false;
-    }
-  };
+    utter.onend = () => {
+      if (grid) grid.style.pointerEvents = '';
+      if (btn) {
+        btn.textContent = '✅ 已听完';
+        btn.disabled = false;
+      }
+    };
 
-  state.ttsUtterance = utter;
-  speechSynthesis.speak(utter);
+    utter.onerror = () => {
+      if (grid) grid.style.pointerEvents = '';
+      if (btn) {
+        btn.textContent = '🔊 重试';
+        btn.disabled = false;
+      }
+    };
+
+    state.ttsUtterance = utter;
+    speechSynthesis.speak(utter);
+  }, 50); // 50ms pause lets browser fully release audio lock before new utterance
 }
 
 function renderQuestion() {
@@ -315,10 +354,13 @@ function renderQuestion() {
   const total = state.sessionQuestions.length;
   const idx = state.sessionIndex;
 
-  const typeLabel = { choice: '选择题', fill: '填空题', reading: '阅读理解', dictation: '听力/默写', expression: '表达题' }[q.type] || '选择题';
+  const typeLabel = { choice: '选择题', fill: '填空题', reading: '阅读理解', dictation: '听力/默写', expression: '表达题', short_answer: '简答题' }[q.type] || '选择题';
   const diffLabel = ['', '🟢 简单', '🟡 中等', '🔴 困难'][q.difficulty] || '';
 
-  const opts = q.options ? q.options.map((opt, i) =>
+  const isChoice = q.type === 'choice' && q.options && q.options.length > 0;
+  const isFillOrShort = (!q.options || q.options.length === 0) && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
+
+  const opts = isChoice ? q.options.map((opt, i) =>
     `<button class="answer-btn" data-action="answer" data-choice="${i}">${opt}</button>`
   ).join('') : '';
 
@@ -329,6 +371,16 @@ function renderQuestion() {
 
   const optsDisabled = isListening ? 'data-listen-disabled' : '';
 
+  // Fill/short answer input area
+  const inputArea = isFillOrShort
+    ? `<div class="fill-area">
+         <div class="fill-input-row">
+           <input type="text" class="fill-input" id="fill-answer-input" placeholder="${q.type === 'short_answer' ? '写出答案...' : '填写答案...'}" autocomplete="off" />
+           <button class="fill-submit-btn primary-btn" data-action="fill-submit">提交</button>
+         </div>
+       </div>`
+    : '';
+
   container.innerHTML = `
     <div class="question-meta">
       <span>${typeLabel}</span><span>${diffLabel}</span>
@@ -337,8 +389,15 @@ function renderQuestion() {
     ${listenBtn}
     <div class="question-text">${q.question}</div>
     ${opts ? `<div class="answer-grid" ${optsDisabled}>${opts}</div>` : ''}
+    ${inputArea}
     <div id="answer-feedback" style="display:none;margin-top:12px"></div>
   `;
+
+  // Auto-focus fill input
+  if (isFillOrShort) {
+    const inp = document.getElementById('fill-answer-input');
+    if (inp) inp.focus();
+  }
 
   // TTS for listening questions
   if (isListening && 'speechSynthesis' in window) {
@@ -348,8 +407,9 @@ function renderQuestion() {
 
 async function handleAnswer(choiceIdx) {
   const q = state.sessionQuestions[state.sessionIndex];
-  const isCorrect = (q.options && q.options[choiceIdx] === String(q.answer)) ||
-    (Array.isArray(q.answer) && q.answer.includes(String(choiceIdx)));
+  // Only for choice questions
+  const isCorrect = (q.type === 'choice' && q.options && q.options[choiceIdx] === String(q.answer)) ||
+    (q.type === 'choice' && Array.isArray(q.answer) && q.answer.includes(String(choiceIdx)));
 
   // Update session score
   if (isCorrect) state.sessionScore.correct++;
@@ -367,6 +427,47 @@ async function handleAnswer(choiceIdx) {
       if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
     } else {
       const correctAns = q.answer;
+      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${correctAns}</span>`;
+      if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
+    }
+    fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
+  }
+}
+
+async function handleFillAnswer(userAnswer) {
+  const q = state.sessionQuestions[state.sessionIndex];
+  if (!q || !userAnswer) return;
+
+  // Normalize: lowercase, remove extra spaces
+  const norm = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
+  // Try to parse answer as JS value (handles quoted strings like '"sad"')
+  let correctAns = q.answer;
+  try {
+    // If answer looks like a quoted string, unquote it
+    if (typeof correctAns === 'string' && correctAns.startsWith('"') && correctAns.endsWith('"')) {
+      correctAns = correctAns.slice(1, -1);
+    }
+  } catch (_) {}
+
+  const normCorrect = typeof correctAns === 'string'
+    ? correctAns.toLowerCase().replace(/\s+/g, ' ').trim()
+    : String(correctAns);
+
+  // Exact match or number match
+  const isCorrect = norm === normCorrect || norm === String(correctAns) || userAnswer === String(correctAns);
+
+  if (isCorrect) state.sessionScore.correct++;
+  else state.sessionScore.wrong++;
+
+  await recordAnswer(q.id, isCorrect);
+
+  const fb = document.getElementById('answer-feedback');
+  if (fb) {
+    fb.style.display = 'block';
+    if (isCorrect) {
+      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
+      if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
+    } else {
       fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${correctAns}</span>`;
       if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
     }
@@ -694,6 +795,13 @@ function handleClick(e) {
       speakQuestion();
       break;
 
+    case 'fill-submit':
+      {
+        const inp = document.getElementById('fill-answer-input');
+        if (inp) handleFillAnswer(inp.value.trim());
+      }
+      break;
+
     case 'back-home':
       updateEntryCounts();
       navigate('#/home');
@@ -736,6 +844,27 @@ async function saveSettingsAndUpdate() {
   await set(K.SETTINGS, state.settings);
   const el = document.getElementById('thresh-val');
   if (el) el.textContent = Math.round(state.settings.weakThreshold * 100) + '%';
+  // Re-classify all progress with new threshold, then refresh badges
+  await reclassifyAllProgress();
+  renderSubjectBadges();
+}
+
+// Re-run classification for all questions against current threshold
+async function reclassifyAllProgress() {
+  const threshold = state.settings.weakThreshold;
+  const thresholdPct = threshold * 100;
+  Object.values(state.progress).forEach(rec => {
+    const total = rec.correct + rec.wrong;
+    const acc = total > 0 ? rec.correct / total : 0;
+    if (rec.correct >= 3) {
+      rec.status = 'mastered';
+    } else if (rec.wrong >= 2 || (total > 0 && acc * 100 < thresholdPct)) {
+      rec.status = 'weak';
+    } else if (rec.correct > 0 || rec.wrong > 0) {
+      rec.status = 'new';
+    }
+  });
+  await set(K.PROGRESS, state.progress);
 }
 
 async function clearAllData() {
