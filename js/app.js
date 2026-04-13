@@ -8,6 +8,12 @@ import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgr
 let currentView = 'index';
 let currentSubject = null;
 
+// Practice session state
+let sessionQuestions = [];
+let sessionIndex = 0;
+let sessionScore = { correct: 0, wrong: 0 };
+let sessionSubject = null;
+
 // Initialize app
 async function init() {
   console.log('百日闯 PWA 初始化中...');
@@ -105,12 +111,7 @@ function bindEvents() {
   document.querySelectorAll('.subject-btn').forEach(btn => {
     btn.addEventListener('click', async () => {
       const subject = btn.dataset.subject;
-      currentSubject = subject;
-      
-      document.querySelectorAll('.subject-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      await loadPracticeQuestions(subject);
+      await startPracticeSession(subject);
     });
   });
 }
@@ -135,66 +136,143 @@ async function refreshUI() {
   }
 }
 
-// Load practice questions for a subject
-async function loadPracticeQuestions(subject) {
+// Start a new practice session
+async function startPracticeSession(subject) {
+  const questions = await getQuestionsBySubject(subject);
+  if (questions.length === 0) return;
+
+  // Shuffle and pick up to 10
+  const shuffled = questions.sort(() => Math.random() - 0.5).slice(0, 10);
+  sessionQuestions = shuffled;
+  sessionIndex = 0;
+  sessionScore = { correct: 0, wrong: 0 };
+  sessionSubject = subject;
+
+  // Highlight active subject button
+  document.querySelectorAll('.subject-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.subject === subject);
+  });
+
+  renderCurrentQuestion();
+}
+
+// Render the current question in the session
+function renderCurrentQuestion() {
   const container = document.getElementById('question-container');
-  if (!container) return;
-
-  container.innerHTML = '<p class="placeholder">加载中...</p>';
-
-  try {
-    const questions = await getQuestionsBySubject(subject);
-    if (questions.length === 0) {
-      container.innerHTML = '<p class="placeholder">暂无题目</p>';
-      return;
-    }
-
-    // Show first question as demo
-    const q = questions[0];
-    let html = `
-      <div class="question">
-        <p class="question-type">${getQuestionTypeName(q.type)} - ${getDifficultyName(q.difficulty)}</p>
-        <p class="question-text">${q.question}</p>
-    `;
-
-    if (q.type === 'choice' && q.options) {
-      html += '<div class="options">';
-      q.options.forEach((opt, i) => {
-        html += `<button class="option-btn" data-index="${i}">${opt}</button>`;
-      });
-      html += '</div>';
-    }
-
-    html += '</div>';
-    container.innerHTML = html;
-
-    // Bind option events
-    container.querySelectorAll('.option-btn').forEach(optBtn => {
-      optBtn.addEventListener('click', async () => {
-        const selectedIndex = parseInt(optBtn.dataset.index);
-        const isCorrect = q.answer === q.options[selectedIndex];
-        await saveProgress(q.id, q.options[selectedIndex], isCorrect);
-
-        // Collect wrong question
-        if (!isCorrect) {
-          await addWrongQuestion(q, q.options[selectedIndex]);
-        }
-
-        container.querySelectorAll('.option-btn').forEach(b => {
-          b.disabled = true;
-          if (q.options.indexOf(q.answer) === parseInt(b.dataset.index)) {
-            b.classList.add('correct');
-          } else if (parseInt(b.dataset.index) === selectedIndex && !isCorrect) {
-            b.classList.add('wrong');
-          }
-        });
-      });
-    });
-
-  } catch (e) {
-    container.innerHTML = '<p class="placeholder">加载失败</p>';
-    console.error(e);
+  if (!container || sessionIndex >= sessionQuestions.length) {
+    renderSessionResult();
+    return;
   }
+
+  const q = sessionQuestions[sessionIndex];
+  const total = sessionQuestions.length;
+  const num = sessionIndex + 1;
+
+  let html = `
+    <div class="session-progress">
+      <span>第 ${num}/${total} 题</span>
+      <span class="score-hint">
+        <span class="green">✓${sessionScore.correct}</span> /
+        <span class="red">✗${sessionScore.wrong}</span>
+      </span>
+    </div>
+    <div class="question">
+      <p class="question-type">${getQuestionTypeName(q.type)} · ${getDifficultyName(q.difficulty)}</p>
+      <p class="question-text">${q.question}</p>
+    </div>
+  `;
+
+  if (q.type === 'choice' && q.options) {
+    html += '<div class="options">';
+    q.options.forEach((opt, i) => {
+      html += `<button class="option-btn" data-index="${i}">${opt}</button>`;
+    });
+    html += '</div>';
+  }
+
+  container.innerHTML = html;
+
+  // Bind option click
+  container.querySelectorAll('.option-btn').forEach(optBtn => {
+    optBtn.addEventListener('click', () => handleAnswer(optBtn, q));
+  });
+}
+
+// Handle answer selection
+async function handleAnswer(optBtn, q) {
+  const selectedIndex = parseInt(optBtn.dataset.index);
+  const isCorrect = q.answer === q.options[selectedIndex];
+
+  await saveProgress(q.id, q.options[selectedIndex], isCorrect);
+
+  if (!isCorrect) {
+    await addWrongQuestion(q, q.options[selectedIndex]);
+    sessionScore.wrong++;
+  } else {
+    sessionScore.correct++;
+  }
+
+  // Show correct/wrong feedback
+  const container = document.getElementById('question-container');
+  container.querySelectorAll('.option-btn').forEach(b => {
+    b.disabled = true;
+    const idx = parseInt(b.dataset.index);
+    if (idx === q.options.indexOf(q.answer)) b.classList.add('correct');
+    else if (idx === selectedIndex && !isCorrect) b.classList.add('wrong');
+  });
+
+  // Show next button
+  const isLast = sessionIndex >= sessionQuestions.length - 1;
+  const nextLabel = isLast ? '查看结果' : '下一题';
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'primary-btn';
+  nextBtn.style.marginTop = '16px';
+  nextBtn.textContent = nextLabel;
+  nextBtn.addEventListener('click', () => {
+    sessionIndex++;
+    renderCurrentQuestion();
+  });
+  container.appendChild(nextBtn);
+}
+
+// Show session result
+function renderSessionResult() {
+  const container = document.getElementById('question-container');
+  const total = sessionQuestions.length;
+  const { correct, wrong } = sessionScore;
+  const pct = Math.round((correct / total) * 100);
+
+  let emoji = '🎉';
+  let msg = '太棒了！';
+  if (pct < 60) { emoji = '💪'; msg = '继续加油！'; }
+  else if (pct < 80) { emoji = '👍'; msg = '很不错！'; }
+
+  container.innerHTML = `
+    <div class="result-box">
+      <p class="result-emoji">${emoji}</p>
+      <p class="result-msg">${msg}</p>
+      <p class="result-score">
+        <span class="green">✓ ${correct}</span> /
+        <span class="red">✗ ${wrong}</span>
+      </p>
+      <p class="result-pct">正确率 ${pct}%</p>
+    </div>
+    <button class="primary-btn" id="rerun-btn">再练一次</button>
+  `;
+
+  document.getElementById('rerun-btn').addEventListener('click', () => {
+    startPracticeSession(sessionSubject);
+  });
+}
+
+// Reset practice view to initial state
+function resetPracticeView() {
+  sessionQuestions = [];
+  sessionIndex = 0;
+  sessionScore = { correct: 0, wrong: 0 };
+  sessionSubject = null;
+  document.querySelectorAll('.subject-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('question-container').innerHTML = '<p class="placeholder">选择科目开始练习</p>';
 }
 
 // Load progress view
