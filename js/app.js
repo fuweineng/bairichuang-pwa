@@ -2,7 +2,7 @@
 // Main entry point for 百日闯 PWA
 
 import { checkin, getCheckinStreak, getCheckinHistoryList } from './checkin.js';
-import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData, sendFeedback } from './question_bank.js';
+import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData, sendFeedback, getPendingFeedbacks, approveFeedback, rejectFeedback, getFeedbackStats } from './question_bank.js';
 
 // State
 let currentView = 'index';
@@ -169,16 +169,13 @@ function bindEvents() {
     const result = await sendFeedback(text);
     btn.disabled = false;
     btn.textContent = '发送';
-    if (result.ok) {
-      document.getElementById('feedback-modal').style.display = 'none';
-      showToast('感谢你的反馈！');
-    } else if (result.offline) {
-      document.getElementById('feedback-status').textContent = '已保存（离线），联网后将发送';
-      setTimeout(() => {
-        document.getElementById('feedback-modal').style.display = 'none';
-      }, 1500);
+    if (result.saved) {
+      document.getElementById('feedback-status').style.color = '#4CAF50';
+      document.getElementById('feedback-status').textContent = '已提交，等待审批 ✓';
+      document.getElementById('feedback-text').value = '';
+      setTimeout(() => document.getElementById('feedback-modal').style.display = 'none', 1500);
     } else {
-      document.getElementById('feedback-status').textContent = '发送失败，已保存本地';
+      document.getElementById('feedback-status').textContent = '提交失败，请重试';
     }
   });
 }
@@ -225,7 +222,7 @@ async function refreshUI() {
     .map(([qid, record]) => record);
 
   const practiceCount = todayProgress.length;
-  const correctCount = todayProgress.filter(p => p.correct).length;
+  const correctCount = todayProgress.filter(p => p.isCorrect).length;
   const accuracy = practiceCount > 0 ? Math.round((correctCount / practiceCount) * 100) : null;
 
   const countEl = document.getElementById('today-practice-count');
@@ -306,6 +303,7 @@ function renderCurrentQuestion() {
     <div class="question">
       <p class="question-type">${getQuestionTypeName(q.type)} · ${getDifficultyName(q.difficulty)}</p>
       <p class="question-text">${q.question}</p>
+      ${q.image ? `<img class="question-image" src="${q.image}" alt="题目配图" loading="lazy" />` : ''}
     </div>
   `;
 
