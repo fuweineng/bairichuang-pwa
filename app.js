@@ -1009,16 +1009,23 @@ function drawChart() {
   if (!firstDay) {
     return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg"><text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#ccc" font-size="12">暂无数据</text></svg>`;
   }
-  // 生成从第一条打卡到今天的连续日期（最多30天）
+  // 生成从第一条打卡到今天的连续日期（最多30天），用本地日期字符串
   const today = new Date();
   today.setHours(0,0,0,0);
-  const start = new Date(firstDay + 'T00:00:00');
-  const dayCount = Math.min(30, Math.ceil((today - start) / 86400000) + 1);
+  // firstDay格式为YYYY-MM-DD，构造本地日期
+  const [fy, fm, fd] = firstDay.split('-').map(Number);
+  const start = new Date(fy, fm-1, fd);
+  // dayCount：从第一条打卡到今天，总天数，最多30
+  const totalDays = Math.ceil((today - start) / 86400000) + 1;
+  const dayCount = Math.min(30, Math.max(1, totalDays));
   const dates = [];
   for (let i = 0; i < dayCount; i++) {
-    const d = new Date(start);
-    d.setDate(d.getDate() + i);
-    dates.push(d.toISOString().slice(0, 10));
+    const d = new Date(fy, fm-1, fd + i);
+    // 补零后转字符串
+    const y = d.getFullYear();
+    const m = String(d.getMonth()+1).padStart(2,'0');
+    const day = String(d.getDate()).padStart(2,'0');
+    dates.push(`${y}-${m}-${day}`);
   }
 
   const subj = state.chartSubject || 'all';

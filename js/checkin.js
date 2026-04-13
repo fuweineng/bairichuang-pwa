@@ -6,9 +6,17 @@
 const CHECKIN_DAILY_KEY = 'checkin_daily';      // { 'YYYY-MM-DD': { score, practiced, questionsCount, accuracy } }
 const CHECKIN_META_KEY  = 'checkin_meta';       // { firstCheckinDate }
 
+// 本地日期字符串 YYYY-MM-DD（避免 toISOString() 的 UTC 时区差）
+function localDateKey(d = new Date()) {
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+
 // Call this when a practice session ends to record the session
 export async function recordDailySession(sessionQuestions, sessionScore) {
-  const today = new Date().toISOString().split('T')[0];
+  const today = localDateKey();
   const daily = await getDailyRecord() || {};
   const existing = daily[today] || { practiced: 0, questionsCount: 0, correct: 0 };
 
@@ -37,7 +45,7 @@ export async function getRecentDailyRecords(days = 14) {
   for (let i = days - 1; i >= 0; i--) {
     const d = new Date(today);
     d.setDate(today.getDate() - i);
-    const dateStr = d.toISOString().split('T')[0];
+    const dateStr = localDateKey(d);
     const label = `${d.getMonth() + 1}/${d.getDate()}`;
     result.push({ date: dateStr, label, ...(daily[dateStr] || { score: 0, practiced: 0, questionsCount: 0, accuracy: 0 }) });
   }
@@ -86,7 +94,7 @@ export async function getCheckinMeta() {
 
 // Legacy: for compatibility
 export async function checkin() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = getLocalDateKey();
   const daily = await getDailyRecord();
   if (daily[today]) {
     return { success: false, message: '今日已打卡', streak: await getCheckinStreak() };
