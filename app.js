@@ -995,11 +995,31 @@ function renderProgress() {
   `;
 }
 
-// SVG Chart — last 30 days, multi-line
+// SVG Chart — dynamic range from first check-in day, single points shown
 function drawChart() {
   const W = 340, H = 120, PAD = 20;
   const days = 30;
-  const dates = listRecentDateKeys(days);
+  // 横轴从第一条打卡记录开始，而非固定30天
+  const allDateKeys = Object.keys(state.daily).filter(d => {
+    const s = state.daily[d];
+    return (s.correct + s.wrong) > 0;
+  }).sort();
+  const firstDay = allDateKeys[0] || null;
+  // 如果没有数据，显示空状态
+  if (!firstDay) {
+    return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg"><text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#ccc" font-size="12">暂无数据</text></svg>`;
+  }
+  // 生成从第一条打卡到今天的连续日期（最多30天）
+  const today = new Date();
+  today.setHours(0,0,0,0);
+  const start = new Date(firstDay + 'T00:00:00');
+  const dayCount = Math.min(30, Math.ceil((today - start) / 86400000) + 1);
+  const dates = [];
+  for (let i = 0; i < dayCount; i++) {
+    const d = new Date(start);
+    d.setDate(d.getDate() + i);
+    dates.push(d.toISOString().slice(0, 10));
+  }
 
   const subj = state.chartSubject || 'all';
   const lineColors = {
@@ -1081,10 +1101,25 @@ function drawChart() {
   const svgLines = lines.map(line => {
     const pts = line.values.map((s, i) => [
       PAD + i * xStep,
-      s > 0 ? H - PAD - s * yScale : H - PAD
+      s > 0 ? H - PAD - s * yScale : null
     ]);
-    const ptsStr = pts.map((p, i) => `${i===0?'M':'L'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
-    return `<polyline points="${ptsStr}" fill="none" stroke="${line.color}" stroke-width="1.8" stroke-opacity="0.85"/>`;
+    // 只有连续有两个非零点才画线段
+    const polylinePts = pts.filter((p, i) => {
+      if (p[1] === null) return false;
+      const prev = pts[i-1];
+      const next = pts[i+1];
+      return prev !== null || next !== null;
+    }).map(p => p[0]);
+
+    let polylineStr = '';
+    if (polylinePts.length > 1) {
+      polylineStr = `<polyline points="${polylinePts.map(p => `${p.toFixed(1)},${(H-PAD).toFixed(1)}`).join(' ')}" fill="none" stroke="${line.color}" stroke-width="1.8" stroke-opacity="0.85"/>`;
+    }
+    // 所有非零点都画圆点
+    const dots = pts.filter(p => p[1] !== null).map(p =>
+      `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3" fill="${line.color}" opacity="0.9"/>`
+    ).join('');
+    return polylineStr + dots;
   }).join('');
 
   // Legend
