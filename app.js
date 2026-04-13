@@ -58,26 +58,22 @@ async function init() {
   // Check for app updates
   checkForAppUpdate();
 
-  // Load question bank: cache first, fallback to per-subject JS files via dynamic import
+  // Load question bank: cache first, then refresh from network if cache is stale
   const cached = await get(K.QB_CACHE);
-  if (cached) {
-    state.questionBank = cached;
-  } else {
-    // Fetch from unified JSON file instead of per-subject .js (avoids ES module CORS issues on some hosts)
-    try {
-      const resp = await fetch('questions/question_bank_v1.json');
-      const all = await resp.json();
+  state.questionBank = cached || { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
+  // Always fetch fresh copy — SW handles caching, network-first for questions
+  fetch('questions/question_bank_v1.json')
+    .then(resp => resp.ok ? resp.json() : null)
+    .then(all => {
+      if (!all) return;
       const grouped = { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
-      all.forEach(q => {
-        if (grouped[q.subject]) grouped[q.subject].push(q);
-      });
+      all.forEach(q => { if (grouped[q.subject]) grouped[q.subject].push(q); });
       state.questionBank = grouped;
-      await set(K.QB_CACHE, grouped);
-    } catch(e) {
-      console.warn('Failed to load question bank:', e);
-      state.questionBank = { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
-    }
-  }
+      set(K.QB_CACHE, grouped); // fire-and-forget
+      // Refresh home view now that we have data
+      if (state.view === 'home') renderHome();
+    })
+    .catch(() => {});
 
   // Register SW
   if ('serviceWorker' in navigator) {
