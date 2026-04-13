@@ -1,12 +1,13 @@
 {
   "name": "百日闯 - 初二学习打卡",
   "short_name": "百日闯",
-  "start_url": "/index.html",
+  "id": "./",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
   "orientation": "portrait",
-  "scope": "/",
+  "scope": "./",
   "lang": "zh-CN",
   "icons": [
     {
@@ -36,5 +37,5 @@
     "education",
     "utilities"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

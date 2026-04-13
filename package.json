@@ -1,10 +1,15 @@
 {
   "name": "bairichuang-pwa",
-  "version": "1.0.0",
-  "description": "百日闯 PWA",
+  "version": "1.0.2",
+  "description": "百日闯 PWA - 初二全科学习打卡系统",
+  "private": true,
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "check": "npm run validate && npm run smoke",
+    "test": "npm run check"
   },
   "repository": {
     "type": "git",
@@ -13,7 +18,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/fuweineng/bairichuang-pwa/issues"
   },

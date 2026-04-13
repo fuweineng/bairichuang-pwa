@@ -1,6 +1,13 @@
 // 百日闯 PWA — 重构版
 
-import { get, set, del, clear, keys } from './js/idb-keyval.mjs';
+import { get, set, clear } from './js/idb-keyval.mjs';
+import {
+  formatDateKeyLabel,
+  formatDateKeyShort,
+  getLocalDateKey,
+  listRecentDateKeys,
+  shiftDate,
+} from './js/date-utils.mjs';
 
 'use strict';
 
@@ -28,7 +35,8 @@ const state = {
   progress: {},
   daily: {},
   meta: {},
-  settings: { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '' },
+  settings: { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' },
+  remoteVersions: null,
 };
 
 // ============================================================
@@ -43,6 +51,36 @@ const K = {
 };
 
 const VERSION_URL = 'version.json';
+const QUESTION_PACK_URL = 'questions/question_bank_v1.json';
+
+function createEmptyQuestionBank() {
+  return { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
+}
+
+function groupQuestionsBySubject(questions = []) {
+  const grouped = createEmptyQuestionBank();
+  questions.forEach(question => {
+    if (grouped[question.subject]) {
+      grouped[question.subject].push(question);
+    }
+  });
+  return grouped;
+}
+
+async function fetchQuestionPack({ force = false } = {}) {
+  const requestUrl = force ? `${QUESTION_PACK_URL}?_=${Date.now()}` : QUESTION_PACK_URL;
+  const response = await fetch(requestUrl, force ? { cache: 'no-store' } : undefined);
+  if (!response.ok) {
+    throw new Error(`题库加载失败: ${response.status}`);
+  }
+  return groupQuestionsBySubject(await response.json());
+}
+
+function hasQuestionPackUpdate() {
+  const remoteVersion = state.remoteVersions?.questionBankVersion;
+  if (!remoteVersion) return false;
+  return remoteVersion !== (state.settings.questionBankVersion || '');
+}
 
 // ============================================================
 // INIT
@@ -54,25 +92,25 @@ async function init() {
   state.progress = await get(K.PROGRESS) || {};
   state.daily    = await get(K.DAILY)    || {};
   state.meta     = await get(K.META)     || {};
-  state.settings  = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null };
+  state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' };
 
-  // Check for app updates
-  checkForAppUpdate();
+  // Check for app shell and question pack updates
+  state.remoteVersions = await checkForAppUpdate();
 
   // Load question bank: cache first, then refresh from network if cache is stale
   const cached = await get(K.QB_CACHE);
-  state.questionBank = cached || { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
-  // Always fetch fresh copy — SW handles caching, network-first for questions
-  fetch('questions/question_bank_v1.json')
-    .then(resp => resp.ok ? resp.json() : null)
-    .then(all => {
-      if (!all) return;
-      const grouped = { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
-      all.forEach(q => { if (grouped[q.subject]) grouped[q.subject].push(q); });
+  state.questionBank = cached || createEmptyQuestionBank();
+  fetchQuestionPack({ force: true })
+    .then(async (grouped) => {
       state.questionBank = grouped;
-      set(K.QB_CACHE, grouped); // fire-and-forget
-      // Refresh home view now that we have data
+      state.settings.lastQuestionBankUpdate = todayKey();
+      if (state.remoteVersions?.questionBankVersion) {
+        state.settings.questionBankVersion = state.remoteVersions.questionBankVersion;
+      }
+      await set(K.QB_CACHE, grouped);
+      await set(K.SETTINGS, state.settings);
       if (state.view === 'home') renderHome();
+      if (state.view === 'settings') renderSettings();
     })
     .catch(() => {});
 
@@ -109,7 +147,7 @@ async function init() {
 async function checkForAppUpdate() {
   try {
     const resp = await fetch(`${VERSION_URL}?_=${Date.now()}`, { cache: 'no-store' });
-    if (!resp.ok) return;
+    if (!resp.ok) return null;
     const remote = await resp.json();
 
     const localVer = state.settings.appVersion || 1;
@@ -122,8 +160,10 @@ async function checkForAppUpdate() {
       state.settings.audioVersion = remote.audioVersion;
       await set(K.SETTINGS, state.settings);
     }
+    return remote;
   } catch(e) {
     console.warn('Update check failed:', e);
+    return null;
   }
 }
 
@@ -209,15 +249,9 @@ function renderHome() {
     homeChartEl.innerHTML = drawChart();
   }
 
-  // Update badge: show if local cache is empty or older than today
-  // (QB is loaded from GitHub JS files on first load, so missing today = needs refresh)
-  const today = todayKey();
-  const lastUpdate = state.settings.lastQuestionBankUpdate;
   const badge = document.getElementById('update-badge');
   if (badge) {
-    // Show badge if never updated, or last update was before today
-    const needsUpdate = !lastUpdate || lastUpdate < today;
-    badge.style.display = needsUpdate ? 'inline-block' : 'none';
+    badge.style.display = hasQuestionPackUpdate() ? 'inline-block' : 'none';
   }
 
   // Entry card counts
@@ -380,11 +414,32 @@ function speakQuestion() {
   }
 
   // Try local audio file first (from local server)
-  const audioId = q.id.replace(/-/g, '_'); // english-026 → english_026
+  // Local files use dash format: english-026.m4a
+  // GitHub/remote files use underscore: english_026.m4a
+  const dashId = q.id.replace(/_/g, '-');   // en_l_001 → en-l-001 or english-001 stays english-001
+  const undId  = q.id.replace(/-/g, '_');   // english-001 → english_001
   const av = state.settings.audioVersion || Date.now();
-  const audioPath = `http://192.168.100.10:8080/audio/${q.subject}/${audioId}.m4a?_=${av}`;
 
-  const tryPlayLocal = () => {
+  const LOCAL_BASE = new URL('audio/', window.location.href).href;
+  const CDN_BASE = 'https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/';
+
+  // Try 3 paths: local-dash, local-underscore, CDN-underscore
+  const paths = [
+    new URL(`${q.subject}/${dashId}.m4a?_=${av}`, LOCAL_BASE).href,
+    new URL(`${q.subject}/${undId}.m4a?_=${av}`, LOCAL_BASE).href,
+    new URL(`${q.subject}/${undId}.m4a?_=${av}`, CDN_BASE).href,
+  ];
+
+  let pathIndex = 0;
+  const tryPlayNext = () => {
+    if (pathIndex >= paths.length) {
+      // All failed → TTS
+      speakWithWebSpeech(q);
+      const btn = document.getElementById('listen-btn');
+      if (btn) { btn.textContent = '🔊 播放'; btn.disabled = false; }
+      return;
+    }
+    const audioPath = paths[pathIndex++];
     const audio = new Audio(audioPath);
     currentAudio = audio;
 
@@ -400,18 +455,17 @@ function speakQuestion() {
     };
     audio.onerror = () => {
       currentAudio = null;
-      // Fall back to Web Speech
-      speakWithWebSpeech(q);
-      if (btn) { btn.textContent = '🔊 播放'; btn.disabled = false; }
+      // Try next path instead of jumping to TTS
+      tryPlayNext();
     };
     audio.play().catch(() => {
       currentAudio = null;
-      speakWithWebSpeech(q);
-      if (btn) { btn.textContent = '🔊 播放'; btn.disabled = false; }
+      // Try next path instead of jumping to TTS
+      tryPlayNext();
     });
   };
 
-  tryPlayLocal();
+  tryPlayNext();
 }
 
 function speakWithWebSpeech(q) {
@@ -874,13 +928,7 @@ function renderProgress() {
 function drawChart() {
   const W = 340, H = 120, PAD = 20;
   const days = 30;
-  const today = new Date();
-  const dates = [];
-  for (let i = days - 1; i >= 0; i--) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    dates.push(d.toISOString().split('T')[0]);
-  }
+  const dates = listRecentDateKeys(days);
 
   const subj = state.chartSubject || 'all';
   const lineColors = {
@@ -935,8 +983,7 @@ function drawChart() {
   // X labels
   const xLabels = [0, 7, 14, 21, 29].map(i => {
     if (!dates[i]) return '';
-    const d = new Date(dates[i]);
-    return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel">${d.getMonth()+1}/${d.getDate()}</text>`;
+    return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel">${formatDateKeyShort(dates[i])}</text>`;
   }).join('');
 
   // Y labels
@@ -975,6 +1022,8 @@ async function renderSettings() {
   const lastUpdate = state.settings.lastQuestionBankUpdate
     ? dateLabel(state.settings.lastQuestionBankUpdate)
     : '从未更新';
+  const localPackVersion = state.settings.questionBankVersion || '未记录';
+  const remotePackVersion = state.remoteVersions?.questionBankVersion || '未知';
 
   container.innerHTML = `
     <div class="settings-card">
@@ -991,8 +1040,10 @@ async function renderSettings() {
     <div class="settings-card">
       <div class="settings-row">
         <span class="settings-label">题库版本</span>
-        <span class="settings-val">${lastUpdate}</span>
+        <span class="settings-val">${localPackVersion}</span>
       </div>
+      <div class="settings-hint">最近同步：${lastUpdate}</div>
+      <div class="settings-hint">远端版本：${remotePackVersion}</div>
       <button class="primary-btn" data-action="upgrade-questions" id="upgrade-btn" style="margin-top:10px">检查更新</button>
     </div>
     <div class="settings-card">
@@ -1020,46 +1071,27 @@ async function upgradeQuestionBank() {
   if (btn) { btn.disabled = true; btn.textContent = '加载中...'; }
 
   try {
-    // Dynamically import all subject modules and merge — always bypass HTTP cache
-    const ts = Date.now();
-    const modules = await Promise.allSettled([
-      import(`questions/english.js?_cb=${ts}`),
-      import(`questions/math.js?_cb=${ts}`),
-      import(`questions/chinese.js?_cb=${ts}`),
-      import(`questions/science.js?_cb=${ts}`),
-      import(`questions/biology.js?_cb=${ts}`),
-      import(`questions/geography.js?_cb=${ts}`),
-      import(`questions/history.js?_cb=${ts}`),
-      import(`questions/politics.js?_cb=${ts}`),
-    ]);
-
-    const merged = {};
-    modules.forEach(m => {
-      if (m.status !== 'fulfilled') return;
-      const qs = m.value.default;
-      if (!qs || !Array.isArray(qs)) return;
-      qs.forEach(q => {
-        const s = q.subject;
-        if (!merged[s]) merged[s] = [];
-        merged[s].push(q);
-      });
-    });
+    state.remoteVersions = await checkForAppUpdate();
+    const merged = await fetchQuestionPack({ force: true });
 
     // Merge with locally cached progress (preserve user's progress data)
     const cached = await get(K.QB_CACHE);
     Object.keys(merged).forEach(subj => {
       if (cached && cached[subj]) {
         // Deduplicate by id, keeping newer (from merged) if both exist
-        const cacheIds = new Set(cached[subj].map(q => q.id));
+        const mergedIds = new Set(merged[subj].map(q => q.id));
         merged[subj] = [
           ...merged[subj],
-          ...cached[subj].filter(q => !cacheIds.has(q.id))
+          ...cached[subj].filter(q => !mergedIds.has(q.id))
         ];
       }
     });
 
     state.questionBank = merged;
     state.settings.lastQuestionBankUpdate = todayKey();
+    if (state.remoteVersions?.questionBankVersion) {
+      state.settings.questionBankVersion = state.remoteVersions.questionBankVersion;
+    }
     await set(K.QB_CACHE, merged);
     await set(K.SETTINGS, state.settings);
 
@@ -1111,9 +1143,7 @@ function calcStreak() {
   let streak = 0;
   const today = new Date();
   for (let i = 0; i < 365; i++) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    const key = d.toISOString().split('T')[0];
+    const key = getLocalDateKey(shiftDate(today, -i));
     if (state.daily[key]) streak++;
     else if (i > 0) break; // allow today to not be practiced yet
   }
@@ -1260,7 +1290,7 @@ async function clearAllData() {
   state.progress = {};
   state.daily = {};
   state.meta = {};
-  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null };
+  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' };
 
   // Reload question bank from GitHub, then refresh UI (no full page reload)
   await upgradeQuestionBank();
@@ -1272,23 +1302,15 @@ async function clearAllData() {
 // UTILITIES
 // ============================================================
 function todayKey() {
-  return new Date().toISOString().split('T')[0];
+  return getLocalDateKey();
 }
 
 function dateLabel(iso) {
-  const d = new Date(iso);
-  return `${d.getMonth()+1}月${d.getDate()}日`;
+  return formatDateKeyLabel(iso);
 }
 
 function getWeekDays() {
-  const days = [];
-  const today = new Date();
-  for (let i = 0; i < 7; i++) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    days.push(d.toISOString().split('T')[0]);
-  }
-  return days;
+  return listRecentDateKeys(7).reverse();
 }
 
 function shuffle(arr) {

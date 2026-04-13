@@ -1,15 +1,18 @@
 // Service Worker — Cache-First strategy
-const CACHE_NAME = 'bairichuang-v6';
+const CACHE_NAME = 'bairichuang-v20260414';
 
 const PRECACHE = [
   './',
   './index.html',
   './app.js',
-  './style.css',
+  './css/style.css',
   './manifest.webmanifest',
   './icons/icon-192.png',
+  './icons/icon-192-maskable.png',
   './icons/icon-512.png',
-  './js/idb-keyval.min.js',
+  './icons/icon-512-maskable.png',
+  './js/idb-keyval.mjs',
+  './js/date-utils.mjs',
 ];
 
 // Install — pre-cache shell
@@ -43,8 +46,11 @@ self.addEventListener('fetch', e => {
   // Skip non-GET
   if (e.request.method !== 'GET') return;
 
-  // For question JSON files — network first, cache fallback
-  if (url.pathname.startsWith('/questions/')) {
+  const isQuestionAsset = url.pathname.includes('/questions/');
+  const isVersionFile = url.pathname.endsWith('version.json');
+
+  // For version and question pack files — network first, cache fallback
+  if (isQuestionAsset || isVersionFile) {
     e.respondWith(
       fetch(e.request)
         .then(resp => {
