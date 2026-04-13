@@ -93,9 +93,9 @@ function bindEvents() {
       const result = await checkin();
       await refreshUI();
       if (result.success) {
-        alert(`打卡成功！已连续打卡 ${result.streak} 天`);
+        showCheckinSuccessModal(result.streak);
       } else {
-        alert(result.message);
+        showToast(result.message);
       }
     });
   }
@@ -273,6 +273,56 @@ function resetPracticeView() {
   sessionSubject = null;
   document.querySelectorAll('.subject-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('question-container').innerHTML = '<p class="placeholder">选择科目开始练习</p>';
+}
+
+// Show checkin success modal
+async function showCheckinSuccessModal(streak) {
+  const history = await getCheckinHistoryList();
+  const total = history.length;
+  const today = new Date().toISOString().split('T')[0];
+
+  // Count this week
+  const now = new Date();
+  const weekStart = new Date(now);
+  weekStart.setDate(now.getDate() - now.getDay());
+  const weekCount = history.filter(h => {
+    const d = new Date(h.date);
+    return d >= weekStart;
+  }).length;
+
+  const modal = document.createElement('div');
+  modal.className = 'modal-overlay';
+  modal.innerHTML = `
+    <div class="modal-card">
+      <p class="modal-emoji">🎉</p>
+      <p class="modal-title">打卡成功！</p>
+      <p class="modal-streak">连续 <strong>${streak}</strong> 天</p>
+      <div class="modal-stats">
+        <div class="stat-item">
+          <span class="stat-num">${total}</span>
+          <span class="stat-label">总打卡天数</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">${weekCount}</span>
+          <span class="stat-label">本周打卡</span>
+        </div>
+      </div>
+      <button class="primary-btn" id="modal-close-btn">继续学习</button>
+    </div>
+  `;
+  document.body.appendChild(modal);
+  document.getElementById('modal-close-btn').addEventListener('click', () => {
+    modal.remove();
+  });
+}
+
+// Show toast message
+function showToast(msg) {
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 2000);
 }
 
 // Load progress view
