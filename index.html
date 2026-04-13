@@ -274,7 +274,8 @@
       var el = document.getElementById(name + '-view');
       if (el) el.classList.add('active');
       // Load view-specific data
-      if (name === 'progress' && window.loadProgressView) window.loadProgressView();
+      if (name === 'home' && window.refreshUI) window.refreshUI();
+      else if (name === 'progress' && window.loadProgressView) window.loadProgressView();
       else if (name === 'wrong' && window.loadWrongView) window.loadWrongView();
       else if (name === 'settings' && window.loadSettingsView) window.loadSettingsView();
       else if (name === 'mastery' && window.loadMasteryView) window.loadMasteryView('math', 'tag');
