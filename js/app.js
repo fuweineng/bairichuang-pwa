@@ -165,6 +165,18 @@ async function refreshUI() {
   const accuracyEl = document.getElementById('today-accuracy');
   if (countEl) countEl.textContent = practiceCount;
   if (accuracyEl) accuracyEl.textContent = accuracy !== null ? `${accuracy}%` : '--%';
+
+  // Update wrong badge
+  const wrongList = await getWrongQuestions();
+  const badge = document.getElementById('wrong-badge');
+  if (badge) {
+    if (wrongList.length > 0) {
+      badge.textContent = wrongList.length;
+      badge.style.display = 'inline';
+    } else {
+      badge.style.display = 'none';
+    }
+  }
 }
 
 // Start a new practice session
