@@ -444,14 +444,18 @@ function renderQuestion() {
     ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听对话/短文</button>`
     : '';
 
-  const isChoice = q.type === 'choice' && q.options && q.options.length > 0;
+  // listening 类型也有选项（四个选项按钮），所以要加入 isChoice 判断
+  const isChoice = (q.type === 'choice' || q.type === 'listening') && q.options && q.options.length > 0;
   const isFillOrShort = (!q.options || q.options.length === 0) && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
 
   const opts = isChoice ? q.options.map((opt, i) =>
     `<button class="answer-btn" data-action="answer" data-choice="${i}">${opt}</button>`
   ).join('') : '';
 
-  const optsDisabled = isListening ? '' : '';
+  // listening 类型要在选项上方显示听力的文本内容
+  const audioTextBlock = (q.type === 'listening' && q.audio_text)
+    ? `<div class="audio-text-block">${q.audio_text.replace(/\n/g, '<br>')}</div>`
+    : '';
 
   const inputArea = isFillOrShort
     ? `<div class="fill-area">
@@ -468,6 +472,7 @@ function renderQuestion() {
       <span class="question-progress">${idx + 1}/${total}</span>
     </div>
     ${listenBtn}
+    ${audioTextBlock}
     <div class="question-text">${q.question}</div>
     ${opts ? `<div class="answer-grid">${opts}</div>` : ''}
     ${inputArea}

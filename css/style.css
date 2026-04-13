@@ -1562,6 +1562,17 @@ main {
   padding: 6px 10px;
   margin-bottom: 8px;
 }
+.audio-text-block {
+  background: #e8f4fd;
+  border-left: 4px solid #1976d2;
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-size: 0.85rem;
+  line-height: 1.9;
+  color: #333;
+  margin-bottom: 12px;
+  white-space: pre-wrap;
+}
 .chart-line { stroke: #4CAF50; stroke-width: 2; }
 .chart-area { fill: #e8f5e9; }
 .chart-dot { fill: #4CAF50; }
