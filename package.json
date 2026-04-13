@@ -1,8 +1,8 @@
 {
   "name": "bairichuang-pwa",
   "version": "1.0.0",
-  "description": "**初二全科学习打卡系统**",
-  "main": "service-worker.js",
+  "description": "百日闯 PWA",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

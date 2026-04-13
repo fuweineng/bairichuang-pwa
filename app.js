@@ -1,5 +1,6 @@
 // 百日闯 PWA — 重构版
-// Single-file, no module, no import
+
+import { get, set, del, clear, keys } from './js/idb-keyval.mjs';
 
 'use strict';
 
