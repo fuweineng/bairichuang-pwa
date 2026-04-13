@@ -1083,11 +1083,15 @@ function drawChart() {
 
   const allVals = lines.flatMap(l => l.values);
   const maxS = Math.max(10, ...allVals.filter(v => v > 0));
-  const xStep = (W - PAD * 2) / (days - 1);
+  const xStep = dates.length > 1 ? (W - PAD * 2) / (dates.length - 1) : 0;
   const yScale = (H - PAD * 2) / maxS;
 
-  // X labels
-  const xLabels = [0, 7, 14, 21, 29].map(i => {
+  // X labels — evenly spaced based on actual date count
+  const xLabelCount = Math.min(5, dates.length);
+  const xLabelIndices = Array.from({length: xLabelCount}, (_, i) =>
+    Math.round(i * (dates.length - 1) / (xLabelCount - 1))
+  );
+  const xLabels = xLabelIndices.map(i => {
     if (!dates[i]) return '';
     return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel">${formatDateKeyShort(dates[i])}</text>`;
   }).join('');
