@@ -347,7 +347,7 @@ async function initializeQuestionBank() {
       'questions/batch_sc2.json',
       'questions/batch_sci.json',
     ];
-    const grouped = { math: [], english: [], chinese: [], science: [], history: [], geography: [], politics: [] };
+    const grouped = { math: [], english: [], chinese: [], physics: [], chemistry: [], biology: [], history: [], geography: [], politics: [] };
     for (const file of ALL_BATCH_FILES) {
       try {
         const response = await fetch(file);
