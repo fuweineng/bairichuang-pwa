@@ -131,6 +131,89 @@ main {
   opacity: 0.75;
 }
 
+/* ==================== ENTRY CARDS ==================== */
+.entry-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.entry-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  border-radius: 12px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  border-left: 4px solid transparent;
+}
+
+.entry-card:active {
+  transform: scale(0.98);
+}
+
+.entry-card.new { border-left-color: #2196F3; }
+.entry-card.weak { border-left-color: #F44336; }
+.entry-card.mastered { border-left-color: #4CAF50; }
+
+.entry-card-icon {
+  font-size: 1.6rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.entry-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.entry-card-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.entry-card-sub {
+  font-size: 0.72rem;
+  color: #999;
+  margin-top: 1px;
+}
+
+.entry-card-count {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #666;
+  margin-top: 2px;
+}
+
+.entry-card-count.empty {
+  color: #ccc;
+}
+
+.entry-card .entry-arrow {
+  color: #ccc;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* Practice entry info bar */
+.practice-entry-info {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  font-size: 0.78rem;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.practice-entry-info.weak { background: #fff3f3; border-left: 3px solid #F44336; }
+.practice-entry-info.mastered { background: #f0f7f0; border-left: 3px solid #4CAF50; }
+
 /* 100-day card */
 .hundred-day-card {
   flex: 1;

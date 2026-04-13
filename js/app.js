@@ -13,6 +13,7 @@ let sessionQuestions = [];
 let sessionIndex = 0;
 let sessionScore = { correct: 0, wrong: 0 };
 let sessionSubject = null;
+let practiceEntry = 'new'; // 'new' | 'weak' | 'mastered'
 
 // Initialize app
 async function init() {
@@ -94,6 +95,15 @@ function navigate(route) {
 
 // Bind UI events
 function bindEvents() {
+  // 3 entry cards on home
+  document.querySelectorAll('.entry-card').forEach(card => {
+    card.addEventListener('click', async () => {
+      const entry = card.dataset.entry;
+      practiceEntry = entry;
+      window.location.hash = '#/practice';
+    });
+  });
+
   // Route buttons
   document.querySelectorAll('[data-route]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -183,6 +193,63 @@ function bindEvents() {
   });
 }
 
+// ==================== Entry Card Counts ====================
+
+async function updateEntryCardCounts(settings) {
+  const allQuestions = await loadQuestions();
+  const progress = await getProgress() || {};
+  const masteredThreshold = settings.masteredThreshold ?? 50; // %
+
+  // Classify questions
+  const newIds = new Set();
+  const weakIds = []; // {id, wrongRate}
+  const masteredIds = [];
+
+  for (const q of allQuestions) {
+    const rec = progress[q.id];
+    if (!rec || (rec.total === 0)) {
+      newIds.add(q.id);
+    } else {
+      const wrongRate = rec.wrong / rec.total * 100;
+      if (wrongRate > masteredThreshold) {
+        weakIds.push({ id: q.id, wrongRate });
+      } else {
+        masteredIds.push({ id: q.id, wrongRate });
+      }
+    }
+  }
+
+  // Sort weak by wrong rate desc, mastered by wrong rate asc
+  weakIds.sort((a, b) => b.wrongRate - a.wrongRate);
+  masteredIds.sort((a, b) => a.wrongRate - b.wrongRate);
+
+  // Update DOM
+  const newCount = document.getElementById('entry-new-count');
+  const weakCount = document.getElementById('entry-weak-count');
+  const masteredCount = document.getElementById('entry-mastered-count');
+  const newSub = document.getElementById('entry-new-sub');
+  const weakSub = document.getElementById('entry-weak-sub');
+  const masteredSub = document.getElementById('entry-mastered-sub');
+
+  if (newCount) {
+    newCount.textContent = `${newIds.size}题`;
+    newCount.classList.toggle('empty', newIds.size === 0);
+  }
+  if (newSub) newSub.textContent = newIds.size === 0 ? '全部已练习' : '还未练习过的题';
+
+  if (weakCount) {
+    weakCount.textContent = `${weakIds.length}题`;
+    weakCount.classList.toggle('empty', weakIds.length === 0);
+  }
+  if (weakSub) weakSub.textContent = `错误率>${masteredThreshold}%`;
+
+  if (masteredCount) {
+    masteredCount.textContent = `${masteredIds.length}题`;
+    masteredCount.classList.toggle('empty', masteredIds.length === 0);
+  }
+  if (masteredSub) masteredSub.textContent = masteredIds.length === 0 ? '还没有' : `错误率≤${masteredThreshold}%`;
+}
+
 // Refresh UI data
 async function refreshUI() {
   // Update streak count
@@ -244,6 +311,9 @@ async function refreshUI() {
     }
   }
 
+  // Update 3 entry card counts
+  await updateEntryCardCounts(settings);
+
   // Render home mastery chart
   await renderHomeMasteryChart();
 
@@ -256,20 +326,74 @@ async function startPracticeSession(subject) {
   // Auto-checkin when starting practice
   const result = await checkin();
   if (result.success) {
-    // Show subtle toast
     showToast(`🎉 打卡成功！连续${result.streak}天`);
   }
 
   const questions = await getQuestionsBySubject(subject);
   if (questions.length === 0) return;
 
-  // Filter by difficulty from settings
   const settings = await getSettings();
-  const filtered = settings.difficultyFilter
-    ? questions.filter(q => q.difficulty === settings.difficultyFilter)
-    : questions;
+  const progress = await getProgress() || {};
+  const threshold = settings.masteredThreshold ?? 50;
+  const difficulty = settings.difficultyFilter ?? null;
 
-  // Shuffle and pick up to dailyGoal from settings
+  // Build filtered & sorted list by entry type
+  let filtered = [];
+
+  if (practiceEntry === 'new') {
+    // Never practiced: no progress record, or total=0
+    filtered = questions.filter(q => {
+      const rec = progress[q.id];
+      return !rec || rec.total === 0;
+    });
+    // Difficulty filter still applies
+    if (difficulty) filtered = filtered.filter(q => q.difficulty === difficulty);
+  } else if (practiceEntry === 'weak') {
+    // Practiced AND wrongRate > threshold
+    filtered = questions.filter(q => {
+      const rec = progress[q.id];
+      if (!rec || rec.total === 0) return false;
+      return (rec.wrong / rec.total * 100) > threshold;
+    }).map(q => {
+      const rec = progress[q.id];
+      return { ...q, _wrongRate: rec.wrong / rec.total * 100 };
+    });
+    if (difficulty) filtered = filtered.filter(q => q.difficulty === difficulty);
+    // Sort: highest wrong rate first
+    filtered.sort((a, b) => b._wrongRate - a._wrongRate);
+  } else if (practiceEntry === 'mastered') {
+    // Practiced AND wrongRate <= threshold
+    filtered = questions.filter(q => {
+      const rec = progress[q.id];
+      if (!rec || rec.total === 0) return false;
+      return (rec.wrong / rec.total * 100) <= threshold;
+    }).map(q => {
+      const rec = progress[q.id];
+      return { ...q, _wrongRate: rec.wrong / rec.total * 100 };
+    });
+    if (difficulty) filtered = filtered.filter(q => q.difficulty === difficulty);
+    // Sort: lowest wrong rate first (most mastered)
+    filtered.sort((a, b) => a._wrongRate - b._wrongRate);
+  }
+
+  // Show entry info bar
+  const infoBar = document.getElementById('practice-entry-info');
+  const infoLabel = document.getElementById('practice-entry-label');
+  const infoCount = document.getElementById('practice-entry-count');
+  const viewTitle = document.getElementById('practice-view-title');
+  if (infoBar) {
+    infoBar.style.display = 'flex';
+    infoBar.className = 'practice-entry-info ' + practiceEntry;
+    if (infoLabel) {
+      const labels = { new: '🆕 全新题目', weak: '🔴 易错汇总', mastered: '✅ 熟练掌握' };
+      infoLabel.textContent = labels[practiceEntry] || '';
+    }
+    if (infoCount) infoCount.textContent = `${filtered.length}题可选`;
+    const titles = { new: '全新题目', weak: '易错汇总', mastered: '熟练掌握' };
+    if (viewTitle) viewTitle.textContent = titles[practiceEntry] || '选择科目';
+  }
+
+  // Shuffle and pick up to dailyGoal
   const shuffled = filtered.sort(() => Math.random() - 0.5).slice(0, settings.dailyGoal || 10);
   sessionQuestions = shuffled;
   sessionIndex = 0;
@@ -1184,14 +1308,14 @@ async function loadSettingsView() {
         </div>
       </div>
       <div class="settings-row">
-        <span class="settings-label">难度筛选</span>
-        <div class="diff-filter-row" id="diff-filter">
-          <button class="diff-pill ${settings.difficultyFilter===null?'active':''}" data-diff="">全部</button>
-          <button class="diff-pill ${settings.difficultyFilter===1?'active':''}" data-diff="1">简单</button>
-          <button class="diff-pill ${settings.difficultyFilter===2?'active':''}" data-diff="2">中等</button>
-          <button class="diff-pill ${settings.difficultyFilter===3?'active':''}" data-diff="3">困难</button>
+        <span class="settings-label">易错阈值</span>
+        <div class="settings-stepper">
+          <button class="stepper-btn" id="thresh-minus">−</button>
+          <span class="stepper-val" id="thresh-value">${settings.masteredThreshold ?? 50}%</span>
+          <button class="stepper-btn" id="thresh-plus">+</button>
         </div>
       </div>
+      <div class="settings-hint">正确率低于此值的题目进入"易错汇总"</div>
     </div>
     <div class="settings-card">
       <div class="settings-row" style="align-items:center">
@@ -1243,6 +1367,27 @@ async function loadSettingsView() {
       document.querySelectorAll('#diff-filter .diff-pill').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     });
+  });
+
+  // Mastered threshold stepper
+  document.getElementById('thresh-minus').addEventListener('click', async () => {
+    const s = await getSettings();
+    const val = s.masteredThreshold ?? 50;
+    if (val > 10) {
+      await saveSetting('masteredThreshold', val - 5);
+      document.getElementById('thresh-value').textContent = (val - 5) + '%';
+      refreshUI();
+    }
+  });
+
+  document.getElementById('thresh-plus').addEventListener('click', async () => {
+    const s = await getSettings();
+    const val = s.masteredThreshold ?? 50;
+    if (val < 90) {
+      await saveSetting('masteredThreshold', val + 5);
+      document.getElementById('thresh-value').textContent = (val + 5) + '%';
+      refreshUI();
+    }
   });
 
   document.getElementById('clear-all-btn').addEventListener('click', async () => {

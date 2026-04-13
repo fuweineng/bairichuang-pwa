@@ -89,18 +89,36 @@
           <div class="home-chart-legend" id="home-chart-legend"></div>
         </div>
 
-        <!-- Quick Actions -->
-        <div class="home-actions">
-          <button class="home-action-btn primary" data-route="#/practice">
-            <span>✏️</span> 开始练习
-          </button>
+        <!-- 3 Practice Entry Cards -->
+        <div class="entry-cards" id="entry-cards">
+          <div class="entry-card new" data-entry="new">
+            <div class="entry-card-icon">🆕</div>
+            <div class="entry-card-body">
+              <div class="entry-card-title">全新题目</div>
+              <div class="entry-card-sub" id="entry-new-sub">还未练习过的题</div>
+              <div class="entry-card-count" id="entry-new-count">0题</div>
+            </div>
+          </div>
+          <div class="entry-card weak" data-entry="weak">
+            <div class="entry-card-icon">🔴</div>
+            <div class="entry-card-body">
+              <div class="entry-card-title">易错汇总</div>
+              <div class="entry-card-sub" id="entry-weak-sub">错误率高的题</div>
+              <div class="entry-card-count" id="entry-weak-count">0题</div>
+            </div>
+          </div>
+          <div class="entry-card mastered" data-entry="mastered">
+            <div class="entry-card-icon">✅</div>
+            <div class="entry-card-body">
+              <div class="entry-card-title">熟练掌握</div>
+              <div class="entry-card-sub" id="entry-mastered-sub">做过的题</div>
+              <div class="entry-card-count" id="entry-mastered-count">0题</div>
+            </div>
+          </div>
         </div>
 
         <!-- Bottom Menu -->
         <div class="home-menu">
-          <button class="home-menu-btn" data-route="#/wrong">
-            📕 错题集 <span class="badge" id="wrong-badge" style="display:none">0</span>
-          </button>
           <button class="home-menu-btn" data-route="#/progress">
             📊 打卡记录
           </button>
@@ -111,7 +129,11 @@
       <section id="practice-view" class="view">
         <div class="view-toolbar">
           <button class="back-home-btn" data-route="#/index">← 返回</button>
-          <span class="view-title">选择科目</span>
+          <span class="view-title" id="practice-view-title">选择科目</span>
+        </div>
+        <div id="practice-entry-info" class="practice-entry-info" style="display:none">
+          <span id="practice-entry-label"></span>
+          <span id="practice-entry-count"></span>
         </div>
         <div class="subjects-grid" id="subjects-grid">
           <button class="subject-grid-btn active" data-subject="math">数学</button>
@@ -135,7 +157,7 @@
           <span class="view-title">打卡记录</span>
         </div>
         <div id="history-container">
-          <p class="placeholder">暂无打卡记录</p>
+          <p class="placeholder">加载中...</p>
         </div>
       </section>
 
@@ -143,34 +165,9 @@
       <section id="wrong-view" class="view">
         <div class="view-toolbar">
           <button class="back-home-btn" data-route="#/index">← 返回</button>
-          <span class="view-title">错题集</span>
+          <span class="view-title">易错汇总</span>
         </div>
         <div id="wrong-container">
-          <p class="placeholder">加载中...</p>
-        </div>
-      </section>
-
-      <!-- ===== MASTERY VIEW ===== -->
-      <section id="mastery-view" class="view">
-        <div class="view-toolbar">
-          <button class="back-home-btn" data-route="#/index">← 返回</button>
-          <span class="view-title">知识掌握</span>
-        </div>
-        <div class="mastery-subject-tabs">
-          <button class="tab-btn active" data-subject="math">数学</button>
-          <button class="tab-btn" data-subject="english">英语</button>
-          <button class="tab-btn" data-subject="chinese">语文</button>
-          <button class="tab-btn" data-subject="science">科学</button>
-          <button class="tab-btn" data-subject="biology">生物</button>
-          <button class="tab-btn" data-subject="history">历史</button>
-          <button class="tab-btn" data-subject="geography">地理</button>
-          <button class="tab-btn" data-subject="politics">道法</button>
-        </div>
-        <div class="mastery-type-tabs">
-          <button class="type-tab active" data-type="tag">按考点</button>
-          <button class="type-tab" data-type="type">按题型</button>
-        </div>
-        <div id="mastery-content">
           <p class="placeholder">加载中...</p>
         </div>
       </section>
