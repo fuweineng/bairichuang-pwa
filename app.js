@@ -695,10 +695,13 @@ function renderQuestion() {
   const isFillOrShort = !hasOptions && !hasChoices && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
 
   // 选项按钮 (choice 用 options 文字；listening 用 choices[{label,text}])
+  // options兼容两种格式：纯字符串数组 或 {label,text}对象数组（与choices格式统一）
   const opts = isChoice
-    ? q.options.map((opt, i) =>
-        `<button class="answer-btn" data-action="answer" data-choice="${i}">${opt}</button>`
-      ).join('')
+    ? q.options.map((opt, i) => {
+        const label = typeof opt === 'string' ? '' : opt.label + '. ';
+        const text  = typeof opt === 'string' ? opt    : opt.text;
+        return `<button class="answer-btn" data-action="answer" data-choice="${i}">${label}${text}</button>`;
+      }).join('')
     : isListeningType
     ? q.choices.map((c, i) =>
         `<button class="answer-btn" data-action="answer" data-choice="${i}">${c.label}. ${c.text}</button>`
@@ -744,8 +747,14 @@ async function handleAnswer(choiceIdx) {
   // 判断答案：choice 用 q.options[idx] === q.answer；listening 用 q.choices[idx].label === q.answer
   let isCorrect = false;
   if (q.type === 'choice' && q.options) {
-    isCorrect = q.options[choiceIdx] === String(q.answer) ||
-      (Array.isArray(q.answer) && q.answer.includes(String(choiceIdx)));
+    // options可能是纯字符串数组，也可能是{label,text}对象数组
+    const opt = q.options[choiceIdx];
+    const optText = typeof opt === 'string' ? opt : opt.text;
+    const answerStr = String(q.answer);
+    isCorrect = optText === answerStr ||
+      optText.startsWith(answerStr + '. ') ||
+      (Array.isArray(q.answer) && q.answer.includes(answerStr)) ||
+      (typeof opt === 'object' && opt.label === answerStr);
   } else if (q.type === 'listening' && q.choices) {
     isCorrect = q.choices[choiceIdx].label === String(q.answer);
   }
