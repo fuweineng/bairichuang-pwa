@@ -1482,5 +1482,890 @@
     ],
     "answer": "主动参加社区志愿服务",
     "explanation": "参加社区志愿服务是服务社会、奉献社会的表现，体现了良好的社会责任意识。"
+  },
+  {
+    "id": "history-001",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "春秋战国"
+    ],
+    "question": "春秋五霸中，最早称霸的是：",
+    "options": [
+      "齐桓公",
+      "晋文公",
+      "秦穆公",
+      "楚庄王"
+    ],
+    "answer": "齐桓公",
+    "explanation": "齐桓公在管仲辅佐下率先称霸，是春秋五霸之首。"
+  },
+  {
+    "id": "history-002",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "商鞅变法"
+    ],
+    "question": "商鞅变法发生在哪个诸侯国：",
+    "options": [
+      "楚国",
+      "秦国",
+      "齐国",
+      "燕国"
+    ],
+    "answer": "秦国",
+    "explanation": "商鞅变法发生在秦国，主持者是商鞅，时间约在公元前356年。"
+  },
+  {
+    "id": "history-003",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "秦始皇"
+    ],
+    "question": "秦始皇统一六国后，统一的货币是：",
+    "options": [
+      "刀币",
+      "圆形方孔钱",
+      "元宝",
+      "铜钱"
+    ],
+    "answer": "圆形方孔钱",
+    "explanation": "秦始皇统一度量衡和货币，圆形方孔钱成为后世铜钱的统一形制。"
+  },
+  {
+    "id": "history-004",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "汉武帝"
+    ],
+    "question": "汉武帝时，派张骞出使西域的目的是：",
+    "options": [
+      "传播佛教",
+      "联络西域夹击匈奴",
+      "贸易通商",
+      "考察地理"
+    ],
+    "answer": "联络西域夹击匈奴",
+    "explanation": "汉武帝派张骞出使西域，最初目的是联络大月氏夹击匈奴，开辟了丝绸之路。"
+  },
+  {
+    "id": "history-005",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "丝绸之路"
+    ],
+    "question": "丝绸之路的起点是：",
+    "options": [
+      "洛阳",
+      "长安",
+      "敦煌",
+      "乌鲁木齐"
+    ],
+    "answer": "长安",
+    "explanation": "丝绸之路以长安（今西安）为起点，经河西走廊、西域，到达中亚和欧洲。"
+  },
+  {
+    "id": "history-006",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "赤壁之战"
+    ],
+    "question": "赤壁之战发生在哪两个集团之间：",
+    "options": [
+      "曹操 vs 刘备孙权",
+      "刘备 vs 曹操",
+      "孙权 vs 曹操",
+      "袁绍 vs 曹操"
+    ],
+    "answer": "曹操 vs 刘备孙权",
+    "explanation": "赤壁之战是曹操与刘备、孙权联军在长江赤壁一带进行的一场大战。"
+  },
+  {
+    "id": "history-007",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "三国鼎立"
+    ],
+    "question": "三国鼎立局面正式形成的标志是：",
+    "options": [
+      "曹操称魏王",
+      "刘备称汉中王",
+      "孙权称吴王",
+      "曹丕废汉献帝"
+    ],
+    "answer": "曹丕废汉献帝",
+    "explanation": "220年曹丕废汉献帝建立魏国，221年刘备建立蜀汉，229年孙权建立东吴，三国鼎立正式形成。"
+  },
+  {
+    "id": "history-008",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "科举制度"
+    ],
+    "question": "科举制度正式创立的朝代是：",
+    "options": [
+      "隋朝",
+      "唐朝",
+      "宋朝",
+      "明朝"
+    ],
+    "answer": "隋朝",
+    "explanation": "科举制度创立于隋炀帝大业元年（605年），唐朝继承并完善。"
+  },
+  {
+    "id": "history-009",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "贞观之治"
+    ],
+    "question": "贞观之治出现在哪位皇帝统治时期：",
+    "options": [
+      "唐高祖",
+      "唐太宗",
+      "唐玄宗",
+      "武则天"
+    ],
+    "answer": "唐太宗",
+    "explanation": "唐太宗李世民统治时期，政治清明，经济发展，史称'贞观之治'。"
+  },
+  {
+    "id": "history-010",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "鉴真东渡"
+    ],
+    "question": "鉴真东渡的目的是：",
+    "options": [
+      "传播佛教",
+      "学习佛法",
+      "贸易往来",
+      "考察日本"
+    ],
+    "answer": "传播佛教",
+    "explanation": "唐朝高僧鉴真东渡日本，传播佛教和文化，被日本尊为'文化之父'。"
+  },
+  {
+    "id": "history-011",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "活字印刷"
+    ],
+    "question": "活字印刷术的发明者是：",
+    "options": [
+      "蔡伦",
+      "毕昇",
+      "张衡",
+      "李时珍"
+    ],
+    "answer": "毕昇",
+    "explanation": "北宋毕昇发明活字印刷术，开创了印刷史的新纪元。"
+  },
+  {
+    "id": "history-012",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "明朝专制"
+    ],
+    "question": "明朝废除丞相制度的是：",
+    "options": [
+      "明太祖朱元璋",
+      "明成祖朱棣",
+      "明神宗",
+      "建文帝"
+    ],
+    "answer": "明太祖朱元璋",
+    "explanation": "1380年，明太祖朱元璋以谋反罪诛杀胡惟庸，废除丞相制度，六部直接对皇帝负责。"
+  },
+  {
+    "id": "history-013",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "郑和下西洋"
+    ],
+    "question": "郑和下西洋最远到达：",
+    "options": [
+      "印度洋",
+      "阿拉伯半岛",
+      "非洲东海岸",
+      "欧洲"
+    ],
+    "answer": "非洲东海岸",
+    "explanation": "郑和七次下西洋，最远到达非洲东海岸和红海沿岸。"
+  },
+  {
+    "id": "history-014",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争爆发的导火线是：",
+    "options": [
+      "虎门销烟",
+      "英国商船走私鸦片",
+      "中英贸易纠纷",
+      "林则徐被撤职"
+    ],
+    "answer": "虎门销烟",
+    "explanation": "1839年林则徐在虎门销毁鸦片，成为鸦片战争的直接导火线。"
+  },
+  {
+    "id": "history-015",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "甲午战争"
+    ],
+    "question": "甲午战争中，北洋水师全军覆没的战役是：",
+    "options": [
+      "丰岛海战",
+      "黄海海战",
+      "威海卫战役",
+      "辽东半岛战役"
+    ],
+    "answer": "威海卫战役",
+    "explanation": "1895年，日军围攻威海卫，北洋水师在刘公岛全军覆没。"
+  },
+  {
+    "id": "geography-001",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "经纬线"
+    ],
+    "question": "北纬23.5°到南纬23.5°之间的地区称为：",
+    "options": [
+      "热带",
+      "北温带",
+      "南温带",
+      "寒带"
+    ],
+    "answer": "热带",
+    "explanation": "南北回归线（23.5°）之间的地区有太阳直射现象，属于热带。"
+  },
+  {
+    "id": "geography-002",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "地球运动"
+    ],
+    "question": "地球自转一周的时间是：",
+    "options": [
+      "一年",
+      "一个月",
+      "一天",
+      "一小时"
+    ],
+    "answer": "一天",
+    "explanation": "地球自转一周为一天（约24小时），产生昼夜交替现象。"
+  },
+  {
+    "id": "geography-003",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的洲是：",
+    "options": [
+      "非洲",
+      "北美洲",
+      "亚洲",
+      "南美洲"
+    ],
+    "answer": "亚洲",
+    "explanation": "亚洲是世界上面积最大的洲，面积约4400万平方公里。"
+  },
+  {
+    "id": "geography-004",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上最深的大洋是：",
+    "options": [
+      "大西洋",
+      "印度洋",
+      "北冰洋",
+      "太平洋"
+    ],
+    "answer": "太平洋",
+    "explanation": "太平洋平均深度超过4000米，最深处马里亚纳海沟深达11034米。"
+  },
+  {
+    "id": "geography-005",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "气候"
+    ],
+    "question": "非洲乞力马扎罗山虽位于赤道附近，却终年积雪，原因是：",
+    "options": [
+      "靠近海洋",
+      "海拔高",
+      "纬度较高",
+      "受寒流影响"
+    ],
+    "answer": "海拔高",
+    "explanation": "海拔每升高1000米，气温下降约6℃。乞力马扎罗山海拔5895米，山顶终年低温。"
+  },
+  {
+    "id": "geography-006",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "内蒙古自治区",
+      "西藏自治区",
+      "四川省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆面积约166万平方公里，是我国面积最大的省级行政区。"
+  },
+  {
+    "id": "geography-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "地形"
+    ],
+    "question": "我国最大的平原是：",
+    "options": [
+      "华北平原",
+      "东北平原",
+      "长江中下游平原",
+      "成都平原"
+    ],
+    "answer": "东北平原",
+    "explanation": "东北平原面积约35万平方公里，是我国面积最大的平原。"
+  },
+  {
+    "id": "geography-008",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "气候"
+    ],
+    "question": "我国年降水量分布规律是：",
+    "options": [
+      "从东南向西北递减",
+      "从西北向东南递减",
+      "全国均匀分布",
+      "从北向南递减"
+    ],
+    "answer": "从东南向西北递减",
+    "explanation": "受季风影响，我国降水主要来自太平洋的东南季风，所以降水量从东南向西北递减。"
+  },
+  {
+    "id": "geography-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "人口"
+    ],
+    "question": "世界上人口最多的国家是：",
+    "options": [
+      "印度",
+      "美国",
+      "中国",
+      "印度尼西亚"
+    ],
+    "answer": "中国",
+    "explanation": "中国是世界上人口最多的国家，其次是印度。"
+  },
+  {
+    "id": "geography-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "河流"
+    ],
+    "question": "世界上最长的河流是：",
+    "options": [
+      "亚马逊河",
+      "尼罗河",
+      "长江",
+      "密西西比河"
+    ],
+    "answer": "尼罗河",
+    "explanation": "尼罗河全长约6670公里，是世界上最长的河流。"
+  },
+  {
+    "id": "geography-011",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "板块构造"
+    ],
+    "question": "日本多地震的原因是：",
+    "options": [
+      "位于板块内部",
+      "位于环太平洋地震带",
+      "位于地中海-喜马拉雅地震带",
+      "位于大洋中脊"
+    ],
+    "answer": "位于环太平洋地震带",
+    "explanation": "日本位于太平洋板块与欧亚板块交界处的环太平洋地震带上，地壳运动活跃。"
+  },
+  {
+    "id": "geography-012",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "方向"
+    ],
+    "question": "在北半球，河流冲刷较严重的是：",
+    "options": [
+      "南岸",
+      "北岸",
+      "东岸",
+      "西岸"
+    ],
+    "answer": "南岸",
+    "explanation": "北半球地转偏向力向右偏，河流对南岸冲刷更严重。"
+  },
+  {
+    "id": "geography-013",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "自然资源"
+    ],
+    "question": "我国水资源分布特点是：",
+    "options": [
+      "南多北少",
+      "南少北多",
+      "全国均匀",
+      "东部多西部少"
+    ],
+    "answer": "南多北少",
+    "explanation": "我国水资源南多北少，南方水量约占全国的80%，北方仅占20%。"
+  },
+  {
+    "id": "geography-014",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "发达国家"
+    ],
+    "question": "世界上最大的发达国家群是：",
+    "options": [
+      "欧盟",
+      "北美自贸区",
+      "东南亚联盟",
+      "金砖国家"
+    ],
+    "answer": "欧盟",
+    "explanation": "欧盟由27个成员国组成，是世界上经济一体化程度最高的国家集团。"
+  },
+  {
+    "id": "geography-015",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "工业分布"
+    ],
+    "question": "我国最大的工业基地是：",
+    "options": [
+      "辽中南工业区",
+      "京津唐工业区",
+      "沪宁杭工业区",
+      "珠江三角洲工业区"
+    ],
+    "answer": "沪宁杭工业区",
+    "explanation": "沪宁杭工业区是我国最大的综合性工业基地，以上海、南京、杭州为核心。"
+  },
+  {
+    "id": "politics-001",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "个人与集体"
+    ],
+    "question": "个人利益与集体利益的关系是：",
+    "options": [
+      "完全对立",
+      "根本一致，但有时会发生矛盾",
+      "个人利益服从集体利益",
+      "集体利益服从个人利益"
+    ],
+    "answer": "根本一致，但有时会发生矛盾",
+    "explanation": "个人与集体相互依存，个人利益与集体利益在根本上是一致的，但具体问题上可能发生矛盾。"
+  },
+  {
+    "id": "politics-002",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "下列属于自尊表现的是：",
+    "options": [
+      "爱慕虚荣",
+      "嫉妒他人",
+      "维护自己的人格",
+      "贬低别人抬高自己"
+    ],
+    "answer": "维护自己的人格",
+    "explanation": "自尊即自我尊重，维护自己的人格，不做有损人格的事是自尊的表现。"
+  },
+  {
+    "id": "politics-003",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "诚信"
+    ],
+    "question": "对考试作弊行为认识正确的是：",
+    "options": [
+      "无所谓",
+      "小节问题",
+      "违反诚信原则，损害公平",
+      "可以理解"
+    ],
+    "answer": "违反诚信原则，损害公平",
+    "explanation": "考试作弊违背诚信原则，破坏公平竞争的环境，也是对自己不负责任的表现。"
+  },
+  {
+    "id": "politics-004",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "当情绪激动时，正确的做法是：",
+    "options": [
+      "立刻发脾气",
+      "压抑情绪不表达",
+      "转移注意力，等冷静后再处理",
+      "对着别人发泄"
+    ],
+    "answer": "转移注意力，等冷静后再处理",
+    "explanation": "情绪激动时应该学会调节，如转移注意力、做深呼吸等，等冷静后再处理问题。"
+  },
+  {
+    "id": "politics-005",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "意志品质"
+    ],
+    "question": "意志坚强的人表现在：",
+    "options": [
+      "遇到困难就放弃",
+      "能够坚持到底",
+      "做事三分钟热度",
+      "害怕困难逃避现实"
+    ],
+    "answer": "能够坚持到底",
+    "explanation": "意志坚强的人能够在困难面前坚持不懈，不怕挫折，最终实现目标。"
+  },
+  {
+    "id": "politics-006",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自我保护"
+    ],
+    "question": "遇到火灾时，正确的逃生做法是：",
+    "options": [
+      "乘坐电梯快速逃生",
+      "躲到衣柜里等待救援",
+      "用湿毛巾捂住口鼻，低姿势逃生",
+      "跳楼逃生"
+    ],
+    "answer": "用湿毛巾捂住口鼻，低姿势逃生",
+    "explanation": "火灾逃生应用湿毛巾捂住口鼻，低姿势沿墙壁逃生，切勿乘坐电梯或跳楼。"
+  },
+  {
+    "id": "politics-007",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "网络交往"
+    ],
+    "question": "在网络交往中，我们应该：",
+    "options": [
+      "随意泄露个人信息",
+      "对网友完全信任",
+      "遵守法律，文明上网",
+      "隐瞒真实身份进行欺诈"
+    ],
+    "answer": "遵守法律，文明上网",
+    "explanation": "网络交往也要遵守法律法规，文明礼貌，保护好个人隐私，不做违法犯罪的事。"
+  },
+  {
+    "id": "politics-008",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "换位思考"
+    ],
+    "question": "换位思考就是：",
+    "options": [
+      "把自己的想法强加给别人",
+      "站在别人的角度考虑问题",
+      "只考虑自己的利益",
+      "模仿别人的行为"
+    ],
+    "answer": "站在别人的角度考虑问题",
+    "explanation": "换位思考是理解他人的一种方式，指将自己的情感、立场转移到对方的角度去考虑问题。"
+  },
+  {
+    "id": "politics-009",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "礼貌礼仪"
+    ],
+    "question": "下列不属于文明礼貌用语的是：",
+    "options": [
+      "谢谢",
+      "您好",
+      "滚开",
+      "请问"
+    ],
+    "answer": "滚开",
+    "explanation": "文明礼貌用语包括'请'、'您好'、'谢谢'、'对不起'等，'滚开'是粗鲁、不礼貌的语言。"
+  },
+  {
+    "id": "politics-010",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "未满16周岁的未成年人违反治安管理处罚法：",
+    "options": [
+      "不需要承担任何责任",
+      "犯罪不受法律制裁",
+      "会被处罚，但从轻或减轻",
+      "可以随意行为"
+    ],
+    "answer": "会被处罚，但从轻或减轻",
+    "explanation": "未满16周岁的未成年人违反治安管理处罚法，会被从轻或减轻处罚；满16周岁才承担完全刑事责任。"
+  },
+  {
+    "id": "politics-011",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生命价值"
+    ],
+    "question": "以下关于生命的认识，正确的是：",
+    "options": [
+      "生命只属于自己",
+      "珍爱生命不需要关爱他人",
+      "生命至上，珍爱自己也尊重他人生命",
+      "生命价值在于寿命长短"
+    ],
+    "answer": "生命至上，珍爱自己也尊重他人生命",
+    "explanation": "每个生命都值得珍爱，生命既属于自己，也与他人、社会相关联，要尊重一切生命。"
+  },
+  {
+    "id": "politics-012",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "学习策略"
+    ],
+    "question": "下列属于高效学习方法的是：",
+    "options": [
+      "死记硬背",
+      "题海战术",
+      "制定计划、合理安排时间",
+      "临时抱佛脚"
+    ],
+    "answer": "制定计划、合理安排时间",
+    "explanation": "高效学习需要制定合理的学习计划，科学安排时间，结合多种学习方法。"
+  },
+  {
+    "id": "politics-013",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "亲子关系"
+    ],
+    "question": "当与父母发生矛盾时，正确的做法是：",
+    "options": [
+      "冷战到底",
+      "离家出走",
+      "主动沟通，耐心倾听",
+      "与父母对着干"
+    ],
+    "answer": "主动沟通，耐心倾听",
+    "explanation": "与父母发生矛盾时，应该冷静下来，主动沟通，耐心倾听父母的意见，理解他们的出发点。"
+  },
+  {
+    "id": "politics-014",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "认识自己"
+    ],
+    "question": "正确认识自己的方法是：",
+    "options": [
+      "只听别人夸奖",
+      "只用成绩衡量自己",
+      "通过他人评价和自我反思相结合",
+      "只看自己的优点"
+    ],
+    "answer": "通过他人评价和自我反思相结合",
+    "explanation": "认识自己需要全面客观，既要通过他人评价，也要进行自我反思，做到知己知彼。"
+  },
+  {
+    "id": "politics-015",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "预防犯罪"
+    ],
+    "question": "不良行为和严重不良行为之间的关系是：",
+    "options": [
+      "两者没有联系",
+      "不良行为可能发展为严重不良行为，甚至犯罪",
+      "严重不良行为不会发展为犯罪",
+      "只有犯罪才是严重问题"
+    ],
+    "answer": "不良行为可能发展为严重不良行为，甚至犯罪",
+    "explanation": "不良行为若不及时矫治，可能进一步发展成严重不良行为，最终可能导致犯罪。"
   }
 ]
