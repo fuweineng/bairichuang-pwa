@@ -9,236 +9,163 @@
   <meta name="description" content="百日闯 - 初二学习打卡PWA">
   <title>百日闯 - 初二学习打卡</title>
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/style.css?v=156">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="app">
-    <!-- ===== HEADER ===== -->
-    <header>
-      <div class="header-left">
-        <h1>百日闯</h1>
-        <span class="subtitle">初二</span>
-      </div>
-      <div class="header-right">
-        <button class="header-btn" id="header-history-btn" onclick="showView('progress')">📊</button>
-        <button class="header-settings-btn" id="header-settings-btn" onclick="showView('settings')">⚙️</button>
-      </div>
-    </header>
+<div id="app">
 
-    <main>
-      <!-- ===== HOME VIEW ===== -->
-      <section id="home-view" class="view active">
-
-        <!-- Compact Streak Banner (click to progress view) -->
-        <div class="streak-card" onclick="showView('progress')">
-          <div class="streak-card-left">
-            <div class="streak-main">
-              <span class="streak-count" id="streak-count">0</span>
-              <span class="streak-unit">天连续</span>
-            </div>
-            <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
-          </div>
-          <div class="streak-hint">
-            <span>查看折线图</span>
-            <span class="streak-arrow">→</span>
-          </div>
-        </div>
-
-        <!-- 3 Practice Entry Cards (horizontal) -->
-        <div class="entry-cards" id="entry-cards">
-          <div class="entry-card new" onclick="startEntry('new')">
-            <div class="entry-card-icon">🆕</div>
-            <div class="entry-card-body">
-              <div class="entry-card-title">全新题目</div>
-              <div class="entry-card-count" id="entry-new-count">0题</div>
-            </div>
-            <span class="entry-arrow">›</span>
-          </div>
-          <div class="entry-card weak" onclick="startEntry('weak')">
-            <div class="entry-card-icon">🔴</div>
-            <div class="entry-card-body">
-              <div class="entry-card-title">易错汇总</div>
-              <div class="entry-card-count" id="entry-weak-count">0题</div>
-            </div>
-            <span class="entry-arrow">›</span>
-          </div>
-          <div class="entry-card mastered" onclick="startEntry('mastered')">
-            <div class="entry-card-icon">✅</div>
-            <div class="entry-card-body">
-              <div class="entry-card-title">熟练掌握</div>
-              <div class="entry-card-count" id="entry-mastered-count">0题</div>
-            </div>
-            <span class="entry-arrow">›</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===== PRACTICE VIEW ===== -->
-      <section id="practice-view" class="view">
-        <div class="view-toolbar">
-          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
-          <span class="view-title" id="practice-view-title">选择科目</span>
-        </div>
-        <div id="practice-entry-info" class="practice-entry-info" style="display:none">
-          <span id="practice-entry-label"></span>
-          <span id="practice-entry-count"></span>
-        </div>
-        <div class="subjects-grid" id="subjects-grid">
-          <button class="subject-grid-btn active" onclick="startSubject('math')">数学</button>
-          <button class="subject-grid-btn" onclick="startSubject('english')">英语</button>
-          <button class="subject-grid-btn" onclick="startSubject('chinese')">语文</button>
-          <button class="subject-grid-btn" onclick="startSubject('science')">科学</button>
-          <button class="subject-grid-btn" onclick="startSubject('biology')">生物</button>
-          <button class="subject-grid-btn" onclick="startSubject('history')">历史</button>
-          <button class="subject-grid-btn" onclick="startSubject('geography')">地理</button>
-          <button class="subject-grid-btn" onclick="startSubject('politics')">道法</button>
-        </div>
-        <div id="question-container">
-          <p class="placeholder">选择科目开始练习</p>
-        </div>
-      </section>
-
-      <!-- ===== PROGRESS VIEW ===== -->
-      <section id="progress-view" class="view">
-        <div class="view-toolbar">
-          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
-          <span class="view-title">打卡记录</span>
-        </div>
-        <div id="history-container">
-          <p class="placeholder">加载中...</p>
-        </div>
-      </section>
-
-      <!-- ===== WRONG VIEW ===== -->
-      <section id="wrong-view" class="view">
-        <div class="view-toolbar">
-          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
-          <span class="view-title">易错汇总</span>
-        </div>
-        <div id="wrong-container">
-          <p class="placeholder">加载中...</p>
-        </div>
-      </section>
-
-      <!-- ===== SETTINGS VIEW ===== -->
-      <section id="settings-view" class="view">
-        <div class="view-toolbar">
-          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
-          <span class="view-title">设置</span>
-        </div>
-        <div id="settings-content">
-          <p class="placeholder">加载中...</p>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>百日闯 · 初二学习打卡</p>
-    </footer>
-  </div>
-
-  <!-- ===== FLOATING MODALS ===== -->
-  <div id="pwa-install-banner" class="float-card" style="display:none;top:12px">
-    <span>安装百日闯到桌面</span>
-    <button class="pwa-install-btn" id="pwa-install-btn">安装</button>
-    <button class="float-close" onclick="dismissPwaBanner()">×</button>
-  </div>
-
-  <div id="checkin-modal" class="modal-overlay" style="display:none">
-    <div class="modal-card float-card" style="top:20px">
-      <div class="modal-emoji">🎉</div>
-      <p class="modal-title">打卡成功！</p>
-      <div class="checkin-stats">
-        <div class="checkin-stat-item">
-          <span class="checkin-stat-num" id="modal-streak">0</span>
-          <span class="checkin-stat-label">连续天数</span>
-        </div>
-        <div class="checkin-stat-item">
-          <span class="checkin-stat-num" id="modal-total">0</span>
-          <span class="checkin-stat-label">累计打卡</span>
-        </div>
-        <div class="checkin-stat-item">
-          <span class="checkin-stat-num" id="modal-week">0</span>
-          <span class="checkin-stat-label">本周</span>
-        </div>
-      </div>
-      <button class="primary-btn" id="checkin-modal-close" style="margin-top:16px">好的</button>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-left">
+      <h1>百日闯</h1>
+      <span class="subtitle">初二</span>
     </div>
-  </div>
-
-  <div id="toast" class="toast" style="display:none"></div>
-
-  <div id="feedback-modal" class="modal-overlay" style="display:none">
-    <div class="modal-card float-card" style="top:20px;max-width:380px">
-      <button class="float-close" id="feedback-close" style="position:absolute;top:10px;right:12px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#999">×</button>
-      <p class="modal-emoji">💬</p>
-      <p class="modal-title">意见反馈</p>
-      <p class="modal-desc">告诉我们哪里可以做得更好</p>
-      <textarea id="feedback-text" class="feedback-textarea" placeholder="请输入你的想法..."></textarea>
-      <div id="feedback-status" class="feedback-status"></div>
-      <button class="primary-btn" id="feedback-submit">提交反馈</button>
+    <div class="header-right">
+      <button class="header-btn" id="header-history-btn" data-action="nav" data-view="progress">📊</button>
+      <button class="header-settings-btn" id="header-settings-btn" data-action="nav" data-view="settings">⚙️</button>
     </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HOME VIEW ===== -->
+    <section id="view-home" class="view active">
+      <div class="streak-card" data-action="nav" data-view="progress">
+        <div class="streak-card-left">
+          <div class="streak-main">
+            <span class="streak-count" id="streak-count">0</span>
+            <span class="streak-unit">天连续</span>
+          </div>
+          <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
+        </div>
+        <div class="streak-hint">
+          <span>查看折线图</span>
+          <span class="streak-arrow">→</span>
+        </div>
+      </div>
+
+      <div class="entry-cards" id="entry-cards">
+        <div class="entry-card new" data-action="start-entry" data-entry="new">
+          <div class="entry-card-icon">🆕</div>
+          <div class="entry-card-body">
+            <div class="entry-card-title">全新题目</div>
+            <div class="entry-card-count" id="entry-new-count">0题</div>
+          </div>
+          <span class="entry-arrow">›</span>
+        </div>
+        <div class="entry-card weak" data-action="start-entry" data-entry="weak">
+          <div class="entry-card-icon">🔴</div>
+          <div class="entry-card-body">
+            <div class="entry-card-title">易错汇总</div>
+            <div class="entry-card-count empty" id="entry-weak-count">0题</div>
+          </div>
+          <span class="entry-arrow">›</span>
+        </div>
+        <div class="entry-card mastered" data-action="start-entry" data-entry="mastered">
+          <div class="entry-card-icon">✅</div>
+          <div class="entry-card-body">
+            <div class="entry-card-title">熟练掌握</div>
+            <div class="entry-card-count empty" id="entry-mastered-count">0题</div>
+          </div>
+          <span class="entry-arrow">›</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRACTICE VIEW ===== -->
+    <section id="view-practice" class="view">
+      <div class="view-toolbar">
+        <button class="back-home-btn" data-action="nav" data-view="home">← 返回</button>
+        <span class="view-title" id="practice-view-title">选择科目</span>
+      </div>
+      <div id="practice-entry-info" class="practice-entry-info" style="display:none">
+        <span id="practice-entry-label"></span>
+        <span id="practice-entry-count"></span>
+      </div>
+      <div class="subjects-grid" id="subjects-grid">
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="math">数学</button>
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="english">英语</button>
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="chinese">语文</button>
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="science">科学</button>
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="biology">生物</button>
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="history">历史</button>
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="geography">地理</button>
+        <button class="subject-grid-btn" data-action="start-subject" data-subject="politics">道法</button>
+      </div>
+      <div id="question-container">
+        <p class="placeholder">选择科目开始练习</p>
+      </div>
+    </section>
+
+    <!-- ===== PROGRESS VIEW ===== -->
+    <section id="view-progress" class="view">
+      <div class="view-toolbar">
+        <button class="back-home-btn" data-action="nav" data-view="home">← 返回</button>
+        <span class="view-title">打卡记录</span>
+      </div>
+      <div id="history-container">
+        <p class="placeholder">加载中...</p>
+      </div>
+    </section>
+
+    <!-- ===== SETTINGS VIEW ===== -->
+    <section id="view-settings" class="view">
+      <div class="view-toolbar">
+        <button class="back-home-btn" data-action="nav" data-view="home">← 返回</button>
+        <span class="view-title">设置</span>
+      </div>
+      <div id="settings-content">
+        <p class="placeholder">加载中...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>百日闯 · 初二学习打卡</p>
+  </footer>
+</div>
+
+<!-- ===== FLOATING MODALS ===== -->
+<div id="pwa-install-banner" class="float-card" style="display:none;top:12px">
+  <span>安装百日闯到桌面</span>
+  <button class="pwa-install-btn" id="pwa-install-btn" data-action="install-pwa">安装</button>
+  <button class="float-close" data-action="dismiss-pwa">×</button>
+</div>
+
+<div id="checkin-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px">
+    <div class="modal-emoji">🎉</div>
+    <p class="modal-title">打卡成功！</p>
+    <div class="checkin-stats">
+      <div class="checkin-stat-item">
+        <span class="checkin-stat-num" id="modal-streak">0</span>
+        <span class="checkin-stat-label">连续天数</span>
+      </div>
+      <div class="checkin-stat-item">
+        <span class="checkin-stat-num" id="modal-total">0</span>
+        <span class="checkin-stat-label">累计打卡</span>
+      </div>
+      <div class="checkin-stat-item">
+        <span class="checkin-stat-num" id="modal-week">0</span>
+        <span class="checkin-stat-label">本周</span>
+      </div>
+    </div>
+    <button class="primary-btn" data-action="close-checkin-modal" style="margin-top:16px">好的</button>
   </div>
+</div>
 
-  <!-- ===== SCRIPTS ===== -->
-  <script>
-    // Global nav functions — always use direct view switching (module supplements later)
-    window.nav = function(hash) {
-      document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
-      if (!hash || hash === '#/index') {
-        document.getElementById('home-view').classList.add('active');
-      } else if (hash === '#/practice') {
-        document.getElementById('practice-view').classList.add('active');
-      } else if (hash === '#/progress') {
-        document.getElementById('progress-view').classList.add('active');
-        if (window.loadProgressView) window.loadProgressView();
-      } else if (hash === '#/wrong') {
-        document.getElementById('wrong-view').classList.add('active');
-        if (window.loadWrongView) window.loadWrongView();
-      } else if (hash === '#/settings') {
-        document.getElementById('settings-view').classList.add('active');
-        if (window.loadSettingsView) window.loadSettingsView();
-      } else if (hash === '#/mastery') {
-        document.getElementById('mastery-view') && document.getElementById('mastery-view').classList.add('active');
-        if (window.loadMasteryView) window.loadMasteryView('math', 'tag');
-      } else {
-        document.getElementById('home-view').classList.add('active');
-      }
-    };
-    window.startEntry = function(entry) {
-      window.practiceEntry = entry;
-      showView('practice');
-    };
-    window.startSubject = function(subject) {
-      if (window._startSubject) window._startSubject(subject);
-    };
-    window.showView = function(name) {
-      document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
-      var el = document.getElementById(name + '-view');
-      if (el) el.classList.add('active');
-      // Load view-specific data
-      if (name === 'home' && window.refreshUI) window.refreshUI();
-      else if (name === 'progress' && window.loadProgressView) window.loadProgressView();
-      else if (name === 'wrong' && window.loadWrongView) window.loadWrongView();
-      else if (name === 'settings' && window.loadSettingsView) window.loadSettingsView();
-      else if (name === 'mastery' && window.loadMasteryView) window.loadMasteryView('math', 'tag');
-    };
-    window.dismissPwaBanner = function() {
-      var b = document.getElementById('pwa-install-banner');
-      if (b) b.style.display = 'none';
-    };
-  </script>
+<div id="toast" class="toast" style="display:none"></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/idb-keyval@3.0.0/dist/idb-keyval-iife.min.js"></script>
-  <script>
-    window.get = window.idbKeyval.get;
-    window.set = window.idbKeyval.set;
-    window.del = window.idbKeyval.del;
-    window.clear = window.idbKeyval.clear;
-    window.keys = window.idbKeyval.keys;
-  </script>
-  <script type="module" src="js/checkin.js"></script>
-  <script type="module" src="js/question_bank.js"></script>
-  <script type="module" src="js/app.js?v=158"></script>
+<!-- ===== SCRIPTS ===== -->
+<script src="https://cdn.jsdelivr.net/npm/idb-keyval@3.0.0/dist/idb-keyval-iife.min.js"></script>
+<script>
+  window.get = window.idbKeyval.get;
+  window.set = window.idbKeyval.set;
+  window.del = window.idbKeyval.del;
+  window.clear = window.idbKeyval.clear;
+  window.keys = window.idbKeyval.keys;
+</script>
+<script src="app.js"></script>
 </body>
 </html>

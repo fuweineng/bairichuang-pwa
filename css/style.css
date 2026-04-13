@@ -1470,6 +1470,79 @@ main {
 .green { color: #4CAF50; }
 .red { color: #e53935; }
 
+/* ==================== SESSION END ==================== */
+.session-end { text-align: center; padding: 24px 16px; }
+.session-score { margin: 16px 0; }
+.session-score .big-num { font-size: 2.5rem; font-weight: 700; color: #4CAF50; display: block; }
+.session-score span:last-child { font-size: 1rem; color: #666; }
+.session-daily { background: #f5f5f5; border-radius: 8px; padding: 10px; margin: 10px 0; }
+.session-daily p { margin: 4px 0; font-size: 0.85rem; color: #555; }
+
+/* ==================== QUESTION META ==================== */
+.question-meta { display: flex; gap: 10px; font-size: 0.75rem; color: #888; margin-bottom: 10px; flex-wrap: wrap; }
+.question-meta span { background: #eee; padding: 2px 8px; border-radius: 4px; }
+.question-progress { margin-left: auto; }
+.question-text { font-size: 1.05rem; line-height: 1.6; margin: 8px 0 16px; }
+.answer-grid { display: flex; flex-direction: column; gap: 8px; }
+.answer-btn {
+  background: white; border: 1px solid #ddd; border-radius: 8px;
+  padding: 10px 14px; font-size: 0.95rem; text-align: left;
+  cursor: pointer; transition: all 0.15s;
+}
+.answer-btn:hover { background: #f5f5f5; border-color: #4CAF50; }
+.answer-btn:active { transform: scale(0.98); }
+.fb-correct { color: #4CAF50; font-weight: 600; }
+.fb-wrong { color: #e53935; font-weight: 600; }
+.explanation { font-size: 0.8rem; color: #666; margin-top: 6px; line-height: 1.5; }
+
+/* ==================== PROGRESS ==================== */
+.progress-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.progress-stat { background: white; border-radius: 10px; padding: 12px; text-align: center; }
+.ps-num { font-size: 1.8rem; font-weight: 700; color: #4CAF50; display: block; }
+.ps-label { font-size: 0.72rem; color: #999; }
+.chart-container { background: white; border-radius: 10px; padding: 12px; }
+.chart-svg { width: 100%; height: auto; }
+
+/* ==================== LISTENING / TTS ==================== */
+.listen-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #e3f2fd;
+  color: #1565c0;
+  border: 1.5px solid #1565c0;
+  border-radius: 24px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0 auto 12px;
+  transition: background 0.2s, opacity 0.2s;
+}
+.listen-btn:hover { background: #bbdefb; }
+.listen-btn:disabled { opacity: 0.6; cursor: default; }
+.chart-line { stroke: #4CAF50; stroke-width: 2; }
+.chart-area { fill: #e8f5e9; }
+.chart-dot { fill: #4CAF50; }
+.chart-xlabel { font-size: 9px; fill: #999; text-anchor: middle; }
+.chart-ylabel { font-size: 9px; fill: #999; }
+.history-list { display: flex; flex-direction: column; gap: 6px; }
+.history-row { background: white; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; gap: 8px; }
+.history-date { font-size: 0.8rem; color: #888; flex: 1; }
+.history-score { font-weight: 600; color: #4CAF50; font-size: 0.9rem; }
+.history-detail { font-size: 0.75rem; color: #aaa; }
+
+/* ==================== SETTINGS ==================== */
+.settings-hint { font-size: 0.75rem; color: #999; margin-top: 6px; }
+.settings-val { font-size: 0.85rem; color: #666; }
+
+/* ==================== DANGER BTN ==================== */
+.danger-btn {
+  width: 100%; padding: 10px; background: #ffcdd2; color: #c62828;
+  border: none; border-radius: 8px; font-size: 0.9rem; cursor: pointer;
+}
+.danger-btn:hover { background: #ef9a9a; }
+
 /* ==================== FOOTER ==================== */
 footer {
   padding: 8px;
