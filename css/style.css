@@ -323,6 +323,65 @@ main {
   background-color: #e0e0e0;
 }
 
+/* Question Styles */
+.question {
+  margin-bottom: 10px;
+}
+
+.question-type {
+  color: #999;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.question-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.option-btn {
+  width: 100%;
+  padding: 16px 14px;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+  min-height: 54px;
+}
+
+.option-btn:hover {
+  border-color: #4CAF50;
+  color: #4CAF50;
+}
+
+.option-btn.correct {
+  background-color: #4CAF50;
+  color: white;
+  border-color: #4CAF50;
+}
+
+.option-btn.wrong {
+  background-color: #e53935;
+  color: white;
+  border-color: #e53935;
+}
+
+.option-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+
 /* Footer */
 footer {
   text-align: center;
