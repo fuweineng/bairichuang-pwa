@@ -422,6 +422,121 @@ main {
   font-family: monospace;
 }
 
+/* Progress bar chart */
+.progress-summary-row {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.progress-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.progress-stat-num {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #4CAF50;
+}
+
+.progress-stat-label {
+  font-size: 0.7rem;
+  color: #999;
+}
+
+.chart-label {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  color: #999;
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-dot.checked { background: #4CAF50; }
+.legend-dot.practiced { background: #FF9800; }
+
+/* Settings profile */
+.profile-name-input {
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.85rem;
+  outline: none;
+  width: 140px;
+  transition: border-color 0.2s;
+}
+
+.profile-name-input:focus {
+  border-color: #4CAF50;
+}
+
+.profile-stats-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.profile-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.profile-stat-num {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #4CAF50;
+}
+
+.profile-stat-label {
+  font-size: 0.68rem;
+  color: #999;
+}
+
+.settings-action-btn {
+  width: 100%;
+  padding: 12px;
+  background: #e8f5e9;
+  color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.2s;
+}
+
+.settings-action-btn:hover { background: #c8e6c9; }
+
 
 .home-actions {
   display: flex;

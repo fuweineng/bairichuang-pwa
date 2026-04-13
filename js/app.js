@@ -94,20 +94,6 @@ function navigate(route) {
 
 // Bind UI events
 function bindEvents() {
-  // Checkin button
-  const checkinBtn = document.getElementById('checkin-btn');
-  if (checkinBtn) {
-    checkinBtn.addEventListener('click', async () => {
-      const result = await checkin();
-      await refreshUI();
-      if (result.success) {
-        showCheckinSuccessModal(result.streak);
-      } else {
-        showToast(result.message);
-      }
-    });
-  }
-
   // Route buttons
   document.querySelectorAll('[data-route]').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -206,16 +192,6 @@ async function refreshUI() {
     streakCount.textContent = streak;
   }
 
-  // Update checkin button state
-  const checkinBtn = document.getElementById('checkin-btn');
-  if (checkinBtn) {
-    const today = new Date().toISOString().split('T')[0];
-    const history = await getCheckinHistoryList();
-    const checkedToday = history.some(h => h.date === today);
-    checkinBtn.disabled = checkedToday;
-    checkinBtn.textContent = checkedToday ? '今日已打卡' : '今日打卡';
-  }
-
   // Update today stats
   const today = new Date().toISOString().split('T')[0];
   const history = await getCheckinHistoryList();
@@ -277,6 +253,13 @@ async function refreshUI() {
 
 // Start a new practice session
 async function startPracticeSession(subject) {
+  // Auto-checkin when starting practice
+  const result = await checkin();
+  if (result.success) {
+    // Show subtle toast
+    showToast(`🎉 打卡成功！连续${result.streak}天`);
+  }
+
   const questions = await getQuestionsBySubject(subject);
   if (questions.length === 0) return;
 
@@ -430,17 +413,17 @@ async function handleFillSubmit(q) {
   const blankCount = answers.length;
 
   if (blankCount === 1) {
-    // Single blank — original logic
+    // Single blank
     const input = container.querySelector('.fill-input[data-blank="0"]');
     if (!input) return;
     const userAnswer = input.value.trim();
     if (!userAnswer) return;
 
-    const isCorrect = userAnswer === q.answer || userAnswer === q.answer.replace(/[\s　]+/g, '').trim();
+    const isCorrect = userAnswer === answers[0] || userAnswer === answers[0].replace(/[\s　]+/g, '').trim();
     await processAnswer(q, userAnswer, isCorrect, () => {
       input.disabled = true;
       const submitBtn = container.querySelector('.fill-submit-btn');
-      if (submitBtn) submitBtn.disabled = true;
+      if (submitBtn) { submitBtn.disabled = true; submitBtn.style.display = 'none'; }
       const fillArea = container.querySelector('.fill-area');
       if (fillArea) {
         const feedback = document.createElement('div');
@@ -469,20 +452,14 @@ async function handleFillSubmit(q) {
       }
     });
     const allCorrect = correctCount === blankCount;
-    const isCorrect = allCorrect;
 
-    // Record with pipe-separated answers
-    await processAnswer(q, userAnswers.join(' | '), isCorrect, () => {
+    await processAnswer(q, userAnswers.join(' | '), allCorrect, () => {
       // Mark each input correct/wrong
       inputs.forEach((input, i) => {
         input.disabled = true;
         const ua = input.value.trim();
         const ac = ua === answers[i] || ua === answers[i].replace(/[\s　]+/g, '').trim();
-        if (ac) {
-          input.classList.add('fill-correct-border');
-        } else {
-          input.classList.add('fill-wrong-border');
-        }
+        input.classList.add(ac ? 'fill-correct-border' : 'fill-wrong-border');
       });
 
       // Show summary feedback
@@ -493,13 +470,14 @@ async function handleFillSubmit(q) {
         if (allCorrect) {
           feedback.textContent = `✓ 全部正确！`;
         } else {
-          feedback.textContent = `✗ 第 ${userAnswers.map((ua, i) => ua !== answers[i] ? i + 1 : null).filter(x => x).join('、')} 空填写错误，正确答案：${answers.join(' | ')}`;
+          const wrongBlanks = userAnswers.map((ua, i) => ua !== answers[i] ? i + 1 : null).filter(x => x).join('、');
+          feedback.textContent = `✗ 第 ${wrongBlanks} 空填写错误，正确答案：${answers.join(' | ')}`;
         }
         blanksArea.appendChild(feedback);
       }
 
       const submitBtn = container.querySelector('.fill-submit-btn');
-      if (submitBtn) submitBtn.disabled = true;
+      if (submitBtn) { submitBtn.disabled = true; submitBtn.style.display = 'none'; }
       addNextButton(container, q);
     });
   }
@@ -529,7 +507,7 @@ async function handleShortAnswerSubmit(q) {
       feedback.textContent = `参考：${q.answer}`;
     }
     const submitBtn = container.querySelector('.fill-submit-btn');
-    if (submitBtn) submitBtn.disabled = true;
+    if (submitBtn) { submitBtn.disabled = true; submitBtn.style.display = 'none'; }
     addNextButton(container, q);
   });
 }
@@ -659,6 +637,15 @@ function resetPracticeView() {
   sessionSubject = null;
   document.querySelectorAll('.subject-grid-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('question-container').innerHTML = '<p class="placeholder">选择科目开始练习</p>';
+}
+
+// Show feedback modal
+function showFeedbackModal() {
+  const modal = document.getElementById('feedback-modal');
+  if (!modal) return;
+  modal.style.display = 'flex';
+  document.getElementById('feedback-text').value = '';
+  document.getElementById('feedback-status').textContent = '';
 }
 
 // Show checkin success modal
@@ -1163,6 +1150,24 @@ async function renderMasteryByType(container, subject) {
 
 // ==================== Settings View ====================
 
+async function loadProfileStats() {
+  const progress = await getProgress() || {};
+  const total = Object.keys(progress).length;
+  let correct = 0;
+  let best = 0;
+  for (const entry of Object.values(progress)) {
+    if (entry.isCorrect) correct++;
+  }
+  const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+  const totalEl = document.getElementById('profile-total');
+  const accuracyEl = document.getElementById('profile-accuracy');
+  const bestEl = document.getElementById('profile-best');
+  if (totalEl) totalEl.textContent = total;
+  if (accuracyEl) accuracyEl.textContent = total > 0 ? accuracy + '%' : '--%';
+  if (bestEl) bestEl.textContent = total > 0 ? accuracy + '%' : '--%';
+}
+
 async function loadSettingsView() {
   const container = document.getElementById('settings-content');
   if (!container) return;
@@ -1188,6 +1193,27 @@ async function loadSettingsView() {
         </div>
       </div>
     </div>
+    <div class="settings-card">
+      <div class="settings-row" style="align-items:center">
+        <span class="settings-label">我的昵称</span>
+        <input type="text" id="profile-name-input" class="profile-name-input" value="${settings.profileName || ''}" placeholder="设置昵称" maxlength="20" />
+      </div>
+      <div class="profile-stats-row">
+        <div class="profile-stat">
+          <span class="profile-stat-num" id="profile-total">0</span>
+          <span class="profile-stat-label">累计答题</span>
+        </div>
+        <div class="profile-stat">
+          <span class="profile-stat-num" id="profile-accuracy">--%</span>
+          <span class="profile-stat-label">总正确率</span>
+        </div>
+        <div class="profile-stat">
+          <span class="profile-stat-num" id="profile-best">--%</span>
+          <span class="profile-stat-label">最佳记录</span>
+        </div>
+      </div>
+    </div>
+    <button class="settings-action-btn" id="feedback-btn">💬 意见反馈</button>
     <button class="settings-danger-btn" id="clear-all-btn">清除所有数据</button>
   `;
 
@@ -1226,6 +1252,20 @@ async function loadSettingsView() {
       refreshUI();
     }
   });
+
+  // Profile name save on blur
+  const nameInput = document.getElementById('profile-name-input');
+  if (nameInput) {
+    nameInput.addEventListener('blur', async () => {
+      await saveSetting('profileName', nameInput.value.trim());
+    });
+  }
+
+  // Load profile stats
+  loadProfileStats();
+
+  // Feedback button
+  document.getElementById('feedback-btn').addEventListener('click', showFeedbackModal);
 }
 
 // ==================== PWA Install Banner ====================
@@ -1257,31 +1297,123 @@ async function installPWA() {
   dismissPwaBanner();
 }
 
-// Load progress view
+// Load progress view with bar chart
 async function loadProgressView() {
   const container = document.getElementById('history-container');
   if (!container) return;
 
   const history = await getCheckinHistoryList();
+  const meta = await getCheckinMeta();
+  const checkinDates = new Set(Object.keys(history));
 
-  if (history.length === 0) {
-    container.innerHTML = '<p class="placeholder">暂无打卡记录</p>';
-    return;
+  // Load practice progress and group by date
+  const progress = await getProgress() || {};
+  const dailyCounts = {};
+  for (const entry of Object.values(progress)) {
+    if (entry.timestamp) {
+      const d = new Date(entry.timestamp).toISOString().split('T')[0];
+      dailyCounts[d] = (dailyCounts[d] || 0) + 1;
+    }
   }
 
-  let html = '';
-  history.slice(0, 10).forEach(item => {
-    const date = new Date(item.date);
-    const dateStr = `${date.getMonth() + 1}月${date.getDate()}日 ${date.getFullYear()}`;
-    html += `
-      <div class="checkin-item">
-        <span>${dateStr}</span>
-        <span style="color: #4CAF50;">✓ 已打卡</span>
-      </div>
-    `;
-  });
+  // Build last 14 days
+  const days = [];
+  const today = new Date();
+  for (let i = 13; i >= 0; i--) {
+    const d = new Date(today);
+    d.setDate(today.getDate() - i);
+    const dateStr = d.toISOString().split('T')[0];
+    const dayLabel = `${d.getMonth() + 1}/${d.getDate()}`;
+    const checked = checkinDates.has(dateStr);
+    const count = dailyCounts[dateStr] || 0;
+    days.push({ date: dateStr, label: dayLabel, checked, count, isToday: i === 0 });
+  }
 
-  container.innerHTML = html;
+  const totalCheckins = Object.keys(history).length;
+  const streak = await getCheckinStreak();
+
+  container.innerHTML = `
+    <div class="progress-summary-row">
+      <div class="progress-stat">
+        <span class="progress-stat-num">${streak}</span>
+        <span class="progress-stat-label">连续打卡</span>
+      </div>
+      <div class="progress-stat">
+        <span class="progress-stat-num">${totalCheckins}</span>
+        <span class="progress-stat-label">累计打卡</span>
+      </div>
+      <div class="progress-stat">
+        <span class="progress-stat-num">${days.filter(d => d.count > 0).length}</span>
+        <span class="progress-stat-label">练习日</span>
+      </div>
+    </div>
+    <div class="chart-label">每日答题量（近14天）</div>
+    <canvas id="progress-bar-canvas"></canvas>
+    <div class="chart-legend">
+      <span class="legend-item"><span class="legend-dot checked"></span>已打卡</span>
+      <span class="legend-item"><span class="legend-dot practiced"></span>有练习</span>
+    </div>
+  `;
+
+  // Draw bar chart
+  const canvas = document.getElementById('progress-bar-canvas');
+  if (canvas) drawProgressBarChart(canvas, days);
+}
+
+function drawProgressBarChart(canvas, days) {
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const containerW = canvas.offsetWidth || 320;
+  const W = containerW * 2;
+  const H = 140 * 2;
+  canvas.width = W;
+  canvas.height = H;
+  canvas.style.width = containerW + 'px';
+  canvas.style.height = '140px';
+  ctx.scale(dpr, dpr);
+
+  const padL = 8, padR = 8, padT = 12, padB = 28;
+  const chartW = containerW - padL - padR;
+  const chartH = 140 - padT - padB;
+
+  ctx.clearRect(0, 0, containerW, 140);
+
+  const maxCount = Math.max(...days.map(d => d.count), 5);
+  const barW = Math.min(16, (chartW / days.length) - 4);
+  const gap = (chartW - barW * days.length) / (days.length + 1);
+
+  days.forEach((d, i) => {
+    const x = padL + gap + i * (barW + gap);
+    const barH = d.count > 0 ? (d.count / maxCount) * chartH : 4;
+    const y = padT + chartH - barH;
+
+    // Color: green if checked, orange if practiced but not checked, gray if none
+    if (d.checked) {
+      ctx.fillStyle = '#4CAF50';
+    } else if (d.count > 0) {
+      ctx.fillStyle = '#FF9800';
+    } else {
+      ctx.fillStyle = '#e0e0e0';
+    }
+
+    // Rounded top
+    ctx.beginPath();
+    ctx.roundRect(x, y, barW, barH, [3, 3, 0, 0]);
+    ctx.fill();
+
+    // Day label below
+    ctx.fillStyle = d.isToday ? '#4CAF50' : '#aaa';
+    ctx.font = `${9 * dpr}px sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.fillText(d.label, x + barW / 2, padT + chartH + 14);
+
+    // Count above bar if > 0
+    if (d.count > 0) {
+      ctx.fillStyle = '#666';
+      ctx.font = `bold ${9 * dpr}px sans-serif`;
+      ctx.fillText(d.count, x + barW / 2, y - 3);
+    }
+  });
 }
 
 // Load wrong questions view
