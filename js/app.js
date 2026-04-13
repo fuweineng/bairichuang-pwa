@@ -126,18 +126,6 @@ function bindEvents() {
     });
   });
 
-  // Practice: Difficulty filter buttons — saves to settings and restarts
-  document.querySelectorAll('.diff-btn').forEach(btn => {
-    btn.addEventListener('click', async () => {
-      const difficulty = btn.dataset.difficulty === '' ? null : parseInt(btn.dataset.difficulty);
-      document.querySelectorAll('.diff-btn').forEach(b => b.classList.toggle('active', b === btn));
-      await saveSetting('difficultyFilter', difficulty);
-      if (sessionSubject) {
-        await startPracticeSession(sessionSubject);
-      }
-    });
-  });
-
   // Mastery subject tabs
   document.querySelectorAll('.mastery-subject-tabs .tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -388,6 +376,13 @@ function renderCurrentQuestion() {
       });
       html += `</div><div class="fill-multi-submit-row"><button class="primary-btn fill-submit-btn">提交全部</button></div>`;
     }
+  } else if (q.type === 'short_answer') {
+    // Short answer: textarea input
+    html += `
+      <textarea class="short-answer-input" placeholder="请输入你的答案..." rows="4" style="width:100%;margin-top:12px;padding:12px;font-size:0.9rem;border:2px solid #ddd;border-radius:10px;resize:none;outline:none;font-family:inherit;box-sizing:border-box;transition:border-color 0.2s" onfocus="this.style.borderColor='#4CAF50'" onblur="this.style.borderColor='#ddd'"></textarea>
+      <div class="fill-feedback" style="display:none"></div>
+      <button class="primary-btn fill-submit-btn" style="margin-top:10px">提交答案</button>
+    `;
   }
 
   container.innerHTML = html;
@@ -402,6 +397,14 @@ function renderCurrentQuestion() {
     const input = container.querySelector('.fill-input');
     if (submitBtn) submitBtn.addEventListener('click', () => handleFillSubmit(q));
     if (input) input.addEventListener('keydown', e => { if (e.key === 'Enter') handleFillSubmit(q); });
+  } else if (q.type === 'short_answer') {
+    // Short answer: textarea input
+    const submitBtn = container.querySelector('.fill-submit-btn');
+    if (submitBtn) submitBtn.addEventListener('click', () => handleShortAnswerSubmit(q));
+    const textarea = container.querySelector('.short-answer-input');
+    if (textarea) textarea.addEventListener('keydown', e => {
+      if (e.key === 'Enter' && e.ctrlKey) handleShortAnswerSubmit(q);
+    });
   }
 }
 
@@ -445,6 +448,7 @@ async function handleFillSubmit(q) {
         feedback.textContent = isCorrect ? '✓ 正确！' : `✗ 正确答案：${q.answer}`;
         fillArea.appendChild(feedback);
       }
+      addNextButton(container, q);
     });
   } else {
     // Multi-blank — check all inputs
@@ -496,8 +500,53 @@ async function handleFillSubmit(q) {
 
       const submitBtn = container.querySelector('.fill-submit-btn');
       if (submitBtn) submitBtn.disabled = true;
+      addNextButton(container, q);
     });
   }
+}
+
+// Short answer submission
+async function handleShortAnswerSubmit(q) {
+  const container = document.getElementById('question-container');
+  const textarea = container.querySelector('.short-answer-input');
+  const feedback = container.querySelector('.fill-feedback');
+  if (!textarea || !feedback) return;
+
+  const userAnswer = textarea.value.trim();
+  if (!userAnswer) return;
+
+  const expected = q.answer.toLowerCase();
+  const given = userAnswer.toLowerCase();
+  const isCorrect = given.includes(expected) || expected.split(' ').filter(w => w.length > 2).every(w => given.includes(w));
+
+  await processAnswer(q, userAnswer, isCorrect, () => {
+    textarea.disabled = true;
+    feedback.style.display = 'block';
+    feedback.className = `fill-feedback ${isCorrect ? 'correct' : 'wrong'}`;
+    if (isCorrect) {
+      feedback.textContent = '✓ 回答正确！';
+    } else {
+      feedback.textContent = `参考：${q.answer}`;
+    }
+    const submitBtn = container.querySelector('.fill-submit-btn');
+    if (submitBtn) submitBtn.disabled = true;
+    addNextButton(container, q);
+  });
+}
+
+// Show next/finish button for non-choice questions
+function addNextButton(container, q) {
+  const isLast = sessionIndex >= sessionQuestions.length - 1;
+  const nextLabel = isLast ? '查看结果' : '下一题';
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'primary-btn';
+  nextBtn.style.marginTop = '16px';
+  nextBtn.textContent = nextLabel;
+  nextBtn.addEventListener('click', () => {
+    sessionIndex++;
+    renderCurrentQuestion();
+  });
+  container.appendChild(nextBtn);
 }
 
 // Process answer: save progress, update scores, record knowledge

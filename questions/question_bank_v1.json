@@ -832,7 +832,7 @@
   },
   {
     "id": "english-014",
-    "type": "short_answer",
+    "type": "fill",
     "subject": "english",
     "difficulty": 3,
     "grade": 8,
@@ -840,9 +840,9 @@
       "阅读理解",
       "主旨大意"
     ],
-    "question": "Read the passage and answer: What is the main idea of the passage? (About the importance of reading)",
+    "question": "Reading is important because it helps us _____ (knowledge) and develop critical thinking.",
     "options": null,
-    "answer": "Reading is important for knowledge and personal growth",
+    "answer": "gain knowledge",
     "explanation": "The passage mainly discusses how reading helps people gain knowledge and develop critical thinking skills."
   },
   {
@@ -3614,7 +3614,7 @@
   },
   {
     "id": "math-029",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3628,7 +3628,7 @@
   },
   {
     "id": "math-030",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3642,7 +3642,7 @@
   },
   {
     "id": "math-031",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3656,7 +3656,7 @@
   },
   {
     "id": "math-032",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3670,7 +3670,7 @@
   },
   {
     "id": "math-033",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3684,7 +3684,7 @@
   },
   {
     "id": "math-034",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3698,7 +3698,7 @@
   },
   {
     "id": "math-035",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3712,7 +3712,7 @@
   },
   {
     "id": "math-036",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3726,7 +3726,7 @@
   },
   {
     "id": "math-037",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3740,7 +3740,7 @@
   },
   {
     "id": "math-038",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 3,
     "grade": 8,
@@ -3754,7 +3754,7 @@
   },
   {
     "id": "math-039",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3768,7 +3768,7 @@
   },
   {
     "id": "math-040",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3782,7 +3782,7 @@
   },
   {
     "id": "math-041",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3796,7 +3796,7 @@
   },
   {
     "id": "math-042",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3810,7 +3810,7 @@
   },
   {
     "id": "math-043",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3824,7 +3824,7 @@
   },
   {
     "id": "math-044",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3838,7 +3838,7 @@
   },
   {
     "id": "math-045",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3852,7 +3852,7 @@
   },
   {
     "id": "math-046",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3866,7 +3866,7 @@
   },
   {
     "id": "math-047",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3880,7 +3880,7 @@
   },
   {
     "id": "math-048",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3894,7 +3894,7 @@
   },
   {
     "id": "math-049",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3908,7 +3908,7 @@
   },
   {
     "id": "math-050",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3922,7 +3922,7 @@
   },
   {
     "id": "math-051",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3936,7 +3936,7 @@
   },
   {
     "id": "math-052",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3950,7 +3950,7 @@
   },
   {
     "id": "math-053",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3964,7 +3964,7 @@
   },
   {
     "id": "math-054",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -3978,7 +3978,7 @@
   },
   {
     "id": "math-055",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -3992,7 +3992,7 @@
   },
   {
     "id": "math-056",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4006,7 +4006,7 @@
   },
   {
     "id": "math-057",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4020,7 +4020,7 @@
   },
   {
     "id": "math-058",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4034,7 +4034,7 @@
   },
   {
     "id": "math-059",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4048,7 +4048,7 @@
   },
   {
     "id": "math-060",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4062,7 +4062,7 @@
   },
   {
     "id": "math-061",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4076,7 +4076,7 @@
   },
   {
     "id": "math-062",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4090,7 +4090,7 @@
   },
   {
     "id": "math-063",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4104,7 +4104,7 @@
   },
   {
     "id": "math-064",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4118,7 +4118,7 @@
   },
   {
     "id": "math-065",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4132,7 +4132,7 @@
   },
   {
     "id": "math-066",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4146,7 +4146,7 @@
   },
   {
     "id": "math-067",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4160,7 +4160,7 @@
   },
   {
     "id": "math-068",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4174,7 +4174,7 @@
   },
   {
     "id": "math-069",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4188,7 +4188,7 @@
   },
   {
     "id": "math-070",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4202,7 +4202,7 @@
   },
   {
     "id": "math-071",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4216,7 +4216,7 @@
   },
   {
     "id": "math-072",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4230,7 +4230,7 @@
   },
   {
     "id": "math-073",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4244,7 +4244,7 @@
   },
   {
     "id": "math-074",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4258,7 +4258,7 @@
   },
   {
     "id": "math-075",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4272,7 +4272,7 @@
   },
   {
     "id": "math-076",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -4286,7 +4286,7 @@
   },
   {
     "id": "math-077",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 1,
     "grade": 8,
@@ -4300,7 +4300,7 @@
   },
   {
     "id": "math-078",
-    "type": "choice",
+    "type": "fill",
     "subject": "math",
     "difficulty": 2,
     "grade": 8,
@@ -5577,7 +5577,7 @@
   },
   {
     "id": "chinese-045",
-    "type": "choice",
+    "type": "fill",
     "subject": "chinese",
     "difficulty": 1,
     "grade": 8,
@@ -12083,7 +12083,7 @@
   },
   {
     "id": "chinese-099",
-    "type": "choice",
+    "type": "fill",
     "subject": "chinese",
     "difficulty": 2,
     "grade": 8,
