@@ -115,17 +115,34 @@ function bindEvents() {
     });
   });
 
-  // Subject buttons
-  document.querySelectorAll('.subject-btn').forEach(btn => {
+  // Practice: Subject grid buttons
+  document.querySelectorAll('.subject-grid-btn').forEach(btn => {
     btn.addEventListener('click', async () => {
       const subject = btn.dataset.subject;
+      // Highlight active
+      document.querySelectorAll('.subject-grid-btn').forEach(b => b.classList.toggle('active', b === btn));
+      // Start session
       await startPracticeSession(subject);
+    });
+  });
+
+  // Practice: Difficulty filter buttons
+  document.querySelectorAll('.diff-btn').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const difficulty = btn.dataset.difficulty === '' ? null : parseInt(btn.dataset.difficulty);
+      document.querySelectorAll('.diff-btn').forEach(b => b.classList.toggle('active', b === btn));
+      // Save to settings and restart current session
+      if (sessionSubject) {
+        await saveSetting('difficultyFilter', difficulty);
+        await startPracticeSession(sessionSubject);
+      }
     });
   });
 
   // Mastery subject tabs
   document.querySelectorAll('.mastery-subject-tabs .tab-btn').forEach(btn => {
     btn.addEventListener('click', () => {
+      document.querySelectorAll('.mastery-subject-tabs .tab-btn').forEach(b => b.classList.toggle('active', b === btn));
       loadMasteryView(btn.dataset.subject, currentMasteryType);
     });
   });
@@ -133,6 +150,7 @@ function bindEvents() {
   // Mastery type tabs
   document.querySelectorAll('.mastery-type-tabs .type-tab').forEach(btn => {
     btn.addEventListener('click', () => {
+      document.querySelectorAll('.mastery-type-tabs .type-tab').forEach(b => b.classList.toggle('active', b === btn));
       loadMasteryView(currentMasterySubject, btn.dataset.type);
     });
   });
@@ -152,10 +170,12 @@ function bindEvents() {
     });
   }
 
-  document.getElementById('feedback-cancel').addEventListener('click', () => {
+  // Feedback close
+  document.getElementById('feedback-close').addEventListener('click', () => {
     document.getElementById('feedback-modal').style.display = 'none';
   });
 
+  // Feedback submit
   document.getElementById('feedback-submit').addEventListener('click', async () => {
     const text = document.getElementById('feedback-text').value.trim();
     if (!text) {
@@ -164,11 +184,11 @@ function bindEvents() {
     }
     const btn = document.getElementById('feedback-submit');
     btn.disabled = true;
-    btn.textContent = '发送中...';
+    btn.textContent = '提交中...';
     document.getElementById('feedback-status').textContent = '';
     const result = await sendFeedback(text);
     btn.disabled = false;
-    btn.textContent = '发送';
+    btn.textContent = '提交反馈';
     if (result.saved) {
       document.getElementById('feedback-status').style.color = '#4CAF50';
       document.getElementById('feedback-status').textContent = '已提交，等待审批 ✓';
@@ -177,6 +197,16 @@ function bindEvents() {
     } else {
       document.getElementById('feedback-status').textContent = '提交失败，请重试';
     }
+  });
+
+  // Checkin modal close
+  document.getElementById('checkin-modal-close').addEventListener('click', () => {
+    document.getElementById('checkin-modal').style.display = 'none';
+  });
+
+  // Header settings button
+  document.getElementById('header-settings-btn').addEventListener('click', () => {
+    window.location.hash = '#/settings';
   });
 }
 
@@ -204,12 +234,13 @@ async function refreshUI() {
   const history = await getCheckinHistoryList();
   const checkedToday = history.some(h => h.date === today);
 
-  // Checkin icon
-  const checkinIcon = document.getElementById('today-checkin-icon');
+  // Checkin dot
+  const checkinDot = document.getElementById('today-checkin-dot');
   const checkinText = document.getElementById('today-checkin-text');
-  if (checkinIcon) {
-    checkinIcon.textContent = checkedToday ? '✓' : '○';
-    checkinIcon.classList.toggle('checked', checkedToday);
+  if (checkinDot) {
+    checkinDot.textContent = checkedToday ? '●' : '○';
+    checkinDot.classList.toggle('checked', checkedToday);
+    checkinDot.classList.toggle('unchecked', !checkedToday);
   }
   if (checkinText) {
     checkinText.textContent = checkedToday ? '已打卡' : '未打卡';
@@ -273,7 +304,7 @@ async function startPracticeSession(subject) {
   sessionSubject = subject;
 
   // Highlight active subject button
-  document.querySelectorAll('.subject-btn').forEach(b => {
+  document.querySelectorAll('.subject-grid-btn').forEach(b => {
     b.classList.toggle('active', b.dataset.subject === subject);
   });
 
@@ -314,14 +345,40 @@ function renderCurrentQuestion() {
     });
     html += '</div>';
   } else if (q.type === 'fill') {
-    html += `
-      <div class="fill-area">
-        <div class="fill-input-row">
-          <input type="text" class="fill-input" placeholder="请输入答案..." autocomplete="off" />
-          <button class="primary-btn fill-submit-btn">提交</button>
+    const answers = Array.isArray(q.answer) ? q.answer : [q.answer];
+    const blankCount = answers.length;
+
+    if (blankCount === 1) {
+      // Single blank — original layout
+      html += `
+        <div class="fill-area">
+          <div class="fill-input-row">
+            <input type="text" class="fill-input" data-blank="0" placeholder="请输入答案..." autocomplete="off" />
+            <button class="primary-btn fill-submit-btn">提交</button>
+          </div>
         </div>
-      </div>
-    `;
+      `;
+    } else {
+      // Multi-blank — one input per blank
+      const markedQuestion = q.question.replace(/_____/g, () => {
+        const idx = q._blankIndex = (q._blankIndex || 0);
+        q._blankIndex++;
+        return `<span class="blank-marker">[空${idx + 1}]</span>`;
+      });
+      q._blankIndex = 0; // reset for display
+
+      html += `<p class="question-text fill-multi-text">${markedQuestion}</p>`;
+      html += `<div class="fill-blanks-area">`;
+      answers.forEach((_, i) => {
+        html += `
+          <div class="fill-blank-row">
+            <label class="fill-blank-label">空${i + 1}</label>
+            <input type="text" class="fill-input fill-multi-input" data-blank="${i}" autocomplete="off" />
+          </div>
+        `;
+      });
+      html += `</div><div class="fill-multi-submit-row"><button class="primary-btn fill-submit-btn">提交全部</button></div>`;
+    }
   }
 
   container.innerHTML = html;
@@ -357,26 +414,81 @@ async function handleAnswer(optBtn, q) {
 // Handle fill-in-the-blank submission
 async function handleFillSubmit(q) {
   const container = document.getElementById('question-container');
-  const input = container.querySelector('.fill-input');
-  if (!input) return;
-  const userAnswer = input.value.trim();
-  if (!userAnswer) return;
+  const answers = Array.isArray(q.answer) ? q.answer : [q.answer];
+  const blankCount = answers.length;
 
-  // Normalize for comparison
-  const isCorrect = userAnswer === q.answer || userAnswer === q.answer.replace(/[\\s　]+/g, '').trim();
-  await processAnswer(q, userAnswer, isCorrect, () => {
-    input.disabled = true;
-    const submitBtn = container.querySelector('.fill-submit-btn');
-    if (submitBtn) submitBtn.disabled = true;
-    // Show correct answer in fill-area
-    const fillArea = container.querySelector('.fill-area');
-    if (fillArea) {
-      const feedback = document.createElement('div');
-      feedback.className = `fill-feedback ${isCorrect ? 'correct' : 'wrong'}`;
-      feedback.textContent = isCorrect ? '✓ 正确！' : `✗ 正确答案：${q.answer}`;
-      fillArea.appendChild(feedback);
-    }
-  });
+  if (blankCount === 1) {
+    // Single blank — original logic
+    const input = container.querySelector('.fill-input[data-blank="0"]');
+    if (!input) return;
+    const userAnswer = input.value.trim();
+    if (!userAnswer) return;
+
+    const isCorrect = userAnswer === q.answer || userAnswer === q.answer.replace(/[\s　]+/g, '').trim();
+    await processAnswer(q, userAnswer, isCorrect, () => {
+      input.disabled = true;
+      const submitBtn = container.querySelector('.fill-submit-btn');
+      if (submitBtn) submitBtn.disabled = true;
+      const fillArea = container.querySelector('.fill-area');
+      if (fillArea) {
+        const feedback = document.createElement('div');
+        feedback.className = `fill-feedback ${isCorrect ? 'correct' : 'wrong'}`;
+        feedback.textContent = isCorrect ? '✓ 正确！' : `✗ 正确答案：${q.answer}`;
+        fillArea.appendChild(feedback);
+      }
+    });
+  } else {
+    // Multi-blank — check all inputs
+    const inputs = container.querySelectorAll('.fill-multi-input');
+    const userAnswers = [];
+    let allEmpty = true;
+    inputs.forEach(input => {
+      const val = input.value.trim();
+      userAnswers.push(val);
+      if (val) allEmpty = false;
+    });
+    if (allEmpty) return;
+
+    let correctCount = 0;
+    userAnswers.forEach((ua, i) => {
+      if (ua === answers[i] || ua === answers[i].replace(/[\s　]+/g, '').trim()) {
+        correctCount++;
+      }
+    });
+    const allCorrect = correctCount === blankCount;
+    const isCorrect = allCorrect;
+
+    // Record with pipe-separated answers
+    await processAnswer(q, userAnswers.join(' | '), isCorrect, () => {
+      // Mark each input correct/wrong
+      inputs.forEach((input, i) => {
+        input.disabled = true;
+        const ua = input.value.trim();
+        const ac = ua === answers[i] || ua === answers[i].replace(/[\s　]+/g, '').trim();
+        if (ac) {
+          input.classList.add('fill-correct-border');
+        } else {
+          input.classList.add('fill-wrong-border');
+        }
+      });
+
+      // Show summary feedback
+      const blanksArea = container.querySelector('.fill-blanks-area');
+      if (blanksArea) {
+        const feedback = document.createElement('div');
+        feedback.className = `fill-feedback ${allCorrect ? 'correct' : 'wrong'}`;
+        if (allCorrect) {
+          feedback.textContent = `✓ 全部正确！`;
+        } else {
+          feedback.textContent = `✗ 第 ${userAnswers.map((ua, i) => ua !== answers[i] ? i + 1 : null).filter(x => x).join('、')} 空填写错误，正确答案：${answers.join(' | ')}`;
+        }
+        blanksArea.appendChild(feedback);
+      }
+
+      const submitBtn = container.querySelector('.fill-submit-btn');
+      if (submitBtn) submitBtn.disabled = true;
+    });
+  }
 }
 
 // Process answer: save progress, update scores, record knowledge
@@ -444,7 +556,7 @@ function resetPracticeView() {
   sessionIndex = 0;
   sessionScore = { correct: 0, wrong: 0 };
   sessionSubject = null;
-  document.querySelectorAll('.subject-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.subject-grid-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('question-container').innerHTML = '<p class="placeholder">选择科目开始练习</p>';
 }
 
@@ -452,7 +564,6 @@ function resetPracticeView() {
 async function showCheckinSuccessModal(streak) {
   const history = await getCheckinHistoryList();
   const total = history.length;
-  const today = new Date().toISOString().split('T')[0];
 
   // Count this week
   const now = new Date();
@@ -463,39 +574,19 @@ async function showCheckinSuccessModal(streak) {
     return d >= weekStart;
   }).length;
 
-  const modal = document.createElement('div');
-  modal.className = 'modal-overlay';
-  modal.innerHTML = `
-    <div class="modal-card">
-      <p class="modal-emoji">🎉</p>
-      <p class="modal-title">打卡成功！</p>
-      <p class="modal-streak">连续 <strong>${streak}</strong> 天</p>
-      <div class="modal-stats">
-        <div class="stat-item">
-          <span class="stat-num">${total}</span>
-          <span class="stat-label">总打卡天数</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-num">${weekCount}</span>
-          <span class="stat-label">本周打卡</span>
-        </div>
-      </div>
-      <button class="primary-btn" id="modal-close-btn">继续学习</button>
-    </div>
-  `;
-  document.body.appendChild(modal);
-  document.getElementById('modal-close-btn').addEventListener('click', () => {
-    modal.remove();
-  });
+  // Update and show the fixed modal in DOM
+  document.getElementById('modal-streak').textContent = streak;
+  document.getElementById('modal-total').textContent = total;
+  document.getElementById('modal-week').textContent = weekCount;
+  document.getElementById('checkin-modal').style.display = 'flex';
 }
 
 // Show toast message
 function showToast(msg) {
-  const toast = document.createElement('div');
-  toast.className = 'toast';
+  const toast = document.getElementById('toast');
   toast.textContent = msg;
-  document.body.appendChild(toast);
-  setTimeout(() => toast.remove(), 2000);
+  toast.style.display = 'block';
+  setTimeout(() => { toast.style.display = 'none'; }, 2000);
 }
 
 // ==================== Knowledge Mastery View ====================
@@ -913,26 +1004,18 @@ async function loadSettingsView() {
 
   const settings = await getSettings();
   container.innerHTML = `
-    <div class="settings-group">
+    <div class="settings-card">
       <div class="settings-row">
-        <div>
-          <div class="settings-label">每日目标</div>
-          <div class="settings-desc">每日练习题目数量</div>
-        </div>
-        <div class="goal-stepper">
+        <span class="settings-label">每日目标</span>
+        <div class="settings-stepper">
           <button class="stepper-btn" id="goal-minus">−</button>
-          <span class="goal-value" id="goal-value">${settings.dailyGoal}</span>
+          <span class="stepper-val" id="goal-value">${settings.dailyGoal}</span>
           <button class="stepper-btn" id="goal-plus">+</button>
         </div>
       </div>
-    </div>
-    <div class="settings-group">
       <div class="settings-row">
-        <div>
-          <div class="settings-label">难度筛选</div>
-          <div class="settings-desc">练习时只出指定难度题目</div>
-        </div>
-        <div class="difficulty-filter" id="diff-filter">
+        <span class="settings-label">难度筛选</span>
+        <div class="diff-filter-row" id="diff-filter">
           <button class="diff-pill ${settings.difficultyFilter===null?'active':''}" data-diff="">全部</button>
           <button class="diff-pill ${settings.difficultyFilter===1?'active':''}" data-diff="1">简单</button>
           <button class="diff-pill ${settings.difficultyFilter===2?'active':''}" data-diff="2">中等</button>
@@ -940,26 +1023,24 @@ async function loadSettingsView() {
         </div>
       </div>
     </div>
-    <div class="settings-group">
-      <button class="danger-btn" id="clear-all-btn">清除所有数据</button>
-    </div>
+    <button class="settings-danger-btn" id="clear-all-btn">清除所有数据</button>
   `;
 
   // Bind events
   document.getElementById('goal-minus').addEventListener('click', async () => {
-    const settings = await getSettings();
-    if (settings.dailyGoal > 1) {
-      await saveSetting('dailyGoal', settings.dailyGoal - 1);
-      document.getElementById('goal-value').textContent = settings.dailyGoal - 1;
+    const s = await getSettings();
+    if (s.dailyGoal > 1) {
+      await saveSetting('dailyGoal', s.dailyGoal - 1);
+      document.getElementById('goal-value').textContent = s.dailyGoal - 1;
       refreshUI();
     }
   });
 
   document.getElementById('goal-plus').addEventListener('click', async () => {
-    const settings = await getSettings();
-    if (settings.dailyGoal < 50) {
-      await saveSetting('dailyGoal', settings.dailyGoal + 1);
-      document.getElementById('goal-value').textContent = settings.dailyGoal + 1;
+    const s = await getSettings();
+    if (s.dailyGoal < 50) {
+      await saveSetting('dailyGoal', s.dailyGoal + 1);
+      document.getElementById('goal-value').textContent = s.dailyGoal + 1;
       refreshUI();
     }
   });
@@ -974,7 +1055,7 @@ async function loadSettingsView() {
   });
 
   document.getElementById('clear-all-btn').addEventListener('click', async () => {
-    if (confirm('确定清除所有数据？包括打卡记录、错题、进度等，此操作不可恢复。')) {
+    if (confirm('确定清除所有数据？此操作不可恢复。')) {
       await clearAllData();
       showToast('数据已清除');
       refreshUI();

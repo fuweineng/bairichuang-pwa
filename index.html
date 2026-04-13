@@ -13,99 +13,143 @@
 </head>
 <body>
   <div id="app">
+    <!-- ===== HEADER ===== -->
     <header>
       <div class="header-left">
         <h1>百日闯</h1>
-        <p class="subtitle">初二学习打卡</p>
+        <span class="subtitle">初二</span>
       </div>
       <button class="header-settings-btn" id="header-settings-btn" data-route="#/settings">⚙️</button>
     </header>
 
     <main>
+
+      <!-- ===== HOME VIEW ===== -->
       <section id="home-view" class="view active">
-        <div class="streak-info">
+        <!-- Streak Banner -->
+        <div class="streak-info" id="streak-info">
           <span class="streak-label">连续打卡</span>
           <span class="streak-count" id="streak-count">0</span>
           <span class="streak-unit">天</span>
         </div>
-        <div class="today-stats">
-          <div class="stat-cell">
-            <span class="stat-icon" id="today-checkin-icon">○</span>
-            <span class="stat-text" id="today-checkin-text">未打卡</span>
+
+        <!-- Today Stats Row -->
+        <div class="today-stats-row">
+          <div class="mini-stat">
+            <span id="today-checkin-dot" class="checkin-dot unchecked">●</span>
+            <span id="today-checkin-text">未打卡</span>
           </div>
-          <div class="stat-cell">
-            <span class="stat-num" id="today-practice-count">0</span>
-            <span class="stat-text">今日已练</span>
+          <div class="mini-stat">
+            <span class="mini-num" id="today-practice-count">0</span>
+            <span class="mini-label">已练</span>
           </div>
-          <div class="stat-cell">
-            <span class="stat-num" id="today-accuracy">--%</span>
-            <span class="stat-text">正确率</span>
+          <div class="mini-stat">
+            <span class="mini-num" id="today-accuracy">--%</span>
+            <span class="mini-label">正确率</span>
           </div>
         </div>
-        <div class="daily-goal">
-          <div class="goal-header">
-            <span>今日目标</span>
-            <span id="goal-progress-text">0/10</span>
+
+        <!-- Daily Goal -->
+        <div class="goal-compact" id="goal-compact">
+          <div class="goal-meta">
+            <span class="goal-label">今日目标</span>
+            <span class="goal-nums" id="goal-progress-text">0/10</span>
           </div>
           <div class="goal-bar">
             <div class="goal-fill" id="goal-fill" style="width:0%"></div>
           </div>
         </div>
+
+        <!-- Mastery Chart -->
         <div class="home-chart-area" id="home-chart-area">
           <div class="home-chart-header">
             <span class="home-chart-title">各科掌握趋势</span>
-            <span class="home-chart-hint" id="home-chart-hint">近7日综合正确率</span>
+            <span class="home-chart-hint" id="home-chart-hint">开始练习后显示</span>
           </div>
           <canvas id="home-mastery-canvas" style="width:100%;display:block"></canvas>
+          <div class="home-chart-legend" id="home-chart-legend"></div>
         </div>
-        <button id="checkin-btn" class="primary-btn">今日打卡</button>
-        <div class="menu">
-          <button class="menu-btn" data-route="#/practice">开始练习</button>
-          <button class="menu-btn" data-route="#/wrong">
-            错题集
+
+        <!-- Quick Actions -->
+        <div class="home-actions">
+          <button class="home-action-btn primary" id="checkin-btn">
+            <span>📅</span> 今日打卡
+          </button>
+          <button class="home-action-btn" data-route="#/practice">
+            <span>✏️</span> 开始练习
+          </button>
+        </div>
+
+        <!-- Bottom Menu -->
+        <div class="home-menu">
+          <button class="home-menu-btn" data-route="#/wrong">
+            📕 错题集
             <span class="badge" id="wrong-badge" style="display:none">0</span>
           </button>
-          <button class="menu-btn" data-route="#/mastery">知识掌握</button>
-          <button class="menu-btn" data-route="#/progress">查看进度</button>
-          <button class="menu-btn" id="feedback-btn">💬 意见反馈</button>
+          <button class="home-menu-btn" data-route="#/progress">
+            📊 打卡记录
+          </button>
+          <button class="home-menu-btn" id="feedback-btn">
+            💬 反馈
+          </button>
         </div>
       </section>
 
+      <!-- ===== PRACTICE VIEW ===== -->
       <section id="practice-view" class="view">
-        <h2>练习模式</h2>
-        <div class="subjects">
-          <button class="subject-btn" data-subject="math">数学</button>
-          <button class="subject-btn" data-subject="english">英语</button>
-          <button class="subject-btn" data-subject="chinese">语文</button>
-          <button class="subject-btn" data-subject="science">科学</button>
-          <button class="subject-btn" data-subject="biology">生物</button>
-          <button class="subject-btn" data-subject="history">历史</button>
-          <button class="subject-btn" data-subject="geography">地理</button>
-          <button class="subject-btn" data-subject="politics">道法</button>
+        <div class="view-toolbar">
+          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <span class="view-title">选择科目</span>
+        </div>
+        <div class="subjects-grid" id="subjects-grid">
+          <button class="subject-grid-btn active" data-subject="math">数学</button>
+          <button class="subject-grid-btn" data-subject="english">英语</button>
+          <button class="subject-grid-btn" data-subject="chinese">语文</button>
+          <button class="subject-grid-btn" data-subject="science">科学</button>
+          <button class="subject-grid-btn" data-subject="biology">生物</button>
+          <button class="subject-grid-btn" data-subject="history">历史</button>
+          <button class="subject-grid-btn" data-subject="geography">地理</button>
+          <button class="subject-grid-btn" data-subject="politics">道法</button>
+        </div>
+        <div class="difficulty-row">
+          <button class="diff-btn active" data-difficulty="">全部</button>
+          <button class="diff-btn" data-difficulty="1">简单</button>
+          <button class="diff-btn" data-difficulty="2">中等</button>
+          <button class="diff-btn" data-difficulty="3">困难</button>
         </div>
         <div id="question-container">
           <p class="placeholder">选择科目开始练习</p>
         </div>
       </section>
 
+      <!-- ===== PROGRESS VIEW ===== -->
       <section id="progress-view" class="view">
-        <h2>学习进度</h2>
+        <div class="view-toolbar">
+          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <span class="view-title">打卡记录</span>
+        </div>
         <div id="history-container">
           <p class="placeholder">暂无打卡记录</p>
         </div>
-        <button class="back-btn" data-route="#/index">返回</button>
       </section>
 
+      <!-- ===== WRONG VIEW ===== -->
       <section id="wrong-view" class="view">
-        <h2>错题集</h2>
+        <div class="view-toolbar">
+          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <span class="view-title">错题集</span>
+        </div>
         <div id="wrong-container">
           <p class="placeholder">加载中...</p>
         </div>
-        <button class="back-btn" data-route="#/index">返回</button>
       </section>
 
+      <!-- ===== MASTERY VIEW ===== -->
       <section id="mastery-view" class="view">
-        <h2>知识掌握</h2>
+        <div class="view-toolbar">
+          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <span class="view-title">知识掌握</span>
+        </div>
         <div class="mastery-subject-tabs">
           <button class="tab-btn active" data-subject="math">数学</button>
           <button class="tab-btn" data-subject="english">英语</button>
@@ -123,47 +167,76 @@
         <div id="mastery-content">
           <p class="placeholder">加载中...</p>
         </div>
-        <button class="back-btn" data-route="#/index">返回</button>
       </section>
 
+      <!-- ===== SETTINGS VIEW ===== -->
       <section id="settings-view" class="view">
-        <h2>设置</h2>
+        <div class="view-toolbar">
+          <button class="back-home-btn" data-route="#/index">← 返回</button>
+          <span class="view-title">设置</span>
+        </div>
         <div id="settings-content">
           <p class="placeholder">加载中...</p>
         </div>
-        <button class="back-btn" data-route="#/index">返回</button>
       </section>
 
-      <div id="pwa-install-banner" style="display:none">
-        <span>安装百日闯到桌面，更方便学习</span>
-        <button id="pwa-install-btn">安装</button>
-        <button class="close-btn" onclick="dismissPwaBanner()">×</button>
-      </div>
-
-      <!-- Feedback Form Modal -->
-      <div id="feedback-modal" class="modal-overlay" style="display:none">
-        <div class="modal-card">
-          <p class="modal-emoji">💬</p>
-          <p class="modal-title">意见反馈</p>
-          <p class="modal-desc" style="font-size:0.85rem;color:#999;margin-bottom:16px">告诉我们哪里可以做得更好，或者你想增加什么功能</p>
-          <textarea id="feedback-text" class="fill-input" style="height:120px;resize:none;border-radius:12px" placeholder="请输入你的想法..."></textarea>
-          <div id="feedback-status" style="font-size:0.85rem;margin:8px 0;min-height:20px;color:#e53935"></div>
-          <div style="display:flex;gap:10px">
-            <button class="back-btn" id="feedback-cancel" style="flex:1">取消</button>
-            <button class="primary-btn" id="feedback-submit" style="flex:1">发送</button>
-          </div>
-        </div>
-      </div>
     </main>
 
     <footer>
-      <p>本项目由 Hermes Agent 生成</p>
+      <p>百日闯 · 初二学习打卡</p>
     </footer>
   </div>
 
+  <!-- ===== FLOATING MODALS (top-center) ===== -->
+  <!-- PWA Install Banner -->
+  <div id="pwa-install-banner" class="float-card" style="display:none;top:12px">
+    <span>安装百日闯到桌面</span>
+    <button class="pwa-install-btn" id="pwa-install-btn">安装</button>
+    <button class="float-close" onclick="dismissPwaBanner()">×</button>
+  </div>
+
+  <!-- Checkin Success Modal -->
+  <div id="checkin-modal" class="modal-overlay" style="display:none">
+    <div class="modal-card float-card" style="top:20px">
+      <div class="modal-emoji">🎉</div>
+      <p class="modal-title">打卡成功！</p>
+      <div class="checkin-stats">
+        <div class="checkin-stat-item">
+          <span class="checkin-stat-num" id="modal-streak">0</span>
+          <span class="checkin-stat-label">连续天数</span>
+        </div>
+        <div class="checkin-stat-item">
+          <span class="checkin-stat-num" id="modal-total">0</span>
+          <span class="checkin-stat-label">累计打卡</span>
+        </div>
+        <div class="checkin-stat-item">
+          <span class="checkin-stat-num" id="modal-week">0</span>
+          <span class="checkin-stat-label">本周</span>
+        </div>
+      </div>
+      <button class="primary-btn" id="checkin-modal-close" style="margin-top:16px">好的</button>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" style="display:none"></div>
+
+  <!-- Feedback Modal -->
+  <div id="feedback-modal" class="modal-overlay" style="display:none">
+    <div class="modal-card float-card" style="top:20px;max-width:380px">
+      <button class="float-close" id="feedback-close" style="position:absolute;top:10px;right:12px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#999">×</button>
+      <p class="modal-emoji">💬</p>
+      <p class="modal-title">意见反馈</p>
+      <p class="modal-desc">告诉我们哪里可以做得更好</p>
+      <textarea id="feedback-text" class="feedback-textarea" placeholder="请输入你的想法..."></textarea>
+      <div id="feedback-status" class="feedback-status"></div>
+      <button class="primary-btn" id="feedback-submit">提交反馈</button>
+    </div>
+  </div>
+
+  <!-- ===== SCRIPTS ===== -->
   <script src="https://cdn.jsdelivr.net/npm/idb-keyval@3.0.0/dist/idb-keyval-iife.min.js"></script>
   <script>
-    // Expose idb-keyval globals for non-module scripts
     window.get = window.idbKeyval.get;
     window.set = window.idbKeyval.set;
     window.del = window.idbKeyval.del;
@@ -174,5 +247,4 @@
   <script src="js/question_bank.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>
-<!-- 本项目由 Hermes Agent 生成 | 技术方案: ~/projects/bairichuang-pwa/README.md -->
 </html>
