@@ -866,37 +866,53 @@ async function renderSettings() {
 
 async function upgradeQuestionBank() {
   const btn = document.getElementById('upgrade-btn');
-  if (btn) { btn.disabled = true; btn.textContent = '检查中...'; }
+  if (btn) { btn.disabled = true; btn.textContent = '加载中...'; }
 
   try {
-    // Fetch all question JSONs
-    const files = [
-      'batch_bio.json','batch_chi.json','batch_chi2.json','batch_chi3.json',
-      'batch_en.json','batch_en2.json','batch_en3.json','batch_geo.json',
-      'batch_hist.json','batch_math2.json','batch_math3.json','batch_pol.json',
-      'batch_sc2.json','batch_sci.json'
-    ];
-    const results = await Promise.allSettled(
-      files.map(f => fetch('questions/' + f).then(r => r.json()))
-    );
+    // Dynamically import all subject modules and merge
+    const modules = await Promise.allSettled([
+      import('questions/english.js'),
+      import('questions/math.js'),
+      import('questions/chinese.js'),
+      import('questions/science.js'),
+      import('questions/biology.js'),
+      import('questions/geography.js'),
+      import('questions/history.js'),
+      import('questions/politics.js'),
+    ]);
 
     const merged = {};
-    results.forEach(r => {
-      if (r.status !== 'fulfilled') return;
-      r.value.forEach(q => {
+    modules.forEach(m => {
+      if (m.status !== 'fulfilled') return;
+      const qs = m.value.default;
+      if (!qs || !Array.isArray(qs)) return;
+      qs.forEach(q => {
         const s = q.subject;
         if (!merged[s]) merged[s] = [];
         merged[s].push(q);
       });
     });
 
-    // Replace question bank
+    // Merge with locally cached progress (preserve user's progress data)
+    const cached = await get(K.QB_CACHE);
+    Object.keys(merged).forEach(subj => {
+      if (cached && cached[subj]) {
+        // Deduplicate by id, keeping newer (from merged) if both exist
+        const cacheIds = new Set(cached[subj].map(q => q.id));
+        merged[subj] = [
+          ...merged[subj],
+          ...cached[subj].filter(q => !cacheIds.has(q.id))
+        ];
+      }
+    });
+
     state.questionBank = merged;
     state.settings.lastQuestionBankUpdate = todayKey();
     await set(K.QB_CACHE, merged);
     await set(K.SETTINGS, state.settings);
 
-    showToast('题库已更新！共 ' + Object.values(merged).reduce((s, a) => s + a.length, 0) + ' 题');
+    const total = Object.values(merged).reduce((s, a) => s + a.length, 0);
+    showToast('题库已更新！共 ' + total + ' 题');
     renderSettings();
   } catch(e) {
     showToast('更新失败，请稍后重试');
