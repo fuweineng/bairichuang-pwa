@@ -18,7 +18,7 @@ const state = {
   // Routing
   view: 'home',
   subject: null,
-  entry: null,
+  entry: null, // null | 'new' | 'weak' | 'mastered'
   ttsUtterance: null,
   chartSubject: 'all',  // 'all' | subject name
 
@@ -26,6 +26,7 @@ const state = {
   sessionQuestions: [],
   sessionIndex: 0,
   sessionScore: { correct: 0, wrong: 0 },
+  sessionResults: [],
   sessionStartTime: null,
   sessionStartQCount: 0,
   sessionStartCorrect: 0,
@@ -52,6 +53,7 @@ const K = {
 
 const VERSION_URL = 'version.json';
 const QUESTION_PACK_URL = 'questions/question_bank_v1.json';
+const SUBJECTS = ['chinese', 'math', 'english', 'science', 'biology', 'history', 'geography', 'politics'];
 
 function createEmptyQuestionBank() {
   return { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
@@ -196,25 +198,21 @@ function router() {
   const [path, query] = hash.slice(2).split('?');
   const segs = path.split('/');
   const view = segs[0] || 'home';
-
-  // Parse entry from query ?entry=new
-  const entryParam = query ? new URLSearchParams(query).get('entry') : null;
+  const params = query ? new URLSearchParams(query) : null;
+  const entryParam = params ? params.get('entry') : null;
 
   state.view    = view;
   state.subject = segs[1] || null;
-  // entry: if view is 'practice' with entry in query, use that; otherwise derive from subject
-  state.entry = entryParam || (view === 'practice' ? getEntryFromSubject(state.subject) : null);
+  state.entry = entryParam || null;
 
   renderAll();
 }
 
-function getEntryFromSubject(subject) {
-  if (!subject) return null;
-  if (['new','weak','mastered'].includes(subject)) return subject;
-  return null;
-}
-
 function navigate(hash) {
+  if (location.hash === hash) {
+    router();
+    return;
+  }
   location.hash = hash;
 }
 
@@ -258,6 +256,7 @@ function renderHome() {
   updateEntryCounts();
   // Per-subject badges on the grid
   renderSubjectBadges();
+  renderPracticeModeBar();
 }
 
 function updateEntryCounts() {
@@ -273,37 +272,61 @@ function updateEntryCounts() {
   setCount('entry-mastered-count', counts.mastered);
 }
 
-// Update per-subject weak/mastered badges on the home screen grid
+function getPracticeMode() {
+  return state.entry || 'standard';
+}
+
+function getPracticeModeLabel(mode = getPracticeMode()) {
+  return {
+    standard: '综合刷题',
+    new: '新题优先',
+    weak: '错题重练',
+    mastered: '熟练巩固',
+  }[mode] || '综合刷题';
+}
+
+function renderPracticeModeBar() {
+  document.querySelectorAll('.practice-mode-btn').forEach(button => {
+    button.classList.toggle('active', button.dataset.mode === getPracticeMode());
+  });
+}
+
+function getQuestionStatus(question) {
+  return (state.progress[question.id] || {}).status || 'new';
+}
+
+function questionMatchesMode(question, mode = getPracticeMode()) {
+  if (mode === 'standard') return true;
+  return getQuestionStatus(question) === mode;
+}
+
+function countQuestionsForSubject(subject, mode = getPracticeMode()) {
+  const questions = state.questionBank[subject] || [];
+  return questions.filter(question => questionMatchesMode(question, mode)).length;
+}
+
+// Update per-subject counts on the home screen grid
 function renderSubjectBadges() {
-  const entry = state.entry || 'new';
-  const threshold = state.settings.weakThreshold;
-  const thresholdPct = threshold * 100;
+  const mode = getPracticeMode();
 
-  ['math','english','chinese','science','biology','history','geography','politics'].forEach(subj => {
-    const questions = state.questionBank[subj] || [];
+  SUBJECTS.forEach(subj => {
     const badge = document.getElementById('badge-' + subj);
-    if (!badge) return;
+    const meta = document.getElementById('meta-' + subj);
+    const total = countQuestionsForSubject(subj, mode);
 
-    let count = 0;
-    questions.forEach(q => {
-      const rec = state.progress[q.id];
-      if (!rec) return;
-      if (entry === 'weak') {
-        // Wrong count >= 2 or accuracy below threshold
-        const total = rec.correct + rec.wrong;
-        const acc = total > 0 ? rec.correct / total : 0;
-        if (rec.wrong >= 2 || acc * 100 < thresholdPct) count++;
-      } else if (entry === 'mastered') {
-        if (rec.status === 'mastered') count++;
+    if (meta) {
+      meta.textContent = `${total}题可练`;
+    }
+
+    if (badge) {
+      if (mode === 'standard') {
+        const weakCount = countQuestionsForSubject(subj, 'weak');
+        badge.textContent = weakCount > 0 ? `${weakCount}错题` : '';
+        badge.style.display = weakCount > 0 ? 'inline-block' : 'none';
+      } else {
+        badge.textContent = total > 99 ? '99+' : total;
+        badge.style.display = total > 0 ? 'inline-block' : 'none';
       }
-    });
-
-    if (count > 0) {
-      badge.textContent = count > 99 ? '99+' : count;
-      badge.style.display = 'inline-block';
-    } else {
-      badge.textContent = '';
-      badge.style.display = 'none';
     }
   });
 }
@@ -312,49 +335,55 @@ function setCount(id, n) {
   const el = document.getElementById(id);
   if (!el) return;
   el.textContent = n + '题';
-  el.classList.toggle('empty', n === 0);
 }
 
 // PRACTICE
 function renderPractice() {
   const container = document.getElementById('question-container');
-
-  // Show entry info if we came from an entry card
   const entryInfo = document.getElementById('practice-entry-info');
-  const entryLabel = document.getElementById('practice-entry-label');
-  const entryCount = document.getElementById('practice-entry-count');
   const title = document.getElementById('practice-view-title');
+  const mode = getPracticeMode();
 
-  if (state.subject && ['new','weak','mastered'].includes(state.subject)) {
-    // Showing subject selection for this entry type
-    const labels = { new: '🆕 全新题目', weak: '🔴 易错汇总', mastered: '✅ 熟练掌握' };
-    const total = countByEntry(state.subject);
-    entryLabel.textContent = labels[state.subject] || '';
-    entryCount.textContent = total + '题可选';
-    entryInfo.style.display = 'flex';
-    title.textContent = '选择科目';
-    container.innerHTML = '<p class="placeholder">选择科目开始练习</p>';
-  } else if (state.subject) {
-    // Actual subject selected — start session
-    entryInfo.style.display = 'none';
-    title.textContent = subjectName(state.subject);
-    startSession(state.subject, state.entry);
-  } else {
-    entryInfo.style.display = 'none';
-    title.textContent = '选择科目';
-    container.innerHTML = '<p class="placeholder">选择科目开始练习</p>';
+  if (!state.subject) {
+    entryInfo.className = 'practice-entry-info';
+    entryInfo.textContent = '从首页选择全科或单科学习后，会直接进入练习。';
+    title.textContent = '开始练习';
+    container.innerHTML = '<p class="placeholder">正在等待你的选择...</p>';
+    return;
   }
+
+  const availableCount = state.subject === 'all'
+    ? SUBJECTS.reduce((sum, subj) => sum + countQuestionsForSubject(subj, mode), 0)
+    : countQuestionsForSubject(state.subject, mode);
+  const subjectLabel = state.subject === 'all' ? '全科练习' : subjectName(state.subject);
+
+  title.textContent = subjectLabel;
+  entryInfo.className = `practice-entry-info ${mode === 'standard' ? '' : mode}`.trim();
+  entryInfo.textContent = `${subjectLabel} · ${getPracticeModeLabel(mode)} · ${availableCount}题可练`;
+  startSession(state.subject, state.entry);
 }
 
-function countByEntry(entry) {
-  let total = 0;
-  Object.entries(state.questionBank).forEach(([subj, questions]) => {
-    questions.forEach(q => {
-      const s = (state.progress[q.id] || {}).status || 'new';
-      if (s === entry) total++;
-    });
-  });
-  return total;
+function buildSessionQuestions(subject, mode = getPracticeMode()) {
+  if (subject === 'all') {
+    const buckets = SUBJECTS.map(subj => shuffle((state.questionBank[subj] || []).filter(question => questionMatchesMode(question, mode))));
+    const mixed = [];
+    let cursor = 0;
+    while (mixed.length < 24) {
+      let addedThisRound = false;
+      for (const bucket of buckets) {
+        if (bucket[cursor]) {
+          mixed.push(bucket[cursor]);
+          addedThisRound = true;
+        }
+        if (mixed.length >= 24) break;
+      }
+      if (!addedThisRound) break;
+      cursor++;
+    }
+    return shuffle(mixed);
+  }
+
+  return shuffle((state.questionBank[subject] || []).filter(question => questionMatchesMode(question, mode))).slice(0, 20);
 }
 
 // SESSION
@@ -366,32 +395,20 @@ async function startSession(subject, entry) {
   state.sessionStartCorrect = todayBefore.correct;
   state.sessionStartTime = Date.now();
   state.sessionScore = { correct: 0, wrong: 0 };
+  state.sessionResults = [];
   state.sessionIndex = 0;
 
-  // Get questions for this subject+entry
-  const all = state.questionBank[subject] || [];
-  let filtered;
-  if (entry && ['new','weak','mastered'].includes(entry)) {
-    filtered = all.filter(q => {
-      const s = (state.progress[q.id] || {}).status || 'new';
-      return s === entry;
-    });
-  } else {
-    filtered = all;
-  }
-
-  // Shuffle
-  filtered = shuffle(filtered.slice(0, 20)); // max 20 per session
+  const filtered = buildSessionQuestions(subject, entry || 'standard');
 
   if (filtered.length === 0) {
     document.getElementById('question-container').innerHTML =
-      '<p class="placeholder">这个分类还没有题目</p>';
+      `<p class="placeholder">${getPracticeModeLabel(entry || 'standard')}下暂时没有可练题目</p>`;
     return;
   }
 
   state.sessionQuestions = filtered;
   state.subject = subject;
-  state.entry = entry || 'new';
+  state.entry = entry || null;
 
   // Auto-checkin on first session of the day
   await ensureTodayCheckin();
@@ -401,6 +418,70 @@ async function startSession(subject, entry) {
 
 // Current audio instance (for local file playback)
 let currentAudio = null;
+
+function normalizeAnswerText(value) {
+  return String(value)
+    .replace(/^"(.*)"$/, '$1')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .replace(/[，、；;]/g, ',')
+    .trim();
+}
+
+function splitAnswerParts(value) {
+  return normalizeAnswerText(value)
+    .split(/[,\n/|]+/)
+    .map(part => part.trim())
+    .filter(Boolean);
+}
+
+function formatAnswerForDisplay(answer) {
+  return Array.isArray(answer) ? answer.join('，') : answer;
+}
+
+function isAnswerMatch(userAnswer, correctAnswer, question = null) {
+  const normalizedUser = normalizeAnswerText(userAnswer);
+
+  if (question?.acceptAnswers?.length) {
+    return question.acceptAnswers.some(answer => isAnswerMatch(userAnswer, answer));
+  }
+
+  if (Array.isArray(correctAnswer)) {
+    const expected = correctAnswer.map(item => normalizeAnswerText(item));
+    const joinCandidates = [
+      expected.join(','),
+      expected.join(' '),
+      expected.join('/'),
+    ];
+    if (joinCandidates.includes(normalizedUser)) return true;
+
+    const userParts = splitAnswerParts(userAnswer);
+    if (userParts.length === expected.length && userParts.every((part, index) => part === expected[index])) {
+      return true;
+    }
+
+    return expected.every(part => normalizedUser.includes(part));
+  }
+
+  if (question?.keywords?.length) {
+    return question.keywords.every(keyword => normalizedUser.includes(normalizeAnswerText(keyword)));
+  }
+
+  const normalizedAnswer = normalizeAnswerText(correctAnswer);
+  return normalizedUser === normalizedAnswer || userAnswer === String(correctAnswer);
+}
+
+function appendExplanation(fb, questionLike) {
+  if (questionLike?.audio_text) {
+    fb.innerHTML += `<p class="explanation"><strong>听力原文：</strong>${questionLike.audio_text.replace(/\n/g, '<br>')}</p>`;
+  }
+  if (questionLike?.passage) {
+    fb.innerHTML += `<p class="explanation"><strong>短文原文：</strong>${questionLike.passage.replace(/\n/g, '<br>')}</p>`;
+  }
+  if (questionLike?.explanation) {
+    fb.innerHTML += `<p class="explanation">${questionLike.explanation}</p>`;
+  }
+}
 
 function speakQuestion() {
   const q = state.sessionQuestions[state.sessionIndex];
@@ -423,12 +504,18 @@ function speakQuestion() {
   const LOCAL_BASE = new URL('audio/', window.location.href).href;
   const CDN_BASE = 'https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/';
 
-  // Try 3 paths: local-dash, local-underscore, CDN-underscore
-  const paths = [
+  const paths = [];
+  if (q.audioUrl) {
+    paths.push(new URL(q.audioUrl, window.location.href).href);
+  }
+  if (Array.isArray(q.audioUrls)) {
+    q.audioUrls.forEach(url => paths.push(new URL(url, window.location.href).href));
+  }
+  paths.push(
     new URL(`${q.subject}/${dashId}.m4a?_=${av}`, LOCAL_BASE).href,
     new URL(`${q.subject}/${undId}.m4a?_=${av}`, LOCAL_BASE).href,
     new URL(`${q.subject}/${undId}.m4a?_=${av}`, CDN_BASE).href,
-  ];
+  );
 
   let pathIndex = 0;
   const tryPlayNext = () => {
@@ -522,12 +609,16 @@ function renderQuestion() {
     expression: '表达题', short_answer: '简答题'
   }[q.type] || '选择题';
   const diffLabel = ['', '🟢 简单', '🟡 中等', '🔴 困难'][q.difficulty] || '';
+  const imageSources = Array.isArray(q.images)
+    ? q.images
+    : [q.imageUrl || q.image].filter(Boolean);
+  const imageBlock = imageSources.length > 0
+    ? `<div class="question-image-grid">${imageSources.map(src => `<img class="question-image" src="${src}" alt="题目配图" loading="lazy" />`).join('')}</div>`
+    : '';
 
   // ── LISTENING TYPE: dictation ──────────────────────────────────────
   if (q.type === 'dictation') {
-    const listenBtn = 'speechSynthesis' in window
-      ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听句子</button>`
-      : '';
+    const listenBtn = `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听句子</button>`;
     container.innerHTML = `
       <div class="question-meta">
         <span>${typeLabel}</span><span>${diffLabel}</span>
@@ -535,6 +626,7 @@ function renderQuestion() {
       </div>
       ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
       ${listenBtn}
+      ${imageBlock}
       <div class="question-text">请填写你听到的关键词：</div>
       <div class="fill-area">
         <div class="fill-input-row">
@@ -563,9 +655,7 @@ function renderQuestion() {
       return;
     }
     const sq = subQs[subIdx];
-    const listenBtn = 'speechSynthesis' in window
-      ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听短文</button>`
-      : '';
+    const listenBtn = `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听短文</button>`;
     container.innerHTML = `
       <div class="question-meta">
         <span>${typeLabel}</span><span>${diffLabel}</span>
@@ -573,7 +663,8 @@ function renderQuestion() {
         <span class="sub-progress">小题 ${subIdx + 1}/${subQs.length}</span>
       </div>
       ${listenBtn}
-      <div class="passage-block">${q.passage || ''}</div>
+      ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
+      ${imageBlock}
       <div class="question-text">${sq.q}</div>
       <div class="fill-area">
         <div class="fill-input-row">
@@ -590,8 +681,8 @@ function renderQuestion() {
   }
 
   // ── LISTENING TYPE: listening (choice with audio_text) ────────────
-  const isListening = (q.tts || q.type === 'listening') && q.audio_text;
-  const listenBtn = isListening && 'speechSynthesis' in window
+  const isListening = q.type === 'listening' || q.tts || q.audioUrl;
+  const listenBtn = isListening
     ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听对话/短文</button>`
     : '';
 
@@ -614,11 +705,6 @@ function renderQuestion() {
       ).join('')
     : '';
 
-  // listening 类型要在选项上方显示听力的文本内容
-  const audioTextBlock = (q.type === 'listening' && q.audio_text)
-    ? `<div class="audio-text-block">${q.audio_text.replace(/\n/g, '<br>')}</div>`
-    : '';
-
   const inputArea = isFillOrShort
     ? `<div class="fill-area">
          <div class="fill-input-row">
@@ -634,7 +720,8 @@ function renderQuestion() {
       <span class="question-progress">${idx + 1}/${total}</span>
     </div>
     ${listenBtn}
-    ${audioTextBlock}
+    ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
+    ${imageBlock}
     <div class="question-text">${q.question}</div>
     ${opts ? `<div class="answer-grid">${opts}</div>` : ''}
     ${inputArea}
@@ -646,7 +733,7 @@ function renderQuestion() {
     if (inp) inp.focus();
   }
 
-  if (isListening && 'speechSynthesis' in window) {
+  if (isListening) {
     state.ttsUtterance = null;
   }
 }
@@ -666,7 +753,7 @@ async function handleAnswer(choiceIdx) {
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id, isCorrect, state.subject, q.type);
+  await recordAnswer(q.id, isCorrect, q.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
@@ -682,8 +769,7 @@ async function handleAnswer(choiceIdx) {
     } else {
       fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${correctLabel}</span>`;
     }
-    // 无论对错都显示中文解析
-    if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
+    appendExplanation(fb, q);
     fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
   }
 }
@@ -696,30 +782,23 @@ async function handleDictationSubmit() {
   if (!userAnswer) return;
 
   const q = state.sessionQuestions[state.sessionIndex];
-  const norm = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  let correctAns = q.answer;
-  if (typeof correctAns === 'string' && correctAns.startsWith('"') && correctAns.endsWith('"')) {
-    correctAns = correctAns.slice(1, -1);
-  }
-  const normCorrect = typeof correctAns === 'string'
-    ? correctAns.toLowerCase().replace(/\s+/g, ' ').trim()
-    : String(correctAns);
-  const isCorrect = norm === normCorrect || userAnswer === String(correctAns);
+  const correctAns = q.answer;
+  const isCorrect = isAnswerMatch(userAnswer, correctAns, q);
 
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id, isCorrect, state.subject, q.type);
+  await recordAnswer(q.id, isCorrect, q.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
-    const exp = q.explanation ? `<p class="explanation">${q.explanation}</p>` : '';
     if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>${exp}`;
+      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
     } else {
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${q.answer}</span>${exp}`;
+      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${formatAnswerForDisplay(q.answer)}</span>`;
     }
+    appendExplanation(fb, q);
     fb.innerHTML += `<button class="primary-btn" data-action="dictation-next" style="margin-top:10px">下一题 →</button>`;
   }
 }
@@ -736,30 +815,23 @@ async function handlePDSubmit() {
   const sq = (q.questions || [])[subIdx];
   if (!sq) return;
 
-  const norm = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  let correctAns = sq.answer;
-  if (typeof correctAns === 'string' && correctAns.startsWith('"') && correctAns.endsWith('"')) {
-    correctAns = correctAns.slice(1, -1);
-  }
-  const normCorrect = typeof correctAns === 'string'
-    ? correctAns.toLowerCase().replace(/\s+/g, ' ').trim()
-    : String(correctAns);
-  const isCorrect = norm === normCorrect || userAnswer === String(correctAns);
+  const correctAns = sq.answer;
+  const isCorrect = isAnswerMatch(userAnswer, correctAns, sq);
 
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id + '_sub_' + subIdx, isCorrect, state.subject, q.type);
+  await recordAnswer(q.id + '_sub_' + subIdx, isCorrect, q.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
-    const exp = sq.explanation ? `<p class="explanation">${sq.explanation}</p>` : '';
     if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>${exp}`;
+      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
     } else {
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${sq.answer}</span>${exp}`;
+      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${formatAnswerForDisplay(sq.answer)}</span>`;
     }
+    appendExplanation(fb, { ...sq, passage: q.passage });
     fb.innerHTML += `<button class="primary-btn" data-action="pd-next" style="margin-top:10px">${
       subIdx + 1 >= (q.questions || []).length ? '短文结束 →' : '下一题 →'
     }</button>`;
@@ -770,39 +842,23 @@ async function handleFillAnswer(userAnswer) {
   const q = state.sessionQuestions[state.sessionIndex];
   if (!q || !userAnswer) return;
 
-  // Normalize: lowercase, remove extra spaces
-  const norm = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
-  // Try to parse answer as JS value (handles quoted strings like '"sad"')
-  let correctAns = q.answer;
-  try {
-    // If answer looks like a quoted string, unquote it
-    if (typeof correctAns === 'string' && correctAns.startsWith('"') && correctAns.endsWith('"')) {
-      correctAns = correctAns.slice(1, -1);
-    }
-  } catch (_) {}
-
-  const normCorrect = typeof correctAns === 'string'
-    ? correctAns.toLowerCase().replace(/\s+/g, ' ').trim()
-    : String(correctAns);
-
-  // Exact match or number match
-  const isCorrect = norm === normCorrect || norm === String(correctAns) || userAnswer === String(correctAns);
+  const correctAns = q.answer;
+  const isCorrect = isAnswerMatch(userAnswer, correctAns, q);
 
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id, isCorrect, state.subject, q.type);
+  await recordAnswer(q.id, isCorrect, q.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
     if (isCorrect) {
       fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
-      if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
     } else {
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${correctAns}</span>`;
-      if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
+      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${formatAnswerForDisplay(correctAns)}</span>`;
     }
+    appendExplanation(fb, q);
     fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
   }
 }
@@ -831,36 +887,42 @@ async function recordAnswer(questionId, isCorrect, subject, qtype) {
   p.subject = subject;
   p.type = qtype;
   state.progress[questionId] = p;
+  state.sessionResults.push({ questionId, isCorrect, subject, type: qtype || 'choice' });
   await set(K.PROGRESS, state.progress);
 }
 
 async function renderSessionEnd() {
   const container = document.getElementById('question-container');
   const { correct, wrong } = state.sessionScore;
+  const total = correct + wrong;
   const today = todayKey();
-  const subj = state.subject || 'unknown';
-
-  // Per-subject/type counts from this session's questions
-  const typeCounts = {};
-  state.sessionQuestions.forEach(q => {
-    const t = q.type || 'choice';
-    if (!typeCounts[t]) typeCounts[t] = { correct: 0, wrong: 0 };
-    // We don't know per-question result in sessionScore, so skip type breakdown here
-  });
 
   // Merge into daily bySubject
   const existing = state.daily[today] || { practiced: 0, questionsCount: 0, correct: 0, accuracy: 0, score: 0, bySubject: {} };
   const byS = existing.bySubject || {};
-  if (!byS[subj]) {
-    byS[subj] = { correct: 0, wrong: 0, byType: { choice: { correct: 0, wrong: 0 }, fill: { correct: 0, wrong: 0 }, short_answer: { correct: 0, wrong: 0 } } };
-  }
-  byS[subj].correct += correct;
-  byS[subj].wrong += wrong;
+  state.sessionResults.forEach(result => {
+    const subject = result.subject || 'unknown';
+    const type = result.type || 'choice';
+    if (!byS[subject]) {
+      byS[subject] = { correct: 0, wrong: 0, byType: {} };
+    }
+    if (!byS[subject].byType[type]) {
+      byS[subject].byType[type] = { correct: 0, wrong: 0 };
+    }
+    if (result.isCorrect) {
+      byS[subject].correct += 1;
+      byS[subject].byType[type].correct += 1;
+    } else {
+      byS[subject].wrong += 1;
+      byS[subject].byType[type].wrong += 1;
+    }
+  });
 
   // Total across all subjects
   const totalAll = Object.values(byS).reduce((sc, sd) => sc + (sd.correct || 0) + (sd.wrong || 0), 0);
   const correctAll = Object.values(byS).reduce((sc, sd) => sc + (sd.correct || 0), 0);
   const acc = totalAll > 0 ? correctAll / totalAll : 0;
+  const sessionAcc = total > 0 ? Math.round(correct / total * 100) : 0;
   const newScore = Math.round((totalAll + 1) * acc);
 
   state.daily[today] = {
@@ -880,7 +942,7 @@ async function renderSessionEnd() {
       <p class="placeholder">本轮完成！</p>
       <div class="session-score">
         <span class="big-num">${correct}/${total}</span>
-        <span>正确率 ${acc}%</span>
+        <span>正确率 ${sessionAcc}%</span>
       </div>
       <div class="session-daily">
         <p>今日累计: ${state.daily[today].questionsCount}题 | 得分: ${state.daily[today].score}</p>
@@ -936,7 +998,14 @@ function drawChart() {
     english: '#FF9800', science: '#9C27B0', biology: '#009688',
     history: '#795548', geography: '#607D8B', politics: '#F44336'
   };
-  const typeColors = { choice: '#4CAF50', fill: '#2196F3', short_answer: '#FF9800' };
+  const typeColors = {
+    choice: '#4CAF50',
+    fill: '#2196F3',
+    short_answer: '#FF9800',
+    listening: '#8b5cf6',
+    dictation: '#ec4899',
+    passage_dictation: '#14b8a6',
+  };
 
   let lines = []; // [{label, color, values}]
 
@@ -956,7 +1025,7 @@ function drawChart() {
     });
   } else {
     // One line per type for selected subject
-    ['choice','fill','short_answer'].forEach(t => {
+    ['choice','fill','short_answer','listening','dictation','passage_dictation'].forEach(t => {
       const vals = dates.map(d => {
         const byS = (state.daily[d] || {}).bySubject || {};
         const sdata = byS[subj] || {};
@@ -966,7 +1035,15 @@ function drawChart() {
         return total > 0 ? Math.round(tdata.correct / total * 100) : 0;
       });
       if (vals.some(v => v > 0)) {
-        lines.push({ label: t === 'choice' ? '选择题' : t === 'fill' ? '填空题' : '简答题', color: typeColors[t] || '#999', values: vals });
+        const labelMap = {
+          choice: '选择题',
+          fill: '填空题',
+          short_answer: '简答题',
+          listening: '听力选择',
+          dictation: '听写填空',
+          passage_dictation: '短文听写',
+        };
+        lines.push({ label: labelMap[t] || t, color: typeColors[t] || '#999', values: vals });
       }
     });
   }
@@ -1164,14 +1241,13 @@ function handleClick(e) {
       navigate('#/' + t.dataset.view);
       break;
 
-    case 'start-entry':
-      state.entry = t.dataset.entry;
-      navigate('#/practice/' + t.dataset.entry);
+    case 'set-practice-mode':
+      state.entry = t.dataset.mode === 'standard' ? null : t.dataset.mode;
+      renderHome();
       break;
 
     case 'start-subject':
       state.subject = t.dataset.subject;
-      // Keep the entry type from the URL or state
       navigate('#/practice/' + t.dataset.subject + (state.entry ? '?entry=' + state.entry : ''));
       break;
 

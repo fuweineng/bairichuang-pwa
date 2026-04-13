@@ -43,6 +43,10 @@ function extractPrecacheRefs(swSource) {
   return [...match[1].matchAll(/'([^']+)'/g)].map((item) => item[1]);
 }
 
+function isRelativeAsset(value) {
+  return typeof value === 'string' && value !== '' && !value.startsWith('http') && !value.startsWith('data:');
+}
+
 async function main() {
   const errors = [];
 
@@ -86,6 +90,37 @@ async function main() {
   for (const subject of requiredSubjects) {
     if (!subjectCounts[subject]) {
       errors.push(`题库缺少科目: ${subject}`);
+    }
+  }
+
+  for (const question of questionBank) {
+    if (question.type === 'choice' && Array.isArray(question.options) && !question.options.includes(question.answer)) {
+      errors.push(`选择题答案不在选项中: ${question.id}`);
+    }
+
+    if (question.type === 'listening') {
+      if (!Array.isArray(question.choices) || question.choices.length < 2) {
+        errors.push(`听力题缺少 choices: ${question.id}`);
+      }
+      if (!question.audio_text && !question.audioUrl && !question.tts) {
+        errors.push(`听力题缺少音频信息: ${question.id}`);
+      }
+    }
+
+    if ((question.type === 'dictation' || question.type === 'passage_dictation') && !question.text && !question.passage && !question.audioUrl && !question.tts) {
+      errors.push(`听写题缺少朗读内容: ${question.id}`);
+    }
+
+    const imageRefs = [
+      question.image,
+      question.imageUrl,
+      ...(Array.isArray(question.images) ? question.images : []),
+    ].filter(Boolean);
+
+    for (const ref of imageRefs) {
+      if (isRelativeAsset(ref)) {
+        await ensureFile(ref, `题库图片资源(${question.id})`, errors);
+      }
     }
   }
 

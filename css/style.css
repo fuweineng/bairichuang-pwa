@@ -147,85 +147,126 @@ main {
   font-size: 0.9rem;
 }
 
-/* ==================== ENTRY CARDS ==================== */
-.entry-cards {
+/* ==================== STUDY LAUNCHER ==================== */
+.study-launch-card {
+  background: white;
+  border-radius: 16px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 6px 18px rgba(40, 55, 80, 0.06);
+}
+
+.study-launch-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.study-launch-title {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.study-launch-subtitle {
+  margin-top: 4px;
+  font-size: 0.76rem;
+  color: #6b7280;
+}
+
+.full-practice-btn {
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #1f8f6a, #4caf50);
+  color: white;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 10px 14px;
+  white-space: nowrap;
+}
+
+.practice-mode-bar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.practice-mode-btn {
+  border: 1px solid #dbe4ea;
+  background: #f8fafc;
+  color: #4b5563;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.practice-mode-btn.active {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border-color: #9fd4a4;
+}
+
+.mode-summary-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
 
-.entry-card {
+.mode-summary-card {
+  background: #f8fafc;
+  border: 1px solid #edf2f7;
+  border-radius: 12px;
+  padding: 10px 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  background: white;
-  border-radius: 12px;
-  padding: 12px 8px 10px;
-  cursor: pointer;
-  transition: transform 0.15s, box-shadow 0.15s;
-  border-top: 3px solid transparent;
+  gap: 4px;
   text-align: center;
 }
 
-.entry-card:active {
-  transform: scale(0.97);
+.mode-summary-card.weak {
+  background: #fff5f5;
+  border-color: #ffd7d7;
 }
 
-.entry-card.new { border-top-color: #2196F3; }
-.entry-card.weak { border-top-color: #F44336; }
-.entry-card.mastered { border-top-color: #4CAF50; }
-
-.entry-card-icon {
-  font-size: 1.4rem;
-  line-height: 1;
-  flex-shrink: 0;
+.mode-summary-card.mastered {
+  background: #f0fdf4;
+  border-color: #ccefd5;
 }
 
-.entry-card-body {
-  flex: 1;
-  min-width: 0;
-}
-
-.entry-card-title {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.entry-card-count {
+.mode-summary-label {
   font-size: 0.72rem;
-  font-weight: 600;
-  color: #666;
-  margin-top: 2px;
+  color: #6b7280;
 }
 
-.entry-card-count.empty {
-  color: #ccc;
-}
-
-.entry-card .entry-arrow {
-  color: #ccc;
-  font-size: 1rem;
-  flex-shrink: 0;
-  align-self: flex-end;
+.mode-summary-value {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: #1f2937;
 }
 
 /* Practice entry info bar */
 .practice-entry-info {
-  background: #f5f5f5;
-  border-radius: 8px;
-  padding: 8px 12px;
+  background: #eef6ef;
+  border-radius: 10px;
+  padding: 9px 12px;
   margin-bottom: 8px;
   font-size: 0.78rem;
-  color: #666;
+  color: #49615a;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-left: 4px solid #4caf50;
 }
 
-.practice-entry-info.weak { background: #fff3f3; border-left: 3px solid #F44336; }
-.practice-entry-info.mastered { background: #f0f7f0; border-left: 3px solid #4CAF50; }
+.practice-entry-info.weak { background: #fff3f3; border-left-color: #F44336; }
+.practice-entry-info.mastered { background: #f0f7f0; border-left-color: #4CAF50; }
+.practice-entry-info.new { background: #eff6ff; border-left-color: #2196F3; }
 
 /* 100-day card */
 .hundred-day-card {
@@ -746,8 +787,18 @@ main {
   gap: 3px;
 }
 
+.home-subjects-grid {
+  padding: 0;
+  background: transparent;
+}
+
 .subj-name {
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.subj-meta {
+  font-size: 0.66rem;
+  color: #7b8794;
 }
 
 .subj-badge {
@@ -766,6 +817,10 @@ main {
   background: #4CAF50;
   color: white;
   border-color: #4CAF50;
+}
+
+.subject-grid-btn.active .subj-meta {
+  color: rgba(255, 255, 255, 0.88);
 }
 
 .subject-grid-btn:not(.active):hover {
@@ -848,6 +903,23 @@ main {
   border-radius: 8px;
   margin-bottom: 12px;
   display: block;
+}
+
+.question-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.question-image-grid img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 8px;
 }
 
 /* Options */

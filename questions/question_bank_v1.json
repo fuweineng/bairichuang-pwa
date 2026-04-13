@@ -157,13 +157,13 @@
     ],
     "question": "下列句子使用了排比修辞手法的一项是：",
     "options": [
-      "学而时习之，不亦说乎？",
-      "红的花，黄的花，漂亮极了。",
-      "他山之石，可以攻玉。",
-      "虚心使人进步，骄傲使人落后。"
+      "阅读让人增长知识，也让人收获快乐。",
+      "书是钥匙，能打开智慧之门；书是阶梯，能帮助人们登上理想高峰；书是灯塔，能指引我们前进。",
+      "海边的风真大啊！",
+      "他跑得像风一样快。"
     ],
-    "answer": "红的花，黄的花，漂亮极了。",
-    "explanation": "排比需要三个或以上结构相同、语气一致的并列成分。"
+    "answer": "书是钥匙，能打开智慧之门；书是阶梯，能帮助人们登上理想高峰；书是灯塔，能指引我们前进。",
+    "explanation": "排比要求三个或三个以上结构相近、语气一致的句式并列出现。"
   },
   {
     "id": "chinese-010",
@@ -639,7 +639,7 @@
     "grade": 8,
     "knowledgeTags": [
       "时态",
-      "一般过去时"
+      "过去完成时"
     ],
     "question": "When I arrived at the station, the train ______.",
     "options": [
@@ -649,7 +649,7 @@
       "was leaving"
     ],
     "answer": "had left",
-    "explanation": "'had left' (past perfect) shows the train left BEFORE I arrived."
+    "explanation": "到达车站之前火车已经开走，因此要用过去完成时 had left。"
   },
   {
     "id": "english-004",
@@ -12406,8 +12406,8 @@
       "《背影》",
       "《孔乙己》"
     ],
-    "answer": "背影",
-    "explanation": "《背影》是朱自清的作品；其他都是鲁迅的散文"
+    "answer": "《背影》",
+    "explanation": "《背影》是朱自清的散文名篇，选项和答案应保持完全一致。"
   },
   {
     "id": "chinese-110",
@@ -12532,15 +12532,15 @@
     "knowledgeTags": [
       "病句修改"
     ],
-    "question": "通过这次活动，使我提高了认识。",
+    "question": "下列句子中，没有语病的一项是：",
     "options": [
-      "去掉通过",
-      "去掉使",
-      "去掉这次活动",
-      "去掉这次活动或通过"
+      "通过这次活动，使我受益匪浅。",
+      "能否保持自律，是成绩进步的重要条件。",
+      "同学们正在认真讨论并解决老师提出的问题。",
+      "他的表达能力比以前增加了。"
     ],
-    "answer": "去掉通过或去掉使",
-    "explanation": "缺主语，去掉通过或使即可，主语是这次活动使我们提高"
+    "answer": "同学们正在认真讨论并解决老师提出的问题。",
+    "explanation": "A项缺主语，B项两面对一面，D项“能力”不能与“增加”搭配。"
   },
   {
     "id": "chinese-117",
@@ -12617,5 +12617,495 @@
     ],
     "answer": "认认真真学习",
     "explanation": "A、B、C是状语+动词；D是重叠形容词+动词，且多了状语"
+  },
+  {
+    "id": "chinese-201",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词语运用",
+      "岭南文化"
+    ],
+    "question": "依次填入句中横线处的词语，最恰当的一项是：佛山秋色巡游把醒狮、武术、粤剧等元素自然地______在一起，让整座城市的文化气质更加______。",
+    "options": [
+      "堆砌 鲜亮",
+      "融合 鲜明",
+      "拼凑 热闹",
+      "组合 朴素"
+    ],
+    "answer": "融合 鲜明",
+    "explanation": "“融合”强调自然结合，“鲜明”更适合形容文化气质特点突出。"
+  },
+  {
+    "id": "chinese-202",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写",
+      "爱国情怀"
+    ],
+    "question": "补写杜甫《春望》中的名句：______，______。",
+    "answer": [
+      "感时花溅泪",
+      "恨别鸟惊心"
+    ],
+    "explanation": "“感时花溅泪，恨别鸟惊心”通过移情手法写出诗人忧国思家的情感。"
+  },
+  {
+    "id": "chinese-203",
+    "type": "short_answer",
+    "subject": "chinese",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "现代文阅读",
+      "内容理解"
+    ],
+    "question": "阅读句子“鼓点一起，狮头忽而昂起，忽而俯冲，像把整条老街都唤醒了”。这句话突出了醒狮表演怎样的特点？",
+    "answer": "动作有力，气氛热烈，富有感染力",
+    "keywords": [
+      "有力",
+      "热烈",
+      "感染力"
+    ],
+    "explanation": "句中通过“昂起”“俯冲”“唤醒”写出表演节奏强、场面热烈、感染力强。"
+  },
+  {
+    "id": "math-201",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数",
+      "实际应用"
+    ],
+    "question": "某自习室按“固定费10元+每小时8元”收费，学习x小时需付y元，则y与x之间的关系式是：",
+    "options": [
+      "y=8x",
+      "y=10x+8",
+      "y=8x+10",
+      "y=18x"
+    ],
+    "answer": "y=8x+10",
+    "explanation": "总费用=固定费用+单位费用×时长，因此 y=8x+10。"
+  },
+  {
+    "id": "math-202",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形",
+      "角度计算"
+    ],
+    "question": "如图，在等腰三角形ABC中，AD⊥BC，且∠A=40°，则∠ABC=____。",
+    "imageUrl": "images/math/triangle-angle.svg",
+    "answer": "70°",
+    "acceptAnswers": [
+      "70",
+      "70°"
+    ],
+    "explanation": "等腰三角形两底角相等，∠ABC=∠ACB=(180°-40°)÷2=70°。"
+  },
+  {
+    "id": "math-203",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数据分析",
+      "平均数"
+    ],
+    "question": "某小组五次口算成绩分别为88、92、90、95、85，则这组数据的平均数是：",
+    "options": [
+      "89",
+      "90",
+      "91",
+      "92"
+    ],
+    "answer": "90",
+    "explanation": "平均数=(88+92+90+95+85)÷5=90。"
+  },
+  {
+    "id": "math-204",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式",
+      "解集表示"
+    ],
+    "question": "解不等式 3x-5>7，得到 x____。",
+    "answer": "4",
+    "acceptAnswers": [
+      ">4",
+      "x>4"
+    ],
+    "explanation": "移项得3x>12，两边同时除以3，得到 x>4。"
+  },
+  {
+    "id": "english-201",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "校园情境"
+    ],
+    "question": "What club will the girl join this term?",
+    "hint": "先点“听对话/短文”，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "Boy: Our school has a new science club this term. Would you like to join it? Girl: I wanted to join the music club before, but now I think the science club is more exciting.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The music club."
+      },
+      {
+        "label": "B",
+        "text": "The science club."
+      },
+      {
+        "label": "C",
+        "text": "The chess club."
+      },
+      {
+        "label": "D",
+        "text": "The art club."
+      }
+    ],
+    "answer": "B",
+    "explanation": "女生最后说科学社更令人兴奋，所以选择科学社。"
+  },
+  {
+    "id": "english-202",
+    "type": "dictation",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听写",
+      "校园生活"
+    ],
+    "question": "Write down the key place you hear.",
+    "hint": "只需填写你听到的地点短语。",
+    "tts": "en-US",
+    "text": "We will meet at the school library after class.",
+    "answer": "the school library",
+    "acceptAnswers": [
+      "school library"
+    ],
+    "explanation": "句中的关键信息是见面地点 the school library。"
+  },
+  {
+    "id": "english-203",
+    "type": "passage_dictation",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "短文听力",
+      "信息提取"
+    ],
+    "question": "Listen to the passage and answer the questions.",
+    "hint": "短文会通过语音朗读，完成两道信息提取题。",
+    "tts": "en-US",
+    "passage": "Last Saturday, Lucy and her classmates visited the Foshan Ancestral Temple. They watched a lion dance show in the morning and made notes about Lingnan culture in the afternoon.",
+    "questions": [
+      {
+        "q": "Where did Lucy go last Saturday?",
+        "answer": "the Foshan Ancestral Temple",
+        "acceptAnswers": [
+          "Foshan Ancestral Temple",
+          "the ancestral temple"
+        ],
+        "explanation": "地点信息来自第一句。"
+      },
+      {
+        "q": "What did they watch in the morning?",
+        "answer": "a lion dance show",
+        "acceptAnswers": [
+          "lion dance show",
+          "a lion dance"
+        ],
+        "explanation": "上午活动是观看醒狮表演。"
+      }
+    ],
+    "explanation": "这类题要抓时间、地点和活动三个关键信息。"
+  },
+  {
+    "id": "english-204",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法",
+      "宾语从句"
+    ],
+    "question": "Could you tell me _____ the subway station is from here?",
+    "options": [
+      "how far",
+      "how long",
+      "how often",
+      "how soon"
+    ],
+    "answer": "how far",
+    "explanation": "询问距离要用 how far。"
+  },
+  {
+    "id": "english-205",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法",
+      "被动语态"
+    ],
+    "question": "Complete the sentence: The classroom should ______ before the guests arrive.",
+    "answer": "be cleaned",
+    "acceptAnswers": [
+      "cleaned",
+      "be cleaned up"
+    ],
+    "explanation": "情态动词后用被动结构 should be + done。"
+  },
+  {
+    "id": "science-201",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学",
+      "欧姆定律"
+    ],
+    "question": "如图所示，电阻R=10Ω，电源电压U=6V，则电流表的示数是：",
+    "imageUrl": "images/science/circuit-series.svg",
+    "options": [
+      "0.3A",
+      "0.6A",
+      "6A",
+      "10A"
+    ],
+    "answer": "0.6A",
+    "explanation": "根据欧姆定律 I=U/R=6÷10=0.6A。"
+  },
+  {
+    "id": "science-202",
+    "type": "fill",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "力学",
+      "压强"
+    ],
+    "question": "压强的计算公式是 p=____。",
+    "answer": "F/S",
+    "acceptAnswers": [
+      "f/s",
+      "F÷S",
+      "f÷s"
+    ],
+    "explanation": "压强等于压力除以受力面积。"
+  },
+  {
+    "id": "science-203",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "实验探究",
+      "化学实验"
+    ],
+    "question": "下列操作中，能够较好地减小实验误差的是：",
+    "options": [
+      "直接估读量筒液面最低处",
+      "读取温度计示数时视线与液柱顶端平齐",
+      "多次测量后取平均值",
+      "天平称量时手扶砝码"
+    ],
+    "answer": "多次测量后取平均值",
+    "explanation": "多次测量取平均值是减小偶然误差的常见方法。"
+  },
+  {
+    "id": "science-204",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "光学",
+      "凸透镜成像"
+    ],
+    "question": "把蜡烛放在凸透镜二倍焦距以外，移动光屏后得到清晰像，则像的性质是：",
+    "options": [
+      "倒立放大的实像",
+      "倒立缩小的实像",
+      "正立放大的虚像",
+      "正立缩小的虚像"
+    ],
+    "answer": "倒立缩小的实像",
+    "explanation": "物距大于2f时，成倒立、缩小的实像。"
+  },
+  {
+    "id": "history-201",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "维新变法",
+      "广东历史人物"
+    ],
+    "question": "戊戌变法时期，提出变法主张、籍贯为广东南海的重要人物是：",
+    "options": [
+      "林则徐",
+      "康有为",
+      "孙中山",
+      "梁启超"
+    ],
+    "answer": "康有为",
+    "explanation": "康有为是广东南海人，是维新变法的重要代表人物。"
+  },
+  {
+    "id": "history-202",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "虎门销烟"
+    ],
+    "question": "1839年在广东虎门主持销烟的民族英雄是______。",
+    "answer": "林则徐",
+    "explanation": "林则徐主持虎门销烟，体现了中华民族反抗外来侵略的决心。"
+  },
+  {
+    "id": "geography-201",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地形图判读",
+      "河流流向"
+    ],
+    "question": "根据图中等高线和河流位置判断，该河流大致流向是：",
+    "imageUrl": "images/geography/river-landform.svg",
+    "options": [
+      "由西北流向东南",
+      "由东北流向西南",
+      "由东南流向西北",
+      "由西南流向东北"
+    ],
+    "answer": "由西北流向东南",
+    "explanation": "河流从高处流向低处，图示河道总体由西北流向东南。"
+  },
+  {
+    "id": "geography-202",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "珠江三角洲"
+    ],
+    "question": "佛山所在的珠江三角洲地区发展制造业的有利条件不包括：",
+    "options": [
+      "水陆交通便利",
+      "靠近港澳和国际市场",
+      "科技与产业基础较好",
+      "全年降水极少，利于重工业发展"
+    ],
+    "answer": "全年降水极少，利于重工业发展",
+    "explanation": "珠江三角洲属于亚热带季风气候，降水并不少，这不是其制造业发展的优势。"
+  },
+  {
+    "id": "politics-201",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公共秩序",
+      "规则意识"
+    ],
+    "question": "在地铁站排队安检时，有同学想插队赶时间。你更恰当的做法是：",
+    "options": [
+      "假装没看见，免得惹麻烦",
+      "和他一起插队节省时间",
+      "提醒他遵守秩序，并自觉排队",
+      "当众嘲笑他没有素质"
+    ],
+    "answer": "提醒他遵守秩序，并自觉排队",
+    "explanation": "遵守公共秩序既是规则意识的体现，也是对他人权利的尊重。"
+  },
+  {
+    "id": "politics-202",
+    "type": "short_answer",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "网络生活",
+      "理性参与"
+    ],
+    "question": "面对来源不明的网络消息，青少年应怎样做？请概括两点。",
+    "answer": "不信谣、不传谣，核实信息来源，理性表达",
+    "keywords": [
+      "核实",
+      "不传谣"
+    ],
+    "explanation": "核心在于提高媒介素养，先核实再表达，不造谣、不传谣。"
+  },
+  {
+    "id": "biology-201",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构",
+      "植物细胞"
+    ],
+    "question": "观察图示植物细胞，下列结构中能够进行光合作用的是：",
+    "imageUrl": "images/biology/cell-structure.svg",
+    "options": [
+      "细胞核",
+      "叶绿体",
+      "液泡",
+      "细胞膜"
+    ],
+    "answer": "叶绿体",
+    "explanation": "叶绿体中含有叶绿素，是植物进行光合作用的主要场所。"
+  },
+  {
+    "id": "biology-202",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统",
+      "食物链"
+    ],
+    "question": "在“草→蝗虫→青蛙”这条食物链中，生产者是______。",
+    "answer": "草",
+    "explanation": "绿色植物能制造有机物，因此是生态系统中的生产者。"
   }
 ]

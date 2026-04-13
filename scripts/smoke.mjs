@@ -89,7 +89,7 @@ async function main() {
       throw new Error(`首页未正常显示，当前视图: ${activeView}`);
     }
 
-    await page.locator('[data-action="start-entry"][data-entry="new"]').click();
+    await page.locator('[data-action="set-practice-mode"][data-mode="standard"]').click();
     await page.locator('[data-action="start-subject"][data-subject="math"]').click();
     await page.waitForSelector('.answer-btn, #fill-answer-input, #listen-btn');
 
@@ -97,6 +97,11 @@ async function main() {
     if (practiceTitle !== '数学') {
       throw new Error(`练习页标题异常: ${practiceTitle}`);
     }
+
+    await page.locator('.view.active [data-action="nav"][data-view="home"]').click();
+    await page.locator('[data-action="set-practice-mode"][data-mode="weak"]').click();
+    await page.locator('[data-action="start-subject"][data-subject="all"]').click();
+    await page.waitForSelector('#practice-entry-info');
 
     await page.locator('#header-settings-btn').click();
     await page.waitForSelector('#settings-content .settings-card');
