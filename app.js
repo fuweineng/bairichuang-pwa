@@ -1020,7 +1020,7 @@ function drawChart() {
         return total > 0 ? Math.round(sdata.correct / total * 100) : 0;
       });
       if (vals.some(v => v > 0)) {
-        lines.push({ label: s, color: lineColors[s] || '#999', values: vals });
+        lines.push({ label: subjectName(s), color: lineColors[s] || '#999', values: vals });
       }
     });
   } else {
