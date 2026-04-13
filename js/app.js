@@ -236,25 +236,101 @@ async function loadWrongView() {
     return;
   }
 
-  let html = `<p class="wrong-summary">共 ${wrongList.length} 道错题</p>`;
+  let html = `<p class="wrong-summary">共 ${wrongList.length} 道错题（点击题目开始复习）</p>`;
   wrongList.forEach((item, idx) => {
     const q = item.question;
     html += `
       <div class="wrong-item" data-index="${idx}">
-        <div class="wrong-question">
+        <div class="wrong-question clickable" data-index="${idx}">
           <span class="subject-tag">${getSubjectName(q.subject)}</span>
           <p>${q.question}</p>
         </div>
-        <div class="wrong-answer">
-          <span class="user-answer">你的答案: ${item.userAnswer}</span>
-          <span class="correct-answer">正确答案: ${q.answer}</span>
+        <div class="wrong-meta">
+          <span class="wrong-date">${new Date(item.timestamp).toLocaleDateString('zh-CN')}</span>
         </div>
-        ${q.explanation ? `<p class="explanation">解析: ${q.explanation}</p>` : ''}
       </div>
     `;
   });
 
   container.innerHTML = html;
+
+  // Bind click to start review
+  container.querySelectorAll('.wrong-question.clickable').forEach(el => {
+    el.addEventListener('click', () => {
+      const idx = parseInt(el.dataset.index);
+      showWrongReview(idx);
+    });
+  });
+}
+
+// Show review interface for a specific wrong question
+let currentWrongIdx = null;
+
+async function showWrongReview(idx) {
+  const container = document.getElementById('wrong-container');
+  const wrongList = await getWrongQuestions();
+  if (idx < 0 || idx >= wrongList.length) return;
+
+  currentWrongIdx = idx;
+  const item = wrongList[idx];
+  const q = item.question;
+
+  let html = `
+    <div class="review-back"><button class="back-btn" id="review-back-btn">← 返回错题集</button></div>
+    <div class="question">
+      <span class="subject-tag">${getSubjectName(q.subject)}</span>
+      <p class="question-text">${q.question}</p>
+    </div>
+  `;
+
+  if (q.type === 'choice' && q.options) {
+    html += '<div class="options">';
+    q.options.forEach((opt, i) => {
+      html += `<button class="option-btn" data-index="${i}">${opt}</button>`;
+    });
+    html += '</div>';
+  }
+
+  html += `
+    <div class="wrong-answer-review" style="display:none;">
+      <p class="your-wrong">你的答案: <span class="red">${item.userAnswer}</span></p>
+      <p class="correct-wrong">正确答案: <span class="green">${q.answer}</span></p>
+      ${q.explanation ? `<p class="explanation">解析: ${q.explanation}</p>` : ''}
+    </div>
+  `;
+
+  container.innerHTML = html;
+  document.getElementById('review-back-btn').addEventListener('click', loadWrongView);
+
+  // Bind option events
+  container.querySelectorAll('.option-btn').forEach(optBtn => {
+    optBtn.addEventListener('click', async () => {
+      const selectedIndex = parseInt(optBtn.dataset.index);
+      const isCorrect = q.answer === q.options[selectedIndex];
+
+      container.querySelectorAll('.option-btn').forEach(b => {
+        b.disabled = true;
+        if (q.options.indexOf(q.answer) === parseInt(b.dataset.index)) {
+          b.classList.add('correct');
+        } else if (parseInt(b.dataset.index) === selectedIndex && !isCorrect) {
+          b.classList.add('wrong');
+        }
+      });
+
+      const answerReview = container.querySelector('.wrong-answer-review');
+      if (answerReview) answerReview.style.display = 'block';
+
+      if (isCorrect) {
+        await removeWrongQuestion(q.id);
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'primary-btn';
+        nextBtn.style.marginTop = '15px';
+        nextBtn.textContent = '已掌握！返回错题集';
+        nextBtn.onclick = () => loadWrongView();
+        container.appendChild(nextBtn);
+      }
+    });
+  });
 }
 
 function getSubjectName(subject) {
