@@ -14,6 +14,7 @@ let sessionIndex = 0;
 let sessionScore = { correct: 0, wrong: 0 };
 let sessionSubject = null;
 let practiceEntry = 'new'; // 'new' | 'weak' | 'mastered'
+window.practiceEntry = 'new'; // expose for HTML event delegation
 let _sessionStartQuestions = 0; // questions answered before this session
 let _sessionStartCorrect = 0;     // correct answers before this session
 let _sessionTotalQuestions = 0;   // total questions answered today before this session

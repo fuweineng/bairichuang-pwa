@@ -251,6 +251,24 @@
   </script>
   <script src="js/checkin.js"></script>
   <script src="js/question_bank.js"></script>
-  <script type="module" src="js/app.js?v=112"></script>
+  <script type="module" src="js/app.js?v=120"></script>
+  <script>
+    // Event delegation for entry cards — works even when module is cached
+    document.addEventListener('click', function(e) {
+      var card = e.target.closest('.entry-card');
+      if (card) {
+        var entry = card.dataset.entry;
+        if (window.navigate) window.navigate('#/practice');
+        else window.location.hash = '#/practice';
+        return;
+      }
+      var routeBtn = e.target.closest('[data-route]');
+      if (routeBtn) {
+        var route = routeBtn.dataset.route;
+        if (window.navigate) window.navigate(route);
+        else window.location.hash = route;
+      }
+    });
+  </script>
 </body>
 </html>
