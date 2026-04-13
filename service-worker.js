@@ -1,5 +1,5 @@
 // Service Worker v1.0.0
-const CACHE_NAME = 'bairichuang-v1.0.9';
+const CACHE_NAME = 'bairichuang-v1.0.10';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -39,9 +39,25 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch: cache-first for static, stale-while-revalidate for dynamic
+// Fetch: network-first for JS (always get latest), stale-while-revalidate for JSON, cache-first for images
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
+
+  // Always network-first for JS files — fixes stale JS bug during dev
+  if (url.pathname.endsWith('.js')) {
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse.ok) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseClone));
+          }
+          return networkResponse;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
 
   // Stale-while-revalidate for question JSON files
   if (url.pathname.includes('sample_questions') || url.pathname.endsWith('.json')) {
@@ -61,7 +77,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Cache-first for static assets
+  // Cache-first for images and other static assets
   event.respondWith(
     caches.match(event.request).then((response) => {
       return response || fetch(event.request);
