@@ -78,6 +78,14 @@ function navigate(route) {
     document.getElementById('wrong-view').classList.add('active');
     currentView = 'wrong';
     loadWrongView();
+  } else if (route === '#/mastery') {
+    document.getElementById('mastery-view').classList.add('active');
+    currentView = 'mastery';
+    loadMasteryView('math', 'tag');
+  } else if (route === '#/settings') {
+    document.getElementById('settings-view').classList.add('active');
+    currentView = 'settings';
+    loadSettingsView();
   } else {
     document.getElementById('home-view').classList.add('active');
     currentView = 'index';
@@ -114,6 +122,24 @@ function bindEvents() {
       await startPracticeSession(subject);
     });
   });
+
+  // Mastery subject tabs
+  document.querySelectorAll('.mastery-subject-tabs .tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      loadMasteryView(btn.dataset.subject, currentMasteryType);
+    });
+  });
+
+  // Mastery type tabs
+  document.querySelectorAll('.mastery-type-tabs .type-tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      loadMasteryView(currentMasterySubject, btn.dataset.type);
+    });
+  });
+
+  // PWA install button
+  const pwaBtn = document.getElementById('pwa-install-btn');
+  if (pwaBtn) pwaBtn.addEventListener('click', installPWA);
 }
 
 // Refresh UI data
@@ -423,6 +449,302 @@ function showToast(msg) {
   toast.textContent = msg;
   document.body.appendChild(toast);
   setTimeout(() => toast.remove(), 2000);
+}
+
+// ==================== Knowledge Mastery View ====================
+
+const MASTERY_COLORS = [
+  '#4CAF50','#2196F3','#FF9800','#9C27B0',
+  '#E91E63','#00BCD4','#795548','#607D8B',
+  '#8BC34A','#3F51B5','#FF5722','#009688'
+];
+
+let currentMasterySubject = 'math';
+let currentMasteryType = 'tag';
+
+async function loadMasteryView(subject, type) {
+  currentMasterySubject = subject;
+  currentMasteryType = type;
+
+  const container = document.getElementById('mastery-content');
+  if (!container) return;
+
+  // Update tab states
+  document.querySelectorAll('.mastery-subject-tabs .tab-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.subject === subject);
+  });
+  document.querySelectorAll('.mastery-type-tabs .type-tab').forEach(b => {
+    b.classList.toggle('active', b.dataset.type === type);
+  });
+
+  container.innerHTML = '<p class="placeholder">加载中...</p>';
+
+  if (type === 'tag') {
+    await renderMasteryByTag(container, subject);
+  } else {
+    await renderMasteryByType(container, subject);
+  }
+}
+
+async function renderMasteryByTag(container, subject) {
+  const data = await getKnowledgeMastery(subject, 100);
+  const entries = Object.entries(data);
+
+  if (entries.length === 0) {
+    container.innerHTML = '<p class="mastery-empty">暂无练习数据<br/>开始练习后这里会显示知识掌握曲线</p>';
+    return;
+  }
+
+  let html = `<p class="mastery-hint" style="font-size:0.8rem;color:#999;margin-bottom:12px">累计正确率趋势（最近100天）</p>`;
+
+  entries.slice(0, 8).forEach(([tag, series], idx) => {
+    const color = MASTERY_COLORS[idx % MASTERY_COLORS.length];
+    const lastPct = series.length > 0 ? series[series.length - 1].accuracy : 0;
+    const level = lastPct >= 80 ? 'high' : lastPct >= 50 ? 'mid' : 'low';
+    html += `
+      <div style="margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <span style="font-size:0.85rem">${tag}</span>
+          <span style="font-size:0.85rem;font-weight:bold;color:${lastPct>=80?'#4CAF50':lastPct>=50?'#ff9800':'#e53935'}">${lastPct}%</span>
+        </div>
+        <canvas class="mastery-canvas" data-tag="${tag}" data-series='${JSON.stringify(series)}' data-color="${color}" height="80" style="width:100%;display:block"></canvas>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+
+  // Draw all canvases
+  container.querySelectorAll('.mastery-canvas').forEach(canvas => {
+    drawLineChart(canvas, JSON.parse(canvas.dataset.series), canvas.dataset.color);
+  });
+}
+
+function drawLineChart(canvas, series, color) {
+  if (!series || series.length === 0) return;
+  const ctx = canvas.getContext('2d');
+  const w = canvas.offsetWidth * 2;
+  const h = canvas.height * 2;
+  canvas.width = w;
+  const dpr = window.devicePixelRatio || 1;
+  canvas.width = w;
+  canvas.height = h;
+  canvas.style.width = w / dpr + 'px';
+  canvas.style.height = h / dpr + 'px';
+  ctx.scale(dpr, dpr);
+
+  const W = w / dpr;
+  const H = h / dpr;
+  const padL = 5, padR = 5, padT = 5, padB = 5;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+
+  ctx.clearRect(0, 0, W, H);
+
+  if (series.length === 1) {
+    // Draw single dot
+    const x = padL + chartW / 2;
+    const y = padT + chartH * (1 - series[0].accuracy / 100);
+    ctx.beginPath();
+    ctx.arc(x, y, 4, 0, Math.PI * 2);
+    ctx.fillStyle = color;
+    ctx.fill();
+    return;
+  }
+
+  // Grid lines
+  ctx.strokeStyle = '#eee';
+  ctx.lineWidth = 0.5;
+  [0, 25, 50, 75, 100].forEach(pct => {
+    const y = padT + chartH * (1 - pct / 100);
+    ctx.beginPath();
+    ctx.moveTo(padL, y);
+    ctx.lineTo(padL + chartW, y);
+    ctx.stroke();
+  });
+
+  // Polyline
+  const points = series.map((d, i) => ({
+    x: padL + (i / (series.length - 1)) * chartW,
+    y: padT + chartH * (1 - d.accuracy / 100)
+  }));
+
+  ctx.beginPath();
+  points.forEach((p, i) => {
+    if (i === 0) ctx.moveTo(p.x, p.y);
+    else ctx.lineTo(p.x, p.y);
+  });
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  // Fill
+  ctx.lineTo(points[points.length - 1].x, padT + chartH);
+  ctx.lineTo(padL, padT + chartH);
+  ctx.closePath();
+  ctx.fillStyle = color + '22';
+  ctx.fill();
+
+  // Dots
+  points.forEach(p => {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, 2.5, 0, Math.PI * 2);
+    ctx.fillStyle = color;
+    ctx.fill();
+  });
+}
+
+async function renderMasteryByType(container, subject) {
+  const kp = await getKnowledgeMastery(subject, 100);
+  // Aggregate by question type from wrong list
+  const wrongList = await getWrongQuestions();
+  const progress = await getProgress();
+
+  // Count question types from the question bank
+  const questions = await getQuestionsBySubject(subject);
+  const typeStats = {};
+  for (const q of questions) {
+    if (!typeStats[q.type]) typeStats[q.type] = { total: 0, correct: 0 };
+  }
+
+  // Update from progress records
+  for (const [qid, record] of Object.entries(progress)) {
+    const q = questions.find(x => x.id === qid);
+    if (q) {
+      if (!typeStats[q.type]) typeStats[q.type] = { total: 0, correct: 0 };
+      typeStats[q.type].total++;
+      if (record.isCorrect) typeStats[q.type].correct++;
+    }
+  }
+
+  const typeNames = { choice: '选择题', fill: '填空题', short_answer: '简答题', reading: '阅读理解', dictation: '听写', expression: '表达题' };
+
+  const entries = Object.entries(typeStats).filter(([, v]) => v.total > 0);
+  if (entries.length === 0) {
+    container.innerHTML = '<p class="mastery-empty">暂无练习数据</p>';
+    return;
+  }
+
+  let html = '<div class="type-stat-grid">';
+  entries.forEach(([type, stats]) => {
+    const pct = Math.round((stats.correct / stats.total) * 100);
+    const level = pct >= 80 ? 'high' : pct >= 50 ? 'mid' : 'low';
+    html += `
+      <div class="type-stat-card ${level}">
+        <div class="type-name">${typeNames[type] || type}</div>
+        <div class="type-pct">${pct}%</div>
+        <div class="type-total">${stats.total}题 / ${stats.correct}正确</div>
+      </div>
+    `;
+  });
+  html += '</div>';
+  container.innerHTML = html;
+}
+
+// ==================== Settings View ====================
+
+async function loadSettingsView() {
+  const container = document.getElementById('settings-content');
+  if (!container) return;
+
+  const settings = await getSettings();
+  container.innerHTML = `
+    <div class="settings-group">
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">每日目标</div>
+          <div class="settings-desc">每日练习题目数量</div>
+        </div>
+        <div class="goal-stepper">
+          <button class="stepper-btn" id="goal-minus">−</button>
+          <span class="goal-value" id="goal-value">${settings.dailyGoal}</span>
+          <button class="stepper-btn" id="goal-plus">+</button>
+        </div>
+      </div>
+    </div>
+    <div class="settings-group">
+      <div class="settings-row">
+        <div>
+          <div class="settings-label">难度筛选</div>
+          <div class="settings-desc">练习时只出指定难度题目</div>
+        </div>
+        <div class="difficulty-filter" id="diff-filter">
+          <button class="diff-pill ${settings.difficultyFilter===null?'active':''}" data-diff="">全部</button>
+          <button class="diff-pill ${settings.difficultyFilter===1?'active':''}" data-diff="1">简单</button>
+          <button class="diff-pill ${settings.difficultyFilter===2?'active':''}" data-diff="2">中等</button>
+          <button class="diff-pill ${settings.difficultyFilter===3?'active':''}" data-diff="3">困难</button>
+        </div>
+      </div>
+    </div>
+    <div class="settings-group">
+      <button class="danger-btn" id="clear-all-btn">清除所有数据</button>
+    </div>
+  `;
+
+  // Bind events
+  document.getElementById('goal-minus').addEventListener('click', async () => {
+    const settings = await getSettings();
+    if (settings.dailyGoal > 1) {
+      await saveSetting('dailyGoal', settings.dailyGoal - 1);
+      document.getElementById('goal-value').textContent = settings.dailyGoal - 1;
+      refreshUI();
+    }
+  });
+
+  document.getElementById('goal-plus').addEventListener('click', async () => {
+    const settings = await getSettings();
+    if (settings.dailyGoal < 50) {
+      await saveSetting('dailyGoal', settings.dailyGoal + 1);
+      document.getElementById('goal-value').textContent = settings.dailyGoal + 1;
+      refreshUI();
+    }
+  });
+
+  document.querySelectorAll('#diff-filter .diff-pill').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const diff = btn.dataset.diff === '' ? null : parseInt(btn.dataset.diff);
+      await saveSetting('difficultyFilter', diff);
+      document.querySelectorAll('#diff-filter .diff-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  document.getElementById('clear-all-btn').addEventListener('click', async () => {
+    if (confirm('确定清除所有数据？包括打卡记录、错题、进度等，此操作不可恢复。')) {
+      await clearAllData();
+      showToast('数据已清除');
+      refreshUI();
+    }
+  });
+}
+
+// ==================== PWA Install Banner ====================
+
+let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  setTimeout(() => {
+    const banner = document.getElementById('pwa-install-banner');
+    if (banner && localStorage.getItem('pwa-banner-dismissed') !== '1') {
+      banner.style.display = 'flex';
+    }
+  }, 3000);
+});
+
+function dismissPwaBanner() {
+  const banner = document.getElementById('pwa-install-banner');
+  if (banner) banner.style.display = 'none';
+  localStorage.setItem('pwa-banner-dismissed', '1');
+}
+
+async function installPWA() {
+  if (!deferredPrompt) return;
+  deferredPrompt.prompt();
+  const { outcome } = await deferredPrompt.userChoice;
+  deferredPrompt = null;
+  dismissPwaBanner();
 }
 
 // Load progress view
