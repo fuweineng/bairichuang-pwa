@@ -12,6 +12,7 @@ const state = {
   subject: null,
   entry: null,
   ttsUtterance: null,
+  chartSubject: 'all',  // 'all' | subject name
 
   // Practice session
   sessionQuestions: [],
@@ -93,6 +94,16 @@ async function init() {
 
   // Kick off router
   router();
+
+  // Chart subject switcher
+  document.getElementById('chart-subject-bar').addEventListener('click', e => {
+    const btn = e.target.closest('.subj-btn');
+    if (!btn) return;
+    const subj = btn.dataset.chartSubj;
+    state.chartSubject = subj;
+    document.querySelectorAll('.subj-btn').forEach(b => b.classList.toggle('active', b === btn));
+    document.getElementById('home-chart-container').innerHTML = drawChart();
+  });
 
   console.log('百日闯 PWA 初始化完成');
 }
@@ -532,7 +543,7 @@ async function handleAnswer(choiceIdx) {
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id, isCorrect);
+  await recordAnswer(q.id, isCorrect, state.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
@@ -575,7 +586,7 @@ async function handleDictationSubmit() {
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id, isCorrect);
+  await recordAnswer(q.id, isCorrect, state.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
@@ -615,7 +626,7 @@ async function handlePDSubmit() {
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id + '_sub_' + subIdx, isCorrect);
+  await recordAnswer(q.id + '_sub_' + subIdx, isCorrect, state.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
@@ -657,7 +668,7 @@ async function handleFillAnswer(userAnswer) {
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  await recordAnswer(q.id, isCorrect);
+  await recordAnswer(q.id, isCorrect, state.subject, q.type);
 
   const fb = document.getElementById('answer-feedback');
   if (fb) {
@@ -679,12 +690,11 @@ async function nextQuestion() {
   renderQuestion();
 }
 
-async function recordAnswer(questionId, isCorrect) {
+async function recordAnswer(questionId, isCorrect, subject, qtype) {
   const p = state.progress[questionId] || { status: 'new', correct: 0, wrong: 0, lastPracticed: null };
 
   if (isCorrect) {
     p.correct++;
-    // 3 consecutive correct → mastered
     if (p.correct >= 3) p.status = 'mastered';
   } else {
     p.wrong++;
@@ -695,6 +705,8 @@ async function recordAnswer(questionId, isCorrect) {
     }
   }
   p.lastPracticed = todayKey();
+  p.subject = subject;
+  p.type = qtype;
   state.progress[questionId] = p;
   await set(K.PROGRESS, state.progress);
 }
@@ -702,22 +714,39 @@ async function recordAnswer(questionId, isCorrect) {
 async function renderSessionEnd() {
   const container = document.getElementById('question-container');
   const { correct, wrong } = state.sessionScore;
-  const total = correct + wrong;
-  const acc = total > 0 ? Math.round(correct / total * 100) : 0;
-
-  // Record daily session
   const today = todayKey();
-  const existing = state.daily[today] || { practiced: 0, questionsCount: 0, correct: 0, accuracy: 0, score: 0 };
-  const newQ = existing.questionsCount + total;
-  const newC = existing.correct + correct;
-  const newAcc = newQ > 0 ? newC / newQ : 0;
-  const newScore = Math.round((newQ + 1) * newAcc);
+  const subj = state.subject || 'unknown';
+
+  // Per-subject/type counts from this session's questions
+  const typeCounts = {};
+  state.sessionQuestions.forEach(q => {
+    const t = q.type || 'choice';
+    if (!typeCounts[t]) typeCounts[t] = { correct: 0, wrong: 0 };
+    // We don't know per-question result in sessionScore, so skip type breakdown here
+  });
+
+  // Merge into daily bySubject
+  const existing = state.daily[today] || { practiced: 0, questionsCount: 0, correct: 0, accuracy: 0, score: 0, bySubject: {} };
+  const byS = existing.bySubject || {};
+  if (!byS[subj]) {
+    byS[subj] = { correct: 0, wrong: 0, byType: { choice: { correct: 0, wrong: 0 }, fill: { correct: 0, wrong: 0 }, short_answer: { correct: 0, wrong: 0 } } };
+  }
+  byS[subj].correct += correct;
+  byS[subj].wrong += wrong;
+
+  // Total across all subjects
+  const totalAll = Object.values(byS).reduce((sc, sd) => sc + (sd.correct || 0) + (sd.wrong || 0), 0);
+  const correctAll = Object.values(byS).reduce((sc, sd) => sc + (sd.correct || 0), 0);
+  const acc = totalAll > 0 ? correctAll / totalAll : 0;
+  const newScore = Math.round((totalAll + 1) * acc);
+
   state.daily[today] = {
     practiced: existing.practiced + 1,
-    questionsCount: newQ,
-    correct: newC,
-    accuracy: newAcc,
+    questionsCount: totalAll,
+    correct: correctAll,
+    accuracy: acc,
     score: newScore,
+    bySubject: byS,
   };
   await set(K.DAILY, state.daily);
 
@@ -772,7 +801,7 @@ function renderProgress() {
   `;
 }
 
-// SVG Chart — last 30 days
+// SVG Chart — last 30 days, multi-line
 function drawChart() {
   const W = 340, H = 120, PAD = 20;
   const days = 30;
@@ -784,49 +813,91 @@ function drawChart() {
     dates.push(d.toISOString().split('T')[0]);
   }
 
-  const scores = dates.map(d => (state.daily[d] || {}).score || 0);
-  const maxS = Math.max(10, ...scores);
+  const subj = state.chartSubject || 'all';
+  const lineColors = {
+    all: '#4CAF50', chinese: '#E91E63', math: '#2196F3',
+    english: '#FF9800', science: '#9C27B0', biology: '#009688',
+    history: '#795548', geography: '#607D8B', politics: '#F44336'
+  };
+  const typeColors = { choice: '#4CAF50', fill: '#2196F3', short_answer: '#FF9800' };
 
+  let lines = []; // [{label, color, values}]
+
+  if (subj === 'all') {
+    // One line per subject
+    const subjects = ['chinese','math','english','science','biology','history','geography','politics'];
+    subjects.forEach(s => {
+      const vals = dates.map(d => {
+        const byS = (state.daily[d] || {}).bySubject || {};
+        const sdata = byS[s] || {};
+        const total = sdata.correct + sdata.wrong;
+        return total > 0 ? Math.round(sdata.correct / total * 100) : 0;
+      });
+      if (vals.some(v => v > 0)) {
+        lines.push({ label: s, color: lineColors[s] || '#999', values: vals });
+      }
+    });
+  } else {
+    // One line per type for selected subject
+    ['choice','fill','short_answer'].forEach(t => {
+      const vals = dates.map(d => {
+        const byS = (state.daily[d] || {}).bySubject || {};
+        const sdata = byS[subj] || {};
+        const byT = sdata.byType || {};
+        const tdata = byT[t] || {};
+        const total = tdata.correct + tdata.wrong;
+        return total > 0 ? Math.round(tdata.correct / total * 100) : 0;
+      });
+      if (vals.some(v => v > 0)) {
+        lines.push({ label: t === 'choice' ? '选择题' : t === 'fill' ? '填空题' : '简答题', color: typeColors[t] || '#999', values: vals });
+      }
+    });
+  }
+
+  if (lines.length === 0) {
+    return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg"><text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#ccc" font-size="12">暂无数据</text></svg>`;
+  }
+
+  const allVals = lines.flatMap(l => l.values);
+  const maxS = Math.max(10, ...allVals.filter(v => v > 0));
   const xStep = (W - PAD * 2) / (days - 1);
   const yScale = (H - PAD * 2) / maxS;
 
-  const points = scores.map((s, i) => [
-    PAD + i * xStep,
-    H - PAD - s * yScale
-  ]);
-
-  const polyline = points.map((p, i) => `${i === 0 ? 'M' : 'L'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
-
-  // Area fill path
-  const area = polyline + ` L${points[points.length-1][0].toFixed(1)},${(H-PAD).toFixed(1)} L${points[0][0].toFixed(1)},${(H-PAD).toFixed(1)} Z`;
-
-  // X axis labels (every 7 days)
+  // X labels
   const xLabels = [0, 7, 14, 21, 29].map(i => {
     if (!dates[i]) return '';
     const d = new Date(dates[i]);
-    const label = `${d.getMonth()+1}/${d.getDate()}`;
-    return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel">${label}</text>`;
+    return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel">${d.getMonth()+1}/${d.getDate()}</text>`;
   }).join('');
 
-  // Y axis labels
-  const yLabels = [0, maxS].map(s => {
+  // Y labels
+  const yLabels = [0, Math.round(maxS/2), maxS].map(s => {
     const y = H - PAD - s * yScale;
     return `<text x="${PAD-4}" y="${y+4}" class="chart-ylabel" text-anchor="end">${s}</text>`;
   }).join('');
 
-  // Polyline: when score=0 the point lands below chart floor, clamp to floor so the dot is visible
-  const clampedPoints = points.map((p, i) => [
-    p[0],
-    scores[i] > 0 ? p[1] : H - PAD  // score=0 → show at bottom baseline
-  ]);
+  const svgLines = lines.map(line => {
+    const pts = line.values.map((s, i) => [
+      PAD + i * xStep,
+      s > 0 ? H - PAD - s * yScale : H - PAD
+    ]);
+    const ptsStr = pts.map((p, i) => `${i===0?'M':'L'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+    return `<polyline points="${ptsStr}" fill="none" stroke="${line.color}" stroke-width="1.8" stroke-opacity="0.85"/>`;
+  }).join('');
+
+  // Legend
+  const legendItems = lines.map(l =>
+    `<span style="display:inline-flex;align-items:center;gap:3px;margin-right:8px;font-size:10px;color:${l.color}">
+       <span style="display:inline-block;width:16px;height:2px;background:${l.color}"></span>${l.label}
+     </span>`
+  ).join('');
 
   return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg">
-    ${scores.some(s=>s>0) ? `<path d="${area}" class="chart-area"/>` : ''}
-    <polyline points="${clampedPoints.map(p=>`${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ')}" class="chart-line" fill="none"/>
-    ${points.filter((_,i) => scores[i] > 0).map(p => `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3" class="chart-dot"/>`).join('')}
-    ${xLabels}
-    ${yLabels}
-  </svg>`;
+    ${xLabels}${yLabels}
+    ${svgLines}
+    <text x="${PAD}" y="${PAD-4}" font-size="9" fill="#999">%</text>
+  </svg>
+  <div class="chart-legend">${legendItems}</div>`;
 }
 
 // SETTINGS VIEW
@@ -939,7 +1010,7 @@ async function upgradeQuestionBank() {
 async function ensureTodayCheckin() {
   const today = todayKey();
   if (!state.daily[today]) {
-    state.daily[today] = { practiced: 0, questionsCount: 0, correct: 0, accuracy: 0, score: 0 };
+    state.daily[today] = { practiced: 0, questionsCount: 0, correct: 0, accuracy: 0, score: 0, bySubject: {} };
     // First checkin of the day
     const streak = calcStreak();
     if (streak === 0 && !state.meta.firstCheckinDate) {
