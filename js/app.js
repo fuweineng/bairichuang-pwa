@@ -2,7 +2,7 @@
 // Main entry point for 百日闯 PWA
 
 import { checkin, getCheckinStreak, getCheckinHistoryList } from './checkin.js';
-import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData } from './question_bank.js';
+import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData, sendFeedback } from './question_bank.js';
 
 // State
 let currentView = 'index';
@@ -140,6 +140,47 @@ function bindEvents() {
   // PWA install button
   const pwaBtn = document.getElementById('pwa-install-btn');
   if (pwaBtn) pwaBtn.addEventListener('click', installPWA);
+
+  // Feedback button
+  const feedbackBtn = document.getElementById('feedback-btn');
+  if (feedbackBtn) {
+    feedbackBtn.addEventListener('click', () => {
+      document.getElementById('feedback-modal').style.display = 'flex';
+      document.getElementById('feedback-text').value = '';
+      document.getElementById('feedback-status').textContent = '';
+      document.getElementById('feedback-text').focus();
+    });
+  }
+
+  document.getElementById('feedback-cancel').addEventListener('click', () => {
+    document.getElementById('feedback-modal').style.display = 'none';
+  });
+
+  document.getElementById('feedback-submit').addEventListener('click', async () => {
+    const text = document.getElementById('feedback-text').value.trim();
+    if (!text) {
+      document.getElementById('feedback-status').textContent = '请输入内容';
+      return;
+    }
+    const btn = document.getElementById('feedback-submit');
+    btn.disabled = true;
+    btn.textContent = '发送中...';
+    document.getElementById('feedback-status').textContent = '';
+    const result = await sendFeedback(text);
+    btn.disabled = false;
+    btn.textContent = '发送';
+    if (result.ok) {
+      document.getElementById('feedback-modal').style.display = 'none';
+      showToast('感谢你的反馈！');
+    } else if (result.offline) {
+      document.getElementById('feedback-status').textContent = '已保存（离线），联网后将发送';
+      setTimeout(() => {
+        document.getElementById('feedback-modal').style.display = 'none';
+      }, 1500);
+    } else {
+      document.getElementById('feedback-status').textContent = '发送失败，已保存本地';
+    }
+  });
 }
 
 // Refresh UI data
