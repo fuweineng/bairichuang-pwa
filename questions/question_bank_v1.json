@@ -14638,5 +14638,4184 @@
     "audioUrl": "audio/english/english-240.m4a",
     "answer": "friendly",
     "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+  },
+  {
+    "id": "chemistry-001",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-物质变化",
+      "物理变化",
+      "化学变化"
+    ],
+    "question": "下列属于化学变化的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "水变成冰"
+      },
+      {
+        "label": "B",
+        "text": "铁丝弯曲"
+      },
+      {
+        "label": "C",
+        "text": "酒精燃烧"
+      },
+      {
+        "label": "D",
+        "text": "玻璃破碎"
+      }
+    ],
+    "answer": "C",
+    "explanation": "酒精燃烧生成CO2和H2O，有新物质生成，属于化学变化。"
+  },
+  {
+    "id": "chemistry-002",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-物质性质",
+      "物理性质",
+      "化学性质"
+    ],
+    "question": "下列属于物质化学性质的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "铜是红色固体"
+      },
+      {
+        "label": "B",
+        "text": "食盐易溶于水"
+      },
+      {
+        "label": "C",
+        "text": "铁在潮湿空气中生锈"
+      },
+      {
+        "label": "D",
+        "text": "酒精容易挥发"
+      }
+    ],
+    "answer": "C",
+    "explanation": "铁生锈是铁与氧气、水发生化学反应，属于化学性质。"
+  },
+  {
+    "id": "chemistry-003",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-物质变化",
+      "判断反应类型"
+    ],
+    "question": "下列反应属于分解反应的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "碳 + 氧气 → 二氧化碳"
+      },
+      {
+        "label": "B",
+        "text": "氢气 + 氧气 → 水"
+      },
+      {
+        "label": "C",
+        "text": "过氧化氢 → 水 + 氧气"
+      },
+      {
+        "label": "D",
+        "text": "铁 + 硫酸铜 → 硫酸亚铁 + 铜"
+      }
+    ],
+    "answer": "C",
+    "explanation": "分解反应是一种物质生成两种或多种物质，过氧化氢分解符合。"
+  },
+  {
+    "id": "chemistry-004",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-空气",
+      "空气组成"
+    ],
+    "question": "空气中约占78%的气体是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "氧气"
+      },
+      {
+        "label": "B",
+        "text": "氮气"
+      },
+      {
+        "label": "C",
+        "text": "二氧化碳"
+      },
+      {
+        "label": "D",
+        "text": "稀有气体"
+      }
+    ],
+    "answer": "B",
+    "explanation": "空气中氮气约占78%，氧气约占21%。"
+  },
+  {
+    "id": "chemistry-005",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-氧气",
+      "氧气性质",
+      "燃烧"
+    ],
+    "question": "下列关于氧气性质的说法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "氧气有可燃性"
+      },
+      {
+        "label": "B",
+        "text": "液氧是淡蓝色液体"
+      },
+      {
+        "label": "C",
+        "text": "氧气不易溶于水"
+      },
+      {
+        "label": "D",
+        "text": "氧气无氧化性"
+      }
+    ],
+    "answer": "B",
+    "explanation": "液氧是淡蓝色液体；氧气有助燃性而非可燃性；氧气不易溶于水且有氧化性。"
+  },
+  {
+    "id": "chemistry-006",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-氧气",
+      "燃烧条件",
+      "灭火原理"
+    ],
+    "question": "灭火的原理是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "降低着火点"
+      },
+      {
+        "label": "B",
+        "text": "隔绝空气或氧气"
+      },
+      {
+        "label": "C",
+        "text": "降低温度到着火点以下并隔绝空气"
+      },
+      {
+        "label": "D",
+        "text": "移除可燃物"
+      }
+    ],
+    "answer": "C",
+    "explanation": "灭火原理：降低温度到着火点以下，同时隔绝空气或氧气。"
+  },
+  {
+    "id": "chemistry-007",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-水",
+      "水的组成",
+      "电解水"
+    ],
+    "question": "电解水时，正极产生的气体是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "氢气"
+      },
+      {
+        "label": "B",
+        "text": "氧气"
+      },
+      {
+        "label": "C",
+        "text": "氮气"
+      },
+      {
+        "label": "D",
+        "text": "二氧化碳"
+      }
+    ],
+    "answer": "B",
+    "explanation": "电解水：正极产生氧气(O2)，负极产生氢气(H2)，体积比为1:2。"
+  },
+  {
+    "id": "chemistry-008",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-水",
+      "硬水",
+      "软水",
+      "软化方法"
+    ],
+    "question": "下列方法能将硬水软化的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "过滤"
+      },
+      {
+        "label": "B",
+        "text": "煮沸"
+      },
+      {
+        "label": "C",
+        "text": "蒸馏"
+      },
+      {
+        "label": "D",
+        "text": "活性炭吸附"
+      }
+    ],
+    "answer": "C",
+    "explanation": "蒸馏可以除去水中所有杂质，是将硬水完全软化的方法。煮沸只能降低水的暂时硬度。"
+  },
+  {
+    "id": "chemistry-009",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-碳",
+      "碳单质",
+      "金刚石",
+      "石墨"
+    ],
+    "question": "下列关于碳单质的说法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "金刚石是天然最硬的物质"
+      },
+      {
+        "label": "B",
+        "text": "石墨可用作润滑剂因为它很软"
+      },
+      {
+        "label": "C",
+        "text": "活性炭没有吸附性"
+      },
+      {
+        "label": "D",
+        "text": "金刚石和石墨的物理性质相同"
+      }
+    ],
+    "answer": "A",
+    "explanation": "金刚石是天然最硬的物质；石墨软且有润滑性；活性炭有强吸附性；金刚石和石墨物理性质差异大。"
+  },
+  {
+    "id": "chemistry-010",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "CO2性质",
+      "检验方法"
+    ],
+    "question": "检验CO2气体常用",
+    "choices": [
+      {
+        "label": "A",
+        "text": "燃着的木条"
+      },
+      {
+        "label": "B",
+        "text": "带火星的木条"
+      },
+      {
+        "label": "C",
+        "text": "澄清石灰水"
+      },
+      {
+        "label": "D",
+        "text": "干燥的石蕊试纸"
+      }
+    ],
+    "answer": "C",
+    "explanation": "CO2能使澄清石灰水变浑浊，这是检验CO2的常用方法。"
+  },
+  {
+    "id": "chemistry-011",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-一氧化碳",
+      "CO性质",
+      "还原性"
+    ],
+    "question": "下列关于CO的说法错误的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "CO有毒性"
+      },
+      {
+        "label": "B",
+        "text": "CO有可燃性"
+      },
+      {
+        "label": "C",
+        "text": "CO有还原性，可炼铁"
+      },
+      {
+        "label": "D",
+        "text": "CO有刺激性气味"
+      }
+    ],
+    "answer": "D",
+    "explanation": "CO无色无味，有剧毒；具有可燃性和还原性，可用于炼铁。"
+  },
+  {
+    "id": "chemistry-012",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-金属",
+      "金属活动性",
+      "置换反应"
+    ],
+    "question": "下列金属活动性顺序正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "K Ca Na Mg Al Zn Fe Pb Cu Ag"
+      },
+      {
+        "label": "B",
+        "text": "K Na Ca Mg Al Zn Fe Cu Pb Ag"
+      },
+      {
+        "label": "C",
+        "text": "Ag Cu Fe Zn Al Mg Na Ca K"
+      },
+      {
+        "label": "D",
+        "text": "K Na Ca Mg Al Zn Fe Sn Pb Cu Ag"
+      }
+    ],
+    "answer": "D",
+    "explanation": "金属活动性顺序：K Na Ca Mg Al Zn Fe Sn Pb Cu Ag（口诀：嫁给那美女，身体细纤轻，统共一百斤）。"
+  },
+  {
+    "id": "chemistry-013",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-金属",
+      "金属与酸反应",
+      "氢气制备"
+    ],
+    "question": "等质量的镁、铁、锌分别与足量稀盐酸反应，产生氢气最多的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "镁"
+      },
+      {
+        "label": "B",
+        "text": "铁"
+      },
+      {
+        "label": "C",
+        "text": "锌"
+      },
+      {
+        "label": "D",
+        "text": "一样多"
+      }
+    ],
+    "answer": "A",
+    "explanation": "等质量金属与足量酸反应，产生的氢气质量与金属的相对原子质量/化合价有关。镁产生的氢气最多。"
+  },
+  {
+    "id": "chemistry-014",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶解度",
+      "溶质质量分数"
+    ],
+    "question": "20℃时，100g水中最多能溶解36g氯化钠，则20℃时氯化钠的溶解度是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "36g"
+      },
+      {
+        "label": "B",
+        "text": "36"
+      },
+      {
+        "label": "C",
+        "text": "100g"
+      },
+      {
+        "label": "D",
+        "text": "136g"
+      }
+    ],
+    "answer": "B",
+    "explanation": "溶解度定义：100g溶剂中所能溶解的最大溶质质量。溶解度为36（g/100g水）。"
+  },
+  {
+    "id": "chemistry-015",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶质质量分数计算"
+    ],
+    "question": "将50g 10%的氯化钠溶液稀释为5%，需加水多少克？",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10g"
+      },
+      {
+        "label": "B",
+        "text": "25g"
+      },
+      {
+        "label": "C",
+        "text": "50g"
+      },
+      {
+        "label": "D",
+        "text": "100g"
+      }
+    ],
+    "answer": "C",
+    "explanation": "设需加水xg。50×10% = (50+x)×5%，解得x=50g。"
+  },
+  {
+    "id": "chemistry-016",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "酸的通性"
+    ],
+    "question": "浓硫酸不具有的性质是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "吸水性"
+      },
+      {
+        "label": "B",
+        "text": "脱水性"
+      },
+      {
+        "label": "C",
+        "text": "挥发性"
+      },
+      {
+        "label": "D",
+        "text": "强氧化性"
+      }
+    ],
+    "answer": "C",
+    "explanation": "浓硫酸具有吸水性、脱水性和强氧化性，但不具有挥发性（盐酸有挥发性）。"
+  },
+  {
+    "id": "chemistry-017",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "中和反应"
+    ],
+    "question": "向稀氢氧化钠溶液中滴加稀盐酸，溶液pH的变化是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "从小于7逐渐升高到大于7"
+      },
+      {
+        "label": "B",
+        "text": "从大于7逐渐降低到小于7"
+      },
+      {
+        "label": "C",
+        "text": "始终大于7"
+      },
+      {
+        "label": "D",
+        "text": "始终小于7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "NaOH溶液pH>7，滴加稀盐酸发生中和反应，pH逐渐降低，最终pH<7。"
+  },
+  {
+    "id": "chemistry-018",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "盐的复分解反应条件"
+    ],
+    "question": "下列物质间能发生复分解反应的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "氯化钠溶液和硝酸钾溶液"
+      },
+      {
+        "label": "B",
+        "text": "碳酸钠溶液和盐酸"
+      },
+      {
+        "label": "C",
+        "text": "铁和硫酸铜溶液"
+      },
+      {
+        "label": "D",
+        "text": "氧气和氢气"
+      }
+    ],
+    "answer": "B",
+    "explanation": "复分解反应条件：有沉淀、气体或水生成。碳酸钠和盐酸反应生成CO2气体，符合条件。"
+  },
+  {
+    "id": "chemistry-019",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "常见盐的性质",
+      "碳酸钙"
+    ],
+    "question": "下列关于碳酸钙的说法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "碳酸钙不溶于水"
+      },
+      {
+        "label": "B",
+        "text": "碳酸钙能溶于稀盐酸并产生气体"
+      },
+      {
+        "label": "C",
+        "text": "大理石的主要成分是碳酸钙"
+      },
+      {
+        "label": "D",
+        "text": "以上都对"
+      }
+    ],
+    "answer": "D",
+    "explanation": "大理石、石灰石的主要成分都是CaCO3，难溶于水但能溶于稀盐酸并产生CO2气体。"
+  },
+  {
+    "id": "chemistry-020",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "常见碱的性质",
+      "氢氧化钙"
+    ],
+    "question": "生石灰的主要成分是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "碳酸钙"
+      },
+      {
+        "label": "B",
+        "text": "氧化钙"
+      },
+      {
+        "label": "C",
+        "text": "氢氧化钙"
+      },
+      {
+        "label": "D",
+        "text": "硫酸钙"
+      }
+    ],
+    "answer": "B",
+    "explanation": "生石灰的主要成分是氧化钙(CaO)，熟石灰是氢氧化钙[Ca(OH)2]，石灰石是大理石的主要成分是碳酸钙(CaCO3)。"
+  },
+  {
+    "id": "chemistry-021",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-化学肥料",
+      "氮肥",
+      "磷肥",
+      "钾肥"
+    ],
+    "question": "下列属于复合肥料的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "尿素[CO(NH2)2]"
+      },
+      {
+        "label": "B",
+        "text": "磷酸二氢铵[NH4H2PO4]"
+      },
+      {
+        "label": "C",
+        "text": "硫酸钾[K2SO4]"
+      },
+      {
+        "label": "D",
+        "text": "磷矿粉[Ca3(PO4)2]"
+      }
+    ],
+    "answer": "B",
+    "explanation": "磷酸二氢铵含有N和P两种营养元素，属于复合肥料。含有两种以上主要营养元素的肥料称为复合肥料。"
+  },
+  {
+    "id": "chemistry-022",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-空气",
+      "氧气"
+    ],
+    "question": "空气中支持燃烧的气体是_____。",
+    "answer": "氧气",
+    "explanation": "根据化学知识填写：氧气"
+  },
+  {
+    "id": "chemistry-023",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-水",
+      "电解水"
+    ],
+    "question": "电解水的化学方程式：2H2O ==通电== 2H2↑ + _____↑",
+    "answer": "O2",
+    "explanation": "根据化学知识填写：O2"
+  },
+  {
+    "id": "chemistry-024",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-燃烧",
+      "燃烧条件"
+    ],
+    "question": "燃烧的条件是：可燃物、氧气（或空气）和_____。",
+    "answer": "达到着火点",
+    "explanation": "根据化学知识填写：达到着火点"
+  },
+  {
+    "id": "chemistry-025",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-金属",
+      "铁生锈"
+    ],
+    "question": "铁在潮湿空气中生锈的反应方程式：4Fe + 3O2 + 6H2O == _____。",
+    "answer": "4Fe(OH)3",
+    "explanation": "根据化学知识填写：4Fe(OH)3"
+  },
+  {
+    "id": "chemistry-026",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "实验室制法"
+    ],
+    "question": "实验室制取CO2的药品是大理石（或石灰石）和_____。",
+    "answer": "稀盐酸",
+    "explanation": "根据化学知识填写：稀盐酸"
+  },
+  {
+    "id": "chemistry-027",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "检验"
+    ],
+    "question": "CO2能使澄清石灰水变浑浊，反应的化学方程式：CO2 + Ca(OH)2 == CaCO3↓ + _____。",
+    "answer": "H2O",
+    "explanation": "根据化学知识填写：H2O"
+  },
+  {
+    "id": "chemistry-028",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "pH"
+    ],
+    "question": "溶液的pH<7，溶液呈_____性。",
+    "answer": "酸",
+    "explanation": "根据化学知识填写：酸"
+  },
+  {
+    "id": "chemistry-029",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-中和反应"
+    ],
+    "question": "中和反应是酸与碱作用生成_____和水的反应。",
+    "answer": "盐",
+    "explanation": "根据化学知识填写：盐"
+  },
+  {
+    "id": "chemistry-030",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-原子结构"
+    ],
+    "question": "原子是由原子核和绕核运动的电子构成，原子核由质子和_____构成。",
+    "answer": "中子",
+    "explanation": "根据化学知识填写：中子"
+  },
+  {
+    "id": "chemistry-031",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-原子结构",
+      "元素性质"
+    ],
+    "question": "元素的化学性质主要由原子的_____数决定。",
+    "answer": "最外层电子",
+    "explanation": "根据化学知识填写：最外层电子"
+  },
+  {
+    "id": "chemistry-032",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-质量守恒定律"
+    ],
+    "question": "质量守恒定律：参加化学反应的各物质的质量总和，等于反应后生成的各物质的_____。",
+    "answer": "质量总和",
+    "explanation": "根据化学知识填写：质量总和"
+  },
+  {
+    "id": "chemistry-033",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-化学方程式"
+    ],
+    "question": "化学方程式的书写原则：以事实为依据，不能凭空臆造；遵循_____守恒定律。",
+    "answer": "质量",
+    "explanation": "根据化学知识填写：质量"
+  },
+  {
+    "id": "chemistry-034",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "检验"
+    ],
+    "question": "实验室常用澄清石灰水来检验CO2气体，现象是生成_____沉淀。",
+    "answer": "白色",
+    "explanation": "根据化学知识填写：白色"
+  },
+  {
+    "id": "chemistry-035",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-空气组成",
+      "红磷燃烧实验"
+    ],
+    "question": "燃烧白磷产生大量白烟，打开瓶盖后会发现水面上升约_____分之一。",
+    "answer": "五",
+    "explanation": "根据化学知识填写：五"
+  },
+  {
+    "id": "chemistry-036",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-相对分子质量"
+    ],
+    "question": "相对分子质量是各原子的相对原子质量之_____。",
+    "answer": "和",
+    "explanation": "根据化学知识填写：和"
+  },
+  {
+    "id": "chemistry-037",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸的通性",
+      "浓盐酸"
+    ],
+    "question": "浓盐酸有挥发性，敞口放置在空气中，溶质质量分数会_____。",
+    "answer": "减小",
+    "explanation": "根据化学知识填写：减小"
+  },
+  {
+    "id": "chemistry-038",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-浓硫酸",
+      "实验安全"
+    ],
+    "question": "稀释浓硫酸时，一定要将_____慢慢注入水中，并用玻璃棒不断搅拌。",
+    "answer": "浓硫酸",
+    "explanation": "根据化学知识填写：浓硫酸"
+  },
+  {
+    "id": "chemistry-039",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-沉淀"
+    ],
+    "question": "Fe(OH)3是一种_____色沉淀。",
+    "answer": "红褐",
+    "explanation": "根据化学知识填写：红褐"
+  },
+  {
+    "id": "chemistry-040",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-复分解反应"
+    ],
+    "question": "复分解反应发生的条件：生成物中有沉淀或气体或_____。",
+    "answer": "水",
+    "explanation": "根据化学知识填写：水"
+  },
+  {
+    "id": "geography-043",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "经纬线"
+    ],
+    "question": "关于经纬线的说法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "经线指示东西方向"
+      },
+      {
+        "label": "B",
+        "text": "纬线指示南北方向"
+      },
+      {
+        "label": "C",
+        "text": "赤道是最长的纬线"
+      },
+      {
+        "label": "D",
+        "text": "所有经线都相交于南北两极"
+      }
+    ],
+    "answer": "C",
+    "explanation": "赤道是0°纬线，是地球上最长的纬线（约4万千米）。"
+  },
+  {
+    "id": "geography-044",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "五带划分"
+    ],
+    "question": "我国大部分地区位于五带中的",
+    "choices": [
+      {
+        "label": "A",
+        "text": "热带"
+      },
+      {
+        "label": "B",
+        "text": "北温带"
+      },
+      {
+        "label": "C",
+        "text": "南温带"
+      },
+      {
+        "label": "D",
+        "text": "北寒带"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国领土南北跨纬度广，大部分地区位于北回归线（23.5°N）到漠河（53°N）之间，属北温带。"
+  },
+  {
+    "id": "geography-045",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "等高线地形图"
+    ],
+    "question": "在等高线地形图上，陡崖的等高线特征是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "等高线重叠"
+      },
+      {
+        "label": "B",
+        "text": "等高线稀疏"
+      },
+      {
+        "label": "C",
+        "text": "等高线向高处凸出"
+      },
+      {
+        "label": "D",
+        "text": "等高线呈封闭圆形"
+      }
+    ],
+    "answer": "A",
+    "explanation": "陡崖处多条等高线重叠在一起；山谷处等高线向高处凸出。"
+  },
+  {
+    "id": "geography-046",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "方向判读"
+    ],
+    "question": "在有经纬网的地图上，确定方向的方法是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "经线指示东西，纬线指示南北"
+      },
+      {
+        "label": "B",
+        "text": "经线指示南北，纬线指示东西"
+      },
+      {
+        "label": "C",
+        "text": "上北下南，左西右东"
+      },
+      {
+        "label": "D",
+        "text": "根据指向标确定"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在经纬网地图上，经线指示南北方向，纬线指示东西方向。"
+  },
+  {
+    "id": "geography-047",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "比例尺"
+    ],
+    "question": "1:1000000的比例尺，改写成文字式是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "图上1厘米代表实地100千米"
+      },
+      {
+        "label": "B",
+        "text": "图上1厘米代表实地10千米"
+      },
+      {
+        "label": "C",
+        "text": "图上1厘米代表实地1千米"
+      },
+      {
+        "label": "D",
+        "text": "图上1厘米代表实地100米"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1:1000000表示图上1厘米代表实地1000000厘米=10千米。"
+  },
+  {
+    "id": "geography-048",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "南北半球"
+    ],
+    "question": "中国位于",
+    "choices": [
+      {
+        "label": "A",
+        "text": "东半球和南半球"
+      },
+      {
+        "label": "B",
+        "text": "东半球和北半球"
+      },
+      {
+        "label": "C",
+        "text": "西半球和北半球"
+      },
+      {
+        "label": "D",
+        "text": "西半球和南半球"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国经度约73°E~135°E（在东半球），纬度约4°N~53°N（在北半球）。"
+  },
+  {
+    "id": "geography-049",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "地球运动",
+      "自转"
+    ],
+    "question": "地球自转产生的现象是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "季节变化"
+      },
+      {
+        "label": "B",
+        "text": "昼夜长短变化"
+      },
+      {
+        "label": "C",
+        "text": "昼夜更替"
+      },
+      {
+        "label": "D",
+        "text": "五带划分"
+      }
+    ],
+    "answer": "C",
+    "explanation": "地球自转产生昼夜更替；公转产生季节变化和昼夜长短变化。"
+  },
+  {
+    "id": "geography-050",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "地球运动",
+      "公转"
+    ],
+    "question": "当太阳直射北回归线时，北半球处于",
+    "choices": [
+      {
+        "label": "A",
+        "text": "春季"
+      },
+      {
+        "label": "B",
+        "text": "夏季"
+      },
+      {
+        "label": "C",
+        "text": "秋季"
+      },
+      {
+        "label": "D",
+        "text": "冬季"
+      }
+    ],
+    "answer": "B",
+    "explanation": "太阳直射北回归线时（约6月22日），北半球昼长夜短，为夏季。"
+  },
+  {
+    "id": "geography-051",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "行政区划"
+    ],
+    "question": "广东省的简称是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "桂"
+      },
+      {
+        "label": "B",
+        "text": "粤"
+      },
+      {
+        "label": "C",
+        "text": "闽"
+      },
+      {
+        "label": "D",
+        "text": "湘"
+      }
+    ],
+    "answer": "B",
+    "explanation": "广东省简称粤，广西壮族自治区简称桂，福建省简称闽，湖南省简称湘。"
+  },
+  {
+    "id": "geography-052",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "地形地势"
+    ],
+    "question": "我国地形特点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "地形单一"
+      },
+      {
+        "label": "B",
+        "text": "地形复杂多样，山地高原为主"
+      },
+      {
+        "label": "C",
+        "text": "以平原为主"
+      },
+      {
+        "label": "D",
+        "text": "以盆地为主"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国地形复杂多样，山区面积广大，其中山地、高原约占全国陆地面积的2/3。"
+  },
+  {
+    "id": "geography-053",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候"
+    ],
+    "question": "造成我国东部季风气候显著的主要因素是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "纬度位置"
+      },
+      {
+        "label": "B",
+        "text": "海陆位置"
+      },
+      {
+        "label": "C",
+        "text": "地形因素"
+      },
+      {
+        "label": "D",
+        "text": "洋流因素"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国位于世界最大的大陆（亚欧大陆）东部和世界最大的大洋（太平洋）西岸，海陆热力性质差异大，形成显著的季风气候。"
+  },
+  {
+    "id": "geography-054",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流",
+      "长江"
+    ],
+    "question": "长江被誉为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "黄金水道"
+      },
+      {
+        "label": "B",
+        "text": "水能宝库"
+      },
+      {
+        "label": "C",
+        "text": "鱼米之乡"
+      },
+      {
+        "label": "D",
+        "text": "以上都是"
+      }
+    ],
+    "answer": "D",
+    "explanation": "长江支流多、流量大，航运价值高（黄金水道）；上游落差大，水能丰富（水能宝库）；中下游平原盛产稻米淡水鱼（鱼米之乡）。"
+  },
+  {
+    "id": "geography-055",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "资源"
+    ],
+    "question": "我国自然资源的基本特征是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "总量丰富，人均不足"
+      },
+      {
+        "label": "B",
+        "text": "总量丰富，人均丰富"
+      },
+      {
+        "label": "C",
+        "text": "总量不足，人均充足"
+      },
+      {
+        "label": "D",
+        "text": "总量不足，人均不足"
+      }
+    ],
+    "answer": "A",
+    "explanation": "我国自然资源总量大，种类齐全，但因人口众多，人均资源占有量远低于世界平均水平。"
+  },
+  {
+    "id": "geography-056",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "人口"
+    ],
+    "question": "我国人口分布特点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "均匀分布"
+      },
+      {
+        "label": "B",
+        "text": "东南多，西北少"
+      },
+      {
+        "label": "C",
+        "text": "西北多，东南少"
+      },
+      {
+        "label": "D",
+        "text": "高原多，平原少"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国人口以黑河-腾冲一线为界，东南部人口稠密，西北部人口稀疏。"
+  },
+  {
+    "id": "geography-057",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候",
+      "温度带"
+    ],
+    "question": "佛山位于的温度带是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "寒带"
+      },
+      {
+        "label": "B",
+        "text": "中温带"
+      },
+      {
+        "label": "C",
+        "text": "暖温带"
+      },
+      {
+        "label": "D",
+        "text": "亚热带"
+      }
+    ],
+    "answer": "D",
+    "explanation": "佛山位于北回归线附近（23°N左右），属于亚热带季风气候。"
+  },
+  {
+    "id": "geography-058",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "行政区划",
+      "省份"
+    ],
+    "question": "与广东省相邻的省份不包括",
+    "choices": [
+      {
+        "label": "A",
+        "text": "广西"
+      },
+      {
+        "label": "B",
+        "text": "湖南"
+      },
+      {
+        "label": "C",
+        "text": "江西"
+      },
+      {
+        "label": "D",
+        "text": "福建"
+      }
+    ],
+    "answer": "D",
+    "explanation": "广东省相邻省份：广西、湖南、江西、福建（由东向西）。"
+  },
+  {
+    "id": "geography-059",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的大洲是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "非洲"
+      },
+      {
+        "label": "B",
+        "text": "北美洲"
+      },
+      {
+        "label": "C",
+        "text": "亚洲"
+      },
+      {
+        "label": "D",
+        "text": "欧洲"
+      }
+    ],
+    "answer": "C",
+    "explanation": "亚洲面积约4400万平方千米，是世界上面积最大的大洲。"
+  },
+  {
+    "id": "geography-060",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的大洋是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "大西洋"
+      },
+      {
+        "label": "B",
+        "text": "印度洋"
+      },
+      {
+        "label": "C",
+        "text": "北冰洋"
+      },
+      {
+        "label": "D",
+        "text": "太平洋"
+      }
+    ],
+    "answer": "D",
+    "explanation": "太平洋面积约18000万平方千米，是世界上面积最大、最深的大洋。"
+  },
+  {
+    "id": "geography-061",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "气候类型"
+    ],
+    "question": "赤道附近的主要气候类型是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "热带草原气候"
+      },
+      {
+        "label": "B",
+        "text": "热带雨林气候"
+      },
+      {
+        "label": "C",
+        "text": "热带沙漠气候"
+      },
+      {
+        "label": "D",
+        "text": "热带季风气候"
+      }
+    ],
+    "answer": "B",
+    "explanation": "赤道附近终年高温多雨，属于热带雨林气候，分布在南美洲亚马逊流域、非洲刚果盆地、东南亚等地区。"
+  },
+  {
+    "id": "geography-062",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "发达国家"
+    ],
+    "question": "日本主要的工业原料主要依靠",
+    "choices": [
+      {
+        "label": "A",
+        "text": "本国资源"
+      },
+      {
+        "label": "B",
+        "text": "从国外进口"
+      },
+      {
+        "label": "C",
+        "text": "从他国援助"
+      },
+      {
+        "label": "D",
+        "text": "循环利用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "日本地域狭小、资源贫乏，工业原料主要依靠从国外进口。"
+  },
+  {
+    "id": "geography-063",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "人口"
+    ],
+    "question": "世界人口最多的国家是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "中国"
+      },
+      {
+        "label": "B",
+        "text": "印度"
+      },
+      {
+        "label": "C",
+        "text": "美国"
+      },
+      {
+        "label": "D",
+        "text": "俄罗斯"
+      }
+    ],
+    "answer": "B",
+    "explanation": "截至2024年，印度人口已超过中国，成为世界人口最多的国家，约14.4亿。"
+  },
+  {
+    "id": "geography-064",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "板块构造"
+    ],
+    "question": "地中海-喜马拉雅火山地震带位于哪两大板块交界处",
+    "choices": [
+      {
+        "label": "A",
+        "text": "亚欧板块与印度洋板块"
+      },
+      {
+        "label": "B",
+        "text": "亚欧板块与非洲板块"
+      },
+      {
+        "label": "C",
+        "text": "印度洋板块与非洲板块"
+      },
+      {
+        "label": "D",
+        "text": "亚欧板块与太平洋板块"
+      }
+    ],
+    "answer": "A",
+    "explanation": "地中海-喜马拉雅地震带位于亚欧板块与印度洋板块的交界处，两大板块碰撞挤压形成了地中海、喜马拉雅山脉等。"
+  },
+  {
+    "id": "geography-065",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "宗教"
+    ],
+    "question": "中东地区居民主要信仰的宗教是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "基督教"
+      },
+      {
+        "label": "B",
+        "text": "佛教"
+      },
+      {
+        "label": "C",
+        "text": "伊斯兰教"
+      },
+      {
+        "label": "D",
+        "text": "犹太教"
+      }
+    ],
+    "answer": "C",
+    "explanation": "中东地区居民主要信仰伊斯兰教，穆斯林人口占多数。耶路撒冷是伊斯兰教、基督教、犹太教的圣地。"
+  },
+  {
+    "id": "geography-066",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "赤道"
+    ],
+    "question": "地球的赤道周长约_____万千米。",
+    "answer": "4",
+    "explanation": "根据地理知识填写：4"
+  },
+  {
+    "id": "geography-067",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "自转"
+    ],
+    "question": "地球自转的方向是_____，周期为24小时。",
+    "answer": "自西向东",
+    "explanation": "根据地理知识填写：自西向东"
+  },
+  {
+    "id": "geography-068",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲"
+    ],
+    "question": "七大洲中，面积最小的是_____洲。",
+    "answer": "大洋",
+    "explanation": "根据地理知识填写：大洋"
+  },
+  {
+    "id": "geography-069",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "面积"
+    ],
+    "question": "我国陆地面积约_____万平方千米。",
+    "answer": "960",
+    "explanation": "根据地理知识填写：960"
+  },
+  {
+    "id": "geography-070",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "半球"
+    ],
+    "question": "划分东西半球的界线是_____和160°E经线。",
+    "answer": "20°W",
+    "explanation": "根据地理知识填写：20°W"
+  },
+  {
+    "id": "geography-071",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "地形"
+    ],
+    "question": "世界上最高的山峰是珠穆朗玛峰，海拔约_____米。",
+    "answer": "8848",
+    "explanation": "根据地理知识填写：8848"
+  },
+  {
+    "id": "geography-072",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "湖泊"
+    ],
+    "question": "我国最大的咸水湖是_____湖。",
+    "answer": "青海",
+    "explanation": "根据地理知识填写：青海"
+  },
+  {
+    "id": "geography-073",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流"
+    ],
+    "question": "我国最长、流量最大的河流是_____。",
+    "answer": "长江",
+    "explanation": "根据地理知识填写：长江"
+  },
+  {
+    "id": "geography-074",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "地形"
+    ],
+    "question": "世界上最长的山脉是安第斯山脉，位于_____洲。",
+    "answer": "南美",
+    "explanation": "根据地理知识填写：南美"
+  },
+  {
+    "id": "geography-075",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候"
+    ],
+    "question": "我国从南到北划分的温度带依次是：热带、亚热带、暖温带、中温带、寒温带和_____。",
+    "answer": "高原气候区",
+    "explanation": "根据地理知识填写：高原气候区"
+  },
+  {
+    "id": "physics-065",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-机械运动",
+      "速度计算"
+    ],
+    "question": "小明从家到学校的路程为1500m，用时30min，他上学的平均速度是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "50m/s"
+      },
+      {
+        "label": "B",
+        "text": "5m/s"
+      },
+      {
+        "label": "C",
+        "text": "0.83m/s"
+      },
+      {
+        "label": "D",
+        "text": "3km/h"
+      }
+    ],
+    "answer": "C",
+    "explanation": "v=s/t=1500m/(30×60s)=1500/1800≈0.83m/s。"
+  },
+  {
+    "id": "physics-066",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-机械运动",
+      "参照物"
+    ],
+    "question": "下列关于参照物的说法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "只有静止的物体才能作参照物"
+      },
+      {
+        "label": "B",
+        "text": "参照物可以任意选择"
+      },
+      {
+        "label": "C",
+        "text": "地球是最理想的参照物"
+      },
+      {
+        "label": "D",
+        "text": "选择不同参照物会影响物体运动状态"
+      }
+    ],
+    "answer": "B",
+    "explanation": "参照物的选择是任意的，一般选择地面或相对地面静止的物体。运动和静止是相对的，取决于参照物的选择。"
+  },
+  {
+    "id": "physics-067",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-声学",
+      "声音特性"
+    ],
+    "question": "用更大的力敲鼓，鼓声变大的原因是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "声音的频率变高"
+      },
+      {
+        "label": "B",
+        "text": "声音的音调变高"
+      },
+      {
+        "label": "C",
+        "text": "声音的响度变大"
+      },
+      {
+        "label": "D",
+        "text": "声音的传播速度变快"
+      }
+    ],
+    "answer": "C",
+    "explanation": "力越大，振幅越大，响度越大。敲击力影响响度，不影响音调（频率由振动体本身决定）。"
+  },
+  {
+    "id": "physics-068",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-声学",
+      "声的利用"
+    ],
+    "question": "下列实例中利用声波传递信息的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "用超声波清洗眼镜"
+      },
+      {
+        "label": "B",
+        "text": "医生用超声波除去人体内的结石"
+      },
+      {
+        "label": "C",
+        "text": "蝙蝠利用回声定位捕食"
+      },
+      {
+        "label": "D",
+        "text": "利用超声波给金属探伤"
+      }
+    ],
+    "answer": "C",
+    "explanation": "声波可以传递信息和能量。蝙蝠回声定位是利用声音传递信息；超声波清洗、碎石、探伤是利用声音传递能量。"
+  },
+  {
+    "id": "physics-069",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-物态变化",
+      "六种物态"
+    ],
+    "question": "下列现象中属于凝固的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "冬天河水结冰"
+      },
+      {
+        "label": "B",
+        "text": "夏天自来水管出汗"
+      },
+      {
+        "label": "C",
+        "text": "放在衣柜里的樟脑丸变小"
+      },
+      {
+        "label": "D",
+        "text": "晒在太阳下的湿衣服变干"
+      }
+    ],
+    "answer": "A",
+    "explanation": "凝固是液态变为固态。河水结冰是水从液态变为固态，属于凝固；出汗是液化；樟脑丸变小是升华；湿衣服变干是汽化。"
+  },
+  {
+    "id": "physics-070",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-物态变化",
+      "升华凝华"
+    ],
+    "question": "冬天北方地区玻璃窗内侧出现冰花，这是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "凝固现象"
+      },
+      {
+        "label": "B",
+        "text": "凝华现象"
+      },
+      {
+        "label": "C",
+        "text": "凝固和凝华都有"
+      },
+      {
+        "label": "D",
+        "text": "先升华再凝华"
+      }
+    ],
+    "answer": "B",
+    "explanation": "冰花是室内水蒸气遇到冷的玻璃直接凝华成固态冰（冰晶），属于凝华现象。"
+  },
+  {
+    "id": "physics-071",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-物态变化",
+      "温度计"
+    ],
+    "question": "用体温计测量体温后，体温计的读数不会下降，原因是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "体温计的玻璃泡容积比细管大得多"
+      },
+      {
+        "label": "B",
+        "text": "体温计内径太细，液体无法流回"
+      },
+      {
+        "label": "C",
+        "text": "体温计有缩口结构"
+      },
+      {
+        "label": "D",
+        "text": "体温计的测量范围小"
+      }
+    ],
+    "answer": "C",
+    "explanation": "体温计内部有缩口，水银膨胀可以通过缩口上升，但收缩时不会通过缩口流回，所以能离开人体读数。"
+  },
+  {
+    "id": "physics-072",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-光现象",
+      "光的反射"
+    ],
+    "question": "一束光射到平面镜上，入射角为30°，则反射角为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "15°"
+      },
+      {
+        "label": "B",
+        "text": "30°"
+      },
+      {
+        "label": "C",
+        "text": "60°"
+      },
+      {
+        "label": "D",
+        "text": "90°"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在光的反射中，反射角等于入射角。入射角为30°，所以反射角也是30°。"
+  },
+  {
+    "id": "physics-073",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-光现象",
+      "光的折射"
+    ],
+    "question": "筷子斜插入水中，看起来向上弯折，这是由于",
+    "choices": [
+      {
+        "label": "A",
+        "text": "光的反射"
+      },
+      {
+        "label": "B",
+        "text": "光的折射"
+      },
+      {
+        "label": "C",
+        "text": "光沿直线传播"
+      },
+      {
+        "label": "D",
+        "text": "光在水面发生全反射"
+      }
+    ],
+    "answer": "B",
+    "explanation": "筷子在水中的光线从水射向空气发生折射，折射角大于入射角，人眼逆着折射光线看去，筷子在水面处向上弯折。"
+  },
+  {
+    "id": "physics-074",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-光现象",
+      "凸透镜成像"
+    ],
+    "question": "当物体位于凸透镜2倍焦距以外时，成像特点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "倒立缩小的实像"
+      },
+      {
+        "label": "B",
+        "text": "倒立放大的实像"
+      },
+      {
+        "label": "C",
+        "text": "正立放大的虚像"
+      },
+      {
+        "label": "D",
+        "text": "不成像"
+      }
+    ],
+    "answer": "A",
+    "explanation": "凸透镜成像规律：u>2f时，成倒立缩小的实像（照相机原理）；f<u<2f时成倒立放大的实像（投影仪原理）。"
+  },
+  {
+    "id": "physics-075",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-光现象",
+      "光的色散"
+    ],
+    "question": "太阳光经过三棱镜后分解成七种颜色的光，这现象叫做",
+    "choices": [
+      {
+        "label": "A",
+        "text": "光的反射"
+      },
+      {
+        "label": "B",
+        "text": "光的折射"
+      },
+      {
+        "label": "C",
+        "text": "光的色散"
+      },
+      {
+        "label": "D",
+        "text": "光的干涉"
+      }
+    ],
+    "answer": "C",
+    "explanation": "太阳光（复色光）经过三棱镜时，由于不同颜色的光折射程度不同，会分开成红、橙、黄、绿、蓝、靛、紫七种单色光，这叫光的色散。"
+  },
+  {
+    "id": "physics-076",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "重力",
+      "弹力"
+    ],
+    "question": "关于重力和质量的下列说法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "质量为1kg的物体受到的重力约为10N"
+      },
+      {
+        "label": "B",
+        "text": "物体的质量与重力成正比"
+      },
+      {
+        "label": "C",
+        "text": "物体的位置改变不影响其重力"
+      },
+      {
+        "label": "D",
+        "text": "物体从赤道移到北极，重力不变"
+      }
+    ],
+    "answer": "A",
+    "explanation": "在地球表面，g≈9.8N/kg，通常取10N/kg，所以质量1kg的物体受重力约10N。质量是物体固有属性，位置改变不变；重力随位置（纬度、高度）变化。"
+  },
+  {
+    "id": "physics-077",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "二力平衡"
+    ],
+    "question": "吊在空中重10N的气球，若它受到的浮力为8N，则气球受到的拉力为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2N，向上"
+      },
+      {
+        "label": "B",
+        "text": "2N，向下"
+      },
+      {
+        "label": "C",
+        "text": "18N，向上"
+      },
+      {
+        "label": "D",
+        "text": "18N，向下"
+      }
+    ],
+    "answer": "A",
+    "explanation": "气球受重力（向下10N）、浮力（向上8N）、拉力（向上）。由于气球静止（平衡状态），所以F拉+F浮=G，即F拉+8N=10N，F拉=2N，方向向上。"
+  },
+  {
+    "id": "physics-078",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "摩擦力"
+    ],
+    "question": "在平直公路上匀速行驶的汽车，关闭发动机后，汽车仍能继续前进，原因是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "汽车受到向前的惯性力"
+      },
+      {
+        "label": "B",
+        "text": "汽车具有惯性"
+      },
+      {
+        "label": "C",
+        "text": "发动机仍有动力输出"
+      },
+      {
+        "label": "D",
+        "text": "地面摩擦力推动汽车"
+      }
+    ],
+    "answer": "B",
+    "explanation": "汽车关闭发动机后，由于惯性保持原来的运动状态继续前进。惯性不是力，是物体保持运动状态不变的性质。"
+  },
+  {
+    "id": "physics-079",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "压强",
+      "液体压强"
+    ],
+    "question": "三个相同容器中分别装有等高的水、酒精、盐水（ρ盐水>ρ水>ρ酒精），则容器底部受到液体压强最大的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "装水的容器"
+      },
+      {
+        "label": "B",
+        "text": "装酒精的容器"
+      },
+      {
+        "label": "C",
+        "text": "装盐水的容器"
+      },
+      {
+        "label": "D",
+        "text": "三个容器一样大"
+      }
+    ],
+    "answer": "C",
+    "explanation": "液体内部压强p=ρgh，由于三容器液面等高（h相同），密度最大的盐水产生的压强最大。"
+  },
+  {
+    "id": "physics-080",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "浮力"
+    ],
+    "question": "一木块漂浮在水面上，露出水面的体积为总体积的1/5，则木块的密度为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.2×10³kg/m³"
+      },
+      {
+        "label": "B",
+        "text": "0.8×10³kg/m³"
+      },
+      {
+        "label": "C",
+        "text": "1.0×10³kg/m³"
+      },
+      {
+        "label": "D",
+        "text": "0.5×10³kg/m³"
+      }
+    ],
+    "answer": "B",
+    "explanation": "漂浮时F浮=G，即ρ水g(4/5)V=ρ木gV，ρ木=4/5ρ水=0.8×10³kg/m³。"
+  },
+  {
+    "id": "physics-081",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "功和功率"
+    ],
+    "question": "小明用20N的水平推力，使质量为10kg的物体在水平地面上前进5m，推力做的功为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "100J"
+      },
+      {
+        "label": "B",
+        "text": "50J"
+      },
+      {
+        "label": "C",
+        "text": "150J"
+      },
+      {
+        "label": "D",
+        "text": "200J"
+      }
+    ],
+    "answer": "A",
+    "explanation": "W=Fs=20N×5m=100J。物体在水平方向移动，功等于力与在力方向上移动距离的乘积。注意不要把物体重力算进去（重力方向没有移动距离）。"
+  },
+  {
+    "id": "physics-082",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "机械效率"
+    ],
+    "question": "用滑轮组提升重物时，有用功、总功和额外功的关系是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "W有=W总+W额"
+      },
+      {
+        "label": "B",
+        "text": "W总=W有+W额"
+      },
+      {
+        "label": "C",
+        "text": "W额=W总+W有"
+      },
+      {
+        "label": "D",
+        "text": "W有=W额+W总"
+      }
+    ],
+    "answer": "B",
+    "explanation": "总功=有用功+额外功，机械效率=W有/W总×100%<100%，因为使用机械时总会有额外功（如克服摩擦、提升动滑轮重力等）。"
+  },
+  {
+    "id": "physics-083",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "机械能"
+    ],
+    "question": "跳伞运动员在匀速下落过程中，其动能和势能的变化是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "动能增大，势能减小"
+      },
+      {
+        "label": "B",
+        "text": "动能不变，势能减小"
+      },
+      {
+        "label": "C",
+        "text": "动能减小，势能增大"
+      },
+      {
+        "label": "D",
+        "text": "动能不变，势能不变"
+      }
+    ],
+    "answer": "B",
+    "explanation": "匀速下落，速度不变→动能不变；高度减小→重力势能减小。机械能=动能+势能，所以机械能也减小（部分机械能转化为内能）。"
+  },
+  {
+    "id": "physics-084",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电学",
+      "电流",
+      "电压"
+    ],
+    "question": "我国家庭电路的电压是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1.5V"
+      },
+      {
+        "label": "B",
+        "text": "3V"
+      },
+      {
+        "label": "C",
+        "text": "36V以下"
+      },
+      {
+        "label": "D",
+        "text": "220V"
+      }
+    ],
+    "answer": "D",
+    "explanation": "我国家庭电路电压为220V（工频50Hz）；一节干电池电压1.5V；安全电压不高于36V。"
+  },
+  {
+    "id": "physics-085",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电学",
+      "欧姆定律"
+    ],
+    "question": "一个定值电阻两端加6V电压时，通过的电流为0.3A，则该电阻的阻值为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "2Ω"
+      },
+      {
+        "label": "B",
+        "text": "18Ω"
+      },
+      {
+        "label": "C",
+        "text": "20Ω"
+      },
+      {
+        "label": "D",
+        "text": "0.05Ω"
+      }
+    ],
+    "answer": "C",
+    "explanation": "R=U/I=6V/0.3A=20Ω。定值电阻阻值由本身决定，与加在两端的电压和通过的电流无关。"
+  },
+  {
+    "id": "physics-086",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电学",
+      "电功率"
+    ],
+    "question": "标有PZ220-60的灯泡，正常发光时通过灯泡的电流约为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "0.27A"
+      },
+      {
+        "label": "B",
+        "text": "3.7A"
+      },
+      {
+        "label": "C",
+        "text": "1.8A"
+      },
+      {
+        "label": "D",
+        "text": "0.55A"
+      }
+    ],
+    "answer": "A",
+    "explanation": "P=UI，I=P/U=60W/220V≈0.27A。"
+  },
+  {
+    "id": "physics-087",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电学",
+      "电路分析"
+    ],
+    "question": "在电路中，电源电压保持不变，R1=10Ω，R2=20Ω。当开关S闭合时，R1和R2的连接方式是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "串联"
+      },
+      {
+        "label": "B",
+        "text": "并联"
+      },
+      {
+        "label": "C",
+        "text": "混联"
+      },
+      {
+        "label": "D",
+        "text": "无法判断"
+      }
+    ],
+    "answer": "B",
+    "explanation": "电流从正极流出，分别经过R1和R2后汇合回到负极，两电阻有各自的独立通路，属于并联。"
+  },
+  {
+    "id": "physics-088",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电学",
+      "安全用电"
+    ],
+    "question": "下列做法符合安全用电原则的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "用湿手触摸开关"
+      },
+      {
+        "label": "B",
+        "text": "保险丝熔断后用铜丝代替"
+      },
+      {
+        "label": "C",
+        "text": "发现有人触电时立即切断电源"
+      },
+      {
+        "label": "D",
+        "text": "多个大功率用电器同时使用一个插座"
+      }
+    ],
+    "answer": "C",
+    "explanation": "安全用电原则：不湿手触电、不用铜丝代替保险丝、不同时使用多个大功率电器、有人触电先切断电源再救人。"
+  },
+  {
+    "id": "physics-089",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电磁学",
+      "磁现象"
+    ],
+    "question": "下列物品中，没有应用磁性材料的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "电脑硬盘"
+      },
+      {
+        "label": "B",
+        "text": "磁带"
+      },
+      {
+        "label": "C",
+        "text": "塑料磁条"
+      },
+      {
+        "label": "D",
+        "text": "铜制硬币"
+      }
+    ],
+    "answer": "D",
+    "explanation": "电脑硬盘和磁带都利用磁性材料存储信息；塑料磁条利用磁性材料的磁场；铜不是磁性材料。"
+  },
+  {
+    "id": "physics-090",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电磁学",
+      "电磁感应"
+    ],
+    "question": "发电机的工作原理是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "电流的磁效应"
+      },
+      {
+        "label": "B",
+        "text": "电磁感应"
+      },
+      {
+        "label": "C",
+        "text": "磁场对电流的作用"
+      },
+      {
+        "label": "D",
+        "text": "磁极间的相互作用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "发电机利用电磁感应原理：闭合电路的一部分导体在磁场中做切割磁感线运动时，产生感应电流。"
+  },
+  {
+    "id": "physics-091",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-声学",
+      "声速"
+    ],
+    "question": "声音在15℃空气中传播速度是_____m/s。",
+    "answer": "340",
+    "explanation": "根据物理知识填写：340"
+  },
+  {
+    "id": "physics-092",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-物态变化",
+      "温度计"
+    ],
+    "question": "体温计的测量范围是35℃到_____℃。",
+    "answer": "42",
+    "explanation": "根据物理知识填写：42"
+  },
+  {
+    "id": "physics-093",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-光现象",
+      "光的直线传播"
+    ],
+    "question": "光在均匀介质中沿_____传播。",
+    "answer": "直线",
+    "explanation": "根据物理知识填写：直线"
+  },
+  {
+    "id": "physics-094",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-光现象",
+      "凸透镜"
+    ],
+    "question": "凸透镜对光有_____作用。",
+    "answer": "会聚",
+    "explanation": "根据物理知识填写：会聚"
+  },
+  {
+    "id": "physics-095",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-热学",
+      "比热容"
+    ],
+    "question": "水的比热容是4.2×10³_____。",
+    "answer": "J/(kg·℃)",
+    "explanation": "根据物理知识填写：J/(kg·℃)"
+  },
+  {
+    "id": "physics-096",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-热学",
+      "沸点"
+    ],
+    "question": "1标准大气压下，水的沸点是_____℃。",
+    "answer": "100",
+    "explanation": "根据物理知识填写：100"
+  },
+  {
+    "id": "physics-097",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电学",
+      "电能"
+    ],
+    "question": "1kW·h等于3.6×10⁶_____。",
+    "answer": "J",
+    "explanation": "根据物理知识填写：J"
+  },
+  {
+    "id": "physics-098",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-电磁学",
+      "地磁场"
+    ],
+    "question": "地球周围存在着_____，地理两极处磁场最强。",
+    "answer": "磁场",
+    "explanation": "根据物理知识填写：磁场"
+  },
+  {
+    "id": "physics-099",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "压强"
+    ],
+    "question": "增大压强的方法有：增大压力或减小受力面积；减小压强的方法有：减小压力或增大_____。",
+    "answer": "受力面积",
+    "explanation": "根据物理知识填写：受力面积"
+  },
+  {
+    "id": "physics-100",
+    "type": "fill",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理-力学",
+      "杠杆"
+    ],
+    "question": "杠杆的平衡条件是：动力×动力臂 = _____×阻力臂。",
+    "answer": "阻力",
+    "explanation": "根据物理知识填写：阻力"
+  },
+  {
+    "id": "politics-043",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-心理健康",
+      "情绪调节"
+    ],
+    "question": "当你在考试前感到紧张焦虑时，正确的做法是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "熬夜复习给自己加压"
+      },
+      {
+        "label": "B",
+        "text": "深呼吸，积极自我暗示"
+      },
+      {
+        "label": "C",
+        "text": "放弃考试"
+      },
+      {
+        "label": "D",
+        "text": "玩游戏逃避"
+      }
+    ],
+    "answer": "B",
+    "explanation": "面对考试焦虑，正确的做法是学会调节情绪，如深呼吸、积极暗示、合理安排复习时间等。"
+  },
+  {
+    "id": "politics-044",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-心理健康",
+      "挫折应对"
+    ],
+    "question": "面对挫折，下列做法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "自暴自弃，一蹶不振"
+      },
+      {
+        "label": "B",
+        "text": "冷静分析，调整心态，积极应对"
+      },
+      {
+        "label": "C",
+        "text": "抱怨命运不公"
+      },
+      {
+        "label": "D",
+        "text": "完全依赖他人解决"
+      }
+    ],
+    "answer": "B",
+    "explanation": "面对挫折，我们应该：冷静分析原因、调整心态、积极寻求解决方法，使挫折成为成长的契机。"
+  },
+  {
+    "id": "politics-045",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-法治教育",
+      "未成年人保护"
+    ],
+    "question": "对未成年人实施专门保护的法律是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "《中华人民共和国刑法》"
+      },
+      {
+        "label": "B",
+        "text": "《中华人民共和国未成年人保护法》"
+      },
+      {
+        "label": "C",
+        "text": "《中华人民共和国婚姻法》"
+      },
+      {
+        "label": "D",
+        "text": "《中华人民共和国合同法》"
+      }
+    ],
+    "answer": "B",
+    "explanation": "《未成年人保护法》是专门保护未成年人合法权益的法律，2020年修订后进一步强化了对未成年人的保护。"
+  },
+  {
+    "id": "politics-046",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-社会责任感",
+      "诚信"
+    ],
+    "question": "诚信是社会主义核心价值观的重要内容，下列行为体现诚信的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "考试时偷看答案"
+      },
+      {
+        "label": "B",
+        "text": "答应别人的事说到做到"
+      },
+      {
+        "label": "C",
+        "text": "做错事嫁祸他人"
+      },
+      {
+        "label": "D",
+        "text": "撒谎逃避责任"
+      }
+    ],
+    "answer": "B",
+    "explanation": "诚信就是守信用、讲信誉。考试作弊、嫁祸他人、逃避责任都是不诚信的行为。"
+  },
+  {
+    "id": "politics-047",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-公民权利",
+      "人身自由权"
+    ],
+    "question": "下列属于公民基本权利的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "服兵役义务"
+      },
+      {
+        "label": "B",
+        "text": "纳税义务"
+      },
+      {
+        "label": "C",
+        "text": "人格尊严权"
+      },
+      {
+        "label": "D",
+        "text": "受教育义务"
+      }
+    ],
+    "answer": "C",
+    "explanation": "人格尊严权是公民的基本权利，包括名誉权、肖像权、姓名权等。服兵役、纳税、受教育都属于义务而非权利。"
+  },
+  {
+    "id": "politics-048",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-公民义务",
+      "受教育义务"
+    ],
+    "question": "我国宪法规定受教育既是公民的权利也是公民的义务，这一规定体现了",
+    "choices": [
+      {
+        "label": "A",
+        "text": "公民的权利就是义务"
+      },
+      {
+        "label": "B",
+        "text": "有些公民享有权利，有些公民承担义务"
+      },
+      {
+        "label": "C",
+        "text": "权利和义务是相互依存的"
+      },
+      {
+        "label": "D",
+        "text": "权利比义务更重要"
+      }
+    ],
+    "answer": "C",
+    "explanation": "在我国，公民的权利和义务是相互依存、相互促进的。没有无义务的权利，也没有无权利的义务。"
+  },
+  {
+    "id": "politics-049",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-生态文明",
+      "绿色发展"
+    ],
+    "question": "践行绿色发展理念，中学生应该",
+    "choices": [
+      {
+        "label": "A",
+        "text": "尽量少学习，节省资源"
+      },
+      {
+        "label": "B",
+        "text": "随手关灯、绿色出行、减少使用一次性物品"
+      },
+      {
+        "label": "C",
+        "text": "浪费水电无所谓"
+      },
+      {
+        "label": "D",
+        "text": "不参与任何环保活动"
+      }
+    ],
+    "answer": "B",
+    "explanation": "绿色发展理念要求我们节约资源、保护环境。中学生可以从身边小事做起，如随手关灯、绿色出行、减少一次性物品使用等。"
+  },
+  {
+    "id": "politics-050",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-国家安全",
+      "维护国家安全"
+    ],
+    "question": "维护国家安全是每个公民应尽的义务，下列行为有利于国家安全的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "在军事禁区拍照并上传网络"
+      },
+      {
+        "label": "B",
+        "text": "及时向有关部门举报危害国家安全的行为"
+      },
+      {
+        "label": "C",
+        "text": "随意转发网络谣言"
+      },
+      {
+        "label": "D",
+        "text": "购买外国武器装备"
+      }
+    ],
+    "answer": "B",
+    "explanation": "维护国家安全包括：遵守国家安全法律、不泄露国家秘密、及时举报危害国家安全的行为等。在军事禁区拍照、传谣言都是危害国家安全的行为。"
+  },
+  {
+    "id": "politics-051",
+    "type": "short_answer",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-心理健康",
+      "材料分析"
+    ],
+    "question": "材料：小明在班级里经常独来独往，不愿意参加集体活动，觉得一个人更自在。\n\n问题：请从闭锁心理和融入集体的角度，分析小明的心理和行为，并给他提出建议。",
+    "answer": "（1）小明的行为属于闭锁心理的表现。闭锁心理是一种正常的心理现象，但如果过于封闭自己，会影响与同学的交往，阻碍健康成长。\n\n（2）建议：①认识闭锁心理的危害，主动开放自己；②积极参加集体活动，在活动中锻炼交往能力；③与同学建立平等、信任的友谊关系；④学会调控情绪，保持积极乐观的心态。",
+    "explanation": "闭锁心理是青少年常见的心理现象，关键是要认识其危害，主动走出自我封闭，积极融入集体。"
+  },
+  {
+    "id": "politics-052",
+    "type": "short_answer",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-法治教育",
+      "材料分析"
+    ],
+    "question": "材料：某学生在校园里被高年级同学索要保护费，如果不交就会被打。该学生向学校报告后，学校及时处理了这起校园欺凌事件。\n\n问题：①校园欺凌有什么危害？②如果你遇到校园欺凌，应该怎么做？",
+    "answer": "（1）危害：侵害受害学生的人身权、财产权；损害学生身心健康；破坏正常的教育教学秩序；甚至可能引发违法行为。\n\n（2）应对：①依法进行自我保护，及时告诉老师、家长或报警；②保留证据（照片、聊天记录等）；③必要时可向法律援助机构求助；④不私了，不以暴制暴。",
+    "explanation": "面对校园欺凌，学生应学会依法自我保护，及时报告学校、家长或报警，不能忍气吞声或以暴制暴。"
+  },
+  {
+    "id": "politics-053",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-社会主义核心价值观"
+    ],
+    "question": "社会主义核心价值观个人层面的内容是：爱国、敬业、_____、友善。",
+    "answer": "诚信",
+    "explanation": "根据道法知识填写：诚信"
+  },
+  {
+    "id": "politics-054",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-犯罪"
+    ],
+    "question": "犯罪具有三个基本特征：严重社会危害性、刑事违法性和_____性。",
+    "answer": "刑罚当罚",
+    "explanation": "根据道法知识填写：刑罚当罚"
+  },
+  {
+    "id": "politics-055",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-自我保护"
+    ],
+    "question": "遇到火灾时，应该拨打火警电话_____。",
+    "answer": "119",
+    "explanation": "根据道法知识填写：119"
+  },
+  {
+    "id": "politics-056",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-宪法"
+    ],
+    "question": "我国宪法是国家的根本大法，具有最高的法律效力和_____效力。",
+    "answer": "法律",
+    "explanation": "根据道法知识填写：法律"
+  },
+  {
+    "id": "history-053",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "秦朝"
+    ],
+    "question": "秦始皇统一六国后，为加强中央集权采取的措施不包括",
+    "choices": [
+      {
+        "label": "A",
+        "text": "统一文字、货币、度量衡"
+      },
+      {
+        "label": "B",
+        "text": "建立郡县制"
+      },
+      {
+        "label": "C",
+        "text": "实行分封制"
+      },
+      {
+        "label": "D",
+        "text": "修筑长城"
+      }
+    ],
+    "answer": "C",
+    "explanation": "秦始皇废除了分封制，建立了郡县制，加强了中央集权。统一文字、货币、度量衡、修筑长城都是他的重要举措。"
+  },
+  {
+    "id": "history-054",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争爆发的根本原因是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "林则徐虎门销烟"
+      },
+      {
+        "label": "B",
+        "text": "英国想打开中国市场"
+      },
+      {
+        "label": "C",
+        "text": "中国人民反抗侵略"
+      },
+      {
+        "label": "D",
+        "text": "道光帝腐败无能"
+      }
+    ],
+    "answer": "B",
+    "explanation": "鸦片战争是英国为打开中国市场、倾销商品而发动的侵略战争。虎门销烟只是战争的直接导火索。"
+  },
+  {
+    "id": "history-055",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国近代史",
+      "辛亥革命"
+    ],
+    "question": "辛亥革命的历史意义是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "推翻了清朝统治，建立了中华民国"
+      },
+      {
+        "label": "B",
+        "text": "推翻了封建君主专制制度"
+      },
+      {
+        "label": "C",
+        "text": "改变了中国半殖民地半封建社会的性质"
+      },
+      {
+        "label": "D",
+        "text": "完全实现了民族独立"
+      }
+    ],
+    "answer": "B",
+    "explanation": "辛亥革命最大的历史功绩是推翻了统治中国两千多年的封建君主专制制度，建立了共和制的中华民国。"
+  },
+  {
+    "id": "history-056",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界古代史",
+      "古希腊民主"
+    ],
+    "question": "伯里克利时代雅典民主政治达到顶峰，其民主制度的特点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "全体公民直接参与国政"
+      },
+      {
+        "label": "B",
+        "text": "成年男性公民当家作主"
+      },
+      {
+        "label": "C",
+        "text": "所有人都享有同等权利"
+      },
+      {
+        "label": "D",
+        "text": "没有贫富差距"
+      }
+    ],
+    "answer": "B",
+    "explanation": "雅典民主是直接民主，但享有民主权利的只是成年男性公民，妇女、奴隶、外邦人被排除在外。"
+  },
+  {
+    "id": "history-057",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界近代史",
+      "文艺复兴"
+    ],
+    "question": "文艺复兴运动的实质是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "古希腊罗马文化的复兴"
+      },
+      {
+        "label": "B",
+        "text": "资产阶级思想解放运动"
+      },
+      {
+        "label": "C",
+        "text": "反对宗教神学的运动"
+      },
+      {
+        "label": "D",
+        "text": "文学艺术的创新"
+      }
+    ],
+    "answer": "B",
+    "explanation": "文艺复兴表面上是复兴古希腊罗马文化，实质上是资产阶级在意识形态领域反对封建神学的思想解放运动。"
+  },
+  {
+    "id": "history-058",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界近代史",
+      "法国大革命"
+    ],
+    "question": "法国大革命期间发表的《人权宣言》的核心内容是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "废除封建土地制度"
+      },
+      {
+        "label": "B",
+        "text": "人生而自由平等，权利不可剥夺"
+      },
+      {
+        "label": "C",
+        "text": "建立资产阶级民主共和国"
+      },
+      {
+        "label": "D",
+        "text": "废除君主制"
+      }
+    ],
+    "answer": "B",
+    "explanation": "《人权宣言》提出：人生来是而且始终是自由平等的；自由、财产、安全和反抗压迫是人的不可剥夺的权利。"
+  },
+  {
+    "id": "history-059",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "中国改革开放的起点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1949年新中国成立"
+      },
+      {
+        "label": "B",
+        "text": "1978年党的十一届三中全会"
+      },
+      {
+        "label": "C",
+        "text": "1992年邓小平南方谈话"
+      },
+      {
+        "label": "D",
+        "text": "2001年加入WTO"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1978年党的十一届三中全会确立了解放思想、实事求是的指导思想，作出了把党和国家工作重心转移到经济建设上来、实行改革开放的伟大决策。"
+  },
+  {
+    "id": "history-060",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界现代史",
+      "两次世界大战"
+    ],
+    "question": "第二次世界大战的转折点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "日本偷袭珍珠港"
+      },
+      {
+        "label": "B",
+        "text": "斯大林格勒战役"
+      },
+      {
+        "label": "C",
+        "text": "诺曼底登陆"
+      },
+      {
+        "label": "D",
+        "text": "柏林战役"
+      }
+    ],
+    "answer": "B",
+    "explanation": "斯大林格勒战役（1942-1943）是苏德战场的转折点，也是第二次世界大战的转折点。"
+  },
+  {
+    "id": "history-061",
+    "type": "short_answer",
+    "subject": "history",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "史料分析"
+    ],
+    "question": "材料：卫鞅曰：治世不一道，便国不法古。故汤武不循古而王，夏殷不易礼而亡。反古者不可非，而循礼者不足多。孝公曰：善。以为田不开，可寐，而秦国之积寡……\n\n问题：①这段材料反映的是哪次变法？②请概括这次变法的主要措施。",
+    "answer": "（1）这是商鞅变法（战国时期秦国的变法）。\n\n（2）主要措施：①废除井田制，允许土地自由买卖；②奖励军功，根据军功大小授予爵位和土地；③建立县制，由国君直接派官吏治理；④统一度量衡。",
+    "explanation": "商鞅变法是战国时期最彻底的一次变法，通过奖励耕战、建立县制等措施，为秦统一六国奠定了基础。"
+  },
+  {
+    "id": "history-062",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "秦朝"
+    ],
+    "question": "中国历史上第一个统一的多民族中央集权国家是_____朝。",
+    "answer": "秦",
+    "explanation": "根据历史知识填写：秦"
+  },
+  {
+    "id": "history-063",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "唐朝"
+    ],
+    "question": "唐代最著名的对外贸易港口是_____，海上丝绸之路由此出发。",
+    "answer": "广州",
+    "explanation": "根据历史知识填写：广州"
+  },
+  {
+    "id": "history-064",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争后，中国被迫签订了《南京条约》，开放了广州、厦门、福州、宁波、_____五处通商口岸。",
+    "answer": "上海",
+    "explanation": "根据历史知识填写：上海"
+  },
+  {
+    "id": "history-065",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界近代史",
+      "一战"
+    ],
+    "question": "第一次世界大战的导火线是_____事件。",
+    "answer": "萨拉热窝",
+    "explanation": "根据历史知识填写：萨拉热窝"
+  },
+  {
+    "id": "biology-063",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物",
+      "光合作用"
+    ],
+    "question": "光合作用的原料是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "有机物和氧气"
+      },
+      {
+        "label": "B",
+        "text": "二氧化碳和水"
+      },
+      {
+        "label": "C",
+        "text": "叶绿素和光"
+      },
+      {
+        "label": "D",
+        "text": "无机物和光"
+      }
+    ],
+    "answer": "B",
+    "explanation": "光合作用：二氧化碳+水 → 有机物+氧气。光和叶绿素是光合作用的条件而非原料。"
+  },
+  {
+    "id": "biology-064",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-动物",
+      "消化系统"
+    ],
+    "question": "人体消化系统中，既有消化功能又有吸收功能的器官是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "口腔"
+      },
+      {
+        "label": "B",
+        "text": "胃"
+      },
+      {
+        "label": "C",
+        "text": "小肠"
+      },
+      {
+        "label": "D",
+        "text": "大肠"
+      }
+    ],
+    "answer": "C",
+    "explanation": "小肠是消化和吸收的主要场所：长约5-6米，内表面积大，含有多种消化液，且毛细血管丰富，利于吸收。"
+  },
+  {
+    "id": "biology-065",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-人体",
+      "血液循环"
+    ],
+    "question": "血液循环的动力器官是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "心脏"
+      },
+      {
+        "label": "B",
+        "text": "肺"
+      },
+      {
+        "label": "C",
+        "text": "肝脏"
+      },
+      {
+        "label": "D",
+        "text": "肾脏"
+      }
+    ],
+    "answer": "A",
+    "explanation": "心脏是血液循环的动力器官，通过收缩和舒张推动血液在全身循环流动。"
+  },
+  {
+    "id": "biology-066",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-细胞",
+      "细胞结构"
+    ],
+    "question": "植物细胞和动物细胞都具有的结构是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "叶绿体"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "液泡"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细胞核是动植物细胞共有的结构；细胞壁、叶绿体是植物细胞特有的。"
+  },
+  {
+    "id": "biology-067",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-微生物",
+      "细菌"
+    ],
+    "question": "细菌与植物细胞的主要区别是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "没有细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "没有细胞膜"
+      },
+      {
+        "label": "C",
+        "text": "没有成形的细胞核"
+      },
+      {
+        "label": "D",
+        "text": "没有细胞质"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细菌是原核生物，没有成形的细胞核；植物细胞是真核生物，有成形的细胞核。"
+  },
+  {
+    "id": "biology-068",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-遗传",
+      "基因"
+    ],
+    "question": "人的体细胞中有23对染色体，生殖细胞中有",
+    "choices": [
+      {
+        "label": "A",
+        "text": "23对"
+      },
+      {
+        "label": "B",
+        "text": "23条"
+      },
+      {
+        "label": "C",
+        "text": "46条"
+      },
+      {
+        "label": "D",
+        "text": "46对"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在形成生殖细胞时，染色体数目减半，所以精子或卵细胞中各有23条染色体。"
+  },
+  {
+    "id": "biology-069",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物",
+      "呼吸作用"
+    ],
+    "question": "植物呼吸作用的意义是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "合成有机物，储存能量"
+      },
+      {
+        "label": "B",
+        "text": "分解有机物，释放能量"
+      },
+      {
+        "label": "C",
+        "text": "吸收二氧化碳，释放氧气"
+      },
+      {
+        "label": "D",
+        "text": "光合作用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "呼吸作用：分解有机物，释放能量。光合作用才是合成有机物、储存能量、释放氧气。"
+  },
+  {
+    "id": "biology-070",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-动物",
+      "反射"
+    ],
+    "question": "膝跳反射的神经中枢位于",
+    "choices": [
+      {
+        "label": "A",
+        "text": "大脑皮层"
+      },
+      {
+        "label": "B",
+        "text": "脊髓"
+      },
+      {
+        "label": "C",
+        "text": "小脑"
+      },
+      {
+        "label": "D",
+        "text": "脑干"
+      }
+    ],
+    "answer": "B",
+    "explanation": "膝跳反射是非条件反射，神经中枢在脊髓。大脑皮层是高级神经中枢，控制条件反射等活动。"
+  },
+  {
+    "id": "biology-071",
+    "type": "short_answer",
+    "subject": "biology",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物",
+      "实验探究"
+    ],
+    "question": "某同学为探究光合作用的条件，设计实验如下：将一株天竺葵放在暗处2天后，选一片叶子，用黑纸片把A处上下两面遮住，B处不遮，然后放到阳光下照射4小时，摘下该叶片，酒精脱色后滴加碘液。\n\n问题：①A处和B处颜色变化是什么？②说明原因。",
+    "answer": "（1）A处（遮光部分）：不变蓝（黄白色）；B处（见光部分）：变蓝。\n\n（2）原因：A处被黑纸遮住，不见光，不能进行光合作用，没有淀粉生成，滴加碘液不变蓝；B处见光，能进行光合作用，合成淀粉，滴加碘液变蓝。这说明光是光合作用的必要条件。",
+    "explanation": "本实验通过遮光和见光的对照，证明光是光合作用的必要条件，淀粉是光合作用的产物。"
+  },
+  {
+    "id": "biology-072",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-消化系统"
+    ],
+    "question": "人体最大的消化腺是_____。",
+    "answer": "肝脏",
+    "explanation": "根据生物知识填写：肝脏"
+  },
+  {
+    "id": "biology-073",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-光合作用"
+    ],
+    "question": "植物光合作用：二氧化碳 + 水 → 有机物 + _____。",
+    "answer": "氧气",
+    "explanation": "根据生物知识填写：氧气"
+  },
+  {
+    "id": "biology-074",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-神经系统"
+    ],
+    "question": "神经系统结构和功能的基本单位是_____。",
+    "answer": "神经元",
+    "explanation": "根据生物知识填写：神经元"
+  },
+  {
+    "id": "biology-075",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-遗传"
+    ],
+    "question": "ABO血型系统中，A型血型的基因型是AA或_____。",
+    "answer": "AO",
+    "explanation": "根据生物知识填写：AO"
+  },
+  {
+    "id": "math-155",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-代数",
+      "因式分解"
+    ],
+    "question": "下列因式分解正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x²-4=(x+2)(x-2)"
+      },
+      {
+        "label": "B",
+        "text": "a²+2a+1=(a+1)²"
+      },
+      {
+        "label": "C",
+        "text": "x²+4=(x+2)(x-2)"
+      },
+      {
+        "label": "D",
+        "text": "a²-b²=(a+b)²"
+      }
+    ],
+    "answer": "A",
+    "explanation": "x²-4可用平方差公式分解为(x+2)(x-2)。"
+  },
+  {
+    "id": "math-156",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-代数",
+      "分式运算"
+    ],
+    "question": "分式 x/(x+1) + 1/(x-1) 化简后为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "(x²+2x-1)/(x²-1)"
+      },
+      {
+        "label": "B",
+        "text": "(x²+x)/(x²-1)"
+      },
+      {
+        "label": "C",
+        "text": "(x²-1)/(x²-1)"
+      },
+      {
+        "label": "D",
+        "text": "(2x²-1)/(x²-1)"
+      }
+    ],
+    "answer": "C",
+    "explanation": "异分母分式加减法，先通分再计算。"
+  },
+  {
+    "id": "math-157",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "三角形"
+    ],
+    "question": "在△ABC中，∠A=60°，∠B=70°，则∠C=",
+    "choices": [
+      {
+        "label": "A",
+        "text": "40°"
+      },
+      {
+        "label": "B",
+        "text": "50°"
+      },
+      {
+        "label": "C",
+        "text": "60°"
+      },
+      {
+        "label": "D",
+        "text": "70°"
+      }
+    ],
+    "answer": "B",
+    "explanation": "三角形内角和为180°，所以∠C=180°-60°-70°=50°。"
+  },
+  {
+    "id": "math-158",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-函数",
+      "一次函数"
+    ],
+    "question": "一次函数 y=2x-3 的图像不经过",
+    "choices": [
+      {
+        "label": "A",
+        "text": "第一象限"
+      },
+      {
+        "label": "B",
+        "text": "第二象限"
+      },
+      {
+        "label": "C",
+        "text": "第三象限"
+      },
+      {
+        "label": "D",
+        "text": "第四象限"
+      }
+    ],
+    "answer": "B",
+    "explanation": "y=2x-3，k=2>0，b=-3<0，图像经过第一、三、四象限，不经过第二象限。"
+  },
+  {
+    "id": "math-159",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-统计",
+      "概率"
+    ],
+    "question": "从2、3、5、7四个数中任取两个数，它们的积是偶数的概率是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1/4"
+      },
+      {
+        "label": "B",
+        "text": "1/2"
+      },
+      {
+        "label": "C",
+        "text": "1/3"
+      },
+      {
+        "label": "D",
+        "text": "1/6"
+      }
+    ],
+    "answer": "B",
+    "explanation": "总情况C(4,2)=6，积为偶数要求至少有一个偶数2，情况数3，概率=3/6=1/2。"
+  },
+  {
+    "id": "math-160",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-压轴",
+      "动点问题"
+    ],
+    "question": "在平面直角坐标系中，点A(0,3)，点B(4,0)，点P在x轴上运动，当PA=PB时，点P的坐标约为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "(2,0)"
+      },
+      {
+        "label": "B",
+        "text": "(1.5,0)"
+      },
+      {
+        "label": "C",
+        "text": "(2.5,0)"
+      },
+      {
+        "label": "D",
+        "text": "(0.875,0)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "设P(x,0)，由PA=PB得x²+9=(x-4)²+0，解得x=7/8=0.875。"
+  },
+  {
+    "id": "math-161",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-方程",
+      "一元二次方程"
+    ],
+    "question": "方程 x²-5x+6=0 的解是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "x=1或x=6"
+      },
+      {
+        "label": "B",
+        "text": "x=2或x=3"
+      },
+      {
+        "label": "C",
+        "text": "x=-2或x=-3"
+      },
+      {
+        "label": "D",
+        "text": "x=2或x=-3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "x²-5x+6=0因式分解为(x-2)(x-3)=0，所以x=2或x=3。"
+  },
+  {
+    "id": "math-162",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "圆"
+    ],
+    "question": "在同圆中，圆心角是30°的扇形所对的弧长是圆周长的",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1/6"
+      },
+      {
+        "label": "B",
+        "text": "1/12"
+      },
+      {
+        "label": "C",
+        "text": "1/3"
+      },
+      {
+        "label": "D",
+        "text": "1/4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "圆心角30°占360°的比例为30/360=1/12，所以弧长也是圆周长的1/12。"
+  },
+  {
+    "id": "math-163",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-代数",
+      "根的判别式"
+    ],
+    "question": "关于x的方程 x²+2x+m=0 有两个不相等的实数根，则m的取值范围是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "m≤1"
+      },
+      {
+        "label": "B",
+        "text": "m<1"
+      },
+      {
+        "label": "C",
+        "text": "m>1"
+      },
+      {
+        "label": "D",
+        "text": "m≥1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "判别式Δ=4-4m>0，即4(1-m)>0，所以m<1。"
+  },
+  {
+    "id": "math-164",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "相似三角形"
+    ],
+    "question": "在△ABC中，DE//BC，AD:DB=1:2，则AE:EC=",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:2"
+      },
+      {
+        "label": "B",
+        "text": "2:1"
+      },
+      {
+        "label": "C",
+        "text": "1:3"
+      },
+      {
+        "label": "D",
+        "text": "2:3"
+      }
+    ],
+    "answer": "A",
+    "explanation": "由DE//BC，根据平行线分线段成比例定理，AD/DB=AE/EC=1/2，所以AE:EC=1:2。"
+  },
+  {
+    "id": "math-165",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "多边形"
+    ],
+    "question": "如果一个多边形的内角和是1080°，那么它是_____边形。",
+    "answer": "八",
+    "explanation": "根据数学知识填写：八"
+  },
+  {
+    "id": "math-166",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-函数",
+      "一次函数"
+    ],
+    "question": "函数 y=3x-1 的图像与y轴的交点坐标是_____。",
+    "answer": "(0,-1)",
+    "explanation": "根据数学知识填写：(0,-1)"
+  },
+  {
+    "id": "math-167",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "菱形"
+    ],
+    "question": "若菱形的两条对角线长分别为6和8，则其面积是_____。",
+    "answer": "24",
+    "explanation": "根据数学知识填写：24"
+  },
+  {
+    "id": "math-168",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-统计",
+      "平均数"
+    ],
+    "question": "若一组数据3、5、7、a、10的平均数是6，则a=_____。",
+    "answer": "5",
+    "explanation": "根据数学知识填写：5"
+  },
+  {
+    "id": "math-169",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-函数",
+      "二次函数"
+    ],
+    "question": "抛物线 y=(x-2)²+3 的顶点坐标是_____。",
+    "answer": "(2,3)",
+    "explanation": "根据数学知识填写：(2,3)"
   }
 ]
