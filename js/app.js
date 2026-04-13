@@ -1,7 +1,7 @@
 // App Module
 // Main entry point for 百日闯 PWA
 
-import { checkin, getCheckinStreak, getCheckinHistoryList, getCheckinMeta } from './checkin.js';
+import { checkin, getCheckinStreak, getCheckinHistoryList, getCheckinMeta, recordDailySession, getDailyRecord, getRecentDailyRecords, getTotalScore } from './checkin.js';
 import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData, sendFeedback, getPendingFeedbacks, approveFeedback, rejectFeedback, getFeedbackStats } from './question_bank.js';
 
 // State
@@ -14,6 +14,9 @@ let sessionIndex = 0;
 let sessionScore = { correct: 0, wrong: 0 };
 let sessionSubject = null;
 let practiceEntry = 'new'; // 'new' | 'weak' | 'mastered'
+let _sessionStartQuestions = 0; // questions answered before this session
+let _sessionStartCorrect = 0;     // correct answers before this session
+let _sessionTotalQuestions = 0;   // total questions answered today before this session
 
 // Initialize app
 async function init() {
@@ -321,12 +324,31 @@ async function refreshUI() {
   await renderHundredDayCard();
 }
 
+// Get today's baseline for score calculation
+async function getTodaySessionBaseline() {
+  const daily = await getDailyRecord();
+  const today = new Date().toISOString().split('T')[0];
+  const todayRec = daily[today];
+  return {
+    questionsCount: todayRec ? todayRec.questionsCount : 0,
+    correct: todayRec ? todayRec.correct : 0,
+  };
+}
+
 // Start a new practice session
 async function startPracticeSession(subject) {
+  // Record baseline before this session for score calculation
+  const today = new Date().toISOString().split('T')[0];
+  const todayBefore = await getTodaySessionBaseline();
+  _sessionStartQuestions = todayBefore.questionsCount;
+  _sessionStartCorrect = todayBefore.correct;
+
   // Auto-checkin when starting practice
   const result = await checkin();
   if (result.success) {
-    showToast(`🎉 打卡成功！连续${result.streak}天`);
+    showToast(`🎉 开始练习！连续${result.streak}天`);
+  } else {
+    showToast('继续加油！');
   }
 
   const questions = await getQuestionsBySubject(subject);
@@ -723,6 +745,21 @@ function renderSessionResult() {
   if (pct < 60) { emoji = '💪'; msg = '继续加油！'; }
   else if (pct < 80) { emoji = '👍'; msg = '很不错！'; }
 
+  // Record this session for daily score
+  recordDailySession(sessionQuestions, sessionScore).then(daily => {
+    const todayScore = daily ? daily.score : 0;
+    // Update today's score display if visible
+    const todayScoreEl = document.getElementById('streak-today-score');
+    if (todayScoreEl) todayScoreEl.textContent = `今日得分: ${todayScore}`;
+    const todayDot = document.getElementById('streak-today-dot');
+    if (todayDot) { todayDot.textContent = '●'; todayDot.style.color = '#4CAF50'; }
+    // Update 100-day total
+    getTotalScore().then(totalScore => {
+      const earnedEl = document.getElementById('hundred-days-earned');
+      if (earnedEl) earnedEl.textContent = Math.min(totalScore, 100);
+    });
+  });
+
   container.innerHTML = `
     <div class="result-box">
       <p class="result-emoji">${emoji}</p>
@@ -991,65 +1028,120 @@ function drawLineChart(canvas, series, color) {
 // ==================== 100-Day Progress Card ====================
 
 async function renderHundredDayCard() {
-  const history = await getCheckinHistory();
-  const meta = await getCheckinMeta();
+  const records = await getRecentDailyRecords(14);
   const today = new Date().toISOString().split('T')[0];
-  const checkedCount = Object.keys(history).length;
-
-  // Streak
+  const todayRec = records[records.length - 1];
+  const totalScore = await getTotalScore();
   const streak = await getCheckinStreak();
+
+  // Streak card
   const streakEl = document.getElementById('streak-count');
   const streakSubEl = document.getElementById('streak-sub');
+  const todayScoreEl = document.getElementById('streak-today-score');
+  const todayDotEl = document.getElementById('streak-today-dot');
   if (streakEl) streakEl.textContent = streak;
   if (streakSubEl) {
-    if (checkedCount === 0) {
+    if (streak === 0) {
       streakSubEl.textContent = '开始你的百日计划';
-    } else if (history[today]) {
-      streakSubEl.textContent = '今日已打卡 ✓';
     } else {
-      streakSubEl.textContent = '今日还未打卡';
+      streakSubEl.textContent = '已累计 ' + totalScore + ' 分';
     }
   }
+  if (todayScoreEl) {
+    todayScoreEl.textContent = todayRec.score > 0 ? `今日得分: ${todayRec.score}` : '今日还未开始';
+  }
+  if (todayDotEl) {
+    todayDotEl.textContent = todayRec.score > 0 ? '●' : '○';
+    todayDotEl.style.color = todayRec.score > 0 ? '#4CAF50' : '#ccc';
+  }
 
-  // Hundred day card
-  const countEl = document.getElementById('hundred-checked');
+  // 100-day progress bar
+  const earnedEl = document.getElementById('hundred-days-earned');
   const barFill = document.getElementById('hundred-bar-fill');
-  const todayMarker = document.getElementById('hundred-today-marker');
   const dotsContainer = document.getElementById('hundred-day-dots');
+  if (earnedEl) earnedEl.textContent = Math.min(totalScore, 100);
+  if (barFill) barFill.style.width = Math.min(totalScore, 100) + '%';
 
-  if (countEl) countEl.innerHTML = `${checkedCount}<span class="hundred-day-total">/100</span>`;
+  // Draw sparkline
+  const canvas = document.getElementById('sparkline-canvas');
+  if (canvas) drawSparkline(canvas, records);
 
-  if (checkedCount > 0 && meta.firstCheckinDate) {
-    const firstDate = new Date(meta.firstCheckinDate);
-    const todayDate = new Date(today);
-    const totalDays = Math.floor((todayDate - firstDate) / (1000 * 60 * 60 * 24)) + 1;
-    const pct = Math.min((checkedCount / 100) * 100, 100);
-
-    if (barFill) barFill.style.width = pct + '%';
-    if (todayMarker) {
-      // Position today marker at today's position relative to totalDays elapsed
-      const todayOffset = Math.min((totalDays / 100) * 100, 100);
-      todayMarker.style.left = todayOffset + '%';
-      todayMarker.style.display = history[today] ? 'none' : 'block';
-    }
-
-    // Dots: show up to 100
-    if (dotsContainer) {
-      dotsContainer.innerHTML = '';
-      // Show last 30 days as dots for space
-      const sortedDates = Object.keys(history).sort();
-      const recentDates = sortedDates.slice(-30);
-      for (const d of recentDates) {
-        const dot = document.createElement('div');
-        dot.className = 'hundred-dot' + (d === today ? ' today' : ' checked');
-        dotsContainer.appendChild(dot);
-      }
-    }
-  } else {
-    if (barFill) barFill.style.width = '0%';
-    if (todayMarker) todayMarker.style.display = 'none';
-    if (dotsContainer) dotsContainer.innerHTML = '';
+  // 100-day dots: show last 30 days of scores (green if >0)
+  if (dotsContainer) {
+    dotsContainer.innerHTML = '';
+    const allDaily = await getDailyRecord();
+    const dates = Object.keys(allDaily).sort().slice(-30);
+    dates.forEach(d => {
+      const dot = document.createElement('div');
+      dot.className = 'hundred-dot' + (allDaily[d].score > 0 ? ' scored' : '');
+      dotsContainer.appendChild(dot);
+    });
   }
+}
+
+function drawSparkline(canvas, records) {
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+  const W = 110 * dpr;
+  const H = 44 * dpr;
+  canvas.width = W;
+  canvas.height = H;
+  canvas.style.width = '110px';
+  canvas.style.height = '44px';
+  ctx.clearRect(0, 0, 110, 44);
+
+  const scores = records.map(r => r.score);
+  const max = Math.max(...scores, 1);
+  const min = 0;
+  const padL = 2, padR = 2, padT = 4, padB = 4;
+  const chartW = 110 - padL - padR;
+  const chartH = 44 - padT - padB;
+
+  // Grid lines (subtle)
+  ctx.strokeStyle = '#f0f0f0';
+  ctx.lineWidth = 0.5;
+  for (let i = 0; i <= 2; i++) {
+    const y = padT + (chartH / 2) * i;
+    ctx.beginPath();
+    ctx.moveTo(padL, y);
+    ctx.lineTo(padL + chartW, y);
+    ctx.stroke();
+  }
+
+  // Draw line
+  const stepX = chartW / Math.max(scores.length - 1, 1);
+  ctx.strokeStyle = '#4CAF50';
+  ctx.lineWidth = 1.5;
+  ctx.lineJoin = 'round';
+  ctx.beginPath();
+  scores.forEach((s, i) => {
+    const x = padL + i * stepX;
+    const y = padT + chartH - ((s - min) / (max - min)) * chartH;
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+
+  // Draw fill under line
+  ctx.lineTo(padL + (scores.length - 1) * stepX, padT + chartH);
+  ctx.lineTo(padL, padT + chartH);
+  ctx.closePath();
+  const grad = ctx.createLinearGradient(0, padT, 0, padT + chartH);
+  grad.addColorStop(0, 'rgba(76,175,80,0.15)');
+  grad.addColorStop(1, 'rgba(76,175,80,0)');
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  // Draw dots
+  scores.forEach((s, i) => {
+    const x = padL + i * stepX;
+    const y = padT + chartH - ((s - min) / (max - min)) * chartH;
+    ctx.beginPath();
+    ctx.arc(x, y, 2, 0, Math.PI * 2);
+    ctx.fillStyle = s > 0 ? '#4CAF50' : '#ddd';
+    ctx.fill();
+  });
+}
 }
 
 // ==================== Home Mastery Chart (Multi-Subject) ====================

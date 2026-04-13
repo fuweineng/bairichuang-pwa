@@ -28,26 +28,34 @@
     <main>
       <!-- ===== HOME VIEW ===== -->
       <section id="home-view" class="view active">
-        <!-- Streak Banner + 100-day Progress -->
+        <!-- Streak Banner with sparkline + 100-day Progress -->
         <div class="home-top-row">
-          <div class="streak-info">
-            <div class="streak-main">
-              <span class="streak-count" id="streak-count">0</span>
-              <span class="streak-unit">天连续</span>
+          <div class="streak-card">
+            <div class="streak-card-left">
+              <div class="streak-main">
+                <span class="streak-count" id="streak-count">0</span>
+                <span class="streak-unit">天连续</span>
+              </div>
+              <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
+              <div class="streak-today-row">
+                <span class="streak-today-dot" id="streak-today-dot">○</span>
+                <span class="streak-today-label" id="streak-today-score">今日得分: --</span>
+              </div>
             </div>
-            <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
+            <canvas id="sparkline-canvas" class="sparkline-canvas"></canvas>
           </div>
-          <div class="hundred-day-card">
-            <div class="hundred-day-header">
-              <span class="hundred-day-label">百日计划</span>
-              <span class="hundred-day-count" id="hundred-checked">0<span class="hundred-day-total">/100</span></span>
-            </div>
-            <div class="hundred-bar">
-              <div class="hundred-bar-fill" id="hundred-bar-fill" style="width:0%"></div>
-              <div class="hundred-bar-today-marker" id="hundred-today-marker" style="left:0%"></div>
-            </div>
-            <div class="hundred-day-dots" id="hundred-day-dots"></div>
+        </div>
+
+        <!-- 100-day progress bar -->
+        <div class="hundred-day-card">
+          <div class="hundred-day-header">
+            <span class="hundred-day-label">百日进度</span>
+            <span class="hundred-day-count"><span id="hundred-days-earned">0</span><span class="hundred-day-total">/100分</span></span>
           </div>
+          <div class="hundred-bar">
+            <div class="hundred-bar-fill" id="hundred-bar-fill" style="width:0%"></div>
+          </div>
+          <div class="hundred-day-dots" id="hundred-day-dots"></div>
         </div>
 
         <!-- Today Stats Row -->
