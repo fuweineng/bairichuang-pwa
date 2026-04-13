@@ -68,6 +68,8 @@ function setupRouting() {
 }
 
 function navigate(route) {
+  window.navigate = navigate;
+  window.nav = navigate; // alias
   // Hide all views
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
 

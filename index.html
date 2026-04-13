@@ -239,25 +239,39 @@
 
   <!-- ===== SCRIPTS ===== -->
   <script>
-    // Global nav functions available immediately (before module loads)
+    // Global nav functions — always use direct view switching (module supplements later)
     window.nav = function(hash) {
+      document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
       if (!hash || hash === '#/index') {
-        showView('home');
-        window.location.hash = '';
+        document.getElementById('home-view').classList.add('active');
+      } else if (hash === '#/practice') {
+        document.getElementById('practice-view').classList.add('active');
+      } else if (hash === '#/progress') {
+        document.getElementById('progress-view').classList.add('active');
+        if (window.loadProgressView) window.loadProgressView();
+      } else if (hash === '#/wrong') {
+        document.getElementById('wrong-view').classList.add('active');
+        if (window.loadWrongView) window.loadWrongView();
+      } else if (hash === '#/settings') {
+        document.getElementById('settings-view').classList.add('active');
+        if (window.loadSettingsView) window.loadSettingsView();
+      } else if (hash === '#/mastery') {
+        document.getElementById('mastery-view') && document.getElementById('mastery-view').classList.add('active');
+        if (window.loadMasteryView) window.loadMasteryView('math', 'tag');
       } else {
-        window.location.hash = hash;
+        document.getElementById('home-view').classList.add('active');
       }
     };
     window.startEntry = function(entry) {
       window.practiceEntry = entry;
-      window.location.hash = '#/practice';
+      nav('#/practice');
     };
     window.startSubject = function(subject) {
       if (window._startSubject) window._startSubject(subject);
     };
     window.showView = function(name) {
-      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
-      const el = document.getElementById(name + '-view');
+      document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
+      var el = document.getElementById(name + '-view');
       if (el) el.classList.add('active');
     };
     window.dismissPwaBanner = function() {
@@ -276,6 +290,6 @@
   </script>
   <script src="js/checkin.js"></script>
   <script src="js/question_bank.js"></script>
-  <script type="module" src="js/app.js?v=130"></script>
+  <script type="module" src="js/app.js?v=140"></script>
 </body>
 </html>
