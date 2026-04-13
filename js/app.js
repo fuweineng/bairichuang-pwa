@@ -1,7 +1,7 @@
 // App Module
 // Main entry point for 百日闯 PWA
 
-import { checkin, getCheckinStreak, getCheckinHistoryList } from './checkin.js';
+import { checkin, getCheckinStreak, getCheckinHistoryList, getCheckinMeta } from './checkin.js';
 import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData, sendFeedback, getPendingFeedbacks, approveFeedback, rejectFeedback, getFeedbackStats } from './question_bank.js';
 
 // State
@@ -126,14 +126,13 @@ function bindEvents() {
     });
   });
 
-  // Practice: Difficulty filter buttons
+  // Practice: Difficulty filter buttons — saves to settings and restarts
   document.querySelectorAll('.diff-btn').forEach(btn => {
     btn.addEventListener('click', async () => {
       const difficulty = btn.dataset.difficulty === '' ? null : parseInt(btn.dataset.difficulty);
       document.querySelectorAll('.diff-btn').forEach(b => b.classList.toggle('active', b === btn));
-      // Save to settings and restart current session
+      await saveSetting('difficultyFilter', difficulty);
       if (sessionSubject) {
-        await saveSetting('difficultyFilter', difficulty);
         await startPracticeSession(sessionSubject);
       }
     });
@@ -283,6 +282,9 @@ async function refreshUI() {
 
   // Render home mastery chart
   await renderHomeMasteryChart();
+
+  // Render 100-day progress card
+  await renderHundredDayCard();
 }
 
 // Start a new practice session
@@ -296,8 +298,8 @@ async function startPracticeSession(subject) {
     ? questions.filter(q => q.difficulty === settings.difficultyFilter)
     : questions;
 
-  // Shuffle and pick up to 10
-  const shuffled = filtered.sort(() => Math.random() - 0.5).slice(0, 10);
+  // Shuffle and pick up to dailyGoal from settings
+  const shuffled = filtered.sort(() => Math.random() - 0.5).slice(0, settings.dailyGoal || 10);
   sessionQuestions = shuffled;
   sessionIndex = 0;
   sessionScore = { correct: 0, wrong: 0 };
@@ -313,11 +315,17 @@ async function startPracticeSession(subject) {
 
 // Render the current question in the session
 function renderCurrentQuestion() {
+  // Remove previous keyboard listener
+  document.removeEventListener('keydown', handleQuestionKey);
+
   const container = document.getElementById('question-container');
   if (!container || sessionIndex >= sessionQuestions.length) {
     renderSessionResult();
     return;
   }
+
+  // Add keyboard shortcut listener
+  document.addEventListener('keydown', handleQuestionKey);
 
   const q = sessionQuestions[sessionIndex];
   const total = sessionQuestions.length;
@@ -331,6 +339,7 @@ function renderCurrentQuestion() {
         <span class="red">✗${sessionScore.wrong}</span>
       </span>
     </div>
+    ${q.type === 'choice' ? '<div class="keyboard-hint"><span class="key-hint-item"><span class="key-cap">1-4</span> 选</span><span class="key-hint-item"><span class="key-cap">空格</span> 下一题</span></div>' : ''}
     <div class="question">
       <p class="question-type">${getQuestionTypeName(q.type)} · ${getDifficultyName(q.difficulty)}</p>
       <p class="question-text">${q.question}</p>
@@ -520,6 +529,37 @@ async function processAnswer(q, userAnswer, isCorrect, onFeedback) {
   container.appendChild(nextBtn);
 }
 
+// Keyboard shortcut handler
+function handleQuestionKey(e) {
+  // Only handle when practice view is active
+  if (currentView !== 'practice') return;
+  const container = document.getElementById('question-container');
+  if (!container) return;
+
+  const q = sessionQuestions[sessionIndex];
+  if (!q) return;
+
+  if (q.type === 'choice' && q.options) {
+    // 1-4 keys select option
+    const keyMap = { '1': 0, '2': 1, '3': 2, '4': 3 };
+    if (e.key in keyMap) {
+      const idx = keyMap[e.key];
+      const btns = container.querySelectorAll('.option-btn');
+      if (btns[idx] && !btns[idx].disabled) {
+        handleAnswer(btns[idx], q);
+      }
+      return;
+    }
+  }
+
+  // Space or ArrowRight -> next (if answered)
+  if (e.key === ' ' || e.key === 'ArrowRight') {
+    e.preventDefault();
+    const nextBtn = container.querySelector('.primary-btn');
+    if (nextBtn) nextBtn.click();
+  }
+}
+
 // Show session result
 function renderSessionResult() {
   const container = document.getElementById('question-container');
@@ -535,15 +575,27 @@ function renderSessionResult() {
   container.innerHTML = `
     <div class="result-box">
       <p class="result-emoji">${emoji}</p>
-      <p class="result-msg">${msg}</p>
-      <p class="result-score">
-        <span class="green">✓ ${correct}</span> /
-        <span class="red">✗ ${wrong}</span>
-      </p>
-      <p class="result-pct">正确率 ${pct}%</p>
+      <p class="result-summary">${msg}</p>
+      <div class="result-stats-row">
+        <div class="result-stat">
+          <span class="result-stat-num green">${correct}</span>
+          <span class="result-stat-label">答对</span>
+        </div>
+        <div class="result-stat">
+          <span class="result-stat-num red">${wrong}</span>
+          <span class="result-stat-label">答错</span>
+        </div>
+        <div class="result-stat">
+          <span class="result-stat-num">${pct}%</span>
+          <span class="result-stat-label">正确率</span>
+        </div>
+      </div>
     </div>
     <button class="primary-btn" id="rerun-btn">再练一次</button>
   `;
+
+  // Remove keyboard listener
+  document.removeEventListener('keydown', handleQuestionKey);
 
   document.getElementById('rerun-btn').addEventListener('click', () => {
     startPracticeSession(sessionSubject);
@@ -774,6 +826,70 @@ function drawLineChart(canvas, series, color) {
     ctx.fillStyle = color;
     ctx.fill();
   });
+}
+
+// ==================== 100-Day Progress Card ====================
+
+async function renderHundredDayCard() {
+  const history = await getCheckinHistory();
+  const meta = await getCheckinMeta();
+  const today = new Date().toISOString().split('T')[0];
+  const checkedCount = Object.keys(history).length;
+
+  // Streak
+  const streak = await getCheckinStreak();
+  const streakEl = document.getElementById('streak-count');
+  const streakSubEl = document.getElementById('streak-sub');
+  if (streakEl) streakEl.textContent = streak;
+  if (streakSubEl) {
+    if (checkedCount === 0) {
+      streakSubEl.textContent = '开始你的百日计划';
+    } else if (history[today]) {
+      streakSubEl.textContent = '今日已打卡 ✓';
+    } else {
+      streakSubEl.textContent = '今日还未打卡';
+    }
+  }
+
+  // Hundred day card
+  const countEl = document.getElementById('hundred-checked');
+  const barFill = document.getElementById('hundred-bar-fill');
+  const todayMarker = document.getElementById('hundred-today-marker');
+  const dotsContainer = document.getElementById('hundred-day-dots');
+
+  if (countEl) countEl.innerHTML = `${checkedCount}<span class="hundred-day-total">/100</span>`;
+
+  if (checkedCount > 0 && meta.firstCheckinDate) {
+    const firstDate = new Date(meta.firstCheckinDate);
+    const todayDate = new Date(today);
+    const totalDays = Math.floor((todayDate - firstDate) / (1000 * 60 * 60 * 24)) + 1;
+    const pct = Math.min((checkedCount / 100) * 100, 100);
+
+    if (barFill) barFill.style.width = pct + '%';
+    if (todayMarker) {
+      // Position today marker at today's position relative to totalDays elapsed
+      const todayOffset = Math.min((totalDays / 100) * 100, 100);
+      todayMarker.style.left = todayOffset + '%';
+      todayMarker.style.display = history[today] ? 'none' : 'block';
+    }
+
+    // Dots: show up to 100
+    if (dotsContainer) {
+      dotsContainer.innerHTML = '';
+      // Show last 30 days as dots for space
+      const sortedDates = Object.keys(history).sort();
+      const recentDates = sortedDates.slice(-30);
+      for (const d of recentDates) {
+        const dot = document.createElement('div');
+        dot.className = 'hundred-dot' + (d === today ? ' today' : ' checked');
+        dotsContainer.appendChild(dot);
+      }
+    }
+  } else {
+    if (barFill) barFill.style.width = '0%';
+    if (todayMarker) todayMarker.style.display = 'none';
+    if (dotsContainer) dotsContainer.innerHTML = '';
+  }
 }
 
 // ==================== Home Mastery Chart (Multi-Subject) ====================

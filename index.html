@@ -19,30 +19,48 @@
         <h1>百日闯</h1>
         <span class="subtitle">初二</span>
       </div>
-      <button class="header-settings-btn" id="header-settings-btn" data-route="#/settings">⚙️</button>
+      <div class="header-right">
+        <button class="header-settings-btn" id="header-settings-btn">⚙️</button>
+      </div>
     </header>
 
     <main>
-
       <!-- ===== HOME VIEW ===== -->
       <section id="home-view" class="view active">
-        <!-- Streak Banner -->
-        <div class="streak-info" id="streak-info">
-          <span class="streak-label">连续打卡</span>
-          <span class="streak-count" id="streak-count">0</span>
-          <span class="streak-unit">天</span>
+        <!-- Streak Banner + 100-day Progress -->
+        <div class="home-top-row">
+          <div class="streak-info">
+            <div class="streak-main">
+              <span class="streak-count" id="streak-count">0</span>
+              <span class="streak-unit">天连续</span>
+            </div>
+            <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
+          </div>
+          <div class="hundred-day-card">
+            <div class="hundred-day-header">
+              <span class="hundred-day-label">百日计划</span>
+              <span class="hundred-day-count" id="hundred-checked">0<span class="hundred-day-total">/100</span></span>
+            </div>
+            <div class="hundred-bar">
+              <div class="hundred-bar-fill" id="hundred-bar-fill" style="width:0%"></div>
+              <div class="hundred-bar-today-marker" id="hundred-today-marker" style="left:0%"></div>
+            </div>
+            <div class="hundred-day-dots" id="hundred-day-dots"></div>
+          </div>
         </div>
 
         <!-- Today Stats Row -->
         <div class="today-stats-row">
           <div class="mini-stat">
-            <span id="today-checkin-dot" class="checkin-dot unchecked">●</span>
+            <span id="today-checkin-dot" class="checkin-dot unchecked">○</span>
             <span id="today-checkin-text">未打卡</span>
           </div>
+          <div class="stat-divider"></div>
           <div class="mini-stat">
             <span class="mini-num" id="today-practice-count">0</span>
             <span class="mini-label">已练</span>
           </div>
+          <div class="stat-divider"></div>
           <div class="mini-stat">
             <span class="mini-num" id="today-accuracy">--%</span>
             <span class="mini-label">正确率</span>
@@ -66,7 +84,7 @@
             <span class="home-chart-title">各科掌握趋势</span>
             <span class="home-chart-hint" id="home-chart-hint">开始练习后显示</span>
           </div>
-          <canvas id="home-mastery-canvas" style="width:100%;display:block"></canvas>
+          <canvas id="home-mastery-canvas"></canvas>
           <div class="home-chart-legend" id="home-chart-legend"></div>
         </div>
 
@@ -83,11 +101,10 @@
         <!-- Bottom Menu -->
         <div class="home-menu">
           <button class="home-menu-btn" data-route="#/wrong">
-            📕 错题集
-            <span class="badge" id="wrong-badge" style="display:none">0</span>
+            📕 错题集 <span class="badge" id="wrong-badge" style="display:none">0</span>
           </button>
           <button class="home-menu-btn" data-route="#/progress">
-            📊 打卡记录
+            📊 记录
           </button>
           <button class="home-menu-btn" id="feedback-btn">
             💬 反馈
@@ -179,7 +196,6 @@
           <p class="placeholder">加载中...</p>
         </div>
       </section>
-
     </main>
 
     <footer>
@@ -187,15 +203,13 @@
     </footer>
   </div>
 
-  <!-- ===== FLOATING MODALS (top-center) ===== -->
-  <!-- PWA Install Banner -->
+  <!-- ===== FLOATING MODALS ===== -->
   <div id="pwa-install-banner" class="float-card" style="display:none;top:12px">
     <span>安装百日闯到桌面</span>
     <button class="pwa-install-btn" id="pwa-install-btn">安装</button>
     <button class="float-close" onclick="dismissPwaBanner()">×</button>
   </div>
 
-  <!-- Checkin Success Modal -->
   <div id="checkin-modal" class="modal-overlay" style="display:none">
     <div class="modal-card float-card" style="top:20px">
       <div class="modal-emoji">🎉</div>
@@ -218,10 +232,8 @@
     </div>
   </div>
 
-  <!-- Toast -->
   <div id="toast" class="toast" style="display:none"></div>
 
-  <!-- Feedback Modal -->
   <div id="feedback-modal" class="modal-overlay" style="display:none">
     <div class="modal-card float-card" style="top:20px;max-width:380px">
       <button class="float-close" id="feedback-close" style="position:absolute;top:10px;right:12px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:#999">×</button>

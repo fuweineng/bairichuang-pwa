@@ -90,36 +90,132 @@ main {
 .view.active { display: flex; }
 
 /* ==================== HOME ==================== */
+.home-top-row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
 .streak-info {
+  flex: 0 0 auto;
   background: linear-gradient(135deg, #4CAF50, #66BB6A);
   color: white;
   border-radius: 14px;
-  padding: 16px 20px;
+  padding: 12px 16px;
   display: flex;
-  align-items: center;
-  gap: 12px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  min-width: 88px;
 }
 
-.streak-label {
-  font-size: 0.8rem;
-  opacity: 0.85;
+.streak-main {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
 }
 
 .streak-count {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 800;
   line-height: 1;
 }
 
 .streak-unit {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   opacity: 0.85;
 }
 
+.streak-sub {
+  font-size: 0.7rem;
+  opacity: 0.75;
+}
+
+/* 100-day card */
+.hundred-day-card {
+  flex: 1;
+  background: white;
+  border-radius: 14px;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hundred-day-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hundred-day-label {
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.hundred-day-count {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #4CAF50;
+}
+
+.hundred-day-total {
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: #aaa;
+}
+
+.hundred-bar {
+  position: relative;
+  height: 6px;
+  background: #eee;
+  border-radius: 3px;
+  overflow: visible;
+}
+
+.hundred-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #81C784, #4CAF50);
+  border-radius: 3px;
+  transition: width 0.6s ease;
+  max-width: 100%;
+}
+
+.hundred-bar-today-marker {
+  position: absolute;
+  top: -3px;
+  width: 3px;
+  height: 12px;
+  background: #FF9800;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  transition: left 0.6s ease;
+}
+
+.hundred-day-dots {
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+
+.hundred-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #eee;
+  flex-shrink: 0;
+}
+
+.hundred-dot.checked { background: #4CAF50; }
+.hundred-dot.today { background: #FF9800; box-shadow: 0 0 0 2px rgba(255,152,0,0.3); }
+.hundred-dot.future { background: #eee; }
+
+/* Stats row */
 .today-stats-row {
   background: white;
   border-radius: 12px;
-  padding: 12px 16px;
+  padding: 10px 14px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -130,6 +226,14 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 2px;
+  flex: 1;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 28px;
+  background: #eee;
+  flex-shrink: 0;
 }
 
 .checkin-dot {
@@ -140,18 +244,18 @@ main {
 .checkin-dot.unchecked { color: #ccc; }
 
 #today-checkin-text {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: #666;
 }
 
 .mini-num {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #4CAF50;
 }
 
 .mini-label {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   color: #999;
 }
 
@@ -243,7 +347,82 @@ main {
   flex-shrink: 0;
 }
 
-/* Quick Actions */
+/* Session result */
+.result-box {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.result-emoji {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.result-summary {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.result-breakdown {
+  font-size: 0.82rem;
+  color: #999;
+  margin-bottom: 14px;
+}
+
+.result-stats-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 14px;
+}
+
+.result-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.result-stat-num {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.result-stat-label {
+  font-size: 0.7rem;
+  color: #999;
+}
+
+/* Keyboard hint */
+.keyboard-hint {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 6px 0;
+  font-size: 0.68rem;
+  color: #bbb;
+  align-items: center;
+}
+
+.key-hint-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.key-cap {
+  display: inline-block;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.65rem;
+  color: #666;
+  font-family: monospace;
+}
+
+
 .home-actions {
   display: flex;
   gap: 8px;

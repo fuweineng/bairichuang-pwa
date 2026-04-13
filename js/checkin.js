@@ -2,20 +2,28 @@
 // Uses idb-keyval for IndexedDB storage
 
 const CHECKIN_HISTORY_KEY = 'checkin_history';
+const CHECKIN_META_KEY = 'checkin_meta';
 
 // Format: { 'YYYY-MM-DD': true }
 
 async function checkin() {
   const today = new Date().toISOString().split('T')[0];
   const history = await getCheckinHistory();
-  
+
   if (history[today]) {
     return { success: false, message: '今日已打卡', streak: await getCheckinStreak() };
   }
 
+  // Record first checkin date if this is the first ever checkin
+  if (Object.keys(history).length === 0) {
+    const meta = await get(CHECKIN_META_KEY) || {};
+    meta.firstCheckinDate = today;
+    await set(CHECKIN_META_KEY, meta);
+  }
+
   history[today] = true;
   await set(CHECKIN_HISTORY_KEY, history);
-  
+
   return { success: true, message: '打卡成功', streak: await getCheckinStreak() };
 }
 
@@ -58,9 +66,14 @@ async function getCheckinHistoryList() {
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 }
 
+async function getCheckinMeta() {
+  return await get(CHECKIN_META_KEY) || {};
+}
+
 export {
   checkin,
   getCheckinStreak,
   getCheckinHistory,
-  getCheckinHistoryList
+  getCheckinHistoryList,
+  getCheckinMeta
 };
