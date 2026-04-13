@@ -557,6 +557,8 @@ function speakQuestion() {
 
 function speakWithWebSpeech(q) {
   if (!('speechSynthesis' in window)) return;
+  speechSynthesis.cancel(); // stop any previous
+
   const lang = q.tts || 'en-US';
 
   let textToSpeak = q.question;
@@ -574,6 +576,17 @@ function speakWithWebSpeech(q) {
   utter.pitch = 1;
   utter.volume = 1;
 
+  // macOS Safari: wait for voices to be loaded, then pick best match
+  const trySpeak = (voices) => {
+    if (voices.length > 0) {
+      const match = voices.find(v => v.lang.startsWith(lang.split('-')[0])) ||
+                    voices.find(v => v.lang.startsWith('en')) ||
+                    voices[0];
+      utter.voice = match;
+    }
+    speechSynthesis.speak(utter);
+  };
+
   const grid = document.querySelector('.answer-grid');
   if (grid) grid.style.pointerEvents = 'none';
   const btn = document.getElementById('listen-btn');
@@ -589,7 +602,14 @@ function speakWithWebSpeech(q) {
   };
 
   state.ttsUtterance = utter;
-  speechSynthesis.speak(utter);
+
+  // Voices may not be loaded yet on macOS — getVoices returns [] synchronously
+  const voices = speechSynthesis.getVoices();
+  if (voices.length === 0 && speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = () => trySpeak(speechSynthesis.getVoices());
+  } else {
+    trySpeak(voices);
+  }
 }
 
 function renderQuestion() {
