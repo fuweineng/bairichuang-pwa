@@ -381,10 +381,10 @@ function speakQuestion() {
     currentAudio = null;
   }
 
-  // Try local audio file first
+  // Try local audio file first (from local server)
   const audioId = q.id.replace(/-/g, '_'); // english-026 → english_026
   const av = state.settings.audioVersion || Date.now();
-  const audioPath = `audio/${q.subject}/${audioId}.m4a?_=${av}`;
+  const audioPath = `http://192.168.100.10:8080/audio/${q.subject}/${audioId}.m4a?_=${av}`;
 
   const tryPlayLocal = () => {
     const audio = new Audio(audioPath);
