@@ -3611,5 +3611,8886 @@
     ],
     "answer": "生产者",
     "explanation": "生产者（绿色植物）位于食物链起点，数量最多。能量在食物链中逐级递减，所以消费者级别越高，数量越少。"
+  },
+  {
+    "id": "math-029",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "计算：|−3| = _____",
+    "options": null,
+    "answer": "3",
+    "explanation": "绝对值等于它的相反数，|-3|=3"
+  },
+  {
+    "id": "math-030",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点(−2,3)在第_____象限",
+    "options": null,
+    "answer": "二",
+    "explanation": "x负y正，第二象限"
+  },
+  {
+    "id": "math-031",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "化简：3a²b − 5a²b =",
+    "options": null,
+    "answer": "−2a²b",
+    "explanation": "合并同类项，系数相加减：3-5=-2"
+  },
+  {
+    "id": "math-032",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一元一次方程"
+    ],
+    "question": "方程 3(x−2)=12 的解是 x=_____",
+    "options": null,
+    "answer": "4",
+    "explanation": "3(x-2)=12 → x-2=4 → x=4"
+  },
+  {
+    "id": "math-033",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "(a²)³ = ",
+    "options": null,
+    "answer": "a⁶",
+    "explanation": "幂的乘方，指数相乘：2×3=6"
+  },
+  {
+    "id": "math-034",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "等腰三角形的顶角为50°，底角为_____",
+    "options": null,
+    "answer": "65°",
+    "explanation": "三角形内角和180°，两个底角相等：(180-50)/2=65°"
+  },
+  {
+    "id": "math-035",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "下列是有理数的是：",
+    "options": null,
+    "answer": "0.333...",
+    "explanation": "无限不循环小数为无理数，0.333...=1/3是有理数"
+  },
+  {
+    "id": "math-036",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "一次函数 y=2x−3，当 x=4 时，y=_____",
+    "options": null,
+    "answer": "5",
+    "explanation": "y=2×4-3=8-3=5"
+  },
+  {
+    "id": "math-037",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "√49 = _____",
+    "options": null,
+    "answer": "7",
+    "explanation": "7×7=49"
+  },
+  {
+    "id": "math-038",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "解方程组：3x+2y=7, x−y=4，x=_____",
+    "options": null,
+    "answer": "3",
+    "explanation": "由x-y=4得x=y+4，代入3(y+4)+2y=7→5y=-5→y=-1→x=3"
+  },
+  {
+    "id": "math-039",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "直角三角形两锐角和为_____",
+    "options": null,
+    "answer": "90°",
+    "explanation": "直角三角形内角和180°，减去直角90°"
+  },
+  {
+    "id": "math-040",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：2x·3x² = ",
+    "options": null,
+    "answer": "6x³",
+    "explanation": "单项式乘以单项式，系数相乘，同底数幂相加：2×3·x¹⁺²=6x³"
+  },
+  {
+    "id": "math-041",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "下列各式中，是最简二次根式的是：",
+    "options": null,
+    "answer": "√7",
+    "explanation": "√7不能再化简，是最简二次根式；√12=2√3，√18=3√2"
+  },
+  {
+    "id": "math-042",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "分式"
+    ],
+    "question": "分式 (x²−1)/(x−1) 化简为：",
+    "options": null,
+    "answer": "x+1",
+    "explanation": "x²-1=(x+1)(x-1)，约去(x-1)得x+1"
+  },
+  {
+    "id": "math-043",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算：10⁻² = ",
+    "options": null,
+    "answer": "0.01",
+    "explanation": "负整数指数：10的负二次方等于1/100=0.01"
+  },
+  {
+    "id": "math-044",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点P(−1,−2)到原点的距离是：",
+    "options": null,
+    "answer": "√5",
+    "explanation": "距离=√((-1)²+(-2)²)=√5"
+  },
+  {
+    "id": "math-045",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形的三条高交于一点，这一点叫三角形的_____",
+    "options": null,
+    "answer": "垂心",
+    "explanation": "三角形三条高交于垂心"
+  },
+  {
+    "id": "math-046",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "正比例函数 y=kx，当 x=3 时 y=6，k=_____",
+    "options": null,
+    "answer": "2",
+    "explanation": "6=k×3，k=2"
+  },
+  {
+    "id": "math-047",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "多项式 2x²−3x+1 是_____次多项式",
+    "options": null,
+    "answer": "二",
+    "explanation": "最高次数是2次"
+  },
+  {
+    "id": "math-048",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式 2x−1>5 的解集是：",
+    "options": null,
+    "answer": "x>3",
+    "explanation": "2x-1>5 → 2x>6 → x>3"
+  },
+  {
+    "id": "math-049",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "等边三角形每个内角的度数是_____",
+    "options": null,
+    "answer": "60°",
+    "explanation": "等边三角形三个角相等，180°/3=60°"
+  },
+  {
+    "id": "math-050",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "方程 x²=4 的解是：",
+    "options": null,
+    "answer": "x=2或x=-2",
+    "explanation": "直接开平方得x=±2"
+  },
+  {
+    "id": "math-051",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "0.0001 用科学记数法表示为：",
+    "options": null,
+    "answer": "10⁻⁴",
+    "explanation": "0.0001=1/10000=10⁻⁴"
+  },
+  {
+    "id": "math-052",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "已知点A(1,2)，B(3,2)，则AB=_____",
+    "options": null,
+    "answer": "2",
+    "explanation": "横坐标差=|1-3|=2，纵坐标相同"
+  },
+  {
+    "id": "math-053",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "在△ABC中，∠A=90°，∠B=35°，则∠C=_____",
+    "options": null,
+    "answer": "55°",
+    "explanation": "内角和180°，180-90-35=55°"
+  },
+  {
+    "id": "math-054",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "因式分解：x²−9 = ",
+    "options": null,
+    "answer": "(x+3)(x−3)",
+    "explanation": "平方差公式：a²-b²=(a+b)(a-b)"
+  },
+  {
+    "id": "math-055",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算：a⁵ ÷ a² = ",
+    "options": null,
+    "answer": "a³",
+    "explanation": "同底数幂相除，指数相减：5-2=3"
+  },
+  {
+    "id": "math-056",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "一次函数 y=−x+2 的斜率是：",
+    "options": null,
+    "answer": "−1",
+    "explanation": "斜率即x的系数，为-1"
+  },
+  {
+    "id": "math-057",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "数轴上的点与实数_____对应",
+    "options": null,
+    "answer": "一一",
+    "explanation": "数轴上的每个点唯一对应一个实数"
+  },
+  {
+    "id": "math-058",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "在△ABC中，AB=AC，则△ABC是_____三角形",
+    "options": null,
+    "answer": "等腰",
+    "explanation": "两边相等的三角形是等腰三角形"
+  },
+  {
+    "id": "math-059",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "若 2x=6，则 x=_____",
+    "options": null,
+    "answer": "3",
+    "explanation": "等式两边除以2：x=3"
+  },
+  {
+    "id": "math-060",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "分式"
+    ],
+    "question": "当 x=_____ 时，分式 1/(x−2) 无意义",
+    "options": null,
+    "answer": "2",
+    "explanation": "分母为零时分式无意义，x-2=0即x=2"
+  },
+  {
+    "id": "math-061",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "(−2)³ = ",
+    "options": null,
+    "answer": "−8",
+    "explanation": "(-2)×(-2)×(-2)=-8，负数的奇数次幂为负"
+  },
+  {
+    "id": "math-062",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一元一次方程"
+    ],
+    "question": "若方程 3x+5=0，则 x=_____",
+    "options": null,
+    "answer": "−5/3",
+    "explanation": "3x=-5，x=-5/3"
+  },
+  {
+    "id": "math-063",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形的外角和是_____",
+    "options": null,
+    "answer": "360°",
+    "explanation": "多边形外角和均为360°"
+  },
+  {
+    "id": "math-064",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：x²+5x+6 = ",
+    "options": null,
+    "answer": "(x+2)(x+3)",
+    "explanation": "十字相乘法：常数项6=2×3，一次项系数5=2+3"
+  },
+  {
+    "id": "math-065",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "1ⁿ = _____ (n为任意整数)",
+    "options": null,
+    "answer": "1",
+    "explanation": "1的任何次幂都等于1"
+  },
+  {
+    "id": "math-066",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点(0,−3)在_____上",
+    "options": null,
+    "answer": "y轴",
+    "explanation": "x=0时点在y轴上"
+  },
+  {
+    "id": "math-067",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "直角三角形斜边上的中线等于斜边的_____",
+    "options": null,
+    "answer": "一半",
+    "explanation": "直角三角形斜边上的中线等于斜边的一半"
+  },
+  {
+    "id": "math-068",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式 −2x<4 的解集是：",
+    "options": null,
+    "answer": "x>−2",
+    "explanation": "两边除以-2（负数变号）：x>-2"
+  },
+  {
+    "id": "math-069",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "多项式 3x²y−2xy² 是_____项式",
+    "options": null,
+    "answer": "二",
+    "explanation": "有两项，是二项式"
+  },
+  {
+    "id": "math-070",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "函数 y=3−2x，当 x 增大时，y_____",
+    "options": null,
+    "answer": "减小",
+    "explanation": "k=-2<0，y随x增大而减小"
+  },
+  {
+    "id": "math-071",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "π 是_____数",
+    "options": null,
+    "answer": "无理",
+    "explanation": "π是无限不循环小数，属于无理数"
+  },
+  {
+    "id": "math-072",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "若 x+y=5 且 x−y=1，则 x=_____",
+    "options": null,
+    "answer": "3",
+    "explanation": "两式相加：2x=6，x=3"
+  },
+  {
+    "id": "math-073",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形任意两边之和_____第三边",
+    "options": null,
+    "answer": "大于",
+    "explanation": "三角形两边之和大于第三边"
+  },
+  {
+    "id": "math-074",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：(−a³)² = ",
+    "options": null,
+    "answer": "a⁶",
+    "explanation": "积的乘方：(-1)²·(a³)²=a⁶"
+  },
+  {
+    "id": "math-075",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "a⁰ = _____ (a≠0)",
+    "options": null,
+    "answer": "1",
+    "explanation": "任何非零实数的零次幂等于1"
+  },
+  {
+    "id": "math-076",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：2x²−8 = ",
+    "options": null,
+    "answer": "2(x+2)(x−2)",
+    "explanation": "先提公因式2，再用平方差公式"
+  },
+  {
+    "id": "math-077",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "有一个角是60°的等腰三角形是_____三角形",
+    "options": null,
+    "answer": "等边",
+    "explanation": "等腰三角形的一个角为60°时，三个角都是60°"
+  },
+  {
+    "id": "math-078",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点P(3,−4)关于x轴对称的点坐标是：",
+    "options": null,
+    "answer": "(3,4)",
+    "explanation": "关于x轴对称：x不变，y变为相反数"
+  },
+  {
+    "id": "english-026",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-从句"
+    ],
+    "question": "I think _____ he is a good student.",
+    "options": [
+      "that",
+      "if",
+      "whether",
+      "because"
+    ],
+    "answer": "that",
+    "explanation": "think/know/believe等动词后的宾语从句用that引导"
+  },
+  {
+    "id": "english-027",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "She looks _____. What happened?",
+    "options": [
+      "sad",
+      "upset",
+      "tired",
+      "angry"
+    ],
+    "answer": "upset",
+    "explanation": "看起来很沮丧，upset表示难过的情绪"
+  },
+  {
+    "id": "english-028",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-非谓语"
+    ],
+    "question": "_____ the work, he went home.",
+    "options": [
+      "Finished",
+      "Having finished",
+      "Finishing",
+      "To finish"
+    ],
+    "answer": "Having finished",
+    "explanation": "having done 表示动作在谓语之前发生，是完成式分词作状语"
+  },
+  {
+    "id": "english-029",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "Don't rely _____ him. He is not reliable.",
+    "options": [
+      "in",
+      "to",
+      "on",
+      "at"
+    ],
+    "answer": "on",
+    "explanation": "rely on 是固定搭配，意为依赖"
+  },
+  {
+    "id": "english-030",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-比较级"
+    ],
+    "question": "The book is _____ of the three.",
+    "options": [
+      "interesting",
+      "more interesting",
+      "the most interesting",
+      "most interesting"
+    ],
+    "answer": "the most interesting",
+    "explanation": "三者比较用最高级，most+多音节形容词，最高级前加the"
+  },
+  {
+    "id": "english-031",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇拼写"
+    ],
+    "question": "My sister can speak English _____ (fluent).",
+    "answer": "fluently",
+    "explanation": "-ly后缀，副词修饰动词speak"
+  },
+  {
+    "id": "english-032",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-介词"
+    ],
+    "question": "The teacher is strict _____ us.",
+    "options": [
+      "in",
+      "to",
+      "with",
+      "for"
+    ],
+    "answer": "with",
+    "explanation": "be strict with sb. 对某人严格要求"
+  },
+  {
+    "id": "english-033",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "There is a _____ tree in front of our house.",
+    "options": [
+      "high",
+      "tall",
+      "big",
+      "long"
+    ],
+    "answer": "tall",
+    "explanation": "描述人和树的高度用tall，描述建筑物/山用high"
+  },
+  {
+    "id": "english-034",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-倒装"
+    ],
+    "question": "Never _____ such a strange thing.",
+    "options": [
+      "I have seen",
+      "have I seen",
+      "I saw",
+      "did I see"
+    ],
+    "answer": "have I seen",
+    "explanation": "never放句首用部分倒装，即助动词/be动词/情态动词提到主语前"
+  },
+  {
+    "id": "english-035",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-反意疑问句"
+    ],
+    "question": "Your father is a doctor, _____?",
+    "options": [
+      "isn't father",
+      "isn't your father",
+      "isn't he",
+      "is he"
+    ],
+    "answer": "isn't he",
+    "explanation": "反意疑问句，主语用人称代词Your father→he，否定式isn't he"
+  },
+  {
+    "id": "english-036",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-状语从句"
+    ],
+    "question": "I will call you _____ I arrive.",
+    "options": [
+      "when",
+      "as soon as",
+      "after",
+      "before"
+    ],
+    "answer": "as soon as",
+    "explanation": "as soon as 一...就...，强调即时性，主句用将来时从句用现在时"
+  },
+  {
+    "id": "english-037",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "She is fond _____ music.",
+    "options": [
+      "of",
+      "in",
+      "on",
+      "at"
+    ],
+    "answer": "of",
+    "explanation": "be fond of 喜欢...，固定搭配"
+  },
+  {
+    "id": "english-038",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-虚拟语气"
+    ],
+    "question": "If I _____ you, I would take this job.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "is"
+    ],
+    "answer": "were",
+    "explanation": "与现在事实相反的虚拟条件句，从句用were（不管主语是谁都用were）"
+  },
+  {
+    "id": "english-039",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "The baby is sleeping. Please keep the noise _____?",
+    "options": [
+      "up",
+      "down",
+      "off",
+      "out"
+    ],
+    "answer": "down",
+    "explanation": "keep down 压低声音，keep up 保持，keep off 避开，keep out 挡在外面"
+  },
+  {
+    "id": "english-040",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-定语从句"
+    ],
+    "question": "The man _____ helped us is my uncle.",
+    "options": [
+      "which",
+      "who",
+      "that",
+      "whom"
+    ],
+    "answer": "who",
+    "explanation": "指人，在定语从句中who可以作主语或宾语"
+  },
+  {
+    "id": "english-041",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-不定式"
+    ],
+    "question": "It is important _____ (learn) English well.",
+    "answer": "to learn",
+    "explanation": "不定式作主语，It is + adj. + to do sth."
+  },
+  {
+    "id": "english-042",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "The _____ of the mountain is covered with snow.",
+    "options": [
+      "bottom",
+      "top",
+      "foot",
+      "side"
+    ],
+    "answer": "top",
+    "explanation": "top of mountain 山顶，bottom 山底，foot 山脚"
+  },
+  {
+    "id": "english-043",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-现在进行时"
+    ],
+    "question": "Look! The boys _____ football on the playground.",
+    "options": [
+      "play",
+      "are playing",
+      "played",
+      "have played"
+    ],
+    "answer": "are playing",
+    "explanation": "Look! 提示现在进行时 be+v-ing"
+  },
+  {
+    "id": "english-044",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-被动语态"
+    ],
+    "question": "The bridge _____ last year.",
+    "options": [
+      "built",
+      "was built",
+      "is built",
+      "were built"
+    ],
+    "answer": "was built",
+    "explanation": "一般过去时的被动语态：be动词(过去式)+过去分词"
+  },
+  {
+    "id": "english-045",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-不规则复数"
+    ],
+    "question": "Each of us has two _____ (child).",
+    "options": [
+      "childs",
+      "childrens",
+      "children",
+      "childes"
+    ],
+    "answer": "children",
+    "explanation": "child的复数是不规则变化children"
+  },
+  {
+    "id": "english-046",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-名词性从句"
+    ],
+    "question": "_____ we will go camping depends on the weather.",
+    "options": [
+      "If",
+      "Whether",
+      "That",
+      "What"
+    ],
+    "answer": "Whether",
+    "explanation": "主语从句用whether不用if（句首if不能引导主语从句）"
+  },
+  {
+    "id": "english-047",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "Please turn _____ the lights when you leave.",
+    "options": [
+      "on",
+      "off",
+      "up",
+      "down"
+    ],
+    "answer": "off",
+    "explanation": "turn off 关掉，turn on 打开，turn up 调大，turn down 调小"
+  },
+  {
+    "id": "english-048",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-情态动词"
+    ],
+    "question": "You _____ have seen the movie. It is very popular.",
+    "options": [
+      "can",
+      "must",
+      "need",
+      "may"
+    ],
+    "answer": "must",
+    "explanation": "must have done 表示对过去事实的肯定推测，你一定看过"
+  },
+  {
+    "id": "english-049",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-现在进行时"
+    ],
+    "question": "The children are _____ (play) in the garden now.",
+    "answer": "playing",
+    "explanation": "现在进行时 be+v-ing，now是标志词"
+  },
+  {
+    "id": "english-050",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "I agree _____ you. You are right.",
+    "options": [
+      "with",
+      "to",
+      "on",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "agree with sb. 同意某人的观点，agree to a plan/idea"
+  },
+  {
+    "id": "english-051",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "My mother does the _____ every day.",
+    "options": [
+      "homework",
+      "housework",
+      "job",
+      "work"
+    ],
+    "answer": "housework",
+    "explanation": "housework 家务（不可数），homework 作业（不可数），job 工作（可数）"
+  },
+  {
+    "id": "english-052",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-定语从句"
+    ],
+    "question": "Is this the factory _____ you visited last week?",
+    "options": [
+      "where",
+      "that",
+      "which",
+      "who"
+    ],
+    "answer": "that",
+    "explanation": "先行词是物（factory），在定语从句中作visited的宾语，可以省略或用that/which"
+  },
+  {
+    "id": "english-053",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-比较级"
+    ],
+    "question": "The weather is _____ today than yesterday.",
+    "options": [
+      "cold",
+      "colder",
+      "coldest",
+      "most cold"
+    ],
+    "answer": "colder",
+    "explanation": "than 提示用比较级，cold→colder（单音节词加-er）"
+  },
+  {
+    "id": "english-054",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-祈使句"
+    ],
+    "question": "_____ cross the street when the traffic is busy.",
+    "options": [
+      "Not",
+      "Don't",
+      "No",
+      "Never do"
+    ],
+    "answer": "Don't",
+    "explanation": "否定祈使句用Don't+动词原形，Not cross the street is wrong"
+  },
+  {
+    "id": "english-055",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "She took the medicine but it didn't have any _____ on her.",
+    "options": [
+      "affect",
+      "effect",
+      "effort",
+      "offer"
+    ],
+    "answer": "effect",
+    "explanation": "have an effect on 对...有效果，affect是动词，effort 努力"
+  },
+  {
+    "id": "english-056",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-条件状语从句"
+    ],
+    "question": "If it _____ (rain) tomorrow, we will stay at home.",
+    "answer": "rains",
+    "explanation": "真实条件句，主将从现，主句will do，从句用一般现在时"
+  },
+  {
+    "id": "english-057",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-让步状语从句"
+    ],
+    "question": "_____ busy she is, she never gives up learning.",
+    "options": [
+      "Whatever",
+      "However",
+      "Whenever",
+      "Wherever"
+    ],
+    "answer": "However",
+    "explanation": "however+形容词/副词+主语+谓语，表示让步，意为无论多么"
+  },
+  {
+    "id": "english-058",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "This question is very _____ to understand.",
+    "options": [
+      "easy",
+      "easily",
+      "ease",
+      "easier"
+    ],
+    "answer": "easy",
+    "explanation": "be + adj. + to do sth.，to后用动词原形，easy是形容词作表语"
+  },
+  {
+    "id": "english-059",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "He succeeded _____ passing the exam.",
+    "options": [
+      "in",
+      "to",
+      "on",
+      "with"
+    ],
+    "answer": "in",
+    "explanation": "succeed in doing sth. 成功做某事，in是介词后面跟v-ing"
+  },
+  {
+    "id": "english-060",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "I am looking forward to _____ you again.",
+    "options": [
+      "see",
+      "to see",
+      "seeing",
+      "seen"
+    ],
+    "answer": "seeing",
+    "explanation": "look forward to doing sth.，to是介词，后跟v-ing"
+  },
+  {
+    "id": "english-061",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-状语从句"
+    ],
+    "question": "He needs to prepare well _____ he wants to give a speech.",
+    "options": [
+      "because",
+      "if",
+      "unless",
+      "when"
+    ],
+    "answer": "unless",
+    "explanation": "unless = if not，除非他想演讲否则不需要准备，符合句意"
+  },
+  {
+    "id": "english-062",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-序数词"
+    ],
+    "question": "The old man lives on the _____ floor.",
+    "options": [
+      "three",
+      "third",
+      "thried",
+      "threeth"
+    ],
+    "answer": "third",
+    "explanation": "序数词表示顺序，第三层是the third floor，前面加the"
+  },
+  {
+    "id": "english-063",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-过去完成时"
+    ],
+    "question": "By the time I got home, my mother _____ dinner.",
+    "options": [
+      "cooked",
+      "has cooked",
+      "had cooked",
+      "was cooking"
+    ],
+    "answer": "had cooked",
+    "explanation": "by+过去时间，主句用过去完成时had+过去分词，表示动作在过去某时已完成"
+  },
+  {
+    "id": "english-064",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-状语从句"
+    ],
+    "question": "I will contact you as soon as I _____ (arrive).",
+    "answer": "arrive",
+    "explanation": "主将从现，as soon as引导时间状语从句，用一般现在时表将来"
+  },
+  {
+    "id": "english-065",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-定语从句"
+    ],
+    "question": "This is the best film _____ has ever been made.",
+    "options": [
+      "which",
+      "that",
+      "what",
+      "where"
+    ],
+    "answer": "that",
+    "explanation": "最高级修饰名词时，定语从句用that引导，不用which"
+  },
+  {
+    "id": "english-066",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-定语从句"
+    ],
+    "question": "A sheep is an animal _____ gives us wool.",
+    "options": [
+      "what",
+      "who",
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "explanation": "定语从句修饰animal，指物用that/which，在从句中作主语"
+  },
+  {
+    "id": "english-067",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "He is good at _____ (swim).",
+    "options": [
+      "swim",
+      "swimming",
+      "to swim",
+      "swimms"
+    ],
+    "answer": "swimming",
+    "explanation": "be good at doing sth.，at是介词，后跟v-ing"
+  },
+  {
+    "id": "english-068",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-代词"
+    ],
+    "question": "_____ of the two books is interesting.",
+    "options": [
+      "Both",
+      "Neither",
+      "Either",
+      "None"
+    ],
+    "answer": "Either",
+    "explanation": "either of the two 两者之一，both两者都，neither两者都不，none三者都不"
+  },
+  {
+    "id": "english-069",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-被动语态"
+    ],
+    "question": "The work should _____ by the end of this week.",
+    "options": [
+      "finish",
+      "be finished",
+      "finished",
+      "finishing"
+    ],
+    "answer": "be finished",
+    "explanation": "should是情态动词，被动语态 should be+过去分词"
+  },
+  {
+    "id": "english-070",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-形容词"
+    ],
+    "question": "Last night we had a _____ meal.",
+    "options": [
+      "wonderful",
+      "wonderfully",
+      "wonder",
+      "wondered"
+    ],
+    "answer": "wonderful",
+    "explanation": "形容词修饰名词meal，wonderful是形容词，wonderfully是副词"
+  },
+  {
+    "id": "english-071",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-情态动词"
+    ],
+    "question": "You _____ be tired after such a long walk.",
+    "options": [
+      "can",
+      "must",
+      "should",
+      "could"
+    ],
+    "answer": "must",
+    "explanation": "must be tired 表示肯定推测，你一定累了，should be tired 表示应该累了"
+  },
+  {
+    "id": "english-072",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-介词"
+    ],
+    "question": "In the morning, I usually drink a cup of tea.",
+    "options": [
+      "On",
+      "In",
+      "At",
+      "For"
+    ],
+    "answer": "In",
+    "explanation": "在早晨/下午/晚上用in，in the morning/afternoon/evening"
+  },
+  {
+    "id": "english-073",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-不可数名词"
+    ],
+    "question": "I don't have _____ money. Can you lend me some?",
+    "options": [
+      "many",
+      "much",
+      "a lot",
+      "several"
+    ],
+    "answer": "much",
+    "explanation": "money是不可数名词，用much或a lot of修饰，many修饰可数名词复数"
+  },
+  {
+    "id": "english-074",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-并列句"
+    ],
+    "question": "He is very tall, _____ his brother is very short.",
+    "options": [
+      "and",
+      "but",
+      "or",
+      "so"
+    ],
+    "answer": "but",
+    "explanation": "前后转折，but表示对比，and表示并列，or表示选择，so表示结果"
+  },
+  {
+    "id": "english-075",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-序数词"
+    ],
+    "question": "She is the _____ in her class.",
+    "options": [
+      "one",
+      "first",
+      "two",
+      "second"
+    ],
+    "answer": "first",
+    "explanation": "first place 第一名，序数词前加the"
+  },
+  {
+    "id": "chinese-026",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "加点字读音相同的一项是：",
+    "options": [
+      "千载(zai)/记载(zai)",
+      "兴(xing)奋/兴(xing)旺",
+      "缝(feng)补/缝隙(xi)",
+      "尽头(jin)/尽职(jin)"
+    ],
+    "answer": "千载(zai)/记载(zai)",
+    "explanation": "千载和记载都读zai"
+  },
+  {
+    "id": "chinese-027",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "下列句子有语病的是：",
+    "options": [
+      "通过这次活动，我学到了很多知识。",
+      "我们要继承和发扬勤俭节约的优良传统。",
+      "他多么平凡，像草一样。",
+      "我多么希望早点见到我的妈妈啊！"
+    ],
+    "answer": "我多么希望早点见到我的妈妈啊！",
+    "explanation": "多么和希望搭配不当，应为多么希望表达愿望而非感叹程度"
+  },
+  {
+    "id": "chinese-028",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "下列词语中加点字解释正确的是：",
+    "options": [
+      "喜出望外(盼望)",
+      "不计其数(计算)",
+      "完璧归赵(完整的)",
+      "抑扬顿挫(挫败)"
+    ],
+    "answer": "喜出望外(盼望)",
+    "explanation": "喜出望外：意料之外的喜悦，含有盼望、期待的意思"
+  },
+  {
+    "id": "chinese-029",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "春风得意，_____。",
+    "answer": "骏马奔驰",
+    "explanation": "出自孟郊《登科后》，全诗：昔日龌龊不足夸，今朝放荡思无涯。春风得意马蹄疾，一日看尽长安花。"
+  },
+  {
+    "id": "chinese-030",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语书写完全正确的是：",
+    "options": [
+      "谈笑风声 走投无路",
+      "再接再厉 守株待兔",
+      "精兵简政 汗流浃背",
+      "直接了当 变本加厉"
+    ],
+    "answer": "精兵简政 汗流浃背",
+    "explanation": "谈笑风声应为生，走投无路应为投，直接了当应为截，变本加厉应为厉"
+  },
+  {
+    "id": "chinese-031",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "下列古诗句中使用了比喻修辞的是：",
+    "options": [
+      "飞流直下三千尺，疑是银河落九天。",
+      "不知细叶谁裁出，二月春风似剪刀。",
+      "举头望明月，低头思故乡。",
+      "海内存知己，天涯若比邻。"
+    ],
+    "answer": "不知细叶谁裁出，二月春风似剪刀。",
+    "explanation": "把春风比作剪刀，是比喻修辞中的明喻"
+  },
+  {
+    "id": "chinese-032",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列句子中顿号使用正确的是：",
+    "options": [
+      "我喜爱足球、篮球、乒乓球、羽毛球、等体育运动。",
+      "我们的父母、老师、同学，都关心我们的成长。",
+      "今天，明天、后天都有空。",
+      "她买了水果、苹果、和葡萄。"
+    ],
+    "answer": "我们的父母、老师、同学，都关心我们的成长。",
+    "explanation": "并列词语之间用顿号，但A等前不加顿号；C层次混乱；D连续停顿用顿号而非和"
+  },
+  {
+    "id": "chinese-033",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "下列作者与作品对应有误的是：",
+    "options": [
+      "老舍——《骆驼祥子》",
+      "朱自清——《春》",
+      "鲁迅——《藤野先生》",
+      "冰心——《繁星·春水》"
+    ],
+    "answer": "鲁迅——《藤野先生》",
+    "explanation": "《藤野先生》选自鲁迅的《朝花夕拾》，藤野先生是日本人，但作品是正确的"
+  },
+  {
+    "id": "chinese-034",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "依次填入横线正确的一项是：他_____跑得真快，_____像一阵风。",
+    "options": [
+      "这么...这",
+      "简直...简直",
+      "真...这",
+      "简直...这"
+    ],
+    "answer": "简直...简直",
+    "explanation": "简直表示完全如此，语气强烈，后一分句像一阵风是比喻"
+  },
+  {
+    "id": "chinese-035",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "会当凌绝顶，_____。",
+    "answer": "一览众山小",
+    "explanation": "出自杜甫《望岳》：荡胸生层云，决眦入归鸟。会当凌绝顶，一览众山小。"
+  },
+  {
+    "id": "chinese-036",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "下列词语中加点字读音正确的是：",
+    "options": [
+      "纤(xian)细 歼(jian)灭",
+      "纤(xian)细 歼(qian)灭",
+      "纤(qian)细 歼(jian)灭",
+      "纤(qian)细 歼(qian)灭"
+    ],
+    "answer": "纤(xian)细 歼(jian)灭",
+    "explanation": "纤读xian，歼读jian；A正确，B歼读qian错误，C纤读qian错误"
+  },
+  {
+    "id": "chinese-037",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《天净沙·秋思》中夕阳西下的下一句是：",
+    "options": [
+      "断肠人在天涯",
+      "古道西风瘦马",
+      "小桥流水人家",
+      "枯藤老树昏鸦"
+    ],
+    "answer": "断肠人在天涯",
+    "explanation": "马致远《天净沙·秋思》：枯藤老树昏鸦，小桥流水人家，古道西风瘦马。夕阳西下，断肠人在天涯。"
+  },
+  {
+    "id": "chinese-038",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词性辨析"
+    ],
+    "question": "下列词语中与咚咚地响结构相同的是：",
+    "options": [
+      "隆隆的雷声",
+      "认真地学习",
+      "轻轻地飘",
+      "勇敢的战士"
+    ],
+    "answer": "轻轻地飘",
+    "explanation": "都是状语+地+动词结构"
+  },
+  {
+    "id": "chinese-039",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "下列不属于唐代诗人的是：",
+    "options": [
+      "杜甫",
+      "白居易",
+      "王安石",
+      "李商隐"
+    ],
+    "answer": "王安石",
+    "explanation": "王安石是北宋文学家，唐代诗人有李白、杜甫、白居易、李商隐等"
+  },
+  {
+    "id": "chinese-040",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "两岸猿声啼不住，_____。",
+    "answer": "轻舟已过万重山",
+    "explanation": "出自李白《早发白帝城》：朝辞白帝彩云间，千里江陵一日还。两岸猿声啼不住，轻舟已过万重山。"
+  },
+  {
+    "id": "chinese-041",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列没有错别字的一项是：",
+    "options": [
+      "三年自然灾害",
+      "穿流不息",
+      "不记其数",
+      "默不作声"
+    ],
+    "answer": "三年自然灾害",
+    "explanation": "川流不息应为川，不计其数应为记，默默不作声应为默"
+  },
+  {
+    "id": "chinese-042",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《卖炭翁》中可怜身上衣正单的下一句是：",
+    "options": [
+      "心忧炭贱愿天寒",
+      "半匹红纱一丈绫",
+      "宫使驱将惜不得",
+      "夜来城外一尺雪"
+    ],
+    "answer": "心忧炭贱愿天寒",
+    "explanation": "虽身上衣单，但天寒炭价才能高，反映卖炭翁矛盾心理"
+  },
+  {
+    "id": "chinese-043",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "下列句子中使用了拟人修辞的是：",
+    "options": [
+      "红的像火，粉的像霞。",
+      "桃树、杏树、梨树，你不让我，我不让你。",
+      "春天像刚落地的娃娃。",
+      "太阳像火球。"
+    ],
+    "answer": "桃树、杏树、梨树，你不让我，我不让你。",
+    "explanation": "把花当作人来写，是拟人，A和C是比喻，D是比喻"
+  },
+  {
+    "id": "chinese-044",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "轻在轻轻的风中的意思是：",
+    "options": [
+      "重量小",
+      "柔和",
+      "不重要",
+      "缓慢"
+    ],
+    "answer": "柔和",
+    "explanation": "轻风指柔和的风，这里轻形容风的柔和程度"
+  },
+  {
+    "id": "chinese-045",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "请写出《观沧海》中描写草木的句子：",
+    "answer": "树木丛生，百草丰茂。",
+    "explanation": "曹操《观沧海》：东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。"
+  },
+  {
+    "id": "chinese-046",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "下列不属于四大名著的是：",
+    "options": [
+      "《三国演义》",
+      "《水浒传》",
+      "《儒林外史》",
+      "《红楼梦》"
+    ],
+    "answer": "《儒林外史》",
+    "explanation": "四大名著：《三国演义》《水浒传》《西游记》《红楼梦》。《儒林外史》是清代吴敬梓的作品"
+  },
+  {
+    "id": "chinese-047",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "给下列句子加标点，正确的一项是：",
+    "options": [
+      "我说：你去，你去！",
+      "我说你去，你去。",
+      "我说：你去，你去。",
+      "我说你去，你去？"
+    ],
+    "answer": "我说：你去，你去。",
+    "explanation": "直接引语时，说话人在前用冒号，引用内容正常标点"
+  },
+  {
+    "id": "chinese-048",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "人生自古谁无死，留取丹心照汗青的作者是：",
+    "options": [
+      "文天祥",
+      "岳飞",
+      "辛弃疾",
+      "陆游"
+    ],
+    "answer": "文天祥",
+    "explanation": "出自文天祥《过零丁洋》，表现了崇高的爱国精神"
+  },
+  {
+    "id": "chinese-049",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "出淤泥而不染，_____。",
+    "answer": "濯清涟而不妖",
+    "explanation": "出自周敦颐《爱莲说》，描写莲花的品质，出淤泥而不染，濯清涟而不妖"
+  },
+  {
+    "id": "chinese-050",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "加点字读音相同的一组是：",
+    "options": [
+      "涨chao/涨zhang红脸",
+      "着急zhao/着mi迷",
+      "勉强qiang/强qiang词夺理",
+      "仿佛fo/佛fo祖"
+    ],
+    "answer": "勉强qiang/强qiang词夺理",
+    "explanation": "勉强qiang，强qiang词夺理；涨chao/涨zhang；着急zhao/着mi；仿佛fo/佛fu"
+  },
+  {
+    "id": "chinese-051",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "顾在三顾茅庐中的意思是：",
+    "options": [
+      "注意",
+      "拜访",
+      "回头看",
+      "关心"
+    ],
+    "answer": "拜访",
+    "explanation": "三顾茅庐：三次拜访刘备请诸葛亮出山，顾是拜访的意思"
+  },
+  {
+    "id": "chinese-052",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "遥望洞庭山水翠，白银盘里一青螺使用了：",
+    "options": [
+      "比喻",
+      "夸张",
+      "对偶",
+      "借代"
+    ],
+    "answer": "比喻",
+    "explanation": "把洞庭湖比作白银盘，把君山比作青螺"
+  },
+  {
+    "id": "chinese-053",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "大漠孤烟直，_____。",
+    "answer": "长河落日圆",
+    "explanation": "出自王维《使至塞上》，描写边塞壮阔景象"
+  },
+  {
+    "id": "chinese-054",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《春》是哪位作家的作品？",
+    "options": [
+      "鲁迅",
+      "朱自清",
+      "老舍",
+      "冰心"
+    ],
+    "answer": "朱自清",
+    "explanation": "《春》选自《朱自清全集》，是一篇优美的写景散文"
+  },
+  {
+    "id": "chinese-055",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "下列句子没有语病的是：",
+    "options": [
+      "我们认真讨论并听取了他的发言。",
+      "他取得了很大进步。",
+      "我不禁忍不住哭了起来。",
+      "经过努力，终于取得了好成绩。"
+    ],
+    "answer": "他取得了很大进步。",
+    "explanation": "A语序不当，应先听取再讨论；C不禁和忍不住重复；D缺少主语"
+  },
+  {
+    "id": "chinese-056",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "走在走马观花中的意思是：",
+    "options": [
+      "步行",
+      "跑",
+      "快速移动",
+      "经过"
+    ],
+    "answer": "跑",
+    "explanation": "走马观花：骑在马上看花，走是跑的意思，比喻得意愉快的心情"
+  },
+  {
+    "id": "chinese-057",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "下列诗句中表现思乡之情的是：",
+    "options": [
+      "举头望明月，低头思故乡",
+      "独在异乡为异客，每逢佳节倍思亲",
+      "但愿人长久，千里共婵娟",
+      "以上都是"
+    ],
+    "answer": "以上都是",
+    "explanation": "A思故乡，B倍思亲，C共婵娟（团圆），都表达了思乡之情"
+  },
+  {
+    "id": "chinese-058",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语中候字写法正确的是：",
+    "options": [
+      "气侯",
+      "侯车室",
+      "时候",
+      "无需置疑"
+    ],
+    "answer": "时候",
+    "explanation": "气侯应为候，侯车室应为候，无需置疑应为候，都应写成候"
+  },
+  {
+    "id": "chinese-059",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-句子成分"
+    ],
+    "question": "下列句子主语是名词的是：",
+    "options": [
+      "我们学习语文。",
+      "春天来了。",
+      "认真地做作业。",
+      "跑得很快。"
+    ],
+    "answer": "春天来了。",
+    "explanation": "A我们是指代词；B春天是名词；C是状语+动词短语；D是动词短语"
+  },
+  {
+    "id": "chinese-060",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《三国演义》中草船借箭的主角是：",
+    "options": [
+      "刘备",
+      "周瑜",
+      "诸葛亮",
+      "曹操"
+    ],
+    "answer": "诸葛亮",
+    "explanation": "草船借箭是诸葛亮利用大雾天气，用草船向曹操借箭的故事"
+  },
+  {
+    "id": "chinese-061",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "落红不是无情物，_____。",
+    "answer": "化作春泥更护花",
+    "explanation": "出自龚自珍《己亥杂诗》，以落红化作春泥比喻奉献精神"
+  },
+  {
+    "id": "chinese-062",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列句子中引号使用不当的是：",
+    "options": [
+      "老师说：要多读书。",
+      "「世上无难事，只要肯登攀」，这是我的座右铭。",
+      "他喜欢读《十万个为什么》。",
+      "李白是诗仙。"
+    ],
+    "answer": "「世上无难事，只要肯登攀」，这是我的座右铭。",
+    "explanation": "直接引语放句中时，前面用逗号，后面句号在引号内，此处引号内外标点颠倒"
+  },
+  {
+    "id": "chinese-063",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "发在发现和理发中的读音：",
+    "options": [
+      "fa/fà",
+      "fa/fa",
+      "fa/fà",
+      "fà/fa"
+    ],
+    "answer": "fa/fà",
+    "explanation": "发现fa（产生），理发fa（头发的发，第四声）"
+  },
+  {
+    "id": "chinese-064",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "填空：《塞下曲》中单于夜遁逃的下一句是：",
+    "options": [
+      "月黑雁飞高",
+      "欲将轻骑逐",
+      "大雪满弓刀",
+      "林暗草惊风"
+    ],
+    "answer": "欲将轻骑逐",
+    "explanation": "卢纶《塞下曲》：月黑雁飞高，单于夜遁逃。欲将轻骑逐，大雪满弓刀。"
+  },
+  {
+    "id": "chinese-065",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "问渠那得清如许？为有源头活水来使用了什么修辞？",
+    "options": [
+      "比喻",
+      "设问",
+      "反问",
+      "夸张"
+    ],
+    "answer": "设问",
+    "explanation": "自问自答，是设问修辞，自问为引起注意，自答为说明道理"
+  },
+  {
+    "id": "chinese-066",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词类活用"
+    ],
+    "question": "下列句子中词类活用类型不同的是：",
+    "options": [
+      "他红着脸说。",
+      "我们要绿化校园。",
+      "狐狸骗了老虎。",
+      "太阳升高了。"
+    ],
+    "answer": "狐狸骗了老虎。",
+    "explanation": "A红是形容词作动词；B绿化是名词作动词；C骗是动词，无活用；D高是形容词作表语，无使动"
+  },
+  {
+    "id": "chinese-067",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《史记》的作者是：",
+    "options": [
+      "司马迁",
+      "班固",
+      "陈寿",
+      "范晔"
+    ],
+    "answer": "司马迁",
+    "explanation": "《史记》是我国第一部纪传体通史，作者是西汉史学家司马迁"
+  },
+  {
+    "id": "chinese-068",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《江雪》中千山鸟飞绝的下一句是：",
+    "options": [
+      "万径人踪灭",
+      "孤舟蓑笠翁",
+      "独钓寒江雪",
+      "唯见长江天际流"
+    ],
+    "answer": "万径人踪灭",
+    "explanation": "柳宗元《江雪》：千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。"
+  },
+  {
+    "id": "chinese-069",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "旧时王谢堂前燕，_____。",
+    "answer": "飞入寻常百姓家",
+    "explanation": "出自刘禹锡《乌衣巷》，感叹世事变迁，昔日王谢贵族已衰落"
+  },
+  {
+    "id": "chinese-070",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语中叠字书写正确的是：",
+    "options": [
+      "高潮迭起",
+      "峰峦叠嶂",
+      "此起彼伏",
+      "重岩叠嶂"
+    ],
+    "answer": "重岩叠嶂",
+    "explanation": "重岩叠嶂（重叠的山崖），嶂和叠都正确；A应为迭，B应为嶂"
+  },
+  {
+    "id": "chinese-071",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-关联词"
+    ],
+    "question": "_____多读多写，你的作文水平_____会提高。",
+    "options": [
+      "只有...才",
+      "只要...就",
+      "因为...所以",
+      "既然...就"
+    ],
+    "answer": "只要...就",
+    "explanation": "条件和结果关系，只要...就...是充分条件句式，有条件就必然有结果"
+  },
+  {
+    "id": "chinese-072",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "胜在名胜古迹和战胜中的意思：",
+    "options": [
+      "胜利/胜利",
+      "优美的地方/打赢",
+      "胜利/优美",
+      "优美/打赢"
+    ],
+    "answer": "优美的地方/打赢",
+    "explanation": "名胜古迹：优美的地方；战胜：打赢"
+  },
+  {
+    "id": "chinese-073",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《泊船瓜洲》中春风又绿江南岸的绿字好在哪里？",
+    "options": [
+      "写出了春风的色彩和力量",
+      "写出了春天的绿色",
+      "写出了春天到来的迅速",
+      "以上都不对"
+    ],
+    "answer": "写出了春风的色彩和力量",
+    "explanation": "一个绿字形容词用作动词，春风赋予江南以绿色，写出了春风的力量和生机"
+  },
+  {
+    "id": "chinese-074",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列句子中省略号使用正确的是：",
+    "options": [
+      "我......我不是故意的。",
+      "他低着头说：我......我......",
+      "妈妈叫我：睡觉睡觉！",
+      "我不知道为什么......"
+    ],
+    "answer": "他低着头说：我......我......",
+    "explanation": "引语中表示说话结巴，断断续续，正确使用省略号；A两个句子间应用逗号或句号"
+  },
+  {
+    "id": "chinese-075",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "下列不属于苏轼作品的是：",
+    "options": [
+      "《念奴娇·赤壁怀古》",
+      "《水调歌头·明月几时有》",
+      "《题西林壁》",
+      "《醉翁亭记》"
+    ],
+    "answer": "《醉翁亭记》",
+    "explanation": "《醉翁亭记》是欧阳修的作品，苏轼是欧阳修的学生"
+  },
+  {
+    "id": "science-029",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物态变化"
+    ],
+    "question": "夏天，从冰箱里拿出的饮料瓶外壁出现水珠，这是因为：",
+    "options": [
+      "空气中水蒸气遇冷液化",
+      "瓶内的水渗出",
+      "空气中水蒸气遇冷凝固",
+      "瓶内的空气凝结"
+    ],
+    "answer": "空气中水蒸气遇冷液化",
+    "explanation": "冰箱里的饮料温度低，空气中的水蒸气遇冷液化成小水珠附着在瓶壁上"
+  },
+  {
+    "id": "science-030",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "光的折射"
+    ],
+    "question": "把筷子斜插入水中，看起来筷子在水面处折断了，这是因为：",
+    "options": [
+      "光的反射",
+      "光的折射",
+      "光的直线传播",
+      "水的蒸发"
+    ],
+    "answer": "光的折射",
+    "explanation": "光线从空气进入水中时发生偏折，造成视觉上的折断现象"
+  },
+  {
+    "id": "science-031",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "力"
+    ],
+    "question": "力的三要素是指力的：",
+    "options": [
+      "大小、方向、作用点",
+      "大小、方向、作用效果",
+      "大小、作用点、作用效果",
+      "方向、作用点、作用效果"
+    ],
+    "answer": "大小、方向、作用点",
+    "explanation": "力的三要素：大小、方向、作用点，缺一不可，决定力的作用效果"
+  },
+  {
+    "id": "science-032",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "密度"
+    ],
+    "question": "质量相等的铝块和铁块，体积较大的是：",
+    "options": [
+      "铝块",
+      "铁块",
+      "一样大",
+      "无法判断"
+    ],
+    "answer": "铝块",
+    "explanation": "质量相同时，密度越小体积越大，铝的密度小于铁，所以铝块体积更大"
+  },
+  {
+    "id": "science-033",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学式"
+    ],
+    "question": "O2表示：",
+    "options": [
+      "两个氧原子",
+      "一个氧分子",
+      "两个氧分子",
+      "氧气由氧原子构成"
+    ],
+    "answer": "一个氧分子",
+    "explanation": "O2是氧气的化学式，表示一个氧分子由两个氧原子构成"
+  },
+  {
+    "id": "science-034",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物"
+    ],
+    "question": "植物根尖中吸收水分的主要部位是：",
+    "options": [
+      "根冠",
+      "分生区",
+      "伸长区",
+      "成熟区"
+    ],
+    "answer": "成熟区",
+    "explanation": "成熟区（也叫根毛区）有大量根毛，增大了吸收水分的表面积"
+  },
+  {
+    "id": "science-035",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "机械运动"
+    ],
+    "question": "刻舟求剑中的人没有选对参照物，他应该选：",
+    "options": [
+      "船",
+      "江岸",
+      "水",
+      "剑"
+    ],
+    "answer": "江岸",
+    "explanation": "要描述剑的位置变化，应选不动的物体（江岸）作为参照物"
+  },
+  {
+    "id": "science-036",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "大气压强"
+    ],
+    "question": "吸管能把饮料吸进嘴里，是因为：",
+    "options": [
+      "人用力吸",
+      "饮料被压进嘴里",
+      "大气压强的作用",
+      "吸管的毛细作用"
+    ],
+    "answer": "大气压强的作用",
+    "explanation": "吸气时吸管内气压减小，外界大气压把饮料压进嘴里"
+  },
+  {
+    "id": "science-037",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-元素"
+    ],
+    "question": "地壳中含量最多的元素是：",
+    "options": [
+      "硅",
+      "铁",
+      "氧",
+      "铝"
+    ],
+    "answer": "氧",
+    "explanation": "地壳中氧元素含量最多，约占地壳质量的46.6%"
+  },
+  {
+    "id": "science-038",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学"
+    ],
+    "question": "导体和绝缘体的区别是：",
+    "options": [
+      "是否有电子",
+      "是否有电压",
+      "是否容易导电",
+      "是否有电流"
+    ],
+    "answer": "是否容易导电",
+    "explanation": "导体内有大量自由电荷，能导电；绝缘体内电荷几乎被束缚，不易导电"
+  },
+  {
+    "id": "science-039",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-人体系统"
+    ],
+    "question": "人体最大的器官是：",
+    "options": [
+      "心脏",
+      "皮肤",
+      "肝脏",
+      "大脑"
+    ],
+    "answer": "皮肤",
+    "explanation": "皮肤覆盖全身，是人体最大的器官，具有保护、调节体温等功能"
+  },
+  {
+    "id": "science-040",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "物态变化"
+    ],
+    "question": "冰必须达到_____才能熔化成水。",
+    "options": [
+      "0摄氏度",
+      "100摄氏度",
+      "任何温度",
+      "凝固点"
+    ],
+    "answer": "0摄氏度",
+    "explanation": "晶体熔化需要达到熔点，冰的熔点是0摄氏度"
+  },
+  {
+    "id": "science-041",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "力"
+    ],
+    "question": "力的作用是相互的，施力物体同时也是：",
+    "options": [
+      "施力物体",
+      "受力物体",
+      "不一定",
+      "无法判断"
+    ],
+    "answer": "受力物体",
+    "explanation": "力的作用是相互的，甲对乙施力时，甲也同时受到乙的力，所以也是受力物体"
+  },
+  {
+    "id": "science-042",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-质量守恒"
+    ],
+    "question": "化学反应前后，下列各项中不变的是：",
+    "options": [
+      "分子总数",
+      "原子总数",
+      "物质种类",
+      "分子种类"
+    ],
+    "answer": "原子总数",
+    "explanation": "质量守恒定律：化学反应前后原子的种类和数目不变"
+  },
+  {
+    "id": "science-043",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "光的反射"
+    ],
+    "question": "能成完整等大虚像的镜是：",
+    "options": [
+      "平面镜",
+      "凸面镜",
+      "凹面镜",
+      "哈哈镜"
+    ],
+    "answer": "平面镜",
+    "explanation": "平面镜成等大虚像；凸面镜成缩小虚像；凹面镜可成放大虚像或实像"
+  },
+  {
+    "id": "science-044",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-遗传"
+    ],
+    "question": "下列属于遗传现象的是：",
+    "options": [
+      "一母生九子，九子各不同",
+      "种瓜得瓜，种豆得豆",
+      "龙生龙，凤生凤，老鼠儿子会打洞",
+      "以上都是"
+    ],
+    "answer": "种瓜得瓜，种豆得豆",
+    "explanation": "遗传：子代与亲代相似；变异：子代与亲代不同。A和C是变异现象"
+  },
+  {
+    "id": "science-045",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "压强"
+    ],
+    "question": "书包的背带做得较宽，目的是为了：",
+    "options": [
+      "减小压强",
+      "增大压强",
+      "减小压力",
+      "美观"
+    ],
+    "answer": "减小压强",
+    "explanation": "在压力一定时，受力面积越大，压强越小，背带宽增大了受力面积"
+  },
+  {
+    "id": "science-046",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学"
+    ],
+    "question": "两个电阻并联，总电阻：",
+    "options": [
+      "等于两个电阻之和",
+      "大于任一电阻",
+      "小于任一电阻",
+      "等于任一电阻"
+    ],
+    "answer": "小于任一电阻",
+    "explanation": "并联电阻的总电阻小于任一分电阻，并联越多总电阻越小"
+  },
+  {
+    "id": "science-047",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "声现象"
+    ],
+    "question": "声音在下列介质中传播速度最快的是：",
+    "options": [
+      "空气",
+      "水",
+      "钢铁",
+      "玻璃"
+    ],
+    "answer": "钢铁",
+    "explanation": "声音在固体中传播最快，钢铁是固体，其次是液体，最后是气体"
+  },
+  {
+    "id": "science-048",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-溶解"
+    ],
+    "question": "下列溶液中，溶质是固体的是：",
+    "options": [
+      "碘酒",
+      "酒精溶液",
+      "盐水",
+      "呼吸的空气"
+    ],
+    "answer": "盐水",
+    "explanation": "碘酒是碘溶解在酒精中；酒精溶液的溶质是酒精（液体）；盐水中溶质是盐（固体）"
+  },
+  {
+    "id": "science-049",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "力"
+    ],
+    "question": "力的单位是：",
+    "options": [
+      "千克",
+      "牛顿",
+      "帕斯卡",
+      "焦耳"
+    ],
+    "answer": "牛顿",
+    "explanation": "力的单位是牛顿（N），以科学家牛顿命名"
+  },
+  {
+    "id": "science-050",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-人体系统"
+    ],
+    "question": "血液成分中，具有运输氧气功能的是：",
+    "options": [
+      "血浆",
+      "血小板",
+      "红细胞",
+      "白细胞"
+    ],
+    "answer": "红细胞",
+    "explanation": "红细胞含有血红蛋白，能与氧结合并运输氧；白细胞吞噬病菌；血小板止血"
+  },
+  {
+    "id": "science-051",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物态变化"
+    ],
+    "question": "霜是怎么形成的？",
+    "options": [
+      "由水蒸气直接凝华",
+      "由水凝固",
+      "由云降下",
+      "由露冻结"
+    ],
+    "answer": "由水蒸气直接凝华",
+    "explanation": "霜是水蒸气直接凝华成固态冰的现象，不经过液态"
+  },
+  {
+    "id": "science-052",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "光的折射"
+    ],
+    "question": "人看到水中的鱼，鱼的位置比实际：",
+    "options": [
+      "深",
+      "浅",
+      "一样",
+      "无法判断"
+    ],
+    "answer": "浅",
+    "explanation": "光线从水中射向空气发生折射，折射光线远离法线，人眼逆着折射光看去觉得鱼更浅"
+  },
+  {
+    "id": "science-053",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "机械运动"
+    ],
+    "question": "描述一个物体是运动还是静止，取决于：",
+    "options": [
+      "参照物",
+      "观察者",
+      "光源",
+      "天气"
+    ],
+    "answer": "参照物",
+    "explanation": "运动和静止是相对的，需要选择参照物才能判断"
+  },
+  {
+    "id": "science-054",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学方程式"
+    ],
+    "question": "配平化学方程式：Fe + O2 -> Fe2O3，Fe前的系数应为：",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": "4",
+    "explanation": "4Fe + 3O2 = 2Fe2O3，左边Fe有4个O有6个，右边Fe有4个O有6个"
+  },
+  {
+    "id": "science-055",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "密度"
+    ],
+    "question": "同种物质的质量和体积的关系是：",
+    "options": [
+      "正比",
+      "反比",
+      "不成比例",
+      "先正比后反比"
+    ],
+    "answer": "正比",
+    "explanation": "同种物质，密度不变，质量与体积成正比"
+  },
+  {
+    "id": "science-056",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-生态系统"
+    ],
+    "question": "食物链中生产者固定的能量最终来自：",
+    "options": [
+      "植物",
+      "动物",
+      "太阳能",
+      "化学能"
+    ],
+    "answer": "太阳能",
+    "explanation": "食物链的起点是生产者（植物），植物通过光合作用将太阳能转化为化学能"
+  },
+  {
+    "id": "science-057",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "大气压强"
+    ],
+    "question": "大气压随高度增加而：",
+    "options": [
+      "增大",
+      "减小",
+      "不变",
+      "先增后减"
+    ],
+    "answer": "减小",
+    "explanation": "大气压随高度增加而减小，高山上气压低，沸点也低"
+  },
+  {
+    "id": "science-058",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "力的平衡"
+    ],
+    "question": "一个人用100N的力抬起一块重150N的木块，木块所受合力为：",
+    "options": [
+      "向上100N",
+      "向下50N",
+      "向上50N",
+      "向下100N"
+    ],
+    "answer": "向上50N",
+    "explanation": "木块受人的向上100N力和重力150N，向上的合力为50N，方向向上"
+  },
+  {
+    "id": "science-059",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "声现象"
+    ],
+    "question": "声音的三个特性是：",
+    "options": [
+      "音调、响度、音色",
+      "音高、音强、音色",
+      "高音、低音、中音",
+      "频率、振幅、波速"
+    ],
+    "answer": "音调、响度、音色",
+    "explanation": "音调由频率决定，响度由振幅决定，音色由发声体本身决定"
+  },
+  {
+    "id": "science-060",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-物质分类"
+    ],
+    "question": "下列属于化合物的是：",
+    "options": [
+      "空气",
+      "氧气",
+      "水",
+      "铁"
+    ],
+    "answer": "水",
+    "explanation": "化合物由两种或两种以上元素组成，水H2O是化合物；空气是混合物；氧气和铁是单质"
+  },
+  {
+    "id": "science-061",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物"
+    ],
+    "question": "植物光合作用必需的原料是：",
+    "options": [
+      "有机物和氧气",
+      "二氧化碳和水",
+      "光和叶绿体",
+      "淀粉和氧气"
+    ],
+    "answer": "二氧化碳和水",
+    "explanation": "光合作用：二氧化碳 + 水 -> 有机物 + 氧气，光和叶绿体是条件和场所"
+  },
+  {
+    "id": "science-062",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学"
+    ],
+    "question": "我国家庭电路的电压是：",
+    "options": [
+      "1.5V",
+      "3V",
+      "36V以下",
+      "220V"
+    ],
+    "answer": "220V",
+    "explanation": "我国家庭电路电压为220V，工业用电380V，一节干电池1.5V"
+  },
+  {
+    "id": "science-063",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物态变化"
+    ],
+    "question": "液态水变成水蒸气，这个过程叫：",
+    "options": [
+      "蒸发",
+      "沸腾",
+      "蒸发和沸腾",
+      "升华"
+    ],
+    "answer": "蒸发和沸腾",
+    "explanation": "液态变气态叫汽化，包括蒸发（表面）和沸腾（内部同时汽化）"
+  },
+  {
+    "id": "science-064",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "简单机械"
+    ],
+    "question": "使用定滑轮可以：",
+    "options": [
+      "省一半的力",
+      "改变力的方向",
+      "省力",
+      "以上都不对"
+    ],
+    "answer": "改变力的方向",
+    "explanation": "定滑轮不省力，但可以改变力的方向；动滑轮省一半力"
+  },
+  {
+    "id": "science-065",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-原子结构"
+    ],
+    "question": "原子核由_____组成。",
+    "options": [
+      "质子和中子",
+      "电子和中子",
+      "质子和电子",
+      "只有中子"
+    ],
+    "answer": "质子和中子",
+    "explanation": "原子核由质子和中子组成，电子在核外运动"
+  },
+  {
+    "id": "science-066",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-人体系统"
+    ],
+    "question": "尿液的主要成分是：",
+    "options": [
+      "尿素和蛋白质",
+      "水和尿素",
+      "盐分和水",
+      "血液"
+    ],
+    "answer": "水和尿素",
+    "explanation": "尿液是血液经过肾脏过滤后形成的，主要成分是水和尿素"
+  },
+  {
+    "id": "science-067",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "光的反射"
+    ],
+    "question": "光射到平面镜上，入射光线与反射光线的夹角为60度，则入射角为：",
+    "options": [
+      "30度",
+      "60度",
+      "90度",
+      "120度"
+    ],
+    "answer": "30度",
+    "explanation": "入射角是入射光线与法线的夹角，反射角等于入射角，夹角为60度时入射角=30度"
+  },
+  {
+    "id": "science-068",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "密度"
+    ],
+    "question": "一个瓶子能装下500g的水，它能装下500g的：",
+    "options": [
+      "食用油",
+      "汽油",
+      "蜂蜜",
+      "都能"
+    ],
+    "answer": "蜂蜜",
+    "explanation": "水的密度是1g/cm3，食用油的密度比水小，瓶子体积固定，密度大于水时质量会小于500g，蜂蜜密度大于水"
+  },
+  {
+    "id": "science-069",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-细胞"
+    ],
+    "question": "细胞分裂过程中，染色体的变化是：",
+    "options": [
+      "数目增加一倍",
+      "数目不变",
+      "数目减半",
+      "变成两团"
+    ],
+    "answer": "数目增加一倍",
+    "explanation": "有丝分裂时，染色体复制后数目加倍，然后平均分配到两个子细胞中"
+  },
+  {
+    "id": "science-070",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "大气压强"
+    ],
+    "question": "用吸管喝饮料时，吸管里的气压比外界气压：",
+    "options": [
+      "高",
+      "低",
+      "相等",
+      "无法判断"
+    ],
+    "answer": "低",
+    "explanation": "吸气时吸管内气体被吸走，气压降低，外界大气压把饮料压上来"
+  },
+  {
+    "id": "science-071",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "机械运动"
+    ],
+    "question": "速度是描述物体_____的物理量。",
+    "options": [
+      "运动快慢",
+      "运动方向",
+      "运动大小",
+      "位置变化"
+    ],
+    "answer": "运动快慢",
+    "explanation": "速度是描述物体运动快慢的物理量，大小叫速率，方向叫速度方向"
+  },
+  {
+    "id": "science-072",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学反应"
+    ],
+    "question": "化学反应中，催化剂的作用是：",
+    "options": [
+      "加快反应速度",
+      "减慢反应速度",
+      "改变化学反应速度但本身质量和化学性质不变",
+      "增加生成物"
+    ],
+    "answer": "改变化学反应速度但本身质量和化学性质不变",
+    "explanation": "催化剂能改变反应速度（加快或减慢），反应前后本身质量和化学性质不变"
+  },
+  {
+    "id": "science-073",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "声现象"
+    ],
+    "question": "超声波的特点是：",
+    "options": [
+      "人耳听不见",
+      "频率高于20000Hz",
+      "穿透能力强",
+      "以上都是"
+    ],
+    "answer": "以上都是",
+    "explanation": "超声波频率大于20000Hz，人耳听不见，在医疗、工业等领域有广泛应用"
+  },
+  {
+    "id": "science-074",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "力的平衡"
+    ],
+    "question": "物体在两个力作用下保持静止或匀速直线运动，这两个力叫做：",
+    "options": [
+      "作用力和反作用力",
+      "平衡力",
+      "摩擦力",
+      "重力"
+    ],
+    "answer": "平衡力",
+    "explanation": "作用在同一物体上的两个力，大小相等、方向相反、作用在同一直线上，叫二力平衡"
+  },
+  {
+    "id": "science-075",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-溶液"
+    ],
+    "question": "溶液一定是：",
+    "options": [
+      "无色",
+      "透明",
+      "均一、稳定的混合物",
+      "一种物质溶解在另一种物质里"
+    ],
+    "answer": "均一、稳定的混合物",
+    "explanation": "溶液的特点：均一性（各处组成相同）、稳定性（静置不分层）"
+  },
+  {
+    "id": "biology-029",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物与环境"
+    ],
+    "question": "生物与环境的关系是：",
+    "options": [
+      "环境影响生物",
+      "生物适应环境",
+      "生物影响环境",
+      "以上都有"
+    ],
+    "answer": "以上都有",
+    "explanation": "环境能影响生物，生物需要适应环境，同时生物也能影响和改变环境"
+  },
+  {
+    "id": "biology-030",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "植物的蒸腾作用主要是通过什么进行的？",
+    "options": [
+      "根",
+      "茎",
+      "叶",
+      "花"
+    ],
+    "answer": "叶",
+    "explanation": "蒸腾作用主要是叶片通过气孔散失水分的过程，是植物水分运输的动力"
+  },
+  {
+    "id": "biology-031",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体血液循环包括体循环和_____循环。",
+    "answer": "肺",
+    "explanation": "血液循环包括体循环和肺循环，体循环输送氧，肺循环交换气体"
+  },
+  {
+    "id": "biology-032",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物行为"
+    ],
+    "question": "动物的行为按功能分不包括：",
+    "options": [
+      "觅食行为",
+      "防御行为",
+      "学习行为",
+      "迁徙行为"
+    ],
+    "answer": "学习行为",
+    "explanation": "学习行为是按获得方式分的，不是按功能分；按功能分：觅食、防御、繁殖、社会行为等"
+  },
+  {
+    "id": "biology-033",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "植物叶片正面的绿色比背面深，主要是因为：",
+    "options": [
+      "正面阳光多",
+      "正面表皮薄",
+      "正面叶绿体多",
+      "正面气孔多"
+    ],
+    "answer": "正面叶绿体多",
+    "explanation": "叶片的栅栏层（靠近上表皮）含叶绿体多，海绵层（下表皮侧）含叶绿体少"
+  },
+  {
+    "id": "biology-034",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "神经系统调节人体活动的基本方式是：",
+    "options": [
+      "反射",
+      "传导",
+      "感觉",
+      "整合"
+    ],
+    "answer": "反射",
+    "explanation": "反射是神经系统调节人体活动的基本方式，如膝跳反射、缩手反射"
+  },
+  {
+    "id": "biology-035",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "植物的种子由胚珠发育而成，种皮由_____发育而成。",
+    "options": [
+      "珠被",
+      "珠心",
+      "子房壁",
+      "胚囊"
+    ],
+    "answer": "珠被",
+    "explanation": "珠被发育成种皮，胚珠发育成种子，子房壁发育成果皮"
+  },
+  {
+    "id": "biology-036",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "一个生态系统中的草、兔子、蛇、鹰，如果草大量减少，最后受影响最大的是：",
+    "options": [
+      "蛇",
+      "鹰",
+      "兔子",
+      "所有生物一样多"
+    ],
+    "answer": "鹰",
+    "explanation": "食物链中营养级越高，受影响越大，因为能量逐级递减，鹰营养级最高"
+  },
+  {
+    "id": "biology-037",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "细胞壁的功能是支持和_____植物细胞。",
+    "answer": "保护",
+    "explanation": "细胞壁位于植物细胞最外层，功能是支持和保护植物细胞"
+  },
+  {
+    "id": "biology-038",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物多样性"
+    ],
+    "question": "保护生物多样性最有效的措施是：",
+    "options": [
+      "建立自然保护区",
+      "迁地保护",
+      "建立基因库",
+      "加强法律法规"
+    ],
+    "answer": "建立自然保护区",
+    "explanation": "建立自然保护区能保护整个生态系统，是保护生物多样性最有效的措施"
+  },
+  {
+    "id": "biology-039",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体免疫的第一道防线是：",
+    "options": [
+      "皮肤和黏膜",
+      "吞噬细胞",
+      "免疫器官",
+      "抗体"
+    ],
+    "answer": "皮肤和黏膜",
+    "explanation": "第一道防线：皮肤和黏膜（阻挡病原体）；第二道：吞噬细胞；第三道：免疫器官和抗体"
+  },
+  {
+    "id": "biology-040",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "导管和筛管属于植物的什么组织？",
+    "options": [
+      "分生组织",
+      "输导组织",
+      "保护组织",
+      "营养组织"
+    ],
+    "answer": "输导组织",
+    "explanation": "导管运输水和无机盐，筛管运输有机物，都属于输导组织"
+  },
+  {
+    "id": "biology-041",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "人的性别决定取决于：",
+    "options": [
+      "父亲",
+      "母亲",
+      "父亲和母亲一样",
+      "环境"
+    ],
+    "answer": "父亲",
+    "explanation": "女性染色体XX，男性XY，父亲提供X或Y，母亲只能提供X，所以性别由父亲决定"
+  },
+  {
+    "id": "biology-042",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "呼吸作用"
+    ],
+    "question": "植物呼吸作用的公式：有机物 + 氧气 -> 二氧化碳 + 水 + _____。",
+    "answer": "能量",
+    "explanation": "呼吸作用分解有机物，释放能量，公式：有机物 + 氧气 -> 二氧化碳 + 水 + 能量"
+  },
+  {
+    "id": "biology-043",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "视觉形成的部位是：",
+    "options": [
+      "角膜",
+      "视网膜",
+      "大脑皮层",
+      "视神经"
+    ],
+    "answer": "大脑皮层",
+    "explanation": "视网膜是光感受器，接受光刺激；视觉在大脑皮层视觉中枢形成"
+  },
+  {
+    "id": "biology-044",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物分类"
+    ],
+    "question": "动物界中种类最多、数量最大、分布最广的动物类群是：",
+    "options": [
+      "哺乳动物",
+      "鸟类",
+      "昆虫",
+      "鱼类"
+    ],
+    "answer": "昆虫",
+    "explanation": "昆虫是动物界中种类最多的类群，已知种类超过100万种"
+  },
+  {
+    "id": "biology-045",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "一朵花中最重要的部分是：",
+    "options": [
+      "花瓣",
+      "花萼",
+      "雄蕊和雌蕊",
+      "花托"
+    ],
+    "answer": "雄蕊和雌蕊",
+    "explanation": "雄蕊和雌蕊与生殖直接相关，是花的主要繁殖结构"
+  },
+  {
+    "id": "biology-046",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "与尿素的形成最密切相关的人体器官是：",
+    "options": [
+      "肾脏",
+      "肝脏",
+      "肺",
+      "皮肤"
+    ],
+    "answer": "肝脏",
+    "explanation": "尿素是蛋白质代谢的产物，在肝脏中合成，经肾脏排出体外"
+  },
+  {
+    "id": "biology-047",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生物圈是地球上最大的生态系统，它包括：",
+    "options": [
+      "所有生物",
+      "所有生物及其环境",
+      "所有生物的生活环境",
+      "地球上的所有物质"
+    ],
+    "answer": "所有生物及其环境",
+    "explanation": "生物圈是地球表面全部生物及其生活环境的总和，包括大气圈下层、水圈和岩石圈上层"
+  },
+  {
+    "id": "biology-048",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物行为"
+    ],
+    "question": "动物的行为按获得方式分为先天性行为和_____行为。",
+    "answer": "学习",
+    "explanation": "先天性行为是生来就有的本能，学习行为是通过后天经验和学习获得的"
+  },
+  {
+    "id": "biology-049",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "细胞膜的主要功能是：",
+    "options": [
+      "支持和保护",
+      "控制物质进出",
+      "储存遗传信息",
+      "合成有机物"
+    ],
+    "answer": "控制物质进出",
+    "explanation": "细胞膜的功能是控制物质进出细胞（选择透过性），并参与细胞间的信息交流"
+  },
+  {
+    "id": "biology-050",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物多样性"
+    ],
+    "question": "下列不属于生物多样性三个层次的是：",
+    "options": [
+      "基因多样性",
+      "物种多样性",
+      "生态系统多样性",
+      "环境多样性"
+    ],
+    "answer": "环境多样性",
+    "explanation": "生物多样性包括：基因多样性、物种多样性、生态系统多样性三个层次"
+  },
+  {
+    "id": "biology-051",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体呼出的气体与吸入的气体相比，含量增加的是：",
+    "options": [
+      "氧气",
+      "二氧化碳",
+      "氮气",
+      "水蒸气"
+    ],
+    "answer": "二氧化碳",
+    "explanation": "吸入的空气经过人体后，氧气被消耗，二氧化碳增加（氧气减少，二氧化碳增加）"
+  },
+  {
+    "id": "biology-052",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "关于基因的描述，正确的是：",
+    "options": [
+      "基因是DNA上的片段",
+      "一个基因决定一个性状",
+      "基因都是显性",
+      "基因在染色体上每条只有一份"
+    ],
+    "answer": "基因是DNA上的片段",
+    "explanation": "基因是DNA上有遗传效应的片段，一条染色体上有许多基因"
+  },
+  {
+    "id": "biology-053",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "根吸收水分和无机盐的主要部位是：",
+    "options": [
+      "根冠",
+      "分生区",
+      "伸长区",
+      "成熟区"
+    ],
+    "answer": "成熟区",
+    "explanation": "成熟区有大量根毛，是吸收水分和无机盐的主要部位"
+  },
+  {
+    "id": "biology-054",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "听觉形成的正确途径是：",
+    "options": [
+      "声波 -> 耳廓 -> 听神经 -> 大脑",
+      "声波 -> 耳廓 -> 鼓膜 -> 听神经 -> 大脑",
+      "声波 -> 耳廓 -> 鼓膜 -> 耳蜗 -> 听神经 -> 大脑",
+      "声波 -> 耳廓 -> 耳蜗 -> 鼓膜 -> 大脑"
+    ],
+    "answer": "声波 -> 耳廓 -> 鼓膜 -> 耳蜗 -> 听神经 -> 大脑",
+    "explanation": "听觉形成：声波 -> 耳廓 -> 外耳道 -> 鼓膜（振动）-> 听小骨 -> 耳蜗（感音）-> 听神经 -> 大脑"
+  },
+  {
+    "id": "biology-055",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生态系统中，非生物成分包括阳光、水、空气和_____等。",
+    "answer": "土壤",
+    "explanation": "非生物成分包括阳光、水、空气、土壤、温度等；生物成分包括生产者、消费者、分解者"
+  },
+  {
+    "id": "biology-056",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "绿色植物通过光合作用制造的有机物，除了供自身利用外，还养育了：",
+    "options": [
+      "只有动物",
+      "只有人类",
+      "地球上几乎所有其他生物",
+      "没有任何生物"
+    ],
+    "answer": "地球上几乎所有其他生物",
+    "explanation": "绿色植物是生产者，是生态系统的基础，通过食物链养育了消费者和分解者"
+  },
+  {
+    "id": "biology-057",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物分类"
+    ],
+    "question": "河蚌属于哪类动物？",
+    "options": [
+      "软体动物",
+      "节肢动物",
+      "腔肠动物",
+      "扁形动物"
+    ],
+    "answer": "软体动物",
+    "explanation": "河蚌身体柔软，有贝壳，属于软体动物门"
+  },
+  {
+    "id": "biology-058",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "血液和组织细胞之间进行物质交换的场所是：",
+    "options": [
+      "动脉",
+      "静脉",
+      "毛细血管",
+      "心脏"
+    ],
+    "answer": "毛细血管",
+    "explanation": "毛细血管壁薄、管径细，血流速度最慢，是血液与组织细胞进行物质交换的场所"
+  },
+  {
+    "id": "biology-059",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "新陈代谢"
+    ],
+    "question": "生物体最基本的特征是：",
+    "options": [
+      "生长发育",
+      "繁殖",
+      "新陈代谢",
+      "应激性"
+    ],
+    "answer": "新陈代谢",
+    "explanation": "新陈代谢是生物体进行一切生命活动的基础，是生物最基本的特征"
+  },
+  {
+    "id": "biology-060",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "侏儒症和呆小症的主要区别是患者缺乏的激素不同，前者缺乏：",
+    "options": [
+      "生长激素",
+      "甲状腺激素",
+      "胰岛素",
+      "性激素"
+    ],
+    "answer": "生长激素",
+    "explanation": "侏儒症是幼年时生长激素分泌不足；呆小症是幼年时甲状腺激素分泌不足"
+  },
+  {
+    "id": "history-021",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "春秋时期，第一个称霸的诸侯国是：",
+    "options": [
+      "齐国",
+      "晋国",
+      "楚国",
+      "秦国"
+    ],
+    "answer": "齐国",
+    "explanation": "齐桓公在管仲辅佐下，率先称霸，是春秋五霸之首"
+  },
+  {
+    "id": "history-022",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "商鞅变法发生在哪个诸侯国？",
+    "options": [
+      "韩国",
+      "楚国",
+      "秦国",
+      "齐国"
+    ],
+    "answer": "秦国",
+    "explanation": "商鞅在秦国实行变法，奠定了秦国统一六国的基础"
+  },
+  {
+    "id": "history-023",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "秦始皇统一六国后，采用的货币是：",
+    "options": [
+      "刀币",
+      "圆形方孔钱",
+      "布币",
+      "蚁鼻钱"
+    ],
+    "answer": "圆形方孔钱",
+    "explanation": "秦始皇统一度量衡的同时，也统一了货币，圆形方孔钱成为此后两千多年的主要货币形式"
+  },
+  {
+    "id": "history-024",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "丝绸之路的起点是：",
+    "options": [
+      "长安",
+      "洛阳",
+      "敦煌",
+      "新疆"
+    ],
+    "answer": "长安",
+    "explanation": "丝绸之路以长安（今西安）为起点，经甘肃、新疆，到达中亚和欧洲"
+  },
+  {
+    "id": "history-025",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "东汉末年，曹操以少胜多击败袁绍的战役是_____。",
+    "answer": "官渡之战",
+    "explanation": "官渡之战（200年）是曹操与袁绍的决战，曹操以少胜多，奠定了统一北方的基础"
+  },
+  {
+    "id": "history-026",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "《史记》的作者是：",
+    "options": [
+      "司马光",
+      "司马迁",
+      "班固",
+      "陈寿"
+    ],
+    "answer": "司马迁",
+    "explanation": "司马迁，西汉史学家，著有《史记》是中国第一部纪传体通史"
+  },
+  {
+    "id": "history-027",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "三国鼎立局面最终形成的标志是：",
+    "options": [
+      "赤壁之战",
+      "曹丕称帝",
+      "刘备称帝",
+      "孙权称帝"
+    ],
+    "answer": "曹丕称帝",
+    "explanation": "220年曹丕废汉献帝建立魏国，221年刘备建立蜀汉，229年孙权建立东吴，三国鼎立正式形成"
+  },
+  {
+    "id": "history-028",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "世界上现存最早的有明确时间记载的印刷品是：",
+    "options": [
+      "《诗经》",
+      "《金刚经》",
+      "《史记》",
+      "《资治通鉴》"
+    ],
+    "answer": "《金刚经》",
+    "explanation": "868年印刷的《金刚经》是现存最早有明确日期的雕版印刷品，现藏于英国大英博物馆"
+  },
+  {
+    "id": "history-029",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "唐朝由盛转衰的转折点是：",
+    "options": [
+      "安史之乱",
+      "黄巢起义",
+      "玄武门之变",
+      "武则天称帝"
+    ],
+    "answer": "安史之乱",
+    "explanation": "安史之乱（755-763年）是唐朝由盛转衰的转折点，此后唐朝元气大伤"
+  },
+  {
+    "id": "history-030",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "宋代著名的科学家沈括所著的科技著作是《_____》。",
+    "answer": "梦溪笔谈",
+    "explanation": "沈括的《梦溪笔谈》被英国科学史家李约瑟称为中国科学史上的里程碑"
+  },
+  {
+    "id": "history-031",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "明代开始科举考试采用的文体是：",
+    "options": [
+      "八股文",
+      "策论",
+      "诗赋",
+      "经义"
+    ],
+    "answer": "八股文",
+    "explanation": "明太祖朱元璋开始推行八股文取士，束缚了知识分子的思想"
+  },
+  {
+    "id": "history-032",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "近代中国第一个不平等条约是：",
+    "options": [
+      "《南京条约》",
+      "《马关条约》",
+      "《辛丑条约》",
+      "《北京条约》"
+    ],
+    "answer": "《南京条约》",
+    "explanation": "1842年《南京条约》是中国近代第一个不平等条约，被迫开放五口通商，割让香港岛"
+  },
+  {
+    "id": "history-033",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "洋务运动的代表人物不包括：",
+    "options": [
+      "曾国藩",
+      "李鸿章",
+      "康有为",
+      "左宗棠"
+    ],
+    "answer": "康有为",
+    "explanation": "洋务派代表：曾国藩、李鸿章、左宗棠、张之洞；康有为是维新变法代表"
+  },
+  {
+    "id": "history-034",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "甲午战争后，清政府被迫签订的不平等条约是：",
+    "options": [
+      "《南京条约》",
+      "《天津条约》",
+      "《马关条约》",
+      "《辛丑条约》"
+    ],
+    "answer": "《马关条约》",
+    "explanation": "1895年《马关条约》割让台湾，赔款白银二亿两，开放沙市、重庆等为商埠"
+  },
+  {
+    "id": "history-035",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "中国近代史的开端是_____战争。",
+    "answer": "鸦片",
+    "explanation": "1840年鸦片战争是中国近代史的开端，中国社会性质开始沦为半殖民地半封建社会"
+  },
+  {
+    "id": "history-036",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "戊戌变法的领导人是：",
+    "options": [
+      "林则徐、魏源",
+      "康有为、梁启超",
+      "孙中山、黄兴",
+      "陈独秀、李大钊"
+    ],
+    "answer": "康有为、梁启超",
+    "explanation": "1898年康有为、梁启超等发动戊戌变法，又称百日维新，仅维持103天便失败"
+  },
+  {
+    "id": "history-037",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "辛亥革命爆发的标志是：",
+    "options": [
+      "同盟会成立",
+      "武昌起义",
+      "中华民国成立",
+      "清帝退位"
+    ],
+    "answer": "武昌起义",
+    "explanation": "1911年10月10日武昌起义是辛亥革命的标志，成立了湖北军政府"
+  },
+  {
+    "id": "history-038",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "新文化运动的两面旗帜是：",
+    "options": [
+      "民主与科学",
+      "自由与平等",
+      "富强与民主",
+      "科学与富强"
+    ],
+    "answer": "民主与科学",
+    "explanation": "新文化运动以民主（Democracy）和科学（Science）为旗帜，简称德先生和赛先生"
+  },
+  {
+    "id": "history-039",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界古代史"
+    ],
+    "question": "古代埃及文明产生的地理环境是：",
+    "options": [
+      "两河流域",
+      "尼罗河流域",
+      "印度河流域",
+      "黄河流域"
+    ],
+    "answer": "尼罗河流域",
+    "explanation": "古代埃及文明发源于尼罗河流域，尼罗河的定期泛滥为农业提供了肥沃的土壤"
+  },
+  {
+    "id": "history-040",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界古代史"
+    ],
+    "question": "古巴比伦王国制定的《汉谟拉比法典》是世界上现存的古代第_____部比较完整的成文法典。",
+    "answer": "一",
+    "explanation": "《汉谟拉比法典》是古巴比伦国王汉谟拉比颁布的，是世界上现存最完整的古代法典"
+  },
+  {
+    "id": "history-041",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界古代史"
+    ],
+    "question": "西方文明的发源地是：",
+    "options": [
+      "古代埃及",
+      "古代巴比伦",
+      "古代希腊",
+      "古代罗马"
+    ],
+    "answer": "古代希腊",
+    "explanation": "古希腊是西方文明的发源地，创造了辉煌的城邦文明，产生了苏格拉底、柏拉图、亚里士多德等思想家"
+  },
+  {
+    "id": "history-042",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "文艺复兴运动的中心是：",
+    "options": [
+      "英国",
+      "法国",
+      "意大利",
+      "西班牙"
+    ],
+    "answer": "意大利",
+    "explanation": "意大利是文艺复兴运动的中心，14世纪从佛罗伦萨开始，扩展到整个欧洲"
+  },
+  {
+    "id": "history-043",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "英国资产阶级革命开始的标志是：",
+    "options": [
+      "光荣革命",
+      "长期国会召开",
+      "处死查理一世",
+      "《权利法案》颁布"
+    ],
+    "answer": "长期国会召开",
+    "explanation": "1640年长期国会的召开标志着英国资产阶级革命开始"
+  },
+  {
+    "id": "history-044",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "美国独立战争的转折点是：",
+    "options": [
+      "波士顿倾茶事件",
+      "《独立宣言》发表",
+      "萨拉托加战役",
+      "约克镇战役"
+    ],
+    "answer": "萨拉托加战役",
+    "explanation": "1777年萨拉托加战役是美国独立战争的转折点，此后法国公开参战，帮助美国"
+  },
+  {
+    "id": "history-045",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "法国大革命彻底摧毁封建制度的文件是《_____》。",
+    "answer": "拿破仑法典",
+    "explanation": "《拿破仑法典》（民法典）是一部典型的资产阶级法典，确立了 Napoleonic code"
+  },
+  {
+    "id": "history-046",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "工业革命最先发生在哪个国家？",
+    "options": [
+      "法国",
+      "德国",
+      "英国",
+      "美国"
+    ],
+    "answer": "英国",
+    "explanation": "18世纪60年代，工业革命首先在英国发生，以纺织业的机械化开始"
+  },
+  {
+    "id": "history-047",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "马克思主义诞生的标志是：",
+    "options": [
+      "《共产党宣言》发表",
+      "第一国际成立",
+      "巴黎公社成立",
+      "《资本论》出版"
+    ],
+    "answer": "《共产党宣言》发表",
+    "explanation": "1848年《共产党宣言》的发表标志着马克思主义的诞生"
+  },
+  {
+    "id": "history-048",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "美国南北战争爆发的根本原因是：",
+    "options": [
+      "林肯当选总统",
+      "南方挑起战争",
+      "黑人奴隶制度",
+      "北方工业与南方种植园的矛盾"
+    ],
+    "answer": "北方工业与南方种植园的矛盾",
+    "explanation": "根本原因是北方资本主义工业与南方种植园奴隶制经济之间的矛盾，即关税和奴隶制问题"
+  },
+  {
+    "id": "history-049",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界现代史"
+    ],
+    "question": "第一次世界大战的导火线是：",
+    "options": [
+      "萨拉热窝事件",
+      "同盟国与协约国的形成",
+      "争夺殖民地",
+      "奥匈帝国向塞尔维亚宣战"
+    ],
+    "answer": "萨拉热窝事件",
+    "explanation": "1914年6月28日萨拉热窝事件是一战的导火线，此后奥匈帝国向塞尔维亚宣战"
+  },
+  {
+    "id": "history-050",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界现代史"
+    ],
+    "question": "第二次世界大战全面爆发的标志是_____入侵波兰。",
+    "answer": "德国",
+    "explanation": "1939年9月1日德国入侵波兰，标志着第二次世界大战的全面爆发"
+  },
+  {
+    "id": "geography-021",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-地形"
+    ],
+    "question": "我国最大的平原是：",
+    "options": [
+      "华北平原",
+      "东北平原",
+      "长江中下游平原",
+      "成都平原"
+    ],
+    "answer": "东北平原",
+    "explanation": "东北平原是我国面积最大的平原，约35万平方公里，包括三江平原、松嫩平原、辽河平原"
+  },
+  {
+    "id": "geography-022",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-气候"
+    ],
+    "question": "热带雨林气候主要分布在：",
+    "options": [
+      "赤道附近",
+      "回归线附近",
+      "极圈附近",
+      "温带内陆"
+    ],
+    "answer": "赤道附近",
+    "explanation": "热带雨林气候主要分布在赤道附近，如亚马逊平原、刚果盆地、东南亚群岛"
+  },
+  {
+    "id": "geography-023",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国少数民族数量最多的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "广西壮族自治区",
+      "云南省",
+      "贵州省"
+    ],
+    "answer": "云南省",
+    "explanation": "云南省有25个少数民族，是我国少数民族数量最多的省份"
+  },
+  {
+    "id": "geography-024",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上面积最大的湖泊是：",
+    "options": [
+      "贝加尔湖",
+      "里海",
+      "死海",
+      "青海湖"
+    ],
+    "answer": "里海",
+    "explanation": "里海是世界上面积最大的湖泊，同时也是世界上面积最大的咸水湖，位于亚欧交界处"
+  },
+  {
+    "id": "geography-025",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-河流"
+    ],
+    "question": "长江和黄河都发源于青海省的_____高原。",
+    "answer": "青藏",
+    "explanation": "长江发源于唐古拉山，黄河发源于巴颜喀拉山，都位于青藏高原"
+  },
+  {
+    "id": "geography-026",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-人口"
+    ],
+    "question": "世界上人口最多的大洲是：",
+    "options": [
+      "亚洲",
+      "非洲",
+      "欧洲",
+      "北美洲"
+    ],
+    "answer": "亚洲",
+    "explanation": "亚洲是世界上人口最多的大洲，约47亿人，占世界总人口约60%"
+  },
+  {
+    "id": "geography-027",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-资源"
+    ],
+    "question": "我国土地资源的特点是：",
+    "options": [
+      "总量多，人均少",
+      "总量少，人均多",
+      "总量多，人均多",
+      "总量少，人均少"
+    ],
+    "answer": "总量多，人均少",
+    "explanation": "我国土地资源总量居世界前列，但人均占有量远低于世界平均水平"
+  },
+  {
+    "id": "geography-028",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上最高的高原是：",
+    "options": [
+      "巴西高原",
+      "青藏高原",
+      "东非高原",
+      "德干高原"
+    ],
+    "answer": "青藏高原",
+    "explanation": "青藏高原平均海拔4000米以上，被称为世界屋脊，是世界上最高的高原"
+  },
+  {
+    "id": "geography-029",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-气候"
+    ],
+    "question": "我国季风气候的特点是：",
+    "options": [
+      "夏季温和少雨，冬季寒冷多雨",
+      "夏季高温多雨，冬季寒冷干燥",
+      "全年温和湿润",
+      "全年炎热干燥"
+    ],
+    "answer": "夏季高温多雨，冬季寒冷干燥",
+    "explanation": "我国大部分地区属于季风气候，夏季受来自太平洋的东南季风影响，高温多雨；冬季受来自内陆的西北季风影响，寒冷干燥"
+  },
+  {
+    "id": "geography-030",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上最长的河流是非洲的_____河。",
+    "answer": "尼罗",
+    "explanation": "尼罗河全长约6670公里，是世界上最长的河流，主要流经埃及、苏丹等国家"
+  },
+  {
+    "id": "geography-031",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "内蒙古自治区",
+      "新疆维吾尔自治区",
+      "西藏自治区",
+      "四川省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区"
+  },
+  {
+    "id": "geography-032",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-经济"
+    ],
+    "question": "发达国家主要分布在：",
+    "options": [
+      "亚洲、非洲、拉丁美洲",
+      "北美洲、欧洲、大洋洲",
+      "南美洲、非洲、大洋洲",
+      "亚洲、欧洲、南美洲"
+    ],
+    "answer": "北美洲、欧洲、大洋洲",
+    "explanation": "发达国家主要集中在北美洲（如美国、加拿大）、欧洲（如英、法、德）和大洋洲（如澳大利亚、新西兰）"
+  },
+  {
+    "id": "geography-033",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上海拔最高的山峰是：",
+    "options": [
+      "乞力马扎罗山",
+      "乔戈里峰",
+      "珠穆朗玛峰",
+      "干城章嘉峰"
+    ],
+    "answer": "珠穆朗玛峰",
+    "explanation": "珠穆朗玛峰海拔8848.86米，是世界最高峰，位于中国与尼泊尔边境"
+  },
+  {
+    "id": "geography-034",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-交通"
+    ],
+    "question": "我国最重要的铁路干线京广线的起止点是：",
+    "options": [
+      "北京-广州",
+      "北京-上海",
+      "上海-广州",
+      "南京-北京"
+    ],
+    "answer": "北京-广州",
+    "explanation": "京广线北起北京，南至广州，全长约2300公里，是我国最重要的南北铁路干线"
+  },
+  {
+    "id": "geography-035",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界面积最大的大洲是_____洲。",
+    "answer": "亚",
+    "explanation": "亚洲面积约4458万平方公里，是世界面积最大的大洲"
+  },
+  {
+    "id": "geography-036",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-气候"
+    ],
+    "question": "我国年降水量分布的总趋势是：",
+    "options": [
+      "从东南向西北递减",
+      "从西北向东南递减",
+      "从北向南递减",
+      "从南向北递减"
+    ],
+    "answer": "从东南向西北递减",
+    "explanation": "受夏季风影响，我国年降水量从东南向西北递减，东南沿海地区降水多，西北内陆地区降水少"
+  },
+  {
+    "id": "geography-037",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "撒哈拉沙漠位于：",
+    "options": [
+      "亚洲",
+      "非洲",
+      "澳大利亚",
+      "南美洲"
+    ],
+    "answer": "非洲",
+    "explanation": "撒哈拉沙漠位于非洲北部，是世界上面积最大的沙漠，约920万平方公里"
+  },
+  {
+    "id": "geography-038",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国纬度最高的省级行政区是：",
+    "options": [
+      "黑龙江省",
+      "吉林省",
+      "内蒙古自治区",
+      "新疆维吾尔自治区"
+    ],
+    "answer": "黑龙江省",
+    "explanation": "黑龙江省位于我国最东北部，是我国纬度最高的省份，漠河镇有北极村之称"
+  },
+  {
+    "id": "geography-039",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "澳大利亚大陆主要位于哪个温度带？",
+    "options": [
+      "热带",
+      "南温带",
+      "北温带",
+      "寒带"
+    ],
+    "answer": "南温带",
+    "explanation": "澳大利亚大陆约三分之二位于南回归线以南，主要属于南温带"
+  },
+  {
+    "id": "geography-040",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-地形"
+    ],
+    "question": "我国地势的特点是西高东低，呈_____级阶梯状分布。",
+    "answer": "三",
+    "explanation": "我国地势呈三级阶梯状分布：青藏高原为第一级阶梯，海拔4000米以上；黄土高原、云贵高原等为第二级阶梯；东北平原、华北平原等为第三级阶梯"
+  },
+  {
+    "id": "politics-021",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "心理品质"
+    ],
+    "question": "一个人具有良好的心理品质，有助于：",
+    "options": [
+      "只对学习有帮助",
+      "只对交往有帮助",
+      "身心健康成长，更好地适应社会",
+      "只对工作有帮助"
+    ],
+    "answer": "身心健康成长，更好地适应社会",
+    "explanation": "良好的心理品质对一个人的全面发展具有重要意义，有助于身心健康成长，更好地适应社会"
+  },
+  {
+    "id": "politics-022",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "挫折认识"
+    ],
+    "question": "对挫折的理解正确的是：",
+    "options": [
+      "挫折只会给人带来痛苦",
+      "挫折是人生的一部分",
+      "挫折是可以完全避免的",
+      "经历过挫折的人都会成功"
+    ],
+    "answer": "挫折是人生的一部分",
+    "explanation": "挫折是人生的一部分，没有人能一帆风顺，挫折既有消极作用也有积极作用"
+  },
+  {
+    "id": "politics-023",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "情绪低落时，正确的调节方法是：",
+    "options": [
+      "借酒消愁",
+      "大发脾气",
+      "转移注意力",
+      "压抑自己"
+    ],
+    "answer": "转移注意力",
+    "explanation": "转移注意力是调节情绪的好方法，如听音乐、运动、看书等；借酒消愁伤害身体，大发脾气影响人际关系"
+  },
+  {
+    "id": "politics-024",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "情绪的成分不包括：",
+    "options": [
+      "内在体验",
+      "外在表现",
+      "意志水平",
+      "生理唤醒"
+    ],
+    "answer": "意志水平",
+    "explanation": "情绪的成分包括：内在体验（感受）、外在表现（表情）、生理唤醒（生理变化）"
+  },
+  {
+    "id": "politics-025",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "自尊是既不向别人卑躬屈膝，也不允许别人歧视、侮辱的_____。",
+    "answer": "思想品质",
+    "explanation": "自尊是一种自己尊重自己、爱护自己，并期望受到他人、集体和社会尊重的内心体验，是一种积极的心理品质"
+  },
+  {
+    "id": "politics-026",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "未成年人的不良行为包括：",
+    "options": [
+      "上课认真听讲",
+      "旷课、夜不归宿",
+      "按时完成作业",
+      "遵守校纪校规"
+    ],
+    "answer": "旷课、夜不归宿",
+    "explanation": "旷课、夜不归宿属于未成年人的不良行为；按时完成作业、遵守校纪校规是良好行为"
+  },
+  {
+    "id": "politics-027",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "保护未成年人合法权益的专门法律是：",
+    "options": [
+      "《宪法》",
+      "《未成年人保护法》",
+      "《义务教育法》",
+      "《婚姻法》"
+    ],
+    "answer": "《未成年人保护法》",
+    "explanation": "《未成年人保护法》是专门保护未成年人合法权益的法律，分为家庭保护、学校保护、社会保护、司法保护四部分"
+  },
+  {
+    "id": "politics-028",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "个人与集体"
+    ],
+    "question": "个人与集体的关系是：",
+    "options": [
+      "个人利益高于集体利益",
+      "集体利益和个人利益同等重要",
+      "个人离开集体就无法生存",
+      "集体离开个人也能存在"
+    ],
+    "answer": "集体利益和个人利益同等重要",
+    "explanation": "个人与集体相互依存，集体利益和个人利益都很重要，应该把集体利益放在首位，但也尊重个人正当利益"
+  },
+  {
+    "id": "politics-029",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "行为与后果"
+    ],
+    "question": "行为与后果的关系是：",
+    "options": [
+      "行为与后果没有必然联系",
+      "一种行为只会产生一种后果",
+      "行为必然产生后果，有行为必有后果",
+      "有些行为有后果，有些行为没有后果"
+    ],
+    "answer": "行为必然产生后果，有行为必有后果",
+    "explanation": "行为与后果具有一致性，有行为就必然产生后果，行为不同后果也不同"
+  },
+  {
+    "id": "politics-030",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "我国宪法规定，公民有言论、出版、集会、结社、游行、示威的_____。",
+    "answer": "自由权利",
+    "explanation": "这是我国公民享有的政治自由权利，是公民参与国家政治生活的基础"
+  },
+  {
+    "id": "politics-031",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "关于情绪的描述，不正确的是：",
+    "options": [
+      "情绪是复杂的",
+      "情绪是可以调控的",
+      "情绪对青少年没有影响",
+      "情绪可以分为喜、怒、哀、惧等"
+    ],
+    "answer": "情绪对青少年没有影响",
+    "explanation": "情绪对人的身心健康、行为、人际关系等都有重要影响，因此需要学会调节情绪"
+  },
+  {
+    "id": "politics-032",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "责任意识"
+    ],
+    "question": "做负责任的人，应该做到：",
+    "options": [
+      "逃避责任",
+      "减少责任",
+      "信守承诺勇担过错",
+      "只承担他人责任"
+    ],
+    "answer": "信守承诺勇担过错",
+    "explanation": "做负责任的人要：信守承诺，勇担过错，勇担责任，主动承担责任，不推卸责任"
+  },
+  {
+    "id": "politics-033",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "诚实守信是：",
+    "options": [
+      "中华民族的最高道德理想",
+      "中华民族的传统美德",
+      "做人的基本要求",
+      "以上都是"
+    ],
+    "answer": "以上都是",
+    "explanation": "诚实守信是中华民族的传统美德，是做人的基本要求，是中华民族的最高道德理想之一"
+  },
+  {
+    "id": "politics-034",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "一般违法行为与犯罪的区别是：",
+    "options": [
+      "社会危害性大小不同",
+      "都要受到法律制裁",
+      "违反的都是法律",
+      "都是危害社会的行为"
+    ],
+    "answer": "社会危害性大小不同",
+    "explanation": "一般违法行为和犯罪都违反法律，但社会危害性大小不同，犯罪是严重违法行为"
+  },
+  {
+    "id": "politics-035",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "挫折应对"
+    ],
+    "question": "面对挫折时，我们要学会一些应对方法，如请求帮助、_____和自我疏导等。",
+    "answer": "自我疏导",
+    "explanation": "应对挫折的方法包括：请求帮助、自我疏导（写日记、倾诉）、心理安慰、目标调整等"
+  },
+  {
+    "id": "politics-036",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "网络道德"
+    ],
+    "question": "青少年正确使用网络应该：",
+    "options": [
+      "随意浏览不良信息",
+      "遵守道德和法律，不恶意制造和传播信息",
+      "匿名攻击他人",
+      "沉溺于网络游戏"
+    ],
+    "answer": "遵守道德和法律，不恶意制造和传播信息",
+    "explanation": "青少年使用网络要遵守《青少年网络文明公约》，文明上网，遵守道德和法律"
+  },
+  {
+    "id": "politics-037",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "自卑与自负的共同点是：",
+    "options": [
+      "都是正确的自我评价",
+      "都不能客观地看待自己",
+      "都是对自己不利的",
+      "都是对自己有利的"
+    ],
+    "answer": "都不能客观地看待自己",
+    "explanation": "自卑与自负都是不能正确认识自己的表现，自卑低估自己，自负高估自己，都是不客观的"
+  },
+  {
+    "id": "politics-038",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "依法服兵役是：",
+    "options": [
+      "大人们的义务",
+      "成年人的义务",
+      "中华人民共和国公民的基本义务",
+      "自愿的行为"
+    ],
+    "answer": "中华人民共和国公民的基本义务",
+    "explanation": "依照法律服兵役是中华人民共和国公民的基本义务，体现了公民对国家的责任"
+  },
+  {
+    "id": "politics-039",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "情绪ABC理论中，A代表：",
+    "options": [
+      "情绪",
+      "诱发性事件",
+      "信念和想法",
+      "行为和结果"
+    ],
+    "answer": "诱发性事件",
+    "explanation": "情绪ABC理论：A是诱发性事件（Activating event），B是信念和想法（Belief），C是行为和结果（Consequence）"
+  },
+  {
+    "id": "politics-040",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "《中华人民共和国未成年人保护法》从1992年1月1日起施行，于2007年和2012年进行了两次_____。",
+    "answer": "修订",
+    "explanation": "《未成年人保护法》于2007年和2012年进行了修订，不断完善对未成年人的保护"
+  },
+  {
+    "id": "math-079",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "在三角形ABC中，角A=90度，角B=45度，则角C=_____",
+    "options": [
+      "45度",
+      "90度",
+      "135度",
+      "30度"
+    ],
+    "answer": "45度",
+    "explanation": "三角形内角和180度，180-90-45=45度"
+  },
+  {
+    "id": "math-080",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "已知点A(2,3)，B(-1,3)，则AB的长度为_____",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": "3",
+    "explanation": "AB = |2-(-1)| = 3，横坐标差为3，纵坐标相同"
+  },
+  {
+    "id": "math-081",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：(-a)的三次方 = _____",
+    "options": [
+      "-a³",
+      "a³",
+      "-a",
+      "a"
+    ],
+    "answer": "-a³",
+    "explanation": "(-a)³ = (-1)³·a³ = -a³"
+  },
+  {
+    "id": "math-082",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式组 x>3 和 x<7 的解集是_____",
+    "options": [
+      "3<x<7",
+      "x>3",
+      "x<7",
+      "无解"
+    ],
+    "answer": "3<x<7",
+    "explanation": "两个不等式同时成立，取交集得 3<x<7"
+  },
+  {
+    "id": "math-083",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算：2³ = _____",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "16"
+    ],
+    "answer": "8",
+    "explanation": "2³ = 2×2×2 = 8"
+  },
+  {
+    "id": "math-084",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：x² - 4x + 4 = _____",
+    "options": [
+      "(x-2)²",
+      "(x+2)²",
+      "(x-4)(x+1)",
+      "(x+1)(x-4)"
+    ],
+    "answer": "(x-2)²",
+    "explanation": "完全平方公式：a²-2ab+b²=(a-b)²，这里x²-4x+4=(x-2)²"
+  },
+  {
+    "id": "math-085",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "9的平方根是_____",
+    "options": [
+      "3",
+      "-3",
+      "±3",
+      "81"
+    ],
+    "answer": "±3",
+    "explanation": "平方根是指正负两个，√9=3，所以平方根是±3"
+  },
+  {
+    "id": "math-086",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "解方程组 x+2y=7, 2x-y=4，x=_____",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "由第一个方程x=7-2y，代入第二个：2(7-2y)-y=4→14-4y-y=4→-5y=-10→y=2→x=3"
+  },
+  {
+    "id": "math-087",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "等边三角形每个角是_____度",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "answer": "60",
+    "explanation": "等边三角形三个角相等，180÷3=60度"
+  },
+  {
+    "id": "math-088",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "分式"
+    ],
+    "question": "当 x=_____ 时，分式 (x-3)/(x+1) 的值为零",
+    "options": [
+      "3",
+      "-3",
+      "1",
+      "-1"
+    ],
+    "answer": "3",
+    "explanation": "分式为零的条件：分子=0且分母≠0，x-3=0得x=3，代入分母3+1=4≠0，所以x=3"
+  },
+  {
+    "id": "math-089",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：5a - 3a = _____",
+    "options": [
+      "2",
+      "2a",
+      "8a",
+      "15a"
+    ],
+    "answer": "2a",
+    "explanation": "合并同类项，系数相减：5-3=2"
+  },
+  {
+    "id": "math-090",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "函数 y = -3x + 2，y随x的增大而_____",
+    "options": [
+      "增大",
+      "减小",
+      "不变",
+      "先增后减"
+    ],
+    "answer": "减小",
+    "explanation": "k=-3<0，所以y随x增大而减小"
+  },
+  {
+    "id": "math-091",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "任何不等于零的数的零次幂等于_____",
+    "options": [
+      "0",
+      "1",
+      "该数本身",
+      "无穷大"
+    ],
+    "answer": "1",
+    "explanation": "a⁰ = 1（a≠0），这是零指数幂的规定"
+  },
+  {
+    "id": "math-092",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一元一次方程"
+    ],
+    "question": "方程 4x + 3 = 2x + 9 的解是 x=_____",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "4x-2x=9-3，2x=6，x=3"
+  },
+  {
+    "id": "math-093",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点(0,5)在_____轴上",
+    "options": [
+      "x",
+      "y",
+      "原点",
+      "无法确定"
+    ],
+    "answer": "y",
+    "explanation": "x=0时点在y轴上"
+  },
+  {
+    "id": "math-094",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形的两边长分别为3和5，则第三边a的取值范围是_____",
+    "options": [
+      "2<a<8",
+      "2<a<5",
+      "3<a<8",
+      "a>2"
+    ],
+    "answer": "2<a<8",
+    "explanation": "三角形两边之和大于第三边，两边之差小于第三边：5-3<a<5+3，即2<a<8"
+  },
+  {
+    "id": "math-095",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "最小的正整数是_____",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "不存在"
+    ],
+    "answer": "1",
+    "explanation": "正整数是大于0的整数，最小的是1；0不是正数也不是负数"
+  },
+  {
+    "id": "math-096",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：3x² - 12 = _____",
+    "options": [
+      "3(x-2)²",
+      "3(x+2)(x-2)",
+      "(3x-6)(x+2)",
+      "3x(x-4)"
+    ],
+    "answer": "3(x+2)(x-2)",
+    "explanation": "先提公因式3：3(x²-4)，再用平方差公式x²-4=(x+2)(x-2)"
+  },
+  {
+    "id": "math-097",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算：10³ = _____",
+    "options": [
+      "30",
+      "100",
+      "1000",
+      "10000"
+    ],
+    "answer": "1000",
+    "explanation": "10³ = 10×10×10 = 1000"
+  },
+  {
+    "id": "math-098",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "若x+y=5，且x-y=1，则x和y分别为_____",
+    "options": [
+      "3和2",
+      "2和3",
+      "4和1",
+      "5和0"
+    ],
+    "answer": "3和2",
+    "explanation": "相加：2x=6→x=3，相减：2y=4→y=2"
+  },
+  {
+    "id": "math-099",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "单项式 -3x²y 的系数是_____",
+    "options": [
+      "-3",
+      "3",
+      "-2",
+      "2"
+    ],
+    "answer": "-3",
+    "explanation": "单项式中的数字因数叫系数，-3x²y的系数是-3"
+  },
+  {
+    "id": "math-100",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式 -x > 3 的解集是_____",
+    "options": [
+      "x > -3",
+      "x < -3",
+      "x > 3",
+      "x < 3"
+    ],
+    "answer": "x < -3",
+    "explanation": "两边除以-1（负数变号）：x < -3"
+  },
+  {
+    "id": "math-101",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "(-2)的二次方 = _____",
+    "options": [
+      "4",
+      "-4",
+      "2",
+      "-2"
+    ],
+    "answer": "4",
+    "explanation": "(-2)² = (-2)×(-2) = 4，负负得正"
+  },
+  {
+    "id": "math-102",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "正比例函数 y = kx，当 x=2 时 y=6，则 k=_____",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "12"
+    ],
+    "answer": "3",
+    "explanation": "6 = k×2，k = 3"
+  },
+  {
+    "id": "math-103",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形的外角一定_____内角",
+    "options": [
+      "大于",
+      "小于",
+      "等于",
+      "无法确定"
+    ],
+    "answer": "大于",
+    "explanation": "三角形的一个外角大于任何一个与它不相邻的内角"
+  },
+  {
+    "id": "math-104",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：(x+1)(x-1) = _____",
+    "options": [
+      "x²-1",
+      "x²+1",
+      "x²-2x+1",
+      "x²+2x+1"
+    ],
+    "answer": "x²-1",
+    "explanation": "平方差公式：(x+1)(x-1) = x²-1"
+  },
+  {
+    "id": "math-105",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "下列是无理数的是_____",
+    "options": [
+      "√9",
+      "π",
+      "0.5",
+      "1/3"
+    ],
+    "answer": "π",
+    "explanation": "π是无限不循环小数，是无理数；√9=3是有理数"
+  },
+  {
+    "id": "math-106",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "分式"
+    ],
+    "question": "分式 (x²-4)/(x-2) 化简结果是_____",
+    "options": [
+      "x-2",
+      "x+2",
+      "x²-2",
+      "x²+2"
+    ],
+    "answer": "x+2",
+    "explanation": "x²-4=(x+2)(x-2)，约去(x-2)得x+2"
+  },
+  {
+    "id": "math-107",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "a⁴ ÷ a² = _____",
+    "options": [
+      "a²",
+      "a⁶",
+      "a⁸",
+      "1"
+    ],
+    "answer": "a²",
+    "explanation": "同底数幂相除，指数相减：a⁴⁻² = a²"
+  },
+  {
+    "id": "math-108",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点P(-3,4)到原点的距离是_____",
+    "options": [
+      "5",
+      "7",
+      "1",
+      "25"
+    ],
+    "answer": "5",
+    "explanation": "距离 = √((-3)²+4²) = √(9+16) = √25 = 5"
+  },
+  {
+    "id": "math-109",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "多项式 4x² - 3x + 1 是_____次_____项式",
+    "options": [
+      "二，三",
+      "二，二",
+      "一，三",
+      "三，四"
+    ],
+    "answer": "二，三",
+    "explanation": "最高次数是2次，有三项，是二次三项式"
+  },
+  {
+    "id": "math-110",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一元一次方程"
+    ],
+    "question": "方程 5 - 2x = 1 的解是 x=_____",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "-2"
+    ],
+    "answer": "2",
+    "explanation": "-2x = 1-5 = -4，x = 2"
+  },
+  {
+    "id": "math-111",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "直角三角形的两锐角和是_____度",
+    "options": [
+      "90",
+      "180",
+      "360",
+      "45"
+    ],
+    "answer": "90",
+    "explanation": "直角三角形内角和180度，直角90度，两锐角和为90度"
+  },
+  {
+    "id": "math-112",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：x² + 6x + 9 = _____",
+    "options": [
+      "(x+3)²",
+      "(x-3)²",
+      "(x+9)(x+1)",
+      "(x-9)(x+1)"
+    ],
+    "answer": "(x+3)²",
+    "explanation": "完全平方公式：x²+2·x·3+3²=(x+3)²"
+  },
+  {
+    "id": "math-113",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "(-1)的2026次方 = _____",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "2026"
+    ],
+    "answer": "1",
+    "explanation": "偶数次幂，(-1)²⁰²⁶ = 1"
+  },
+  {
+    "id": "math-114",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "一次函数 y = 5x - 3 与x轴的交点是_____",
+    "options": [
+      "(0,-3)",
+      "(3/5,0)",
+      "(0,3/5)",
+      "(-3,0)"
+    ],
+    "answer": "(3/5,0)",
+    "explanation": "与x轴相交时y=0，0=5x-3，x=3/5，所以交点是(3/5,0)"
+  },
+  {
+    "id": "math-115",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "数轴上的点与_____一一对应",
+    "options": [
+      "整数",
+      "有理数",
+      "实数",
+      "自然数"
+    ],
+    "answer": "实数",
+    "explanation": "数轴上的每个点唯一对应一个实数，实数与数轴上的点一一对应"
+  },
+  {
+    "id": "math-116",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "方程组 x+2y=6, x-2y=2 的解是_____",
+    "options": [
+      "x=4,y=1",
+      "x=2,y=2",
+      "x=3,y=1.5",
+      "x=1,y=4"
+    ],
+    "answer": "x=4,y=1",
+    "explanation": "相加：2x=8→x=4，代入：4+2y=6→2y=2→y=1"
+  },
+  {
+    "id": "math-117",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "2的负一次方 = _____",
+    "options": [
+      "-2",
+      "-1/2",
+      "1/2",
+      "2"
+    ],
+    "answer": "1/2",
+    "explanation": "2⁻¹ = 1/2¹ = 1/2"
+  },
+  {
+    "id": "math-118",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "在△ABC中，AB=AC，若角A=40度，则角B=_____度",
+    "options": [
+      "40",
+      "70",
+      "140",
+      "50"
+    ],
+    "answer": "70",
+    "explanation": "等腰三角形，角B=角C=(180-40)/2=70度"
+  },
+  {
+    "id": "math-119",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：(a³)² = _____",
+    "options": [
+      "a⁵",
+      "a⁶",
+      "a⁹",
+      "2a³"
+    ],
+    "answer": "a⁶",
+    "explanation": "幂的乘方，指数相乘：(a³)² = a³˟² = a⁶"
+  },
+  {
+    "id": "math-120",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式 3x - 1 ≤ 5 的解集是_____",
+    "options": [
+      "x ≤ 2",
+      "x ≥ 2",
+      "x ≤ -2",
+      "x ≥ -2"
+    ],
+    "answer": "x ≤ 2",
+    "explanation": "3x ≤ 6，x ≤ 2"
+  },
+  {
+    "id": "math-121",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形的三条高交于一点，这一点叫三角形的_____",
+    "options": [
+      "重心",
+      "垂心",
+      "内心",
+      "外心"
+    ],
+    "answer": "垂心",
+    "explanation": "三角形三条高的交点叫垂心；重心是三条中线的交点；内心是三条角平分线的交点；外心是三条垂直平分线的交点"
+  },
+  {
+    "id": "math-122",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "分式"
+    ],
+    "question": "分式方程 1/x = 1/3 的解是_____",
+    "options": [
+      "x=3",
+      "x=1/3",
+      "x=0",
+      "无解"
+    ],
+    "answer": "x=3",
+    "explanation": "两边倒数：x=3，注意x不能为0"
+  },
+  {
+    "id": "math-123",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "若 a² = 16，则 a = _____",
+    "options": [
+      "4",
+      "-4",
+      "±4",
+      "8"
+    ],
+    "answer": "±4",
+    "explanation": "平方根有两个，a = ±4"
+  },
+  {
+    "id": "math-124",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：m² - n² = _____",
+    "options": [
+      "(m-n)²",
+      "(m+n)²",
+      "(m-n)(m+n)",
+      "(m+n)(m-n)"
+    ],
+    "answer": "(m-n)(m+n)",
+    "explanation": "平方差公式：a²-b²=(a-b)(a+b)"
+  },
+  {
+    "id": "math-125",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：-5 + 3 = _____",
+    "options": [
+      "-8",
+      "-2",
+      "2",
+      "8"
+    ],
+    "answer": "-2",
+    "explanation": "-5+3=-2"
+  },
+  {
+    "id": "math-126",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "方程组 3x+y=10, x-y=2 的解中 x+y=_____",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "6",
+    "explanation": "相加：4x=12→x=3，代入：3-y=2→y=1，所以x+y=4"
+  },
+  {
+    "id": "math-127",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "若点P在第四象限，则点P的坐标特点是_____",
+    "options": [
+      "x>0,y>0",
+      "x>0,y<0",
+      "x<0,y>0",
+      "x<0,y<0"
+    ],
+    "answer": "x>0,y<0",
+    "explanation": "第四象限：x>0（正），y<0（负）"
+  },
+  {
+    "id": "math-128",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式 x-3 > 2 的解集在数轴上表示正确的是_____",
+    "options": [
+      "x>5",
+      "x<5",
+      "x>1",
+      "x<1"
+    ],
+    "answer": "x>5",
+    "explanation": "x-3>2，x>5"
+  },
+  {
+    "id": "math-129",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形具有_____性",
+    "options": [
+      "稳定",
+      "灵活",
+      "对称",
+      "以上都不是"
+    ],
+    "answer": "稳定",
+    "explanation": "三角形具有稳定性，四边形具有不稳定性"
+  },
+  {
+    "id": "math-130",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "函数 y = -2x + 4，当 x 增大时，y _____",
+    "options": [
+      "增大",
+      "减小",
+      "不变",
+      "先增后减"
+    ],
+    "answer": "减小",
+    "explanation": "k=-2<0，y随x增大而减小"
+  },
+  {
+    "id": "math-131",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算：(-3)² = _____",
+    "options": [
+      "9",
+      "-9",
+      "6",
+      "-6"
+    ],
+    "answer": "9",
+    "explanation": "(-3)² = 9，负数平方得正"
+  },
+  {
+    "id": "math-132",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：(x-y)² - 4 = _____",
+    "options": [
+      "(x-y-2)(x-y+2)",
+      "(x-y-2)²",
+      "(x+y-2)(x-y+2)",
+      "(x-y+2)²"
+    ],
+    "answer": "(x-y-2)(x-y+2)",
+    "explanation": "平方差：a²-b²=(a-b)(a+b)，这里a=(x-y)，b=2"
+  },
+  {
+    "id": "math-133",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "去括号：-(a-b) = _____",
+    "options": [
+      "-a-b",
+      "-a+b",
+      "a-b",
+      "a+b"
+    ],
+    "answer": "-a+b",
+    "explanation": "-(a-b) = -a+(-b) = -a+b，或直接：负号分配"
+  },
+  {
+    "id": "math-134",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "下列说法正确的是：",
+    "options": [
+      "有限小数是有理数",
+      "无限不循环小数是有理数",
+      "带根号的数都是无理数",
+      "所有分数都是有理数"
+    ],
+    "answer": "有限小数是有理数",
+    "explanation": "有限小数和无限循环小数都是有理数；无限不循环小数是无理数；√4=2是有理数"
+  },
+  {
+    "id": "math-135",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "一个三角形的三个内角度数比为1:2:3，则最大角是_____度",
+    "options": [
+      "30",
+      "60",
+      "90",
+      "45"
+    ],
+    "answer": "90",
+    "explanation": "设三角分别为x,2x,3x，x+2x+3x=180，6x=180，x=30，最大角3x=90度"
+  },
+  {
+    "id": "math-136",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "分式"
+    ],
+    "question": "化简：(x²+2x+1)/(x+1) = _____",
+    "options": [
+      "x+1",
+      "x²+2",
+      "x-1",
+      "x²-1"
+    ],
+    "answer": "x+1",
+    "explanation": "分子=(x+1)²，约去(x+1)得x+1"
+  },
+  {
+    "id": "math-137",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算：0.1¹ = _____",
+    "options": [
+      "0.1",
+      "1",
+      "10",
+      "0.01"
+    ],
+    "answer": "0.1",
+    "explanation": "0.1¹ = 0.1"
+  },
+  {
+    "id": "math-138",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一元一次方程"
+    ],
+    "question": "方程 7x + 2 = 3x + 18 的解是 x=_____",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "explanation": "7x-3x=18-2，4x=16，x=4"
+  },
+  {
+    "id": "math-139",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：(-7) + 4 = _____",
+    "options": [
+      "-11",
+      "-3",
+      "3",
+      "11"
+    ],
+    "answer": "-3",
+    "explanation": "-7+4=-3"
+  },
+  {
+    "id": "math-140",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "用代入法解方程组 y=2x, x+y=9，x=_____",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "代入：x+2x=9，3x=9，x=3"
+  },
+  {
+    "id": "math-141",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "等腰三角形的顶角是50度，底角是_____度",
+    "options": [
+      "50",
+      "65",
+      "130",
+      "40"
+    ],
+    "answer": "65",
+    "explanation": "底角=(180-50)/2=65度"
+  },
+  {
+    "id": "math-142",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "一次函数 y = kx + b，k>0且b<0，图像经过第_____象限",
+    "options": [
+      "一、二",
+      "一、三",
+      "二、三、四",
+      "一、三、四"
+    ],
+    "answer": "一、三、四",
+    "explanation": "k>0过一三象限，b<0过四象限，综合过一、三、四象限"
+  },
+  {
+    "id": "math-143",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "若 a³ = 27，则 a = _____",
+    "options": [
+      "3",
+      "9",
+      "27",
+      "±3"
+    ],
+    "answer": "3",
+    "explanation": "a³=27，a=3"
+  },
+  {
+    "id": "math-144",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "question": "不等式组 2x<6, x+1>2 的解集是_____",
+    "options": [
+      "x<3",
+      "x>1",
+      "1<x<3",
+      "x>3"
+    ],
+    "answer": "1<x<3",
+    "explanation": "2x<6→x<3，x+1>2→x>1，取交集1<x<3"
+  },
+  {
+    "id": "math-145",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点(2,-3)在第_____象限",
+    "options": [
+      "一",
+      "二",
+      "三",
+      "四"
+    ],
+    "answer": "四",
+    "explanation": "第四象限：x>0，y<0"
+  },
+  {
+    "id": "math-146",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "因式分解：5x²y - 10xy² = _____",
+    "options": [
+      "5xy(x-y)",
+      "5xy(x-2y)",
+      "5x²(y-2y)",
+      "5xy(x+y)"
+    ],
+    "answer": "5xy(x-2y)",
+    "explanation": "提公因式5xy：5xy(x-2y)"
+  },
+  {
+    "id": "math-147",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算：-2 × (-3) = _____",
+    "options": [
+      "-6",
+      "6",
+      "-5",
+      "5"
+    ],
+    "answer": "6",
+    "explanation": "负负得正，-2×(-3)=6"
+  },
+  {
+    "id": "math-148",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "√2 约等于_____（保留两位小数）",
+    "options": [
+      "1.41",
+      "1.73",
+      "2.24",
+      "1.50"
+    ],
+    "answer": "1.41",
+    "explanation": "√2≈1.41421356，保留两位小数1.41"
+  },
+  {
+    "id": "math-149",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算：2³ × 2⁴ = _____",
+    "options": [
+      "2⁷",
+      "2¹²",
+      "4⁷",
+      "2⁷或128"
+    ],
+    "answer": "2⁷",
+    "explanation": "同底数幂相乘，指数相加：2³⁺⁴=2⁷=128"
+  },
+  {
+    "id": "math-150",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "已知等腰三角形一边为4，另一边为9，周长是_____",
+    "options": [
+      "17",
+      "22",
+      "13",
+      "17或22"
+    ],
+    "answer": "22",
+    "explanation": "等腰三角形两腰相等，4+9+9=22（4+4=8<9不成立）；9+9+4=22（9+4>9成立）"
+  },
+  {
+    "id": "english-076",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态"
+    ],
+    "question": "She _____ TV now.",
+    "options": [
+      "watch",
+      "watches",
+      "is watching",
+      "watched"
+    ],
+    "answer": "is watching",
+    "explanation": "now是现在进行时的标志，主语+is/am/are+动词ing，she用is"
+  },
+  {
+    "id": "english-077",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "The word 'receive' means _____",
+    "options": [
+      "to give",
+      "to get",
+      "to send",
+      "to take"
+    ],
+    "answer": "to get",
+    "explanation": "receive表示收到、接到，是及物动词"
+  },
+  {
+    "id": "english-078",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "介词"
+    ],
+    "question": "We will meet _____ the school gate.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "at the school gate在学校门口，gate是点状地点用at"
+  },
+  {
+    "id": "english-079",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "从句"
+    ],
+    "question": "I don't know _____ she is.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "who在从句中作表语，表示是谁；whom作宾语；whose表示所属"
+  },
+  {
+    "id": "english-080",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词性辨析"
+    ],
+    "question": "The 'careful' is an _____",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "answer": "adjective",
+    "explanation": "careful是形容词，carefully是副词"
+  },
+  {
+    "id": "english-081",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "固定搭配"
+    ],
+    "question": "He is good _____ English.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "with"
+    ],
+    "answer": "at",
+    "explanation": "be good at擅长，固定搭配"
+  },
+  {
+    "id": "english-082",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态"
+    ],
+    "question": "They usually _____ football after school.",
+    "options": [
+      "play",
+      "plays",
+      "playing",
+      "played"
+    ],
+    "answer": "play",
+    "explanation": "usually是一般现在时的标志，主语they，复数，动词用原形"
+  },
+  {
+    "id": "english-083",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "Which sentence uses 'borrow' correctly?",
+    "options": [
+      "I borrowed her a book.",
+      "I borrowed a book from her.",
+      "She borrowed me a book.",
+      "I borrowed with her book."
+    ],
+    "answer": "I borrowed a book from her.",
+    "explanation": "borrow...from从...借，lend...to借给...，borrow不能用双宾语结构"
+  },
+  {
+    "id": "english-084",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "名词所有格"
+    ],
+    "question": "This is _____ desk.",
+    "options": [
+      "Tom and Jerry",
+      "Tom's and Jerry's",
+      "Tom and Jerry's",
+      "TomJerry's"
+    ],
+    "answer": "Tom and Jerry's",
+    "explanation": "两人共有，在最后一个名词后加所有格；分别拥有各加所有格"
+  },
+  {
+    "id": "english-085",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "情态动词"
+    ],
+    "question": "You _____ finish your homework before you go out.",
+    "options": [
+      "must",
+      "can",
+      "may",
+      "need"
+    ],
+    "answer": "must",
+    "explanation": "must必须，表示必要性，mustn't表示禁止"
+  },
+  {
+    "id": "english-086",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "介词"
+    ],
+    "question": "My birthday is _____ June.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "answer": "in",
+    "explanation": "月份前用in，具体的日期或星期几用on"
+  },
+  {
+    "id": "english-087",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "比较级"
+    ],
+    "question": "This book is _____ than that one.",
+    "options": [
+      "interesting",
+      "more interesting",
+      "most interesting",
+      "much interesting"
+    ],
+    "answer": "more interesting",
+    "explanation": "比较级用more+多音节形容词，interesting是多音节词"
+  },
+  {
+    "id": "english-088",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "冠词"
+    ],
+    "question": "He is _____ honest boy.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "/"
+    ],
+    "answer": "an",
+    "explanation": "honest以元音音素开头，用an"
+  },
+  {
+    "id": "english-089",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "倒装句"
+    ],
+    "question": "Never _____ such a thing.",
+    "options": [
+      "I have heard",
+      "have I heard",
+      "I heard",
+      "did I heard"
+    ],
+    "answer": "have I heard",
+    "explanation": "否定词never置于句首，主句要部分倒装，把助动词提到主语前"
+  },
+  {
+    "id": "english-090",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "代词"
+    ],
+    "question": " _____ are my friends.",
+    "options": [
+      "This",
+      "These",
+      "That",
+      "It"
+    ],
+    "answer": "These",
+    "explanation": "are复数，主语用复数these或those"
+  },
+  {
+    "id": "english-091",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "非谓语动词"
+    ],
+    "question": "I saw him _____ in the classroom.",
+    "options": [
+      "study",
+      "studied",
+      "studying",
+      "to study"
+    ],
+    "answer": "studying",
+    "explanation": "see+宾语+doing，看到正在...，do表示看到了全过程"
+  },
+  {
+    "id": "english-092",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "there be句型"
+    ],
+    "question": " _____ a book and two pens on the desk.",
+    "options": [
+      "There is",
+      "There are",
+      "Is there",
+      "Are there"
+    ],
+    "answer": "There is",
+    "explanation": "a book是单数，there is就近一致"
+  },
+  {
+    "id": "english-093",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "从句"
+    ],
+    "question": "The book _____ I bought yesterday is interesting.",
+    "options": [
+      "that",
+      "who",
+      "where",
+      "when"
+    ],
+    "answer": "that",
+    "explanation": "定语从句，先行词是book，关系词用that或which"
+  },
+  {
+    "id": "english-094",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "I want to buy a new _____ (鞋).",
+    "options": [
+      "shoe",
+      "shoes",
+      "a shoe",
+      "some shoe"
+    ],
+    "answer": "shoes",
+    "explanation": "鞋通常以复数形式shoes出现"
+  },
+  {
+    "id": "english-095",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "被动语态"
+    ],
+    "question": "The song _____ by millions of people.",
+    "options": [
+      "is loved",
+      "loves",
+      "is loving",
+      "loved"
+    ],
+    "answer": "is loved",
+    "explanation": "一般现在时被动：be+过去分词，主语the song第三人称单数用is loved"
+  },
+  {
+    "id": "english-096",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "连词"
+    ],
+    "question": "I was late _____ I missed the bus.",
+    "options": [
+      "because",
+      "so",
+      "but",
+      "and"
+    ],
+    "answer": "because",
+    "explanation": "because因为，接原因从句；so所以，接结果从句；but但是；and和"
+  },
+  {
+    "id": "english-097",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "The children enjoyed _____ at the party.",
+    "options": [
+      "themself",
+      "themselves",
+      "ourselves",
+      "yourself"
+    ],
+    "answer": "themselves",
+    "explanation": "enjoy oneself玩得开心，主语the children，反身代词用themselves"
+  },
+  {
+    "id": "english-098",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "可数与不可数"
+    ],
+    "question": "There is some _____ in the bottle.",
+    "options": [
+      "water",
+      "apples",
+      "bananas",
+      "oranges"
+    ],
+    "answer": "water",
+    "explanation": "water是不可数名词，用some修饰；apple/banana/orange是可数名词复数"
+  },
+  {
+    "id": "english-099",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "祈使句"
+    ],
+    "question": "Don't forget _____ your homework.",
+    "options": [
+      "to do",
+      "doing",
+      "do",
+      "does"
+    ],
+    "answer": "to do",
+    "explanation": "forget to do忘记要做某事（未做）；forget doing忘记做过某事（已做）"
+  },
+  {
+    "id": "english-100",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "特殊疑问词"
+    ],
+    "question": "_____ is your name?",
+    "options": [
+      "Who",
+      "What",
+      "Where",
+      "When"
+    ],
+    "answer": "What",
+    "explanation": "问姓名用what's your name；who问是谁；where问地点；when问时间"
+  },
+  {
+    "id": "english-101",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "情态动词"
+    ],
+    "question": " _____ I help you with the box?",
+    "options": [
+      "Must",
+      "Need",
+      "May",
+      "Should"
+    ],
+    "answer": "May",
+    "explanation": "May I...?我可以...吗？表示请求允许；must/need/should的语气不同"
+  },
+  {
+    "id": "english-102",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "形容词比较级"
+    ],
+    "question": "Tom is _____ than Jim.",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "more tall"
+    ],
+    "answer": "taller",
+    "explanation": "than是比较级的标志，tall比较级加er"
+  },
+  {
+    "id": "english-103",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "The book is worth _____",
+    "options": [
+      "read",
+      "to read",
+      "reading",
+      "reads"
+    ],
+    "answer": "reading",
+    "explanation": "be worth doing值得做，固定用法，主动表示被动"
+  },
+  {
+    "id": "english-104",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人称代词"
+    ],
+    "question": "This is _____ book.",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "answer": "my",
+    "explanation": "my是形容词性物主代词，后接名词；mine是名词性物主代词，后面不接名词"
+  },
+  {
+    "id": "english-105",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "固定搭配"
+    ],
+    "question": "She looks _____ her mother.",
+    "options": [
+      "like",
+      "after",
+      "at",
+      "for"
+    ],
+    "answer": "like",
+    "explanation": "look like看起来像；look after照顾；look at看；look for寻找"
+  },
+  {
+    "id": "english-106",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "一般过去时"
+    ],
+    "question": "He _____ to school yesterday.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "going"
+    ],
+    "answer": "went",
+    "explanation": "yesterday一般过去时标志，go的过去式是went"
+  },
+  {
+    "id": "english-107",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "虚拟语气"
+    ],
+    "question": "If I _____ you, I would accept the offer.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "answer": "were",
+    "explanation": "与现在事实相反的虚拟语气，if+主语+were，主语+would+动词原形"
+  },
+  {
+    "id": "english-108",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "可数名词"
+    ],
+    "question": "How many _____ do you have?",
+    "options": [
+      "book",
+      "books",
+      "a book",
+      "the book"
+    ],
+    "answer": "books",
+    "explanation": "how many后接可数名词复数"
+  },
+  {
+    "id": "english-109",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "非谓语动词"
+    ],
+    "question": "I have a lot of work _____",
+    "options": [
+      "to do",
+      "doing",
+      "done",
+      "do"
+    ],
+    "answer": "to do",
+    "explanation": "have sth to do有...要做，to do作后置定语修饰work"
+  },
+  {
+    "id": "english-110",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "指示代词"
+    ],
+    "question": " _____ is in the room.",
+    "options": [
+      "Someone",
+      "Some one",
+      "Any one",
+      "No one"
+    ],
+    "answer": "Someone",
+    "explanation": "someone一些人，用于肯定句；any one用于否定句或疑问句；no one没有人"
+  },
+  {
+    "id": "english-111",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态"
+    ],
+    "question": "By the time he came, I _____ already finished my work.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "was"
+    ],
+    "answer": "had",
+    "explanation": "by the time+过去时，主句用过去完成时had+过去分词"
+  },
+  {
+    "id": "english-112",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "时间介词"
+    ],
+    "question": "He was born _____ 2005.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "since"
+    ],
+    "answer": "in",
+    "explanation": "年份前用in；具体日期用on；具体时刻用at"
+  },
+  {
+    "id": "english-113",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "从句"
+    ],
+    "question": "I will call you as soon as I _____ home.",
+    "options": [
+      "get",
+      "got",
+      "will get",
+      "getting"
+    ],
+    "answer": "get",
+    "explanation": "as soon as引导的时间状语从句，主句将来时，从句用一般现在时表将来"
+  },
+  {
+    "id": "english-114",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "Please _____ the lights when you leave.",
+    "options": [
+      "turn on",
+      "turn off",
+      "turn up",
+      "turn down"
+    ],
+    "answer": "turn off",
+    "explanation": "turn off关掉（灯/电器）；turn on打开；turn up调大；turn down调小"
+  },
+  {
+    "id": "english-115",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "介词短语"
+    ],
+    "question": "The teacher is kind _____ us.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "of"
+    ],
+    "answer": "to",
+    "explanation": "be kind to sb对某人友好，固定搭配"
+  },
+  {
+    "id": "english-116",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "名词所有格"
+    ],
+    "question": "The _____ room is very clean.",
+    "options": [
+      "children",
+      "childrens",
+      "children's",
+      "childrens'"
+    ],
+    "answer": "children's",
+    "explanation": "children所有格直接在词尾加's"
+  },
+  {
+    "id": "english-117",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "固定搭配"
+    ],
+    "question": "He succeeded in _____ the exam.",
+    "options": [
+      "pass",
+      "to pass",
+      "passed",
+      "passing"
+    ],
+    "answer": "passing",
+    "explanation": "succeed in doing成功做某事，in可省略，in+doing"
+  },
+  {
+    "id": "english-118",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "情态动词"
+    ],
+    "question": "You _____ be quiet in the library.",
+    "options": [
+      "can",
+      "must",
+      "may",
+      "need"
+    ],
+    "answer": "must",
+    "explanation": "must必须，表示义务和必要性"
+  },
+  {
+    "id": "english-119",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "The weather here is _____ that of my hometown.",
+    "options": [
+      "same as",
+      "same like",
+      "similar as",
+      "similar to"
+    ],
+    "answer": "similar to",
+    "explanation": "be similar to与...相似，固定搭配；same as与...一样"
+  },
+  {
+    "id": "english-120",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "特殊疑问词"
+    ],
+    "question": "_____ color do you like best?",
+    "options": [
+      "What",
+      "Which",
+      "Whose",
+      "Whom"
+    ],
+    "answer": "What",
+    "explanation": "what color什么颜色；which color哪一种颜色（在给定范围内）"
+  },
+  {
+    "id": "english-121",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "被动语态"
+    ],
+    "question": "The classroom _____ every day.",
+    "options": [
+      "cleans",
+      "is cleaned",
+      "cleaned",
+      "cleaning"
+    ],
+    "answer": "is cleaned",
+    "explanation": "一般现在时被动：be+过去分词，主语the classroom第三人称单数用is cleaned"
+  },
+  {
+    "id": "english-122",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "一般现在时"
+    ],
+    "question": "He _____ basketball every weekend.",
+    "options": [
+      "play",
+      "plays",
+      "is playing",
+      "played"
+    ],
+    "answer": "plays",
+    "explanation": "every weekend一般现在时，主语he第三人称单数，动词加s"
+  },
+  {
+    "id": "english-123",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "固定搭配"
+    ],
+    "question": "She is responsible _____ the project.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "at"
+    ],
+    "answer": "for",
+    "explanation": "be responsible for对...负责，固定搭配"
+  },
+  {
+    "id": "english-124",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "可数与不可数"
+    ],
+    "question": "There isn't _____ milk in the fridge.",
+    "options": [
+      "some",
+      "any",
+      "many",
+      "a"
+    ],
+    "answer": "any",
+    "explanation": "any用于否定句和疑问句；some用于肯定句；milk是不可数名词"
+  },
+  {
+    "id": "english-125",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "定语从句"
+    ],
+    "question": "The man _____ spoke to me is a teacher.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "where"
+    ],
+    "answer": "who",
+    "explanation": "先行词the man是人，关系词用who/that"
+  },
+  {
+    "id": "english-126",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "there be句型"
+    ],
+    "question": " _____ any apples in the basket?",
+    "options": [
+      "Is there",
+      "Are there",
+      "There is",
+      "There are"
+    ],
+    "answer": "Are there",
+    "explanation": "apples复数，用are there提问"
+  },
+  {
+    "id": "english-127",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "非谓语动词"
+    ],
+    "question": "My father told me _____ hard.",
+    "options": [
+      "study",
+      "to study",
+      "studying",
+      "studied"
+    ],
+    "answer": "to study",
+    "explanation": "tell sb to do sth告诉某人做某事"
+  },
+  {
+    "id": "english-128",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "情态动词"
+    ],
+    "question": " _____ I open the window?",
+    "options": [
+      "Can",
+      "May",
+      "Must",
+      "Should"
+    ],
+    "answer": "May",
+    "explanation": "May I...?我可以...吗？表示请求允许"
+  },
+  {
+    "id": "english-129",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "I spent 100 yuan _____ this book.",
+    "options": [
+      "in",
+      "on",
+      "for",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "spend...on在...上花费（时间/金钱）；spend...in doing花费...做某事"
+  },
+  {
+    "id": "english-130",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "形容词副词"
+    ],
+    "question": "He runs _____ in our class.",
+    "options": [
+      "fast",
+      "fastest",
+      "faster",
+      "the fastest"
+    ],
+    "answer": "fastest",
+    "explanation": "in our class范围内比较用最高级，run是行为动词用副词修饰"
+  },
+  {
+    "id": "english-131",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "名词辨析"
+    ],
+    "question": "She gave me a piece of _____",
+    "options": [
+      "advices",
+      "advice",
+      "advise",
+      "advicing"
+    ],
+    "answer": "advice",
+    "explanation": "advice是不可数名词，没有复数形式；advise是动词"
+  },
+  {
+    "id": "english-132",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人称代词"
+    ],
+    "question": " _____ mother is a doctor.",
+    "options": [
+      "She",
+      "Her",
+      "Hers",
+      "She's"
+    ],
+    "answer": "Her",
+    "explanation": "her是形容词性物主代词，后接名词；She's=She is"
+  },
+  {
+    "id": "english-133",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "倒装句"
+    ],
+    "question": "Only then _____ understand the importance of health.",
+    "options": [
+      "I did",
+      "did I",
+      "I could",
+      "could I"
+    ],
+    "answer": "did I",
+    "explanation": "Only+副词/介词短语/从句置于句首，主句要部分倒装"
+  },
+  {
+    "id": "english-134",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "现在完成时"
+    ],
+    "question": "I have _____ finished my homework.",
+    "options": [
+      "yet",
+      "already",
+      "still",
+      "ago"
+    ],
+    "answer": "already",
+    "explanation": "already用于肯定句，通常放在动词前；yet用于否定句和疑问句"
+  },
+  {
+    "id": "english-135",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "固定搭配"
+    ],
+    "question": "He is interested _____ playing chess.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "explanation": "be interested in对...感兴趣，固定搭配"
+  },
+  {
+    "id": "english-136",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "一般过去时"
+    ],
+    "question": "They _____ to the park last Sunday.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "going"
+    ],
+    "answer": "went",
+    "explanation": "last Sunday一般过去时标志，go的过去式是went"
+  },
+  {
+    "id": "english-137",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "情态动词"
+    ],
+    "question": "You _____ have told me the truth earlier.",
+    "options": [
+      "would",
+      "could",
+      "should",
+      "might"
+    ],
+    "answer": "should",
+    "explanation": "should have done本应该做某事（却没做），表示责备"
+  },
+  {
+    "id": "english-138",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "指示代词"
+    ],
+    "question": " _____ of the two books is yours?",
+    "options": [
+      "Which",
+      "What",
+      "Who",
+      "Whose"
+    ],
+    "answer": "Which",
+    "explanation": "of the two books表示在两者之间，用which"
+  },
+  {
+    "id": "english-139",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "从句"
+    ],
+    "question": "The reason _____ he was late is that he missed the bus.",
+    "options": [
+      "why",
+      "because",
+      "for",
+      "since"
+    ],
+    "answer": "why",
+    "explanation": "the reason why...是...的原因，固定句型"
+  },
+  {
+    "id": "english-140",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "介词"
+    ],
+    "question": "The cat is hiding _____ the table.",
+    "options": [
+      "in front of",
+      "behind",
+      "under",
+      "next to"
+    ],
+    "answer": "under",
+    "explanation": "under在...下面；behind在...后面；in front of在...前面；next to在...旁边"
+  },
+  {
+    "id": "english-141",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "非谓语动词"
+    ],
+    "question": " _____ more time, I could have done it better.",
+    "options": [
+      "Given",
+      "Giving",
+      "To give",
+      "Give"
+    ],
+    "answer": "Given",
+    "explanation": "given在此作介词，意思是如果给予...；given作状语表示条件"
+  },
+  {
+    "id": "english-142",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词性辨析"
+    ],
+    "question": "The children are very _____",
+    "options": [
+      "noise",
+      "noisy",
+      "noisily",
+      "more noisy"
+    ],
+    "answer": "noisy",
+    "explanation": "are是be动词，后接形容词；noisy是形容词，noisely是副词"
+  },
+  {
+    "id": "english-143",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "比较级"
+    ],
+    "question": "The more you practice, the _____ you become.",
+    "options": [
+      "good",
+      "better",
+      "best",
+      "well"
+    ],
+    "answer": "better",
+    "explanation": "The more..., the better...越...越...，比较级用better"
+  },
+  {
+    "id": "english-144",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "冠词"
+    ],
+    "question": "He is _____ tallest boy in our class.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "/"
+    ],
+    "answer": "the",
+    "explanation": "最高级前要加the"
+  },
+  {
+    "id": "english-145",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "固定搭配"
+    ],
+    "question": "I prefer coffee _____ tea.",
+    "options": [
+      "for",
+      "to",
+      "than",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "prefer A to B喜欢A胜过B，固定搭配，to是介词"
+  },
+  {
+    "id": "english-146",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "The word 'succeed' is a _____",
+    "options": [
+      "noun",
+      "verb",
+      "adjective",
+      "adverb"
+    ],
+    "answer": "verb",
+    "explanation": "succeed是动词，success是名词，successful是形容词，successfully是副词"
+  },
+  {
+    "id": "english-147",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "时态"
+    ],
+    "question": "Look! The baby _____ crying.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "is",
+    "explanation": "look是现在进行时标志，主语the baby单数用is"
+  },
+  {
+    "id": "english-148",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": " _____ the window, please.",
+    "options": [
+      "Close",
+      "Close to",
+      "Close up",
+      "Shut off"
+    ],
+    "answer": "Close",
+    "explanation": "close the window关窗户；close to接近"
+  },
+  {
+    "id": "english-149",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "从句"
+    ],
+    "question": "Whatever you say, I won't _____.",
+    "options": [
+      "believe",
+      "to believe",
+      "believing",
+      "believed"
+    ],
+    "answer": "believe",
+    "explanation": "whatever引导的让步状语从句，从句用一般现在时表将来，主句用一般将来时"
+  },
+  {
+    "id": "english-150",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "名词可数性"
+    ],
+    "question": "I need _____ information about the exam.",
+    "options": [
+      "some",
+      "any",
+      "many",
+      "a"
+    ],
+    "answer": "some",
+    "explanation": "information是不可数名词，some可用于肯定句中的不可数名词"
+  },
+  {
+    "id": "chinese-076",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《桃花源记》的作者是：",
+    "options": [
+      "陶渊明",
+      "周敦颐",
+      "韩愈",
+      "柳宗元"
+    ],
+    "answer": "陶渊明",
+    "explanation": "《桃花源记》是东晋陶渊明的作品，描写了一个与世隔绝的理想社会"
+  },
+  {
+    "id": "chinese-077",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《爱莲说》中菊花的寓意是：",
+    "options": [
+      "富贵",
+      "隐逸",
+      "君子",
+      "凡人"
+    ],
+    "answer": "隐逸",
+    "explanation": "陶渊明独爱菊，菊是花中隐士，象征隐居避世的生活态度"
+  },
+  {
+    "id": "chinese-078",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "安在安知鱼之乐中的意思是：",
+    "options": [
+      "安全",
+      "怎么",
+      "哪里",
+      "安定"
+    ],
+    "answer": "怎么",
+    "explanation": "安知鱼之乐：怎么知道鱼的快乐，安是疑问代词，怎么"
+  },
+  {
+    "id": "chinese-079",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "山不在高，_____。",
+    "options": [
+      "有仙则名",
+      "名不在高",
+      "有龙则灵",
+      "水不在深"
+    ],
+    "answer": "有仙则名",
+    "explanation": "出自刘禹锡《陋室铭》：山不在高，有仙则名；水不在深，有龙则灵"
+  },
+  {
+    "id": "chinese-080",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "下列句子没有语病的是：",
+    "options": [
+      "我们必须认真克服并发现工作中的缺点。",
+      "我肯定他会来的。",
+      "经过努力，他终于获得了第一名。",
+      "我不禁忍不住笑了起来。"
+    ],
+    "answer": "经过努力，他终于获得了第一名。",
+    "explanation": "A并列不当，应为先发现再克服；B词语重复；D不禁和忍不住重复"
+  },
+  {
+    "id": "chinese-081",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "下列句子使用了借代修辞的是：",
+    "options": [
+      "他的脸红得像苹果。",
+      "解放前中国人民生活在水深火热之中。",
+      "我们要学工学农学兵。",
+      "他把东西一股脑儿倒了出来。"
+    ],
+    "answer": "解放前中国人民生活在水深火热之中。",
+    "explanation": "水深火热借代苦难的生活；A是比喻；C排比；D夸张"
+  },
+  {
+    "id": "chinese-082",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "明月松间照，_____。",
+    "options": [
+      "清泉石上流",
+      "明月松间照",
+      "空山新雨后",
+      "天气晚来秋"
+    ],
+    "answer": "清泉石上流",
+    "explanation": "出自王维《山居秋暝》：空山新雨后，天气晚来秋。明月松间照，清泉石上流"
+  },
+  {
+    "id": "chinese-083",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《石壕吏》的作者是：",
+    "options": [
+      "李白",
+      "杜甫",
+      "白居易",
+      "王维"
+    ],
+    "answer": "杜甫",
+    "explanation": "《石壕吏》是杜甫的三吏三别之一，描写战争年代人民的苦难"
+  },
+  {
+    "id": "chinese-084",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语中正确的是：",
+    "options": [
+      "变本加厉",
+      "再接再励",
+      "相形见绌",
+      "随声附合"
+    ],
+    "answer": "变本加厉",
+    "explanation": "再接再厉应为励；相形见绌正确；随声附合应为和"
+  },
+  {
+    "id": "chinese-085",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-关联词"
+    ],
+    "question": "_____你努力，_____能取得好成绩。",
+    "options": [
+      "因为...所以",
+      "只有...才",
+      "如果...就",
+      "既然...就"
+    ],
+    "answer": "只有...才",
+    "explanation": "只有...才...表示必要条件关系，只有努力才能取得好成绩"
+  },
+  {
+    "id": "chinese-086",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《马说》中千里马被埋没的原因是：",
+    "options": [
+      "没有伯乐",
+      "不会跑",
+      "吃的太多",
+      "不努力"
+    ],
+    "answer": "没有伯乐",
+    "explanation": "千里马常有而伯乐不常有，千里马因无伯乐赏识而被埋没"
+  },
+  {
+    "id": "chinese-087",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《资治通鉴》的作者是：",
+    "options": [
+      "司马光",
+      "司马迁",
+      "班固",
+      "陈寿"
+    ],
+    "answer": "司马光",
+    "explanation": "《资治通鉴》是北宋司马光主编的编年体通史，司马迁的《史记》是纪传体"
+  },
+  {
+    "id": "chinese-088",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "之在先生之乎中的意思是：",
+    "options": [
+      "的",
+      "取消句子独立性",
+      "代词他",
+      "动词去"
+    ],
+    "answer": "取消句子独立性",
+    "explanation": "前置宾语标志，取消句子独立性，\"先生之乎\"中\"之\"字无实义"
+  },
+  {
+    "id": "chinese-089",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "抽刀断水水更流，_____。",
+    "options": [
+      "借酒浇愁愁更愁",
+      "举杯消愁愁更愁",
+      "明朝散发弄扁舟",
+      "不知明镜里"
+    ],
+    "answer": "举杯消愁愁更愁",
+    "explanation": "出自李白《宣州谢眺楼饯别校书叔云》：抽刀断水水更流，举杯消愁愁更愁"
+  },
+  {
+    "id": "chinese-090",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列引号作用不同于其他三项的是：",
+    "options": [
+      "人称计算机的书房",
+      "说学逗唱",
+      "这样的瘦肉",
+      "活该"
+    ],
+    "answer": "说学逗唱",
+    "explanation": "说学逗唱是相声基本功，此处引号表示特定称谓；其他表示讽刺或强调"
+  },
+  {
+    "id": "chinese-091",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《水调歌头明月几时有》中，表现作者美好祝愿的句子是：",
+    "options": [
+      "我欲乘风归去",
+      "起舞弄清影",
+      "何似在人间",
+      "千里共婵娟"
+    ],
+    "answer": "千里共婵娟",
+    "explanation": "但愿人长久，千里共婵娟，是作者对弟弟的美好祝愿，也是对天下人的祝愿"
+  },
+  {
+    "id": "chinese-092",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词性辨析"
+    ],
+    "question": "下列词语中，属于名词的是：",
+    "options": [
+      "忽然",
+      "突然",
+      "猛然",
+      "突然性"
+    ],
+    "answer": "突然性",
+    "explanation": "忽然、突然、猛然都是副词；突然性是名词"
+  },
+  {
+    "id": "chinese-093",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《愚公移山》属于：",
+    "options": [
+      "神话传说",
+      "寓言故事",
+      "历史故事",
+      "民间笑话"
+    ],
+    "answer": "寓言故事",
+    "explanation": "《愚公移山》出自《列子》，是一则寓言故事，通过虚构故事说明道理"
+  },
+  {
+    "id": "chinese-094",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "下列加点字读音完全正确的是：",
+    "options": [
+      "折本(se)",
+      "折纸(zhe)",
+      "折断(zhe)",
+      "折腾(zhe)"
+    ],
+    "answer": "折本(se)",
+    "explanation": "折本(se)是赔本的意思，其他都读zhe"
+  },
+  {
+    "id": "chinese-095",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《白雪歌送武判官归京》中，写雪景的名句是：",
+    "options": [
+      "北风卷地白草折",
+      "胡天八月即飞雪",
+      "忽如一夜春风来",
+      "纷纷暮雪下辕门"
+    ],
+    "answer": "忽如一夜春风来",
+    "explanation": "忽如一夜春风来，千树万树梨花开，以梨花喻雪，是描写雪景的千古名句"
+  },
+  {
+    "id": "chinese-096",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "下列句子中，表述正确的是：",
+    "options": [
+      "我的差不多都完成了。",
+      "我的作业差不多全部完成了。",
+      "我的作业全部差不多了。",
+      "我的作业差不多完全完成了。"
+    ],
+    "answer": "我的作业差不多全部完成了。",
+    "explanation": "差不多和全部语义矛盾；全部差不多了搭配不当；差不多完全也有矛盾"
+  },
+  {
+    "id": "chinese-097",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-句子成分"
+    ],
+    "question": "下列句子中，谓语是动词的是：",
+    "options": [
+      "春天是美丽的。",
+      "他的态度很诚恳。",
+      "我赞成你的意见。",
+      "这个问题很容易。"
+    ],
+    "answer": "我赞成你的意见。",
+    "explanation": "A主系表结构；B主系表结构；D主系表结构；C谓语是动词赞成"
+  },
+  {
+    "id": "chinese-098",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "胜在引人入胜中的意思是：",
+    "options": [
+      "胜利",
+      "超过",
+      "优美",
+      "能承受"
+    ],
+    "answer": "优美",
+    "explanation": "引人入胜：吸引人进入优美的境界，胜是优美的意思"
+  },
+  {
+    "id": "chinese-099",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "填写：问君能有几多愁？_____。",
+    "answer": "恰似一江春水向东流",
+    "explanation": "出自李煜《虞美人》：春花秋月何时了，往事知多少。小楼昨夜又东风，故国不堪回首月明中。雕栏玉砌应犹在，只是朱颜改。问君能有几多愁？恰似一江春水向东流。"
+  },
+  {
+    "id": "chinese-100",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "下列句子使用了反复修辞的是：",
+    "options": [
+      "我爱你，祖国！我爱你，祖国！",
+      "他的脸上洋溢着幸福的笑容。",
+      "太阳出来了，像火球。",
+      "小明和小红一起上学。"
+    ],
+    "answer": "我爱你，祖国！我爱你，祖国！",
+    "explanation": "反复是同一词句的重复使用，表示强调和情感强烈；A是反复；B是拟人；C是比喻；D是对偶"
+  },
+  {
+    "id": "chinese-101",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《孟子》是_____及门弟子的著作汇编。",
+    "options": [
+      "庄子",
+      "老子",
+      "孟子",
+      "孔子"
+    ],
+    "answer": "孟子",
+    "explanation": "《孟子》是记录孟子言行的著作，由孟子和他的弟子共同编写"
+  },
+  {
+    "id": "chinese-102",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "人有悲欢离合，_____。",
+    "options": [
+      "月有阴晴圆缺此事古难全",
+      "但愿人长久千里共婵娟",
+      "我欲乘风归去",
+      "不知天上宫阙"
+    ],
+    "answer": "月有阴晴圆缺此事古难全",
+    "explanation": "出自苏轼《水调歌头》：人有悲欢离合，月有阴晴圆缺，此事古难全"
+  },
+  {
+    "id": "chinese-103",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语中，含有错别字的是：",
+    "options": [
+      "川流不息",
+      "走投无路",
+      "不记其数",
+      "守株待兔"
+    ],
+    "answer": "不记其数",
+    "explanation": "不记其数应为不计其数，计是计算的意思"
+  },
+  {
+    "id": "chinese-104",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-短语结构"
+    ],
+    "question": "短语结构相同的是：",
+    "options": [
+      "改革开放 密切联系",
+      "雄伟壮丽 阴晴圆缺",
+      "努力学习 光辉典范",
+      "我的老师 伟大祖国"
+    ],
+    "answer": "改革开放 密切联系",
+    "explanation": "改革开放是并列结构，密切联系也是并列结构；其他选项结构不全相同"
+  },
+  {
+    "id": "chinese-105",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《茅屋为秋风所破歌》的作者是：",
+    "options": [
+      "李白",
+      "杜甫",
+      "白居易",
+      "王维"
+    ],
+    "answer": "杜甫",
+    "explanation": "杜甫在穷困潦倒之际写下此诗，表达忧国忧民的情怀"
+  },
+  {
+    "id": "chinese-106",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词类活用"
+    ],
+    "question": "下列句子中没有词类活用的是：",
+    "options": [
+      "一狼洞其中。",
+      "京中有善口技者。",
+      "狼不敢前。",
+      "温故而知新。"
+    ],
+    "answer": "温故而知新。",
+    "explanation": "A洞是名词作动词；B善是形容词作动词；C前是名词作动词；D故和新都是名词，无活用"
+  },
+  {
+    "id": "chinese-107",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "沉舟侧畔千帆过，_____。",
+    "options": [
+      "病树前头万木春",
+      "两岸猿声啼不住",
+      "轻舟已过万重山",
+      "柳暗花明又一村"
+    ],
+    "answer": "病树前头万木春",
+    "explanation": "出自刘禹锡《酬乐天扬州初逢席上见赠》，比喻旧事物必将消亡，新事物必将成长"
+  },
+  {
+    "id": "chinese-108",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "下列句子中不是比喻的是：",
+    "options": [
+      "天街小雨润如酥。",
+      "桃花潭水深千尺。",
+      "她像他妈妈。",
+      "影子拖着长长的尾巴。"
+    ],
+    "answer": "她像他妈妈。",
+    "explanation": "A酥是春雨，比喻；B千尺是夸张；C是判断句，不是比喻"
+  },
+  {
+    "id": "chinese-109",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "下列作品不属于鲁迅的是：",
+    "options": [
+      "《从百草园到三味书屋》",
+      "《藤野先生》",
+      "《背影》",
+      "《孔乙己》"
+    ],
+    "answer": "背影",
+    "explanation": "《背影》是朱自清的作品；其他都是鲁迅的散文"
+  },
+  {
+    "id": "chinese-110",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-复句类型"
+    ],
+    "question": "既然黑夜给了我黑色的眼睛，_____用它寻找光明。",
+    "options": [
+      "我就",
+      "我将",
+      "我却",
+      "我必"
+    ],
+    "answer": "我就",
+    "explanation": "既然...就...是因果复句的典型格式，就表示结果"
+  },
+  {
+    "id": "chinese-111",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "下列词语中，加点字读音正确的是：",
+    "options": [
+      "气氛(fen) 玫瑰(gui)",
+      "气氛(fen) 玫瑰(gui)",
+      "分外(fen) 分歧(zhi)",
+      "分析(xi) 分娩(fen)"
+    ],
+    "answer": "气氛(fen) 玫瑰(gui)",
+    "explanation": "分(fen)外，但分(fen)歧中分读fen；分析fen，分娩fen"
+  },
+  {
+    "id": "chinese-112",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《酬乐天扬州初逢席上见赠》中，怀旧之情的句子是：",
+    "options": [
+      "沉舟侧畔千帆过",
+      "病树前头万木春",
+      "二十三年弃置身",
+      "暂凭杯酒长精神"
+    ],
+    "answer": "二十三年弃置身",
+    "explanation": "怀旧：二十三年弃置身，旧时朋友多已离世，物是人非之感"
+  },
+  {
+    "id": "chinese-113",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "山回路转不见君，_____。",
+    "options": [
+      "雪上空留马行处",
+      "柳暗花明又一村",
+      "草色遥看近却无",
+      "花重锦官城"
+    ],
+    "answer": "雪上空留马行处",
+    "explanation": "出自岑参《白雪歌送武判官归京》，表达了诗人送别友人后的惆怅"
+  },
+  {
+    "id": "chinese-114",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义辨析"
+    ],
+    "question": "谢在代谢中的意思是：",
+    "options": [
+      "感谢",
+      "凋落",
+      "衰退",
+      "道歉"
+    ],
+    "answer": "凋落",
+    "explanation": "代谢：新陈代谢，指事物更新替换，谢是凋落、衰退的意思"
+  },
+  {
+    "id": "chinese-115",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《诗经》按照_____分为风、雅、颂三部分。",
+    "options": [
+      "音乐性质",
+      "地域",
+      "内容",
+      "形式"
+    ],
+    "answer": "音乐性质",
+    "explanation": "《诗经》根据音乐性质分为三部分：风是各国民歌，雅是宫廷乐歌，颂是宗庙祭祀乐歌"
+  },
+  {
+    "id": "chinese-116",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "通过这次活动，使我提高了认识。",
+    "options": [
+      "去掉通过",
+      "去掉使",
+      "去掉这次活动",
+      "去掉这次活动或通过"
+    ],
+    "answer": "去掉通过或去掉使",
+    "explanation": "缺主语，去掉通过或使即可，主语是这次活动使我们提高"
+  },
+  {
+    "id": "chinese-117",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词性辨析"
+    ],
+    "question": "突然和忽然的关系是：",
+    "options": [
+      "同义词",
+      "古今关系",
+      "口语与书面语",
+      "以上都是"
+    ],
+    "answer": "以上都是",
+    "explanation": "突然和忽然后古代是同义词，现在都是副词，是古今同义关系，口语书面语都可用"
+  },
+  {
+    "id": "chinese-118",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《登飞来峰》中，不畏浮云遮望眼的原因是：",
+    "options": [
+      "我很高",
+      "身在最高层",
+      "浮云太多",
+      "我不怕"
+    ],
+    "answer": "身在最高层",
+    "explanation": "不畏浮云遮望眼，只缘身在最高层，站得高才能看得远"
+  },
+  {
+    "id": "chinese-119",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列句子中引号不属于直接引用的是：",
+    "options": [
+      "老师说：要多读书。",
+      "古人说：一寸光阴一寸金。",
+      "他是一个所谓的好学生。",
+      "我最喜欢读《十万个为什么》。"
+    ],
+    "answer": "他是一个所谓的好学生。",
+    "explanation": "C所谓表示讽刺否定，不是直接引用；A、B是直接引语；D书名号不是引号"
+  },
+  {
+    "id": "chinese-120",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-短语类型"
+    ],
+    "question": "短语类型不同的是：",
+    "options": [
+      "慢慢走",
+      "悄悄说",
+      "哈哈大笑",
+      "认认真真学习"
+    ],
+    "answer": "认认真真学习",
+    "explanation": "A、B、C是状语+动词；D是重叠形容词+动词，且多了状语"
   }
 ]

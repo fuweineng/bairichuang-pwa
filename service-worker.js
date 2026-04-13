@@ -1,5 +1,5 @@
 // Service Worker v1.0.0
-const CACHE_NAME = 'bairichuang-v1.0.2';
+const CACHE_NAME = 'bairichuang-v1.0.3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',

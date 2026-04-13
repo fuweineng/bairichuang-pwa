@@ -21,13 +21,33 @@ body {
 }
 
 header {
-  text-align: center;
-  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 12px;
+}
+
+.header-left {
+  text-align: left;
 }
 
 header h1 {
   color: #4CAF50;
-  font-size: 2rem;
+  font-size: 1.8rem;
+}
+
+.header-settings-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.header-settings-btn:hover {
+  background: #f0f0f0;
 }
 
 .subtitle {
@@ -139,6 +159,55 @@ main {
   border-radius: 4px;
   transition: width 0.4s ease;
   max-width: 100%;
+}
+
+.home-chart-area {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+}
+
+.home-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.home-chart-title {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.home-chart-hint {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.home-chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.home-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.home-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .primary-btn {
@@ -466,9 +535,12 @@ main {
 
 /* Fill in the blank */
 .fill-area {
+  margin-top: 15px;
+}
+
+.fill-input-row {
   display: flex;
   gap: 10px;
-  margin-top: 15px;
 }
 
 .fill-input {
@@ -491,16 +563,22 @@ main {
   white-space: nowrap;
 }
 
-.fill-correct {
-  color: #4CAF50;
+.fill-feedback {
   font-size: 0.95rem;
   margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  line-height: 1.4;
 }
 
-.fill-wrong {
+.fill-feedback.correct {
+  color: #4CAF50;
+  background: #f0faf0;
+}
+
+.fill-feedback.wrong {
   color: #e53935;
-  font-size: 0.95rem;
-  margin-top: 10px;
+  background: #fff5f5;
 }
 
 /* Session Progress Bar */

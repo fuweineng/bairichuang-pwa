@@ -252,6 +252,9 @@ async function refreshUI() {
       badge.style.display = 'none';
     }
   }
+
+  // Render home mastery chart
+  await renderHomeMasteryChart();
 }
 
 // Start a new practice session
@@ -315,8 +318,10 @@ function renderCurrentQuestion() {
   } else if (q.type === 'fill') {
     html += `
       <div class="fill-area">
-        <input type="text" class="fill-input" placeholder="请输入答案..." autocomplete="off" />
-        <button class="primary-btn fill-submit-btn">提交答案</button>
+        <div class="fill-input-row">
+          <input type="text" class="fill-input" placeholder="请输入答案..." autocomplete="off" />
+          <button class="primary-btn fill-submit-btn">提交</button>
+        </div>
       </div>
     `;
   }
@@ -365,11 +370,14 @@ async function handleFillSubmit(q) {
     input.disabled = true;
     const submitBtn = container.querySelector('.fill-submit-btn');
     if (submitBtn) submitBtn.disabled = true;
-    // Show correct answer
-    const answerHint = document.createElement('p');
-    answerHint.className = isCorrect ? 'fill-correct' : 'fill-wrong';
-    answerHint.textContent = isCorrect ? `✓ 正确！` : `✗ 正确答案：${q.answer}`;
-    input.parentNode.appendChild(answerHint);
+    // Show correct answer in fill-area
+    const fillArea = container.querySelector('.fill-area');
+    if (fillArea) {
+      const feedback = document.createElement('div');
+      feedback.className = `fill-feedback ${isCorrect ? 'correct' : 'wrong'}`;
+      feedback.textContent = isCorrect ? '✓ 正确！' : `✗ 正确答案：${q.answer}`;
+      fillArea.appendChild(feedback);
+    }
   });
 }
 
@@ -559,6 +567,50 @@ async function renderMasteryByTag(container, subject) {
   container.querySelectorAll('.mastery-canvas').forEach(canvas => {
     drawLineChart(canvas, JSON.parse(canvas.dataset.series), canvas.dataset.color);
   });
+
+  // Also draw multi-subject comparison chart at top
+  await renderMasteryMultiSubject(container, subject);
+}
+
+async function renderMasteryMultiSubject(container, subject) {
+  const subjects = ['math', 'english', 'chinese', 'science', 'biology', 'history', 'geography', 'politics'];
+  const subjectNames = { math: '数学', english: '英语', chinese: '语文', science: '科学', biology: '生物', history: '历史', geography: '地理', politics: '道法' };
+
+  const allSeries = {};
+  for (const subj of subjects) {
+    const data = await getKnowledgeMastery(subj, 30);
+    const dailyMap = {};
+    for (const tagData of Object.values(data)) {
+      for (const d of tagData) {
+        if (!dailyMap[d.date]) dailyMap[d.date] = { total: 0, correct: 0 };
+        dailyMap[d.date].total += d.total;
+        dailyMap[d.date].correct += d.correct;
+      }
+    }
+    const days = Object.keys(dailyMap).sort().slice(-14);
+    const series = days.map(date => ({
+      date,
+      accuracy: dailyMap[date].total > 0
+        ? Math.round((dailyMap[date].correct / dailyMap[date].total) * 100)
+        : null
+    }));
+    if (series.length > 0) allSeries[subj] = series;
+  }
+
+  const activeSubjects = subjects.filter(s => allSeries[s]);
+  if (activeSubjects.length < 2) return; // need at least 2 subjects for comparison
+
+  // Create multi-subject canvas
+  const multiDiv = document.createElement('div');
+  multiDiv.style.marginBottom = '20px';
+  multiDiv.innerHTML = `
+    <p style="font-size:0.8rem;color:#999;margin-bottom:10px">各科对比（近14天）</p>
+    <canvas id="multi-subject-canvas" height="140" style="width:100%;display:block"></canvas>
+  `;
+  container.insertBefore(multiDiv, container.firstChild);
+
+  const canvas = document.getElementById('multi-subject-canvas');
+  drawMultiSubjectChart(canvas, allSeries, subjects, subjectNames);
 }
 
 function drawLineChart(canvas, series, color) {
@@ -633,6 +685,179 @@ function drawLineChart(canvas, series, color) {
     ctx.fillStyle = color;
     ctx.fill();
   });
+}
+
+// ==================== Home Mastery Chart (Multi-Subject) ====================
+
+async function renderHomeMasteryChart() {
+  const canvas = document.getElementById('home-mastery-canvas');
+  if (!canvas) return;
+
+  const subjects = ['math', 'english', 'chinese', 'science', 'biology', 'history', 'geography', 'politics'];
+  const subjectNames = { math: '数学', english: '英语', chinese: '语文', science: '科学', biology: '生物', history: '历史', geography: '地理', politics: '道法' };
+
+  // Collect series data per subject for last 7 days
+  const allSeries = {};
+  for (const subj of subjects) {
+    const data = await getKnowledgeMastery(subj, 7);
+    // data is { tag: [{ date, total, correct, accuracy }] }
+    // Aggregate into per-day series
+    const dailyMap = {};
+    for (const tagData of Object.values(data)) {
+      for (const d of tagData) {
+        if (!dailyMap[d.date]) dailyMap[d.date] = { total: 0, correct: 0 };
+        dailyMap[d.date].total += d.total;
+        dailyMap[d.date].correct += d.correct;
+      }
+    }
+    const days = Object.keys(dailyMap).sort().slice(-7);
+    const series = days.map(date => ({
+      date,
+      accuracy: dailyMap[date].total > 0
+        ? Math.round((dailyMap[date].correct / dailyMap[date].total) * 100)
+        : null
+    }));
+    if (series.length > 0) allSeries[subj] = series;
+  }
+
+  const hasData = Object.keys(allSeries).length > 0;
+
+  // Draw chart
+  drawMultiSubjectChart(canvas, allSeries, subjects, subjectNames);
+
+  // Render legend
+  const legendContainer = document.createElement('div');
+  legendContainer.className = 'home-chart-legend';
+  let legendIdx = 0;
+  for (const subj of subjects) {
+    if (!allSeries[subj]) continue;
+    const color = MASTERY_COLORS[legendIdx % MASTERY_COLORS.length];
+    const last = allSeries[subj][allSeries[subj].length - 1];
+    const item = document.createElement('div');
+    item.className = 'home-legend-item';
+    item.innerHTML = `<span class="home-legend-dot" style="background:${color}"></span>${subjectNames[subj]} ${last ? last.accuracy + '%' : '--'}`;
+    legendContainer.appendChild(item);
+    legendIdx++;
+  }
+  // Remove old legend if any
+  const oldLegend = canvas.parentElement.querySelector('.home-chart-legend');
+  if (oldLegend) oldLegend.remove();
+  canvas.parentElement.appendChild(legendContainer);
+
+  // Show hint
+  const hint = document.getElementById('home-chart-hint');
+  if (hint) hint.textContent = hasData ? '近7日综合正确率' : '开始练习后显示趋势';
+}
+
+function drawMultiSubjectChart(canvas, allSeries, subjects, subjectNames) {
+  const ctx = canvas.getContext('2d');
+  const dpr = window.devicePixelRatio || 1;
+
+  // Set canvas size
+  const containerW = canvas.offsetWidth || 320;
+  const W = containerW * 2;
+  const H = 120 * 2;
+  canvas.width = W;
+  canvas.height = H;
+  canvas.style.width = containerW + 'px';
+  canvas.style.height = '120px';
+  ctx.scale(dpr, dpr);
+
+  const padL = 8, padR = 8, padT = 8, padB = 8;
+  const chartW = containerW - padL - padR;
+  const chartH = 120 - padT - padB;
+
+  ctx.clearRect(0, 0, containerW, 120);
+
+  // Collect all dates across subjects
+  const allDates = [];
+  for (const subj of subjects) {
+    if (allSeries[subj]) {
+      for (const d of allSeries[subj]) {
+        if (!allDates.includes(d.date)) allDates.push(d.date);
+      }
+    }
+  }
+  allDates.sort();
+  const last7 = allDates.slice(-7);
+
+  if (last7.length === 0) {
+    // Draw empty state
+    ctx.fillStyle = '#ccc';
+    ctx.font = '12px sans-serif';
+    ctx.textAlign = 'center';
+    ctx.fillText('暂无数据', containerW / 2, 60);
+    return;
+  }
+
+  // Draw grid lines
+  ctx.strokeStyle = '#eee';
+  ctx.lineWidth = 0.5;
+  [0, 50, 100].forEach(pct => {
+    const y = padT + chartH * (1 - pct / 100);
+    ctx.beginPath();
+    ctx.moveTo(padL, y);
+    ctx.lineTo(padL + chartW, y);
+    ctx.stroke();
+  });
+
+  // Draw each subject's line
+  let colorIdx = 0;
+  for (const subj of subjects) {
+    const series = allSeries[subj];
+    if (!series || series.length === 0) continue;
+
+    const color = MASTERY_COLORS[colorIdx % MASTERY_COLORS.length];
+    colorIdx++;
+
+    // Map series to last7 dates
+    const points = last7.map(date => {
+      const entry = series.find(d => d.date === date);
+      return {
+        x: padL + (last7.indexOf(date) / Math.max(last7.length - 1, 1)) * chartW,
+        y: entry && entry.accuracy !== null
+          ? padT + chartH * (1 - entry.accuracy / 100)
+          : null
+      };
+    });
+
+    // Draw line segments where both points exist
+    ctx.beginPath();
+    let started = false;
+    for (const p of points) {
+      if (p.y !== null) {
+        if (!started) { ctx.moveTo(p.x, p.y); started = true; }
+        else ctx.lineTo(p.x, p.y);
+      }
+    }
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 1.5;
+    ctx.lineJoin = 'round';
+    ctx.stroke();
+
+    // Draw dots
+    for (const p of points) {
+      if (p.y !== null) {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, 2.5, 0, Math.PI * 2);
+        ctx.fillStyle = color;
+        ctx.fill();
+      }
+    }
+  }
+
+  // Draw X-axis date labels (max 5)
+  const labelCount = Math.min(last7.length, 5);
+  ctx.fillStyle = '#aaa';
+  ctx.font = '9px sans-serif';
+  ctx.textAlign = 'center';
+  for (let i = 0; i < labelCount; i++) {
+    const idx = Math.floor((i / (labelCount - 1)) * (last7.length - 1));
+    const date = last7[idx];
+    const x = padL + (idx / Math.max(last7.length - 1, 1)) * chartW;
+    const monthDay = date.slice(5); // MM-DD
+    ctx.fillText(monthDay, x, padT + chartH + 12);
+  }
 }
 
 async function renderMasteryByType(container, subject) {
@@ -925,7 +1150,7 @@ async function showWrongReview(idx) {
 }
 
 function getSubjectName(subject) {
-  const names = { math: '数学', english: '英语', chinese: '语文', science: '科学', history: '历史', geography: '地理', politics: '道法' };
+  const names = { math: '数学', english: '英语', chinese: '语文', science: '科学', biology: '生物', history: '历史', geography: '地理', politics: '道法' };
   return names[subject] || subject;
 }
 
