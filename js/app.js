@@ -257,7 +257,7 @@ async function refreshUI() {
 // Get today's baseline for score calculation
 async function getTodaySessionBaseline() {
   const daily = await getDailyRecord();
-  const today = new Date().toISOString().split('T')[0];
+  const today = getLocalDateKey();
   const todayRec = daily[today];
   return {
     questionsCount: todayRec ? todayRec.questionsCount : 0,
@@ -268,7 +268,6 @@ async function getTodaySessionBaseline() {
 // Start a new practice session
 async function startPracticeSession(subject) {
   // Record baseline before this session for score calculation
-  const today = new Date().toISOString().split('T')[0];
   const todayBefore = await getTodaySessionBaseline();
   _sessionStartQuestions = todayBefore.questionsCount;
   _sessionStartCorrect = todayBefore.correct;
