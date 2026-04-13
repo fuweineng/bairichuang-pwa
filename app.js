@@ -152,6 +152,12 @@ function renderHome() {
   const sub = document.getElementById('streak-sub');
   sub.textContent = streak === 0 ? '开始你的百日计划' : `已打卡 ${Object.keys(state.daily).length} 天`;
 
+  // Mini chart on home page
+  const homeChartEl = document.getElementById('home-chart-container');
+  if (homeChartEl) {
+    homeChartEl.innerHTML = drawChart();
+  }
+
   // Entry card counts
   updateEntryCounts();
   // Per-subject badges on the grid
@@ -444,13 +450,24 @@ function renderQuestion() {
     ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听对话/短文</button>`
     : '';
 
-  // listening 类型也有选项（四个选项按钮），所以要加入 isChoice 判断
-  const isChoice = (q.type === 'choice' || q.type === 'listening') && q.options && q.options.length > 0;
-  const isFillOrShort = (!q.options || q.options.length === 0) && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
+  // ── 判断题型 ──────────────────────────────────────────────────────────
+  // choice 类型: q.options 数组；listening 类型: q.choices 数组
+  const hasOptions = q.options && q.options.length > 0;         // choice 用 options
+  const hasChoices = q.choices && q.choices.length > 0;         // listening 用 choices
+  const isChoice = hasOptions && q.type === 'choice';
+  const isListeningType = hasChoices && q.type === 'listening';
+  const isFillOrShort = !hasOptions && !hasChoices && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
 
-  const opts = isChoice ? q.options.map((opt, i) =>
-    `<button class="answer-btn" data-action="answer" data-choice="${i}">${opt}</button>`
-  ).join('') : '';
+  // 选项按钮 (choice 用 options 文字；listening 用 choices[{label,text}])
+  const opts = isChoice
+    ? q.options.map((opt, i) =>
+        `<button class="answer-btn" data-action="answer" data-choice="${i}">${opt}</button>`
+      ).join('')
+    : isListeningType
+    ? q.choices.map((c, i) =>
+        `<button class="answer-btn" data-action="answer" data-choice="${i}">${c.label}. ${c.text}</button>`
+      ).join('')
+    : '';
 
   // listening 类型要在选项上方显示听力的文本内容
   const audioTextBlock = (q.type === 'listening' && q.audio_text)
@@ -460,7 +477,7 @@ function renderQuestion() {
   const inputArea = isFillOrShort
     ? `<div class="fill-area">
          <div class="fill-input-row">
-           <input type="text" class="fill-input" id="fill-answer-input" placeholder="${q.type === 'short_answer' ? '写出答案...' : '填写答案...'}" autocomplete="off" />
+           <input type="text" class="fill-input" id="fill-answer-input" placeholder="${q.type === 'short_answer' ? '写出答案...' : '填写答案...'}" autocomplete="off" onkeydown="if(event.key==='Enter')document.getElementById('fill-answer-input') && document.getElementById('fill-answer-input').closest('.fill-area').querySelector('[data-action]').click()" />
            <button class="fill-submit-btn primary-btn" data-action="fill-submit">提交</button>
          </div>
        </div>`
@@ -491,29 +508,37 @@ function renderQuestion() {
 
 async function handleAnswer(choiceIdx) {
   const q = state.sessionQuestions[state.sessionIndex];
-  // Only for choice questions
-  const isCorrect = (q.type === 'choice' && q.options && q.options[choiceIdx] === String(q.answer)) ||
-    (q.type === 'choice' && Array.isArray(q.answer) && q.answer.includes(String(choiceIdx)));
 
-  // Update session score
+  // 判断答案：choice 用 q.options[idx] === q.answer；listening 用 q.choices[idx].label === q.answer
+  let isCorrect = false;
+  if (q.type === 'choice' && q.options) {
+    isCorrect = q.options[choiceIdx] === String(q.answer) ||
+      (Array.isArray(q.answer) && q.answer.includes(String(choiceIdx)));
+  } else if (q.type === 'listening' && q.choices) {
+    isCorrect = q.choices[choiceIdx].label === String(q.answer);
+  }
+
   if (isCorrect) state.sessionScore.correct++;
   else state.sessionScore.wrong++;
 
-  // Update progress
   await recordAnswer(q.id, isCorrect);
 
-  // Show feedback
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
+    // 显示正确答案标签
+    let correctLabel = q.answer;
+    if (q.type === 'listening' && q.choices) {
+      const found = q.choices.find(c => c.label === q.answer);
+      if (found) correctLabel = `${q.answer}. ${found.text}`;
+    }
     if (isCorrect) {
       fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
-      if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
     } else {
-      const correctAns = q.answer;
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${correctAns}</span>`;
-      if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
+      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${correctLabel}</span>`;
     }
+    // 无论对错都显示中文解析
+    if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
     fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
   }
 }
@@ -778,9 +803,15 @@ function drawChart() {
     return `<text x="${PAD-4}" y="${y+4}" class="chart-ylabel" text-anchor="end">${s}</text>`;
   }).join('');
 
+  // Polyline: when score=0 the point lands below chart floor, clamp to floor so the dot is visible
+  const clampedPoints = points.map((p, i) => [
+    p[0],
+    scores[i] > 0 ? p[1] : H - PAD  // score=0 → show at bottom baseline
+  ]);
+
   return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg">
     ${scores.some(s=>s>0) ? `<path d="${area}" class="chart-area"/>` : ''}
-    <polyline points="${points.map(p=>`${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ')}" class="chart-line" fill="none"/>
+    <polyline points="${clampedPoints.map(p=>`${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ')}" class="chart-line" fill="none"/>
     ${points.filter((_,i) => scores[i] > 0).map(p => `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3" class="chart-dot"/>`).join('')}
     ${xLabels}
     ${yLabels}
