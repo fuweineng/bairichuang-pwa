@@ -96,12 +96,14 @@ main {
 
 .streak-card {
   background: linear-gradient(135deg, #4CAF50, #2E7D32);
-  border-radius: 14px;
-  padding: 14px 14px 12px 14px;
+  border-radius: 12px;
+  padding: 10px 14px;
   display: flex;
   align-items: center;
   gap: 12px;
   color: white;
+  cursor: pointer;
+  min-height: 60px;
 }
 
 .streak-card-left {
@@ -116,73 +118,66 @@ main {
 }
 
 .streak-count {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 900;
   line-height: 1;
 }
 
 .streak-unit {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   opacity: 0.85;
 }
 
 .streak-sub {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   opacity: 0.8;
   margin-top: 1px;
 }
 
-.streak-today-row {
+.streak-hint {
   display: flex;
   align-items: center;
-  gap: 5px;
-  margin-top: 4px;
-}
-
-.streak-today-dot {
-  font-size: 0.7rem;
-  color: #ccc;
-  transition: color 0.3s;
-}
-
-.streak-today-label {
+  gap: 4px;
   font-size: 0.72rem;
-  opacity: 0.9;
+  opacity: 0.85;
+  white-space: nowrap;
 }
 
-.sparkline-canvas {
-  flex-shrink: 0;
+.streak-arrow {
+  font-size: 0.9rem;
 }
 
 /* ==================== ENTRY CARDS ==================== */
 .entry-cards {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
 
 .entry-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   background: white;
   border-radius: 12px;
-  padding: 12px 14px;
+  padding: 12px 8px 10px;
   cursor: pointer;
   transition: transform 0.15s, box-shadow 0.15s;
-  border-left: 4px solid transparent;
+  border-top: 3px solid transparent;
+  text-align: center;
 }
 
 .entry-card:active {
-  transform: scale(0.98);
+  transform: scale(0.97);
 }
 
-.entry-card.new { border-left-color: #2196F3; }
-.entry-card.weak { border-left-color: #F44336; }
-.entry-card.mastered { border-left-color: #4CAF50; }
+.entry-card.new { border-top-color: #2196F3; }
+.entry-card.weak { border-top-color: #F44336; }
+.entry-card.mastered { border-top-color: #4CAF50; }
 
 .entry-card-icon {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1;
   flex-shrink: 0;
 }
@@ -193,19 +188,13 @@ main {
 }
 
 .entry-card-title {
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   font-weight: 700;
   color: #333;
 }
 
-.entry-card-sub {
-  font-size: 0.72rem;
-  color: #999;
-  margin-top: 1px;
-}
-
 .entry-card-count {
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 600;
   color: #666;
   margin-top: 2px;
@@ -219,6 +208,7 @@ main {
   color: #ccc;
   font-size: 1rem;
   flex-shrink: 0;
+  align-self: flex-end;
 }
 
 /* Practice entry info bar */

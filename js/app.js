@@ -1412,7 +1412,7 @@ async function loadSettingsView() {
     </div>
     <button class="settings-action-btn" id="feedback-btn">💬 意见反馈</button>
     <button class="settings-danger-btn" id="clear-all-btn">清除所有数据</button>
-    <div class="settings-version">百日闯 v152</div>
+    <div class="settings-version">百日闯 v156</div>
   `;
 
   // Bind events

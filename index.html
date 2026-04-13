@@ -9,7 +9,7 @@
   <meta name="description" content="百日闯 - 初二学习打卡PWA">
   <title>百日闯 - 初二学习打卡</title>
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=156">
 </head>
 <body>
   <div id="app">
@@ -29,7 +29,7 @@
       <!-- ===== HOME VIEW ===== -->
       <section id="home-view" class="view active">
 
-        <!-- Streak Banner (compact, click to progress view) -->
+        <!-- Compact Streak Banner (click to progress view) -->
         <div class="streak-card" onclick="showView('progress')">
           <div class="streak-card-left">
             <div class="streak-main">
@@ -37,96 +37,39 @@
               <span class="streak-unit">天连续</span>
             </div>
             <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
-            <div class="streak-today-row">
-              <span class="streak-today-dot" id="streak-today-dot">○</span>
-              <span class="streak-today-label" id="streak-today-score">今日得分: --</span>
-            </div>
           </div>
-          <canvas id="sparkline-canvas" class="sparkline-canvas"></canvas>
-        </div>
-
-        <!-- 100-day progress bar -->
-        <div class="hundred-day-card">
-          <div class="hundred-day-header">
-            <span class="hundred-day-label">百日进度</span>
-            <span class="hundred-day-count"><span id="hundred-days-earned">0</span><span class="hundred-day-total">/100分</span></span>
-          </div>
-          <div class="hundred-bar">
-            <div class="hundred-bar-fill" id="hundred-bar-fill" style="width:0%"></div>
-          </div>
-          <div class="hundred-day-dots" id="hundred-day-dots"></div>
-        </div>
-
-        <!-- Today Stats Row -->
-        <div class="today-stats-row">
-          <div class="mini-stat">
-            <span id="today-checkin-dot" class="checkin-dot unchecked">○</span>
-            <span id="today-checkin-text">未打卡</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="mini-stat">
-            <span class="mini-num" id="today-practice-count">0</span>
-            <span class="mini-label">已练</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="mini-stat">
-            <span class="mini-num" id="today-accuracy">--%</span>
-            <span class="mini-label">正确率</span>
+          <div class="streak-hint">
+            <span>查看折线图</span>
+            <span class="streak-arrow">→</span>
           </div>
         </div>
 
-        <!-- Daily Goal -->
-        <div class="goal-compact" id="goal-compact">
-          <div class="goal-meta">
-            <span class="goal-label">今日目标</span>
-            <span class="goal-nums" id="goal-progress-text">0/10</span>
-          </div>
-          <div class="goal-bar">
-            <div class="goal-fill" id="goal-fill" style="width:0%"></div>
-          </div>
-        </div>
-
-        <!-- Mastery Chart -->
-        <div class="home-chart-area" id="home-chart-area">
-          <div class="home-chart-header">
-            <span class="home-chart-title">各科掌握趋势</span>
-            <span class="home-chart-hint" id="home-chart-hint">开始练习后显示</span>
-          </div>
-          <canvas id="home-mastery-canvas"></canvas>
-          <div class="home-chart-legend" id="home-chart-legend"></div>
-        </div>
-
-        <!-- 3 Practice Entry Cards -->
+        <!-- 3 Practice Entry Cards (horizontal) -->
         <div class="entry-cards" id="entry-cards">
           <div class="entry-card new" onclick="startEntry('new')">
             <div class="entry-card-icon">🆕</div>
             <div class="entry-card-body">
               <div class="entry-card-title">全新题目</div>
-              <div class="entry-card-sub" id="entry-new-sub">还未练习过的题</div>
               <div class="entry-card-count" id="entry-new-count">0题</div>
             </div>
+            <span class="entry-arrow">›</span>
           </div>
           <div class="entry-card weak" onclick="startEntry('weak')">
             <div class="entry-card-icon">🔴</div>
             <div class="entry-card-body">
               <div class="entry-card-title">易错汇总</div>
-              <div class="entry-card-sub" id="entry-weak-sub">错误率高的题</div>
               <div class="entry-card-count" id="entry-weak-count">0题</div>
             </div>
+            <span class="entry-arrow">›</span>
           </div>
           <div class="entry-card mastered" onclick="startEntry('mastered')">
             <div class="entry-card-icon">✅</div>
             <div class="entry-card-body">
               <div class="entry-card-title">熟练掌握</div>
-              <div class="entry-card-sub" id="entry-mastered-sub">做过的题</div>
               <div class="entry-card-count" id="entry-mastered-count">0题</div>
             </div>
+            <span class="entry-arrow">›</span>
           </div>
-        </div>
-
-        <!-- Bottom Menu -->
-        <div class="home-menu">
-          <button class="home-menu-btn" onclick="showView('progress')">📊 打卡记录</button>
         </div>
       </section>
 
@@ -296,6 +239,6 @@
   </script>
   <script src="js/checkin.js"></script>
   <script src="js/question_bank.js"></script>
-  <script type="module" src="js/app.js?v=155"></script>
+  <script type="module" src="js/app.js?v=156"></script>
 </body>
 </html>
