@@ -139,15 +139,12 @@ async function doAppUpgrade(remote) {
   const banner = document.getElementById('update-banner');
   if (banner) banner.querySelector('.update-text').textContent = '正在更新...';
 
-  // 1. Clear QB cache
-  await clear(K.QB_CACHE);
-
-  // 2. Save new versions
+  // 1. Save new versions (keep QB cache — it survives app updates)
   state.settings.appVersion = remote.version;
   state.settings.audioVersion = remote.audioVersion || '';
   await set(K.SETTINGS, state.settings);
 
-  // 3. Reload — SW will pick up new app.js
+  // 2. Reload — SW will pick up new app.js
   location.reload();
 }
 
