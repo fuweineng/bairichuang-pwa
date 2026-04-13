@@ -13107,5 +13107,1536 @@
     ],
     "answer": "多次测量后取平均值",
     "explanation": "多次测量取平均值是减小偶然误差的常见方法。"
+  },
+  {
+    "id": "english-206",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "周末活动",
+      "地点"
+    ],
+    "question": "Where did Lucy go last weekend?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: How was your weekend, Lucy? W: I went to the new science museum with my family. It was amazing!",
+    "audioUrl": "audio/english/english-206.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "To the shopping mall."
+      },
+      {
+        "label": "B",
+        "text": "To the science museum."
+      },
+      {
+        "label": "C",
+        "text": "To the park."
+      },
+      {
+        "label": "D",
+        "text": "To the library."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lucy说她和家人去了新的科学博物馆，It was amazing!"
+  },
+  {
+    "id": "english-207",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "时间计算"
+    ],
+    "question": "When should they arrive at the concert?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: What time does the concert start, Tom? M: It starts at 7:30. We'd better arrive 20 minutes earlier.",
+    "audioUrl": "audio/english/english-207.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "At 7:00."
+      },
+      {
+        "label": "B",
+        "text": "At 7:10."
+      },
+      {
+        "label": "C",
+        "text": "At 7:30."
+      },
+      {
+        "label": "D",
+        "text": "At 7:50."
+      }
+    ],
+    "answer": "B",
+    "explanation": "音乐会7:30开始，他们需要提前20分钟到达，即7:10。"
+  },
+  {
+    "id": "english-208",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "日常对话",
+      "饮品"
+    ],
+    "question": "What does Mary want to drink?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Would you like some coffee or tea, Mary? W: Tea, please. Coffee makes me feel nervous.",
+    "audioUrl": "audio/english/english-208.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Coffee."
+      },
+      {
+        "label": "B",
+        "text": "Tea."
+      },
+      {
+        "label": "C",
+        "text": "Water."
+      },
+      {
+        "label": "D",
+        "text": "Juice."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Mary选择喝茶，因为咖啡让她紧张。"
+  },
+  {
+    "id": "english-209",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "购物",
+      "价格"
+    ],
+    "question": "How much did the boy pay for the backpack?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Your backpack looks nice. How much is it? M: It was 200 yuan, but I bought it on sale for half price.",
+    "audioUrl": "audio/english/english-209.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "200 yuan."
+      },
+      {
+        "label": "B",
+        "text": "100 yuan."
+      },
+      {
+        "label": "C",
+        "text": "150 yuan."
+      },
+      {
+        "label": "D",
+        "text": "50 yuan."
+      }
+    ],
+    "answer": "B",
+    "explanation": "原价200元，半价出售，所以付了100元。"
+  },
+  {
+    "id": "english-210",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "体育",
+      "比赛结果"
+    ],
+    "question": "What was the result of the football match?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Did you watch the football match last night? W: Yes, I did. It was between Foshan Team and Guangzhou Team. It ended in a tie.",
+    "audioUrl": "audio/english/english-210.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Foshan Team won."
+      },
+      {
+        "label": "B",
+        "text": "Guangzhou Team won."
+      },
+      {
+        "label": "C",
+        "text": "It was a tie."
+      },
+      {
+        "label": "D",
+        "text": "The match was cancelled."
+      }
+    ],
+    "answer": "C",
+    "explanation": "比赛结果是平局，It ended in a tie。"
+  },
+  {
+    "id": "english-211",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "时间",
+      "日程"
+    ],
+    "question": "What time is Jack's piano lesson?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Why are you walking so fast, Jack? M: I have a piano lesson at 4 pm. It's already 3:55. I'm going to be late!",
+    "audioUrl": "audio/english/english-211.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "At 3:55."
+      },
+      {
+        "label": "B",
+        "text": "At 4:00."
+      },
+      {
+        "label": "C",
+        "text": "At 4:05."
+      },
+      {
+        "label": "D",
+        "text": "At 4:15."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Jack说钢琴课是4点，现在3:55快迟到了。"
+  },
+  {
+    "id": "english-212",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "社团",
+      "兴趣爱好"
+    ],
+    "question": "What does the girl want to do?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: What club are you going to join this term? W: I'm interested in the robotics club. I want to learn how to make robots.",
+    "audioUrl": "audio/english/english-212.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Join the music club."
+      },
+      {
+        "label": "B",
+        "text": "Join the robotics club."
+      },
+      {
+        "label": "C",
+        "text": "Join the chess club."
+      },
+      {
+        "label": "D",
+        "text": "Join the art club."
+      }
+    ],
+    "answer": "B",
+    "explanation": "女孩说对机器人俱乐部感兴趣，想学做机器人。"
+  },
+  {
+    "id": "english-213",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "问路",
+      "指路"
+    ],
+    "question": "How can the woman find the subway station?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Excuse me, where is the nearest subway station? M: Go straight for two blocks and turn right at the traffic lights. It's next to a big supermarket.",
+    "audioUrl": "audio/english/english-213.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Turn left at the traffic lights."
+      },
+      {
+        "label": "B",
+        "text": "Go straight and turn right."
+      },
+      {
+        "label": "C",
+        "text": "Ask someone else."
+      },
+      {
+        "label": "D",
+        "text": "Take a bus."
+      }
+    ],
+    "answer": "B",
+    "explanation": "男士指示：直走两个路口，在红绿灯处右转，地铁站在大超市旁边。"
+  },
+  {
+    "id": "english-214",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "学习方法",
+      "英语学习"
+    ],
+    "question": "How does the girl practice English?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Your English is very good. How do you practice? W: I usually watch English movies and listen to English songs. It really helps.",
+    "audioUrl": "audio/english/english-214.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "By reading English books."
+      },
+      {
+        "label": "B",
+        "text": "By watching movies and listening to songs."
+      },
+      {
+        "label": "C",
+        "text": "By talking with foreigners."
+      },
+      {
+        "label": "D",
+        "text": "By taking notes."
+      }
+    ],
+    "answer": "B",
+    "explanation": "女孩通过看英文电影和听英文歌曲来练习英语。"
+  },
+  {
+    "id": "english-215",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "邀请",
+      "计划"
+    ],
+    "question": "What is Bob going to do this Saturday?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Bob, can you come to my birthday party this Saturday? M: I'd love to, but I'm visiting my grandparents in Qingyuan. Can we go together next weekend?",
+    "audioUrl": "audio/english/english-215.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Go to a birthday party."
+      },
+      {
+        "label": "B",
+        "text": "Visit his grandparents."
+      },
+      {
+        "label": "C",
+        "text": "Stay at home."
+      },
+      {
+        "label": "D",
+        "text": "Go shopping."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Bob这周六要去看望在清远的祖父母，所以不能参加生日派对。"
+  },
+  {
+    "id": "english-216",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "假期计划",
+      "地点"
+    ],
+    "question": "Where is Li Hua planning to go for summer vacation?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hi, Li Hua. Summer vacation is coming. Any plans? W: I'm thinking of going to Shenzhen. My cousin lives there. M: That sounds great! What will you do there? W: I'll visit the Window of the World and Shenzhen Bay Park. Maybe go to the sea. M: Have you booked the hotel? W: Not yet. I'll do it this weekend. M: How will you get there? W: By high-speed train. It's fast and comfortable.",
+    "audioUrl": "audio/english/english-216.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Guangzhou."
+      },
+      {
+        "label": "B",
+        "text": "Shenzhen."
+      },
+      {
+        "label": "C",
+        "text": "Foshan."
+      },
+      {
+        "label": "D",
+        "text": "Qingyuan."
+      }
+    ],
+    "answer": "B",
+    "explanation": "李华计划去深圳，表哥住在那。"
+  },
+  {
+    "id": "english-217",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "假期活动"
+    ],
+    "question": "What will Li Hua do in Shenzhen?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hi, Li Hua. Summer vacation is coming. Any plans? W: I'm thinking of going to Shenzhen. My cousin lives there. M: That sounds great! What will you do there? W: I'll visit the Window of the World and Shenzhen Bay Park. Maybe go to the sea. M: Have you booked the hotel? W: Not yet. I'll do it this weekend. M: How will you get there? W: By high-speed train. It's fast and comfortable.",
+    "audioUrl": "audio/english/english-216.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Visit museums only."
+      },
+      {
+        "label": "B",
+        "text": "Go to the beach and theme parks."
+      },
+      {
+        "label": "C",
+        "text": "Shop at the supermarket."
+      },
+      {
+        "label": "D",
+        "text": "Study at a language school."
+      }
+    ],
+    "answer": "B",
+    "explanation": "她会去世界之窗和深圳湾公园，可能去海边。"
+  },
+  {
+    "id": "english-218",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "交通方式"
+    ],
+    "question": "How will Li Hua get to Shenzhen?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hi, Li Hua. Summer vacation is coming. Any plans? W: I'm thinking of going to Shenzhen. My cousin lives there. M: That sounds great! What will you do there? W: I'll visit the Window of the World and Shenzhen Bay Park. Maybe go to the sea. M: Have you booked the hotel? W: Not yet. I'll do it this weekend. M: How will you get there? W: By high-speed train. It's fast and comfortable.",
+    "audioUrl": "audio/english/english-216.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "By bus."
+      },
+      {
+        "label": "B",
+        "text": "By car."
+      },
+      {
+        "label": "C",
+        "text": "By high-speed train."
+      },
+      {
+        "label": "D",
+        "text": "By plane."
+      }
+    ],
+    "answer": "C",
+    "explanation": "她坐高铁去深圳，快速又舒适。"
+  },
+  {
+    "id": "english-219",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "细节理解"
+    ],
+    "question": "What has Li Hua NOT done yet?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hi, Li Hua. Summer vacation is coming. Any plans? W: I'm thinking of going to Shenzhen. My cousin lives there. M: That sounds great! What will you do there? W: I'll visit the Window of the World and Shenzhen Bay Park. Maybe go to the sea. M: Have you booked the hotel? W: Not yet. I'll do it this weekend. M: How will you get there? W: By high-speed train. It's fast and comfortable.",
+    "audioUrl": "audio/english/english-216.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Planning the trip."
+      },
+      {
+        "label": "B",
+        "text": "Booking the hotel."
+      },
+      {
+        "label": "C",
+        "text": "Deciding the transport."
+      },
+      {
+        "label": "D",
+        "text": "Talking to her cousin."
+      }
+    ],
+    "answer": "B",
+    "explanation": "她还没订酒店，说这周末订。"
+  },
+  {
+    "id": "english-220",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "订餐",
+      "预约"
+    ],
+    "question": "What is Zhang Wei booking?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Good morning. I'd like to book a table for dinner, please. M: Of course. For how many people? W: Six people. It's my mother's birthday. M: Oh, happy birthday to her! What time would you like? W: 7 pm this Saturday evening. M: No problem. May I have your name and phone number? W: My name is Zhang Wei. My number is 138-0000-1234. M: Got it. And would you like the window seats? W: Yes, please. The ones with a nice view.",
+    "audioUrl": "audio/english/english-220.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A hotel room."
+      },
+      {
+        "label": "B",
+        "text": "A restaurant table."
+      },
+      {
+        "label": "C",
+        "text": "A movie ticket."
+      },
+      {
+        "label": "D",
+        "text": "A concert seat."
+      }
+    ],
+    "answer": "B",
+    "explanation": "张伟在订餐厅的桌位。"
+  },
+  {
+    "id": "english-221",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "场合",
+      "原因"
+    ],
+    "question": "Why is Zhang Wei having dinner this Saturday?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Good morning. I'd like to book a table for dinner, please. M: Of course. For how many people? W: Six people. It's my mother's birthday. M: Oh, happy birthday to her! What time would you like? W: 7 pm this Saturday evening. M: No problem. May I have your name and phone number? W: My name is Zhang Wei. My number is 138-0000-1234. M: Got it. And would you like the window seats? W: Yes, please. The ones with a nice view.",
+    "audioUrl": "audio/english/english-220.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It's a business dinner."
+      },
+      {
+        "label": "B",
+        "text": "It's her mother's birthday."
+      },
+      {
+        "label": "C",
+        "text": "It's a celebration for a new job."
+      },
+      {
+        "label": "D",
+        "text": "It's a friend's party."
+      }
+    ],
+    "answer": "B",
+    "explanation": "是她妈妈的生日晚餐。"
+  },
+  {
+    "id": "english-222",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "时间"
+    ],
+    "question": "What time is the dinner booking for?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Good morning. I'd like to book a table for dinner, please. M: Of course. For how many people? W: Six people. It's my mother's birthday. M: Oh, happy birthday to her! What time would you like? W: 7 pm this Saturday evening. M: No problem. May I have your name and phone number? W: My name is Zhang Wei. My number is 138-0000-1234. M: Got it. And would you like the window seats? W: Yes, please. The ones with a nice view.",
+    "audioUrl": "audio/english/english-220.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6 pm."
+      },
+      {
+        "label": "B",
+        "text": "7 pm."
+      },
+      {
+        "label": "C",
+        "text": "8 pm."
+      },
+      {
+        "label": "D",
+        "text": "9 pm."
+      }
+    ],
+    "answer": "B",
+    "explanation": "订的是周六晚上7点。"
+  },
+  {
+    "id": "english-223",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "特殊要求"
+    ],
+    "question": "What special request did Zhang Wei make?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Good morning. I'd like to book a table for dinner, please. M: Of course. For how many people? W: Six people. It's my mother's birthday. M: Oh, happy birthday to her! What time would you like? W: 7 pm this Saturday evening. M: No problem. May I have your name and phone number? W: My name is Zhang Wei. My number is 138-0000-1234. M: Got it. And would you like the window seats? W: Yes, please. The ones with a nice view.",
+    "audioUrl": "audio/english/english-220.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A birthday cake."
+      },
+      {
+        "label": "B",
+        "text": "Window seats with a nice view."
+      },
+      {
+        "label": "C",
+        "text": "A private room."
+      },
+      {
+        "label": "D",
+        "text": "Vegetarian food."
+      }
+    ],
+    "answer": "B",
+    "explanation": "她要求靠窗且视野好的座位。"
+  },
+  {
+    "id": "english-224",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "学习问题",
+      "数学"
+    ],
+    "question": "Why is Lisa worried?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hey, Lisa. You look worried. What's wrong? W: I have a math test tomorrow, but I don't understand the chapter about triangles. M: Don't worry. I can help you. Let's review it together after school. W: That would be great! Thank you so much. M: No problem. By the way, have you finished the homework about angles? W: Not yet. I'll finish it tonight. M: The test will cover triangles and angles. Remember to review the formulas too. W: Got it. See you after school.",
+    "audioUrl": "audio/english/english-224.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "She has a history test."
+      },
+      {
+        "label": "B",
+        "text": "She doesn't understand triangles."
+      },
+      {
+        "label": "C",
+        "text": "She missed the math class."
+      },
+      {
+        "label": "D",
+        "text": "She lost her textbook."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Lisa不懂三角形的章节，所以担心明天的数学考试。"
+  },
+  {
+    "id": "english-225",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "计划",
+      "复习"
+    ],
+    "question": "What will they do after school?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hey, Lisa. You look worried. What's wrong? W: I have a math test tomorrow, but I don't understand the chapter about triangles. M: Don't worry. I can help you. Let's review it together after school. W: That would be great! Thank you so much. M: No problem. By the way, have you finished the homework about angles? W: Not yet. I'll finish it tonight. M: The test will cover triangles and angles. Remember to review the formulas too. W: Got it. See you after school.",
+    "audioUrl": "audio/english/english-224.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Go to the library."
+      },
+      {
+        "label": "B",
+        "text": "Review math together."
+      },
+      {
+        "label": "C",
+        "text": "Play basketball."
+      },
+      {
+        "label": "D",
+        "text": "Go home early."
+      }
+    ],
+    "answer": "B",
+    "explanation": "他们放学后一起复习数学。"
+  },
+  {
+    "id": "english-226",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "作业",
+      "细节"
+    ],
+    "question": "What homework does Lisa still need to finish?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hey, Lisa. You look worried. What's wrong? W: I have a math test tomorrow, but I don't understand the chapter about triangles. M: Don't worry. I can help you. Let's review it together after school. W: That would be great! Thank you so much. M: No problem. By the way, have you finished the homework about angles? W: Not yet. I'll finish it tonight. M: The test will cover triangles and angles. Remember to review the formulas too. W: Got it. See you after school.",
+    "audioUrl": "audio/english/english-224.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Triangle problems."
+      },
+      {
+        "label": "B",
+        "text": "Angle problems."
+      },
+      {
+        "label": "C",
+        "text": "Algebra exercises."
+      },
+      {
+        "label": "D",
+        "text": "Reading comprehension."
+      }
+    ],
+    "answer": "B",
+    "explanation": "她还没做完角度的作业，今晚要完成。"
+  },
+  {
+    "id": "english-227",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "考试范围"
+    ],
+    "question": "What will the math test cover?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Hey, Lisa. You look worried. What's wrong? W: I have a math test tomorrow, but I don't understand the chapter about triangles. M: Don't worry. I can help you. Let's review it together after school. W: That would be great! Thank you so much. M: No problem. By the way, have you finished the homework about angles? W: Not yet. I'll finish it tonight. M: The test will cover triangles and angles. Remember to review the formulas too. W: Got it. See you after school.",
+    "audioUrl": "audio/english/english-224.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Triangles only."
+      },
+      {
+        "label": "B",
+        "text": "Angles only."
+      },
+      {
+        "label": "C",
+        "text": "Triangles and angles."
+      },
+      {
+        "label": "D",
+        "text": "Algebra and geometry."
+      }
+    ],
+    "answer": "C",
+    "explanation": "考试范围包括三角形和角度，还要复习公式。"
+  },
+  {
+    "id": "english-228",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "训练时间",
+      "篮球队"
+    ],
+    "question": "When does the basketball team train?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Hi, David. I heard you joined the school basketball team. How's training going? M: It's going well. We train every Tuesday and Thursday after school. W: That sounds busy. Do you have time for homework? M: Yes, I finish training at 5:30 and then do homework at home. W: Is the coach strict? M: Very strict, but fair. He always teaches us teamwork and discipline. W: I bet you'll do well in the next game. M: I hope so. We're playing against Foshan No. 1 Middle School next Friday.",
+    "audioUrl": "audio/english/english-228.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Every Monday and Wednesday."
+      },
+      {
+        "label": "B",
+        "text": "Every Tuesday and Thursday."
+      },
+      {
+        "label": "C",
+        "text": "Every Wednesday and Friday."
+      },
+      {
+        "label": "D",
+        "text": "Every day after school."
+      }
+    ],
+    "answer": "B",
+    "explanation": "球队每周二和周四放学后训练。"
+  },
+  {
+    "id": "english-229",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "时间"
+    ],
+    "question": "What time does David finish training?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Hi, David. I heard you joined the school basketball team. How's training going? M: It's going well. We train every Tuesday and Thursday after school. W: That sounds busy. Do you have time for homework? M: Yes, I finish training at 5:30 and then do homework at home. W: Is the coach strict? M: Very strict, but fair. He always teaches us teamwork and discipline. W: I bet you'll do well in the next game. M: I hope so. We're playing against Foshan No. 1 Middle School next Friday.",
+    "audioUrl": "audio/english/english-228.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "At 4:30."
+      },
+      {
+        "label": "B",
+        "text": "At 5:00."
+      },
+      {
+        "label": "C",
+        "text": "At 5:30."
+      },
+      {
+        "label": "D",
+        "text": "At 6:00."
+      }
+    ],
+    "answer": "C",
+    "explanation": "训练5:30结束，然后回家做作业。"
+  },
+  {
+    "id": "english-230",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "篮球训练",
+      "品质"
+    ],
+    "question": "What does the basketball coach teach besides skills?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Hi, David. I heard you joined the school basketball team. How's training going? M: It's going well. We train every Tuesday and Thursday after school. W: That sounds busy. Do you have time for homework? M: Yes, I finish training at 5:30 and then do homework at home. W: Is the coach strict? M: Very strict, but fair. He always teaches us teamwork and discipline. W: I bet you'll do well in the next game. M: I hope so. We're playing against Foshan No. 1 Middle School next Friday.",
+    "audioUrl": "audio/english/english-228.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Math and science."
+      },
+      {
+        "label": "B",
+        "text": "Teamwork and discipline."
+      },
+      {
+        "label": "C",
+        "text": "English and Chinese."
+      },
+      {
+        "label": "D",
+        "text": "Music and art."
+      }
+    ],
+    "answer": "B",
+    "explanation": "教练教他们团队合作和纪律。"
+  },
+  {
+    "id": "english-231",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "比赛时间",
+      "细节"
+    ],
+    "question": "When is the next basketball game?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "W: Hi, David. I heard you joined the school basketball team. How's training going? M: It's going well. We train every Tuesday and Thursday after school. W: That sounds busy. Do you have time for homework? M: Yes, I finish training at 5:30 and then do homework at home. W: Is the coach strict? M: Very strict, but fair. He always teaches us teamwork and discipline. W: I bet you'll do well in the next game. M: I hope so. We're playing against Foshan No. 1 Middle School next Friday.",
+    "audioUrl": "audio/english/english-228.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Next Monday."
+      },
+      {
+        "label": "B",
+        "text": "Next Tuesday."
+      },
+      {
+        "label": "C",
+        "text": "Next Wednesday."
+      },
+      {
+        "label": "D",
+        "text": "Next Friday."
+      }
+    ],
+    "answer": "D",
+    "explanation": "下周五他们将对阵佛山第一中学。"
+  },
+  {
+    "id": "english-232",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "价格",
+      "门票"
+    ],
+    "question": "How much is one adult ticket?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Good afternoon. Welcome to Ocean World. How many tickets do you need? W: Three tickets for adults and two for children, please. M: Sure. Adult tickets are 120 yuan each, and children under 12 are half price. W: Great. And is there a restaurant inside? M: Yes, there's one on the second floor. It opens until 8 pm. W: Perfect. Can we take photos with the dolphins? M: Yes, there's a dolphin show at 3 pm. You can take photos after the show. W: Thank you very much.",
+    "audioUrl": "audio/english/english-232.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "60 yuan."
+      },
+      {
+        "label": "B",
+        "text": "120 yuan."
+      },
+      {
+        "label": "C",
+        "text": "180 yuan."
+      },
+      {
+        "label": "D",
+        "text": "240 yuan."
+      }
+    ],
+    "answer": "B",
+    "explanation": "成人票120元一人。"
+  },
+  {
+    "id": "english-233",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "价格计算"
+    ],
+    "question": "How much are two children's tickets total?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Good afternoon. Welcome to Ocean World. How many tickets do you need? W: Three tickets for adults and two for children, please. M: Sure. Adult tickets are 120 yuan each, and children under 12 are half price. W: Great. And is there a restaurant inside? M: Yes, there's one on the second floor. It opens until 8 pm. W: Perfect. Can we take photos with the dolphins? M: Yes, there's a dolphin show at 3 pm. You can take photos after the show. W: Thank you very much.",
+    "audioUrl": "audio/english/english-232.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "60 yuan."
+      },
+      {
+        "label": "B",
+        "text": "120 yuan."
+      },
+      {
+        "label": "C",
+        "text": "180 yuan."
+      },
+      {
+        "label": "D",
+        "text": "240 yuan."
+      }
+    ],
+    "answer": "B",
+    "explanation": "儿童票半价60元，两张共120元。"
+  },
+  {
+    "id": "english-234",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "营业时间",
+      "餐厅"
+    ],
+    "question": "Until what time is the restaurant open?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Good afternoon. Welcome to Ocean World. How many tickets do you need? W: Three tickets for adults and two for children, please. M: Sure. Adult tickets are 120 yuan each, and children under 12 are half price. W: Great. And is there a restaurant inside? M: Yes, there's one on the second floor. It opens until 8 pm. W: Perfect. Can we take photos with the dolphins? M: Yes, there's a dolphin show at 3 pm. You can take photos after the show. W: Thank you very much.",
+    "audioUrl": "audio/english/english-232.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Until 6 pm."
+      },
+      {
+        "label": "B",
+        "text": "Until 7 pm."
+      },
+      {
+        "label": "C",
+        "text": "Until 8 pm."
+      },
+      {
+        "label": "D",
+        "text": "Until 9 pm."
+      }
+    ],
+    "answer": "C",
+    "explanation": "餐厅在二楼，营业到晚上8点。"
+  },
+  {
+    "id": "english-235",
+    "type": "listening",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "活动时间",
+      "海豚表演"
+    ],
+    "question": "When can they take photos with the dolphins?",
+    "hint": "先点击播放音频，再选择答案。",
+    "tts": "en-US",
+    "audio_text": "M: Good afternoon. Welcome to Ocean World. How many tickets do you need? W: Three tickets for adults and two for children, please. M: Sure. Adult tickets are 120 yuan each, and children under 12 are half price. W: Great. And is there a restaurant inside? M: Yes, there's one on the second floor. It opens until 8 pm. W: Perfect. Can we take photos with the dolphins? M: Yes, there's a dolphin show at 3 pm. You can take photos after the show. W: Thank you very much.",
+    "audioUrl": "audio/english/english-232.m4a",
+    "choices": [
+      {
+        "label": "A",
+        "text": "At 2 pm."
+      },
+      {
+        "label": "B",
+        "text": "At 3 pm."
+      },
+      {
+        "label": "C",
+        "text": "After the dolphin show."
+      },
+      {
+        "label": "D",
+        "text": "Before the dolphin show."
+      }
+    ],
+    "answer": "C",
+    "explanation": "海豚表演下午3点，表演结束后可以拍照。"
+  },
+  {
+    "id": "english-236-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "Li Ming is a student in Foshan No. 1 _____ School.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "Middle",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-236-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "He wakes up at 6:30 in the _____.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "morning",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-236-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "He goes to school by _____.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "bike",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-236-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "After school, he usually plays basketball for one _____.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "hour",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-236-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "He goes to bed at _____ in the evening.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "10:00",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-237-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "Last weekend, the family went to Foshan's Lianglu _____.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "Garden",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-237-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "The garden has many flowers and _____.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "trees",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-237-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "Li Ming's father cooked a delicious _____ for them.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "lunch",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-237-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "The ancient temple was more than 500 _____ old.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "years",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-237-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "Lianglu Garden is a great place for a family _____.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "trip",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-238-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "The boy has about fifty books on his _____.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "bookshelf",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-238-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "His favorite books are science fiction and _____ stories.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "adventure",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-238-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "He reads for about thirty _____ before sleep.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "minutes",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-238-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "Reading helps him learn many new _____.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "words",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-238-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "His dream is to become a _____ when he grows up.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "writer",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-239-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "Tomorrow is _____ birthday.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "Tom",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-239-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "His mother is going to make a big _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "cake",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-239-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "His father will buy some balloons and _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "presents",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-239-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "Tom's friends will come in the _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "afternoon",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-239-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "Tom hopes everyone will have a good _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "time",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-240-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "The writer usually goes to school by _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "bus",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+  },
+  {
+    "id": "english-240-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "The bus ride takes about twenty _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "minutes",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+  },
+  {
+    "id": "english-240-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "He always sits near the _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "window",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+  },
+  {
+    "id": "english-240-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "His best friend is _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "Lucy",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+  },
+  {
+    "id": "english-240-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "The bus driver is very _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "friendly",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
   }
 ]
