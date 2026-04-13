@@ -2,7 +2,7 @@
 // Main entry point for 百日闯 PWA
 
 import { checkin, getCheckinStreak, getCheckinHistoryList } from './checkin.js';
-import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress } from './question_bank.js';
+import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions } from './question_bank.js';
 
 // State
 let currentView = 'index';
@@ -68,6 +68,10 @@ function navigate(route) {
     document.getElementById('progress-view').classList.add('active');
     currentView = 'progress';
     loadProgressView();
+  } else if (route === '#/wrong') {
+    document.getElementById('wrong-view').classList.add('active');
+    currentView = 'wrong';
+    loadWrongView();
   } else {
     document.getElementById('home-view').classList.add('active');
     currentView = 'index';
@@ -170,7 +174,12 @@ async function loadPracticeQuestions(subject) {
         const selectedIndex = parseInt(optBtn.dataset.index);
         const isCorrect = q.answer === q.options[selectedIndex];
         await saveProgress(q.id, q.options[selectedIndex], isCorrect);
-        
+
+        // Collect wrong question
+        if (!isCorrect) {
+          await addWrongQuestion(q, q.options[selectedIndex]);
+        }
+
         container.querySelectorAll('.option-btn').forEach(b => {
           b.disabled = true;
           if (q.options.indexOf(q.answer) === parseInt(b.dataset.index)) {
@@ -194,7 +203,7 @@ async function loadProgressView() {
   if (!container) return;
 
   const history = await getCheckinHistoryList();
-  
+
   if (history.length === 0) {
     container.innerHTML = '<p class="placeholder">暂无打卡记录</p>';
     return;
@@ -213,6 +222,44 @@ async function loadProgressView() {
   });
 
   container.innerHTML = html;
+}
+
+// Load wrong questions view
+async function loadWrongView() {
+  const container = document.getElementById('wrong-container');
+  if (!container) return;
+
+  const wrongList = await getWrongQuestions();
+
+  if (wrongList.length === 0) {
+    container.innerHTML = '<p class="placeholder">太棒了！暂无错题</p>';
+    return;
+  }
+
+  let html = `<p class="wrong-summary">共 ${wrongList.length} 道错题</p>`;
+  wrongList.forEach((item, idx) => {
+    const q = item.question;
+    html += `
+      <div class="wrong-item" data-index="${idx}">
+        <div class="wrong-question">
+          <span class="subject-tag">${getSubjectName(q.subject)}</span>
+          <p>${q.question}</p>
+        </div>
+        <div class="wrong-answer">
+          <span class="user-answer">你的答案: ${item.userAnswer}</span>
+          <span class="correct-answer">正确答案: ${q.answer}</span>
+        </div>
+        ${q.explanation ? `<p class="explanation">解析: ${q.explanation}</p>` : ''}
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+function getSubjectName(subject) {
+  const names = { math: '数学', english: '英语', chinese: '语文', science: '科学', history: '历史', geography: '地理', politics: '道法' };
+  return names[subject] || subject;
 }
 
 // Helper functions

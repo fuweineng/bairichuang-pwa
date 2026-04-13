@@ -28,6 +28,7 @@
         <button id="checkin-btn" class="primary-btn">今日打卡</button>
         <div class="menu">
           <button class="menu-btn" data-route="#/practice">开始练习</button>
+          <button class="menu-btn" data-route="#/wrong">错题集</button>
           <button class="menu-btn" data-route="#/progress">查看进度</button>
         </div>
       </section>
@@ -52,6 +53,14 @@
         <h2>学习进度</h2>
         <div id="history-container">
           <p class="placeholder">暂无打卡记录</p>
+        </div>
+        <button class="back-btn" data-route="#/index">返回</button>
+      </section>
+
+      <section id="wrong-view" class="view">
+        <h2>错题集</h2>
+        <div id="wrong-container">
+          <p class="placeholder">加载中...</p>
         </div>
         <button class="back-btn" data-route="#/index">返回</button>
       </section>
