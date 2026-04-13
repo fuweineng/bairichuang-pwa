@@ -111,6 +111,36 @@ main {
   color: #999;
 }
 
+.daily-goal {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+}
+
+.goal-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.goal-bar {
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.goal-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #81C784);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+  max-width: 100%;
+}
+
 .primary-btn {
   width: 100%;
   padding: 16px;

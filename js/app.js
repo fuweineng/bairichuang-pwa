@@ -166,6 +166,13 @@ async function refreshUI() {
   if (countEl) countEl.textContent = practiceCount;
   if (accuracyEl) accuracyEl.textContent = accuracy !== null ? `${accuracy}%` : '--%';
 
+  // Update daily goal progress
+  const DAILY_GOAL = 10;
+  const progressText = document.getElementById('goal-progress-text');
+  const goalFill = document.getElementById('goal-fill');
+  if (progressText) progressText.textContent = `${practiceCount}/${DAILY_GOAL}`;
+  if (goalFill) goalFill.style.width = `${Math.min((practiceCount / DAILY_GOAL) * 100, 100)}%`;
+
   // Update wrong badge
   const wrongList = await getWrongQuestions();
   const badge = document.getElementById('wrong-badge');
