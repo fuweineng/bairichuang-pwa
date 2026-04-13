@@ -62,7 +62,15 @@
     </footer>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/idb-keyval@6/dist/idb-keyval.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/idb-keyval@3.0.0/dist/idb-keyval-iife.min.js"></script>
+  <script>
+    // Expose idb-keyval globals for non-module scripts
+    window.get = window.idbKeyval.get;
+    window.set = window.idbKeyval.set;
+    window.del = window.idbKeyval.del;
+    window.clear = window.idbKeyval.clear;
+    window.keys = window.idbKeyval.keys;
+  </script>
   <script src="js/checkin.js"></script>
   <script src="js/question_bank.js"></script>
   <script type="module" src="js/app.js"></script>
