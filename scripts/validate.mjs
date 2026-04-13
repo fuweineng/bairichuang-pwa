@@ -86,7 +86,7 @@ async function main() {
     return acc;
   }, {});
 
-  const requiredSubjects = ['chinese', 'math', 'english', 'science', 'biology', 'history', 'geography', 'politics'];
+  const requiredSubjects = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
   for (const subject of requiredSubjects) {
     if (!subjectCounts[subject]) {
       errors.push(`题库缺少科目: ${subject}`);

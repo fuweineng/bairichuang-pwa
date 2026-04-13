@@ -53,10 +53,10 @@ const K = {
 
 const VERSION_URL = 'version.json';
 const QUESTION_PACK_URL = 'questions/question_bank_v1.json';
-const SUBJECTS = ['chinese', 'math', 'english', 'science', 'biology', 'history', 'geography', 'politics'];
+const SUBJECTS = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
 
 function createEmptyQuestionBank() {
-  return { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
+  return { math: [], english: [], chinese: [], physics: [], chemistry: [], biology: [], history: [], geography: [], politics: [] };
 }
 
 function groupQuestionsBySubject(questions = []) {
@@ -995,7 +995,7 @@ function drawChart() {
   const subj = state.chartSubject || 'all';
   const lineColors = {
     all: '#4CAF50', chinese: '#E91E63', math: '#2196F3',
-    english: '#FF9800', science: '#9C27B0', biology: '#009688',
+    english: '#FF9800', physics: '#9C27B0', chemistry: '#E91E63', biology: '#009688',
     history: '#795548', geography: '#607D8B', politics: '#F44336'
   };
   const typeColors = {
@@ -1011,7 +1011,7 @@ function drawChart() {
 
   if (subj === 'all') {
     // One line per subject
-    const subjects = ['chinese','math','english','science','biology','history','geography','politics'];
+    const subjects = ['chinese','math','english','physics','chemistry','biology','history','geography','politics'];
     subjects.forEach(s => {
       const vals = dates.map(d => {
         const byS = (state.daily[d] || {}).bySubject || {};
@@ -1399,7 +1399,7 @@ function shuffle(arr) {
 }
 
 function subjectName(subj) {
-  return { math:'数学', chinese:'语文', english:'英语', science:'科学',
+  return { math:'数学', chinese:'语文', english:'英语', physics:'物理', chemistry:'化学',
     biology:'生物', history:'历史', geography:'地理', politics:'道法' }[subj] || subj;
 }
 
