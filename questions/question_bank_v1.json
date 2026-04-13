@@ -18817,5 +18817,369 @@
     "question": "抛物线 y=(x-2)²+3 的顶点坐标是_____。",
     "answer": "(2,3)",
     "explanation": "根据数学知识填写：(2,3)"
+  },
+  {
+    "id": "math-170",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "等腰三角形"
+    ],
+    "question": "如图，△ABC中，AB=AC，∠B=∠C。求证：△ABC是等腰三角形。",
+    "imageUrl": "images/math/triangle_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "由AB=AC可直接得出，无需证明"
+      },
+      {
+        "label": "B",
+        "text": "过A作BC的垂直平分线，利用三线合一证明"
+      },
+      {
+        "label": "C",
+        "text": "延长BC到D，构造直角三角形"
+      },
+      {
+        "label": "D",
+        "text": "无法证明"
+      }
+    ],
+    "answer": "B",
+    "explanation": "等腰三角形证明常用方法：先证明两底角相等，再利用等角对等边得出AB=AC。常用辅助线是作底边的高或垂直平分线。"
+  },
+  {
+    "id": "math-171",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "圆",
+      "弧与圆周角"
+    ],
+    "question": "如图，圆O中，AB∥CD，弧AD=60°，则∠ACB的度数是",
+    "imageUrl": "images/math/circle_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "30°"
+      },
+      {
+        "label": "B",
+        "text": "60°"
+      },
+      {
+        "label": "C",
+        "text": "90°"
+      },
+      {
+        "label": "D",
+        "text": "120°"
+      }
+    ],
+    "answer": "A",
+    "explanation": "AB∥CD，则弧AC=弧BD。弧AD=60°，圆周角定理：弧AD所对的圆周角∠ACB=30°。"
+  },
+  {
+    "id": "math-172",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-函数",
+      "二次函数"
+    ],
+    "question": "如图是函数y=x²-4的图象，与x轴的交点坐标是",
+    "imageUrl": "images/math/coordinate_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "(2,0)和(-2,0)"
+      },
+      {
+        "label": "B",
+        "text": "(0,2)和(0,-2)"
+      },
+      {
+        "label": "C",
+        "text": "(4,0)和(-4,0)"
+      },
+      {
+        "label": "D",
+        "text": "(0,-4)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "令y=0，得x²-4=0，解得x=±2。与x轴交点即y=0时的x值，所以是(2,0)和(-2,0)。"
+  },
+  {
+    "id": "math-173",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "平行四边形"
+    ],
+    "question": "如图，平行四边形ABCD，E为BC中点，连接AE交BD于O。已知S△AOB=1，则S平行四边形ABCD=",
+    "imageUrl": "images/math/quad_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "B",
+    "explanation": "平行四边形对角线互相平分，E为BC中点，利用相似三角形面积比等于相似比平方，可求得平行四边形面积为6。"
+  },
+  {
+    "id": "math-174",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "相似三角形"
+    ],
+    "question": "如图，DE∥BC，AD:DB=1:2，则△ADE与△ABC的面积之比是",
+    "imageUrl": "images/math/similar_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "1:2"
+      },
+      {
+        "label": "B",
+        "text": "1:4"
+      },
+      {
+        "label": "C",
+        "text": "1:8"
+      },
+      {
+        "label": "D",
+        "text": "1:9"
+      }
+    ],
+    "answer": "D",
+    "explanation": "DE∥BC，则△ADE∽△ABC，相似比为AD:AB=1:3。面积比等于相似比的平方，所以面积比为1:9。"
+  },
+  {
+    "id": "math-175",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "勾股定理"
+    ],
+    "question": "如图，Rt△ABC中，∠C=90°，AC=3，BC=4，则AB的长度是",
+    "imageUrl": "images/math/right_triangle_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "C",
+    "explanation": "勾股定理：直角三角形两直角边的平方和等于斜边平方。AB²=AC²+BC²=3²+4²=25，所以AB=5。"
+  },
+  {
+    "id": "math-176",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-几何",
+      "梯形"
+    ],
+    "question": "如图，等腰梯形ABCD，AB∥CD，AD=BC，对角线AC=6，BD=8，则梯形的面积是",
+    "imageUrl": "images/math/trapezoid_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "48"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "等腰梯形对角线互相垂直。梯形面积=对角线乘积÷2=6×8÷2=24。"
+  },
+  {
+    "id": "geography-076",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-气候",
+      "气候类型图"
+    ],
+    "question": "如图是某地的气温曲线和降水量柱状图，该地的气候类型是",
+    "imageUrl": "images/geography/climate_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "温带季风气候"
+      },
+      {
+        "label": "B",
+        "text": "亚热带季风气候"
+      },
+      {
+        "label": "C",
+        "text": "热带季风气候"
+      },
+      {
+        "label": "D",
+        "text": "地中海气候"
+      }
+    ],
+    "answer": "B",
+    "explanation": "最冷月气温在0-15°C之间（亚热带范围），年降水量丰富且集中在夏季（800mm以上），是典型的亚热带季风气候（分布在中国秦岭-淮河以南）。"
+  },
+  {
+    "id": "geography-077",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地形",
+      "等高线"
+    ],
+    "question": "如图为某地的等高线地形图，以下说法正确的是",
+    "imageUrl": "images/geography/topo_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "图中有一条河流发育于山谷"
+      },
+      {
+        "label": "B",
+        "text": "A处为山脊，B处为山谷"
+      },
+      {
+        "label": "C",
+        "text": "C处陡崖可进行攀岩活动"
+      },
+      {
+        "label": "D",
+        "text": "该图所示区域地势北高南低"
+      }
+    ],
+    "answer": "A",
+    "explanation": "等高线凸向高处为山谷（集水线），凸向低处为山脊（分水线）。河流发育于山谷。陡崖是多条等高线重叠处。C项需要看等高线是否重合。"
+  },
+  {
+    "id": "geography-078",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流"
+    ],
+    "question": "如图为中国主要河流分布示意图，图中①、②、③、④分别是",
+    "imageUrl": "images/geography/china_rivers_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "长江、黄河、珠江、淮河"
+      },
+      {
+        "label": "B",
+        "text": "黄河、长江、淮河、珠江"
+      },
+      {
+        "label": "C",
+        "text": "长江、黄河、淮河、珠江"
+      },
+      {
+        "label": "D",
+        "text": "黄河、长江、珠江、淮河"
+      }
+    ],
+    "answer": "A",
+    "explanation": "①长江（中国最长河流，流经青藏、云贵、长江中下游平原）；②黄河（流经青藏、内蒙古、黄土、华北平原）；③珠江（流经云贵、两广）；④淮河（流入洪泽湖，注入黄海）。"
+  },
+  {
+    "id": "geography-079",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-亚洲",
+      "亚洲地理分区"
+    ],
+    "question": "如图为亚洲地理分区示意图，图中阴影部分（中国）位于",
+    "imageUrl": "images/geography/asia_regions_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "东亚"
+      },
+      {
+        "label": "B",
+        "text": "东南亚"
+      },
+      {
+        "label": "C",
+        "text": "南亚"
+      },
+      {
+        "label": "D",
+        "text": "中亚"
+      }
+    ],
+    "answer": "A",
+    "explanation": "中国位于亚洲东部，太平洋西岸，属于东亚地区。东亚还包括日本、朝鲜、韩国、蒙古。"
   }
 ]

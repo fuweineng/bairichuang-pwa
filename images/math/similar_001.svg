@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#f8f9fa"/>
+  <text x="10" y="22" font-size="13" fill="#333">如图，DE∥BC，AD:DB=1:2</text>
+  <polygon points="50,40 270,40 130,170" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="45" y="35" font-size="14" fill="#333">A</text>
+  <text x="275" y="35" font-size="14" fill="#333">B</text>
+  <text x="135" y="185" font-size="14" fill="#333">C</text>
+  <line x1="100" y1="83" x2="200" y2="83" stroke="#e74c3c" stroke-width="2"/>
+  <text x="95" y="80" font-size="13" fill="#333">D</text>
+  <text x="205" y="80" font-size="13" fill="#333">E</text>
+  <path d="M95,75 L95,91 L111,91" fill="none" stroke="#666" stroke-width="1"/>
+</svg>

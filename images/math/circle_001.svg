@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#f8f9fa"/>
+  <text x="10" y="22" font-size="13" fill="#333">圆O中，AB∥CD，弧AD=60°</text>
+  <circle cx="150" cy="120" r="80" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="145" y="115" font-size="12" fill="#666">O</text>
+  <circle cx="90" cy="70" r="4" fill="#e74c3c"/><text x="80" y="65" font-size="13" fill="#333">A</text>
+  <circle cx="210" cy="70" r="4" fill="#e74c3c"/><text x="215" y="65" font-size="13" fill="#333">B</text>
+  <circle cx="210" cy="170" r="4" fill="#e74c3c"/><text x="218" y="175" font-size="13" fill="#333">C</text>
+  <circle cx="90" cy="170" r="4" fill="#e74c3c"/><text x="75" y="175" font-size="13" fill="#333">D</text>
+  <line x1="90" y1="70" x2="210" y2="70" stroke="#888" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="90" y1="170" x2="210" y2="170" stroke="#888" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="110" y="100" font-size="11" fill="#e74c3c">60°</text>
+  <circle cx="150" cy="120" r="3" fill="#333"/>
+</svg>
