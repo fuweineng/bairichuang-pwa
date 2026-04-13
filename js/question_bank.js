@@ -331,7 +331,7 @@ async function initializeQuestionBank() {
   if (!stored) {
     // Load ALL batch files from questions/ directory
     const ALL_BATCH_FILES = [
-      'questions/question_bank_v1.json',
+      'questions/question_bank_v2.json',
       'questions/batch_bio.json',
       'questions/batch_chi.json',
       'questions/batch_chi2.json',

@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "questionBankVersion": "v2-20260413",
+  "version": 4,
+  "questionBankVersion": "v2",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-14",
-  "changelog": "修复本地日期、音频地址与离线缓存问题"
+  "changelog": "新增图片题支持(数学7张+地理4张)，题库升级v2，共939题"
 }

@@ -52,7 +52,7 @@ const K = {
 };
 
 const VERSION_URL = 'version.json';
-const QUESTION_PACK_URL = 'questions/question_bank_v1.json';
+const QUESTION_PACK_URL = 'questions/question_bank_v2.json';
 const SUBJECTS = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
 
 function createEmptyQuestionBank() {
