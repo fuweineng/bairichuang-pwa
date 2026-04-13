@@ -34,56 +34,27 @@ let questionBank = {
 
 // Load questions from IndexedDB or bundled JSON
 async function loadQuestions(subject) {
-  // Try to load from IndexedDB first
+  // If no subject, return ALL questions as flat array (used by updateEntryCardCounts)
+  if (subject === undefined) {
+    if (questionBank && Object.keys(questionBank).length > 0) {
+      return Object.values(questionBank).flat();
+    }
+    // Fallback: load from IDB and flatten
+    const stored = await get(QUESTION_STORE_KEY);
+    if (stored) { questionBank = stored; return Object.values(stored).flat(); }
+    return [];
+  }
+
+  // Load from IndexedDB
   const stored = await get(QUESTION_STORE_KEY);
   if (stored && stored[subject] && stored[subject].length > 0) {
     questionBank[subject] = stored[subject];
     return questionBank[subject];
   }
-
-  // Try to load from bundled question bank (merge all batch files)
-  const BATCH_FILES = [
-    'questions/question_bank_v1.json',
-    'questions/batch_sc2.json',
-  ];
-  let totalLoaded = 0;
-  for (const file of BATCH_FILES) {
-    try {
-      const response = await fetch(file);
-      if (response.ok) {
-        const data = await response.json();
-        data.forEach(q => {
-          if (questionBank[q.subject] !== undefined) {
-            questionBank[q.subject].push(q);
-          }
-        });
-        totalLoaded += data.length;
-      }
-    } catch (e) {
-      // Batch file may not exist, skip
-    }
+  // Return already-loaded subject from memory
+  if (questionBank[subject] && questionBank[subject].length > 0) {
+    return questionBank[subject];
   }
-  if (totalLoaded > 0) {
-    await set(QUESTION_STORE_KEY, questionBank);
-    return subject ? questionBank[subject] || [] : questionBank;
-  }
-
-  // Fallback to old sample.json
-  try {
-    const response = await fetch('sample_questions/sample.json');
-    if (response.ok) {
-      const data = await response.json();
-      const filtered = data.filter(q => q.subject === subject);
-      if (filtered.length > 0) {
-        questionBank[subject] = filtered;
-        await set(QUESTION_STORE_KEY, questionBank);
-        return filtered;
-      }
-    }
-  } catch (e) {
-    console.warn('Failed to load sample questions:', e);
-  }
-
   return [];
 }
 
@@ -358,42 +329,59 @@ async function getFeedbackHistory() {
 async function initializeQuestionBank() {
   const stored = await get(QUESTION_STORE_KEY);
   if (!stored) {
-    // Load from bundled question bank
-    try {
-      const response = await fetch('questions/question_bank_v1.json');
-      if (response.ok) {
-        const data = await response.json();
-        const grouped = { math: [], english: [], chinese: [], science: [], history: [], geography: [], politics: [] };
-        data.forEach(q => {
-          if (grouped[q.subject] !== undefined) {
-            grouped[q.subject].push(q);
-          }
-        });
-        await set(QUESTION_STORE_KEY, grouped);
-        questionBank = grouped;
-        return;
+    // Load ALL batch files from questions/ directory
+    const ALL_BATCH_FILES = [
+      'questions/question_bank_v1.json',
+      'questions/batch_bio.json',
+      'questions/batch_chi.json',
+      'questions/batch_chi2.json',
+      'questions/batch_chi3.json',
+      'questions/batch_en.json',
+      'questions/batch_en2.json',
+      'questions/batch_en3.json',
+      'questions/batch_geo.json',
+      'questions/batch_hist.json',
+      'questions/batch_math2.json',
+      'questions/batch_math3.json',
+      'questions/batch_pol.json',
+      'questions/batch_sc2.json',
+      'questions/batch_sci.json',
+    ];
+    const grouped = { math: [], english: [], chinese: [], science: [], history: [], geography: [], politics: [] };
+    for (const file of ALL_BATCH_FILES) {
+      try {
+        const response = await fetch(file);
+        if (response.ok) {
+          const data = await response.json();
+          data.forEach(q => {
+            if (grouped[q.subject] !== undefined) {
+              grouped[q.subject].push(q);
+            }
+          });
+        }
+      } catch (e) {
+        // Skip missing batch files
       }
-    } catch (e) {
-      console.warn('Failed to load question bank v1:', e);
     }
-
-    // Fallback to old sample.json
-    try {
-      const response = await fetch('sample_questions/sample.json');
-      if (response.ok) {
-        const data = await response.json();
-        const grouped = { math: [], english: [], chinese: [], science: [], history: [], geography: [], politics: [] };
-        data.forEach(q => {
-          if (grouped[q.subject]) {
-            grouped[q.subject].push(q);
-          }
-        });
-        await set(QUESTION_STORE_KEY, grouped);
-        questionBank = grouped;
+    // Fallback: load sample.json if nothing loaded
+    const totalQuestions = Object.values(grouped).reduce((s, arr) => s + arr.length, 0);
+    if (totalQuestions === 0) {
+      try {
+        const response = await fetch('sample_questions/sample.json');
+        if (response.ok) {
+          const data = await response.json();
+          data.forEach(q => {
+            if (grouped[q.subject]) {
+              grouped[q.subject].push(q);
+            }
+          });
+        }
+      } catch (e) {
+        console.warn('Failed to load sample questions:', e);
       }
-    } catch (e) {
-      console.warn('Failed to initialize question bank:', e);
     }
+    await set(QUESTION_STORE_KEY, grouped);
+    questionBank = grouped;
   } else {
     questionBank = stored;
   }
