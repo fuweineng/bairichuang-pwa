@@ -219,98 +219,39 @@ async function updateEntryCardCounts(settings) {
   const newCount = document.getElementById('entry-new-count');
   const weakCount = document.getElementById('entry-weak-count');
   const masteredCount = document.getElementById('entry-mastered-count');
-  const newSub = document.getElementById('entry-new-sub');
-  const weakSub = document.getElementById('entry-weak-sub');
-  const masteredSub = document.getElementById('entry-mastered-sub');
 
   if (newCount) {
     newCount.textContent = `${newIds.size}题`;
     newCount.classList.toggle('empty', newIds.size === 0);
   }
-  if (newSub) newSub.textContent = newIds.size === 0 ? '全部已练习' : '还未练习过的题';
 
   if (weakCount) {
     weakCount.textContent = `${weakIds.length}题`;
     weakCount.classList.toggle('empty', weakIds.length === 0);
   }
-  if (weakSub) weakSub.textContent = `错误率>${masteredThreshold}%`;
 
   if (masteredCount) {
     masteredCount.textContent = `${masteredIds.length}题`;
     masteredCount.classList.toggle('empty', masteredIds.length === 0);
   }
-  if (masteredSub) masteredSub.textContent = masteredIds.length === 0 ? '还没有' : `错误率≤${masteredThreshold}%`;
 }
 
 // Refresh UI data
 async function refreshUI() {
-  // Update streak count
-  const streakCount = document.getElementById('streak-count');
-  if (streakCount) {
-    const streak = await getCheckinStreak();
-    streakCount.textContent = streak;
-  }
-
-  // Update today stats
-  const today = new Date().toISOString().split('T')[0];
-  const history = await getCheckinHistoryList();
-  const checkedToday = history.some(h => h.date === today);
-
-  // Checkin dot
-  const checkinDot = document.getElementById('today-checkin-dot');
-  const checkinText = document.getElementById('today-checkin-text');
-  if (checkinDot) {
-    checkinDot.textContent = checkedToday ? '●' : '○';
-    checkinDot.classList.toggle('checked', checkedToday);
-    checkinDot.classList.toggle('unchecked', !checkedToday);
-  }
-  if (checkinText) {
-    checkinText.textContent = checkedToday ? '已打卡' : '未打卡';
-  }
-
-  // Practice count & accuracy from progress
-  const progress = await getProgress();
-  const todayProgress = Object.entries(progress)
-    .filter(([qid, record]) => record.date === today)
-    .map(([qid, record]) => record);
-
-  const practiceCount = todayProgress.length;
-  const correctCount = todayProgress.filter(p => p.isCorrect).length;
-  const accuracy = practiceCount > 0 ? Math.round((correctCount / practiceCount) * 100) : null;
-
-  const countEl = document.getElementById('today-practice-count');
-  const accuracyEl = document.getElementById('today-accuracy');
-  if (countEl) countEl.textContent = practiceCount;
-  if (accuracyEl) accuracyEl.textContent = accuracy !== null ? `${accuracy}%` : '--%';
-
-  // Update daily goal progress
   const settings = await getSettings();
-  const dailyGoal = settings.dailyGoal || 10;
-  const progressText = document.getElementById('goal-progress-text');
-  const goalFill = document.getElementById('goal-fill');
-  if (progressText) progressText.textContent = `${practiceCount}/${dailyGoal}`;
-  if (goalFill) goalFill.style.width = `${Math.min((practiceCount / dailyGoal) * 100, 100)}%`;
+  const streak = await getCheckinStreak();
+  const totalScore = await getTotalScore();
 
-  // Update wrong badge
-  const wrongList = await getWrongQuestions();
-  const badge = document.getElementById('wrong-badge');
-  if (badge) {
-    if (wrongList.length > 0) {
-      badge.textContent = wrongList.length;
-      badge.style.display = 'inline';
-    } else {
-      badge.style.display = 'none';
-    }
+  // Update streak card
+  const streakCount = document.getElementById('streak-count');
+  const streakSub = document.getElementById('streak-sub');
+  if (streakCount) streakCount.textContent = streak;
+  if (streakSub) {
+    streakSub.textContent = streak === 0 ? '开始你的百日计划' : `已累计 ${totalScore} 分`;
   }
 
   // Update 3 entry card counts
   await updateEntryCardCounts(settings);
-
-  // Render home mastery chart
-  await renderHomeMasteryChart();
-
-  // Render 100-day progress card
-  await renderHundredDayCard();
 }
 
 // Get today's baseline for score calculation
@@ -1131,7 +1072,6 @@ function drawSparkline(canvas, records) {
     ctx.fill();
   });
 }
-}
 
 // ==================== Home Mastery Chart (Multi-Subject) ====================
 
@@ -1420,7 +1360,7 @@ async function loadSettingsView() {
     </div>
     <button class="settings-action-btn" id="feedback-btn">💬 意见反馈</button>
     <button class="settings-danger-btn" id="clear-all-btn">清除所有数据</button>
-    <div class="settings-version">百日闯 v156</div>
+    <div class="settings-version">百日闯 v159</div>
   `;
 
   // Bind events
