@@ -27,7 +27,7 @@ const state = {
   progress: {},
   daily: {},
   meta: {},
-  settings: { weakThreshold: 0.6, lastQuestionBankUpdate: null },
+  settings: { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '' },
 };
 
 // ============================================================
@@ -41,6 +41,8 @@ const K = {
   QB_CACHE: 'question_bank_cache',
 };
 
+const VERSION_URL = 'version.json';
+
 // ============================================================
 // INIT
 // ============================================================
@@ -52,6 +54,9 @@ async function init() {
   state.daily    = await get(K.DAILY)    || {};
   state.meta     = await get(K.META)     || {};
   state.settings  = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null };
+
+  // Check for app updates
+  checkForAppUpdate();
 
   // Load question bank: cache first, fallback to per-subject JS files via dynamic import
   const cached = await get(K.QB_CACHE);
@@ -99,6 +104,54 @@ async function init() {
   });
 
   console.log('百日闯 PWA 初始化完成');
+}
+
+// ============================================================
+// APP UPDATE
+// ============================================================
+async function checkForAppUpdate() {
+  try {
+    const resp = await fetch(`${VERSION_URL}?_=${Date.now()}`, { cache: 'no-store' });
+    if (!resp.ok) return;
+    const remote = await resp.json();
+
+    const localVer = state.settings.appVersion || 1;
+    if (remote.version && remote.version > localVer) {
+      showUpdateBanner(remote);
+    }
+
+    // Always save audio version for cache-busting
+    if (remote.audioVersion) {
+      state.settings.audioVersion = remote.audioVersion;
+      await set(K.SETTINGS, state.settings);
+    }
+  } catch(e) {
+    console.warn('Update check failed:', e);
+  }
+}
+
+function showUpdateBanner(remote) {
+  const banner = document.getElementById('update-banner');
+  if (banner) {
+    banner.style.display = 'flex';
+    banner.querySelector('.update-btn').onclick = () => doAppUpgrade(remote);
+  }
+}
+
+async function doAppUpgrade(remote) {
+  const banner = document.getElementById('update-banner');
+  if (banner) banner.querySelector('.update-text').textContent = '正在更新...';
+
+  // 1. Clear QB cache
+  await clear(K.QB_CACHE);
+
+  // 2. Save new versions
+  state.settings.appVersion = remote.version;
+  state.settings.audioVersion = remote.audioVersion || '';
+  await set(K.SETTINGS, state.settings);
+
+  // 3. Reload — SW will pick up new app.js
+  location.reload();
 }
 
 // ============================================================
@@ -334,7 +387,8 @@ function speakQuestion() {
 
   // Try local audio file first
   const audioId = q.id.replace(/-/g, '_'); // english-026 → english_026
-  const audioPath = `audio/${q.subject}/${audioId}.m4a`;
+  const av = state.settings.audioVersion || Date.now();
+  const audioPath = `audio/${q.subject}/${audioId}.m4a?_=${av}`;
 
   const tryPlayLocal = () => {
     const audio = new Audio(audioPath);

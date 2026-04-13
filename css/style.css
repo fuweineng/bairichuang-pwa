@@ -1626,6 +1626,21 @@ main {
 .danger-btn:hover { background: #ef9a9a; }
 
 /* ==================== FOOTER ==================== */
+/* ==================== UPDATE BANNER ==================== */
+.update-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: #fff3e0;
+  border-bottom: 2px solid #ff9800;
+  font-size: 0.9rem;
+  gap: 12px;
+}
+.update-banner .update-text { color: #e65100; flex: 1; }
+.update-banner .update-btn { padding: 6px 16px; font-size: 0.85rem; }
+
+/* ==================== FOOTER ==================== */
 footer {
   padding: 8px;
   text-align: center;
