@@ -2367,5 +2367,741 @@
     ],
     "answer": "不良行为可能发展为严重不良行为，甚至犯罪",
     "explanation": "不良行为若不及时矫治，可能进一步发展成严重不良行为，最终可能导致犯罪。"
+  },
+  {
+    "id": "math-019",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一元一次方程"
+    ],
+    "question": "方程 2x - 5 = 3 的解是：",
+    "options": [
+      "x=1",
+      "x=2",
+      "x=3",
+      "x=4"
+    ],
+    "answer": "x=4",
+    "explanation": "2x - 5 = 3 → 2x = 8 → x = 4"
+  },
+  {
+    "id": "math-020",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "平面直角坐标系"
+    ],
+    "question": "点 P(3, -2) 到 x 轴的距离是：",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "√13"
+    ],
+    "answer": "2",
+    "explanation": "点到x轴的距离等于纵坐标的绝对值，即 |-2| = 2"
+  },
+  {
+    "id": "math-021",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数"
+    ],
+    "question": "一次函数 y = -2x + 3 的图像经过第几象限：",
+    "options": [
+      "一、二、三",
+      "一、二、四",
+      "二、三、四",
+      "一、三、四"
+    ],
+    "answer": "一、二、四",
+    "explanation": "k=-2<0，经过二、四象限；b=3>0，与y轴正半轴相交，经过一、二、四象限"
+  },
+  {
+    "id": "math-022",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形"
+    ],
+    "question": "三角形的内角和是：",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "answer": "180°",
+    "explanation": "三角形内角和等于180°"
+  },
+  {
+    "id": "math-023",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "整式运算"
+    ],
+    "question": "计算 (a+b)² 的结果正确的是：",
+    "options": [
+      "a²+b²",
+      "a²+2ab+b²",
+      "a²-2ab+b²",
+      "a²+b²+2ab"
+    ],
+    "answer": "a²+2ab+b²",
+    "explanation": "完全平方公式：(a+b)² = a² + 2ab + b²"
+  },
+  {
+    "id": "math-024",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "下列是无理数的是：",
+    "options": [
+      "√4",
+      "√2",
+      "0.5",
+      "3.14"
+    ],
+    "answer": "√2",
+    "explanation": "√2 不能表示为两个整数之比，是无限不循环小数，属于无理数"
+  },
+  {
+    "id": "math-025",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "分式"
+    ],
+    "question": "分式 x/(x-1) 中，x 的取值不能是：",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "answer": "1",
+    "explanation": "分母不能为零，所以 x-1≠0，即 x≠1"
+  },
+  {
+    "id": "math-026",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "√169 = ___",
+    "answer": "13",
+    "explanation": "13 × 13 = 169"
+  },
+  {
+    "id": "math-027",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "解方程组 x+y=5, 2x-y=1，x 的值是：",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "相加得 3x = 6，x = 2，代入得 y = 3"
+  },
+  {
+    "id": "math-028",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "a³ · a² = ",
+    "options": [
+      "a⁵",
+      "a⁶",
+      "a⁹",
+      "2a⁵"
+    ],
+    "answer": "a⁵",
+    "explanation": "同底数幂相乘，底数不变，指数相加：a³⁺² = a⁵"
+  },
+  {
+    "id": "english-016",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "The book is very _____. I can't put it down.",
+    "options": [
+      "interesting",
+      "bored",
+      "tired",
+      "sad"
+    ],
+    "answer": "interesting",
+    "explanation": "句意：这本书非常有趣，我爱不释手。interesting 意为有趣"
+  },
+  {
+    "id": "english-017",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-时态"
+    ],
+    "question": "He _____ TV when the phone rang.",
+    "options": [
+      "was watching",
+      "watched",
+      "is watching",
+      "watches"
+    ],
+    "answer": "was watching",
+    "explanation": "过去进行时，表示在过去某一时刻正在进行的动作"
+  },
+  {
+    "id": "english-018",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "There are many _____ on the farm.",
+    "options": [
+      "sheep",
+      "sheeps",
+      "sheepes",
+      "sheeping"
+    ],
+    "answer": "sheep",
+    "explanation": "sheep 是单复数同形的名词，复数仍是 sheep"
+  },
+  {
+    "id": "english-019",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-被动语态"
+    ],
+    "question": "The window _____ by Tom yesterday.",
+    "options": [
+      "broke",
+      "was broken",
+      "is broken",
+      "breaks"
+    ],
+    "answer": "was broken",
+    "explanation": "一般过去时的被动语态：be动词过去式 + 过去分词"
+  },
+  {
+    "id": "english-020",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇搭配"
+    ],
+    "question": "I am interested _____ learning English.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "explanation": "be interested in 是固定搭配，意为对...感兴趣"
+  },
+  {
+    "id": "english-021",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-从句"
+    ],
+    "question": "I don't know _____.",
+    "options": [
+      "where does he live",
+      "where he lives",
+      "where he live",
+      "he lives where"
+    ],
+    "answer": "where he lives",
+    "explanation": "宾语从句用陈述语序"
+  },
+  {
+    "id": "english-022",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇辨析"
+    ],
+    "question": "The weather is _____ today than yesterday.",
+    "options": [
+      "hot",
+      "hotter",
+      "hottest",
+      "most hot"
+    ],
+    "answer": "hotter",
+    "explanation": "than 提示用比较级，hot 的比较级是 hotter"
+  },
+  {
+    "id": "english-023",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-情态动词"
+    ],
+    "question": "You _____ be careful with the glass.",
+    "options": [
+      "can",
+      "must",
+      "may",
+      "could"
+    ],
+    "answer": "must",
+    "explanation": "must 意为必须，表示强烈的义务或责任"
+  },
+  {
+    "id": "english-024",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇拼写"
+    ],
+    "question": "My mother usually _____ (cook) dinner at 6 pm.",
+    "answer": "cooks",
+    "explanation": "一般现在时，主语是第三人称单数，动词加s"
+  },
+  {
+    "id": "english-025",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-介词"
+    ],
+    "question": "He arrived _____ Beijing _____ the morning of July 1st.",
+    "options": [
+      "in, in",
+      "at, on",
+      "in, on",
+      "to, in"
+    ],
+    "answer": "in, on",
+    "explanation": "arrive in + 大地方，on + 具体日期的早晨"
+  },
+  {
+    "id": "chinese-016",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "下列词语中，加点字的读音有误的一项是：",
+    "options": [
+      "倔强(jué)",
+      "胆怯(qiè)",
+      "绽开(zhàn)",
+      "统筹(chóu)"
+    ],
+    "answer": "倔强(jué)",
+    "explanation": "倔强读jué jiàng，不是qiáng。胆怯qiè，绽开zhàn，统筹chóu，均正确"
+  },
+  {
+    "id": "chinese-017",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词语辨析"
+    ],
+    "question": "依次填入横线处最恰当的一项是：他说话一向_____，从不_____。",
+    "options": [
+      "夸张 隐瞒",
+      "夸张 夸张",
+      "诚实 隐瞒",
+      "诚实 夸张"
+    ],
+    "answer": "诚实 夸张",
+    "explanation": "一贯诚实的人，不会夸张/吹牛。诚实对夸张，对比鲜明"
+  },
+  {
+    "id": "chinese-018",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列句子中引号使用正确的一项是：",
+    "options": [
+      "老师说：要勤奋学习。",
+      "老师说：「要勤奋学习」。",
+      "老师说：要勤奋学习。",
+      "「老师说要勤奋学习」。"
+    ],
+    "answer": "老师说：「要勤奋学习」。",
+    "explanation": "完整引用时，引号内句号应保留。说话人在前，用冒号；引号内句子完整，句号在引号内"
+  },
+  {
+    "id": "chinese-019",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "「欲穷千里目」的下一句是：",
+    "options": [
+      "不敢高声语",
+      "更上一层楼",
+      "黄河入海流",
+      "白日依山尽"
+    ],
+    "answer": "更上一层楼",
+    "explanation": "出自王之涣《登鹳雀楼》：白日依山尽，黄河入海流。欲穷千里目，更上一层楼"
+  },
+  {
+    "id": "chinese-020",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "下列句子没有语病的一项是：",
+    "options": [
+      "通过这次活动，使我明白了很多道理。",
+      "这次活动，使我明白了很多道理。",
+      "通过这次活动，我明白了很多道理。",
+      "通过这次活动，使我很多道理明白了。"
+    ],
+    "answer": "通过这次活动，我明白了很多道理。",
+    "explanation": "A缺主语，D语序混乱。C无语病，最规范"
+  },
+  {
+    "id": "chinese-021",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语中没有错别字的一项是：",
+    "options": [
+      "再接再厉",
+      "走头无路",
+      "变本加历",
+      "迫不急待"
+    ],
+    "answer": "再接再厉",
+    "explanation": "走投无路（不是头），变本加厉（不是历），迫不及待（不是急）"
+  },
+  {
+    "id": "chinese-022",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文理解"
+    ],
+    "question": "《春望》中表现诗人忧国忧民的诗句是：",
+    "options": [
+      "烽火连三月，家书抵万金",
+      "白头搔更短，浑欲不胜簪",
+      "感时花溅泪，恨别鸟惊心",
+      "国破山河在，城春草木深"
+    ],
+    "answer": "感时花溅泪，恨别鸟惊心",
+    "explanation": "因感叹时事，看到花鸟也流泪惊心，深刻表现忧国忧民之情"
+  },
+  {
+    "id": "chinese-023",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "海内存知己，_____。",
+    "answer": "天涯若比邻",
+    "explanation": "出自王勃《送杜少府之任蜀州》"
+  },
+  {
+    "id": "chinese-024",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "词义理解"
+    ],
+    "question": "词语中「走」的意思是「跑」的一项是：",
+    "options": [
+      "走廊",
+      "走开",
+      "走马观花",
+      "走漏风声"
+    ],
+    "answer": "走马观花",
+    "explanation": "走马观花：骑在马上看花，走=跑"
+  },
+  {
+    "id": "chinese-025",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "《背影》的作者是：",
+    "options": [
+      "鲁迅",
+      "朱自清",
+      "老舍",
+      "冰心"
+    ],
+    "answer": "朱自清",
+    "explanation": "《背影》选自《朱自清散文集》，是朱自清的代表作之一"
+  },
+  {
+    "id": "science-019",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物态变化"
+    ],
+    "question": "下列现象中，属于凝固的是：",
+    "options": [
+      "冬天河水结冰",
+      "夏天湿衣服变干",
+      "湖面上的雾气",
+      "冰块变小"
+    ],
+    "answer": "冬天河水结冰",
+    "explanation": "凝固是液态变成固态。河水结冰是水从液态变为固态"
+  },
+  {
+    "id": "science-020",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "光的反射"
+    ],
+    "question": "光线射到平面镜上，入射角为30°，则反射角为：",
+    "options": [
+      "0°",
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "answer": "30°",
+    "explanation": "反射定律：反射角等于入射角。入射角30°，反射角也是30°"
+  },
+  {
+    "id": "science-021",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物"
+    ],
+    "question": "植物光合作用的产物是：",
+    "options": [
+      "二氧化碳和水",
+      "有机物和氧气",
+      "二氧化碳和有机物",
+      "水和氧气"
+    ],
+    "answer": "有机物和氧气",
+    "explanation": "光合作用：二氧化碳 + 水 → 有机物 + 氧气"
+  },
+  {
+    "id": "science-022",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "力的平衡"
+    ],
+    "question": "一个物体在水平方向上受到两个力F1=5N和F2=3N的作用，当物体做匀速直线运动时，合力为：",
+    "options": [
+      "2N",
+      "8N",
+      "0N",
+      "15N"
+    ],
+    "answer": "0N",
+    "explanation": "物体做匀速直线运动即处于平衡状态，合力为零"
+  },
+  {
+    "id": "science-023",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-元素"
+    ],
+    "question": "水的化学式是 H2O，它表示：",
+    "options": [
+      "水由氢气和氧气组成",
+      "水由2个氢原子和1个氧原子构成",
+      "水中有氢分子和氧分子",
+      "水由2个氢元素和1个氧元素组成"
+    ],
+    "answer": "水由2个氢原子和1个氧原子构成",
+    "explanation": "H2O表示每个水分子由2个氢原子和1个氧原子构成"
+  },
+  {
+    "id": "science-024",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-人体系统"
+    ],
+    "question": "消化系统中消化食物和吸收营养的主要场所是：",
+    "options": [
+      "口腔",
+      "胃",
+      "小肠",
+      "大肠"
+    ],
+    "answer": "小肠",
+    "explanation": "小肠长约5-6米，内表面积大，是消化和吸收的主要场所"
+  },
+  {
+    "id": "science-025",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "密度"
+    ],
+    "question": "一个物体的质量是100g，体积是50cm3，它的密度是：",
+    "options": [
+      "0.5g/cm3",
+      "2g/cm3",
+      "5g/cm3",
+      "50g/cm3"
+    ],
+    "answer": "2g/cm3",
+    "explanation": "密度 = 质量/体积 = 100g/50cm3 = 2g/cm3"
+  },
+  {
+    "id": "science-026",
+    "type": "fill",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学式"
+    ],
+    "question": "二氧化碳的化学式是 _____",
+    "answer": "CO2",
+    "explanation": "碳元素的化合价为+4，氧元素为-2，所以化学式为CO2"
+  },
+  {
+    "id": "science-027",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-细胞"
+    ],
+    "question": "动物细胞和植物细胞都有的结构是：",
+    "options": [
+      "细胞壁",
+      "叶绿体",
+      "细胞核",
+      "液泡"
+    ],
+    "answer": "细胞核",
+    "explanation": "动物细胞和植物细胞共有：细胞膜、细胞质、细胞核。植物细胞特有：细胞壁、叶绿体、液泡"
+  },
+  {
+    "id": "science-028",
+    "type": "choice",
+    "subject": "science",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "压强"
+    ],
+    "question": "图钉尖做得很尖，目的是为了：",
+    "options": [
+      "增大压力",
+      "减小压力",
+      "增大压强",
+      "减小压强"
+    ],
+    "answer": "增大压强",
+    "explanation": "压力不变时，受力面积越小，压强越大。图钉尖很尖，增大了压强"
   }
 ]
