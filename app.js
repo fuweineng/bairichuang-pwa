@@ -58,28 +58,20 @@ async function init() {
   if (cached) {
     state.questionBank = cached;
   } else {
-    // Parallel import of all subject files — add cache-busting to defeat HTTP cache
-    const ts = Date.now();
-    const [math, english, chinese, science, biology, history, geography, politics] = await Promise.all([
-      import(`./questions/math.js?_cb=${ts}`),
-      import(`./questions/english.js?_cb=${ts}`),
-      import(`./questions/chinese.js?_cb=${ts}`),
-      import(`./questions/science.js?_cb=${ts}`),
-      import(`./questions/biology.js?_cb=${ts}`),
-      import(`./questions/history.js?_cb=${ts}`),
-      import(`./questions/geography.js?_cb=${ts}`),
-      import(`./questions/politics.js?_cb=${ts}`),
-    ]);
-    state.questionBank = {
-      math:      math.default || [],
-      english:   english.default || [],
-      chinese:   chinese.default || [],
-      science:   science.default || [],
-      biology:   biology.default || [],
-      history:   history.default || [],
-      geography: geography.default || [],
-      politics:  politics.default || [],
-    };
+    // Fetch from unified JSON file instead of per-subject .js (avoids ES module CORS issues on some hosts)
+    try {
+      const resp = await fetch('questions/question_bank_v1.json');
+      const all = await resp.json();
+      const grouped = { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
+      all.forEach(q => {
+        if (grouped[q.subject]) grouped[q.subject].push(q);
+      });
+      state.questionBank = grouped;
+      await set(K.QB_CACHE, grouped);
+    } catch(e) {
+      console.warn('Failed to load question bank:', e);
+      state.questionBank = { math: [], english: [], chinese: [], science: [], biology: [], history: [], geography: [], politics: [] };
+    }
   }
 
   // Register SW
