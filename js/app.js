@@ -175,6 +175,14 @@ function bindEvents() {
   document.getElementById('header-settings-btn').addEventListener('click', () => {
     window.location.hash = '#/settings';
   });
+
+  // Expose HTML onclick handlers
+  window.startEntry = function(entry) {
+    startPracticeSession(entry);
+  };
+  window.showView = function(view) {
+    navigate('#/' + view);
+  };
 }
 
 // ==================== Entry Card Counts ====================
