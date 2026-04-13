@@ -306,7 +306,18 @@ function speakQuestion() {
   speechSynthesis.cancel();
   setTimeout(() => {
     const lang = q.tts || 'en-US';
-    const utter = new SpeechSynthesisUtterance(q.question);
+
+    // Pick the right text to read based on question type
+    let textToSpeak = q.question;
+    if (q.type === 'dictation') {
+      textToSpeak = q.text || q.question;
+    } else if (q.type === 'listening') {
+      textToSpeak = q.audio_text || q.question;
+    } else if (q.type === 'passage_dictation') {
+      textToSpeak = q.passage || q.question;
+    }
+
+    const utter = new SpeechSynthesisUtterance(textToSpeak);
     utter.lang = lang;
     utter.rate = 0.75;  // Slightly slower for clarity
     utter.pitch = 1;
@@ -354,8 +365,84 @@ function renderQuestion() {
   const total = state.sessionQuestions.length;
   const idx = state.sessionIndex;
 
-  const typeLabel = { choice: '选择题', fill: '填空题', reading: '阅读理解', dictation: '听力/默写', expression: '表达题', short_answer: '简答题' }[q.type] || '选择题';
+  const typeLabel = {
+    choice: '选择题', fill: '填空题', reading: '阅读理解',
+    dictation: '听写填空', listening: '听力选择', passage_dictation: '短文听写',
+    expression: '表达题', short_answer: '简答题'
+  }[q.type] || '选择题';
   const diffLabel = ['', '🟢 简单', '🟡 中等', '🔴 困难'][q.difficulty] || '';
+
+  // ── LISTENING TYPE: dictation ──────────────────────────────────────
+  if (q.type === 'dictation') {
+    const listenBtn = 'speechSynthesis' in window
+      ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听句子</button>`
+      : '';
+    container.innerHTML = `
+      <div class="question-meta">
+        <span>${typeLabel}</span><span>${diffLabel}</span>
+        <span class="question-progress">${idx + 1}/${total}</span>
+      </div>
+      ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
+      ${listenBtn}
+      <div class="question-text">请填写你听到的关键词：</div>
+      <div class="fill-area">
+        <div class="fill-input-row">
+          <input type="text" class="fill-input" id="fill-answer-input"
+            placeholder="输入答案后按回车或点击提交" autocomplete="off" />
+          <button class="fill-submit-btn primary-btn" data-action="dictation-submit">提交</button>
+        </div>
+      </div>
+      <div id="answer-feedback" style="display:none;margin-top:12px"></div>
+    `;
+    const inp = document.getElementById('fill-answer-input');
+    if (inp) inp.focus();
+    return;
+  }
+
+  // ── LISTENING TYPE: passage_dictation ─────────────────────────────
+  if (q.type === 'passage_dictation') {
+    // Track current sub-question index in session state
+    if (state.pdIndex === undefined) state.pdIndex = 0;
+    const subIdx = state.pdIndex;
+    const subQs = q.questions || [];
+    if (subIdx >= subQs.length) {
+      // All sub-questions answered — show passage summary and move on
+      state.pdIndex = 0;
+      nextQuestion();
+      return;
+    }
+    const sq = subQs[subIdx];
+    const listenBtn = 'speechSynthesis' in window
+      ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听短文</button>`
+      : '';
+    container.innerHTML = `
+      <div class="question-meta">
+        <span>${typeLabel}</span><span>${diffLabel}</span>
+        <span class="question-progress">${idx + 1}/${total}</span>
+        <span class="sub-progress">小题 ${subIdx + 1}/${subQs.length}</span>
+      </div>
+      ${listenBtn}
+      <div class="passage-block">${q.passage || ''}</div>
+      <div class="question-text">${sq.q}</div>
+      <div class="fill-area">
+        <div class="fill-input-row">
+          <input type="text" class="fill-input" id="fill-answer-input"
+            placeholder="输入答案后按回车或点击提交" autocomplete="off" />
+          <button class="fill-submit-btn primary-btn" data-action="pd-submit">提交</button>
+        </div>
+      </div>
+      <div id="answer-feedback" style="display:none;margin-top:12px"></div>
+    `;
+    const inp = document.getElementById('fill-answer-input');
+    if (inp) inp.focus();
+    return;
+  }
+
+  // ── LISTENING TYPE: listening (choice with audio_text) ────────────
+  const isListening = (q.tts || q.type === 'listening') && q.audio_text;
+  const listenBtn = isListening && 'speechSynthesis' in window
+    ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听对话/短文</button>`
+    : '';
 
   const isChoice = q.type === 'choice' && q.options && q.options.length > 0;
   const isFillOrShort = (!q.options || q.options.length === 0) && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
@@ -364,14 +451,8 @@ function renderQuestion() {
     `<button class="answer-btn" data-action="answer" data-choice="${i}">${opt}</button>`
   ).join('') : '';
 
-  const isListening = q.tts || q.type === 'listening';
-  const listenBtn = isListening && 'speechSynthesis' in window
-    ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听题目</button>`
-    : '';
+  const optsDisabled = isListening ? '' : '';
 
-  const optsDisabled = isListening ? 'data-listen-disabled' : '';
-
-  // Fill/short answer input area
   const inputArea = isFillOrShort
     ? `<div class="fill-area">
          <div class="fill-input-row">
@@ -388,18 +469,16 @@ function renderQuestion() {
     </div>
     ${listenBtn}
     <div class="question-text">${q.question}</div>
-    ${opts ? `<div class="answer-grid" ${optsDisabled}>${opts}</div>` : ''}
+    ${opts ? `<div class="answer-grid">${opts}</div>` : ''}
     ${inputArea}
     <div id="answer-feedback" style="display:none;margin-top:12px"></div>
   `;
 
-  // Auto-focus fill input
   if (isFillOrShort) {
     const inp = document.getElementById('fill-answer-input');
     if (inp) inp.focus();
   }
 
-  // TTS for listening questions
   if (isListening && 'speechSynthesis' in window) {
     state.ttsUtterance = null;
   }
@@ -431,6 +510,84 @@ async function handleAnswer(choiceIdx) {
       if (q.explanation) fb.innerHTML += `<p class="explanation">${q.explanation}</p>`;
     }
     fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
+  }
+}
+
+// ── Dictation (听写填空) ──────────────────────────────────────────────────
+async function handleDictationSubmit() {
+  const inp = document.getElementById('fill-answer-input');
+  if (!inp) return;
+  const userAnswer = inp.value.trim();
+  if (!userAnswer) return;
+
+  const q = state.sessionQuestions[state.sessionIndex];
+  const norm = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
+  let correctAns = q.answer;
+  if (typeof correctAns === 'string' && correctAns.startsWith('"') && correctAns.endsWith('"')) {
+    correctAns = correctAns.slice(1, -1);
+  }
+  const normCorrect = typeof correctAns === 'string'
+    ? correctAns.toLowerCase().replace(/\s+/g, ' ').trim()
+    : String(correctAns);
+  const isCorrect = norm === normCorrect || userAnswer === String(correctAns);
+
+  if (isCorrect) state.sessionScore.correct++;
+  else state.sessionScore.wrong++;
+
+  await recordAnswer(q.id, isCorrect);
+
+  const fb = document.getElementById('answer-feedback');
+  if (fb) {
+    fb.style.display = 'block';
+    const exp = q.explanation ? `<p class="explanation">${q.explanation}</p>` : '';
+    if (isCorrect) {
+      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>${exp}`;
+    } else {
+      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${q.answer}</span>${exp}`;
+    }
+    fb.innerHTML += `<button class="primary-btn" data-action="dictation-next" style="margin-top:10px">下一题 →</button>`;
+  }
+}
+
+// ── Passage dictation (短文听写) sub-question ─────────────────────────────
+async function handlePDSubmit() {
+  const inp = document.getElementById('fill-answer-input');
+  if (!inp) return;
+  const userAnswer = inp.value.trim();
+  if (!userAnswer) return;
+
+  const q = state.sessionQuestions[state.sessionIndex];
+  const subIdx = state.pdIndex !== undefined ? state.pdIndex : 0;
+  const sq = (q.questions || [])[subIdx];
+  if (!sq) return;
+
+  const norm = userAnswer.toLowerCase().replace(/\s+/g, ' ').trim();
+  let correctAns = sq.answer;
+  if (typeof correctAns === 'string' && correctAns.startsWith('"') && correctAns.endsWith('"')) {
+    correctAns = correctAns.slice(1, -1);
+  }
+  const normCorrect = typeof correctAns === 'string'
+    ? correctAns.toLowerCase().replace(/\s+/g, ' ').trim()
+    : String(correctAns);
+  const isCorrect = norm === normCorrect || userAnswer === String(correctAns);
+
+  if (isCorrect) state.sessionScore.correct++;
+  else state.sessionScore.wrong++;
+
+  await recordAnswer(q.id + '_sub_' + subIdx, isCorrect);
+
+  const fb = document.getElementById('answer-feedback');
+  if (fb) {
+    fb.style.display = 'block';
+    const exp = sq.explanation ? `<p class="explanation">${sq.explanation}</p>` : '';
+    if (isCorrect) {
+      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>${exp}`;
+    } else {
+      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${sq.answer}</span>${exp}`;
+    }
+    fb.innerHTML += `<button class="primary-btn" data-action="pd-next" style="margin-top:10px">${
+      subIdx + 1 >= (q.questions || []).length ? '短文结束 →' : '下一题 →'
+    }</button>`;
   }
 }
 
@@ -477,6 +634,7 @@ async function handleFillAnswer(userAnswer) {
 
 async function nextQuestion() {
   state.sessionIndex++;
+  state.pdIndex = 0;
   renderQuestion();
 }
 
@@ -799,6 +957,32 @@ function handleClick(e) {
       {
         const inp = document.getElementById('fill-answer-input');
         if (inp) handleFillAnswer(inp.value.trim());
+      }
+      break;
+
+    case 'dictation-submit':
+      handleDictationSubmit();
+      break;
+
+    case 'dictation-next':
+      nextQuestion();
+      break;
+
+    case 'pd-submit':
+      handlePDSubmit();
+      break;
+
+    case 'pd-next':
+      {
+        const q = state.sessionQuestions[state.sessionIndex];
+        const maxSub = (q.questions || []).length;
+        state.pdIndex = (state.pdIndex || 0) + 1;
+        if (state.pdIndex >= maxSub) {
+          state.pdIndex = 0;
+          nextQuestion();
+        } else {
+          renderQuestion();
+        }
       }
       break;
 
