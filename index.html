@@ -20,8 +20,8 @@
         <span class="subtitle">初二</span>
       </div>
       <div class="header-right">
-        <button class="header-btn" id="header-history-btn" onclick="nav('#/progress')">📊</button>
-        <button class="header-settings-btn" id="header-settings-btn" onclick="nav('#/settings')">⚙️</button>
+        <button class="header-btn" id="header-history-btn" onclick="showView('progress')">📊</button>
+        <button class="header-settings-btn" id="header-settings-btn" onclick="showView('settings')">⚙️</button>
       </div>
     </header>
 
@@ -30,7 +30,7 @@
       <section id="home-view" class="view active">
 
         <!-- Streak Banner (compact, click to progress view) -->
-        <div class="streak-card" onclick="nav('#/progress')">
+        <div class="streak-card" onclick="showView('progress')">
           <div class="streak-card-left">
             <div class="streak-main">
               <span class="streak-count" id="streak-count">0</span>
@@ -126,14 +126,14 @@
 
         <!-- Bottom Menu -->
         <div class="home-menu">
-          <button class="home-menu-btn" onclick="nav('#/progress')">📊 打卡记录</button>
+          <button class="home-menu-btn" onclick="showView('progress')">📊 打卡记录</button>
         </div>
       </section>
 
       <!-- ===== PRACTICE VIEW ===== -->
       <section id="practice-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
+          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
           <span class="view-title" id="practice-view-title">选择科目</span>
         </div>
         <div id="practice-entry-info" class="practice-entry-info" style="display:none">
@@ -158,7 +158,7 @@
       <!-- ===== PROGRESS VIEW ===== -->
       <section id="progress-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
+          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
           <span class="view-title">打卡记录</span>
         </div>
         <div id="history-container">
@@ -169,7 +169,7 @@
       <!-- ===== WRONG VIEW ===== -->
       <section id="wrong-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
+          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
           <span class="view-title">易错汇总</span>
         </div>
         <div id="wrong-container">
@@ -180,7 +180,7 @@
       <!-- ===== SETTINGS VIEW ===== -->
       <section id="settings-view" class="view">
         <div class="view-toolbar">
-          <button class="back-home-btn" onclick="nav('#/index')">← 返回</button>
+          <button class="back-home-btn" onclick="showView('home')">← 返回</button>
           <span class="view-title">设置</span>
         </div>
         <div id="settings-content">
@@ -264,7 +264,7 @@
     };
     window.startEntry = function(entry) {
       window.practiceEntry = entry;
-      nav('#/practice');
+      showView('practice');
     };
     window.startSubject = function(subject) {
       if (window._startSubject) window._startSubject(subject);
@@ -273,6 +273,11 @@
       document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
       var el = document.getElementById(name + '-view');
       if (el) el.classList.add('active');
+      // Load view-specific data
+      if (name === 'progress' && window.loadProgressView) window.loadProgressView();
+      else if (name === 'wrong' && window.loadWrongView) window.loadWrongView();
+      else if (name === 'settings' && window.loadSettingsView) window.loadSettingsView();
+      else if (name === 'mastery' && window.loadMasteryView) window.loadMasteryView('math', 'tag');
     };
     window.dismissPwaBanner = function() {
       var b = document.getElementById('pwa-install-banner');
@@ -290,6 +295,6 @@
   </script>
   <script src="js/checkin.js"></script>
   <script src="js/question_bank.js"></script>
-  <script type="module" src="js/app.js?v=140"></script>
+  <script type="module" src="js/app.js?v=150"></script>
 </body>
 </html>
