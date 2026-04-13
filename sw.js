@@ -1,5 +1,5 @@
 // Service Worker — Cache-First strategy
-const CACHE_NAME = 'bairichuang-v3';
+const CACHE_NAME = 'bairichuang-v4';
 
 const PRECACHE = [
   './',
