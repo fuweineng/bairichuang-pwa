@@ -318,61 +318,89 @@ async function startSession(subject, entry) {
   renderQuestion();
 }
 
+// Current audio instance (for local file playback)
+let currentAudio = null;
+
 function speakQuestion() {
-  if (!('speechSynthesis' in window)) return;
   const q = state.sessionQuestions[state.sessionIndex];
   if (!q) return;
 
-  // Cancel any ongoing speech first, then wait a tick for browser to release audio
+  // Stop any current playback
   speechSynthesis.cancel();
-  setTimeout(() => {
-    const lang = q.tts || 'en-US';
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio = null;
+  }
 
-    // Pick the right text to read based on question type
-    let textToSpeak = q.question;
-    if (q.type === 'dictation') {
-      textToSpeak = q.text || q.question;
-    } else if (q.type === 'listening') {
-      textToSpeak = q.audio_text || q.question;
-    } else if (q.type === 'passage_dictation') {
-      textToSpeak = q.passage || q.question;
-    }
+  // Try local audio file first
+  const audioId = q.id.replace(/-/g, '_'); // english-026 → english_026
+  const audioPath = `audio/${q.subject}/${audioId}.m4a`;
 
-    const utter = new SpeechSynthesisUtterance(textToSpeak);
-    utter.lang = lang;
-    utter.rate = 0.75;  // Slightly slower for clarity
-    utter.pitch = 1;
-    utter.volume = 1;
+  const tryPlayLocal = () => {
+    const audio = new Audio(audioPath);
+    currentAudio = audio;
 
-    // Disable options while speaking
     const grid = document.querySelector('.answer-grid');
     if (grid) grid.style.pointerEvents = 'none';
-
     const btn = document.getElementById('listen-btn');
-    if (btn) {
-      btn.textContent = '🔊 播放中...';
-      btn.disabled = true;
-    }
+    if (btn) { btn.textContent = '🔊 播放中...'; btn.disabled = true; }
 
-    utter.onend = () => {
+    audio.onended = () => {
+      currentAudio = null;
       if (grid) grid.style.pointerEvents = '';
-      if (btn) {
-        btn.textContent = '✅ 已听完';
-        btn.disabled = false;
-      }
+      if (btn) { btn.textContent = '✅ 已听完'; btn.disabled = false; }
     };
-
-    utter.onerror = () => {
-      if (grid) grid.style.pointerEvents = '';
-      if (btn) {
-        btn.textContent = '🔊 重试';
-        btn.disabled = false;
-      }
+    audio.onerror = () => {
+      currentAudio = null;
+      // Fall back to Web Speech
+      speakWithWebSpeech(q);
+      if (btn) { btn.textContent = '🔊 播放'; btn.disabled = false; }
     };
+    audio.play().catch(() => {
+      currentAudio = null;
+      speakWithWebSpeech(q);
+      if (btn) { btn.textContent = '🔊 播放'; btn.disabled = false; }
+    });
+  };
 
-    state.ttsUtterance = utter;
-    speechSynthesis.speak(utter);
-  }, 50); // 50ms pause lets browser fully release audio lock before new utterance
+  tryPlayLocal();
+}
+
+function speakWithWebSpeech(q) {
+  if (!('speechSynthesis' in window)) return;
+  const lang = q.tts || 'en-US';
+
+  let textToSpeak = q.question;
+  if (q.type === 'dictation') {
+    textToSpeak = q.text || q.question;
+  } else if (q.type === 'listening') {
+    textToSpeak = q.audio_text || q.question;
+  } else if (q.type === 'passage_dictation') {
+    textToSpeak = q.passage || q.question;
+  }
+
+  const utter = new SpeechSynthesisUtterance(textToSpeak);
+  utter.lang = lang;
+  utter.rate = 0.75;
+  utter.pitch = 1;
+  utter.volume = 1;
+
+  const grid = document.querySelector('.answer-grid');
+  if (grid) grid.style.pointerEvents = 'none';
+  const btn = document.getElementById('listen-btn');
+  if (btn) { btn.textContent = '🔊 播放中...'; btn.disabled = true; }
+
+  utter.onend = () => {
+    if (grid) grid.style.pointerEvents = '';
+    if (btn) { btn.textContent = '✅ 已听完'; btn.disabled = false; }
+  };
+  utter.onerror = () => {
+    if (grid) grid.style.pointerEvents = '';
+    if (btn) { btn.textContent = '🔊 重试'; btn.disabled = false; }
+  };
+
+  state.ttsUtterance = utter;
+  speechSynthesis.speak(utter);
 }
 
 function renderQuestion() {
