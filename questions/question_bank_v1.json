@@ -4329,7 +4329,8 @@
       "because"
     ],
     "answer": "that",
-    "explanation": "think/know/believe等动词后的宾语从句用that引导"
+    "explanation": "think/know/believe等动词后的宾语从句用that引导",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-026.m4a"
   },
   {
     "id": "english-027",
@@ -4348,7 +4349,8 @@
       "angry"
     ],
     "answer": "upset",
-    "explanation": "看起来很沮丧，upset表示难过的情绪"
+    "explanation": "看起来很沮丧，upset表示难过的情绪",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-027.m4a"
   },
   {
     "id": "english-028",
@@ -4367,7 +4369,8 @@
       "To finish"
     ],
     "answer": "Having finished",
-    "explanation": "having done 表示动作在谓语之前发生，是完成式分词作状语"
+    "explanation": "having done 表示动作在谓语之前发生，是完成式分词作状语",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-028.m4a"
   },
   {
     "id": "english-029",
@@ -4386,7 +4389,8 @@
       "at"
     ],
     "answer": "on",
-    "explanation": "rely on 是固定搭配，意为依赖"
+    "explanation": "rely on 是固定搭配，意为依赖",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-029.m4a"
   },
   {
     "id": "english-030",
@@ -4405,7 +4409,8 @@
       "most interesting"
     ],
     "answer": "the most interesting",
-    "explanation": "三者比较用最高级，most+多音节形容词，最高级前加the"
+    "explanation": "三者比较用最高级，most+多音节形容词，最高级前加the",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-030.m4a"
   },
   {
     "id": "english-031",
@@ -4418,7 +4423,8 @@
     ],
     "question": "My sister can speak English _____ (fluent).",
     "answer": "fluently",
-    "explanation": "-ly后缀，副词修饰动词speak"
+    "explanation": "-ly后缀，副词修饰动词speak",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-031.m4a"
   },
   {
     "id": "english-032",
@@ -4437,7 +4443,8 @@
       "for"
     ],
     "answer": "with",
-    "explanation": "be strict with sb. 对某人严格要求"
+    "explanation": "be strict with sb. 对某人严格要求",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-032.m4a"
   },
   {
     "id": "english-033",
@@ -4456,7 +4463,8 @@
       "long"
     ],
     "answer": "tall",
-    "explanation": "描述人和树的高度用tall，描述建筑物/山用high"
+    "explanation": "描述人和树的高度用tall，描述建筑物/山用high",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-033.m4a"
   },
   {
     "id": "english-034",
@@ -4475,7 +4483,8 @@
       "did I see"
     ],
     "answer": "have I seen",
-    "explanation": "never放句首用部分倒装，即助动词/be动词/情态动词提到主语前"
+    "explanation": "never放句首用部分倒装，即助动词/be动词/情态动词提到主语前",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-034.m4a"
   },
   {
     "id": "english-035",
@@ -4494,7 +4503,8 @@
       "is he"
     ],
     "answer": "isn't he",
-    "explanation": "反意疑问句，主语用人称代词Your father→he，否定式isn't he"
+    "explanation": "反意疑问句，主语用人称代词Your father→he，否定式isn't he",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-035.m4a"
   },
   {
     "id": "english-036",
@@ -4513,7 +4523,8 @@
       "before"
     ],
     "answer": "as soon as",
-    "explanation": "as soon as 一...就...，强调即时性，主句用将来时从句用现在时"
+    "explanation": "as soon as 一...就...，强调即时性，主句用将来时从句用现在时",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-036.m4a"
   },
   {
     "id": "english-037",
@@ -4532,7 +4543,8 @@
       "at"
     ],
     "answer": "of",
-    "explanation": "be fond of 喜欢...，固定搭配"
+    "explanation": "be fond of 喜欢...，固定搭配",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-037.m4a"
   },
   {
     "id": "english-038",
@@ -4551,7 +4563,8 @@
       "is"
     ],
     "answer": "were",
-    "explanation": "与现在事实相反的虚拟条件句，从句用were（不管主语是谁都用were）"
+    "explanation": "与现在事实相反的虚拟条件句，从句用were（不管主语是谁都用were）",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-038.m4a"
   },
   {
     "id": "english-039",
@@ -4570,7 +4583,8 @@
       "out"
     ],
     "answer": "down",
-    "explanation": "keep down 压低声音，keep up 保持，keep off 避开，keep out 挡在外面"
+    "explanation": "keep down 压低声音，keep up 保持，keep off 避开，keep out 挡在外面",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-039.m4a"
   },
   {
     "id": "english-040",
@@ -4589,7 +4603,8 @@
       "whom"
     ],
     "answer": "who",
-    "explanation": "指人，在定语从句中who可以作主语或宾语"
+    "explanation": "指人，在定语从句中who可以作主语或宾语",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-040.m4a"
   },
   {
     "id": "english-041",
@@ -4602,7 +4617,8 @@
     ],
     "question": "It is important _____ (learn) English well.",
     "answer": "to learn",
-    "explanation": "不定式作主语，It is + adj. + to do sth."
+    "explanation": "不定式作主语，It is + adj. + to do sth.",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-041.m4a"
   },
   {
     "id": "english-042",
@@ -4621,7 +4637,8 @@
       "side"
     ],
     "answer": "top",
-    "explanation": "top of mountain 山顶，bottom 山底，foot 山脚"
+    "explanation": "top of mountain 山顶，bottom 山底，foot 山脚",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-042.m4a"
   },
   {
     "id": "english-043",
@@ -4640,7 +4657,8 @@
       "have played"
     ],
     "answer": "are playing",
-    "explanation": "Look! 提示现在进行时 be+v-ing"
+    "explanation": "Look! 提示现在进行时 be+v-ing",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-043.m4a"
   },
   {
     "id": "english-044",
@@ -4659,7 +4677,8 @@
       "were built"
     ],
     "answer": "was built",
-    "explanation": "一般过去时的被动语态：be动词(过去式)+过去分词"
+    "explanation": "一般过去时的被动语态：be动词(过去式)+过去分词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-044.m4a"
   },
   {
     "id": "english-045",
@@ -4678,7 +4697,8 @@
       "childes"
     ],
     "answer": "children",
-    "explanation": "child的复数是不规则变化children"
+    "explanation": "child的复数是不规则变化children",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-045.m4a"
   },
   {
     "id": "english-046",
@@ -4697,7 +4717,8 @@
       "What"
     ],
     "answer": "Whether",
-    "explanation": "主语从句用whether不用if（句首if不能引导主语从句）"
+    "explanation": "主语从句用whether不用if（句首if不能引导主语从句）",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-046.m4a"
   },
   {
     "id": "english-047",
@@ -4716,7 +4737,8 @@
       "down"
     ],
     "answer": "off",
-    "explanation": "turn off 关掉，turn on 打开，turn up 调大，turn down 调小"
+    "explanation": "turn off 关掉，turn on 打开，turn up 调大，turn down 调小",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-047.m4a"
   },
   {
     "id": "english-048",
@@ -4735,7 +4757,8 @@
       "may"
     ],
     "answer": "must",
-    "explanation": "must have done 表示对过去事实的肯定推测，你一定看过"
+    "explanation": "must have done 表示对过去事实的肯定推测，你一定看过",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-048.m4a"
   },
   {
     "id": "english-049",
@@ -4748,7 +4771,8 @@
     ],
     "question": "The children are _____ (play) in the garden now.",
     "answer": "playing",
-    "explanation": "现在进行时 be+v-ing，now是标志词"
+    "explanation": "现在进行时 be+v-ing，now是标志词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-049.m4a"
   },
   {
     "id": "english-050",
@@ -4767,7 +4791,8 @@
       "at"
     ],
     "answer": "with",
-    "explanation": "agree with sb. 同意某人的观点，agree to a plan/idea"
+    "explanation": "agree with sb. 同意某人的观点，agree to a plan/idea",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-050.m4a"
   },
   {
     "id": "english-051",
@@ -4786,7 +4811,8 @@
       "work"
     ],
     "answer": "housework",
-    "explanation": "housework 家务（不可数），homework 作业（不可数），job 工作（可数）"
+    "explanation": "housework 家务（不可数），homework 作业（不可数），job 工作（可数）",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-051.m4a"
   },
   {
     "id": "english-052",
@@ -4805,7 +4831,8 @@
       "who"
     ],
     "answer": "that",
-    "explanation": "先行词是物（factory），在定语从句中作visited的宾语，可以省略或用that/which"
+    "explanation": "先行词是物（factory），在定语从句中作visited的宾语，可以省略或用that/which",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-052.m4a"
   },
   {
     "id": "english-053",
@@ -4824,7 +4851,8 @@
       "most cold"
     ],
     "answer": "colder",
-    "explanation": "than 提示用比较级，cold→colder（单音节词加-er）"
+    "explanation": "than 提示用比较级，cold→colder（单音节词加-er）",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-053.m4a"
   },
   {
     "id": "english-054",
@@ -4843,7 +4871,8 @@
       "Never do"
     ],
     "answer": "Don't",
-    "explanation": "否定祈使句用Don't+动词原形，Not cross the street is wrong"
+    "explanation": "否定祈使句用Don't+动词原形，Not cross the street is wrong",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-054.m4a"
   },
   {
     "id": "english-055",
@@ -4862,7 +4891,8 @@
       "offer"
     ],
     "answer": "effect",
-    "explanation": "have an effect on 对...有效果，affect是动词，effort 努力"
+    "explanation": "have an effect on 对...有效果，affect是动词，effort 努力",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-055.m4a"
   },
   {
     "id": "english-056",
@@ -4875,7 +4905,8 @@
     ],
     "question": "If it _____ (rain) tomorrow, we will stay at home.",
     "answer": "rains",
-    "explanation": "真实条件句，主将从现，主句will do，从句用一般现在时"
+    "explanation": "真实条件句，主将从现，主句will do，从句用一般现在时",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-056.m4a"
   },
   {
     "id": "english-057",
@@ -4894,7 +4925,8 @@
       "Wherever"
     ],
     "answer": "However",
-    "explanation": "however+形容词/副词+主语+谓语，表示让步，意为无论多么"
+    "explanation": "however+形容词/副词+主语+谓语，表示让步，意为无论多么",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-057.m4a"
   },
   {
     "id": "english-058",
@@ -4913,7 +4945,8 @@
       "easier"
     ],
     "answer": "easy",
-    "explanation": "be + adj. + to do sth.，to后用动词原形，easy是形容词作表语"
+    "explanation": "be + adj. + to do sth.，to后用动词原形，easy是形容词作表语",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-058.m4a"
   },
   {
     "id": "english-059",
@@ -4932,7 +4965,8 @@
       "with"
     ],
     "answer": "in",
-    "explanation": "succeed in doing sth. 成功做某事，in是介词后面跟v-ing"
+    "explanation": "succeed in doing sth. 成功做某事，in是介词后面跟v-ing",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-059.m4a"
   },
   {
     "id": "english-060",
@@ -4951,7 +4985,8 @@
       "seen"
     ],
     "answer": "seeing",
-    "explanation": "look forward to doing sth.，to是介词，后跟v-ing"
+    "explanation": "look forward to doing sth.，to是介词，后跟v-ing",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-060.m4a"
   },
   {
     "id": "english-061",
@@ -4970,7 +5005,8 @@
       "when"
     ],
     "answer": "unless",
-    "explanation": "unless = if not，除非他想演讲否则不需要准备，符合句意"
+    "explanation": "unless = if not，除非他想演讲否则不需要准备，符合句意",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-061.m4a"
   },
   {
     "id": "english-062",
@@ -4989,7 +5025,8 @@
       "threeth"
     ],
     "answer": "third",
-    "explanation": "序数词表示顺序，第三层是the third floor，前面加the"
+    "explanation": "序数词表示顺序，第三层是the third floor，前面加the",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-062.m4a"
   },
   {
     "id": "english-063",
@@ -5008,7 +5045,8 @@
       "was cooking"
     ],
     "answer": "had cooked",
-    "explanation": "by+过去时间，主句用过去完成时had+过去分词，表示动作在过去某时已完成"
+    "explanation": "by+过去时间，主句用过去完成时had+过去分词，表示动作在过去某时已完成",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-063.m4a"
   },
   {
     "id": "english-064",
@@ -5021,7 +5059,8 @@
     ],
     "question": "I will contact you as soon as I _____ (arrive).",
     "answer": "arrive",
-    "explanation": "主将从现，as soon as引导时间状语从句，用一般现在时表将来"
+    "explanation": "主将从现，as soon as引导时间状语从句，用一般现在时表将来",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-064.m4a"
   },
   {
     "id": "english-065",
@@ -5040,7 +5079,8 @@
       "where"
     ],
     "answer": "that",
-    "explanation": "最高级修饰名词时，定语从句用that引导，不用which"
+    "explanation": "最高级修饰名词时，定语从句用that引导，不用which",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-065.m4a"
   },
   {
     "id": "english-066",
@@ -5059,7 +5099,8 @@
       "which"
     ],
     "answer": "that",
-    "explanation": "定语从句修饰animal，指物用that/which，在从句中作主语"
+    "explanation": "定语从句修饰animal，指物用that/which，在从句中作主语",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-066.m4a"
   },
   {
     "id": "english-067",
@@ -5078,7 +5119,8 @@
       "swimms"
     ],
     "answer": "swimming",
-    "explanation": "be good at doing sth.，at是介词，后跟v-ing"
+    "explanation": "be good at doing sth.，at是介词，后跟v-ing",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-067.m4a"
   },
   {
     "id": "english-068",
@@ -5097,7 +5139,8 @@
       "None"
     ],
     "answer": "Either",
-    "explanation": "either of the two 两者之一，both两者都，neither两者都不，none三者都不"
+    "explanation": "either of the two 两者之一，both两者都，neither两者都不，none三者都不",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-068.m4a"
   },
   {
     "id": "english-069",
@@ -5116,7 +5159,8 @@
       "finishing"
     ],
     "answer": "be finished",
-    "explanation": "should是情态动词，被动语态 should be+过去分词"
+    "explanation": "should是情态动词，被动语态 should be+过去分词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-069.m4a"
   },
   {
     "id": "english-070",
@@ -5135,7 +5179,8 @@
       "wondered"
     ],
     "answer": "wonderful",
-    "explanation": "形容词修饰名词meal，wonderful是形容词，wonderfully是副词"
+    "explanation": "形容词修饰名词meal，wonderful是形容词，wonderfully是副词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-070.m4a"
   },
   {
     "id": "english-071",
@@ -5154,7 +5199,8 @@
       "could"
     ],
     "answer": "must",
-    "explanation": "must be tired 表示肯定推测，你一定累了，should be tired 表示应该累了"
+    "explanation": "must be tired 表示肯定推测，你一定累了，should be tired 表示应该累了",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-071.m4a"
   },
   {
     "id": "english-072",
@@ -5173,7 +5219,8 @@
       "For"
     ],
     "answer": "In",
-    "explanation": "在早晨/下午/晚上用in，in the morning/afternoon/evening"
+    "explanation": "在早晨/下午/晚上用in，in the morning/afternoon/evening",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-072.m4a"
   },
   {
     "id": "english-073",
@@ -5192,7 +5239,8 @@
       "several"
     ],
     "answer": "much",
-    "explanation": "money是不可数名词，用much或a lot of修饰，many修饰可数名词复数"
+    "explanation": "money是不可数名词，用much或a lot of修饰，many修饰可数名词复数",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-073.m4a"
   },
   {
     "id": "english-074",
@@ -5211,7 +5259,8 @@
       "so"
     ],
     "answer": "but",
-    "explanation": "前后转折，but表示对比，and表示并列，or表示选择，so表示结果"
+    "explanation": "前后转折，but表示对比，and表示并列，or表示选择，so表示结果",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-074.m4a"
   },
   {
     "id": "english-075",
@@ -5230,7 +5279,8 @@
       "second"
     ],
     "answer": "first",
-    "explanation": "first place 第一名，序数词前加the"
+    "explanation": "first place 第一名，序数词前加the",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-075.m4a"
   },
   {
     "id": "chinese-026",
@@ -10236,7 +10286,8 @@
       "watched"
     ],
     "answer": "is watching",
-    "explanation": "now是现在进行时的标志，主语+is/am/are+动词ing，she用is"
+    "explanation": "now是现在进行时的标志，主语+is/am/are+动词ing，she用is",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-076.m4a"
   },
   {
     "id": "english-077",
@@ -10255,7 +10306,8 @@
       "to take"
     ],
     "answer": "to get",
-    "explanation": "receive表示收到、接到，是及物动词"
+    "explanation": "receive表示收到、接到，是及物动词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-077.m4a"
   },
   {
     "id": "english-078",
@@ -10274,7 +10326,8 @@
       "to"
     ],
     "answer": "at",
-    "explanation": "at the school gate在学校门口，gate是点状地点用at"
+    "explanation": "at the school gate在学校门口，gate是点状地点用at",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-078.m4a"
   },
   {
     "id": "english-079",
@@ -10293,7 +10346,8 @@
       "which"
     ],
     "answer": "who",
-    "explanation": "who在从句中作表语，表示是谁；whom作宾语；whose表示所属"
+    "explanation": "who在从句中作表语，表示是谁；whom作宾语；whose表示所属",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-079.m4a"
   },
   {
     "id": "english-080",
@@ -10312,7 +10366,8 @@
       "adverb"
     ],
     "answer": "adjective",
-    "explanation": "careful是形容词，carefully是副词"
+    "explanation": "careful是形容词，carefully是副词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-080.m4a"
   },
   {
     "id": "english-081",
@@ -10331,7 +10386,8 @@
       "with"
     ],
     "answer": "at",
-    "explanation": "be good at擅长，固定搭配"
+    "explanation": "be good at擅长，固定搭配",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-081.m4a"
   },
   {
     "id": "english-082",
@@ -10350,7 +10406,8 @@
       "played"
     ],
     "answer": "play",
-    "explanation": "usually是一般现在时的标志，主语they，复数，动词用原形"
+    "explanation": "usually是一般现在时的标志，主语they，复数，动词用原形",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-082.m4a"
   },
   {
     "id": "english-083",
@@ -10369,7 +10426,8 @@
       "I borrowed with her book."
     ],
     "answer": "I borrowed a book from her.",
-    "explanation": "borrow...from从...借，lend...to借给...，borrow不能用双宾语结构"
+    "explanation": "borrow...from从...借，lend...to借给...，borrow不能用双宾语结构",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-083.m4a"
   },
   {
     "id": "english-084",
@@ -10388,7 +10446,8 @@
       "TomJerry's"
     ],
     "answer": "Tom and Jerry's",
-    "explanation": "两人共有，在最后一个名词后加所有格；分别拥有各加所有格"
+    "explanation": "两人共有，在最后一个名词后加所有格；分别拥有各加所有格",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-084.m4a"
   },
   {
     "id": "english-085",
@@ -10407,7 +10466,8 @@
       "need"
     ],
     "answer": "must",
-    "explanation": "must必须，表示必要性，mustn't表示禁止"
+    "explanation": "must必须，表示必要性，mustn't表示禁止",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-085.m4a"
   },
   {
     "id": "english-086",
@@ -10426,7 +10486,8 @@
       "by"
     ],
     "answer": "in",
-    "explanation": "月份前用in，具体的日期或星期几用on"
+    "explanation": "月份前用in，具体的日期或星期几用on",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-086.m4a"
   },
   {
     "id": "english-087",
@@ -10445,7 +10506,8 @@
       "much interesting"
     ],
     "answer": "more interesting",
-    "explanation": "比较级用more+多音节形容词，interesting是多音节词"
+    "explanation": "比较级用more+多音节形容词，interesting是多音节词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-087.m4a"
   },
   {
     "id": "english-088",
@@ -10464,7 +10526,8 @@
       "/"
     ],
     "answer": "an",
-    "explanation": "honest以元音音素开头，用an"
+    "explanation": "honest以元音音素开头，用an",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-088.m4a"
   },
   {
     "id": "english-089",
@@ -10483,7 +10546,8 @@
       "did I heard"
     ],
     "answer": "have I heard",
-    "explanation": "否定词never置于句首，主句要部分倒装，把助动词提到主语前"
+    "explanation": "否定词never置于句首，主句要部分倒装，把助动词提到主语前",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-089.m4a"
   },
   {
     "id": "english-090",
@@ -10502,7 +10566,8 @@
       "It"
     ],
     "answer": "These",
-    "explanation": "are复数，主语用复数these或those"
+    "explanation": "are复数，主语用复数these或those",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-090.m4a"
   },
   {
     "id": "english-091",
@@ -10521,7 +10586,8 @@
       "to study"
     ],
     "answer": "studying",
-    "explanation": "see+宾语+doing，看到正在...，do表示看到了全过程"
+    "explanation": "see+宾语+doing，看到正在...，do表示看到了全过程",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-091.m4a"
   },
   {
     "id": "english-092",
@@ -10540,7 +10606,8 @@
       "Are there"
     ],
     "answer": "There is",
-    "explanation": "a book是单数，there is就近一致"
+    "explanation": "a book是单数，there is就近一致",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-092.m4a"
   },
   {
     "id": "english-093",
@@ -10559,7 +10626,8 @@
       "when"
     ],
     "answer": "that",
-    "explanation": "定语从句，先行词是book，关系词用that或which"
+    "explanation": "定语从句，先行词是book，关系词用that或which",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-093.m4a"
   },
   {
     "id": "english-094",
@@ -10578,7 +10646,8 @@
       "some shoe"
     ],
     "answer": "shoes",
-    "explanation": "鞋通常以复数形式shoes出现"
+    "explanation": "鞋通常以复数形式shoes出现",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-094.m4a"
   },
   {
     "id": "english-095",
@@ -10597,7 +10666,8 @@
       "loved"
     ],
     "answer": "is loved",
-    "explanation": "一般现在时被动：be+过去分词，主语the song第三人称单数用is loved"
+    "explanation": "一般现在时被动：be+过去分词，主语the song第三人称单数用is loved",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-095.m4a"
   },
   {
     "id": "english-096",
@@ -10616,7 +10686,8 @@
       "and"
     ],
     "answer": "because",
-    "explanation": "because因为，接原因从句；so所以，接结果从句；but但是；and和"
+    "explanation": "because因为，接原因从句；so所以，接结果从句；but但是；and和",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-096.m4a"
   },
   {
     "id": "english-097",
@@ -10635,7 +10706,8 @@
       "yourself"
     ],
     "answer": "themselves",
-    "explanation": "enjoy oneself玩得开心，主语the children，反身代词用themselves"
+    "explanation": "enjoy oneself玩得开心，主语the children，反身代词用themselves",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-097.m4a"
   },
   {
     "id": "english-098",
@@ -10654,7 +10726,8 @@
       "oranges"
     ],
     "answer": "water",
-    "explanation": "water是不可数名词，用some修饰；apple/banana/orange是可数名词复数"
+    "explanation": "water是不可数名词，用some修饰；apple/banana/orange是可数名词复数",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-098.m4a"
   },
   {
     "id": "english-099",
@@ -10673,7 +10746,8 @@
       "does"
     ],
     "answer": "to do",
-    "explanation": "forget to do忘记要做某事（未做）；forget doing忘记做过某事（已做）"
+    "explanation": "forget to do忘记要做某事（未做）；forget doing忘记做过某事（已做）",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-099.m4a"
   },
   {
     "id": "english-100",
@@ -10692,7 +10766,8 @@
       "When"
     ],
     "answer": "What",
-    "explanation": "问姓名用what's your name；who问是谁；where问地点；when问时间"
+    "explanation": "问姓名用what's your name；who问是谁；where问地点；when问时间",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-100.m4a"
   },
   {
     "id": "english-101",
@@ -10711,7 +10786,8 @@
       "Should"
     ],
     "answer": "May",
-    "explanation": "May I...?我可以...吗？表示请求允许；must/need/should的语气不同"
+    "explanation": "May I...?我可以...吗？表示请求允许；must/need/should的语气不同",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-101.m4a"
   },
   {
     "id": "english-102",
@@ -10730,7 +10806,8 @@
       "more tall"
     ],
     "answer": "taller",
-    "explanation": "than是比较级的标志，tall比较级加er"
+    "explanation": "than是比较级的标志，tall比较级加er",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-102.m4a"
   },
   {
     "id": "english-103",
@@ -10749,7 +10826,8 @@
       "reads"
     ],
     "answer": "reading",
-    "explanation": "be worth doing值得做，固定用法，主动表示被动"
+    "explanation": "be worth doing值得做，固定用法，主动表示被动",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-103.m4a"
   },
   {
     "id": "english-104",
@@ -10768,7 +10846,8 @@
       "mine"
     ],
     "answer": "my",
-    "explanation": "my是形容词性物主代词，后接名词；mine是名词性物主代词，后面不接名词"
+    "explanation": "my是形容词性物主代词，后接名词；mine是名词性物主代词，后面不接名词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-104.m4a"
   },
   {
     "id": "english-105",
@@ -10787,7 +10866,8 @@
       "for"
     ],
     "answer": "like",
-    "explanation": "look like看起来像；look after照顾；look at看；look for寻找"
+    "explanation": "look like看起来像；look after照顾；look at看；look for寻找",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-105.m4a"
   },
   {
     "id": "english-106",
@@ -10806,7 +10886,8 @@
       "going"
     ],
     "answer": "went",
-    "explanation": "yesterday一般过去时标志，go的过去式是went"
+    "explanation": "yesterday一般过去时标志，go的过去式是went",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-106.m4a"
   },
   {
     "id": "english-107",
@@ -10825,7 +10906,8 @@
       "be"
     ],
     "answer": "were",
-    "explanation": "与现在事实相反的虚拟语气，if+主语+were，主语+would+动词原形"
+    "explanation": "与现在事实相反的虚拟语气，if+主语+were，主语+would+动词原形",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-107.m4a"
   },
   {
     "id": "english-108",
@@ -10844,7 +10926,8 @@
       "the book"
     ],
     "answer": "books",
-    "explanation": "how many后接可数名词复数"
+    "explanation": "how many后接可数名词复数",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-108.m4a"
   },
   {
     "id": "english-109",
@@ -10863,7 +10946,8 @@
       "do"
     ],
     "answer": "to do",
-    "explanation": "have sth to do有...要做，to do作后置定语修饰work"
+    "explanation": "have sth to do有...要做，to do作后置定语修饰work",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-109.m4a"
   },
   {
     "id": "english-110",
@@ -10882,7 +10966,8 @@
       "No one"
     ],
     "answer": "Someone",
-    "explanation": "someone一些人，用于肯定句；any one用于否定句或疑问句；no one没有人"
+    "explanation": "someone一些人，用于肯定句；any one用于否定句或疑问句；no one没有人",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-110.m4a"
   },
   {
     "id": "english-111",
@@ -10901,7 +10986,8 @@
       "was"
     ],
     "answer": "had",
-    "explanation": "by the time+过去时，主句用过去完成时had+过去分词"
+    "explanation": "by the time+过去时，主句用过去完成时had+过去分词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-111.m4a"
   },
   {
     "id": "english-112",
@@ -10920,7 +11006,8 @@
       "since"
     ],
     "answer": "in",
-    "explanation": "年份前用in；具体日期用on；具体时刻用at"
+    "explanation": "年份前用in；具体日期用on；具体时刻用at",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-112.m4a"
   },
   {
     "id": "english-113",
@@ -10939,7 +11026,8 @@
       "getting"
     ],
     "answer": "get",
-    "explanation": "as soon as引导的时间状语从句，主句将来时，从句用一般现在时表将来"
+    "explanation": "as soon as引导的时间状语从句，主句将来时，从句用一般现在时表将来",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-113.m4a"
   },
   {
     "id": "english-114",
@@ -10958,7 +11046,8 @@
       "turn down"
     ],
     "answer": "turn off",
-    "explanation": "turn off关掉（灯/电器）；turn on打开；turn up调大；turn down调小"
+    "explanation": "turn off关掉（灯/电器）；turn on打开；turn up调大；turn down调小",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-114.m4a"
   },
   {
     "id": "english-115",
@@ -10977,7 +11066,8 @@
       "of"
     ],
     "answer": "to",
-    "explanation": "be kind to sb对某人友好，固定搭配"
+    "explanation": "be kind to sb对某人友好，固定搭配",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-115.m4a"
   },
   {
     "id": "english-116",
@@ -10996,7 +11086,8 @@
       "childrens'"
     ],
     "answer": "children's",
-    "explanation": "children所有格直接在词尾加's"
+    "explanation": "children所有格直接在词尾加's",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-116.m4a"
   },
   {
     "id": "english-117",
@@ -11015,7 +11106,8 @@
       "passing"
     ],
     "answer": "passing",
-    "explanation": "succeed in doing成功做某事，in可省略，in+doing"
+    "explanation": "succeed in doing成功做某事，in可省略，in+doing",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-117.m4a"
   },
   {
     "id": "english-118",
@@ -11034,7 +11126,8 @@
       "need"
     ],
     "answer": "must",
-    "explanation": "must必须，表示义务和必要性"
+    "explanation": "must必须，表示义务和必要性",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-118.m4a"
   },
   {
     "id": "english-119",
@@ -11053,7 +11146,8 @@
       "similar to"
     ],
     "answer": "similar to",
-    "explanation": "be similar to与...相似，固定搭配；same as与...一样"
+    "explanation": "be similar to与...相似，固定搭配；same as与...一样",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-119.m4a"
   },
   {
     "id": "english-120",
@@ -11072,7 +11166,8 @@
       "Whom"
     ],
     "answer": "What",
-    "explanation": "what color什么颜色；which color哪一种颜色（在给定范围内）"
+    "explanation": "what color什么颜色；which color哪一种颜色（在给定范围内）",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-120.m4a"
   },
   {
     "id": "english-121",
@@ -11091,7 +11186,8 @@
       "cleaning"
     ],
     "answer": "is cleaned",
-    "explanation": "一般现在时被动：be+过去分词，主语the classroom第三人称单数用is cleaned"
+    "explanation": "一般现在时被动：be+过去分词，主语the classroom第三人称单数用is cleaned",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-121.m4a"
   },
   {
     "id": "english-122",
@@ -11110,7 +11206,8 @@
       "played"
     ],
     "answer": "plays",
-    "explanation": "every weekend一般现在时，主语he第三人称单数，动词加s"
+    "explanation": "every weekend一般现在时，主语he第三人称单数，动词加s",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-122.m4a"
   },
   {
     "id": "english-123",
@@ -11129,7 +11226,8 @@
       "at"
     ],
     "answer": "for",
-    "explanation": "be responsible for对...负责，固定搭配"
+    "explanation": "be responsible for对...负责，固定搭配",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-123.m4a"
   },
   {
     "id": "english-124",
@@ -11148,7 +11246,8 @@
       "a"
     ],
     "answer": "any",
-    "explanation": "any用于否定句和疑问句；some用于肯定句；milk是不可数名词"
+    "explanation": "any用于否定句和疑问句；some用于肯定句；milk是不可数名词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-124.m4a"
   },
   {
     "id": "english-125",
@@ -11167,7 +11266,8 @@
       "where"
     ],
     "answer": "who",
-    "explanation": "先行词the man是人，关系词用who/that"
+    "explanation": "先行词the man是人，关系词用who/that",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-125.m4a"
   },
   {
     "id": "english-126",
@@ -11186,7 +11286,8 @@
       "There are"
     ],
     "answer": "Are there",
-    "explanation": "apples复数，用are there提问"
+    "explanation": "apples复数，用are there提问",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-126.m4a"
   },
   {
     "id": "english-127",
@@ -11205,7 +11306,8 @@
       "studied"
     ],
     "answer": "to study",
-    "explanation": "tell sb to do sth告诉某人做某事"
+    "explanation": "tell sb to do sth告诉某人做某事",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-127.m4a"
   },
   {
     "id": "english-128",
@@ -11224,7 +11326,8 @@
       "Should"
     ],
     "answer": "May",
-    "explanation": "May I...?我可以...吗？表示请求允许"
+    "explanation": "May I...?我可以...吗？表示请求允许",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-128.m4a"
   },
   {
     "id": "english-129",
@@ -11243,7 +11346,8 @@
       "to"
     ],
     "answer": "on",
-    "explanation": "spend...on在...上花费（时间/金钱）；spend...in doing花费...做某事"
+    "explanation": "spend...on在...上花费（时间/金钱）；spend...in doing花费...做某事",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-129.m4a"
   },
   {
     "id": "english-130",
@@ -11262,7 +11366,8 @@
       "the fastest"
     ],
     "answer": "fastest",
-    "explanation": "in our class范围内比较用最高级，run是行为动词用副词修饰"
+    "explanation": "in our class范围内比较用最高级，run是行为动词用副词修饰",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-130.m4a"
   },
   {
     "id": "english-131",
@@ -11281,7 +11386,8 @@
       "advicing"
     ],
     "answer": "advice",
-    "explanation": "advice是不可数名词，没有复数形式；advise是动词"
+    "explanation": "advice是不可数名词，没有复数形式；advise是动词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-131.m4a"
   },
   {
     "id": "english-132",
@@ -11300,7 +11406,8 @@
       "She's"
     ],
     "answer": "Her",
-    "explanation": "her是形容词性物主代词，后接名词；She's=She is"
+    "explanation": "her是形容词性物主代词，后接名词；She's=She is",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-132.m4a"
   },
   {
     "id": "english-133",
@@ -11319,7 +11426,8 @@
       "could I"
     ],
     "answer": "did I",
-    "explanation": "Only+副词/介词短语/从句置于句首，主句要部分倒装"
+    "explanation": "Only+副词/介词短语/从句置于句首，主句要部分倒装",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-133.m4a"
   },
   {
     "id": "english-134",
@@ -11338,7 +11446,8 @@
       "ago"
     ],
     "answer": "already",
-    "explanation": "already用于肯定句，通常放在动词前；yet用于否定句和疑问句"
+    "explanation": "already用于肯定句，通常放在动词前；yet用于否定句和疑问句",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-134.m4a"
   },
   {
     "id": "english-135",
@@ -11357,7 +11466,8 @@
       "with"
     ],
     "answer": "in",
-    "explanation": "be interested in对...感兴趣，固定搭配"
+    "explanation": "be interested in对...感兴趣，固定搭配",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-135.m4a"
   },
   {
     "id": "english-136",
@@ -11376,7 +11486,8 @@
       "going"
     ],
     "answer": "went",
-    "explanation": "last Sunday一般过去时标志，go的过去式是went"
+    "explanation": "last Sunday一般过去时标志，go的过去式是went",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-136.m4a"
   },
   {
     "id": "english-137",
@@ -11395,7 +11506,8 @@
       "might"
     ],
     "answer": "should",
-    "explanation": "should have done本应该做某事（却没做），表示责备"
+    "explanation": "should have done本应该做某事（却没做），表示责备",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-137.m4a"
   },
   {
     "id": "english-138",
@@ -11414,7 +11526,8 @@
       "Whose"
     ],
     "answer": "Which",
-    "explanation": "of the two books表示在两者之间，用which"
+    "explanation": "of the two books表示在两者之间，用which",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-138.m4a"
   },
   {
     "id": "english-139",
@@ -11433,7 +11546,8 @@
       "since"
     ],
     "answer": "why",
-    "explanation": "the reason why...是...的原因，固定句型"
+    "explanation": "the reason why...是...的原因，固定句型",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-139.m4a"
   },
   {
     "id": "english-140",
@@ -11452,7 +11566,8 @@
       "next to"
     ],
     "answer": "under",
-    "explanation": "under在...下面；behind在...后面；in front of在...前面；next to在...旁边"
+    "explanation": "under在...下面；behind在...后面；in front of在...前面；next to在...旁边",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-140.m4a"
   },
   {
     "id": "english-141",
@@ -11471,7 +11586,8 @@
       "Give"
     ],
     "answer": "Given",
-    "explanation": "given在此作介词，意思是如果给予...；given作状语表示条件"
+    "explanation": "given在此作介词，意思是如果给予...；given作状语表示条件",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-141.m4a"
   },
   {
     "id": "english-142",
@@ -11490,7 +11606,8 @@
       "more noisy"
     ],
     "answer": "noisy",
-    "explanation": "are是be动词，后接形容词；noisy是形容词，noisely是副词"
+    "explanation": "are是be动词，后接形容词；noisy是形容词，noisely是副词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-142.m4a"
   },
   {
     "id": "english-143",
@@ -11509,7 +11626,8 @@
       "well"
     ],
     "answer": "better",
-    "explanation": "The more..., the better...越...越...，比较级用better"
+    "explanation": "The more..., the better...越...越...，比较级用better",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-143.m4a"
   },
   {
     "id": "english-144",
@@ -11528,7 +11646,8 @@
       "/"
     ],
     "answer": "the",
-    "explanation": "最高级前要加the"
+    "explanation": "最高级前要加the",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-144.m4a"
   },
   {
     "id": "english-145",
@@ -11547,7 +11666,8 @@
       "with"
     ],
     "answer": "to",
-    "explanation": "prefer A to B喜欢A胜过B，固定搭配，to是介词"
+    "explanation": "prefer A to B喜欢A胜过B，固定搭配，to是介词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-145.m4a"
   },
   {
     "id": "english-146",
@@ -11566,7 +11686,8 @@
       "adverb"
     ],
     "answer": "verb",
-    "explanation": "succeed是动词，success是名词，successful是形容词，successfully是副词"
+    "explanation": "succeed是动词，success是名词，successful是形容词，successfully是副词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-146.m4a"
   },
   {
     "id": "english-147",
@@ -11585,7 +11706,8 @@
       "were"
     ],
     "answer": "is",
-    "explanation": "look是现在进行时标志，主语the baby单数用is"
+    "explanation": "look是现在进行时标志，主语the baby单数用is",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-147.m4a"
   },
   {
     "id": "english-148",
@@ -11604,7 +11726,8 @@
       "Shut off"
     ],
     "answer": "Close",
-    "explanation": "close the window关窗户；close to接近"
+    "explanation": "close the window关窗户；close to接近",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-148.m4a"
   },
   {
     "id": "english-149",
@@ -11623,7 +11746,8 @@
       "believed"
     ],
     "answer": "believe",
-    "explanation": "whatever引导的让步状语从句，从句用一般现在时表将来，主句用一般将来时"
+    "explanation": "whatever引导的让步状语从句，从句用一般现在时表将来，主句用一般将来时",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-149.m4a"
   },
   {
     "id": "english-150",
@@ -11642,7 +11766,8 @@
       "a"
     ],
     "answer": "some",
-    "explanation": "information是不可数名词，some可用于肯定句中的不可数名词"
+    "explanation": "information是不可数名词，some可用于肯定句中的不可数名词",
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-150.m4a"
   },
   {
     "id": "chinese-076",
