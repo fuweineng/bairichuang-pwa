@@ -1,5 +1,5 @@
 // Service Worker — Cache-First strategy
-const CACHE_NAME = 'bairichuang-v4';
+const CACHE_NAME = 'bairichuang-v6';
 
 const PRECACHE = [
   './',
@@ -9,6 +9,7 @@ const PRECACHE = [
   './manifest.webmanifest',
   './icons/icon-192.png',
   './icons/icon-512.png',
+  './js/idb-keyval.min.js',
 ];
 
 // Install — pre-cache shell
@@ -39,7 +40,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
-  // Skip non-GET and cross-origin (except CDN for idb-keyval)
+  // Skip non-GET
   if (e.request.method !== 'GET') return;
 
   // For question JSON files — network first, cache fallback
