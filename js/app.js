@@ -2,7 +2,7 @@
 // Main entry point for 百日闯 PWA
 
 import { checkin, getCheckinStreak, getCheckinHistoryList } from './checkin.js';
-import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions } from './question_bank.js';
+import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions } from './question_bank.js';
 
 // State
 let currentView = 'index';
@@ -134,6 +134,37 @@ async function refreshUI() {
     checkinBtn.disabled = checkedToday;
     checkinBtn.textContent = checkedToday ? '今日已打卡' : '今日打卡';
   }
+
+  // Update today stats
+  const today = new Date().toISOString().split('T')[0];
+  const history = await getCheckinHistoryList();
+  const checkedToday = history.some(h => h.date === today);
+
+  // Checkin icon
+  const checkinIcon = document.getElementById('today-checkin-icon');
+  const checkinText = document.getElementById('today-checkin-text');
+  if (checkinIcon) {
+    checkinIcon.textContent = checkedToday ? '✓' : '○';
+    checkinIcon.classList.toggle('checked', checkedToday);
+  }
+  if (checkinText) {
+    checkinText.textContent = checkedToday ? '已打卡' : '未打卡';
+  }
+
+  // Practice count & accuracy from progress
+  const progress = await getProgress();
+  const todayProgress = Object.entries(progress)
+    .filter(([qid, record]) => record.date === today)
+    .map(([qid, record]) => record);
+
+  const practiceCount = todayProgress.length;
+  const correctCount = todayProgress.filter(p => p.correct).length;
+  const accuracy = practiceCount > 0 ? Math.round((correctCount / practiceCount) * 100) : null;
+
+  const countEl = document.getElementById('today-practice-count');
+  const accuracyEl = document.getElementById('today-accuracy');
+  if (countEl) countEl.textContent = practiceCount;
+  if (accuracyEl) accuracyEl.textContent = accuracy !== null ? `${accuracy}%` : '--%';
 }
 
 // Start a new practice session

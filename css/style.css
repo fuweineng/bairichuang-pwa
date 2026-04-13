@@ -76,6 +76,41 @@ main {
   opacity: 0.9;
 }
 
+.today-stats {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  border-radius: 12px;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+}
+
+.stat-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.stat-cell .stat-icon {
+  font-size: 1.4rem;
+}
+
+.stat-cell .stat-icon.checked {
+  color: #4CAF50;
+}
+
+.stat-cell .stat-num {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.stat-cell .stat-text {
+  font-size: 0.75rem;
+  color: #999;
+}
+
 .primary-btn {
   width: 100%;
   padding: 16px;
