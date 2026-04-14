@@ -3178,20 +3178,6 @@
     "explanation": "三角形内角和180°，两个底角相等：(180-50)/2=65°"
   },
   {
-    "id": "math-035",
-    "type": "fill",
-    "subject": "math",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "实数"
-    ],
-    "question": "下列是有理数的是：",
-    "options": null,
-    "answer": "0.333...",
-    "explanation": "无限不循环小数为无理数，0.333...=1/3是有理数"
-  },
-  {
     "id": "math-036",
     "type": "fill",
     "subject": "math",
@@ -3260,20 +3246,6 @@
     "options": null,
     "answer": "6x³",
     "explanation": "单项式乘以单项式，系数相乘，同底数幂相加：2×3·x¹⁺²=6x³"
-  },
-  {
-    "id": "math-041",
-    "type": "fill",
-    "subject": "math",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "实数"
-    ],
-    "question": "下列各式中，是最简二次根式的是：",
-    "options": null,
-    "answer": "√7",
-    "explanation": "√7不能再化简，是最简二次根式；√12=2√3，√18=3√2"
   },
   {
     "id": "math-042",
