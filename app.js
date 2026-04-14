@@ -1,6 +1,6 @@
 // 百日闯 PWA — 重构版
 
-import { get, set, clear } from './js/idb-keyval.mjs';
+import { get, set, clear, del } from './js/idb-keyval.mjs';
 import {
   formatDateKeyLabel,
   formatDateKeyShort,
@@ -1291,6 +1291,10 @@ async function renderSettings() {
       <div class="settings-hint" id="qb-stats">加载中...</div>
     </div>
     <div class="settings-card">
+      <button class="danger-btn" data-action="clear-qb-cache">清除题库缓存</button>
+      <div class="settings-hint">清除本地题库缓存，强制从服务器重新下载</div>
+    </div>
+    <div class="settings-card">
       <button class="danger-btn" data-action="clear-all-data">清除所有数据</button>
     </div>
   `;
@@ -1485,6 +1489,12 @@ function handleClick(e) {
 
     case 'install-pwa':
       if (window.deferredPWA) window.deferredPWA.prompt();
+      break;
+
+    case 'clear-qb-cache':
+      await del(K.QB_CACHE);
+      state.questionBank = createEmptyQuestionBank();
+      alert('已清除题库缓存，下次进入时将重新下载');
       break;
 
     case 'clear-all-data':
