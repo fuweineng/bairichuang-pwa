@@ -1458,7 +1458,6 @@ function handleClick(e) {
       break;
 
     case 'back-home':
-      updateEntryCounts();
       navigate('#/home');
       break;
 
