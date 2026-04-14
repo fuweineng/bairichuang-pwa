@@ -257,6 +257,7 @@ function renderHome() {
   renderWeakSubjects();
   // CTA subtitle
   updatePracticeCtaSub();
+  renderSubjectsStrip();
 }
 
 function updatePracticeCtaSub() {
@@ -347,6 +348,26 @@ function renderWeakSubjects() {
     <div class="weak-subjects-card">
       <div class="weak-subjects-header">⚠️ 这些科目正确率低于 60%，建议优先练习</div>
       <div class="weak-pills-row">${pills}</div>
+    </div>`;
+}
+
+function renderSubjectsStrip() {
+  const el = document.getElementById('subjects-strip-container');
+  if (!el) return;
+  const btns = SUBJECTS.map(subj => {
+    const acc = getSubjectAccuracy(subj);
+    const dotClass = acc === null ? 'none' : acc < 60 ? 'weak' : 'mastered';
+    const label = acc === null ? '未学' : `${acc}%`;
+    return `<button class="subj-strip-btn" data-action="start-subject" data-subject="${subj}">
+      <span class="subj-strip-dot ${dotClass}"></span>
+      <span>${subjectName(subj)}</span>
+      <span style="font-size:0.68rem;opacity:0.7">${label}</span>
+    </button>`;
+  }).join('');
+  el.innerHTML = `
+    <div class="subjects-strip-card">
+      <div class="subjects-strip-header">选择单科练习</div>
+      <div class="subjects-strip-row">${btns}</div>
     </div>`;
 }
 

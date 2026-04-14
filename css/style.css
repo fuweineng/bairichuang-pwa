@@ -204,9 +204,59 @@ main {
 .practice-cta-sub { font-size: 0.72rem; color: rgba(255,255,255,0.8); margin-top: 2px; }
 .practice-cta-arrow { font-size: 1.2rem; color: rgba(255,255,255,0.9); flex-shrink: 0; }
 
-/* Hide old elements that will be removed */
-.study-launch-card { display: none; }
-.home-chart-section .chart-subject-bar { display: none; }
+/* Subject strip — horizontal scrollable row */
+.subjects-strip-card {
+  background: white;
+  border-radius: 12px;
+  padding: 10px 12px;
+  order: 5;
+}
+
+.subjects-strip-header {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.subjects-strip-row {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.subj-strip-btn {
+  flex-shrink: 0;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1.5px solid #ddd;
+  background: #f8fafc;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.subj-strip-btn:hover, .subj-strip-btn:active {
+  border-color: #4CAF50;
+  color: #4CAF50;
+  background: #e8f5e9;
+}
+
+.subj-strip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.subj-strip-dot.none { background: #eee; }
+.subj-strip-dot.weak { background: #F44336; }
+.subj-strip-dot.mastered { background: #4CAF50; }
 
 
 .streak-card {
