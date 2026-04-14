@@ -687,17 +687,17 @@ function renderQuestion() {
     : '';
 
   // ── 判断题型 ──────────────────────────────────────────────────────────
-  // choice 类型: q.options 数组；listening 类型: q.choices 数组
+  // choice 类型: q.options 或 q.choices 数组；listening 类型: q.choices 数组
   const hasOptions = q.options && q.options.length > 0;         // choice 用 options
-  const hasChoices = q.choices && q.choices.length > 0;         // listening 用 choices
-  const isChoice = hasOptions && q.type === 'choice';
+  const hasChoices = q.choices && q.choices.length > 0;         // listening / choice 用 choices
+  const isChoice = (hasOptions || hasChoices) && q.type === 'choice';
   const isListeningType = hasChoices && q.type === 'listening';
   const isFillOrShort = !hasOptions && !hasChoices && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
 
-  // 选项按钮 (choice 用 options 文字；listening 用 choices[{label,text}])
-  // options兼容两种格式：纯字符串数组 或 {label,text}对象数组（与choices格式统一）
+  // 选项按钮 (choice 用 options/choices 文字；listening 用 choices[{label,text}])
+  // options/choices 兼容两种格式：纯字符串数组 或 {label,text}对象数组
   const opts = isChoice
-    ? q.options.map((opt, i) => {
+    ? (q.options || q.choices).map((opt, i) => {
         const label = typeof opt === 'string' ? '' : opt.label + '. ';
         const text  = typeof opt === 'string' ? opt    : opt.text;
         return `<button class="answer-btn" data-action="answer" data-choice="${i}">${label}${text}</button>`;
@@ -736,7 +736,7 @@ function renderQuestion() {
     if (inp) inp.focus();
   }
 
-  if (isListening) {
+  if (state.ttsUtterance) {
     state.ttsUtterance = null;
   }
 }
@@ -746,9 +746,10 @@ async function handleAnswer(choiceIdx) {
 
   // 判断答案：choice 用 q.options[idx] === q.answer；listening 用 q.choices[idx].label === q.answer
   let isCorrect = false;
-  if (q.type === 'choice' && q.options) {
-    // options可能是纯字符串数组，也可能是{label,text}对象数组
-    const opt = q.options[choiceIdx];
+  if (q.type === 'choice' && (q.options || q.choices)) {
+    // options/choices 可能是纯字符串数组，也可能是 {label,text} 对象数组
+    const source = q.options || q.choices;
+    const opt = source[choiceIdx];
     const optText = typeof opt === 'string' ? opt : opt.text;
     const answerStr = String(q.answer);
     isCorrect = optText === answerStr ||
@@ -769,7 +770,7 @@ async function handleAnswer(choiceIdx) {
     fb.style.display = 'block';
     // 显示正确答案标签
     let correctLabel = q.answer;
-    if (q.type === 'listening' && q.choices) {
+    if ((q.type === 'listening' || q.type === 'choice') && q.choices) {
       const found = q.choices.find(c => c.label === q.answer);
       if (found) correctLabel = `${q.answer}. ${found.text}`;
     }
