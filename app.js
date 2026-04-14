@@ -1003,7 +1003,7 @@ function drawChart() {
   // 横轴从第一条打卡记录开始，而非固定30天
   const allDateKeys = Object.keys(state.daily).filter(d => {
     const s = state.daily[d];
-    return (s.correct + s.wrong) > 0;
+    return (s.questionsCount || 0) > 0;
   }).sort();
   const firstDay = allDateKeys[0] || null;
   // 如果没有数据，显示空状态
