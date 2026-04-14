@@ -6,6 +6,7 @@ import { promises as fs } from 'node:fs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..');
 const port = Number(process.env.PORT || 4173);
+const host = process.env.HOST || '127.0.0.1';
 
 const mimeTypes = {
   '.css': 'text/css; charset=utf-8',
@@ -64,8 +65,8 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(port, () => {
-  console.log(`百日闯本地服务已启动: http://127.0.0.1:${port}`);
+server.listen(port, host, () => {
+  console.log(`百日闯本地服务已启动: http://${host}:${port}`);
 });
 
 function shutdown() {

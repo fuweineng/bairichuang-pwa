@@ -40,28 +40,7 @@
     <!-- ===== HOME VIEW ===== -->
     <section id="view-home" class="view active">
 
-      <!-- 折线图：最近30天得分趋势（放最上面） -->
-      <div class="home-chart-section">
-        <div class="chart-header">
-          <span class="chart-title">📈 学习趋势（近30天）</span>
-          <span class="chart-hint" id="chart-hint">得分率 = 做对题数 ÷ 当天总题数 × 100%</span>
-        </div>
-        <div class="chart-wrapper" id="home-chart-container"></div>
-        <div class="chart-subject-bar" id="chart-subject-bar">
-          <button class="subj-btn active" data-chart-subj="all">全科</button>
-          <button class="subj-btn" data-chart-subj="chinese">语文</button>
-          <button class="subj-btn" data-chart-subj="math">数学</button>
-          <button class="subj-btn" data-chart-subj="english">英语</button>
-          <button class="subj-btn" data-chart-subj="physics">物理</button>
-          <button class="subj-btn" data-chart-subj="chemistry">化学</button>
-          <button class="subj-btn" data-chart-subj="biology">生物</button>
-          <button class="subj-btn" data-chart-subj="history">历史</button>
-          <button class="subj-btn" data-chart-subj="geography">地理</button>
-          <button class="subj-btn" data-chart-subj="politics">道法</button>
-        </div>
-      </div>
-
-      <!-- 连续打卡 -->
+      <!-- 第一层：Streak -->
       <div class="streak-card" data-action="nav" data-view="progress">
         <div class="streak-card-left">
           <div class="streak-main">
@@ -76,85 +55,31 @@
         </div>
       </div>
 
-      <div class="study-launch-card">
-        <div class="study-launch-header">
-          <div>
-            <div class="study-launch-title">开始练习</div>
-            <div class="study-launch-subtitle">先选练习范围，再直接进入学习</div>
-          </div>
-          <button class="full-practice-btn" data-action="start-subject" data-subject="all">全科练习</button>
+      <!-- 第二层：趋势 chart -->
+      <div class="home-chart-section">
+        <div class="chart-header">
+          <span class="chart-title">📈 学习趋势</span>
         </div>
-
-        <div class="practice-mode-bar" id="practice-mode-bar">
-          <button class="practice-mode-btn active" data-action="set-practice-mode" data-mode="standard">综合刷题</button>
-          <button class="practice-mode-btn" data-action="set-practice-mode" data-mode="new">新题优先</button>
-          <button class="practice-mode-btn" data-action="set-practice-mode" data-mode="weak">错题重练</button>
-          <button class="practice-mode-btn" data-action="set-practice-mode" data-mode="mastered">熟练巩固</button>
-        </div>
-
-        <div class="mode-summary-row">
-          <div class="mode-summary-card">
-            <span class="mode-summary-label">新题</span>
-            <span class="mode-summary-value" id="entry-new-count">0题</span>
-          </div>
-          <div class="mode-summary-card weak">
-            <span class="mode-summary-label">错题</span>
-            <span class="mode-summary-value" id="entry-weak-count">0题</span>
-          </div>
-          <div class="mode-summary-card mastered">
-            <span class="mode-summary-label">掌握</span>
-            <span class="mode-summary-value" id="entry-mastered-count">0题</span>
-          </div>
-        </div>
-
-        <div class="subjects-grid home-subjects-grid" id="home-subjects-grid">
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="math">
-            <span class="subj-name">数学</span>
-            <span class="subj-meta" id="meta-math">0题可练</span>
-            <span class="subj-badge" id="badge-math"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="english">
-            <span class="subj-name">英语</span>
-            <span class="subj-meta" id="meta-english">0题可练</span>
-            <span class="subj-badge" id="badge-english"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="chinese">
-            <span class="subj-name">语文</span>
-            <span class="subj-meta" id="meta-chinese">0题可练</span>
-            <span class="subj-badge" id="badge-chinese"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="physics">
-            <span class="subj-name">物理</span>
-            <span class="subj-meta" id="meta-physics">0题可练</span>
-            <span class="subj-badge" id="badge-physics"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="chemistry">
-            <span class="subj-name">化学</span>
-            <span class="subj-meta" id="meta-chemistry">0题可练</span>
-            <span class="subj-badge" id="badge-chemistry"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="biology">
-            <span class="subj-name">生物</span>
-            <span class="subj-meta" id="meta-biology">0题可练</span>
-            <span class="subj-badge" id="badge-biology"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="history">
-            <span class="subj-name">历史</span>
-            <span class="subj-meta" id="meta-history">0题可练</span>
-            <span class="subj-badge" id="badge-history"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="geography">
-            <span class="subj-name">地理</span>
-            <span class="subj-meta" id="meta-geography">0题可练</span>
-            <span class="subj-badge" id="badge-geography"></span>
-          </button>
-          <button class="subject-grid-btn" data-action="start-subject" data-subject="politics">
-            <span class="subj-name">道法</span>
-            <span class="subj-meta" id="meta-politics">0题可练</span>
-            <span class="subj-badge" id="badge-politics"></span>
-          </button>
-        </div>
+        <div class="chart-wrapper" id="home-chart-container"></div>
       </div>
+
+      <!-- 第三层：今日状态（JS 动态填充） -->
+      <div id="today-status-container"></div>
+
+      <!-- 第四层：补弱科目（JS 动态填充，60% 以下显示） -->
+      <div id="weak-subjects-container"></div>
+
+      <!-- 唯一主 CTA -->
+      <div class="practice-cta-card" id="practice-cta-card" data-action="start-subject" data-subject="all">
+        <span class="practice-cta-icon">📚</span>
+        <div class="practice-cta-texts">
+          <div class="practice-cta-title">全科练习</div>
+          <div class="practice-cta-sub" id="practice-cta-sub">点击开始</div>
+        </div>
+        <span class="practice-cta-arrow">→</span>
+      </div>
+
+
     </section>
 
     <!-- ===== PRACTICE VIEW ===== -->

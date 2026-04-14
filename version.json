@@ -1,7 +1,7 @@
 {
-  "version": 5,
+  "version": 6,
   "questionBankVersion": "20260414-1",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-14",
-  "changelog": "修复选择题choices/options字段兼容问题，删除2题误标为fill的选择题，题库清理后共937题"
+  "changelog": "重构首页：单屏分层（streak+chart+今日状态+补弱+全科CTA），移除模式选择栏和科目网格"
 }

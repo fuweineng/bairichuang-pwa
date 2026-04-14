@@ -131,7 +131,7 @@ async function init() {
   router();
 
   // Chart subject switcher
-  document.getElementById('chart-subject-bar').addEventListener('click', e => {
+  document.getElementById('chart-subject-bar')?.addEventListener('click', e => {
     const btn = e.target.closest('.subj-btn');
     if (!btn) return;
     const subj = btn.dataset.chartSubj;
@@ -241,35 +241,113 @@ function renderHome() {
   const sub = document.getElementById('streak-sub');
   sub.textContent = streak === 0 ? '开始你的百日计划' : `已打卡 ${Object.keys(state.daily).length} 天`;
 
-  // Mini chart on home page
+
+  // Chart
   const homeChartEl = document.getElementById('home-chart-container');
-  if (homeChartEl) {
-    homeChartEl.innerHTML = drawChart();
-  }
+  if (homeChartEl) homeChartEl.innerHTML = drawChart();
 
+
+  // Update badge
   const badge = document.getElementById('update-badge');
-  if (badge) {
-    badge.style.display = hasQuestionPackUpdate() ? 'inline-block' : 'none';
-  }
+  if (badge) badge.style.display = hasQuestionPackUpdate() ? 'inline-block' : 'none';
 
-  // Entry card counts
-  updateEntryCounts();
-  // Per-subject badges on the grid
-  renderSubjectBadges();
-  renderPracticeModeBar();
+  // Today status
+  renderTodayStatus();
+  // Weak subjects
+  renderWeakSubjects();
+  // CTA subtitle
+  updatePracticeCtaSub();
 }
 
-function updateEntryCounts() {
-  const counts = { new: 0, weak: 0, mastered: 0 };
-  Object.values(state.questionBank).forEach(questions => {
-    questions.forEach(q => {
-      const s = (state.progress[q.id] || {}).status || 'new';
-      if (s in counts) counts[s]++;
-    });
+function updatePracticeCtaSub() {
+  const sub = document.getElementById('practice-cta-sub');
+  if (!sub) return;
+  const todayKey = getLocalDateKey(new Date());
+  const todayDone = !!state.daily[todayKey];
+  const totalDays = Object.keys(state.daily).length;
+  if (totalDays === 0) {
+    sub.textContent = '点击开始';
+  } else if (!todayDone) {
+    sub.textContent = '今日还未练习';
+  } else {
+    sub.textContent = '今日已完成，继续保持';
+  }
+}
+
+
+function renderTodayStatus() {
+  const el = document.getElementById('today-status-container');
+  if (!el) return;
+  const todayKey = getLocalDateKey(new Date());
+  const today = state.daily[todayKey];
+  if (!today || !today.questionsCount) {
+    el.innerHTML = `
+      <div class="today-status-card not-practiced">
+        <span class="today-status-icon">🌟</span>
+        <div class="today-status-info">
+          <div class="today-status-title">今日还没练习</div>
+          <div class="today-status-sub">点击下方按钮开始</div>
+        </div>
+        <span class="today-status-stat">0题</span>
+      </div>`;
+    return;
+  }
+  const rate = today.questionsCount > 0
+    ? Math.round((today.correct / today.questionsCount) * 100)
+    : 0;
+  const emoji = rate >= 80 ? '🎉' : rate >= 60 ? '👍' : '💪';
+  el.innerHTML = `
+    <div class="today-status-card">
+      <span class="today-status-icon">${emoji}</span>
+      <div class="today-status-info">
+        <div class="today-status-title">今日已完成</div>
+        <div class="today-status-sub">正确率</div>
+      </div>
+      <span class="today-status-stat">${today.correct}/${today.questionsCount} (${rate}%)</span>
+    </div>`;
+}
+
+// 计算某科目的正确率（基于 progress 记录）
+function getSubjectAccuracy(subj) {
+  const questions = state.questionBank[subj] || [];
+  let correct = 0, total = 0;
+  questions.forEach(q => {
+    const p = state.progress[q.id];
+    if (!p || p.status === 'new') return;
+    correct += p.correct || 0;
+    total += (p.correct || 0) + (p.wrong || 0);
   });
-  setCount('entry-new-count', counts.new);
-  setCount('entry-weak-count', counts.weak);
-  setCount('entry-mastered-count', counts.mastered);
+  return total > 0 ? Math.round((correct / total) * 100) : null;
+}
+
+
+function renderWeakSubjects() {
+  const el = document.getElementById('weak-subjects-container');
+  if (!el) return;
+  const weakItems = SUBJECTS.map(subj => {
+    const acc = getSubjectAccuracy(subj);
+    if (acc !== null && acc < 60) return { subj, acc };
+    return null;
+  }).filter(Boolean);
+
+
+  if (weakItems.length === 0) {
+    el.innerHTML = '';
+    return;
+  }
+
+  const pills = weakItems.map(({ subj, acc }) => `
+    <button class="weak-pill" data-action="start-subject" data-subject="${subj}">
+      <span class="weak-pill-name">${subjectName(subj)}</span>
+      <span class="weak-pill-rate">${acc}%</span>
+    </button>`).join('');
+
+
+  el.innerHTML = `
+    <div class="weak-subjects-card">
+      <div class="weak-subjects-header">⚠️ 这些科目正确率低于 60%，建议优先练习</div>
+      <div class="weak-pills-row">${pills}</div>
+    </div>`;
 }
 
 function getPracticeMode() {

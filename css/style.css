@@ -89,10 +89,125 @@ main {
 
 .view.active { display: flex; }
 
-/* ==================== HOME ==================== */
-.home-top-row {
-  margin-bottom: 8px;
+/* ==================== HOME — REBUILD ==================== */
+.home-upper-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
+/* Streak — wider card at top */
+.home-streak-section { order: 1; }
+
+/* Chart — smaller, below streak */
+.home-chart-section { order: 2; margin-bottom: 0; }
+
+/* Today status — shown after practice */
+.today-status-card {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-left: 4px solid #4CAF50;
+  order: 3;
+}
+
+.today-status-card.not-practiced {
+  border-left-color: #FF9800;
+  background: #fff8f0;
+}
+
+.today-status-icon { font-size: 1.4rem; flex-shrink: 0; }
+
+.today-status-info { flex: 1; min-width: 0; }
+.today-status-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2px;
+}
+.today-status-sub {
+  font-size: 0.75rem;
+  color: #888;
+}
+.today-status-stat {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #4CAF50;
+  white-space: nowrap;
+}
+
+/* Weak subjects — horizontal scroll pills */
+.weak-subjects-card {
+  background: white;
+  border-radius: 12px;
+  padding: 10px 12px;
+  order: 4;
+}
+
+.weak-subjects-header {
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.weak-pills-row {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.weak-pill {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #fff3f3;
+  border: 1.5px solid #ffd7d7;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.weak-pill:hover { background: #ffe0e0; border-color: #F44336; }
+
+.weak-pill-name { font-weight: 700; color: #e53935; }
+.weak-pill-rate { font-size: 0.7rem; color: #e53935; opacity: 0.8; }
+
+/* Full practice CTA — single, prominent */
+.practice-cta-card {
+  order: 5;
+  background: linear-gradient(135deg, #1f8f6a, #4caf50);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 14px rgba(40, 55, 80, 0.18);
+}
+
+.practice-cta-card:hover { box-shadow: 0 6px 20px rgba(40, 55, 80, 0.25); transform: translateY(-1px); }
+
+.practice-cta-icon { font-size: 1.8rem; flex-shrink: 0; }
+.practice-cta-texts { flex: 1; min-width: 0; }
+.practice-cta-title { font-size: 1rem; font-weight: 800; color: white; }
+.practice-cta-sub { font-size: 0.72rem; color: rgba(255,255,255,0.8); margin-top: 2px; }
+.practice-cta-arrow { font-size: 1.2rem; color: rgba(255,255,255,0.9); flex-shrink: 0; }
+
+/* Hide old elements that will be removed */
+.study-launch-card { display: none; }
+.home-chart-section .chart-subject-bar { display: none; }
+
 
 .streak-card {
   background: linear-gradient(135deg, #4CAF50, #2E7D32);
