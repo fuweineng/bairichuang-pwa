@@ -1,7 +1,7 @@
 {
-  "version": 4,
-  "questionBankVersion": "v2",
+  "version": 5,
+  "questionBankVersion": "20260414-1",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-14",
-  "changelog": "新增图片题支持(数学7张+地理4张)，题库升级v2，共939题"
+  "changelog": "修复选择题choices/options字段兼容问题，删除2题误标为fill的选择题，题库清理后共937题"
 }
