@@ -1172,6 +1172,12 @@ async function renderSettings() {
     </div>
     <div class="settings-card">
       <div class="settings-row">
+        <span class="settings-label">软件版本</span>
+        <span class="settings-val">v${state.remoteVersions?.version || 1}</span>
+      </div>
+    </div>
+    <div class="settings-card">
+      <div class="settings-row">
         <span class="settings-label">题库版本</span>
         <span class="settings-val">${localPackVersion}</span>
       </div>
