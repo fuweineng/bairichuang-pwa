@@ -1656,7 +1656,7 @@ main {
 .chart-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
 .chart-title { font-size: 0.9rem; font-weight: 600; color: #333; }
 .chart-hint { font-size: 0.72rem; color: #999; }
-.chart-subject-bar { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 8px; justify-content: center; }
+.chart-subject-bar { display: flex; gap: 4px; flex-wrap: nowrap; margin-top: 8px; justify-content: center; overflow-x: auto; }
 .subj-btn { padding: 3px 8px; border-radius: 12px; border: 1px solid #ddd; background: #f5f5f5; font-size: 0.72rem; cursor: pointer; color: #666; }
 .subj-btn.active { background: #4CAF50; color: white; border-color: #4CAF50; }
 .subj-btn:hover:not(.active) { background: #e0e0e0; }
