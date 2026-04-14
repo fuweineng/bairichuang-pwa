@@ -1395,7 +1395,7 @@ function calcStreak() {
 // ============================================================
 // EVENT HANDLER
 // ============================================================
-function handleClick(e) {
+async function handleClick(e) {
   const t = e.target.closest('[data-action]');
   if (!t) return;
 
