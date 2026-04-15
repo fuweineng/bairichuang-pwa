@@ -1,0 +1,2765 @@
+[
+  {
+    "id": "chemistry-001",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学式"
+    ],
+    "question": "水的化学式是H₂O，表示的意义不包括：",
+    "options": [
+      "水这种物质",
+      "一个水分子",
+      "水由氢气和氧气组成",
+      "一个水分子由两个氢原子和一个氧原子构成"
+    ],
+    "answer": "水由氢气和氧气组成",
+    "explanation": "H₂O表示水由氢、氧两种元素组成，不是氢气和氧气。"
+  },
+  {
+    "id": "chemistry-002",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学方程式"
+    ],
+    "question": "配平化学方程式：2H₂ + O₂ = 2H₂O，左边O₂前面应填系数____。",
+    "options": null,
+    "answer": "1",
+    "explanation": "2H₂ + O₂ = 2H₂O 已配平。O₂系数为1。"
+  },
+  {
+    "id": "chemistry-003",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学反应类型"
+    ],
+    "question": "下列反应属于复分解反应的是：",
+    "options": [
+      "CaCO₃ = CaO + CO₂↑",
+      "Zn + H₂SO₄ = ZnSO₄ + H₂↑",
+      "NaOH + HCl = NaCl + H₂O",
+      "2Mg + O₂ = 2MgO"
+    ],
+    "answer": "NaOH + HCl = NaCl + H₂O",
+    "explanation": "复分解反应：两种化合物互相交换成分。NaOH+HCl→NaCl+H₂O是中和反应，属于复分解。"
+  },
+  {
+    "id": "chemistry-004",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-元素"
+    ],
+    "question": "水的化学式是 H2O，它表示：",
+    "options": [
+      "水由氢气和氧气组成",
+      "水由2个氢原子和1个氧原子构成",
+      "水中有氢分子和氧分子",
+      "水由2个氢元素和1个氧元素组成"
+    ],
+    "answer": "水由2个氢原子和1个氧原子构成",
+    "explanation": "H2O表示每个水分子由2个氢原子和1个氧原子构成"
+  },
+  {
+    "id": "chemistry-005",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学式"
+    ],
+    "question": "二氧化碳的化学式是 _____",
+    "answer": "CO2",
+    "explanation": "碳元素的化合价为+4，氧元素为-2，所以化学式为CO2"
+  },
+  {
+    "id": "chemistry-006",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学式"
+    ],
+    "question": "O2表示：",
+    "options": [
+      "两个氧原子",
+      "一个氧分子",
+      "两个氧分子",
+      "氧气由氧原子构成"
+    ],
+    "answer": "一个氧分子",
+    "explanation": "O2是氧气的化学式，表示一个氧分子由两个氧原子构成"
+  },
+  {
+    "id": "chemistry-007",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-元素"
+    ],
+    "question": "地壳中含量最多的元素是：",
+    "options": [
+      "硅",
+      "铁",
+      "氧",
+      "铝"
+    ],
+    "answer": "氧",
+    "explanation": "地壳中氧元素含量最多，约占地壳质量的46.6%"
+  },
+  {
+    "id": "chemistry-008",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-质量守恒"
+    ],
+    "question": "化学反应前后，下列各项中不变的是：",
+    "options": [
+      "分子总数",
+      "原子总数",
+      "物质种类",
+      "分子种类"
+    ],
+    "answer": "原子总数",
+    "explanation": "质量守恒定律：化学反应前后原子的种类和数目不变"
+  },
+  {
+    "id": "chemistry-009",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-溶解"
+    ],
+    "question": "下列溶液中，溶质是固体的是：",
+    "options": [
+      "碘酒",
+      "酒精溶液",
+      "盐水",
+      "呼吸的空气"
+    ],
+    "answer": "盐水",
+    "explanation": "碘酒是碘溶解在酒精中；酒精溶液的溶质是酒精（液体）；盐水中溶质是盐（固体）"
+  },
+  {
+    "id": "chemistry-010",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学方程式"
+    ],
+    "question": "配平化学方程式：Fe + O2 -> Fe2O3，Fe前的系数应为：",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": "4",
+    "explanation": "4Fe + 3O2 = 2Fe2O3，左边Fe有4个O有6个，右边Fe有4个O有6个"
+  },
+  {
+    "id": "chemistry-011",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-物质分类"
+    ],
+    "question": "下列属于化合物的是：",
+    "options": [
+      "空气",
+      "氧气",
+      "水",
+      "铁"
+    ],
+    "answer": "水",
+    "explanation": "化合物由两种或两种以上元素组成，水H2O是化合物；空气是混合物；氧气和铁是单质"
+  },
+  {
+    "id": "chemistry-012",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-原子结构"
+    ],
+    "question": "原子核由_____组成。",
+    "options": [
+      "质子和中子",
+      "电子和中子",
+      "质子和电子",
+      "只有中子"
+    ],
+    "answer": "质子和中子",
+    "explanation": "原子核由质子和中子组成，电子在核外运动"
+  },
+  {
+    "id": "chemistry-013",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学反应"
+    ],
+    "question": "化学反应中，催化剂的作用是：",
+    "options": [
+      "加快反应速度",
+      "减慢反应速度",
+      "改变化学反应速度但本身质量和化学性质不变",
+      "增加生成物"
+    ],
+    "answer": "改变化学反应速度但本身质量和化学性质不变",
+    "explanation": "催化剂能改变反应速度（加快或减慢），反应前后本身质量和化学性质不变"
+  },
+  {
+    "id": "chemistry-014",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-溶液"
+    ],
+    "question": "溶液一定是：",
+    "options": [
+      "无色",
+      "透明",
+      "均一、稳定的混合物",
+      "一种物质溶解在另一种物质里"
+    ],
+    "answer": "均一、稳定的混合物",
+    "explanation": "溶液的特点：均一性（各处组成相同）、稳定性（静置不分层）"
+  },
+  {
+    "id": "chemistry-015",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "实验探究",
+      "化学实验"
+    ],
+    "question": "下列操作中，能够较好地减小实验误差的是：",
+    "options": [
+      "直接估读量筒液面最低处",
+      "读取温度计示数时视线与液柱顶端平齐",
+      "多次测量后取平均值",
+      "天平称量时手扶砝码"
+    ],
+    "answer": "多次测量后取平均值",
+    "explanation": "多次测量取平均值是减小偶然误差的常见方法。"
+  },
+  {
+    "id": "chemistry-016",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-物质变化",
+      "物理变化",
+      "化学变化"
+    ],
+    "question": "下列属于化学变化的是",
+    "answer": "C",
+    "explanation": "酒精燃烧生成CO2和H2O，有新物质生成，属于化学变化。",
+    "options": [
+      {
+        "label": "A",
+        "text": "水变成冰"
+      },
+      {
+        "label": "B",
+        "text": "铁丝弯曲"
+      },
+      {
+        "label": "C",
+        "text": "酒精燃烧"
+      },
+      {
+        "label": "D",
+        "text": "玻璃破碎"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-017",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-物质性质",
+      "物理性质",
+      "化学性质"
+    ],
+    "question": "下列属于物质化学性质的是",
+    "answer": "C",
+    "explanation": "铁生锈是铁与氧气、水发生化学反应，属于化学性质。",
+    "options": [
+      {
+        "label": "A",
+        "text": "铜是红色固体"
+      },
+      {
+        "label": "B",
+        "text": "食盐易溶于水"
+      },
+      {
+        "label": "C",
+        "text": "铁在潮湿空气中生锈"
+      },
+      {
+        "label": "D",
+        "text": "酒精容易挥发"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-018",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-物质变化",
+      "判断反应类型"
+    ],
+    "question": "下列反应属于分解反应的是",
+    "answer": "C",
+    "explanation": "分解反应是一种物质生成两种或多种物质，过氧化氢分解符合。",
+    "options": [
+      {
+        "label": "A",
+        "text": "碳 + 氧气 → 二氧化碳"
+      },
+      {
+        "label": "B",
+        "text": "氢气 + 氧气 → 水"
+      },
+      {
+        "label": "C",
+        "text": "过氧化氢 → 水 + 氧气"
+      },
+      {
+        "label": "D",
+        "text": "铁 + 硫酸铜 → 硫酸亚铁 + 铜"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-019",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-空气",
+      "空气组成"
+    ],
+    "question": "空气中约占78%的气体是",
+    "answer": "B",
+    "explanation": "空气中氮气约占78%，氧气约占21%。",
+    "options": [
+      {
+        "label": "A",
+        "text": "氧气"
+      },
+      {
+        "label": "B",
+        "text": "氮气"
+      },
+      {
+        "label": "C",
+        "text": "二氧化碳"
+      },
+      {
+        "label": "D",
+        "text": "稀有气体"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-020",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-氧气",
+      "氧气性质",
+      "燃烧"
+    ],
+    "question": "下列关于氧气性质的说法正确的是",
+    "answer": "B",
+    "explanation": "液氧是淡蓝色液体；氧气有助燃性而非可燃性；氧气不易溶于水且有氧化性。",
+    "options": [
+      {
+        "label": "A",
+        "text": "氧气有可燃性"
+      },
+      {
+        "label": "B",
+        "text": "液氧是淡蓝色液体"
+      },
+      {
+        "label": "C",
+        "text": "氧气不易溶于水"
+      },
+      {
+        "label": "D",
+        "text": "氧气无氧化性"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-021",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-氧气",
+      "燃烧条件",
+      "灭火原理"
+    ],
+    "question": "灭火的原理是",
+    "answer": "C",
+    "explanation": "灭火原理：降低温度到着火点以下，同时隔绝空气或氧气。",
+    "options": [
+      {
+        "label": "A",
+        "text": "降低着火点"
+      },
+      {
+        "label": "B",
+        "text": "隔绝空气或氧气"
+      },
+      {
+        "label": "C",
+        "text": "降低温度到着火点以下并隔绝空气"
+      },
+      {
+        "label": "D",
+        "text": "移除可燃物"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-022",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-水",
+      "水的组成",
+      "电解水"
+    ],
+    "question": "电解水时，正极产生的气体是",
+    "answer": "B",
+    "explanation": "电解水：正极产生氧气(O2)，负极产生氢气(H2)，体积比为1:2。",
+    "options": [
+      {
+        "label": "A",
+        "text": "氢气"
+      },
+      {
+        "label": "B",
+        "text": "氧气"
+      },
+      {
+        "label": "C",
+        "text": "氮气"
+      },
+      {
+        "label": "D",
+        "text": "二氧化碳"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-023",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-水",
+      "硬水",
+      "软水",
+      "软化方法"
+    ],
+    "question": "下列方法能将硬水软化的是",
+    "answer": "C",
+    "explanation": "蒸馏可以除去水中所有杂质，是将硬水完全软化的方法。煮沸只能降低水的暂时硬度。",
+    "options": [
+      {
+        "label": "A",
+        "text": "过滤"
+      },
+      {
+        "label": "B",
+        "text": "煮沸"
+      },
+      {
+        "label": "C",
+        "text": "蒸馏"
+      },
+      {
+        "label": "D",
+        "text": "活性炭吸附"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-024",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-碳",
+      "碳单质",
+      "金刚石",
+      "石墨"
+    ],
+    "question": "下列关于碳单质的说法正确的是",
+    "answer": "A",
+    "explanation": "金刚石是天然最硬的物质；石墨软且有润滑性；活性炭有强吸附性；金刚石和石墨物理性质差异大。",
+    "options": [
+      {
+        "label": "A",
+        "text": "金刚石是天然最硬的物质"
+      },
+      {
+        "label": "B",
+        "text": "石墨可用作润滑剂因为它很软"
+      },
+      {
+        "label": "C",
+        "text": "活性炭没有吸附性"
+      },
+      {
+        "label": "D",
+        "text": "金刚石和石墨的物理性质相同"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-025",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "CO2性质",
+      "检验方法"
+    ],
+    "question": "检验CO2气体常用",
+    "answer": "C",
+    "explanation": "CO2能使澄清石灰水变浑浊，这是检验CO2的常用方法。",
+    "options": [
+      {
+        "label": "A",
+        "text": "燃着的木条"
+      },
+      {
+        "label": "B",
+        "text": "带火星的木条"
+      },
+      {
+        "label": "C",
+        "text": "澄清石灰水"
+      },
+      {
+        "label": "D",
+        "text": "干燥的石蕊试纸"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-026",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-一氧化碳",
+      "CO性质",
+      "还原性"
+    ],
+    "question": "下列关于CO的说法错误的是",
+    "answer": "D",
+    "explanation": "CO无色无味，有剧毒；具有可燃性和还原性，可用于炼铁。",
+    "options": [
+      {
+        "label": "A",
+        "text": "CO有毒性"
+      },
+      {
+        "label": "B",
+        "text": "CO有可燃性"
+      },
+      {
+        "label": "C",
+        "text": "CO有还原性，可炼铁"
+      },
+      {
+        "label": "D",
+        "text": "CO有刺激性气味"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-027",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-金属",
+      "金属活动性",
+      "置换反应"
+    ],
+    "question": "下列金属活动性顺序正确的是",
+    "answer": "D",
+    "explanation": "金属活动性顺序：K Na Ca Mg Al Zn Fe Sn Pb Cu Ag（口诀：嫁给那美女，身体细纤轻，统共一百斤）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "K Ca Na Mg Al Zn Fe Pb Cu Ag"
+      },
+      {
+        "label": "B",
+        "text": "K Na Ca Mg Al Zn Fe Cu Pb Ag"
+      },
+      {
+        "label": "C",
+        "text": "Ag Cu Fe Zn Al Mg Na Ca K"
+      },
+      {
+        "label": "D",
+        "text": "K Na Ca Mg Al Zn Fe Sn Pb Cu Ag"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-028",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-金属",
+      "金属与酸反应",
+      "氢气制备"
+    ],
+    "question": "等质量的镁、铁、锌分别与足量稀盐酸反应，产生氢气最多的是",
+    "answer": "A",
+    "explanation": "等质量金属与足量酸反应，产生的氢气质量与金属的相对原子质量/化合价有关。镁产生的氢气最多。",
+    "options": [
+      {
+        "label": "A",
+        "text": "镁"
+      },
+      {
+        "label": "B",
+        "text": "铁"
+      },
+      {
+        "label": "C",
+        "text": "锌"
+      },
+      {
+        "label": "D",
+        "text": "一样多"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-029",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶解度",
+      "溶质质量分数"
+    ],
+    "question": "20℃时，100g水中最多能溶解36g氯化钠，则20℃时氯化钠的溶解度是",
+    "answer": "B",
+    "explanation": "溶解度定义：100g溶剂中所能溶解的最大溶质质量。溶解度为36（g/100g水）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "36g"
+      },
+      {
+        "label": "B",
+        "text": "36"
+      },
+      {
+        "label": "C",
+        "text": "100g"
+      },
+      {
+        "label": "D",
+        "text": "136g"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-030",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶质质量分数计算"
+    ],
+    "question": "将50g 10%的氯化钠溶液稀释为5%，需加水多少克？",
+    "answer": "C",
+    "explanation": "设需加水xg。50×10% = (50+x)×5%，解得x=50g。",
+    "options": [
+      {
+        "label": "A",
+        "text": "10g"
+      },
+      {
+        "label": "B",
+        "text": "25g"
+      },
+      {
+        "label": "C",
+        "text": "50g"
+      },
+      {
+        "label": "D",
+        "text": "100g"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-031",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "酸的通性"
+    ],
+    "question": "浓硫酸不具有的性质是",
+    "answer": "C",
+    "explanation": "浓硫酸具有吸水性、脱水性和强氧化性，但不具有挥发性（盐酸有挥发性）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "吸水性"
+      },
+      {
+        "label": "B",
+        "text": "脱水性"
+      },
+      {
+        "label": "C",
+        "text": "挥发性"
+      },
+      {
+        "label": "D",
+        "text": "强氧化性"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-032",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "中和反应"
+    ],
+    "question": "向稀氢氧化钠溶液中滴加稀盐酸，溶液pH的变化是",
+    "answer": "B",
+    "explanation": "NaOH溶液pH>7，滴加稀盐酸发生中和反应，pH逐渐降低，最终pH<7。",
+    "options": [
+      {
+        "label": "A",
+        "text": "从小于7逐渐升高到大于7"
+      },
+      {
+        "label": "B",
+        "text": "从大于7逐渐降低到小于7"
+      },
+      {
+        "label": "C",
+        "text": "始终大于7"
+      },
+      {
+        "label": "D",
+        "text": "始终小于7"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-033",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "盐的复分解反应条件"
+    ],
+    "question": "下列物质间能发生复分解反应的是",
+    "answer": "B",
+    "explanation": "复分解反应条件：有沉淀、气体或水生成。碳酸钠和盐酸反应生成CO2气体，符合条件。",
+    "options": [
+      {
+        "label": "A",
+        "text": "氯化钠溶液和硝酸钾溶液"
+      },
+      {
+        "label": "B",
+        "text": "碳酸钠溶液和盐酸"
+      },
+      {
+        "label": "C",
+        "text": "铁和硫酸铜溶液"
+      },
+      {
+        "label": "D",
+        "text": "氧气和氢气"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-034",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "常见盐的性质",
+      "碳酸钙"
+    ],
+    "question": "下列关于碳酸钙的说法正确的是",
+    "answer": "D",
+    "explanation": "大理石、石灰石的主要成分都是CaCO3，难溶于水但能溶于稀盐酸并产生CO2气体。",
+    "options": [
+      {
+        "label": "A",
+        "text": "碳酸钙不溶于水"
+      },
+      {
+        "label": "B",
+        "text": "碳酸钙能溶于稀盐酸并产生气体"
+      },
+      {
+        "label": "C",
+        "text": "大理石的主要成分是碳酸钙"
+      },
+      {
+        "label": "D",
+        "text": "以上都对"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-035",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸碱盐",
+      "常见碱的性质",
+      "氢氧化钙"
+    ],
+    "question": "生石灰的主要成分是",
+    "answer": "B",
+    "explanation": "生石灰的主要成分是氧化钙(CaO)，熟石灰是氢氧化钙[Ca(OH)2]，石灰石是大理石的主要成分是碳酸钙(CaCO3)。",
+    "options": [
+      {
+        "label": "A",
+        "text": "碳酸钙"
+      },
+      {
+        "label": "B",
+        "text": "氧化钙"
+      },
+      {
+        "label": "C",
+        "text": "氢氧化钙"
+      },
+      {
+        "label": "D",
+        "text": "硫酸钙"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-036",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-化学肥料",
+      "氮肥",
+      "磷肥",
+      "钾肥"
+    ],
+    "question": "下列属于复合肥料的是",
+    "answer": "B",
+    "explanation": "磷酸二氢铵含有N和P两种营养元素，属于复合肥料。含有两种以上主要营养元素的肥料称为复合肥料。",
+    "options": [
+      {
+        "label": "A",
+        "text": "尿素[CO(NH2)2]"
+      },
+      {
+        "label": "B",
+        "text": "磷酸二氢铵[NH4H2PO4]"
+      },
+      {
+        "label": "C",
+        "text": "硫酸钾[K2SO4]"
+      },
+      {
+        "label": "D",
+        "text": "磷矿粉[Ca3(PO4)2]"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-037",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-空气",
+      "氧气"
+    ],
+    "question": "空气中支持燃烧的气体是_____。",
+    "answer": "氧气",
+    "explanation": "根据化学知识填写：氧气"
+  },
+  {
+    "id": "chemistry-038",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-水",
+      "电解水"
+    ],
+    "question": "电解水的化学方程式：2H2O ==通电== 2H2↑ + _____↑",
+    "answer": "O2",
+    "explanation": "根据化学知识填写：O2"
+  },
+  {
+    "id": "chemistry-039",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-燃烧",
+      "燃烧条件"
+    ],
+    "question": "燃烧的条件是：可燃物、氧气（或空气）和_____。",
+    "answer": "达到着火点",
+    "explanation": "根据化学知识填写：达到着火点"
+  },
+  {
+    "id": "chemistry-040",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-金属",
+      "铁生锈"
+    ],
+    "question": "铁在潮湿空气中生锈的反应方程式：4Fe + 3O2 + 6H2O == _____。",
+    "answer": "4Fe(OH)3",
+    "explanation": "根据化学知识填写：4Fe(OH)3"
+  },
+  {
+    "id": "chemistry-041",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "实验室制法"
+    ],
+    "question": "实验室制取CO2的药品是大理石（或石灰石）和_____。",
+    "answer": "稀盐酸",
+    "explanation": "根据化学知识填写：稀盐酸"
+  },
+  {
+    "id": "chemistry-042",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "检验"
+    ],
+    "question": "CO2能使澄清石灰水变浑浊，反应的化学方程式：CO2 + Ca(OH)2 == CaCO3↓ + _____。",
+    "answer": "H2O",
+    "explanation": "根据化学知识填写：H2O"
+  },
+  {
+    "id": "chemistry-043",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "pH"
+    ],
+    "question": "溶液的pH<7，溶液呈_____性。",
+    "answer": "酸",
+    "explanation": "根据化学知识填写：酸"
+  },
+  {
+    "id": "chemistry-044",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-中和反应"
+    ],
+    "question": "中和反应是酸与碱作用生成_____和水的反应。",
+    "answer": "盐",
+    "explanation": "根据化学知识填写：盐"
+  },
+  {
+    "id": "chemistry-045",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-原子结构"
+    ],
+    "question": "原子是由原子核和绕核运动的电子构成，原子核由质子和_____构成。",
+    "answer": "中子",
+    "explanation": "根据化学知识填写：中子"
+  },
+  {
+    "id": "chemistry-046",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-原子结构",
+      "元素性质"
+    ],
+    "question": "元素的化学性质主要由原子的_____数决定。",
+    "answer": "最外层电子",
+    "explanation": "根据化学知识填写：最外层电子"
+  },
+  {
+    "id": "chemistry-047",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-质量守恒定律"
+    ],
+    "question": "质量守恒定律：参加化学反应的各物质的质量总和，等于反应后生成的各物质的_____。",
+    "answer": "质量总和",
+    "explanation": "根据化学知识填写：质量总和"
+  },
+  {
+    "id": "chemistry-048",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-化学方程式"
+    ],
+    "question": "化学方程式的书写原则：以事实为依据，不能凭空臆造；遵循_____守恒定律。",
+    "answer": "质量",
+    "explanation": "根据化学知识填写：质量"
+  },
+  {
+    "id": "chemistry-049",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-二氧化碳",
+      "检验"
+    ],
+    "question": "实验室常用澄清石灰水来检验CO2气体，现象是生成_____沉淀。",
+    "answer": "白色",
+    "explanation": "根据化学知识填写：白色"
+  },
+  {
+    "id": "chemistry-050",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-空气组成",
+      "红磷燃烧实验"
+    ],
+    "question": "燃烧白磷产生大量白烟，打开瓶盖后会发现水面上升约_____分之一。",
+    "answer": "五",
+    "explanation": "根据化学知识填写：五"
+  },
+  {
+    "id": "chemistry-051",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-相对分子质量"
+    ],
+    "question": "相对分子质量是各原子的相对原子质量之_____。",
+    "answer": "和",
+    "explanation": "根据化学知识填写：和"
+  },
+  {
+    "id": "chemistry-052",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-酸的通性",
+      "浓盐酸"
+    ],
+    "question": "浓盐酸有挥发性，敞口放置在空气中，溶质质量分数会_____。",
+    "answer": "减小",
+    "explanation": "根据化学知识填写：减小"
+  },
+  {
+    "id": "chemistry-053",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-浓硫酸",
+      "实验安全"
+    ],
+    "question": "稀释浓硫酸时，一定要将_____慢慢注入水中，并用玻璃棒不断搅拌。",
+    "answer": "浓硫酸",
+    "explanation": "根据化学知识填写：浓硫酸"
+  },
+  {
+    "id": "chemistry-054",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-沉淀"
+    ],
+    "question": "Fe(OH)3是一种_____色沉淀。",
+    "answer": "红褐",
+    "explanation": "根据化学知识填写：红褐"
+  },
+  {
+    "id": "chemistry-055",
+    "type": "fill",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-复分解反应"
+    ],
+    "question": "复分解反应发生的条件：生成物中有沉淀或气体或_____。",
+    "answer": "水",
+    "explanation": "根据化学知识填写：水"
+  },
+  {
+    "id": "chemistry-56",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学式"
+    ],
+    "question": "化学式“2H₂O”中的数字“2”表示（ ）。",
+    "options": [
+      "A. 水分子的数量为2个",
+      "B. 每个水分子中含有2个氢原子",
+      "C. 水分子的质量为2克",
+      "D. 水分子中含有2个氧原子"
+    ],
+    "answer": "A",
+    "explanation": "在化学式中，放在化学式前面的系数表示该物质的分子（或原子）数，2H₂O 表示两个水分子；而放在元素符号右下角的数字才表示该元素原子的个数。"
+  },
+  {
+    "id": "chemistry-57",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学方程式"
+    ],
+    "question": "铁在氧气中燃烧生成四氧化三铁(Fe₃O₄)的化学方程式为：",
+    "options": [
+      "A. Fe + O₂ → Fe₂O₃",
+      "B. 3Fe + 2O₂ → Fe₃O₄",
+      "C. 2Fe + O₂ → FeO",
+      "D. Fe + 2O₂ → Fe₂O₃"
+    ],
+    "answer": "B",
+    "explanation": "生成四氧化三铁(Fe₃O₄)需要在两边各放置3个Fe原子和4个O原子。选项B的方程式3Fe + 2O₂ → Fe₃O₄满足原子守恒，且符合铁在氧气中燃烧的实验事实。"
+  },
+  {
+    "id": "chemistry-58",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学反应类型"
+    ],
+    "question": "以下化学方程式中，属于哪种反应类型？\n2H₂ + O₂ → 2H₂O",
+    "options": [
+      "A. 分解反应",
+      "B. 置换反应",
+      "C. 合成反应",
+      "D. 复分解反应"
+    ],
+    "answer": "C",
+    "explanation": "该反应是由两种单质（氢气和氧气）直接结合生成一种化合物（水），属于合成反应（又称化合反应）。"
+  },
+  {
+    "id": "chemistry-59",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-元素"
+    ],
+    "question": "下列哪种物质属于元素？",
+    "options": [
+      "A. 水 (H₂O)",
+      "B. 氧气 (O₂)",
+      "C. 碳酸钠 (Na₂CO₃)",
+      "D. 乙醇 (C₂H₅OH)"
+    ],
+    "answer": "B",
+    "explanation": "氧气是由同种原子（氧原子）组成的单质，属于元素；而水、碳酸钠和乙醇都是化合物，由多种元素组成。"
+  },
+  {
+    "id": "chemistry-60",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学式"
+    ],
+    "question": "以下哪个化学式正确表示含有2个氮原子和5个氧原子的化合物？",
+    "options": [
+      "A. N2O5",
+      "B. N5O2",
+      "C. N2O2",
+      "D. N5O5"
+    ],
+    "answer": "A",
+    "explanation": "在化学式中，元素符号右下角的数字表示该元素的原子数。因此，N2O5表示每个分子中含有2个氮原子和5个氧原子。"
+  },
+  {
+    "id": "chemistry-61",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-质量守恒"
+    ],
+    "question": "在密闭容器中，4 g 氢气和 32 g 氧气充分反应生成水蒸气，反应后容器的总质量为多少？",
+    "options": [
+      "A. 36 g",
+      "B. 32 g",
+      "C. 28 g",
+      "D. 40 g"
+    ],
+    "answer": "A",
+    "explanation": "质量守恒定律表明，在封闭体系中化学反应前后总质量不变。反应前氢气和氧气的总质量为 4 g + 32 g = 36 g，反应后仍为 36 g，因此选项 A 正确。"
+  },
+  {
+    "id": "chemistry-62",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-溶解"
+    ],
+    "question": "下列关于溶液的说法中，正确的是（    ）。",
+    "options": [
+      "A. 只要有固体存在，溶液一定是不饱和的。",
+      "B. 有未溶解的固体时，溶液一定是饱和的。",
+      "C. 溶剂的质量越大，溶解的溶质质量一定越大。",
+      "D. 温度升高，所有溶质的溶解度都增大。"
+    ],
+    "answer": "B",
+    "explanation": "在一定温度下，如果溶液中仍有未溶解的溶质，说明该溶液已达到该温度下的最大溶解度，即为饱和溶液。因此选项B正确。"
+  },
+  {
+    "id": "chemistry-63",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学方程式"
+    ],
+    "question": "下列哪个化学方程式正确表示了氢气在氧气中燃烧的反应？",
+    "options": [
+      "A. H₂ + O₂ → H₂O",
+      "B. 2H₂ + O₂ → 2H₂O",
+      "C. H₂ + O₂ → H₂O₂",
+      "D. 2H₂ + 2O₂ → 2H₂O"
+    ],
+    "answer": "B",
+    "explanation": "氢气在氧气中燃烧生成水，正确的配平方程式为 2H₂ + O₂ → 2H₂O。该方程式中各种原子的数目在反应前后相等，符合质量守恒定律。"
+  },
+  {
+    "id": "chemistry-64",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "化学-物质分类"
+    ],
+    "question": "以下物质中，属于化合物的是（ ）。",
+    "options": [
+      "A. 氧气",
+      "B. 氢气",
+      "C. 水",
+      "D. 空气"
+    ],
+    "answer": "C",
+    "explanation": "化合物是由两种或两种以上不同元素通过化学键结合而成的纯净物。氧气（O₂）和氢气（H₂）均为单质，空气是多种气体的混合物，水（H₂O）是由氢和氧两种元素组成的化合物。"
+  },
+  {
+    "id": "chemistry-65",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "化学-原子结构"
+    ],
+    "question": "某原子有8个质子和8个中子，它的质量数（A）是（　）。",
+    "options": [
+      "A. 8",
+      "B. 16",
+      "C. 0",
+      "D. 24"
+    ],
+    "answer": "B",
+    "explanation": "质量数等于原子核中质子数和中子数之和，即8+8=16。"
+  },
+  {
+    "id": "chemistry-66",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "化学-化学反应"
+    ],
+    "question": "下列现象中属于化学反应的是（ ）。",
+    "options": [
+      "A. 铁在潮湿的空气中生成铁锈",
+      "B. 将水加热至沸腾产生水蒸气",
+      "C. 将糖溶解在水中形成糖水",
+      "D. 将冰块放入杯中，冰块融化"
+    ],
+    "answer": "A",
+    "explanation": "铁锈的形成是铁与氧气发生氧化反应，产生了新物质，属于化学变化；而沸腾、溶解、融化都是状态变化，没有新物质生成，属于物理变化。"
+  },
+  {
+    "id": "chemistry-67",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-溶液"
+    ],
+    "question": "下列关于溶液的说法，正确的是？",
+    "options": [
+      "A. 溶液一定是无色的",
+      "B. 溶质一定是固体",
+      "C. 溶剂一定是水",
+      "D. 溶液的各组分均匀混合，宏观上呈单相"
+    ],
+    "answer": "D",
+    "explanation": "溶液是由溶剂和溶质组成的均匀混合物，宏观上表现为单一相（即看起来是均匀的）。溶液不一定是无色的（如蓝色的硫酸铜溶液），溶质可以是固体、液体或气体（如氧气在水中），溶剂也不一定是水，其他如酒精、苯等也可以作溶剂。因此只有选项D的说法正确。"
+  },
+  {
+    "id": "chemistry-68",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "实验探究"
+    ],
+    "question": "在探究“温度对食盐溶解度的影响”实验时，下列哪项是实验的自变量（独立变量）？",
+    "options": [
+      "A. 温度",
+      "B. 溶剂的质量",
+      "C. 溶剂的体积",
+      "D. 溶质的质量"
+    ],
+    "answer": "A",
+    "explanation": "自变量是实验者主动改变的量。在该实验中，研究者通过改变水的温度来观察食盐的溶解度变化，因此温度是自变量；其他选项（溶剂质量、体积、溶质质量）在实验中应保持不变，属于控制变量。"
+  },
+  {
+    "id": "chemistry-69",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "化学实验"
+    ],
+    "question": "在进行液体体积的测量时，使用量筒的正确读数方法是？",
+    "options": [
+      "A. 视线与液面的最高点相平",
+      "B. 视线与液面凹形最低点相平",
+      "C. 视线与液面中心相平",
+      "D. 视线与容器口缘相平"
+    ],
+    "answer": "B",
+    "explanation": "读取量筒液体的体积时，应使视线与液体凹面的最低点相平，以减少视线误差，确保测量值准确。"
+  },
+  {
+    "id": "chemistry-70",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-物质变化"
+    ],
+    "question": "下列现象中，属于化学变化的是（ ）。",
+    "options": [
+      "A. 水的蒸发",
+      "B. 铁生锈",
+      "C. 玻璃打碎",
+      "D. 水的结冰"
+    ],
+    "answer": "B",
+    "explanation": "化学变化是指在反应过程中产生新物质的现象。铁与空气中的氧气和水反应生成铁锈（Fe₂O₃），属于化学变化；而水的蒸发、玻璃打碎和水的结冰都是物理变化，只是状态或形状的改变，未产生新物质。"
+  },
+  {
+    "id": "chemistry-71",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": "7-9",
+    "knowledgeTags": [
+      "物理变化"
+    ],
+    "question": "下列现象中，属于物理变化的是（ ）。",
+    "options": [
+      "A. 水结冰",
+      "B. 铁钉生锈",
+      "C. 食物腐败",
+      "D. 木炭燃烧"
+    ],
+    "answer": "A",
+    "explanation": "水结冰只改变了水的状态（液态→固态），并未生成新物质，属于物理变化；其余选项均涉及化学变化（生成新物质）。"
+  },
+  {
+    "id": "chemistry-72",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "化学变化"
+    ],
+    "question": "下列现象中属于化学变化的是（ ）。",
+    "options": [
+      "A. 铁钉在潮湿的空气中出现锈斑",
+      "B. 冰块融化",
+      "C. 将糖放入水中搅拌，糖溶解",
+      "D. 水加热至沸腾产生蒸汽"
+    ],
+    "answer": "A",
+    "explanation": "铁钉生锈时，铁与氧气、水发生反应生成氧化铁等新物质，属于化学变化；而冰块融化、糖的溶解、水的沸腾只涉及状态或混合的变化，未产生新物质，属于物理变化。"
+  },
+  {
+    "id": "chemistry-73",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-物质性质"
+    ],
+    "question": "下列关于物质性质的描述中，属于化学性质的是（ ）。",
+    "options": [
+      "A. 颜色",
+      "B. 熔点",
+      "C. 可燃性",
+      "D. 密度"
+    ],
+    "answer": "C",
+    "explanation": "化学性质是指物质在化学反应中表现出来的属性，可燃性表示物质能够燃烧，产生新物质；颜色、熔点、密度是物理性质，可观察而不改变物质本身。"
+  },
+  {
+    "id": "chemistry-74",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物理性质"
+    ],
+    "question": "下列关于物质的描述中，属于物理性质的是（ ）。",
+    "options": [
+      "A. 碳在空气中燃烧生成二氧化碳",
+      "B. 氧气的密度为1.429 g/L",
+      "C. 盐酸能使石蕊试纸变红",
+      "D. 铁与硫酸铜溶液反应生成铜"
+    ],
+    "answer": "B",
+    "explanation": "密度是描述物质在不改变化学组成的情况下可直接测量的属性，属于物理性质。其他选项均涉及化学反应或化学变化，属于化学性质。"
+  },
+  {
+    "id": "chemistry-75",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学性质"
+    ],
+    "question": "下列哪项描述的是物质的化学性质？",
+    "options": [
+      "A. 颜色",
+      "B. 熔点",
+      "C. 可燃性",
+      "D. 形状"
+    ],
+    "answer": "C",
+    "explanation": "化学性质是指物质在化学反应中表现出来的属性，如可燃性、氧化性、与酸碱反应等；颜色、熔点和形状属于物理性质。"
+  },
+  {
+    "id": "chemistry-76",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "判断反应类型"
+    ],
+    "question": "下列化学方程式分别属于哪种反应类型？请判断哪一个属于置换反应。",
+    "options": [
+      "A. 2H₂ + O₂ → 2H₂O",
+      "B. CaCO₃ → CaO + CO₂",
+      "C. Zn + 2HCl → ZnCl₂ + H₂↑",
+      "D. NaCl + AgNO₃ → AgCl↓ + NaNO₃"
+    ],
+    "answer": "C",
+    "explanation": "置换反应是指一种单质与一种化合物反应生成另一种单质和另一种化合物。选项C中，金属锌（单质）置换出盐酸中的氢离子，生成氯化锌和氢气，符合置换反应的特征。其他选项分别是化合、分解和复分解反应。"
+  },
+  {
+    "id": "chemistry-77",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-空气"
+    ],
+    "question": "空气中体积分数约为78%的成分是下列哪一种？",
+    "options": [
+      "A. 氧气",
+      "B. 氮气",
+      "C. 氩气",
+      "D. 二氧化碳"
+    ],
+    "answer": "B",
+    "explanation": "空气是一种混合物，主要由氮气（约78%）和氧气（约21%）组成，还含有少量的氩气、二氧化碳和其他稀有气体。因此体积分数约为78%的成分是氮气。"
+  },
+  {
+    "id": "chemistry-78",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "空气组成"
+    ],
+    "question": "在空气的组成中，体积分数最高的气体是？",
+    "options": [
+      "A. 氧气（约占21%）",
+      "B. 氮气（约占78%）",
+      "C. 二氧化碳（约占0.04%）",
+      "D. 水蒸气（含量随天气变化）"
+    ],
+    "answer": "B",
+    "explanation": "空气中含量最多的成分是氮气，约占总体积的78%，其次是氧气约21%。因此选项B正确。"
+  },
+  {
+    "id": "chemistry-79",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-氧气"
+    ],
+    "question": "下列关于氧气的描述，正确的是（ ）。",
+    "options": [
+      "A. 氧气本身是一种燃料",
+      "B. 氧气本身能够燃烧",
+      "C. 氧气是助燃剂，能够支持燃烧",
+      "D. 氧气在常压下不能被液化"
+    ],
+    "answer": "C",
+    "explanation": "氧气本身并不燃烧，也不属于燃料，它是助燃剂（氧化剂），能够支持其他物质的燃烧；选项A、B错误。氧气在低温高压下是可以液化的，选项D也错误。因此正确选项是C。"
+  },
+  {
+    "id": "chemistry-80",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "氧气性质"
+    ],
+    "question": "以下关于氧气的描述，正确的是（　）",
+    "options": [
+      "A. 氧气是一种无色、无味、能支持燃烧的气体。",
+      "B. 氧气在常温下是液体，呈淡蓝色。",
+      "C. 氧气占空气体积的78%。",
+      "D. 氧气本身可以作为燃料燃烧。"
+    ],
+    "answer": "A",
+    "explanation": "氧气在常温常压下是一种无色、无味的气体，它能够支持燃烧（帮助其他物质燃烧），但本身不易燃。空气中氧气约占21%（不是78%），且氧气在常温下是气体，不是液体。选项A正确。"
+  },
+  {
+    "id": "chemistry-81",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "燃烧"
+    ],
+    "question": "燃烧的发生必须同时满足以下哪三项基本条件？",
+    "options": [
+      "A. 燃料、氮气、点火源",
+      "B. 燃料、氧气、光照",
+      "C. 燃料、氧气、点火源",
+      "D. 氧气、二氧化碳、热源"
+    ],
+    "answer": "C",
+    "explanation": "燃烧的三要素包括：可燃物（燃料）、助燃剂（氧气）以及点火源（热源），这三者缺一不可，称为“燃烧三角”。氮气不是助燃剂，光照不是必需条件，二氧化碳也不支持燃烧。"
+  },
+  {
+    "id": "chemistry-82",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "燃烧条件"
+    ],
+    "question": "燃烧的发生需要满足三个基本条件：①燃料 ②助燃剂（通常是氧气） ③点燃源（提供足够的热量）。以下哪种情况不属于燃烧的必要条件？",
+    "options": [
+      "A. 可燃物",
+      "B. 氧气",
+      "C. 光照",
+      "D. 点火源"
+    ],
+    "answer": "C",
+    "explanation": "燃烧的三个必要条件是可燃物、氧气和足以达到燃点的热量（即点火源），光照并不是燃烧的必要因素。"
+  },
+  {
+    "id": "chemistry-83",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "灭火原理"
+    ],
+    "question": "灭火的基本原理是什么？",
+    "options": [
+      "A. 只降低燃烧物的温度",
+      "B. 只隔离空气中的氧气",
+      "C. 只移除燃烧物本身",
+      "D. 以上三种措施都可以实现灭火"
+    ],
+    "answer": "D",
+    "explanation": "燃烧需要三个要素：热（温度）、燃料和氧气（助燃剂）。只要移除其中一个要素，燃烧就会停止。因此，降低温度、隔离氧气、移除燃料都是灭火的常用方法，选项D“以上三种措施都可以实现灭火”正确。"
+  },
+  {
+    "id": "chemistry-84",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-水"
+    ],
+    "question": "水的化学式为 H₂O，氢原子与氧原子的个数比为（ ）。",
+    "options": [
+      "A. 1:1",
+      "B. 2:1",
+      "C. 1:2",
+      "D. 3:1"
+    ],
+    "answer": "B",
+    "explanation": "水的化学式 H₂O 表示每个氧原子结合两个氢原子，故氢原子与氧原子的个数比为 2:1。"
+  },
+  {
+    "id": "chemistry-85",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "水的组成"
+    ],
+    "question": "以下关于水的组成的说法，正确的是？",
+    "options": [
+      "A. 水分子由两个氢原子和一个氧原子组成",
+      "B. 水中氢原子和氧原子的质量比为2:1",
+      "C. 水在标准状况下是气体",
+      "D. 水的化学式是H2O2"
+    ],
+    "answer": "A",
+    "explanation": "水的分子式是H₂O，表示每个水分子由两个氢原子和一个氧原子组成，氢原子数与氧原子数之比为2:1，质量比则是1:8。其他选项均不符合水的实际组成。"
+  },
+  {
+    "id": "chemistry-86",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "电解水"
+    ],
+    "question": "电解水时，氢气和氧气的体积比是（在同一温度和压强下）？",
+    "options": [
+      "A. 1:2",
+      "B. 2:1",
+      "C. 1:1",
+      "D. 1:3"
+    ],
+    "answer": "B",
+    "explanation": "水的电解反应的化学方程式为 2H₂O → 2H₂ + O₂，按体积计，每生成 1 体积的 O₂，就会生成 2 体积的 H₂，故体积比为 2:1。"
+  },
+  {
+    "id": "chemistry-87",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "硬水"
+    ],
+    "question": "下列关于硬水的说法正确的是（　　）",
+    "options": [
+      "A. 硬水中只含有 Ca²⁺ 离子",
+      "B. 硬水加热后可以永久软化",
+      "C. 硬水中含有 Ca²⁺、Mg²⁺ 等可溶性钙镁离子",
+      "D. 硬水不适合用于洗涤，但对饮用没有影响"
+    ],
+    "answer": "C",
+    "explanation": "硬水是指含有较多可溶性钙离子（Ca²⁺）和镁离子（Mg²⁺）的水，这些离子来源于地层中的碳酸盐等。硬水并不只含 Ca²⁺，加热只能暂时降低暂时硬度而不能永久软化；硬水不适合洗涤且对饮用也有一定影响（如口感差、易形成水垢），因此 C 选项正确。"
+  },
+  {
+    "id": "chemistry-88",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "软水"
+    ],
+    "question": "软水是指水中几乎不含有（ ）离子的水。",
+    "options": [
+      "A. 钠离子和钾离子",
+      "B. 钙离子和镁离子",
+      "C. 铁离子和铜离子",
+      "D. 氢氧根离子"
+    ],
+    "answer": "B",
+    "explanation": "软水指的是水的硬度低，主要表现为水中钙离子（Ca²⁺）和镁离子（Mg²⁺）的浓度很低，几乎不含这些导致硬度的离子。钠离子和钾离子等单价离子并不影响水的硬度。"
+  },
+  {
+    "id": "chemistry-89",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "软化方法"
+    ],
+    "question": "下列哪种做法不能降低水的硬度？",
+    "options": [
+      "A. 向硬水中加入适量石灰水",
+      "B. 向硬水中加入适量碳酸钠",
+      "C. 向硬水中加入适量盐酸",
+      "D. 煮沸硬水"
+    ],
+    "answer": "C",
+    "explanation": "硬水的软化通常通过将水中的Ca²⁺、Mg²⁺等离子沉淀为碳酸盐或利用离子交换实现。加入石灰水或碳酸钠可使Ca²⁺、Mg²⁺形成难溶的碳酸盐沉淀，从而降低硬度；煮沸只能去除暂时硬度（碳酸氢盐分解形成碳酸盐沉淀）。而盐酸是强酸，会溶解碳酸盐但不沉淀Ca²⁺、Mg²⁺，相反会把它们留在溶液中，无法实现软化。因此选项C不是软化硬水的方法。"
+  },
+  {
+    "id": "chemistry-90",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-碳"
+    ],
+    "question": "下列关于碳的说法中，正确的是？",
+    "options": [
+      "A. 碳在常温下为气体",
+      "B. 碳只存在于有机化合物中",
+      "C. 碳的同素异形体包括金刚石、石墨和富勒烯",
+      "D. 碳的化学式为C₂"
+    ],
+    "answer": "C",
+    "explanation": "金刚石、石墨和富勒烯都是碳的同素异形体，它们由相同的碳原子组成但结构不同，导致性质差异明显；其他选项均错误：碳在常温下为固体，碳也存在于无机物如二氧化碳，碳的化学式通常用C表示（单原子）。"
+  },
+  {
+    "id": "chemistry-91",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "碳单质"
+    ],
+    "question": "下列关于碳单质的说法中，正确的是（　　）。",
+    "options": [
+      "A. 金刚石在常温下是电的良导体。",
+      "B. 石墨常被用来制作铅笔芯，因为它在纸上留下黑色的痕迹。",
+      "C. 富勒烯是由60个碳原子构成的球形分子，且具有良好的金属导电性。",
+      "D. 活性炭是一种金属单质。"
+    ],
+    "answer": "B",
+    "explanation": "石墨的层状结构使层间可以相对滑动，能够在纸上留下细小的黑色痕迹，因而被用作铅笔芯。金刚石是绝缘体；富勒烯（C60）虽然是球形分子，但它不是金属，也不具备金属的导电性；活性炭是一种无定形碳，不是金属。"
+  },
+  {
+    "id": "chemistry-92",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "金刚石"
+    ],
+    "question": "以下关于金刚石的说法，正确的是？",
+    "options": [
+      "A. 金刚石是由碳原子通过共价键形成的网络结构，硬度极高",
+      "B. 金刚石是良好的电导体",
+      "C. 金刚石的化学式为 CO₂",
+      "D. 金刚石在常温下呈气体状态"
+    ],
+    "answer": "A",
+    "explanation": "金刚石是碳的同素异形体，碳原子之间通过强大的共价键形成三维网络结构，使其成为自然界已知最硬的物质；同时它不导电，化学式为 C，常温下为固态。"
+  },
+  {
+    "id": "chemistry-93",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "石墨"
+    ],
+    "question": "石墨能导电的主要原因是（ ）。",
+    "options": [
+      "A. 石墨层间有自由电子",
+      "B. 石墨中含有金属元素",
+      "C. 石墨分子中有离子",
+      "D. 石墨是极性分子"
+    ],
+    "answer": "A",
+    "explanation": "石墨由层状排列的碳原子组成，每层中每个碳原子拥有一个未参与成键的π电子，这些电子可以在层间自由移动，形成电流，从而使石墨具有良好的导电性。其他选项描述的性质与石墨的导电原理不符。"
+  },
+  {
+    "id": "chemistry-94",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-二氧化碳"
+    ],
+    "question": "向澄清的石灰水（氢氧化钙溶液）中通入二氧化碳气体，观察到的现象是（　　）。",
+    "options": [
+      "A. 溶液颜色不变，无沉淀产生",
+      "B. 溶液中出现白色沉淀",
+      "C. 溶液变为蓝色",
+      "D. 产生大量气体，溶液变浑浊"
+    ],
+    "answer": "B",
+    "explanation": "二氧化碳是酸性氧化物，与氢氧化钙反应生成不溶于水的碳酸钙白色沉淀，现象是出现白色浑浊或沉淀。"
+  },
+  {
+    "id": "chemistry-95",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "CO2性质"
+    ],
+    "question": "在实验室中，将CO2通入澄清石灰水，会出现的现象是：",
+    "options": [
+      "A. 产生白色沉淀（浑浊）",
+      "B. 产生蓝色沉淀",
+      "C. 颜色不变",
+      "D. 产生气泡"
+    ],
+    "answer": "A",
+    "explanation": "CO2与石灰水中的Ca(OH)₂反应生成不溶于水的碳酸钙（CaCO₃），形成白色沉淀，使液体浑浊。因此选项A正确。"
+  },
+  {
+    "id": "chemistry-96",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "检验方法"
+    ],
+    "question": "鉴别二氧化碳气体的常用实验方法是：",
+    "options": [
+      "A. 将气体通入澄清石灰水，出现浑浊",
+      "B. 用点燃的火柴靠近气体，观察是否燃烧",
+      "C. 将气体通入蓝色的石蕊试液，观察颜色变化",
+      "D. 用硝酸银溶液检测，看是否生成白色沉淀"
+    ],
+    "answer": "A",
+    "explanation": "二氧化碳能使澄清石灰水（氢氧化钙溶液）变浑浊，生成白色碳酸钙沉淀，这是检测CO₂的常用方法。"
+  },
+  {
+    "id": "chemistry-97",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-一氧化碳"
+    ],
+    "question": "下列关于一氧化碳（CO）的说法，正确的是（ ）。",
+    "options": [
+      "A. 一氧化碳是一种有刺激性气味的无色气体。",
+      "B. 一氧化碳在空气中燃烧生成二氧化碳和氢气。",
+      "C. 一氧化碳的密度大于空气，能在空气中迅速上升。",
+      "D. 一氧化碳能与血红蛋白结合形成碳氧血红蛋白，导致组织缺氧。"
+    ],
+    "answer": "D",
+    "explanation": "一氧化碳是无色、无味的有毒气体，没有刺激性气味；它在空气中燃烧的化学方程式是 2CO + O₂ → 2CO₂，只生成二氧化碳而不产生氢气；一氧化碳的密度与空气相近（略轻于空气），因此不会在空气中迅速上升。真正正确的是一氧化碳能与血红蛋白结合形成碳氧血红蛋白，阻碍氧气运输，导致组织缺氧。"
+  },
+  {
+    "id": "chemistry-98",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "CO性质"
+    ],
+    "question": "下列关于一氧化碳（CO）的描述，正确的是（    ）。",
+    "options": [
+      "A. 有强烈的刺激性气味",
+      "B. 可燃，燃烧后生成二氧化碳",
+      "C. 能与水反应生成碳酸",
+      "D. 密度大于空气"
+    ],
+    "answer": "B",
+    "explanation": "一氧化碳是无色、无味且不具刺激性的气体，几乎不溶于水，不能形成碳酸；其密度略低于空气，而不是大于空气；但它能在空气中燃烧生成二氧化碳，故选项B正确。"
+  },
+  {
+    "id": "chemistry-99",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "还原性"
+    ],
+    "question": "以下关于还原性的说法，正确的是？",
+    "options": [
+      "A. 还原剂在反应中本身被还原。",
+      "B. 还原剂在反应中本身被氧化。",
+      "C. 还原剂只能还原金属氧化物。",
+      "D. 还原剂不需要电子转移。"
+    ],
+    "answer": "B",
+    "explanation": "还原剂的作用是将其他物质还原，它本身在反应中失去电子，被氧化。因此，选项B正确。"
+  },
+  {
+    "id": "chemistry-100",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-金属"
+    ],
+    "question": "将金属铝片放入稀硫酸中，最可能观察到的现象是（　　）。",
+    "options": [
+      "A. 产生氢气并生成硫酸铝",
+      "B. 产生水蒸气并生成硫酸铝",
+      "C. 产生二氧化碳并生成硫酸铝",
+      "D. 产生氧气并生成硫酸铝"
+    ],
+    "answer": "A",
+    "explanation": "金属铝与非氧化性酸（如稀硫酸）反应会生成相应的盐（硫酸铝）并释放氢气，化学方程式为 2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂↑。因此最可能观察到的现象是产生氢气并生成硫酸铝。"
+  },
+  {
+    "id": "chemistry-101",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "金属活动性"
+    ],
+    "question": "在金属活动性顺序中，以下哪种金属最易与稀盐酸反应产生氢气？",
+    "options": [
+      "A. 铜 (Cu)",
+      "B. 铁 (Fe)",
+      "C. 镁 (Mg)",
+      "D. 铝 (Al)"
+    ],
+    "answer": "C",
+    "explanation": "金属活动性顺序（从强到弱）为 K、Na、Ca、Mg、Al、Zn、Fe、Pb、H、Cu、Hg、Ag、Pt、Au。镁位于氢之前且在给出的选项中金属活动性最强，因此最易与稀盐酸反应生成氢气。"
+  },
+  {
+    "id": "chemistry-102",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "置换反应"
+    ],
+    "question": "下列化学方程式中，哪一个属于置换反应？",
+    "options": [
+      "A. CaCO₃ → CaO + CO₂↑",
+      "B. Zn + 2HCl → ZnCl₂ + H₂↑",
+      "C. 2Na + Cl₂ → 2NaCl",
+      "D. NaOH + HCl → NaCl + H₂O"
+    ],
+    "answer": "B",
+    "explanation": "置换反应指单质与化合物反应生成另一种单质和另一种化合物。选项B中金属锌（单质）与盐酸（化合物）反应生成氯化锌（新化合物）和氢气（新单质），符合置换反应的特征；而A为分解反应，C为合成反应，D为中和反应。"
+  },
+  {
+    "id": "chemistry-103",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "金属与酸反应"
+    ],
+    "question": "下列金属中，哪一种在常温下不与稀盐酸（0.1 mol·L⁻¹ HCl）发生反应？",
+    "options": [
+      "A. 铁（Fe）",
+      "B. 锌（Zn）",
+      "C. 铜（Cu）",
+      "D. 镁（Mg）"
+    ],
+    "answer": "C",
+    "explanation": "铜的金属活泼性在金属活泼性顺序（金属活动性顺序）中位于氢之后，因此它不能把氢离子还原成氢气，不与稀盐酸反应。而铁、锌、镁都能在稀盐酸中置换出氢气，生成相应的金属氯化物并放出氢气。"
+  },
+  {
+    "id": "chemistry-104",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "氢气制备"
+    ],
+    "question": "实验室常用金属锌和稀盐酸反应制备氢气。下列关于该实验的说法正确的是（ ）。",
+    "options": [
+      "A. 反应后生成的气体可以直接用向下排空气法收集，因为氢气密度比空气小",
+      "B. 反应的化学方程式为 Zn + 2HCl → ZnCl₂ + H₂↑",
+      "C. 该反应属于置换反应，氢气是从盐酸中被置换出来的",
+      "D. 实验中可以使用铜片代替锌片，因为铜也能和盐酸反应生成氢气"
+    ],
+    "answer": "B",
+    "explanation": "选项A错误，虽然氢气密度比空气小，但在实验室里常采用排水集气法收集氢气，以防止混入空气；向下排空气法不适用于氢气。选项C错误，氢气是金属锌把盐酸中的氢离子还原出来的，属于金属置换酸中的氢离子，而非“从盐酸中被置换”。选项D错误，铜位于金属活动性顺序的氢之后，不能与盐酸反应生成氢气。选项B正确，锌与稀盐酸反应的化学方程式为 Zn + 2HCl → ZnCl₂ + H₂↑，符合实验事实。"
+  },
+  {
+    "id": "chemistry-105",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "溶解度"
+    ],
+    "question": "下列关于溶解度的说法中，正确的是（　　）",
+    "options": [
+      "A. 溶解度随温度升高一定增大",
+      "B. 溶解度是指在一定温度下，单位质量溶剂中能溶解的最大溶质质量",
+      "C. 同一种溶质在不同溶剂中的溶解度相同",
+      "D. 溶解度越大，溶液的浓度一定越大"
+    ],
+    "answer": "B",
+    "explanation": "溶解度是指在特定温度下，一定质量的溶剂（通常为100 g水）中能够溶解的最大溶质质量，它描述的是该温度下的最大溶解能力。不同物质的溶解度随温度变化规律不同（A错）；同一种溶质在不同溶剂中的溶解度通常不同（C错）；溶解度是饱和溶液的浓度上限，实际浓度可以小于等于溶解度，但不一定等于（D错）。因此选项B正确。"
+  },
+  {
+    "id": "chemistry-106",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "溶质质量分数"
+    ],
+    "question": "某盐溶液的质量为250 g，其中含有硝酸钾(KNO₃) 45 g，求该溶液中硝酸钾的溶质质量分数（%）是多少？",
+    "options": [
+      "A. 18%",
+      "B. 22%",
+      "C. 20%",
+      "D. 25%"
+    ],
+    "answer": "A",
+    "explanation": "溶质质量分数 = (溶质质量 / 溶液质量) × 100%。本题中溶质质量为45 g，溶液质量为250 g，所以质量分数 = (45 g / 250 g) × 100% = 18%。因此正确答案为A。"
+  },
+  {
+    "id": "chemistry-107",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "溶质质量分数计算"
+    ],
+    "question": "将25 g氯化钠溶于150 g水中，得到的溶液的质量分数是多少？（结果保留到小数点后一位）",
+    "options": [
+      "A. 14.3%",
+      "B. 15.0%",
+      "C. 16.7%",
+      "D. 17.5%"
+    ],
+    "answer": "A",
+    "explanation": "质量分数＝溶质质量÷（溶质质量+溶剂质量）×100%。本题中溶质质量为25 g，溶剂质量为150 g，溶液总质量为25 g+150 g=175 g。代入公式得：质量分数=25÷175×100%≈14.3%。因此正确答案为A。"
+  },
+  {
+    "id": "chemistry-108",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "酸的通性"
+    ],
+    "question": "下列关于酸的通性的描述，正确的是？",
+    "options": [
+      "A. 酸溶液能使石蕊试纸变蓝",
+      "B. 酸能与金属活动性顺序在氢之前的金属反应生成氢气",
+      "C. 酸与碱反应只生成盐",
+      "D. 酸能使酚酞试液变红"
+    ],
+    "answer": "B",
+    "explanation": "酸的通性包括：① 使石蕊试纸变红（而非变蓝），② 能与活泼金属（如Zn、Mg等）反应放出氢气，③ 与碱发生中和反应生成盐和水，④ 对酚酞指示剂无明显颜色变化（酚酞在碱性溶液中才变红）。因此，只有选项B正确。"
+  },
+  {
+    "id": "chemistry-109",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中和反应"
+    ],
+    "question": "下列化学反应中，属于中和反应的是（ ）。",
+    "options": [
+      "A. HCl + NaOH → NaCl + H₂O",
+      "B. H₂ + O₂ → 2H₂O",
+      "C. Fe + CuSO₄ → FeSO₄ + Cu",
+      "D. CaCO₃ → CaO + CO₂"
+    ],
+    "answer": "A",
+    "explanation": "中和反应是酸与碱反应生成盐和水的过程。HCl是酸，NaOH是碱，二者反应生成盐NaCl和水，属于典型的中和反应。"
+  },
+  {
+    "id": "chemistry-110",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "盐的复分解反应条件"
+    ],
+    "question": "以下哪组盐溶液混合后会生成沉淀并发生复分解反应？",
+    "options": [
+      "A. NaCl + KNO₃",
+      "B. BaCl₂ + Na₂SO₄",
+      "C. KCl + NaNO₃",
+      "D. Na₂CO₃ + K₂SO₄"
+    ],
+    "answer": "B",
+    "explanation": "在复分解反应中，若生成的产物之一是不溶于水的沉淀，则反应能够进行。BaCl₂与Na₂SO₄反应会生成不溶性的BaSO₄沉淀，因此属于盐的复分解反应。其他选项生成的产物均为可溶盐或未形成沉淀，故不发生复分解反应。"
+  },
+  {
+    "id": "chemistry-111",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "常见盐的性质"
+    ],
+    "question": "向稀盐酸中加入少量下列盐，会产生气泡的是？",
+    "options": [
+      "A. NaCl",
+      "B. CaCO₃",
+      "C. K₂SO₄",
+      "D. NaNO₃"
+    ],
+    "answer": "B",
+    "explanation": "碳酸盐（如CaCO₃）与酸反应会生成二氧化碳气体，产生气泡；而NaCl、K₂SO₄、NaNO₃在稀盐酸中不产生气体。"
+  },
+  {
+    "id": "chemistry-112",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "碳酸钙"
+    ],
+    "question": "将少量碳酸钙粉末加入稀盐酸中，充分反应后，观察到的现象是（ ）。",
+    "options": [
+      "A. 产生大量白色沉淀",
+      "B. 产生大量气泡",
+      "C. 溶液颜色变深",
+      "D. 无明显变化"
+    ],
+    "answer": "B",
+    "explanation": "碳酸钙与盐酸发生酸碱中和反应，生成二氧化碳气体，现象为产生大量气泡。反应的化学方程式为：CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂↑。"
+  },
+  {
+    "id": "chemistry-113",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "常见碱的性质"
+    ],
+    "question": "下列关于常见碱的性质描述，正确的是（    ）。",
+    "options": [
+      "A. 碱能使酚酞试液变红",
+      "B. 碱能使石蕊试液变蓝",
+      "C. 所有碱都是可溶于水的",
+      "D. 碱的pH值一定大于7"
+    ],
+    "answer": "B",
+    "explanation": "碱能使石蕊试液变蓝，是碱的典型性质；酚酞在碱中呈粉红色但不变红；并非所有碱都溶于水，如氢氧化铜；pH大于7是碱的特征，但要注意pH值取决于浓度，不能一概而论。"
+  },
+  {
+    "id": "chemistry-114",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "氢氧化钙"
+    ],
+    "question": "下列哪种物质的化学式是氢氧化钙？",
+    "options": [
+      "A. CaO",
+      "B. Ca(OH)2",
+      "C. CaCO3",
+      "D. CaCl2"
+    ],
+    "answer": "B",
+    "explanation": "氢氧化钙的化学式为 Ca(OH)₂，它是由氧化钙（CaO）与水反应生成的，也称为熟石灰或石灰水。选项中的 CaO 是氧化钙，CaCO₃ 是石灰石，CaCl₂ 是氯化钙，均不是氢氧化钙。"
+  },
+  {
+    "id": "chemistry-115",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-化学肥料"
+    ],
+    "question": "化学肥料中，提供植物所需的氮、磷、钾三种主要营养元素的肥料分别称为（ ）肥、（ ）肥和（ ）肥。",
+    "options": [
+      "A. 氮肥、磷肥、钾肥",
+      "B. 磷肥、氮肥、钾肥",
+      "C. 钾肥、氮肥、磷肥",
+      "D. 磷肥、钾肥、氮肥"
+    ],
+    "answer": "A",
+    "explanation": "在化学肥料中，氮肥、磷肥和钾肥分别用于补充土壤中缺乏的氮、磷、钾三大营养元素，以满足作物的生长需求。"
+  },
+  {
+    "id": "chemistry-116",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "氮肥"
+    ],
+    "question": "在常见的氮肥中，尿素的氮含量约为多少？",
+    "options": [
+      "A. 20%",
+      "B. 46%",
+      "C. 34%",
+      "D. 10%"
+    ],
+    "answer": "B",
+    "explanation": "尿素的化学式是CO(NH₂)₂，其相对分子质量为60，其中含有两个氮原子，氮的总质量为28，氮的质量分数为28/60≈46.7%，因此尿素的氮含量约为46%。"
+  },
+  {
+    "id": "chemistry-117",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "磷肥"
+    ],
+    "question": "以下关于磷肥的说法，正确的是（ ）。",
+    "options": [
+      "A. 磷肥的主要营养元素是氮，提供植物生长所需的氮素养分",
+      "B. 磷肥的主要作用是促进植物根系的发育和花果的成熟",
+      "C. 过磷酸钙是一种以磷酸二氢钙为主要成分的磷肥",
+      "D. 磷肥在土壤中只能以 HPO₄²⁻ 形式被植物根系吸收"
+    ],
+    "answer": "C",
+    "explanation": "选项A错误，磷肥提供的是磷(P)元素，而不是氮(N)；选项B虽然部分正确，但描述不够完整，磷肥的核心作用是促进根系发育、花芽分化和果实成熟；选项C正确，过磷酸钙的主要成分正是磷酸二氢钙 Ca(H₂PO₄)₂，是一种常用的磷肥；选项D错误，植物根系可以吸收两种形态的磷酸根离子：H₂PO₄⁻（在酸性土壤中）和 HPO₄²⁻（在中性或碱性土壤中）。"
+  },
+  {
+    "id": "chemistry-118",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "钾肥"
+    ],
+    "question": "下列哪种物质可以用作钾肥？",
+    "options": [
+      "A. 氯化钾 (KCl)",
+      "B. 氯化钠 (NaCl)",
+      "C. 碳酸钙 (CaCO₃)",
+      "D. 硝酸铵 (NH₄NO₃)"
+    ],
+    "answer": "A",
+    "explanation": "氯化钾 (KCl) 是一种常见的钾肥，它提供植物生长所需的钾离子 (K⁺)，有助于增强根系、促进光合作用和提升抗病能力。其他选项不含钾或不适合作为钾肥使用。"
+  },
+  {
+    "id": "chemistry-119",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "氧气"
+    ],
+    "question": "实验室收集氧气常用的方法是（ ）。",
+    "options": [
+      "A. 向上排空气法",
+      "B. 向下排水法",
+      "C. 抽滤法",
+      "D. 沉淀过滤法"
+    ],
+    "answer": "B",
+    "explanation": "氧气在水中的溶解度很小，且密度稍大于空气，因此常采用向下排水法（把装有水的瓶倒置，让氧气从底部进入并把水向下排出）进行收集。该方法能避免氧气因密度与空气相近而不易聚集的缺点，也不需要考虑氧气的溶解损失。"
+  },
+  {
+    "id": "chemistry-120",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-燃烧"
+    ],
+    "question": "燃烧的本质是什么？",
+    "options": [
+      "A. 物质与氧气的剧烈反应并放出光和热",
+      "B. 物质与氧气的化学反应",
+      "C. 物质在低温下的氧化过程",
+      "D. 物质吸收氧气的过程"
+    ],
+    "answer": "A",
+    "explanation": "燃烧是一种伴随发光和放热的剧烈氧化反应，需要可燃物、氧气和足够的点火温度，选项A正确描述了这一点。"
+  },
+  {
+    "id": "chemistry-121",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "铁生锈"
+    ],
+    "question": "在空气中，铁生锈的必要条件是（ ）。",
+    "options": [
+      "A. 只有氧气",
+      "B. 只有水",
+      "C. 氧气和水同时存在",
+      "D. 只需要低温"
+    ],
+    "answer": "C",
+    "explanation": "铁在潮湿的空气中与氧气和水同时作用，发生氧化反应生成氧化铁（铁锈），因此氧气和水的共同存在是铁生锈的必要条件。"
+  },
+  {
+    "id": "chemistry-122",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "实验室制法"
+    ],
+    "question": "在实验室中，常用哪种方法制备二氧化碳气体？",
+    "options": [
+      "A. 加热碳酸氢钠",
+      "B. 将石灰石（碳酸钙）与稀盐酸混合",
+      "C. 高锰酸钾加热",
+      "D. 过氧化氢在二氧化锰催化下分解"
+    ],
+    "answer": "B",
+    "explanation": "在实验室中常用的二氧化碳制备方法是把碳酸钙（如石灰石）与稀盐酸反应，生成二氧化碳气体。虽然加热碳酸氢钠也能产生二氧化碳，但并非实验室常规方法；高锰酸钾加热和过氧化氢分解用于制备氧气。"
+  },
+  {
+    "id": "chemistry-123",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "检验"
+    ],
+    "question": "实验室中常用哪种试剂来检验二氧化碳气体？",
+    "options": [
+      "A. 澄清石灰水",
+      "B. 紫色石蕊试液",
+      "C. 燃着的木条",
+      "D. 蓝色的硫酸铜溶液"
+    ],
+    "answer": "A",
+    "explanation": "澄清石灰水（氢氧化钙溶液）与二氧化碳反应生成碳酸钙沉淀，使溶液变浑浊，是检验CO₂的常用方法。"
+  },
+  {
+    "id": "chemistry-124",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "pH"
+    ],
+    "question": "已知某溶液的[H⁺]=1×10⁻⁵ mol/L，则该溶液的pH值为多少？",
+    "options": [
+      "A. 5",
+      "B. 9",
+      "C. 10⁻⁵",
+      "D. 14"
+    ],
+    "answer": "A",
+    "explanation": "pH = -log[H⁺] = -log(1×10⁻⁵) = 5，所以正确答案为A。"
+  },
+  {
+    "id": "chemistry-125",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-中和反应"
+    ],
+    "question": "下列关于中和反应的说法中，正确的是（　）",
+    "options": [
+      "A. 中和反应一定会产生沉淀",
+      "B. 中和反应一定会产生气体",
+      "C. 中和反应的本质是酸中的氢离子（H⁺）与碱中的氢氧根离子（OH⁻）结合生成水",
+      "D. 中和反应一定会生成金属离子"
+    ],
+    "answer": "C",
+    "explanation": "中和反应是酸与碱之间的反应，氢离子（H⁺）与氢氧根离子（OH⁻）结合生成水，同时生成相应的盐。该过程不一定产生沉淀、气体或金属离子，因此选项C正确。"
+  },
+  {
+    "id": "chemistry-126",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "元素性质"
+    ],
+    "question": "下列关于元素性质的叙述，正确的是（　　）",
+    "options": [
+      "A. 元素的化学性质主要由原子核的结构决定",
+      "B. 元素的物理性质与其原子结构无关",
+      "C. 在同一周期中，元素的金属性随原子序数的增大而逐渐增强",
+      "D. 元素的主要化学性质包括氧化性、还原性等"
+    ],
+    "answer": "D",
+    "explanation": "元素的化学性质指在化学反应中表现出来的属性，如氧化性、还原性等；而颜色、密度、熔点等属于物理性质，化学性质并非由原子核单独决定，也并非在同一周期金属性随原子序数递增而增强。"
+  },
+  {
+    "id": "chemistry-127",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-质量守恒定律"
+    ],
+    "question": "在某化学反应 A + B → C + D 中，反应前 A 的质量为 10 g，B 的质量为 15 g。反应后测得 C 的质量为 12 g，则 D 的质量应为多少？",
+    "options": [
+      "A. 13 g",
+      "B. 10 g",
+      "C. 15 g",
+      "D. 22 g"
+    ],
+    "answer": "A",
+    "explanation": "根据质量守恒定律，化学反应前后总质量保持不变。反应前总质量 = 10 g + 15 g = 25 g。已知生成物 C 的质量为 12 g，设 D 的质量为 x g，则 12 g + x = 25 g，解得 x = 13 g。因此 D 的质量为 13 g。"
+  },
+  {
+    "id": "chemistry-128",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-空气组成"
+    ],
+    "question": "空气主要由氮气、氧气、氩气等组成，其中体积分数约为21% 的气体是（ ）。",
+    "options": [
+      "A. 氮气 (N₂) 约占78%",
+      "B. 氧气 (O₂) 约占21%",
+      "C. 氩气 (Ar) 约占0.93%",
+      "D. 二氧化碳 (CO₂) 约占0.04%"
+    ],
+    "answer": "B",
+    "explanation": "在空气中，氧气的体积分数约为21%，是第二大成分，仅次于氮气的78%。"
+  },
+  {
+    "id": "chemistry-129",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "红磷燃烧实验"
+    ],
+    "question": "在密闭容器中进行红磷燃烧实验，点燃后观察到瓶内出现白色烟雾，实验结束后发现水面上升约容器高度的 1/5。该实验主要说明了（ ）。",
+    "options": [
+      "A. 空气中的氧气约占总体积的 1/5",
+      "B. 红磷燃烧产生二氧化碳",
+      "C. 红磷燃烧吸收热量",
+      "D. 空气主要由氮气组成"
+    ],
+    "answer": "A",
+    "explanation": "红磷在空气中燃烧消耗了容器内的氧气，生成的白色烟雾为五氧化二磷 (P₄O₁₀)。当氧气被耗尽后，外部大气压推动水面上升，上升的体积约占原空气体积的 1/5，说明氧气约占空气体积的 21%（约 1/5）。因此选项 A 正确。"
+  },
+  {
+    "id": "chemistry-130",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-相对分子质量"
+    ],
+    "question": "水的化学式为 H₂O，已知氢的相对原子质量为 1，氧的相对原子质量为 16，则 H₂O 的相对分子质量是多少？",
+    "options": [
+      "A. 16",
+      "B. 18",
+      "C. 20",
+      "D. 22"
+    ],
+    "answer": "B",
+    "explanation": "相对分子质量等于分子中所有原子相对原子质量之和。H₂O 含有 2 个氢原子和 1 个氧原子，计算为 2×1 + 16 = 18。因此正确选项为 B。"
+  },
+  {
+    "id": "chemistry-131",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "化学-酸的通性"
+    ],
+    "question": "下列现象中，哪一项不属于酸的通性？",
+    "options": [
+      "A. 能使石蕊试纸变红",
+      "B. 能与活泼金属反应产生氢气",
+      "C. 能使酚酞试液变红",
+      "D. 能与碱反应生成盐和水"
+    ],
+    "answer": "C",
+    "explanation": "酚酞试液在酸性溶液中保持无色，只有在碱性溶液中才会出现粉红色。因此，C选项不属于酸的通性。"
+  },
+  {
+    "id": "chemistry-132",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "浓盐酸"
+    ],
+    "question": "下列关于浓盐酸的说法，正确的是？",
+    "options": [
+      "A. 浓盐酸是一种弱酸",
+      "B. 浓盐酸能腐蚀金属铜",
+      "C. 浓盐酸与大理石（主要成分为碳酸钙）反应会产生二氧化碳",
+      "D. 浓盐酸在光照下会分解产生氯气"
+    ],
+    "answer": "C",
+    "explanation": "浓盐酸是强酸，能与碳酸盐（如大理石）反应生成二氧化碳；它不是弱酸，也不与不活泼的铜发生反应，且在光照下不会分解产生氯气。"
+  },
+  {
+    "id": "chemistry-133",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-浓硫酸"
+    ],
+    "question": "下列关于浓硫酸的说法中，正确的是？",
+    "options": [
+      "A. 浓硫酸是一种强酸，能完全电离产生大量 H⁺",
+      "B. 浓硫酸具有强吸水性，可用作干燥剂",
+      "C. 浓硫酸在常温下可以与铜反应放出氢气",
+      "D. 浓硫酸能与金属锌反应生成氢气"
+    ],
+    "answer": "B",
+    "explanation": "浓硫酸具有强吸水性，常被用作干燥剂，能够吸收气体中的水分。它不是完全电离的强酸（第二步电离不完全），与铜和锌等金属反应不产生氢气，而是生成相应的硫酸盐和二氧化硫等产物。"
+  },
+  {
+    "id": "chemistry-134",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "实验安全"
+    ],
+    "question": "在化学实验中，下列哪项措施最能保证实验者的安全？",
+    "options": [
+      "A. 实验时佩戴防护眼镜",
+      "B. 实验结束后直接把未使用的化学品倒回原瓶",
+      "C. 用嘴吹气加速液体的冷却",
+      "D. 把实验废液直接倒入水槽"
+    ],
+    "answer": "A",
+    "explanation": "佩戴防护眼镜可以防止化学品溅入眼睛或产生的有害气体刺激眼睛，是实验中最基本、最重要的安全防护措施。其他选项均属于不安全操作：把化学品倒回原瓶可能导致交叉污染，用嘴吹气容易吸入有害气体，直接把废液倒入水槽会污染环境。"
+  },
+  {
+    "id": "chemistry-135",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-沉淀"
+    ],
+    "question": "将硝酸银溶液（AgNO3）与氯化钠溶液（NaCl）混合，会出现什么现象？",
+    "options": [
+      "A. 只出现白色沉淀",
+      "B. 只出现蓝色沉淀",
+      "C. 没有任何沉淀产生",
+      "D. 产生气泡"
+    ],
+    "answer": "A",
+    "explanation": "AgNO3 与 NaCl 反应生成 AgCl 沉淀，AgCl 为白色沉淀，属于难溶于水的沉淀。"
+  },
+  {
+    "id": "chemistry-136",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "化学-复分解反应"
+    ],
+    "question": "在复分解反应中，以下哪种情况是反应能够进行的必要条件？",
+    "options": [
+      "A. 反应物都是酸",
+      "B. 反应物都是碱",
+      "C. 生成物中有沉淀、气体或水",
+      "D. 反应物必须是可溶性的盐"
+    ],
+    "answer": "C",
+    "explanation": "复分解反应（双置换反应）只有在生成沉淀、气体或水（即生成不溶或弱电解的产物）时，离子才会被除去，反应才能向右进行。若生成物均为可溶性强电解质，离子在溶液中仍保持自由状态，反应不发生。"
+  }
+]

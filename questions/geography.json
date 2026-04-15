@@ -1,0 +1,1810 @@
+[
+  {
+    "id": "society-006",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "经纬网"
+    ],
+    "question": "地球上的0°经线又称为：",
+    "options": [
+      "赤道",
+      "本初子午线",
+      "国际日期变更线",
+      "南北回归线"
+    ],
+    "answer": "本初子午线",
+    "explanation": "0°经线称为本初子午线，是经度的起始线，通过英国格林尼治天文台旧址。"
+  },
+  {
+    "id": "society-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "西藏自治区",
+      "内蒙古自治区",
+      "青海省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区。"
+  },
+  {
+    "id": "society-008",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上最大的大洋是______，跨经度最多的大洋是______。",
+    "options": null,
+    "answer": [
+      "太平洋",
+      "北冰洋"
+    ],
+    "explanation": "太平洋是世界上最大、最深的大洋。北冰洋是跨经度最多的大洋。"
+  },
+  {
+    "id": "society-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "地形"
+    ],
+    "question": "我国地形的主要特征是：",
+    "options": [
+      "地形单一",
+      "地形复杂多样，山区面积广",
+      "以平原为主",
+      "以盆地为主"
+    ],
+    "answer": "地形复杂多样，山区面积广",
+    "explanation": "我国地形复杂多样，五种基本地形齐全，山区面积约占全国陆地面积的三分之二。"
+  },
+  {
+    "id": "society-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "气候"
+    ],
+    "question": "我国季风气候最显著的特点是：",
+    "options": [
+      "夏季多雨，冬季干燥",
+      "雨热同期",
+      "全年温和多雨",
+      "温差小"
+    ],
+    "answer": "雨热同期",
+    "explanation": "我国是世界上季风气候最显著的国家之一，特点是雨热同期。"
+  },
+  {
+    "id": "geography-001",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "经纬线"
+    ],
+    "question": "北纬23.5°到南纬23.5°之间的地区称为：",
+    "options": [
+      "热带",
+      "北温带",
+      "南温带",
+      "寒带"
+    ],
+    "answer": "热带",
+    "explanation": "南北回归线（23.5°）之间的地区有太阳直射现象，属于热带。"
+  },
+  {
+    "id": "geography-002",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "地球运动"
+    ],
+    "question": "地球自转一周的时间是：",
+    "options": [
+      "一年",
+      "一个月",
+      "一天",
+      "一小时"
+    ],
+    "answer": "一天",
+    "explanation": "地球自转一周为一天（约24小时），产生昼夜交替现象。"
+  },
+  {
+    "id": "geography-003",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的洲是：",
+    "options": [
+      "非洲",
+      "北美洲",
+      "亚洲",
+      "南美洲"
+    ],
+    "answer": "亚洲",
+    "explanation": "亚洲是世界上面积最大的洲，面积约4400万平方公里。"
+  },
+  {
+    "id": "geography-004",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上最深的大洋是：",
+    "options": [
+      "大西洋",
+      "印度洋",
+      "北冰洋",
+      "太平洋"
+    ],
+    "answer": "太平洋",
+    "explanation": "太平洋平均深度超过4000米，最深处马里亚纳海沟深达11034米。"
+  },
+  {
+    "id": "geography-005",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "气候"
+    ],
+    "question": "非洲乞力马扎罗山虽位于赤道附近，却终年积雪，原因是：",
+    "options": [
+      "靠近海洋",
+      "海拔高",
+      "纬度较高",
+      "受寒流影响"
+    ],
+    "answer": "海拔高",
+    "explanation": "海拔每升高1000米，气温下降约6℃。乞力马扎罗山海拔5895米，山顶终年低温。"
+  },
+  {
+    "id": "geography-006",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "内蒙古自治区",
+      "西藏自治区",
+      "四川省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆面积约166万平方公里，是我国面积最大的省级行政区。"
+  },
+  {
+    "id": "geography-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "地形"
+    ],
+    "question": "我国最大的平原是：",
+    "options": [
+      "华北平原",
+      "东北平原",
+      "长江中下游平原",
+      "成都平原"
+    ],
+    "answer": "东北平原",
+    "explanation": "东北平原面积约35万平方公里，是我国面积最大的平原。"
+  },
+  {
+    "id": "geography-008",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "气候"
+    ],
+    "question": "我国年降水量分布规律是：",
+    "options": [
+      "从东南向西北递减",
+      "从西北向东南递减",
+      "全国均匀分布",
+      "从北向南递减"
+    ],
+    "answer": "从东南向西北递减",
+    "explanation": "受季风影响，我国降水主要来自太平洋的东南季风，所以降水量从东南向西北递减。"
+  },
+  {
+    "id": "geography-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "人口"
+    ],
+    "question": "世界上人口最多的国家是：",
+    "options": [
+      "印度",
+      "美国",
+      "中国",
+      "印度尼西亚"
+    ],
+    "answer": "中国",
+    "explanation": "中国是世界上人口最多的国家，其次是印度。"
+  },
+  {
+    "id": "geography-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "河流"
+    ],
+    "question": "世界上最长的河流是：",
+    "options": [
+      "亚马逊河",
+      "尼罗河",
+      "长江",
+      "密西西比河"
+    ],
+    "answer": "尼罗河",
+    "explanation": "尼罗河全长约6670公里，是世界上最长的河流。"
+  },
+  {
+    "id": "geography-011",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "板块构造"
+    ],
+    "question": "日本多地震的原因是：",
+    "options": [
+      "位于板块内部",
+      "位于环太平洋地震带",
+      "位于地中海-喜马拉雅地震带",
+      "位于大洋中脊"
+    ],
+    "answer": "位于环太平洋地震带",
+    "explanation": "日本位于太平洋板块与欧亚板块交界处的环太平洋地震带上，地壳运动活跃。"
+  },
+  {
+    "id": "geography-012",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "方向"
+    ],
+    "question": "在北半球，河流冲刷较严重的是：",
+    "options": [
+      "南岸",
+      "北岸",
+      "东岸",
+      "西岸"
+    ],
+    "answer": "南岸",
+    "explanation": "北半球地转偏向力向右偏，河流对南岸冲刷更严重。"
+  },
+  {
+    "id": "geography-013",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "自然资源"
+    ],
+    "question": "我国水资源分布特点是：",
+    "options": [
+      "南多北少",
+      "南少北多",
+      "全国均匀",
+      "东部多西部少"
+    ],
+    "answer": "南多北少",
+    "explanation": "我国水资源南多北少，南方水量约占全国的80%，北方仅占20%。"
+  },
+  {
+    "id": "geography-014",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "发达国家"
+    ],
+    "question": "世界上最大的发达国家群是：",
+    "options": [
+      "欧盟",
+      "北美自贸区",
+      "东南亚联盟",
+      "金砖国家"
+    ],
+    "answer": "欧盟",
+    "explanation": "欧盟由27个成员国组成，是世界上经济一体化程度最高的国家集团。"
+  },
+  {
+    "id": "geography-015",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "工业分布"
+    ],
+    "question": "我国最大的工业基地是：",
+    "options": [
+      "辽中南工业区",
+      "京津唐工业区",
+      "沪宁杭工业区",
+      "珠江三角洲工业区"
+    ],
+    "answer": "沪宁杭工业区",
+    "explanation": "沪宁杭工业区是我国最大的综合性工业基地，以上海、南京、杭州为核心。"
+  },
+  {
+    "id": "geography-021",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-地形"
+    ],
+    "question": "我国最大的平原是：",
+    "options": [
+      "华北平原",
+      "东北平原",
+      "长江中下游平原",
+      "成都平原"
+    ],
+    "answer": "东北平原",
+    "explanation": "东北平原是我国面积最大的平原，约35万平方公里，包括三江平原、松嫩平原、辽河平原"
+  },
+  {
+    "id": "geography-022",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-气候"
+    ],
+    "question": "热带雨林气候主要分布在：",
+    "options": [
+      "赤道附近",
+      "回归线附近",
+      "极圈附近",
+      "温带内陆"
+    ],
+    "answer": "赤道附近",
+    "explanation": "热带雨林气候主要分布在赤道附近，如亚马逊平原、刚果盆地、东南亚群岛"
+  },
+  {
+    "id": "geography-023",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国少数民族数量最多的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "广西壮族自治区",
+      "云南省",
+      "贵州省"
+    ],
+    "answer": "云南省",
+    "explanation": "云南省有25个少数民族，是我国少数民族数量最多的省份"
+  },
+  {
+    "id": "geography-024",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上面积最大的湖泊是：",
+    "options": [
+      "贝加尔湖",
+      "里海",
+      "死海",
+      "青海湖"
+    ],
+    "answer": "里海",
+    "explanation": "里海是世界上面积最大的湖泊，同时也是世界上面积最大的咸水湖，位于亚欧交界处"
+  },
+  {
+    "id": "geography-025",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-河流"
+    ],
+    "question": "长江和黄河都发源于青海省的_____高原。",
+    "answer": "青藏",
+    "explanation": "长江发源于唐古拉山，黄河发源于巴颜喀拉山，都位于青藏高原"
+  },
+  {
+    "id": "geography-026",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-人口"
+    ],
+    "question": "世界上人口最多的大洲是：",
+    "options": [
+      "亚洲",
+      "非洲",
+      "欧洲",
+      "北美洲"
+    ],
+    "answer": "亚洲",
+    "explanation": "亚洲是世界上人口最多的大洲，约47亿人，占世界总人口约60%"
+  },
+  {
+    "id": "geography-027",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-资源"
+    ],
+    "question": "我国土地资源的特点是：",
+    "options": [
+      "总量多，人均少",
+      "总量少，人均多",
+      "总量多，人均多",
+      "总量少，人均少"
+    ],
+    "answer": "总量多，人均少",
+    "explanation": "我国土地资源总量居世界前列，但人均占有量远低于世界平均水平"
+  },
+  {
+    "id": "geography-028",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上最高的高原是：",
+    "options": [
+      "巴西高原",
+      "青藏高原",
+      "东非高原",
+      "德干高原"
+    ],
+    "answer": "青藏高原",
+    "explanation": "青藏高原平均海拔4000米以上，被称为世界屋脊，是世界上最高的高原"
+  },
+  {
+    "id": "geography-029",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-气候"
+    ],
+    "question": "我国季风气候的特点是：",
+    "options": [
+      "夏季温和少雨，冬季寒冷多雨",
+      "夏季高温多雨，冬季寒冷干燥",
+      "全年温和湿润",
+      "全年炎热干燥"
+    ],
+    "answer": "夏季高温多雨，冬季寒冷干燥",
+    "explanation": "我国大部分地区属于季风气候，夏季受来自太平洋的东南季风影响，高温多雨；冬季受来自内陆的西北季风影响，寒冷干燥"
+  },
+  {
+    "id": "geography-030",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上最长的河流是非洲的_____河。",
+    "answer": "尼罗",
+    "explanation": "尼罗河全长约6670公里，是世界上最长的河流，主要流经埃及、苏丹等国家"
+  },
+  {
+    "id": "geography-031",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "内蒙古自治区",
+      "新疆维吾尔自治区",
+      "西藏自治区",
+      "四川省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区"
+  },
+  {
+    "id": "geography-032",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-经济"
+    ],
+    "question": "发达国家主要分布在：",
+    "options": [
+      "亚洲、非洲、拉丁美洲",
+      "北美洲、欧洲、大洋洲",
+      "南美洲、非洲、大洋洲",
+      "亚洲、欧洲、南美洲"
+    ],
+    "answer": "北美洲、欧洲、大洋洲",
+    "explanation": "发达国家主要集中在北美洲（如美国、加拿大）、欧洲（如英、法、德）和大洋洲（如澳大利亚、新西兰）"
+  },
+  {
+    "id": "geography-033",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上海拔最高的山峰是：",
+    "options": [
+      "乞力马扎罗山",
+      "乔戈里峰",
+      "珠穆朗玛峰",
+      "干城章嘉峰"
+    ],
+    "answer": "珠穆朗玛峰",
+    "explanation": "珠穆朗玛峰海拔8848.86米，是世界最高峰，位于中国与尼泊尔边境"
+  },
+  {
+    "id": "geography-034",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-交通"
+    ],
+    "question": "我国最重要的铁路干线京广线的起止点是：",
+    "options": [
+      "北京-广州",
+      "北京-上海",
+      "上海-广州",
+      "南京-北京"
+    ],
+    "answer": "北京-广州",
+    "explanation": "京广线北起北京，南至广州，全长约2300公里，是我国最重要的南北铁路干线"
+  },
+  {
+    "id": "geography-035",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界面积最大的大洲是_____洲。",
+    "answer": "亚",
+    "explanation": "亚洲面积约4458万平方公里，是世界面积最大的大洲"
+  },
+  {
+    "id": "geography-036",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-气候"
+    ],
+    "question": "我国年降水量分布的总趋势是：",
+    "options": [
+      "从东南向西北递减",
+      "从西北向东南递减",
+      "从北向南递减",
+      "从南向北递减"
+    ],
+    "answer": "从东南向西北递减",
+    "explanation": "受夏季风影响，我国年降水量从东南向西北递减，东南沿海地区降水多，西北内陆地区降水少"
+  },
+  {
+    "id": "geography-037",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "撒哈拉沙漠位于：",
+    "options": [
+      "亚洲",
+      "非洲",
+      "澳大利亚",
+      "南美洲"
+    ],
+    "answer": "非洲",
+    "explanation": "撒哈拉沙漠位于非洲北部，是世界上面积最大的沙漠，约920万平方公里"
+  },
+  {
+    "id": "geography-038",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国纬度最高的省级行政区是：",
+    "options": [
+      "黑龙江省",
+      "吉林省",
+      "内蒙古自治区",
+      "新疆维吾尔自治区"
+    ],
+    "answer": "黑龙江省",
+    "explanation": "黑龙江省位于我国最东北部，是我国纬度最高的省份，漠河镇有北极村之称"
+  },
+  {
+    "id": "geography-039",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "澳大利亚大陆主要位于哪个温度带？",
+    "options": [
+      "热带",
+      "南温带",
+      "北温带",
+      "寒带"
+    ],
+    "answer": "南温带",
+    "explanation": "澳大利亚大陆约三分之二位于南回归线以南，主要属于南温带"
+  },
+  {
+    "id": "geography-040",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-地形"
+    ],
+    "question": "我国地势的特点是西高东低，呈_____级阶梯状分布。",
+    "answer": "三",
+    "explanation": "我国地势呈三级阶梯状分布：青藏高原为第一级阶梯，海拔4000米以上；黄土高原、云贵高原等为第二级阶梯；东北平原、华北平原等为第三级阶梯"
+  },
+  {
+    "id": "geography-201",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地形图判读",
+      "河流流向"
+    ],
+    "question": "根据图中等高线和河流位置判断，该河流大致流向是：",
+    "imageUrl": "images/geography/river-landform.svg",
+    "options": [
+      "由西北流向东南",
+      "由东北流向西南",
+      "由东南流向西北",
+      "由西南流向东北"
+    ],
+    "answer": "由西北流向东南",
+    "explanation": "河流从高处流向低处，图示河道总体由西北流向东南。"
+  },
+  {
+    "id": "geography-202",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "珠江三角洲"
+    ],
+    "question": "佛山所在的珠江三角洲地区发展制造业的有利条件不包括：",
+    "options": [
+      "水陆交通便利",
+      "靠近港澳和国际市场",
+      "科技与产业基础较好",
+      "全年降水极少，利于重工业发展"
+    ],
+    "answer": "全年降水极少，利于重工业发展",
+    "explanation": "珠江三角洲属于亚热带季风气候，降水并不少，这不是其制造业发展的优势。"
+  },
+  {
+    "id": "geography-043",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "经纬线"
+    ],
+    "question": "关于经纬线的说法正确的是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "经线指示东西方向"
+      },
+      {
+        "label": "B",
+        "text": "纬线指示南北方向"
+      },
+      {
+        "label": "C",
+        "text": "赤道是最长的纬线"
+      },
+      {
+        "label": "D",
+        "text": "所有经线都相交于南北两极"
+      }
+    ],
+    "answer": "C",
+    "explanation": "赤道是0°纬线，是地球上最长的纬线（约4万千米）。"
+  },
+  {
+    "id": "geography-044",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "五带划分"
+    ],
+    "question": "我国大部分地区位于五带中的",
+    "choices": [
+      {
+        "label": "A",
+        "text": "热带"
+      },
+      {
+        "label": "B",
+        "text": "北温带"
+      },
+      {
+        "label": "C",
+        "text": "南温带"
+      },
+      {
+        "label": "D",
+        "text": "北寒带"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国领土南北跨纬度广，大部分地区位于北回归线（23.5°N）到漠河（53°N）之间，属北温带。"
+  },
+  {
+    "id": "geography-045",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "等高线地形图"
+    ],
+    "question": "在等高线地形图上，陡崖的等高线特征是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "等高线重叠"
+      },
+      {
+        "label": "B",
+        "text": "等高线稀疏"
+      },
+      {
+        "label": "C",
+        "text": "等高线向高处凸出"
+      },
+      {
+        "label": "D",
+        "text": "等高线呈封闭圆形"
+      }
+    ],
+    "answer": "A",
+    "explanation": "陡崖处多条等高线重叠在一起；山谷处等高线向高处凸出。"
+  },
+  {
+    "id": "geography-046",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "方向判读"
+    ],
+    "question": "在有经纬网的地图上，确定方向的方法是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "经线指示东西，纬线指示南北"
+      },
+      {
+        "label": "B",
+        "text": "经线指示南北，纬线指示东西"
+      },
+      {
+        "label": "C",
+        "text": "上北下南，左西右东"
+      },
+      {
+        "label": "D",
+        "text": "根据指向标确定"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在经纬网地图上，经线指示南北方向，纬线指示东西方向。"
+  },
+  {
+    "id": "geography-047",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "比例尺"
+    ],
+    "question": "1:1000000的比例尺，改写成文字式是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "图上1厘米代表实地100千米"
+      },
+      {
+        "label": "B",
+        "text": "图上1厘米代表实地10千米"
+      },
+      {
+        "label": "C",
+        "text": "图上1厘米代表实地1千米"
+      },
+      {
+        "label": "D",
+        "text": "图上1厘米代表实地100米"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1:1000000表示图上1厘米代表实地1000000厘米=10千米。"
+  },
+  {
+    "id": "geography-048",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "南北半球"
+    ],
+    "question": "中国位于",
+    "choices": [
+      {
+        "label": "A",
+        "text": "东半球和南半球"
+      },
+      {
+        "label": "B",
+        "text": "东半球和北半球"
+      },
+      {
+        "label": "C",
+        "text": "西半球和北半球"
+      },
+      {
+        "label": "D",
+        "text": "西半球和南半球"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国经度约73°E~135°E（在东半球），纬度约4°N~53°N（在北半球）。"
+  },
+  {
+    "id": "geography-049",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "地球运动",
+      "自转"
+    ],
+    "question": "地球自转产生的现象是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "季节变化"
+      },
+      {
+        "label": "B",
+        "text": "昼夜长短变化"
+      },
+      {
+        "label": "C",
+        "text": "昼夜更替"
+      },
+      {
+        "label": "D",
+        "text": "五带划分"
+      }
+    ],
+    "answer": "C",
+    "explanation": "地球自转产生昼夜更替；公转产生季节变化和昼夜长短变化。"
+  },
+  {
+    "id": "geography-050",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "地球运动",
+      "公转"
+    ],
+    "question": "当太阳直射北回归线时，北半球处于",
+    "choices": [
+      {
+        "label": "A",
+        "text": "春季"
+      },
+      {
+        "label": "B",
+        "text": "夏季"
+      },
+      {
+        "label": "C",
+        "text": "秋季"
+      },
+      {
+        "label": "D",
+        "text": "冬季"
+      }
+    ],
+    "answer": "B",
+    "explanation": "太阳直射北回归线时（约6月22日），北半球昼长夜短，为夏季。"
+  },
+  {
+    "id": "geography-051",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "行政区划"
+    ],
+    "question": "广东省的简称是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "桂"
+      },
+      {
+        "label": "B",
+        "text": "粤"
+      },
+      {
+        "label": "C",
+        "text": "闽"
+      },
+      {
+        "label": "D",
+        "text": "湘"
+      }
+    ],
+    "answer": "B",
+    "explanation": "广东省简称粤，广西壮族自治区简称桂，福建省简称闽，湖南省简称湘。"
+  },
+  {
+    "id": "geography-052",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "地形地势"
+    ],
+    "question": "我国地形特点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "地形单一"
+      },
+      {
+        "label": "B",
+        "text": "地形复杂多样，山地高原为主"
+      },
+      {
+        "label": "C",
+        "text": "以平原为主"
+      },
+      {
+        "label": "D",
+        "text": "以盆地为主"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国地形复杂多样，山区面积广大，其中山地、高原约占全国陆地面积的2/3。"
+  },
+  {
+    "id": "geography-053",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候"
+    ],
+    "question": "造成我国东部季风气候显著的主要因素是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "纬度位置"
+      },
+      {
+        "label": "B",
+        "text": "海陆位置"
+      },
+      {
+        "label": "C",
+        "text": "地形因素"
+      },
+      {
+        "label": "D",
+        "text": "洋流因素"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国位于世界最大的大陆（亚欧大陆）东部和世界最大的大洋（太平洋）西岸，海陆热力性质差异大，形成显著的季风气候。"
+  },
+  {
+    "id": "geography-054",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流",
+      "长江"
+    ],
+    "question": "长江被誉为",
+    "choices": [
+      {
+        "label": "A",
+        "text": "黄金水道"
+      },
+      {
+        "label": "B",
+        "text": "水能宝库"
+      },
+      {
+        "label": "C",
+        "text": "鱼米之乡"
+      },
+      {
+        "label": "D",
+        "text": "以上都是"
+      }
+    ],
+    "answer": "D",
+    "explanation": "长江支流多、流量大，航运价值高（黄金水道）；上游落差大，水能丰富（水能宝库）；中下游平原盛产稻米淡水鱼（鱼米之乡）。"
+  },
+  {
+    "id": "geography-055",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "资源"
+    ],
+    "question": "我国自然资源的基本特征是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "总量丰富，人均不足"
+      },
+      {
+        "label": "B",
+        "text": "总量丰富，人均丰富"
+      },
+      {
+        "label": "C",
+        "text": "总量不足，人均充足"
+      },
+      {
+        "label": "D",
+        "text": "总量不足，人均不足"
+      }
+    ],
+    "answer": "A",
+    "explanation": "我国自然资源总量大，种类齐全，但因人口众多，人均资源占有量远低于世界平均水平。"
+  },
+  {
+    "id": "geography-056",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "人口"
+    ],
+    "question": "我国人口分布特点是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "均匀分布"
+      },
+      {
+        "label": "B",
+        "text": "东南多，西北少"
+      },
+      {
+        "label": "C",
+        "text": "西北多，东南少"
+      },
+      {
+        "label": "D",
+        "text": "高原多，平原少"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国人口以黑河-腾冲一线为界，东南部人口稠密，西北部人口稀疏。"
+  },
+  {
+    "id": "geography-057",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候",
+      "温度带"
+    ],
+    "question": "佛山位于的温度带是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "寒带"
+      },
+      {
+        "label": "B",
+        "text": "中温带"
+      },
+      {
+        "label": "C",
+        "text": "暖温带"
+      },
+      {
+        "label": "D",
+        "text": "亚热带"
+      }
+    ],
+    "answer": "D",
+    "explanation": "佛山位于北回归线附近（23°N左右），属于亚热带季风气候。"
+  },
+  {
+    "id": "geography-058",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "行政区划",
+      "省份"
+    ],
+    "question": "与广东省相邻的省份不包括",
+    "choices": [
+      {
+        "label": "A",
+        "text": "广西"
+      },
+      {
+        "label": "B",
+        "text": "湖南"
+      },
+      {
+        "label": "C",
+        "text": "江西"
+      },
+      {
+        "label": "D",
+        "text": "福建"
+      }
+    ],
+    "answer": "D",
+    "explanation": "广东省相邻省份：广西、湖南、江西、福建（由东向西）。"
+  },
+  {
+    "id": "geography-059",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的大洲是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "非洲"
+      },
+      {
+        "label": "B",
+        "text": "北美洲"
+      },
+      {
+        "label": "C",
+        "text": "亚洲"
+      },
+      {
+        "label": "D",
+        "text": "欧洲"
+      }
+    ],
+    "answer": "C",
+    "explanation": "亚洲面积约4400万平方千米，是世界上面积最大的大洲。"
+  },
+  {
+    "id": "geography-060",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的大洋是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "大西洋"
+      },
+      {
+        "label": "B",
+        "text": "印度洋"
+      },
+      {
+        "label": "C",
+        "text": "北冰洋"
+      },
+      {
+        "label": "D",
+        "text": "太平洋"
+      }
+    ],
+    "answer": "D",
+    "explanation": "太平洋面积约18000万平方千米，是世界上面积最大、最深的大洋。"
+  },
+  {
+    "id": "geography-061",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "气候类型"
+    ],
+    "question": "赤道附近的主要气候类型是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "热带草原气候"
+      },
+      {
+        "label": "B",
+        "text": "热带雨林气候"
+      },
+      {
+        "label": "C",
+        "text": "热带沙漠气候"
+      },
+      {
+        "label": "D",
+        "text": "热带季风气候"
+      }
+    ],
+    "answer": "B",
+    "explanation": "赤道附近终年高温多雨，属于热带雨林气候，分布在南美洲亚马逊流域、非洲刚果盆地、东南亚等地区。"
+  },
+  {
+    "id": "geography-062",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "发达国家"
+    ],
+    "question": "日本主要的工业原料主要依靠",
+    "choices": [
+      {
+        "label": "A",
+        "text": "本国资源"
+      },
+      {
+        "label": "B",
+        "text": "从国外进口"
+      },
+      {
+        "label": "C",
+        "text": "从他国援助"
+      },
+      {
+        "label": "D",
+        "text": "循环利用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "日本地域狭小、资源贫乏，工业原料主要依靠从国外进口。"
+  },
+  {
+    "id": "geography-063",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "人口"
+    ],
+    "question": "世界人口最多的国家是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "中国"
+      },
+      {
+        "label": "B",
+        "text": "印度"
+      },
+      {
+        "label": "C",
+        "text": "美国"
+      },
+      {
+        "label": "D",
+        "text": "俄罗斯"
+      }
+    ],
+    "answer": "B",
+    "explanation": "截至2024年，印度人口已超过中国，成为世界人口最多的国家，约14.4亿。"
+  },
+  {
+    "id": "geography-064",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "板块构造"
+    ],
+    "question": "地中海-喜马拉雅火山地震带位于哪两大板块交界处",
+    "choices": [
+      {
+        "label": "A",
+        "text": "亚欧板块与印度洋板块"
+      },
+      {
+        "label": "B",
+        "text": "亚欧板块与非洲板块"
+      },
+      {
+        "label": "C",
+        "text": "印度洋板块与非洲板块"
+      },
+      {
+        "label": "D",
+        "text": "亚欧板块与太平洋板块"
+      }
+    ],
+    "answer": "A",
+    "explanation": "地中海-喜马拉雅地震带位于亚欧板块与印度洋板块的交界处，两大板块碰撞挤压形成了地中海、喜马拉雅山脉等。"
+  },
+  {
+    "id": "geography-065",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "宗教"
+    ],
+    "question": "中东地区居民主要信仰的宗教是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "基督教"
+      },
+      {
+        "label": "B",
+        "text": "佛教"
+      },
+      {
+        "label": "C",
+        "text": "伊斯兰教"
+      },
+      {
+        "label": "D",
+        "text": "犹太教"
+      }
+    ],
+    "answer": "C",
+    "explanation": "中东地区居民主要信仰伊斯兰教，穆斯林人口占多数。耶路撒冷是伊斯兰教、基督教、犹太教的圣地。"
+  },
+  {
+    "id": "geography-066",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "赤道"
+    ],
+    "question": "地球的赤道周长约_____万千米。",
+    "answer": "4",
+    "explanation": "根据地理知识填写：4"
+  },
+  {
+    "id": "geography-067",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "自转"
+    ],
+    "question": "地球自转的方向是_____，周期为24小时。",
+    "answer": "自西向东",
+    "explanation": "根据地理知识填写：自西向东"
+  },
+  {
+    "id": "geography-068",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲"
+    ],
+    "question": "七大洲中，面积最小的是_____洲。",
+    "answer": "大洋",
+    "explanation": "根据地理知识填写：大洋"
+  },
+  {
+    "id": "geography-069",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "面积"
+    ],
+    "question": "我国陆地面积约_____万平方千米。",
+    "answer": "960",
+    "explanation": "根据地理知识填写：960"
+  },
+  {
+    "id": "geography-070",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "半球"
+    ],
+    "question": "划分东西半球的界线是_____和160°E经线。",
+    "answer": "20°W",
+    "explanation": "根据地理知识填写：20°W"
+  },
+  {
+    "id": "geography-071",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "地形"
+    ],
+    "question": "世界上最高的山峰是珠穆朗玛峰，海拔约_____米。",
+    "answer": "8848",
+    "explanation": "根据地理知识填写：8848"
+  },
+  {
+    "id": "geography-072",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "湖泊"
+    ],
+    "question": "我国最大的咸水湖是_____湖。",
+    "answer": "青海",
+    "explanation": "根据地理知识填写：青海"
+  },
+  {
+    "id": "geography-073",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流"
+    ],
+    "question": "我国最长、流量最大的河流是_____。",
+    "answer": "长江",
+    "explanation": "根据地理知识填写：长江"
+  },
+  {
+    "id": "geography-074",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "地形"
+    ],
+    "question": "世界上最长的山脉是安第斯山脉，位于_____洲。",
+    "answer": "南美",
+    "explanation": "根据地理知识填写：南美"
+  },
+  {
+    "id": "geography-075",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候"
+    ],
+    "question": "我国从南到北划分的温度带依次是：热带、亚热带、暖温带、中温带、寒温带和_____。",
+    "answer": "高原气候区",
+    "explanation": "根据地理知识填写：高原气候区"
+  },
+  {
+    "id": "geography-076",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-气候",
+      "气候类型图"
+    ],
+    "question": "如图是某地的气温曲线和降水量柱状图，该地的气候类型是",
+    "imageUrl": "images/geography/climate_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "温带季风气候"
+      },
+      {
+        "label": "B",
+        "text": "亚热带季风气候"
+      },
+      {
+        "label": "C",
+        "text": "热带季风气候"
+      },
+      {
+        "label": "D",
+        "text": "地中海气候"
+      }
+    ],
+    "answer": "B",
+    "explanation": "最冷月气温在0-15°C之间（亚热带范围），年降水量丰富且集中在夏季（800mm以上），是典型的亚热带季风气候（分布在中国秦岭-淮河以南）。"
+  },
+  {
+    "id": "geography-077",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地形",
+      "等高线"
+    ],
+    "question": "如图为某地的等高线地形图，以下说法正确的是",
+    "imageUrl": "images/geography/topo_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "图中有一条河流发育于山谷"
+      },
+      {
+        "label": "B",
+        "text": "A处为山脊，B处为山谷"
+      },
+      {
+        "label": "C",
+        "text": "C处陡崖可进行攀岩活动"
+      },
+      {
+        "label": "D",
+        "text": "该图所示区域地势北高南低"
+      }
+    ],
+    "answer": "A",
+    "explanation": "等高线凸向高处为山谷（集水线），凸向低处为山脊（分水线）。河流发育于山谷。陡崖是多条等高线重叠处。C项需要看等高线是否重合。"
+  },
+  {
+    "id": "geography-078",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流"
+    ],
+    "question": "如图为中国主要河流分布示意图，图中①、②、③、④分别是",
+    "imageUrl": "images/geography/china_rivers_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "长江、黄河、珠江、淮河"
+      },
+      {
+        "label": "B",
+        "text": "黄河、长江、淮河、珠江"
+      },
+      {
+        "label": "C",
+        "text": "长江、黄河、淮河、珠江"
+      },
+      {
+        "label": "D",
+        "text": "黄河、长江、珠江、淮河"
+      }
+    ],
+    "answer": "A",
+    "explanation": "①长江（中国最长河流，流经青藏、云贵、长江中下游平原）；②黄河（流经青藏、内蒙古、黄土、华北平原）；③珠江（流经云贵、两广）；④淮河（流入洪泽湖，注入黄海）。"
+  },
+  {
+    "id": "geography-079",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-亚洲",
+      "亚洲地理分区"
+    ],
+    "question": "如图为亚洲地理分区示意图，图中阴影部分（中国）位于",
+    "imageUrl": "images/geography/asia_regions_001.svg",
+    "choices": [
+      {
+        "label": "A",
+        "text": "东亚"
+      },
+      {
+        "label": "B",
+        "text": "东南亚"
+      },
+      {
+        "label": "C",
+        "text": "南亚"
+      },
+      {
+        "label": "D",
+        "text": "中亚"
+      }
+    ],
+    "answer": "A",
+    "explanation": "中国位于亚洲东部，太平洋西岸，属于东亚地区。东亚还包括日本、朝鲜、韩国、蒙古。"
+  }
+]

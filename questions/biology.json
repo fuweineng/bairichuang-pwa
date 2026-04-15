@@ -1,0 +1,1749 @@
+[
+  {
+    "id": "biology-001",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "植物细胞与动物细胞最主要的区别是植物细胞具有：",
+    "options": [
+      "细胞核",
+      "细胞膜",
+      "细胞壁和叶绿体",
+      "线粒体"
+    ],
+    "answer": "细胞壁和叶绿体",
+    "explanation": "植物细胞有细胞壁和叶绿体，动物细胞没有。这是两者最主要的区别。"
+  },
+  {
+    "id": "biology-002",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "细胞中能进行光合作用的结构是：",
+    "options": [
+      "线粒体",
+      "细胞核",
+      "叶绿体",
+      "液泡"
+    ],
+    "answer": "叶绿体",
+    "explanation": "叶绿体含有叶绿素，是植物细胞进行光合作用的场所。"
+  },
+  {
+    "id": "biology-003",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "光合作用"
+    ],
+    "question": "光合作用的原料是：",
+    "options": [
+      "氧气和水",
+      "二氧化碳和水",
+      "有机物和氧气",
+      "有机物和水"
+    ],
+    "answer": "二氧化碳和水",
+    "explanation": "光合作用：二氧化碳 + 水 → 有机物 + 氧气。原料是二氧化碳和水。"
+  },
+  {
+    "id": "biology-004",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "呼吸作用"
+    ],
+    "question": "呼吸作用的主要场所是：",
+    "options": [
+      "细胞核",
+      "叶绿体",
+      "线粒体",
+      "细胞膜"
+    ],
+    "answer": "线粒体",
+    "explanation": "线粒体是细胞的能量工厂，进行呼吸作用分解有机物释放能量。"
+  },
+  {
+    "id": "biology-005",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "呼吸作用"
+    ],
+    "question": "呼吸作用释放的气体是：",
+    "options": [
+      "氮气",
+      "氧气",
+      "二氧化碳",
+      "氢气"
+    ],
+    "answer": "二氧化碳",
+    "explanation": "呼吸作用分解有机物，产生二氧化碳和水，释放能量。"
+  },
+  {
+    "id": "biology-006",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "花的主要结构是：",
+    "options": [
+      "花瓣",
+      "花萼",
+      "雄蕊和雌蕊",
+      "花托"
+    ],
+    "answer": "雄蕊和雌蕊",
+    "explanation": "雄蕊和雌蕊是花的主要繁殖结构，与果实和种子的形成直接相关。"
+  },
+  {
+    "id": "biology-007",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "呼吸作用"
+    ],
+    "question": "植物的光合作用在 _____ 中进行。",
+    "answer": "叶绿体",
+    "explanation": "光合作用必须在叶绿体中进行，因为叶绿体含有叶绿素。"
+  },
+  {
+    "id": "biology-008",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "消化系统和呼吸系统共同参与的气体交换场所是：",
+    "options": [
+      "鼻腔",
+      "肺泡",
+      "气管",
+      "血液"
+    ],
+    "answer": "肺泡",
+    "explanation": "肺泡是气体交换的场所，氧气进入血液，二氧化碳排出体外。"
+  },
+  {
+    "id": "biology-009",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体消化食物和吸收营养的主要器官是：",
+    "options": [
+      "胃",
+      "口腔",
+      "小肠",
+      "大肠"
+    ],
+    "answer": "小肠",
+    "explanation": "小肠长约5-6米，内表面积大，有多种消化液，是消化和吸收的主要场所。"
+  },
+  {
+    "id": "biology-010",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "血液在循环系统中流动的方向是：",
+    "options": [
+      "动脉→毛细血管→静脉",
+      "静脉→动脉→毛细血管",
+      "毛细血管→动脉→静脉",
+      "动脉→静脉→毛细血管"
+    ],
+    "answer": "动脉→毛细血管→静脉",
+    "explanation": "血液从心脏出发，经动脉流向全身各组织，经毛细血管进行气体和物质交换后，经静脉流回心脏。"
+  },
+  {
+    "id": "biology-011",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "子女的相貌与父母相似的现象叫：",
+    "options": [
+      "变异",
+      "遗传",
+      "进化",
+      "适应"
+    ],
+    "answer": "遗传",
+    "explanation": "遗传是指子代与亲代在形态、生理等方面相似的现象。变异是指子代与亲代之间的差异。"
+  },
+  {
+    "id": "biology-012",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "人的体细胞中染色体数目是：",
+    "options": [
+      "23条",
+      "46条",
+      "23对",
+      "22对"
+    ],
+    "answer": "46条",
+    "explanation": "人体细胞有46条染色体，23对，其中22对是常染色体，1对是性染色体。"
+  },
+  {
+    "id": "biology-013",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "花粉落在雌蕊柱头上的过程叫：",
+    "options": [
+      "受精",
+      "授粉",
+      "传粉",
+      "萌芽"
+    ],
+    "answer": "授粉",
+    "explanation": "花粉从雄蕊花药落到雌蕊柱头叫授粉，是受精的前提。"
+  },
+  {
+    "id": "biology-014",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物分类"
+    ],
+    "question": "下列动物中属于哺乳动物的是：",
+    "options": [
+      "鸭子",
+      "蛇",
+      "鲸鱼",
+      "乌龟"
+    ],
+    "answer": "鲸鱼",
+    "explanation": "鲸鱼是哺乳动物，用肺呼吸，胎生哺乳。鸭子是鸟类，蛇和乌龟是爬行动物。"
+  },
+  {
+    "id": "biology-015",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体最大的消化腺是 _____。",
+    "answer": "肝脏",
+    "explanation": "肝脏是人体最大的消化腺，分泌胆汁储存在胆囊中，帮助消化脂肪。"
+  },
+  {
+    "id": "biology-016",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物分类"
+    ],
+    "question": "昆虫属于：",
+    "options": [
+      "环节动物",
+      "软体动物",
+      "节肢动物",
+      "腔肠动物"
+    ],
+    "answer": "节肢动物",
+    "explanation": "昆虫身体分头、胸、腹三部分，有三对足和两对翅，属于节肢动物门昆虫纲。"
+  },
+  {
+    "id": "biology-017",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生态系统是指：",
+    "options": [
+      "某一区域的所有生物",
+      "生物与其生存环境",
+      "所有动物的总称",
+      "所有植物的总称"
+    ],
+    "answer": "生物与其生存环境",
+    "explanation": "生态系统 = 生物 + 环境，包括生产者、消费者、分解者以及它们所处的非生物环境。"
+  },
+  {
+    "id": "biology-018",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "在食物链中，属于生产者的是：",
+    "options": [
+      "草",
+      "蝗虫",
+      "青蛙",
+      "蛇"
+    ],
+    "answer": "草",
+    "explanation": "生产者能自己制造有机物（通过光合作用），如草等绿色植物。消费者是动物。"
+  },
+  {
+    "id": "biology-019",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "新陈代谢"
+    ],
+    "question": "生物体由小长大的原因是：",
+    "options": [
+      "细胞分裂和生长",
+      "细胞分化",
+      "组织形成",
+      "器官形成"
+    ],
+    "answer": "细胞分裂和生长",
+    "explanation": "生物体长大靠细胞分裂增加细胞数量，靠细胞生长增大细胞体积。"
+  },
+  {
+    "id": "biology-020",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "DNA的中文名称是 _____。",
+    "answer": "脱氧核糖核酸",
+    "explanation": "DNA即脱氧核糖核酸，是遗传信息的载体，位于细胞核染色体上。"
+  },
+  {
+    "id": "biology-021",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "种子萌发需要的外界条件不包括：",
+    "options": [
+      "适量的水",
+      "充足的阳光",
+      "适宜的温度",
+      "充足的空气"
+    ],
+    "answer": "充足的阳光",
+    "explanation": "种子萌发需要水、空气和适宜的温度，不需要阳光（阳光是光合作用的条件）。"
+  },
+  {
+    "id": "biology-022",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物行为"
+    ],
+    "question": "动物的行为按照获得方式可分为：",
+    "options": [
+      "先天性行为和学习行为",
+      "捕食行为和防御行为",
+      "繁殖行为和迁徙行为",
+      "社群行为和独居行为"
+    ],
+    "answer": "先天性行为和学习行为",
+    "explanation": "先天性行为是生来就有的本能（如蜜蜂采蜜），学习行为是通过后天经验获得（如黑猩猩用树枝取食）。"
+  },
+  {
+    "id": "biology-023",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "尿液的形成主要经过的过程是：",
+    "options": [
+      "吸收和分泌",
+      "滤过和重吸收",
+      "消化和吸收",
+      "呼吸和排汗"
+    ],
+    "answer": "滤过和重吸收",
+    "explanation": "尿液形成于肾脏，经过肾小球的滤过作用和肾小管的重吸收作用。"
+  },
+  {
+    "id": "biology-024",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "种子的胚芽将来发育成：",
+    "options": [
+      "根",
+      "茎和叶",
+      "种皮",
+      "胚乳"
+    ],
+    "answer": "茎和叶",
+    "explanation": "胚芽发育成茎和叶，胚根发育成根，胚轴发育成连接根和茎的部分，子叶或胚乳提供营养。"
+  },
+  {
+    "id": "biology-025",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "神经系统结构和功能的基本单位是 _____。",
+    "answer": "神经元",
+    "explanation": "神经元（神经细胞）是神经系统结构和功能的基本单位，包括细胞体、树突和轴突。"
+  },
+  {
+    "id": "biology-026",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物分类"
+    ],
+    "question": "下列动物中，体温恒定的是：",
+    "options": [
+      "鱼",
+      "青蛙",
+      "蛇",
+      "家鸽"
+    ],
+    "answer": "家鸽",
+    "explanation": "家鸽是鸟类，体温恒定（约42°C）。鱼类、两栖类、爬行类都是变温动物。"
+  },
+  {
+    "id": "biology-027",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "ABO血型系统中，A型血的人红细胞表面有：",
+    "options": [
+      "A抗原",
+      "B抗原",
+      "A抗原和B抗原",
+      "没有抗原"
+    ],
+    "answer": "A抗原",
+    "explanation": "A型血的人红细胞表面有A抗原，血浆中有抗B抗体；B型血则相反。"
+  },
+  {
+    "id": "biology-028",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "一个生态系统中，数量最多的生物通常是：",
+    "options": [
+      "消费者",
+      "分解者",
+      "生产者",
+      "大型动物"
+    ],
+    "answer": "生产者",
+    "explanation": "生产者（绿色植物）位于食物链起点，数量最多。能量在食物链中逐级递减，所以消费者级别越高，数量越少。"
+  },
+  {
+    "id": "biology-029",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物与环境"
+    ],
+    "question": "生物与环境的关系是：",
+    "options": [
+      "环境影响生物",
+      "生物适应环境",
+      "生物影响环境",
+      "以上都有"
+    ],
+    "answer": "以上都有",
+    "explanation": "环境能影响生物，生物需要适应环境，同时生物也能影响和改变环境"
+  },
+  {
+    "id": "biology-030",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "植物的蒸腾作用主要是通过什么进行的？",
+    "options": [
+      "根",
+      "茎",
+      "叶",
+      "花"
+    ],
+    "answer": "叶",
+    "explanation": "蒸腾作用主要是叶片通过气孔散失水分的过程，是植物水分运输的动力"
+  },
+  {
+    "id": "biology-031",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体血液循环包括体循环和_____循环。",
+    "answer": "肺",
+    "explanation": "血液循环包括体循环和肺循环，体循环输送氧，肺循环交换气体"
+  },
+  {
+    "id": "biology-032",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物行为"
+    ],
+    "question": "动物的行为按功能分不包括：",
+    "options": [
+      "觅食行为",
+      "防御行为",
+      "学习行为",
+      "迁徙行为"
+    ],
+    "answer": "学习行为",
+    "explanation": "学习行为是按获得方式分的，不是按功能分；按功能分：觅食、防御、繁殖、社会行为等"
+  },
+  {
+    "id": "biology-033",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "植物叶片正面的绿色比背面深，主要是因为：",
+    "options": [
+      "正面阳光多",
+      "正面表皮薄",
+      "正面叶绿体多",
+      "正面气孔多"
+    ],
+    "answer": "正面叶绿体多",
+    "explanation": "叶片的栅栏层（靠近上表皮）含叶绿体多，海绵层（下表皮侧）含叶绿体少"
+  },
+  {
+    "id": "biology-034",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "神经系统调节人体活动的基本方式是：",
+    "options": [
+      "反射",
+      "传导",
+      "感觉",
+      "整合"
+    ],
+    "answer": "反射",
+    "explanation": "反射是神经系统调节人体活动的基本方式，如膝跳反射、缩手反射"
+  },
+  {
+    "id": "biology-035",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "植物的种子由胚珠发育而成，种皮由_____发育而成。",
+    "options": [
+      "珠被",
+      "珠心",
+      "子房壁",
+      "胚囊"
+    ],
+    "answer": "珠被",
+    "explanation": "珠被发育成种皮，胚珠发育成种子，子房壁发育成果皮"
+  },
+  {
+    "id": "biology-036",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "一个生态系统中的草、兔子、蛇、鹰，如果草大量减少，最后受影响最大的是：",
+    "options": [
+      "蛇",
+      "鹰",
+      "兔子",
+      "所有生物一样多"
+    ],
+    "answer": "鹰",
+    "explanation": "食物链中营养级越高，受影响越大，因为能量逐级递减，鹰营养级最高"
+  },
+  {
+    "id": "biology-037",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "细胞壁的功能是支持和_____植物细胞。",
+    "answer": "保护",
+    "explanation": "细胞壁位于植物细胞最外层，功能是支持和保护植物细胞"
+  },
+  {
+    "id": "biology-038",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物多样性"
+    ],
+    "question": "保护生物多样性最有效的措施是：",
+    "options": [
+      "建立自然保护区",
+      "迁地保护",
+      "建立基因库",
+      "加强法律法规"
+    ],
+    "answer": "建立自然保护区",
+    "explanation": "建立自然保护区能保护整个生态系统，是保护生物多样性最有效的措施"
+  },
+  {
+    "id": "biology-039",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体免疫的第一道防线是：",
+    "options": [
+      "皮肤和黏膜",
+      "吞噬细胞",
+      "免疫器官",
+      "抗体"
+    ],
+    "answer": "皮肤和黏膜",
+    "explanation": "第一道防线：皮肤和黏膜（阻挡病原体）；第二道：吞噬细胞；第三道：免疫器官和抗体"
+  },
+  {
+    "id": "biology-040",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "导管和筛管属于植物的什么组织？",
+    "options": [
+      "分生组织",
+      "输导组织",
+      "保护组织",
+      "营养组织"
+    ],
+    "answer": "输导组织",
+    "explanation": "导管运输水和无机盐，筛管运输有机物，都属于输导组织"
+  },
+  {
+    "id": "biology-041",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "人的性别决定取决于：",
+    "options": [
+      "父亲",
+      "母亲",
+      "父亲和母亲一样",
+      "环境"
+    ],
+    "answer": "父亲",
+    "explanation": "女性染色体XX，男性XY，父亲提供X或Y，母亲只能提供X，所以性别由父亲决定"
+  },
+  {
+    "id": "biology-042",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "呼吸作用"
+    ],
+    "question": "植物呼吸作用的公式：有机物 + 氧气 -> 二氧化碳 + 水 + _____。",
+    "answer": "能量",
+    "explanation": "呼吸作用分解有机物，释放能量，公式：有机物 + 氧气 -> 二氧化碳 + 水 + 能量"
+  },
+  {
+    "id": "biology-043",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "视觉形成的部位是：",
+    "options": [
+      "角膜",
+      "视网膜",
+      "大脑皮层",
+      "视神经"
+    ],
+    "answer": "大脑皮层",
+    "explanation": "视网膜是光感受器，接受光刺激；视觉在大脑皮层视觉中枢形成"
+  },
+  {
+    "id": "biology-044",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物分类"
+    ],
+    "question": "动物界中种类最多、数量最大、分布最广的动物类群是：",
+    "options": [
+      "哺乳动物",
+      "鸟类",
+      "昆虫",
+      "鱼类"
+    ],
+    "answer": "昆虫",
+    "explanation": "昆虫是动物界中种类最多的类群，已知种类超过100万种"
+  },
+  {
+    "id": "biology-045",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "一朵花中最重要的部分是：",
+    "options": [
+      "花瓣",
+      "花萼",
+      "雄蕊和雌蕊",
+      "花托"
+    ],
+    "answer": "雄蕊和雌蕊",
+    "explanation": "雄蕊和雌蕊与生殖直接相关，是花的主要繁殖结构"
+  },
+  {
+    "id": "biology-046",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "与尿素的形成最密切相关的人体器官是：",
+    "options": [
+      "肾脏",
+      "肝脏",
+      "肺",
+      "皮肤"
+    ],
+    "answer": "肝脏",
+    "explanation": "尿素是蛋白质代谢的产物，在肝脏中合成，经肾脏排出体外"
+  },
+  {
+    "id": "biology-047",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生物圈是地球上最大的生态系统，它包括：",
+    "options": [
+      "所有生物",
+      "所有生物及其环境",
+      "所有生物的生活环境",
+      "地球上的所有物质"
+    ],
+    "answer": "所有生物及其环境",
+    "explanation": "生物圈是地球表面全部生物及其生活环境的总和，包括大气圈下层、水圈和岩石圈上层"
+  },
+  {
+    "id": "biology-048",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物行为"
+    ],
+    "question": "动物的行为按获得方式分为先天性行为和_____行为。",
+    "answer": "学习",
+    "explanation": "先天性行为是生来就有的本能，学习行为是通过后天经验和学习获得的"
+  },
+  {
+    "id": "biology-049",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "细胞膜的主要功能是：",
+    "options": [
+      "支持和保护",
+      "控制物质进出",
+      "储存遗传信息",
+      "合成有机物"
+    ],
+    "answer": "控制物质进出",
+    "explanation": "细胞膜的功能是控制物质进出细胞（选择透过性），并参与细胞间的信息交流"
+  },
+  {
+    "id": "biology-050",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物多样性"
+    ],
+    "question": "下列不属于生物多样性三个层次的是：",
+    "options": [
+      "基因多样性",
+      "物种多样性",
+      "生态系统多样性",
+      "环境多样性"
+    ],
+    "answer": "环境多样性",
+    "explanation": "生物多样性包括：基因多样性、物种多样性、生态系统多样性三个层次"
+  },
+  {
+    "id": "biology-051",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体呼出的气体与吸入的气体相比，含量增加的是：",
+    "options": [
+      "氧气",
+      "二氧化碳",
+      "氮气",
+      "水蒸气"
+    ],
+    "answer": "二氧化碳",
+    "explanation": "吸入的空气经过人体后，氧气被消耗，二氧化碳增加（氧气减少，二氧化碳增加）"
+  },
+  {
+    "id": "biology-052",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "关于基因的描述，正确的是：",
+    "options": [
+      "基因是DNA上的片段",
+      "一个基因决定一个性状",
+      "基因都是显性",
+      "基因在染色体上每条只有一份"
+    ],
+    "answer": "基因是DNA上的片段",
+    "explanation": "基因是DNA上有遗传效应的片段，一条染色体上有许多基因"
+  },
+  {
+    "id": "biology-053",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "根吸收水分和无机盐的主要部位是：",
+    "options": [
+      "根冠",
+      "分生区",
+      "伸长区",
+      "成熟区"
+    ],
+    "answer": "成熟区",
+    "explanation": "成熟区有大量根毛，是吸收水分和无机盐的主要部位"
+  },
+  {
+    "id": "biology-054",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "听觉形成的正确途径是：",
+    "options": [
+      "声波 -> 耳廓 -> 听神经 -> 大脑",
+      "声波 -> 耳廓 -> 鼓膜 -> 听神经 -> 大脑",
+      "声波 -> 耳廓 -> 鼓膜 -> 耳蜗 -> 听神经 -> 大脑",
+      "声波 -> 耳廓 -> 耳蜗 -> 鼓膜 -> 大脑"
+    ],
+    "answer": "声波 -> 耳廓 -> 鼓膜 -> 耳蜗 -> 听神经 -> 大脑",
+    "explanation": "听觉形成：声波 -> 耳廓 -> 外耳道 -> 鼓膜（振动）-> 听小骨 -> 耳蜗（感音）-> 听神经 -> 大脑"
+  },
+  {
+    "id": "biology-055",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生态系统中，非生物成分包括阳光、水、空气和_____等。",
+    "answer": "土壤",
+    "explanation": "非生物成分包括阳光、水、空气、土壤、温度等；生物成分包括生产者、消费者、分解者"
+  },
+  {
+    "id": "biology-056",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物繁殖"
+    ],
+    "question": "绿色植物通过光合作用制造的有机物，除了供自身利用外，还养育了：",
+    "options": [
+      "只有动物",
+      "只有人类",
+      "地球上几乎所有其他生物",
+      "没有任何生物"
+    ],
+    "answer": "地球上几乎所有其他生物",
+    "explanation": "绿色植物是生产者，是生态系统的基础，通过食物链养育了消费者和分解者"
+  },
+  {
+    "id": "biology-057",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物分类"
+    ],
+    "question": "河蚌属于哪类动物？",
+    "options": [
+      "软体动物",
+      "节肢动物",
+      "腔肠动物",
+      "扁形动物"
+    ],
+    "answer": "软体动物",
+    "explanation": "河蚌身体柔软，有贝壳，属于软体动物门"
+  },
+  {
+    "id": "biology-058",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "血液和组织细胞之间进行物质交换的场所是：",
+    "options": [
+      "动脉",
+      "静脉",
+      "毛细血管",
+      "心脏"
+    ],
+    "answer": "毛细血管",
+    "explanation": "毛细血管壁薄、管径细，血流速度最慢，是血液与组织细胞进行物质交换的场所"
+  },
+  {
+    "id": "biology-059",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "新陈代谢"
+    ],
+    "question": "生物体最基本的特征是：",
+    "options": [
+      "生长发育",
+      "繁殖",
+      "新陈代谢",
+      "应激性"
+    ],
+    "answer": "新陈代谢",
+    "explanation": "新陈代谢是生物体进行一切生命活动的基础，是生物最基本的特征"
+  },
+  {
+    "id": "biology-060",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "侏儒症和呆小症的主要区别是患者缺乏的激素不同，前者缺乏：",
+    "options": [
+      "生长激素",
+      "甲状腺激素",
+      "胰岛素",
+      "性激素"
+    ],
+    "answer": "生长激素",
+    "explanation": "侏儒症是幼年时生长激素分泌不足；呆小症是幼年时甲状腺激素分泌不足"
+  },
+  {
+    "id": "biology-201",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构",
+      "植物细胞"
+    ],
+    "question": "观察图示植物细胞，下列结构中能够进行光合作用的是：",
+    "imageUrl": "images/biology/cell-structure.svg",
+    "options": [
+      "细胞核",
+      "叶绿体",
+      "液泡",
+      "细胞膜"
+    ],
+    "answer": "叶绿体",
+    "explanation": "叶绿体中含有叶绿素，是植物进行光合作用的主要场所。"
+  },
+  {
+    "id": "biology-202",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统",
+      "食物链"
+    ],
+    "question": "在“草→蝗虫→青蛙”这条食物链中，生产者是______。",
+    "answer": "草",
+    "explanation": "绿色植物能制造有机物，因此是生态系统中的生产者。"
+  },
+  {
+    "id": "biology-063",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物",
+      "光合作用"
+    ],
+    "question": "光合作用的原料是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "有机物和氧气"
+      },
+      {
+        "label": "B",
+        "text": "二氧化碳和水"
+      },
+      {
+        "label": "C",
+        "text": "叶绿素和光"
+      },
+      {
+        "label": "D",
+        "text": "无机物和光"
+      }
+    ],
+    "answer": "B",
+    "explanation": "光合作用：二氧化碳+水 → 有机物+氧气。光和叶绿素是光合作用的条件而非原料。"
+  },
+  {
+    "id": "biology-064",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-动物",
+      "消化系统"
+    ],
+    "question": "人体消化系统中，既有消化功能又有吸收功能的器官是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "口腔"
+      },
+      {
+        "label": "B",
+        "text": "胃"
+      },
+      {
+        "label": "C",
+        "text": "小肠"
+      },
+      {
+        "label": "D",
+        "text": "大肠"
+      }
+    ],
+    "answer": "C",
+    "explanation": "小肠是消化和吸收的主要场所：长约5-6米，内表面积大，含有多种消化液，且毛细血管丰富，利于吸收。"
+  },
+  {
+    "id": "biology-065",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-人体",
+      "血液循环"
+    ],
+    "question": "血液循环的动力器官是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "心脏"
+      },
+      {
+        "label": "B",
+        "text": "肺"
+      },
+      {
+        "label": "C",
+        "text": "肝脏"
+      },
+      {
+        "label": "D",
+        "text": "肾脏"
+      }
+    ],
+    "answer": "A",
+    "explanation": "心脏是血液循环的动力器官，通过收缩和舒张推动血液在全身循环流动。"
+  },
+  {
+    "id": "biology-066",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-细胞",
+      "细胞结构"
+    ],
+    "question": "植物细胞和动物细胞都具有的结构是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "叶绿体"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "液泡"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细胞核是动植物细胞共有的结构；细胞壁、叶绿体是植物细胞特有的。"
+  },
+  {
+    "id": "biology-067",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-微生物",
+      "细菌"
+    ],
+    "question": "细菌与植物细胞的主要区别是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "没有细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "没有细胞膜"
+      },
+      {
+        "label": "C",
+        "text": "没有成形的细胞核"
+      },
+      {
+        "label": "D",
+        "text": "没有细胞质"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细菌是原核生物，没有成形的细胞核；植物细胞是真核生物，有成形的细胞核。"
+  },
+  {
+    "id": "biology-068",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-遗传",
+      "基因"
+    ],
+    "question": "人的体细胞中有23对染色体，生殖细胞中有",
+    "choices": [
+      {
+        "label": "A",
+        "text": "23对"
+      },
+      {
+        "label": "B",
+        "text": "23条"
+      },
+      {
+        "label": "C",
+        "text": "46条"
+      },
+      {
+        "label": "D",
+        "text": "46对"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在形成生殖细胞时，染色体数目减半，所以精子或卵细胞中各有23条染色体。"
+  },
+  {
+    "id": "biology-069",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物",
+      "呼吸作用"
+    ],
+    "question": "植物呼吸作用的意义是",
+    "choices": [
+      {
+        "label": "A",
+        "text": "合成有机物，储存能量"
+      },
+      {
+        "label": "B",
+        "text": "分解有机物，释放能量"
+      },
+      {
+        "label": "C",
+        "text": "吸收二氧化碳，释放氧气"
+      },
+      {
+        "label": "D",
+        "text": "光合作用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "呼吸作用：分解有机物，释放能量。光合作用才是合成有机物、储存能量、释放氧气。"
+  },
+  {
+    "id": "biology-070",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-动物",
+      "反射"
+    ],
+    "question": "膝跳反射的神经中枢位于",
+    "choices": [
+      {
+        "label": "A",
+        "text": "大脑皮层"
+      },
+      {
+        "label": "B",
+        "text": "脊髓"
+      },
+      {
+        "label": "C",
+        "text": "小脑"
+      },
+      {
+        "label": "D",
+        "text": "脑干"
+      }
+    ],
+    "answer": "B",
+    "explanation": "膝跳反射是非条件反射，神经中枢在脊髓。大脑皮层是高级神经中枢，控制条件反射等活动。"
+  },
+  {
+    "id": "biology-071",
+    "type": "short_answer",
+    "subject": "biology",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物",
+      "实验探究"
+    ],
+    "question": "某同学为探究光合作用的条件，设计实验如下：将一株天竺葵放在暗处2天后，选一片叶子，用黑纸片把A处上下两面遮住，B处不遮，然后放到阳光下照射4小时，摘下该叶片，酒精脱色后滴加碘液。\n\n问题：①A处和B处颜色变化是什么？②说明原因。",
+    "answer": "（1）A处（遮光部分）：不变蓝（黄白色）；B处（见光部分）：变蓝。\n\n（2）原因：A处被黑纸遮住，不见光，不能进行光合作用，没有淀粉生成，滴加碘液不变蓝；B处见光，能进行光合作用，合成淀粉，滴加碘液变蓝。这说明光是光合作用的必要条件。",
+    "explanation": "本实验通过遮光和见光的对照，证明光是光合作用的必要条件，淀粉是光合作用的产物。"
+  },
+  {
+    "id": "biology-072",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-消化系统"
+    ],
+    "question": "人体最大的消化腺是_____。",
+    "answer": "肝脏",
+    "explanation": "根据生物知识填写：肝脏"
+  },
+  {
+    "id": "biology-073",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-光合作用"
+    ],
+    "question": "植物光合作用：二氧化碳 + 水 → 有机物 + _____。",
+    "answer": "氧气",
+    "explanation": "根据生物知识填写：氧气"
+  },
+  {
+    "id": "biology-074",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-神经系统"
+    ],
+    "question": "神经系统结构和功能的基本单位是_____。",
+    "answer": "神经元",
+    "explanation": "根据生物知识填写：神经元"
+  },
+  {
+    "id": "biology-075",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-遗传"
+    ],
+    "question": "ABO血型系统中，A型血型的基因型是AA或_____。",
+    "answer": "AO",
+    "explanation": "根据生物知识填写：AO"
+  },
+  {
+    "id": "biology-203",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "新陈代谢"
+    ],
+    "question": "下列关于新陈代谢的描述，哪一项是正确的？",
+    "options": [
+      "A. 新陈代谢仅指合成反应",
+      "B. 新陈代谢仅指分解反应",
+      "C. 新陈代谢包括合成反应和分解反应",
+      "D. 新陈代谢只在光照条件下进行"
+    ],
+    "answer": "C",
+    "explanation": "新陈代谢是指细胞内全部的化学反应，既包括把营养物质分解为能量和较小分子的分解反应，也包括利用这些能量把小分子合成为细胞所需物质的合成反应。因此，选项C正确。"
+  },
+  {
+    "id": "biology-204",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物行为"
+    ],
+    "question": "下列哪种行为属于动物的本能（先天性）行为？",
+    "options": [
+      "A. 小狗经过训练后能握手",
+      "B. 蜘蛛自行织网捕食",
+      "C. 猫在主人回家时叫",
+      "D. 鹦鹉模仿人类说话"
+    ],
+    "answer": "B",
+    "explanation": "蜘蛛织网是天生具备的能力，不需要后天学习，属于本能行为；而其他选项（握手、叫喊、模仿说话）都是通过学习或后天经验获得的。"
+  },
+  {
+    "id": "biology-205",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物多样性"
+    ],
+    "question": "生物多样性通常包括哪三个层次？",
+    "options": [
+      "A. 基因多样性、物种多样性、生态系统多样性",
+      "B. 基因多样性、种群多样性、生态系统多样性",
+      "C. 细胞多样性、组织多样性、器官多样性",
+      "D. 气候多样性、土壤多样性、水体多样性"
+    ],
+    "answer": "A",
+    "explanation": "生物多样性是指在基因（或遗传）层面、物种层面以及生态系统层面的多样性，这三个层次共同构成了生物多样性的基本框架。"
+  },
+  {
+    "id": "biology-206",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物细胞"
+    ],
+    "question": "植物细胞与动物细胞的主要区别在于植物细胞具有以下哪种结构？",
+    "options": [
+      "A. 细胞壁和叶绿体",
+      "B. 线粒体",
+      "C. 核糖体",
+      "D. 细胞膜"
+    ],
+    "answer": "A",
+    "explanation": "细胞壁和叶绿体是植物细胞特有的结构，线粒体、核糖体和细胞膜在动物细胞中同样存在。因此选项A正确。"
+  },
+  {
+    "id": "biology-207",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "食物链"
+    ],
+    "question": "在某草原生态系统中，存在草、蚱蜢、青蛙、蛇、老鹰等生物，它们之间构成了多条食物链。下列关于食物链的叙述，正确的是：",
+    "options": [
+      "A. 食物链应从动物开始，写到植物结束",
+      "B. 能量在食物链中逐级递增",
+      "C. 食物链中的每一种生物都可能被多种生物捕食",
+      "D. 食物链中的分解者必须写入食物链中"
+    ],
+    "answer": "C",
+    "explanation": "食物链中的每一种生物（除了生产者）都可能被多种生物捕食，如兔子可能被蛇和老鹰捕食，这体现了生态系统的复杂性，A选项错误，食物链应从生产者开始；B选项错误，能量在食物链中是逐级递减的；D选项错误，分解者不参与食物链，主要参与物质循环，本题选C。"
+  },
+  {
+    "id": "biology-208",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物"
+    ],
+    "question": "在光照条件下，植物通过光合作用制造有机物，光合作用主要发生在细胞的哪个结构中？",
+    "options": [
+      "A. 叶绿体",
+      "B. 线粒体",
+      "C. 细胞核",
+      "D. 细胞壁"
+    ],
+    "answer": "A",
+    "explanation": "光合作用在叶绿体中进行，叶绿体含有叶绿素，能够捕获光能并将其转化为化学能，合成葡萄糖等有机物；其他结构如线粒体、细胞核、细胞壁不进行光合作用。"
+  },
+  {
+    "id": "biology-209",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-动物"
+    ],
+    "question": "下列动物中，属于恒温动物且具有乳腺的是（ ）。",
+    "options": [
+      "A. 青蛙",
+      "B. 猫",
+      "C. 蛇",
+      "D. 蟾蜍"
+    ],
+    "answer": "B",
+    "explanation": "猫属于哺乳动物，哺乳动物是恒温动物，并且具有乳腺，能够分泌乳汁喂养幼崽。而青蛙、蛇和蟾蜍均为变温动物，且没有乳腺。"
+  },
+  {
+    "id": "biology-210",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "消化系统"
+    ],
+    "question": "以下关于人体消化系统的描述中，正确的是（ ）。",
+    "options": [
+      "A. 蛋白质在胃中被胰液分解为氨基酸",
+      "B. 小肠是营养物质吸收的主要场所",
+      "C. 胃只分泌胃酸，没有酶",
+      "D. 大肠主要负责营养物质的消化"
+    ],
+    "answer": "B",
+    "explanation": "小肠内壁有绒毛和微绒毛，极大增加表面积，是营养物质（葡萄糖、氨基酸、脂肪酸等）被吸收进入血液的主要部位；而其他选项的描述均有错误：蛋白质在胃中主要由胃蛋白酶（胃酸和胃蛋白酶原）作用分解，进入小肠后由胰液进一步分解；胃除了分泌胃酸外，还分泌胃蛋白酶原；大肠主要吸收水分和电解质，负责形成粪便，而不是进行营养物质的消化。"
+  },
+  {
+    "id": "biology-211",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-人体"
+    ],
+    "question": "人体中负责吸收营养物质的主要器官是（ ）。",
+    "options": [
+      "A. 胃",
+      "B. 小肠",
+      "C. 大肠",
+      "D. 肝脏"
+    ],
+    "answer": "B",
+    "explanation": "小肠内壁有大量绒毛和微绒毛，极大增加吸收面积，是营养物质吸收的主要场所。"
+  },
+  {
+    "id": "biology-212",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "血液循环"
+    ],
+    "question": "人体血液循环中，血液从左心室出发后，会先经过哪些主要结构？",
+    "options": [
+      "A. 主动脉 → 全身毛细血管 → 右心房",
+      "B. 肺动脉 → 肺毛细血管 → 左心房",
+      "C. 主动脉 → 全身毛细血管 → 右心室",
+      "D. 肺动脉 → 肺部毛细血管 → 左心房"
+    ],
+    "answer": "A",
+    "explanation": "左心室收缩将富氧血泵入主动脉，主动脉把血液输送到全身毛细血管进行气体与营养交换，随后血液经静脉回流至右心房，完成体循环。"
+  },
+  {
+    "id": "biology-213",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-微生物"
+    ],
+    "question": "酸奶的制作过程中，常加入哪种微生物进行发酵，使其产生酸味并使牛奶凝固？",
+    "options": [
+      "A. 病毒",
+      "B. 酵母菌",
+      "C. 乳酸菌",
+      "D. 大肠杆菌"
+    ],
+    "answer": "C",
+    "explanation": "乳酸菌（如乳酸链球菌）能够将牛奶中的乳糖分解为乳酸，导致牛奶酸化并凝固，是酸奶发酵的主要微生物。"
+  },
+  {
+    "id": "biology-214",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "细菌"
+    ],
+    "question": "以下关于细菌的说法中，正确的是：",
+    "options": [
+      "A. 细菌是动物细胞，具有细胞核",
+      "B. 细菌可以通过光合作用自行制造有机物",
+      "C. 细菌属于原核生物，细胞内没有成形的细胞核",
+      "D. 细菌只在极端环境中生存"
+    ],
+    "answer": "C",
+    "explanation": "细菌是原核生物，细胞内没有成形的细胞核，DNA集中在核区；而动物细胞有细胞核；大多数细菌不能光合作用；细菌分布广泛，不仅在极端环境中。"
+  },
+  {
+    "id": "biology-215",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-遗传"
+    ],
+    "question": "某对父母的基因型分别为Aa和Aa，若只考虑单基因遗传，子代中基因型为AA的概率是（ ）。",
+    "options": [
+      "A. 0%",
+      "B. 25%",
+      "C. 50%",
+      "D. 75%"
+    ],
+    "answer": "B",
+    "explanation": "利用孟德尔的Punnett方格，Aa×Aa的交配会产生四种等可能的基因型组合：AA、Aa、aA、aa。其中AA占1/4，即25%。因此正确答案是B。"
+  },
+  {
+    "id": "biology-216",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "基因"
+    ],
+    "question": "下列关于基因的说法，正确的是？",
+    "options": [
+      "A. 基因是DNA分子上具有遗传效应的片段",
+      "B. 基因是由蛋白质组成的",
+      "C. 基因只在细胞核中出现",
+      "D. 基因在不同细胞中数量会发生变化"
+    ],
+    "answer": "A",
+    "explanation": "基因是DNA分子上具有遗传效应的特定片段，负责编码蛋白质或调控其他基因的表达，从而决定生物的性状。基因由脱氧核糖核酸（DNA）构成，而不是蛋白质；虽然大多数基因位于细胞核的染色体上，但也有少量基因存在于线粒体等细胞器中；基因在个体的所有体细胞中数量基本相同，只是表达水平不同。"
+  },
+  {
+    "id": "biology-217",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "反射"
+    ],
+    "question": "以下哪种情况最符合反射（reflex）的特征？",
+    "options": [
+      "A. 触碰到烫的物体后，手会立即不由自主地缩回",
+      "B. 课堂上听到老师提问后主动举手回答",
+      "C. 看到红灯亮起时自觉停车等待",
+      "D. 吃完饭后感觉胃部胀满，产生饱腹感"
+    ],
+    "answer": "A",
+    "explanation": "反射是一种不受意识控制的、快速进行的、由感受器、传入神经、神经中枢、传出神经和效应器共同完成的生理反应。触碰烫物体后手自动缩回属于典型的反射动作；而B、C、D 均涉及意识决定或更高级的神经活动，属于随意行为或条件反射，不是单纯的反射。"
+  },
+  {
+    "id": "biology-218",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-神经系统"
+    ],
+    "question": "在人的神经系统中，完成膝跳反射的反射弧的组成部分包括（    ）。",
+    "options": [
+      "A. 感受器 → 传入神经 → 脊髓（神经中枢） → 传出神经 → 效应器",
+      "B. 感受器 → 传出神经 → 脊髓（神经中枢） → 传入神经 → 效应器",
+      "C. 脊髓（神经中枢） → 感受器 → 传入神经 → 传出神经 → 效应器",
+      "D. 感受器 → 脊髓（神经中枢） → 传入神经 → 传出神经 → 效应器"
+    ],
+    "answer": "A",
+    "explanation": "反射弧的基本顺序是感受器接收刺激，传入神经（感觉神经元）把信息传至神经中枢（常为脊髓），神经中枢处理后通过传出神经（运动神经元）把指令传至效应器，使肌肉或腺体产生反应。因此选项A的顺序是正确的。"
+  }
+]

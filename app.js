@@ -52,30 +52,57 @@ const K = {
 };
 
 const VERSION_URL = 'version.json';
-const QUESTION_PACK_URL = 'questions/question_bank_v2.json';
+const INDEX_URL = 'questions/index.json';
 const SUBJECTS = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
+
+// Legacy key — kept for migration
+const LEGACY_QB_CACHE = 'question_bank_cache';
 
 function createEmptyQuestionBank() {
   return { math: [], english: [], chinese: [], physics: [], chemistry: [], biology: [], history: [], geography: [], politics: [] };
 }
 
-function groupQuestionsBySubject(questions = []) {
-  const grouped = createEmptyQuestionBank();
-  questions.forEach(question => {
-    if (grouped[question.subject]) {
-      grouped[question.subject].push(question);
-    }
-  });
-  return grouped;
+// Migrate legacy question_bank_cache to new per-subject index.json format
+async function migrateLegacyQB() {
+  const cached = await get(LEGACY_QB_CACHE);
+  if (!cached || typeof cached !== 'object') return null;
+  // Already migrated (flat map)?
+  if (Array.isArray(cached)) return null;
+  const migrated = await fetchQuestionPack({ force: true });
+  await del(LEGACY_QB_CACHE);
+  console.log('[QB] 迁移: legacy question_bank_cache → index.json 格式');
+  return migrated;
 }
 
 async function fetchQuestionPack({ force = false } = {}) {
-  const requestUrl = force ? `${QUESTION_PACK_URL}?_=${Date.now()}` : QUESTION_PACK_URL;
-  const response = await fetch(requestUrl, force ? { cache: 'no-store' } : undefined);
-  if (!response.ok) {
-    throw new Error(`题库加载失败: ${response.status}`);
+  // Fetch index
+  const idxUrl = force ? `${INDEX_URL}?_=${Date.now()}` : INDEX_URL;
+  const idxResp = await fetch(idxUrl, force ? { cache: 'no-store' } : undefined);
+  if (!idxResp.ok) throw new Error(`题库索引加载失败: ${idxResp.status}`);
+  const index = await idxResp.json();
+
+  // Parallel load all subject files
+  const results = await Promise.all(
+    SUBJECTS.map(async (subj) => {
+      const info = index.subjects?.[subj];
+      if (!info) return [subj, []];
+      const url = `questions/${info.file}`;
+      try {
+        const resp = await fetch(force ? `${url}?_=${Date.now()}` : url, force ? { cache: 'no-store' } : undefined);
+        if (!resp.ok) return [subj, []];
+        const data = await resp.json();
+        return [subj, Array.isArray(data) ? data : []];
+      } catch (e) {
+        return [subj, []];
+      }
+    })
+  );
+
+  const grouped = createEmptyQuestionBank();
+  for (const [subj, qs] of results) {
+    grouped[subj] = qs;
   }
-  return groupQuestionsBySubject(await response.json());
+  return grouped;
 }
 
 function hasQuestionPackUpdate() {
@@ -100,8 +127,18 @@ async function init() {
   state.remoteVersions = await checkForAppUpdate();
 
   // Load question bank: cache first, then refresh from network if cache is stale
-  const cached = await get(K.QB_CACHE);
-  state.questionBank = cached || createEmptyQuestionBank();
+  // Migrate legacy flat question_bank_cache if present
+  const legacyCached = await get(LEGACY_QB_CACHE);
+  if (legacyCached && typeof legacyCached === 'object' && !Array.isArray(legacyCached)) {
+    // Legacy format found — migrate to new per-subject format
+    const migrated = await fetchQuestionPack({ force: true });
+    await del(LEGACY_QB_CACHE);
+    state.questionBank = migrated;
+    await set(K.QB_CACHE, migrated);
+  } else {
+    const cached = await get(K.QB_CACHE);
+    state.questionBank = cached || createEmptyQuestionBank();
+  }
   fetchQuestionPack({ force: true })
     .then(async (grouped) => {
       state.questionBank = grouped;
