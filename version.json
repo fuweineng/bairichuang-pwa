@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "questionBankVersion": "20260414-1",
+  "questionBankVersion": "20260415-1",
   "audioVersion": "20260413",
-  "updatedAt": "2026-04-14",
-  "changelog": "重构首页：单屏分层（streak+chart+今日状态+补弱+全科CTA），移除模式选择栏和科目网格"
+  "updatedAt": "2026-04-15",
+  "changelog": "题库扩充：1568题（english/chemistry/math/物理等科目补充）"
 }
