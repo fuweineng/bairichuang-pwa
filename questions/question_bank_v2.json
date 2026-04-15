@@ -26485,365 +26485,992 @@
     "explanation": "立意是指确定文章的中心思想，明确写作目的和主题，这是写作过程的第一步，其他步骤都应在立意之后进行。"
   },
   {
-    "id": "biology-203",
+    "id": "english-318",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "光合作用"
+      "现在完成时"
     ],
-    "question": "在光合作用的总体化学方程式 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ 中，产生的氧气（O₂）主要来源于哪种反应物？",
+    "question": "Which of the following sentences uses the present perfect tense correctly?",
     "options": [
-      "A. CO₂",
-      "B. H₂O",
-      "C. 光能",
-      "D. 叶绿素"
+      "A. She has visited Paris twice.",
+      "B. She visited Paris twice.",
+      "C. She has visit Paris twice.",
+      "D. She visits Paris twice."
     ],
-    "answer": "B",
-    "explanation": "在光合作用的光反应阶段，叶绿体的光系统II通过光解水（photolysis）把水分子分解成氧气、质子和电子，产生的 O₂ 因此来源于 H₂O。"
+    "answer": "A",
+    "explanation": "The present perfect is formed with 'have/has' followed by the past participle. 'Has visited' correctly uses 'has' (third‑person singular) plus the past participle 'visited'."
   },
   {
-    "id": "biology-204",
+    "id": "english-319",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "新陈代谢"
+      "句型转换"
     ],
-    "question": "下列关于新陈代谢的说法，正确的是（ ）。",
+    "question": "Transform the following sentence into passive voice: 'The cat caught the mouse.'",
     "options": [
-      "A. 新陈代谢仅指细胞内的分解反应。",
-      "B. 新陈代谢包括合成代谢和分解代谢，两者相互依存。",
-      "C. 酶只在新陈代谢的合成阶段起作用。",
-      "D. 新陈代谢产生的能量主要以光能形式储存。"
+      "A. The mouse was caught by the cat.",
+      "B. The mouse caught the cat.",
+      "C. The mouse is catching the cat.",
+      "D. The cat is caught by the mouse."
     ],
-    "answer": "B",
-    "explanation": "新陈代谢是细胞内所有化学反应的集合，包括合成代谢（合成大分子）和分解代谢（分解大分子并释放能量），两者相互依存、共同维持生命活动。酶在合成和分解代谢中都起催化作用，能量主要以化学能（如ATP）的形式储存，而不是光能。"
+    "answer": "A",
+    "explanation": "In passive voice, the object (the mouse) becomes the subject, the verb is changed to a form of 'be' (was) plus the past participle (caught), and the original subject (the cat) is placed after 'by'."
   },
   {
-    "id": "biology-205",
+    "id": "english-320",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "动物行为"
+      "宾语从句"
     ],
-    "question": "以下哪种行为属于动物的后天学习行为？",
+    "question": "Which sentence contains an object clause?",
     "options": [
-      "A. 蜘蛛织网捕食",
-      "B. 小鸡跟随母鸡学习找食",
-      "C. 蛇在冬季进入休眠状态",
-      "D. 蝴蝶迁徙"
+      "A. She likes to read books.",
+      "B. I wonder what she is doing.",
+      "C. The book is interesting.",
+      "D. He gave me a gift."
     ],
     "answer": "B",
-    "explanation": "后天学习行为是指动物在出生后通过经验、模仿或训练获得的。小鸡跟随母鸡寻找食物是一种学习行为，而其他选项均为先天行为或本能。"
+    "explanation": "In option B, the clause 'what she is doing' serves as the object of the verb 'wonder', making it an object clause."
   },
   {
-    "id": "biology-206",
+    "id": "english-321",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "生物与环境"
+      "定语从句"
     ],
-    "question": "以下关于生物与环境关系的说法，正确的是",
+    "question": "The movie ______ we watched last night was fantastic.",
     "options": [
-      "A. 生物只能适应环境，不能影响环境",
-      "B. 人类活动不影响其他生物的生存",
-      "C. 生物的分布受非生物因素影响",
-      "D. 所有生物在任何环境中都能生存"
+      "A. who",
+      "B. which",
+      "C. that",
+      "D. whom"
     ],
     "answer": "C",
-    "explanation": "生物与环境是相互作用的关系，生物既受环境因素影响，也对环境产生影响。选项A忽略了生物对环境的反作用，选项B错误地认为人类活动不影响其他生物，选项D忽视了生物对特定环境条件的适应性。因此，只有选项C正确，生物的分布确实受非生物因素（如温度、光照、水分等）的影响。"
+    "explanation": "在本句中，空白处需要一个关系代词来引导定语从句，修饰先行词“the movie”。先行词是事物，关系代词可以用that或which，但在四个选项中，that是更合适的选项。who和whom用于指人，which可以指物，但在本题的语境下，that最常用且符合英语语法规则。"
   },
   {
-    "id": "biology-207",
+    "id": "english-322",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "植物结构"
+      "状语从句"
     ],
-    "question": "在叶片的横切面中，位于上表皮下方、细胞排列紧密、呈栅栏状的细胞群称为（ ）。",
+    "question": "_____ she didn't study, she still passed the exam.",
     "options": [
-      "A. 表皮细胞",
-      "B. 栅栏组织",
-      "C. 海绵组织",
-      "D. 维管束"
+      "A. Although",
+      "B. Because",
+      "C. When",
+      "D. Unless"
+    ],
+    "answer": "A",
+    "explanation": "Although introduces a concessive adverbial clause, indicating a contrast between not studying and still passing the exam."
+  },
+  {
+    "id": "english-323",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词性转换"
+    ],
+    "question": "Which of the following is the correct adverb form of the adjective 'quick'?",
+    "options": [
+      "A. quick",
+      "B. quickly",
+      "C. quicker",
+      "D. quickness"
     ],
     "answer": "B",
-    "explanation": "栅栏组织位于上表皮下方，细胞呈栅栏状排列，富含叶绿体，是光合作用的主要场所；表皮细胞覆盖叶片表面；海绵组织细胞形状不规则，位于栅栏组织下方；维管束负责运输水分和养分。"
+    "explanation": "The adjective 'quick' changes to the adverb 'quickly' by adding the suffix -ly, which is a common word‑class conversion (词性转换) from adjective to adverb."
   },
   {
-    "id": "biology-208",
+    "id": "english-324",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "植物细胞"
+      "主旨大意"
     ],
-    "question": "以下哪个结构不属于植物细胞？",
+    "question": "Read the short passage and choose the best main idea.\n\n\"During the summer, many families travel to the beach. They enjoy swimming, building sandcastles, and watching the sunset. The beach provides a fun and relaxing escape from everyday life.\"\n\nWhat is the main idea of this passage?",
     "options": [
-      "A. 细胞壁",
-      "B. 叶绿体",
-      "C. 线粒体",
-      "D. 中心体"
+      "A. Families travel to the beach only in winter.",
+      "B. The beach is a popular summer vacation spot for relaxation and fun.",
+      "C. Building sandcastles is the most important beach activity.",
+      "D. Sunsets are more beautiful at the beach than elsewhere."
+    ],
+    "answer": "B",
+    "explanation": "The passage describes families going to the beach during summer and enjoying various activities, emphasizing that the beach offers fun and relaxation. Option B captures this overall message."
+  },
+  {
+    "id": "english-325",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-时态"
+    ],
+    "question": "Choose the correct verb form to complete the sentence: \"If I ___ the exam, I will go to the beach.\"",
+    "options": [
+      "A. pass",
+      "B. passes",
+      "C. passed",
+      "D. will pass"
+    ],
+    "answer": "A",
+    "explanation": "In a first conditional sentence, we use the present simple after 'if' to refer to a future situation, so 'pass' is the correct choice."
+  },
+  {
+    "id": "english-326",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-被动语态"
+    ],
+    "question": "Which of the following sentences is in the passive voice?",
+    "options": [
+      "A. The teacher explains the lesson.",
+      "B. The students finished the project yesterday.",
+      "C. The book was read by the class.",
+      "D. He writes a letter every day."
+    ],
+    "answer": "C",
+    "explanation": "In a passive sentence, the object of the active sentence becomes the subject and the verb is in past participle form, often followed by 'by'. Here, 'The book' is the subject, and the verb 'was read' shows the passive voice."
+  },
+  {
+    "id": "english-327",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-从句"
+    ],
+    "question": "Which of the following sentences contains a subordinate clause?",
+    "options": [
+      "A. The dog barked loudly.",
+      "B. My friend, who lives next door, is a doctor.",
+      "C. She sang and danced.",
+      "D. We will go to the park."
+    ],
+    "answer": "B",
+    "explanation": "The clause 'who lives next door' is a relative (subordinate) clause that modifies 'My friend'."
+  },
+  {
+    "id": "english-328",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-情态动词"
+    ],
+    "question": "Which sentence uses the modal verb \"can\" correctly?",
+    "options": [
+      "A. She can to speak three languages.",
+      "B. She can speak three languages.",
+      "C. She can speaks three languages.",
+      "D. She can speaking three languages."
+    ],
+    "answer": "B",
+    "explanation": "\"Can\" is a modal verb followed directly by the base form of the verb without \"to\". In option B, \"can speak\" is grammatically correct. Options A, C, and D incorrectly add \"to\", \"s\", or \"ing\" after \"can\"."
+  },
+  {
+    "id": "english-329",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇拼写"
+    ],
+    "question": "Which of the following words is spelled correctly?",
+    "options": [
+      "A. recieve",
+      "B. receive",
+      "C. recieve",
+      "D. receeve"
+    ],
+    "answer": "B",
+    "explanation": "The correct spelling is 'receive', which follows the 'i before e except after c' rule."
+  },
+  {
+    "id": "english-330",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-介词"
+    ],
+    "question": "The cat is sitting ___ the table.",
+    "options": [
+      "A. on",
+      "B. in",
+      "C. under",
+      "D. with"
+    ],
+    "answer": "C",
+    "explanation": "The correct preposition is 'under', indicating that the cat is beneath the table."
+  },
+  {
+    "id": "english-331",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-非谓语"
+    ],
+    "question": "I saw him _____ the piano.",
+    "options": [
+      "A. play",
+      "B. playing",
+      "C. played",
+      "D. to play"
+    ],
+    "answer": "B",
+    "explanation": "In the structure 'see + object + non‑finite verb', the present participle (‑ing) is used to describe an action that was observed happening. Here, 'playing' shows the action in progress, so option B is correct."
+  },
+  {
+    "id": "english-332",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-比较级"
+    ],
+    "question": "Choose the correct comparative form to complete the sentence: \"This problem is ___ than the last one.\"",
+    "options": [
+      "A. harder",
+      "B. more hard",
+      "C. hardest",
+      "D. more harder"
+    ],
+    "answer": "A",
+    "explanation": "'Hard' is a one‑syllable adjective, so its comparative form is 'harder'. The correct structure is adjective + -er + than, not 'more hard' or 'hardest'."
+  },
+  {
+    "id": "english-333",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-倒装"
+    ],
+    "question": "Only after the concert ended _________ we could leave.",
+    "options": [
+      "A. we could leave",
+      "B. could we leave",
+      "C. we can leave",
+      "D. we left"
+    ],
+    "answer": "B",
+    "explanation": "当“Only after...”“等否定或限定性状语位于句首时，需要使用倒装结构，即将助动词或情态动词放在主语之前。原句中“Only after the concert ended”后应接倒装形式“could we leave”。因此正确答案是B。"
+  },
+  {
+    "id": "english-334",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-反意疑问句"
+    ],
+    "question": "She likes reading books, ___?",
+    "options": [
+      "A. does she?",
+      "B. doesn't she?",
+      "C. she does?",
+      "D. she doesn't?"
+    ],
+    "answer": "B",
+    "explanation": "In a tag question, we repeat the auxiliary verb from the main clause with opposite polarity. Since the statement is affirmative, the tag must be negative: \"doesn't she?\"."
+  },
+  {
+    "id": "english-335",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-虚拟语气"
+    ],
+    "question": "If I ___ a million dollars, I ___ a new house.",
+    "options": [
+      "A. had / would buy",
+      "B. have / will buy",
+      "C. had / will buy",
+      "D. have / would buy"
+    ],
+    "answer": "A",
+    "explanation": "In a conditional sentence that expresses a hypothetical (unreal) situation, we use the past simple tense in the if‑clause and \"would + base verb\" in the main clause. Therefore, the correct choice is A: \"had\" and \"would buy\"."
+  },
+  {
+    "id": "english-336",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-定语从句"
+    ],
+    "question": "She is the teacher ______ taught me English.",
+    "options": [
+      "A. which",
+      "B. that",
+      "C. who",
+      "D. whose"
+    ],
+    "answer": "C",
+    "explanation": "'Who' is used to refer to people in a defining relative clause. The clause 'who taught me English' describes 'the teacher'."
+  },
+  {
+    "id": "english-337",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-不定式"
+    ],
+    "question": "I want ___ English well.",
+    "options": [
+      "A. learn",
+      "B. learning",
+      "C. to learn",
+      "D. learned"
+    ],
+    "answer": "C",
+    "explanation": "Want后面要接动词不定式（to + 动词原形）作宾语，表示想要做某事。因此正确答案是\"to learn\"。"
+  },
+  {
+    "id": "english-338",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-现在进行时"
+    ],
+    "question": "She ____ (read) a book right now. Which is the correct form?",
+    "options": [
+      "A. reads",
+      "B. is reading",
+      "C. read",
+      "D. will read"
+    ],
+    "answer": "B",
+    "explanation": "现在进行时的构成是 be 动词（am/is/are）+ 动词的 -ing 形式，表示正在进行的动作。主语是 She，需要使用 is，故正确形式为 is reading。"
+  },
+  {
+    "id": "english-339",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-不规则复数"
+    ],
+    "question": "Which of the following nouns has an irregular plural form?",
+    "options": [
+      "A. cat (cats)",
+      "B. mouse (mice)",
+      "C. book (books)",
+      "D. dog (dogs)"
+    ],
+    "answer": "B",
+    "explanation": "The plural of 'mouse' is 'mice', which is an irregular plural, while the other nouns form regular plurals by adding -s."
+  },
+  {
+    "id": "english-340",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-名词性从句"
+    ],
+    "question": "I don’t know _______ .",
+    "options": [
+      "A. where he lives",
+      "B. where does he live",
+      "C. if he lives",
+      "D. he lives"
+    ],
+    "answer": "A",
+    "explanation": "'Where he lives' is a noun clause that functions as the direct object of the verb 'don’t know'. The other options are either not a proper clause (e.g., 'where does he live' is a question form) or a simple statement that doesn’t serve as an object."
+  },
+  {
+    "id": "english-341",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-祈使句"
+    ],
+    "question": "Which of the following is an imperative sentence?",
+    "options": [
+      "A. Close the door.",
+      "B. He closes the door.",
+      "C. Do you close the door?",
+      "D. The door is closed."
+    ],
+    "answer": "A",
+    "explanation": "Option A is an imperative sentence because it gives a command or request to the listener."
+  },
+  {
+    "id": "english-342",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-条件状语从句"
+    ],
+    "question": "Which of the following sentences correctly uses a conditional adverbial clause?",
+    "options": [
+      "A. If it will rain tomorrow, we will cancel the picnic.",
+      "B. If it rains tomorrow, we will cancel the picnic.",
+      "C. If it rained tomorrow, we will cancel the picnic.",
+      "D. If it rains tomorrow, we cancel the picnic."
+    ],
+    "answer": "B",
+    "explanation": "In a first conditional sentence, use the present simple tense in the if‑clause (if it rains) and will + base verb in the main clause (we will cancel). The other options misuse the verb forms."
+  },
+  {
+    "id": "english-343",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-让步状语从句"
+    ],
+    "question": "_____ it was raining, we decided to stay inside.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. Since",
+      "D. When"
+    ],
+    "answer": "B",
+    "explanation": "\"Although\" is a conjunction that introduces a concessive clause, showing a contrast between the rainy weather and the decision to stay inside. \"Because\" and \"since\" express cause/reason, while \"when\" indicates time, none of which fit the concessive meaning here."
+  },
+  {
+    "id": "english-344",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "语法-过去完成时"
+    ],
+    "question": "By the time we arrived at the station, the train ____.",
+    "options": [
+      "A. left",
+      "B. had left",
+      "C. has left",
+      "D. was leaving"
+    ],
+    "answer": "B",
+    "explanation": "The past perfect 'had left' indicates that the train had already departed before we arrived, which is the correct usage."
+  },
+  {
+    "id": "english-345",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-代词"
+    ],
+    "question": "Choose the correct pronoun to fill in the blank: \"_____ is my favorite subject because it is interesting.\"",
+    "options": [
+      "A. He",
+      "B. Him",
+      "C. His",
+      "D. They"
+    ],
+    "answer": "A",
+    "explanation": "The subject of the sentence needs a subject pronoun. \"He\" is a subject pronoun, while \"Him\" is an object pronoun, \"His\" is a possessive adjective/pronoun, and \"They\" is plural. Therefore, \"He\" is the correct choice."
+  },
+  {
+    "id": "english-346",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-形容词"
+    ],
+    "question": "Which of the following words is an adjective?",
+    "options": [
+      "A. quickly",
+      "B. beautiful",
+      "C. runs",
+      "D. happily"
+    ],
+    "answer": "B",
+    "explanation": "'Beautiful' is an adjective because it describes a noun; the other words are adverbs or verbs."
+  },
+  {
+    "id": "english-347",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词汇-介词"
+    ],
+    "question": "He is interested ____ learning new languages.",
+    "options": [
+      "A. in",
+      "B. on",
+      "C. for",
+      "D. at"
+    ],
+    "answer": "A",
+    "explanation": "The correct preposition to use after 'interested' is 'in', as in 'interested in learning new languages'."
+  },
+  {
+    "id": "english-348",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "购物"
+    ],
+    "question": "You are at a grocery store and want to know how much of a product the shop has. Which of the following sentences is grammatically correct?",
+    "options": [
+      "A. How many sugar do you have?",
+      "B. How much sugar do you have?",
+      "C. How many sugars do you have?",
+      "D. How much sugars do you have?"
+    ],
+    "answer": "B",
+    "explanation": "'Sugar' is an uncountable noun, so we use 'how much' to ask about its quantity. 'How many' is used with countable nouns, and we do not add an -s after 'sugar' because it is uncountable."
+  },
+  {
+    "id": "english-349",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "比赛结果"
+    ],
+    "question": "Which sentence correctly reports the result of the match where Team A beat Team B 2‑1?",
+    "options": [
+      "A. Team A won 2‑1.",
+      "B. Team A loss 2‑1.",
+      "C. Team A draw 2‑1.",
+      "D. Team A beaten 2‑1."
+    ],
+    "answer": "A",
+    "explanation": "We use the verb 'win' (past tense 'won') to describe the team that beats the opponent. 'Loss' is a noun or verb but not used correctly here; 'draw' is a verb meaning to tie, not to win; 'beaten' is a past participle requiring an auxiliary verb such as 'was' or 'were'."
+  },
+  {
+    "id": "english-350",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "日程"
+    ],
+    "question": "Which word best completes the sentence: 'According to today's ___, we will have math class first.'",
+    "options": [
+      "A. schedule",
+      "B. scheduled",
+      "C. scheduling",
+      "D. scheduler"
+    ],
+    "answer": "A",
+    "explanation": "In this sentence, we need a noun to mean 'a plan of what is going to happen and when.' 'Schedule' is the correct noun form meaning a plan of events or appointments. 'Scheduled' is the past tense verb form, 'scheduling' is the present participle or gerund, and 'scheduler' refers to a person who makes schedules."
+  },
+  {
+    "id": "english-351",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "问路"
+    ],
+    "question": "Which of the following is the most appropriate way to ask for directions to a place?",
+    "options": [
+      "A. Where is the library?",
+      "B. How can I go to the library?",
+      "C. Could you tell me how to get to the library?",
+      "D. What is the library?"
+    ],
+    "answer": "C",
+    "explanation": "Option C uses a polite request structure with \"Could you tell me how to get to...\" which is the standard, courteous way to ask for directions in English. Options A, B, and D either sound blunt or are not proper question forms for asking directions."
+  },
+  {
+    "id": "english-352",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "指路"
+    ],
+    "question": "Which sentence correctly gives directions to the library?",
+    "options": [
+      "A. Go straight for two blocks, then turn left at the traffic light.",
+      "B. Going straight for two blocks, then turn left at the traffic light.",
+      "C. Go straight for two blocks, then left at the traffic light.",
+      "D. Going straight for two blocks, then left at the traffic light."
+    ],
+    "answer": "A",
+    "explanation": "Option A uses the correct imperative form “Go” and the proper prepositional phrase “turn left at the traffic light.” The other options either use a dangling participle (“Going”) or omit necessary words, making them grammatically incorrect for giving directions."
+  },
+  {
+    "id": "english-353",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "学习方法"
+    ],
+    "question": "Which of the following is the most effective way to improve your English grammar?",
+    "options": [
+      "A. Memorizing all vocabulary lists without context",
+      "B. Watching English movies without subtitles",
+      "C. Doing regular grammar exercises and reviewing mistakes",
+      "D. Reading only English comic books"
+    ],
+    "answer": "C",
+    "explanation": "Regular practice with grammar exercises and analyzing errors helps reinforce correct structures. The other options may provide exposure but lack focused practice, making them less effective for improving grammar."
+  },
+  {
+    "id": "english-354",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "邀请"
+    ],
+    "question": "Which sentence correctly uses the verb \"invite\" to ask someone to a party?",
+    "options": [
+      "A. I invite you to come to my birthday party.",
+      "B. I inviting you to come to my birthday party.",
+      "C. I invited you to come to my birthday party.",
+      "D. I invites you to come to my birthday party."
+    ],
+    "answer": "A",
+    "explanation": "In the present simple tense with the subject \"I\", the correct form of the verb \"invite\" is \"invite\". Option A uses this form correctly, while the other options use incorrect verb forms."
+  },
+  {
+    "id": "english-355",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "交通方式"
+    ],
+    "question": "I usually travel to school ____.",
+    "options": [
+      "A. by car",
+      "B. on car",
+      "C. with car",
+      "D. in car"
+    ],
+    "answer": "A",
+    "explanation": "We use the preposition 'by' with means of transport, and no article follows it. Therefore, the correct sentence is 'I usually travel to school by car.'"
+  },
+  {
+    "id": "english-356",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "预约"
+    ],
+    "question": "Which sentence is the correct way to ask for a reservation at a restaurant?",
+    "options": [
+      "A. I'd like to make a reservation for two people.",
+      "B. I want reservation for two people.",
+      "C. I want to make reservation for two people.",
+      "D. I would like making reservation."
+    ],
+    "answer": "A",
+    "explanation": "In English, the correct phrase is \"make a reservation\" or \"reserve a table\". The infinitive \"make\" is used, and a reservation is for something; thus, option A is grammatically correct."
+  },
+  {
+    "id": "english-357",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "场合"
+    ],
+    "question": "Which of the following sentences is most appropriate to use when greeting a new business partner?",
+    "options": [
+      "A. Hey, what's up?",
+      "B. Good morning, it's a pleasure to meet you.",
+      "C. Yo! Long time no see!",
+      "D. Hiya! How's it going?"
+    ],
+    "answer": "B",
+    "explanation": "When meeting a new business partner, a formal greeting such as 'Good morning, it's a pleasure to meet you.' is appropriate, while the other options are too informal."
+  },
+  {
+    "id": "english-358",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "原因"
+    ],
+    "question": "Which sentence correctly uses a cause‑and‑effect expression?",
+    "options": [
+      "A. Because his late arrival, the meeting started late.",
+      "B. Because of his late arrival, the meeting started late.",
+      "C. Since his late arrival, the meeting started late.",
+      "D. So his late arrival, the meeting started late."
+    ],
+    "answer": "B",
+    "explanation": "‘Because of’ is followed by a noun phrase (his late arrival), while ‘because’ introduces a clause. The sentence needs a preposition that links the reason (a noun phrase) to the result, so ‘Because of his late arrival, the meeting started late.’ is the only grammatically correct choice."
+  },
+  {
+    "id": "english-359",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学"
+    ],
+    "question": "Which of the following sentences uses correct subject‑verb agreement with a mathematical expression?",
+    "options": [
+      "A. Five and three are seven.",
+      "B. Five and three is seven.",
+      "C. Five plus three make seven.",
+      "D. Five plus three makes seven."
     ],
     "answer": "D",
-    "explanation": "细胞壁、叶绿体和线粒体都是植物细胞中常见的结构，而中心体（又叫中心粒）主要存在于动物细胞和某些低等植物的生殖细胞中，成熟的植物细胞通常没有中心体，因此选项D是正确的。"
+    "explanation": "In English, when a mathematical expression uses the word 'plus', the phrase is treated as a singular subject, so the verb should be in the singular form. Therefore 'Five plus three makes seven.' is grammatically correct."
   },
   {
-    "id": "biology-209",
+    "id": "english-360",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "食物链"
+      "复习"
     ],
-    "question": "以下哪个选项正确表示了草原生态系统中一条典型的食物链？",
+    "question": "Choose the correct verb form to complete the sentence: 'She ___ to the library every Saturday.'",
     "options": [
-      "A. 草 → 兔子 → 蛇 → 鹰",
-      "B. 兔子 → 草 → 蛇 → 鹰",
-      "C. 草 → 蛇 → 兔子 → 鹰",
-      "D. 蛇 → 草 → 兔子 → 鹰"
-    ],
-    "answer": "A",
-    "explanation": "在食物链中，能量和物质从生产者（草）流向初级消费者（兔子），再流向次级消费者（蛇），最后到顶级捕食者（鹰）。选项A符合这一顺序。"
-  },
-  {
-    "id": "biology-210",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生物-植物"
-    ],
-    "question": "以下关于植物光合作用的描述，正确的是（ ）。",
-    "options": [
-      "A. 光合作用只在叶片中进行",
-      "B. 光合作用需要光、二氧化碳和水",
-      "C. 光合作用只在白天进行，夜间只进行呼吸作用",
-      "D. 光合作用的唯一产物是氧气"
+      "A. go",
+      "B. goes",
+      "C. going",
+      "D. gone"
     ],
     "answer": "B",
-    "explanation": "光合作用发生在所有含叶绿体的绿色部位，叶片是主要场所但不是唯一的；光合作用需要光能、二氧化碳和水作为原料，产生葡萄糖和氧气；夜间植物仍可进行呼吸作用，光合作用并不是唯一在白天进行的代谢过程；光合作用的产物不仅是氧气，还包括葡萄糖等有机物。因此只有选项B的描述完整且正确。"
+    "explanation": "In the present simple tense, third‑person singular subjects (he, she, it) require the verb to end in -s or -es. Therefore, 'goes' is the correct form."
   },
   {
-    "id": "biology-211",
+    "id": "english-361",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "生物-动物"
+      "作业"
     ],
-    "question": "以下关于动物类群的叙述，正确的是：",
+    "question": "Which of the following sentences correctly uses the noun 'homework'?",
     "options": [
-      "A. 所有哺乳动物都是胎生的",
-      "B. 所有鸟类都会飞行",
-      "C. 鱼类的呼吸器官是鳃",
-      "D. 两栖动物的成体完全用肺呼吸"
-    ],
-    "answer": "C",
-    "explanation": "A选项错误，哺乳动物中也有卵生动物，如鸭嘴兽；B选项错误，并非所有鸟类都会飞行，如企鹅和鸵鸟就不能飞行；C选项正确，鱼类通过鳃进行呼吸，从水中获取氧气；D选项错误，两栖动物的成体除了用肺呼吸外，皮肤也能辅助呼吸。"
-  },
-  {
-    "id": "biology-212",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "消化系统"
-    ],
-    "question": "以下关于人体消化系统的描述，正确的是（ ）",
-    "options": [
-      "A. 胃只进行化学消化，不进行机械消化",
-      "B. 胆汁由胆囊分泌，帮助脂肪的乳化",
-      "C. 小肠是营养物质吸收的主要场所",
-      "D. 大肠是食物进行化学消化和吸收的主要部位"
-    ],
-    "answer": "C",
-    "explanation": "小肠拥有皱襞、绒毛和微绒毛等结构，使其表面积大大增加，能够完成大部分营养物质的消化和吸收，是营养物质进入血液的主要场所。胃虽然也有机械和化学消化，但并非只进行化学消化；胆汁由肝脏分泌，胆囊仅储存胆汁；大肠主要吸收水分和电解质，不进行主要的化学消化和吸收。"
-  },
-  {
-    "id": "biology-213",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生物-人体"
-    ],
-    "question": "人体中负责过滤血液中废物并形成尿液的器官是（）。",
-    "options": [
-      "A. 肾脏",
-      "B. 肝脏",
-      "C. 胃",
-      "D. 心脏"
+      "A. I have a lot of homework today.",
+      "B. I have a lots of homework today.",
+      "C. I have many homework today.",
+      "D. I have some homeworks today."
     ],
     "answer": "A",
-    "explanation": "肾脏是泌尿系统的核心器官，通过肾小球的滤过作用将血液中的代谢废物、多余的水分和电解质过滤出来，形成原尿，随后经肾小管的重吸收和分泌作用形成尿液，排出体外。"
+    "explanation": "'Homework' is an uncountable noun, so it does not take a plural form or the quantifier 'many'. The correct sentence uses 'a lot of' with the uncountable noun."
   },
   {
-    "id": "biology-214",
+    "id": "english-362",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "生物-细胞"
+      "考试范围"
     ],
-    "question": "下列细胞结构中，与光合作用直接相关的是",
+    "question": "Choose the correct sentence.",
     "options": [
-      "A. 线粒体",
-      "B. 叶绿体",
-      "C. 高尔基体",
-      "D. 核糖体"
+      "A. Each of the students have a notebook.",
+      "B. Each of the students has a notebook.",
+      "C. Each of the students is having a notebook.",
+      "D. Each of the students have had a notebook."
     ],
     "answer": "B",
-    "explanation": "叶绿体是植物细胞中进行光合作用的细胞器，能够利用光能把二氧化碳和水合成有机物并释放氧气。"
+    "explanation": "The pronoun \"each\" is singular, so it requires a singular verb. Therefore, \"has\" is the correct form."
   },
   {
-    "id": "biology-215",
+    "id": "english-363",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "生物-微生物"
+      "篮球训练"
     ],
-    "question": "下列关于微生物的描述，哪项是正确的？",
+    "question": "Which sentence correctly uses the present continuous tense to describe a basketball training activity that is happening right now?",
     "options": [
-      "A. 微生物都是单细胞生物",
-      "B. 病毒属于微生物，具有细胞结构",
-      "C. 酵母菌是真核微生物，能进行发酵",
-      "D. 细菌均为有害的，会导致疾病"
+      "A. I practice basketball training every day.",
+      "B. I am practicing basketball training now.",
+      "C. I will practice basketball training tomorrow.",
+      "D. I practiced basketball training yesterday."
+    ],
+    "answer": "B",
+    "explanation": "The present continuous tense (be + verb‑ing) is used for actions happening at the moment of speaking. Sentence B uses 'am practicing', which correctly describes an ongoing basketball training activity."
+  },
+  {
+    "id": "english-364",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "比赛时间"
+    ],
+    "question": "Which sentence correctly tells the competition time?",
+    "options": [
+      "A. The competition starts at 3 p.m.",
+      "B. The competition starts on 3 p.m.",
+      "C. The competition starts in 3 p.m.",
+      "D. The competition starts 3 p.m."
+    ],
+    "answer": "A",
+    "explanation": "We use the preposition 'at' before specific times (e.g., at 3 p.m.). The other options are incorrect because 'on' is used for dates, 'in' for longer periods, and the last option lacks a preposition."
+  },
+  {
+    "id": "english-365",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "门票"
+    ],
+    "question": "Which sentence correctly uses the word 'ticket'?",
+    "options": [
+      "A. I need ticket for the museum.",
+      "B. I need a ticket for the museum.",
+      "C. I need the ticket for the museum.",
+      "D. I need some ticket for the museum."
+    ],
+    "answer": "B",
+    "explanation": "The noun 'ticket' is a countable noun and must be preceded by an article or other determiner. Option B correctly uses the indefinite article 'a' before the singular noun 'ticket'."
+  },
+  {
+    "id": "english-366",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "价格计算"
+    ],
+    "question": "Mary wants to buy 4 pens that cost $2.50 each. How much will she pay in total?",
+    "options": [
+      "A. $10.00",
+      "B. $9.50",
+      "C. $8.00",
+      "D. $11.20"
+    ],
+    "answer": "A",
+    "explanation": "To find the total cost, multiply the price per pen ($2.50) by the number of pens (4). 2.50 × 4 = 10.00, so the correct answer is A."
+  },
+  {
+    "id": "english-367",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "餐厅"
+    ],
+    "question": "Which of the following sentences is correct when asking for more bread at a restaurant?",
+    "options": [
+      "A. Can I have some more bread?",
+      "B. Can I have any more bread?",
+      "C. Can I have some breads?",
+      "D. Can I have any breads?"
+    ],
+    "answer": "A",
+    "explanation": "In requests, 'some' is preferred: 'Can I have some more bread?' is natural. 'Any' is typically used in yes/no questions, though it can appear in polite offers, but 'some breads' and 'any breads' are ungrammatical because 'bread' is a non‑count noun."
+  },
+  {
+    "id": "english-368",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "活动时间"
+    ],
+    "question": "Choose the correct preposition to complete the sentence: We usually have lunch ___ 12:00.",
+    "options": [
+      "A. in",
+      "B. on",
+      "C. at",
+      "D. to"
     ],
     "answer": "C",
-    "explanation": "酵母菌属于真核微生物，具有细胞核和细胞器，能够进行发酵产生酒精和二氧化碳；其他选项均存在错误：①并非所有微生物都是单细胞，如真菌中有丝状多细胞结构；②病毒没有细胞结构，不能算作具有细胞结构的微生物；③并非所有细菌都是有害的，许多细菌对环境和人体有益。"
+    "explanation": "We use 'at' before specific clock times (12:00). 'In' is used for months, years, or parts of the day; 'on' is used for dates and days of the week."
   },
   {
-    "id": "biology-216",
+    "id": "english-369",
     "type": "choice",
-    "subject": "biology",
+    "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "细菌"
+      "海豚表演"
     ],
-    "question": "以下关于细菌的说法，正确的是（　　）",
+    "question": "The dolphin show, ___ took place in the large pool, attracted thousands of visitors.",
     "options": [
-      "A. 细菌有成形的细胞核",
-      "B. 细菌通过孢子进行繁殖",
-      "C. 细菌是原核生物，细胞内没有膜结构的细胞器",
-      "D. 所有细菌都对人体有害"
-    ],
-    "answer": "C",
-    "explanation": "细菌属于原核生物，它们的细胞内没有由膜包围的细胞核，也没有其他膜结构的细胞器（如内质网、线粒体等），因此选项C正确。选项A错误，因为细菌没有成形的细胞核；选项B错误，大多数细菌通过二分裂繁殖，而不是孢子；选项D错误，细菌中有许多是对人体有益或无害的，例如肠道益生菌。"
-  },
-  {
-    "id": "biology-217",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "基因"
-    ],
-    "question": "关于基因的描述，下面哪一项是正确的？",
-    "options": [
-      "A. 基因是DNA分子上具有特定功能的片段",
-      "B. 基因是由RNA组成的",
-      "C. 基因只存在于细胞核中",
-      "D. 基因的大小在所有生物中都是相同的"
+      "A. which",
+      "B. that",
+      "C. who",
+      "D. whom"
     ],
     "answer": "A",
-    "explanation": "基因（gene）是DNA分子上携带遗传信息并决定生物性状的功能片段。基因由DNA而不是RNA构成，存在于细胞核和部分细胞器（如线粒体）中，且不同基因的长度差异很大。"
-  },
-  {
-    "id": "biology-218",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "反射"
-    ],
-    "question": "以下关于人体反射弧组成的描述，正确的是？",
-    "options": [
-      "A. 反射弧包括感受器、传入神经、神经中枢、传出神经和效应器",
-      "B. 反射弧只需要感受器和效应器即可完成",
-      "C. 反射弧的神经中枢全部位于大脑皮层",
-      "D. 传出神经负责将信息从感受器传递至中枢"
-    ],
-    "answer": "A",
-    "explanation": "反射弧是完成反射的结构基础，包括感受器、传入神经、神经中枢、传出神经和效应器五部分。B选项缺少传入/传出神经；C选项错误，许多反射的中枢位于脊髓而非大脑皮层；D选项把传出神经的功能说反了，传出神经负责将中枢的命令传至效应器。"
-  },
-  {
-    "id": "biology-219",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "实验探究"
-    ],
-    "question": "在探究“不同颜色的光对绿豆种子萌发的影响”时，下列哪项设置是正确的实验组和对照组划分？",
-    "options": [
-      "A. 实验组用蓝光照射，对照组用白光照射",
-      "B. 实验组用红光照射，对照组放在暗箱中",
-      "C. 实验组用绿光照射，对照组放在同一光箱中但不加光",
-      "D. 实验组用黄光照射，对照组用相同强度的白光照射"
-    ],
-    "answer": "A",
-    "explanation": "实验组应接受实验处理的变量（这里是不同颜色的光），而对照组应在除该变量外的其他条件保持不变，仅用常规白光照射以作比较。选项A正确地将蓝光照射设为实验组，白光照射设为对照组，符合单一变量原则。"
-  },
-  {
-    "id": "biology-220",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生物-消化系统"
-    ],
-    "question": "小明午餐吃了一块牛肉，牛肉中的蛋白质首先在何处被分解为多肽？",
-    "options": [
-      "A. 口腔",
-      "B. 食管",
-      "C. 胃",
-      "D. 小肠"
-    ],
-    "answer": "C",
-    "explanation": "牛肉中的蛋白质在胃内受到胃液中的胃蛋白酶作用，被初步分解为多肽，因而是胃首先进行蛋白质的消化。"
-  },
-  {
-    "id": "biology-221",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生物-神经系统"
-    ],
-    "question": "人体神经系统的中枢部分主要包括哪些结构？",
-    "options": [
-      "A. 大脑和脊髓",
-      "B. 大脑和小脑",
-      "C. 脊髓和交感神经",
-      "D. 脑干和大脑皮层"
-    ],
-    "answer": "A",
-    "explanation": "人体的中枢神经系统（CNS）由大脑和脊髓组成，负责接收、整合信息并发出指令。大脑主管高级功能，脊髓负责传导以及一些基本的反射活动；而小脑、交感神经、脑干等虽然参与神经活动，但不属于中枢神经系统的核心结构。"
+    "explanation": "In this sentence the relative clause is non‑restrictive and refers to the dolphin show, so we use the relative pronoun 'which'."
   },
   {
     "id": "physics-101",
@@ -27587,1637 +28214,288 @@
     "explanation": "铜的比热容约为0.39 J/(g·°C)，铝的比热容约为0.90 J/(g·°C)。在质量相同、吸收相同热量的情况下，比热容较小的铜块的温度升高更大。因此正确答案是A。"
   },
   {
-    "id": "english-318",
+    "id": "biology-203",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "现在完成时"
+      "新陈代谢"
     ],
-    "question": "Which of the following sentences uses the present perfect tense correctly?",
+    "question": "下列关于新陈代谢的描述，哪一项是正确的？",
     "options": [
-      "A. She has visited Paris twice.",
-      "B. She visited Paris twice.",
-      "C. She has visit Paris twice.",
-      "D. She visits Paris twice."
-    ],
-    "answer": "A",
-    "explanation": "The present perfect is formed with 'have/has' followed by the past participle. 'Has visited' correctly uses 'has' (third‑person singular) plus the past participle 'visited'."
-  },
-  {
-    "id": "english-319",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "句型转换"
-    ],
-    "question": "Transform the following sentence into passive voice: 'The cat caught the mouse.'",
-    "options": [
-      "A. The mouse was caught by the cat.",
-      "B. The mouse caught the cat.",
-      "C. The mouse is catching the cat.",
-      "D. The cat is caught by the mouse."
-    ],
-    "answer": "A",
-    "explanation": "In passive voice, the object (the mouse) becomes the subject, the verb is changed to a form of 'be' (was) plus the past participle (caught), and the original subject (the cat) is placed after 'by'."
-  },
-  {
-    "id": "english-320",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "宾语从句"
-    ],
-    "question": "Which sentence contains an object clause?",
-    "options": [
-      "A. She likes to read books.",
-      "B. I wonder what she is doing.",
-      "C. The book is interesting.",
-      "D. He gave me a gift."
-    ],
-    "answer": "B",
-    "explanation": "In option B, the clause 'what she is doing' serves as the object of the verb 'wonder', making it an object clause."
-  },
-  {
-    "id": "english-321",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "定语从句"
-    ],
-    "question": "The movie ______ we watched last night was fantastic.",
-    "options": [
-      "A. who",
-      "B. which",
-      "C. that",
-      "D. whom"
+      "A. 新陈代谢仅指合成反应",
+      "B. 新陈代谢仅指分解反应",
+      "C. 新陈代谢包括合成反应和分解反应",
+      "D. 新陈代谢只在光照条件下进行"
     ],
     "answer": "C",
-    "explanation": "在本句中，空白处需要一个关系代词来引导定语从句，修饰先行词“the movie”。先行词是事物，关系代词可以用that或which，但在四个选项中，that是更合适的选项。who和whom用于指人，which可以指物，但在本题的语境下，that最常用且符合英语语法规则。"
+    "explanation": "新陈代谢是指细胞内全部的化学反应，既包括把营养物质分解为能量和较小分子的分解反应，也包括利用这些能量把小分子合成为细胞所需物质的合成反应。因此，选项C正确。"
   },
   {
-    "id": "english-322",
+    "id": "biology-204",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "状语从句"
+      "动物行为"
     ],
-    "question": "_____ she didn't study, she still passed the exam.",
+    "question": "下列哪种行为属于动物的本能（先天性）行为？",
     "options": [
-      "A. Although",
-      "B. Because",
-      "C. When",
-      "D. Unless"
-    ],
-    "answer": "A",
-    "explanation": "Although introduces a concessive adverbial clause, indicating a contrast between not studying and still passing the exam."
-  },
-  {
-    "id": "english-323",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词性转换"
-    ],
-    "question": "Which of the following is the correct adverb form of the adjective 'quick'?",
-    "options": [
-      "A. quick",
-      "B. quickly",
-      "C. quicker",
-      "D. quickness"
+      "A. 小狗经过训练后能握手",
+      "B. 蜘蛛自行织网捕食",
+      "C. 猫在主人回家时叫",
+      "D. 鹦鹉模仿人类说话"
     ],
     "answer": "B",
-    "explanation": "The adjective 'quick' changes to the adverb 'quickly' by adding the suffix -ly, which is a common word‑class conversion (词性转换) from adjective to adverb."
+    "explanation": "蜘蛛织网是天生具备的能力，不需要后天学习，属于本能行为；而其他选项（握手、叫喊、模仿说话）都是通过学习或后天经验获得的。"
   },
   {
-    "id": "english-324",
+    "id": "biology-205",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "主旨大意"
+      "生物多样性"
     ],
-    "question": "Read the short passage and choose the best main idea.\n\n\"During the summer, many families travel to the beach. They enjoy swimming, building sandcastles, and watching the sunset. The beach provides a fun and relaxing escape from everyday life.\"\n\nWhat is the main idea of this passage?",
+    "question": "生物多样性通常包括哪三个层次？",
     "options": [
-      "A. Families travel to the beach only in winter.",
-      "B. The beach is a popular summer vacation spot for relaxation and fun.",
-      "C. Building sandcastles is the most important beach activity.",
-      "D. Sunsets are more beautiful at the beach than elsewhere."
-    ],
-    "answer": "B",
-    "explanation": "The passage describes families going to the beach during summer and enjoying various activities, emphasizing that the beach offers fun and relaxation. Option B captures this overall message."
-  },
-  {
-    "id": "english-325",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-时态"
-    ],
-    "question": "Choose the correct verb form to complete the sentence: \"If I ___ the exam, I will go to the beach.\"",
-    "options": [
-      "A. pass",
-      "B. passes",
-      "C. passed",
-      "D. will pass"
+      "A. 基因多样性、物种多样性、生态系统多样性",
+      "B. 基因多样性、种群多样性、生态系统多样性",
+      "C. 细胞多样性、组织多样性、器官多样性",
+      "D. 气候多样性、土壤多样性、水体多样性"
     ],
     "answer": "A",
-    "explanation": "In a first conditional sentence, we use the present simple after 'if' to refer to a future situation, so 'pass' is the correct choice."
+    "explanation": "生物多样性是指在基因（或遗传）层面、物种层面以及生态系统层面的多样性，这三个层次共同构成了生物多样性的基本框架。"
   },
   {
-    "id": "english-326",
+    "id": "biology-206",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "语法-被动语态"
+      "植物细胞"
     ],
-    "question": "Which of the following sentences is in the passive voice?",
+    "question": "植物细胞与动物细胞的主要区别在于植物细胞具有以下哪种结构？",
     "options": [
-      "A. The teacher explains the lesson.",
-      "B. The students finished the project yesterday.",
-      "C. The book was read by the class.",
-      "D. He writes a letter every day."
+      "A. 细胞壁和叶绿体",
+      "B. 线粒体",
+      "C. 核糖体",
+      "D. 细胞膜"
+    ],
+    "answer": "A",
+    "explanation": "细胞壁和叶绿体是植物细胞特有的结构，线粒体、核糖体和细胞膜在动物细胞中同样存在。因此选项A正确。"
+  },
+  {
+    "id": "biology-207",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "食物链"
+    ],
+    "question": "在某草原生态系统中，存在草、蚱蜢、青蛙、蛇、老鹰等生物，它们之间构成了多条食物链。下列关于食物链的叙述，正确的是：",
+    "options": [
+      "A. 食物链应从动物开始，写到植物结束",
+      "B. 能量在食物链中逐级递增",
+      "C. 食物链中的每一种生物都可能被多种生物捕食",
+      "D. 食物链中的分解者必须写入食物链中"
     ],
     "answer": "C",
-    "explanation": "In a passive sentence, the object of the active sentence becomes the subject and the verb is in past participle form, often followed by 'by'. Here, 'The book' is the subject, and the verb 'was read' shows the passive voice."
+    "explanation": "食物链中的每一种生物（除了生产者）都可能被多种生物捕食，如兔子可能被蛇和老鹰捕食，这体现了生态系统的复杂性，A选项错误，食物链应从生产者开始；B选项错误，能量在食物链中是逐级递减的；D选项错误，分解者不参与食物链，主要参与物质循环，本题选C。"
   },
   {
-    "id": "english-327",
+    "id": "biology-208",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "语法-从句"
+      "生物-植物"
     ],
-    "question": "Which of the following sentences contains a subordinate clause?",
+    "question": "在光照条件下，植物通过光合作用制造有机物，光合作用主要发生在细胞的哪个结构中？",
     "options": [
-      "A. The dog barked loudly.",
-      "B. My friend, who lives next door, is a doctor.",
-      "C. She sang and danced.",
-      "D. We will go to the park."
+      "A. 叶绿体",
+      "B. 线粒体",
+      "C. 细胞核",
+      "D. 细胞壁"
+    ],
+    "answer": "A",
+    "explanation": "光合作用在叶绿体中进行，叶绿体含有叶绿素，能够捕获光能并将其转化为化学能，合成葡萄糖等有机物；其他结构如线粒体、细胞核、细胞壁不进行光合作用。"
+  },
+  {
+    "id": "biology-209",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-动物"
+    ],
+    "question": "下列动物中，属于恒温动物且具有乳腺的是（ ）。",
+    "options": [
+      "A. 青蛙",
+      "B. 猫",
+      "C. 蛇",
+      "D. 蟾蜍"
     ],
     "answer": "B",
-    "explanation": "The clause 'who lives next door' is a relative (subordinate) clause that modifies 'My friend'."
+    "explanation": "猫属于哺乳动物，哺乳动物是恒温动物，并且具有乳腺，能够分泌乳汁喂养幼崽。而青蛙、蛇和蟾蜍均为变温动物，且没有乳腺。"
   },
   {
-    "id": "english-328",
+    "id": "biology-210",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "语法-情态动词"
+      "消化系统"
     ],
-    "question": "Which sentence uses the modal verb \"can\" correctly?",
+    "question": "以下关于人体消化系统的描述中，正确的是（ ）。",
     "options": [
-      "A. She can to speak three languages.",
-      "B. She can speak three languages.",
-      "C. She can speaks three languages.",
-      "D. She can speaking three languages."
+      "A. 蛋白质在胃中被胰液分解为氨基酸",
+      "B. 小肠是营养物质吸收的主要场所",
+      "C. 胃只分泌胃酸，没有酶",
+      "D. 大肠主要负责营养物质的消化"
     ],
     "answer": "B",
-    "explanation": "\"Can\" is a modal verb followed directly by the base form of the verb without \"to\". In option B, \"can speak\" is grammatically correct. Options A, C, and D incorrectly add \"to\", \"s\", or \"ing\" after \"can\"."
+    "explanation": "小肠内壁有绒毛和微绒毛，极大增加表面积，是营养物质（葡萄糖、氨基酸、脂肪酸等）被吸收进入血液的主要部位；而其他选项的描述均有错误：蛋白质在胃中主要由胃蛋白酶（胃酸和胃蛋白酶原）作用分解，进入小肠后由胰液进一步分解；胃除了分泌胃酸外，还分泌胃蛋白酶原；大肠主要吸收水分和电解质，负责形成粪便，而不是进行营养物质的消化。"
   },
   {
-    "id": "english-329",
+    "id": "biology-211",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "词汇拼写"
+      "生物-人体"
     ],
-    "question": "Which of the following words is spelled correctly?",
+    "question": "人体中负责吸收营养物质的主要器官是（ ）。",
     "options": [
-      "A. recieve",
-      "B. receive",
-      "C. recieve",
-      "D. receeve"
+      "A. 胃",
+      "B. 小肠",
+      "C. 大肠",
+      "D. 肝脏"
     ],
     "answer": "B",
-    "explanation": "The correct spelling is 'receive', which follows the 'i before e except after c' rule."
+    "explanation": "小肠内壁有大量绒毛和微绒毛，极大增加吸收面积，是营养物质吸收的主要场所。"
   },
   {
-    "id": "english-330",
+    "id": "biology-212",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "语法-介词"
+      "血液循环"
     ],
-    "question": "The cat is sitting ___ the table.",
+    "question": "人体血液循环中，血液从左心室出发后，会先经过哪些主要结构？",
     "options": [
-      "A. on",
-      "B. in",
-      "C. under",
-      "D. with"
+      "A. 主动脉 → 全身毛细血管 → 右心房",
+      "B. 肺动脉 → 肺毛细血管 → 左心房",
+      "C. 主动脉 → 全身毛细血管 → 右心室",
+      "D. 肺动脉 → 肺部毛细血管 → 左心房"
+    ],
+    "answer": "A",
+    "explanation": "左心室收缩将富氧血泵入主动脉，主动脉把血液输送到全身毛细血管进行气体与营养交换，随后血液经静脉回流至右心房，完成体循环。"
+  },
+  {
+    "id": "biology-213",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-微生物"
+    ],
+    "question": "酸奶的制作过程中，常加入哪种微生物进行发酵，使其产生酸味并使牛奶凝固？",
+    "options": [
+      "A. 病毒",
+      "B. 酵母菌",
+      "C. 乳酸菌",
+      "D. 大肠杆菌"
     ],
     "answer": "C",
-    "explanation": "The correct preposition is 'under', indicating that the cat is beneath the table."
+    "explanation": "乳酸菌（如乳酸链球菌）能够将牛奶中的乳糖分解为乳酸，导致牛奶酸化并凝固，是酸奶发酵的主要微生物。"
   },
   {
-    "id": "english-331",
+    "id": "biology-214",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "语法-非谓语"
+      "细菌"
     ],
-    "question": "I saw him _____ the piano.",
+    "question": "以下关于细菌的说法中，正确的是：",
     "options": [
-      "A. play",
-      "B. playing",
-      "C. played",
-      "D. to play"
-    ],
-    "answer": "B",
-    "explanation": "In the structure 'see + object + non‑finite verb', the present participle (‑ing) is used to describe an action that was observed happening. Here, 'playing' shows the action in progress, so option B is correct."
-  },
-  {
-    "id": "english-332",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-比较级"
-    ],
-    "question": "Choose the correct comparative form to complete the sentence: \"This problem is ___ than the last one.\"",
-    "options": [
-      "A. harder",
-      "B. more hard",
-      "C. hardest",
-      "D. more harder"
-    ],
-    "answer": "A",
-    "explanation": "'Hard' is a one‑syllable adjective, so its comparative form is 'harder'. The correct structure is adjective + -er + than, not 'more hard' or 'hardest'."
-  },
-  {
-    "id": "english-333",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-倒装"
-    ],
-    "question": "Only after the concert ended _________ we could leave.",
-    "options": [
-      "A. we could leave",
-      "B. could we leave",
-      "C. we can leave",
-      "D. we left"
-    ],
-    "answer": "B",
-    "explanation": "当“Only after...”“等否定或限定性状语位于句首时，需要使用倒装结构，即将助动词或情态动词放在主语之前。原句中“Only after the concert ended”后应接倒装形式“could we leave”。因此正确答案是B。"
-  },
-  {
-    "id": "english-334",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-反意疑问句"
-    ],
-    "question": "She likes reading books, ___?",
-    "options": [
-      "A. does she?",
-      "B. doesn't she?",
-      "C. she does?",
-      "D. she doesn't?"
-    ],
-    "answer": "B",
-    "explanation": "In a tag question, we repeat the auxiliary verb from the main clause with opposite polarity. Since the statement is affirmative, the tag must be negative: \"doesn't she?\"."
-  },
-  {
-    "id": "english-335",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-虚拟语气"
-    ],
-    "question": "If I ___ a million dollars, I ___ a new house.",
-    "options": [
-      "A. had / would buy",
-      "B. have / will buy",
-      "C. had / will buy",
-      "D. have / would buy"
-    ],
-    "answer": "A",
-    "explanation": "In a conditional sentence that expresses a hypothetical (unreal) situation, we use the past simple tense in the if‑clause and \"would + base verb\" in the main clause. Therefore, the correct choice is A: \"had\" and \"would buy\"."
-  },
-  {
-    "id": "english-336",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-定语从句"
-    ],
-    "question": "She is the teacher ______ taught me English.",
-    "options": [
-      "A. which",
-      "B. that",
-      "C. who",
-      "D. whose"
+      "A. 细菌是动物细胞，具有细胞核",
+      "B. 细菌可以通过光合作用自行制造有机物",
+      "C. 细菌属于原核生物，细胞内没有成形的细胞核",
+      "D. 细菌只在极端环境中生存"
     ],
     "answer": "C",
-    "explanation": "'Who' is used to refer to people in a defining relative clause. The clause 'who taught me English' describes 'the teacher'."
+    "explanation": "细菌是原核生物，细胞内没有成形的细胞核，DNA集中在核区；而动物细胞有细胞核；大多数细菌不能光合作用；细菌分布广泛，不仅在极端环境中。"
   },
   {
-    "id": "english-337",
+    "id": "biology-215",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "语法-不定式"
+      "生物-遗传"
     ],
-    "question": "I want ___ English well.",
+    "question": "某对父母的基因型分别为Aa和Aa，若只考虑单基因遗传，子代中基因型为AA的概率是（ ）。",
     "options": [
-      "A. learn",
-      "B. learning",
-      "C. to learn",
-      "D. learned"
-    ],
-    "answer": "C",
-    "explanation": "Want后面要接动词不定式（to + 动词原形）作宾语，表示想要做某事。因此正确答案是\"to learn\"。"
-  },
-  {
-    "id": "english-338",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-现在进行时"
-    ],
-    "question": "She ____ (read) a book right now. Which is the correct form?",
-    "options": [
-      "A. reads",
-      "B. is reading",
-      "C. read",
-      "D. will read"
+      "A. 0%",
+      "B. 25%",
+      "C. 50%",
+      "D. 75%"
     ],
     "answer": "B",
-    "explanation": "现在进行时的构成是 be 动词（am/is/are）+ 动词的 -ing 形式，表示正在进行的动作。主语是 She，需要使用 is，故正确形式为 is reading。"
+    "explanation": "利用孟德尔的Punnett方格，Aa×Aa的交配会产生四种等可能的基因型组合：AA、Aa、aA、aa。其中AA占1/4，即25%。因此正确答案是B。"
   },
   {
-    "id": "english-339",
+    "id": "biology-216",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "词汇-不规则复数"
+      "基因"
     ],
-    "question": "Which of the following nouns has an irregular plural form?",
+    "question": "下列关于基因的说法，正确的是？",
     "options": [
-      "A. cat (cats)",
-      "B. mouse (mice)",
-      "C. book (books)",
-      "D. dog (dogs)"
-    ],
-    "answer": "B",
-    "explanation": "The plural of 'mouse' is 'mice', which is an irregular plural, while the other nouns form regular plurals by adding -s."
-  },
-  {
-    "id": "english-340",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-名词性从句"
-    ],
-    "question": "I don’t know _______ .",
-    "options": [
-      "A. where he lives",
-      "B. where does he live",
-      "C. if he lives",
-      "D. he lives"
+      "A. 基因是DNA分子上具有遗传效应的片段",
+      "B. 基因是由蛋白质组成的",
+      "C. 基因只在细胞核中出现",
+      "D. 基因在不同细胞中数量会发生变化"
     ],
     "answer": "A",
-    "explanation": "'Where he lives' is a noun clause that functions as the direct object of the verb 'don’t know'. The other options are either not a proper clause (e.g., 'where does he live' is a question form) or a simple statement that doesn’t serve as an object."
+    "explanation": "基因是DNA分子上具有遗传效应的特定片段，负责编码蛋白质或调控其他基因的表达，从而决定生物的性状。基因由脱氧核糖核酸（DNA）构成，而不是蛋白质；虽然大多数基因位于细胞核的染色体上，但也有少量基因存在于线粒体等细胞器中；基因在个体的所有体细胞中数量基本相同，只是表达水平不同。"
   },
   {
-    "id": "english-341",
+    "id": "biology-217",
     "type": "choice",
-    "subject": "english",
+    "subject": "biology",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "语法-祈使句"
+      "反射"
     ],
-    "question": "Which of the following is an imperative sentence?",
+    "question": "以下哪种情况最符合反射（reflex）的特征？",
     "options": [
-      "A. Close the door.",
-      "B. He closes the door.",
-      "C. Do you close the door?",
-      "D. The door is closed."
+      "A. 触碰到烫的物体后，手会立即不由自主地缩回",
+      "B. 课堂上听到老师提问后主动举手回答",
+      "C. 看到红灯亮起时自觉停车等待",
+      "D. 吃完饭后感觉胃部胀满，产生饱腹感"
     ],
     "answer": "A",
-    "explanation": "Option A is an imperative sentence because it gives a command or request to the listener."
-  },
-  {
-    "id": "english-342",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-条件状语从句"
-    ],
-    "question": "Which of the following sentences correctly uses a conditional adverbial clause?",
-    "options": [
-      "A. If it will rain tomorrow, we will cancel the picnic.",
-      "B. If it rains tomorrow, we will cancel the picnic.",
-      "C. If it rained tomorrow, we will cancel the picnic.",
-      "D. If it rains tomorrow, we cancel the picnic."
-    ],
-    "answer": "B",
-    "explanation": "In a first conditional sentence, use the present simple tense in the if‑clause (if it rains) and will + base verb in the main clause (we will cancel). The other options misuse the verb forms."
-  },
-  {
-    "id": "english-343",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-让步状语从句"
-    ],
-    "question": "_____ it was raining, we decided to stay inside.",
-    "options": [
-      "A. Because",
-      "B. Although",
-      "C. Since",
-      "D. When"
-    ],
-    "answer": "B",
-    "explanation": "\"Although\" is a conjunction that introduces a concessive clause, showing a contrast between the rainy weather and the decision to stay inside. \"Because\" and \"since\" express cause/reason, while \"when\" indicates time, none of which fit the concessive meaning here."
-  },
-  {
-    "id": "english-344",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-过去完成时"
-    ],
-    "question": "By the time we arrived at the station, the train ____.",
-    "options": [
-      "A. left",
-      "B. had left",
-      "C. has left",
-      "D. was leaving"
-    ],
-    "answer": "B",
-    "explanation": "The past perfect 'had left' indicates that the train had already departed before we arrived, which is the correct usage."
-  },
-  {
-    "id": "english-345",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-代词"
-    ],
-    "question": "Choose the correct pronoun to fill in the blank: \"_____ is my favorite subject because it is interesting.\"",
-    "options": [
-      "A. He",
-      "B. Him",
-      "C. His",
-      "D. They"
-    ],
-    "answer": "A",
-    "explanation": "The subject of the sentence needs a subject pronoun. \"He\" is a subject pronoun, while \"Him\" is an object pronoun, \"His\" is a possessive adjective/pronoun, and \"They\" is plural. Therefore, \"He\" is the correct choice."
-  },
-  {
-    "id": "english-346",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-形容词"
-    ],
-    "question": "Which of the following words is an adjective?",
-    "options": [
-      "A. quickly",
-      "B. beautiful",
-      "C. runs",
-      "D. happily"
-    ],
-    "answer": "B",
-    "explanation": "'Beautiful' is an adjective because it describes a noun; the other words are adverbs or verbs."
-  },
-  {
-    "id": "english-347",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-介词"
-    ],
-    "question": "He is interested ____ learning new languages.",
-    "options": [
-      "A. in",
-      "B. on",
-      "C. for",
-      "D. at"
-    ],
-    "answer": "A",
-    "explanation": "The correct preposition to use after 'interested' is 'in', as in 'interested in learning new languages'."
-  },
-  {
-    "id": "english-348",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-不可数名词"
-    ],
-    "question": "Which of the following is an uncountable noun?",
-    "options": [
-      "A. apple",
-      "B. water",
-      "C. cats",
-      "D. books"
-    ],
-    "answer": "B",
-    "explanation": "Water is an uncountable noun because it cannot be counted directly; we say 'a glass of water' or 'some water' instead."
-  },
-  {
-    "id": "english-349",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-并列句"
-    ],
-    "question": "Which of the following sentences is a compound sentence (并列句)?",
-    "options": [
-      "A. I am a student.",
-      "B. He is tall, so he can reach the top shelf.",
-      "C. When the rain stopped, we went outside.",
-      "D. She sings beautifully and plays the piano."
-    ],
-    "answer": "B",
-    "explanation": "Option B contains two independent clauses ('He is tall' and 'he can reach the top shelf') joined by the coordinating conjunction 'so', which forms a compound sentence. The other options are either simple sentences or complex sentences."
-  },
-  {
-    "id": "english-350",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "介词"
-    ],
-    "question": "Choose the correct preposition to complete the sentence: She will arrive ___ Monday morning.",
-    "options": [
-      "A. on",
-      "B. in",
-      "C. at",
-      "D. by"
-    ],
-    "answer": "A",
-    "explanation": "When referring to a specific day of the week, we use the preposition 'on' (e.g., on Monday, on Tuesday)."
-  },
-  {
-    "id": "english-351",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "比较级"
-    ],
-    "question": "Choose the correct comparative form to complete the sentence: 'This book is ___ than that one.'",
-    "options": [
-      "A. interesting",
-      "B. more interesting",
-      "C. most interesting",
-      "D. interestingly"
-    ],
-    "answer": "B",
-    "explanation": "The comparative form of a two‑syllable adjective that does not end in -y usually uses 'more' before the adjective, so 'more interesting' is correct."
-  },
-  {
-    "id": "english-352",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "冠词"
-    ],
-    "question": "Which sentence uses the correct article?",
-    "options": [
-      "A. She is a honest girl.",
-      "B. She is an honest girl.",
-      "C. She is the honest girl.",
-      "D. She is honest girl."
-    ],
-    "answer": "B",
-    "explanation": "When a word begins with a vowel sound, we use 'an'. The word 'honest' starts with a vowel sound (/ɒ/ in British English or /ɑ/ in American English), so the correct article is 'an'."
-  },
-  {
-    "id": "english-353",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "倒装句"
-    ],
-    "question": "Which of the following sentences uses an inverted structure (倒装句)?",
-    "options": [
-      "A. Never have I seen such a beautiful sunset.",
-      "B. I have never seen such a beautiful sunset.",
-      "C. I never have seen such a beautiful sunset.",
-      "D. Never I have seen such a beautiful sunset."
-    ],
-    "answer": "A",
-    "explanation": "Sentence A begins with the negative adverb 'Never', which triggers subject‑auxiliary inversion (have I seen). The other sentences follow normal word order or use ungrammatical word order, so they are not examples of inversion."
-  },
-  {
-    "id": "english-354",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "代词"
-    ],
-    "question": "Which word is a demonstrative pronoun?",
-    "options": [
-      "A. this",
-      "B. big",
-      "C. quickly",
-      "D. and"
-    ],
-    "answer": "A",
-    "explanation": "'This' is a demonstrative pronoun used to point to a specific thing close to the speaker."
-  },
-  {
-    "id": "english-355",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "连词"
-    ],
-    "question": "She didn't go to the party ____ she was feeling sick.",
-    "options": [
-      "A. because",
-      "B. but",
-      "C. and",
-      "D. so"
-    ],
-    "answer": "A",
-    "explanation": "Because is a subordinating conjunction used to introduce a reason or cause for the action in the main clause."
-  },
-  {
-    "id": "english-356",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "可数与不可数"
-    ],
-    "question": "Which of the following nouns is an uncountable noun?",
-    "options": [
-      "A. apple",
-      "B. water",
-      "C. chair",
-      "D. dog"
-    ],
-    "answer": "B",
-    "explanation": "Water is a substance that cannot be counted directly; we need a unit such as 'a glass of water' to express a quantity."
-  },
-  {
-    "id": "english-357",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "祈使句"
-    ],
-    "question": "Which of the following sentences is an imperative sentence (祈使句)?",
-    "options": [
-      "A. Please close the door.",
-      "B. She sings beautifully.",
-      "C. The sky is blue.",
-      "D. Don't run."
-    ],
-    "answer": "D",
-    "explanation": "'Don't run.' is a direct command telling someone what not to do, which is the defining feature of an imperative sentence (祈使句). The other sentences are statements (declarative) or polite requests, not pure imperatives."
-  },
-  {
-    "id": "english-358",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "特殊疑问词"
-    ],
-    "question": "Which interrogative word is used to ask about a place?",
-    "options": [
-      "A. Who",
-      "B. What",
-      "C. Where",
-      "D. When"
-    ],
-    "answer": "C",
-    "explanation": "‘Where’ is the special question word used to ask about locations or places."
-  },
-  {
-    "id": "english-359",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "形容词比较级"
-    ],
-    "question": "Tom is _____ than his brother. (smart)",
-    "options": [
-      "A. more smart",
-      "B. smarter",
-      "C. smartest",
-      "D. more smarter"
-    ],
-    "answer": "B",
-    "explanation": "The comparative form of a one‑syllable adjective is formed by adding -er, so \"smart\" becomes \"smarter\". \"More smart\" and \"more smarter\" are incorrect, and \"smartest\" is the superlative form."
-  },
-  {
-    "id": "english-360",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "人称代词"
-    ],
-    "question": "Please choose the correct personal pronoun to complete the sentence: The teacher gave ___ a new book.",
-    "options": [
-      "A. I",
-      "B. me",
-      "C. my",
-      "D. mine"
-    ],
-    "answer": "B",
-    "explanation": "The pronoun in this sentence is the indirect object of the verb 'gave', so it should be in the objective case. 'Me' is the objective form of the first‑person singular pronoun, while 'I' is the subject form, 'my' is a possessive adjective, and 'mine' is a possessive pronoun. Therefore, the correct answer is B."
-  },
-  {
-    "id": "english-361",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "一般过去时"
-    ],
-    "question": "Which of the following sentences is correctly written in the simple past tense?",
-    "options": [
-      "A. She walks to the park every day.",
-      "B. They were playing football when it started to rain.",
-      "C. He bought a new computer last week.",
-      "D. I will travel to Beijing next summer."
-    ],
-    "answer": "C",
-    "explanation": "选项C使用了动词的过去式 'bought'，表示过去发生的动作，符合一般过去时的用法。其他选项分别使用了现在时、过去进行时或将来时。"
-  },
-  {
-    "id": "english-362",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "虚拟语气"
-    ],
-    "question": "Choose the correct form of the verb to complete the sentence: 'If I ___ a better student, I would help you with this problem.'",
-    "options": [
-      "A. am",
-      "B. was",
-      "C. were",
-      "D. be"
-    ],
-    "answer": "C",
-    "explanation": "In English, the subjunctive mood is used after 'if' to talk about unreal or hypothetical situations in the present. The correct form is 'were' for all subjects, even with 'I'. Therefore, 'If I were a better student' is the correct usage."
-  },
-  {
-    "id": "english-363",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "可数名词"
-    ],
-    "question": "Which of the following nouns is a countable noun?",
-    "options": [
-      "A. sugar",
-      "B. book",
-      "C. furniture",
-      "D. money"
-    ],
-    "answer": "B",
-    "explanation": "A countable noun can be counted and has both singular and plural forms. 'Book' can be 'one book' or 'two books', making it countable, whereas sugar, furniture, and money are uncountable nouns."
-  },
-  {
-    "id": "english-364",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "指示代词"
-    ],
-    "question": "Which word in the sentence is a demonstrative pronoun? \"I like that book.\"",
-    "options": [
-      "A. I",
-      "B. like",
-      "C. that",
-      "D. book"
-    ],
-    "answer": "C",
-    "explanation": "In this sentence, 'that' is a demonstrative pronoun that points to a specific book, indicating which one is being referred to."
-  },
-  {
-    "id": "english-365",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "介词短语"
-    ],
-    "question": "Which of the following groups of words is a prepositional phrase?",
-    "options": [
-      "A. quickly ran",
-      "B. under the bright sky",
-      "C. She sings",
-      "D. very happy"
-    ],
-    "answer": "B",
-    "explanation": "A prepositional phrase consists of a preposition followed by its object, often with modifiers. 'under the bright sky' contains the preposition 'under' and its object 'the bright sky', making it a prepositional phrase."
-  },
-  {
-    "id": "english-366",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "一般现在时"
-    ],
-    "question": "Choose the correct form to complete the sentence: \"He ____ (to eat) breakfast every morning.\"",
-    "options": [
-      "A. eats",
-      "B. eat",
-      "C. is eating",
-      "D. ate"
-    ],
-    "answer": "A",
-    "explanation": "The sentence describes a habitual action (every morning), so we use the present simple tense. For third‑person singular subjects (he/she/it), the verb adds -s or -es, giving \"eats\"."
-  },
-  {
-    "id": "english-367",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "形容词副词"
-    ],
-    "question": "Choose the correct word to complete the sentence: \"He plays the piano _______.\"",
-    "options": [
-      "A. beautiful",
-      "B. beautifully",
-      "C. beauty",
-      "D. beautifuly"
-    ],
-    "answer": "B",
-    "explanation": "'Beautifully' is an adverb that modifies the verb 'plays', describing how he plays the piano. 'Beautiful' is an adjective and cannot modify a verb."
-  },
-  {
-    "id": "english-368",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "名词辨析"
-    ],
-    "question": "Choose the correct noun to complete the sentence: \"I need a lot of ______ for my project.\"",
-    "options": [
-      "A. informations",
-      "B. an information",
-      "C. information",
-      "D. information's"
-    ],
-    "answer": "C",
-    "explanation": "\"Information\" is an uncountable noun in English, so it cannot be pluralized or used with an indefinite article. The correct sentence is \"I need a lot of information for my project.\""
-  },
-  {
-    "id": "english-369",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "名词可数性"
-    ],
-    "question": "Which of the following nouns is an uncountable noun?",
-    "options": [
-      "A. apple",
-      "B. water",
-      "C. book",
-      "D. dog"
-    ],
-    "answer": "B",
-    "explanation": "Water is an uncountable noun because it cannot be counted directly; you would say 'a glass of water' rather than 'a water'."
-  },
-  {
-    "id": "english-370",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "校园情境"
-    ],
-    "question": "The school cafeteria ____ lunch at noon every day. Which option correctly fills in the blank?",
-    "options": [
-      "A. serves",
-      "B. is serving",
-      "C. served",
-      "D. has served"
-    ],
-    "answer": "A",
-    "explanation": "The phrase 'every day' signals a habitual action, which requires the present simple tense. Therefore, 'serves' is the correct verb form."
-  },
-  {
-    "id": "english-371",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "校园生活"
-    ],
-    "question": "Which sentence correctly uses the present continuous tense to describe an activity happening right now in your school?",
-    "options": [
-      "A. The students practice for the sports meet.",
-      "B. The students are practicing for the sports meet.",
-      "C. The students practiced for the sports meet.",
-      "D. The students practice now for the sports meet."
-    ],
-    "answer": "B",
-    "explanation": "The present continuous tense is formed with 'am/is/are' + verb‑ing. Since 'students' is plural, we use 'are'. Therefore, 'The students are practicing for the sports meet' correctly shows an action occurring at the moment."
-  },
-  {
-    "id": "english-372",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "短文听力"
-    ],
-    "question": "Listen to the following short passage and answer the question.\n\nTom usually walks to school. He lives near the school, so it takes him about ten minutes to get there. This morning, it was raining heavily, so he took his umbrella and wore his raincoat. He arrived at school on time.\n\nQuestion: What did Tom do this morning because of the rain?",
-    "options": [
-      "A. He stayed at home.",
-      "B. He rode a bike to school.",
-      "C. He took his umbrella and wore his raincoat.",
-      "D. He called his friend to pick him up."
-    ],
-    "answer": "C",
-    "explanation": "The passage clearly states that because it was raining heavily, Tom took his umbrella and wore his raincoat."
-  },
-  {
-    "id": "english-373",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "信息提取"
-    ],
-    "question": "Read the short passage and answer the question.\n\nPassage: Tom went to the library at 3:00 p.m. He borrowed three books about science. He returned the books on Friday.\n\nQuestion: When did Tom go to the library?",
-    "options": [
-      "A. At 3:00 p.m.",
-      "B. At 2:00 p.m.",
-      "C. At 5:00 p.m.",
-      "D. In the morning"
-    ],
-    "answer": "A",
-    "explanation": "The passage clearly states that Tom went to the library at 3:00 p.m."
-  },
-  {
-    "id": "english-374",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "地点"
-    ],
-    "question": "Choose the correct preposition to fill in the blank: The dog is sitting ____ the sofa.",
-    "options": [
-      "A. in",
-      "B. on",
-      "C. under",
-      "D. at"
-    ],
-    "answer": "B",
-    "explanation": "We use 'on' to indicate that something is on the surface of another object, such as the sofa."
-  },
-  {
-    "id": "english-375",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "时间计算"
-    ],
-    "question": "If a movie starts at 2:15 p.m. and runs for 1 hour and 50 minutes, what time does it end?",
-    "options": [
-      "A. 4:05 p.m.",
-      "B. 3:55 p.m.",
-      "C. 4:00 p.m.",
-      "D. 4:10 p.m."
-    ],
-    "answer": "A",
-    "explanation": "Add the duration to the start time: 2:15 p.m. + 1 hour = 3:15 p.m., then add another 50 minutes to reach 4:05 p.m."
-  },
-  {
-    "id": "english-376",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "购物"
-    ],
-    "question": "Which sentence is the correct way to ask about the price of a pair of shoes in a shop?",
-    "options": [
-      "A. How many does this pair of shoes cost?",
-      "B. How much does this pair of shoes cost?",
-      "C. How much do this pair of shoes cost?",
-      "D. How much is this pair of shoes cost?"
-    ],
-    "answer": "B",
-    "explanation": "In English, to ask about the price of an item we use the pattern \"How much does ... cost?\" regardless of whether the item is singular or plural. The other options contain errors in verb agreement or word choice."
-  },
-  {
-    "id": "english-377",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "价格"
-    ],
-    "question": "Which sentence correctly uses the word 'price'?",
-    "options": [
-      "A. The price of the car is high.",
-      "B. He priced the car expensive.",
-      "C. She price the book.",
-      "D. The price is costing too much."
-    ],
-    "answer": "A",
-    "explanation": "The word 'price' is a noun meaning the amount of money required for something; it is correctly used in sentence A. In option B, 'priced' is used incorrectly as a verb; in C, 'price' is incorrectly used as a verb; in D, the verb 'cost' should be used instead of 'price'."
-  },
-  {
-    "id": "english-378",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "体育"
-    ],
-    "question": "In English, which of the following is the correct way to say that you play basketball in your PE class?",
-    "options": [
-      "A. I play the basketball.",
-      "B. I play basketball.",
-      "C. I play a basketball.",
-      "D. I play basketballs."
-    ],
-    "answer": "B",
-    "explanation": "When we talk about playing a sport, we use the sport’s name without any article or plural form. So the correct sentence is \"I play basketball.\""
-  },
-  {
-    "id": "english-379",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "时间"
-    ],
-    "question": "Which preposition of time correctly completes the sentence: 'The meeting will be held ___ Monday.'",
-    "options": [
-      "A. at",
-      "B. in",
-      "C. on",
-      "D. by"
-    ],
-    "answer": "C",
-    "explanation": "We use 'on' before days of the week (e.g., on Monday). 'At' is used for specific times, 'in' for longer periods like months or years, and 'by' indicates a deadline."
-  },
-  {
-    "id": "english-380",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "日程"
-    ],
-    "question": "Which sentence uses the word “schedule” correctly?",
-    "options": [
-      "A. I have a schedule meeting tomorrow.",
-      "B. My schedule is very tight this week.",
-      "C. I schedule my day carefully.",
-      "D. The schedule of the meeting are on the table."
-    ],
-    "answer": "B",
-    "explanation": "Option B correctly uses “schedule” as a noun, meaning a plan of activities. Option A incorrectly uses “schedule” as an adjective. Option C uses “schedule” as a verb, which is also grammatically correct, but the question focuses on the noun usage. Option D contains a subject‑verb agreement error (“are” should be “is”)."
-  },
-  {
-    "id": "english-381",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "社团"
-    ],
-    "question": "Which sentence is grammatically correct when talking about a student joining a club?",
-    "options": [
-      "A. She wants to join a club.",
-      "B. She wants to join the club.",
-      "C. She wants to join club.",
-      "D. She wants to join clubs."
-    ],
-    "answer": "A",
-    "explanation": "When referring to a general type of organization that a student might belong to, the indefinite article 'a' is used before the countable noun 'club'. 'The club' would imply a specific, known club, and 'club' without an article or 'clubs' in the plural without an article are incorrect in this context."
-  },
-  {
-    "id": "english-382",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "兴趣爱好"
-    ],
-    "question": "Which of the following sentences correctly uses a gerund after the verb 'enjoy' to talk about a hobby?",
-    "options": [
-      "A. She enjoys to read books.",
-      "B. She enjoys reading books.",
-      "C. She enjoys reads books.",
-      "D. She enjoys read books."
-    ],
-    "answer": "B",
-    "explanation": "The verb 'enjoy' is followed by a gerund (the -ing form of the verb) when talking about hobbies, so the correct sentence is 'She enjoys reading books.'"
-  },
-  {
-    "id": "english-383",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "问路"
-    ],
-    "question": "You need to go to the nearest subway station. Which sentence is the most polite way to ask for directions?",
-    "options": [
-      "A. Where is the subway?",
-      "B. How can I get to the subway?",
-      "C. Can you tell me how to get to the subway?",
-      "D. Tell me where the subway is."
-    ],
-    "answer": "C",
-    "explanation": "Option C uses a polite request with 'Can you tell me...' which is the appropriate polite way to ask for directions. The other options are either too direct or less polite."
-  },
-  {
-    "id": "english-384",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "指路"
-    ],
-    "question": "Which sentence correctly gives directions from the school to the library?",
-    "options": [
-      "A. Turn left at the traffic light, then go straight for two blocks.",
-      "B. Turn to the left at the traffic light, then go straight for two blocks.",
-      "C. Turn left on the traffic light, then go straight for two blocks.",
-      "D. Turn left at traffic light, then go straight for two blocks."
-    ],
-    "answer": "A",
-    "explanation": "Option A uses the correct preposition 'at' with 'traffic light' and the proper verb phrase 'turn left', making the sentence clear and grammatically correct. Options B, C, and D misuse prepositions or omit necessary words, making them incorrect."
-  },
-  {
-    "id": "english-385",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "学习方法"
-    ],
-    "question": "Which sentence correctly gives advice about how to study English?",
-    "options": [
-      "A. You should to practice English every day.",
-      "B. You should practice English every day.",
-      "C. You should practicing English every day.",
-      "D. You should practices English every day."
-    ],
-    "answer": "B",
-    "explanation": "When using 'should' to give advice, it is followed by the base form of the verb without 'to'. Therefore, 'You should practice English every day.' is the correct sentence."
-  },
-  {
-    "id": "english-386",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "英语学习"
-    ],
-    "question": "Which sentence is grammatically correct?",
-    "options": [
-      "A. She don't like coffee.",
-      "B. She doesn't likes coffee.",
-      "C. She doesn't like coffee.",
-      "D. She not like coffee."
-    ],
-    "answer": "C",
-    "explanation": "The third‑person singular subject 'She' requires the auxiliary 'does' (not 'don't') followed by the base form of the verb, giving 'doesn't like'. All other options contain verb‑form or negation errors."
-  },
-  {
-    "id": "english-387",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "计划"
-    ],
-    "question": "Which sentence correctly expresses a future plan?",
-    "options": [
-      "A. I am going to visit my grandparents next weekend.",
-      "B. I will visit my grandparents next weekend.",
-      "C. I visits my grandparents next weekend.",
-      "D. I visited my grandparents next weekend."
-    ],
-    "answer": "A",
-    "explanation": "The phrase 'be going to' is used to talk about plans that have already been decided, while 'will' often expresses a prediction or a spontaneous decision. Options C and D contain incorrect verb forms."
-  },
-  {
-    "id": "english-388",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "假期计划"
-    ],
-    "question": "I want to talk about my vacation plan. Which sentence is correct?",
-    "options": [
-      "A. I plan going to Hainan for the holiday.",
-      "B. I plan to go to Hainan for the holiday.",
-      "C. I plan go to Hainan for the holiday.",
-      "D. I planning to go to Hainan for the holiday."
-    ],
-    "answer": "B",
-    "explanation": "The correct structure is 'plan to + verb'. After 'plan', we must use 'to + verb' to express future plans or intentions."
-  },
-  {
-    "id": "english-389",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "交通方式"
-    ],
-    "question": "Which sentence correctly describes how someone travels to school using a bus?",
-    "options": [
-      "A. I go to school on bus.",
-      "B. I go to school by bus.",
-      "C. I go to school with bus.",
-      "D. I go to school in bus."
-    ],
-    "answer": "B",
-    "explanation": "When talking about the method of transportation, we use 'by' followed by the means of transport (by bus, by car, by train). The other options use incorrect prepositions."
-  },
-  {
-    "id": "english-390",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "订餐"
-    ],
-    "question": "Which sentence is grammatically correct when you want to order food at a restaurant?",
-    "options": [
-      "A. I want to order a pizza.",
-      "B. I want order a pizza.",
-      "C. I want ordering a pizza.",
-      "D. I want for ordering a pizza."
-    ],
-    "answer": "A",
-    "explanation": "After the verb 'want', you need the to‑infinitive (want to do something). The other options either omit 'to' or use an incorrect verb form."
-  },
-  {
-    "id": "english-391",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "场合"
-    ],
-    "question": "When sending an email to your teacher, which sentence is the most appropriate?",
-    "options": [
-      "A. Hey, I finished the assignment.",
-      "B. Dear Mr. Smith, I have completed the assignment.",
-      "C. Yo, check this out.",
-      "D. What's up, Prof?"
-    ],
-    "answer": "B",
-    "explanation": "In a formal context such as an email to a teacher, a polite and respectful greeting like 'Dear Mr. Smith' and a clear statement of the purpose is required. The other options are too informal for a school‑related communication."
-  },
-  {
-    "id": "english-392",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "特殊要求"
-    ],
-    "question": "Which of the following sentences uses the correct verb form after the verb 'suggest'?",
-    "options": [
-      "A. She suggested that he goes to the party.",
-      "B. She suggested that he go to the party.",
-      "C. She suggested him to go to the party.",
-      "D. She suggested him going to the party."
-    ],
-    "answer": "B",
-    "explanation": "After verbs such as suggest, recommend, demand, insist, etc., the subjunctive form of the verb is used without 'to' or third‑person singular -s. Therefore, 'She suggested that he go to the party.' is correct, while the other options use incorrect forms."
-  },
-  {
-    "id": "english-393",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "学习问题"
-    ],
-    "question": "Which of the following sentences uses the correct question tag?",
-    "options": [
-      "A. She likes reading, isn't she?",
-      "B. She likes reading, doesn't she?",
-      "C. She likes reading, does she?",
-      "D. She likes reading, isn't it?"
-    ],
-    "answer": "B",
-    "explanation": "Question tags are formed with the auxiliary verb from the main clause in the opposite polarity, followed by the appropriate pronoun. Since the statement 'She likes reading' uses the auxiliary 'does' in the positive, the tag should be negative: 'doesn't she?'."
-  },
-  {
-    "id": "english-394",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "数学"
-    ],
-    "question": "Which of the following sentences correctly expresses the subtraction of 9 from 15 in English?",
-    "options": [
-      "A. 15 minus 9",
-      "B. 15 plus 9",
-      "C. 15 times 9",
-      "D. 15 divided by 9"
-    ],
-    "answer": "A",
-    "explanation": "'Minus' is the English word used to indicate subtraction. Therefore, '15 minus 9' correctly represents subtracting 9 from 15."
-  },
-  {
-    "id": "english-395",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "复习"
-    ],
-    "question": "Which of the following sentences uses the present perfect tense correctly?",
-    "options": [
-      "A. She has went to the library after school.",
-      "B. She has gone to the library after school.",
-      "C. She have gone to the library after school.",
-      "D. She has go to the library after school."
-    ],
-    "answer": "B",
-    "explanation": "The present perfect tense is formed with has/have + past participle. 'Gone' is the correct past participle of 'go', so 'She has gone to the library after school' is grammatically correct."
-  },
-  {
-    "id": "english-396",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "作业"
-    ],
-    "question": "Which sentence is grammatically correct when using the noun 'homework'?",
-    "options": [
-      "A. She do her homework every day.",
-      "B. She does her homework every day.",
-      "C. She does her homeworks every day.",
-      "D. She does homework every day."
-    ],
-    "answer": "B",
-    "explanation": "The noun 'homework' is uncountable, so it has no plural form. In the third‑person singular, the auxiliary verb must be 'does', making the correct sentence 'She does her homework every day.' The other options either use the wrong verb form or treat 'homework' as countable."
-  },
-  {
-    "id": "english-397",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "训练时间"
-    ],
-    "question": "Choose the correct preposition to complete the sentence: 'She usually studies English _____ the morning.'",
-    "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. for"
-    ],
-    "answer": "A",
-    "explanation": "We use the preposition 'in' with parts of the day (morning, afternoon, evening)."
-  },
-  {
-    "id": "english-398",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "篮球队"
-    ],
-    "question": "Which sentence correctly uses the phrase \"basketball team\"?",
-    "options": [
-      "A. The basketball team practice every day.",
-      "B. The basketball team practices every day.",
-      "C. The basketball team are practicing.",
-      "D. The basketball team is practice."
-    ],
-    "answer": "B",
-    "explanation": "In English, the collective noun \"basketball team\" is treated as singular and takes a singular verb, so \"practices\" is correct."
-  },
-  {
-    "id": "english-399",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "品质"
-    ],
-    "question": "Which of the following is a quality adjective?",
-    "options": [
-      "A. many",
-      "B. some",
-      "C. beautiful",
-      "D. few"
-    ],
-    "answer": "C",
-    "explanation": "The word 'beautiful' describes the quality or kind of a noun, making it a quality adjective. In contrast, 'many', 'some', and 'few' are quantity adjectives that indicate amount or number."
-  },
-  {
-    "id": "english-400",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "比赛时间"
-    ],
-    "question": "The soccer match is scheduled ______ 5:00 p.m.",
-    "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. for"
-    ],
-    "answer": "C",
-    "explanation": "We use the preposition 'at' before specific times of day (e.g., at 5:00 p.m.)."
-  },
-  {
-    "id": "english-401",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "价格计算"
-    ],
-    "question": "If each notebook costs $5, how much do 4 notebooks cost?",
-    "options": [
-      "A. $18",
-      "B. $20",
-      "C. $22",
-      "D. $24"
-    ],
-    "answer": "B",
-    "explanation": "The correct way to ask about the total price of several items is to use the plural verb 'do' with a plural noun. 4 notebooks at $5 each equal $20."
-  },
-  {
-    "id": "english-402",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "餐厅"
-    ],
-    "question": "You are at a restaurant and you want to order a glass of water. Which sentence is the most polite?",
-    "options": [
-      "A. I want water.",
-      "B. Give me water.",
-      "C. Can I have a glass of water, please?",
-      "D. Water, please."
-    ],
-    "answer": "C",
-    "explanation": "Polite requests in a restaurant often use 'Can I have...' or 'Could I have...' followed by 'please', which is considered more courteous than direct orders."
-  },
-  {
-    "id": "english-403",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "活动时间"
-    ],
-    "question": "The school will hold a science fair on May 15th. Which preposition correctly fills the blank: \"The science fair will take place ____ May 15th?\"",
-    "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. for"
-    ],
-    "answer": "B",
-    "explanation": "In English, we use the preposition 'on' before days of the week and specific dates. 'In' is used for months and longer periods, 'at' for specific times of day, and 'for' indicates duration."
+    "explanation": "反射是一种不受意识控制的、快速进行的、由感受器、传入神经、神经中枢、传出神经和效应器共同完成的生理反应。触碰烫物体后手自动缩回属于典型的反射动作；而B、C、D 均涉及意识决定或更高级的神经活动，属于随意行为或条件反射，不是单纯的反射。"
   }
 ]
