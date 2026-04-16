@@ -1,7 +1,7 @@
 {
-  "version": "8.3.0-20260417",
+  "version": "8.4.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "refactor: 打卡卡片整个移除(始终不work)，打卡天数改为柱状图顶部「累计X天」展示；易错题库/熟练掌握按钮移到每科目行右侧，各科独立计数；全科练习移至柱状图顶部右侧"
+  "changelog": "fix: 题库去重 — english-30重复(mid batch覆盖) math-1 biology-1; english现有470题(445 sequential+25 compound sub-qs)，151-200区间50题从未生成需后续补"
 }
