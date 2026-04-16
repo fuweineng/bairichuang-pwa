@@ -1371,87 +1371,56 @@ function drawChart() {
 // SETTINGS VIEW
 async function renderSettings() {
   const container = document.getElementById('settings-content');
-  const lastUpdate = state.settings.lastQuestionBankUpdate
-    ? dateLabel(state.settings.lastQuestionBankUpdate)
-    : '从未更新';
-  const localPackVersion = state.settings.questionBankVersion || '未记录';
-  const remotePackVersion = state.remoteVersions?.questionBankVersion || '未知';
-
   container.innerHTML = `
     <div class="settings-card">
-      <div class="settings-section-title">账号</div>
       ${state.account ? `
-      <div class="settings-row clickable-row" data-action="edit-account" style="align-items:center;gap:12px;padding:12px 0;cursor:pointer">
-        <img src="${(state.account.avatar || '')}" style="width:48px;height:48px;border-radius:50%;object-fit:cover;flex-shrink:0">
+      <div class="settings-row clickable-row" data-action="edit-account" style="align-items:center;gap:10px;padding:8px 0">
+        <img src="${(state.account.avatar || '')}" style="width:40px;height:40px;border-radius:50%;object-fit:cover;flex-shrink:0">
         <div style="flex:1;min-width:0">
-          <div class="settings-label" style="margin-bottom:2px">${state.account.name}</div>
-          <div class="settings-hint" style="margin:0">${state.meta.startDate ? '第 ' + getCurrentDay() + ' / 100 天' : '未开始'}</div>
+          <div class="settings-label" style="margin:0">${state.account.name}</div>
+          <div class="settings-hint" style="margin:0;font-size:0.75rem">${state.meta.startDate ? '第 ' + getCurrentDay() + ' / 100 天' : '未开始'}</div>
+        </div>
+        <div style="display:flex;gap:6px">
+          <button class="secondary-btn" data-action="export-account-qr" style="padding:4px 8px;font-size:0.75rem">导出</button>
+          <button class="secondary-btn" data-action="import-account-qr" style="padding:4px 8px;font-size:0.75rem">接入</button>
         </div>
       </div>
-      <div style="display:flex;gap:8px">
-        <button class="secondary-btn" data-action="export-account-qr" style="flex:1">导出二维码</button>
-        <button class="secondary-btn" data-action="import-account-qr" style="flex:1">扫码接入</button>
-      </div>
-      ` : '<div class="settings-hint">未设置账号</div>'}
-    </div>
-
-    <div class="settings-card">
-      <div class="settings-section-title">学习</div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">易错阈值</div>
-          <div class="settings-hint">正确率低于此值的题目进入"易错汇总"</div>
-        </div>
+      ` : '<div class="settings-hint" style="padding:8px 0">未设置账号</div>'}
+      <div class="settings-row" style="padding:8px 0">
+        <div class="settings-label" style="margin:0">易错阈值</div>
         <div class="settings-stepper">
           <button class="stepper-btn" data-action="thresh-minus">−</button>
           <span class="stepper-val" id="thresh-val">${Math.round(state.settings.weakThreshold * 100)}%</span>
           <button class="stepper-btn" data-action="thresh-plus">+</button>
         </div>
       </div>
-    </div>
-
-    <div class="settings-card">
-      <div class="settings-section-title">题库</div>
-      <div class="settings-row">
-        <div>
-          <div class="settings-label">题库版本</div>
-          <div class="settings-hint">本地：${localPackVersion}</div>
-          <div class="settings-hint">远端：${remotePackVersion}</div>
-          <div class="settings-hint">最近同步：${lastUpdate}</div>
+      <div class="settings-row" style="padding:8px 0;border-bottom:none">
+        <div class="settings-label" style="margin:0">版本</div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span class="settings-hint" style="margin:0">${state.remoteVersions?.version || '8.6.0'}</span>
+          <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:3px 8px;font-size:0.7rem">更新</button>
         </div>
       </div>
-      <button class="primary-btn" data-action="upgrade-questions" id="upgrade-btn" style="margin-top:8px">检查更新</button>
-      <button class="secondary-btn" data-action="clear-qb-cache" style="margin-top:6px">清除缓存</button>
     </div>
 
     <div class="settings-card">
-      <div class="settings-section-title">数据</div>
-      <div id="qb-stats" class="settings-hint" style="padding:4px 0 8px">加载中...</div>
-      <button class="danger-btn" data-action="clear-all-data">清除所有数据</button>
-    </div>
-
-    <div class="settings-card" id="supporters-section">
-      <div class="settings-section-title">支持</div>
-      <div id="supporters-content">
-        <div class="settings-hint">加载中...</div>
+      <div class="settings-section-title">题库与数据</div>
+      <div id="qb-stats" class="settings-hint" style="padding:4px 0 6px;font-size:0.8rem">加载中...</div>
+      <div style="display:flex;gap:6px">
+        <button class="secondary-btn" data-action="upgrade-questions" id="upgrade-btn" style="flex:1;padding:8px;font-size:0.8rem">同步题库</button>
+        <button class="secondary-btn" data-action="clear-qb-cache" style="flex:1;padding:8px;font-size:0.8rem">清缓存</button>
+        <button class="danger-btn" data-action="clear-all-data" style="flex:1;padding:8px;font-size:0.8rem">清除</button>
       </div>
     </div>
 
-    <div class="settings-card">
-      <button class="donate-btn" data-action="show-donate-modal" style="width:100%;padding:12px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:10px;font-size:0.9rem;font-weight:700;cursor:pointer">
+    <div class="settings-card" style="padding:10px 14px">
+      <button class="donate-btn" data-action="show-donate-modal" style="width:100%;padding:10px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
         支持百日闯
       </button>
     </div>
 
-    <div class="settings-card">
-      <div class="settings-section-title">关于</div>
-      <div style="display:flex;align-items:center;justify-content:space-between">
-        <div>
-          <div class="settings-label">当前版本</div>
-          <div class="settings-hint">v${state.remoteVersions?.version || '?'}</div>
-        </div>
-        <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn">检查更新</button>
-      </div>
+    <div id="supporters-content" style="padding:4px 0 8px;text-align:center">
+      <div class="settings-hint">加载中...</div>
     </div>
 
     <div class="settings-version">百日闯 v${state.remoteVersions?.version || '?'}</div>
