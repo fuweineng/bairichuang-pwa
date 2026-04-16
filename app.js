@@ -1422,13 +1422,12 @@ async function renderSettings() {
     <div class="settings-card">
       <div class="settings-section-title">账号</div>
       ${state.account ? `
-      <div class="settings-row" style="align-items:center;gap:12px;padding:12px 0">
+      <div class="settings-row clickable-row" data-action="edit-account" style="align-items:center;gap:12px;padding:12px 0;cursor:pointer">
         <img src="${(state.account.avatar || '')}" style="width:48px;height:48px;border-radius:50%;object-fit:cover;flex-shrink:0">
         <div style="flex:1;min-width:0">
           <div class="settings-label" style="margin-bottom:2px">${state.account.name}</div>
           <div class="settings-hint" style="margin:0">${state.meta.startDate ? '第 ' + getCurrentDay() + ' / 100 天' : '未开始'}</div>
         </div>
-        <button class="secondary-btn" data-action="edit-account" style="flex-shrink:0">编辑</button>
       </div>
       <div style="display:flex;gap:8px">
         <button class="secondary-btn" data-action="export-account-qr" style="flex:1">导出二维码</button>

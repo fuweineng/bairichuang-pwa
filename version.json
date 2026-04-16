@@ -1,7 +1,7 @@
 {
-  "version": "7.1.0",
+  "version": "8.0.0",
   "questionBankVersion": "20260415-1",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-16",
-  "changelog": "UI优化：Header合并设置入口为头像；Settings页面重构为分组式卡片；版本号改为三段式"
+  "changelog": "新增：账号资料编辑功能；新增：软件手动升级按钮（Settings关于区块）；修复：二维码CDN qrcode@1.5.3路径404"
 }
