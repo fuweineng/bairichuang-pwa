@@ -56,6 +56,7 @@ const K = {
 };
 
 const VERSION_URL = 'version.json';
+const SUPPORTERS_URL = 'supporters.json';
 const INDEX_URL = 'questions/index.json';
 const SUBJECTS = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
 
@@ -1467,6 +1468,13 @@ async function renderSettings() {
       <button class="danger-btn" data-action="clear-all-data">清除所有数据</button>
     </div>
 
+    <div class="settings-card" id="supporters-section">
+      <div class="settings-section-title">支持</div>
+      <div id="supporters-content">
+        <div class="settings-hint">加载中...</div>
+      </div>
+    </div>
+
     <div class="settings-card">
       <div class="settings-section-title">关于</div>
       <div style="display:flex;align-items:center;justify-content:space-between">
@@ -1488,6 +1496,63 @@ async function renderSettings() {
   }).join('；');
   const el = document.getElementById('qb-stats');
   if (el) el.textContent = stats || '无题目';
+
+  // Load supporters
+  loadSupporters();
+}
+
+async function loadSupporters() {
+  const container = document.getElementById('supporters-content');
+  if (!container) return;
+  const cacheKey = 'supporters_cache';
+  const cacheTimeKey = 'supporters_cache_time';
+  const now = Date.now();
+  const cacheTTL = 24 * 60 * 60 * 1000; // 24h
+
+  try {
+    const cached = localStorage.getItem(cacheKey);
+    const cacheTime = localStorage.getItem(cacheTimeKey);
+    if (cached && cacheTime && now - parseInt(cacheTime) < cacheTTL) {
+      renderSupporters(JSON.parse(cached));
+      return;
+    }
+    const resp = await fetch(`${SUPPORTERS_URL}?_=${now}`, { cache: 'no-store' });
+    if (!resp.ok) throw new Error('fetch failed');
+    const data = await resp.json();
+    localStorage.setItem(cacheKey, JSON.stringify(data));
+    localStorage.setItem(cacheTimeKey, String(now));
+    renderSupporters(data);
+  } catch {
+    // silent fail — show nothing
+  }
+}
+
+function renderSupporters(data) {
+  const container = document.getElementById('supporters-content');
+  if (!container || !data?.sponsors?.length) {
+    if (container) container.innerHTML = '<div class="settings-hint">暂无赞助者</div>';
+    return;
+  }
+  const list = data.sponsors.map(s => {
+    const name = escapeHTML(s.name || '匿名');
+    const amount = s.amount ? `赞助 ¥${s.amount}` : '';
+    const note = s.note ? `<div style="font-size:12px;color:#888;margin-top:2px">${escapeHTML(s.note)}</div>` : '';
+    return `<div style="padding:8px 0;border-bottom:1px solid #f0f0f0">
+      <div style="display:flex;align-items:center;gap:8px">
+        <div style="width:32px;height:32px;border-radius:50%;background:#e8f5e9;color:#2e7d32;font-size:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0">${name.slice(0,1)}</div>
+        <div style="flex:1;min-width:0">
+          <div style="font-size:14px;font-weight:500">${name}</div>
+          ${note}
+        </div>
+        ${amount ? `<div style="font-size:12px;color:#2e7d32;flex-shrink:0">${amount}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+  container.innerHTML = list;
+}
+
+function escapeHTML(str) {
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 async function upgradeQuestionBank() {
