@@ -949,6 +949,7 @@ function renderQuestion() {
     ${listenBtn}
     ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
     ${imageBlock}
+    ${q.passage ? `<div class="passage-block"><strong>短文：</strong>${q.passage.replace(/\n/g, '<br>')}</div>` : ''}
     <div class="question-text">${q.question}</div>
     ${opts ? `<div class="answer-grid">${opts}</div>` : ''}
     ${inputArea}
