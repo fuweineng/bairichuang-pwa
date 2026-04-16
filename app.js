@@ -340,7 +340,12 @@ function renderAll() {
 }
 
 // HOME
-function renderHome() {
+async function renderHome() {
+  // Reload persistent state from IndexedDB to catch any writes from other tabs/sessions
+  state.daily = await get(K.DAILY) || {};
+  state.progress = await get(K.PROGRESS) || {};
+  state.meta = await get(K.META) || {};
+
   // 100-day progress
   const currentDay = getCurrentDay();
   const dayProgress = state.meta.startDate
@@ -438,17 +443,19 @@ function renderTodayStatus() {
     </div>`;
 }
 
-// 计算某科目的正确率（基于 progress 记录，无数据时用摸底结果）
+// 计算某科目的掌握率 = 答对≥1次的题数 / 题库总题数（全部考点完整覆盖）
 function getSubjectAccuracy(subj) {
   const questions = state.questionBank[subj] || [];
-  let correct = 0, total = 0;
+  if (questions.length === 0) return null;
+  let mastered = 0;
   questions.forEach(q => {
     const p = state.progress[q.id];
-    if (!p || p.status === 'new') return;
-    correct += p.correct || 0;
-    total += (p.correct || 0) + (p.wrong || 0);
+    if (p && p.correct >= 1) mastered++;
   });
-  if (total > 0) return Math.round((correct / total) * 100);
+  // 有练习数据 → 用实际掌握率
+  if (mastered > 0 || questions.some(q => state.progress[q.id])) {
+    return Math.round((mastered / questions.length) * 100);
+  }
   // 无 progress 数据时 → 用摸底测试结果
   if (state.meta.day1SubjectAcc) {
     return state.meta.day1SubjectAcc[subj] ?? null;
@@ -1319,6 +1326,7 @@ function drawChart() {
 
   return `
   <div class="chart-bar-list">${rows}</div>
+  <div class="chart-hint">💡 点击科目名称开始练习，或直接点「全科练习」</div>
   <button class="chart-all-btn" data-action="start-subject" data-subject="all">🔥 全科练习</button>`;
 }
 
