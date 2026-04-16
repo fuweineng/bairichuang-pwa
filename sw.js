@@ -1,5 +1,5 @@
 // Service Worker — Cache-First strategy (per-subject lazy loading)
-const CACHE_NAME = 'bairichuang-v20260416-1';
+const CACHE_NAME = 'bairichuang-v20260416-2';
 
 const PRECACHE = [
   './',

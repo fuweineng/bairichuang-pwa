@@ -2261,4 +2261,225 @@ footer {
   color: #888;
 }
 
+/* ==================== DONATE BUTTON ==================== */
+.donate-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 8px;
+  transition: background 0.15s;
+  line-height: 1;
+}
+.donate-btn:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* ==================== DONATE MODAL ==================== */
+.donate-modal-card {
+  max-width: 380px;
+  width: calc(100vw - 32px);
+  padding: 20px;
+}
+.donor-subtitle {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  margin: -8px 0 14px;
+}
+.donor-avatar-row {
+  margin-bottom: 10px;
+}
+.donor-avatar-pick-label {
+  font-size: 0.8rem;
+  color: #999;
+  display: block;
+  margin-bottom: 6px;
+}
+.donor-avatar-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.donor-avatar {
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.donor-avatar:hover,
+.donor-avatar.donor-avatar-selected {
+  border-color: #4CAF50;
+  transform: scale(1.15);
+}
+.donor-avatar-list .donor-avatar:first-child {
+  border-color: #4CAF50;
+}
+.qr-section {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0;
+  justify-content: center;
+}
+.qr-item {
+  flex: 1;
+  max-width: 150px;
+}
+.qr-label {
+  font-size: 0.78rem;
+  color: #888;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.qr-img-wrap {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qr-img-wrap img {
+  width: 100%;
+  max-width: 120px;
+  border-radius: 4px;
+}
+.donor-thanks {
+  text-align: center;
+  color: #4CAF50;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+/* ==================== SUBJECTS GRID (home) ==================== */
+.subjects-grid-container {
+  margin-bottom: 4px;
+}
+.subjects-grid-header {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 8px;
+  padding: 0 2px;
+}
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.subj-grid-btn {
+  background: white;
+  border: 1.5px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 10px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+.subj-grid-btn:active {
+  transform: scale(0.96);
+}
+.subj-grid-btn:hover {
+  border-color: #4CAF50;
+  box-shadow: 0 2px 8px rgba(76,175,80,0.12);
+}
+.subj-grid-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ddd;
+}
+.subj-grid-dot.weak { background: #e53935; }
+.subj-grid-dot.mastered { background: #4CAF50; }
+.subj-grid-name {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: #333;
+}
+.subj-grid-acc {
+  font-size: 0.7rem;
+  color: #999;
+}
+
+/* ==================== CHECKIN ENTRY CARD ==================== */
+.checkin-entry-card {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 4px solid #FF9800;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+.checkin-entry-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.checkin-entry-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkin-entry-icon {
+  font-size: 1.3rem;
+}
+.checkin-entry-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}
+.checkin-entry-sub {
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 1px;
+}
+.checkin-entry-arrow {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* ==================== SETTINGS DONORS TAB ==================== */
+.settings-section-header {
+  font-size: 0.75rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 16px 0 8px 2px;
+}
+.donor-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.donor-list-item:last-child {
+  border-bottom: none;
+}
+.donor-list-avatar {
+  font-size: 1.4rem;
+}
+.donor-list-name {
+  font-size: 0.88rem;
+  color: #333;
+}
+.donor-list-date {
+  font-size: 0.72rem;
+  color: #bbb;
+  margin-left: auto;
+}
+.donor-list-empty {
+  color: #ccc;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
 
