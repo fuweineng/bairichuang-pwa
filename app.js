@@ -401,8 +401,6 @@ function renderHome() {
 
   // Today status
   renderTodayStatus();
-  // Weak subjects
-  renderWeakSubjects();
 }
 
 
