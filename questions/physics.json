@@ -32,7 +32,10 @@
     "question": "声音的三个特性是音调、响度和______。",
     "options": null,
     "answer": "音色",
-    "explanation": "声音的三要素是：音调（高低）、响度（强弱）、音色（特色）。"
+    "explanation": "声音的三要素是：音调（高低）、响度（强弱）、音色（特色）。",
+    "acceptAnswers": [
+      "音色"
+    ]
   },
   {
     "id": "physics-003",
@@ -147,7 +150,10 @@
     "question": "浸在液体中的物体，受到向上和向下的压力差，这种力叫______。",
     "options": null,
     "answer": "浮力",
-    "explanation": "浮力产生的原因：液体对物体上下表面的压力差。方向竖直向上。"
+    "explanation": "浮力产生的原因：液体对物体上下表面的压力差。方向竖直向上。",
+    "acceptAnswers": [
+      "浮力"
+    ]
   },
   {
     "id": "physics-009",
@@ -222,7 +228,10 @@
     "question": "某用电器在220V电压下工作，电流为2A，其电功率为______W。",
     "options": null,
     "answer": "440",
-    "explanation": "电功率P=UI=220V×2A=440W"
+    "explanation": "电功率P=UI=220V×2A=440W",
+    "acceptAnswers": [
+      "440"
+    ]
   },
   {
     "id": "physics-013",
@@ -2063,7 +2072,10 @@
     ],
     "question": "声音在15℃空气中传播速度是_____m/s。",
     "answer": "340",
-    "explanation": "根据物理知识填写：340"
+    "explanation": "根据物理知识填写：340",
+    "acceptAnswers": [
+      "340"
+    ]
   },
   {
     "id": "physics-092",
@@ -2077,7 +2089,10 @@
     ],
     "question": "体温计的测量范围是35℃到_____℃。",
     "answer": "42",
-    "explanation": "根据物理知识填写：42"
+    "explanation": "根据物理知识填写：42",
+    "acceptAnswers": [
+      "42"
+    ]
   },
   {
     "id": "physics-093",
@@ -2091,7 +2106,10 @@
     ],
     "question": "光在均匀介质中沿_____传播。",
     "answer": "直线",
-    "explanation": "根据物理知识填写：直线"
+    "explanation": "根据物理知识填写：直线",
+    "acceptAnswers": [
+      "直线"
+    ]
   },
   {
     "id": "physics-094",
@@ -2105,7 +2123,10 @@
     ],
     "question": "凸透镜对光有_____作用。",
     "answer": "会聚",
-    "explanation": "根据物理知识填写：会聚"
+    "explanation": "根据物理知识填写：会聚",
+    "acceptAnswers": [
+      "会聚"
+    ]
   },
   {
     "id": "physics-095",
@@ -2119,7 +2140,10 @@
     ],
     "question": "水的比热容是4.2×10³_____。",
     "answer": "J/(kg·℃)",
-    "explanation": "根据物理知识填写：J/(kg·℃)"
+    "explanation": "根据物理知识填写：J/(kg·℃)",
+    "acceptAnswers": [
+      "J/(kg·℃)"
+    ]
   },
   {
     "id": "physics-096",
@@ -2133,7 +2157,10 @@
     ],
     "question": "1标准大气压下，水的沸点是_____℃。",
     "answer": "100",
-    "explanation": "根据物理知识填写：100"
+    "explanation": "根据物理知识填写：100",
+    "acceptAnswers": [
+      "100"
+    ]
   },
   {
     "id": "physics-097",
@@ -2147,7 +2174,10 @@
     ],
     "question": "1kW·h等于3.6×10⁶_____。",
     "answer": "J",
-    "explanation": "根据物理知识填写：J"
+    "explanation": "根据物理知识填写：J",
+    "acceptAnswers": [
+      "J"
+    ]
   },
   {
     "id": "physics-098",
@@ -2161,7 +2191,10 @@
     ],
     "question": "地球周围存在着_____，地理两极处磁场最强。",
     "answer": "磁场",
-    "explanation": "根据物理知识填写：磁场"
+    "explanation": "根据物理知识填写：磁场",
+    "acceptAnswers": [
+      "磁场"
+    ]
   },
   {
     "id": "physics-099",
@@ -2175,7 +2208,10 @@
     ],
     "question": "增大压强的方法有：增大压力或减小受力面积；减小压强的方法有：减小压力或增大_____。",
     "answer": "受力面积",
-    "explanation": "根据物理知识填写：受力面积"
+    "explanation": "根据物理知识填写：受力面积",
+    "acceptAnswers": [
+      "受力面积"
+    ]
   },
   {
     "id": "physics-100",
@@ -2189,7 +2225,10 @@
     ],
     "question": "杠杆的平衡条件是：动力×动力臂 = _____×阻力臂。",
     "answer": "阻力",
-    "explanation": "根据物理知识填写：阻力"
+    "explanation": "根据物理知识填写：阻力",
+    "acceptAnswers": [
+      "阻力"
+    ]
   },
   {
     "id": "physics-101",
@@ -3230,7 +3269,8 @@
       "C. 50 m",
       "D. 60 m"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-156",
@@ -3245,7 +3285,8 @@
       "C. 10 km/h",
       "D. 12 km/h"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "physics-157",
@@ -3260,7 +3301,8 @@
       "C. 力是标量，只有大小，没有方向。",
       "D. 力只能在两物体相互接触时产生，不能通过空间传递。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-158",
@@ -3275,7 +3317,8 @@
       "C. 0.025 m",
       "D. 0.01 m"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "physics-159",
@@ -3290,7 +3333,8 @@
       "C. 滑动摩擦力的大小随相对速度的增大而增大",
       "D. 滑动摩擦力的大小与接触面的粗糙程度无关"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-160",
@@ -3305,7 +3349,8 @@
       "C. 10.39N",
       "D. 3N"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "physics-161",
@@ -3320,7 +3365,8 @@
       "C. 二力平衡只能在静止的物体上出现，运动中的物体不可能出现二力平衡",
       "D. 两个力若大小相等且方向相反，则一定是平衡力"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-162",
@@ -3335,7 +3381,8 @@
       "C. 24.5 kPa",
       "D. 245 kPa"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-163",
@@ -3350,7 +3397,8 @@
       "C. 压强与液体的密度无关",
       "D. 压强只与液体的体积有关"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-164",
@@ -3365,7 +3413,8 @@
       "C. 用温度计测量体温",
       "D. 用弹簧秤称量物体"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-165",
@@ -3380,7 +3429,8 @@
       "C. 200 N",
       "D. 2000 N"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-166",
@@ -3395,7 +3445,8 @@
       "C. 100 J",
       "D. 180 J"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-167",
@@ -3410,7 +3461,8 @@
       "C. 50 kW",
       "D. 60 kW"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-168",
@@ -3425,7 +3477,8 @@
       "C. 机械能增加，动能增加",
       "D. 机械能减小，动能不变"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-169",
@@ -3440,7 +3493,8 @@
       "C. 34 m",
       "D. 272 m"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-170",
@@ -3455,7 +3509,8 @@
       "C. 反射光线与入射光线位于入射面的两侧",
       "D. 反射光的强度随入射角的增大而增大"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-171",
@@ -3470,7 +3525,8 @@
       "C. 保持原方向",
       "D. 与法线成直角"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-172",
@@ -3485,7 +3541,8 @@
       "C. 虚像，正立，放大",
       "D. 虚像，正立，缩小"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-173",
@@ -3500,7 +3557,8 @@
       "C. 升华",
       "D. 凝固"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "physics-174",
@@ -3515,7 +3573,8 @@
       "C. 4.6×10^2 J/(kg·°C)",
       "D. 1.2×10^3 J/(kg·°C)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-175",
@@ -3530,7 +3589,8 @@
       "C. 燃料燃烧时产生的最高温度",
       "D. 燃料燃烧时产生的火焰颜色"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-176",
@@ -3545,7 +3605,8 @@
       "C. 对物体做功一定会增加其内能。",
       "D. 内能是守恒的，任何过程都不会改变物体的内能。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-177",
@@ -3560,7 +3621,8 @@
       "C. 串联电路中，总电阻等于各电阻之和",
       "D. 并联电路中，总电阻大于任一分电阻"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "physics-178",
@@ -3575,7 +3637,8 @@
       "C. 12A",
       "D. 0.8A"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-179",
@@ -3590,7 +3653,8 @@
       "C. 0.25 A",
       "D. 2 A"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-180",
@@ -3605,7 +3669,8 @@
       "C. 仅与通电时间成正比",
       "D. 与电阻、电流的平方以及通电时间均成正比"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "physics-181",
@@ -3620,7 +3685,8 @@
       "C. 磁极之间的相互作用只与距离有关，与磁极方向无关",
       "D. 磁极可以单独存在"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-182",
@@ -3635,7 +3701,8 @@
       "C. 与原磁场方向垂直",
       "D. 无感应电流产生"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-183",
@@ -3650,7 +3717,8 @@
       "C. 机械运动是指物体在空间中做匀速直线运动",
       "D. 机械运动是指物体在任意参考系下的运动都相同"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-184",
@@ -3665,7 +3733,8 @@
       "C. 10.8 m/s",
       "D. 3 m/s"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-185",
@@ -3680,7 +3749,8 @@
       "C. 只有接触的物体之间才会产生力。",
       "D. 力的单位是千克。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-186",
@@ -3695,7 +3765,8 @@
       "C. 重力大小为20 N，方向竖直向下；弹力大小为5 N，方向竖直向上。",
       "D. 重力大小为20 N，方向竖直向下；弹力大小为10 N，方向竖直向下。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-187",
@@ -3710,7 +3781,8 @@
       "C. 5 N",
       "D. 0 N"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-188",
@@ -3725,7 +3797,8 @@
       "C. 14 N",
       "D. 10 N"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-189",
@@ -3740,7 +3813,8 @@
       "C. 两个力大小不相等，方向相反",
       "D. 两个力大小相等，方向任意"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-190",
@@ -3755,7 +3829,8 @@
       "C. 1.2×10³ Pa",
       "D. 6.0×10⁴ Pa"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-191",
@@ -3770,7 +3845,8 @@
       "C. 两容器底部压强相等",
       "D. 与容器底面积成正比"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "physics-192",
@@ -3785,7 +3861,8 @@
       "C. 用温度计测量温度",
       "D. 用电流表测量电流"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-193",
@@ -3800,7 +3877,8 @@
       "C. 5 N",
       "D. 10 N"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-194",
@@ -3815,7 +3893,8 @@
       "C. 100 J",
       "D. 50 J"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-195",
@@ -3830,7 +3909,8 @@
       "C. 200 W",
       "D. 500 W"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-196",
@@ -3845,7 +3925,8 @@
       "C. 150 J",
       "D. 200 J"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-197",
@@ -3860,7 +3941,8 @@
       "C. 声波的频率随传播距离的增大而减小",
       "D. 声波的振幅随传播距离的增大而增大"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "physics-198",
@@ -3875,7 +3957,8 @@
       "C. 反射角随入射角的增大而减小",
       "D. 只有光滑的表面才能产生光的反射"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "physics-199",
@@ -3890,7 +3973,8 @@
       "C. 发生全反射",
       "D. 折射角等于入射角"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "physics-200",
@@ -3905,6 +3989,7 @@
       "C. 正立、缩小的虚像",
       "D. 倒立、放大的实像"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   }
 ]

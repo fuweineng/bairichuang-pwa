@@ -72,7 +72,10 @@
     "question": "If it _______ tomorrow, I will stay at home.",
     "options": null,
     "answer": "rains",
-    "explanation": "In if-clauses referring to future time, use present simple (rains) to express future condition."
+    "explanation": "In if-clauses referring to future time, use present simple (rains) to express future condition.",
+    "acceptAnswers": [
+      "rains"
+    ]
   },
   {
     "id": "english-005",
@@ -106,7 +109,10 @@
     "question": "Change into passive voice: The teacher wrote the letter.",
     "options": null,
     "answer": "The letter was written by the teacher.",
-    "explanation": "Active: The teacher wrote the letter. Passive: The letter was written by the teacher."
+    "explanation": "Active: The teacher wrote the letter. Passive: The letter was written by the teacher.",
+    "acceptAnswers": [
+      "The letter was written by the teacher."
+    ]
   },
   {
     "id": "english-007",
@@ -236,7 +242,10 @@
     "question": "She is very ______ (chemistry) - she always does experiments carefully.",
     "options": null,
     "answer": "chemical",
-    "explanation": "chemistry→chemical (adj)."
+    "explanation": "chemistry→chemical (adj).",
+    "acceptAnswers": [
+      "chemical"
+    ]
   },
   {
     "id": "english-014",
@@ -251,7 +260,10 @@
     "question": "Reading is important because it helps us _____ (knowledge) and develop critical thinking.",
     "options": null,
     "answer": "gain knowledge",
-    "explanation": "The passage mainly discusses how reading helps people gain knowledge and develop critical thinking skills."
+    "explanation": "The passage mainly discusses how reading helps people gain knowledge and develop critical thinking skills.",
+    "acceptAnswers": [
+      "gain knowledge"
+    ]
   },
   {
     "id": "english-015",
@@ -436,7 +448,10 @@
     ],
     "question": "My mother usually _____ (cook) dinner at 6 pm.",
     "answer": "cooks",
-    "explanation": "一般现在时，主语是第三人称单数，动词加s"
+    "explanation": "一般现在时，主语是第三人称单数，动词加s",
+    "acceptAnswers": [
+      "cooks"
+    ]
   },
   {
     "id": "english-025",
@@ -569,7 +584,10 @@
     "question": "My sister can speak English _____ (fluent).",
     "answer": "fluently",
     "explanation": "-ly后缀，副词修饰动词speak",
-    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-031.m4a"
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-031.m4a",
+    "acceptAnswers": [
+      "fluently"
+    ]
   },
   {
     "id": "english-032",
@@ -763,7 +781,10 @@
     "question": "It is important _____ (learn) English well.",
     "answer": "to learn",
     "explanation": "不定式作主语，It is + adj. + to do sth.",
-    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-041.m4a"
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-041.m4a",
+    "acceptAnswers": [
+      "to learn"
+    ]
   },
   {
     "id": "english-042",
@@ -917,7 +938,10 @@
     "question": "The children are _____ (play) in the garden now.",
     "answer": "playing",
     "explanation": "现在进行时 be+v-ing，now是标志词",
-    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-049.m4a"
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-049.m4a",
+    "acceptAnswers": [
+      "playing"
+    ]
   },
   {
     "id": "english-050",
@@ -1051,7 +1075,10 @@
     "question": "If it _____ (rain) tomorrow, we will stay at home.",
     "answer": "rains",
     "explanation": "真实条件句，主将从现，主句will do，从句用一般现在时",
-    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-056.m4a"
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-056.m4a",
+    "acceptAnswers": [
+      "rains"
+    ]
   },
   {
     "id": "english-057",
@@ -1205,7 +1232,10 @@
     "question": "I will contact you as soon as I _____ (arrive).",
     "answer": "arrive",
     "explanation": "主将从现，as soon as引导时间状语从句，用一般现在时表将来",
-    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-064.m4a"
+    "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-064.m4a",
+    "acceptAnswers": [
+      "arrive"
+    ]
   },
   {
     "id": "english-065",
@@ -5741,7 +5771,10 @@
     "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "audioUrl": "audio/english/english-236.m4a",
     "answer": "Middle",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "acceptAnswers": [
+      "Middle"
+    ]
   },
   {
     "id": "english-236-2",
@@ -5758,7 +5791,10 @@
     "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "audioUrl": "audio/english/english-236.m4a",
     "answer": "morning",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "acceptAnswers": [
+      "morning"
+    ]
   },
   {
     "id": "english-236-3",
@@ -5808,7 +5844,10 @@
     "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "audioUrl": "audio/english/english-236.m4a",
     "answer": "hour",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "acceptAnswers": [
+      "hour"
+    ]
   },
   {
     "id": "english-236-5",
@@ -5825,7 +5864,10 @@
     "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "audioUrl": "audio/english/english-236.m4a",
     "answer": "10:00",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "acceptAnswers": [
+      "10:00"
+    ]
   },
   {
     "id": "english-237-1",
@@ -5843,7 +5885,10 @@
     "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "audioUrl": "audio/english/english-237.m4a",
     "answer": "Garden",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "acceptAnswers": [
+      "Garden"
+    ]
   },
   {
     "id": "english-237-2",
@@ -5861,7 +5906,10 @@
     "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "audioUrl": "audio/english/english-237.m4a",
     "answer": "trees",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "acceptAnswers": [
+      "trees"
+    ]
   },
   {
     "id": "english-237-3",
@@ -5879,7 +5927,10 @@
     "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "audioUrl": "audio/english/english-237.m4a",
     "answer": "lunch",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "acceptAnswers": [
+      "lunch"
+    ]
   },
   {
     "id": "english-237-4",
@@ -5897,7 +5948,10 @@
     "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "audioUrl": "audio/english/english-237.m4a",
     "answer": "years",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "acceptAnswers": [
+      "years"
+    ]
   },
   {
     "id": "english-237-5",
@@ -5915,7 +5969,10 @@
     "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "audioUrl": "audio/english/english-237.m4a",
     "answer": "trip",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "acceptAnswers": [
+      "trip"
+    ]
   },
   {
     "id": "english-238-1",
@@ -5932,7 +5989,10 @@
     "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "audioUrl": "audio/english/english-238.m4a",
     "answer": "bookshelf",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "acceptAnswers": [
+      "bookshelf"
+    ]
   },
   {
     "id": "english-238-2",
@@ -5949,7 +6009,10 @@
     "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "audioUrl": "audio/english/english-238.m4a",
     "answer": "adventure",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "acceptAnswers": [
+      "adventure"
+    ]
   },
   {
     "id": "english-238-3",
@@ -5966,7 +6029,10 @@
     "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "audioUrl": "audio/english/english-238.m4a",
     "answer": "minutes",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "acceptAnswers": [
+      "minutes"
+    ]
   },
   {
     "id": "english-238-4",
@@ -5983,7 +6049,10 @@
     "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "audioUrl": "audio/english/english-238.m4a",
     "answer": "words",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "acceptAnswers": [
+      "words"
+    ]
   },
   {
     "id": "english-238-5",
@@ -6000,7 +6069,10 @@
     "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "audioUrl": "audio/english/english-238.m4a",
     "answer": "writer",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "acceptAnswers": [
+      "writer"
+    ]
   },
   {
     "id": "english-239-1",
@@ -6017,7 +6089,10 @@
     "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "audioUrl": "audio/english/english-239.m4a",
     "answer": "Tom",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "acceptAnswers": [
+      "Tom"
+    ]
   },
   {
     "id": "english-239-2",
@@ -6034,7 +6109,10 @@
     "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "audioUrl": "audio/english/english-239.m4a",
     "answer": "cake",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "acceptAnswers": [
+      "cake"
+    ]
   },
   {
     "id": "english-239-3",
@@ -6051,7 +6129,10 @@
     "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "audioUrl": "audio/english/english-239.m4a",
     "answer": "presents",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "acceptAnswers": [
+      "presents"
+    ]
   },
   {
     "id": "english-239-4",
@@ -6068,7 +6149,10 @@
     "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "audioUrl": "audio/english/english-239.m4a",
     "answer": "afternoon",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "acceptAnswers": [
+      "afternoon"
+    ]
   },
   {
     "id": "english-239-5",
@@ -6085,7 +6169,10 @@
     "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "audioUrl": "audio/english/english-239.m4a",
     "answer": "time",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "acceptAnswers": [
+      "time"
+    ]
   },
   {
     "id": "english-240-1",
@@ -6102,7 +6189,10 @@
     "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "audioUrl": "audio/english/english-240.m4a",
     "answer": "bus",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "acceptAnswers": [
+      "bus"
+    ]
   },
   {
     "id": "english-240-2",
@@ -6119,7 +6209,10 @@
     "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "audioUrl": "audio/english/english-240.m4a",
     "answer": "minutes",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "acceptAnswers": [
+      "minutes"
+    ]
   },
   {
     "id": "english-240-3",
@@ -6136,7 +6229,10 @@
     "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "audioUrl": "audio/english/english-240.m4a",
     "answer": "window",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "acceptAnswers": [
+      "window"
+    ]
   },
   {
     "id": "english-240-4",
@@ -6153,7 +6249,10 @@
     "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "audioUrl": "audio/english/english-240.m4a",
     "answer": "Lucy",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "acceptAnswers": [
+      "Lucy"
+    ]
   },
   {
     "id": "english-240-5",
@@ -6170,7 +6269,10 @@
     "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "audioUrl": "audio/english/english-240.m4a",
     "answer": "friendly",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "acceptAnswers": [
+      "friendly"
+    ]
   },
   {
     "id": "english-241",
@@ -8617,7 +8719,8 @@
       "C. little",
       "D. a little"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-370",
@@ -8632,7 +8735,8 @@
       "C. He watched a movie last night.",
       "D. We are playing soccer tomorrow."
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-371",
@@ -8647,7 +8751,8 @@
       "C. is baked",
       "D. bakes"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-372",
@@ -8662,7 +8767,8 @@
       "C. can't",
       "D. shouldn't"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-373",
@@ -8677,7 +8783,8 @@
       "C. listening",
       "D. listened"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-374",
@@ -8692,7 +8799,8 @@
       "C. to find the library",
       "D. the library is where"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-375",
@@ -8707,7 +8815,8 @@
       "C. that",
       "D. which"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-376",
@@ -8722,7 +8831,8 @@
       "C. When",
       "D. If"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-377",
@@ -8737,7 +8847,8 @@
       "C. am",
       "D. be"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-378",
@@ -8752,7 +8863,8 @@
       "C. with",
       "D. by"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-379",
@@ -8767,7 +8879,8 @@
       "C. quicker",
       "D. quickness"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-380",
@@ -8782,7 +8895,8 @@
       "C. Sea turtles are endangered and need more protection.",
       "D. The weather was bad during Tom's weekend."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-381",
@@ -8797,7 +8911,8 @@
       "C. found",
       "D. finding"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-382",
@@ -8812,7 +8927,8 @@
       "C. will go",
       "D. going"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-383",
@@ -8827,7 +8943,8 @@
       "C. Hi! I have a suggestion.",
       "D. To Whom It May Concern,"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-384",
@@ -8842,7 +8959,8 @@
       "C. little",
       "D. a little"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-385",
@@ -8857,7 +8975,8 @@
       "C. visited",
       "D. are visiting"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-386",
@@ -8872,7 +8991,8 @@
       "C. She wrote a letter yesterday.",
       "D. She will write a letter tomorrow."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-387",
@@ -8887,7 +9007,8 @@
       "C. might",
       "D. should"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-388",
@@ -8902,7 +9023,8 @@
       "C. To finish",
       "D. Having finished"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "english-389",
@@ -8917,7 +9039,8 @@
       "C. The students' excitement",
       "D. The bell ringing"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-390",
@@ -8932,7 +9055,8 @@
       "C. that",
       "D. whose"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "english-391",
@@ -8947,7 +9071,8 @@
       "C. Unless",
       "D. When"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-392",
@@ -8962,7 +9087,8 @@
       "C. will have",
       "D. would have"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-393",
@@ -8977,7 +9103,8 @@
       "C. at",
       "D. about"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-394",
@@ -8992,7 +9119,8 @@
       "C. deciding",
       "D. decision"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "english-395",
@@ -9007,7 +9135,8 @@
       "C. Go to the library to read",
       "D. Watch TV at home"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-396",
@@ -9022,7 +9151,8 @@
       "C. were",
       "D. be"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-397",
@@ -9037,7 +9167,8 @@
       "C. sadness",
       "D. sad"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-398",
@@ -9052,7 +9183,8 @@
       "C. Start with a concluding sentence.",
       "D. Start with a question that has no connection to the main idea."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-399",
@@ -9067,7 +9199,8 @@
       "C. I need some advice about my project.",
       "D. They advice us to be on time."
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-400",
@@ -9082,7 +9215,8 @@
       "C. is crying",
       "D. cried"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-401",
@@ -9097,7 +9231,8 @@
       "C. The teacher will explain the lesson tomorrow.",
       "D. The teacher has explained the lesson."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-402",
@@ -9112,7 +9247,8 @@
       "C. don't have to",
       "D. should"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-403",
@@ -9127,7 +9263,8 @@
       "C. postponed",
       "D. postpone"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-404",
@@ -9142,7 +9279,8 @@
       "C. what the test was tomorrow.",
       "D. when the test was tomorrow."
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-405",
@@ -9157,7 +9295,8 @@
       "C. whose",
       "D. that"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-406",
@@ -9172,7 +9311,8 @@
       "C. If",
       "D. When"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-407",
@@ -9187,7 +9327,8 @@
       "C. was",
       "D. be"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-408",
@@ -9202,7 +9343,8 @@
       "C. at",
       "D. for"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-409",
@@ -9217,7 +9359,8 @@
       "C. analyzed",
       "D. analytic"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-410",
@@ -9232,7 +9375,8 @@
       "C. It was destroyed recently.",
       "D. It is a popular tourist attraction."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-411",
@@ -9247,7 +9391,8 @@
       "C. taken",
       "D. taking"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-412",
@@ -9262,7 +9407,8 @@
       "C. lent",
       "D. forgot"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-413",
@@ -9277,7 +9423,8 @@
       "C. Reading books provides many benefits, including improving vocabulary and expanding knowledge.",
       "D. Books have pages and covers."
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-414",
@@ -9292,7 +9439,8 @@
       "C. little",
       "D. a little"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-415",
@@ -9307,7 +9455,8 @@
       "C. was leaving",
       "D. leaves"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-416",
@@ -9322,7 +9471,8 @@
       "C. The manager will approve the report tomorrow.",
       "D. The manager is approving the report now."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-417",
@@ -9337,7 +9487,8 @@
       "C. may",
       "D. cannot"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "english-418",
@@ -9352,7 +9503,8 @@
       "C. completing",
       "D. completed"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-419",
@@ -9367,7 +9519,8 @@
       "C. that his name",
       "D. who his name"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-420",
@@ -9382,7 +9535,8 @@
       "C. whose",
       "D. that"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-421",
@@ -9397,7 +9551,8 @@
       "C. as soon as",
       "D. if"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-422",
@@ -9412,7 +9567,8 @@
       "C. were",
       "D. be"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-423",
@@ -9427,7 +9583,8 @@
       "C. at",
       "D. of"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-424",
@@ -9442,7 +9599,8 @@
       "C. Successfully",
       "D. Succeed"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-425",
@@ -9457,7 +9615,8 @@
       "C. Writer",
       "D. Doctor"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-426",
@@ -9472,7 +9631,8 @@
       "C. tired",
       "D. bored"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-427",
@@ -9487,7 +9647,8 @@
       "C. excitedly",
       "D. excite"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-428",
@@ -9502,7 +9663,8 @@
       "C. A list of difficult vocabulary",
       "D. Many exclamation marks"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-429",
@@ -9517,7 +9679,8 @@
       "C. infect",
       "D. defect"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-430",
@@ -9532,7 +9695,8 @@
       "C. had left",
       "D. has left"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-431",
@@ -9547,7 +9711,8 @@
       "C. is installed",
       "D. has installed"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-432",
@@ -9562,7 +9727,8 @@
       "C. may",
       "D. must"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-433",
@@ -9577,7 +9743,8 @@
       "C. finishing",
       "D. finished"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-434",
@@ -9592,7 +9759,8 @@
       "C. that",
       "D. which"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-435",
@@ -9607,7 +9775,8 @@
       "C. whose",
       "D. that"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-436",
@@ -9622,7 +9791,8 @@
       "C. Unless",
       "D. When"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-437",
@@ -9637,7 +9807,8 @@
       "C. were",
       "D. be"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-438",
@@ -9652,7 +9823,8 @@
       "C. at",
       "D. with"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-439",
@@ -9667,7 +9839,8 @@
       "C. friendship",
       "D. friendless"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-440",
@@ -9682,7 +9855,8 @@
       "C. To make driving more convenient for residents.",
       "D. To limit the use of public transportation."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-441",
@@ -9697,7 +9871,8 @@
       "C. created",
       "D. had"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-442",
@@ -9712,7 +9887,8 @@
       "C. angry",
       "D. scared"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-443",
@@ -9727,7 +9903,8 @@
       "C. The author's personal feelings only.",
       "D. The final conclusion of the essay."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-444",
@@ -9742,7 +9919,8 @@
       "C. fetch",
       "D. carry"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-445",
@@ -9757,7 +9935,8 @@
       "C. see",
       "D. will see"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-446",
@@ -9772,7 +9951,8 @@
       "C. is sung",
       "D. will be sung"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-447",
@@ -9787,7 +9967,8 @@
       "C. might",
       "D. could"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-448",
@@ -9802,7 +9983,8 @@
       "C. swimming",
       "D. swam"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-449",
@@ -9817,7 +9999,8 @@
       "C. If",
       "D. What"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-450",
@@ -9832,7 +10015,8 @@
       "C. that",
       "D. which"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-451",
@@ -9847,7 +10031,8 @@
       "C. However",
       "D. Therefore"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-452",
@@ -9862,7 +10047,8 @@
       "C. is",
       "D. be"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-453",
@@ -9877,7 +10063,8 @@
       "C. on",
       "D. for"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-454",
@@ -9892,7 +10079,8 @@
       "C. quickness",
       "D. quicker"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-455",
@@ -9907,7 +10095,8 @@
       "C. How to build a rocket.",
       "D. The history of the museum."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-456",
@@ -9922,7 +10111,8 @@
       "C. lost",
       "D. broke"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-457",
@@ -9937,7 +10127,8 @@
       "C. read",
       "D. cooked"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-458",
@@ -9952,7 +10143,8 @@
       "C. Seasons are part of nature and affect our daily life.",
       "D. What is your favorite season?"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-459",
@@ -9967,7 +10159,8 @@
       "C. arise",
       "D. arose"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-460",
@@ -9982,7 +10175,8 @@
       "C. They have played football when it started to rain.",
       "D. They will play football when it started to rain."
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-461",
@@ -9997,7 +10191,8 @@
       "C. is written",
       "D. wrote"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-462",
@@ -10012,7 +10207,8 @@
       "C. Must",
       "D. Should"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-463",
@@ -10027,7 +10223,8 @@
       "C. to meet",
       "D. met"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-464",
@@ -10042,7 +10239,8 @@
       "C. Telling a joke",
       "D. The joke was told"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-465",
@@ -10057,7 +10255,8 @@
       "C. whose",
       "D. that"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-466",
@@ -10072,7 +10271,8 @@
       "C. When",
       "D. If"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-467",
@@ -10087,7 +10287,8 @@
       "C. were",
       "D. will be"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-468",
@@ -10102,7 +10303,8 @@
       "C. on",
       "D. for"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-469",
@@ -10117,7 +10319,8 @@
       "C. beauty",
       "D. beauteous"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-470",
@@ -10132,7 +10335,8 @@
       "C. Parks are the best places to find dogs.",
       "D. Tom enjoys spending time alone."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-471",
@@ -10147,7 +10351,8 @@
       "C. continue",
       "D. avoid"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-472",
@@ -10162,7 +10367,8 @@
       "C. took",
       "D. opened"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-473",
@@ -10177,7 +10383,8 @@
       "C. Hey Mr. Johnson,",
       "D. Yo Mr. Johnson,"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-474",
@@ -10192,7 +10399,8 @@
       "C. look after",
       "D. look into"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-475",
@@ -10207,7 +10415,8 @@
       "C. She has worked at a bank for five years.",
       "D. She is working at a bank."
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-476",
@@ -10222,7 +10431,8 @@
       "C. She writes many letters.",
       "D. They will finish the project tomorrow."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-477",
@@ -10237,7 +10447,8 @@
       "C. He could swimming when he was five.",
       "D. He can swim when he was five."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-478",
@@ -10252,7 +10463,8 @@
       "C. Written",
       "D. Wrote"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-479",
@@ -10267,7 +10479,8 @@
       "C. She told me that she would come.",
       "D. He gave me what I needed."
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-480",
@@ -10282,7 +10495,8 @@
       "C. that",
       "D. which"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-481",
@@ -10297,7 +10511,8 @@
       "C. Unless",
       "D. Since"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-482",
@@ -10312,7 +10527,8 @@
       "C. were",
       "D. be"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-483",
@@ -10327,7 +10543,8 @@
       "C. on",
       "D. for"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-484",
@@ -10342,7 +10559,8 @@
       "C. decision",
       "D. decisive"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-485",
@@ -10357,7 +10575,8 @@
       "C. He walked to school.",
       "D. He stayed at home."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-486",
@@ -10372,7 +10591,8 @@
       "C. reads",
       "D. to read"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-487",
@@ -10387,7 +10607,8 @@
       "C. reviewing",
       "D. to review"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-488",
@@ -10402,7 +10623,8 @@
       "C. My favorite subject is math.",
       "D. The weather today is sunny."
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-489",
@@ -10417,7 +10639,8 @@
       "C. The affect of the new policy is positive.",
       "D. The economy will effect from the new policy."
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-490",
@@ -10432,7 +10655,8 @@
       "C. never was",
       "D. never being"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-491",
@@ -10447,7 +10671,8 @@
       "C. The lesson is explained by the teacher.",
       "D. The lesson explained by the teacher."
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-492",
@@ -10462,7 +10687,8 @@
       "C. should",
       "D. might"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-493",
@@ -10477,7 +10703,8 @@
       "C. to see",
       "D. seen"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-494",
@@ -10492,7 +10719,8 @@
       "C. where is the meeting",
       "D. the meeting takes place where"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-495",
@@ -10507,7 +10735,8 @@
       "C. that",
       "D. whose"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-496",
@@ -10522,7 +10751,8 @@
       "C. Unless",
       "D. If"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-497",
@@ -10537,7 +10767,8 @@
       "C. were",
       "D. be"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "english-498",
@@ -10552,7 +10783,8 @@
       "C. on",
       "D. for"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "english-499",
@@ -10567,7 +10799,8 @@
       "C. strengthen",
       "D. strongly"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "english-500",
@@ -10582,6 +10815,7 @@
       "C. The dangers of playing soccer.",
       "D. The story of a famous soccer player."
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   }
 ]

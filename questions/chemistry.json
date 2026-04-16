@@ -30,7 +30,10 @@
     "question": "配平化学方程式：2H₂ + O₂ = 2H₂O，左边O₂前面应填系数____。",
     "options": null,
     "answer": "1",
-    "explanation": "2H₂ + O₂ = 2H₂O 已配平。O₂系数为1。"
+    "explanation": "2H₂ + O₂ = 2H₂O 已配平。O₂系数为1。",
+    "acceptAnswers": [
+      "1"
+    ]
   },
   {
     "id": "chemistry-003",
@@ -81,7 +84,10 @@
     ],
     "question": "二氧化碳的化学式是 _____",
     "answer": "CO2",
-    "explanation": "碳元素的化合价为+4，氧元素为-2，所以化学式为CO2"
+    "explanation": "碳元素的化合价为+4，氧元素为-2，所以化学式为CO2",
+    "acceptAnswers": [
+      "CO2"
+    ]
   },
   {
     "id": "chemistry-006",
@@ -976,7 +982,10 @@
     ],
     "question": "空气中支持燃烧的气体是_____。",
     "answer": "氧气",
-    "explanation": "根据化学知识填写：氧气"
+    "explanation": "根据化学知识填写：氧气",
+    "acceptAnswers": [
+      "氧气"
+    ]
   },
   {
     "id": "chemistry-038",
@@ -990,7 +999,10 @@
     ],
     "question": "电解水的化学方程式：2H2O ==通电== 2H2↑ + _____↑",
     "answer": "O2",
-    "explanation": "根据化学知识填写：O2"
+    "explanation": "根据化学知识填写：O2",
+    "acceptAnswers": [
+      "O2"
+    ]
   },
   {
     "id": "chemistry-039",
@@ -1004,7 +1016,10 @@
     ],
     "question": "燃烧的条件是：可燃物、氧气（或空气）和_____。",
     "answer": "达到着火点",
-    "explanation": "根据化学知识填写：达到着火点"
+    "explanation": "根据化学知识填写：达到着火点",
+    "acceptAnswers": [
+      "达到着火点"
+    ]
   },
   {
     "id": "chemistry-040",
@@ -1018,7 +1033,10 @@
     ],
     "question": "铁在潮湿空气中生锈的反应方程式：4Fe + 3O2 + 6H2O == _____。",
     "answer": "4Fe(OH)3",
-    "explanation": "根据化学知识填写：4Fe(OH)3"
+    "explanation": "根据化学知识填写：4Fe(OH)3",
+    "acceptAnswers": [
+      "4Fe(OH)3"
+    ]
   },
   {
     "id": "chemistry-041",
@@ -1032,7 +1050,10 @@
     ],
     "question": "实验室制取CO2的药品是大理石（或石灰石）和_____。",
     "answer": "稀盐酸",
-    "explanation": "根据化学知识填写：稀盐酸"
+    "explanation": "根据化学知识填写：稀盐酸",
+    "acceptAnswers": [
+      "稀盐酸"
+    ]
   },
   {
     "id": "chemistry-042",
@@ -1046,7 +1067,10 @@
     ],
     "question": "CO2能使澄清石灰水变浑浊，反应的化学方程式：CO2 + Ca(OH)2 == CaCO3↓ + _____。",
     "answer": "H2O",
-    "explanation": "根据化学知识填写：H2O"
+    "explanation": "根据化学知识填写：H2O",
+    "acceptAnswers": [
+      "H2O"
+    ]
   },
   {
     "id": "chemistry-043",
@@ -1060,7 +1084,10 @@
     ],
     "question": "溶液的pH<7，溶液呈_____性。",
     "answer": "酸",
-    "explanation": "根据化学知识填写：酸"
+    "explanation": "根据化学知识填写：酸",
+    "acceptAnswers": [
+      "酸"
+    ]
   },
   {
     "id": "chemistry-044",
@@ -1073,7 +1100,10 @@
     ],
     "question": "中和反应是酸与碱作用生成_____和水的反应。",
     "answer": "盐",
-    "explanation": "根据化学知识填写：盐"
+    "explanation": "根据化学知识填写：盐",
+    "acceptAnswers": [
+      "盐"
+    ]
   },
   {
     "id": "chemistry-045",
@@ -1086,7 +1116,10 @@
     ],
     "question": "原子是由原子核和绕核运动的电子构成，原子核由质子和_____构成。",
     "answer": "中子",
-    "explanation": "根据化学知识填写：中子"
+    "explanation": "根据化学知识填写：中子",
+    "acceptAnswers": [
+      "中子"
+    ]
   },
   {
     "id": "chemistry-046",
@@ -1100,7 +1133,10 @@
     ],
     "question": "元素的化学性质主要由原子的_____数决定。",
     "answer": "最外层电子",
-    "explanation": "根据化学知识填写：最外层电子"
+    "explanation": "根据化学知识填写：最外层电子",
+    "acceptAnswers": [
+      "最外层电子"
+    ]
   },
   {
     "id": "chemistry-047",
@@ -1113,7 +1149,10 @@
     ],
     "question": "质量守恒定律：参加化学反应的各物质的质量总和，等于反应后生成的各物质的_____。",
     "answer": "质量总和",
-    "explanation": "根据化学知识填写：质量总和"
+    "explanation": "根据化学知识填写：质量总和",
+    "acceptAnswers": [
+      "质量总和"
+    ]
   },
   {
     "id": "chemistry-048",
@@ -1126,7 +1165,10 @@
     ],
     "question": "化学方程式的书写原则：以事实为依据，不能凭空臆造；遵循_____守恒定律。",
     "answer": "质量",
-    "explanation": "根据化学知识填写：质量"
+    "explanation": "根据化学知识填写：质量",
+    "acceptAnswers": [
+      "质量"
+    ]
   },
   {
     "id": "chemistry-049",
@@ -1140,7 +1182,10 @@
     ],
     "question": "实验室常用澄清石灰水来检验CO2气体，现象是生成_____沉淀。",
     "answer": "白色",
-    "explanation": "根据化学知识填写：白色"
+    "explanation": "根据化学知识填写：白色",
+    "acceptAnswers": [
+      "白色"
+    ]
   },
   {
     "id": "chemistry-050",
@@ -1154,7 +1199,10 @@
     ],
     "question": "燃烧白磷产生大量白烟，打开瓶盖后会发现水面上升约_____分之一。",
     "answer": "五",
-    "explanation": "根据化学知识填写：五"
+    "explanation": "根据化学知识填写：五",
+    "acceptAnswers": [
+      "五"
+    ]
   },
   {
     "id": "chemistry-051",
@@ -1167,7 +1215,10 @@
     ],
     "question": "相对分子质量是各原子的相对原子质量之_____。",
     "answer": "和",
-    "explanation": "根据化学知识填写：和"
+    "explanation": "根据化学知识填写：和",
+    "acceptAnswers": [
+      "和"
+    ]
   },
   {
     "id": "chemistry-052",
@@ -1181,7 +1232,10 @@
     ],
     "question": "浓盐酸有挥发性，敞口放置在空气中，溶质质量分数会_____。",
     "answer": "减小",
-    "explanation": "根据化学知识填写：减小"
+    "explanation": "根据化学知识填写：减小",
+    "acceptAnswers": [
+      "减小"
+    ]
   },
   {
     "id": "chemistry-053",
@@ -1195,7 +1249,10 @@
     ],
     "question": "稀释浓硫酸时，一定要将_____慢慢注入水中，并用玻璃棒不断搅拌。",
     "answer": "浓硫酸",
-    "explanation": "根据化学知识填写：浓硫酸"
+    "explanation": "根据化学知识填写：浓硫酸",
+    "acceptAnswers": [
+      "浓硫酸"
+    ]
   },
   {
     "id": "chemistry-054",
@@ -1208,7 +1265,10 @@
     ],
     "question": "Fe(OH)3是一种_____色沉淀。",
     "answer": "红褐",
-    "explanation": "根据化学知识填写：红褐"
+    "explanation": "根据化学知识填写：红褐",
+    "acceptAnswers": [
+      "红褐"
+    ]
   },
   {
     "id": "chemistry-055",
@@ -1221,7 +1281,10 @@
     ],
     "question": "复分解反应发生的条件：生成物中有沉淀或气体或_____。",
     "answer": "水",
-    "explanation": "根据化学知识填写：水"
+    "explanation": "根据化学知识填写：水",
+    "acceptAnswers": [
+      "水"
+    ]
   },
   {
     "id": "chemistry-56",
@@ -1513,7 +1576,7 @@
     "type": "choice",
     "subject": "chemistry",
     "difficulty": 1,
-    "grade": "7-9",
+    "grade": 9,
     "knowledgeTags": [
       "物理变化"
     ],
@@ -2775,7 +2838,8 @@
       "C. FeO2",
       "D. Fe3O2"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-138",
@@ -2790,7 +2854,8 @@
       "C. +4",
       "D. +5"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-139",
@@ -2805,7 +2870,8 @@
       "C. 130 g",
       "D. 与容器形状有关"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-140",
@@ -2820,7 +2886,8 @@
       "C. 2Fe + 3O₂ → 2Fe₂O₃",
       "D. 4Fe + 2O₂ → 2Fe₂O₃"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-141",
@@ -2835,7 +2902,8 @@
       "C. 电子数",
       "D. 原子质量"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-142",
@@ -2850,7 +2918,8 @@
       "C. Mg⁺2",
       "D. Mg+2"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-143",
@@ -2865,7 +2934,8 @@
       "C. 0.73 g",
       "D. 5.84 g"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-144",
@@ -2880,7 +2950,8 @@
       "C. 析出约50 g固体。",
       "D. 析出约100 g固体。"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-145",
@@ -2895,7 +2966,8 @@
       "C. 与碱反应生成盐和水",
       "D. 与所有盐溶液反应生成沉淀"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "chemistry-146",
@@ -2910,7 +2982,8 @@
       "C. NaOH + NH₄Cl → NaCl + NH₃↑ + H₂O（与铵盐反应）",
       "D. Zn + 2NaOH + 2H₂O → Na₂[Zn(OH)₄] + H₂↑（与金属反应生成氢气）"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "chemistry-147",
@@ -2925,7 +2998,8 @@
       "C. 两种可溶盐在水溶液中混合，若生成物中有一种难溶盐，则会产生沉淀。",
       "D. 所有盐在加热时都会分解产生金属氧化物和二氧化碳。"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-148",
@@ -2940,7 +3014,8 @@
       "C. A > B > Cu > Ag",
       "D. Cu > A > Ag > B"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-149",
@@ -2955,7 +3030,8 @@
       "C. 火焰、氧气、燃烧介质",
       "D. 足够的燃料、点火器、适当的压力"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-150",
@@ -2970,7 +3046,8 @@
       "C. 二氧化锰是产物，生成的氧气中包含二氧化锰",
       "D. 二氧化锰是抑制剂，减缓反应速率"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-151",
@@ -2985,7 +3062,8 @@
       "C. 将小苏打（碳酸氢钠）与醋酸混合",
       "D. 将大理石（碳酸钙）与稀盐酸反应"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "chemistry-152",
@@ -3000,7 +3078,8 @@
       "C. BaCl2 + Na2SO4",
       "D. NH4Cl + NaOH"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-153",
@@ -3015,7 +3094,8 @@
       "C. 氧气是由同一种元素组成的单质",
       "D. 糖水是单质"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-154",
@@ -3030,7 +3110,8 @@
       "C. 原子是最小的、不可再分的粒子",
       "D. 原子质量主要集中在电子上"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-155",
@@ -3045,7 +3126,8 @@
       "C. 两个氢分子和一个水分子",
       "D. 两个氢原子和一个氧原子"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-156",
@@ -3060,7 +3142,8 @@
       "C. AlO2",
       "D. Al2O"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-157",
@@ -3075,7 +3158,8 @@
       "C. +4",
       "D. +5"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-158",
@@ -3090,7 +3174,8 @@
       "C. 只要有催化剂",
       "D. 只要在常温下"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-159",
@@ -3105,7 +3190,8 @@
       "C. 3Fe + 2O2 → Fe2O3",
       "D. 2Fe + 2O2 → 2Fe2O3"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-160",
@@ -3120,7 +3206,8 @@
       "C. 原子质量数等于原子核中质子数加电子数。",
       "D. 电子在原子核外部形成电子层，所有电子的能量都相同。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-161",
@@ -3135,7 +3222,8 @@
       "C. Mg₂⁺",
       "D. Mg"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-162",
@@ -3150,7 +3238,8 @@
       "C. 4.0 g",
       "D. 0.5 g"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-163",
@@ -3165,7 +3254,8 @@
       "C. 随着温度升高，A的溶解度始终低于B",
       "D. C的溶解度随温度升高而增大"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-164",
@@ -3180,7 +3270,8 @@
       "C. 溶液颜色消失变为无色",
       "D. 溶液颜色变为紫色"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-165",
@@ -3195,7 +3286,8 @@
       "C. 碱与酸反应生成盐和水",
       "D. 碱可以与铵盐反应放出氢气"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-166",
@@ -3210,7 +3302,8 @@
       "C. 盐与碱反应会生成新的盐和新的碱。",
       "D. 盐在通电时一定会分解为金属单质和非金属单质。"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-167",
@@ -3225,7 +3318,8 @@
       "C. 铁片溶解并生成氢气",
       "D. 溶液颜色不变"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-168",
@@ -3240,7 +3334,8 @@
       "C. 充足的灯光照射",
       "D. 达到燃点温度"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-169",
@@ -3255,7 +3350,8 @@
       "C. 向过氧化氢溶液中加入二氧化锰 (MnO2) 催化分解",
       "D. 电解水 (通电分解水)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-170",
@@ -3270,7 +3366,8 @@
       "C. 将氢氧化钠固体加入水中",
       "D. 将镁条放入水中"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-171",
@@ -3285,7 +3382,8 @@
       "C. 2Fe + 3O₂ → 2Fe₂O₃（燃烧反应）",
       "D. Zn + CuSO₄ → ZnSO₄ + Cu（单置换反应）"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-172",
@@ -3300,7 +3398,8 @@
       "C. 空气是一种纯净物",
       "D. 氢气是一种化合物"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-173",
@@ -3315,7 +3414,8 @@
       "C. 离子是失去或获得电子的原子，化学性质不变。",
       "D. 分子在化学反应中一定会被拆分成原子。"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-174",
@@ -3330,7 +3430,8 @@
       "C. Fe²⁺ 表示铁离子带两个正电荷",
       "D. CO₂ 表示碳和氧的混合物"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-175",
@@ -3345,7 +3446,8 @@
       "C. Mg2Cl",
       "D. MgCl3"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-176",
@@ -3360,7 +3462,8 @@
       "C. +6",
       "D. +8"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-177",
@@ -3375,7 +3478,8 @@
       "C. 32.0 g",
       "D. 18.0 g"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-178",
@@ -3390,7 +3494,8 @@
       "C. 3, 2",
       "D. 2, 1"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-179",
@@ -3405,7 +3510,8 @@
       "C. 23",
       "D. 34"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-180",
@@ -3420,7 +3526,8 @@
       "C. M⁻",
       "D. M²⁻"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-181",
@@ -3435,7 +3542,8 @@
       "C. 5.85 g",
       "D. 11.7 g"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-182",
@@ -3450,7 +3558,8 @@
       "C. 该溶液是过饱和溶液",
       "D. 条件不足，无法判断"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-183",
@@ -3465,7 +3574,8 @@
       "C. 产生白色沉淀",
       "D. 没有明显变化"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-184",
@@ -3480,7 +3590,8 @@
       "C. 碱能使石蕊试纸变蓝。",
       "D. 碱与某些金属离子反应生成难溶氢氧化物沉淀。"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-185",
@@ -3495,7 +3606,8 @@
       "C. 盐可以与金属发生置换反应，生成氢气",
       "D. 盐可以与另一种盐发生复分解反应，若有沉淀或气体生成则反应进行"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-186",
@@ -3510,7 +3622,8 @@
       "C. 溶液颜色变深，形成蓝色沉淀",
       "D. 没有任何变化"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-187",
@@ -3525,7 +3638,8 @@
       "C. 达到燃点温度",
       "D. 光照"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "chemistry-188",
@@ -3540,7 +3654,8 @@
       "C. 还原剂",
       "D. 氧化剂"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-189",
@@ -3555,7 +3670,8 @@
       "C. 将碳酸氢钠与醋酸混合后加热",
       "D. 将氧化钙在高温下分解生成二氧化碳"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-190",
@@ -3570,7 +3686,8 @@
       "C. 复分解反应只能在酸碱之间进行。",
       "D. 复分解反应在所有温度下都能进行。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-191",
@@ -3585,7 +3702,8 @@
       "C. 空气",
       "D. 铁（Fe）"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-192",
@@ -3600,7 +3718,8 @@
       "C. 所有离子都带正电荷。",
       "D. 原子核位于原子外部。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-193",
@@ -3615,7 +3734,8 @@
       "C. “2H2O”表示两个水分子。",
       "D. “Mg”表示镁离子。"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-194",
@@ -3630,7 +3750,8 @@
       "C. Fe3O4",
       "D. FeO2"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-195",
@@ -3645,7 +3766,8 @@
       "C. +6",
       "D. +7"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-196",
@@ -3660,7 +3782,8 @@
       "C. 质量守恒只在生成物为固体时成立；",
       "D. 质量守恒可以通过测量气体的体积来验证。"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-197",
@@ -3675,7 +3798,8 @@
       "C. 2, 3, 2",
       "D. 3, 2, 1"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "chemistry-198",
@@ -3690,7 +3814,8 @@
       "C. 所有原子的质量主要集中在电子上。",
       "D. 原子核的大小决定了原子的化学性质。"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "chemistry-199",
@@ -3705,7 +3830,8 @@
       "C. 电荷数",
       "D. 质量数"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "chemistry-200",
@@ -3720,6 +3846,7 @@
       "C. 3.51 g",
       "D. 4.68 g"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   }
 ]

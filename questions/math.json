@@ -31,7 +31,10 @@
     "question": "平方根为±4的数是____。",
     "options": null,
     "answer": "16",
-    "explanation": "平方根是±4，则这个数是(±4)²=16"
+    "explanation": "平方根是±4，则这个数是(±4)²=16",
+    "acceptAnswers": [
+      "16"
+    ]
   },
   {
     "id": "math-003",
@@ -64,7 +67,10 @@
     "question": "化简：3(2x - 1) - 2(x - 3) = ____",
     "options": null,
     "answer": "4x + 3",
-    "explanation": "3(2x-1)=6x-3，-2(x-3)=-2x+6，合并：4x+3"
+    "explanation": "3(2x-1)=6x-3，-2(x-3)=-2x+6，合并：4x+3",
+    "acceptAnswers": [
+      "4x + 3"
+    ]
   },
   {
     "id": "math-005",
@@ -173,7 +179,10 @@
     "question": "在△ABC和△DEF中，已知AB=DE，∠A=∠D，AC=DF，则这两个三角形_____（填'全等'或'不全等'）。",
     "options": null,
     "answer": "全等",
-    "explanation": "两边及其夹角相等(SAS)，两三角形全等"
+    "explanation": "两边及其夹角相等(SAS)，两三角形全等",
+    "acceptAnswers": [
+      "全等"
+    ]
   },
   {
     "id": "math-011",
@@ -206,7 +215,10 @@
     "question": "底面半径为3、高为4的圆锥的体积是____。（结果保留π）",
     "options": null,
     "answer": "12π",
-    "explanation": "圆锥体积V=1/3πr²h=1/3×π×9×4=12π"
+    "explanation": "圆锥体积V=1/3πr²h=1/3×π×9×4=12π",
+    "acceptAnswers": [
+      "12π"
+    ]
   },
   {
     "id": "math-013",
@@ -240,7 +252,10 @@
     "question": "点(2,3)向右平移3个单位，再向上平移2个单位，所得点的坐标是____。",
     "options": null,
     "answer": "(5,5)",
-    "explanation": "横坐标+3，纵坐标+2，得(2+3,3+2)=(5,5)"
+    "explanation": "横坐标+3，纵坐标+2，得(2+3,3+2)=(5,5)",
+    "acceptAnswers": [
+      "(5,5)"
+    ]
   },
   {
     "id": "math-015",
@@ -311,7 +326,10 @@
     "question": "某班50名学生数学成绩统计：得优的有10人，良的有20人，及格的有15人，不及格的有5人。优的频率是____。",
     "options": null,
     "answer": "0.2",
-    "explanation": "频率=频数/总数=10/50=0.2"
+    "explanation": "频率=频数/总数=10/50=0.2",
+    "acceptAnswers": [
+      "0.2"
+    ]
   },
   {
     "id": "math-019",
@@ -457,7 +475,10 @@
     ],
     "question": "√169 = ___",
     "answer": "13",
-    "explanation": "13 × 13 = 169"
+    "explanation": "13 × 13 = 169",
+    "acceptAnswers": [
+      "13"
+    ]
   },
   {
     "id": "math-027",
@@ -509,7 +530,10 @@
     "question": "计算：|−3| = _____",
     "options": null,
     "answer": "3",
-    "explanation": "绝对值等于它的相反数，|-3|=3"
+    "explanation": "绝对值等于它的相反数，|-3|=3",
+    "acceptAnswers": [
+      "3"
+    ]
   },
   {
     "id": "math-030",
@@ -523,7 +547,10 @@
     "question": "点(−2,3)在第_____象限",
     "options": null,
     "answer": "二",
-    "explanation": "x负y正，第二象限"
+    "explanation": "x负y正，第二象限",
+    "acceptAnswers": [
+      "二"
+    ]
   },
   {
     "id": "math-031",
@@ -537,7 +564,10 @@
     "question": "化简：3a²b − 5a²b =",
     "options": null,
     "answer": "−2a²b",
-    "explanation": "合并同类项，系数相加减：3-5=-2"
+    "explanation": "合并同类项，系数相加减：3-5=-2",
+    "acceptAnswers": [
+      "−2a²b"
+    ]
   },
   {
     "id": "math-032",
@@ -551,7 +581,10 @@
     "question": "方程 3(x−2)=12 的解是 x=_____",
     "options": null,
     "answer": "4",
-    "explanation": "3(x-2)=12 → x-2=4 → x=4"
+    "explanation": "3(x-2)=12 → x-2=4 → x=4",
+    "acceptAnswers": [
+      "4"
+    ]
   },
   {
     "id": "math-033",
@@ -565,7 +598,10 @@
     "question": "(a²)³ = ",
     "options": null,
     "answer": "a⁶",
-    "explanation": "幂的乘方，指数相乘：2×3=6"
+    "explanation": "幂的乘方，指数相乘：2×3=6",
+    "acceptAnswers": [
+      "a⁶"
+    ]
   },
   {
     "id": "math-034",
@@ -579,7 +615,10 @@
     "question": "等腰三角形的顶角为50°，底角为_____",
     "options": null,
     "answer": "65°",
-    "explanation": "三角形内角和180°，两个底角相等：(180-50)/2=65°"
+    "explanation": "三角形内角和180°，两个底角相等：(180-50)/2=65°",
+    "acceptAnswers": [
+      "65°"
+    ]
   },
   {
     "id": "math-036",
@@ -593,7 +632,10 @@
     "question": "一次函数 y=2x−3，当 x=4 时，y=_____",
     "options": null,
     "answer": "5",
-    "explanation": "y=2×4-3=8-3=5"
+    "explanation": "y=2×4-3=8-3=5",
+    "acceptAnswers": [
+      "5"
+    ]
   },
   {
     "id": "math-037",
@@ -607,7 +649,10 @@
     "question": "√49 = _____",
     "options": null,
     "answer": "7",
-    "explanation": "7×7=49"
+    "explanation": "7×7=49",
+    "acceptAnswers": [
+      "7"
+    ]
   },
   {
     "id": "math-038",
@@ -621,7 +666,10 @@
     "question": "解方程组：3x+2y=7, x−y=4，x=_____",
     "options": null,
     "answer": "3",
-    "explanation": "由x-y=4得x=y+4，代入3(y+4)+2y=7→5y=-5→y=-1→x=3"
+    "explanation": "由x-y=4得x=y+4，代入3(y+4)+2y=7→5y=-5→y=-1→x=3",
+    "acceptAnswers": [
+      "3"
+    ]
   },
   {
     "id": "math-039",
@@ -635,7 +683,10 @@
     "question": "直角三角形两锐角和为_____",
     "options": null,
     "answer": "90°",
-    "explanation": "直角三角形内角和180°，减去直角90°"
+    "explanation": "直角三角形内角和180°，减去直角90°",
+    "acceptAnswers": [
+      "90°"
+    ]
   },
   {
     "id": "math-040",
@@ -649,7 +700,10 @@
     "question": "计算：2x·3x² = ",
     "options": null,
     "answer": "6x³",
-    "explanation": "单项式乘以单项式，系数相乘，同底数幂相加：2×3·x¹⁺²=6x³"
+    "explanation": "单项式乘以单项式，系数相乘，同底数幂相加：2×3·x¹⁺²=6x³",
+    "acceptAnswers": [
+      "6x³"
+    ]
   },
   {
     "id": "math-042",
@@ -663,7 +717,10 @@
     "question": "分式 (x²−1)/(x−1) 化简为：",
     "options": null,
     "answer": "x+1",
-    "explanation": "x²-1=(x+1)(x-1)，约去(x-1)得x+1"
+    "explanation": "x²-1=(x+1)(x-1)，约去(x-1)得x+1",
+    "acceptAnswers": [
+      "x+1"
+    ]
   },
   {
     "id": "math-043",
@@ -677,7 +734,10 @@
     "question": "计算：10⁻² = ",
     "options": null,
     "answer": "0.01",
-    "explanation": "负整数指数：10的负二次方等于1/100=0.01"
+    "explanation": "负整数指数：10的负二次方等于1/100=0.01",
+    "acceptAnswers": [
+      "0.01"
+    ]
   },
   {
     "id": "math-044",
@@ -691,7 +751,10 @@
     "question": "点P(−1,−2)到原点的距离是：",
     "options": null,
     "answer": "√5",
-    "explanation": "距离=√((-1)²+(-2)²)=√5"
+    "explanation": "距离=√((-1)²+(-2)²)=√5",
+    "acceptAnswers": [
+      "√5"
+    ]
   },
   {
     "id": "math-045",
@@ -705,7 +768,10 @@
     "question": "三角形的三条高交于一点，这一点叫三角形的_____",
     "options": null,
     "answer": "垂心",
-    "explanation": "三角形三条高交于垂心"
+    "explanation": "三角形三条高交于垂心",
+    "acceptAnswers": [
+      "垂心"
+    ]
   },
   {
     "id": "math-046",
@@ -719,7 +785,10 @@
     "question": "正比例函数 y=kx，当 x=3 时 y=6，k=_____",
     "options": null,
     "answer": "2",
-    "explanation": "6=k×3，k=2"
+    "explanation": "6=k×3，k=2",
+    "acceptAnswers": [
+      "2"
+    ]
   },
   {
     "id": "math-047",
@@ -733,7 +802,10 @@
     "question": "多项式 2x²−3x+1 是_____次多项式",
     "options": null,
     "answer": "二",
-    "explanation": "最高次数是2次"
+    "explanation": "最高次数是2次",
+    "acceptAnswers": [
+      "二"
+    ]
   },
   {
     "id": "math-048",
@@ -747,7 +819,10 @@
     "question": "不等式 2x−1>5 的解集是：",
     "options": null,
     "answer": "x>3",
-    "explanation": "2x-1>5 → 2x>6 → x>3"
+    "explanation": "2x-1>5 → 2x>6 → x>3",
+    "acceptAnswers": [
+      "x>3"
+    ]
   },
   {
     "id": "math-049",
@@ -761,7 +836,10 @@
     "question": "等边三角形每个内角的度数是_____",
     "options": null,
     "answer": "60°",
-    "explanation": "等边三角形三个角相等，180°/3=60°"
+    "explanation": "等边三角形三个角相等，180°/3=60°",
+    "acceptAnswers": [
+      "60°"
+    ]
   },
   {
     "id": "math-050",
@@ -775,7 +853,10 @@
     "question": "方程 x²=4 的解是：",
     "options": null,
     "answer": "x=2或x=-2",
-    "explanation": "直接开平方得x=±2"
+    "explanation": "直接开平方得x=±2",
+    "acceptAnswers": [
+      "x=2或x=-2"
+    ]
   },
   {
     "id": "math-051",
@@ -789,7 +870,10 @@
     "question": "0.0001 用科学记数法表示为：",
     "options": null,
     "answer": "10⁻⁴",
-    "explanation": "0.0001=1/10000=10⁻⁴"
+    "explanation": "0.0001=1/10000=10⁻⁴",
+    "acceptAnswers": [
+      "10⁻⁴"
+    ]
   },
   {
     "id": "math-052",
@@ -803,7 +887,10 @@
     "question": "已知点A(1,2)，B(3,2)，则AB=_____",
     "options": null,
     "answer": "2",
-    "explanation": "横坐标差=|1-3|=2，纵坐标相同"
+    "explanation": "横坐标差=|1-3|=2，纵坐标相同",
+    "acceptAnswers": [
+      "2"
+    ]
   },
   {
     "id": "math-053",
@@ -817,7 +904,10 @@
     "question": "在△ABC中，∠A=90°，∠B=35°，则∠C=_____",
     "options": null,
     "answer": "55°",
-    "explanation": "内角和180°，180-90-35=55°"
+    "explanation": "内角和180°，180-90-35=55°",
+    "acceptAnswers": [
+      "55°"
+    ]
   },
   {
     "id": "math-054",
@@ -831,7 +921,10 @@
     "question": "因式分解：x²−9 = ",
     "options": null,
     "answer": "(x+3)(x−3)",
-    "explanation": "平方差公式：a²-b²=(a+b)(a-b)"
+    "explanation": "平方差公式：a²-b²=(a+b)(a-b)",
+    "acceptAnswers": [
+      "(x+3)(x−3)"
+    ]
   },
   {
     "id": "math-055",
@@ -845,7 +938,10 @@
     "question": "计算：a⁵ ÷ a² = ",
     "options": null,
     "answer": "a³",
-    "explanation": "同底数幂相除，指数相减：5-2=3"
+    "explanation": "同底数幂相除，指数相减：5-2=3",
+    "acceptAnswers": [
+      "a³"
+    ]
   },
   {
     "id": "math-056",
@@ -859,7 +955,10 @@
     "question": "一次函数 y=−x+2 的斜率是：",
     "options": null,
     "answer": "−1",
-    "explanation": "斜率即x的系数，为-1"
+    "explanation": "斜率即x的系数，为-1",
+    "acceptAnswers": [
+      "−1"
+    ]
   },
   {
     "id": "math-057",
@@ -873,7 +972,10 @@
     "question": "数轴上的点与实数_____对应",
     "options": null,
     "answer": "一一",
-    "explanation": "数轴上的每个点唯一对应一个实数"
+    "explanation": "数轴上的每个点唯一对应一个实数",
+    "acceptAnswers": [
+      "一一"
+    ]
   },
   {
     "id": "math-058",
@@ -887,7 +989,10 @@
     "question": "在△ABC中，AB=AC，则△ABC是_____三角形",
     "options": null,
     "answer": "等腰",
-    "explanation": "两边相等的三角形是等腰三角形"
+    "explanation": "两边相等的三角形是等腰三角形",
+    "acceptAnswers": [
+      "等腰"
+    ]
   },
   {
     "id": "math-059",
@@ -901,7 +1006,10 @@
     "question": "若 2x=6，则 x=_____",
     "options": null,
     "answer": "3",
-    "explanation": "等式两边除以2：x=3"
+    "explanation": "等式两边除以2：x=3",
+    "acceptAnswers": [
+      "3"
+    ]
   },
   {
     "id": "math-060",
@@ -915,7 +1023,10 @@
     "question": "当 x=_____ 时，分式 1/(x−2) 无意义",
     "options": null,
     "answer": "2",
-    "explanation": "分母为零时分式无意义，x-2=0即x=2"
+    "explanation": "分母为零时分式无意义，x-2=0即x=2",
+    "acceptAnswers": [
+      "2"
+    ]
   },
   {
     "id": "math-061",
@@ -929,7 +1040,10 @@
     "question": "(−2)³ = ",
     "options": null,
     "answer": "−8",
-    "explanation": "(-2)×(-2)×(-2)=-8，负数的奇数次幂为负"
+    "explanation": "(-2)×(-2)×(-2)=-8，负数的奇数次幂为负",
+    "acceptAnswers": [
+      "−8"
+    ]
   },
   {
     "id": "math-062",
@@ -943,7 +1057,10 @@
     "question": "若方程 3x+5=0，则 x=_____",
     "options": null,
     "answer": "−5/3",
-    "explanation": "3x=-5，x=-5/3"
+    "explanation": "3x=-5，x=-5/3",
+    "acceptAnswers": [
+      "−5/3"
+    ]
   },
   {
     "id": "math-063",
@@ -957,7 +1074,10 @@
     "question": "三角形的外角和是_____",
     "options": null,
     "answer": "360°",
-    "explanation": "多边形外角和均为360°"
+    "explanation": "多边形外角和均为360°",
+    "acceptAnswers": [
+      "360°"
+    ]
   },
   {
     "id": "math-064",
@@ -971,7 +1091,10 @@
     "question": "因式分解：x²+5x+6 = ",
     "options": null,
     "answer": "(x+2)(x+3)",
-    "explanation": "十字相乘法：常数项6=2×3，一次项系数5=2+3"
+    "explanation": "十字相乘法：常数项6=2×3，一次项系数5=2+3",
+    "acceptAnswers": [
+      "(x+2)(x+3)"
+    ]
   },
   {
     "id": "math-065",
@@ -985,7 +1108,10 @@
     "question": "1ⁿ = _____ (n为任意整数)",
     "options": null,
     "answer": "1",
-    "explanation": "1的任何次幂都等于1"
+    "explanation": "1的任何次幂都等于1",
+    "acceptAnswers": [
+      "1"
+    ]
   },
   {
     "id": "math-066",
@@ -999,7 +1125,10 @@
     "question": "点(0,−3)在_____上",
     "options": null,
     "answer": "y轴",
-    "explanation": "x=0时点在y轴上"
+    "explanation": "x=0时点在y轴上",
+    "acceptAnswers": [
+      "y轴"
+    ]
   },
   {
     "id": "math-067",
@@ -1013,7 +1142,10 @@
     "question": "直角三角形斜边上的中线等于斜边的_____",
     "options": null,
     "answer": "一半",
-    "explanation": "直角三角形斜边上的中线等于斜边的一半"
+    "explanation": "直角三角形斜边上的中线等于斜边的一半",
+    "acceptAnswers": [
+      "一半"
+    ]
   },
   {
     "id": "math-068",
@@ -1027,7 +1159,10 @@
     "question": "不等式 −2x<4 的解集是：",
     "options": null,
     "answer": "x>−2",
-    "explanation": "两边除以-2（负数变号）：x>-2"
+    "explanation": "两边除以-2（负数变号）：x>-2",
+    "acceptAnswers": [
+      "x>−2"
+    ]
   },
   {
     "id": "math-069",
@@ -1041,7 +1176,10 @@
     "question": "多项式 3x²y−2xy² 是_____项式",
     "options": null,
     "answer": "二",
-    "explanation": "有两项，是二项式"
+    "explanation": "有两项，是二项式",
+    "acceptAnswers": [
+      "二"
+    ]
   },
   {
     "id": "math-070",
@@ -1055,7 +1193,10 @@
     "question": "函数 y=3−2x，当 x 增大时，y_____",
     "options": null,
     "answer": "减小",
-    "explanation": "k=-2<0，y随x增大而减小"
+    "explanation": "k=-2<0，y随x增大而减小",
+    "acceptAnswers": [
+      "减小"
+    ]
   },
   {
     "id": "math-071",
@@ -1069,7 +1210,10 @@
     "question": "π 是_____数",
     "options": null,
     "answer": "无理",
-    "explanation": "π是无限不循环小数，属于无理数"
+    "explanation": "π是无限不循环小数，属于无理数",
+    "acceptAnswers": [
+      "无理"
+    ]
   },
   {
     "id": "math-072",
@@ -1083,7 +1227,10 @@
     "question": "若 x+y=5 且 x−y=1，则 x=_____",
     "options": null,
     "answer": "3",
-    "explanation": "两式相加：2x=6，x=3"
+    "explanation": "两式相加：2x=6，x=3",
+    "acceptAnswers": [
+      "3"
+    ]
   },
   {
     "id": "math-073",
@@ -1097,7 +1244,10 @@
     "question": "三角形任意两边之和_____第三边",
     "options": null,
     "answer": "大于",
-    "explanation": "三角形两边之和大于第三边"
+    "explanation": "三角形两边之和大于第三边",
+    "acceptAnswers": [
+      "大于"
+    ]
   },
   {
     "id": "math-074",
@@ -1111,7 +1261,10 @@
     "question": "计算：(−a³)² = ",
     "options": null,
     "answer": "a⁶",
-    "explanation": "积的乘方：(-1)²·(a³)²=a⁶"
+    "explanation": "积的乘方：(-1)²·(a³)²=a⁶",
+    "acceptAnswers": [
+      "a⁶"
+    ]
   },
   {
     "id": "math-075",
@@ -1125,7 +1278,10 @@
     "question": "a⁰ = _____ (a≠0)",
     "options": null,
     "answer": "1",
-    "explanation": "任何非零实数的零次幂等于1"
+    "explanation": "任何非零实数的零次幂等于1",
+    "acceptAnswers": [
+      "1"
+    ]
   },
   {
     "id": "math-076",
@@ -1139,7 +1295,10 @@
     "question": "因式分解：2x²−8 = ",
     "options": null,
     "answer": "2(x+2)(x−2)",
-    "explanation": "先提公因式2，再用平方差公式"
+    "explanation": "先提公因式2，再用平方差公式",
+    "acceptAnswers": [
+      "2(x+2)(x−2)"
+    ]
   },
   {
     "id": "math-077",
@@ -1153,7 +1312,10 @@
     "question": "有一个角是60°的等腰三角形是_____三角形",
     "options": null,
     "answer": "等边",
-    "explanation": "等腰三角形的一个角为60°时，三个角都是60°"
+    "explanation": "等腰三角形的一个角为60°时，三个角都是60°",
+    "acceptAnswers": [
+      "等边"
+    ]
   },
   {
     "id": "math-078",
@@ -1167,7 +1329,10 @@
     "question": "点P(3,−4)关于x轴对称的点坐标是：",
     "options": null,
     "answer": "(3,4)",
-    "explanation": "关于x轴对称：x不变，y变为相反数"
+    "explanation": "关于x轴对称：x不变，y变为相反数",
+    "acceptAnswers": [
+      "(3,4)"
+    ]
   },
   {
     "id": "math-079",
@@ -2869,7 +3034,10 @@
     ],
     "question": "如果一个多边形的内角和是1080°，那么它是_____边形。",
     "answer": "八",
-    "explanation": "根据数学知识填写：八"
+    "explanation": "根据数学知识填写：八",
+    "acceptAnswers": [
+      "八"
+    ]
   },
   {
     "id": "math-166",
@@ -2883,7 +3051,10 @@
     ],
     "question": "函数 y=3x-1 的图像与y轴的交点坐标是_____。",
     "answer": "(0,-1)",
-    "explanation": "根据数学知识填写：(0,-1)"
+    "explanation": "根据数学知识填写：(0,-1)",
+    "acceptAnswers": [
+      "(0,-1)"
+    ]
   },
   {
     "id": "math-167",
@@ -2897,7 +3068,10 @@
     ],
     "question": "若菱形的两条对角线长分别为6和8，则其面积是_____。",
     "answer": "24",
-    "explanation": "根据数学知识填写：24"
+    "explanation": "根据数学知识填写：24",
+    "acceptAnswers": [
+      "24"
+    ]
   },
   {
     "id": "math-168",
@@ -2911,7 +3085,10 @@
     ],
     "question": "若一组数据3、5、7、a、10的平均数是6，则a=_____。",
     "answer": "5",
-    "explanation": "根据数学知识填写：5"
+    "explanation": "根据数学知识填写：5",
+    "acceptAnswers": [
+      "5"
+    ]
   },
   {
     "id": "math-169",
@@ -2925,7 +3102,10 @@
     ],
     "question": "抛物线 y=(x-2)²+3 的顶点坐标是_____。",
     "answer": "(2,3)",
-    "explanation": "根据数学知识填写：(2,3)"
+    "explanation": "根据数学知识填写：(2,3)",
+    "acceptAnswers": [
+      "(2,3)"
+    ]
   },
   {
     "id": "math-170",
@@ -3971,7 +4151,8 @@
       "C. -5/12",
       "D. 5/12"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-244",
@@ -3986,7 +4167,8 @@
       "C. 6x^3 - 11x^2 - 6x - 11",
       "D. 6x^3 + 11x^2 - 6x + 11"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-245",
@@ -4001,7 +4183,8 @@
       "C. x = 3",
       "D. x = -1"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "math-246",
@@ -4016,7 +4199,8 @@
       "C. 有无穷多组解",
       "D. 解的个数不确定"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-247",
@@ -4031,7 +4215,8 @@
       "C. -4 < x < 5",
       "D. -5 < x < 4"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-248",
@@ -4046,7 +4231,8 @@
       "C. (3x+3)(2x+1)",
       "D. (2x+1)(3x+3)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-249",
@@ -4061,7 +4247,8 @@
       "C. (x-3)/(x+2)",
       "D. (x+2)/(x-3)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-251",
@@ -4076,7 +4263,8 @@
       "C. y = 3x + 1",
       "D. y = 2x - 1"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-252",
@@ -4091,7 +4279,8 @@
       "C. -2",
       "D. 2"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-253",
@@ -4106,7 +4295,8 @@
       "C. 0",
       "D. 2"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-254",
@@ -4121,7 +4311,8 @@
       "C. ASA（角-边-角）",
       "D. AAS（角-角-边）"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-255",
@@ -4136,7 +4327,8 @@
       "C. ASA（角边角）",
       "D. HL（斜边直角边）"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "math-256",
@@ -4151,7 +4343,8 @@
       "C. 12",
       "D. 15"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-257",
@@ -4166,7 +4359,8 @@
       "C. 8 倍",
       "D. 16 倍"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-258",
@@ -4181,7 +4375,8 @@
       "C. 12π cm²",
       "D. 18π cm²"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-259",
@@ -4196,7 +4391,8 @@
       "C. 5/10 = 0.5",
       "D. 5/10 + 5/10 = 1"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-260",
@@ -4211,7 +4407,8 @@
       "C. 5/6",
       "D. 7/9"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-261",
@@ -4226,7 +4423,8 @@
       "C. 7x^2 - 6x - 1",
       "D. 7x^2 - 4x - 5"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-262",
@@ -4241,7 +4439,8 @@
       "C. 5",
       "D. 6"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-263",
@@ -4256,7 +4455,8 @@
       "C. (5,0)",
       "D. (1,4)"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-264",
@@ -4271,7 +4471,8 @@
       "C. -12/5",
       "D. 2.4"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-265",
@@ -4286,7 +4487,8 @@
       "C. (2x-3)(x+1)",
       "D. (2x+3)(x-1)"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-266",
@@ -4301,7 +4503,8 @@
       "C. (2x^2 + x - 3)/(x^2 - 1)",
       "D. (2x^2 - x + 3)/(x^2 - 1)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-267",
@@ -4316,7 +4519,8 @@
       "C. 6\\sqrt{3}",
       "D. \\sqrt{12+27}"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-268",
@@ -4331,7 +4535,8 @@
       "C. y = 3x - 1",
       "D. y = x + 3"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-269",
@@ -4346,7 +4551,8 @@
       "C. 与坐标轴有交点",
       "D. 在第一象限和第三象限分别有分支"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-270",
@@ -4361,7 +4567,8 @@
       "C. x = -1",
       "D. x = 1"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-271",
@@ -4376,7 +4583,8 @@
       "C. 10",
       "D. 12"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-272",
@@ -4391,7 +4599,8 @@
       "C. ASA",
       "D. AAS"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-273",
@@ -4406,7 +4615,8 @@
       "C. 12 cm",
       "D. 15 cm"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-274",
@@ -4421,7 +4631,8 @@
       "C. 10 cm",
       "D. 12 cm"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-275",
@@ -4436,7 +4647,8 @@
       "C. 6π cm",
       "D. 12π cm"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-276",
@@ -4451,7 +4663,8 @@
       "C. 0.6",
       "D. 0.8"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-277",
@@ -4466,7 +4679,8 @@
       "C. 28/45",
       "D. -4/15"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-278",
@@ -4481,7 +4695,8 @@
       "C. 6a^{2}b-10ab^{2}+a",
       "D. 6a^{2}b-10ab^{2}-a"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-279",
@@ -4496,7 +4711,8 @@
       "C. x = 8",
       "D. x = 9"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "math-280",
@@ -4511,7 +4727,8 @@
       "C. x=1, y=4",
       "D. x=4, y=1"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-281",
@@ -4526,7 +4743,8 @@
       "C. 4",
       "D. 5"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-282",
@@ -4541,7 +4759,8 @@
       "C. (6x - 9)(2x + 3)",
       "D. (4x - 9)(3x + 3)"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-283",
@@ -4556,7 +4775,8 @@
       "C. \\(\\frac{3}{2}\\)",
       "D. \\(\\frac{2}{3}\\)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-284",
@@ -4571,7 +4791,8 @@
       "C. 6√3",
       "D. 9√3"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-285",
@@ -4586,7 +4807,8 @@
       "C. 3",
       "D. 4"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-286",
@@ -4601,7 +4823,8 @@
       "C. y = 12x",
       "D. y = 3/4 x"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-287",
@@ -4616,7 +4839,8 @@
       "C. m = 5",
       "D. m = 4"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "math-288",
@@ -4631,7 +4855,8 @@
       "C. √73",
       "D. √13"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-289",
@@ -4646,7 +4871,8 @@
       "C. 两角及其公共边相等 (ASA)",
       "D. 两边及其中一边的对角相等 (SSA)"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "math-290",
@@ -4661,7 +4887,8 @@
       "C. 对应两角相等",
       "D. 对应一边相等且另一角相等"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-291",
@@ -4676,7 +4903,8 @@
       "C. 314 cm²",
       "D. 628 cm²"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "math-292",
@@ -4691,7 +4919,8 @@
       "C. 36π cm²",
       "D. 6π cm²"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-293",
@@ -4706,7 +4935,8 @@
       "C. 1/2",
       "D. 1"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-294",
@@ -4721,7 +4951,8 @@
       "C. 5/9",
       "D. -5/9"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-295",
@@ -4736,7 +4967,8 @@
       "C. 2x^2 + 7x + 4",
       "D. 2x^2 + 7x - 4"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-296",
@@ -4751,7 +4983,8 @@
       "C. 6",
       "D. 7"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-297",
@@ -4766,7 +4999,8 @@
       "C. 120元",
       "D. 96元"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-298",
@@ -4781,7 +5015,8 @@
       "C. x > -1",
       "D. x > 7"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-299",
@@ -4796,7 +5031,8 @@
       "C. (3x - 2)(x + 1)",
       "D. (x - 1)(3x + 2)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-300",
@@ -4811,7 +5047,8 @@
       "C. x",
       "D. (x−1)/(x+1)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-301",
@@ -4826,7 +5063,8 @@
       "C. (√2 - 1)/2",
       "D. (√2 + 1)/2"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-302",
@@ -4841,7 +5079,8 @@
       "C. y = 3x - 1",
       "D. y = 2x - 1"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-303",
@@ -4856,7 +5095,8 @@
       "C. y = 4/3 x",
       "D. y = 3x/4"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-304",
@@ -4871,7 +5111,8 @@
       "C. 开口向上，顶点为 (2, 1)，与 x 轴的交点为 (1, 0) 和 (3, 0)",
       "D. 开口向下，顶点为 (2, 1)，与 x 轴的交点为 (0, 0) 和 (4, 0)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-305",
@@ -4886,7 +5127,8 @@
       "C. 120 cm²",
       "D. 84 cm²"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-306",
@@ -4901,7 +5143,8 @@
       "C. 可以确定全等，依据ASA判定",
       "D. 不能确定全等"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-307",
@@ -4916,7 +5159,8 @@
       "C. 10.5 cm",
       "D. 9 cm"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-308",
@@ -4931,7 +5175,8 @@
       "C. 约308 cm²",
       "D. 约70 cm²"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-309",
@@ -4946,7 +5191,8 @@
       "C. 31.42 cm",
       "D. 6.28 cm"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-310",
@@ -4961,7 +5207,8 @@
       "C. 3/4",
       "D. 1"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "math-311",
@@ -4976,7 +5223,8 @@
       "C. -\\frac{5}{6}",
       "D. \\frac{5}{6}"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-312",
@@ -4991,7 +5239,8 @@
       "C. x^2 - 7x + 8",
       "D. 3x^2 + 7x - 2"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-313",
@@ -5006,7 +5255,8 @@
       "C. 5",
       "D. -5"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-314",
@@ -5021,7 +5271,8 @@
       "C. (5, 1)",
       "D. (1, 4)"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-315",
@@ -5036,7 +5287,8 @@
       "C. -8 < x < 2",
       "D. x ≤ -2 或 x ≥ 8"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-316",
@@ -5051,7 +5303,8 @@
       "C. (6x+1)(x+3)",
       "D. (3x-1)(2x-3)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-317",
@@ -5066,7 +5319,8 @@
       "C. 3/(x^2 - x - 2)",
       "D. (x-2)/(x+1)"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-318",
@@ -5081,7 +5335,8 @@
       "C. √3",
       "D. 1/2"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-319",
@@ -5096,7 +5351,8 @@
       "C. k = 1, b = 4",
       "D. k = 3, b = 2"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-320",
@@ -5111,7 +5367,8 @@
       "C. 当 k<0 时，图像位于第二、四象限",
       "D. 图像与坐标轴相交于原点"
     ],
-    "answer": "D"
+    "answer": "D",
+    "grade": 9
   },
   {
     "id": "math-321",
@@ -5126,7 +5383,8 @@
       "C. 7",
       "D. 9"
     ],
-    "answer": "C"
+    "answer": "C",
+    "grade": 9
   },
   {
     "id": "math-322",
@@ -5141,7 +5399,8 @@
       "C. 96",
       "D. 144"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-323",
@@ -5156,7 +5415,8 @@
       "C. ASA（角-边-角）",
       "D. HL（直角三角形的斜边-直角边）"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-324",
@@ -5171,7 +5431,8 @@
       "C. 18 cm",
       "D. 21 cm"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-325",
@@ -5186,7 +5447,8 @@
       "C. 12 cm",
       "D. 20 cm"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-326",
@@ -5201,7 +5463,8 @@
       "C. 8+4π",
       "D. 12+8π/3"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   },
   {
     "id": "math-327",
@@ -5216,7 +5479,8 @@
       "C. 1/3",
       "D. 6/14"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-328",
@@ -5231,7 +5495,8 @@
       "C. \\frac{7}{18}",
       "D. \\frac{5}{9}"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-329",
@@ -5246,7 +5511,8 @@
       "C. 2x^2y - 2xy^2 + 2x",
       "D. 4x^2y + 2xy^2 + 2x"
     ],
-    "answer": "A"
+    "answer": "A",
+    "grade": 9
   },
   {
     "id": "math-330",
@@ -5261,6 +5527,7 @@
       "C. x=6",
       "D. x=7"
     ],
-    "answer": "B"
+    "answer": "B",
+    "grade": 9
   }
 ]
