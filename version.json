@@ -1,7 +1,7 @@
 {
-  "version": "8.6.0-20260417",
+  "version": "8.7.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "fix: grade全部归9 (752题), society前缀修正 (15题), fill题acceptAnswers补全 (217题), index.json题数更正"
+  "changelog": "refactor(settings): 7 cards merged into 3, compact layout"
 }
