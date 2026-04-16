@@ -113,7 +113,7 @@ async function fetchQuestionPack({ force = false } = {}) {
 function hasQuestionPackUpdate() {
   const remoteVersion = state.remoteVersions?.questionBankVersion;
   if (!remoteVersion) return false;
-  return remoteVersion !== (state.settings.questionBankVersion || '');
+  return compareVersion(remoteVersion, state.settings.questionBankVersion || '0.0.0') > 0;
 }
 
 // ============================================================
@@ -226,6 +226,26 @@ async function init() {
   console.log('百日闯 PWA 初始化完成');
 }
 
+// 比较两个 X.Y.Z-YYYYMMDD 版本号：return positive if a > b
+function compareVersion(a, b) {
+  const parse = v => {
+    const [sem, date] = (v || '0.0.0').split('-');
+    const parts = sem.split('.').map(Number);
+    return {
+      major: parts[0] || 0,
+      minor: parts[1] || 0,
+      patch: parts[2] || 0,
+      date: date || '',
+    };
+  };
+  const va = parse(a);
+  const vb = parse(b);
+  if (va.major !== vb.major) return va.major - vb.major;
+  if (va.minor !== vb.minor) return va.minor - vb.minor;
+  if (va.patch !== vb.patch) return va.patch - vb.patch;
+  return 0; // equal
+}
+
 // ============================================================
 // APP UPDATE
 // ============================================================
@@ -235,8 +255,8 @@ async function checkForAppUpdate() {
     if (!resp.ok) return null;
     const remote = await resp.json();
 
-    const localVer = state.settings.appVersion || 1;
-    if (remote.version && remote.version > localVer) {
+    const localVer = state.settings.appVersion || '0.0.0';
+    if (remote.version && compareVersion(remote.version, localVer) > 0) {
       showUpdateBanner(remote);
     }
 
@@ -268,7 +288,7 @@ async function doManualAppUpdateCheck() {
     const remote = await checkForAppUpdate();
     if (!remote?.version) {
       showToast('检查失败，请稍后重试');
-    } else if (remote.version <= (state.settings.appVersion || 1)) {
+    } else if (compareVersion(remote.version, state.settings.appVersion || '0.0.0') <= 0) {
       showToast('已是最新版本');
     } else {
       if (confirm(`发现新版本 v${remote.version}，是否更新？\n\n${remote.changelog || ''}`)) {

@@ -1,7 +1,7 @@
 {
-  "version": "8.1.0",
-  "questionBankVersion": "20260415-1",
+  "version": "8.1.1-20260417",
+  "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
-  "updatedAt": "2026-04-16",
-  "changelog": "UI优化：首页去除卡片化，改为分隔区布局，更通透；新增：账号资料编辑功能；新增：软件手动升级按钮"
+  "updatedAt": "2026-04-17",
+  "changelog": "Debug 修复：柱状图改用考点完整覆盖计算；打卡日期刷新问题；提示条移至正确位置"
 }
