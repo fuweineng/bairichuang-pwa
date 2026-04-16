@@ -181,7 +181,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '', audioVersion: '', questionBankVersion: '' };
+  state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '8.8.0', audioVersion: '', questionBankVersion: '' };
 
   // Load local version from version.json
   try {
@@ -1497,7 +1497,7 @@ async function renderSettings() {
       <div class="settings-row" style="padding:8px 0;border-bottom:none">
         <div class="settings-label" style="margin:0">版本</div>
         <div style="display:flex;align-items:center;gap:6px">
-          <span class="settings-hint" style="margin:0">${(state.settings.appVersion || '8.7.0')}</span>
+          <span class="settings-hint" style="margin:0">${(state.settings.appVersion || '8.8.0')}</span>
           <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:3px 8px;font-size:0.7rem">检查更新</button>
         </div>
       </div>
@@ -1523,7 +1523,7 @@ async function renderSettings() {
       <div class="settings-hint">加载中...</div>
     </div>
 
-    <div class="settings-version">百日闯 v${state.settings.appVersion || '8.7.0'}</div>
+    <div class="settings-version">百日闯 v${state.settings.appVersion || '8.8.0'}</div>
   `;
 
   // Show QB stats

@@ -1,7 +1,7 @@
 {
-  "version": "8.7.0-20260417",
+  "version": "8.8.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "feat: 打卡板头+时间问候语+累计天数badge; 全科大按钮; 4时间段主题系统+Settings切换"
+  "changelog": "fix: compareVersion忽略日期后缀; 版本号显示本地version.json; 头像三按钮弹窗; 未练习隐藏副文案"
 }
