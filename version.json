@@ -1,7 +1,7 @@
 {
-  "version": 7,
+  "version": "7.1.0",
   "questionBankVersion": "20260415-1",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-16",
-  "changelog": "100天体系：账户QR绑定、进度追踪、成果结算页；UI优化：删除打卡/单科入口，全科展示弱项"
+  "changelog": "UI优化：Header合并设置入口为头像；Settings页面重构为分组式卡片；版本号改为三段式"
 }

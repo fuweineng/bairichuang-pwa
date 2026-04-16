@@ -1396,60 +1396,59 @@ async function renderSettings() {
   const remotePackVersion = state.remoteVersions?.questionBankVersion || '未知';
 
   container.innerHTML = `
-    ${state.account ? `
     <div class="settings-card">
-      <div class="settings-row" style="align-items:center;gap:12px">
-        <img src="${(state.account.avatar || '')}" style="width:48px;height:48px;border-radius:50%;object-fit:cover">
-        <div>
+      <div class="settings-section-title">账号</div>
+      ${state.account ? `
+      <div class="settings-row" style="align-items:center;gap:12px;padding:12px 0">
+        <img src="${(state.account.avatar || '')}" style="width:48px;height:48px;border-radius:50%;object-fit:cover;flex-shrink:0">
+        <div style="flex:1;min-width:0">
           <div class="settings-label" style="margin-bottom:2px">${state.account.name}</div>
           <div class="settings-hint" style="margin:0">${state.meta.startDate ? '第 ' + getCurrentDay() + ' / 100 天' : '未开始'}</div>
         </div>
       </div>
+      <div style="display:flex;gap:8px">
+        <button class="secondary-btn" data-action="export-account-qr" style="flex:1">导出二维码</button>
+        <button class="secondary-btn" data-action="import-account-qr" style="flex:1">扫码接入</button>
+      </div>
+      ` : '<div class="settings-hint">未设置账号</div>'}
     </div>
+
     <div class="settings-card">
-      <button class="primary-btn" data-action="export-account-qr" style="margin-bottom:8px">导出二维码</button>
-      <button class="secondary-btn" data-action="import-account-qr">扫码接入</button>
-    </div>
-    ` : ''}
-    <div class="settings-card">
+      <div class="settings-section-title">学习</div>
       <div class="settings-row">
-        <span class="settings-label">易错阈值</span>
+        <div>
+          <div class="settings-label">易错阈值</div>
+          <div class="settings-hint">正确率低于此值的题目进入"易错汇总"</div>
+        </div>
         <div class="settings-stepper">
           <button class="stepper-btn" data-action="thresh-minus">−</button>
           <span class="stepper-val" id="thresh-val">${Math.round(state.settings.weakThreshold * 100)}%</span>
           <button class="stepper-btn" data-action="thresh-plus">+</button>
         </div>
       </div>
-      <div class="settings-hint">正确率低于此值的题目进入"易错汇总"</div>
     </div>
+
     <div class="settings-card">
+      <div class="settings-section-title">题库</div>
       <div class="settings-row">
-        <span class="settings-label">软件版本</span>
-        <span class="settings-val">v${state.remoteVersions?.version || 1}</span>
+        <div>
+          <div class="settings-label">题库版本</div>
+          <div class="settings-hint">本地：${localPackVersion}</div>
+          <div class="settings-hint">远端：${remotePackVersion}</div>
+          <div class="settings-hint">最近同步：${lastUpdate}</div>
+        </div>
       </div>
+      <button class="primary-btn" data-action="upgrade-questions" id="upgrade-btn" style="margin-top:8px">检查更新</button>
+      <button class="secondary-btn" data-action="clear-qb-cache" style="margin-top:6px">清除缓存</button>
     </div>
+
     <div class="settings-card">
-      <div class="settings-row">
-        <span class="settings-label">题库版本</span>
-        <span class="settings-val">${localPackVersion}</span>
-      </div>
-      <div class="settings-hint">最近同步：${lastUpdate}</div>
-      <div class="settings-hint">远端版本：${remotePackVersion}</div>
-      <button class="primary-btn" data-action="upgrade-questions" id="upgrade-btn" style="margin-top:10px">检查更新</button>
-    </div>
-    <div class="settings-card">
-      <div class="settings-row">
-        <span class="settings-label">题库统计</span>
-      </div>
-      <div class="settings-hint" id="qb-stats">加载中...</div>
-    </div>
-    <div class="settings-card">
-      <button class="danger-btn" data-action="clear-qb-cache">清除题库缓存</button>
-      <div class="settings-hint">清除本地题库缓存，强制从服务器重新下载</div>
-    </div>
-    <div class="settings-card">
+      <div class="settings-section-title">数据</div>
+      <div id="qb-stats" class="settings-hint" style="padding:4px 0 8px">加载中...</div>
       <button class="danger-btn" data-action="clear-all-data">清除所有数据</button>
     </div>
+
+    <div class="settings-version">百日闯 v${state.remoteVersions?.version || '?'}</div>
   `;
 
   // Show QB stats

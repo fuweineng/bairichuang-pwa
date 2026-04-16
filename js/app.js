@@ -171,11 +171,6 @@ function bindEvents() {
     document.getElementById('checkin-modal').style.display = 'none';
   });
 
-  // Header settings button
-  document.getElementById('header-settings-btn').addEventListener('click', () => {
-    window.location.hash = '#/settings';
-  });
-
   // Expose HTML onclick handlers
   window.startEntry = function(entry) {
     startPracticeSession(entry);
