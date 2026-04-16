@@ -366,36 +366,6 @@ async function renderHome() {
   state.progress = await get(K.PROGRESS) || {};
   state.meta = await get(K.META) || {};
 
-  // 100-day progress
-  const currentDay = getCurrentDay();
-  const dayProgress = state.meta.startDate
-    ? Math.min(100, Math.round((currentDay / 100) * 100))
-    : 0;
-  const streak = calcStreak();
-
-  // Streak → 100-day display
-  document.getElementById('streak-count').textContent = currentDay > 0 ? currentDay : '0';
-  const sub = document.getElementById('streak-sub');
-  sub.textContent = state.meta.startDate
-    ? `第 ${currentDay} / 100 天`
-    : '开始你的百日计划';
-
-  // Streak card → add 100d progress bar if started
-  const streakCard = document.querySelector('.streak-card');
-  if (streakCard && state.meta.startDate) {
-    const existingBar = document.getElementById('day100-progress-bar');
-    if (!existingBar) {
-      const bar = document.createElement('div');
-      bar.id = 'day100-progress-bar';
-      bar.style.cssText = 'margin-top:6px;height:6px;background:#e0e0e0;border-radius:3px;overflow:hidden';
-      bar.innerHTML = `<div style="height:100%;width:${dayProgress}%;background:linear-gradient(90deg,#4CAF50,#81C784);border-radius:3px;transition:width .3s"></div>`;
-      streakCard.appendChild(bar);
-    } else {
-      const fill = existingBar.querySelector('div');
-      if (fill) fill.style.width = dayProgress + '%';
-    }
-  }
-
   // Account info in header — always show avatar button (leads to settings)
   let accEl = document.getElementById('header-account-info');
   if (!accEl) {
@@ -1320,7 +1290,7 @@ function renderProgress() {
   `;
 }
 
-// 柱状图 — 各科掌握情况，点击科目名称开始练习
+// 柱状图 — 各科掌握情况，每科目独立 易错题库/熟练掌握 按钮
 function drawChart() {
   const subjects = ['chinese','math','english','physics','chemistry','biology','history','geography','politics'];
   const subjectColors = {
@@ -1329,22 +1299,7 @@ function drawChart() {
     history: '#795548', geography: '#607D8B', politics: '#F44336'
   };
 
-  // 计算易错题数量（正确率 < 阈值）
-  const weakThreshold = state.settings?.weakThreshold ?? 0.6;
-  const weakCount = Object.values(state.progress).filter(p => {
-    if (!p || p.status === 'new') return false;
-    const total = p.correct + p.wrong;
-    if (total === 0) return false;
-    return (p.correct / total) < weakThreshold;
-  }).length;
-
-  // 计算熟练题数量（正确率 >= 90%）
-  const masteredCount = Object.values(state.progress).filter(p => {
-    if (!p || p.status === 'new') return false;
-    const total = p.correct + p.wrong;
-    if (total === 0) return false;
-    return (p.correct / total) >= 0.9;
-  }).length;
+  const totalDays = Object.keys(state.daily).length;
 
   // 未完成摸底测试 → 显示引导
   if (!state.meta.assessmentCompleted) {
@@ -1373,28 +1328,44 @@ function drawChart() {
     const pct = acc === null ? 0 : acc;
     const barWidth = (pct / 100) * 100;
     const label = acc === null ? '未学' : `${acc}%`;
+
+    // 该科目的易错题 / 熟练题数量
+    const questions = state.questionBank[subj] || [];
+    const weakCount = questions.filter(q => {
+      const p = state.progress[q.id];
+      if (!p || p.status === 'new') return false;
+      const total = p.correct + p.wrong;
+      if (total === 0) return false;
+      return (p.correct / total) < 0.9;
+    }).length;
+    const masteredCount = questions.filter(q => {
+      const p = state.progress[q.id];
+      if (!p || p.status === 'new') return false;
+      const total = p.correct + p.wrong;
+      if (total === 0) return false;
+      return (p.correct / total) >= 0.9;
+    }).length;
+
     return `
-    <div class="chart-bar-row" data-action="start-subject" data-subject="${subj}">
-      <span class="chart-bar-label" style="color:${color}">${subjectName(subj)}</span>
-      <div class="chart-bar-track">
+    <div class="chart-bar-row">
+      <span class="chart-bar-label" style="color:${color}" data-action="start-subject" data-subject="${subj}">${subjectName(subj)}</span>
+      <div class="chart-bar-track" data-action="start-subject" data-subject="${subj}">
         <div class="chart-bar-fill" style="width:${barWidth}%;background:${color}"></div>
       </div>
-      <span class="chart-bar-pct">${label}</span>
+      <span class="chart-bar-pct" data-action="start-subject" data-subject="${subj}">${label}</span>
+      <div class="chart-row-actions">
+        ${weakCount > 0 ? `<button class="chart-row-btn btn-weak" data-action="start-subject" data-subject="${subj}" data-entry="weak">易错${weakCount}</button>` : ''}
+        ${masteredCount > 0 ? `<button class="chart-row-btn btn-mastered" data-action="start-subject" data-subject="${subj}" data-entry="mastered">熟练${masteredCount}</button>` : ''}
+      </div>
     </div>`;
   }).join('');
 
   return `
-  <div class="chart-bar-list">${rows}</div>
-  <div class="chart-actions-row">
-    <button class="chart-action-btn chart-action-weak" data-action="start-subject" data-subject="all" data-entry="weak">
-      易错题库 <span class="chart-action-badge">${weakCount}</span>
-    </button>
-    <button class="chart-action-btn chart-action-mastered" data-action="start-subject" data-subject="all" data-entry="mastered">
-      熟练掌握 <span class="chart-action-badge">${masteredCount}</span>
-    </button>
+  <div class="chart-header">
+    <span class="chart-total-days">累计 ${totalDays} 天</span>
+    <button class="chart-all-btn" data-action="start-subject" data-subject="all" data-entry="standard">全科练习</button>
   </div>
-  <div class="chart-hint">点击科目名称开始练习，或直接点「全科练习」</div>
-  <button class="chart-all-btn" data-action="start-subject" data-subject="all" data-entry="standard">全科练习</button>`;
+  <div class="chart-bar-list">${rows}</div>`;
 }
 
 // SETTINGS VIEW

@@ -1,7 +1,7 @@
 {
-  "version": "8.2.0-20260417",
+  "version": "8.3.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "feat: 柱状图右侧增加易错题库+熟练掌握按钮(各显示题数badge); fix: back-home清空entry防模式残留导致打卡失败; 二维码CDN加载失败时动态fallback加载"
+  "changelog": "refactor: 打卡卡片整个移除(始终不work)，打卡天数改为柱状图顶部「累计X天」展示；易错题库/熟练掌握按钮移到每科目行右侧，各科独立计数；全科练习移至柱状图顶部右侧"
 }
