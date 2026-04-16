@@ -1205,6 +1205,7 @@ async function renderSessionEnd() {
   }
 
   const streak = calcStreak();
+  const totalDays = Object.keys(state.daily).length;
 
   // Check 100-day completion
   await checkCompletion100();
@@ -1218,7 +1219,7 @@ async function renderSessionEnd() {
       </div>
       <div class="session-daily">
         <p>今日累计: ${state.daily[today].questionsCount}题 | 得分: ${state.daily[today].score}</p>
-        <p>连续 ${streak} 天</p>
+        <p>🔥 已坚持 <strong>${streak}</strong> 天（累计 <strong>${totalDays}</strong> 天）</p>
       </div>
       <button class="primary-btn" data-action="back-home" style="margin-top:16px">返回首页</button>
     </div>
