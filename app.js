@@ -53,7 +53,6 @@ const K = {
   SETTINGS: 'settings',
   QB_CACHE: 'question_bank_cache',
   ACCOUNT: 'user_account',
-  DONORS: 'donors',
 };
 
 const VERSION_URL = 'version.json';
@@ -215,22 +214,6 @@ async function init() {
   // QR import close
   document.getElementById('qr-import-close-btn')?.addEventListener('click', closeQRImport);
 
-  // Donor modal — close
-  document.getElementById('donate-close-btn')?.addEventListener('click', () => {
-    document.getElementById('donate-modal').style.display = 'none';
-  });
-
-  // Donor modal — avatar selection
-  document.getElementById('donor-avatar-list')?.addEventListener('click', e => {
-    const avatar = e.target.closest('.donor-avatar');
-    if (!avatar) return;
-    document.querySelectorAll('.donor-avatar').forEach(a => a.classList.remove('donor-avatar-selected'));
-    avatar.classList.add('donor-avatar-selected');
-  });
-
-  // Donor modal — submit
-  document.getElementById('donor-submit-btn')?.addEventListener('click', submitDonor);
-
   // Chart subject switcher
   document.getElementById('chart-subject-bar')?.addEventListener('click', e => {
     const btn = e.target.closest('.subj-btn');
@@ -317,7 +300,7 @@ async function doAppUpgrade(remote) {
 // ============================================================
 // ROUTER
 // ============================================================
-async function router() {
+function router() {
   const hash = location.hash || '#/home';
   const [path, query] = hash.slice(2).split('?');
   const segs = path.split('/');
@@ -328,13 +311,6 @@ async function router() {
   state.view    = view;
   state.subject = segs[1] || null;
   state.entry = entryParam || null;
-
-  // Always reload daily + sessions from IndexedDB before rendering home
-  // to ensure fresh data after session-end saves
-  if (view === 'home') {
-    state.daily = await get(K.DAILY) || {};
-    state.sessions = await get(K.SESSIONS) || [];
-  }
 
   renderAll();
 }
@@ -428,10 +404,6 @@ function renderHome() {
   renderTodayStatus();
   // Weak subjects
   renderWeakSubjects();
-  // 9-subject grid
-  renderSubjectsStrip();
-  // Check-in record entry on home
-  renderCheckinEntry();
   // CTA subtitle
   updatePracticeCtaSub();
 }
@@ -533,70 +505,22 @@ function renderWeakSubjects() {
     <div class="weak-pills-row">${pills}</div>`;
 }
 
-function renderCheckinEntry() {
-  const el = document.getElementById('checkin-entry-container');
-  if (!el) return;
-  const todayKey = getLocalDateKey(new Date());
-  const todayDone = !!state.daily[todayKey];
-  const todayAcc = todayDone ? Math.round((state.daily[todayKey].accuracy || 0) * 100) : null;
-  el.innerHTML = `
-    <div class="checkin-entry-card" data-action="nav" data-view="progress">
-      <div class="checkin-entry-left">
-        <span class="checkin-entry-icon">📅</span>
-        <div>
-          <div class="checkin-entry-title">打卡记录</div>
-          <div class="checkin-entry-sub">${todayDone ? `今日 ${state.daily[todayKey].questionsCount}题/${todayAcc}%` : '今日还未打卡'}
-          </div>
-        </div>
-      </div>
-      <span class="checkin-entry-arrow">→</span>
-    </div>`;
-}
-
-function openDonateModal() {
-  const modal = document.getElementById('donate-modal');
-  if (!modal) return;
-  modal.style.display = 'flex';
-  // Reset
-  document.getElementById('donor-thanks').style.display = 'none';
-  document.getElementById('donor-name-input').value = '';
-  document.querySelectorAll('.donor-avatar').forEach(a => a.classList.remove('donor-avatar-selected'));
-  document.querySelector('.donor-avatar').classList.add('donor-avatar-selected');
-}
-
-async function submitDonor() {
-  const name = document.getElementById('donor-name-input')?.value.trim() || '匿名';
-  const selected = document.querySelector('.donor-avatar-selected');
-  const avatar = selected ? selected.dataset.avatar : '🐱';
-  const donors = await get(K.DONORS) || [];
-  donors.push({ name, avatar, date: new Date().toISOString() });
-  await set(K.DONORS, donors);
-  document.getElementById('donor-thanks').style.display = 'block';
-  document.getElementById('donor-submit-btn').disabled = true;
-  setTimeout(() => {
-    document.getElementById('donate-modal').style.display = 'none';
-    document.getElementById('donor-submit-btn').disabled = false;
-  }, 2000);
-}
-
 function renderSubjectsStrip() {
   const el = document.getElementById('subjects-strip-container');
   if (!el) return;
-  const cards = SUBJECTS.map(subj => {
+  const btns = SUBJECTS.map(subj => {
     const acc = getSubjectAccuracy(subj);
-    const dotClass = acc === null ? '' : acc < 60 ? 'weak' : 'mastered';
+    const dotClass = acc === null ? 'none' : acc < 60 ? 'weak' : 'mastered';
     const label = acc === null ? '未学' : `${acc}%`;
-    return `<button class="subj-grid-btn" data-action="start-subject" data-subject="${subj}">
-      <span class="subj-grid-dot ${dotClass}"></span>
-      <span class="subj-grid-name">${subjectName(subj)}</span>
-      <span class="subj-grid-acc">${label}</span>
+    return `<button class="subj-strip-btn" data-action="start-subject" data-subject="${subj}">
+      <span class="subj-strip-dot ${dotClass}"></span>
+      <span>${subjectName(subj)}</span>
+      <span style="font-size:0.68rem;opacity:0.7">${label}</span>
     </button>`;
   }).join('');
   el.innerHTML = `
-    <div class="subjects-grid-container">
-      <div class="subjects-grid-header">单科练习</div>
-      <div class="subjects-grid">${cards}</div>
-    </div>`;
+    <div class="subjects-section-header">选择单科练习</div>
+    <div class="subjects-strip-row">${btns}</div>`;
 }
 
 function getPracticeMode() {
@@ -1263,7 +1187,7 @@ async function renderSessionEnd() {
   const correctAll = Object.values(byS).reduce((sc, sd) => sc + (sd.correct || 0), 0);
   const acc = totalAll > 0 ? correctAll / totalAll : 0;
   const sessionAcc = total > 0 ? Math.round(correct / total * 100) : 0;
-  const newScore = Math.round(totalAll * acc);
+  const newScore = Math.round((totalAll + 1) * acc);
 
   state.daily[today] = {
     practiced: existing.practiced + 1,
@@ -1554,11 +1478,6 @@ async function renderSettings() {
       </div>
     </div>
 
-    <div class="settings-card">
-      <div class="settings-section-title">贡献者名单</div>
-      <div id="donor-list-container"><div class="donor-list-empty">加载中...</div></div>
-    </div>
-
     <div class="settings-version">百日闯 v${state.remoteVersions?.version || '?'}</div>
   `;
 
@@ -1569,25 +1488,6 @@ async function renderSettings() {
   }).join('；');
   const el = document.getElementById('qb-stats');
   if (el) el.textContent = stats || '无题目';
-
-  // Show donor list in settings
-  const donors = await get(K.DONORS) || [];
-  const donorListEl = document.getElementById('donor-list-container');
-  if (donorListEl) {
-    if (donors.length === 0) {
-      donorListEl.innerHTML = '<div class="donor-list-empty">还没有贡献者，<a href="#" onclick="document.getElementById(\'donate-btn\').click();return false" style="color:#4CAF50">成为第一个</a>？</div>';
-    } else {
-      const rows = donors.slice().reverse().slice(0, 20).map(d => {
-        const date = d.date ? new Date(d.date).toLocaleDateString('zh-CN', {month:'numeric',day:'numeric'}) : '';
-        return `<div class="donor-list-item">
-          <span class="donor-list-avatar">${d.avatar || '🐱'}</span>
-          <span class="donor-list-name">${d.name || '匿名'}</span>
-          <span class="donor-list-date">${date}</span>
-        </div>`;
-      }).join('');
-      donorListEl.innerHTML = rows;
-    }
-  }
 }
 
 async function upgradeQuestionBank() {
@@ -1763,14 +1663,6 @@ async function handleClick(e) {
 
     case 'close-checkin-modal':
       document.getElementById('checkin-modal').style.display = 'none';
-      break;
-
-    case 'open-donate-modal':
-      openDonateModal();
-      break;
-
-    case 'close-donate-modal':
-      document.getElementById('donate-modal').style.display = 'none';
       break;
 
     case 'install-pwa':

@@ -30,7 +30,6 @@
       <span class="subtitle">100天提升</span>
     </div>
     <div class="header-right">
-      <button class="donate-btn" id="donate-btn" data-action="open-donate-modal" title="支持百日闯">💝</button>
     </div>
   </header>
 
@@ -71,7 +70,6 @@
       <div class="home-section" id="weak-subjects-container"></div>
 
       <!-- 单科入口横排（JS 动态填充，无卡片背景） -->
-      <div class="home-section" id="checkin-entry-container"></div>
       <div class="home-section" id="subjects-strip-container"></div>
 
       <!-- 唯一主 CTA -->
@@ -204,43 +202,6 @@
     <div class="compare-gain" id="cmp-gain"></div>
     <div class="compare-subjects" id="cmp-subjects"></div>
     <button class="primary-btn" id="completion-confirm-btn" style="margin-top:16px">继续努力</button>
-  </div>
-</div>
-
-<!-- ===== DONATE MODAL ===== -->
-<div id="donate-modal" class="modal-overlay" style="display:none">
-  <div class="modal-card float-card donate-modal-card" style="top:20px;max-width:380px">
-    <div class="modal-toolbar">
-      <span class="modal-title">💝 支持百日闯</span>
-      <button class="modal-close-btn" id="donate-close-btn">×</button>
-    </div>
-    <p class="donor-subtitle">你的支持是我最大的动力</p>
-    <div class="donor-avatar-row">
-      <span class="donor-avatar-pick-label">选择头像</span>
-      <div class="donor-avatar-list" id="donor-avatar-list">
-        <span class="donor-avatar" data-avatar="🐱">🐱</span>
-        <span class="donor-avatar" data-avatar="🐶">🐶</span>
-        <span class="donor-avatar" data-avatar="🐰">🐰</span>
-        <span class="donor-avatar" data-avatar="🐼">🐼</span>
-        <span class="donor-avatar" data-avatar="🦊">🦊</span>
-        <span class="donor-avatar" data-avatar="🦁">🦁</span>
-        <span class="donor-avatar" data-avatar="🐸">🐸</span>
-        <span class="donor-avatar" data-avatar="🐵">🐵</span>
-      </div>
-    </div>
-    <input type="text" id="donor-name-input" class="text-input" placeholder="署名（选填）" maxlength="20">
-    <div class="qr-section">
-      <div class="qr-item">
-        <div class="qr-label">微信收款码</div>
-        <div class="qr-img-wrap"><img id="qr-wechat" src="images/qr/wechat.jpeg" alt="微信"></div>
-      </div>
-      <div class="qr-item">
-        <div class="qr-label">支付宝收款码</div>
-        <div class="qr-img-wrap"><img id="qr-alipay" src="images/qr/alipay.png" alt="支付宝"></div>
-      </div>
-    </div>
-    <button class="primary-btn" id="donor-submit-btn" style="margin-top:12px">送ta一个鼓励</button>
-    <div class="donor-thanks" id="donor-thanks" style="display:none">🎉 感谢你的支持！</div>
   </div>
 </div>
 
