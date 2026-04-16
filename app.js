@@ -261,6 +261,29 @@ function showUpdateBanner(remote) {
   }
 }
 
+async function doManualAppUpdateCheck() {
+  const btn = document.getElementById('check-app-update-btn');
+  if (btn) { btn.disabled = true; btn.textContent = '检查中...'; }
+
+  try {
+    const remote = await checkForAppUpdate();
+    if (!remote?.version) {
+      showToast('检查失败，请稍后重试');
+    } else if (remote.version <= (state.settings.appVersion || 1)) {
+      showToast('已是最新版本');
+    } else {
+      if (confirm(`发现新版本 v${remote.version}，是否更新？\n\n${remote.changelog || ''}`)) {
+        doAppUpgrade(remote);
+        return;
+      }
+    }
+  } catch {
+    showToast('检查失败，请稍后重试');
+  }
+
+  if (btn) { btn.disabled = false; btn.textContent = '检查更新'; }
+}
+
 async function doAppUpgrade(remote) {
   const banner = document.getElementById('update-banner');
   if (banner) banner.querySelector('.update-text').textContent = '正在更新...';
@@ -1405,6 +1428,7 @@ async function renderSettings() {
           <div class="settings-label" style="margin-bottom:2px">${state.account.name}</div>
           <div class="settings-hint" style="margin:0">${state.meta.startDate ? '第 ' + getCurrentDay() + ' / 100 天' : '未开始'}</div>
         </div>
+        <button class="secondary-btn" data-action="edit-account" style="flex-shrink:0">编辑</button>
       </div>
       <div style="display:flex;gap:8px">
         <button class="secondary-btn" data-action="export-account-qr" style="flex:1">导出二维码</button>
@@ -1446,6 +1470,17 @@ async function renderSettings() {
       <div class="settings-section-title">数据</div>
       <div id="qb-stats" class="settings-hint" style="padding:4px 0 8px">加载中...</div>
       <button class="danger-btn" data-action="clear-all-data">清除所有数据</button>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-section-title">关于</div>
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <div>
+          <div class="settings-label">当前版本</div>
+          <div class="settings-hint">v${state.remoteVersions?.version || '?'}</div>
+        </div>
+        <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn">检查更新</button>
+      </div>
     </div>
 
     <div class="settings-version">百日闯 v${state.remoteVersions?.version || '?'}</div>
@@ -1639,6 +1674,10 @@ async function handleClick(e) {
       if (window.deferredPWA) window.deferredPWA.prompt();
       break;
 
+    case 'edit-account':
+      showAccountEditModal();
+      break;
+
     case 'account-setup-confirm':
       await confirmAccountSetup();
       break;
@@ -1667,6 +1706,10 @@ async function handleClick(e) {
       await del(K.QB_CACHE);
       state.questionBank = createEmptyQuestionBank();
       alert('已清除题库缓存，下次进入时将重新下载');
+      break;
+
+    case 'check-app-update':
+      doManualAppUpdateCheck();
       break;
 
     case 'clear-all-data':
@@ -1760,7 +1803,11 @@ function showToast(msg, duration) {
 function showAccountSetupModal() {
   const modal = document.getElementById('account-setup-modal');
   if (!modal) return;
-  // Reset inputs
+  modal.dataset.mode = 'create';
+  document.getElementById('account-setup-emoji').textContent = '👋';
+  document.getElementById('account-setup-title').textContent = '欢迎使用百日闯';
+  document.getElementById('account-setup-sub').textContent = '创建一个专属身份，换设备扫码即可恢复';
+  document.getElementById('account-setup-confirm-btn').textContent = '开启百日计划';
   const nameInput = document.getElementById('account-name-input');
   if (nameInput) nameInput.value = '';
   const avatarPreview = document.getElementById('avatar-preview');
@@ -1770,15 +1817,45 @@ function showAccountSetupModal() {
   modal.style.display = 'flex';
 }
 
+function showAccountEditModal() {
+  const modal = document.getElementById('account-setup-modal');
+  if (!modal || !state.account) return;
+  modal.dataset.mode = 'edit';
+  document.getElementById('account-setup-emoji').textContent = '✏️';
+  document.getElementById('account-setup-title').textContent = '修改资料';
+  document.getElementById('account-setup-sub').textContent = '';
+  document.getElementById('account-setup-confirm-btn').textContent = '保存';
+  const nameInput = document.getElementById('account-name-input');
+  if (nameInput) nameInput.value = state.account.name || '';
+  const avatarPreview = document.getElementById('avatar-preview');
+  if (avatarPreview) avatarPreview.src = state.account.avatar || '';
+  modal.style.display = 'flex';
+}
+
 async function confirmAccountSetup() {
   const name = (document.getElementById('account-name-input')?.value || '').trim();
   if (!name) { showToast('请输入名字'); return; }
   const avatar = document.getElementById('avatar-preview')?.src || '';
-  state.account = { name, avatar, createdAt: Date.now() };
-  await set(K.ACCOUNT, state.account);
-  document.getElementById('account-setup-modal').style.display = 'none';
-  showToast('欢迎，' + name + '！');
-  renderHome();
+  const modal = document.getElementById('account-setup-modal');
+  const isEdit = modal?.dataset.mode === 'edit';
+  if (isEdit && state.account) {
+    state.account.name = name;
+    state.account.avatar = avatar;
+    await set(K.ACCOUNT, state.account);
+    showToast('资料已保存');
+    renderSettings();
+    // Update header
+    const ha = document.getElementById('header-account-avatar');
+    const hn = document.getElementById('header-account-name');
+    if (ha) ha.src = avatar;
+    if (hn) hn.textContent = name;
+  } else {
+    state.account = { name, avatar, createdAt: Date.now() };
+    await set(K.ACCOUNT, state.account);
+    showToast('欢迎，' + name + '！');
+    renderHome();
+  }
+  modal.style.display = 'none';
 }
 
 async function exportAccountQR() {
