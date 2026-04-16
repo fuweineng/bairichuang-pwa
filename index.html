@@ -30,6 +30,8 @@
       <span class="subtitle">100天提升</span>
     </div>
     <div class="header-right">
+      <button class="header-icon-btn" id="donate-btn" data-action="show-donate-modal" title="支持开发者">💝</button>
+      <button class="header-settings-btn" data-action="nav" data-view="settings">⚙️</button>
     </div>
   </header>
 
@@ -214,6 +216,27 @@
     <div id="qr-reader" style="width:100%"></div>
     <p class="placeholder" id="qr-import-tip">对准二维码扫描</p>
     <p class="placeholder" id="qr-import-error" style="color:#e53935;display:none"></p>
+  </div>
+</div>
+
+<div id="donate-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:360px">
+    <div class="modal-toolbar">
+      <span class="modal-title">💝 支持百日闯</span>
+      <button class="modal-close-btn" id="donate-close-btn">×</button>
+    </div>
+    <p style="font-size:0.85rem;color:#666;margin:8px 0 16px">你的支持是我持续更新的动力</p>
+    <div class="donate-qr-row">
+      <div class="donate-qr-item">
+        <div class="donate-qr-label">💬 微信</div>
+        <img id="donate-wechat-qr" src="images/wechat_donate.png" alt="微信收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
+      </div>
+      <div class="donate-qr-item">
+        <div class="donate-qr-label">💰 支付宝</div>
+        <img id="donate-alipay-qr" src="images/alipay_donate.png" alt="支付宝收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
+      </div>
+    </div>
+    <p style="font-size:0.75rem;color:#aaa;margin-top:12px;text-align:center">截图保存 → 打开对应App扫一扫</p>
   </div>
 </div>
 

@@ -215,6 +215,14 @@ async function init() {
   // QR import close
   document.getElementById('qr-import-close-btn')?.addEventListener('click', closeQRImport);
 
+  // Donate modal close
+  document.getElementById('donate-close-btn')?.addEventListener('click', () => {
+    document.getElementById('donate-modal').style.display = 'none';
+  });
+  document.getElementById('donate-modal')?.addEventListener('click', e => {
+    if (e.target.id === 'donate-modal') document.getElementById('donate-modal').style.display = 'none';
+  });
+
   // Chart subject switcher
   document.getElementById('chart-subject-bar')?.addEventListener('click', e => {
     const btn = e.target.closest('.subj-btn');
@@ -513,15 +521,15 @@ function renderSubjectsStrip() {
     const acc = getSubjectAccuracy(subj);
     const dotClass = acc === null ? 'none' : acc < 60 ? 'weak' : 'mastered';
     const label = acc === null ? '未学' : `${acc}%`;
-    return `<button class="subj-strip-btn" data-action="start-subject" data-subject="${subj}">
-      <span class="subj-strip-dot ${dotClass}"></span>
-      <span>${subjectName(subj)}</span>
-      <span style="font-size:0.68rem;opacity:0.7">${label}</span>
+    const emoji = {chinese:'语',math:'数',english:'英',physics:'理',chemistry:'化',biology:'生',history:'史',geography:'地',politics:'道'}[subj] || subj;
+    return `<button class="subj-grid-btn" data-action="start-subject" data-subject="${subj}">
+      <span class="subj-grid-emoji">${emoji}</span>
+      <span class="subj-grid-name">${subjectName(subj)}</span>
+      <span class="subj-grid-acc ${dotClass}">${label}</span>
     </button>`;
   }).join('');
   el.innerHTML = `
-    <div class="subjects-section-header">选择单科练习</div>
-    <div class="subjects-strip-row">${btns}</div>`;
+    <div class="subjects-grid">${btns}</div>`;
 }
 
 function getPracticeMode() {
@@ -1724,6 +1732,14 @@ async function handleClick(e) {
 
     case 'dismiss-pwa':
       document.getElementById('pwa-install-banner').style.display = 'none';
+      break;
+
+    case 'show-donate-modal':
+      document.getElementById('donate-modal').style.display = 'flex';
+      break;
+
+    case 'close-donate-modal':
+      document.getElementById('donate-modal').style.display = 'none';
       break;
 
     case 'close-checkin-modal':
