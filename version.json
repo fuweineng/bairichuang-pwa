@@ -1,7 +1,7 @@
 {
-  "version": "8.4.0-20260417",
+  "version": "8.6.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "fix: 题库去重 — english-30重复(mid batch覆盖) math-1 biology-1; english现有470题(445 sequential+25 compound sub-qs)，151-200区间50题从未生成需后续补"
+  "changelog": "fix: grade全部归9 (752题), society前缀修正 (15题), fill题acceptAnswers补全 (217题), index.json题数更正"
 }
