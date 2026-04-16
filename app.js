@@ -371,24 +371,26 @@ function renderHome() {
     }
   }
 
-  // Account info in header
-  if (state.account) {
-    let accEl = document.getElementById('header-account-info');
-    if (!accEl) {
-      accEl = document.createElement('div');
-      accEl.id = 'header-account-info';
-      accEl.style.cssText = 'display:flex;align-items:center;gap:6px;margin-right:8px;cursor:pointer';
-      accEl.dataset.action = 'nav';
-      accEl.dataset.view = 'settings';
-      accEl.innerHTML = `
-        <img id="header-account-avatar" src="" style="width:28px;height:28px;border-radius:50%;object-fit:cover;border:1.5px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.15)">
-        <span id="header-account-name" style="font-size:13px;font-weight:500;color:#fff;max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></span>`;
-      const headerRight = document.querySelector('.header-right');
-      headerRight.insertBefore(accEl, headerRight.firstChild);
-    }
-    document.getElementById('header-account-avatar').src = state.account.avatar || '';
-    document.getElementById('header-account-name').textContent = state.account.name || '';
+  // Account info in header — always show avatar button (leads to settings)
+  let accEl = document.getElementById('header-account-info');
+  if (!accEl) {
+    accEl = document.createElement('div');
+    accEl.id = 'header-account-info';
+    accEl.style.cssText = 'display:flex;align-items:center;gap:6px;margin-right:8px;cursor:pointer';
+    accEl.dataset.action = 'nav';
+    accEl.dataset.view = 'settings';
+    accEl.innerHTML = `
+      <img id="header-account-avatar" src="" style="width:28px;height:28px;border-radius:50%;object-fit:cover;border:1.5px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.15)">
+      <span id="header-account-name" style="font-size:13px;font-weight:500;color:#fff;max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></span>`;
+    const headerRight = document.getElementById('header-right-container');
+    headerRight.insertBefore(accEl, headerRight.firstChild);
   }
+  const avatar = state.account?.avatar || '';
+  const name = state.account?.name || '';
+  document.getElementById('header-account-avatar').src = avatar;
+  document.getElementById('header-account-avatar').style.background = avatar ? 'transparent' : '#aaa';
+  document.getElementById('header-account-name').textContent = name;
+  document.getElementById('header-account-name').style.display = name ? 'inline' : 'none';
 
   // Chart
   const homeChartEl = document.getElementById('home-chart-container');
@@ -436,7 +438,7 @@ function renderTodayStatus() {
     </div>`;
 }
 
-// 计算某科目的正确率（基于 progress 记录）
+// 计算某科目的正确率（基于 progress 记录，无数据时用摸底结果）
 function getSubjectAccuracy(subj) {
   const questions = state.questionBank[subj] || [];
   let correct = 0, total = 0;
@@ -446,7 +448,12 @@ function getSubjectAccuracy(subj) {
     correct += p.correct || 0;
     total += (p.correct || 0) + (p.wrong || 0);
   });
-  return total > 0 ? Math.round((correct / total) * 100) : null;
+  if (total > 0) return Math.round((correct / total) * 100);
+  // 无 progress 数据时 → 用摸底测试结果
+  if (state.meta.day1SubjectAcc) {
+    return state.meta.day1SubjectAcc[subj] ?? null;
+  }
+  return null;
 }
 
 
@@ -510,6 +517,7 @@ function getQuestionStatus(question) {
 
 function questionMatchesMode(question, mode = getPracticeMode()) {
   if (mode === 'standard') return true;
+  if (mode === 'assessment') return true; // 摸底测试不限状态
   return getQuestionStatus(question) === mode;
 }
 
@@ -1174,9 +1182,10 @@ async function renderSessionEnd() {
   state.sessions.push(sessionEntry);
   await set(K.SESSIONS, state.sessions);
 
-  // First session ever → set day1 baseline
+  // First session ever → set day1 baseline + mark assessment done
   if (!state.meta.startDate) {
     state.meta.startDate = today;
+    state.meta.assessmentCompleted = true;
     const day1Acc = {};
     SUBJECTS.forEach(s => {
       const sd = byS[s];
@@ -1269,14 +1278,32 @@ function drawChart() {
     return b.acc - a.acc; // 从高到低
   });
 
-  if (data.every(d => d.acc === null)) {
-    return `<div class="chart-empty">还没有练习数据</div>`;
+  // 未完成摸底测试 → 显示引导
+  if (!state.meta.assessmentCompleted) {
+    return `
+    <div class="chart-empty">
+      <div class="chart-empty-icon">📋</div>
+      <div class="chart-empty-title">还没有练习数据</div>
+      <div class="chart-empty-sub">先做一次摸底测试，了解各科水平</div>
+      <button class="chart-assessment-btn" data-action="start-assessment">开始摸底测试</button>
+    </div>`;
   }
 
-  const rows = data.map(({ subj, acc }) => {
+  // 已完成摸底测试 → 各科柱状图，数据优先用摸底结果
+  const barData = subjects.map(subj => {
+    const acc = getSubjectAccuracy(subj); // 后续练习后会被 progress 数据覆盖
+    return { subj, acc };
+  }).sort((a, b) => {
+    if (a.acc === null && b.acc === null) return 0;
+    if (a.acc === null) return 1;
+    if (b.acc === null) return -1;
+    return b.acc - a.acc;
+  });
+
+  const rows = barData.map(({ subj, acc }) => {
     const color = subjectColors[subj] || '#999';
     const pct = acc === null ? 0 : acc;
-    const barWidth = (pct / 100) * 100; // percentage for CSS
+    const barWidth = (pct / 100) * 100;
     const label = acc === null ? '未学' : `${acc}%`;
     return `
     <div class="chart-bar-row" data-action="start-subject" data-subject="${subj}">
@@ -1360,6 +1387,12 @@ async function renderSettings() {
       <div id="supporters-content">
         <div class="settings-hint">加载中...</div>
       </div>
+    </div>
+
+    <div class="settings-card">
+      <button class="donate-btn" data-action="show-donate-modal" style="width:100%;padding:12px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:10px;font-size:0.9rem;font-weight:700;cursor:pointer">
+        💝 支持百日闯
+      </button>
     </div>
 
     <div class="settings-card">
@@ -1544,6 +1577,12 @@ async function handleClick(e) {
     case 'start-subject':
       state.subject = t.dataset.subject;
       navigate('#/practice/' + t.dataset.subject + (state.entry ? '?entry=' + state.entry : ''));
+      break;
+
+    case 'start-assessment':
+      state.subject = 'all';
+      state.entry = 'assessment';
+      navigate('#/practice/all?entry=assessment');
       break;
 
     case 'answer':
