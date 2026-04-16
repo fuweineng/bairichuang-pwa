@@ -4193,20 +4193,24 @@
   },
   {
     "id": "english-236-3",
-    "type": "fill",
+    "type": "choice",
     "subject": "english",
     "difficulty": 2,
     "grade": 8,
     "knowledgeTags": [
-      "听力",
-      "短文听写",
+      "阅读理解",
       "日常生活"
     ],
     "question": "He goes to school by _____.",
     "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
-    "audioUrl": "audio/english/english-236.m4a",
-    "answer": "bike",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+    "choices": [
+      { "label": "A", "text": "bus" },
+      { "label": "B", "text": "bike" },
+      { "label": "C", "text": "car" },
+      { "label": "D", "text": "walk" }
+    ],
+    "answer": "B",
+    "explanation": "根据短文：Then I go to school by bike."
   },
   {
     "id": "english-236-4",
