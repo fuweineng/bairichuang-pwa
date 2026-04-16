@@ -1309,7 +1309,7 @@ main {
 .fill-input {
   flex: 1;
   padding: 11px 13px;
-  font-size: 0.95rem;
+  font-size: 16px;
   border: 2px solid #ddd;
   border-radius: 10px;
   outline: none;
