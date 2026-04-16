@@ -695,11 +695,11 @@ function isAnswerMatch(userAnswer, correctAnswer, question = null) {
     || normalizedUser.startsWith(normalizedAnswer.replace(/\s+/g, ''));
 }
 
-function appendExplanation(fb, questionLike) {
+function appendExplanation(fb, questionLike, skipPassage = false) {
   if (questionLike?.audio_text) {
     fb.innerHTML += `<p class="explanation"><strong>听力原文：</strong>${questionLike.audio_text.replace(/\n/g, '<br>')}</p>`;
   }
-  if (questionLike?.passage) {
+  if (!skipPassage && questionLike?.passage) {
     fb.innerHTML += `<p class="explanation"><strong>短文原文：</strong>${questionLike.passage.replace(/\n/g, '<br>')}</p>`;
   }
   if (questionLike?.explanation) {
@@ -1093,7 +1093,7 @@ async function handleFillAnswer(userAnswer) {
     } else {
       fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${formatAnswerForDisplay(correctAns)}</span>`;
     }
-    appendExplanation(fb, q);
+    appendExplanation(fb, q, q.type === 'fill' || q.type === 'short_answer'); // skip passage for fill (already shown in question block)
     fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
   }
 }
