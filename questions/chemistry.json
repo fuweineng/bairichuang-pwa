@@ -2766,7 +2766,7 @@
     "id": "chemistry-137",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学式书写",
     "question": "以下哪一项是氧化铁(III)的正确化学式？",
     "options": [
@@ -2781,7 +2781,7 @@
     "id": "chemistry-138",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化合价计算",
     "question": "某化合物M2O3中，氧的化合价为-2，已知该化合物整体为电中性，求M的化合价是多少？",
     "options": [
@@ -2796,7 +2796,7 @@
     "id": "chemistry-139",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "质量守恒定律",
     "question": "在密闭容器中进行化学反应，若反应物的总质量为120 g，则生成物的总质量为多少？",
     "options": [
@@ -2811,7 +2811,7 @@
     "id": "chemistry-140",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学方程式配平",
     "question": "下列化学方程式的配平系数（按前后顺序对应）正确的是哪一个？ Fe + O₂ → Fe₂O₃",
     "options": [
@@ -2826,7 +2826,7 @@
     "id": "chemistry-141",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "原子结构",
     "question": "在原子结构中，决定元素种类的是（ ）。",
     "options": [
@@ -2841,7 +2841,7 @@
     "id": "chemistry-142",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "离子符号",
     "question": "离子符号的写法规则是：先写元素符号，然后在右上角标上离子所带的电荷数，正电荷用‘+’，负电荷用‘-’。以下哪个符合该规则？",
     "options": [
@@ -2856,7 +2856,7 @@
     "id": "chemistry-143",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "溶液配制",
     "question": "欲配制 0.20 mol·L⁻¹ 的 NaCl 溶液 250 mL，需要准确称取多少克的 NaCl（Na=23, Cl=35.5）？",
     "options": [
@@ -2871,7 +2871,7 @@
     "id": "chemistry-144",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "溶解度曲线",
     "question": "已知某盐的溶解度随温度升高而显著增加，图为其在20℃、50℃、80℃时的溶解度分别为30 g、80 g、130 g（每100 g水）。若将100 mL（水的密度≈1 g·mL⁻¹）在50℃时的饱和溶液降温至20℃，下列关于析出固体的说法正确的是？",
     "options": [
@@ -2886,7 +2886,7 @@
     "id": "chemistry-145",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "酸的化学性质",
     "question": "以下哪项不是酸的常见化学性质？",
     "options": [
@@ -2901,7 +2901,7 @@
     "id": "chemistry-146",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "碱的化学性质",
     "question": "下列不属于碱的化学性质的是：",
     "options": [
@@ -2916,7 +2916,7 @@
     "id": "chemistry-147",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "盐的化学性质",
     "question": "下列关于盐的化学性质的说法，正确的是：",
     "options": [
@@ -2931,7 +2931,7 @@
     "id": "chemistry-148",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "金属活动性顺序",
     "question": "将金属A放入CuSO4溶液中，金属铜被置换出来；将金属B放入AgNO3溶液中，没有金属银被置换出来。则金属A、B、Cu、Ag的金属活动性顺序（从强到弱）正确的是（ ）。",
     "options": [
@@ -2946,7 +2946,7 @@
     "id": "chemistry-149",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "燃烧条件",
     "question": "燃烧的必备条件包括以下哪几项？",
     "options": [
@@ -2961,7 +2961,7 @@
     "id": "chemistry-150",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "氧气制备",
     "question": "实验室常用二氧化锰（MnO₂）催化过氧化氢（H₂O₂）分解来制备氧气。下列关于二氧化锰的作用描述正确的是：",
     "options": [
@@ -2976,7 +2976,7 @@
     "id": "chemistry-151",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二氧化碳制备",
     "question": "下列哪种方法可以用于实验室制备二氧化碳？",
     "options": [
@@ -2991,7 +2991,7 @@
     "id": "chemistry-152",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "复分解反应",
     "question": "下列哪组试剂之间能够发生复分解反应并生成沉淀？",
     "options": [
@@ -3006,7 +3006,7 @@
     "id": "chemistry-153",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "物质分类",
     "question": "下列关于物质分类的说法，正确的是（ ）。",
     "options": [
@@ -3021,7 +3021,7 @@
     "id": "chemistry-154",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "微观粒子",
     "question": "下列关于原子结构的说法，正确的是（   ）",
     "options": [
@@ -3036,7 +3036,7 @@
     "id": "chemistry-155",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学用语",
     "question": "化学用语中，‘2H2O’表示的含义是？",
     "options": [
@@ -3051,7 +3051,7 @@
     "id": "chemistry-156",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学式书写",
     "question": "请选出下面表示“氧化铝”的正确化学式。",
     "options": [
@@ -3066,7 +3066,7 @@
     "id": "chemistry-157",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化合价计算",
     "question": "已知化合物 Fe2O3，求铁（Fe）的化合价是多少？",
     "options": [
@@ -3081,7 +3081,7 @@
     "id": "chemistry-158",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "质量守恒定律",
     "question": "在化学反应中，质量守恒定律表明在什么条件下，反应前后系统的总质量保持不变？",
     "options": [
@@ -3096,7 +3096,7 @@
     "id": "chemistry-159",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学方程式配平",
     "question": "使化学方程式 Fe + O2 → Fe2O3 配平的一组系数是：",
     "options": [
@@ -3111,7 +3111,7 @@
     "id": "chemistry-160",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "原子结构",
     "question": "下列关于原子结构的描述中，正确的是（ ）。",
     "options": [
@@ -3126,7 +3126,7 @@
     "id": "chemistry-161",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "离子符号",
     "question": "以下哪个选项正确表示了带两个单位正电荷的镁离子？",
     "options": [
@@ -3141,7 +3141,7 @@
     "id": "chemistry-162",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "溶液配制",
     "question": "配制 250 mL 0.10 mol/L 硫酸铜溶液（使用无水硫酸铜，摩尔质量 159.6 g/mol），需要称取硫酸铜的质量为多少？",
     "options": [
@@ -3156,7 +3156,7 @@
     "id": "chemistry-163",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "溶解度曲线",
     "question": "图中给出A、B、C三种固体在水中的溶解度随温度的变化曲线。已知曲线A随温度升高溶解度显著增大，曲线B几乎保持不变，曲线C随温度升高而略有下降。则在30℃时，以下哪项描述是正确的？",
     "options": [
@@ -3171,7 +3171,7 @@
     "id": "chemistry-164",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "酸的化学性质",
     "question": "将稀硫酸滴入含有酚酞指示剂的氢氧化钠溶液中，观察到的现象是（ ）。",
     "options": [
@@ -3186,7 +3186,7 @@
     "id": "chemistry-165",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "碱的化学性质",
     "question": "下列关于碱的化学性质的叙述，正确的是（ ）。",
     "options": [
@@ -3201,7 +3201,7 @@
     "id": "chemistry-166",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "盐的化学性质",
     "question": "下列关于盐的化学性质的叙述，正确的是：",
     "options": [
@@ -3216,7 +3216,7 @@
     "id": "chemistry-167",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "金属活动性顺序",
     "question": "将金属铁片放入硝酸银(AgNO3)溶液中，可能会发生什么现象？",
     "options": [
@@ -3231,7 +3231,7 @@
     "id": "chemistry-168",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "燃烧条件",
     "question": "燃烧的三个基本条件不包括下列哪一项？",
     "options": [
@@ -3246,7 +3246,7 @@
     "id": "chemistry-169",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "氧气制备",
     "question": "以下哪种方法不能直接用于实验室制备氧气？",
     "options": [
@@ -3261,7 +3261,7 @@
     "id": "chemistry-170",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二氧化碳制备",
     "question": "实验室常用哪种方法制备二氧化碳？",
     "options": [
@@ -3276,7 +3276,7 @@
     "id": "chemistry-171",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "复分解反应",
     "question": "下列哪个反应属于复分解反应？",
     "options": [
@@ -3291,7 +3291,7 @@
     "id": "chemistry-172",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "物质分类",
     "question": "以下关于物质分类的说法，正确的是（ ）。",
     "options": [
@@ -3306,7 +3306,7 @@
     "id": "chemistry-173",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "微观粒子",
     "question": "下列关于原子、分子和离子的说法中，正确的一项是（ ）",
     "options": [
@@ -3321,7 +3321,7 @@
     "id": "chemistry-174",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学用语",
     "question": "下列关于化学式和离子式的说法，正确的是",
     "options": [
@@ -3336,7 +3336,7 @@
     "id": "chemistry-175",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学式书写",
     "question": "镁离子 Mg2+ 与氯离子 Cl- 形成的化合物的化学式是（ ）。",
     "options": [
@@ -3351,7 +3351,7 @@
     "id": "chemistry-176",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化合价计算",
     "question": "在化合物H2SO4中，硫（S）的化合价是多少？",
     "options": [
@@ -3366,7 +3366,7 @@
     "id": "chemistry-177",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "质量守恒定律",
     "question": "在密闭容器中进行的化学反应 2H2 + O2 → 2H2O，若投入 4.0 g 的氢气并提供足量氧气使其完全反应，则生成的水的质量为（ ）。",
     "options": [
@@ -3381,7 +3381,7 @@
     "id": "chemistry-178",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学方程式配平",
     "question": "请选择能够使下列化学方程式配平的正确系数组合：Al + O2 → Al2O3。",
     "options": [
@@ -3396,7 +3396,7 @@
     "id": "chemistry-179",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "原子结构",
     "question": "某元素的原子序数为11，质量数为23，则该原子核中的中子数为（ ）",
     "options": [
@@ -3411,7 +3411,7 @@
     "id": "chemistry-180",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "离子符号",
     "question": "某金属原子M的原子结构为2、8、2（即其核外电子排布为K层2个、L层8个、M层2个），若该原子失去最外层的两个电子，形成的离子符号是（ ）。",
     "options": [
@@ -3426,7 +3426,7 @@
     "id": "chemistry-181",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "溶液配制",
     "question": "要配制 250 mL 0.2 mol/L 的氯化钠（NaCl）溶液，需要称取多少克的 NaCl？（NaCl 的摩尔质量为 58.5 g/mol）",
     "options": [
@@ -3441,7 +3441,7 @@
     "id": "chemistry-182",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "溶解度曲线",
     "question": "图 1 为某固体在水中的溶解度曲线，横坐标为温度（℃），纵坐标为在该温度下 100 g 水中最多能溶解的质量（g）。若在 30 ℃ 时将 45 g 该固体加入 100 g 水中，充分搅拌后仍有少量固体未溶解，则以下对该固体在 30 ℃ 时的溶解状态的判断，正确的是（ ）。",
     "options": [
@@ -3456,7 +3456,7 @@
     "id": "chemistry-183",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "酸的化学性质",
     "question": "将一小块大理石（主要成分为CaCO₃）加入到稀盐酸中，观察到的现象是（）。",
     "options": [
@@ -3471,7 +3471,7 @@
     "id": "chemistry-184",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "碱的化学性质",
     "question": "下列关于碱的化学性质的描述中，错误的是（ ）。",
     "options": [
@@ -3486,7 +3486,7 @@
     "id": "chemistry-185",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "盐的化学性质",
     "question": "以下关于盐的化学性质的描述，错误的是（ ）。",
     "options": [
@@ -3501,7 +3501,7 @@
     "id": "chemistry-186",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "金属活动性顺序",
     "question": "将一小块金属锌放入盛有硝酸银溶液的烧杯中，观察到的现象是（   ）。",
     "options": [
@@ -3516,7 +3516,7 @@
     "id": "chemistry-187",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "燃烧条件",
     "question": "燃烧需要的三个基本条件是：①可燃物、②氧气（或助燃剂）、③达到燃点温度。下列哪项不是燃烧的必要条件？",
     "options": [
@@ -3531,7 +3531,7 @@
     "id": "chemistry-188",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "氧气制备",
     "question": "在实验室加热氯酸钾（KClO₃）制取氧气的实验中，加入二氧化锰（MnO₂）的作用是什么？",
     "options": [
@@ -3546,7 +3546,7 @@
     "id": "chemistry-189",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二氧化碳制备",
     "question": "实验室中常用的二氧化碳制备方法是（　）",
     "options": [
@@ -3561,7 +3561,7 @@
     "id": "chemistry-190",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "复分解反应",
     "question": "以下关于复分解反应的描述，正确的是（  ）。",
     "options": [
@@ -3576,7 +3576,7 @@
     "id": "chemistry-191",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "物质分类",
     "question": "下列物质中，属于化合物的是（    ）。",
     "options": [
@@ -3591,7 +3591,7 @@
     "id": "chemistry-192",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "微观粒子",
     "question": "下列关于微观粒子的说法，正确的是（ ）。",
     "options": [
@@ -3606,7 +3606,7 @@
     "id": "chemistry-193",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学用语",
     "question": "下列关于化学用语的描述，正确的是（ ）。",
     "options": [
@@ -3621,7 +3621,7 @@
     "id": "chemistry-194",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学式书写",
     "question": "已知氧化铁(III)中铁的化合价为+3，氧的化合价为-2，则氧化铁(III)的化学式是",
     "options": [
@@ -3636,7 +3636,7 @@
     "id": "chemistry-195",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化合价计算",
     "question": "在化合物H₂SO₄中，硫（S）的化合价是多少？",
     "options": [
@@ -3651,7 +3651,7 @@
     "id": "chemistry-196",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "质量守恒定律",
     "question": "下列关于质量守恒定律的说法，正确的是？",
     "options": [
@@ -3666,7 +3666,7 @@
     "id": "chemistry-197",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "化学方程式配平",
     "question": "已知反应：Fe + O₂ → Fe₂O₃。请选择正确的配平后系数（从左至右依次为 Fe、O₂、Fe₂O₃ 的系数）。",
     "options": [
@@ -3681,7 +3681,7 @@
     "id": "chemistry-198",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "原子结构",
     "question": "关于原子结构的描述，下面哪项是正确的？",
     "options": [
@@ -3696,7 +3696,7 @@
     "id": "chemistry-199",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "离子符号",
     "question": "镁离子 Mg2+ 的离子符号中，数字2表示什么？",
     "options": [
@@ -3711,7 +3711,7 @@
     "id": "chemistry-200",
     "subject": "chemistry",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "溶液配制",
     "question": "实验室需要配制 200 mL 0.1 mol/L 的 NaCl 溶液，已知 NaCl 的摩尔质量为 58.5 g/mol，需要称取多少克 NaCl？",
     "options": [

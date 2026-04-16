@@ -3962,7 +3962,7 @@
     "id": "math-243",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "有理数运算",
     "question": "计算 -3/4 + 5/6 - (-2/3) 的值是",
     "options": [
@@ -3977,7 +3977,7 @@
     "id": "math-244",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "整式加减",
     "question": "化简 (2x^3 - 5x^2 + 3x - 4) - ( -3x^3 + 2x^2 - x + 6 ) + (x^3 - 4x^2 + 2x - 1) 的结果是？",
     "options": [
@@ -3992,7 +3992,7 @@
     "id": "math-245",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一元一次方程",
     "question": "求解方程 2(x - 3) + 5 = 3x - 4，求 x 的值是（　）。",
     "options": [
@@ -4007,7 +4007,7 @@
     "id": "math-246",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二元一次方程组",
     "question": "已知方程组 { 2x + y = 5, 2x + y = 7 }，则该方程组的解的情况是",
     "options": [
@@ -4022,7 +4022,7 @@
     "id": "math-247",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "不等式",
     "question": "若 |3 - 2x| ≤ 7，则 x 的取值范围是（ ）。",
     "options": [
@@ -4037,7 +4037,7 @@
     "id": "math-248",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "因式分解",
     "question": "将多项式 6x^2 + 11x + 3 分解因式，下面哪一项是正确的？",
     "options": [
@@ -4052,7 +4052,7 @@
     "id": "math-249",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "分式运算",
     "question": "化简下列分式：(x^2 - 9)/(x^2 + 5x + 6) ÷ (x - 3)/(x + 2)。",
     "options": [
@@ -4067,7 +4067,7 @@
     "id": "math-251",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一次函数",
     "question": "已知一次函数的图像经过点 (1,3) 和 (3,7)，则该一次函数的解析式是？",
     "options": [
@@ -4082,7 +4082,7 @@
     "id": "math-252",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "反比例函数",
     "question": "已知反比例函数 y = k/x（k≠0），且当 x = 2 时，y = -4，则 k 的值为多少？",
     "options": [
@@ -4097,7 +4097,7 @@
     "id": "math-253",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次函数",
     "question": "已知二次函数 y = x^2 - 6x + 8，求该函数的最小值。",
     "options": [
@@ -4112,7 +4112,7 @@
     "id": "math-254",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "平面几何",
     "question": "在△ABC与△DEF中，已知AB=DE，∠A=∠D，AC=DF，则△ABC与△DEF全等的判定是？",
     "options": [
@@ -4127,7 +4127,7 @@
     "id": "math-255",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "全等三角形",
     "question": "如图，△ABC和△DEF中，AB=DE，BC=EF，∠B=∠E=90°，则这两个三角形全等的依据是（ ）。",
     "options": [
@@ -4142,7 +4142,7 @@
     "id": "math-256",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "相似三角形",
     "question": "在△ABC中，AB=6，BC=9，AC=12。若△DEF与△ABC相似，且对应边的比例是2:3（即AB:DE = 2:3），则DE的长度为多少？",
     "options": [
@@ -4157,7 +4157,7 @@
     "id": "math-257",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "圆",
     "question": "已知圆的半径为 r，若将半径扩大 2 倍，则圆的面积扩大为原来的多少倍？",
     "options": [
@@ -4172,7 +4172,7 @@
     "id": "math-258",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "扇形",
     "question": "已知一个扇形的半径为 6 cm，圆心角为 90°，求该扇形的面积（单位：cm²）。",
     "options": [
@@ -4187,7 +4187,7 @@
     "id": "math-259",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "统计与概率",
     "question": "一个袋子里有5个红球、3个蓝球和2个绿球。每次从袋中随机抽取一个球后放回。连续抽取两次，恰好抽到两次红球的概率是多少？",
     "options": [
@@ -4202,7 +4202,7 @@
     "id": "math-260",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "有理数运算",
     "question": "计算 (-\\frac{2}{3}) + \\frac{5}{6} - (-\\frac{4}{9}) 的值是？",
     "options": [
@@ -4217,7 +4217,7 @@
     "id": "math-261",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "整式加减",
     "question": "化简下式：3x^2 - 5x + 2 + (4x^2 + x - 3)",
     "options": [
@@ -4232,7 +4232,7 @@
     "id": "math-262",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一元一次方程",
     "question": "已知方程 5x - 3 = 2(x + 4) + 1，求 x 的值是多少？",
     "options": [
@@ -4247,7 +4247,7 @@
     "id": "math-263",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二元一次方程组",
     "question": "已知方程组 { 2x + 3y = 12,  x - y = 1 }，以下哪一组 (x, y) 是该方程组的唯一解？",
     "options": [
@@ -4262,7 +4262,7 @@
     "id": "math-264",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "不等式",
     "question": "已知不等式 -3x + 7 ≤ 2x - 5，则该不等式的解集为 x ≥ a，求 a 的值。",
     "options": [
@@ -4277,7 +4277,7 @@
     "id": "math-265",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "因式分解",
     "question": "把多项式 2x^2 + 5x - 3 进行因式分解，下面哪一个是正确的？",
     "options": [
@@ -4292,7 +4292,7 @@
     "id": "math-266",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "分式运算",
     "question": "化简分式 2x/(x+1) + 3/(x-1) 的结果为（ ）。",
     "options": [
@@ -4307,7 +4307,7 @@
     "id": "math-267",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次根式",
     "question": "化简 \\sqrt{12}+\\sqrt{27} 的结果是（ ）。",
     "options": [
@@ -4322,7 +4322,7 @@
     "id": "math-268",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一次函数",
     "question": "已知一次函数的图像经过点 (2,5) 和 (4,9)，求该一次函数的解析式。",
     "options": [
@@ -4337,7 +4337,7 @@
     "id": "math-269",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "反比例函数",
     "question": "下列哪一种情形不可能是反比例函数 y = k/x（k≠0）的图像？",
     "options": [
@@ -4352,7 +4352,7 @@
     "id": "math-270",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次函数",
     "question": "已知二次函数 y = 3x^2 - 12x + 7，则该函数图像的对称轴是（ ）。",
     "options": [
@@ -4367,7 +4367,7 @@
     "id": "math-271",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "平面几何",
     "question": "在直角三角形ABC中，∠C是直角，AB=10，AC=6，求BC的长度。",
     "options": [
@@ -4382,7 +4382,7 @@
     "id": "math-272",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "全等三角形",
     "question": "已知△ABC和△DEF，满足AB=DE，∠A=∠D，AC=DF，则△ABC≌△DEF的依据是下列哪一项？",
     "options": [
@@ -4397,7 +4397,7 @@
     "id": "math-273",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "相似三角形",
     "question": "在△ABC中，点D是AB上一点，且满足AD:DB=3:2。过点D作一条平行于BC的直线，交AC于点E。已知AB=15 cm，BC=10 cm，DE=6 cm，则AD的长度是多少？",
     "options": [
@@ -4412,7 +4412,7 @@
     "id": "math-274",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "圆",
     "question": "已知圆的半径为5 cm，圆心O到弦AB的距离为3 cm，则弦AB的长度为多少？",
     "options": [
@@ -4427,7 +4427,7 @@
     "id": "math-275",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "扇形",
     "question": "已知扇形的半径为6 cm，中心角为120°，求该扇形的弧长。",
     "options": [
@@ -4442,7 +4442,7 @@
     "id": "math-276",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "统计与概率",
     "question": "甲、乙两名同学参加抽奖活动，甲抽中概率为0.2，乙抽中概率为0.3，且两人是否抽中相互独立。则至少有一人抽中的概率是多少？",
     "options": [
@@ -4457,7 +4457,7 @@
     "id": "math-277",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "有理数运算",
     "question": "计算 (-2/3) ÷ (5/6) + (-7/9) × (-4/5) 的值是多少？",
     "options": [
@@ -4472,7 +4472,7 @@
     "id": "math-278",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "整式加减",
     "question": "化简下列整式：\\((4a^{2}b-3ab^{2}+5a)+(-2a^{2}b+7ab^{2}-4a)\\)",
     "options": [
@@ -4487,7 +4487,7 @@
     "id": "math-279",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一元一次方程",
     "question": "已知方程 3(x-2) + 5 = 2(x+4) - 1，求 x 的值。",
     "options": [
@@ -4502,7 +4502,7 @@
     "id": "math-280",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二元一次方程组",
     "question": "已知方程组 x + 2y = 7，2x - y = 4，求 x、y 的值。",
     "options": [
@@ -4517,7 +4517,7 @@
     "id": "math-281",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "不等式",
     "question": "已知不等式 -2 < 3x + 1 ≤ 7，满足该不等式的整数 x 的个数为（ ）。",
     "options": [
@@ -4532,7 +4532,7 @@
     "id": "math-282",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "因式分解",
     "question": "把多项式 12x^2 - 27 因式分解，以下哪个选项是正确的？",
     "options": [
@@ -4547,7 +4547,7 @@
     "id": "math-283",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "分式运算",
     "question": "化简并求值：\\frac{2}{3} \\times \\frac{3}{4} + \\frac{5}{6} \\div \\frac{2}{3} = ?",
     "options": [
@@ -4562,7 +4562,7 @@
     "id": "math-284",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次根式",
     "question": "化简 2√12 + 3√27 - √75 的结果是（ ）。",
     "options": [
@@ -4577,7 +4577,7 @@
     "id": "math-285",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一次函数",
     "question": "已知一次函数 y = 2x + b 的图像经过点 (3, 7)，则 b 的值为多少？",
     "options": [
@@ -4592,7 +4592,7 @@
     "id": "math-286",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "反比例函数",
     "question": "若 y 与 x 成反比例，且当 x = 4 时 y = 3，则 y 与 x 的函数关系式为（ ）。",
     "options": [
@@ -4607,7 +4607,7 @@
     "id": "math-287",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次函数",
     "question": "已知二次函数 y = x^2 - 4x + m（m 为实数），若它的顶点恰好在 x 轴上，则 m 的取值为（　）",
     "options": [
@@ -4622,7 +4622,7 @@
     "id": "math-288",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "平面几何",
     "question": "在圆O中，已知弦AB的长度为8，圆心O到弦AB的距离为3，则圆O的半径为多少？",
     "options": [
@@ -4637,7 +4637,7 @@
     "id": "math-289",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "全等三角形",
     "question": "下列哪一组条件不能判定两个三角形全等？",
     "options": [
@@ -4652,7 +4652,7 @@
     "id": "math-290",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "相似三角形",
     "question": "已知△ABC的两边AB=5，AC=8，且∠A=45°；△DEF的两边DE=10，DF=16，且∠D=45°。下面哪项可以判断两三角形相似？",
     "options": [
@@ -4667,7 +4667,7 @@
     "id": "math-291",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "圆",
     "question": "把一根长 62.8 cm 的绳子围成一个圆，求该圆的面积约为多少？（π 取 3.14）",
     "options": [
@@ -4682,7 +4682,7 @@
     "id": "math-292",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "扇形",
     "question": "已知圆的半径为6 cm，圆心角为120°，求该扇形的面积（单位：cm²）。",
     "options": [
@@ -4697,7 +4697,7 @@
     "id": "math-293",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "统计与概率",
     "question": "抛掷一枚均匀硬币，连续抛两次，出现至少一次正面的概率是多少？",
     "options": [
@@ -4712,7 +4712,7 @@
     "id": "math-294",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "有理数运算",
     "question": "计算 \\(-3/5 ÷ (1/2 - 5/6)\\) 的结果为（　）",
     "options": [
@@ -4727,7 +4727,7 @@
     "id": "math-295",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "整式加减",
     "question": "已知 A = 2x^2 + 5x - 3，B = -x^2 + 2x + 7，求 A + B 的结果是？",
     "options": [
@@ -4742,7 +4742,7 @@
     "id": "math-296",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一元一次方程",
     "question": "求解方程 5x + 3 = 2x + 18，x 的值是？",
     "options": [
@@ -4757,7 +4757,7 @@
     "id": "math-297",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二元一次方程组",
     "question": "某人买了3件T恤和2条裤子，总共花了540元，已知每件T恤比每条裤子贵20元，求T恤的单价（元）",
     "options": [
@@ -4772,7 +4772,7 @@
     "id": "math-298",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "不等式",
     "question": "求不等式 3(x-2) > 2x + 5 的解集。",
     "options": [
@@ -4787,7 +4787,7 @@
     "id": "math-299",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "因式分解",
     "question": "将多项式 3x^2 + 5x - 2 进行因式分解，正确的是？",
     "options": [
@@ -4802,7 +4802,7 @@
     "id": "math-300",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "分式运算",
     "question": "化简分式 ((x^2 - 4)/(x^2 - 2x)) ÷ ((x+2)/(x^2 - x)) 的结果是（　　）",
     "options": [
@@ -4817,7 +4817,7 @@
     "id": "math-301",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次根式",
     "question": "化简 1/(√2+1) 的结果是（ ）。",
     "options": [
@@ -4832,7 +4832,7 @@
     "id": "math-302",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一次函数",
     "question": "已知一次函数的图像经过点 (2,5) 和 (4,9)，求该函数的解析式。",
     "options": [
@@ -4847,7 +4847,7 @@
     "id": "math-303",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "反比例函数",
     "question": "已知 y 与 x 成反比例，当 x=4 时 y=3，则 y 关于 x 的函数关系式为（ ）。",
     "options": [
@@ -4862,7 +4862,7 @@
     "id": "math-304",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次函数",
     "question": "已知二次函数 y = -x^2 + 4x - 3，下列说法正确的是？",
     "options": [
@@ -4877,7 +4877,7 @@
     "id": "math-305",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "平面几何",
     "question": "已知三角形的三边比例为3:4:5，周长为48 cm，求该三角形的面积。",
     "options": [
@@ -4892,7 +4892,7 @@
     "id": "math-306",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "全等三角形",
     "question": "在△ABC和△DEF中，已知AB = DE，AC = DF，且∠A = ∠D。请问△ABC与△DEF是否全等？若全等，依据的是哪条判定？",
     "options": [
@@ -4907,7 +4907,7 @@
     "id": "math-307",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "相似三角形",
     "question": "已知△ABC与△DEF相似，AB=6 cm，DE=9 cm，且BC=8 cm，求EF的长度。",
     "options": [
@@ -4922,7 +4922,7 @@
     "id": "math-308",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "圆",
     "question": "已知圆的半径为7 cm，π取3.14，求该圆的面积（结果保留整数）。",
     "options": [
@@ -4937,7 +4937,7 @@
     "id": "math-309",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "扇形",
     "question": "已知圆的半径为5 cm，扇形的圆心角为120°，该扇形的弧长为多少？（π取3.14，结果保留两位小数）",
     "options": [
@@ -4952,7 +4952,7 @@
     "id": "math-310",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "统计与概率",
     "question": "投掷两枚均匀硬币，至少有一枚正面朝上的概率是（ ）。",
     "options": [
@@ -4967,7 +4967,7 @@
     "id": "math-311",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "有理数运算",
     "question": "计算：-\\frac{2}{3}+\\frac{5}{6}-\\frac{1}{2}的结果是？",
     "options": [
@@ -4982,7 +4982,7 @@
     "id": "math-312",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "整式加减",
     "question": "化简下列整式：2x^2 + 3x - 5 - (x^2 - 4x + 3) = ?",
     "options": [
@@ -4997,7 +4997,7 @@
     "id": "math-313",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一元一次方程",
     "question": "若 (2x+3)/5 - (x-2)/3 = 1，则 x = ?",
     "options": [
@@ -5012,7 +5012,7 @@
     "id": "math-314",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二元一次方程组",
     "question": "已知二元一次方程组：\n2x + 3y = 12\nx - y = 1\n求该方程组的解 (x, y)。",
     "options": [
@@ -5027,7 +5027,7 @@
     "id": "math-315",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "不等式",
     "question": "已知不等式 |x - 3| < 5，则该不等式的解集为：",
     "options": [
@@ -5042,7 +5042,7 @@
     "id": "math-316",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "因式分解",
     "question": "将多项式 6x^2 + 11x + 3 分解因式，得到的结果是？",
     "options": [
@@ -5057,7 +5057,7 @@
     "id": "math-317",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "分式运算",
     "question": "化简下列分式：1/(x-2) + 2/(x+1) - 3/(x^2 - x - 2)。",
     "options": [
@@ -5072,7 +5072,7 @@
     "id": "math-318",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次根式",
     "question": "已知 a = √12，b = √3，则 a ÷ b 的值为（ ）。",
     "options": [
@@ -5087,7 +5087,7 @@
     "id": "math-319",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一次函数",
     "question": "已知一次函数 y = kx + b 的图像经过点 (3,7) 与 (5,11)。求 k 与 b 的值。",
     "options": [
@@ -5102,7 +5102,7 @@
     "id": "math-320",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "反比例函数",
     "question": "下列关于反比例函数 y = k/x (k≠0) 的说法，错误的是（   ）",
     "options": [
@@ -5117,7 +5117,7 @@
     "id": "math-321",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二次函数",
     "question": "已知二次函数 f(x)=2x^2-4x+k 的最小值为5，则 k 的值为多少？",
     "options": [
@@ -5132,7 +5132,7 @@
     "id": "math-322",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "平面几何",
     "question": "已知圆的半径为6，圆内有一个正方形，其四个顶点均在圆上，求正方形的面积。",
     "options": [
@@ -5147,7 +5147,7 @@
     "id": "math-323",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "全等三角形",
     "question": "已知△ABC与△DEF满足AB=DE，BC=EF，CA=FD，则它们全等的依据是（ ）。",
     "options": [
@@ -5162,7 +5162,7 @@
     "id": "math-324",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "相似三角形",
     "question": "在△ABC中，AB:BC = 3:4，BC:CA = 4:5。若△DEF与△ABC相似，且DE = 9 cm，则DF的长度是多少？",
     "options": [
@@ -5177,7 +5177,7 @@
     "id": "math-325",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "圆",
     "question": "在半径为10 cm的圆中，圆心O到弦AB的距离为6 cm，则弦AB的长度为多少？",
     "options": [
@@ -5192,7 +5192,7 @@
     "id": "math-326",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "扇形",
     "question": "已知圆的半径为4 cm，圆心角为120°，求该扇形的周长（单位：cm，保留π）。",
     "options": [
@@ -5207,7 +5207,7 @@
     "id": "math-327",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "统计与概率",
     "question": "一个盒子里有6个红球、4个蓝球和5个黄球，随机抽取一个球，抽到红球的概率是多少？",
     "options": [
@@ -5222,7 +5222,7 @@
     "id": "math-328",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "有理数运算",
     "question": "计算 -\\frac{2}{3} \\times (-\\frac{1}{4}) + \\frac{5}{6} \\div (-\\frac{3}{2}) 的值是？",
     "options": [
@@ -5237,7 +5237,7 @@
     "id": "math-329",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "整式加减",
     "question": "化简下列整式： (3x^2y - 2xy^2 + 5x) + ( -x^2y + 4xy^2 - 3x) = ?",
     "options": [
@@ -5252,7 +5252,7 @@
     "id": "math-330",
     "subject": "math",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一元一次方程",
     "question": "求解方程 5x - 3 = 2x + 12",
     "options": [

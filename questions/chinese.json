@@ -5878,7 +5878,7 @@
     "id": "chinese-309",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "拼音读写",
     "question": "下列词语的拼音拼写正确的是（ ）。",
     "options": [
@@ -5893,7 +5893,7 @@
     "id": "chinese-310",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "汉字结构",
     "question": "以下哪个汉字属于“全包围”结构？",
     "options": [
@@ -5908,7 +5908,7 @@
     "id": "chinese-311",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "成语运用",
     "question": "下列句子中，成语‘破镜重圆’使用恰当的是（ ）。",
     "options": [
@@ -5923,7 +5923,7 @@
     "id": "chinese-312",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "病句修改",
     "question": "以下句子中，没有语病的一项是：",
     "options": [
@@ -5938,7 +5938,7 @@
     "id": "chinese-313",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "句式转换",
     "question": "请将‘老师表扬了我。’改写成‘被’字句。",
     "options": [
@@ -5953,7 +5953,7 @@
     "id": "chinese-314",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "修辞手法",
     "question": "下面句子使用了哪种修辞手法？\n“春雨像牛毛一样细，轻轻地洒在大地上。”",
     "options": [
@@ -5968,7 +5968,7 @@
     "id": "chinese-315",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "标点符号",
     "question": "下列句子中，标点符号使用正确的是哪一项？",
     "options": [
@@ -5983,7 +5983,7 @@
     "id": "chinese-316",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文学常识",
     "question": "以下关于《诗经》的说法，正确的是？",
     "options": [
@@ -5998,7 +5998,7 @@
     "id": "chinese-317",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗文背诵",
     "question": "《枫桥夜泊》中的“月落乌啼霜满天”下一句是？",
     "options": [
@@ -6013,7 +6013,7 @@
     "id": "chinese-318",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗鉴赏",
     "question": "《春晓》这首诗主要抒发了诗人对春天的什么情感？",
     "options": [
@@ -6028,7 +6028,7 @@
     "id": "chinese-319",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文言文阅读",
     "question": "阅读下面的文言文，回答问题。\n《韩非子·五蠹》：“宋人有耕者。田中有株，兔走触之，折颈而死。因释其耒而守株，冀复得兔。”\n下列对“因释其耒而守株”的理解，正确的一项是：",
     "options": [
@@ -6043,7 +6043,7 @@
     "id": "chinese-320",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "记叙文阅读",
     "question": "阅读下面的记叙文，完成第1题。\n\n【记叙文】\n放学后，小明发现自己的书包里多了一本不属于他的漫画书。他犹豫了一下，决定把它交给老师。老师表扬了他的诚实。第二天，他在回家的路上看到一只受伤的小鸟，便把它带回家细心照料，最后小鸟康复后放飞。\n\n1. 这篇记叙文的主要写作目的是（ ）。",
     "options": [
@@ -6058,7 +6058,7 @@
     "id": "chinese-321",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "说明文阅读",
     "question": "阅读下面的短文，回答问题。\n\n光在不同介质之间传播时会发生折射。例如，把筷子插入水中，筷子看起来像被折断了一样。这是因为光从空气进入水中时速度改变，传播方向发生偏折。光的折射遵循一定的规律，入射角和折射角的正弦之比等于两种介质的折射率之比。通过了解光的折射原理，我们可以解释海市蜃楼等自然现象。\n\n这段文字的主要目的是什么？",
     "options": [
@@ -6073,7 +6073,7 @@
     "id": "chinese-322",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "议论文阅读",
     "question": "阅读下面的短文，回答第1题。\n\n【短文】\n诚信是个人立足社会的根本。只有讲诚信，才能赢得他人的信任；只有以诚信为根基，才能在职场和生活中稳步前行。相反，背弃诚信的人终将失去他人的信任，甚至导致人际关系的破裂。因此，我们每个人都应自觉树立诚信意识，从日常小事做起。\n\n1. 下列关于该议论文中心论点的说法，最恰当的是（ ）。",
     "options": [
@@ -6088,7 +6088,7 @@
     "id": "chinese-323",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文审题",
     "question": "以下关于审题的说法，正确的一项是：",
     "options": [
@@ -6103,7 +6103,7 @@
     "id": "chinese-324",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文立意",
     "question": "以下关于作文立意的说法，正确的是哪一项？",
     "options": [
@@ -6118,7 +6118,7 @@
     "id": "chinese-325",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文素材",
     "question": "以下哪项不属于常见的作文素材类型？",
     "options": [
@@ -6133,7 +6133,7 @@
     "id": "chinese-326",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "拼音读写",
     "question": "下面四个选项中，哪一项是诗句“春眠不觉晓”的完整拼音（含声调）？",
     "options": [
@@ -6148,7 +6148,7 @@
     "id": "chinese-327",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "汉字结构",
     "question": "下列汉字中，哪个是上下结构？",
     "options": [
@@ -6163,7 +6163,7 @@
     "id": "chinese-328",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "成语运用",
     "question": "以下句子中，成语‘画蛇添足’使用恰当的是（ ）。",
     "options": [
@@ -6178,7 +6178,7 @@
     "id": "chinese-329",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "病句修改",
     "question": "下面这句话中有一处语病，请选出正确的修改方式：'通过学习，使我提高了水平。'",
     "options": [
@@ -6193,7 +6193,7 @@
     "id": "chinese-330",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "句式转换",
     "question": "请把下面的句子改写为‘尽管...还是...’的句式：\n虽然他很忙，但是他还是抽时间帮助我们。",
     "options": [
@@ -6208,7 +6208,7 @@
     "id": "chinese-331",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "修辞手法",
     "question": "下面句子使用了哪种修辞手法？\n句子：知识是一盏灯，照亮我们的道路。",
     "options": [
@@ -6223,7 +6223,7 @@
     "id": "chinese-332",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "标点符号",
     "question": "下面句子中，标点符号使用正确的是（   ）。",
     "options": [
@@ -6238,7 +6238,7 @@
     "id": "chinese-333",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文学常识",
     "question": "《诗经》收录的诗歌主要分为哪三部分？",
     "options": [
@@ -6253,7 +6253,7 @@
     "id": "chinese-334",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗文背诵",
     "question": "在背诵古诗文时，下列哪种方法最能帮助加深理解并提升记忆效果？",
     "options": [
@@ -6268,7 +6268,7 @@
     "id": "chinese-335",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗鉴赏",
     "question": "《望庐山瀑布》写道：“日照香炉生紫烟，遥看瀑布挂前川。飞流直下三千尺，疑是银河落九天。”下列关于“飞流直下三千尺”一句的描述，正确的一项是：",
     "options": [
@@ -6283,7 +6283,7 @@
     "id": "chinese-336",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文言文阅读",
     "question": "下列对“温故而知新”的理解，最准确的一项是：",
     "options": [
@@ -6298,7 +6298,7 @@
     "id": "chinese-337",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "记叙文阅读",
     "question": "阅读下面的记叙文片段，回答问题。\n\n【片段】\n“父亲把沉重的箱子放在月台上，转身离去。箱子的轮子在石板上滚动，发出轻轻的哐当声。我的视线跟随他的背影，直到他消失在雨雾之中。”\n\n上文主要表达了作者对父亲的什么情感？",
     "options": [
@@ -6313,7 +6313,7 @@
     "id": "chinese-338",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "说明文阅读",
     "question": "阅读下面的说明文，回答第1题。\n\n光在从一种透明介质进入另一种透明介质时，会因介质折射率不同而发生方向的改变，这种现象称为光的折射。折射定律（斯涅尔定律）表明，入射角的正弦与折射角的正弦之比等于两种介质的折射率之比。利用折射原理，眼镜片、望远镜以及光纤等光学器件得以实现。\n\n关于光的折射，下列说法正确的是（ ）。",
     "options": [
@@ -6328,7 +6328,7 @@
     "id": "chinese-339",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "议论文阅读",
     "question": "阅读下面的议论文，回答问题。\n\n【议论文】\n诚实是做人最基本的准则。一个人的信誉一旦失去，就很难恢复。我们常常看到一些企业因为虚假宣传而失去消费者的信任，最终导致业绩下滑；相反，像华为这样坚持质量为本的企业，却赢得了市场的认可。可见，诚实不仅关系到个人形象，也关系到社会的正常运行。因此，我们每个人都应该在日常生活中坚持诚实守信，做一个值得信赖的人。\n\n下列关于本文的论证方法说法正确的一项是（　　）",
     "options": [
@@ -6343,7 +6343,7 @@
     "id": "chinese-340",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文审题",
     "question": "审题是写作的第一步，下面哪项不属于审题的范畴？",
     "options": [
@@ -6358,7 +6358,7 @@
     "id": "chinese-341",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文立意",
     "question": "以下关于作文立意的说法，哪一项是正确的？",
     "options": [
@@ -6373,7 +6373,7 @@
     "id": "chinese-342",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文素材",
     "question": "在写作文时，下列哪项是最直接、最丰富的素材来源？",
     "options": [
@@ -6388,7 +6388,7 @@
     "id": "chinese-343",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "拼音读写",
     "question": "下面词语的拼音标注，哪一项完全正确？",
     "options": [
@@ -6403,7 +6403,7 @@
     "id": "chinese-344",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "汉字结构",
     "question": "以下哪个汉字属于包围结构？",
     "options": [
@@ -6418,7 +6418,7 @@
     "id": "chinese-345",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "成语运用",
     "question": "下列句子中，使用成语‘画蛇添足’最恰当的一项是：",
     "options": [
@@ -6433,7 +6433,7 @@
     "id": "chinese-346",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "病句修改",
     "question": "病句“通过学习，使我受益匪浅。”的修改正确的是（ ）。",
     "options": [
@@ -6448,7 +6448,7 @@
     "id": "chinese-347",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "句式转换",
     "question": "请把下面的主动句改为“被”字句：老师把作业批改了。",
     "options": [
@@ -6463,7 +6463,7 @@
     "id": "chinese-348",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "修辞手法",
     "question": "下列句子中，使用了暗喻修辞手法的是（ ）。",
     "options": [
@@ -6478,7 +6478,7 @@
     "id": "chinese-349",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "标点符号",
     "question": "下面的句子中，逗号使用不恰当的是（ ）",
     "options": [
@@ -6493,7 +6493,7 @@
     "id": "chinese-350",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文学常识",
     "question": "《三国演义》是明代的章回体小说，作者是？",
     "options": [
@@ -6508,7 +6508,7 @@
     "id": "chinese-351",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗文背诵",
     "question": "《春晓》是唐代诗人孟浩然的作品，下面四句诗的顺序，哪个是正确的？",
     "options": [
@@ -6523,7 +6523,7 @@
     "id": "chinese-352",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗鉴赏",
     "question": "《春晓》全诗主要表达了诗人对春天的（ ）。",
     "options": [
@@ -6538,7 +6538,7 @@
     "id": "chinese-353",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文言文阅读",
     "question": "阅读下面的文言文，回答问题。\n\n“子曰：‘学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？’”（《论语·学而》）\n\n下列对这句话的理解，最恰当的是：",
     "options": [
@@ -6553,7 +6553,7 @@
     "id": "chinese-354",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "记叙文阅读",
     "question": "下列关于记叙文六要素的描述，错误的一项是",
     "options": [
@@ -6568,7 +6568,7 @@
     "id": "chinese-355",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "说明文阅读",
     "question": "阅读下面的短文，回答问题。\\n\\n水是地球上最重要的自然资源之一。它在自然界中通过蒸发、凝结、降水等过程不断循环，维持着生态平衡。人类通过水库、灌排等方式利用水资源，同时也面临着污染和短缺的挑战。\\n\\n本文的主要说明对象是（ ）。",
     "options": [
@@ -6583,7 +6583,7 @@
     "id": "chinese-356",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "议论文阅读",
     "question": "阅读下面的议论文片段，回答问题：文中作者的主要观点是______？（请从以下选项中选出正确的一项）\n\n网络时代的阅读方式正深刻改变着青少年获取知识的方式。有人认为，网络信息丰富、更新迅速，能够满足青少年的求知欲；也有人担心，网络阅读碎片化，容易导致注意力分散，影响深度思考。针对这种现象，某篇议论文指出：‘如果青少年长期依赖快速浏览，缺少系统的阅读训练，他们的思考能力将会受到限制。’",
     "options": [
@@ -6598,7 +6598,7 @@
     "id": "chinese-357",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文审题",
     "question": "在审题‘一次难忘的春游’时，下面哪一步最能帮助确定文章的中心？",
     "options": [
@@ -6613,7 +6613,7 @@
     "id": "chinese-358",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文立意",
     "question": "以下关于作文立意的说法，哪一项最符合‘立意明确、深刻’的要求？",
     "options": [
@@ -6628,7 +6628,7 @@
     "id": "chinese-359",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文素材",
     "question": "以下哪项不属于作文素材的常见来源？",
     "options": [
@@ -6643,7 +6643,7 @@
     "id": "chinese-360",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "拼音读写",
     "question": "在拼写‘妈妈’时，拼音的声调标记应标在哪个字母上？",
     "options": [
@@ -6658,7 +6658,7 @@
     "id": "chinese-361",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "汉字结构",
     "question": "以下汉字中，哪个是左中右结构的汉字？",
     "options": [
@@ -6673,7 +6673,7 @@
     "id": "chinese-362",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "成语运用",
     "question": "下列句子中，成语‘举案齐眉’使用恰当的一句是（ ）。",
     "options": [
@@ -6688,7 +6688,7 @@
     "id": "chinese-363",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "病句修改",
     "question": "下面哪一项最恰当的修改了原句‘他买了苹果两斤。’的语病？",
     "options": [
@@ -6703,7 +6703,7 @@
     "id": "chinese-364",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "句式转换",
     "question": "请把下列句子改写成‘把’字句：‘我打开窗户。’",
     "options": [
@@ -6718,7 +6718,7 @@
     "id": "chinese-365",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "修辞手法",
     "question": "下列句子中使用的修辞手法是（ ）。\n“花儿在微风中轻轻摇曳，仿佛在向我们招手。”",
     "options": [
@@ -6733,7 +6733,7 @@
     "id": "chinese-366",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "标点符号",
     "question": "下面句子中使用的标点符号是顿号，它的作用是（ ）。\n例句：我今天买了苹果、香蕉、葡萄、桔子。",
     "options": [
@@ -6748,7 +6748,7 @@
     "id": "chinese-367",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文学常识",
     "question": "《诗经》收录的诗歌主要分为哪三类？",
     "options": [
@@ -6763,7 +6763,7 @@
     "id": "chinese-368",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗文背诵",
     "question": "《春望》中“国破山河在”的下一句是？",
     "options": [
@@ -6778,7 +6778,7 @@
     "id": "chinese-369",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗鉴赏",
     "question": "《望庐山瀑布》中“飞流直下三千尺，疑是银河落九天”这句诗使用了哪种修辞手法？",
     "options": [
@@ -6793,7 +6793,7 @@
     "id": "chinese-370",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文言文阅读",
     "question": "阅读下面的文言文，回答问题：\n\n子曰：“学而不思则罔，思而不学则殆。”\n\n对这句话的理解，下面哪项最准确？",
     "options": [
@@ -6808,7 +6808,7 @@
     "id": "chinese-371",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "记叙文阅读",
     "question": "《背影》是一篇典型的记叙文，作者在文中主要采用了哪种叙事视角？",
     "options": [
@@ -6823,7 +6823,7 @@
     "id": "chinese-372",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "说明文阅读",
     "question": "阅读下面的说明文，回答问题。\n\n随着城市化进程加快，生活垃圾的产生量逐年上升。若不进行有效处理，垃圾会占用大量土地，污染土壤和水源，进而危害人类健康。为此，政府推广垃圾分类，鼓励居民将可回收物、厨余垃圾、有害垃圾和其他垃圾分别投放，以便资源回收和科学处理。\n\n下面关于这段文字的说法，哪一项是正确的？",
     "options": [
@@ -6838,7 +6838,7 @@
     "id": "chinese-373",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "议论文阅读",
     "question": "阅读下面的议论文选段，完成题目。\n\n诚信是立身之本，是社会运行的基石。没有诚信，人与人之间的信任将荡然无存，社会秩序也会陷入混乱。\n\n诚信的概念在古代已经出现。商鞅立木取信的故事正是通过一次可信的行为，树立了公众对改革的信任，从而顺利推进了变法。今天，我们若缺乏诚信，将导致交易成本上升，甚至引发金融危机。为此，政府应当加强诚信教育，完善信用体系，以营造良好的社会环境。\n\n以下哪项最准确地概括了作者在第二段中的论证思路？",
     "options": [
@@ -6853,7 +6853,7 @@
     "id": "chinese-374",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文审题",
     "question": "请阅读以下作文题目与要求：\n题目：以“春天的记忆”为题，写一篇不少于600字的记叙文。\n要求：①内容真实，情感真挚；②结构完整，层次分明；③语言流畅，注意细节描写。\n在审题时，以下哪项是把握题目核心最关键的一点？",
     "options": [
@@ -6868,7 +6868,7 @@
     "id": "chinese-375",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文立意",
     "question": "阅读下面的材料：“在一次校园运动会上，小明因为一次意外的失误导致比赛失利，但他没有放弃，积极帮助队友准备下一场比赛，最终全队取得了好成绩。”如果要以这件事为素材写一篇记叙文，下面哪项最符合“立意”的要求？",
     "options": [
@@ -6883,7 +6883,7 @@
     "id": "chinese-376",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文素材",
     "question": "以下关于作文素材的说法，正确的是（ ）。",
     "options": [
@@ -6898,7 +6898,7 @@
     "id": "chinese-377",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "拼音读写",
     "question": "请选择‘知识’的正确拼音拼写。",
     "options": [
@@ -6913,7 +6913,7 @@
     "id": "chinese-378",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "汉字结构",
     "question": "以下哪个汉字属于半包围结构？",
     "options": [
@@ -6928,7 +6928,7 @@
     "id": "chinese-379",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "成语运用",
     "question": "下列句子中，成语使用恰当的一项是（ ）。",
     "options": [
@@ -6943,7 +6943,7 @@
     "id": "chinese-380",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "病句修改",
     "question": "下面句子有语病，请选出正确的修改（ ）。\n原句：因为天气不好，使我们不得不取消比赛。",
     "options": [
@@ -6958,7 +6958,7 @@
     "id": "chinese-381",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "句式转换",
     "question": "请把下面的‘把’字句改写成‘被’字句，保持原意不变：'老师把教室打扫得干干净净。'",
     "options": [
@@ -6973,7 +6973,7 @@
     "id": "chinese-382",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "修辞手法",
     "question": "下列句子中，使用了‘拟人’修辞手法的是：",
     "options": [
@@ -6988,7 +6988,7 @@
     "id": "chinese-383",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "标点符号",
     "question": "下面四个句子中，标点符号使用完全正确的是哪一项？",
     "options": [
@@ -7003,7 +7003,7 @@
     "id": "chinese-384",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文学常识",
     "question": "宋词的主要流派分为豪放派和哪一派？",
     "options": [
@@ -7018,7 +7018,7 @@
     "id": "chinese-385",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗文背诵",
     "question": "《登鹳雀楼》中“白日依山尽”的下一句是？",
     "options": [
@@ -7033,7 +7033,7 @@
     "id": "chinese-386",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "古诗鉴赏",
     "question": "《静夜思》中‘举头望明月，低头思故乡’运用了哪种写作手法？",
     "options": [
@@ -7048,7 +7048,7 @@
     "id": "chinese-387",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "文言文阅读",
     "question": "阅读下面的文言文，回答问题。\n《论语·为政》：子曰：“为政以德，譬如北辰，居其所而众星共之。”\n\n对“为政以德”的理解，正确的一项是",
     "options": [
@@ -7063,7 +7063,7 @@
     "id": "chinese-388",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "记叙文阅读",
     "question": "阅读下面的短文，然后回答问题。\n\n\"那天，我在学校的运动会上跑了第一名。回到家，我把奖状递给了爸爸。爸爸笑着说：‘真棒！’随后，我想起了小时候，我第一次参加比赛时，因为跌倒而被同学嘲笑的情景。那一次的经历让我更加坚强。\"\n\n文章在叙事上使用了哪种手法？",
     "options": [
@@ -7078,7 +7078,7 @@
     "id": "chinese-389",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "说明文阅读",
     "question": "以下关于说明文的说法，哪一项是正确的？",
     "options": [
@@ -7093,7 +7093,7 @@
     "id": "chinese-390",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "议论文阅读",
     "question": "阅读下面的短文，然后回答问题。\n随着科技发展，手机已成为我们生活的必需品。然而，手机的过度使用也带来了诸多负面影响，如影响学习、导致视力下降、削弱人际交流等。因此，专家呼吁青少年合理使用手机，设定使用时间，养成健康的使用习惯。\n以下哪项最能概括本文的中心论点？",
     "options": [
@@ -7108,7 +7108,7 @@
     "id": "chinese-391",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文审题",
     "question": "阅读下面的材料，完成题目后，回答：以下关于本题的审题要点，表述最准确的是（）。\n材料：\n请以“成长的烦恼”为题，写一篇记叙文，描写自己在成长过程中遇到的一次烦恼，并谈谈你的感受。要求字数不少于500字，文中要有细腻的心理描写。",
     "options": [
@@ -7123,7 +7123,7 @@
     "id": "chinese-392",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文立意",
     "question": "关于作文立意的描述，下面哪一项是正确的？",
     "options": [
@@ -7138,7 +7138,7 @@
     "id": "chinese-393",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "作文素材",
     "question": "以下哪项最能帮助初中生积累作文素材？",
     "options": [
@@ -7153,7 +7153,7 @@
     "id": "chinese-394",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "拼音读写",
     "question": "下列词语的拼音拼写，错误的一项是：",
     "options": [
@@ -7168,7 +7168,7 @@
     "id": "chinese-395",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "汉字结构",
     "question": "以下关于汉字结构的说法，正确的是",
     "options": [
@@ -7183,7 +7183,7 @@
     "id": "chinese-396",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "成语运用",
     "question": "下列句子中，成语使用恰当的一项是",
     "options": [
@@ -7198,7 +7198,7 @@
     "id": "chinese-397",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "病句修改",
     "question": "下面句子有语病，请选出正确的修改方案：\n通过这次活动，使我们认识到团队合作的重要性。",
     "options": [
@@ -7213,7 +7213,7 @@
     "id": "chinese-398",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "句式转换",
     "question": "请把下面的主动句改写成被动句：\n“老师表扬了小明。”",
     "options": [
@@ -7228,7 +7228,7 @@
     "id": "chinese-399",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "修辞手法",
     "question": "下列句子中，使用了‘拟人’修辞手法的是（ ）。",
     "options": [
@@ -7243,7 +7243,7 @@
     "id": "chinese-400",
     "subject": "chinese",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "标点符号",
     "question": "下面句子中，标点符号使用完全正确的是（ ）。",
     "options": [

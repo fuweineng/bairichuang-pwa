@@ -1750,7 +1750,7 @@
     "id": "biology-219",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞结构",
     "question": "在动物细胞中，不具有膜结构的细胞器是？",
     "options": [
@@ -1765,7 +1765,7 @@
     "id": "biology-220",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞分裂",
     "question": "在细胞有丝分裂过程中，DNA的复制发生在（ ）。",
     "options": [
@@ -1780,7 +1780,7 @@
     "id": "biology-221",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物组织",
     "question": "植物体内负责将根部吸收的水分和无机盐运输到地上部的组织是（ ）。",
     "options": [
@@ -1795,7 +1795,7 @@
     "id": "biology-222",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物组织",
     "question": "以下哪种动物组织的主要功能是分泌和吸收，且细胞排列紧密形成层？",
     "options": [
@@ -1810,7 +1810,7 @@
     "id": "biology-223",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光合作用",
     "question": "光合作用的光反应和暗反应分别在叶绿体的哪一部位进行？",
     "options": [
@@ -1825,7 +1825,7 @@
     "id": "biology-224",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸作用",
     "question": "细胞呼吸的总反应式为：",
     "options": [
@@ -1840,7 +1840,7 @@
     "id": "biology-225",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "消化系统",
     "question": "人体消化系统中，主要吸收营养物质的部位是哪一个？",
     "options": [
@@ -1855,7 +1855,7 @@
     "id": "biology-226",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "循环系统",
     "question": "在体循环中，血液从左心室进入的主要血管是（ ）。",
     "options": [
@@ -1870,7 +1870,7 @@
     "id": "biology-227",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸系统",
     "question": "在呼吸系统中，完成氧气和二氧化碳交换的最小结构是（ ）。",
     "options": [
@@ -1885,7 +1885,7 @@
     "id": "biology-228",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "泌尿系统",
     "question": "关于肾脏的主要功能，下列说法错误的是",
     "options": [
@@ -1900,7 +1900,7 @@
     "id": "biology-229",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "神经系统",
     "question": "以下关于人体神经系统的组成及功能的描述，正确的是？",
     "options": [
@@ -1915,7 +1915,7 @@
     "id": "biology-230",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "激素调节",
     "question": "胰岛素是调节血糖的重要激素，下列关于胰岛素作用的描述，正确的是（ ）。",
     "options": [
@@ -1930,7 +1930,7 @@
     "id": "biology-231",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人类传染病",
     "question": "下列关于人类传染病的说法，正确的是？",
     "options": [
@@ -1945,7 +1945,7 @@
     "id": "biology-232",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "免疫",
     "question": "以下关于免疫系统功能的描述，哪项是正确的？",
     "options": [
@@ -1960,7 +1960,7 @@
     "id": "biology-233",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物行为",
     "question": "以下哪种行为最可能属于动物的先天性行为（本能），而不是后天学习获得的？",
     "options": [
@@ -1975,7 +1975,7 @@
     "id": "biology-234",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物分类",
     "question": "以下哪一项是哺乳动物区别于其他脊椎动物的特征？",
     "options": [
@@ -1990,7 +1990,7 @@
     "id": "biology-235",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物分类",
     "question": "根据种子是否有子房包裹，植物可分为哪两大类？",
     "options": [
@@ -2005,7 +2005,7 @@
     "id": "biology-236",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生态系统",
     "question": "在生态系统中，能量流动的主要特点是（ ）。",
     "options": [
@@ -2020,7 +2020,7 @@
     "id": "biology-237",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "食物链",
     "question": "关于食物链，以下说法正确的是：",
     "options": [
@@ -2035,7 +2035,7 @@
     "id": "biology-238",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生物多样性",
     "question": "生物多样性包括哪三个层次？",
     "options": [
@@ -2050,7 +2050,7 @@
     "id": "biology-239",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "遗传基础",
     "question": "某对父母都是Aa（A为显性），则其子女表现出显性性状（如卷舌）的概率为多少？",
     "options": [
@@ -2065,7 +2065,7 @@
     "id": "biology-240",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "变异",
     "question": "下列关于可遗传变异的叙述，哪项是正确的？",
     "options": [
@@ -2080,7 +2080,7 @@
     "id": "biology-241",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "进化",
     "question": "以下关于自然选择的叙述中，正确的是？",
     "options": [
@@ -2095,7 +2095,7 @@
     "id": "biology-242",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "青春期",
     "question": "青春期的到来标志着人类从儿童向成年的过渡。下列关于青春期的描述中，正确的一项是（ ）",
     "options": [
@@ -2110,7 +2110,7 @@
     "id": "biology-243",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞结构",
     "question": "以下哪种结构是动物细胞和植物细胞都具备的？",
     "options": [
@@ -2125,7 +2125,7 @@
     "id": "biology-244",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞分裂",
     "question": "在动物细胞有丝分裂过程中，染色体会排列在细胞的赤道面上，这是哪个阶段的特征？",
     "options": [
@@ -2140,7 +2140,7 @@
     "id": "biology-245",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物组织",
     "question": "下列哪种组织负责将根部吸收的水分和无机盐输送到植物的地上部分？",
     "options": [
@@ -2155,7 +2155,7 @@
     "id": "biology-246",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物组织",
     "question": "以下哪种动物组织主要负责身体的支撑、连接和保护，内部富含细胞外基质？",
     "options": [
@@ -2170,7 +2170,7 @@
     "id": "biology-247",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光合作用",
     "question": "在光合作用的光反应阶段，叶绿体产生的氧气来源于（ ）。",
     "options": [
@@ -2185,7 +2185,7 @@
     "id": "biology-248",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸作用",
     "question": "细胞进行呼吸作用的主要场所是（ ）。",
     "options": [
@@ -2200,7 +2200,7 @@
     "id": "biology-249",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "消化系统",
     "question": "以下哪种消化液不含消化酶？",
     "options": [
@@ -2215,7 +2215,7 @@
     "id": "biology-250",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "循环系统",
     "question": "体循环（系统循环）的主要功能是什么？",
     "options": [
@@ -2230,7 +2230,7 @@
     "id": "biology-251",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸系统",
     "question": "人体在吸气时，膈肌的运动状态是怎样的？",
     "options": [
@@ -2245,7 +2245,7 @@
     "id": "biology-252",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "泌尿系统",
     "question": "尿液在排出体外之前，会先在哪个器官中暂时储存？",
     "options": [
@@ -2260,7 +2260,7 @@
     "id": "biology-253",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "神经系统",
     "question": "在反射弧中，信息传递的正确顺序是（   ）",
     "options": [
@@ -2275,7 +2275,7 @@
     "id": "biology-254",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "激素调节",
     "question": "在甲状腺激素的分泌调节中，以下哪项描述是正确的？",
     "options": [
@@ -2290,7 +2290,7 @@
     "id": "biology-255",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人类传染病",
     "question": "传染病在人群中的传播必须具备以下哪三个基本环节？",
     "options": [
@@ -2305,7 +2305,7 @@
     "id": "biology-256",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "免疫",
     "question": "以下哪项不属于先天免疫的组成部分？",
     "options": [
@@ -2320,7 +2320,7 @@
     "id": "biology-257",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物行为",
     "question": "以下哪种行为属于先天性行为（本能行为），而不是后天学习行为？",
     "options": [
@@ -2335,7 +2335,7 @@
     "id": "biology-258",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物分类",
     "question": "动物根据是否有脊椎骨可分为脊椎动物和无脊椎动物。下列动物中，属于无脊椎动物的是？",
     "options": [
@@ -2350,7 +2350,7 @@
     "id": "biology-259",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物分类",
     "question": "在植物分类中，依据种子是否被果皮包裹，可将种子植物分为裸子植物和哪类？",
     "options": [
@@ -2365,7 +2365,7 @@
     "id": "biology-260",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生态系统",
     "question": "在生态系统中，分解者主要起到什么作用？",
     "options": [
@@ -2380,7 +2380,7 @@
     "id": "biology-261",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "食物链",
     "question": "在一条典型的草原食物链中，‘草→野兔→狐狸→狼’，狼属于第几级消费者？",
     "options": [
@@ -2395,7 +2395,7 @@
     "id": "biology-262",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生物多样性",
     "question": "以下哪项不属于生物多样性的三个层次？",
     "options": [
@@ -2410,7 +2410,7 @@
     "id": "biology-263",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "遗传基础",
     "question": "在一对等位基因的杂交实验中，若将基因型为Aa的个体自交，F2代中显性性状个体所占的比例是多少？",
     "options": [
@@ -2425,7 +2425,7 @@
     "id": "biology-264",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "变异",
     "question": "下列哪种现象属于可遗传的变异？",
     "options": [
@@ -2440,7 +2440,7 @@
     "id": "biology-265",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "进化",
     "question": "以下关于生物进化的叙述，哪一项是正确的？",
     "options": [
@@ -2455,7 +2455,7 @@
     "id": "biology-266",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "青春期",
     "question": "以下哪项不属于青春期的常见表现？",
     "options": [
@@ -2470,7 +2470,7 @@
     "id": "biology-267",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞结构",
     "question": "下列细胞结构中，哪一种在动物细胞中不存在，而在植物细胞中常见？",
     "options": [
@@ -2485,7 +2485,7 @@
     "id": "biology-268",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞分裂",
     "question": "在有丝分裂过程中，染色体的形态最为清晰、排列在细胞中央的赤道板上的是哪一个阶段？",
     "options": [
@@ -2500,7 +2500,7 @@
     "id": "biology-269",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物组织",
     "question": "以下哪种植物组织的主要功能是保护植物免受外界伤害？",
     "options": [
@@ -2515,7 +2515,7 @@
     "id": "biology-270",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物组织",
     "question": "在动物体内，负责接受刺激并传递信息的组织是？",
     "options": [
@@ -2530,7 +2530,7 @@
     "id": "biology-271",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光合作用",
     "question": "光合作用释放的氧气主要来源于哪种物质？",
     "options": [
@@ -2545,7 +2545,7 @@
     "id": "biology-272",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸作用",
     "question": "以下关于细胞呼吸的说法，正确的是（ ）。",
     "options": [
@@ -2560,7 +2560,7 @@
     "id": "biology-273",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "消化系统",
     "question": "在胃内，主要负责将蛋白质初步分解的酶是？",
     "options": [
@@ -2575,7 +2575,7 @@
     "id": "biology-274",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "循环系统",
     "question": "人体血液循环中，左心室收缩时，血液首先进入哪条血管？",
     "options": [
@@ -2590,7 +2590,7 @@
     "id": "biology-275",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸系统",
     "question": "下列关于人体呼吸系统的描述，正确的是？",
     "options": [
@@ -2605,7 +2605,7 @@
     "id": "biology-276",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "泌尿系统",
     "question": "泌尿系统中，负责过滤血液并形成尿液的结构是？",
     "options": [
@@ -2620,7 +2620,7 @@
     "id": "biology-277",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "神经系统",
     "question": "手指不小心碰到火焰时，会出现快速的抽手动作，该反射的神经通路顺序是？",
     "options": [
@@ -2635,7 +2635,7 @@
     "id": "biology-278",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "激素调节",
     "question": "血糖浓度升高时，胰岛素和胰高血糖素的分泌情况分别是（ ）。",
     "options": [
@@ -2650,7 +2650,7 @@
     "id": "biology-279",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人类传染病",
     "question": "下列关于传染病预防的措施中，哪项是错误的？",
     "options": [
@@ -2665,7 +2665,7 @@
     "id": "biology-280",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "免疫",
     "question": "关于人体免疫的说法，下面哪项是正确的？",
     "options": [
@@ -2680,7 +2680,7 @@
     "id": "biology-281",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物行为",
     "question": "下列哪种行为属于动物的学习行为（通过经验获得的）？",
     "options": [
@@ -2695,7 +2695,7 @@
     "id": "biology-282",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物分类",
     "question": "下列动物中，属于哺乳动物的是（　　）",
     "options": [
@@ -2710,7 +2710,7 @@
     "id": "biology-283",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物分类",
     "question": "在植物界，依据是否形成种子，可将植物分为哪两大类？",
     "options": [
@@ -2725,7 +2725,7 @@
     "id": "biology-284",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生态系统",
     "question": "在生态系统中，以下哪项属于非生物因素？",
     "options": [
@@ -2740,7 +2740,7 @@
     "id": "biology-285",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "食物链",
     "question": "以下哪一项能够正确表示一条完整的食物链？",
     "options": [
@@ -2755,7 +2755,7 @@
     "id": "biology-286",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生物多样性",
     "question": "以下哪项不属于生物多样性的主要层次？",
     "options": [
@@ -2770,7 +2770,7 @@
     "id": "biology-287",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "遗传基础",
     "question": "在孟德尔的紫花（P）对白花（p）一对等位基因实验中，若将基因型为 Pp 的紫花自交，子代中紫花植株的比例是（    ）。",
     "options": [
@@ -2785,7 +2785,7 @@
     "id": "biology-288",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "变异",
     "question": "以下关于变异的叙述，正确的是",
     "options": [
@@ -2800,7 +2800,7 @@
     "id": "biology-289",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "进化",
     "question": "以下关于自然选择在进化中的作用，描述正确的是？",
     "options": [
@@ -2815,7 +2815,7 @@
     "id": "biology-290",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "青春期",
     "question": "青春期时，男性出现声音变粗、喉结突出等第二性征，主要是因为哪种激素的分泌增加？",
     "options": [
@@ -2830,7 +2830,7 @@
     "id": "biology-291",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞结构",
     "question": "以下哪种结构在动物细胞中存在，而在大多数植物细胞中通常不存在？",
     "options": [
@@ -2845,7 +2845,7 @@
     "id": "biology-292",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞分裂",
     "question": "在细胞有丝分裂过程中，染色体的着丝点连接到纺锤体上并排列在细胞中央的阶段是（ ）。",
     "options": [
@@ -2860,7 +2860,7 @@
     "id": "biology-293",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物组织",
     "question": "植物体内负责运输有机养分（如光合作用产生的糖）的组织是（ ）。",
     "options": [
@@ -2875,7 +2875,7 @@
     "id": "biology-294",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物组织",
     "question": "以下哪项不属于动物的基本组织？",
     "options": [
@@ -2890,7 +2890,7 @@
     "id": "biology-295",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光合作用",
     "question": "光合作用过程中，释放的氧气来源于下列哪种物质？",
     "options": [
@@ -2905,7 +2905,7 @@
     "id": "biology-296",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸作用",
     "question": "下列关于细胞呼吸的说法中，正确的是？",
     "options": [
@@ -2920,7 +2920,7 @@
     "id": "biology-298",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "循环系统",
     "question": "心脏的左心房与左心室之间的瓣膜称为（   ）。",
     "options": [
@@ -2935,7 +2935,7 @@
     "id": "biology-299",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸系统",
     "question": "下列关于呼吸过程中膈肌运动的描述，正确的是：",
     "options": [
@@ -2950,7 +2950,7 @@
     "id": "biology-300",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "泌尿系统",
     "question": "以下关于泌尿系统各器官功能的描述，正确的是？",
     "options": [
@@ -2965,7 +2965,7 @@
     "id": "biology-301",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "神经系统",
     "question": "关于人类神经系统的组成，下列说法正确的是？",
     "options": [
@@ -2980,7 +2980,7 @@
     "id": "biology-302",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "激素调节",
     "question": "人在进食后血糖升高时，胰岛素的主要作用是",
     "options": [
@@ -2995,7 +2995,7 @@
     "id": "biology-303",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人类传染病",
     "question": "关于人类传染病的预防措施，以下哪项是不正确的？",
     "options": [
@@ -3010,7 +3010,7 @@
     "id": "biology-304",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "免疫",
     "question": "关于免疫系统的功能，下列说法中正确的是？",
     "options": [
@@ -3025,7 +3025,7 @@
     "id": "biology-305",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物行为",
     "question": "以下哪项描述的是动物的先天性行为（本能行为）？",
     "options": [
@@ -3040,7 +3040,7 @@
     "id": "biology-306",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物分类",
     "question": "以下哪种动物属于节肢动物门中的昆虫纲？",
     "options": [
@@ -3055,7 +3055,7 @@
     "id": "biology-307",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物分类",
     "question": "在植物的分类中，根据种子是否有果皮包被，可以将植物分为哪两大类？",
     "options": [
@@ -3070,7 +3070,7 @@
     "id": "biology-308",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生态系统",
     "question": "以下关于食物链和食物网的描述，正确的是（ ）。",
     "options": [
@@ -3085,7 +3085,7 @@
     "id": "biology-309",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "食物链",
     "question": "以下关于食物链的叙述，正确的是？",
     "options": [
@@ -3100,7 +3100,7 @@
     "id": "biology-310",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "生物多样性",
     "question": "以下哪项措施不利于生物多样性保护？",
     "options": [
@@ -3115,7 +3115,7 @@
     "id": "biology-311",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "遗传基础",
     "question": "以下关于等位基因（allele）的描述，哪一项是正确的？",
     "options": [
@@ -3130,7 +3130,7 @@
     "id": "biology-312",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "变异",
     "question": "下列关于变异的说法，正确的是（ ）。",
     "options": [
@@ -3145,7 +3145,7 @@
     "id": "biology-313",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "进化",
     "question": "下列关于生物进化的说法，正确的是：",
     "options": [
@@ -3160,7 +3160,7 @@
     "id": "biology-314",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "青春期",
     "question": "以下关于青春期的描述，哪项是正确的？",
     "options": [
@@ -3175,7 +3175,7 @@
     "id": "biology-315",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞结构",
     "question": "在植物细胞与动物细胞中，哪一结构仅在植物细胞中存在，且具有支持和保护作用？",
     "options": [
@@ -3190,7 +3190,7 @@
     "id": "biology-316",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "细胞分裂",
     "question": "在有丝分裂过程中，姐妹染色单体分离并移向细胞两极的阶段是（ ）。",
     "options": [
@@ -3205,7 +3205,7 @@
     "id": "biology-317",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "植物组织",
     "question": "在植物茎的横截面上，维管束主要由哪两种组织构成？",
     "options": [
@@ -3220,7 +3220,7 @@
     "id": "biology-318",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动物组织",
     "question": "心肌细胞与骨骼肌细胞的主要区别是？",
     "options": [
@@ -3235,7 +3235,7 @@
     "id": "biology-319",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光合作用",
     "question": "光合作用的总方程式可表示为：6CO2 + 6H2O + 光能 → C6H12O6 + 6O2。根据此方程式，以下说法正确的是（ ）。",
     "options": [
@@ -3250,7 +3250,7 @@
     "id": "biology-320",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸作用",
     "question": "在有氧呼吸过程中，氧气的主要作用是什么？",
     "options": [
@@ -3265,7 +3265,7 @@
     "id": "biology-321",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "消化系统",
     "question": "以下关于消化系统的叙述，正确的是？",
     "options": [
@@ -3280,7 +3280,7 @@
     "id": "biology-322",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "循环系统",
     "question": "在血液循环中，血液在肺部进行气体交换后，富含氧气的血液通过哪条血管进入左心房？",
     "options": [
@@ -3295,7 +3295,7 @@
     "id": "biology-323",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "呼吸系统",
     "question": "在呼吸过程中，氧气从肺泡进入血液的主要方式是（ ）",
     "options": [
@@ -3310,7 +3310,7 @@
     "id": "biology-324",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "泌尿系统",
     "question": "泌尿系统的结构中，负责将尿液从肾脏输送到膀胱的管道是？",
     "options": [
@@ -3325,7 +3325,7 @@
     "id": "biology-325",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "神经系统",
     "question": "以下关于自主神经系统的描述，正确的是？",
     "options": [
@@ -3340,7 +3340,7 @@
     "id": "biology-326",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "激素调节",
     "question": "下列关于激素调节的描述，正确的是？",
     "options": [
@@ -3355,7 +3355,7 @@
     "id": "biology-327",
     "subject": "biology",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人类传染病",
     "question": "以下哪项不是传染病流行的三个基本环节之一？",
     "options": [

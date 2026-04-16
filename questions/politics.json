@@ -1110,7 +1110,7 @@
     "id": "politics-203",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "个人与集体",
     "question": "在校园志愿服务活动中，小明发现自己的兴趣与活动主题不完全吻合，但其他同学都很投入。下列做法最符合个人与集体关系的要求的是（ ）。",
     "options": [
@@ -1125,7 +1125,7 @@
     "id": "politics-204",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "隐私权",
     "question": "小张在放学后把自己的手机密码告诉了同桌小明，以便小明能够玩游戏。随后，小张发现小明未经其同意，查看并复制了他手机中的个人照片和聊天记录。小明的行为侵犯了小张的哪项权利？",
     "options": [
@@ -1140,7 +1140,7 @@
     "id": "politics-205",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "受教育权",
     "question": "下列关于受教育权的说法，正确的是：",
     "options": [
@@ -1155,7 +1155,7 @@
     "id": "politics-206",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公民基本义务",
     "question": "以下哪项不属于我国公民的基本义务？",
     "options": [
@@ -1170,7 +1170,7 @@
     "id": "politics-207",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "宪法意识",
     "question": "在校园生活中，下列哪种行为最能体现中学生的宪法意识？",
     "options": [
@@ -1185,7 +1185,7 @@
     "id": "politics-208",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公民人身自由",
     "question": "小明放学后被校保安拦住，保安未出具任何搜查令且未说明理由，要求小明打开书包进行检查。请问小明的哪项基本权利可能受到了侵犯？",
     "options": [
@@ -1200,7 +1200,7 @@
     "id": "politics-209",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "消费者权益",
     "question": "小张在超市购买了一件价值200元的运动鞋，回家后发现鞋底有明显裂纹，且鞋面有瑕疵。请问小张可以依据《消费者权益保护法》采取哪些合法维权措施？",
     "options": [
@@ -1215,7 +1215,7 @@
     "id": "politics-210",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "环保意识",
     "question": "在日常生活中，下列哪项行为最符合环保意识？",
     "options": [
@@ -1230,7 +1230,7 @@
     "id": "politics-211",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "网络文明",
     "question": "以下哪项行为符合网络文明的要求？",
     "options": [
@@ -1245,7 +1245,7 @@
     "id": "politics-212",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "诚信做人",
     "question": "以下哪种行为最能体现诚信做人的原则？",
     "options": [
@@ -1260,7 +1260,7 @@
     "id": "politics-213",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公平正义",
     "question": "以下哪种做法最符合公平正义的原则？",
     "options": [
@@ -1275,7 +1275,7 @@
     "id": "politics-214",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "竞争与合作",
     "question": "在班级开展合作学习时，以下哪项最能体现竞争与合作的积极作用？",
     "options": [
@@ -1290,7 +1290,7 @@
     "id": "politics-215",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "理想与现实",
     "question": "关于理想与现实的关系，下面哪项表述是正确的？",
     "options": [
@@ -1305,7 +1305,7 @@
     "id": "politics-216",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "挫折与成长",
     "question": "小张在一次数学竞赛中失利，成绩不理想，面对这次挫折，他应该（ ）。",
     "options": [
@@ -1320,7 +1320,7 @@
     "id": "politics-217",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情绪管理",
     "question": "当你因为一次失误而在课堂上感到沮丧时，下面哪项做法最符合情绪管理的原则？",
     "options": [
@@ -1335,7 +1335,7 @@
     "id": "politics-218",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "压力应对",
     "question": "小亮在期末复习期间感到学习压力很大，情绪紧张。下面哪项做法最有助于他调节压力，保持良好的学习状态？",
     "options": [
@@ -1350,7 +1350,7 @@
     "id": "politics-219",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "孝敬父母",
     "question": "以下关于孝敬父母的做法，哪项是正确的？",
     "options": [
@@ -1365,7 +1365,7 @@
     "id": "politics-220",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "尊重他人",
     "question": "以下哪种行为最能体现对他人尊重？",
     "options": [
@@ -1380,7 +1380,7 @@
     "id": "politics-221",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "礼貌待人",
     "question": "在学校里，遇到同学不小心碰到你的书时，怎样做最能体现礼貌待人？",
     "options": [
@@ -1395,7 +1395,7 @@
     "id": "politics-222",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "自我保护",
     "question": "在社交平台上，有陌生人加你为好友并询问你的家庭住址、电话等私人信息时，最安全的做法是（ ）。",
     "options": [
@@ -1410,7 +1410,7 @@
     "id": "politics-223",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "预防犯罪",
     "question": "为了有效预防犯罪，青少年应当做到（ ）",
     "options": [
@@ -1425,7 +1425,7 @@
     "id": "politics-224",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "依法维权",
     "question": "小张在网购时收到劣质商品，商家拒绝退换。若要依法维权，他应该怎么做？",
     "options": [
@@ -1440,7 +1440,7 @@
     "id": "politics-225",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "诉讼途径",
     "question": "当公民的合法权益受到侵害时，以下哪种行为属于诉讼途径？",
     "options": [
@@ -1455,7 +1455,7 @@
     "id": "politics-226",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人民调解",
     "question": "关于人民调解的说法，下面哪项是正确的？",
     "options": [
@@ -1470,7 +1470,7 @@
     "id": "politics-227",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "仲裁",
     "question": "以下关于仲裁的说法，正确的是（ ）。",
     "options": [
@@ -1485,7 +1485,7 @@
     "id": "politics-228",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "个人与集体",
     "question": "以下哪项最能体现个人与集体的和谐关系？",
     "options": [
@@ -1500,7 +1500,7 @@
     "id": "politics-229",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "隐私权",
     "question": "小红的父母未经她同意偷看她的手机短信，这侵犯了小红的哪项权利？",
     "options": [
@@ -1515,7 +1515,7 @@
     "id": "politics-230",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "受教育权",
     "question": "下列关于受教育权的说法，正确的是？",
     "options": [
@@ -1530,7 +1530,7 @@
     "id": "politics-231",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公民基本义务",
     "question": "以下哪项不属于我国宪法规定的公民基本义务？",
     "options": [
@@ -1545,7 +1545,7 @@
     "id": "politics-232",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "宪法意识",
     "question": "以下关于宪法意识的表述，正确的是（ ）。",
     "options": [
@@ -1560,7 +1560,7 @@
     "id": "politics-233",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公民人身自由",
     "question": "公民人身自由是指公民依法享有的不受非法逮捕、拘禁、搜查等限制的权利。下列哪项最能体现公民的人身自由？",
     "options": [
@@ -1575,7 +1575,7 @@
     "id": "politics-234",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "消费者权益",
     "question": "根据《中华人民共和国消费者权益保护法》，消费者在购买商品或接受服务时依法享有多种权利。以下哪项不属于消费者的基本权利？",
     "options": [
@@ -1590,7 +1590,7 @@
     "id": "politics-235",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "环保意识",
     "question": "以下哪项不属于绿色生活方式？",
     "options": [
@@ -1605,7 +1605,7 @@
     "id": "politics-236",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "网络文明",
     "question": "在网络交往中，下列哪项行为体现了网络文明？",
     "options": [
@@ -1620,7 +1620,7 @@
     "id": "politics-237",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "诚信做人",
     "question": "以下哪种行为最能体现诚信做人的原则？",
     "options": [
@@ -1635,7 +1635,7 @@
     "id": "politics-238",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公平正义",
     "question": "公平正义的核心是（ ）。",
     "options": [
@@ -1650,7 +1650,7 @@
     "id": "politics-239",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "竞争与合作",
     "question": "竞争与合作的关系是（ ）。",
     "options": [
@@ -1665,7 +1665,7 @@
     "id": "politics-240",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "理想与现实",
     "question": "以下哪项最能体现‘理想与现实相结合’的态度？",
     "options": [
@@ -1680,7 +1680,7 @@
     "id": "politics-241",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "挫折与成长",
     "question": "在面对挫折时，下列哪种态度最有助于个人成长？",
     "options": [
@@ -1695,7 +1695,7 @@
     "id": "politics-242",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情绪管理",
     "question": "当你在课堂上被老师点名批评，感到羞愧和愤怒时，以下哪项做法最符合情绪管理的原则？",
     "options": [
@@ -1710,7 +1710,7 @@
     "id": "politics-243",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "压力应对",
     "question": "面对即将到来的期末考试，张华感到压力很大。以下哪种应对方式最合适且有助于他长期健康发展？",
     "options": [
@@ -1725,7 +1725,7 @@
     "id": "politics-244",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "孝敬父母",
     "question": "以下哪项行为最符合孝敬父母的要求？",
     "options": [
@@ -1740,7 +1740,7 @@
     "id": "politics-245",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "尊重他人",
     "question": "在课堂上，老师提出问题让你回答时，下列哪种做法最能体现对他人（老师和同学）的尊重？",
     "options": [
@@ -1755,7 +1755,7 @@
     "id": "politics-246",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "礼貌待人",
     "question": "在校园里，遇到老师主动向你问好时，下列哪项行为最能体现礼貌待人？",
     "options": [
@@ -1770,7 +1770,7 @@
     "id": "politics-247",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "自我保护",
     "question": "在收到陌生网友的见面邀请时，以下哪种做法最符合自我保护原则？",
     "options": [
@@ -1785,7 +1785,7 @@
     "id": "politics-248",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "预防犯罪",
     "question": "以下哪项行为有助于预防犯罪？",
     "options": [
@@ -1800,7 +1800,7 @@
     "id": "politics-249",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "依法维权",
     "question": "下列哪项不属于依法维权的正确方式？",
     "options": [
@@ -1815,7 +1815,7 @@
     "id": "politics-250",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "诉讼途径",
     "question": "关于诉讼途径，下列说法正确的是（ ）。",
     "options": [
@@ -1830,7 +1830,7 @@
     "id": "politics-251",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人民调解",
     "question": "下列关于人民调解的说法，正确的是（ ）。",
     "options": [
@@ -1845,7 +1845,7 @@
     "id": "politics-252",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "仲裁",
     "question": "下列关于仲裁的说法，正确的是（ ）",
     "options": [
@@ -1860,7 +1860,7 @@
     "id": "politics-253",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "个人与集体",
     "question": "在处理个人与集体关系时，哪种做法最符合个人与集体的正确关系？",
     "options": [
@@ -1875,7 +1875,7 @@
     "id": "politics-254",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "隐私权",
     "question": "以下行为中，属于侵犯公民隐私权的是（ ）。",
     "options": [
@@ -1890,7 +1890,7 @@
     "id": "politics-255",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "受教育权",
     "question": "以下关于受教育权的说法，正确的是（ ）。",
     "options": [
@@ -1905,7 +1905,7 @@
     "id": "politics-256",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公民基本义务",
     "question": "以下哪项不属于我国公民的基本义务？",
     "options": [
@@ -1920,7 +1920,7 @@
     "id": "politics-257",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "宪法意识",
     "question": "以下关于宪法意识的表述，正确的是：",
     "options": [
@@ -1935,7 +1935,7 @@
     "id": "politics-258",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公民人身自由",
     "question": "根据《宪法》和相关法律规定，下列关于公民人身自由的表述，正确的是（ ）。",
     "options": [
@@ -1950,7 +1950,7 @@
     "id": "politics-259",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "消费者权益",
     "question": "小王在网上购买了一部手机，收到后发现手机无法正常开机。根据《消费者权益保护法》，小王依法可以行使以下哪项权利？",
     "options": [
@@ -1965,7 +1965,7 @@
     "id": "politics-260",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "环保意识",
     "question": "以下关于环保意识的说法，哪项是正确的？",
     "options": [
@@ -1980,7 +1980,7 @@
     "id": "politics-261",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "网络文明",
     "question": "以下哪项行为是中学生在网络交往中应遵循的文明礼仪？",
     "options": [
@@ -1995,7 +1995,7 @@
     "id": "politics-262",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "诚信做人",
     "question": "以下哪项行为最能体现诚信做人的原则？",
     "options": [
@@ -2010,7 +2010,7 @@
     "id": "politics-263",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "公平正义",
     "question": "在班级的学习小组分配任务时，老师希望做到公平正义，下列哪种做法最符合公平正义的原则？",
     "options": [
@@ -2025,7 +2025,7 @@
     "id": "politics-264",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "竞争与合作",
     "question": "以下关于竞争与合作的说法，正确的是？",
     "options": [
@@ -2040,7 +2040,7 @@
     "id": "politics-265",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "理想与现实",
     "question": "在实现个人理想的过程中，我们应当怎样处理理想与现实的关系？",
     "options": [
@@ -2055,7 +2055,7 @@
     "id": "politics-266",
     "subject": "politics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "挫折与成长",
     "question": "面对学习中的挫折，下列哪项态度最有助于个人成长？",
     "options": [

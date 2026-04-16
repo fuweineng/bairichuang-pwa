@@ -1811,7 +1811,7 @@
     "id": "geography-203",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地球形状",
     "question": "关于地球的形状，下列说法中正确的是？",
     "options": [
@@ -1826,7 +1826,7 @@
     "id": "geography-204",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "经纬线",
     "question": "纬线在地球表面的指示方向是（ ）。",
     "options": [
@@ -1841,7 +1841,7 @@
     "id": "geography-205",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "时区计算",
     "question": "当北京（东八区）时间是2023年5月1日8:00时，纽约（西五区）的时间是？",
     "options": [
@@ -1856,7 +1856,7 @@
     "id": "geography-206",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地图比例尺",
     "question": "在比例尺为1:50000的地图上，1厘米代表的实际距离是多少？",
     "options": [
@@ -1871,7 +1871,7 @@
     "id": "geography-207",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地形图判读",
     "question": "在一幅等高距为50米的地形图上，两相邻等高线的水平距离为200米，则该段坡面的坡度约为（?）",
     "options": [
@@ -1886,7 +1886,7 @@
     "id": "geography-208",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "世界海陆分布",
     "question": "以下关于地球海陆分布的说法，正确的是（ ）。",
     "options": [
@@ -1901,7 +1901,7 @@
     "id": "geography-209",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "七大洲四大洋",
     "question": "关于七大洲的说法，下面哪一项是正确的？",
     "options": [
@@ -1916,7 +1916,7 @@
     "id": "geography-210",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "板块构造",
     "question": "板块构造理论认为，地球岩石圈被划分为若干板块，以下关于板块边界的描述，哪项是正确的？",
     "options": [
@@ -1931,7 +1931,7 @@
     "id": "geography-211",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地震带",
     "question": "以下关于世界主要地震带的说法，正确的是？",
     "options": [
@@ -1946,7 +1946,7 @@
     "id": "geography-212",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "气候类型",
     "question": "在下列气候类型中，年降水量最大且分配均匀的是（ ）。",
     "options": [
@@ -1961,7 +1961,7 @@
     "id": "geography-213",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "季风气候",
     "question": "下列关于季风气候的描述，正确的是（ ）。",
     "options": [
@@ -1976,7 +1976,7 @@
     "id": "geography-214",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "降水类型",
     "question": "在夏季午后，由于地面强烈受热导致空气快速上升而形成的降水，属于哪种降水类型？",
     "options": [
@@ -1991,7 +1991,7 @@
     "id": "geography-215",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "世界人口",
     "question": "以下关于世界人口分布的说法，正确的是（ ）。",
     "options": [
@@ -2006,7 +2006,7 @@
     "id": "geography-216",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人种分布",
     "question": "以下关于世界主要人种分布的描述，哪一项是正确的？",
     "options": [
@@ -2021,7 +2021,7 @@
     "id": "geography-217",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "聚落分布",
     "question": "下列关于聚落分布的说法，错误的是（　　）",
     "options": [
@@ -2036,7 +2036,7 @@
     "id": "geography-218",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "交通发展",
     "question": "中国已建成世界上最长的高速铁路网络，以下关于中国高速铁路发展的说法，正确的是（ ）。",
     "options": [
@@ -2051,7 +2051,7 @@
     "id": "geography-219",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "资源分布",
     "question": "以下关于中国主要能源资源分布的说法，正确的是（ ）。",
     "options": [
@@ -2066,7 +2066,7 @@
     "id": "geography-220",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "环境问题",
     "question": "下列哪项不属于人类活动导致的环境问题？",
     "options": [
@@ -2081,7 +2081,7 @@
     "id": "geography-221",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国地形",
     "question": "以下哪一项是中国面积最大的平原？",
     "options": [
@@ -2096,7 +2096,7 @@
     "id": "geography-222",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国气候",
     "question": "以下关于中国气候特征的描述，正确的是？",
     "options": [
@@ -2111,7 +2111,7 @@
     "id": "geography-223",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国河流",
     "question": "下列关于黄河的叙述，正确的是（ ）",
     "options": [
@@ -2126,7 +2126,7 @@
     "id": "geography-224",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国行政区划",
     "question": "截至2023年，中国大陆地区共有多少个省级行政区？",
     "options": [
@@ -2141,7 +2141,7 @@
     "id": "geography-225",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国人口",
     "question": "以下关于中国人口的叙述，正确的是？",
     "options": [
@@ -2156,7 +2156,7 @@
     "id": "geography-226",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国交通",
     "question": "中国第一条投入商业运营的高速铁路是哪一条？",
     "options": [
@@ -2171,7 +2171,7 @@
     "id": "geography-227",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一带一路",
     "question": "以下关于“一带一路”倡议的描述，正确的是（ ）。",
     "options": [
@@ -2186,7 +2186,7 @@
     "id": "geography-228",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "可持续发展",
     "question": "以下哪项措施最能体现可持续发展的理念？",
     "options": [
@@ -2201,7 +2201,7 @@
     "id": "geography-229",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地球形状",
     "question": "以下关于地球形状的描述，哪项最准确？",
     "options": [
@@ -2216,7 +2216,7 @@
     "id": "geography-230",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "经纬线",
     "question": "下列关于经线和纬线的说法，正确的是？",
     "options": [
@@ -2231,7 +2231,7 @@
     "id": "geography-231",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "时区计算",
     "question": "当北京（东八区）为2023年5月20日8:00时，位于西五区的纽约当地时间是多少？",
     "options": [
@@ -2246,7 +2246,7 @@
     "id": "geography-232",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地图比例尺",
     "question": "比例尺为1:50000的地图上，实地距离为2.5千米的道路在地图上应该表示为多少厘米？",
     "options": [
@@ -2261,7 +2261,7 @@
     "id": "geography-233",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地形图判读",
     "question": "在地形图上，若等高线呈同心圆状且越向中心等高线的高程值越大，则该处表示的是（ ）。",
     "options": [
@@ -2276,7 +2276,7 @@
     "id": "geography-234",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "世界海陆分布",
     "question": "以下关于地球海陆分布的说法，正确的是：",
     "options": [
@@ -2291,7 +2291,7 @@
     "id": "geography-235",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "七大洲四大洋",
     "question": "七大洲中面积最大的是哪一个？",
     "options": [
@@ -2306,7 +2306,7 @@
     "id": "geography-236",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "板块构造",
     "question": "下列哪种板块边界最可能形成海沟？",
     "options": [
@@ -2321,7 +2321,7 @@
     "id": "geography-237",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地震带",
     "question": "关于世界主要地震带的分布，下列表述正确的是？",
     "options": [
@@ -2336,7 +2336,7 @@
     "id": "geography-238",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "气候类型",
     "question": "某地区全年高温，年降水量在2000毫米以上且分布均匀，该地区最可能属于哪种气候类型？",
     "options": [
@@ -2351,7 +2351,7 @@
     "id": "geography-239",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "季风气候",
     "question": "下列关于季风气候特征的描述，正确的是？",
     "options": [
@@ -2366,7 +2366,7 @@
     "id": "geography-240",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "降水类型",
     "question": "以下哪种降水是由于空气在山岳地区被迫抬升而形成的？",
     "options": [
@@ -2381,7 +2381,7 @@
     "id": "geography-241",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "世界人口",
     "question": "截至2023年，世界人口约为多少？",
     "options": [
@@ -2396,7 +2396,7 @@
     "id": "geography-242",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人种分布",
     "question": "以下关于世界主要人种分布的说法，哪一项是正确的？",
     "options": [
@@ -2411,7 +2411,7 @@
     "id": "geography-243",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "聚落分布",
     "question": "以下关于聚落分布的说法，正确的是（ ）。",
     "options": [
@@ -2426,7 +2426,7 @@
     "id": "geography-244",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "交通发展",
     "question": "改革开放以来，我国交通发展的主要特征是（ ）。",
     "options": [
@@ -2441,7 +2441,7 @@
     "id": "geography-245",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "资源分布",
     "question": "下列关于我国水资源分布的说法，正确的是？",
     "options": [
@@ -2456,7 +2456,7 @@
     "id": "geography-246",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "环境问题",
     "question": "以下哪种环境问题的产生，主要与工业排放的硫氧化物和氮氧化物有关？",
     "options": [
@@ -2471,7 +2471,7 @@
     "id": "geography-247",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国地形",
     "question": "以下关于中国地形的说法，正确的是？",
     "options": [
@@ -2486,7 +2486,7 @@
     "id": "geography-248",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国气候",
     "question": "关于中国气候的叙述，下面哪项是正确的？",
     "options": [
@@ -2501,7 +2501,7 @@
     "id": "geography-249",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国河流",
     "question": "以下关于长江的描述，正确的是？",
     "options": [
@@ -2516,7 +2516,7 @@
     "id": "geography-250",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国行政区划",
     "question": "截至2023年，中国共有多少个省级行政区（包括省、自治区、直辖市和特别行政区）？",
     "options": [
@@ -2531,7 +2531,7 @@
     "id": "geography-251",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国人口",
     "question": "2020 年全国人口普查数据显示，中国常住人口最多的省级行政区是（ ）。",
     "options": [
@@ -2546,7 +2546,7 @@
     "id": "geography-252",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国交通",
     "question": "截至2023年，中国已建成并投入运营的高速铁路里程约为多少万公里？",
     "options": [
@@ -2561,7 +2561,7 @@
     "id": "geography-253",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "一带一路",
     "question": "以下关于“一带一路”倡议的描述，哪一项是正确的？",
     "options": [
@@ -2576,7 +2576,7 @@
     "id": "geography-254",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "可持续发展",
     "question": "在推动可持续发展过程中，下列做法最符合其核心原则的是？",
     "options": [
@@ -2591,7 +2591,7 @@
     "id": "geography-255",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地球形状",
     "question": "地球的形状最接近以下哪种几何体？",
     "options": [
@@ -2606,7 +2606,7 @@
     "id": "geography-256",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "经纬线",
     "question": "关于经线和纬线的说法，下面正确的是（ ）。",
     "options": [
@@ -2621,7 +2621,7 @@
     "id": "geography-257",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "时区计算",
     "question": "北京时间2023年7月1日 9:00时，纽约（美国东部标准时间）此时是几点？",
     "options": [
@@ -2636,7 +2636,7 @@
     "id": "geography-258",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地图比例尺",
     "question": "某地图的比例尺为1:50 000，表示图上1厘米代表的实际距离是多少？",
     "options": [
@@ -2651,7 +2651,7 @@
     "id": "geography-259",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地形图判读",
     "question": "下图所示的等高线在某处呈环形闭合，且内部等高线的高度大于外部，这说明该处是：",
     "options": [
@@ -2666,7 +2666,7 @@
     "id": "geography-260",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "世界海陆分布",
     "question": "下列关于全球海陆分布的叙述，正确的是？",
     "options": [
@@ -2681,7 +2681,7 @@
     "id": "geography-261",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "七大洲四大洋",
     "question": "以下关于七大洲四大洋的描述，哪项是正确的？",
     "options": [
@@ -2696,7 +2696,7 @@
     "id": "geography-262",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "板块构造",
     "question": "板块构造理论认为，地球的岩石圈被分成若干大的板块，这些板块之间相对运动形成的边界类型不包括以下哪一项？",
     "options": [
@@ -2711,7 +2711,7 @@
     "id": "geography-263",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "地震带",
     "question": "以下关于世界主要地震带的描述，正确的是？",
     "options": [
@@ -2726,7 +2726,7 @@
     "id": "geography-264",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "气候类型",
     "question": "以下哪种气候类型的特点是全年气温高，降水丰富且全年分配较均匀？",
     "options": [
@@ -2741,7 +2741,7 @@
     "id": "geography-265",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "季风气候",
     "question": "下列关于季风气候的描述，正确的是（ ）。",
     "options": [
@@ -2756,7 +2756,7 @@
     "id": "geography-266",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "降水类型",
     "question": "在山脉的迎风坡，暖湿气流被迫抬升而形成的降水属于哪种类型？",
     "options": [
@@ -2771,7 +2771,7 @@
     "id": "geography-267",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "世界人口",
     "question": "截至2023年，世界上人口最多的国家是（）。",
     "options": [
@@ -2786,7 +2786,7 @@
     "id": "geography-268",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "人种分布",
     "question": "关于世界主要人种的分布，下面哪项描述是正确的？",
     "options": [
@@ -2801,7 +2801,7 @@
     "id": "geography-269",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "聚落分布",
     "question": "以下关于不同地形条件下聚落分布特点的描述，正确的是？",
     "options": [
@@ -2816,7 +2816,7 @@
     "id": "geography-270",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "交通发展",
     "question": "高速铁路相较于普通铁路，最突出的优势是（ ）。",
     "options": [
@@ -2831,7 +2831,7 @@
     "id": "geography-271",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "资源分布",
     "question": "关于我国资源分布的叙述，下面哪项是正确的？",
     "options": [
@@ -2846,7 +2846,7 @@
     "id": "geography-272",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "环境问题",
     "question": "以下哪种行为最能有效降低城市空气中的细颗粒物（PM2.5）浓度？",
     "options": [
@@ -2861,7 +2861,7 @@
     "id": "geography-273",
     "subject": "geography",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "中国地形",
     "question": "以下关于中国地形的描述，正确的是",
     "options": [

@@ -7039,7 +7039,7 @@
     "id": "english-369",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "There are only ___ students in the classroom today.",
     "options": [
@@ -7054,7 +7054,7 @@
     "id": "english-370",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "Which of the following sentences uses the past simple tense correctly?",
     "options": [
@@ -7069,7 +7069,7 @@
     "id": "english-371",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "The cake ___ by my mother yesterday.",
     "options": [
@@ -7084,7 +7084,7 @@
     "id": "english-372",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "You _____ smoke in the library; it is strictly forbidden.",
     "options": [
@@ -7099,7 +7099,7 @@
     "id": "english-373",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "He enjoys _____ music after school.",
     "options": [
@@ -7114,7 +7114,7 @@
     "id": "english-374",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "I know _______.",
     "options": [
@@ -7129,7 +7129,7 @@
     "id": "english-375",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "The boy ______ father is a doctor wants to be a doctor too.",
     "options": [
@@ -7144,7 +7144,7 @@
     "id": "english-376",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "_____ it was raining heavily, we decided to go hiking.",
     "options": [
@@ -7159,7 +7159,7 @@
     "id": "english-377",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ___ you, I would accept the invitation. Which verb form correctly completes the sentence?",
     "options": [
@@ -7174,7 +7174,7 @@
     "id": "english-378",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "He is terrified ____ spiders.",
     "options": [
@@ -7189,7 +7189,7 @@
     "id": "english-379",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Which of the following is the correct adverb form of the adjective 'quick'?",
     "options": [
@@ -7204,7 +7204,7 @@
     "id": "english-380",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nLast weekend, Tom and his family went to the beach. The sky was blue, and the sun shone brightly. They built sandcastles, swam in the cool water, and had a picnic lunch. In the afternoon, they found a sea turtle nest and watched the baby turtles hatch. Everyone felt happy and learned something new about nature. Tom promised to help protect the beach in the future.\n\nWhat is the main idea of the passage?",
     "options": [
@@ -7219,7 +7219,7 @@
     "id": "english-381",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "After school, Lily usually walks home. Today, she felt tired and decided to take the bus. She got on the bus and _________ a seat next to the window.",
     "options": [
@@ -7234,7 +7234,7 @@
     "id": "english-382",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "Read the passage and choose the best word to fill in the blank.\n\nYesterday, Sarah ______ to the library after school. She wanted to borrow a book about animals. After reading it, she told her friends about the amazing facts she learned.",
     "options": [
@@ -7249,7 +7249,7 @@
     "id": "english-383",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "You are going to write a formal letter to your school principal to suggest improvements to the library. Which sentence is the most appropriate way to begin your letter?",
     "options": [
@@ -7264,7 +7264,7 @@
     "id": "english-384",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "Which word best fills the blank: 'I have ___ friends in this school.'",
     "options": [
@@ -7279,7 +7279,7 @@
     "id": "english-385",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "They ________ (visit) their grandparents next weekend.",
     "options": [
@@ -7294,7 +7294,7 @@
     "id": "english-386",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "Which of the following sentences is written in the passive voice?",
     "options": [
@@ -7309,7 +7309,7 @@
     "id": "english-387",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "He looks exhausted. He ___ be very tired after the long meeting.",
     "options": [
@@ -7324,7 +7324,7 @@
     "id": "english-388",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "_____ the homework, Tom decided to watch TV.",
     "options": [
@@ -7339,7 +7339,7 @@
     "id": "english-389",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "_____ surprised everyone in the class.",
     "options": [
@@ -7354,7 +7354,7 @@
     "id": "english-390",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "Complete the sentence with the correct relative pronoun: The girl _______ mother is a doctor won the scholarship.",
     "options": [
@@ -7369,7 +7369,7 @@
     "id": "english-391",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "_____ it was raining, we decided to stay inside.",
     "options": [
@@ -7384,7 +7384,7 @@
     "id": "english-392",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ___ a million dollars, I would travel around the world.",
     "options": [
@@ -7399,7 +7399,7 @@
     "id": "english-393",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "Which preposition correctly completes the sentence? 'He is interested ___ learning new languages.'",
     "options": [
@@ -7414,7 +7414,7 @@
     "id": "english-394",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "The ______ (decide) of the committee was final.",
     "options": [
@@ -7429,7 +7429,7 @@
     "id": "english-395",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Read the following short passage and answer the question.\n\nJack is a student in Grade 7. He likes playing soccer after school. Yesterday, he played soccer with his friends for an hour. He was very tired but happy. Today, he has a math test, so he needs to study. He is reviewing his notes and solving practice problems. He hopes to get a good grade.\n\nWhat is Jack's plan for today?",
     "options": [
@@ -7444,7 +7444,7 @@
     "id": "english-396",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "After school, Tom went to the library. He wanted to find a book for his science project. While searching, he found a thick book about space. The book _______ his favorite.",
     "options": [
@@ -7459,7 +7459,7 @@
     "id": "english-397",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "Read the passage below and choose the correct word to fill in the blank.\n\nOne day, a young boy named Jack went to the park with his dog. While he was playing fetch, the ball got stuck in a tall tree. Jack tried to reach the ball by climbing the tree, but it was too high. He decided to ask his friend for help. His friend brought a long stick and carefully knocked the ball down.\n\nThe ball fell onto the grass and rolled away. Jack thanked his friend and they both went home, feeling ____.",
     "options": [
@@ -7474,7 +7474,7 @@
     "id": "english-398",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "When you write a composition, what is the best way to begin the first paragraph?",
     "options": [
@@ -7489,7 +7489,7 @@
     "id": "english-399",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "Which of the following sentences uses the word 'advice' correctly?",
     "options": [
@@ -7504,7 +7504,7 @@
     "id": "english-400",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "Listen! The baby ___ (cry).",
     "options": [
@@ -7519,7 +7519,7 @@
     "id": "english-401",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "Which of the following sentences is written in the passive voice?",
     "options": [
@@ -7534,7 +7534,7 @@
     "id": "english-402",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "You ___ worry about the exam; you have studied a lot.",
     "options": [
@@ -7549,7 +7549,7 @@
     "id": "english-403",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "Tom suggested ___ the project until next week because he needed more time to review the details.",
     "options": [
@@ -7564,7 +7564,7 @@
     "id": "english-404",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "He didn't realize _______.",
     "options": [
@@ -7579,7 +7579,7 @@
     "id": "english-405",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "The boy ______ father works in Beijing is my friend.",
     "options": [
@@ -7594,7 +7594,7 @@
     "id": "english-406",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "_____ she was tired, she finished the homework.",
     "options": [
@@ -7609,7 +7609,7 @@
     "id": "english-407",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ___ you, I would accept the offer.",
     "options": [
@@ -7624,7 +7624,7 @@
     "id": "english-408",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "She is interested ___ learning new languages.",
     "options": [
@@ -7639,7 +7639,7 @@
     "id": "english-409",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Please select the correct noun form of the verb 'analyze' to fill in the blank: 'The _______ of the data took several hours.'",
     "options": [
@@ -7654,7 +7654,7 @@
     "id": "english-410",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question below.\n\nOn a sunny Saturday, Lucy and her brother Max decided to explore the old abandoned lighthouse at the edge of their town. They had heard many stories about the lighthouse, and they were curious to see it for themselves. When they arrived, the building was covered in ivy, and the door was half‑open. Inside, they found a dusty room full of old maps and a broken telescope. They imagined the lighthouse keeper who once worked there, watching ships at night. After an hour of exploring, they left, feeling excited about their adventure.\n\nWhat can we infer about the lighthouse based on the passage?",
     "options": [
@@ -7669,7 +7669,7 @@
     "id": "english-411",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "Mike usually rides his bike to school. Yesterday, he ______ the bus because it was raining.",
     "options": [
@@ -7684,7 +7684,7 @@
     "id": "english-412",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "Last weekend, Tom and his friends went hiking in the mountains. The weather was sunny and warm. They walked for two hours and reached a beautiful lake. At the lake, Tom _______ his camera to take photos of the scenery. He wanted to capture the clear water and the blue sky.",
     "options": [
@@ -7699,7 +7699,7 @@
     "id": "english-413",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "Which of the following is the most appropriate topic sentence for a paragraph about the benefits of reading books?",
     "options": [
@@ -7714,7 +7714,7 @@
     "id": "english-414",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "Which word indicates a small amount of an uncountable noun in a negative sense?",
     "options": [
@@ -7729,7 +7729,7 @@
     "id": "english-415",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "When I arrived at the station, the train ___.",
     "options": [
@@ -7744,7 +7744,7 @@
     "id": "english-416",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "Which of the following sentences is written in the passive voice?",
     "options": [
@@ -7759,7 +7759,7 @@
     "id": "english-417",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "She is only 12 years old; she ___ drive a car.",
     "options": [
@@ -7774,7 +7774,7 @@
     "id": "english-418",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "The teacher asked the students _____ the homework before class.",
     "options": [
@@ -7789,7 +7789,7 @@
     "id": "english-419",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "I wonder _____.",
     "options": [
@@ -7804,7 +7804,7 @@
     "id": "english-420",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "I know the man _______ sister is a famous singer.",
     "options": [
@@ -7819,7 +7819,7 @@
     "id": "english-421",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "Choose the correct conjunction to complete the adverbial clause of time in the following sentence: 'She will call you ___ she arrives.'",
     "options": [
@@ -7834,7 +7834,7 @@
     "id": "english-422",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ____ a bird, I would fly over the ocean.",
     "options": [
@@ -7849,7 +7849,7 @@
     "id": "english-423",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "She is interested ____ learning English.",
     "options": [
@@ -7864,7 +7864,7 @@
     "id": "english-424",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Which of the following is the adjective form of the noun 'success'?",
     "options": [
@@ -7879,7 +7879,7 @@
     "id": "english-425",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nEmma is a fifth‑grade student. She studies math every day after school. She wants to become a scientist one day. She reads many books about space and planets. Emma's teacher says she has a bright future. Emma's favorite subject is science.\n\nWhat does Emma want to be when she grows up?",
     "options": [
@@ -7894,7 +7894,7 @@
     "id": "english-426",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "Read the following passage and choose the best word to fill in the blank.\n\nEvery morning, Sarah drinks a cup of coffee to help her stay _______ during the early class.",
     "options": [
@@ -7909,7 +7909,7 @@
     "id": "english-427",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "On a rainy afternoon, Tom stayed at home. He decided to read a book about space. After reading the first chapter, he felt _____ about the story.",
     "options": [
@@ -7924,7 +7924,7 @@
     "id": "english-428",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "Which of the following is the most important element of a well-written paragraph?",
     "options": [
@@ -7939,7 +7939,7 @@
     "id": "english-429",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "Which word correctly completes the sentence: 'The new law will _______ the economy.'",
     "options": [
@@ -7954,7 +7954,7 @@
     "id": "english-430",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "By the time I reached the station, the train _____.",
     "options": [
@@ -7969,7 +7969,7 @@
     "id": "english-431",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "The new computer ___ by the technician last week.",
     "options": [
@@ -7984,7 +7984,7 @@
     "id": "english-432",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "He ___ ride a bike when he was five years old.",
     "options": [
@@ -7999,7 +7999,7 @@
     "id": "english-433",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "The teacher told us ____ our homework before class.",
     "options": [
@@ -8014,7 +8014,7 @@
     "id": "english-434",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "I wonder ______ he will come to the party tomorrow.",
     "options": [
@@ -8029,7 +8029,7 @@
     "id": "english-435",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "The boy ___ mother is a doctor works at the hospital.",
     "options": [
@@ -8044,7 +8044,7 @@
     "id": "english-436",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "______ he was very tired, he continued to study.",
     "options": [
@@ -8059,7 +8059,7 @@
     "id": "english-437",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ___ you, I would accept the job offer.",
     "options": [
@@ -8074,7 +8074,7 @@
     "id": "english-438",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "He is interested ___ learning about history.",
     "options": [
@@ -8089,7 +8089,7 @@
     "id": "english-439",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Complete the sentence with the correct form of the word in brackets.\nShe is very _____ (friend) to everyone.",
     "options": [
@@ -8104,7 +8104,7 @@
     "id": "english-440",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "阅读下面的短文，然后回答问题。\n\nMany cities around the world have 'no‑car zones' in their downtown areas. These zones are created to reduce traffic congestion, lower air pollution, and encourage people to walk or cycle. In some cities, only electric vehicles are allowed, while in others, bicycles and public transport are the only options. The idea is gaining popularity, but it also brings challenges. Shop owners worry about fewer customers, and some residents feel that their freedom to drive is limited. Yet, studies show that air quality improves quickly after the zones are introduced.\n\nWhat is one of the main purposes of creating 'no‑car zones'?",
     "options": [
@@ -8119,7 +8119,7 @@
     "id": "english-441",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "Last weekend, my family went to the beach. We ______ a lot of sandcastles and collected shells.",
     "options": [
@@ -8134,7 +8134,7 @@
     "id": "english-442",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "Last weekend, the Smith family decided to go on a picnic in the countryside. They packed sandwiches, fruit, and a big bottle of lemonade. After they arrived, the children ran around the green field, while their parents set up a blanket under a large oak tree. While they were eating, a gentle breeze began to blow, and the leaves of the tree made a soft rustling sound. Suddenly, a small squirrel appeared from behind the trunk and stared at them. The children were excited and wanted to feed it. Their mother said, If you want to make friends with it, you should be ______.",
     "options": [
@@ -8149,7 +8149,7 @@
     "id": "english-443",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "When writing an introduction for an argumentative essay, which of the following should be included?",
     "options": [
@@ -8164,7 +8164,7 @@
     "id": "english-444",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "Which word best completes the sentence: 'Please ___ your homework tomorrow.'",
     "options": [
@@ -8179,7 +8179,7 @@
     "id": "english-445",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "I ___ that film last week.",
     "options": [
@@ -8194,7 +8194,7 @@
     "id": "english-446",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "The song _____ by the famous singer last night.",
     "options": [
@@ -8209,7 +8209,7 @@
     "id": "english-447",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "The teacher says we ___ submit the project by Friday.",
     "options": [
@@ -8224,7 +8224,7 @@
     "id": "english-448",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "He enjoys _____ in the pool. Which of the following correctly fills the blank with a non‑finite verb?",
     "options": [
@@ -8239,7 +8239,7 @@
     "id": "english-449",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "_____ we should bring an umbrella depends on the weather.",
     "options": [
@@ -8254,7 +8254,7 @@
     "id": "english-450",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "The girl ___ father works in Shanghai is my classmate.",
     "options": [
@@ -8269,7 +8269,7 @@
     "id": "english-451",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "Which word can be used to start an adverbial clause in the sentence: '_____ it was raining, we decided to stay inside.'?",
     "options": [
@@ -8284,7 +8284,7 @@
     "id": "english-452",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ___ rich, I would travel around the world.",
     "options": [
@@ -8299,7 +8299,7 @@
     "id": "english-453",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "Which preposition best completes the sentence: \"She is good ___ math.\"?",
     "options": [
@@ -8314,7 +8314,7 @@
     "id": "english-454",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Which of the following is the adverb form of the adjective 'quick'?",
     "options": [
@@ -8329,7 +8329,7 @@
     "id": "english-455",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Read the short passage and answer the question.\n\nLast weekend, Tom and his classmates visited the City Science Museum. They were excited to see the new space exhibit. In the exhibit, they learned about the planets, built a small rocket, and even took a virtual tour of the moon. Tom was especially interested in the model of a rover that can move on Mars. He asked the guide many questions about how rovers work. At the end of the visit, the guide gave each student a souvenir sticker of a planet.\n\nWhat did Tom ask the guide about?",
     "options": [
@@ -8344,7 +8344,7 @@
     "id": "english-456",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "John was late for school because he _____ his alarm clock.",
     "options": [
@@ -8359,7 +8359,7 @@
     "id": "english-457",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "Read the following passage and choose the best word to fill in the blank.\n\nTom and his friends went to the park last Saturday. The weather was sunny and warm. They played soccer and had a picnic. After lunch, Tom felt tired and decided to take a short nap under a big tree. He ___ for about twenty minutes and then woke up refreshed.",
     "options": [
@@ -8374,7 +8374,7 @@
     "id": "english-458",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "Which of the following sentences is the most appropriate topic sentence for a paragraph about 'My favorite season'?",
     "options": [
@@ -8389,7 +8389,7 @@
     "id": "english-459",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "The heavy rain caused the river to _____.",
     "options": [
@@ -8404,7 +8404,7 @@
     "id": "english-460",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "Which of the following sentences correctly uses the past continuous tense?",
     "options": [
@@ -8419,7 +8419,7 @@
     "id": "english-461",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "The letter ________ by Tom yesterday.",
     "options": [
@@ -8434,7 +8434,7 @@
     "id": "english-462",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "_____ I borrow your pen?",
     "options": [
@@ -8449,7 +8449,7 @@
     "id": "english-463",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "I look forward to _______ you at the conference.",
     "options": [
@@ -8464,7 +8464,7 @@
     "id": "english-464",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "____ made everyone laugh.",
     "options": [
@@ -8479,7 +8479,7 @@
     "id": "english-465",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "I know the girl ____ mother works at a hospital.",
     "options": [
@@ -8494,7 +8494,7 @@
     "id": "english-466",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "_____ she was very tired, she still finished her homework on time.",
     "options": [
@@ -8509,7 +8509,7 @@
     "id": "english-467",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ____ you, I would take the job.",
     "options": [
@@ -8524,7 +8524,7 @@
     "id": "english-468",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "Which preposition correctly completes the sentence: She is very good ___ learning new languages?",
     "options": [
@@ -8539,7 +8539,7 @@
     "id": "english-469",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Which of the following correctly fills the blank? \"She sings _____\"",
     "options": [
@@ -8554,7 +8554,7 @@
     "id": "english-470",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nTom was walking in the park when he saw a small dog barking loudly. The dog had a broken leg and looked scared. Tom took the dog to a nearby vet, who fixed its leg. The next day, the owner came and thanked Tom.\n\nWhat is the main message of the passage?",
     "options": [
@@ -8569,7 +8569,7 @@
     "id": "english-471",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "Because of the heavy rain, the children had to _____ their outdoor activities and stay inside all day.",
     "options": [
@@ -8584,7 +8584,7 @@
     "id": "english-472",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "Read the passage and choose the best word to fill in the blank.\\n\\nIt was a sunny Saturday morning. Tom and his friends decided to go to the park for a picnic. After they arrived, Tom spread a blanket on the grass and _____ the food from his backpack.",
     "options": [
@@ -8599,7 +8599,7 @@
     "id": "english-473",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "Which of the following is the most appropriate opening line for a formal letter?",
     "options": [
@@ -8614,7 +8614,7 @@
     "id": "english-474",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "The teacher asked the students to _____ the new words in the dictionary.",
     "options": [
@@ -8629,7 +8629,7 @@
     "id": "english-475",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "Which of the following sentences uses the present perfect tense?",
     "options": [
@@ -8644,7 +8644,7 @@
     "id": "english-476",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "Which sentence is written in the passive voice?",
     "options": [
@@ -8659,7 +8659,7 @@
     "id": "english-477",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "Which of the following sentences correctly uses a modal verb to express past ability?",
     "options": [
@@ -8674,7 +8674,7 @@
     "id": "english-478",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "_____ the letter, she went to the post office.",
     "options": [
@@ -8689,7 +8689,7 @@
     "id": "english-479",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "Which of the following sentences contains a noun clause that functions as the subject?",
     "options": [
@@ -8704,7 +8704,7 @@
     "id": "english-480",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "Choose the correct relative pronoun to fill in the blank: I met a girl _____ mother works at a hospital.",
     "options": [
@@ -8719,7 +8719,7 @@
     "id": "english-481",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "_____ she was tired, she didn't want to rest.",
     "options": [
@@ -8734,7 +8734,7 @@
     "id": "english-482",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ___ you, I would take the job.",
     "options": [
@@ -8749,7 +8749,7 @@
     "id": "english-483",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "She is good _____ math.",
     "options": [
@@ -8764,7 +8764,7 @@
     "id": "english-484",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Please choose the correct form of the word 'decide' to fill in the blank: He made a ________ (decide) to study abroad.",
     "options": [
@@ -8779,7 +8779,7 @@
     "id": "english-485",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Tom usually rides his bike to school. Yesterday, it was raining, so he took the bus instead.\nWhat did Tom do yesterday because of the rain?",
     "options": [
@@ -8794,7 +8794,7 @@
     "id": "english-486",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "完形填空",
     "question": "Emily loves reading. She had to ____ the book before the test.",
     "options": [
@@ -8809,7 +8809,7 @@
     "id": "english-487",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读填空",
     "question": "Tom always arrives at school early. He likes to prepare his lessons before class starts. This morning, he ______ his notes carefully.\nWhich word best completes the sentence?",
     "options": [
@@ -8824,7 +8824,7 @@
     "id": "english-488",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "书面表达",
     "question": "Which of the following sentences is the most suitable as a topic sentence for a paragraph about 'The importance of English in the modern world'?",
     "options": [
@@ -8839,7 +8839,7 @@
     "id": "english-489",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词汇辨析",
     "question": "Which of the following sentences correctly uses the word 'affect' as a verb?",
     "options": [
@@ -8854,7 +8854,7 @@
     "id": "english-490",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "动词时态",
     "question": "I have ___ to Beijing, so I am excited to visit next year.",
     "options": [
@@ -8869,7 +8869,7 @@
     "id": "english-491",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "被动语态",
     "question": "Which of the following sentences is the correct passive voice form of the sentence 'The teacher explained the lesson'?",
     "options": [
@@ -8884,7 +8884,7 @@
     "id": "english-492",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "情态动词",
     "question": "You have an important meeting at 9 AM, and it is already 8:30. You ___ leave now to arrive on time.",
     "options": [
@@ -8899,7 +8899,7 @@
     "id": "english-493",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "非谓语动词",
     "question": "I look forward to _____ (see) you again.",
     "options": [
@@ -8914,7 +8914,7 @@
     "id": "english-494",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "名词性从句",
     "question": "We still don't know ______.",
     "options": [
@@ -8929,7 +8929,7 @@
     "id": "english-495",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "定语从句",
     "question": "The woman _________ teaches us English is very kind.",
     "options": [
@@ -8944,7 +8944,7 @@
     "id": "english-496",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "状语从句",
     "question": "_____ she was tired, she kept working.",
     "options": [
@@ -8959,7 +8959,7 @@
     "id": "english-497",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "虚拟语气",
     "question": "If I ___ you, I would take the job offer.",
     "options": [
@@ -8974,7 +8974,7 @@
     "id": "english-498",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "介词搭配",
     "question": "She is good ____ mathematics.",
     "options": [
@@ -8989,7 +8989,7 @@
     "id": "english-499",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "词性转换",
     "question": "Complete the sentence with the correct noun form of the word 'strong'. She has a strong _______ to win the competition.",
     "options": [
@@ -9004,7 +9004,7 @@
     "id": "english-500",
     "subject": "english",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nAfter school, Li Wei usually goes to the playground near his home. He loves playing soccer with his friends. They practice passing the ball, shooting, and learning new skills. One day, they decided to join a local tournament. They trained hard, encouraged each other, and finally won the championship. Li Wei realized that teamwork and practice were the keys to success.\n\nWhat is the main idea of the passage?",
     "options": [

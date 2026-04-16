@@ -3221,7 +3221,7 @@
     "id": "physics-155",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "机械运动",
     "question": "一辆汽车在平直公路上以 72 km/h 的速度行驶，求 2 秒后汽车行驶的距离是多少？",
     "options": [
@@ -3236,7 +3236,7 @@
     "id": "physics-156",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "速度计算",
     "question": "小明骑自行车从家出发，用了15分钟到达距离2.5公里的朋友家，求该同学骑自行车的平均速度（单位：km/h）。",
     "options": [
@@ -3251,7 +3251,7 @@
     "id": "physics-157",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "力的概念",
     "question": "以下关于力的描述中，正确的是（ ）。",
     "options": [
@@ -3266,7 +3266,7 @@
     "id": "physics-158",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "重力与弹力",
     "question": "在竖直放置的轻质弹簧上挂着一个质量为0.5 kg的小球，弹簧的劲度系数为200 N/m。若小球静止在平衡位置时，弹簧伸长的长度为多少？（取g=10 N/kg）",
     "options": [
@@ -3281,7 +3281,7 @@
     "id": "physics-159",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "摩擦力",
     "question": "关于滑动摩擦力，下列说法正确的是：",
     "options": [
@@ -3296,7 +3296,7 @@
     "id": "physics-160",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "力的合成与分解",
     "question": "一个力F=12N与水平方向成30°角，若把它分解为水平分力Fx和竖直分力Fy，则Fx的大小为多少？",
     "options": [
@@ -3311,7 +3311,7 @@
     "id": "physics-161",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二力平衡",
     "question": "关于二力平衡的说法，下面哪一项是正确的？",
     "options": [
@@ -3326,7 +3326,7 @@
     "id": "physics-162",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "压强计算",
     "question": "一个质量为5 kg的铝块平放在水平桌面上，底面为长0.2 m、宽0.1 m的矩形。求铝块对桌面的压强（g取9.8 N/kg）。",
     "options": [
@@ -3341,7 +3341,7 @@
     "id": "physics-163",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "液体压强",
     "question": "关于液体内部压强的说法，下面哪项是正确的？",
     "options": [
@@ -3356,7 +3356,7 @@
     "id": "physics-164",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "大气压强",
     "question": "以下哪种现象可以直接说明大气压的存在？",
     "options": [
@@ -3371,7 +3371,7 @@
     "id": "physics-165",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "浮力计算",
     "question": "一块体积为 2.0×10⁻³ m³ 的金属块完全浸没在密度为 1.0×10³ kg/m³ 的水中，g 取 10 N/kg。该金属块受到的浮力大小为多少？",
     "options": [
@@ -3386,7 +3386,7 @@
     "id": "physics-166",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "机械功",
     "question": "小明用20 N的水平拉力把质量为5 kg的木箱在光滑的水平地面上匀速移动了3 m，若力的方向与位移方向相同，则小明对木箱所做的机械功为多少？",
     "options": [
@@ -3401,7 +3401,7 @@
     "id": "physics-167",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "功率计算",
     "question": "一辆汽车在水平路面上匀速行驶，受到的阻力为2000 N，若汽车以20 m/s的速度行驶，求汽车克服阻力所需的功率。",
     "options": [
@@ -3416,7 +3416,7 @@
     "id": "physics-168",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "机械能",
     "question": "一个小球从斜面顶端滚下，若忽略摩擦力和空气阻力，以下关于机械能的说法正确的是？",
     "options": [
@@ -3431,7 +3431,7 @@
     "id": "physics-169",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "声现象",
     "question": "小明站在山谷中呼喊，听到的回声在0.4秒后到达他耳边，已知声速为340 m/s，则小明离山壁的大约距离是多少？",
     "options": [
@@ -3446,7 +3446,7 @@
     "id": "physics-170",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光的反射",
     "question": "以下关于光的反射的说法，正确的是：",
     "options": [
@@ -3461,7 +3461,7 @@
     "id": "physics-171",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光的折射",
     "question": "光从空气斜射入水中时，光线在水中的传播方向会向法线______。",
     "options": [
@@ -3476,7 +3476,7 @@
     "id": "physics-172",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "凸透镜成像",
     "question": "一个凸透镜的焦距为10 cm，当物体放在距透镜30 cm处时，所成的像的特点是？",
     "options": [
@@ -3491,7 +3491,7 @@
     "id": "physics-173",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "物态变化",
     "question": "下列哪种物态变化属于放热过程？",
     "options": [
@@ -3506,7 +3506,7 @@
     "id": "physics-174",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "比热容",
     "question": "一块质量为0.5 kg的铝块从20°C加热到80°C，吸收了2.3×10^4 J的热量，求铝的比热容约为（ ）。",
     "options": [
@@ -3521,7 +3521,7 @@
     "id": "physics-175",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "热值",
     "question": "关于热值的概念，下列说法正确的是：",
     "options": [
@@ -3536,7 +3536,7 @@
     "id": "physics-176",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "内能",
     "question": "下列关于物体内能的说法中，正确的是（    ）",
     "options": [
@@ -3551,7 +3551,7 @@
     "id": "physics-177",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "电路基础",
     "question": "下列关于串联和并联电路的说法，哪项是正确的？",
     "options": [
@@ -3566,7 +3566,7 @@
     "id": "physics-178",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "欧姆定律",
     "question": "在电阻R=10Ω的电路中，若电阻两端电压为12V，则通过电阻的电流为多少？",
     "options": [
@@ -3581,7 +3581,7 @@
     "id": "physics-179",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "电功率",
     "question": "一台电风扇在220 V电压下工作，功率为110 W，求工作时的电流大小。",
     "options": [
@@ -3596,7 +3596,7 @@
     "id": "physics-180",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "焦耳定律",
     "question": "根据焦耳定律，电流通过电阻产生的热量与哪些因素成正比？",
     "options": [
@@ -3611,7 +3611,7 @@
     "id": "physics-181",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "磁现象",
     "question": "关于磁极的相互作用，下列说法正确的是（　　）。",
     "options": [
@@ -3626,7 +3626,7 @@
     "id": "physics-182",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "电磁感应",
     "question": "一金属环在均匀磁场中向左平移，磁通量随时间增加。根据楞次定律，感应电流的磁场方向是（ ）。",
     "options": [
@@ -3641,7 +3641,7 @@
     "id": "physics-183",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "机械运动",
     "question": "关于机械运动的定义，下列说法正确的是（　　）",
     "options": [
@@ -3656,7 +3656,7 @@
     "id": "physics-184",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "速度计算",
     "question": "一辆汽车在高速公路上以108 km/h的速度匀速行驶，若将此速度换算成米每秒（m/s），该车的速度为多少？",
     "options": [
@@ -3671,7 +3671,7 @@
     "id": "physics-185",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "力的概念",
     "question": "下列关于力的描述，正确的是：",
     "options": [
@@ -3686,7 +3686,7 @@
     "id": "physics-186",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "重力与弹力",
     "question": "质量为2 kg的物体挂在竖直放置的轻质弹簧上，弹簧被拉长5 cm，已知弹簧的劲度系数k = 200 N/m。若物体处于静止状态，则下列说法正确的是（ ）。",
     "options": [
@@ -3701,7 +3701,7 @@
     "id": "physics-187",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "摩擦力",
     "question": "一个质量为5 kg的木块在水平面上匀速直线运动，接触面与木块之间的动摩擦因数为0.2，求木块所受摩擦力的大小。",
     "options": [
@@ -3716,7 +3716,7 @@
     "id": "physics-188",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "力的合成与分解",
     "question": "两个共点力F₁=8 N、F₂=6 N之间的夹角为60°，它们的合力大小约为多少？",
     "options": [
@@ -3731,7 +3731,7 @@
     "id": "physics-189",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "二力平衡",
     "question": "一个物体在光滑水平面上仅受两个力作用，若它保持匀速直线运动，则这两个力必须满足的条件是（ ）。",
     "options": [
@@ -3746,7 +3746,7 @@
     "id": "physics-190",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "压强计算",
     "question": "某学生在冰面上站立，接触面积为0.05 m²，学生的体重为600 N（忽略其他力），求该学生对冰面的压强约为多少帕？",
     "options": [
@@ -3761,7 +3761,7 @@
     "id": "physics-191",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "液体压强",
     "question": "已知容器A和容器B内均装满同一种均匀液体，液面高度相同，但容器A的底面积大于容器B的底面积。则两容器底部所受液体压强的大小关系是？",
     "options": [
@@ -3776,7 +3776,7 @@
     "id": "physics-192",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "大气压强",
     "question": "以下现象中，能够直接验证大气压存在的实验是（　　）",
     "options": [
@@ -3791,7 +3791,7 @@
     "id": "physics-193",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "浮力计算",
     "question": "一块质量为0.5 kg、体积为2×10⁻⁴ m³的金属块完全浸没在水中，求金属块所受浮力的大小（取g=10 N/kg，水的密度ρ=1.0×10³ kg/m³）。",
     "options": [
@@ -3806,7 +3806,7 @@
     "id": "physics-194",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "机械功",
     "question": "一个同学用50 N的力沿与水平面成30°角的方向推箱子，箱子在水平地面上移动了4 m，求该力对箱子所做的功是多少？",
     "options": [
@@ -3821,7 +3821,7 @@
     "id": "physics-195",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "功率计算",
     "question": "某工人用绳子把质量为50 kg的物体竖直向上匀速提升2 m，用时4 s。该工人所做功的功率是多少？",
     "options": [
@@ -3836,7 +3836,7 @@
     "id": "physics-196",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "机械能",
     "question": "一个质量为2 kg的物体从高度5 m处自由下落，若不计空气阻力，物体到达地面时的动能是多少？（取g=10 m/s²）",
     "options": [
@@ -3851,7 +3851,7 @@
     "id": "physics-197",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "声现象",
     "question": "关于声波的传播，下列说法正确的是（ ）。",
     "options": [
@@ -3866,7 +3866,7 @@
     "id": "physics-198",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光的反射",
     "question": "光的反射遵循一定的规律，以下关于光的反射的说法，正确的是？",
     "options": [
@@ -3881,7 +3881,7 @@
     "id": "physics-199",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "光的折射",
     "question": "光从折射率为1.5的玻璃（光密介质）射向折射率为1.0的空气（光疏介质），若入射角为60°，则下列说法正确的是？",
     "options": [
@@ -3896,7 +3896,7 @@
     "id": "physics-200",
     "subject": "physics",
     "type": "choice",
-    "difficulty": "medium",
+    "difficulty": 2,
     "tag": "凸透镜成像",
     "question": "一个凸透镜的焦距为15 cm，若把物体放在距透镜40 cm处，则所成的像的特征是？",
     "options": [
