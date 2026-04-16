@@ -2538,83 +2538,6 @@
     "explanation": "等腰三角形两腰相等，4+9+9=22（4+4=8<9不成立）；9+9+4=22（9+4>9成立）"
   },
   {
-    "id": "math-201",
-    "type": "choice",
-    "subject": "math",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "一次函数",
-      "实际应用"
-    ],
-    "question": "某自习室按“固定费10元+每小时8元”收费，学习x小时需付y元，则y与x之间的关系式是：",
-    "options": [
-      "y=8x",
-      "y=10x+8",
-      "y=8x+10",
-      "y=18x"
-    ],
-    "answer": "y=8x+10",
-    "explanation": "总费用=固定费用+单位费用×时长，因此 y=8x+10。"
-  },
-  {
-    "id": "math-202",
-    "type": "fill",
-    "subject": "math",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "三角形",
-      "角度计算"
-    ],
-    "question": "如图，在等腰三角形ABC中，AD⊥BC，且∠A=40°，则∠ABC=____。",
-    "imageUrl": "images/math/triangle-angle.svg",
-    "answer": "70°",
-    "acceptAnswers": [
-      "70",
-      "70°"
-    ],
-    "explanation": "等腰三角形两底角相等，∠ABC=∠ACB=(180°-40°)÷2=70°。"
-  },
-  {
-    "id": "math-203",
-    "type": "choice",
-    "subject": "math",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "数据分析",
-      "平均数"
-    ],
-    "question": "某小组五次口算成绩分别为88、92、90、95、85，则这组数据的平均数是：",
-    "options": [
-      "89",
-      "90",
-      "91",
-      "92"
-    ],
-    "answer": "90",
-    "explanation": "平均数=(88+92+90+95+85)÷5=90。"
-  },
-  {
-    "id": "math-204",
-    "type": "fill",
-    "subject": "math",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "不等式",
-      "解集表示"
-    ],
-    "question": "解不等式 3x-5>7，得到 x____。",
-    "answer": "4",
-    "acceptAnswers": [
-      ">4",
-      "x>4"
-    ],
-    "explanation": "移项得3x>12，两边同时除以3，得到 x>4。"
-  },
-  {
     "id": "math-155",
     "type": "choice",
     "subject": "math",
@@ -3235,6 +3158,83 @@
     ],
     "answer": "A",
     "explanation": "等腰梯形对角线互相垂直。梯形面积=对角线乘积÷2=6×8÷2=24。"
+  },
+  {
+    "id": "math-201",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "一次函数",
+      "实际应用"
+    ],
+    "question": "某自习室按“固定费10元+每小时8元”收费，学习x小时需付y元，则y与x之间的关系式是：",
+    "options": [
+      "y=8x",
+      "y=10x+8",
+      "y=8x+10",
+      "y=18x"
+    ],
+    "answer": "y=8x+10",
+    "explanation": "总费用=固定费用+单位费用×时长，因此 y=8x+10。"
+  },
+  {
+    "id": "math-202",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "三角形",
+      "角度计算"
+    ],
+    "question": "如图，在等腰三角形ABC中，AD⊥BC，且∠A=40°，则∠ABC=____。",
+    "imageUrl": "images/math/triangle-angle.svg",
+    "answer": "70°",
+    "acceptAnswers": [
+      "70",
+      "70°"
+    ],
+    "explanation": "等腰三角形两底角相等，∠ABC=∠ACB=(180°-40°)÷2=70°。"
+  },
+  {
+    "id": "math-203",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数据分析",
+      "平均数"
+    ],
+    "question": "某小组五次口算成绩分别为88、92、90、95、85，则这组数据的平均数是：",
+    "options": [
+      "89",
+      "90",
+      "91",
+      "92"
+    ],
+    "answer": "90",
+    "explanation": "平均数=(88+92+90+95+85)÷5=90。"
+  },
+  {
+    "id": "math-204",
+    "type": "fill",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "不等式",
+      "解集表示"
+    ],
+    "question": "解不等式 3x-5>7，得到 x____。",
+    "answer": "4",
+    "acceptAnswers": [
+      ">4",
+      "x>4"
+    ],
+    "explanation": "移项得3x>12，两边同时除以3，得到 x>4。"
   },
   {
     "id": "math-205",
@@ -4062,21 +4062,6 @@
       "D. (x+2)/(x-3)"
     ],
     "answer": "A"
-  },
-  {
-    "id": "math-251",
-    "subject": "math",
-    "type": "choice",
-    "difficulty": "medium",
-    "tag": "二次根式",
-    "question": "化简 (√8 + √18) - √2 的值是多少？",
-    "options": [
-      "A. 3√2",
-      "B. 4√2",
-      "C. 2√2",
-      "D. √2"
-    ],
-    "answer": "B"
   },
   {
     "id": "math-251",

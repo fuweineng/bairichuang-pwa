@@ -1086,41 +1086,6 @@
     "explanation": "侏儒症是幼年时生长激素分泌不足；呆小症是幼年时甲状腺激素分泌不足"
   },
   {
-    "id": "biology-201",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "细胞结构",
-      "植物细胞"
-    ],
-    "question": "观察图示植物细胞，下列结构中能够进行光合作用的是：",
-    "imageUrl": "images/biology/cell-structure.svg",
-    "options": [
-      "细胞核",
-      "叶绿体",
-      "液泡",
-      "细胞膜"
-    ],
-    "answer": "叶绿体",
-    "explanation": "叶绿体中含有叶绿素，是植物进行光合作用的主要场所。"
-  },
-  {
-    "id": "biology-202",
-    "type": "fill",
-    "subject": "biology",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生态系统",
-      "食物链"
-    ],
-    "question": "在“草→蝗虫→青蛙”这条食物链中，生产者是______。",
-    "answer": "草",
-    "explanation": "绿色植物能制造有机物，因此是生态系统中的生产者。"
-  },
-  {
     "id": "biology-063",
     "type": "choice",
     "subject": "biology",
@@ -1441,6 +1406,41 @@
     "question": "ABO血型系统中，A型血型的基因型是AA或_____。",
     "answer": "AO",
     "explanation": "根据生物知识填写：AO"
+  },
+  {
+    "id": "biology-201",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构",
+      "植物细胞"
+    ],
+    "question": "观察图示植物细胞，下列结构中能够进行光合作用的是：",
+    "imageUrl": "images/biology/cell-structure.svg",
+    "options": [
+      "细胞核",
+      "叶绿体",
+      "液泡",
+      "细胞膜"
+    ],
+    "answer": "叶绿体",
+    "explanation": "叶绿体中含有叶绿素，是植物进行光合作用的主要场所。"
+  },
+  {
+    "id": "biology-202",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统",
+      "食物链"
+    ],
+    "question": "在“草→蝗虫→青蛙”这条食物链中，生产者是______。",
+    "answer": "草",
+    "explanation": "绿色植物能制造有机物，因此是生态系统中的生产者。"
   },
   {
     "id": "biology-203",
@@ -2915,21 +2915,6 @@
       "D. 呼吸作用的原料是二氧化碳和水"
     ],
     "answer": "B"
-  },
-  {
-    "id": "biology-298",
-    "subject": "biology",
-    "type": "choice",
-    "difficulty": "medium",
-    "tag": "消化系统",
-    "question": "胆汁在脂肪消化中的作用是（ ）。",
-    "options": [
-      "A. 含有消化酶，直接分解脂肪",
-      "B. 促进胃液分泌，帮助脂肪消化",
-      "C. 乳化脂肪，使其更易被胰脂肪酶作用",
-      "D. 抑制小肠蠕动，延长脂肪在小肠的停留时间"
-    ],
-    "answer": "C"
   },
   {
     "id": "biology-298",

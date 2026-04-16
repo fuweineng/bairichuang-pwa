@@ -20,6 +20,92 @@
     "explanation": "'has been to' means 'has visited and returned'. 'has gone to' means 'has gone and not returned yet'."
   },
   {
+    "id": "english-236-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "Li Ming is a student in Foshan No. 1 _____ School.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "Middle",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-237-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "Last weekend, the family went to Foshan's Lianglu _____.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "Garden",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-238-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "The boy has about fifty books on his _____.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "bookshelf",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-239-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "Tomorrow is _____ birthday.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "Tom",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-240-1",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "The writer usually goes to school by _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "bus",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+  },
+  {
     "id": "english-002",
     "type": "choice",
     "subject": "english",
@@ -38,6 +124,92 @@
     ],
     "answer": "are playing",
     "explanation": "'Look!' indicates an action happening right now, so present continuous tense 'are playing' is used."
+  },
+  {
+    "id": "english-236-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "He wakes up at 6:30 in the _____.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "morning",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-237-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "The garden has many flowers and _____.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "trees",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-238-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "His favorite books are science fiction and _____ stories.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "adventure",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-239-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "His mother is going to make a big _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "cake",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-240-2",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "The bus ride takes about twenty _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "minutes",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
   },
   {
     "id": "english-003",
@@ -60,6 +232,108 @@
     "explanation": "到达车站之前火车已经开走，因此要用过去完成时 had left。"
   },
   {
+    "id": "english-236-3",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "阅读理解",
+      "日常生活"
+    ],
+    "question": "He goes to school by _____.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "choices": [
+      {
+        "label": "A",
+        "text": "bus"
+      },
+      {
+        "label": "B",
+        "text": "bike"
+      },
+      {
+        "label": "C",
+        "text": "car"
+      },
+      {
+        "label": "D",
+        "text": "walk"
+      }
+    ],
+    "answer": "B",
+    "explanation": "根据短文：Then I go to school by bike."
+  },
+  {
+    "id": "english-237-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "Li Ming's father cooked a delicious _____ for them.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "lunch",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-238-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "He reads for about thirty _____ before sleep.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "minutes",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-239-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "His father will buy some balloons and _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "presents",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-240-3",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "He always sits near the _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "window",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
+  },
+  {
     "id": "english-004",
     "type": "fill",
     "subject": "english",
@@ -73,6 +347,92 @@
     "options": null,
     "answer": "rains",
     "explanation": "In if-clauses referring to future time, use present simple (rains) to express future condition."
+  },
+  {
+    "id": "english-236-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "After school, he usually plays basketball for one _____.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "hour",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-237-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "The ancient temple was more than 500 _____ old.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "years",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-238-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "Reading helps him learn many new _____.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "words",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-239-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "Tom's friends will come in the _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "afternoon",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-240-4",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "His best friend is _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "Lucy",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
   },
   {
     "id": "english-005",
@@ -92,6 +452,92 @@
     ],
     "answer": "is known",
     "explanation": "Present simple passive: am/is/are + past participle. 'is known' shows current general truth."
+  },
+  {
+    "id": "english-236-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "日常生活"
+    ],
+    "question": "He goes to bed at _____ in the evening.",
+    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
+    "audioUrl": "audio/english/english-236.m4a",
+    "answer": "10:00",
+    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
+  },
+  {
+    "id": "english-237-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "周末活动",
+      "佛山"
+    ],
+    "question": "Lianglu Garden is a great place for a family _____.",
+    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
+    "audioUrl": "audio/english/english-237.m4a",
+    "answer": "trip",
+    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
+  },
+  {
+    "id": "english-238-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "阅读爱好"
+    ],
+    "question": "His dream is to become a _____ when he grows up.",
+    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
+    "audioUrl": "audio/english/english-238.m4a",
+    "answer": "writer",
+    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
+  },
+  {
+    "id": "english-239-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "生日聚会"
+    ],
+    "question": "Tom hopes everyone will have a good _____.",
+    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
+    "audioUrl": "audio/english/english-239.m4a",
+    "answer": "time",
+    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
+  },
+  {
+    "id": "english-240-5",
+    "type": "fill",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "听力",
+      "短文听写",
+      "上学交通"
+    ],
+    "question": "The bus driver is very _____.",
+    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
+    "audioUrl": "audio/english/english-240.m4a",
+    "answer": "friendly",
+    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
   },
   {
     "id": "english-006",
@@ -4158,440 +4604,6 @@
     "explanation": "海豚表演下午3点，表演结束后可以拍照。"
   },
   {
-    "id": "english-236-1",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "日常生活"
-    ],
-    "question": "Li Ming is a student in Foshan No. 1 _____ School.",
-    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
-    "audioUrl": "audio/english/english-236.m4a",
-    "answer": "Middle",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
-  },
-  {
-    "id": "english-236-2",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "日常生活"
-    ],
-    "question": "He wakes up at 6:30 in the _____.",
-    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
-    "audioUrl": "audio/english/english-236.m4a",
-    "answer": "morning",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
-  },
-  {
-    "id": "english-236-3",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "阅读理解",
-      "日常生活"
-    ],
-    "question": "He goes to school by _____.",
-    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
-    "choices": [
-      { "label": "A", "text": "bus" },
-      { "label": "B", "text": "bike" },
-      { "label": "C", "text": "car" },
-      { "label": "D", "text": "walk" }
-    ],
-    "answer": "B",
-    "explanation": "根据短文：Then I go to school by bike."
-  },
-  {
-    "id": "english-236-4",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "日常生活"
-    ],
-    "question": "After school, he usually plays basketball for one _____.",
-    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
-    "audioUrl": "audio/english/english-236.m4a",
-    "answer": "hour",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
-  },
-  {
-    "id": "english-236-5",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "日常生活"
-    ],
-    "question": "He goes to bed at _____ in the evening.",
-    "passage": "My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
-    "audioUrl": "audio/english/english-236.m4a",
-    "answer": "10:00",
-    "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life."
-  },
-  {
-    "id": "english-237-1",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "周末活动",
-      "佛山"
-    ],
-    "question": "Last weekend, the family went to Foshan's Lianglu _____.",
-    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
-    "audioUrl": "audio/english/english-237.m4a",
-    "answer": "Garden",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
-  },
-  {
-    "id": "english-237-2",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "周末活动",
-      "佛山"
-    ],
-    "question": "The garden has many flowers and _____.",
-    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
-    "audioUrl": "audio/english/english-237.m4a",
-    "answer": "trees",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
-  },
-  {
-    "id": "english-237-3",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "周末活动",
-      "佛山"
-    ],
-    "question": "Li Ming's father cooked a delicious _____ for them.",
-    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
-    "audioUrl": "audio/english/english-237.m4a",
-    "answer": "lunch",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
-  },
-  {
-    "id": "english-237-4",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "周末活动",
-      "佛山"
-    ],
-    "question": "The ancient temple was more than 500 _____ old.",
-    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
-    "audioUrl": "audio/english/english-237.m4a",
-    "answer": "years",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
-  },
-  {
-    "id": "english-237-5",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "周末活动",
-      "佛山"
-    ],
-    "question": "Lianglu Garden is a great place for a family _____.",
-    "passage": "Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
-    "audioUrl": "audio/english/english-237.m4a",
-    "answer": "trip",
-    "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip."
-  },
-  {
-    "id": "english-238-1",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "阅读爱好"
-    ],
-    "question": "The boy has about fifty books on his _____.",
-    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
-    "audioUrl": "audio/english/english-238.m4a",
-    "answer": "bookshelf",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
-  },
-  {
-    "id": "english-238-2",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "阅读爱好"
-    ],
-    "question": "His favorite books are science fiction and _____ stories.",
-    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
-    "audioUrl": "audio/english/english-238.m4a",
-    "answer": "adventure",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
-  },
-  {
-    "id": "english-238-3",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "阅读爱好"
-    ],
-    "question": "He reads for about thirty _____ before sleep.",
-    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
-    "audioUrl": "audio/english/english-238.m4a",
-    "answer": "minutes",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
-  },
-  {
-    "id": "english-238-4",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "阅读爱好"
-    ],
-    "question": "Reading helps him learn many new _____.",
-    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
-    "audioUrl": "audio/english/english-238.m4a",
-    "answer": "words",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
-  },
-  {
-    "id": "english-238-5",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "阅读爱好"
-    ],
-    "question": "His dream is to become a _____ when he grows up.",
-    "passage": "I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
-    "audioUrl": "audio/english/english-238.m4a",
-    "answer": "writer",
-    "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children."
-  },
-  {
-    "id": "english-239-1",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "生日聚会"
-    ],
-    "question": "Tomorrow is _____ birthday.",
-    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
-    "audioUrl": "audio/english/english-239.m4a",
-    "answer": "Tom",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
-  },
-  {
-    "id": "english-239-2",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "生日聚会"
-    ],
-    "question": "His mother is going to make a big _____.",
-    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
-    "audioUrl": "audio/english/english-239.m4a",
-    "answer": "cake",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
-  },
-  {
-    "id": "english-239-3",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "生日聚会"
-    ],
-    "question": "His father will buy some balloons and _____.",
-    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
-    "audioUrl": "audio/english/english-239.m4a",
-    "answer": "presents",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
-  },
-  {
-    "id": "english-239-4",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "生日聚会"
-    ],
-    "question": "Tom's friends will come in the _____.",
-    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
-    "audioUrl": "audio/english/english-239.m4a",
-    "answer": "afternoon",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
-  },
-  {
-    "id": "english-239-5",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "生日聚会"
-    ],
-    "question": "Tom hopes everyone will have a good _____.",
-    "passage": "Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
-    "audioUrl": "audio/english/english-239.m4a",
-    "answer": "time",
-    "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time."
-  },
-  {
-    "id": "english-240-1",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "上学交通"
-    ],
-    "question": "The writer usually goes to school by _____.",
-    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
-    "audioUrl": "audio/english/english-240.m4a",
-    "answer": "bus",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
-  },
-  {
-    "id": "english-240-2",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "上学交通"
-    ],
-    "question": "The bus ride takes about twenty _____.",
-    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
-    "audioUrl": "audio/english/english-240.m4a",
-    "answer": "minutes",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
-  },
-  {
-    "id": "english-240-3",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "上学交通"
-    ],
-    "question": "He always sits near the _____.",
-    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
-    "audioUrl": "audio/english/english-240.m4a",
-    "answer": "window",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
-  },
-  {
-    "id": "english-240-4",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "上学交通"
-    ],
-    "question": "His best friend is _____.",
-    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
-    "audioUrl": "audio/english/english-240.m4a",
-    "answer": "Lucy",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
-  },
-  {
-    "id": "english-240-5",
-    "type": "fill",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "听力",
-      "短文听写",
-      "上学交通"
-    ],
-    "question": "The bus driver is very _____.",
-    "passage": "I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
-    "audioUrl": "audio/english/english-240.m4a",
-    "answer": "friendly",
-    "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school."
-  },
-  {
     "id": "english-241",
     "type": "choice",
     "subject": "english",
@@ -7022,576 +7034,6 @@
     ],
     "answer": "C",
     "explanation": "We use 'at' before specific clock times (12:00). 'In' is used for months, years, or parts of the day; 'on' is used for dates and days of the week."
-  },
-  {
-    "id": "english-369",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "海豚表演"
-    ],
-    "question": "The dolphin show, ___ took place in the large pool, attracted thousands of visitors.",
-    "options": [
-      "A. which",
-      "B. that",
-      "C. who",
-      "D. whom"
-    ],
-    "answer": "A",
-    "explanation": "In this sentence the relative clause is non‑restrictive and refers to the dolphin show, so we use the relative pronoun 'which'."
-  },
-  {
-    "id": "english-370",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "预约"
-    ],
-    "question": "Which sentence correctly expresses the meaning of the Chinese word '预约' in English?",
-    "options": [
-      "A. I want to order a pizza for tonight.",
-      "B. I will reserve a table for two at the restaurant.",
-      "C. Could you please call my friend?",
-      "D. He will schedule a meeting next week."
-    ],
-    "answer": "B",
-    "explanation": "The verb 'reserve' (or 'book') is used in English to mean '预约', i.e., to arrange in advance a place or service such as a restaurant table."
-  },
-  {
-    "id": "english-371",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "原因"
-    ],
-    "question": "He didn't go to school _______ he was ill.",
-    "options": [
-      "A. because",
-      "B. although",
-      "C. so",
-      "D. but"
-    ],
-    "answer": "A",
-    "explanation": "Because is used to introduce a reason or cause, so it correctly connects the reason (he was ill) to the result (he didn't go to school)."
-  },
-  {
-    "id": "english-372",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "学习问题"
-    ],
-    "question": "______ did you go to the library?",
-    "options": [
-      "A. What",
-      "B. Where",
-      "C. When",
-      "D. Why"
-    ],
-    "answer": "B",
-    "explanation": "'Where' is used to ask about a place, so it is the correct question word for asking about the location of an action."
-  },
-  {
-    "id": "english-373",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "作业"
-    ],
-    "question": "Which sentence uses the English word for '作业' correctly?",
-    "options": [
-      "A. I have many homework to finish.",
-      "B. I have a lot of homework to finish.",
-      "C. I have many homeworks to finish.",
-      "D. I have a lot of homeworks to finish."
-    ],
-    "answer": "B",
-    "explanation": "In English, 'homework' is an uncountable noun, so it does not take a plural form or 'many'. The correct phrase is 'a lot of homework'."
-  },
-  {
-    "id": "english-374",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "价格计算"
-    ],
-    "question": "A pair of shoes costs $45. If there is a 20% discount, what is the final price you will pay?",
-    "options": [
-      "A. $36.00",
-      "B. $35.00",
-      "C. $40.00",
-      "D. $39.00"
-    ],
-    "answer": "A",
-    "explanation": "A 20% discount on $45 is $45 × 0.20 = $9. Subtracting the discount from the original price: $45 - $9 = $36.00."
-  },
-  {
-    "id": "english-375",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "英语学习"
-    ],
-    "question": "She ___ to school every day.",
-    "options": [
-      "A. goes",
-      "B. go",
-      "C. going",
-      "D. went"
-    ],
-    "answer": "A",
-    "explanation": "In the present simple tense, third‑person singular subjects (he, she, it) require the verb with an -s or -es ending. Since 'she' is third‑person singular, the correct form is 'goes'."
-  },
-  {
-    "id": "english-376",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "计划"
-    ],
-    "question": "Which sentence correctly uses the word “plan” as a verb?",
-    "options": [
-      "A. I plan going to the museum after school.",
-      "B. I plan to go to the museum after school.",
-      "C. I plan on go to the museum after school.",
-      "D. I plan for going to the museum after school."
-    ],
-    "answer": "B",
-    "explanation": "When “plan” is used as a verb, it is followed by an infinitive (to + verb). Therefore, the correct sentence is “I plan to go to the museum after school.”"
-  },
-  {
-    "id": "english-377",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "假期活动"
-    ],
-    "question": "Which of the following sentences correctly describes what a student did during the summer vacation?",
-    "options": [
-      "A. I go to the beach with my family last week.",
-      "B. I went to the beach with my family last week.",
-      "C. I am going to the beach with my family last week.",
-      "D. I will goes to the beach with my family last week."
-    ],
-    "answer": "B",
-    "explanation": "The correct form is the past simple tense 'went' because the action occurred in the past, as shown by 'last week'. The other options incorrectly use present tenses or an incorrect verb form."
-  },
-  {
-    "id": "english-378",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "学习问题"
-    ],
-    "question": "He doesn't like apples, ______?",
-    "options": [
-      "A. does he?",
-      "B. doesn't he?",
-      "C. does he not?",
-      "D. doesn't he not?"
-    ],
-    "answer": "A",
-    "explanation": "In question tags, we use the opposite polarity. Since the statement contains a negative word (doesn't), the tag should be positive (does). Therefore the correct tag is \"does he?\"."
-  },
-  {
-    "id": "english-379",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "细节"
-    ],
-    "question": "Which sentence uses the correct form of the pronoun?",
-    "options": [
-      "A. Him and I went to the store.",
-      "B. He and me went to the store.",
-      "C. He and I went to the store.",
-      "D. Him and me went to the store."
-    ],
-    "answer": "C",
-    "explanation": "In a compound subject, both pronouns should be in the subjective (nominative) case. Therefore, the correct form is \"He and I\" – the subject of the verb \"went\"."
-  },
-  {
-    "id": "english-380",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "品质"
-    ],
-    "question": "Which of the following words is a quality adjective that can describe a person’s character?",
-    "options": [
-      "A. kindly",
-      "B. kindness",
-      "C. kind",
-      "D. kid"
-    ],
-    "answer": "C",
-    "explanation": "Kind is a quality adjective (品质形容词) that describes a person's character. The other options are an adverb (kindly), a noun (kindness), or an unrelated noun (kid)."
-  },
-  {
-    "id": "english-381",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "营业时间"
-    ],
-    "question": "Which of the following sentences correctly asks about a store's business hours?",
-    "options": [
-      "A. What time does the shop open?",
-      "B. When does the shop opens?",
-      "C. What time the shop opens?",
-      "D. When the shop opens?"
-    ],
-    "answer": "A",
-    "explanation": "In English, when forming a question with a third‑person singular subject in the simple present tense, you use the auxiliary “does” followed by the base form of the verb. Therefore the correct phrasing is “What time does the shop open?” (or “What are the shop’s business hours?”). The other options either use the wrong verb form (opens) or incorrect question word order."
-  },
-  {
-    "id": "english-382",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "细节理解"
-    ],
-    "question": "Read the passage below and answer the question.\n\n\"Yesterday, Sarah went to the library after school. She borrowed three books: a science fiction novel, a biography of Thomas Edison, and a cookbook about Italian cuisine. She returned the books today during her lunch break.\"\n\nWhat type of book did Sarah borrow?",
-    "options": [
-      "A. A science fiction novel",
-      "B. A biography of Thomas Edison",
-      "C. A cookbook about Italian cuisine",
-      "D. A dictionary"
-    ],
-    "answer": "B",
-    "explanation": "The passage states that one of the books Sarah borrowed was 'a biography of Thomas Edison,' which matches option B."
-  },
-  {
-    "id": "english-383",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-状语从句"
-    ],
-    "question": "She will call you as soon as she ___ tomorrow.",
-    "options": [
-      "A. will arrive",
-      "B. arrives",
-      "C. arrived",
-      "D. has arrived"
-    ],
-    "answer": "B",
-    "explanation": "In adverbial clauses of time introduced by 'as soon as', we use the present simple tense to refer to a future action, not the future with 'will'. Therefore the correct form is 'arrives'."
-  },
-  {
-    "id": "english-384",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-并列句"
-    ],
-    "question": "Which of the following sentences is a compound sentence?",
-    "options": [
-      "A. I wanted to go, but it started to rain.",
-      "B. She sings beautifully.",
-      "C. Because he was tired, he went to bed early.",
-      "D. The bird flew away and sang a sweet song."
-    ],
-    "answer": "A",
-    "explanation": "A compound sentence consists of two independent clauses joined by a coordinating conjunction. In option A, 'I wanted to go' and 'it started to rain' are two independent clauses linked by the coordinating conjunction 'but', making it a compound sentence."
-  },
-  {
-    "id": "english-385",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "介词"
-    ],
-    "question": "Which preposition best completes the sentence? 'She will meet us ___ the library.'",
-    "options": [
-      "A. at",
-      "B. in",
-      "C. on",
-      "D. to"
-    ],
-    "answer": "A",
-    "explanation": "When we refer to a specific location such as a library, we use the preposition 'at' to indicate a point or place. 'In' is used for enclosed spaces, 'on' for surfaces, and 'to' shows direction, so 'at' is correct here."
-  },
-  {
-    "id": "english-386",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "名词所有格"
-    ],
-    "question": "Which of the following sentences correctly uses the possessive form of the noun 'children'?",
-    "options": [
-      "A. children's toys",
-      "B. childrens toys",
-      "C. childs toys",
-      "D. childrens' toys"
-    ],
-    "answer": "A",
-    "explanation": "The plural noun 'children' forms its possessive by adding an apostrophe and 's' (children's), not by adding just an 's' or placing the apostrophe after the 's' without an additional 's'."
-  },
-  {
-    "id": "english-387",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "比较级"
-    ],
-    "question": "Choose the correct comparative form to complete the sentence: \"This problem is ____ (hard) than the last one.\"",
-    "options": [
-      "A. harder",
-      "B. more hard",
-      "C. harderer",
-      "D. more harder"
-    ],
-    "answer": "A",
-    "explanation": "For one‑syllable adjectives we add -er to form the comparative; therefore 'hard' becomes 'harder'."
-  },
-  {
-    "id": "english-388",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "祈使句"
-    ],
-    "question": "Which of the following is an imperative sentence?",
-    "options": [
-      "A. Please close the door.",
-      "B. He runs every day.",
-      "C. She is tall.",
-      "D. They will travel tomorrow."
-    ],
-    "answer": "A",
-    "explanation": "The sentence 'Please close the door.' gives a request or command, which is the function of an imperative sentence. It uses the base verb 'close' to direct the listener to take action."
-  },
-  {
-    "id": "english-389",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "特殊疑问词"
-    ],
-    "question": "Which question word is used to ask about a place?",
-    "options": [
-      "A. Who",
-      "B. What",
-      "C. Where",
-      "D. Why"
-    ],
-    "answer": "C",
-    "explanation": "'Where' is the special interrogative word used to ask about a location or place, while Who asks about a person, What asks about a thing, and Why asks about a reason."
-  },
-  {
-    "id": "english-390",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "虚拟语气"
-    ],
-    "question": "If I ___ you, I would take this job.",
-    "options": [
-      "A. were",
-      "B. am",
-      "C. was",
-      "D. be"
-    ],
-    "answer": "A",
-    "explanation": "In an unreal (second) conditional sentence, the verb in the 'if' clause uses the past subjunctive form \"were\" for all subjects, even when the subject is \"I\"."
-  },
-  {
-    "id": "english-391",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "可数名词"
-    ],
-    "question": "Which of the following words is a countable noun?",
-    "options": [
-      "A. apple",
-      "B. water",
-      "C. information",
-      "D. furniture"
-    ],
-    "answer": "A",
-    "explanation": "Countable nouns can be counted and have a plural form. 'Apple' can be pluralized to 'apples', while 'water', 'information', and 'furniture' are uncountable nouns."
-  },
-  {
-    "id": "english-392",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "介词短语"
-    ],
-    "question": "Which of the following is a prepositional phrase?",
-    "options": [
-      "A. quickly run",
-      "B. the old house",
-      "C. behind the door",
-      "D. jump high"
-    ],
-    "answer": "C",
-    "explanation": "A prepositional phrase consists of a preposition followed by its object. In \"behind the door\", the preposition \"behind\" takes the noun phrase \"the door\" as its object, forming a prepositional phrase."
-  },
-  {
-    "id": "english-393",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "一般现在时"
-    ],
-    "question": "My brother ___ (watch) TV every evening. Choose the correct verb form.",
-    "options": [
-      "A. watch",
-      "B. watches",
-      "C. watched",
-      "D. watching"
-    ],
-    "answer": "B",
-    "explanation": "In the present simple tense, a third‑person singular subject (he/she/it) requires the verb to take an –s or –es. Because 'brother' is a third‑person singular, the correct form is 'watches'."
-  },
-  {
-    "id": "english-394",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "形容词副词"
-    ],
-    "question": "She speaks English __________.",
-    "options": [
-      "A. fluent",
-      "B. fluency",
-      "C. fluently",
-      "D. more fluent"
-    ],
-    "answer": "C",
-    "explanation": "'Speaks' is a verb and needs an adverb to modify it. 'Fluently' is the adverb form of 'fluent', describing how she speaks. 'Fluent' is an adjective and cannot modify a verb."
-  },
-  {
-    "id": "english-395",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "名词辨析"
-    ],
-    "question": "Which of the following words is a proper noun?",
-    "options": [
-      "A. city",
-      "B. London",
-      "C. book",
-      "D. teacher"
-    ],
-    "answer": "B",
-    "explanation": "London is the name of a specific place, making it a proper noun, whereas city, book, and teacher are common nouns."
-  },
-  {
-    "id": "english-396",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "价格"
-    ],
-    "question": "Which of the following sentences correctly uses the word 'price'?",
-    "options": [
-      "A. The price of the new phone is expensive.",
-      "B. The price of the new phone is high.",
-      "C. The price of the new phone is cheap.",
-      "D. The price of the new phone is expensive than the old one."
-    ],
-    "answer": "B",
-    "explanation": "We describe a price using adjectives like 'high' or 'low'. The adjective 'expensive' is used for items, not for price, and the comparative 'expensive than' is grammatically incorrect."
-  },
-  {
-    "id": "english-397",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "兴趣爱好"
-    ],
-    "question": "Which of the following sentences is grammatically correct when talking about a hobby?",
-    "options": [
-      "A. I enjoy to read books.",
-      "B. She likes playing soccer.",
-      "C. He like playing the piano.",
-      "D. They enjoys dancing."
-    ],
-    "answer": "B",
-    "explanation": "When describing a hobby, the verbs 'like' or 'enjoy' are followed by a gerund (‑ing) and the subject must agree with the verb. 'She likes playing soccer' follows this rule, while the other options misuse the verb form."
-  },
-  {
-    "id": "english-398",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "订餐"
-    ],
-    "question": "Which sentence is the most appropriate when you want to order a cup of coffee at a café?",
-    "options": [
-      "A. Can I have any coffee?",
-      "B. Could I have some coffee?",
-      "C. Do you have some coffee?",
-      "D. I want any coffee."
-    ],
-    "answer": "B",
-    "explanation": "In polite requests for food or drink, we use 'some' after modal verbs like 'could' or 'would you like'. The correct phrase is 'Could I have some coffee?'"
   },
   {
     "id": "english-369",
