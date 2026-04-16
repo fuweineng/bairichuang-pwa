@@ -1,7 +1,7 @@
 {
-  "version": "8.1.2-20260417",
+  "version": "8.2.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "Debug修复：打卡天数计算bug；renderHome每次重载IndexedDB；打卡卡片去除点击跳转；今日首次打卡触发烟花特效；去除全app emoji符号"
+  "changelog": "feat: 柱状图右侧增加易错题库+熟练掌握按钮(各显示题数badge); fix: back-home清空entry防模式残留导致打卡失败; 二维码CDN加载失败时动态fallback加载"
 }
