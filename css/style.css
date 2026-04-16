@@ -2038,9 +2038,12 @@ main {
 .chart-bar-label {
   font-size: 0.8rem;
   font-weight: 600;
-  width: 38px;
+  width: 50px;
   flex-shrink: 0;
   cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
 }
 .chart-bar-track {
   flex: 1;
@@ -2064,18 +2067,24 @@ main {
 .chart-all-btn {
   display: block;
   width: 100%;
-  margin-top: 12px;
-  padding: 10px;
+  margin-top: 14px;
+  padding: 14px;
   background: linear-gradient(135deg, #1f8f6a, #4caf50);
   color: white;
   border: none;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  font-weight: 700;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 800;
   cursor: pointer;
   text-align: center;
+  box-shadow: 0 4px 12px rgba(76,175,80,.35);
+  letter-spacing: 1px;
 }
-.chart-all-btn:hover { opacity: 0.9; }
+.chart-all-btn:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(76,175,80,.4);
+}
 
 .update-badge {
   display: inline-block;

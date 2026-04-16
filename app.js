@@ -1307,7 +1307,7 @@ function drawChart() {
     const label = acc === null ? '未学' : `${acc}%`;
     return `
     <div class="chart-bar-row" data-action="start-subject" data-subject="${subj}">
-      <span class="chart-bar-label" style="color:${color}">${subjectName(subj)}</span>
+      <span class="chart-bar-label" style="color:${color}">👉 ${subjectName(subj)}</span>
       <div class="chart-bar-track">
         <div class="chart-bar-fill" style="width:${barWidth}%;background:${color}"></div>
       </div>
@@ -1317,7 +1317,7 @@ function drawChart() {
 
   return `
   <div class="chart-bar-list">${rows}</div>
-  <button class="chart-all-btn" data-action="start-subject" data-subject="all">全科练习</button>`;
+  <button class="chart-all-btn" data-action="start-subject" data-subject="all">🔥 全科练习</button>`;
 }
 
 // SETTINGS VIEW
