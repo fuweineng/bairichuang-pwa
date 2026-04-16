@@ -2085,6 +2085,49 @@ main {
   transform: translateY(-1px);
   box-shadow: 0 6px 16px rgba(76,175,80,.4);
 }
+.chart-actions-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+.chart-action-btn {
+  flex: 1;
+  padding: 10px 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: transform .15s, box-shadow .15s;
+}
+.chart-action-weak {
+  background: #fff3e0;
+  color: #e65100;
+  border: 1.5px solid #ffb74d;
+}
+.chart-action-weak:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(230,81,0,.15);
+}
+.chart-action-mastered {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1.5px solid #81c784;
+}
+.chart-action-mastered:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(46,125,50,.15);
+}
+.chart-action-badge {
+  background: rgba(0,0,0,.1);
+  border-radius: 10px;
+  padding: 1px 6px;
+  font-size: 12px;
+}
 
 .update-badge {
   display: inline-block;

@@ -1329,16 +1329,22 @@ function drawChart() {
     history: '#795548', geography: '#607D8B', politics: '#F44336'
   };
 
-  // 计算每个科目的掌握度（正确次数/总次数）
-  const data = subjects.map(subj => {
-    const acc = getSubjectAccuracy(subj);
-    return { subj, acc };
-  }).sort((a, b) => {
-    if (a.acc === null && b.acc === null) return 0;
-    if (a.acc === null) return 1;
-    if (b.acc === null) return -1;
-    return b.acc - a.acc; // 从高到低
-  });
+  // 计算易错题数量（正确率 < 阈值）
+  const weakThreshold = state.settings?.weakThreshold ?? 0.6;
+  const weakCount = Object.values(state.progress).filter(p => {
+    if (!p || p.status === 'new') return false;
+    const total = p.correct + p.wrong;
+    if (total === 0) return false;
+    return (p.correct / total) < weakThreshold;
+  }).length;
+
+  // 计算熟练题数量（正确率 >= 90%）
+  const masteredCount = Object.values(state.progress).filter(p => {
+    if (!p || p.status === 'new') return false;
+    const total = p.correct + p.wrong;
+    if (total === 0) return false;
+    return (p.correct / total) >= 0.9;
+  }).length;
 
   // 未完成摸底测试 → 显示引导
   if (!state.meta.assessmentCompleted) {
@@ -1351,9 +1357,9 @@ function drawChart() {
     </div>`;
   }
 
-  // 已完成摸底测试 → 各科柱状图，数据优先用摸底结果
+  // 已完成摸底测试 → 各科柱状图
   const barData = subjects.map(subj => {
-    const acc = getSubjectAccuracy(subj); // 后续练习后会被 progress 数据覆盖
+    const acc = getSubjectAccuracy(subj);
     return { subj, acc };
   }).sort((a, b) => {
     if (a.acc === null && b.acc === null) return 0;
@@ -1379,8 +1385,16 @@ function drawChart() {
 
   return `
   <div class="chart-bar-list">${rows}</div>
-      <div class="chart-hint">点击科目名称开始练习，或直接点「全科练习」</div>
-  <button class="chart-all-btn" data-action="start-subject" data-subject="all">全科练习</button>`;
+  <div class="chart-actions-row">
+    <button class="chart-action-btn chart-action-weak" data-action="start-subject" data-subject="all" data-entry="weak">
+      易错题库 <span class="chart-action-badge">${weakCount}</span>
+    </button>
+    <button class="chart-action-btn chart-action-mastered" data-action="start-subject" data-subject="all" data-entry="mastered">
+      熟练掌握 <span class="chart-action-badge">${masteredCount}</span>
+    </button>
+  </div>
+  <div class="chart-hint">点击科目名称开始练习，或直接点「全科练习」</div>
+  <button class="chart-all-btn" data-action="start-subject" data-subject="all" data-entry="standard">全科练习</button>`;
 }
 
 // SETTINGS VIEW
@@ -1639,6 +1653,8 @@ async function handleClick(e) {
 
     case 'start-subject':
       state.subject = t.dataset.subject;
+      const entry = t.dataset.entry || 'standard';
+      state.entry = entry === 'standard' ? null : entry;
       navigate('#/practice/' + t.dataset.subject + (state.entry ? '?entry=' + state.entry : ''));
       break;
 
@@ -1694,6 +1710,7 @@ async function handleClick(e) {
       break;
 
     case 'back-home':
+      state.entry = null;
       navigate('#/home');
       break;
 
@@ -1915,8 +1932,31 @@ async function confirmAccountSetup() {
   modal.style.display = 'none';
 }
 
+// CDN fallback for qrcode (jsdelivr may fail in some networks)
+async function loadQRCode() {
+  if (typeof QRCode !== 'undefined') return;
+  try {
+    await new Promise((res, rej) => {
+      const s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js';
+      s.onload = res; s.onerror = rej;
+      document.head.appendChild(s);
+    });
+  } catch {
+    // fallback: try unpkg
+    await new Promise((res, rej) => {
+      const s = document.createElement('script');
+      s.src = 'https://unpkg.com/qrcode@1.5.1/build/qrcode.min.js';
+      s.onload = res; s.onerror = rej;
+      document.head.appendChild(s);
+    });
+  }
+}
+
 async function exportAccountQR() {
   if (!state.account) { showToast('请先创建账户'); return; }
+  await loadQRCode();
+  if (typeof QRCode === 'undefined') { showToast('二维码库加载失败，请检查网络'); return; }
   const data = {
     account: state.account,
     sessions: state.sessions,
