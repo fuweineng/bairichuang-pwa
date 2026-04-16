@@ -3,5 +3,5 @@
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "refactor(settings): 7 cards merged into 3, compact layout"
+  "changelog": "feat: 打卡板头+时间问候语+累计天数badge; 全科大按钮; 4时间段主题系统+Settings切换"
 }
