@@ -35,7 +35,9 @@ const state = {
   questionBank: {},
   progress: {},
   daily: {},
+  sessions: [],
   meta: {},
+  account: null,
   settings: { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' },
   remoteVersions: null,
 };
@@ -46,9 +48,11 @@ const state = {
 const K = {
   PROGRESS: 'question_progress',
   DAILY: 'checkin_daily',
+  SESSIONS: 'checkin_sessions',
   META: 'checkin_meta',
   SETTINGS: 'settings',
   QB_CACHE: 'question_bank_cache',
+  ACCOUNT: 'user_account',
 };
 
 const VERSION_URL = 'version.json';
@@ -120,7 +124,9 @@ async function init() {
   // Load persisted state
   state.progress = await get(K.PROGRESS) || {};
   state.daily    = await get(K.DAILY)    || {};
+  state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
+  state.account  = await get(K.ACCOUNT)  || null;
   state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' };
 
   // Check for app shell and question pack updates
@@ -166,6 +172,47 @@ async function init() {
 
   // Kick off router
   router();
+
+  // Show account setup if first time
+  if (!state.account) {
+    showAccountSetupModal();
+  }
+
+  // Account setup avatar upload
+  document.getElementById('avatar-file-input')?.addEventListener('change', async e => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+      const preview = document.getElementById('avatar-preview');
+      if (preview) preview.src = ev.target.result;
+    };
+    reader.readAsDataURL(file);
+  });
+
+  // Account setup confirm button
+  document.getElementById('account-setup-confirm-btn')?.addEventListener('click', confirmAccountSetup);
+
+  // Account setup close (skip → anonymous)
+  document.getElementById('account-setup-close-btn')?.addEventListener('click', async () => {
+    if (!state.account) {
+      state.account = {
+        name: '学生',
+        avatar: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3Ctext x='50' y='65' text-anchor='middle' font-size='50'%3E👤%3C/text%3E%3C/svg%3E",
+        createdAt: Date.now()
+      };
+      await set(K.ACCOUNT, state.account);
+    }
+    document.getElementById('account-setup-modal').style.display = 'none';
+  });
+
+  // Completion modal confirm
+  document.getElementById('completion-confirm-btn')?.addEventListener('click', () => {
+    document.getElementById('completion-modal').style.display = 'none';
+  });
+
+  // QR import close
+  document.getElementById('qr-import-close-btn')?.addEventListener('click', closeQRImport);
 
   // Chart subject switcher
   document.getElementById('chart-subject-bar')?.addEventListener('click', e => {
@@ -272,12 +319,54 @@ function renderAll() {
 
 // HOME
 function renderHome() {
-  // Streak
+  // 100-day progress
+  const currentDay = getCurrentDay();
+  const dayProgress = state.meta.startDate
+    ? Math.min(100, Math.round((currentDay / 100) * 100))
+    : 0;
   const streak = calcStreak();
-  document.getElementById('streak-count').textContent = streak;
-  const sub = document.getElementById('streak-sub');
-  sub.textContent = streak === 0 ? '开始你的百日计划' : `已打卡 ${Object.keys(state.daily).length} 天`;
 
+  // Streak → 100-day display
+  document.getElementById('streak-count').textContent = currentDay > 0 ? currentDay : '0';
+  const sub = document.getElementById('streak-sub');
+  sub.textContent = state.meta.startDate
+    ? `第 ${currentDay} / 100 天`
+    : '开始你的百日计划';
+
+  // Streak card → add 100d progress bar if started
+  const streakCard = document.querySelector('.streak-card');
+  if (streakCard && state.meta.startDate) {
+    const existingBar = document.getElementById('day100-progress-bar');
+    if (!existingBar) {
+      const bar = document.createElement('div');
+      bar.id = 'day100-progress-bar';
+      bar.style.cssText = 'margin-top:6px;height:6px;background:#e0e0e0;border-radius:3px;overflow:hidden';
+      bar.innerHTML = `<div style="height:100%;width:${dayProgress}%;background:linear-gradient(90deg,#4CAF50,#81C784);border-radius:3px;transition:width .3s"></div>`;
+      streakCard.appendChild(bar);
+    } else {
+      const fill = existingBar.querySelector('div');
+      if (fill) fill.style.width = dayProgress + '%';
+    }
+  }
+
+  // Account info in header
+  if (state.account) {
+    let accEl = document.getElementById('header-account-info');
+    if (!accEl) {
+      accEl = document.createElement('div');
+      accEl.id = 'header-account-info';
+      accEl.style.cssText = 'display:flex;align-items:center;gap:6px;margin-right:8px;cursor:pointer';
+      accEl.dataset.action = 'nav';
+      accEl.dataset.view = 'settings';
+      accEl.innerHTML = `
+        <img id="header-account-avatar" src="" style="width:28px;height:28px;border-radius:50%;object-fit:cover;border:1.5px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.15)">
+        <span id="header-account-name" style="font-size:13px;font-weight:500;color:#fff;max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></span>`;
+      const headerRight = document.querySelector('.header-right');
+      headerRight.insertBefore(accEl, headerRight.firstChild);
+    }
+    document.getElementById('header-account-avatar').src = state.account.avatar || '';
+    document.getElementById('header-account-name').textContent = state.account.name || '';
+  }
 
   // Chart
   const homeChartEl = document.getElementById('home-chart-container');
@@ -294,7 +383,6 @@ function renderHome() {
   renderWeakSubjects();
   // CTA subtitle
   updatePracticeCtaSub();
-  renderSubjectsStrip();
 }
 
 function updatePracticeCtaSub() {
@@ -362,28 +450,36 @@ function getSubjectAccuracy(subj) {
 function renderWeakSubjects() {
   const el = document.getElementById('weak-subjects-container');
   if (!el) return;
-  const weakItems = SUBJECTS.map(subj => {
+
+  const threshold = state.settings.weakThreshold * 100;
+  const thresholdPct = Math.round(threshold);
+
+  // 全科按正确率升序排列（null/未学排最后），低于阈值的排前面
+  const all = SUBJECTS.map(subj => {
     const acc = getSubjectAccuracy(subj);
-    if (acc !== null && acc < 60) return { subj, acc };
-    return null;
-  }).filter(Boolean);
+    return { subj, acc };
+  }).sort((a, b) => {
+    if (a.acc === null && b.acc === null) return 0;
+    if (a.acc === null) return 1;
+    if (b.acc === null) return -1;
+    const aLow = a.acc < thresholdPct;
+    const bLow = b.acc < thresholdPct;
+    if (aLow && !bLow) return -1;
+    if (!aLow && bLow) return 1;
+    return a.acc - b.acc;
+  });
 
-
-  if (weakItems.length === 0) {
-    el.innerHTML = '';
-    return;
-  }
-
-  const pills = weakItems.map(({ subj, acc }) => `
-    <button class="weak-pill" data-action="start-subject" data-subject="${subj}">
+  const pills = all.map(({ subj, acc }) => {
+    const isWeak = acc !== null && acc < thresholdPct;
+    return `<button class="weak-pill${isWeak ? ' weak-pill-danger' : ''}" data-action="start-subject" data-subject="${subj}">
       <span class="weak-pill-name">${subjectName(subj)}</span>
-      <span class="weak-pill-rate">${acc}%</span>
-    </button>`).join('');
-
+      <span class="weak-pill-rate">${acc === null ? '未学' : acc + '%'}</span>
+    </button>`;
+  }).join('');
 
   el.innerHTML = `
     <div class="weak-subjects-card">
-      <div class="weak-subjects-header">⚠️ 这些科目正确率低于 60%，建议优先练习</div>
+      <div class="weak-subjects-header">⚠️ 低于 ${thresholdPct}% 正确率的科目优先练习</div>
       <div class="weak-pills-row">${pills}</div>
     </div>`;
 }
@@ -1081,7 +1177,44 @@ async function renderSessionEnd() {
   };
   await set(K.DAILY, state.daily);
 
+  // Record session + init meta (day1 baseline)
+  const sessionEntry = {
+    date: today,
+    practiced: 1,
+    questionsCount: totalAll,
+    correct: correctAll,
+    accuracy: acc,
+    score: newScore,
+    bySubject: byS,
+  };
+  state.sessions.push(sessionEntry);
+  await set(K.SESSIONS, state.sessions);
+
+  // First session ever → set day1 baseline
+  if (!state.meta.startDate) {
+    state.meta.startDate = today;
+    const day1Acc = {};
+    SUBJECTS.forEach(s => {
+      const sd = byS[s];
+      if (sd) {
+        const total = (sd.correct || 0) + (sd.wrong || 0);
+        day1Acc[s] = total > 0 ? Math.round((sd.correct || 0) / total * 100) : 0;
+      } else {
+        day1Acc[s] = null;
+      }
+    });
+    state.meta.day1SubjectAcc = day1Acc;
+    const valid = Object.values(day1Acc).filter(v => v !== null);
+    state.meta.day1AvgAcc = valid.length > 0
+      ? Math.round(valid.reduce((s, v) => s + v, 0) / valid.length)
+      : null;
+    await set(K.META, state.meta);
+  }
+
   const streak = calcStreak();
+
+  // Check 100-day completion
+  await checkCompletion100();
 
   container.innerHTML = `
     <div class="session-end">
@@ -1132,37 +1265,14 @@ function renderProgress() {
   `;
 }
 
-// SVG Chart — dynamic range from first check-in day, single points shown
+// SVG Chart — last 30 sessions
 function drawChart() {
   const W = 340, H = 120, PAD = 20;
-  const days = 30;
-  // 横轴从第一条打卡记录开始，而非固定30天
-  const allDateKeys = Object.keys(state.daily).filter(d => {
-    const s = state.daily[d];
-    return (s.questionsCount || 0) > 0;
-  }).sort();
-  const firstDay = allDateKeys[0] || null;
-  // 如果没有数据，显示空状态
-  if (!firstDay) {
+  const MAX_SESSIONS = 30;
+  const sessions = state.sessions.slice(-MAX_SESSIONS);
+
+  if (sessions.length === 0) {
     return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg"><text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#ccc" font-size="12">暂无数据</text></svg>`;
-  }
-  // 生成从第一条打卡到今天的连续日期（最多30天），用本地日期字符串
-  const today = new Date();
-  today.setHours(0,0,0,0);
-  // firstDay格式为YYYY-MM-DD，构造本地日期
-  const [fy, fm, fd] = firstDay.split('-').map(Number);
-  const start = new Date(fy, fm-1, fd);
-  // dayCount：从第一条打卡到今天，总天数，最多30
-  const totalDays = Math.ceil((today - start) / 86400000) + 1;
-  const dayCount = Math.min(30, Math.max(1, totalDays));
-  const dates = [];
-  for (let i = 0; i < dayCount; i++) {
-    const d = new Date(fy, fm-1, fd + i);
-    // 补零后转字符串
-    const y = d.getFullYear();
-    const m = String(d.getMonth()+1).padStart(2,'0');
-    const day = String(d.getDate()).padStart(2,'0');
-    dates.push(`${y}-${m}-${day}`);
   }
 
   const subj = state.chartSubject || 'all';
@@ -1172,49 +1282,39 @@ function drawChart() {
     history: '#795548', geography: '#607D8B', politics: '#F44336'
   };
   const typeColors = {
-    choice: '#4CAF50',
-    fill: '#2196F3',
-    short_answer: '#FF9800',
-    listening: '#8b5cf6',
-    dictation: '#ec4899',
-    passage_dictation: '#14b8a6',
+    choice: '#4CAF50', fill: '#2196F3', short_answer: '#FF9800',
+    listening: '#8b5cf6', dictation: '#ec4899', passage_dictation: '#14b8a6',
   };
 
-  let lines = []; // [{label, color, values}]
+  let lines = [];
 
   if (subj === 'all') {
-    // One line per subject
     const subjects = ['chinese','math','english','physics','chemistry','biology','history','geography','politics'];
     subjects.forEach(s => {
-      const vals = dates.map(d => {
-        const byS = (state.daily[d] || {}).bySubject || {};
-        const sdata = byS[s] || {};
-        const total = sdata.correct + sdata.wrong;
-        return total > 0 ? Math.round(sdata.correct / total * 100) : 0;
+      const vals = sessions.map(sess => {
+        const byS = sess.bySubject || {};
+        const sd = byS[s] || {};
+        const total = (sd.correct || 0) + (sd.wrong || 0);
+        return total > 0 ? Math.round((sd.correct || 0) / total * 100) : 0;
       });
       if (vals.some(v => v > 0)) {
         lines.push({ label: subjectName(s), color: lineColors[s] || '#999', values: vals });
       }
     });
   } else {
-    // One line per type for selected subject
     ['choice','fill','short_answer','listening','dictation','passage_dictation'].forEach(t => {
-      const vals = dates.map(d => {
-        const byS = (state.daily[d] || {}).bySubject || {};
-        const sdata = byS[subj] || {};
-        const byT = sdata.byType || {};
-        const tdata = byT[t] || {};
-        const total = tdata.correct + tdata.wrong;
-        return total > 0 ? Math.round(tdata.correct / total * 100) : 0;
+      const vals = sessions.map(sess => {
+        const byS = sess.bySubject || {};
+        const sd = byS[subj] || {};
+        const byT = sd.byType || {};
+        const td = byT[t] || {};
+        const total = (td.correct || 0) + (td.wrong || 0);
+        return total > 0 ? Math.round((td.correct || 0) / total * 100) : 0;
       });
       if (vals.some(v => v > 0)) {
         const labelMap = {
-          choice: '选择题',
-          fill: '填空题',
-          short_answer: '简答题',
-          listening: '听力选择',
-          dictation: '听写填空',
-          passage_dictation: '短文听写',
+          choice: '选择题', fill: '填空题', short_answer: '简答题',
+          listening: '听力选择', dictation: '听写填空', passage_dictation: '短文听写',
         };
         lines.push({ label: labelMap[t] || t, color: typeColors[t] || '#999', values: vals });
       }
@@ -1227,17 +1327,19 @@ function drawChart() {
 
   const allVals = lines.flatMap(l => l.values);
   const maxS = Math.max(10, ...allVals.filter(v => v > 0));
-  const xStep = dates.length > 1 ? (W - PAD * 2) / (dates.length - 1) : 0;
+  const n = sessions.length;
+  const xStep = n > 1 ? (W - PAD * 2) / (n - 1) : 0;
   const yScale = (H - PAD * 2) / maxS;
 
-  // X labels — evenly spaced based on actual date count
-  const xLabelCount = Math.min(5, dates.length);
-  const xLabelIndices = Array.from({length: xLabelCount}, (_, i) =>
-    Math.round(i * (dates.length - 1) / (xLabelCount - 1))
-  );
+  // X labels — show first, middle, last session index
+  const xLabelCount = Math.min(3, n);
+  const xLabelIndices = xLabelCount === 1 ? [0]
+    : xLabelCount === 2 ? [0, n-1]
+    : [0, Math.floor(n/2), n-1];
+  const startIdx = state.sessions.length - n; // absolute start index
   const xLabels = xLabelIndices.map(i => {
-    if (!dates[i]) return '';
-    return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel">${formatDateKeyShort(dates[i])}</text>`;
+    const absIdx = startIdx + i + 1;
+    return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel" text-anchor="middle">${absIdx}次</text>`;
   }).join('');
 
   // Y labels
@@ -1251,26 +1353,22 @@ function drawChart() {
       PAD + i * xStep,
       s > 0 ? H - PAD - s * yScale : null
     ]);
-    // 只有连续有两个非零点才画线段
     const polylinePts = pts.filter((p, i) => {
       if (p[1] === null) return false;
       const prev = pts[i-1];
-      const next = pts[i+1];
-      return prev !== null || next !== null;
+      return prev !== null && prev[1] !== null;
     }).map(p => p[0]);
 
     let polylineStr = '';
     if (polylinePts.length > 1) {
       polylineStr = `<polyline points="${polylinePts.map(p => `${p.toFixed(1)},${(H-PAD).toFixed(1)}`).join(' ')}" fill="none" stroke="${line.color}" stroke-width="1.8" stroke-opacity="0.85"/>`;
     }
-    // 所有非零点都画圆点
     const dots = pts.filter(p => p[1] !== null).map(p =>
       `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3" fill="${line.color}" opacity="0.9"/>`
     ).join('');
     return polylineStr + dots;
   }).join('');
 
-  // Legend
   const legendItems = lines.map(l =>
     `<span style="display:inline-flex;align-items:center;gap:3px;margin-right:8px;font-size:10px;color:${l.color}">
        <span style="display:inline-block;width:16px;height:2px;background:${l.color}"></span>${l.label}
@@ -1295,6 +1393,21 @@ async function renderSettings() {
   const remotePackVersion = state.remoteVersions?.questionBankVersion || '未知';
 
   container.innerHTML = `
+    ${state.account ? `
+    <div class="settings-card">
+      <div class="settings-row" style="align-items:center;gap:12px">
+        <img src="${(state.account.avatar || '')}" style="width:48px;height:48px;border-radius:50%;object-fit:cover">
+        <div>
+          <div class="settings-label" style="margin-bottom:2px">${state.account.name}</div>
+          <div class="settings-hint" style="margin:0">${state.meta.startDate ? '第 ' + getCurrentDay() + ' / 100 天' : '未开始'}</div>
+        </div>
+      </div>
+    </div>
+    <div class="settings-card">
+      <button class="primary-btn" data-action="export-account-qr" style="margin-bottom:8px">导出二维码</button>
+      <button class="secondary-btn" data-action="import-account-qr">扫码接入</button>
+    </div>
+    ` : ''}
     <div class="settings-card">
       <div class="settings-row">
         <span class="settings-label">易错阈值</span>
@@ -1394,10 +1507,6 @@ async function ensureTodayCheckin() {
     state.daily[today] = { practiced: 0, questionsCount: 0, correct: 0, accuracy: 0, score: 0, bySubject: {} };
     // First checkin of the day
     const streak = calcStreak();
-    if (streak === 0 && !state.meta.firstCheckinDate) {
-      state.meta.firstCheckinDate = today;
-      await set(K.META, state.meta);
-    }
     await set(K.DAILY, state.daily);
     // Show checkin modal only for home entry
     if (state.view === 'home') showCheckinModal();
@@ -1528,6 +1637,30 @@ async function handleClick(e) {
       if (window.deferredPWA) window.deferredPWA.prompt();
       break;
 
+    case 'account-setup-confirm':
+      await confirmAccountSetup();
+      break;
+
+    case 'export-account-qr':
+      await exportAccountQR();
+      break;
+
+    case 'import-account-qr':
+      await openQRImport();
+      break;
+
+    case 'close-qr-export':
+      document.getElementById('qr-export-modal').style.display = 'none';
+      break;
+
+    case 'close-qr-import':
+      closeQRImport();
+      break;
+
+    case 'completion-confirm':
+      document.getElementById('completion-modal').style.display = 'none';
+      break;
+
     case 'clear-qb-cache':
       await del(K.QB_CACHE);
       state.questionBank = createEmptyQuestionBank();
@@ -1572,6 +1705,7 @@ async function clearAllData() {
   await clear();
   state.progress = {};
   state.daily = {};
+  state.sessions = [];
   state.meta = {};
   state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' };
 
@@ -1616,6 +1750,240 @@ function showToast(msg, duration) {
   t.textContent = msg;
   t.style.display = 'block';
   setTimeout(() => { t.style.display = 'none'; }, duration || 2500);
+}
+
+// ============================================================
+// ACCOUNT SYSTEM
+// ============================================================
+function showAccountSetupModal() {
+  const modal = document.getElementById('account-setup-modal');
+  if (!modal) return;
+  // Reset inputs
+  const nameInput = document.getElementById('account-name-input');
+  if (nameInput) nameInput.value = '';
+  const avatarPreview = document.getElementById('avatar-preview');
+  if (avatarPreview) {
+    avatarPreview.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3Ctext x='50' y='65' text-anchor='middle' font-size='50'%3E👤%3C/text%3E%3C/svg%3E";
+  }
+  modal.style.display = 'flex';
+}
+
+async function confirmAccountSetup() {
+  const name = (document.getElementById('account-name-input')?.value || '').trim();
+  if (!name) { showToast('请输入名字'); return; }
+  const avatar = document.getElementById('avatar-preview')?.src || '';
+  state.account = { name, avatar, createdAt: Date.now() };
+  await set(K.ACCOUNT, state.account);
+  document.getElementById('account-setup-modal').style.display = 'none';
+  showToast('欢迎，' + name + '！');
+  renderHome();
+}
+
+async function exportAccountQR() {
+  if (!state.account) { showToast('请先创建账户'); return; }
+  const data = {
+    account: state.account,
+    sessions: state.sessions,
+    daily: state.daily,
+    meta: state.meta,
+    progress: state.progress,
+  };
+  const json = JSON.stringify(data);
+  const compressed = LZString.compressToBase64(json);
+  // Create modal first if not exists
+  let modal = document.getElementById('qr-export-modal');
+  if (!modal) modal = createQRExportModal();
+  const qrEl = document.getElementById('qr-export-canvas');
+  if (!qrEl) { showToast('QR容器不存在'); return; }
+  try {
+    await QRCode.toCanvas(qrEl, compressed, { width: 280, margin: 2, color: { dark: '#000000', light: '#ffffff' } });
+    modal.style.display = 'flex';
+  } catch(e) {
+    showToast('生成二维码失败');
+    console.error(e);
+  }
+}
+
+function createQRExportModal() {
+  const div = document.createElement('div');
+  div.id = 'qr-export-modal';
+  div.className = 'modal-overlay';
+  div.style.display = 'none';
+  div.innerHTML = `
+    <div class="modal-card float-card" style="top:20px;max-width:360px;text-align:center">
+      <div class="modal-toolbar" style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span class="modal-title">导出账户数据</span>
+        <button class="modal-close-btn" data-action="close-qr-export">×</button>
+      </div>
+      <p style="font-size:13px;color:#666;margin-bottom:12px">用新设备扫码接入，可恢复全部学习记录</p>
+      <canvas id="qr-export-canvas" style="display:block;margin:0 auto;max-width:100%"></canvas>
+      <p style="font-size:12px;color:#999;margin-top:10px">请保存此二维码</p>
+    </div>`;
+  document.body.appendChild(div);
+  // Also need to handle the close button action
+  div.querySelector('[data-action="close-qr-export"]')?.addEventListener('click', () => {
+    div.style.display = 'none';
+  });
+  return div;
+}
+
+let qrReader = null;
+
+async function openQRImport() {
+  const modal = document.getElementById('qr-import-modal');
+  if (!modal) return;
+  modal.style.display = 'flex';
+  const tip = document.getElementById('qr-import-tip');
+  const err = document.getElementById('qr-import-error');
+  if (tip) tip.style.display = 'block';
+  if (err) { err.style.display = 'none'; err.textContent = ''; }
+
+  // Wait for camera
+  try {
+    qrReader = new Html5Qrcode('qr-reader');
+    await qrReader.start(
+      { facingMode: 'environment' },
+      { fps: 10, qrbox: 220 },
+      onQRRead,
+      () => {} // ignore scan failures
+    );
+  } catch(e) {
+    if (err) { err.textContent = '无法访问摄像头，请确认权限已开启'; err.style.display = 'block'; }
+  }
+}
+
+async function onQRRead(decodedText) {
+  if (!qrReader) return;
+  try {
+    await qrReader.stop();
+  } catch(e) {}
+  qrReader = null;
+
+  let raw;
+  try {
+    raw = LZString.decompressFromBase64(decodedText);
+    if (!raw) throw new Error('decompress failed');
+  } catch(e) {
+    const el = document.getElementById('qr-import-error');
+    if (el) { el.textContent = '无效的二维码，请确认是百日闯导出的'; el.style.display = 'block'; }
+    return;
+  }
+
+  let data;
+  try {
+    data = JSON.parse(raw);
+  } catch(e) {
+    const el = document.getElementById('qr-import-error');
+    if (el) { el.textContent = '数据解析失败'; el.style.display = 'block'; }
+    return;
+  }
+
+  if (!data.account || !data.account.name) {
+    const el = document.getElementById('qr-import-error');
+    if (el) { el.textContent = '无效的账户数据'; el.style.display = 'block'; }
+    return;
+  }
+
+  // Import
+  if (data.account) {
+    state.account = data.account;
+    await set(K.ACCOUNT, state.account);
+  }
+  if (data.sessions) {
+    state.sessions = data.sessions;
+    await set(K.SESSIONS, state.sessions);
+  }
+  if (data.daily) {
+    state.daily = data.daily;
+    await set(K.DAILY, state.daily);
+  }
+  if (data.meta) {
+    state.meta = data.meta;
+    await set(K.META, state.meta);
+  }
+  if (data.progress) {
+    state.progress = data.progress;
+    await set(K.PROGRESS, state.progress);
+  }
+
+  document.getElementById('qr-import-modal').style.display = 'none';
+  showToast('恢复成功！' + (data.account.name || '') + '，欢迎回来');
+  renderHome();
+}
+
+function closeQRImport() {
+  if (qrReader) { qrReader.stop().catch(() => {}); qrReader = null; }
+  const modal = document.getElementById('qr-import-modal');
+  if (modal) modal.style.display = 'none';
+}
+
+// ============================================================
+// 100-DAY SYSTEM
+// ============================================================
+function getCurrentDay() {
+  if (!state.meta.startDate) return 0;
+  const start = new Date(state.meta.startDate);
+  start.setHours(0, 0, 0, 0);
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const diff = Math.ceil((today - start) / 86400000);
+  return Math.max(0, diff);
+}
+
+async function checkCompletion100() {
+  if (state.meta.completed100Days) return;
+  const day = getCurrentDay();
+  if (day >= 100) {
+    await showCompletionModal();
+    state.meta.completed100Days = true;
+    await set(K.META, state.meta);
+  }
+}
+
+async function showCompletionModal() {
+  const day1 = state.meta.day1AvgAcc;
+  const lastSession = state.sessions[state.sessions.length - 1];
+  const day100 = lastSession
+    ? Math.round(Object.values(lastSession.bySubject || {}).reduce((s, sd) => {
+        const total = (sd.correct || 0) + (sd.wrong || 0);
+        return s + (total > 0 ? Math.round((sd.correct || 0) / total * 100) : 0);
+      }, 0) / Math.max(1, Object.keys(lastSession.bySubject || {}).length))
+    : null;
+
+  const gain = day1 !== null && day100 !== null ? day100 - day1 : null;
+
+  document.getElementById('cmp-day1').textContent = day1 !== null ? day1 + '%' : '--';
+  document.getElementById('cmp-day100').textContent = day100 !== null ? day100 + '%' : '--';
+
+  const gainEl = document.getElementById('cmp-gain');
+  if (gain !== null && gainEl) {
+    const sign = gain >= 0 ? '+' : '';
+    gainEl.textContent = `总体提升 ${sign}${gain}%`;
+    gainEl.style.color = gain >= 0 ? '#4CAF50' : '#e53935';
+  }
+
+  // Per-subject comparison
+  const subjEl = document.getElementById('cmp-subjects');
+  if (subjEl && state.meta.day1SubjectAcc && lastSession) {
+    const rows = SUBJECTS.map(s => {
+      const d1 = state.meta.day1SubjectAcc[s];
+      const ds = lastSession.bySubject ? (lastSession.bySubject[s] || {}) : {};
+      const total = (ds.correct || 0) + (ds.wrong || 0);
+      const d100 = total > 0 ? Math.round((ds.correct || 0) / total * 100) : null;
+      if (d1 === null && d100 === null) return null;
+      const diff = (d1 !== null && d100 !== null) ? (d100 - d1) : null;
+      const sign = diff !== null ? (diff >= 0 ? '+' : '') : '';
+      const color = diff !== null ? (diff >= 0 ? '#4CAF50' : '#e53935') : '#999';
+      return `<div class="cmp-subj-row">
+        <span class="cmp-subj-name">${subjectName(s)}</span>
+        <span>${d1 !== null ? d1 + '%' : '--'} → ${d100 !== null ? d100 + '%' : '--'}</span>
+        <span style="color:${color}">${diff !== null ? sign + diff + '%' : ''}</span>
+      </div>`;
+    }).filter(Boolean).join('');
+    subjEl.innerHTML = rows;
+  }
+
+  document.getElementById('completion-modal').style.display = 'flex';
 }
 
 // ============================================================

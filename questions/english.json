@@ -7134,1089 +7134,6 @@
     "explanation": "A 20% discount on $45 is $45 × 0.20 = $9. Subtracting the discount from the original price: $45 - $9 = $36.00."
   },
   {
-    "id": "english-318",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "现在完成时"
-    ],
-    "question": "Which of the following sentences uses the present perfect tense correctly?",
-    "options": [
-      "A. She has visited Paris twice.",
-      "B. She visited Paris twice.",
-      "C. She has visit Paris twice.",
-      "D. She visits Paris twice."
-    ],
-    "answer": "A",
-    "explanation": "The present perfect is formed with 'have/has' followed by the past participle. 'Has visited' correctly uses 'has' (third‑person singular) plus the past participle 'visited'."
-  },
-  {
-    "id": "english-319",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "句型转换"
-    ],
-    "question": "Transform the following sentence into passive voice: 'The cat caught the mouse.'",
-    "options": [
-      "A. The mouse was caught by the cat.",
-      "B. The mouse caught the cat.",
-      "C. The mouse is catching the cat.",
-      "D. The cat is caught by the mouse."
-    ],
-    "answer": "A",
-    "explanation": "In passive voice, the object (the mouse) becomes the subject, the verb is changed to a form of 'be' (was) plus the past participle (caught), and the original subject (the cat) is placed after 'by'."
-  },
-  {
-    "id": "english-320",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "宾语从句"
-    ],
-    "question": "Which sentence contains an object clause?",
-    "options": [
-      "A. She likes to read books.",
-      "B. I wonder what she is doing.",
-      "C. The book is interesting.",
-      "D. He gave me a gift."
-    ],
-    "answer": "B",
-    "explanation": "In option B, the clause 'what she is doing' serves as the object of the verb 'wonder', making it an object clause."
-  },
-  {
-    "id": "english-321",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "定语从句"
-    ],
-    "question": "The movie ______ we watched last night was fantastic.",
-    "options": [
-      "A. who",
-      "B. which",
-      "C. that",
-      "D. whom"
-    ],
-    "answer": "C",
-    "explanation": "在本句中，空白处需要一个关系代词来引导定语从句，修饰先行词“the movie”。先行词是事物，关系代词可以用that或which，但在四个选项中，that是更合适的选项。who和whom用于指人，which可以指物，但在本题的语境下，that最常用且符合英语语法规则。"
-  },
-  {
-    "id": "english-322",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "状语从句"
-    ],
-    "question": "_____ she didn't study, she still passed the exam.",
-    "options": [
-      "A. Although",
-      "B. Because",
-      "C. When",
-      "D. Unless"
-    ],
-    "answer": "A",
-    "explanation": "Although introduces a concessive adverbial clause, indicating a contrast between not studying and still passing the exam."
-  },
-  {
-    "id": "english-323",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词性转换"
-    ],
-    "question": "Which of the following is the correct adverb form of the adjective 'quick'?",
-    "options": [
-      "A. quick",
-      "B. quickly",
-      "C. quicker",
-      "D. quickness"
-    ],
-    "answer": "B",
-    "explanation": "The adjective 'quick' changes to the adverb 'quickly' by adding the suffix -ly, which is a common word‑class conversion (词性转换) from adjective to adverb."
-  },
-  {
-    "id": "english-324",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "主旨大意"
-    ],
-    "question": "Read the short passage and choose the best main idea.\n\n\"During the summer, many families travel to the beach. They enjoy swimming, building sandcastles, and watching the sunset. The beach provides a fun and relaxing escape from everyday life.\"\n\nWhat is the main idea of this passage?",
-    "options": [
-      "A. Families travel to the beach only in winter.",
-      "B. The beach is a popular summer vacation spot for relaxation and fun.",
-      "C. Building sandcastles is the most important beach activity.",
-      "D. Sunsets are more beautiful at the beach than elsewhere."
-    ],
-    "answer": "B",
-    "explanation": "The passage describes families going to the beach during summer and enjoying various activities, emphasizing that the beach offers fun and relaxation. Option B captures this overall message."
-  },
-  {
-    "id": "english-325",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-时态"
-    ],
-    "question": "Choose the correct verb form to complete the sentence: \"If I ___ the exam, I will go to the beach.\"",
-    "options": [
-      "A. pass",
-      "B. passes",
-      "C. passed",
-      "D. will pass"
-    ],
-    "answer": "A",
-    "explanation": "In a first conditional sentence, we use the present simple after 'if' to refer to a future situation, so 'pass' is the correct choice."
-  },
-  {
-    "id": "english-326",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-被动语态"
-    ],
-    "question": "Which of the following sentences is in the passive voice?",
-    "options": [
-      "A. The teacher explains the lesson.",
-      "B. The students finished the project yesterday.",
-      "C. The book was read by the class.",
-      "D. He writes a letter every day."
-    ],
-    "answer": "C",
-    "explanation": "In a passive sentence, the object of the active sentence becomes the subject and the verb is in past participle form, often followed by 'by'. Here, 'The book' is the subject, and the verb 'was read' shows the passive voice."
-  },
-  {
-    "id": "english-327",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-从句"
-    ],
-    "question": "Which of the following sentences contains a subordinate clause?",
-    "options": [
-      "A. The dog barked loudly.",
-      "B. My friend, who lives next door, is a doctor.",
-      "C. She sang and danced.",
-      "D. We will go to the park."
-    ],
-    "answer": "B",
-    "explanation": "The clause 'who lives next door' is a relative (subordinate) clause that modifies 'My friend'."
-  },
-  {
-    "id": "english-328",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-情态动词"
-    ],
-    "question": "Which sentence uses the modal verb \"can\" correctly?",
-    "options": [
-      "A. She can to speak three languages.",
-      "B. She can speak three languages.",
-      "C. She can speaks three languages.",
-      "D. She can speaking three languages."
-    ],
-    "answer": "B",
-    "explanation": "\"Can\" is a modal verb followed directly by the base form of the verb without \"to\". In option B, \"can speak\" is grammatically correct. Options A, C, and D incorrectly add \"to\", \"s\", or \"ing\" after \"can\"."
-  },
-  {
-    "id": "english-329",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇拼写"
-    ],
-    "question": "Which of the following words is spelled correctly?",
-    "options": [
-      "A. recieve",
-      "B. receive",
-      "C. recieve",
-      "D. receeve"
-    ],
-    "answer": "B",
-    "explanation": "The correct spelling is 'receive', which follows the 'i before e except after c' rule."
-  },
-  {
-    "id": "english-330",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-介词"
-    ],
-    "question": "The cat is sitting ___ the table.",
-    "options": [
-      "A. on",
-      "B. in",
-      "C. under",
-      "D. with"
-    ],
-    "answer": "C",
-    "explanation": "The correct preposition is 'under', indicating that the cat is beneath the table."
-  },
-  {
-    "id": "english-331",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-非谓语"
-    ],
-    "question": "I saw him _____ the piano.",
-    "options": [
-      "A. play",
-      "B. playing",
-      "C. played",
-      "D. to play"
-    ],
-    "answer": "B",
-    "explanation": "In the structure 'see + object + non‑finite verb', the present participle (‑ing) is used to describe an action that was observed happening. Here, 'playing' shows the action in progress, so option B is correct."
-  },
-  {
-    "id": "english-332",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-比较级"
-    ],
-    "question": "Choose the correct comparative form to complete the sentence: \"This problem is ___ than the last one.\"",
-    "options": [
-      "A. harder",
-      "B. more hard",
-      "C. hardest",
-      "D. more harder"
-    ],
-    "answer": "A",
-    "explanation": "'Hard' is a one‑syllable adjective, so its comparative form is 'harder'. The correct structure is adjective + -er + than, not 'more hard' or 'hardest'."
-  },
-  {
-    "id": "english-333",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-倒装"
-    ],
-    "question": "Only after the concert ended _________ we could leave.",
-    "options": [
-      "A. we could leave",
-      "B. could we leave",
-      "C. we can leave",
-      "D. we left"
-    ],
-    "answer": "B",
-    "explanation": "当“Only after...”“等否定或限定性状语位于句首时，需要使用倒装结构，即将助动词或情态动词放在主语之前。原句中“Only after the concert ended”后应接倒装形式“could we leave”。因此正确答案是B。"
-  },
-  {
-    "id": "english-334",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-反意疑问句"
-    ],
-    "question": "She likes reading books, ___?",
-    "options": [
-      "A. does she?",
-      "B. doesn't she?",
-      "C. she does?",
-      "D. she doesn't?"
-    ],
-    "answer": "B",
-    "explanation": "In a tag question, we repeat the auxiliary verb from the main clause with opposite polarity. Since the statement is affirmative, the tag must be negative: \"doesn't she?\"."
-  },
-  {
-    "id": "english-335",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-虚拟语气"
-    ],
-    "question": "If I ___ a million dollars, I ___ a new house.",
-    "options": [
-      "A. had / would buy",
-      "B. have / will buy",
-      "C. had / will buy",
-      "D. have / would buy"
-    ],
-    "answer": "A",
-    "explanation": "In a conditional sentence that expresses a hypothetical (unreal) situation, we use the past simple tense in the if‑clause and \"would + base verb\" in the main clause. Therefore, the correct choice is A: \"had\" and \"would buy\"."
-  },
-  {
-    "id": "english-336",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-定语从句"
-    ],
-    "question": "She is the teacher ______ taught me English.",
-    "options": [
-      "A. which",
-      "B. that",
-      "C. who",
-      "D. whose"
-    ],
-    "answer": "C",
-    "explanation": "'Who' is used to refer to people in a defining relative clause. The clause 'who taught me English' describes 'the teacher'."
-  },
-  {
-    "id": "english-337",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-不定式"
-    ],
-    "question": "I want ___ English well.",
-    "options": [
-      "A. learn",
-      "B. learning",
-      "C. to learn",
-      "D. learned"
-    ],
-    "answer": "C",
-    "explanation": "Want后面要接动词不定式（to + 动词原形）作宾语，表示想要做某事。因此正确答案是\"to learn\"。"
-  },
-  {
-    "id": "english-338",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-现在进行时"
-    ],
-    "question": "She ____ (read) a book right now. Which is the correct form?",
-    "options": [
-      "A. reads",
-      "B. is reading",
-      "C. read",
-      "D. will read"
-    ],
-    "answer": "B",
-    "explanation": "现在进行时的构成是 be 动词（am/is/are）+ 动词的 -ing 形式，表示正在进行的动作。主语是 She，需要使用 is，故正确形式为 is reading。"
-  },
-  {
-    "id": "english-339",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-不规则复数"
-    ],
-    "question": "Which of the following nouns has an irregular plural form?",
-    "options": [
-      "A. cat (cats)",
-      "B. mouse (mice)",
-      "C. book (books)",
-      "D. dog (dogs)"
-    ],
-    "answer": "B",
-    "explanation": "The plural of 'mouse' is 'mice', which is an irregular plural, while the other nouns form regular plurals by adding -s."
-  },
-  {
-    "id": "english-340",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-名词性从句"
-    ],
-    "question": "I don’t know _______ .",
-    "options": [
-      "A. where he lives",
-      "B. where does he live",
-      "C. if he lives",
-      "D. he lives"
-    ],
-    "answer": "A",
-    "explanation": "'Where he lives' is a noun clause that functions as the direct object of the verb 'don’t know'. The other options are either not a proper clause (e.g., 'where does he live' is a question form) or a simple statement that doesn’t serve as an object."
-  },
-  {
-    "id": "english-341",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-祈使句"
-    ],
-    "question": "Which of the following is an imperative sentence?",
-    "options": [
-      "A. Close the door.",
-      "B. He closes the door.",
-      "C. Do you close the door?",
-      "D. The door is closed."
-    ],
-    "answer": "A",
-    "explanation": "Option A is an imperative sentence because it gives a command or request to the listener."
-  },
-  {
-    "id": "english-342",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-条件状语从句"
-    ],
-    "question": "Which of the following sentences correctly uses a conditional adverbial clause?",
-    "options": [
-      "A. If it will rain tomorrow, we will cancel the picnic.",
-      "B. If it rains tomorrow, we will cancel the picnic.",
-      "C. If it rained tomorrow, we will cancel the picnic.",
-      "D. If it rains tomorrow, we cancel the picnic."
-    ],
-    "answer": "B",
-    "explanation": "In a first conditional sentence, use the present simple tense in the if‑clause (if it rains) and will + base verb in the main clause (we will cancel). The other options misuse the verb forms."
-  },
-  {
-    "id": "english-343",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-让步状语从句"
-    ],
-    "question": "_____ it was raining, we decided to stay inside.",
-    "options": [
-      "A. Because",
-      "B. Although",
-      "C. Since",
-      "D. When"
-    ],
-    "answer": "B",
-    "explanation": "\"Although\" is a conjunction that introduces a concessive clause, showing a contrast between the rainy weather and the decision to stay inside. \"Because\" and \"since\" express cause/reason, while \"when\" indicates time, none of which fit the concessive meaning here."
-  },
-  {
-    "id": "english-344",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "语法-过去完成时"
-    ],
-    "question": "By the time we arrived at the station, the train ____.",
-    "options": [
-      "A. left",
-      "B. had left",
-      "C. has left",
-      "D. was leaving"
-    ],
-    "answer": "B",
-    "explanation": "The past perfect 'had left' indicates that the train had already departed before we arrived, which is the correct usage."
-  },
-  {
-    "id": "english-345",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-代词"
-    ],
-    "question": "Choose the correct pronoun to fill in the blank: \"_____ is my favorite subject because it is interesting.\"",
-    "options": [
-      "A. He",
-      "B. Him",
-      "C. His",
-      "D. They"
-    ],
-    "answer": "A",
-    "explanation": "The subject of the sentence needs a subject pronoun. \"He\" is a subject pronoun, while \"Him\" is an object pronoun, \"His\" is a possessive adjective/pronoun, and \"They\" is plural. Therefore, \"He\" is the correct choice."
-  },
-  {
-    "id": "english-346",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-形容词"
-    ],
-    "question": "Which of the following words is an adjective?",
-    "options": [
-      "A. quickly",
-      "B. beautiful",
-      "C. runs",
-      "D. happily"
-    ],
-    "answer": "B",
-    "explanation": "'Beautiful' is an adjective because it describes a noun; the other words are adverbs or verbs."
-  },
-  {
-    "id": "english-347",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-介词"
-    ],
-    "question": "He is interested ____ learning new languages.",
-    "options": [
-      "A. in",
-      "B. on",
-      "C. for",
-      "D. at"
-    ],
-    "answer": "A",
-    "explanation": "The correct preposition to use after 'interested' is 'in', as in 'interested in learning new languages'."
-  },
-  {
-    "id": "english-348",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "购物"
-    ],
-    "question": "You are at a grocery store and want to know how much of a product the shop has. Which of the following sentences is grammatically correct?",
-    "options": [
-      "A. How many sugar do you have?",
-      "B. How much sugar do you have?",
-      "C. How many sugars do you have?",
-      "D. How much sugars do you have?"
-    ],
-    "answer": "B",
-    "explanation": "'Sugar' is an uncountable noun, so we use 'how much' to ask about its quantity. 'How many' is used with countable nouns, and we do not add an -s after 'sugar' because it is uncountable."
-  },
-  {
-    "id": "english-349",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "比赛结果"
-    ],
-    "question": "Which sentence correctly reports the result of the match where Team A beat Team B 2‑1?",
-    "options": [
-      "A. Team A won 2‑1.",
-      "B. Team A loss 2‑1.",
-      "C. Team A draw 2‑1.",
-      "D. Team A beaten 2‑1."
-    ],
-    "answer": "A",
-    "explanation": "We use the verb 'win' (past tense 'won') to describe the team that beats the opponent. 'Loss' is a noun or verb but not used correctly here; 'draw' is a verb meaning to tie, not to win; 'beaten' is a past participle requiring an auxiliary verb such as 'was' or 'were'."
-  },
-  {
-    "id": "english-350",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "日程"
-    ],
-    "question": "Which word best completes the sentence: 'According to today's ___, we will have math class first.'",
-    "options": [
-      "A. schedule",
-      "B. scheduled",
-      "C. scheduling",
-      "D. scheduler"
-    ],
-    "answer": "A",
-    "explanation": "In this sentence, we need a noun to mean 'a plan of what is going to happen and when.' 'Schedule' is the correct noun form meaning a plan of events or appointments. 'Scheduled' is the past tense verb form, 'scheduling' is the present participle or gerund, and 'scheduler' refers to a person who makes schedules."
-  },
-  {
-    "id": "english-351",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "问路"
-    ],
-    "question": "Which of the following is the most appropriate way to ask for directions to a place?",
-    "options": [
-      "A. Where is the library?",
-      "B. How can I go to the library?",
-      "C. Could you tell me how to get to the library?",
-      "D. What is the library?"
-    ],
-    "answer": "C",
-    "explanation": "Option C uses a polite request structure with \"Could you tell me how to get to...\" which is the standard, courteous way to ask for directions in English. Options A, B, and D either sound blunt or are not proper question forms for asking directions."
-  },
-  {
-    "id": "english-352",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "指路"
-    ],
-    "question": "Which sentence correctly gives directions to the library?",
-    "options": [
-      "A. Go straight for two blocks, then turn left at the traffic light.",
-      "B. Going straight for two blocks, then turn left at the traffic light.",
-      "C. Go straight for two blocks, then left at the traffic light.",
-      "D. Going straight for two blocks, then left at the traffic light."
-    ],
-    "answer": "A",
-    "explanation": "Option A uses the correct imperative form “Go” and the proper prepositional phrase “turn left at the traffic light.” The other options either use a dangling participle (“Going”) or omit necessary words, making them grammatically incorrect for giving directions."
-  },
-  {
-    "id": "english-353",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "学习方法"
-    ],
-    "question": "Which of the following is the most effective way to improve your English grammar?",
-    "options": [
-      "A. Memorizing all vocabulary lists without context",
-      "B. Watching English movies without subtitles",
-      "C. Doing regular grammar exercises and reviewing mistakes",
-      "D. Reading only English comic books"
-    ],
-    "answer": "C",
-    "explanation": "Regular practice with grammar exercises and analyzing errors helps reinforce correct structures. The other options may provide exposure but lack focused practice, making them less effective for improving grammar."
-  },
-  {
-    "id": "english-354",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "邀请"
-    ],
-    "question": "Which sentence correctly uses the verb \"invite\" to ask someone to a party?",
-    "options": [
-      "A. I invite you to come to my birthday party.",
-      "B. I inviting you to come to my birthday party.",
-      "C. I invited you to come to my birthday party.",
-      "D. I invites you to come to my birthday party."
-    ],
-    "answer": "A",
-    "explanation": "In the present simple tense with the subject \"I\", the correct form of the verb \"invite\" is \"invite\". Option A uses this form correctly, while the other options use incorrect verb forms."
-  },
-  {
-    "id": "english-355",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "交通方式"
-    ],
-    "question": "I usually travel to school ____.",
-    "options": [
-      "A. by car",
-      "B. on car",
-      "C. with car",
-      "D. in car"
-    ],
-    "answer": "A",
-    "explanation": "We use the preposition 'by' with means of transport, and no article follows it. Therefore, the correct sentence is 'I usually travel to school by car.'"
-  },
-  {
-    "id": "english-356",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "预约"
-    ],
-    "question": "Which sentence is the correct way to ask for a reservation at a restaurant?",
-    "options": [
-      "A. I'd like to make a reservation for two people.",
-      "B. I want reservation for two people.",
-      "C. I want to make reservation for two people.",
-      "D. I would like making reservation."
-    ],
-    "answer": "A",
-    "explanation": "In English, the correct phrase is \"make a reservation\" or \"reserve a table\". The infinitive \"make\" is used, and a reservation is for something; thus, option A is grammatically correct."
-  },
-  {
-    "id": "english-357",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "场合"
-    ],
-    "question": "Which of the following sentences is most appropriate to use when greeting a new business partner?",
-    "options": [
-      "A. Hey, what's up?",
-      "B. Good morning, it's a pleasure to meet you.",
-      "C. Yo! Long time no see!",
-      "D. Hiya! How's it going?"
-    ],
-    "answer": "B",
-    "explanation": "When meeting a new business partner, a formal greeting such as 'Good morning, it's a pleasure to meet you.' is appropriate, while the other options are too informal."
-  },
-  {
-    "id": "english-358",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "原因"
-    ],
-    "question": "Which sentence correctly uses a cause‑and‑effect expression?",
-    "options": [
-      "A. Because his late arrival, the meeting started late.",
-      "B. Because of his late arrival, the meeting started late.",
-      "C. Since his late arrival, the meeting started late.",
-      "D. So his late arrival, the meeting started late."
-    ],
-    "answer": "B",
-    "explanation": "‘Because of’ is followed by a noun phrase (his late arrival), while ‘because’ introduces a clause. The sentence needs a preposition that links the reason (a noun phrase) to the result, so ‘Because of his late arrival, the meeting started late.’ is the only grammatically correct choice."
-  },
-  {
-    "id": "english-359",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "数学"
-    ],
-    "question": "Which of the following sentences uses correct subject‑verb agreement with a mathematical expression?",
-    "options": [
-      "A. Five and three are seven.",
-      "B. Five and three is seven.",
-      "C. Five plus three make seven.",
-      "D. Five plus three makes seven."
-    ],
-    "answer": "D",
-    "explanation": "In English, when a mathematical expression uses the word 'plus', the phrase is treated as a singular subject, so the verb should be in the singular form. Therefore 'Five plus three makes seven.' is grammatically correct."
-  },
-  {
-    "id": "english-360",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "复习"
-    ],
-    "question": "Choose the correct verb form to complete the sentence: 'She ___ to the library every Saturday.'",
-    "options": [
-      "A. go",
-      "B. goes",
-      "C. going",
-      "D. gone"
-    ],
-    "answer": "B",
-    "explanation": "In the present simple tense, third‑person singular subjects (he, she, it) require the verb to end in -s or -es. Therefore, 'goes' is the correct form."
-  },
-  {
-    "id": "english-361",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "作业"
-    ],
-    "question": "Which of the following sentences correctly uses the noun 'homework'?",
-    "options": [
-      "A. I have a lot of homework today.",
-      "B. I have a lots of homework today.",
-      "C. I have many homework today.",
-      "D. I have some homeworks today."
-    ],
-    "answer": "A",
-    "explanation": "'Homework' is an uncountable noun, so it does not take a plural form or the quantifier 'many'. The correct sentence uses 'a lot of' with the uncountable noun."
-  },
-  {
-    "id": "english-362",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "考试范围"
-    ],
-    "question": "Choose the correct sentence.",
-    "options": [
-      "A. Each of the students have a notebook.",
-      "B. Each of the students has a notebook.",
-      "C. Each of the students is having a notebook.",
-      "D. Each of the students have had a notebook."
-    ],
-    "answer": "B",
-    "explanation": "The pronoun \"each\" is singular, so it requires a singular verb. Therefore, \"has\" is the correct form."
-  },
-  {
-    "id": "english-363",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "篮球训练"
-    ],
-    "question": "Which sentence correctly uses the present continuous tense to describe a basketball training activity that is happening right now?",
-    "options": [
-      "A. I practice basketball training every day.",
-      "B. I am practicing basketball training now.",
-      "C. I will practice basketball training tomorrow.",
-      "D. I practiced basketball training yesterday."
-    ],
-    "answer": "B",
-    "explanation": "The present continuous tense (be + verb‑ing) is used for actions happening at the moment of speaking. Sentence B uses 'am practicing', which correctly describes an ongoing basketball training activity."
-  },
-  {
-    "id": "english-364",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "比赛时间"
-    ],
-    "question": "Which sentence correctly tells the competition time?",
-    "options": [
-      "A. The competition starts at 3 p.m.",
-      "B. The competition starts on 3 p.m.",
-      "C. The competition starts in 3 p.m.",
-      "D. The competition starts 3 p.m."
-    ],
-    "answer": "A",
-    "explanation": "We use the preposition 'at' before specific times (e.g., at 3 p.m.). The other options are incorrect because 'on' is used for dates, 'in' for longer periods, and the last option lacks a preposition."
-  },
-  {
-    "id": "english-365",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "门票"
-    ],
-    "question": "Which sentence correctly uses the word 'ticket'?",
-    "options": [
-      "A. I need ticket for the museum.",
-      "B. I need a ticket for the museum.",
-      "C. I need the ticket for the museum.",
-      "D. I need some ticket for the museum."
-    ],
-    "answer": "B",
-    "explanation": "The noun 'ticket' is a countable noun and must be preceded by an article or other determiner. Option B correctly uses the indefinite article 'a' before the singular noun 'ticket'."
-  },
-  {
-    "id": "english-366",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "价格计算"
-    ],
-    "question": "Mary wants to buy 4 pens that cost $2.50 each. How much will she pay in total?",
-    "options": [
-      "A. $10.00",
-      "B. $9.50",
-      "C. $8.00",
-      "D. $11.20"
-    ],
-    "answer": "A",
-    "explanation": "To find the total cost, multiply the price per pen ($2.50) by the number of pens (4). 2.50 × 4 = 10.00, so the correct answer is A."
-  },
-  {
-    "id": "english-367",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "餐厅"
-    ],
-    "question": "Which of the following sentences is correct when asking for more bread at a restaurant?",
-    "options": [
-      "A. Can I have some more bread?",
-      "B. Can I have any more bread?",
-      "C. Can I have some breads?",
-      "D. Can I have any breads?"
-    ],
-    "answer": "A",
-    "explanation": "In requests, 'some' is preferred: 'Can I have some more bread?' is natural. 'Any' is typically used in yes/no questions, though it can appear in polite offers, but 'some breads' and 'any breads' are ungrammatical because 'bread' is a non‑count noun."
-  },
-  {
-    "id": "english-368",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "活动时间"
-    ],
-    "question": "Choose the correct preposition to complete the sentence: We usually have lunch ___ 12:00.",
-    "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. to"
-    ],
-    "answer": "C",
-    "explanation": "We use 'at' before specific clock times (12:00). 'In' is used for months, years, or parts of the day; 'on' is used for dates and days of the week."
-  },
-  {
-    "id": "english-369",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "海豚表演"
-    ],
-    "question": "The dolphin show, ___ took place in the large pool, attracted thousands of visitors.",
-    "options": [
-      "A. which",
-      "B. that",
-      "C. who",
-      "D. whom"
-    ],
-    "answer": "A",
-    "explanation": "In this sentence the relative clause is non‑restrictive and refers to the dolphin show, so we use the relative pronoun 'which'."
-  },
-  {
-    "id": "english-370",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "question": "Read the following short passage and answer the question.\n\n\"Yesterday, Tom went to the library after school. He wanted to borrow a book about space. The librarian told him that the book was already taken by another student. Tom felt sad but decided to look for another interesting book. He finally found a story about animals and enjoyed reading it.\"\n\nWhat did Tom decide to do after he learned the space book was taken?",
-    "options": [
-      "A. He left the library immediately.",
-      "B. He asked the librarian for another book.",
-      "C. He returned home without a book.",
-      "D. He started a new project about space."
-    ],
-    "answer": "B",
-    "explanation": "According to the passage, after learning the space book was taken, Tom felt sad but decided to look for another interesting book, which means he asked the librarian for another book."
-  },
-  {
-    "id": "english-371",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词汇-序数词"
-    ],
-    "question": "Which of the following is the correct ordinal number for 4?",
-    "options": [
-      "A. fourth",
-      "B. four",
-      "C. fourly",
-      "D. fourthly"
-    ],
-    "answer": "A",
-    "explanation": "The ordinal number for the number four is 'fourth'. The other options are either the cardinal number ('four'), a non‑standard adverbial form ('fourly', 'fourthly'), or an incorrect spelling."
-  },
-  {
-    "id": "english-372",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "体育"
-    ],
-    "question": "Which sentence is grammatically correct when talking about playing basketball?",
-    "options": [
-      "A. I play the basketball.",
-      "B. I play basketball.",
-      "C. I do basketball.",
-      "D. I go to basketball."
-    ],
-    "answer": "B",
-    "explanation": "In English, we say 'play basketball' without an article when referring to the sport as a game. Using 'the' or other verbs like 'do' or 'go to' is incorrect."
-  },
-  {
-    "id": "english-373",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "时间"
-    ],
-    "question": "What time does the school ___ in the morning?",
-    "options": [
-      "A. start",
-      "B. starts",
-      "C. started",
-      "D. starting"
-    ],
-    "answer": "B",
-    "explanation": "When asking about time in the third person singular (he/she/it), we add -s to the verb. Since 'school' is singular and 'does' is used, the verb should be 'starts'."
-  },
-  {
-    "id": "english-374",
-    "type": "choice",
-    "subject": "english",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "社团"
-    ],
-    "question": "Which sentence correctly uses the word 'club' to refer to a student organization?",
-    "options": [
-      "A. I want to join a club to practice English.",
-      "B. I want to join club to practice English.",
-      "C. I want to join the club to practice English.",
-      "D. I want to join clubs to practice English."
-    ],
-    "answer": "A",
-    "explanation": "The indefinite article 'a' is used before singular countable nouns like 'club' when referring to one unspecified club. Option B lacks an article, option C uses 'the' which implies a specific known club, and option D uses the plural 'clubs' which changes the meaning."
-  },
-  {
     "id": "english-375",
     "type": "choice",
     "subject": "english",
@@ -8671,5 +7588,1985 @@
     ],
     "answer": "B",
     "explanation": "In polite requests for food or drink, we use 'some' after modal verbs like 'could' or 'would you like'. The correct phrase is 'Could I have some coffee?'"
+  },
+  {
+    "id": "english-369",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "There are only ___ students in the classroom today.",
+    "options": [
+      "A. few",
+      "B. a few",
+      "C. little",
+      "D. a little"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-370",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "Which of the following sentences uses the past simple tense correctly?",
+    "options": [
+      "A. She eat dinner at 7 PM yesterday.",
+      "B. They have visited Paris last summer.",
+      "C. He watched a movie last night.",
+      "D. We are playing soccer tomorrow."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-371",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "The cake ___ by my mother yesterday.",
+    "options": [
+      "A. baked",
+      "B. was baked",
+      "C. is baked",
+      "D. bakes"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-372",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "You _____ smoke in the library; it is strictly forbidden.",
+    "options": [
+      "A. don't have to",
+      "B. mustn't",
+      "C. can't",
+      "D. shouldn't"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-373",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "He enjoys _____ music after school.",
+    "options": [
+      "A. listen",
+      "B. to listen",
+      "C. listening",
+      "D. listened"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-374",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "I know _______.",
+    "options": [
+      "A. where is the library",
+      "B. where the library is",
+      "C. to find the library",
+      "D. the library is where"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-375",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "The boy ______ father is a doctor wants to be a doctor too.",
+    "options": [
+      "A. who",
+      "B. whose",
+      "C. that",
+      "D. which"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-376",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "_____ it was raining heavily, we decided to go hiking.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. When",
+      "D. If"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-377",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ___ you, I would accept the invitation. Which verb form correctly completes the sentence?",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. am",
+      "D. be"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-378",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "He is terrified ____ spiders.",
+    "options": [
+      "A. of",
+      "B. from",
+      "C. with",
+      "D. by"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-379",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Which of the following is the correct adverb form of the adjective 'quick'?",
+    "options": [
+      "A. quickful",
+      "B. quickly",
+      "C. quicker",
+      "D. quickness"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-380",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Read the following passage and answer the question.\n\nLast weekend, Tom and his family went to the beach. The sky was blue, and the sun shone brightly. They built sandcastles, swam in the cool water, and had a picnic lunch. In the afternoon, they found a sea turtle nest and watched the baby turtles hatch. Everyone felt happy and learned something new about nature. Tom promised to help protect the beach in the future.\n\nWhat is the main idea of the passage?",
+    "options": [
+      "A. The beach is a dangerous place for families.",
+      "B. Tom and his family enjoyed a fun and educational day at the beach.",
+      "C. Sea turtles are endangered and need more protection.",
+      "D. The weather was bad during Tom's weekend."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-381",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "After school, Lily usually walks home. Today, she felt tired and decided to take the bus. She got on the bus and _________ a seat next to the window.",
+    "options": [
+      "A. find",
+      "B. finds",
+      "C. found",
+      "D. finding"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-382",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "Read the passage and choose the best word to fill in the blank.\n\nYesterday, Sarah ______ to the library after school. She wanted to borrow a book about animals. After reading it, she told her friends about the amazing facts she learned.",
+    "options": [
+      "A. go",
+      "B. went",
+      "C. will go",
+      "D. going"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-383",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "You are going to write a formal letter to your school principal to suggest improvements to the library. Which sentence is the most appropriate way to begin your letter?",
+    "options": [
+      "A. Hey Mr. Principal,",
+      "B. Dear Principal Lee,",
+      "C. Hi! I have a suggestion.",
+      "D. To Whom It May Concern,"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-384",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "Which word best fills the blank: 'I have ___ friends in this school.'",
+    "options": [
+      "A. few",
+      "B. a few",
+      "C. little",
+      "D. a little"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-385",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "They ________ (visit) their grandparents next weekend.",
+    "options": [
+      "A. will visit",
+      "B. visit",
+      "C. visited",
+      "D. are visiting"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-386",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "Which of the following sentences is written in the passive voice?",
+    "options": [
+      "A. She writes a letter every day.",
+      "B. The letter is written by her.",
+      "C. She wrote a letter yesterday.",
+      "D. She will write a letter tomorrow."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-387",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "He looks exhausted. He ___ be very tired after the long meeting.",
+    "options": [
+      "A. can",
+      "B. must",
+      "C. might",
+      "D. should"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-388",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "_____ the homework, Tom decided to watch TV.",
+    "options": [
+      "A. Finished",
+      "B. Finishing",
+      "C. To finish",
+      "D. Having finished"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "english-389",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "_____ surprised everyone in the class.",
+    "options": [
+      "A. The sudden announcement",
+      "B. That the teacher announced the test early",
+      "C. The students' excitement",
+      "D. The bell ringing"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-390",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "Complete the sentence with the correct relative pronoun: The girl _______ mother is a doctor won the scholarship.",
+    "options": [
+      "A. who",
+      "B. which",
+      "C. that",
+      "D. whose"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "english-391",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "_____ it was raining, we decided to stay inside.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. Unless",
+      "D. When"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-392",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ___ a million dollars, I would travel around the world.",
+    "options": [
+      "A. have",
+      "B. had",
+      "C. will have",
+      "D. would have"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-393",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "Which preposition correctly completes the sentence? 'He is interested ___ learning new languages.'",
+    "options": [
+      "A. in",
+      "B. on",
+      "C. at",
+      "D. about"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-394",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "The ______ (decide) of the committee was final.",
+    "options": [
+      "A. decide",
+      "B. decided",
+      "C. deciding",
+      "D. decision"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "english-395",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Read the following short passage and answer the question.\n\nJack is a student in Grade 7. He likes playing soccer after school. Yesterday, he played soccer with his friends for an hour. He was very tired but happy. Today, he has a math test, so he needs to study. He is reviewing his notes and solving practice problems. He hopes to get a good grade.\n\nWhat is Jack's plan for today?",
+    "options": [
+      "A. Play soccer with his friends",
+      "B. Study for his math test",
+      "C. Go to the library to read",
+      "D. Watch TV at home"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-396",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "After school, Tom went to the library. He wanted to find a book for his science project. While searching, he found a thick book about space. The book _______ his favorite.",
+    "options": [
+      "A. is",
+      "B. was",
+      "C. were",
+      "D. be"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-397",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "Read the passage below and choose the correct word to fill in the blank.\n\nOne day, a young boy named Jack went to the park with his dog. While he was playing fetch, the ball got stuck in a tall tree. Jack tried to reach the ball by climbing the tree, but it was too high. He decided to ask his friend for help. His friend brought a long stick and carefully knocked the ball down.\n\nThe ball fell onto the grass and rolled away. Jack thanked his friend and they both went home, feeling ____.",
+    "options": [
+      "A. happy",
+      "B. happily",
+      "C. sadness",
+      "D. sad"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-398",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "When you write a composition, what is the best way to begin the first paragraph?",
+    "options": [
+      "A. Start with a vivid description that supports the main idea.",
+      "B. Start with a topic sentence that states the main idea.",
+      "C. Start with a concluding sentence.",
+      "D. Start with a question that has no connection to the main idea."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-399",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "Which of the following sentences uses the word 'advice' correctly?",
+    "options": [
+      "A. He gave me a good advice.",
+      "B. She advised me to read more.",
+      "C. I need some advice about my project.",
+      "D. They advice us to be on time."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-400",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "Listen! The baby ___ (cry).",
+    "options": [
+      "A. cries",
+      "B. cry",
+      "C. is crying",
+      "D. cried"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-401",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "Which of the following sentences is written in the passive voice?",
+    "options": [
+      "A. The teacher explained the lesson.",
+      "B. The lesson was explained by the teacher.",
+      "C. The teacher will explain the lesson tomorrow.",
+      "D. The teacher has explained the lesson."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-402",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "You ___ worry about the exam; you have studied a lot.",
+    "options": [
+      "A. must",
+      "B. mustn't",
+      "C. don't have to",
+      "D. should"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-403",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "Tom suggested ___ the project until next week because he needed more time to review the details.",
+    "options": [
+      "A. to postpone",
+      "B. postponing",
+      "C. postponed",
+      "D. postpone"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-404",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "He didn't realize _______.",
+    "options": [
+      "A. that the test was tomorrow.",
+      "B. if the test was tomorrow.",
+      "C. what the test was tomorrow.",
+      "D. when the test was tomorrow."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-405",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "The boy ______ father works in Beijing is my friend.",
+    "options": [
+      "A. who",
+      "B. which",
+      "C. whose",
+      "D. that"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-406",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "_____ she was tired, she finished the homework.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. If",
+      "D. When"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-407",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ___ you, I would accept the offer.",
+    "options": [
+      "A. am",
+      "B. were",
+      "C. was",
+      "D. be"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-408",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "She is interested ___ learning new languages.",
+    "options": [
+      "A. in",
+      "B. on",
+      "C. at",
+      "D. for"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-409",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Please select the correct noun form of the verb 'analyze' to fill in the blank: 'The _______ of the data took several hours.'",
+    "options": [
+      "A. analyzing",
+      "B. analysis",
+      "C. analyzed",
+      "D. analytic"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-410",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Read the following passage and answer the question below.\n\nOn a sunny Saturday, Lucy and her brother Max decided to explore the old abandoned lighthouse at the edge of their town. They had heard many stories about the lighthouse, and they were curious to see it for themselves. When they arrived, the building was covered in ivy, and the door was half‑open. Inside, they found a dusty room full of old maps and a broken telescope. They imagined the lighthouse keeper who once worked there, watching ships at night. After an hour of exploring, they left, feeling excited about their adventure.\n\nWhat can we infer about the lighthouse based on the passage?",
+    "options": [
+      "A. It is still in use today.",
+      "B. It has been empty for many years.",
+      "C. It was destroyed recently.",
+      "D. It is a popular tourist attraction."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-411",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "Mike usually rides his bike to school. Yesterday, he ______ the bus because it was raining.",
+    "options": [
+      "A. takes",
+      "B. took",
+      "C. taken",
+      "D. taking"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-412",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "Last weekend, Tom and his friends went hiking in the mountains. The weather was sunny and warm. They walked for two hours and reached a beautiful lake. At the lake, Tom _______ his camera to take photos of the scenery. He wanted to capture the clear water and the blue sky.",
+    "options": [
+      "A. used",
+      "B. broke",
+      "C. lent",
+      "D. forgot"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-413",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "Which of the following is the most appropriate topic sentence for a paragraph about the benefits of reading books?",
+    "options": [
+      "A. Reading books can help you relax.",
+      "B. Many people enjoy reading because it is fun.",
+      "C. Reading books provides many benefits, including improving vocabulary and expanding knowledge.",
+      "D. Books have pages and covers."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-414",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "Which word indicates a small amount of an uncountable noun in a negative sense?",
+    "options": [
+      "A. few",
+      "B. a few",
+      "C. little",
+      "D. a little"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-415",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "When I arrived at the station, the train ___.",
+    "options": [
+      "A. left",
+      "B. has left",
+      "C. was leaving",
+      "D. leaves"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-416",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "Which of the following sentences is written in the passive voice?",
+    "options": [
+      "A. The manager approved the report yesterday.",
+      "B. The report was approved by the manager yesterday.",
+      "C. The manager will approve the report tomorrow.",
+      "D. The manager is approving the report now."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-417",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "She is only 12 years old; she ___ drive a car.",
+    "options": [
+      "A. must",
+      "B. can",
+      "C. may",
+      "D. cannot"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "english-418",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "The teacher asked the students _____ the homework before class.",
+    "options": [
+      "A. complete",
+      "B. to complete",
+      "C. completing",
+      "D. completed"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-419",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "I wonder _____.",
+    "options": [
+      "A. what is his name",
+      "B. what his name is",
+      "C. that his name",
+      "D. who his name"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-420",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "I know the man _______ sister is a famous singer.",
+    "options": [
+      "A. who",
+      "B. whom",
+      "C. whose",
+      "D. that"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-421",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "Choose the correct conjunction to complete the adverbial clause of time in the following sentence: 'She will call you ___ she arrives.'",
+    "options": [
+      "A. because",
+      "B. although",
+      "C. as soon as",
+      "D. if"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-422",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ____ a bird, I would fly over the ocean.",
+    "options": [
+      "A. am",
+      "B. was",
+      "C. were",
+      "D. be"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-423",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "She is interested ____ learning English.",
+    "options": [
+      "A. in",
+      "B. on",
+      "C. at",
+      "D. of"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-424",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Which of the following is the adjective form of the noun 'success'?",
+    "options": [
+      "A. Successify",
+      "B. Successful",
+      "C. Successfully",
+      "D. Succeed"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-425",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Read the following passage and answer the question.\n\nEmma is a fifth‑grade student. She studies math every day after school. She wants to become a scientist one day. She reads many books about space and planets. Emma's teacher says she has a bright future. Emma's favorite subject is science.\n\nWhat does Emma want to be when she grows up?",
+    "options": [
+      "A. Teacher",
+      "B. Scientist",
+      "C. Writer",
+      "D. Doctor"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-426",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "Read the following passage and choose the best word to fill in the blank.\n\nEvery morning, Sarah drinks a cup of coffee to help her stay _______ during the early class.",
+    "options": [
+      "A. awake",
+      "B. sleepy",
+      "C. tired",
+      "D. bored"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-427",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "On a rainy afternoon, Tom stayed at home. He decided to read a book about space. After reading the first chapter, he felt _____ about the story.",
+    "options": [
+      "A. excited",
+      "B. exciting",
+      "C. excitedly",
+      "D. excite"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-428",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "Which of the following is the most important element of a well-written paragraph?",
+    "options": [
+      "A. A catchy title",
+      "B. A clear topic sentence",
+      "C. A list of difficult vocabulary",
+      "D. Many exclamation marks"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-429",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "Which word correctly completes the sentence: 'The new law will _______ the economy.'",
+    "options": [
+      "A. affect",
+      "B. effect",
+      "C. infect",
+      "D. defect"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-430",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "By the time I reached the station, the train _____.",
+    "options": [
+      "A. left",
+      "B. leaves",
+      "C. had left",
+      "D. has left"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-431",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "The new computer ___ by the technician last week.",
+    "options": [
+      "A. installed",
+      "B. was installed",
+      "C. is installed",
+      "D. has installed"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-432",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "He ___ ride a bike when he was five years old.",
+    "options": [
+      "A. can",
+      "B. could",
+      "C. may",
+      "D. must"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-433",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "The teacher told us ____ our homework before class.",
+    "options": [
+      "A. finish",
+      "B. to finish",
+      "C. finishing",
+      "D. finished"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-434",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "I wonder ______ he will come to the party tomorrow.",
+    "options": [
+      "A. if",
+      "B. whether",
+      "C. that",
+      "D. which"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-435",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "The boy ___ mother is a doctor works at the hospital.",
+    "options": [
+      "A. who",
+      "B. which",
+      "C. whose",
+      "D. that"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-436",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "______ he was very tired, he continued to study.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. Unless",
+      "D. When"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-437",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ___ you, I would accept the job offer.",
+    "options": [
+      "A. am",
+      "B. was",
+      "C. were",
+      "D. be"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-438",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "He is interested ___ learning about history.",
+    "options": [
+      "A. in",
+      "B. on",
+      "C. at",
+      "D. with"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-439",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Complete the sentence with the correct form of the word in brackets.\nShe is very _____ (friend) to everyone.",
+    "options": [
+      "A. friend",
+      "B. friendly",
+      "C. friendship",
+      "D. friendless"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-440",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "阅读下面的短文，然后回答问题。\n\nMany cities around the world have 'no‑car zones' in their downtown areas. These zones are created to reduce traffic congestion, lower air pollution, and encourage people to walk or cycle. In some cities, only electric vehicles are allowed, while in others, bicycles and public transport are the only options. The idea is gaining popularity, but it also brings challenges. Shop owners worry about fewer customers, and some residents feel that their freedom to drive is limited. Yet, studies show that air quality improves quickly after the zones are introduced.\n\nWhat is one of the main purposes of creating 'no‑car zones'?",
+    "options": [
+      "A. To increase the number of cars on the road.",
+      "B. To reduce traffic congestion and air pollution.",
+      "C. To make driving more convenient for residents.",
+      "D. To limit the use of public transportation."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-441",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "Last weekend, my family went to the beach. We ______ a lot of sandcastles and collected shells.",
+    "options": [
+      "A. built",
+      "B. made",
+      "C. created",
+      "D. had"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-442",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "Last weekend, the Smith family decided to go on a picnic in the countryside. They packed sandwiches, fruit, and a big bottle of lemonade. After they arrived, the children ran around the green field, while their parents set up a blanket under a large oak tree. While they were eating, a gentle breeze began to blow, and the leaves of the tree made a soft rustling sound. Suddenly, a small squirrel appeared from behind the trunk and stared at them. The children were excited and wanted to feed it. Their mother said, If you want to make friends with it, you should be ______.",
+    "options": [
+      "A. patient",
+      "B. excited",
+      "C. angry",
+      "D. scared"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-443",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "When writing an introduction for an argumentative essay, which of the following should be included?",
+    "options": [
+      "A. A detailed list of all supporting points.",
+      "B. Background information and a thesis statement.",
+      "C. The author's personal feelings only.",
+      "D. The final conclusion of the essay."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-444",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "Which word best completes the sentence: 'Please ___ your homework tomorrow.'",
+    "options": [
+      "A. bring",
+      "B. take",
+      "C. fetch",
+      "D. carry"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-445",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "I ___ that film last week.",
+    "options": [
+      "A. have seen",
+      "B. saw",
+      "C. see",
+      "D. will see"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-446",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "The song _____ by the famous singer last night.",
+    "options": [
+      "A. sung",
+      "B. was sung",
+      "C. is sung",
+      "D. will be sung"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-447",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "The teacher says we ___ submit the project by Friday.",
+    "options": [
+      "A. must",
+      "B. can",
+      "C. might",
+      "D. could"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-448",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "He enjoys _____ in the pool. Which of the following correctly fills the blank with a non‑finite verb?",
+    "options": [
+      "A. swim",
+      "B. to swim",
+      "C. swimming",
+      "D. swam"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-449",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "_____ we should bring an umbrella depends on the weather.",
+    "options": [
+      "A. That",
+      "B. Whether",
+      "C. If",
+      "D. What"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-450",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "The girl ___ father works in Shanghai is my classmate.",
+    "options": [
+      "A. who",
+      "B. whose",
+      "C. that",
+      "D. which"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-451",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "Which word can be used to start an adverbial clause in the sentence: '_____ it was raining, we decided to stay inside.'?",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. However",
+      "D. Therefore"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-452",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ___ rich, I would travel around the world.",
+    "options": [
+      "A. am",
+      "B. were",
+      "C. is",
+      "D. be"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-453",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "Which preposition best completes the sentence: \"She is good ___ math.\"?",
+    "options": [
+      "A. in",
+      "B. at",
+      "C. on",
+      "D. for"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-454",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Which of the following is the adverb form of the adjective 'quick'?",
+    "options": [
+      "A. quick",
+      "B. quickly",
+      "C. quickness",
+      "D. quicker"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-455",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Read the short passage and answer the question.\n\nLast weekend, Tom and his classmates visited the City Science Museum. They were excited to see the new space exhibit. In the exhibit, they learned about the planets, built a small rocket, and even took a virtual tour of the moon. Tom was especially interested in the model of a rover that can move on Mars. He asked the guide many questions about how rovers work. At the end of the visit, the guide gave each student a souvenir sticker of a planet.\n\nWhat did Tom ask the guide about?",
+    "options": [
+      "A. How the planet models were made.",
+      "B. How rovers work.",
+      "C. How to build a rocket.",
+      "D. The history of the museum."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-456",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "John was late for school because he _____ his alarm clock.",
+    "options": [
+      "A. forgot",
+      "B. missed",
+      "C. lost",
+      "D. broke"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-457",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "Read the following passage and choose the best word to fill in the blank.\n\nTom and his friends went to the park last Saturday. The weather was sunny and warm. They played soccer and had a picnic. After lunch, Tom felt tired and decided to take a short nap under a big tree. He ___ for about twenty minutes and then woke up refreshed.",
+    "options": [
+      "A. slept",
+      "B. ran",
+      "C. read",
+      "D. cooked"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-458",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "Which of the following sentences is the most appropriate topic sentence for a paragraph about 'My favorite season'?",
+    "options": [
+      "A. I think summer is the best season.",
+      "B. My favorite season is autumn, when the leaves change color and the air is crisp.",
+      "C. Seasons are part of nature and affect our daily life.",
+      "D. What is your favorite season?"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-459",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "The heavy rain caused the river to _____.",
+    "options": [
+      "A. rise",
+      "B. raise",
+      "C. arise",
+      "D. arose"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-460",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "Which of the following sentences correctly uses the past continuous tense?",
+    "options": [
+      "A. They were playing football when it started to rain.",
+      "B. They played football when it started to rain.",
+      "C. They have played football when it started to rain.",
+      "D. They will play football when it started to rain."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-461",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "The letter ________ by Tom yesterday.",
+    "options": [
+      "A. was wrote",
+      "B. was written",
+      "C. is written",
+      "D. wrote"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-462",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "_____ I borrow your pen?",
+    "options": [
+      "A. Can",
+      "B. May",
+      "C. Must",
+      "D. Should"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-463",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "I look forward to _______ you at the conference.",
+    "options": [
+      "A. meet",
+      "B. meeting",
+      "C. to meet",
+      "D. met"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-464",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "____ made everyone laugh.",
+    "options": [
+      "A. The teacher told a joke",
+      "B. That the teacher told a joke",
+      "C. Telling a joke",
+      "D. The joke was told"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-465",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "I know the girl ____ mother works at a hospital.",
+    "options": [
+      "A. who",
+      "B. which",
+      "C. whose",
+      "D. that"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-466",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "_____ she was very tired, she still finished her homework on time.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. When",
+      "D. If"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-467",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ____ you, I would take the job.",
+    "options": [
+      "A. am",
+      "B. was",
+      "C. were",
+      "D. will be"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-468",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "Which preposition correctly completes the sentence: She is very good ___ learning new languages?",
+    "options": [
+      "A. at",
+      "B. in",
+      "C. on",
+      "D. for"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-469",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Which of the following correctly fills the blank? \"She sings _____\"",
+    "options": [
+      "A. beautiful",
+      "B. beautifully",
+      "C. beauty",
+      "D. beauteous"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-470",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Read the following passage and answer the question.\n\nTom was walking in the park when he saw a small dog barking loudly. The dog had a broken leg and looked scared. Tom took the dog to a nearby vet, who fixed its leg. The next day, the owner came and thanked Tom.\n\nWhat is the main message of the passage?",
+    "options": [
+      "A. Dogs are dangerous animals.",
+      "B. Small acts of kindness can make a big difference.",
+      "C. Parks are the best places to find dogs.",
+      "D. Tom enjoys spending time alone."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-471",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "Because of the heavy rain, the children had to _____ their outdoor activities and stay inside all day.",
+    "options": [
+      "A. cancel",
+      "B. postpone",
+      "C. continue",
+      "D. avoid"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-472",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "Read the passage and choose the best word to fill in the blank.\\n\\nIt was a sunny Saturday morning. Tom and his friends decided to go to the park for a picnic. After they arrived, Tom spread a blanket on the grass and _____ the food from his backpack.",
+    "options": [
+      "A. unpacked",
+      "B. ate",
+      "C. took",
+      "D. opened"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-473",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "Which of the following is the most appropriate opening line for a formal letter?",
+    "options": [
+      "A. Dear Mr. Johnson,",
+      "B. Hi Mr. Johnson,",
+      "C. Hey Mr. Johnson,",
+      "D. Yo Mr. Johnson,"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-474",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "The teacher asked the students to _____ the new words in the dictionary.",
+    "options": [
+      "A. look up",
+      "B. look for",
+      "C. look after",
+      "D. look into"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-475",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "Which of the following sentences uses the present perfect tense?",
+    "options": [
+      "A. She works at a bank.",
+      "B. She worked at a bank.",
+      "C. She has worked at a bank for five years.",
+      "D. She is working at a bank."
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-476",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "Which sentence is written in the passive voice?",
+    "options": [
+      "A. The chef prepared a delicious meal.",
+      "B. The cake was eaten by the children.",
+      "C. She writes many letters.",
+      "D. They will finish the project tomorrow."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-477",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "Which of the following sentences correctly uses a modal verb to express past ability?",
+    "options": [
+      "A. He could to swim when he was five.",
+      "B. He could swim when he was five.",
+      "C. He could swimming when he was five.",
+      "D. He can swim when he was five."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-478",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "_____ the letter, she went to the post office.",
+    "options": [
+      "A. To write",
+      "B. Writing",
+      "C. Written",
+      "D. Wrote"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-479",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "Which of the following sentences contains a noun clause that functions as the subject?",
+    "options": [
+      "A. That she was late made us worry.",
+      "B. I think that he is right.",
+      "C. She told me that she would come.",
+      "D. He gave me what I needed."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-480",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "Choose the correct relative pronoun to fill in the blank: I met a girl _____ mother works at a hospital.",
+    "options": [
+      "A. who",
+      "B. whose",
+      "C. that",
+      "D. which"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-481",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "_____ she was tired, she didn't want to rest.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. Unless",
+      "D. Since"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-482",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ___ you, I would take the job.",
+    "options": [
+      "A. am",
+      "B. was",
+      "C. were",
+      "D. be"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-483",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "She is good _____ math.",
+    "options": [
+      "A. at",
+      "B. in",
+      "C. on",
+      "D. for"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-484",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Please choose the correct form of the word 'decide' to fill in the blank: He made a ________ (decide) to study abroad.",
+    "options": [
+      "A. decide",
+      "B. decided",
+      "C. decision",
+      "D. decisive"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-485",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Tom usually rides his bike to school. Yesterday, it was raining, so he took the bus instead.\nWhat did Tom do yesterday because of the rain?",
+    "options": [
+      "A. He rode his bike.",
+      "B. He took the bus.",
+      "C. He walked to school.",
+      "D. He stayed at home."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-486",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "完形填空",
+    "question": "Emily loves reading. She had to ____ the book before the test.",
+    "options": [
+      "A. read",
+      "B. reading",
+      "C. reads",
+      "D. to read"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-487",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读填空",
+    "question": "Tom always arrives at school early. He likes to prepare his lessons before class starts. This morning, he ______ his notes carefully.\nWhich word best completes the sentence?",
+    "options": [
+      "A. review",
+      "B. reviews",
+      "C. reviewing",
+      "D. to review"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-488",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "书面表达",
+    "question": "Which of the following sentences is the most suitable as a topic sentence for a paragraph about 'The importance of English in the modern world'?",
+    "options": [
+      "A. English is spoken by millions of people worldwide.",
+      "B. I love learning English because it is fun.",
+      "C. My favorite subject is math.",
+      "D. The weather today is sunny."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-489",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词汇辨析",
+    "question": "Which of the following sentences correctly uses the word 'affect' as a verb?",
+    "options": [
+      "A. The new policy will affect the economy.",
+      "B. The new policy will effect the economy.",
+      "C. The affect of the new policy is positive.",
+      "D. The economy will effect from the new policy."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-490",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动词时态",
+    "question": "I have ___ to Beijing, so I am excited to visit next year.",
+    "options": [
+      "A. never be",
+      "B. never been",
+      "C. never was",
+      "D. never being"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-491",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "被动语态",
+    "question": "Which of the following sentences is the correct passive voice form of the sentence 'The teacher explained the lesson'?",
+    "options": [
+      "A. The lesson was explained by the teacher.",
+      "B. The lesson were explained by the teacher.",
+      "C. The lesson is explained by the teacher.",
+      "D. The lesson explained by the teacher."
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-492",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "情态动词",
+    "question": "You have an important meeting at 9 AM, and it is already 8:30. You ___ leave now to arrive on time.",
+    "options": [
+      "A. can",
+      "B. must",
+      "C. should",
+      "D. might"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-493",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "非谓语动词",
+    "question": "I look forward to _____ (see) you again.",
+    "options": [
+      "A. see",
+      "B. seeing",
+      "C. to see",
+      "D. seen"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-494",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "名词性从句",
+    "question": "We still don't know ______.",
+    "options": [
+      "A. where does the meeting take place",
+      "B. where the meeting takes place",
+      "C. where is the meeting",
+      "D. the meeting takes place where"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-495",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "定语从句",
+    "question": "The woman _________ teaches us English is very kind.",
+    "options": [
+      "A. which",
+      "B. who",
+      "C. that",
+      "D. whose"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-496",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "状语从句",
+    "question": "_____ she was tired, she kept working.",
+    "options": [
+      "A. Because",
+      "B. Although",
+      "C. Unless",
+      "D. If"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-497",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "虚拟语气",
+    "question": "If I ___ you, I would take the job offer.",
+    "options": [
+      "A. am",
+      "B. was",
+      "C. were",
+      "D. be"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "english-498",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "介词搭配",
+    "question": "She is good ____ mathematics.",
+    "options": [
+      "A. at",
+      "B. in",
+      "C. on",
+      "D. for"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "english-499",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "词性转换",
+    "question": "Complete the sentence with the correct noun form of the word 'strong'. She has a strong _______ to win the competition.",
+    "options": [
+      "A. strong",
+      "B. strength",
+      "C. strengthen",
+      "D. strongly"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "english-500",
+    "subject": "english",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "阅读理解",
+    "question": "Read the following passage and answer the question.\n\nAfter school, Li Wei usually goes to the playground near his home. He loves playing soccer with his friends. They practice passing the ball, shooting, and learning new skills. One day, they decided to join a local tournament. They trained hard, encouraged each other, and finally won the championship. Li Wei realized that teamwork and practice were the keys to success.\n\nWhat is the main idea of the passage?",
+    "options": [
+      "A. The importance of reading.",
+      "B. The benefits of regular practice and teamwork.",
+      "C. The dangers of playing soccer.",
+      "D. The story of a famous soccer player."
+    ],
+    "answer": "B"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "name": "bairichuang-pwa",
   "version": "1.0.3",
-  "description": "百日闯 PWA - 初二全科学习打卡系统",
+  "description": "百日闯 PWA - 100天提升学习系统",
   "private": true,
   "type": "module",
   "scripts": {

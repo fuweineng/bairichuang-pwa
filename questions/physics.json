@@ -2990,804 +2990,6 @@
     "explanation": "当物体位于凸透镜的2倍焦距之外时，像位于透镜的焦距和2倍焦距之间，形成倒立、缩小的实像。"
   },
   {
-    "id": "physics-101",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "声学"
-    ],
-    "question": "声音在哪种介质中传播最快？",
-    "options": [
-      "A. 空气",
-      "B. 水",
-      "C. 钢",
-      "D. 真空"
-    ],
-    "answer": "C",
-    "explanation": "声音在固体中传播最快，因为固体的分子间距小、弹性大，能够更迅速地传递振动。钢是常见的固体，声音在其中的传播速度约为5000 m/s，远高于在空气（约340 m/s）或水（约1500 m/s）中的速度。真空不能传播声音。"
-  },
-  {
-    "id": "physics-102",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "声音传播"
-    ],
-    "question": "某同学站在山谷中，距岩壁20 m，他拍手后听到回声的时间约为多少？（已知声音在空气中的传播速度约为340 m/s）",
-    "options": [
-      "A. 0.12 s",
-      "B. 0.06 s",
-      "C. 0.24 s",
-      "D. 0.48 s"
-    ],
-    "answer": "A",
-    "explanation": "声音从同学手中发出到达岩壁再返回共走的路程为来回20 m×2＝40 m。速度为340 m/s，故时间 t = 路程/速度 = 40 m / 340 m/s ≈ 0.118 s ≈ 0.12 s。因此正确答案为 A。"
-  },
-  {
-    "id": "physics-103",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "音调响度"
-    ],
-    "question": "关于音调和响度的决定因素，下面哪项描述是正确的？",
-    "options": [
-      "A. 音调取决于振幅，响度取决于频率",
-      "B. 音调取决于频率，响度取决于振幅",
-      "C. 音调和响度都取决于振幅",
-      "D. 音调和响度都取决于频率"
-    ],
-    "answer": "B",
-    "explanation": "音调（pitch）由声波的频率决定，频率越高音调越高；响度（loudness）由声波的振幅（或声强）决定，振幅越大响度越大。因此选项B正确。"
-  },
-  {
-    "id": "physics-104",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "光学"
-    ],
-    "question": "光线以30°的入射角射向平面镜，则反射光线与镜面的夹角为多少度？",
-    "options": [
-      "A. 30°",
-      "B. 60°",
-      "C. 90°",
-      "D. 45°"
-    ],
-    "answer": "B",
-    "explanation": "根据光的反射定律，入射角等于反射角。光线的入射角为30°，因此反射角也是30°。反射光线与镜面的夹角等于90°减去反射角，即90°-30°=60°，所以正确答案是60°，对应选项B。"
-  },
-  {
-    "id": "physics-105",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "反射定律"
-    ],
-    "question": "一束光以40°的入射角射向平面镜（即光线与镜面的夹角为40°），则入射光线与反射光线的夹角为多少？",
-    "options": [
-      "A. 40°",
-      "B. 50°",
-      "C. 100°",
-      "D. 80°"
-    ],
-    "answer": "C",
-    "explanation": "反射定律指出入射角等于反射角，均相对于法线测量。光线与镜面的夹角为40°，则相对于法线的入射角为90°−40°=50°，同理反射角也为50°，因此入射光线和反射光线之间的夹角为50°+50°=100°。故选项C正确。"
-  },
-  {
-    "id": "physics-106",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "力的概念"
-    ],
-    "question": "关于力的概念，下列说法正确的是（    ）。",
-    "options": [
-      "A. 力是使物体保持原有运动状态的原因。",
-      "B. 力是改变物体运动状态的原因。",
-      "C. 只有相互接触的物体之间才能产生力。",
-      "D. 力是标量，只有大小没有方向。"
-    ],
-    "answer": "B",
-    "explanation": "力是一种能够改变物体运动状态（即使物体产生加速度）的物理量，它具有大小和方向，属于矢量；它可以在物体直接接触时产生，也可以通过非接触方式（如重力、磁力）产生。因此选项A描述的是惯性而不是力，选项C忽略了非接触力，选项D把力错误地归为标量。"
-  },
-  {
-    "id": "physics-107",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "二力平衡"
-    ],
-    "question": "以下关于二力平衡的说法，正确的是：",
-    "options": [
-      "A. 两个力大小相等，方向相反，且作用在同一直线上",
-      "B. 两个力大小相等，方向相反，但作用点不在同一直线上",
-      "C. 两个力大小不相等，方向相反",
-      "D. 两个力方向相同且大小相等"
-    ],
-    "answer": "A",
-    "explanation": "二力平衡要求合力为零，即两个力必须大小相等、方向相反，并且作用在同一直线上，才能既满足合矢量为零，又不产生合矩。选项A满足这些条件，故正确。"
-  },
-  {
-    "id": "physics-108",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "热学"
-    ],
-    "question": "将质量为200 g的铁块从20 °C加热到80 °C，需要吸收多少热量？已知铁的比热容为0.46 J/(g·°C)。",
-    "options": [
-      "A. 3.0 × 10³ J",
-      "B. 5.5 × 10³ J",
-      "C. 8.0 × 10³ J",
-      "D. 4.6 × 10³ J"
-    ],
-    "answer": "B",
-    "explanation": "利用热量公式 Q = mcΔT，其中 m = 200 g，c = 0.46 J/(g·°C)，ΔT = 80 °C − 20 °C = 60 °C。代入得 Q = 200 g × 0.46 J/(g·°C) × 60 °C = 5520 J ≈ 5.5 × 10³ J，故正确答案为 B。"
-  },
-  {
-    "id": "physics-109",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "比热容"
-    ],
-    "question": "质量相等的甲、乙两种金属材料，吸收相同的热量后，甲的温度升高了30℃，乙的温度升高了20℃，则下列说法正确的是：",
-    "options": [
-      "A. 甲的比热容大于乙",
-      "B. 甲的比热容小于乙",
-      "C. 甲、乙比热容相等",
-      "D. 无法比较"
-    ],
-    "answer": "B",
-    "explanation": "根据热量公式 Q = c·m·ΔT，质量 m 相同且吸收的热量 Q 相等时，温度变化 ΔT 与比热容 c 成反比。甲的温度升高 ΔT 甲 = 30℃，大于乙的20℃，说明甲的比热容小于乙。"
-  },
-  {
-    "id": "physics-110",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "欧姆定律"
-    ],
-    "question": "一段电阻为5Ω的导体，两端电压为12V，求通过该导体的电流大小为多少？",
-    "options": [
-      "A. 0.4 A",
-      "B. 2.4 A",
-      "C. 24 A",
-      "D. 0.24 A"
-    ],
-    "answer": "B",
-    "explanation": "根据欧姆定律 I = U / R，代入 U = 12 V，R = 5 Ω，得到 I = 12 / 5 = 2.4 A。"
-  },
-  {
-    "id": "physics-111",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "电功率"
-    ],
-    "question": "某灯泡标有“220 V 100 W”。如果把它接在110 V的电路中，灯泡的实际功率约为多少？",
-    "options": [
-      "A. 25 W",
-      "B. 50 W",
-      "C. 100 W",
-      "D. 200 W"
-    ],
-    "answer": "A",
-    "explanation": "灯泡的电阻在额定电压下为 R = U额定² / P额定 = (220 V)² / 100 W ≈ 484 Ω。由于电阻基本不变，实际功率 P实际 = U实际² / R = (110 V)² / 484 Ω ≈ 25 W，故选 A。"
-  },
-  {
-    "id": "physics-112",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "电路连接"
-    ],
-    "question": "在图示电路中，电阻R1=4Ω与R2=4Ω先串联，再与R3=8Ω并联，整体接在U=12V的电源上，则电路的总电流I为多少？",
-    "options": [
-      "A. 2 A",
-      "B. 3 A",
-      "C. 4 A",
-      "D. 5 A"
-    ],
-    "answer": "B",
-    "explanation": "先求R1与R2串联的总阻值R12=R1+R2=4Ω+4Ω=8Ω。然后R12与R3=8Ω并联，等效电阻R_eq = (R12·R3)/(R12+R3)= (8·8)/(8+8)=64/16=4Ω。由欧姆定律，总电流I=U/R_eq=12V/4Ω=3A。因此正确答案为B。"
-  },
-  {
-    "id": "physics-113",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "细胞结构"
-    ],
-    "question": "在光学显微镜下观察细胞膜，细胞膜的厚度约为7 nm。已知光学显微镜的分辨极限约为200 nm，则该显微镜能否分辨出细胞膜的厚度？",
-    "options": [
-      "A. 能",
-      "B. 不能",
-      "C. 可能在特定光源下可以",
-      "D. 与显微镜无关"
-    ],
-    "answer": "B",
-    "explanation": "光学显微镜的分辨极限约为200 nm，主要受可见光波长的限制。细胞膜的厚度只有约7 nm，远小于该极限，因而无法被分辨出来。"
-  },
-  {
-    "id": "physics-114",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生态系统"
-    ],
-    "question": "在一个草原生态系统中，草通过光合作用固定的太阳能约为 1.0×10⁶ J/(m²·天)。如果草的能量只有 10% 能传递给下一营养级的食草动物，那么每平方米每天大约能够为食草动物提供多少焦耳的能量？",
-    "options": [
-      "A. 1.0×10⁵ J",
-      "B. 1.0×10⁴ J",
-      "C. 1.0×10⁶ J",
-      "D. 1.0×10³ J"
-    ],
-    "answer": "A",
-    "explanation": "草固定的太阳能为 1.0×10⁶ J/m²·天，传递给食草动物的能量为 10% × 1.0×10⁶ J = 1.0×10⁵ J/m²·天，因此选项 A 正确。"
-  },
-  {
-    "id": "physics-115",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "光的反射"
-    ],
-    "question": "一束光以30°的入射角射向平面镜，已知入射光线与法线的夹角为30°，则反射光线与法线的夹角为多少？",
-    "options": [
-      "A. 15°",
-      "B. 30°",
-      "C. 60°",
-      "D. 90°"
-    ],
-    "answer": "B",
-    "explanation": "根据光的反射定律，入射角等于反射角。入射角为30°，所以反射角也为30°，选项B正确。"
-  },
-  {
-    "id": "physics-116",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生物-植物"
-    ],
-    "question": "植物茎部的水分在导管中上升的主要驱动力是？",
-    "options": [
-      "A. 重力",
-      "B. 根压",
-      "C. 蒸腾拉力",
-      "D. 毛细作用"
-    ],
-    "answer": "C",
-    "explanation": "蒸腾拉力（也叫蒸腾拉力或张力）是由于叶片蒸腾作用导致的水分子在导管中形成负压，从而拉动水分向上运输。重力向下作用，根压和毛细作用虽然对水分上升有一定贡献，但它们不能单独解释植物体内水柱的持续上升。因此，主要驱动力是蒸腾拉力。"
-  },
-  {
-    "id": "physics-117",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "力的平衡"
-    ],
-    "question": "一个质量为2 kg的物体在光滑水平面上，受到水平向右的拉力F₁=6 N和水平向左的拉力F₂=6 N的作用，则该物体（ ）。",
-    "options": [
-      "A. 静止或匀速直线运动",
-      "B. 向右加速",
-      "C. 向左加速",
-      "D. 受力不平衡"
-    ],
-    "answer": "A",
-    "explanation": "当作用在同一物体上的所有力的合力为零时，物体处于力的平衡状态，既可以保持静止，也可以保持匀速直线运动。题目中向右的6 N和向左的6 N大小相等、方向相反，合力为零，所以物体处于力的平衡状态，可能静止或匀速直线运动。"
-  },
-  {
-    "id": "physics-118",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "密度"
-    ],
-    "question": "一块金属块的质量为150 g，体积为50 cm³，求该金属块的密度。",
-    "options": [
-      "A. 3 g/cm³",
-      "B. 2 g/cm³",
-      "C. 0.33 g/cm³",
-      "D. 150 g/cm³"
-    ],
-    "answer": "A",
-    "explanation": "密度ρ等于质量m除以体积V，即ρ=m/V。代入数据得ρ=150 g ÷ 50 cm³ = 3 g/cm³。因此正确选项为A。"
-  },
-  {
-    "id": "physics-119",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "光的折射"
-    ],
-    "question": "光从空气射入水中，若入射角为θ（θ≠0），则折射角与入射角的大小关系是（    ）。",
-    "options": [
-      "A. 折射角大于入射角",
-      "B. 折射角小于入射角",
-      "C. 折射角等于入射角",
-      "D. 折射角与入射角之间没有固定的关系"
-    ],
-    "answer": "B",
-    "explanation": "水是光密介质，光在水中的传播速度比在空气中慢。进入光密介质时，光线会向法线方向弯折，即折射角小于入射角。因此选项B正确。"
-  },
-  {
-    "id": "physics-120",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "力"
-    ],
-    "question": "在光滑水平面上，一个质量为5 kg的物体在水平向右的拉力F₁=10 N和水平向左的拉力F₂=6 N的作用下，物体的加速度大小是多少？",
-    "options": [
-      "A. 0.8 m/s²",
-      "B. 2.0 m/s²",
-      "C. 3.2 m/s²",
-      "D. 4.0 m/s²"
-    ],
-    "answer": "A",
-    "explanation": "先求合力F_net = F₁ - F₂ = 10 N - 6 N = 4 N。根据牛顿第二定律 a = F_net / m = 4 N / 5 kg = 0.8 m/s²，故选项A正确。"
-  },
-  {
-    "id": "physics-121",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "大气压强"
-    ],
-    "question": "在海拔较高的高原地区，使用水银气压计时，气压计的汞柱高度会怎样变化？",
-    "options": [
-      "A. 升高",
-      "B. 降低",
-      "C. 不变",
-      "D. 先升高后降低"
-    ],
-    "answer": "B",
-    "explanation": "大气压随海拔的升高而减小，而水银气压计的汞柱高度与外部大气压成正比。因此在高原地区，气压计的汞柱高度会降低。"
-  },
-  {
-    "id": "physics-122",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生物-遗传"
-    ],
-    "question": "在一对基因型为Aa的父母的子代中，子代基因型为aa的概率是多少？",
-    "options": [
-      "A. 0%",
-      "B. 25%",
-      "C. 50%",
-      "D. 75%"
-    ],
-    "answer": "B",
-    "explanation": "父母均为杂合子Aa，进行孟德尔的分离定律配对，可得如下孟德尔方格：A×A、A×a、a×A、a×a四种组合，概率各为1/4。aa只出现一次，所以概率为25%。"
-  },
-  {
-    "id": "physics-123",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "声现象"
-    ],
-    "question": "以下关于声音的描述，正确的是：",
-    "options": [
-      "A. 音调高低的决定因素是声波的振幅",
-      "B. 声音在不同介质中的传播速度与介质的密度无关",
-      "C. 声音的响度取决于声源的振动频率",
-      "D. 声音在空气中的传播速度随温度升高而增大"
-    ],
-    "answer": "D",
-    "explanation": "音调由声波的频率决定，振幅决定响度；声音的传播速度受介质弹性模量和密度影响，且在空气中随温度升高而加快。因此选项 D 正确。"
-  },
-  {
-    "id": "physics-124",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "生物-生态系统"
-    ],
-    "question": "在生态系统中，能量在食物链的每一营养级之间传递时，大约只有10%能够被下一营养级利用。若第一营养级（生产者）固定了5 000 kJ的能量，则第二营养级（初级消费者）能够利用的能量最接近下列哪一项？",
-    "options": [
-      "A. 500 kJ",
-      "B. 5 000 kJ",
-      "C. 50 kJ",
-      "D. 5 kJ"
-    ],
-    "answer": "A",
-    "explanation": "根据生态系统的能量传递规律，大约只有10%的能量从一个营养级传递到下一个营养级。因此，5 000 kJ的10%等于500 kJ，故答案为A。"
-  },
-  {
-    "id": "physics-125",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "简单机械"
-    ],
-    "question": "小明用杠杆抬起一块石头，已知杠杆的施力臂长0.8 m，阻力臂长0.2 m，石头的重量为200 N。若忽略杠杆的自重和摩擦力，最少需要用多大的力才能把石头抬起？",
-    "options": [
-      "A. 50 N",
-      "B. 80 N",
-      "C. 100 N",
-      "D. 200 N"
-    ],
-    "answer": "A",
-    "explanation": "杠杆的机械优势（杠杆比）为施力臂长度除以阻力臂长度：MA = 0.8 m / 0.2 m = 4。忽略重力和摩擦时，所需最小施力 F = 石头的重力 / MA = 200 N / 4 = 50 N。故选 A。"
-  },
-  {
-    "id": "physics-126",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "速度计算"
-    ],
-    "question": "...",
-    "options": [
-      "A. ...",
-      "B. ...",
-      "C. ...",
-      "D. ..."
-    ],
-    "answer": "A",
-    "explanation": "..."
-  },
-  {
-    "id": "physics-127",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "物理-声学"
-    ],
-    "question": "已知声波在空气中的传播速度约为340 m/s，若声源的频率为500 Hz，则该声波的波长约为多少米？",
-    "options": [
-      "A. 0.68 m",
-      "B. 0.34 m",
-      "C. 1.20 m",
-      "D. 2.00 m"
-    ],
-    "answer": "A",
-    "explanation": "声波的波长 λ 与波速 v、频率 f 的关系为 v = f·λ，故 λ = v/f = 340 m/s ÷ 500 Hz = 0.68 m。因此正确选项为 A。"
-  },
-  {
-    "id": "physics-128",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "物理-物态变化"
-    ],
-    "question": "下列哪种现象属于升华？",
-    "options": [
-      "A. 冰在低温下直接变成水蒸气",
-      "B. 湿衣服在阳光下变干",
-      "C. 干冰直接变成二氧化碳气体",
-      "D. 水沸腾产生气泡"
-    ],
-    "answer": "C",
-    "explanation": "升华是指固体直接变为气体而不经过液相的过程。干冰（固体二氧化碳）在常温常压下直接升华为二氧化碳气体，属于升华现象；选项A描述的是冰的升华但温度条件不对，选项B是蒸发，选项D是沸腾，均不属于升华。"
-  },
-  {
-    "id": "physics-129",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "升华凝华"
-    ],
-    "question": "下列现象中，属于升华的是：",
-    "options": [
-      "A. 冬天，冰冻的衣服变干",
-      "B. 夏天，冰棍周围冒白气",
-      "C. 秋天，浓雾逐渐消散",
-      "D. 冬天，窗玻璃上出现冰花"
-    ],
-    "answer": "A",
-    "explanation": "升华是物质从固态直接变成气态的现象。冬天冰冻的衣服慢慢变干，是因为冰直接升华成水蒸气了。选项B中白气是水蒸气遇冷液化形成的小水滴，属于液化现象；选项C中浓雾消散是水变成水蒸气的汽化现象；选项D中窗玻璃上的冰花是水蒸气直接凝华成冰晶，属于凝华现象。"
-  },
-  {
-    "id": "physics-130",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "光的色散"
-    ],
-    "question": "太阳光通过三棱镜后出现彩色条纹，这一现象的根本原因是什么？",
-    "options": [
-      "A. 光的波长随传播速度变化，导致不同颜色的光折射角不同，出现色散",
-      "B. 光的颜色由光的频率决定，三棱镜会改变光的频率",
-      "C. 光在空气中被水分子散射形成彩虹",
-      "D. 光的三基色混合导致出现彩色"
-    ],
-    "answer": "A",
-    "explanation": "光的色散是指光在不同介质中因波长不同导致折射率不同，从而使光分离成不同颜色的现象。三棱镜利用这一原理，把白光分解成七色光。"
-  },
-  {
-    "id": "physics-131",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "重力"
-    ],
-    "question": "一块质量为5 kg的物体在地球表面所受的重力（重量）大约是多少？（取g≈9.8 N/kg）",
-    "options": [
-      "A. 0.5 N",
-      "B. 5 N",
-      "C. 49 N",
-      "D. 98 N"
-    ],
-    "answer": "C",
-    "explanation": "重量W=mg，m=5 kg，g≈9.8 N/kg，故W≈5×9.8≈49 N。因此正确答案为C。"
-  },
-  {
-    "id": "physics-132",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "液体压强"
-    ],
-    "question": "如图所示，容器的底面积为 0.01 m²，容器内盛满水，水的密度 ρ = 1.0×10³ kg/m³，重力加速度 g 取 10 N/kg，液面高度 h = 0.2 m。则水对容器底部的压强为多少？",
-    "options": [
-      "A. 2×10³ Pa",
-      "B. 1×10³ Pa",
-      "C. 5×10³ Pa",
-      "D. 2×10⁴ Pa"
-    ],
-    "answer": "A",
-    "explanation": "液体压强公式为 p = ρgh，代入 ρ = 1.0×10³ kg/m³，g = 10 N/kg，h = 0.2 m，得 p = 1.0×10³ × 10 × 0.2 = 2×10³ Pa。因此正确答案为 A。"
-  },
-  {
-    "id": "physics-133",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "电流"
-    ],
-    "question": "一段导体在2秒内通过的电荷量为1库仑，则该电路中的电流大小为多少安培？",
-    "options": [
-      "A. 0.5 A",
-      "B. 2 A",
-      "C. 1 A",
-      "D. 4 A"
-    ],
-    "answer": "A",
-    "explanation": "根据电流的定义 I = Q / t，代入 Q = 1 C，t = 2 s，得 I = 1 C / 2 s = 0.5 A。因此正确答案为 A 选项。"
-  },
-  {
-    "id": "physics-134",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "电压"
-    ],
-    "question": "下列关于电压的说法，正确的是（    ）",
-    "options": [
-      "A. 电压是电流的大小",
-      "B. 电压是电荷的多少",
-      "C. 电压是电场对单位电荷做功的能力",
-      "D. 电压是电阻的大小"
-    ],
-    "answer": "C",
-    "explanation": "电压（U）定义为电场把单位正电荷从一点移动到另一点所做的功（或电势差），即 U = W/q。单位是伏特（V），1 V = 1 J/C。它描述的不是电流的大小、也不是电荷的总量或电阻的大小，而是电场的做功能力。因此选项 C 正确。"
-  },
-  {
-    "id": "physics-135",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "安全用电"
-    ],
-    "question": "关于家庭安全用电，下列哪项行为是不正确的？",
-    "options": [
-      "A. 定期检查电线绝缘层是否完好",
-      "B. 在潮湿环境中使用普通插座",
-      "C. 使用符合国家标准的漏电保护器",
-      "D. 雷雨天气时拔掉重要电器的电源插头"
-    ],
-    "answer": "B",
-    "explanation": "在潮湿环境中，水会降低绝缘性能，使用普通插座容易导致触电事故。安全用电要求使用防水、防潮的专用插座或采取其他防护措施。"
-  },
-  {
-    "id": "physics-136",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "磁现象"
-    ],
-    "question": "把一根条形磁铁从中间垂直切断后，以下说法正确的是（ ）。",
-    "options": [
-      "A. 切下的每段磁铁都有北极和南极。",
-      "B. 切下的每段磁铁只有北极，没有南极。",
-      "C. 切下的每段磁铁只有南极，没有北极。",
-      "D. 切下的两段磁铁不再具有磁性。"
-    ],
-    "answer": "A",
-    "explanation": "磁铁的磁极是由内部的磁畴决定的，磁畴在整个磁铁中形成闭合的磁路。切断后，每段仍然保持原有的磁畴排列，所以每段都拥有北极和南极，形成完整的磁回路。"
-  },
-  {
-    "id": "physics-137",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "电磁感应"
-    ],
-    "question": "小明把一根磁铁快速插入一根竖直的线圈中，发现电流表指针偏转。若把磁铁插入速度降低为原来的一半，则感应电流的大小会（ ）。",
-    "options": [
-      "A. 保持不变",
-      "B. 减小为原来的一半",
-      "C. 减小为原来的四分之一",
-      "D. 减小为原来的两倍"
-    ],
-    "answer": "B",
-    "explanation": "根据法拉第电磁感应定律，感应电动势（以及感应电流）与磁通量的变化率成正比。磁铁插入速度降低为原来的一半，磁通量变化的速率也降低为原来的一半，因而感应电流相应减半。"
-  },
-  {
-    "id": "physics-138",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "凸透镜"
-    ],
-    "question": "一个发光物体位于凸透镜左侧，距离为8 cm，凸透镜的焦距为10 cm，则所成的像为（　　）。",
-    "options": [
-      "A. 实像，倒立，放大",
-      "B. 虚像，正立，放大",
-      "C. 虚像，正立，缩小",
-      "D. 实像，倒立，缩小"
-    ],
-    "answer": "B",
-    "explanation": "因为物体位于焦距以内（8 cm < 10 cm），凸透镜会形成虚像。虚像位于物体的同侧，且正立；放大倍率 M = f / (f - u) = 10 cm / (10 cm - 8 cm) = 5 > 1，所以像被放大。"
-  },
-  {
-    "id": "physics-139",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "物理-热学"
-    ],
-    "question": "质量相等的铜块和铝块在相同的热源下吸收相同的热量后，哪块金属的温度升高更多？",
-    "options": [
-      "A. 铜块",
-      "B. 铝块",
-      "C. 两者升高相同",
-      "D. 取决于加热时间"
-    ],
-    "answer": "A",
-    "explanation": "铜的比热容约为0.39 J/(g·°C)，铝的比热容约为0.90 J/(g·°C)。在质量相同、吸收相同热量的情况下，比热容较小的铜块的温度升高更大。因此正确答案是A。"
-  },
-  {
-    "id": "physics-140",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "凸透镜成像"
-    ],
-    "question": "已知凸透镜的焦距为10 cm，一个物体放在距凸透镜30 cm处（物体在透镜左侧），则所成像的特征是（　　）。",
-    "options": [
-      "A. 实像，倒立，放大",
-      "B. 虚像，正立，放大",
-      "C. 实像，倒立，缩小",
-      "D. 虚像，正立，缩小"
-    ],
-    "answer": "C",
-    "explanation": "使用薄透镜公式 1/f = 1/v + 1/u，取 f = +10 cm，u = –30 cm（实物），代入得 1/v = 1/10 + 1/30 = 4/30，v = 7.5 cm（为正，说明像在透镜右侧，是实像）。放大率 m = –v/u = –7.5/–30 = 0.25，|m|<1，说明像比物体小，且因 m 为负，像为倒立。故选项 C 正确。"
-  },
-  {
-    "id": "physics-141",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "机械运动"
-    ],
-    "question": "小华从家里出发，先向东走200米，用时20秒；然后掉头向西走300米，用时30秒。求小华全程的**平均速度**的大小（单位：米/秒），以下哪个选项正确？",
-    "options": [
-      "A. 0 m/s",
-      "B. 2 m/s",
-      "C. 5 m/s",
-      "D. 10 m/s"
-    ],
-    "answer": "D",
-    "explanation": "平均速度 = 总路程 / 总时间。小华总共走的路程为200 m + 300 m = 500 m，\n总时间为20 s + 30 s = 50 s。\n因此平均速度 = 500 m / 50 s = 10 m/s。\n题目只要求大小，方向由位移决定，故选 D。"
-  },
-  {
-    "id": "physics-142",
-    "type": "choice",
-    "subject": "physics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "参照物"
-    ],
-    "question": "小明站在站台上，看到一列火车匀速向东驶去。若以火车为参照物，路灯（位于站台旁边）是向哪个方向运动的？",
-    "options": [
-      "A. 向东",
-      "B. 向西",
-      "C. 向北",
-      "D. 静止"
-    ],
-    "answer": "B",
-    "explanation": "在描述物体运动时，需要先选定参照物。以火车为参照物时，火车本身被视为静止，路灯相对于火车的运动方向与火车相对于地面的运动方向相反。火车向东行驶，所以从火车上看，路灯会向西运动。因此正确答案是B。"
-  },
-  {
     "id": "physics-143",
     "type": "choice",
     "subject": "physics",
@@ -4014,5 +3216,695 @@
     ],
     "answer": "A",
     "explanation": "首先计算R₁与R₂的并联等效电阻：R并 = (R₁·R₂)/(R₁+R₂) = (4·6)/(4+6) = 24/10 = 2.4Ω。再将并联部分与R₃串联，得到总电阻R总 = R₃ + R并 = 3Ω + 2.4Ω = 5.4Ω。根据欧姆定律，电路的总电流I = U / R总 = 12V / 5.4Ω ≈ 2.22A。因此正确的选项是A。"
+  },
+  {
+    "id": "physics-155",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "机械运动",
+    "question": "一辆汽车在平直公路上以 72 km/h 的速度行驶，求 2 秒后汽车行驶的距离是多少？",
+    "options": [
+      "A. 20 m",
+      "B. 40 m",
+      "C. 50 m",
+      "D. 60 m"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-156",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "速度计算",
+    "question": "小明骑自行车从家出发，用了15分钟到达距离2.5公里的朋友家，求该同学骑自行车的平均速度（单位：km/h）。",
+    "options": [
+      "A. 5 km/h",
+      "B. 6 km/h",
+      "C. 10 km/h",
+      "D. 12 km/h"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "physics-157",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "力的概念",
+    "question": "以下关于力的描述中，正确的是（ ）。",
+    "options": [
+      "A. 力是物体的属性，只与物体的质量有关。",
+      "B. 力是物体之间的相互作用，能够改变物体的运动状态或形状。",
+      "C. 力是标量，只有大小，没有方向。",
+      "D. 力只能在两物体相互接触时产生，不能通过空间传递。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-158",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "重力与弹力",
+    "question": "在竖直放置的轻质弹簧上挂着一个质量为0.5 kg的小球，弹簧的劲度系数为200 N/m。若小球静止在平衡位置时，弹簧伸长的长度为多少？（取g=10 N/kg）",
+    "options": [
+      "A. 0.1 m",
+      "B. 0.05 m",
+      "C. 0.025 m",
+      "D. 0.01 m"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "physics-159",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "摩擦力",
+    "question": "关于滑动摩擦力，下列说法正确的是：",
+    "options": [
+      "A. 滑动摩擦力的大小与接触面积成正比",
+      "B. 滑动摩擦力的大小与接触面间的正压力成正比",
+      "C. 滑动摩擦力的大小随相对速度的增大而增大",
+      "D. 滑动摩擦力的大小与接触面的粗糙程度无关"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-160",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "力的合成与分解",
+    "question": "一个力F=12N与水平方向成30°角，若把它分解为水平分力Fx和竖直分力Fy，则Fx的大小为多少？",
+    "options": [
+      "A. 12N",
+      "B. 6N",
+      "C. 10.39N",
+      "D. 3N"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "physics-161",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "二力平衡",
+    "question": "关于二力平衡的说法，下面哪一项是正确的？",
+    "options": [
+      "A. 只要两个力大小相等、方向相反，就一定满足二力平衡",
+      "B. 二力平衡要求两个力作用在同一物体上，且大小相等、方向相反、作用在同一直线上",
+      "C. 二力平衡只能在静止的物体上出现，运动中的物体不可能出现二力平衡",
+      "D. 两个力若大小相等且方向相反，则一定是平衡力"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-162",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "压强计算",
+    "question": "一个质量为5 kg的铝块平放在水平桌面上，底面为长0.2 m、宽0.1 m的矩形。求铝块对桌面的压强（g取9.8 N/kg）。",
+    "options": [
+      "A. 1.25 kPa",
+      "B. 2.45 kPa",
+      "C. 24.5 kPa",
+      "D. 245 kPa"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-163",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "液体压强",
+    "question": "关于液体内部压强的说法，下面哪项是正确的？",
+    "options": [
+      "A. 压强随深度增大而减小",
+      "B. 压强随深度增大而增大",
+      "C. 压强与液体的密度无关",
+      "D. 压强只与液体的体积有关"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-164",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "大气压强",
+    "question": "以下哪种现象可以直接说明大气压的存在？",
+    "options": [
+      "A. 用吸管喝水",
+      "B. 风吹树叶摇晃",
+      "C. 用温度计测量体温",
+      "D. 用弹簧秤称量物体"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-165",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "浮力计算",
+    "question": "一块体积为 2.0×10⁻³ m³ 的金属块完全浸没在密度为 1.0×10³ kg/m³ 的水中，g 取 10 N/kg。该金属块受到的浮力大小为多少？",
+    "options": [
+      "A. 2.0 N",
+      "B. 20 N",
+      "C. 200 N",
+      "D. 2000 N"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-166",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "机械功",
+    "question": "小明用20 N的水平拉力把质量为5 kg的木箱在光滑的水平地面上匀速移动了3 m，若力的方向与位移方向相同，则小明对木箱所做的机械功为多少？",
+    "options": [
+      "A. 20 J",
+      "B. 60 J",
+      "C. 100 J",
+      "D. 180 J"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-167",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "功率计算",
+    "question": "一辆汽车在水平路面上匀速行驶，受到的阻力为2000 N，若汽车以20 m/s的速度行驶，求汽车克服阻力所需的功率。",
+    "options": [
+      "A. 30 kW",
+      "B. 40 kW",
+      "C. 50 kW",
+      "D. 60 kW"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-168",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "机械能",
+    "question": "一个小球从斜面顶端滚下，若忽略摩擦力和空气阻力，以下关于机械能的说法正确的是？",
+    "options": [
+      "A. 机械能守恒，动能不变",
+      "B. 机械能守恒，动能增加，势能减少",
+      "C. 机械能增加，动能增加",
+      "D. 机械能减小，动能不变"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-169",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "声现象",
+    "question": "小明站在山谷中呼喊，听到的回声在0.4秒后到达他耳边，已知声速为340 m/s，则小明离山壁的大约距离是多少？",
+    "options": [
+      "A. 68 m",
+      "B. 136 m",
+      "C. 34 m",
+      "D. 272 m"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-170",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光的反射",
+    "question": "以下关于光的反射的说法，正确的是：",
+    "options": [
+      "A. 入射角等于反射角",
+      "B. 反射光线、入射光线和法线在同一平面内，且入射角等于反射角",
+      "C. 反射光线与入射光线位于入射面的两侧",
+      "D. 反射光的强度随入射角的增大而增大"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-171",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光的折射",
+    "question": "光从空气斜射入水中时，光线在水中的传播方向会向法线______。",
+    "options": [
+      "A. 靠近",
+      "B. 远离",
+      "C. 保持原方向",
+      "D. 与法线成直角"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-172",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "凸透镜成像",
+    "question": "一个凸透镜的焦距为10 cm，当物体放在距透镜30 cm处时，所成的像的特点是？",
+    "options": [
+      "A. 实像，倒立，放大",
+      "B. 实像，倒立，缩小",
+      "C. 虚像，正立，放大",
+      "D. 虚像，正立，缩小"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-173",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "物态变化",
+    "question": "下列哪种物态变化属于放热过程？",
+    "options": [
+      "A. 蒸发",
+      "B. 熔化",
+      "C. 升华",
+      "D. 凝固"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "physics-174",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "比热容",
+    "question": "一块质量为0.5 kg的铝块从20°C加热到80°C，吸收了2.3×10^4 J的热量，求铝的比热容约为（ ）。",
+    "options": [
+      "A. 7.7×10^2 J/(kg·°C)",
+      "B. 2.3×10^2 J/(kg·°C)",
+      "C. 4.6×10^2 J/(kg·°C)",
+      "D. 1.2×10^3 J/(kg·°C)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-175",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "热值",
+    "question": "关于热值的概念，下列说法正确的是：",
+    "options": [
+      "A. 单位质量的燃料完全燃烧所释放的热量",
+      "B. 单位体积的燃料完全燃烧所释放的热量",
+      "C. 燃料燃烧时产生的最高温度",
+      "D. 燃料燃烧时产生的火焰颜色"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-176",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "内能",
+    "question": "下列关于物体内能的说法中，正确的是（    ）",
+    "options": [
+      "A. 物体的内能只与它的温度有关，温度越高，内能越大。",
+      "B. 内能是物体内所有分子动能和分子势能的总和，随温度和体积的变化而变化。",
+      "C. 对物体做功一定会增加其内能。",
+      "D. 内能是守恒的，任何过程都不会改变物体的内能。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-177",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "电路基础",
+    "question": "下列关于串联和并联电路的说法，哪项是正确的？",
+    "options": [
+      "A. 串联电路中，各电阻两端电压相等",
+      "B. 并联电路中，各支路电流相等",
+      "C. 串联电路中，总电阻等于各电阻之和",
+      "D. 并联电路中，总电阻大于任一分电阻"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "physics-178",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "欧姆定律",
+    "question": "在电阻R=10Ω的电路中，若电阻两端电压为12V，则通过电阻的电流为多少？",
+    "options": [
+      "A. 1.2A",
+      "B. 0.12A",
+      "C. 12A",
+      "D. 0.8A"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-179",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "电功率",
+    "question": "一台电风扇在220 V电压下工作，功率为110 W，求工作时的电流大小。",
+    "options": [
+      "A. 0.5 A",
+      "B. 1 A",
+      "C. 0.25 A",
+      "D. 2 A"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-180",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "焦耳定律",
+    "question": "根据焦耳定律，电流通过电阻产生的热量与哪些因素成正比？",
+    "options": [
+      "A. 仅与电阻成正比",
+      "B. 仅与电流的平方成正比",
+      "C. 仅与通电时间成正比",
+      "D. 与电阻、电流的平方以及通电时间均成正比"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "physics-181",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "磁现象",
+    "question": "关于磁极的相互作用，下列说法正确的是（　　）。",
+    "options": [
+      "A. 同名磁极相互吸引，异名磁极相互排斥",
+      "B. 同名磁极相互排斥，异名磁极相互吸引",
+      "C. 磁极之间的相互作用只与距离有关，与磁极方向无关",
+      "D. 磁极可以单独存在"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-182",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "电磁感应",
+    "question": "一金属环在均匀磁场中向左平移，磁通量随时间增加。根据楞次定律，感应电流的磁场方向是（ ）。",
+    "options": [
+      "A. 与原磁场方向相同",
+      "B. 与原磁场方向相反",
+      "C. 与原磁场方向垂直",
+      "D. 无感应电流产生"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-183",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "机械运动",
+    "question": "关于机械运动的定义，下列说法正确的是（　　）",
+    "options": [
+      "A. 机械运动是指物体在外部作用下产生的运动",
+      "B. 机械运动是指物体相对于参照系的位置随时间的变化",
+      "C. 机械运动是指物体在空间中做匀速直线运动",
+      "D. 机械运动是指物体在任意参考系下的运动都相同"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-184",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "速度计算",
+    "question": "一辆汽车在高速公路上以108 km/h的速度匀速行驶，若将此速度换算成米每秒（m/s），该车的速度为多少？",
+    "options": [
+      "A. 30 m/s",
+      "B. 108 m/s",
+      "C. 10.8 m/s",
+      "D. 3 m/s"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-185",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "力的概念",
+    "question": "下列关于力的描述，正确的是：",
+    "options": [
+      "A. 力是维持物体运动的原因。",
+      "B. 力是物体之间的相互作用，能改变物体的运动状态或形状。",
+      "C. 只有接触的物体之间才会产生力。",
+      "D. 力的单位是千克。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-186",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "重力与弹力",
+    "question": "质量为2 kg的物体挂在竖直放置的轻质弹簧上，弹簧被拉长5 cm，已知弹簧的劲度系数k = 200 N/m。若物体处于静止状态，则下列说法正确的是（ ）。",
+    "options": [
+      "A. 重力大小为20 N，方向竖直向下；弹力大小为10 N，方向竖直向上。",
+      "B. 重力大小为20 N，方向竖直向下；弹力大小为20 N，方向竖直向上。",
+      "C. 重力大小为20 N，方向竖直向下；弹力大小为5 N，方向竖直向上。",
+      "D. 重力大小为20 N，方向竖直向下；弹力大小为10 N，方向竖直向下。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-187",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "摩擦力",
+    "question": "一个质量为5 kg的木块在水平面上匀速直线运动，接触面与木块之间的动摩擦因数为0.2，求木块所受摩擦力的大小。",
+    "options": [
+      "A. 1 N",
+      "B. 10 N",
+      "C. 5 N",
+      "D. 0 N"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-188",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "力的合成与分解",
+    "question": "两个共点力F₁=8 N、F₂=6 N之间的夹角为60°，它们的合力大小约为多少？",
+    "options": [
+      "A. 8 N",
+      "B. 12 N",
+      "C. 14 N",
+      "D. 10 N"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-189",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "二力平衡",
+    "question": "一个物体在光滑水平面上仅受两个力作用，若它保持匀速直线运动，则这两个力必须满足的条件是（ ）。",
+    "options": [
+      "A. 两个力大小相等，方向相同",
+      "B. 两个力大小相等，方向相反，且在同一直线上",
+      "C. 两个力大小不相等，方向相反",
+      "D. 两个力大小相等，方向任意"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-190",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "压强计算",
+    "question": "某学生在冰面上站立，接触面积为0.05 m²，学生的体重为600 N（忽略其他力），求该学生对冰面的压强约为多少帕？",
+    "options": [
+      "A. 1.2×10⁴ Pa",
+      "B. 6.0×10³ Pa",
+      "C. 1.2×10³ Pa",
+      "D. 6.0×10⁴ Pa"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-191",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "液体压强",
+    "question": "已知容器A和容器B内均装满同一种均匀液体，液面高度相同，但容器A的底面积大于容器B的底面积。则两容器底部所受液体压强的大小关系是？",
+    "options": [
+      "A. 容器A的底部压强大于容器B的底部压强",
+      "B. 容器A的底部压强小于容器B的底部压强",
+      "C. 两容器底部压强相等",
+      "D. 与容器底面积成正比"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "physics-192",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "大气压强",
+    "question": "以下现象中，能够直接验证大气压存在的实验是（　　）",
+    "options": [
+      "A. 用吸管喝饮料",
+      "B. 用弹簧测力计测重力",
+      "C. 用温度计测量温度",
+      "D. 用电流表测量电流"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-193",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "浮力计算",
+    "question": "一块质量为0.5 kg、体积为2×10⁻⁴ m³的金属块完全浸没在水中，求金属块所受浮力的大小（取g=10 N/kg，水的密度ρ=1.0×10³ kg/m³）。",
+    "options": [
+      "A. 1 N",
+      "B. 2 N",
+      "C. 5 N",
+      "D. 10 N"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-194",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "机械功",
+    "question": "一个同学用50 N的力沿与水平面成30°角的方向推箱子，箱子在水平地面上移动了4 m，求该力对箱子所做的功是多少？",
+    "options": [
+      "A. 200 J",
+      "B. 173 J",
+      "C. 100 J",
+      "D. 50 J"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-195",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "功率计算",
+    "question": "某工人用绳子把质量为50 kg的物体竖直向上匀速提升2 m，用时4 s。该工人所做功的功率是多少？",
+    "options": [
+      "A. 250 W",
+      "B. 100 W",
+      "C. 200 W",
+      "D. 500 W"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-196",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "机械能",
+    "question": "一个质量为2 kg的物体从高度5 m处自由下落，若不计空气阻力，物体到达地面时的动能是多少？（取g=10 m/s²）",
+    "options": [
+      "A. 50 J",
+      "B. 100 J",
+      "C. 150 J",
+      "D. 200 J"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-197",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "声现象",
+    "question": "关于声波的传播，下列说法正确的是（ ）。",
+    "options": [
+      "A. 声波只能在气体中传播，不能在固体和液体中传播",
+      "B. 声波的传播速度与介质的密度和弹性有关",
+      "C. 声波的频率随传播距离的增大而减小",
+      "D. 声波的振幅随传播距离的增大而增大"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "physics-198",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光的反射",
+    "question": "光的反射遵循一定的规律，以下关于光的反射的说法，正确的是？",
+    "options": [
+      "A. 入射光线、反射光线和法线在同一平面",
+      "B. 反射光的强度总是比入射光强",
+      "C. 反射角随入射角的增大而减小",
+      "D. 只有光滑的表面才能产生光的反射"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "physics-199",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光的折射",
+    "question": "光从折射率为1.5的玻璃（光密介质）射向折射率为1.0的空气（光疏介质），若入射角为60°，则下列说法正确的是？",
+    "options": [
+      "A. 光线在界面处不发生折射，直接穿透",
+      "B. 折射角大于入射角",
+      "C. 发生全反射",
+      "D. 折射角等于入射角"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "physics-200",
+    "subject": "physics",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "凸透镜成像",
+    "question": "一个凸透镜的焦距为15 cm，若把物体放在距透镜40 cm处，则所成的像的特征是？",
+    "options": [
+      "A. 正立、放大的虚像",
+      "B. 倒立、缩小的实像",
+      "C. 正立、缩小的虚像",
+      "D. 倒立、放大的实像"
+    ],
+    "answer": "B"
   }
 ]

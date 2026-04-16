@@ -2761,5 +2761,965 @@
     ],
     "answer": "C",
     "explanation": "复分解反应（双置换反应）只有在生成沉淀、气体或水（即生成不溶或弱电解的产物）时，离子才会被除去，反应才能向右进行。若生成物均为可溶性强电解质，离子在溶液中仍保持自由状态，反应不发生。"
+  },
+  {
+    "id": "chemistry-137",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学式书写",
+    "question": "以下哪一项是氧化铁(III)的正确化学式？",
+    "options": [
+      "A. FeO",
+      "B. Fe2O3",
+      "C. FeO2",
+      "D. Fe3O2"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-138",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化合价计算",
+    "question": "某化合物M2O3中，氧的化合价为-2，已知该化合物整体为电中性，求M的化合价是多少？",
+    "options": [
+      "A. +2",
+      "B. +3",
+      "C. +4",
+      "D. +5"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-139",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "质量守恒定律",
+    "question": "在密闭容器中进行化学反应，若反应物的总质量为120 g，则生成物的总质量为多少？",
+    "options": [
+      "A. 110 g",
+      "B. 120 g",
+      "C. 130 g",
+      "D. 与容器形状有关"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-140",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学方程式配平",
+    "question": "下列化学方程式的配平系数（按前后顺序对应）正确的是哪一个？ Fe + O₂ → Fe₂O₃",
+    "options": [
+      "A. 4Fe + 3O₂ → 2Fe₂O₃",
+      "B. 3Fe + 2O₂ → Fe₂O₃",
+      "C. 2Fe + 3O₂ → 2Fe₂O₃",
+      "D. 4Fe + 2O₂ → 2Fe₂O₃"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-141",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "原子结构",
+    "question": "在原子结构中，决定元素种类的是（ ）。",
+    "options": [
+      "A. 中子数",
+      "B. 质子数",
+      "C. 电子数",
+      "D. 原子质量"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-142",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "离子符号",
+    "question": "离子符号的写法规则是：先写元素符号，然后在右上角标上离子所带的电荷数，正电荷用‘+’，负电荷用‘-’。以下哪个符合该规则？",
+    "options": [
+      "A. Mg⁺",
+      "B. Mg²⁺",
+      "C. Mg⁺2",
+      "D. Mg+2"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-143",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "溶液配制",
+    "question": "欲配制 0.20 mol·L⁻¹ 的 NaCl 溶液 250 mL，需要准确称取多少克的 NaCl（Na=23, Cl=35.5）？",
+    "options": [
+      "A. 1.46 g",
+      "B. 2.92 g",
+      "C. 0.73 g",
+      "D. 5.84 g"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-144",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "溶解度曲线",
+    "question": "已知某盐的溶解度随温度升高而显著增加，图为其在20℃、50℃、80℃时的溶解度分别为30 g、80 g、130 g（每100 g水）。若将100 mL（水的密度≈1 g·mL⁻¹）在50℃时的饱和溶液降温至20℃，下列关于析出固体的说法正确的是？",
+    "options": [
+      "A. 没有固体析出。",
+      "B. 析出约20 g固体。",
+      "C. 析出约50 g固体。",
+      "D. 析出约100 g固体。"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-145",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "酸的化学性质",
+    "question": "以下哪项不是酸的常见化学性质？",
+    "options": [
+      "A. 使石蕊试液变红",
+      "B. 与活泼金属反应产生氢气",
+      "C. 与碱反应生成盐和水",
+      "D. 与所有盐溶液反应生成沉淀"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "chemistry-146",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "碱的化学性质",
+    "question": "下列不属于碱的化学性质的是：",
+    "options": [
+      "A. NaOH + HCl → NaCl + H₂O（酸碱中和）",
+      "B. 2NaOH + CO₂ → Na₂CO₃ + H₂O（与酸性氧化物反应）",
+      "C. NaOH + NH₄Cl → NaCl + NH₃↑ + H₂O（与铵盐反应）",
+      "D. Zn + 2NaOH + 2H₂O → Na₂[Zn(OH)₄] + H₂↑（与金属反应生成氢气）"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "chemistry-147",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "盐的化学性质",
+    "question": "下列关于盐的化学性质的说法，正确的是：",
+    "options": [
+      "A. 盐在水中全部电离成离子，因此所有盐的水溶液都呈中性。",
+      "B. 盐可以和酸反应生成新盐和新酸。",
+      "C. 两种可溶盐在水溶液中混合，若生成物中有一种难溶盐，则会产生沉淀。",
+      "D. 所有盐在加热时都会分解产生金属氧化物和二氧化碳。"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-148",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "金属活动性顺序",
+    "question": "将金属A放入CuSO4溶液中，金属铜被置换出来；将金属B放入AgNO3溶液中，没有金属银被置换出来。则金属A、B、Cu、Ag的金属活动性顺序（从强到弱）正确的是（ ）。",
+    "options": [
+      "A. A > Cu > Ag > B",
+      "B. B > A > Cu > Ag",
+      "C. A > B > Cu > Ag",
+      "D. Cu > A > Ag > B"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-149",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "燃烧条件",
+    "question": "燃烧的必备条件包括以下哪几项？",
+    "options": [
+      "A. 可燃物、氧气、点火源或温度达到燃点",
+      "B. 可燃物、火花、足够的空气流动",
+      "C. 火焰、氧气、燃烧介质",
+      "D. 足够的燃料、点火器、适当的压力"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-150",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "氧气制备",
+    "question": "实验室常用二氧化锰（MnO₂）催化过氧化氢（H₂O₂）分解来制备氧气。下列关于二氧化锰的作用描述正确的是：",
+    "options": [
+      "A. 二氧化锰是反应物，直接提供氧气",
+      "B. 二氧化锰是催化剂，降低反应活化能",
+      "C. 二氧化锰是产物，生成的氧气中包含二氧化锰",
+      "D. 二氧化锰是抑制剂，减缓反应速率"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-151",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "二氧化碳制备",
+    "question": "下列哪种方法可以用于实验室制备二氧化碳？",
+    "options": [
+      "A. 在空气中点燃木炭",
+      "B. 将氢氧化钠与稀硫酸混合",
+      "C. 将小苏打（碳酸氢钠）与醋酸混合",
+      "D. 将大理石（碳酸钙）与稀盐酸反应"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "chemistry-152",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "复分解反应",
+    "question": "下列哪组试剂之间能够发生复分解反应并生成沉淀？",
+    "options": [
+      "A. Na2SO4 + HCl",
+      "B. KCl + NaNO3",
+      "C. BaCl2 + Na2SO4",
+      "D. NH4Cl + NaOH"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-153",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "物质分类",
+    "question": "下列关于物质分类的说法，正确的是（ ）。",
+    "options": [
+      "A. 空气是纯净物",
+      "B. 氢气是化合物",
+      "C. 氧气是由同一种元素组成的单质",
+      "D. 糖水是单质"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-154",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "微观粒子",
+    "question": "下列关于原子结构的说法，正确的是（   ）",
+    "options": [
+      "A. 原子核位于原子中心，由质子和中子组成",
+      "B. 电子在原子核外部运动，质量与质子相当",
+      "C. 原子是最小的、不可再分的粒子",
+      "D. 原子质量主要集中在电子上"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-155",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学用语",
+    "question": "化学用语中，‘2H2O’表示的含义是？",
+    "options": [
+      "A. 两个水分子，每个水分子含有2个氢原子",
+      "B. 两个氢原子和一个水分子",
+      "C. 两个氢分子和一个水分子",
+      "D. 两个氢原子和一个氧原子"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-156",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学式书写",
+    "question": "请选出下面表示“氧化铝”的正确化学式。",
+    "options": [
+      "A. AlO",
+      "B. Al2O3",
+      "C. AlO2",
+      "D. Al2O"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-157",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化合价计算",
+    "question": "已知化合物 Fe2O3，求铁（Fe）的化合价是多少？",
+    "options": [
+      "A. +2",
+      "B. +3",
+      "C. +4",
+      "D. +5"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-158",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "质量守恒定律",
+    "question": "在化学反应中，质量守恒定律表明在什么条件下，反应前后系统的总质量保持不变？",
+    "options": [
+      "A. 开放系统",
+      "B. 封闭系统",
+      "C. 只要有催化剂",
+      "D. 只要在常温下"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-159",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学方程式配平",
+    "question": "使化学方程式 Fe + O2 → Fe2O3 配平的一组系数是：",
+    "options": [
+      "A. 2Fe + O2 → Fe2O3",
+      "B. 4Fe + 3O2 → 2Fe2O3",
+      "C. 3Fe + 2O2 → Fe2O3",
+      "D. 2Fe + 2O2 → 2Fe2O3"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-160",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "原子结构",
+    "question": "下列关于原子结构的描述中，正确的是（ ）。",
+    "options": [
+      "A. 原子核只包含质子，不包含中子。",
+      "B. 原子序数等于原子核中的质子数。",
+      "C. 原子质量数等于原子核中质子数加电子数。",
+      "D. 电子在原子核外部形成电子层，所有电子的能量都相同。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-161",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "离子符号",
+    "question": "以下哪个选项正确表示了带两个单位正电荷的镁离子？",
+    "options": [
+      "A. Mg⁺",
+      "B. Mg²⁺",
+      "C. Mg₂⁺",
+      "D. Mg"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-162",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "溶液配制",
+    "question": "配制 250 mL 0.10 mol/L 硫酸铜溶液（使用无水硫酸铜，摩尔质量 159.6 g/mol），需要称取硫酸铜的质量为多少？",
+    "options": [
+      "A. 1.0 g",
+      "B. 2.0 g",
+      "C. 4.0 g",
+      "D. 0.5 g"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-163",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "溶解度曲线",
+    "question": "图中给出A、B、C三种固体在水中的溶解度随温度的变化曲线。已知曲线A随温度升高溶解度显著增大，曲线B几乎保持不变，曲线C随温度升高而略有下降。则在30℃时，以下哪项描述是正确的？",
+    "options": [
+      "A. 在30℃时，A的溶解度最低",
+      "B. 在30℃时，B的溶解度高于C",
+      "C. 随着温度升高，A的溶解度始终低于B",
+      "D. C的溶解度随温度升高而增大"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-164",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "酸的化学性质",
+    "question": "将稀硫酸滴入含有酚酞指示剂的氢氧化钠溶液中，观察到的现象是（ ）。",
+    "options": [
+      "A. 溶液变红",
+      "B. 溶液变蓝",
+      "C. 溶液颜色消失变为无色",
+      "D. 溶液颜色变为紫色"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-165",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "碱的化学性质",
+    "question": "下列关于碱的化学性质的叙述，正确的是（ ）。",
+    "options": [
+      "A. 碱溶液能使石蕊试纸由蓝色变为红色",
+      "B. 碱溶液能使酚酞试液保持无色",
+      "C. 碱与酸反应生成盐和水",
+      "D. 碱可以与铵盐反应放出氢气"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-166",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "盐的化学性质",
+    "question": "下列关于盐的化学性质的叙述，正确的是：",
+    "options": [
+      "A. 所有盐在水中都能完全溶解并电离生成离子。",
+      "B. 盐与酸反应一定会生成水和二氧化碳。",
+      "C. 盐与碱反应会生成新的盐和新的碱。",
+      "D. 盐在通电时一定会分解为金属单质和非金属单质。"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-167",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "金属活动性顺序",
+    "question": "将金属铁片放入硝酸银(AgNO3)溶液中，可能会发生什么现象？",
+    "options": [
+      "A. 铁片表面析出银金属，溶液变为浅绿色",
+      "B. 无明显变化",
+      "C. 铁片溶解并生成氢气",
+      "D. 溶液颜色不变"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-168",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "燃烧条件",
+    "question": "燃烧的三个基本条件不包括下列哪一项？",
+    "options": [
+      "A. 可燃物存在",
+      "B. 助燃剂（如氧气）存在",
+      "C. 充足的灯光照射",
+      "D. 达到燃点温度"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-169",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "氧气制备",
+    "question": "以下哪种方法不能直接用于实验室制备氧气？",
+    "options": [
+      "A. 加热氯化钾 (KCl)",
+      "B. 加热高锰酸钾 (KMnO4)",
+      "C. 向过氧化氢溶液中加入二氧化锰 (MnO2) 催化分解",
+      "D. 电解水 (通电分解水)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-170",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "二氧化碳制备",
+    "question": "实验室常用哪种方法制备二氧化碳？",
+    "options": [
+      "A. 加热碳酸钙使其分解产生二氧化碳",
+      "B. 将稀盐酸加入碳酸钙中",
+      "C. 将氢氧化钠固体加入水中",
+      "D. 将镁条放入水中"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-171",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "复分解反应",
+    "question": "下列哪个反应属于复分解反应？",
+    "options": [
+      "A. 2Na + Cl₂ → 2NaCl（合成反应）",
+      "B. HCl + NaOH → NaCl + H₂O（酸碱中和反应）",
+      "C. 2Fe + 3O₂ → 2Fe₂O₃（燃烧反应）",
+      "D. Zn + CuSO₄ → ZnSO₄ + Cu（单置换反应）"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-172",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "物质分类",
+    "question": "以下关于物质分类的说法，正确的是（ ）。",
+    "options": [
+      "A. 糖水是一种化合物",
+      "B. 氦气是一种单质",
+      "C. 空气是一种纯净物",
+      "D. 氢气是一种化合物"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-173",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "微观粒子",
+    "question": "下列关于原子、分子和离子的说法中，正确的一项是（ ）",
+    "options": [
+      "A. 原子是保持元素化学性质的最小粒子。",
+      "B. 分子是由离子通过化学键连接而成的。",
+      "C. 离子是失去或获得电子的原子，化学性质不变。",
+      "D. 分子在化学反应中一定会被拆分成原子。"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-174",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学用语",
+    "question": "下列关于化学式和离子式的说法，正确的是",
+    "options": [
+      "A. H₂O 表示氢气分子",
+      "B. NaCl 表示一个氯化钠分子",
+      "C. Fe²⁺ 表示铁离子带两个正电荷",
+      "D. CO₂ 表示碳和氧的混合物"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-175",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学式书写",
+    "question": "镁离子 Mg2+ 与氯离子 Cl- 形成的化合物的化学式是（ ）。",
+    "options": [
+      "A. MgCl",
+      "B. MgCl2",
+      "C. Mg2Cl",
+      "D. MgCl3"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-176",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化合价计算",
+    "question": "在化合物H2SO4中，硫（S）的化合价是多少？",
+    "options": [
+      "A. +2",
+      "B. +4",
+      "C. +6",
+      "D. +8"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-177",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "质量守恒定律",
+    "question": "在密闭容器中进行的化学反应 2H2 + O2 → 2H2O，若投入 4.0 g 的氢气并提供足量氧气使其完全反应，则生成的水的质量为（ ）。",
+    "options": [
+      "A. 4.0 g",
+      "B. 36.0 g",
+      "C. 32.0 g",
+      "D. 18.0 g"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-178",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学方程式配平",
+    "question": "请选择能够使下列化学方程式配平的正确系数组合：Al + O2 → Al2O3。",
+    "options": [
+      "A. 2, 3",
+      "B. 4, 3",
+      "C. 3, 2",
+      "D. 2, 1"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-179",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "原子结构",
+    "question": "某元素的原子序数为11，质量数为23，则该原子核中的中子数为（ ）",
+    "options": [
+      "A. 11",
+      "B. 12",
+      "C. 23",
+      "D. 34"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-180",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "离子符号",
+    "question": "某金属原子M的原子结构为2、8、2（即其核外电子排布为K层2个、L层8个、M层2个），若该原子失去最外层的两个电子，形成的离子符号是（ ）。",
+    "options": [
+      "A. M⁺",
+      "B. M²⁺",
+      "C. M⁻",
+      "D. M²⁻"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-181",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "溶液配制",
+    "question": "要配制 250 mL 0.2 mol/L 的氯化钠（NaCl）溶液，需要称取多少克的 NaCl？（NaCl 的摩尔质量为 58.5 g/mol）",
+    "options": [
+      "A. 1.46 g",
+      "B. 2.93 g",
+      "C. 5.85 g",
+      "D. 11.7 g"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-182",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "溶解度曲线",
+    "question": "图 1 为某固体在水中的溶解度曲线，横坐标为温度（℃），纵坐标为在该温度下 100 g 水中最多能溶解的质量（g）。若在 30 ℃ 时将 45 g 该固体加入 100 g 水中，充分搅拌后仍有少量固体未溶解，则以下对该固体在 30 ℃ 时的溶解状态的判断，正确的是（ ）。",
+    "options": [
+      "A. 该溶液是未饱和溶液",
+      "B. 该溶液是饱和溶液",
+      "C. 该溶液是过饱和溶液",
+      "D. 条件不足，无法判断"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-183",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "酸的化学性质",
+    "question": "将一小块大理石（主要成分为CaCO₃）加入到稀盐酸中，观察到的现象是（）。",
+    "options": [
+      "A. 有无色无味气体产生，能使澄清石灰水变浑浊",
+      "B. 溶液颜色变深",
+      "C. 产生白色沉淀",
+      "D. 没有明显变化"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-184",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "碱的化学性质",
+    "question": "下列关于碱的化学性质的描述中，错误的是（ ）。",
+    "options": [
+      "A. 碱可以和金属氧化物（如氧化铜）反应生成盐和水。",
+      "B. 碱与酸发生中和反应生成盐和水。",
+      "C. 碱能使石蕊试纸变蓝。",
+      "D. 碱与某些金属离子反应生成难溶氢氧化物沉淀。"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-185",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "盐的化学性质",
+    "question": "以下关于盐的化学性质的描述，错误的是（ ）。",
+    "options": [
+      "A. 盐可以与酸发生复分解反应，生成新的盐和新的酸",
+      "B. 盐可以与碱发生复分解反应，生成新的盐和新的碱",
+      "C. 盐可以与金属发生置换反应，生成氢气",
+      "D. 盐可以与另一种盐发生复分解反应，若有沉淀或气体生成则反应进行"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-186",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "金属活动性顺序",
+    "question": "将一小块金属锌放入盛有硝酸银溶液的烧杯中，观察到的现象是（   ）。",
+    "options": [
+      "A. 锌表面析出银白色金属，银离子浓度降低",
+      "B. 锌表面产生氢气，溶液颜色不变",
+      "C. 溶液颜色变深，形成蓝色沉淀",
+      "D. 没有任何变化"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-187",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "燃烧条件",
+    "question": "燃烧需要的三个基本条件是：①可燃物、②氧气（或助燃剂）、③达到燃点温度。下列哪项不是燃烧的必要条件？",
+    "options": [
+      "A. 可燃物",
+      "B. 氧气",
+      "C. 达到燃点温度",
+      "D. 光照"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "chemistry-188",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "氧气制备",
+    "question": "在实验室加热氯酸钾（KClO₃）制取氧气的实验中，加入二氧化锰（MnO₂）的作用是什么？",
+    "options": [
+      "A. 提供额外的氧气",
+      "B. 催化剂",
+      "C. 还原剂",
+      "D. 氧化剂"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-189",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "二氧化碳制备",
+    "question": "实验室中常用的二氧化碳制备方法是（　）",
+    "options": [
+      "A. 将木炭在空气中点燃生成二氧化碳",
+      "B. 将大理石（或石灰石）加入稀盐酸中",
+      "C. 将碳酸氢钠与醋酸混合后加热",
+      "D. 将氧化钙在高温下分解生成二氧化碳"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-190",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "复分解反应",
+    "question": "以下关于复分解反应的描述，正确的是（  ）。",
+    "options": [
+      "A. 复分解反应一定是氧化还原反应。",
+      "B. 复分解反应一定生成沉淀、气体或水中的至少一种。",
+      "C. 复分解反应只能在酸碱之间进行。",
+      "D. 复分解反应在所有温度下都能进行。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-191",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "物质分类",
+    "question": "下列物质中，属于化合物的是（    ）。",
+    "options": [
+      "A. 氧气（O₂）",
+      "B. 硫酸（H₂SO₄）",
+      "C. 空气",
+      "D. 铁（Fe）"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-192",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "微观粒子",
+    "question": "下列关于微观粒子的说法，正确的是（ ）。",
+    "options": [
+      "A. 原子是由更小的分子组成的。",
+      "B. 分子是由原子通过化学键结合而成的粒子。",
+      "C. 所有离子都带正电荷。",
+      "D. 原子核位于原子外部。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-193",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学用语",
+    "question": "下列关于化学用语的描述，正确的是（ ）。",
+    "options": [
+      "A. “NaCl”是由Na和Cl原子组成的分子。",
+      "B. “O2”表示两个氧原子。",
+      "C. “2H2O”表示两个水分子。",
+      "D. “Mg”表示镁离子。"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-194",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学式书写",
+    "question": "已知氧化铁(III)中铁的化合价为+3，氧的化合价为-2，则氧化铁(III)的化学式是",
+    "options": [
+      "A. FeO",
+      "B. Fe2O3",
+      "C. Fe3O4",
+      "D. FeO2"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-195",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化合价计算",
+    "question": "在化合物H₂SO₄中，硫（S）的化合价是多少？",
+    "options": [
+      "A. +4",
+      "B. +5",
+      "C. +6",
+      "D. +7"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-196",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "质量守恒定律",
+    "question": "下列关于质量守恒定律的说法，正确的是？",
+    "options": [
+      "A. 只有在化学反应中质量守恒，物理变化中质量可以不守恒；",
+      "B. 在任何封闭系统中，反应前后质量相等；",
+      "C. 质量守恒只在生成物为固体时成立；",
+      "D. 质量守恒可以通过测量气体的体积来验证。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-197",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "化学方程式配平",
+    "question": "已知反应：Fe + O₂ → Fe₂O₃。请选择正确的配平后系数（从左至右依次为 Fe、O₂、Fe₂O₃ 的系数）。",
+    "options": [
+      "A. 1, 1, 1",
+      "B. 4, 3, 2",
+      "C. 2, 3, 2",
+      "D. 3, 2, 1"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "chemistry-198",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "原子结构",
+    "question": "关于原子结构的描述，下面哪项是正确的？",
+    "options": [
+      "A. 原子核由质子和中子组成，电子在核外的电子层中运动。",
+      "B. 原子核带负电，电子带正电。",
+      "C. 所有原子的质量主要集中在电子上。",
+      "D. 原子核的大小决定了原子的化学性质。"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "chemistry-199",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "离子符号",
+    "question": "镁离子 Mg2+ 的离子符号中，数字2表示什么？",
+    "options": [
+      "A. 原子序数",
+      "B. 价电子数",
+      "C. 电荷数",
+      "D. 质量数"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "chemistry-200",
+    "subject": "chemistry",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "溶液配制",
+    "question": "实验室需要配制 200 mL 0.1 mol/L 的 NaCl 溶液，已知 NaCl 的摩尔质量为 58.5 g/mol，需要称取多少克 NaCl？",
+    "options": [
+      "A. 1.17 g",
+      "B. 2.34 g",
+      "C. 3.51 g",
+      "D. 4.68 g"
+    ],
+    "answer": "A"
   }
 ]

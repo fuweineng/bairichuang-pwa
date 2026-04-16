@@ -1996,3 +1996,206 @@ footer {
   border-top: 1px solid #eee;
   background: white;
 }
+
+/* ==================== ACCOUNT SETUP MODAL ==================== */
+.modal-sub {
+  font-size: 0.82rem;
+  color: #888;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.account-avatar-pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.account-avatar-pick img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e0e0e0;
+}
+
+.avatar-upload-btn {
+  font-size: 0.78rem;
+  color: #4CAF50;
+  cursor: pointer;
+}
+
+.text-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* ==================== 100-DAY COMPLETION MODAL ==================== */
+.completion-modal-card {
+  max-width: 380px;
+}
+
+.completion-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.completion-emoji {
+  font-size: 3rem;
+  margin-bottom: 4px;
+}
+
+.completion-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 4px;
+}
+
+.completion-sub {
+  font-size: 0.82rem;
+  color: #999;
+  margin: 0;
+}
+
+.completion-compare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.compare-item {
+  text-align: center;
+}
+
+.compare-label {
+  font-size: 0.72rem;
+  color: #999;
+  margin-bottom: 2px;
+}
+
+.compare-val {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #666;
+}
+
+.compare-val-now {
+  color: #4CAF50;
+}
+
+.compare-arrow {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+.compare-gain {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.compare-subjects {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 10px;
+  margin-bottom: 4px;
+}
+
+.cmp-subj-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 3px 0;
+  color: #555;
+}
+
+.cmp-subj-name {
+  font-weight: 500;
+  min-width: 40px;
+}
+
+/* ==================== QR IMPORT MODAL ==================== */
+.modal-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.modal-close-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.modal-close-btn:hover {
+  color: #555;
+}
+
+#qr-reader video {
+  border-radius: 8px;
+}
+
+/* ==================== SECONDARY BUTTON ==================== */
+.secondary-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 16px;
+  background: #f5f5f5;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  color: #555;
+  cursor: pointer;
+  text-align: center;
+  transition: background .15s;
+}
+
+.secondary-btn:hover {
+  background: #eeeeee;
+}
+
+/* ==================== MODAL CLOSE ROW ==================== */
+.modal-close-row {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.modal-close-x {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #bbb;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.modal-close-x:hover {
+  color: #888;
+}
+
+

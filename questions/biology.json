@@ -1745,5 +1745,1640 @@
     ],
     "answer": "A",
     "explanation": "反射弧的基本顺序是感受器接收刺激，传入神经（感觉神经元）把信息传至神经中枢（常为脊髓），神经中枢处理后通过传出神经（运动神经元）把指令传至效应器，使肌肉或腺体产生反应。因此选项A的顺序是正确的。"
+  },
+  {
+    "id": "biology-219",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞结构",
+    "question": "在动物细胞中，不具有膜结构的细胞器是？",
+    "options": [
+      "A. 线粒体",
+      "B. 核糖体",
+      "C. 高尔基体",
+      "D. 溶酶体"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-220",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞分裂",
+    "question": "在细胞有丝分裂过程中，DNA的复制发生在（ ）。",
+    "options": [
+      "A. 前期",
+      "B. 间期",
+      "C. 中期",
+      "D. 末期"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-221",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物组织",
+    "question": "植物体内负责将根部吸收的水分和无机盐运输到地上部的组织是（ ）。",
+    "options": [
+      "A. 形成层",
+      "B. 维管组织",
+      "C. 保护组织",
+      "D. 纤维组织"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-222",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物组织",
+    "question": "以下哪种动物组织的主要功能是分泌和吸收，且细胞排列紧密形成层？",
+    "options": [
+      "A. 上皮组织",
+      "B. 结缔组织",
+      "C. 肌肉组织",
+      "D. 神经组织"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-223",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光合作用",
+    "question": "光合作用的光反应和暗反应分别在叶绿体的哪一部位进行？",
+    "options": [
+      "A. 光反应在叶绿体基质，暗反应在类囊体膜",
+      "B. 光反应在类囊体膜，暗反应在叶绿体基质",
+      "C. 光反应在细胞核，暗反应在叶绿体基质",
+      "D. 光反应在叶绿体内膜，暗反应在类囊体膜"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-224",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸作用",
+    "question": "细胞呼吸的总反应式为：",
+    "options": [
+      "A. C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 能量",
+      "B. 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ + 能量",
+      "C. C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + 能量",
+      "D. C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 2ATP"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-225",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "消化系统",
+    "question": "人体消化系统中，主要吸收营养物质的部位是哪一个？",
+    "options": [
+      "A. 口腔",
+      "B. 胃",
+      "C. 小肠",
+      "D. 大肠"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-226",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "循环系统",
+    "question": "在体循环中，血液从左心室进入的主要血管是（ ）。",
+    "options": [
+      "A. 肺动脉",
+      "B. 主动脉",
+      "C. 上腔静脉",
+      "D. 肺静脉"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-227",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸系统",
+    "question": "在呼吸系统中，完成氧气和二氧化碳交换的最小结构是（ ）。",
+    "options": [
+      "A. 气管",
+      "B. 支气管",
+      "C. 细支气管",
+      "D. 肺泡"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-228",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "泌尿系统",
+    "question": "关于肾脏的主要功能，下列说法错误的是",
+    "options": [
+      "A. 形成原尿并通过肾小球滤过血液",
+      "B. 重吸收和分泌作用调节尿液的成分",
+      "C. 只负责排除代谢废物，不参与体内酸碱平衡调节",
+      "D. 通过分泌肾素参与血压调节"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-229",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "神经系统",
+    "question": "以下关于人体神经系统的组成及功能的描述，正确的是？",
+    "options": [
+      "A. 神经系统分为中枢神经系统和周围神经系统两大类，中枢神经系统包括脑和脊髓，周围神经系统包括所有神经纤维。",
+      "B. 神经元是神经系统的基本结构和功能单位，它由细胞体、轴突和树突组成，轴突负责接收信息并向细胞体传递。",
+      "C. 反射弧包括感受器、传入神经、神经中枢、传出神经和效应器，其中神经中枢只能是大脑皮层。",
+      "D. 交感神经是自主神经系统的一部分，主要作用是促进休息和消化等“休息-消化”功能。"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-230",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "激素调节",
+    "question": "胰岛素是调节血糖的重要激素，下列关于胰岛素作用的描述，正确的是（ ）。",
+    "options": [
+      "A. 胰岛素能促进肝糖原分解，提高血糖水平。",
+      "B. 胰岛素能促进细胞对葡萄糖的摄取和利用，促进糖原合成，降低血糖。",
+      "C. 胰岛素只在进食后分泌，对血糖没有长期调节作用。",
+      "D. 胰岛素的分泌受胰高血糖素的负反馈调节。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-231",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "人类传染病",
+    "question": "下列关于人类传染病的说法，正确的是？",
+    "options": [
+      "A. 所有传染病都只能通过空气传播。",
+      "B. 疫苗接种只能预防细菌性疾病，不能预防病毒性疾病。",
+      "C. 病毒性传染病的潜伏期通常比细菌性传染病短。",
+      "D. 乙型肝炎是由乙型肝炎病毒引起的，主要通过血液和性接触传播。"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-232",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "免疫",
+    "question": "以下关于免疫系统功能的描述，哪项是正确的？",
+    "options": [
+      "A. 免疫系统只能识别并攻击外来病原体，对自身的异常细胞没有作用。",
+      "B. 抗体能够特异性结合抗原，使其失活或被吞噬细胞识别。",
+      "C. 所有免疫细胞都能产生抗体，以抵御病原体。",
+      "D. 免疫记忆仅存在于细胞免疫中，而不存在于体液免疫中。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-233",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物行为",
+    "question": "以下哪种行为最可能属于动物的先天性行为（本能），而不是后天学习获得的？",
+    "options": [
+      "A. 狗在主人的训练下学会握手。",
+      "B. 蜘蛛在结网时利用先天的织网技巧捕捉猎物。",
+      "C. 小学生在校外参加夏令营学习野外求生。",
+      "D. 猫在听到喂食铃声后主动走到食盆前。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-234",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物分类",
+    "question": "以下哪一项是哺乳动物区别于其他脊椎动物的特征？",
+    "options": [
+      "A. 产卵",
+      "B. 胎生、哺乳、体表被毛",
+      "C. 有鳞片",
+      "D. 皮肤光滑"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-235",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物分类",
+    "question": "根据种子是否有子房包裹，植物可分为哪两大类？",
+    "options": [
+      "A. 单子叶和双子叶",
+      "B. 裸子植物和被子植物",
+      "C. 维管植物和非维管植物",
+      "D. 种子植物和孢子植物"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-236",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生态系统",
+    "question": "在生态系统中，能量流动的主要特点是（ ）。",
+    "options": [
+      "A. 能量在每个营养级中逐渐增加",
+      "B. 能量在每个营养级中逐渐减少",
+      "C. 能量在每个营养级中保持不变",
+      "D. 能量在每个营养级中完全消失"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-237",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "食物链",
+    "question": "关于食物链，以下说法正确的是：",
+    "options": [
+      "A. 能量随营养级升高而增加",
+      "B. 食物链的起点是生产者",
+      "C. 食物链中每个营养级的生物数量相同",
+      "D. 消费者不属于食物链"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-238",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生物多样性",
+    "question": "生物多样性包括哪三个层次？",
+    "options": [
+      "A. 个体多样性、种群多样性、群落多样性",
+      "B. 基因多样性、物种多样性、生态系统多样性",
+      "C. 形态多样性、行为多样性、遗传多样性",
+      "D. 环境多样性、气候多样性、地理多样性"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-239",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "遗传基础",
+    "question": "某对父母都是Aa（A为显性），则其子女表现出显性性状（如卷舌）的概率为多少？",
+    "options": [
+      "A. 1/4",
+      "B. 1/2",
+      "C. 3/4",
+      "D. 1"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-240",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "变异",
+    "question": "下列关于可遗传变异的叙述，哪项是正确的？",
+    "options": [
+      "A. 可遗传变异只能通过基因突变产生",
+      "B. 可遗传变异一定会导致表型改变",
+      "C. 可遗传变异为自然选择提供原材料",
+      "D. 可遗传变异只出现在多细胞生物中"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-241",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "进化",
+    "question": "以下关于自然选择的叙述中，正确的是？",
+    "options": [
+      "A. 个体在进化过程中可以主动改变自己的基因",
+      "B. 自然选择只作用于表现型而不影响基因型",
+      "C. 有利的变异在种群中会逐渐增多",
+      "D. 进化是个体在一生中逐渐变化的过程"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-242",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "青春期",
+    "question": "青春期的到来标志着人类从儿童向成年的过渡。下列关于青春期的描述中，正确的一项是（ ）",
+    "options": [
+      "A. 青春期的开始时间在所有人群中基本相同",
+      "B. 青春期的生理变化主要由性激素调控",
+      "C. 青春期只会出现身体上的变化，不会出现心理变化",
+      "D. 青春期的结束时间与骨龄完全吻合"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-243",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞结构",
+    "question": "以下哪种结构是动物细胞和植物细胞都具备的？",
+    "options": [
+      "A. 细胞壁",
+      "B. 叶绿体",
+      "C. 线粒体",
+      "D. 大液泡"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-244",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞分裂",
+    "question": "在动物细胞有丝分裂过程中，染色体会排列在细胞的赤道面上，这是哪个阶段的特征？",
+    "options": [
+      "A. 前期（Prophase）",
+      "B. 中期（Metaphase）",
+      "C. 后期（Anaphase）",
+      "D. 末期（Telophase）"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-245",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物组织",
+    "question": "下列哪种组织负责将根部吸收的水分和无机盐输送到植物的地上部分？",
+    "options": [
+      "A. 形成层",
+      "B. 木质部",
+      "C. 韧皮部",
+      "D. 表皮组织"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-246",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物组织",
+    "question": "以下哪种动物组织主要负责身体的支撑、连接和保护，内部富含细胞外基质？",
+    "options": [
+      "A. 上皮组织",
+      "B. 结缔组织",
+      "C. 肌肉组织",
+      "D. 神经组织"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-247",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光合作用",
+    "question": "在光合作用的光反应阶段，叶绿体产生的氧气来源于（ ）。",
+    "options": [
+      "A. 二氧化碳 (CO2)",
+      "B. 水 (H2O)",
+      "C. 葡萄糖 (C6H12O6)",
+      "D. 硝酸盐 (NO3-)"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-248",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸作用",
+    "question": "细胞进行呼吸作用的主要场所是（ ）。",
+    "options": [
+      "A. 细胞核",
+      "B. 线粒体",
+      "C. 叶绿体",
+      "D. 细胞膜"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-249",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "消化系统",
+    "question": "以下哪种消化液不含消化酶？",
+    "options": [
+      "A. 胃液",
+      "B. 胰液",
+      "C. 胆汁",
+      "D. 小肠液"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-250",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "循环系统",
+    "question": "体循环（系统循环）的主要功能是什么？",
+    "options": [
+      "A. 将血液送往肺部进行气体交换",
+      "B. 将氧合血液从心脏输送到全身组织",
+      "C. 收集全身的血液返回心脏",
+      "D. 产生红细胞和白细胞"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-251",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸系统",
+    "question": "人体在吸气时，膈肌的运动状态是怎样的？",
+    "options": [
+      "A. 膈肌收缩并向下移动",
+      "B. 膈肌放松并向上移动",
+      "C. 膈肌收缩并向上移动",
+      "D. 膈肌保持不动"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-252",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "泌尿系统",
+    "question": "尿液在排出体外之前，会先在哪个器官中暂时储存？",
+    "options": [
+      "A. 肾脏",
+      "B. 输尿管",
+      "C. 膀胱",
+      "D. 尿道"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-253",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "神经系统",
+    "question": "在反射弧中，信息传递的正确顺序是（   ）",
+    "options": [
+      "A. 感受器 → 效应器 → 中枢 → 传入神经 → 传出神经",
+      "B. 感受器 → 传入神经 → 中枢 → 传出神经 → 效应器",
+      "C. 感受器 → 传出神经 → 中枢 → 传入神经 → 效应器",
+      "D. 传入神经 → 感受器 → 中枢 → 传出神经 → 效应器"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-254",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "激素调节",
+    "question": "在甲状腺激素的分泌调节中，以下哪项描述是正确的？",
+    "options": [
+      "A. 促甲状腺激素释放激素（TRH）抑制甲状腺激素的分泌",
+      "B. 甲状腺激素通过负反馈抑制促甲状腺激素（TSH）的分泌",
+      "C. 促甲状腺激素（TSH）由甲状腺直接分泌",
+      "D. 甲状腺激素水平升高会刺激下丘脑分泌更多TRH"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-255",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "人类传染病",
+    "question": "传染病在人群中的传播必须具备以下哪三个基本环节？",
+    "options": [
+      "A. 病原体、宿主、媒介",
+      "B. 病原体、传播途径、易感人群",
+      "C. 病原体、空气、食物",
+      "D. 病原体、免疫系统、疫苗"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-256",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "免疫",
+    "question": "以下哪项不属于先天免疫的组成部分？",
+    "options": [
+      "A. 皮肤和黏膜",
+      "B. 巨噬细胞",
+      "C. B淋巴细胞",
+      "D. 炎症反应"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-257",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物行为",
+    "question": "以下哪种行为属于先天性行为（本能行为），而不是后天学习行为？",
+    "options": [
+      "A. 猫学会使用抓鼠器",
+      "B. 蜘蛛结网捕食",
+      "C. 狗学习握手",
+      "D. 鸟迁徙"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-258",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物分类",
+    "question": "动物根据是否有脊椎骨可分为脊椎动物和无脊椎动物。下列动物中，属于无脊椎动物的是？",
+    "options": [
+      "A. 螃蟹",
+      "B. 鱼",
+      "C. 青蛙",
+      "D. 猫"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-259",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物分类",
+    "question": "在植物分类中，依据种子是否被果皮包裹，可将种子植物分为裸子植物和哪类？",
+    "options": [
+      "A. 蕨类植物",
+      "B. 被子植物",
+      "C. 藓类植物",
+      "D. 裸藻植物"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-260",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生态系统",
+    "question": "在生态系统中，分解者主要起到什么作用？",
+    "options": [
+      "A. 合成有机物供生产者使用",
+      "B. 将有机物分解为无机物，回归土壤",
+      "C. 直接捕食其他生物",
+      "D. 吸收太阳能进行光合作用"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-261",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "食物链",
+    "question": "在一条典型的草原食物链中，‘草→野兔→狐狸→狼’，狼属于第几级消费者？",
+    "options": [
+      "A. 第一级消费者",
+      "B. 第二级消费者",
+      "C. 第三级消费者",
+      "D. 生产者"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-262",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生物多样性",
+    "question": "以下哪项不属于生物多样性的三个层次？",
+    "options": [
+      "A. 基因多样性",
+      "B. 群落多样性",
+      "C. 物种多样性",
+      "D. 生态系统多样性"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-263",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "遗传基础",
+    "question": "在一对等位基因的杂交实验中，若将基因型为Aa的个体自交，F2代中显性性状个体所占的比例是多少？",
+    "options": [
+      "A. 1/4",
+      "B. 1/2",
+      "C. 3/4",
+      "D. 1"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-264",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "变异",
+    "question": "下列哪种现象属于可遗传的变异？",
+    "options": [
+      "A. 同一种植物在不同的光照条件下叶片颜色出现差异",
+      "B. 某基因突变导致小麦种子颜色由黄色变为紫色",
+      "C. 长期营养不良导致的身高矮小",
+      "D. 某动物因外伤失去尾巴"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-265",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "进化",
+    "question": "以下关于生物进化的叙述，哪一项是正确的？",
+    "options": [
+      "A. 进化是指个体在生命过程中发生的改变。",
+      "B. 自然选择会使适应环境的个体更容易生存并繁殖后代。",
+      "C. 进化只能在有性繁殖的生物中出现。",
+      "D. 基因突变对进化没有影响。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-266",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "青春期",
+    "question": "以下哪项不属于青春期的常见表现？",
+    "options": [
+      "A. 第二性征的出现",
+      "B. 对新事物的好奇心下降",
+      "C. 体毛和皮脂腺的活跃导致青春痘",
+      "D. 声音变粗（男性）和乳房发育（女性）"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-267",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞结构",
+    "question": "下列细胞结构中，哪一种在动物细胞中不存在，而在植物细胞中常见？",
+    "options": [
+      "A. 细胞膜",
+      "B. 细胞核",
+      "C. 中心体",
+      "D. 叶绿体"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-268",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞分裂",
+    "question": "在有丝分裂过程中，染色体的形态最为清晰、排列在细胞中央的赤道板上的是哪一个阶段？",
+    "options": [
+      "A. 前期",
+      "B. 中期",
+      "C. 后期",
+      "D. 末期"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-269",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物组织",
+    "question": "以下哪种植物组织的主要功能是保护植物免受外界伤害？",
+    "options": [
+      "A. 分生组织",
+      "B. 保护组织",
+      "C. 维管组织",
+      "D. 基本组织"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-270",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物组织",
+    "question": "在动物体内，负责接受刺激并传递信息的组织是？",
+    "options": [
+      "A. 上皮组织",
+      "B. 结缔组织",
+      "C. 肌肉组织",
+      "D. 神经组织"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-271",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光合作用",
+    "question": "光合作用释放的氧气主要来源于哪种物质？",
+    "options": [
+      "A. 二氧化碳 (CO2)",
+      "B. 水 (H2O)",
+      "C. 葡萄糖 (C6H12O6)",
+      "D. 叶绿体"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-272",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸作用",
+    "question": "以下关于细胞呼吸的说法，正确的是（ ）。",
+    "options": [
+      "A. 细胞呼吸只在动物细胞中进行，植物细胞不需要呼吸。",
+      "B. 细胞呼吸在有氧条件下将有机物分解为二氧化碳和水，并释放能量。",
+      "C. 细胞呼吸的主要产物是氧气和葡萄糖。",
+      "D. 细胞呼吸的场所是细胞核。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-273",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "消化系统",
+    "question": "在胃内，主要负责将蛋白质初步分解的酶是？",
+    "options": [
+      "A. 胰蛋白酶",
+      "B. 胃蛋白酶",
+      "C. 胆汁脂肪酶",
+      "D. 唾液淀粉酶"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-274",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "循环系统",
+    "question": "人体血液循环中，左心室收缩时，血液首先进入哪条血管？",
+    "options": [
+      "A. 肺动脉",
+      "B. 主动脉",
+      "C. 肺静脉",
+      "D. 腔静脉"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-275",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸系统",
+    "question": "下列关于人体呼吸系统的描述，正确的是？",
+    "options": [
+      "A. 鼻腔内只有嗅觉感受器，没有过滤和加热空气的功能。",
+      "B. 肺是气体交换的场所，肺泡壁仅由一层上皮细胞构成，有利于气体扩散。",
+      "C. 氧气在血液中主要以氧合血红蛋白的形式运输，二氧化碳则全部以碳酸氢盐形式运输。",
+      "D. 呼吸运动是由膈肌和肋间外肌的收缩实现的，呼气时这些肌肉舒张。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-276",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "泌尿系统",
+    "question": "泌尿系统中，负责过滤血液并形成尿液的结构是？",
+    "options": [
+      "A. 膀胱",
+      "B. 肾单位",
+      "C. 输尿管",
+      "D. 尿道"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-277",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "神经系统",
+    "question": "手指不小心碰到火焰时，会出现快速的抽手动作，该反射的神经通路顺序是？",
+    "options": [
+      "A. 感受器 → 传入神经 → 脊髓 → 传出神经 → 效应器",
+      "B. 感受器 → 大脑皮层 → 传出神经 → 效应器",
+      "C. 感受器 → 传入神经 → 大脑 → 传出神经 → 效应器",
+      "D. 感受器 → 传入神经 → 小脑 → 传出神经 → 效应器"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-278",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "激素调节",
+    "question": "血糖浓度升高时，胰岛素和胰高血糖素的分泌情况分别是（ ）。",
+    "options": [
+      "A. 胰岛素分泌增加，胰高血糖素分泌增加",
+      "B. 胰岛素分泌增加，胰高血糖素分泌减少",
+      "C. 胰岛素分泌减少，胰高血糖素分泌增加",
+      "D. 胰岛素分泌减少，胰高血糖素分泌减少"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-279",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "人类传染病",
+    "question": "下列关于传染病预防的措施中，哪项是错误的？",
+    "options": [
+      "A. 勤洗手，保持个人卫生",
+      "B. 及时接种相应的疫苗",
+      "C. 随意使用抗生素以防万一",
+      "D. 保持室内空气流通，定期通风"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-280",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "免疫",
+    "question": "关于人体免疫的说法，下面哪项是正确的？",
+    "options": [
+      "A. 免疫系统只在感染时才会工作",
+      "B. 第一道防线是皮肤和黏膜，能够阻止大多数病原体进入体内",
+      "C. 疫苗的作用是让病毒直接杀死体内细菌",
+      "D. 抗体只能由B细胞产生"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-281",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物行为",
+    "question": "下列哪种行为属于动物的学习行为（通过经验获得的）？",
+    "options": [
+      "A. 蜘蛛织网捕食",
+      "B. 婴儿出生后会吸吮母乳",
+      "C. 大鼠在迷宫实验中快速找到出口",
+      "D. 龟在冬眠时降低体温"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-282",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物分类",
+    "question": "下列动物中，属于哺乳动物的是（　　）",
+    "options": [
+      "A. 青蛙",
+      "B. 鸽子",
+      "C. 蝙蝠",
+      "D. 蛇"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-283",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物分类",
+    "question": "在植物界，依据是否形成种子，可将植物分为哪两大类？",
+    "options": [
+      "A. 维管植物和非维管植物",
+      "B. 种子植物和无种子植物",
+      "C. 单子叶植物和双子叶植物",
+      "D. 被子植物和裸子植物"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-284",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生态系统",
+    "question": "在生态系统中，以下哪项属于非生物因素？",
+    "options": [
+      "A. 细菌",
+      "B. 土壤",
+      "C. 树木",
+      "D. 蝴蝶"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-285",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "食物链",
+    "question": "以下哪一项能够正确表示一条完整的食物链？",
+    "options": [
+      "A. 草 → 兔子 → 狐狸 → 蘑菇",
+      "B. 草 → 蝗虫 → 青蛙 → 蛇 → 鹰",
+      "C. 鹿 → 老虎 → 草 → 蝗虫",
+      "D. 蜘蛛 → 蝴蝶 → 花 → 土壤"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-286",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生物多样性",
+    "question": "以下哪项不属于生物多样性的主要层次？",
+    "options": [
+      "A. 基因多样性",
+      "B. 物种多样性",
+      "C. 生态系统多样性",
+      "D. 种群多样性"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-287",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "遗传基础",
+    "question": "在孟德尔的紫花（P）对白花（p）一对等位基因实验中，若将基因型为 Pp 的紫花自交，子代中紫花植株的比例是（    ）。",
+    "options": [
+      "A. 3/4",
+      "B. 1/4",
+      "C. 1/2",
+      "D. 全部（1）"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-288",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "变异",
+    "question": "以下关于变异的叙述，正确的是",
+    "options": [
+      "A. 变异是指不同物种之间的差异",
+      "B. 变异是指同一种群中个体之间的差异",
+      "C. 变异一定是由基因突变引起的",
+      "D. 变异对生物的生存一定是有害的"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-289",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "进化",
+    "question": "以下关于自然选择在进化中的作用，描述正确的是？",
+    "options": [
+      "A. 变异是个体在生命活动中主动产生的，以适应环境的变化",
+      "B. 自然选择保留对环境更适应的个体，使有利的性状在种群中更常见",
+      "C. 进化是由个体主动改变基因序列来实现的",
+      "D. 进化只在有性生殖的生物中发生，无性生殖的生物不受自然选择影响"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-290",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "青春期",
+    "question": "青春期时，男性出现声音变粗、喉结突出等第二性征，主要是因为哪种激素的分泌增加？",
+    "options": [
+      "A. 雌激素",
+      "B. 睾酮",
+      "C. 促甲状腺激素",
+      "D. 胰岛素"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-291",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞结构",
+    "question": "以下哪种结构在动物细胞中存在，而在大多数植物细胞中通常不存在？",
+    "options": [
+      "A. 细胞壁",
+      "B. 细胞核",
+      "C. 线粒体",
+      "D. 中心体"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-292",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞分裂",
+    "question": "在细胞有丝分裂过程中，染色体的着丝点连接到纺锤体上并排列在细胞中央的阶段是（ ）。",
+    "options": [
+      "A. 前期（染色体开始浓缩）",
+      "B. 中期（染色体排列在细胞赤道板，纺锤体微管连接到着丝点）",
+      "C. 后期（姐妹染色单体被拉向细胞两极）",
+      "D. 末期（细胞核重新形成，细胞质分裂）"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-293",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物组织",
+    "question": "植物体内负责运输有机养分（如光合作用产生的糖）的组织是（ ）。",
+    "options": [
+      "A. 木质部",
+      "B. 韧皮部",
+      "C. 表皮组织",
+      "D. 分生组织"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-294",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物组织",
+    "question": "以下哪项不属于动物的基本组织？",
+    "options": [
+      "A. 上皮组织",
+      "B. 结缔组织",
+      "C. 肌肉组织",
+      "D. 生殖组织"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-295",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光合作用",
+    "question": "光合作用过程中，释放的氧气来源于下列哪种物质？",
+    "options": [
+      "A. 二氧化碳",
+      "B. 水",
+      "C. 葡萄糖",
+      "D. 叶绿体"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-296",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸作用",
+    "question": "下列关于细胞呼吸的说法中，正确的是？",
+    "options": [
+      "A. 有氧呼吸的主要场所是细胞质",
+      "B. 有氧呼吸的产物包括二氧化碳、水和大量能量",
+      "C. 无氧呼吸只在植物细胞中进行",
+      "D. 呼吸作用的原料是二氧化碳和水"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-298",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "消化系统",
+    "question": "胆汁在脂肪消化中的作用是（ ）。",
+    "options": [
+      "A. 含有消化酶，直接分解脂肪",
+      "B. 促进胃液分泌，帮助脂肪消化",
+      "C. 乳化脂肪，使其更易被胰脂肪酶作用",
+      "D. 抑制小肠蠕动，延长脂肪在小肠的停留时间"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-298",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "循环系统",
+    "question": "心脏的左心房与左心室之间的瓣膜称为（   ）。",
+    "options": [
+      "A. 主动脉瓣",
+      "B. 二尖瓣",
+      "C. 三尖瓣",
+      "D. 肺动脉瓣"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-299",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸系统",
+    "question": "下列关于呼吸过程中膈肌运动的描述，正确的是：",
+    "options": [
+      "A. 吸气时膈肌舒张，使胸腔容积增大",
+      "B. 吸气时膈肌收缩，使胸腔容积增大",
+      "C. 呼气时膈肌收缩，使胸腔容积减小",
+      "D. 呼气时膈肌舒张，使胸腔容积增大"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-300",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "泌尿系统",
+    "question": "以下关于泌尿系统各器官功能的描述，正确的是？",
+    "options": [
+      "A. 肾脏只负责产生尿液，尿液的形成不涉及血液的过滤",
+      "B. 输尿管的主要功能是将肾脏产生的尿液输送至膀胱",
+      "C. 膀胱的主要功能是过滤血液并生成尿液",
+      "D. 尿道的主要功能是储存尿液"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-301",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "神经系统",
+    "question": "关于人类神经系统的组成，下列说法正确的是？",
+    "options": [
+      "A. 中枢神经系统包括大脑和脊髓。",
+      "B. 周围神经系统只包含大脑和脑神经。",
+      "C. 神经元是神经系统中唯一的细胞类型。",
+      "D. 神经冲动只能沿轴突单向传递，不能反向。"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-302",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "激素调节",
+    "question": "人在进食后血糖升高时，胰岛素的主要作用是",
+    "options": [
+      "A. 促进肝糖原分解",
+      "B. 促进脂肪细胞摄取葡萄糖并合成甘油三酯",
+      "C. 抑制肌肉细胞对葡萄糖的吸收",
+      "D. 刺激胰高血糖素分泌"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-303",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "人类传染病",
+    "question": "关于人类传染病的预防措施，以下哪项是不正确的？",
+    "options": [
+      "A. 勤洗手并保持个人卫生",
+      "B. 接种相应的疫苗",
+      "C. 随意使用抗生素预防感染",
+      "D. 避免前往疫情高发地区"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-304",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "免疫",
+    "question": "关于免疫系统的功能，下列说法中正确的是？",
+    "options": [
+      "A. 免疫系统只能抵御外来病原体，对自身组织没有作用",
+      "B. 人体的第一道防线是皮肤和黏膜，属于非特异性免疫",
+      "C. 疫苗的作用是直接杀死病毒，从而预防疾病",
+      "D. 抗体只能由T细胞产生，B细胞不参与抗体生成"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-305",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物行为",
+    "question": "以下哪项描述的是动物的先天性行为（本能行为）？",
+    "options": [
+      "A. 小鸡跟随母鸡学习觅食",
+      "B. 蜘蛛织网捕食",
+      "C. 狗学会坐下取食",
+      "D. 学生在实验室中训练老鼠走迷宫"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-306",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物分类",
+    "question": "以下哪种动物属于节肢动物门中的昆虫纲？",
+    "options": [
+      "A. 蚊子",
+      "B. 蜘蛛",
+      "C. 螃蟹",
+      "D. 蛤蜊"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-307",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物分类",
+    "question": "在植物的分类中，根据种子是否有果皮包被，可以将植物分为哪两大类？",
+    "options": [
+      "A. 单子叶植物和双子叶植物",
+      "B. 裸子植物和被子植物",
+      "C. 维管植物和非维管植物",
+      "D. 有花植物和无花植物"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-308",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生态系统",
+    "question": "以下关于食物链和食物网的描述，正确的是（ ）。",
+    "options": [
+      "A. 食物链是生态系统内能量流动的唯一路径",
+      "B. 食物网是由多条食物链相互交织形成的网络结构",
+      "C. 食物网不包括分解者",
+      "D. 食物链中每个营养级只包含一种生物"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-309",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "食物链",
+    "question": "以下关于食物链的叙述，正确的是？",
+    "options": [
+      "A. 能量沿着食物链从低营养级向高营养级传递",
+      "B. 能量在食物链中循环使用",
+      "C. 消费者总是比生产者储存更多的能量",
+      "D. 分解者不属于食物链的一部分"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": "biology-310",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "生物多样性",
+    "question": "以下哪项措施不利于生物多样性保护？",
+    "options": [
+      "A. 设立自然保护区",
+      "B. 限制外来物种的引入",
+      "C. 大规模砍伐森林",
+      "D. 加强公众环境教育"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-311",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "遗传基础",
+    "question": "以下关于等位基因（allele）的描述，哪一项是正确的？",
+    "options": [
+      "A. 等位基因是同一基因的不同突变形式，位于染色体的不同位置。",
+      "B. 等位基因位于同源染色体的同一位置。",
+      "C. 等位基因只能在有性繁殖过程中出现。",
+      "D. 等位基因在同一染色体的不同位置。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-312",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "变异",
+    "question": "下列关于变异的说法，正确的是（ ）。",
+    "options": [
+      "A. 变异只发生在有性繁殖过程中。",
+      "B. 基因突变是产生遗传变异的主要原因之一。",
+      "C. 环境因素引起的变异一定会遗传给后代。",
+      "D. 所有变异都会对生物体产生不利影响。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-313",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "进化",
+    "question": "下列关于生物进化的说法，正确的是：",
+    "options": [
+      "A. 生物进化是指个体在生命周期中主动改变基因以适应环境",
+      "B. 生物进化是指种群基因库（基因频率）随时间的变化",
+      "C. 只有在环境条件改变时，生物才会发生进化",
+      "D. 进化是一种有方向的过程，总是向更高级的形态发展"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-314",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "青春期",
+    "question": "以下关于青春期的描述，哪项是正确的？",
+    "options": [
+      "A. 青春期只有身体上的变化",
+      "B. 青春期的变化完全由遗传决定",
+      "C. 青春期是生理、心理和社会角色转变的阶段",
+      "D. 青春期只发生在女性"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-315",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞结构",
+    "question": "在植物细胞与动物细胞中，哪一结构仅在植物细胞中存在，且具有支持和保护作用？",
+    "options": [
+      "A. 细胞核",
+      "B. 细胞壁",
+      "C. 线粒体",
+      "D. 高尔基体"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-316",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "细胞分裂",
+    "question": "在有丝分裂过程中，姐妹染色单体分离并移向细胞两极的阶段是（ ）。",
+    "options": [
+      "A. 前期",
+      "B. 中期",
+      "C. 后期",
+      "D. 末期"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-317",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "植物组织",
+    "question": "在植物茎的横截面上，维管束主要由哪两种组织构成？",
+    "options": [
+      "A. 表皮组织和皮层组织",
+      "B. 木质部和韧皮部",
+      "C. 皮层和髓部",
+      "D. 形成层和木质部"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-318",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "动物组织",
+    "question": "心肌细胞与骨骼肌细胞的主要区别是？",
+    "options": [
+      "A. 心肌细胞受意识支配，骨骼肌细胞不受意识支配",
+      "B. 心肌细胞呈多核，骨骼肌细胞呈单核",
+      "C. 心肌细胞之间有闰盘，骨骼肌细胞之间没有闰盘",
+      "D. 心肌细胞的收缩速度比骨骼肌快"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-319",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "光合作用",
+    "question": "光合作用的总方程式可表示为：6CO2 + 6H2O + 光能 → C6H12O6 + 6O2。根据此方程式，以下说法正确的是（ ）。",
+    "options": [
+      "A. 产生氧气是因为水被分解",
+      "B. 产生葡萄糖是因为二氧化碳被还原",
+      "C. 光能直接转化为化学能储存在葡萄糖中",
+      "D. 以上都正确"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": "biology-320",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸作用",
+    "question": "在有氧呼吸过程中，氧气的主要作用是什么？",
+    "options": [
+      "A. 为细胞提供直接的能量来源",
+      "B. 作为电子传递链的最终电子受体",
+      "C. 直接参与糖酵解反应",
+      "D. 促进葡萄糖的合成"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-321",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "消化系统",
+    "question": "以下关于消化系统的叙述，正确的是？",
+    "options": [
+      "A. 口腔仅进行机械消化，不分泌消化酶。",
+      "B. 胃分泌的胃液中主要含有盐酸和胃蛋白酶，能够初步分解蛋白质。",
+      "C. 小肠是吸收营养的唯一场所，食物在大肠中不再被吸收。",
+      "D. 胆汁由胆囊直接分泌，帮助脂肪乳化成小滴，以利酶的作用。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-322",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "循环系统",
+    "question": "在血液循环中，血液在肺部进行气体交换后，富含氧气的血液通过哪条血管进入左心房？",
+    "options": [
+      "A. 肺动脉",
+      "B. 肺静脉",
+      "C. 主动脉",
+      "D. 腔静脉"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-323",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "呼吸系统",
+    "question": "在呼吸过程中，氧气从肺泡进入血液的主要方式是（ ）",
+    "options": [
+      "A. 主动运输",
+      "B. 渗透",
+      "C. 扩散",
+      "D. 吞噬"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-324",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "泌尿系统",
+    "question": "泌尿系统的结构中，负责将尿液从肾脏输送到膀胱的管道是？",
+    "options": [
+      "A. 肾小球",
+      "B. 肾小管",
+      "C. 输尿管",
+      "D. 尿道"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": "biology-325",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "神经系统",
+    "question": "以下关于自主神经系统的描述，正确的是？",
+    "options": [
+      "A. 自主神经系统仅控制随意运动",
+      "B. 自主神经系统包括交感神经和副交感神经",
+      "C. 自主神经系统仅由大脑组成",
+      "D. 自主神经系统不影响心率"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-326",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "激素调节",
+    "question": "下列关于激素调节的描述，正确的是？",
+    "options": [
+      "A. 激素只能由内分泌腺分泌。",
+      "B. 激素通过血液运输到全身，但只作用于特定的靶细胞。",
+      "C. 所有激素的作用都是即时且短暂的。",
+      "D. 激素的分泌不受体内其他因素的影响。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": "biology-327",
+    "subject": "biology",
+    "type": "choice",
+    "difficulty": "medium",
+    "tag": "人类传染病",
+    "question": "以下哪项不是传染病流行的三个基本环节之一？",
+    "options": [
+      "A. 病原体来源",
+      "B. 传播途径",
+      "C. 易感人群",
+      "D. 医疗设施"
+    ],
+    "answer": "D"
   }
 ]

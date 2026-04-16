@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#4CAF50">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="description" content="百日闯 - 初二学习打卡PWA">
-  <title>百日闯 - 初二学习打卡</title>
+  <meta name="description" content="百日闯 - 100天提升PWA">
+  <title>百日闯 - 100天提升</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -27,10 +27,9 @@
         <span id="app-title">百日闯</span>
         <span class="update-badge" id="update-badge" data-action="upgrade-questions" style="display:none">有新版本</span>
       </h1>
-      <span class="subtitle">初二</span>
+      <span class="subtitle">100天提升</span>
     </div>
     <div class="header-right">
-      <button class="header-btn" id="header-history-btn" data-action="nav" data-view="progress">📊</button>
       <button class="header-settings-btn" id="header-settings-btn" data-action="nav" data-view="settings">⚙️</button>
     </div>
   </header>
@@ -45,7 +44,7 @@
         <div class="streak-card-left">
           <div class="streak-main">
             <span class="streak-count" id="streak-count">0</span>
-            <span class="streak-unit">天连续</span>
+            <span class="streak-unit">天</span>
           </div>
           <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
         </div>
@@ -122,7 +121,7 @@
   </main>
 
   <footer>
-    <p>百日闯 · 初二学习打卡</p>
+    <p>百日闯 · 100天提升</p>
   </footer>
 </div>
 
@@ -156,6 +155,69 @@
 </div>
 
 <div id="toast" class="toast" style="display:none"></div>
+
+<!-- ===== ACCOUNT SETUP MODAL ===== -->
+<div id="account-setup-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:360px">
+    <div class="modal-emoji">👋</div>
+    <p class="modal-title">欢迎使用百日闯</p>
+    <p class="modal-sub">创建一个专属身份，换设备扫码即可恢复</p>
+    <div class="modal-close-row">
+      <button class="modal-close-x" id="account-setup-close-btn">×</button>
+    </div>
+    <div class="account-avatar-pick">
+      <img id="avatar-preview" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3Ctext x='50' y='65' text-anchor='middle' font-size='50'%3E👤%3C/text%3E%3C/svg%3E" alt="头像">
+      <label class="avatar-upload-btn">
+        更换头像
+        <input type="file" accept="image/*" id="avatar-file-input" style="display:none">
+      </label>
+    </div>
+    <input type="text" id="account-name-input" class="text-input" placeholder="输入你的名字" maxlength="20">
+    <button class="primary-btn" id="account-setup-confirm-btn" style="margin-top:12px">开启百日计划</button>
+  </div>
+</div>
+
+<!-- ===== 100-DAY COMPLETION MODAL ===== -->
+<div id="completion-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card completion-modal-card" style="top:10px">
+    <div class="completion-header">
+      <div class="completion-emoji">🏆</div>
+      <h2 class="completion-title">100天完成！</h2>
+      <p class="completion-sub">你已完成百日闯学习计划</p>
+    </div>
+    <div class="completion-compare">
+      <div class="compare-item">
+        <div class="compare-label">第1天平均</div>
+        <div class="compare-val" id="cmp-day1">--</div>
+      </div>
+      <div class="compare-arrow">→</div>
+      <div class="compare-item">
+        <div class="compare-label">第100天平均</div>
+        <div class="compare-val compare-val-now" id="cmp-day100">--</div>
+      </div>
+    </div>
+    <div class="compare-gain" id="cmp-gain"></div>
+    <div class="compare-subjects" id="cmp-subjects"></div>
+    <button class="primary-btn" id="completion-confirm-btn" style="margin-top:16px">继续努力</button>
+  </div>
+</div>
+
+<div id="qr-import-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:400px">
+    <div class="modal-toolbar">
+      <span class="modal-title">扫码接入</span>
+      <button class="modal-close-btn" id="qr-import-close-btn">×</button>
+    </div>
+    <div id="qr-reader" style="width:100%"></div>
+    <p class="placeholder" id="qr-import-tip">对准二维码扫描</p>
+    <p class="placeholder" id="qr-import-error" style="color:#e53935;display:none"></p>
+  </div>
+</div>
+
+<!-- QR + compression CDNs -->
+<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
 
 <!-- ===== SCRIPTS ===== -->
 <script type="module" src="app.js"></script>
