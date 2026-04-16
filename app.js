@@ -181,7 +181,16 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' };
+  state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '', audioVersion: '', questionBankVersion: '' };
+
+  // Load local version from version.json
+  try {
+    const vr = await fetch('version.json?_=' + Date.now(), { cache: 'no-store' });
+    if (vr.ok) {
+      const vdata = await vr.json();
+      state.settings.appVersion = vdata.version || '';
+    }
+  } catch(e) {}
 
   // Apply time-based theme
   initTheme();
@@ -235,16 +244,23 @@ async function init() {
     showAccountSetupModal();
   }
 
-  // Account setup avatar upload
-  document.getElementById('avatar-file-input')?.addEventListener('change', async e => {
+  // Avatar choice modal
+  document.getElementById('avatar-camera-input')?.addEventListener('change', async e => {
     const file = e.target.files?.[0];
     if (!file) return;
     const reader = new FileReader();
     reader.onload = ev => {
       const preview = document.getElementById('avatar-preview');
       if (preview) preview.src = ev.target.result;
+      document.getElementById('avatar-choice-modal').style.display = 'none';
     };
     reader.readAsDataURL(file);
+    e.target.value = '';
+  });
+
+  // Close avatar choice modal buttons
+  document.getElementById('avatar-choice-close-btn')?.addEventListener('click', () => {
+    document.getElementById('avatar-choice-modal').style.display = 'none';
   });
 
   // Account setup confirm button
@@ -284,22 +300,17 @@ async function init() {
 
 // 比较两个 X.Y.Z-YYYYMMDD 版本号：return positive if a > b
 function compareVersion(a, b) {
+  // Parse semver X.Y.Z, ignoring any -YYYYMMDD date suffix
   const parse = v => {
-    const [sem, date] = (v || '0.0.0').split('-');
-    const parts = sem.split('.').map(Number);
-    return {
-      major: parts[0] || 0,
-      minor: parts[1] || 0,
-      patch: parts[2] || 0,
-      date: date || '',
-    };
+    const core = String(v || '0.0.0').split('-')[0];
+    const parts = core.split('.').map(Number);
+    return { major: parts[0] || 0, minor: parts[1] || 0, patch: parts[2] || 0 };
   };
-  const va = parse(a);
-  const vb = parse(b);
+  const va = parse(a), vb = parse(b);
   if (va.major !== vb.major) return va.major - vb.major;
   if (va.minor !== vb.minor) return va.minor - vb.minor;
   if (va.patch !== vb.patch) return va.patch - vb.patch;
-  return 0; // equal
+  return 0;
 }
 
 // ============================================================
@@ -1382,6 +1393,8 @@ function drawChart() {
   }
 
   // 已完成摸底测试 → 各科柱状图
+  const todayKey = getLocalDateKey(new Date());
+  const practicedToday = !!state.daily[todayKey];
   const barData = subjects.map(subj => {
     const acc = getSubjectAccuracy(subj);
     return { subj, acc };
@@ -1433,7 +1446,7 @@ function drawChart() {
   <div class="home-header-strip">
     <div class="home-header-left">
       <div class="home-header-greeting">${getTimeGreeting()}</div>
-      <div class="home-header-sub">坚持就是胜利</div>
+      ${practicedToday ? '<div class="home-header-sub">坚持就是胜利</div>' : ''}
     </div>
     <div class="home-header-right">
       <div class="home-header-date">${formatDateKeyLabel(getLocalDateKey(new Date()))}</div>
@@ -1484,8 +1497,8 @@ async function renderSettings() {
       <div class="settings-row" style="padding:8px 0;border-bottom:none">
         <div class="settings-label" style="margin:0">版本</div>
         <div style="display:flex;align-items:center;gap:6px">
-          <span class="settings-hint" style="margin:0">${state.remoteVersions?.version || '8.6.0'}</span>
-          <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:3px 8px;font-size:0.7rem">更新</button>
+          <span class="settings-hint" style="margin:0">${(state.settings.appVersion || '8.7.0')}</span>
+          <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:3px 8px;font-size:0.7rem">检查更新</button>
         </div>
       </div>
     </div>
@@ -1510,7 +1523,7 @@ async function renderSettings() {
       <div class="settings-hint">加载中...</div>
     </div>
 
-    <div class="settings-version">百日闯 v${state.remoteVersions?.version || '?'}</div>
+    <div class="settings-version">百日闯 v${state.settings.appVersion || '8.7.0'}</div>
   `;
 
   // Show QB stats
@@ -1781,6 +1794,38 @@ async function handleClick(e) {
       if (window.deferredPWA) window.deferredPWA.prompt();
       break;
 
+    case 'open-avatar-choice':
+      openAvatarChoiceModal();
+      break;
+
+    case 'avatar-use-camera':
+      document.getElementById('avatar-camera-input').capture = 'environment';
+      document.getElementById('avatar-camera-input').accept = 'image/*';
+      document.getElementById('avatar-camera-input').click();
+      break;
+
+    case 'avatar-use-upload':
+      const inp = document.createElement('input');
+      inp.type = 'file';
+      inp.accept = 'image/*';
+      inp.onchange = e => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = ev => {
+          const preview = document.getElementById('avatar-preview');
+          if (preview) preview.src = ev.target.result;
+          document.getElementById('avatar-choice-modal').style.display = 'none';
+        };
+        reader.readAsDataURL(file);
+      };
+      inp.click();
+      break;
+
+    case 'avatar-use-emoji':
+      showAvatarEmojiGrid();
+      break;
+
     case 'edit-account':
       showAccountEditModal();
       break;
@@ -1907,6 +1952,32 @@ function showToast(msg, duration) {
 // ============================================================
 // ACCOUNT SYSTEM
 // ============================================================
+function openAvatarChoiceModal() {
+  const modal = document.getElementById('avatar-choice-modal');
+  if (!modal) return;
+  document.getElementById('avatar-emoji-grid').style.display = 'none';
+  modal.style.display = 'flex';
+}
+
+function showAvatarEmojiGrid() {
+  const grid = document.getElementById('avatar-emoji-grid');
+  if (!grid) return;
+  if (grid.children.length === 0) {
+    const emojis = ['😀','😃','😄','😁','😆','😅','🤣','😂','🙂','😉','😊','😇','🥰','😍','🤩','😘','😗','😚','😋','😛','😜','🤪','😝','🤑','🤗','🤭','🤫','🤔','🤐','🤨','😐','😑','😶','😏','😒','🙄','😬','🤥','😌','😔','😪','🤤','😴','😷','🤒','🤕','🤢','🤮','🥵','🥶','🥴','😵','🤯','🤠','🥳','😎','🤓','🧐','😕','😟','🙁','😮','😯','😲','😳','🥺','😦','😧','😨','😰','😥','😢','😭','😱','😖','😣','😞','😓','😩','😫','🥱','😤','😡','😠','🤬','😈','👿','💀','☠️','💩','🤡','👹','👺','👻','👽','👾','🤖'];
+    grid.innerHTML = emojis.map(e =>
+      `<button class="emoji-btn" data-emoji="${e}" style="font-size:1.4rem;padding:4px;background:none;border:none;cursor:pointer;border-radius:6px">${e}</button>`
+    ).join('');
+    grid.querySelectorAll('.emoji-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const preview = document.getElementById('avatar-preview');
+        if (preview) preview.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-size='56'%3E${encodeURIComponent(btn.dataset.emoji)}%3C/text%3E%3C/svg%3E`;
+        document.getElementById('avatar-choice-modal').style.display = 'none';
+      });
+    });
+  }
+  grid.style.display = 'flex';
+}
+
 function showAccountSetupModal() {
   const modal = document.getElementById('account-setup-modal');
   if (!modal) return;
