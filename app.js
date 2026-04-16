@@ -700,7 +700,10 @@ function isAnswerMatch(userAnswer, correctAnswer, question = null) {
   }
 
   const normalizedAnswer = normalizeAnswerText(correctAnswer);
-  return normalizedUser === normalizedAnswer || userAnswer === String(correctAnswer);
+  return normalizedUser === normalizedAnswer
+    || normalizedUser === normalizedAnswer.replace(/\s+/g, '')
+    || userAnswer === String(correctAnswer)
+    || normalizedUser.startsWith(normalizedAnswer.replace(/\s+/g, ''));
 }
 
 function appendExplanation(fb, questionLike) {
