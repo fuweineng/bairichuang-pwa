@@ -223,16 +223,6 @@ async function init() {
     if (e.target.id === 'donate-modal') document.getElementById('donate-modal').style.display = 'none';
   });
 
-  // Chart subject switcher
-  document.getElementById('chart-subject-bar')?.addEventListener('click', e => {
-    const btn = e.target.closest('.subj-btn');
-    if (!btn) return;
-    const subj = btn.dataset.chartSubj;
-    state.chartSubject = subj;
-    document.querySelectorAll('.subj-btn').forEach(b => b.classList.toggle('active', b === btn));
-    document.getElementById('home-chart-container').innerHTML = drawChart();
-  });
-
   console.log('百日闯 PWA 初始化完成');
 }
 
@@ -413,23 +403,6 @@ function renderHome() {
   renderTodayStatus();
   // Weak subjects
   renderWeakSubjects();
-  // CTA subtitle
-  updatePracticeCtaSub();
-}
-
-function updatePracticeCtaSub() {
-  const sub = document.getElementById('practice-cta-sub');
-  if (!sub) return;
-  const todayKey = getLocalDateKey(new Date());
-  const todayDone = !!state.daily[todayKey];
-  const totalDays = Object.keys(state.daily).length;
-  if (totalDays === 0) {
-    sub.textContent = '点击开始';
-  } else if (!todayDone) {
-    sub.textContent = '今日还未练习';
-  } else {
-    sub.textContent = '今日已完成，继续保持';
-  }
 }
 
 
@@ -512,24 +485,6 @@ function renderWeakSubjects() {
   el.innerHTML = `
     <div class="weak-section-header">⚠️ 低于${thresholdPct}%正确率的科目</div>
     <div class="weak-pills-row">${pills}</div>`;
-}
-
-function renderSubjectsStrip() {
-  const el = document.getElementById('subjects-strip-container');
-  if (!el) return;
-  const btns = SUBJECTS.map(subj => {
-    const acc = getSubjectAccuracy(subj);
-    const dotClass = acc === null ? 'none' : acc < 60 ? 'weak' : 'mastered';
-    const label = acc === null ? '未学' : `${acc}%`;
-    const emoji = {chinese:'语',math:'数',english:'英',physics:'理',chemistry:'化',biology:'生',history:'史',geography:'地',politics:'道'}[subj] || subj;
-    return `<button class="subj-grid-btn" data-action="start-subject" data-subject="${subj}">
-      <span class="subj-grid-emoji">${emoji}</span>
-      <span class="subj-grid-name">${subjectName(subj)}</span>
-      <span class="subj-grid-acc ${dotClass}">${label}</span>
-    </button>`;
-  }).join('');
-  el.innerHTML = `
-    <div class="subjects-grid">${btns}</div>`;
 }
 
 function getPracticeMode() {
@@ -1296,122 +1251,48 @@ function renderProgress() {
   `;
 }
 
-// SVG Chart — last 30 sessions
+// 柱状图 — 各科掌握情况，点击科目名称开始练习
 function drawChart() {
-  const W = 340, H = 120, PAD = 20;
-  const MAX_SESSIONS = 30;
-  const sessions = state.sessions.slice(-MAX_SESSIONS);
-
-  if (sessions.length === 0) {
-    return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg"><text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#ccc" font-size="12">暂无数据</text></svg>`;
-  }
-
-  const subj = state.chartSubject || 'all';
-  const lineColors = {
-    all: '#4CAF50', chinese: '#E91E63', math: '#2196F3',
-    english: '#FF9800', physics: '#9C27B0', chemistry: '#E91E63', biology: '#009688',
+  const subjects = ['chinese','math','english','physics','chemistry','biology','history','geography','politics'];
+  const subjectColors = {
+    chinese: '#E91E63', math: '#2196F3', english: '#FF9800',
+    physics: '#9C27B0', chemistry: '#E91E63', biology: '#009688',
     history: '#795548', geography: '#607D8B', politics: '#F44336'
   };
-  const typeColors = {
-    choice: '#4CAF50', fill: '#2196F3', short_answer: '#FF9800',
-    listening: '#8b5cf6', dictation: '#ec4899', passage_dictation: '#14b8a6',
-  };
 
-  let lines = [];
+  // 计算每个科目的掌握度（正确次数/总次数）
+  const data = subjects.map(subj => {
+    const acc = getSubjectAccuracy(subj);
+    return { subj, acc };
+  }).sort((a, b) => {
+    if (a.acc === null && b.acc === null) return 0;
+    if (a.acc === null) return 1;
+    if (b.acc === null) return -1;
+    return b.acc - a.acc; // 从高到低
+  });
 
-  if (subj === 'all') {
-    const subjects = ['chinese','math','english','physics','chemistry','biology','history','geography','politics'];
-    subjects.forEach(s => {
-      const vals = sessions.map(sess => {
-        const byS = sess.bySubject || {};
-        const sd = byS[s] || {};
-        const total = (sd.correct || 0) + (sd.wrong || 0);
-        return total > 0 ? Math.round((sd.correct || 0) / total * 100) : 0;
-      });
-      if (vals.some(v => v > 0)) {
-        lines.push({ label: subjectName(s), color: lineColors[s] || '#999', values: vals });
-      }
-    });
-  } else {
-    ['choice','fill','short_answer','listening','dictation','passage_dictation'].forEach(t => {
-      const vals = sessions.map(sess => {
-        const byS = sess.bySubject || {};
-        const sd = byS[subj] || {};
-        const byT = sd.byType || {};
-        const td = byT[t] || {};
-        const total = (td.correct || 0) + (td.wrong || 0);
-        return total > 0 ? Math.round((td.correct || 0) / total * 100) : 0;
-      });
-      if (vals.some(v => v > 0)) {
-        const labelMap = {
-          choice: '选择题', fill: '填空题', short_answer: '简答题',
-          listening: '听力选择', dictation: '听写填空', passage_dictation: '短文听写',
-        };
-        lines.push({ label: labelMap[t] || t, color: typeColors[t] || '#999', values: vals });
-      }
-    });
+  if (data.every(d => d.acc === null)) {
+    return `<div class="chart-empty">还没有练习数据</div>`;
   }
 
-  if (lines.length === 0) {
-    return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg"><text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#ccc" font-size="12">暂无数据</text></svg>`;
-  }
-
-  const allVals = lines.flatMap(l => l.values);
-  const maxS = Math.max(10, ...allVals.filter(v => v > 0));
-  const n = sessions.length;
-  const xStep = n > 1 ? (W - PAD * 2) / (n - 1) : 0;
-  const yScale = (H - PAD * 2) / maxS;
-
-  // X labels — show first, middle, last session index
-  const xLabelCount = Math.min(3, n);
-  const xLabelIndices = xLabelCount === 1 ? [0]
-    : xLabelCount === 2 ? [0, n-1]
-    : [0, Math.floor(n/2), n-1];
-  const startIdx = state.sessions.length - n; // absolute start index
-  const xLabels = xLabelIndices.map(i => {
-    const absIdx = startIdx + i + 1;
-    return `<text x="${PAD + i*xStep}" y="${H-4}" class="chart-xlabel" text-anchor="middle">${absIdx}次</text>`;
+  const rows = data.map(({ subj, acc }) => {
+    const color = subjectColors[subj] || '#999';
+    const pct = acc === null ? 0 : acc;
+    const barWidth = (pct / 100) * 100; // percentage for CSS
+    const label = acc === null ? '未学' : `${acc}%`;
+    return `
+    <div class="chart-bar-row" data-action="start-subject" data-subject="${subj}">
+      <span class="chart-bar-label" style="color:${color}">${subjectName(subj)}</span>
+      <div class="chart-bar-track">
+        <div class="chart-bar-fill" style="width:${barWidth}%;background:${color}"></div>
+      </div>
+      <span class="chart-bar-pct">${label}</span>
+    </div>`;
   }).join('');
 
-  // Y labels
-  const yLabels = [0, Math.round(maxS/2), maxS].map(s => {
-    const y = H - PAD - s * yScale;
-    return `<text x="${PAD-4}" y="${y+4}" class="chart-ylabel" text-anchor="end">${s}</text>`;
-  }).join('');
-
-  const svgLines = lines.map(line => {
-    const pts = line.values.map((s, i) => [
-      PAD + i * xStep,
-      s > 0 ? H - PAD - s * yScale : null
-    ]);
-    const polylinePts = pts.filter((p, i) => {
-      if (p[1] === null) return false;
-      const prev = pts[i-1];
-      return prev !== null && prev[1] !== null;
-    }).map(p => p[0]);
-
-    let polylineStr = '';
-    if (polylinePts.length > 1) {
-      polylineStr = `<polyline points="${polylinePts.map(p => `${p.toFixed(1)},${(H-PAD).toFixed(1)}`).join(' ')}" fill="none" stroke="${line.color}" stroke-width="1.8" stroke-opacity="0.85"/>`;
-    }
-    const dots = pts.filter(p => p[1] !== null).map(p =>
-      `<circle cx="${p[0].toFixed(1)}" cy="${p[1].toFixed(1)}" r="3" fill="${line.color}" opacity="0.9"/>`
-    ).join('');
-    return polylineStr + dots;
-  }).join('');
-
-  const legendItems = lines.map(l =>
-    `<span style="display:inline-flex;align-items:center;gap:3px;margin-right:8px;font-size:10px;color:${l.color}">
-       <span style="display:inline-block;width:16px;height:2px;background:${l.color}"></span>${l.label}
-     </span>`
-  ).join('');
-
-  return `<svg viewBox="0 0 ${W} ${H}" width="100%" class="chart-svg">
-    ${xLabels}${yLabels}
-    ${svgLines}
-    <text x="${PAD}" y="${PAD-4}" font-size="9" fill="#999">%</text>
-  </svg>
-  <div class="chart-legend">${legendItems}</div>`;
+  return `
+  <div class="chart-bar-list">${rows}</div>
+  <button class="chart-all-btn" data-action="start-subject" data-subject="all">全科练习</button>`;
 }
 
 // SETTINGS VIEW
