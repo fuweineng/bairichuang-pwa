@@ -863,7 +863,7 @@ function renderQuestion() {
     dictation: '听写填空', listening: '听力选择', passage_dictation: '短文听写',
     expression: '表达题', short_answer: '简答题'
   }[q.type] || '选择题';
-  const diffLabel = ['', '🟢 简单', '🟡 中等', '🔴 困难'][q.difficulty] || '';
+  const diffLabel = {1:'🟢 简单',2:'🟡 中等',3:'🔴 困难',medium:'🟡 中等'}[q.difficulty] || '';
   const imageSources = Array.isArray(q.images)
     ? q.images
     : [q.imageUrl || q.image].filter(Boolean);
