@@ -55,13 +55,66 @@ const K = {
   ACCOUNT: 'user_account',
 };
 
-const VERSION_URL = 'version.json';
+const VERSION_URL = 'https://raw.githubusercontent.com/fuweineng/bairichuang-pwa/main/version.json';
 const SUPPORTERS_URL = 'supporters.json';
 const INDEX_URL = 'questions/index.json';
 const SUBJECTS = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
 
 // Legacy key — kept for migration
 const LEGACY_QB_CACHE = 'question_bank_cache';
+
+// ============================================================
+// THEME SYSTEM
+// ============================================================
+const THEMES = {
+  morning:   { label: '早晨', start: 5,  end: 12 },
+  afternoon: { label: '下午', start: 12, end: 18 },
+  evening:   { label: '傍晚', start: 18, end: 22 },
+  night:     { label: '深夜', start: 22, end: 5  }, // wraps to next day
+};
+
+const GREETINGS = {
+  morning:   '早起的鸟儿有虫吃',
+  afternoon:  '上午好，精神不错',
+  evening:    '傍晚充电中',
+  night:      '夜深了，还在坚持',
+  midnight:   '夜猫子模式开启',
+};
+
+function getAutoTheme() {
+  const h = new Date().getHours();
+  if (h >= 5  && h < 7)  return 'morning';
+  if (h >= 7  && h < 12) return 'morning';
+  if (h >= 12 && h < 14) return 'afternoon';
+  if (h >= 14 && h < 18) return 'afternoon';
+  if (h >= 18 && h < 20) return 'evening';
+  if (h >= 20 && h < 23) return 'night';
+  return 'midnight';
+}
+
+function getTimeGreeting() {
+  const h = new Date().getHours();
+  if (h >= 5  && h < 7)  return GREETINGS.morning;
+  if (h >= 7  && h < 12) return GREETINGS.morning;
+  if (h >= 12 && h < 14) return GREETINGS.afternoon;
+  if (h >= 14 && h < 18) return GREETINGS.morning; // "下午好，继续加油"
+  if (h >= 18 && h < 20) return GREETINGS.evening;
+  if (h >= 20 && h < 23) return GREETINGS.night;
+  return GREETINGS.midnight;
+}
+
+function getEffectiveTheme() {
+  return state.settings.theme || getAutoTheme();
+}
+
+function applyTheme(theme) {
+  document.body.dataset.theme = theme || getEffectiveTheme();
+}
+
+function initTheme() {
+  const saved = state.settings.theme;
+  applyTheme(saved); // if saved is null, getEffectiveTheme() returns auto
+}
 
 function createEmptyQuestionBank() {
   return { math: [], english: [], chinese: [], physics: [], chemistry: [], biology: [], history: [], geography: [], politics: [] };
@@ -129,6 +182,9 @@ async function init() {
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
   state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' };
+
+  // Apply time-based theme
+  initTheme();
 
   // Check for app shell and question pack updates
   state.remoteVersions = await checkForAppUpdate();
@@ -390,6 +446,19 @@ async function renderHome() {
   // Chart
   const homeChartEl = document.getElementById('home-chart-container');
   if (homeChartEl) homeChartEl.innerHTML = drawChart();
+
+  // 全科练习大按钮 — 柱状图下方，主题色
+  let allBtn = document.getElementById('home-all-btn');
+  if (!allBtn) {
+    allBtn = document.createElement('button');
+    allBtn.id = 'home-all-btn';
+    allBtn.className = 'chart-all-btn-large';
+    allBtn.dataset.action = 'start-subject';
+    allBtn.dataset.subject = 'all';
+    allBtn.dataset.entry = 'standard';
+    allBtn.textContent = '全科练习';
+    homeChartEl.parentNode.insertBefore(allBtn, homeChartEl.nextSibling);
+  }
 
 
   // Update badge
@@ -1361,9 +1430,18 @@ function drawChart() {
   }).join('');
 
   return `
-  <div class="chart-header">
-    <span class="chart-total-days">累计 ${totalDays} 天</span>
-    <button class="chart-all-btn" data-action="start-subject" data-subject="all" data-entry="standard">全科练习</button>
+  <div class="home-header-strip">
+    <div class="home-header-left">
+      <div class="home-header-greeting">${getTimeGreeting()}</div>
+      <div class="home-header-sub">坚持就是胜利</div>
+    </div>
+    <div class="home-header-right">
+      <div class="home-header-date">${formatDateKeyLabel(getLocalDateKey(new Date()))}</div>
+      <div class="home-header-days">
+        <span class="home-header-days-dot"></span>
+        累计 ${totalDays} 天
+      </div>
+    </div>
   </div>
   <div class="chart-bar-list">${rows}</div>`;
 }
@@ -1392,6 +1470,15 @@ async function renderSettings() {
           <button class="stepper-btn" data-action="thresh-minus">−</button>
           <span class="stepper-val" id="thresh-val">${Math.round(state.settings.weakThreshold * 100)}%</span>
           <button class="stepper-btn" data-action="thresh-plus">+</button>
+        </div>
+      </div>
+      <div class="settings-row" style="padding:8px 0">
+        <div class="settings-label" style="margin:0">主题配色</div>
+        <div class="theme-picker">
+          <button class="theme-picker-btn${(!state.settings.theme || state.settings.theme === 'morning') ? ' active' : ''}" data-action="set-theme" data-value="morning">早晨</button>
+          <button class="theme-picker-btn${state.settings.theme === 'afternoon' ? ' active' : ''}" data-action="set-theme" data-value="afternoon">下午</button>
+          <button class="theme-picker-btn${state.settings.theme === 'evening' ? ' active' : ''}" data-action="set-theme" data-value="evening">傍晚</button>
+          <button class="theme-picker-btn${state.settings.theme === 'night' ? ' active' : ''}" data-action="set-theme" data-value="night">深夜</button>
         </div>
       </div>
       <div class="settings-row" style="padding:8px 0;border-bottom:none">
@@ -1662,6 +1749,12 @@ async function handleClick(e) {
     case 'thresh-plus':
       state.settings.weakThreshold = Math.min(0.95, state.settings.weakThreshold + 0.05);
       saveSettingsAndUpdate();
+      break;
+
+    case 'set-theme':
+      state.settings.theme = e.target.dataset.value || null;
+      saveSettingsAndUpdate();
+      applyTheme(state.settings.theme);
       break;
 
     case 'upgrade-questions':

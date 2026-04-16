@@ -27,6 +27,45 @@ html, body {
   --text-secondary: #666;
   --text-muted: #999;
 
+  /* Theme — overridden by JS via data-theme on <body> */
+  --theme-bg-1: #e8f5e9;
+  --theme-bg-2: #c8e6c9;
+  --theme-accent: #4CAF50;
+  --theme-text: #2e7d32;
+  --theme-btn-bg: #4CAF50;
+  --theme-btn-text: #fff;
+}
+
+/* 4 time-based themes */
+body[data-theme="morning"] {
+  --theme-bg-1: #e8f5e9;
+  --theme-bg-2: #c8e6c9;
+  --theme-accent: #4CAF50;
+  --theme-text: #2e7d32;
+  --theme-btn-bg: #4CAF50;
+}
+body[data-theme="afternoon"] {
+  --theme-bg-1: #e3f2fd;
+  --theme-bg-2: #bbdefb;
+  --theme-accent: #2196F3;
+  --theme-text: #1565c0;
+  --theme-btn-bg: #2196F3;
+}
+body[data-theme="evening"] {
+  --theme-bg-1: #fff3e0;
+  --theme-bg-2: #ffe0b2;
+  --theme-accent: #FF9800;
+  --theme-text: #e65100;
+  --theme-btn-bg: #FF9800;
+}
+body[data-theme="night"] {
+  --theme-bg-1: #e8eaf6;
+  --theme-bg-2: #c5cae9;
+  --theme-accent: #5C6BC0;
+  --theme-text: #283593;
+  --theme-btn-bg: #5C6BC0;
+}
+
   /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
@@ -1996,8 +2035,114 @@ main {
 .chart-xlabel { font-size: 9px; fill: #999; text-anchor: middle; }
 .chart-ylabel { font-size: 9px; fill: #999; }
 .history-list { display: flex; flex-direction: column; gap: 6px; }
-.chart-wrapper { background: white; border-radius: 12px; padding: 12px; margin-top: 6px; }
+.chart-wrapper { background: white; border-radius: 12px; padding: 12px; margin-top: 0; }
 .home-chart-section { margin-bottom: 0; }
+
+/* ===== 打卡板头 ===== */
+.home-header-strip {
+  background: linear-gradient(135deg, var(--theme-bg-1), var(--theme-bg-2));
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.home-header-strip::before {
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  width: 100px;
+  height: 100px;
+  background: var(--theme-bg-2);
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.home-header-left { display: flex; flex-direction: column; gap: 2px; }
+.home-header-greeting {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--theme-text);
+  line-height: 1.3;
+}
+.home-header-sub {
+  font-size: 0.75rem;
+  color: var(--theme-text);
+  opacity: 0.7;
+}
+.home-header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; flex-shrink: 0; }
+.home-header-date {
+  font-size: 0.75rem;
+  color: var(--theme-text);
+  opacity: 0.8;
+  font-weight: 600;
+}
+.home-header-days {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--theme-accent);
+  color: white;
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.home-header-days-dot {
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+}
+
+/* ===== 全科练习大按钮 ===== */
+.chart-all-btn-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 15px;
+  background: var(--theme-btn-bg);
+  color: var(--theme-btn-text);
+  border: none;
+  border-radius: 12px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transition: transform 0.15s, box-shadow 0.15s;
+  margin-top: 6px;
+}
+.chart-all-btn-large:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+.chart-all-btn-large:active { transform: translateY(0); }
+
+/* theme picker in settings */
+.theme-picker { display: flex; gap: 6px; flex-wrap: wrap; }
+.theme-picker-btn {
+  padding: 5px 10px;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  background: #f0f0f0;
+  color: #555;
+}
+.theme-picker-btn.active { border-color: currentColor; font-weight: 700; }
+.theme-picker-btn[data-theme="morning"] { background: #e8f5e9; color: #2e7d32; }
+.theme-picker-btn[data-theme="afternoon"] { background: #e3f2fd; color: #1565c0; }
+.theme-picker-btn[data-theme="evening"] { background: #fff3e0; color: #e65100; }
+.theme-picker-btn[data-theme="night"] { background: #e8eaf6; color: #283593; }
 .chart-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
 .chart-title { font-size: 0.9rem; font-weight: 600; color: #333; }
 .chart-hint { font-size: 0.75rem; color: #888; text-align: center; margin: 6px 0 4px; padding: 0 4px; }
