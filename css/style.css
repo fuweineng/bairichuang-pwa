@@ -198,6 +198,58 @@ main {
 
 .view.active { display: flex; }
 
+/* ==================== HOME SECTION STYLE ==================== */
+.home-section {
+  padding: 10px 0;
+}
+.home-section + .home-section {
+  border-top: 1px solid #f0f0f0;
+}
+
+/* Today status — minimal inline row, no card background */
+.today-status-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 0;
+}
+.today-status-row .today-status-icon { font-size: 1.2rem; flex-shrink: 0; }
+.today-status-row .today-status-info { flex: 1; min-width: 0; }
+.today-status-row .today-status-title { font-size: 0.88rem; font-weight: 600; color: #333; }
+.today-status-row .today-status-sub { font-size: 0.72rem; color: #888; }
+.today-status-row .today-status-stat { font-size: 0.85rem; font-weight: 700; color: #4CAF50; white-space: nowrap; }
+
+/* Weak subjects — minimal header + pills row, no card */
+.weak-section-header {
+  font-size: 0.72rem;
+  color: #aaa;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.weak-pills-row {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Subjects strip — minimal header + pills, no card */
+.subjects-section-header {
+  font-size: 0.72rem;
+  color: #aaa;
+  margin-bottom: 6px;
+}
+.subjects-strip-row {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* ==================== HOME — REBUILD ==================== */
 .home-upper-section {
   display: flex;

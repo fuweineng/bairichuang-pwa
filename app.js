@@ -431,7 +431,7 @@ function renderTodayStatus() {
   const today = state.daily[todayKey];
   if (!today || !today.questionsCount) {
     el.innerHTML = `
-      <div class="today-status-card not-practiced">
+      <div class="today-status-row">
         <span class="today-status-icon">🌟</span>
         <div class="today-status-info">
           <div class="today-status-title">今日还没练习</div>
@@ -446,7 +446,7 @@ function renderTodayStatus() {
     : 0;
   const emoji = rate >= 80 ? '🎉' : rate >= 60 ? '👍' : '💪';
   el.innerHTML = `
-    <div class="today-status-card">
+    <div class="today-status-row">
       <span class="today-status-icon">${emoji}</span>
       <div class="today-status-info">
         <div class="today-status-title">今日已完成</div>
@@ -501,10 +501,8 @@ function renderWeakSubjects() {
   }).join('');
 
   el.innerHTML = `
-    <div class="weak-subjects-card">
-      <div class="weak-subjects-header">⚠️ 低于 ${thresholdPct}% 正确率的科目优先练习</div>
-      <div class="weak-pills-row">${pills}</div>
-    </div>`;
+    <div class="weak-section-header">⚠️ 低于${thresholdPct}%正确率的科目</div>
+    <div class="weak-pills-row">${pills}</div>`;
 }
 
 function renderSubjectsStrip() {
@@ -521,10 +519,8 @@ function renderSubjectsStrip() {
     </button>`;
   }).join('');
   el.innerHTML = `
-    <div class="subjects-strip-card">
-      <div class="subjects-strip-header">选择单科练习</div>
-      <div class="subjects-strip-row">${btns}</div>
-    </div>`;
+    <div class="subjects-section-header">选择单科练习</div>
+    <div class="subjects-strip-row">${btns}</div>`;
 }
 
 function getPracticeMode() {
