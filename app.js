@@ -439,7 +439,7 @@ function renderTodayStatus() {
   if (!today || !today.questionsCount) {
     el.innerHTML = `
       <div class="today-status-row">
-        <span class="today-status-icon">🌟</span>
+        <span class="today-status-icon">待练</span>
         <div class="today-status-info">
           <div class="today-status-title">今日还没练习</div>
           <div class="today-status-sub">点击下方按钮开始</div>
@@ -451,7 +451,7 @@ function renderTodayStatus() {
   const rate = today.questionsCount > 0
     ? Math.round((today.correct / today.questionsCount) * 100)
     : 0;
-  const emoji = rate >= 80 ? '🎉' : rate >= 60 ? '👍' : '💪';
+  const emoji = rate >= 80 ? '优秀' : rate >= 60 ? '不错' : '加油';
   el.innerHTML = `
     <div class="today-status-row">
       <span class="today-status-icon">${emoji}</span>
@@ -515,7 +515,7 @@ function renderWeakSubjects() {
   }).join('');
 
   el.innerHTML = `
-    <div class="weak-section-header">⚠️ 低于${thresholdPct}%正确率的科目</div>
+    <div class="weak-section-header">低于${thresholdPct}%正确率的科目</div>
     <div class="weak-pills-row">${pills}</div>`;
 }
 
@@ -774,7 +774,7 @@ function speakQuestion() {
       // All failed → TTS
       speakWithWebSpeech(q);
       const btn = document.getElementById('listen-btn');
-      if (btn) { btn.textContent = '🔊 播放'; btn.disabled = false; }
+      if (btn) { btn.textContent = '播放'; btn.disabled = false; }
       return;
     }
     const audioPath = paths[pathIndex++];
@@ -784,12 +784,12 @@ function speakQuestion() {
     const grid = document.querySelector('.answer-grid');
     if (grid) grid.style.pointerEvents = 'none';
     const btn = document.getElementById('listen-btn');
-    if (btn) { btn.textContent = '🔊 播放中...'; btn.disabled = true; }
+    if (btn) { btn.textContent = '播放中...'; btn.disabled = true; }
 
     audio.onended = () => {
       currentAudio = null;
       if (grid) grid.style.pointerEvents = '';
-      if (btn) { btn.textContent = '✅ 已听完'; btn.disabled = false; }
+      if (btn) { btn.textContent = '已听完'; btn.disabled = false; }
     };
     audio.onerror = () => {
       currentAudio = null;
@@ -828,15 +828,15 @@ function speakWithWebSpeech(q) {
   const grid = document.querySelector('.answer-grid');
   if (grid) grid.style.pointerEvents = 'none';
   const btn = document.getElementById('listen-btn');
-  if (btn) { btn.textContent = '🔊 播放中...'; btn.disabled = true; }
+  if (btn) { btn.textContent = '播放中...'; btn.disabled = true; }
 
   utter.onend = () => {
     if (grid) grid.style.pointerEvents = '';
-    if (btn) { btn.textContent = '✅ 已听完'; btn.disabled = false; }
+    if (btn) { btn.textContent = '已听完'; btn.disabled = false; }
   };
   utter.onerror = () => {
     if (grid) grid.style.pointerEvents = '';
-    if (btn) { btn.textContent = '🔊 重试'; btn.disabled = false; }
+    if (btn) { btn.textContent = '重试'; btn.disabled = false; }
   };
 
   state.ttsUtterance = utter;
@@ -859,7 +859,7 @@ function renderQuestion() {
     dictation: '听写填空', listening: '听力选择', passage_dictation: '短文听写',
     expression: '表达题', short_answer: '简答题'
   }[q.type] || '选择题';
-  const diffLabel = {1:'🟢 简单',2:'🟡 中等',3:'🔴 困难',medium:'🟡 中等'}[q.difficulty] || '';
+  const diffLabel = {1:'简单',2:'中等',3:'困难',medium:'中等'}[q.difficulty] || '';
   const imageSources = Array.isArray(q.images)
     ? q.images
     : [q.imageUrl || q.image].filter(Boolean);
@@ -869,7 +869,7 @@ function renderQuestion() {
 
   // ── LISTENING TYPE: dictation ──────────────────────────────────────
   if (q.type === 'dictation') {
-    const listenBtn = `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听句子</button>`;
+    const listenBtn = `<button class="listen-btn" id="listen-btn" data-action="listen">听句子</button>`;
     container.innerHTML = `
       <div class="question-meta">
         <span>${typeLabel}</span><span>${diffLabel}</span>
@@ -906,7 +906,7 @@ function renderQuestion() {
       return;
     }
     const sq = subQs[subIdx];
-    const listenBtn = `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 听短文</button>`;
+    const listenBtn = `<button class="listen-btn" id="listen-btn" data-action="listen">听短文</button>`;
     container.innerHTML = `
       <div class="question-meta">
         <span>${typeLabel}</span><span>${diffLabel}</span>
@@ -934,7 +934,7 @@ function renderQuestion() {
   // ── LISTENING TYPE: listening (choice with audio_text) ────────────
   const shouldShowListenBtn = q.type === 'listening';
   const listenBtn = shouldShowListenBtn
-    ? `<button class="listen-btn" id="listen-btn" data-action="listen">🔊 播放音频</button>`
+    ? `<button class="listen-btn" id="listen-btn" data-action="listen">播放音频</button>`
     : '';
 
   // ── 判断题型 ──────────────────────────────────────────────────────────
@@ -1027,9 +1027,9 @@ async function handleAnswer(choiceIdx) {
       if (found) correctLabel = `${q.answer}. ${found.text}`;
     }
     if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
+      fb.innerHTML = `<span class="fb-correct">正确</span>`;
     } else {
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${correctLabel}</span>`;
+      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${correctLabel}</span>`;
     }
     appendExplanation(fb, q);
     fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
@@ -1056,9 +1056,9 @@ async function handleDictationSubmit() {
   if (fb) {
     fb.style.display = 'block';
     if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
+      fb.innerHTML = `<span class="fb-correct">正确</span>`;
     } else {
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${formatAnswerForDisplay(q.answer)}</span>`;
+      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(q.answer)}</span>`;
     }
     appendExplanation(fb, q);
     fb.innerHTML += `<button class="primary-btn" data-action="dictation-next" style="margin-top:10px">下一题 →</button>`;
@@ -1089,9 +1089,9 @@ async function handlePDSubmit() {
   if (fb) {
     fb.style.display = 'block';
     if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
+      fb.innerHTML = `<span class="fb-correct">正确</span>`;
     } else {
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${formatAnswerForDisplay(sq.answer)}</span>`;
+      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(sq.answer)}</span>`;
     }
     appendExplanation(fb, { ...sq, passage: q.passage });
     fb.innerHTML += `<button class="primary-btn" data-action="pd-next" style="margin-top:10px">${
@@ -1116,9 +1116,9 @@ async function handleFillAnswer(userAnswer) {
   if (fb) {
     fb.style.display = 'block';
     if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">✅ 正确！</span>`;
+      fb.innerHTML = `<span class="fb-correct">正确</span>`;
     } else {
-      fb.innerHTML = `<span class="fb-wrong">❌ 错误！正确答案是：${formatAnswerForDisplay(correctAns)}</span>`;
+      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(correctAns)}</span>`;
     }
     appendExplanation(fb, q, q.type === 'fill' || q.type === 'short_answer'); // skip passage for fill (already shown in question block)
     fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
@@ -1161,6 +1161,7 @@ async function renderSessionEnd() {
 
   // Merge into daily bySubject
   const existing = state.daily[today] || { practiced: 0, questionsCount: 0, correct: 0, accuracy: 0, score: 0, bySubject: {} };
+  const isNewCheckin = existing.questionsCount === 0; // today's first session
   const byS = existing.bySubject || {};
   state.sessionResults.forEach(result => {
     const subject = result.subject || 'unknown';
@@ -1196,6 +1197,9 @@ async function renderSessionEnd() {
     bySubject: byS,
   };
   await set(K.DAILY, state.daily);
+
+  // 今日首次打卡 → 烟花特效
+  if (isNewCheckin) fireworks();
 
   // Record session + init meta (day1 baseline)
   const sessionEntry = {
@@ -1247,11 +1251,40 @@ async function renderSessionEnd() {
       </div>
       <div class="session-daily">
         <p>今日累计: ${state.daily[today].questionsCount}题 | 得分: ${state.daily[today].score}</p>
-        <p>🔥 已坚持 <strong>${streak}</strong> 天（累计 <strong>${totalDays}</strong> 天）</p>
+        <p>已坚持 <strong>${streak}</strong> 天（累计 <strong>${totalDays}</strong> 天）</p>
       </div>
       <button class="primary-btn" data-action="back-home" style="margin-top:16px">返回首页</button>
     </div>
   `;
+}
+
+// 烟花特效 — 今日首次打卡触发
+function fireworks() {
+  const colors = ['#FF6B6B','#FFD93D','#6BCB77','#4D96FF','#FF6B6B','#C77DFF'];
+  const container = document.createElement('div');
+  container.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999;overflow:hidden';
+  document.body.appendChild(container);
+  for (let i = 0; i < 60; i++) {
+    const particle = document.createElement('div');
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    const angle = Math.random() * Math.PI * 2;
+    const velocity = 3 + Math.random() * 5;
+    const vx = Math.cos(angle) * velocity;
+    const vy = Math.sin(angle) * velocity;
+    const size = 4 + Math.random() * 6;
+    particle.style.cssText = `position:absolute;border-radius:50%;width:${size}px;height:${size}px;background:${color};left:50%;top:50%;opacity:1`;
+    container.appendChild(particle);
+    let x = 0, y = 0, opacity = 1, gravity = 0.1;
+    const anim = setInterval(() => {
+      x += vx;
+      y += vy + gravity;
+      opacity -= 0.02;
+      gravity += 0.05;
+      particle.style.transform = `translate(${x}px, ${y}px)`;
+      particle.style.opacity = opacity;
+      if (opacity <= 0) { clearInterval(anim); container.remove(); }
+    }, 30);
+  }
 }
 
 // PROGRESS VIEW
@@ -1311,7 +1344,7 @@ function drawChart() {
   if (!state.meta.assessmentCompleted) {
     return `
     <div class="chart-empty">
-      <div class="chart-empty-icon">📋</div>
+      <div class="chart-empty-icon">测评</div>
       <div class="chart-empty-title">还没有练习数据</div>
       <div class="chart-empty-sub">先做一次摸底测试，了解各科水平</div>
       <button class="chart-assessment-btn" data-action="start-assessment">开始摸底测试</button>
@@ -1336,7 +1369,7 @@ function drawChart() {
     const label = acc === null ? '未学' : `${acc}%`;
     return `
     <div class="chart-bar-row" data-action="start-subject" data-subject="${subj}">
-      <span class="chart-bar-label" style="color:${color}">👉 ${subjectName(subj)}</span>
+      <span class="chart-bar-label" style="color:${color}">${subjectName(subj)}</span>
       <div class="chart-bar-track">
         <div class="chart-bar-fill" style="width:${barWidth}%;background:${color}"></div>
       </div>
@@ -1346,8 +1379,8 @@ function drawChart() {
 
   return `
   <div class="chart-bar-list">${rows}</div>
-  <div class="chart-hint">💡 点击科目名称开始练习，或直接点「全科练习」</div>
-  <button class="chart-all-btn" data-action="start-subject" data-subject="all">🔥 全科练习</button>`;
+      <div class="chart-hint">点击科目名称开始练习，或直接点「全科练习」</div>
+  <button class="chart-all-btn" data-action="start-subject" data-subject="all">全科练习</button>`;
 }
 
 // SETTINGS VIEW
@@ -1421,7 +1454,7 @@ async function renderSettings() {
 
     <div class="settings-card">
       <button class="donate-btn" data-action="show-donate-modal" style="width:100%;padding:12px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:10px;font-size:0.9rem;font-weight:700;cursor:pointer">
-        💝 支持百日闯
+        支持百日闯
       </button>
     </div>
 
@@ -1573,12 +1606,12 @@ async function showCheckinModal() {
 }
 
 function calcStreak() {
-  const days = Object.keys(state.daily).sort().reverse();
-  if (days.length === 0) return 0;
+  if (Object.keys(state.daily).length === 0) return 0;
   let streak = 0;
-  const today = new Date();
   for (let i = 0; i < 365; i++) {
-    const key = getLocalDateKey(shiftDate(today, -i));
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    const key = getLocalDateKey(d);
     if (state.daily[key]) streak++;
     else if (i > 0) break; // allow today to not be practiced yet
   }
@@ -1828,7 +1861,7 @@ function showAccountSetupModal() {
   const modal = document.getElementById('account-setup-modal');
   if (!modal) return;
   modal.dataset.mode = 'create';
-  document.getElementById('account-setup-emoji').textContent = '👋';
+  document.getElementById('account-setup-emoji').textContent = 'Hi';
   document.getElementById('account-setup-title').textContent = '欢迎使用百日闯';
   document.getElementById('account-setup-sub').textContent = '创建一个专属身份，换设备扫码即可恢复';
   document.getElementById('account-setup-confirm-btn').textContent = '开启百日计划';
@@ -1845,7 +1878,7 @@ function showAccountEditModal() {
   const modal = document.getElementById('account-setup-modal');
   if (!modal || !state.account) return;
   modal.dataset.mode = 'edit';
-  document.getElementById('account-setup-emoji').textContent = '✏️';
+  document.getElementById('account-setup-emoji').textContent = '编辑';
   document.getElementById('account-setup-title').textContent = '修改资料';
   document.getElementById('account-setup-sub').textContent = '';
   document.getElementById('account-setup-confirm-btn').textContent = '保存';

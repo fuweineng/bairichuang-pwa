@@ -41,7 +41,7 @@
 
       <!-- 第一层：Streak -->
       <div class="home-section">
-      <div class="streak-card" data-action="nav" data-view="progress">
+      <div class="streak-card">
         <div class="streak-card-left">
           <div class="streak-main">
             <span class="streak-count" id="streak-count">0</span>
@@ -49,7 +49,7 @@
           </div>
           <div class="streak-sub" id="streak-sub">开始你的百日计划</div>
         </div>
-        <div class="streak-arrow">›</div>
+
       </div>
       <!-- 第二层：各科掌握情况 chart -->
       <div class="home-section home-chart-section">
@@ -112,7 +112,7 @@
 
 <div id="checkin-modal" class="modal-overlay" style="display:none">
   <div class="modal-card float-card" style="top:20px">
-    <div class="modal-emoji">🎉</div>
+    <div class="modal-emoji">100</div>
     <p class="modal-title">打卡成功！</p>
     <div class="checkin-stats">
       <div class="checkin-stat-item">
@@ -137,7 +137,7 @@
 <!-- ===== ACCOUNT SETUP MODAL ===== -->
 <div id="account-setup-modal" class="modal-overlay" style="display:none" data-mode="create">
   <div class="modal-card float-card" style="top:20px;max-width:360px">
-    <div class="modal-emoji" id="account-setup-emoji">👋</div>
+    <div class="modal-emoji" id="account-setup-emoji">Hi</div>
     <p class="modal-title" id="account-setup-title">欢迎使用百日闯</p>
     <p class="modal-sub" id="account-setup-sub">创建一个专属身份，换设备扫码即可恢复</p>
     <div class="modal-close-row">
@@ -159,7 +159,7 @@
 <div id="completion-modal" class="modal-overlay" style="display:none">
   <div class="modal-card float-card completion-modal-card" style="top:10px">
     <div class="completion-header">
-      <div class="completion-emoji">🏆</div>
+      <div class="completion-emoji">坚持</div>
       <h2 class="completion-title">100天完成！</h2>
       <p class="completion-sub">你已完成百日闯学习计划</p>
     </div>
@@ -195,17 +195,17 @@
 <div id="donate-modal" class="modal-overlay" style="display:none">
   <div class="modal-card float-card" style="top:20px;max-width:360px">
     <div class="modal-toolbar">
-      <span class="modal-title">💝 支持百日闯</span>
+      <span class="modal-title">支持百日闯</span>
       <button class="modal-close-btn" id="donate-close-btn">×</button>
     </div>
     <p style="font-size:0.85rem;color:#666;margin:8px 0 16px">你的支持是我持续更新的动力</p>
     <div class="donate-qr-row">
       <div class="donate-qr-item">
-        <div class="donate-qr-label">💬 微信</div>
+        <div class="donate-qr-label">微信</div>
         <img id="donate-wechat-qr" src="images/wechat_donate.png" alt="微信收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
       </div>
       <div class="donate-qr-item">
-        <div class="donate-qr-label">💰 支付宝</div>
+        <div class="donate-qr-label">支付宝</div>
         <img id="donate-alipay-qr" src="images/alipay_donate.png" alt="支付宝收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
       </div>
     </div>

@@ -1,7 +1,7 @@
 {
-  "version": "8.1.1-20260417",
+  "version": "8.1.2-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "Debug 修复：柱状图改用考点完整覆盖计算；打卡日期刷新问题；提示条移至正确位置"
+  "changelog": "Debug修复：打卡天数计算bug；renderHome每次重载IndexedDB；打卡卡片去除点击跳转；今日首次打卡触发烟花特效；去除全app emoji符号"
 }
