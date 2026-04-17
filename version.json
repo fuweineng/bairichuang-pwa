@@ -1,7 +1,21 @@
 {
-  "version": "8.8.0-20260417",
+  "version": "9.0.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "fix: compareVersion忽略日期后缀; 版本号显示本地version.json; 头像三按钮弹窗; 未练习隐藏副文案"
+  "changelog": "feat: state.section字段; getSubjects(section)函数; fetchQuestionPack支持section参数; sections.junior/primary/senior定义",
+  "sections": {
+    "junior": {
+      "name": "初中",
+      "subjects": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography", "politics"]
+    },
+    "primary": {
+      "name": "小学",
+      "subjects": ["chinese", "math", "english"]
+    },
+    "senior": {
+      "name": "高中",
+      "subjects": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography", "politics"]
+    }
+  }
 }

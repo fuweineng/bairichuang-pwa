@@ -38,7 +38,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' },
   remoteVersions: null,
 };
 
@@ -58,7 +58,20 @@ const K = {
 const VERSION_URL = 'https://raw.githubusercontent.com/fuweineng/bairichuang-pwa/main/version.json';
 const SUPPORTERS_URL = 'supporters.json';
 const INDEX_URL = 'questions/index.json';
-const SUBJECTS = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
+const SUBJECTS_ALL = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
+
+const SUBJECTS_BY_SECTION = {
+  primary:   ['chinese', 'math', 'english'],
+  junior:    ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'],
+  senior:    ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'],
+};
+
+function getSubjects(section) {
+  return SUBJECTS_BY_SECTION[section] || SUBJECTS_BY_SECTION.junior;
+}
+
+// Legacy — kept for migration
+const SUBJECTS = SUBJECTS_ALL;
 
 // Legacy key — kept for migration
 const LEGACY_QB_CACHE = 'question_bank_cache';
@@ -141,7 +154,7 @@ async function fetchQuestionPack({ force = false } = {}) {
 
   // Parallel load all subject files
   const results = await Promise.all(
-    SUBJECTS.map(async (subj) => {
+    getSubjects(state.settings.section).map(async (subj) => {
       const info = index.subjects?.[subj];
       if (!info) return [subj, []];
       const url = `questions/${info.file}`;
@@ -181,7 +194,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '8.8.0', audioVersion: '', questionBankVersion: '' };
+  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '8.8.0', audioVersion: '', questionBankVersion: '' };
 
   // Load local version from version.json
   try {
@@ -542,7 +555,7 @@ function renderWeakSubjects() {
   const thresholdPct = Math.round(threshold);
 
   // 全科按正确率升序排列（null/未学排最后），低于阈值的排前面
-  const all = SUBJECTS.map(subj => {
+  const all = getSubjects(state.settings.section).map(subj => {
     const acc = getSubjectAccuracy(subj);
     return { subj, acc };
   }).sort((a, b) => {
@@ -607,7 +620,7 @@ function countQuestionsForSubject(subject, mode = getPracticeMode()) {
 function renderSubjectBadges() {
   const mode = getPracticeMode();
 
-  SUBJECTS.forEach(subj => {
+  getSubjects(state.settings.section).forEach(subj => {
     const badge = document.getElementById('badge-' + subj);
     const meta = document.getElementById('meta-' + subj);
     const total = countQuestionsForSubject(subj, mode);
@@ -651,7 +664,7 @@ function renderPractice() {
   }
 
   const availableCount = state.subject === 'all'
-    ? SUBJECTS.reduce((sum, subj) => sum + countQuestionsForSubject(subj, mode), 0)
+    ? getSubjects(state.settings.section).reduce((sum, subj) => sum + countQuestionsForSubject(subj, mode), 0)
     : countQuestionsForSubject(state.subject, mode);
   const subjectLabel = state.subject === 'all' ? '全科练习' : subjectName(state.subject);
 
@@ -663,7 +676,7 @@ function renderPractice() {
 
 function buildSessionQuestions(subject, mode = getPracticeMode()) {
   if (subject === 'all') {
-    const buckets = SUBJECTS.map(subj => shuffle((state.questionBank[subj] || []).filter(question => questionMatchesMode(question, mode))));
+    const buckets = getSubjects(state.settings.section).map(subj => shuffle((state.questionBank[subj] || []).filter(question => questionMatchesMode(question, mode))));
     const mixed = [];
     let cursor = 0;
     while (mixed.length < 24) {
@@ -1269,7 +1282,7 @@ async function renderSessionEnd() {
     state.meta.startDate = today;
     state.meta.assessmentCompleted = true;
     const day1Acc = {};
-    SUBJECTS.forEach(s => {
+    getSubjects(state.settings.section).forEach(s => {
       const sd = byS[s];
       if (sd) {
         const total = (sd.correct || 0) + (sd.wrong || 0);
@@ -2245,7 +2258,7 @@ async function showCompletionModal() {
   // Per-subject comparison
   const subjEl = document.getElementById('cmp-subjects');
   if (subjEl && state.meta.day1SubjectAcc && lastSession) {
-    const rows = SUBJECTS.map(s => {
+    const rows = getSubjects(state.settings.section).map(s => {
       const d1 = state.meta.day1SubjectAcc[s];
       const ds = lastSession.bySubject ? (lastSession.bySubject[s] || {}) : {};
       const total = (ds.correct || 0) + (ds.wrong || 0);
