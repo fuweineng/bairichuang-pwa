@@ -2493,6 +2493,21 @@ window.addEventListener('beforeinstallprompt', e => {
   if (banner) banner.style.display = 'flex';
 });
 
+// PWA install — direct onclick handler (guaranteed clickable)
+function installPWADirect() {
+  if (window.deferredPWA) {
+    window.deferredPWA.prompt();
+    window.deferredPWA.userChoice.then(choice => {
+      if (choice.outcome === 'accepted') {
+        console.log('PWA installed');
+      }
+      window.deferredPWA = null;
+      const banner = document.getElementById('pwa-install-banner');
+      if (banner) banner.style.display = 'none';
+    });
+  }
+}
+
 // ============================================================
 // BOOT
 // ============================================================

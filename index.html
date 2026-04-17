@@ -138,8 +138,8 @@
   <div class="modal-card float-card" style="top:50%;transform:translateY(-50%);max-width:320px;text-align:center">
     <p class="modal-title">可安装到桌面</p>
     <p style="font-size:0.85rem;color:var(--theme-text-secondary);margin:12px 0 16px">将百日闯添加到主屏幕，无需联网即可使用</p>
-    <button class="primary-btn" id="pwa-install-btn" data-action="install-pwa" style="width:100%;padding:12px;font-size:0.9rem">安装到桌面</button>
-    <button class="secondary-btn" data-action="dismiss-pwa" style="margin-top:8px;width:100%;padding:8px;font-size:0.82rem">暂不需要</button>
+    <button class="primary-btn" id="pwa-install-btn" style="width:100%;padding:12px;font-size:0.9rem" onclick="installPWADirect()">安装到桌面</button>
+    <button class="secondary-btn" onclick="document.getElementById('pwa-install-banner').style.display='none'" style="margin-top:8px;width:100%;padding:8px;font-size:0.82rem">暂不需要</button>
   </div>
 </div>
 
