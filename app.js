@@ -1589,12 +1589,6 @@ async function renderSettings() {
           <button class="theme-picker-btn${state.settings.theme === 'night' ? ' active' : ''}" data-action="set-theme" data-value="night">深夜</button>
         </div>
       </div>
-      <div class="settings-row" style="padding:8px 0">
-        <div class="settings-label" style="margin:0">学段切换</div>
-        <button class="secondary-btn" data-action="open-section-switcher" id="section-switcher-btn" style="padding:4px 10px;font-size:0.78rem">
-          ${state.settings.section ? (state.settings.section === 'junior' ? '初中' : state.settings.section === 'primary' ? '小学' : '高中') : '未设置'}
-        </button>
-      </div>
       <div class="settings-row" style="padding:8px 0;border-bottom:none">
         <div class="settings-label" style="margin:0">版本</div>
         <div style="display:flex;align-items:center;gap:6px">
@@ -1605,7 +1599,7 @@ async function renderSettings() {
     </div>
 
     <div class="settings-card">
-      <div class="settings-section-title">题库与数据</div>
+      <div class="settings-section-title">学段</div>
       <div style="display:flex;gap:6px;margin-bottom:10px">
         ${['junior','primary','senior'].map(s => `
           <button class="secondary-btn section-data-btn${state.settings.section === s ? ' active' : ''}"
