@@ -128,12 +128,27 @@ function getEffectiveTheme() {
 }
 
 function applyTheme(theme) {
-  document.body.dataset.theme = theme || getEffectiveTheme();
+  const effective = (theme === 'auto' || theme === null || theme === undefined)
+    ? getAutoTheme()
+    : theme;
+  document.body.dataset.theme = effective;
+}
+
+// Auto theme ticker — update every 5 minutes when in auto mode
+let _themeTickInterval = null;
+function startAutoThemeTicker() {
+  if (_themeTickInterval) clearInterval(_themeTickInterval);
+  _themeTickInterval = setInterval(() => {
+    if (state.settings.theme === 'auto' || state.settings.theme === null || state.settings.theme === undefined) {
+      applyTheme('auto');
+    }
+  }, 5 * 60 * 1000);
 }
 
 function initTheme() {
   const saved = state.settings.theme;
   applyTheme(saved); // if saved is null, getEffectiveTheme() returns auto
+  startAutoThemeTicker();
 }
 
 function createEmptyQuestionBank() {
@@ -1615,7 +1630,8 @@ async function renderSettings() {
       <div class="settings-row" style="padding:8px 0">
         <div class="settings-label" style="margin:0">主题配色</div>
         <div class="theme-picker">
-          <button class="theme-picker-btn${(!state.settings.theme || state.settings.theme === 'morning') ? ' active' : ''}" data-action="set-theme" data-value="morning">早晨</button>
+          <button class="theme-picker-btn${state.settings.theme === 'auto' ? ' active' : ''}" data-action="set-theme" data-value="auto">自动</button>
+          <button class="theme-picker-btn${state.settings.theme === 'morning' ? ' active' : ''}" data-action="set-theme" data-value="morning">早晨</button>
           <button class="theme-picker-btn${state.settings.theme === 'afternoon' ? ' active' : ''}" data-action="set-theme" data-value="afternoon">下午</button>
           <button class="theme-picker-btn${state.settings.theme === 'evening' ? ' active' : ''}" data-action="set-theme" data-value="evening">傍晚</button>
           <button class="theme-picker-btn${state.settings.theme === 'night' ? ' active' : ''}" data-action="set-theme" data-value="night">深夜</button>
