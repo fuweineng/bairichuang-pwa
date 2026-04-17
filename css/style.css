@@ -2555,4 +2555,52 @@ footer {
 .avatar-choice-btn .acb-icon { font-size: 1.6rem; }
 .avatar-choice-btn span:last-child { font-size: 0.72rem; color: #555; }
 
+/* ==================== SECTION SETUP MODAL ==================== */
+.section-setup-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px 0 8px;
+}
+
+.section-setup-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section-setup-card:hover {
+  background: #e8f4ff;
+  border-color: #4CAF50;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15);
+}
+
+.section-setup-card:active {
+  transform: translateY(0);
+}
+
+.section-card-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+
+.section-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.section-card-desc {
+  font-size: 0.72rem;
+  color: #888;
+  margin-top: 2px;
+}
+
 

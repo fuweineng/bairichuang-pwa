@@ -257,6 +257,11 @@ async function init() {
     showAccountSetupModal();
   }
 
+  // Show section setup if no section selected (first launch)
+  if (!state.settings.section) {
+    showSectionSetupModal();
+  }
+
   // Avatar choice modal
   document.getElementById('avatar-camera-input')?.addEventListener('change', async e => {
     const file = e.target.files?.[0];
@@ -1507,6 +1512,12 @@ async function renderSettings() {
           <button class="theme-picker-btn${state.settings.theme === 'night' ? ' active' : ''}" data-action="set-theme" data-value="night">深夜</button>
         </div>
       </div>
+      <div class="settings-row" style="padding:8px 0">
+        <div class="settings-label" style="margin:0">学段切换</div>
+        <button class="secondary-btn" data-action="open-section-switcher" id="section-switcher-btn" style="padding:4px 10px;font-size:0.78rem">
+          ${state.settings.section ? (state.settings.section === 'junior' ? '初中' : state.settings.section === 'primary' ? '小学' : '高中') : '未设置'}
+        </button>
+      </div>
       <div class="settings-row" style="padding:8px 0;border-bottom:none">
         <div class="settings-label" style="margin:0">版本</div>
         <div style="display:flex;align-items:center;gap:6px">
@@ -1880,6 +1891,14 @@ async function handleClick(e) {
     case 'clear-all-data':
       if (!confirm('确定要清除所有数据吗？这会删除所有进度和打卡记录。')) return;
       clearAllData();
+      break;
+
+    case 'open-section-switcher':
+      openSectionSwitcherModal();
+      break;
+
+    case 'choose-section':
+      await chooseSection(t.dataset.section);
       break;
   }
 }
@@ -2277,6 +2296,35 @@ async function showCompletionModal() {
   }
 
   document.getElementById('completion-modal').style.display = 'flex';
+}
+
+// ============================================================
+// SECTION SWITCHER (Settings + First Launch)
+// ============================================================
+
+function showSectionSetupModal() {
+  document.getElementById('section-setup-modal').style.display = 'flex';
+}
+
+function openSectionSwitcherModal() {
+  // Same modal, just show it
+  showSectionSetupModal();
+}
+
+async function chooseSection(section) {
+  state.settings.section = section;
+  await set(K.SETTINGS, state.settings);
+  document.getElementById('section-setup-modal').style.display = 'none';
+  // Refresh UI
+  if (state.view === 'home') renderHome();
+  if (state.view === 'settings') renderSettings();
+  // Also refresh subject badges if on practice view
+  renderSubjectBadges();
+  showToast('已切换到' + (section === 'junior' ? '初中' : section === 'primary' ? '小学' : '高中'));
+}
+
+function updateSectionDisplay() {
+  // Update any section indicator in the header if needed
 }
 
 // ============================================================
