@@ -1,9 +1,9 @@
 {
-  "version": "9.1.2-20260417",
+  "version": "9.1.3-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "fix: 移除账号区重复学段切换; 题库标题改学段; Settings学段区块整理",
+  "changelog": "fix: 学段按钮排序小学>初中>高中; drawChart按当前学段科目显示",
   "sections": {
     "junior": {
       "name": "初中",
