@@ -2,9 +2,9 @@
   "project": "百日闯 PWA",
   "repo": "fuweineng/bairichuang-pwa",
   "url": "https://yjs.meetolove.com",
-  "version": "9.1.0-20260417",
-  "updatedAt": "2026-04-17T12:54:00+08:00",
-  "board_version": 1,
+  "version": "9.1.2-20260417",
+  "updatedAt": "2026-04-17T13:03:00+08:00",
+  "board_version": 2,
 
   "sections": {
     "junior": { "name": "初中", "subjects": ["chinese","math","english","physics","chemistry","biology","history","geography","politics"] },
@@ -15,14 +15,23 @@
   "tasks": [
     {
       "id": "TASK-001",
-      "status": "pending",
+      "status": "completed",
       "priority": "high",
       "category": "bugfix",
       "title": "确认分身1的modal关闭+头像emoji picker是否已合并",
-      "description": "分身1完成了donate-modal关闭按钮修复和头像emoji picker持久化，需验证git log确认是否已push并merge到main",
-      "owner": "待确认",
-      "files": [],
-      "verification": "git log --oneline -20 检查是否有 'modal关闭' 或 'emoji picker' 相关commit"
+      "description": "已确认 commit 6d5ca95: 9.0.4-20260417: fix: donate-modal关闭按钮 + 头像emoji picker更新逻辑",
+      "owner": "completed",
+      "verification": "git log --oneline -20 确认存在"
+    },
+    {
+      "id": "TASK-003",
+      "status": "completed",
+      "priority": "high",
+      "category": "feature",
+      "title": "Settings题库与数据改入学段区块",
+      "description": "移除账号区重复学段切换；题库与数据标题改为学段；三操作按钮保留。commit 562e983",
+      "owner": "done",
+      "files": ["app.js"]
     },
     {
       "id": "TASK-002",
@@ -32,23 +41,12 @@
       "title": "多学段题库目录创建",
       "description": "在GitHub创建 questions/primary/ 和 questions/senior/ 目录及对应index.json和科目JSON文件。目前只有 questions/primary/math.json",
       "owner": "",
-      "files": ["questions/primary/index.json", "questions/primary/chinese.json", "questions/primary/english.json", "questions/senior/index.json"],
+      "files": ["questions/primary/*.json", "questions/senior/*.json"],
       "subtasks": [
         "questions/primary/ 各科目题库文件",
         "questions/senior/ 各科目题库文件",
         "各自的 index.json（汇总所有subjects）"
       ]
-    },
-    {
-      "id": "TASK-003",
-      "status": "pending",
-      "priority": "high",
-      "category": " clarify",
-      "title": "确认「题库放入学段之中」的具体含义",
-      "description": "用户提到题库要放入学段之中，需明确：是题库设置默认显示当前学段？还是题库按学段分区管理？或其他含义？",
-      "owner": "",
-      "files": [],
-      "dependsOn": []
     },
     {
       "id": "TASK-004",
@@ -58,8 +56,7 @@
       "title": "Settings版本号从version.json动态读取",
       "description": "state.settings.appVersion 当前硬编码fallback为9.0.0，应该在initApp时从version.json读取并写入IndexedDB",
       "owner": "",
-      "files": ["app.js"],
-      "dependsOn": []
+      "files": ["app.js"]
     },
     {
       "id": "TASK-005",
@@ -69,8 +66,7 @@
       "title": "初中题库扩充",
       "description": "初中9科题库已有基础题量，可根据需要继续扩充（参考英语151-200的MiniMax生成流程）",
       "owner": "",
-      "files": ["questions/*.json"],
-      "subtasks": ["chinese","math","english","physics","chemistry","biology","history","geography","politics"]
+      "files": ["questions/*.json"]
     }
   ],
 
