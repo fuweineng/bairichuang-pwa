@@ -1028,5 +1028,3861 @@
     "grade": 6,
     "knowledge": "认识乘法",
     "explanation": "乘法本质是把相同的数相加的快捷方式。"
+  },
+  {
+    "id": "math-primary-60",
+    "type": "choice",
+    "question": "计算 4×5−2×3 的结果是？",
+    "options": [
+      "A. 14",
+      "B. 15",
+      "C. 16",
+      "D. 13"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "2-5的乘法口诀",
+    "explanation": "先算乘法4×5=20，2×3=6，再相减20-6=14。"
+  },
+  {
+    "id": "math-primary-61",
+    "type": "choice",
+    "question": "7 × 8 = ?",
+    "options": [
+      "A. 48",
+      "B. 56",
+      "C. 54",
+      "D. 64"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "6-9的乘法口诀",
+    "explanation": "7×8等于56，直接使用乘法口诀得到。"
+  },
+  {
+    "id": "math-primary-62",
+    "type": "choice",
+    "question": "7×8的结果是下面哪一个？",
+    "options": [
+      "A. 54",
+      "B. 56",
+      "C. 58",
+      "D. 48"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "表内乘法",
+    "explanation": "把7和8相乘，使用乘法口诀得到56。"
+  },
+  {
+    "id": "math-primary-63",
+    "type": "choice",
+    "question": "把12个苹果平均分给3个小朋友，每人得到多少个苹果？",
+    "options": [
+      "A. 12 ÷ 3 = 4",
+      "B. 12 ÷ 4 = 3",
+      "C. 12 ÷ 2 = 6",
+      "D. 12 ÷ 6 = 2"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识除法",
+    "explanation": "把12个苹果平均分给3人，用除法12÷3=4，得每人4个。"
+  },
+  {
+    "id": "math-primary-64",
+    "type": "choice",
+    "question": "小明有24支彩色笔，他想平均分给6位同学，每人能得到多少支？",
+    "options": [
+      "A. 3支",
+      "B. 4支",
+      "C. 5支",
+      "D. 6支"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "表内除法",
+    "explanation": "把24除以6，想6的乘法口诀，6×4=24，所以答案是4"
+  },
+  {
+    "id": "math-primary-65",
+    "type": "choice",
+    "question": "把37本书平均分给5个人，每人能分到几本？还剩多少本？",
+    "options": [
+      "A. 每人7本，余2本",
+      "B. 每人8本，余1本",
+      "C. 每人7本，余3本",
+      "D. 每人6本，余7本"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "有余数的除法",
+    "explanation": "37 ÷ 5 = 7 余 2，因为 5×7=35，剩余2本。"
+  },
+  {
+    "id": "math-primary-66",
+    "type": "choice",
+    "question": "24 ÷ 6 × 2 = ?",
+    "options": [
+      "A. 8",
+      "B. 2",
+      "C. 12",
+      "D. 4"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "乘除混合运算",
+    "explanation": "先算除法24÷6=4，再乘以2得8。"
+  },
+  {
+    "id": "math-primary-67",
+    "type": "choice",
+    "question": "小明把一个圆形披萨平均切成 8 块，吃了其中的 3 块，他吃掉了这个披萨的几分之几？",
+    "options": [
+      "A. 3/8",
+      "B. 5/8",
+      "C. 3/5",
+      "D. 1/8"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识分数",
+    "explanation": "把披萨分成8块，吃掉3块，所以是3/8。"
+  },
+  {
+    "id": "math-primary-68",
+    "type": "choice",
+    "question": "比较 3/4 和 5/8 的大小，下面哪一项是正确的？",
+    "options": [
+      "A. 3/4 > 5/8",
+      "B. 3/4 < 5/8",
+      "C. 3/4 = 5/8",
+      "D. 无法比较"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数的大小比较",
+    "explanation": "把分母统一为8，3/4=6/8，6/8 > 5/8，所以 3/4 更大。"
+  },
+  {
+    "id": "math-primary-69",
+    "type": "choice",
+    "question": "计算 3/8 + 5/8 = ?",
+    "options": [
+      "A. 8/8",
+      "B. 1",
+      "C. 8/16",
+      "D. 1/2"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "同分母分数加减",
+    "explanation": "同分母分数相加，只把分子相加，分母不变。3/8 + 5/8 = (3+5)/8 = 8/8 = 1"
+  },
+  {
+    "id": "math-primary-70",
+    "type": "choice",
+    "question": "把 3/5 转化为小数，下面哪项正确？",
+    "options": [
+      "A. 0.3",
+      "B. 0.6",
+      "C. 0.5",
+      "D. 0.8"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数与小数互化",
+    "explanation": "3/5 = 3÷5 = 0.6，故选 B。"
+  },
+  {
+    "id": "math-primary-71",
+    "type": "choice",
+    "question": "在 0.56 中，百分位上的数字是几？",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 0",
+      "D. 56"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数的认识",
+    "explanation": "0.56 的百分位是小数点后第二位，即6。"
+  },
+  {
+    "id": "math-primary-72",
+    "type": "choice",
+    "question": "请计算 3.25 + 1.8 的结果。",
+    "options": [
+      "A. 5.05",
+      "B. 5.15",
+      "C. 5.25",
+      "D. 5.35"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数加减法",
+    "explanation": "先把1.8写成1.80，再对齐小数点相加，得5.05。"
+  },
+  {
+    "id": "math-primary-73",
+    "type": "choice",
+    "question": "0.3 × 0.4 = ?",
+    "options": [
+      "A. 0.12",
+      "B. 1.2",
+      "C. 12",
+      "D. 0.012"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数乘法",
+    "explanation": "把0.3和0.4相乘，先算3×4=12，再把两位小数点向左移两位得到0.12"
+  },
+  {
+    "id": "math-primary-74",
+    "type": "choice",
+    "question": "下面哪句话正确说明了小数的意义？",
+    "options": [
+      "A. 小数是整数的一部分，用来表示比整数小的数",
+      "B. 小数是把整体平均分成10份、100份、1000份…后取其中若干份的数",
+      "C. 小数是分数的另一种写法，分母必须是10、100、1000等",
+      "D. 小数是指小数点后面的位数"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数的意义",
+    "explanation": "小数表示把整体均分后取若干份，选项B最准确。"
+  },
+  {
+    "id": "math-primary-75",
+    "type": "choice",
+    "question": "小明有5张10元人民币和8枚1元硬币，他一共有多少元？",
+    "options": [
+      "A. 58元",
+      "B. 68元",
+      "C. 78元",
+      "D. 48元"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识人民币",
+    "explanation": "计算：5张10元=50元，8枚1元=8元，合计58元。"
+  },
+  {
+    "id": "math-primary-76",
+    "type": "choice",
+    "question": "2.3元等于多少角？",
+    "options": [
+      "A. 23角",
+      "B. 230角",
+      "C. 2.3角",
+      "D. 0.23角"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "人民币换算",
+    "explanation": "1元=10角，2.3元=2.3×10=23角。"
+  },
+  {
+    "id": "math-primary-77",
+    "type": "choice",
+    "question": "时钟的时针指向5，分针指向12，表示几时几分？",
+    "options": [
+      "A. 5:00",
+      "B. 5:12",
+      "C. 6:00",
+      "D. 5:30"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识时钟",
+    "explanation": "分针指向12时为整点，时针指向5对应5时。"
+  },
+  {
+    "id": "math-primary-78",
+    "type": "choice",
+    "question": "以下关于2023年10月的说法，正确的是？",
+    "options": [
+      "A. 10月有31天",
+      "B. 10月有30天",
+      "C. 10月有28天",
+      "D. 10月有29天"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识日历",
+    "explanation": "10月是大月，共有31天。"
+  },
+  {
+    "id": "math-primary-79",
+    "type": "choice",
+    "question": "2.5米等于多少厘米？",
+    "options": [
+      "A. 250厘米",
+      "B. 2500厘米",
+      "C. 25000厘米",
+      "D. 25厘米"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "长度单位换算",
+    "explanation": "1米=100厘米，2.5米=2.5×100=250厘米。"
+  },
+  {
+    "id": "math-primary-80",
+    "type": "choice",
+    "question": "1.2千克等于多少克？",
+    "options": [
+      "A. 120克",
+      "B. 1200克",
+      "C. 12克",
+      "D. 12000克"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "重量单位换算",
+    "explanation": "1千克=1000克，1.2千克=1.2×1000=1200克。"
+  },
+  {
+    "id": "math-primary-81",
+    "type": "choice",
+    "question": "一个正方形的边长是3厘米，它的面积是多少？",
+    "options": [
+      "A. 6平方厘米",
+      "B. 9平方厘米",
+      "C. 12平方厘米",
+      "D. 3平方厘米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识面积",
+    "explanation": "面积=边长×边长，3×3=9平方厘米。"
+  },
+  {
+    "id": "math-primary-82",
+    "type": "choice",
+    "question": "体积是指（ ）。",
+    "options": [
+      "A. 物体所占空间的大小",
+      "B. 物体表面的面积",
+      "C. 物体的重量",
+      "D. 物体的形状"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识体积",
+    "explanation": "体积是指物体在空间中占据的空间大小，即三维空间的大小。"
+  },
+  {
+    "id": "math-primary-83",
+    "type": "choice",
+    "question": "下列哪个描述正确表示了一个角？",
+    "options": [
+      "A. 两条直线相交形成的交叉点",
+      "B. 一个顶点和两条从顶点出发的射线组成的图形",
+      "C. 由三条线段围成的封闭图形",
+      "D. 一个圆形的弧线部分"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识角",
+    "explanation": "角由一点（顶点）和两条射线（边）组成，所以选B。"
+  },
+  {
+    "id": "math-primary-84",
+    "type": "choice",
+    "question": "下列图形中，哪个是等边三角形？",
+    "options": [
+      "A. 三条边均为5 cm的三角形",
+      "B. 两条边为5 cm，一条边为6 cm的三角形",
+      "C. 三个角分别为30°、60°、90°的三角形",
+      "D. 一个角是直角的三角形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识三角形",
+    "explanation": "等边三角形的三条边都相等，选项A满足该条件。"
+  },
+  {
+    "id": "math-primary-85",
+    "type": "choice",
+    "question": "下列哪个图形有四条边？",
+    "options": [
+      "A. 正方形",
+      "B. 圆形",
+      "C. 三角形",
+      "D. 五边形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识四边形",
+    "explanation": "正方形是四边形的一种，有四条边和四个角。"
+  },
+  {
+    "id": "math-primary-86",
+    "type": "choice",
+    "question": "圆的直径是半径的多少倍？",
+    "options": [
+      "A. 2倍",
+      "B. 3倍",
+      "C. 1/2倍",
+      "D. 4倍"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识圆形",
+    "explanation": "圆的直径等于半径的两倍"
+  },
+  {
+    "id": "math-primary-87",
+    "type": "choice",
+    "question": "下面关于正方形和长方形的描述，哪项是正确的？",
+    "options": [
+      "A. 正方形的四条边长度相等。",
+      "B. 长方形的四条边长度相等。",
+      "C. 正方形不是长方形。",
+      "D. 长方形的对角线不相等。"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识正方形和长方形",
+    "explanation": "正方形四条边相等，长方形只有对边相等，其他描述错误。"
+  },
+  {
+    "id": "math-primary-88",
+    "type": "choice",
+    "question": "用两个相同的直角三角形可以拼成什么图形？",
+    "options": [
+      "A. 长方形",
+      "B. 正方形",
+      "C. 梯形",
+      "D. 圆形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "图形的拼组",
+    "explanation": "把两个相同的直角三角形的斜边对齐拼在一起，四条边两两平行且相等，形成长方形。"
+  },
+  {
+    "id": "math-primary-89",
+    "type": "choice",
+    "question": "下面哪个图形是轴对称图形？",
+    "options": [
+      "A. 正方形",
+      "B. 任意不规则四边形",
+      "C. 不等边三角形",
+      "D. 平行四边形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识轴对称图形",
+    "explanation": "正方形可以沿对角线或中线对折，两半完全重合，符合轴对称图形的定义。"
+  },
+  {
+    "id": "math-primary-90",
+    "type": "choice",
+    "question": "下面哪种运动属于平移？",
+    "options": [
+      "A. 滑动",
+      "B. 旋转",
+      "C. 翻转",
+      "D. 放大"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "图形的平移和旋转",
+    "explanation": "平移是指图形沿直线路径整体移动，保持方向和形状不变。"
+  },
+  {
+    "id": "math-primary-91",
+    "type": "choice",
+    "question": "观察数列 1, 4, 9, 16, ___，下一个数是多少？",
+    "options": [
+      "A. 20",
+      "B. 25",
+      "C. 30",
+      "D. 36"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "找规律填数",
+    "explanation": "每项都是序号的平方，1²=1，2²=4，3²=9，4²=16，5²=25。"
+  },
+  {
+    "id": "math-primary-92",
+    "type": "choice",
+    "question": "观察下面图形的规律，第5幅图应该在空白格子中画多少个圆？（已知图1有1个圆，图2有3个圆，图3有5个圆，图4有7个圆）",
+    "options": [
+      "A. 7个",
+      "B. 8个",
+      "C. 9个",
+      "D. 10个"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "找规律画图",
+    "explanation": "规律是每个图中圆的个数为奇数1,3,5,7,…，第5幅图应为9个圆。"
+  },
+  {
+    "id": "math-primary-93",
+    "type": "choice",
+    "question": "小明在五次数学测验中的得分分别是85、95、75、90、80。请问他的平均分是多少？",
+    "options": [
+      "A. 84",
+      "B. 85",
+      "C. 86",
+      "D. 87"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "简单统计",
+    "explanation": "把五个数相加后除以5，得到平均分85分。"
+  },
+  {
+    "id": "math-primary-94",
+    "type": "choice",
+    "question": "老师收集了全班同学每天使用手机的时间（单位：分钟），要把这些数据整理成易于观察分布的形式，下面哪项最合适？",
+    "options": [
+      "A. 列出每个人的时间",
+      "B. 制作频数分布表",
+      "C. 绘制折线统计图",
+      "D. 绘制扇形统计图"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "数据的收集整理",
+    "explanation": "频数分布表能把大量数值分段统计，清晰展示分布情况，最适合整理此类连续数据。"
+  },
+  {
+    "id": "math-primary-95",
+    "type": "choice",
+    "question": "比较 0.5 与 1/3 的大小，哪项正确？",
+    "options": [
+      "A. 0.5 小于 1/3",
+      "B. 0.5 等于 1/3",
+      "C. 0.5 大于 1/3",
+      "D. 两者无法比较"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "比大小",
+    "explanation": "把 0.5 与 1/3 换算为小数，0.5>0.333，所以 0.5 更大。"
+  },
+  {
+    "id": "math-primary-96",
+    "type": "choice",
+    "question": "小明用字母x表示一个数，想表示比x小5的数，下面哪个式子正确？",
+    "options": [
+      "A. x-5",
+      "B. x+5",
+      "C. x×5",
+      "D. x÷5"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用字母表示数",
+    "explanation": "因为比x小5要用x减5，故选A。"
+  },
+  {
+    "id": "math-primary-97",
+    "type": "choice",
+    "question": "下面的式子中，哪个是方程？",
+    "options": [
+      "A. 2 + 3 = 5",
+      "B. x + 5 = 9",
+      "C. 3x - 7",
+      "D. 8 > 2"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识方程",
+    "explanation": "方程是含有未知数并用等号连接的式子。"
+  },
+  {
+    "id": "math-primary-98",
+    "type": "choice",
+    "question": "方程5x = 20，x 等于多少？",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "解简单方程",
+    "explanation": "将方程两边同时除以5，得到x=20÷5=4。"
+  },
+  {
+    "id": "math-primary-99",
+    "type": "choice",
+    "question": "小明在文具店买了4支铅笔，每支3元，又买了2本笔记本，每本8元。他付了50元，找零多少元？",
+    "options": [
+      "A. 12元",
+      "B. 18元",
+      "C. 22元",
+      "D. 28元"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：购物",
+    "explanation": "先算总价4×3+2×8=28元，找零=50-28=22元。"
+  },
+  {
+    "id": "math-primary-100",
+    "type": "choice",
+    "question": "小明早上8点15分从家骑自行车去学校，路程5公里，速度12公里/小时。他什么时候到校？",
+    "options": [
+      "A. 8:40",
+      "B. 8:30",
+      "C. 9:00",
+      "D. 8:45"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：时间",
+    "explanation": "时间=路程÷速度，5÷12≈0.417小时≈25分钟，8:15加25分钟为8:40。"
+  },
+  {
+    "id": "math-primary-101",
+    "type": "choice",
+    "question": "甲、乙两地相距12公里，驾车以每小时30公里的速度行驶，需要多少分钟？",
+    "options": [
+      "A. 20分钟",
+      "B. 24分钟",
+      "C. 30分钟",
+      "D. 36分钟"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：距离",
+    "explanation": "时间=路程÷速度，12÷30=0.4小时，0.4×60=24分钟"
+  },
+  {
+    "id": "math-primary-102",
+    "type": "choice",
+    "question": "小明有30颗糖果，他想平均分给5个朋友，每个朋友能得到多少颗糖果？",
+    "options": [
+      "A. 6颗",
+      "B. 5颗",
+      "C. 7颗",
+      "D. 8颗"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：分配",
+    "explanation": "把总数30除以人数5，得每个朋友分到6颗。"
+  },
+  {
+    "id": "math-primary-103",
+    "type": "choice",
+    "question": "1.5千克等于多少克?",
+    "options": [
+      "A. 150克",
+      "B. 1500克",
+      "C. 15000克",
+      "D. 15克"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识千克和克",
+    "explanation": "1千克=1000克，1.5千克=1.5×1000=1500克"
+  },
+  {
+    "id": "math-primary-104",
+    "type": "choice",
+    "question": "一个杯子容量为250毫升，装满后倒入1升的瓶子里，需要多少杯才能把瓶子装满？",
+    "options": [
+      "A. 2杯",
+      "B. 4杯",
+      "C. 5杯",
+      "D. 8杯"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识升和毫升",
+    "explanation": "1升=1000毫升，250毫升的杯子需要4杯"
+  },
+  {
+    "id": "math-primary-105",
+    "type": "choice",
+    "question": "一根绳子长3.5米，等于多少厘米？",
+    "options": [
+      "A. 35厘米",
+      "B. 350厘米",
+      "C. 3500厘米",
+      "D. 3.5厘米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识米和厘米",
+    "explanation": "1米=100厘米，3.5米=3.5×100=350厘米"
+  },
+  {
+    "id": "math-primary-106",
+    "type": "choice",
+    "question": "1分米大约等于多少毫米？",
+    "options": [
+      "A. 10毫米",
+      "B. 100毫米",
+      "C. 1厘米",
+      "D. 1米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识毫米和分米",
+    "explanation": "1分米等于10厘米，等于100毫米，所以选B"
+  },
+  {
+    "id": "math-primary-107",
+    "type": "choice",
+    "question": "下列哪组直线是相互垂直的？",
+    "options": [
+      "A. 直线AB与直线CD相交成90°",
+      "B. 直线AB与直线CD相交成60°",
+      "C. 直线AB与直线CD相交成45°",
+      "D. 直线AB与直线CD相交成120°"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "垂直与平行",
+    "explanation": "两条直线相交且夹角为90°时，它们互相垂直。选项A符合。"
+  },
+  {
+    "id": "math-primary-108",
+    "type": "choice",
+    "question": "下面的四边形中，哪一个只拥有一组对边平行？",
+    "options": [
+      "A. 矩形（两组对边平行）",
+      "B. 正方形（两组对边平行）",
+      "C. 梯形（有一组对边平行）",
+      "D. 菱形（两组对边平行）"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识梯形和平行四边形",
+    "explanation": "梯形只有一组对边平行，而平行四边形有两组对边平行，故选C。"
+  },
+  {
+    "id": "math-primary-109",
+    "type": "choice",
+    "question": "一个圆心角为120°的扇形占整个圆的多少比例？",
+    "options": [
+      "A. 1/2",
+      "B. 1/3",
+      "C. 1/4",
+      "D. 1/5"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识圆和扇形",
+    "explanation": "扇形占圆的比例等于圆心角除以360°，120÷360=1/3"
+  },
+  {
+    "id": "math-primary-110",
+    "type": "choice",
+    "question": "正方体的每个面都是什么形状？",
+    "options": [
+      "A. 正方形",
+      "B. 长方形",
+      "C. 圆形",
+      "D. 三角形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识正方体和长方体",
+    "explanation": "正方体的6个面全部是相同的正方形。"
+  },
+  {
+    "id": "math-primary-111",
+    "type": "choice",
+    "question": "下面哪个立体图形是圆柱体？",
+    "options": [
+      "A. 圆锥",
+      "B. 圆柱",
+      "C. 球体",
+      "D. 正方体"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识圆柱和球",
+    "explanation": "圆柱有两个相等的圆形底面和一个曲面，没有顶点。"
+  },
+  {
+    "id": "math-primary-112",
+    "type": "choice",
+    "question": "小明站在操场的中心，面朝北方。如果他向左转90度，他现在面朝什么方向？",
+    "options": [
+      "A. 东方",
+      "B. 西方",
+      "C. 南方",
+      "D. 东北"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "位置与方向",
+    "explanation": "面向北方时，向左转即逆时针转90度，方向变为西方。"
+  },
+  {
+    "id": "math-primary-113",
+    "type": "choice",
+    "question": "下面是由三个相同小正方体拼成的 L 形物体（如图），从左边观察，看到的形状是下面哪一个？",
+    "options": [
+      "A. 一个正方形",
+      "B. 两个正方形竖排",
+      "C. 两个正方形横排",
+      "D. 三个正方形排成 L 形"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "从不同方向观察物体",
+    "explanation": "左侧只能看到 x=0 的两个正方体，它们上下叠放形成竖排的两个正方形。"
+  },
+  {
+    "id": "math-primary-114",
+    "type": "choice",
+    "question": "下面的表格是一个复式统计表，记录了男生和女生对苹果、香蕉、橙子的喜爱人数：\n苹果  香蕉  橙子\n男生 12   8    5\n女生 9    10   7\n根据表格，喜爱苹果的男生有多少人？",
+    "options": [
+      "A. 12",
+      "B. 8",
+      "C. 9",
+      "D. 5"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识复式统计表",
+    "explanation": "在复式统计表中，找到‘男生’行与‘苹果’列交叉的单元格，即为人数。"
+  },
+  {
+    "id": "math-primary-115",
+    "type": "choice",
+    "question": "在格子图上，用数对 (3,2) 表示的点位于第几列，第几行？",
+    "options": [
+      "A. 第3行第2列",
+      "B. 第2行第3列",
+      "C. 第3列第2行",
+      "D. 第2列第3行"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用数对表示位置",
+    "explanation": "数对的第一个数是列，第二个数是行，故(3,2)对应第3列第2行"
+  },
+  {
+    "id": "math-primary-116",
+    "type": "choice",
+    "question": "下面哪个数等于 30%？",
+    "options": [
+      "A. 0.03",
+      "B. 30",
+      "C. 0.30",
+      "D. 30/100"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识百分数",
+    "explanation": "百分数表示每100份中的几份，30% = 30/100 = 0.30"
+  },
+  {
+    "id": "math-primary-117",
+    "type": "choice",
+    "question": "下列哪个数等于 0.35 的百分数形式？",
+    "options": [
+      "A. 35%",
+      "B. 3.5%",
+      "C. 0.35%",
+      "D. 350%"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "百分数与小数的互化",
+    "explanation": "0.35 = 35/100 = 35%"
+  },
+  {
+    "id": "math-primary-118",
+    "type": "choice",
+    "question": "一本书原价120元，打八折后需要付多少钱？",
+    "options": [
+      "A. 96元",
+      "B. 100元",
+      "C. 80元",
+      "D. 120元"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "百分数的应用",
+    "explanation": "八折即原价的80%，120×0.8=96元。"
+  },
+  {
+    "id": "math-primary-119",
+    "type": "choice",
+    "question": "一个长方形的长是宽的 3 倍，已知长是 12 cm，宽是多少 cm？",
+    "options": [
+      "A. 3 cm",
+      "B. 4 cm",
+      "C. 5 cm",
+      "D. 6 cm"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "比例的认识",
+    "explanation": "用比例关系，宽 = 长 / 3 = 12 ÷ 3 = 4 cm。"
+  },
+  {
+    "id": "math-primary-120",
+    "type": "choice",
+    "question": "已知 y 与 x 成正比例，x=3 时 y=12，则 x=8 时 y=？",
+    "options": [
+      "A. 24",
+      "B. 32",
+      "C. 36",
+      "D. 40"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "正比例与反比例",
+    "explanation": "正比例关系中 y/x 为常数，12÷3=4，y=8×4=32"
+  },
+  {
+    "id": "math-primary-121",
+    "type": "choice",
+    "question": "比例尺 1:500 表示图上1厘米代表实际多少米？",
+    "options": [
+      "A. 5米",
+      "B. 50米",
+      "C. 500米",
+      "D. 5000米"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "比例尺",
+    "explanation": "比例尺 1:500 表示1厘米对应500厘米，即5米"
+  },
+  {
+    "id": "math-primary-122",
+    "type": "choice",
+    "question": "笼子里有鸡和兔共8只，脚共有22只。请问鸡有几只？",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 7",
+      "D. 8"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "鸡兔同笼",
+    "explanation": "设鸡x只，兔y只，列方程x+y=8,2x+4y=22,求得x=5。"
+  },
+  {
+    "id": "math-primary-123",
+    "type": "choice",
+    "question": "甲、乙两数的和是 54，差是 14，求甲数（大数）是多少？",
+    "options": [
+      "A. 34",
+      "B. 20",
+      "C. 40",
+      "D. 28"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "和差问题",
+    "explanation": "根据和差公式，大数 = (和+差)÷2 = (54+14)÷2 = 34。"
+  },
+  {
+    "id": "math-primary-124",
+    "type": "choice",
+    "question": "两个数的和是 56，已知其中一个数是另一个数的 3 倍，这两个数分别是多少？",
+    "options": [
+      "A. 14和42",
+      "B. 16和40",
+      "C. 12和44",
+      "D. 15和41"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "和倍问题",
+    "explanation": "设较小数为x，则x+3x=56，解得x=14，较大数为42，故选A。"
+  },
+  {
+    "id": "math-primary-125",
+    "type": "choice",
+    "question": "已知两数之差为 6，且大数是小数的 4 倍，求这两个数的和。",
+    "options": [
+      "A. 8",
+      "B. 10",
+      "C. 12",
+      "D. 14"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "差倍问题",
+    "explanation": "先求小数为 6÷(4‑1)=2，大数为 4×2=8，和为 10。"
+  },
+  {
+    "id": "math-primary-126",
+    "type": "choice",
+    "question": "小红今年10岁，她的妈妈的年龄是小红的3倍还多5岁。请问妈妈今年多少岁？",
+    "options": [
+      "A. 30岁",
+      "B. 35岁",
+      "C. 40岁",
+      "D. 45岁"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "年龄问题",
+    "explanation": "小红的年龄乘以3再加5，即10×3+5=35，得到妈妈年龄。"
+  },
+  {
+    "id": "math-primary-127",
+    "type": "choice",
+    "question": "小明用3小时走了12公里，照此速度，他走30公里需要多少小时？",
+    "options": [
+      "A. 6小时",
+      "B. 7.5小时",
+      "C. 8小时",
+      "D. 9小时"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "归一问题",
+    "explanation": "先算速度12÷3=4km/h，再求30÷4=7.5小时。"
+  },
+  {
+    "id": "math-primary-128",
+    "type": "choice",
+    "question": "小明有3盒铅笔，每盒有12支。他把全部铅笔拿出来，一共有多少支？",
+    "options": [
+      "A. 30支",
+      "B. 36支",
+      "C. 48支",
+      "D. 24支"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "归总问题",
+    "explanation": "先把每盒的铅笔数乘以盒数，得到总数。"
+  },
+  {
+    "id": "math-primary-129",
+    "type": "choice",
+    "question": "在一条长40米的路的两端各栽一棵树，且相邻两树之间的距离相等。如果相邻两树之间的距离是5米，那么这条路上一共栽了多少棵树？",
+    "options": [
+      "A. 8棵",
+      "B. 9棵",
+      "C. 10棵",
+      "D. 11棵"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "植树问题",
+    "explanation": "路长40米，间隔5米，共40÷5=8个间隔，两端都栽树，则8+1=9棵。"
+  },
+  {
+    "id": "math-primary-130",
+    "type": "choice",
+    "question": "小明和小华相距240米，分别以4米/秒和6米/秒的速度相向而行，多少秒后相遇？",
+    "options": [
+      "A. 20秒",
+      "B. 30秒",
+      "C. 24秒",
+      "D. 18秒"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "相遇问题",
+    "explanation": "相遇时间 = 距离 ÷ 相对速度，即240 ÷ (4+6) = 24秒"
+  },
+  {
+    "id": "math-primary-131",
+    "type": "choice",
+    "question": "甲每小时行12公里，乙每小时行8公里，甲先走1小时后，乙从同一起点出发，乙几小时后能追上甲？",
+    "options": [
+      "A. 2小时",
+      "B. 3小时",
+      "C. 4小时",
+      "D. 5小时"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "追及问题",
+    "explanation": "甲先走1小时已行12公里，乙相对速度4公里/小时，追上需12÷4=3小时。"
+  },
+  {
+    "id": "math-primary-132",
+    "type": "choice",
+    "question": "一艘船在静水中的速度是每小时10公里，水流速度是每小时2公里。船逆流航行3小时，航行了多少公里？",
+    "options": [
+      "A. 30公里",
+      "B. 24公里",
+      "C. 36公里",
+      "D. 12公里"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "流水问题",
+    "explanation": "逆流速度=静水速-流速=8公里/时，乘以3小时得24公里。"
+  },
+  {
+    "id": "math-primary-133",
+    "type": "choice",
+    "question": "某商品标价 150 元，打 7 折后售价是多少元？",
+    "options": [
+      "A. 105 元",
+      "B. 115 元",
+      "C. 135 元",
+      "D. 120 元"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "折扣问题",
+    "explanation": "把原价150元乘以0.7，得到105元。"
+  },
+  {
+    "id": "math-primary-134",
+    "type": "choice",
+    "question": "一份营养午餐的总热量是600千卡，其中米饭占30%，蔬菜占20%，肉类占35%，水果占15%。请问米饭提供的热量是多少千卡？",
+    "options": [
+      "A. 150千卡",
+      "B. 180千卡",
+      "C. 200千卡",
+      "D. 210千卡"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "营养午餐",
+    "explanation": "米饭热量占总热量的30%，600×30%＝180千卡"
+  },
+  {
+    "id": "math-primary-135",
+    "type": "choice",
+    "question": "小明、小红和小李赛跑，已知小明比小红跑得快，小红比小李跑得快。谁跑得最快？",
+    "options": [
+      "A. 小明",
+      "B. 小红",
+      "C. 小李",
+      "D. 无法确定"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "简单推理",
+    "explanation": "根据题意，小明快于小红，小红快于小李，推出小明最快"
+  },
+  {
+    "id": "math-primary-136",
+    "type": "choice",
+    "question": "把数字1、2、3排成三位数，一共能排成多少个不同的三位数？",
+    "options": [
+      "A. 4",
+      "B. 6",
+      "C. 8",
+      "D. 12"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "有序枚举",
+    "explanation": "把1、2、3全排列，3! = 6 种。"
+  },
+  {
+    "id": "math-primary-137",
+    "type": "choice",
+    "question": "盒子里有3个红球和2个蓝球，一次随机取出1个球，取到哪种颜色球的可能性更大？",
+    "options": [
+      "A. 红球",
+      "B. 蓝球",
+      "C. 两者相等",
+      "D. 无法比较"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "可能性大小",
+    "explanation": "红球数量多，取到的概率更高。"
+  },
+  {
+    "id": "math-primary-138",
+    "type": "choice",
+    "question": "一枚均匀六面骰子，掷出偶数点的概率是多少？",
+    "options": [
+      "A. 1/6",
+      "B. 1/3",
+      "C. 1/2",
+      "D. 2/3"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "掷骰子概率",
+    "explanation": "偶数点有2、4、6共3个，概率=3/6=1/2"
+  },
+  {
+    "id": "math-primary-139",
+    "type": "choice",
+    "question": "在数独的每一行中，数字1到9只能出现一次。下面是一个已填好的行的一部分：“1 2 3 4 5 6 7 8 __”。请问空格处应该填入的数字是哪一个？",
+    "options": [
+      "A. 9",
+      "B. 8",
+      "C. 7",
+      "D. 10"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "数独入门",
+    "explanation": "在1到9的序列中，空格缺少的最后一个数字是9。"
+  },
+  {
+    "id": "math-primary-140",
+    "type": "choice",
+    "question": "用火柴棒摆成4个小正方形，最少需要多少根火柴棒？",
+    "options": [
+      "A. 8根",
+      "B. 9根",
+      "C. 10根",
+      "D. 12根"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "火柴棒游戏",
+    "explanation": "把火柴棒摆成2×2网格，内部火柴棒共用，只需12根。"
+  },
+  {
+    "id": "math-primary-141",
+    "type": "choice",
+    "question": "下面的图形中，哪一个不能一笔画成？（笔不能离开纸面且不能重复画线）",
+    "options": [
+      "A. 圆形",
+      "B. 正方形",
+      "C. 三角形",
+      "D. T形"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "一笔画",
+    "explanation": "T形有一个三分叉点（度为3），奇数度点超过两个，不能一笔画成。"
+  },
+  {
+    "id": "math-primary-142",
+    "type": "choice",
+    "question": "下面哪个图形是轴对称图形？",
+    "options": [
+      "A. 等腰三角形",
+      "B. 不等边三角形",
+      "C. 平行四边形",
+      "D. 直角梯形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "对称之美",
+    "explanation": "等腰三角形沿顶点向底边的垂直线对折，两侧完全重合，具有轴对称。"
+  },
+  {
+    "id": "math-primary-143",
+    "type": "choice",
+    "question": "一个长方形的长是8厘米，宽是5厘米，求它的周长。",
+    "options": [
+      "A. 26厘米",
+      "B. 13厘米",
+      "C. 40厘米",
+      "D. 20厘米"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "周长的计算",
+    "explanation": "用公式 C=2×(长+宽) 计算，2×(8+5)=26厘米。"
+  },
+  {
+    "id": "math-primary-144",
+    "type": "choice",
+    "question": "一块长方形地的长是12米，宽是8米，它的面积是多少平方米？",
+    "options": [
+      "A. 20平方米",
+      "B. 96平方米",
+      "C. 48平方米",
+      "D. 100平方米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "面积的计算",
+    "explanation": "面积 = 长 × 宽 = 12 × 8 = 96 平方米"
+  },
+  {
+    "id": "math-primary-145",
+    "type": "choice",
+    "question": "一块地由一个长方形和一个直角三角形组成。长方形的长是10米，宽是5米，三角形的底是5米，高是4米。这块地的总面积是多少？",
+    "options": [
+      "A. 55 m²",
+      "B. 60 m²",
+      "C. 65 m²",
+      "D. 70 m²"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "组合图形的面积",
+    "explanation": "先算长方形面积10×5=50，再算三角形面积5×4÷2=10，合计60。"
+  },
+  {
+    "id": "math-primary-146",
+    "type": "choice",
+    "question": "把 3/4 转化为小数，正确的是哪一个？",
+    "options": [
+      "A. 0.34",
+      "B. 0.75",
+      "C. 0.5",
+      "D. 0.8"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "转化思想",
+    "explanation": "将分子除以分母，3÷4=0.75"
+  },
+  {
+    "id": "math-primary-147",
+    "type": "choice",
+    "question": "小明有一些气球，他送给小红4个后，还剩下15个。小明原来有多少个气球？",
+    "options": [
+      "A. 19",
+      "B. 20",
+      "C. 21",
+      "D. 22"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用方程解应用题",
+    "explanation": "设原来有x个气球，列方程 x−4=15，解得 x=19。"
+  },
+  {
+    "id": "math-primary-148",
+    "type": "choice",
+    "question": "小明从家到学校的路程是3千米，他步行用了45分钟。如果他以相同的速度走5千米，需要多少分钟？",
+    "options": [
+      "A. 30分钟",
+      "B. 45分钟",
+      "C. 75分钟",
+      "D. 90分钟"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用比例解应用题",
+    "explanation": "用比例：三对应四十五分钟，五对应未知时间，未知时间等于五乘四十五除以三等于七十五分钟。"
+  },
+  {
+    "id": "math-primary-149",
+    "type": "choice",
+    "question": "一本书有120页，小明读了全书的3/8，还剩多少页？",
+    "options": [
+      "A. 45页",
+      "B. 75页",
+      "C. 90页",
+      "D. 30页"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数应用题",
+    "explanation": "剩余=总数-读了，120 - 120×3/8 = 120 - 45 = 75页。"
+  },
+  {
+    "id": "math-primary-150",
+    "type": "choice",
+    "question": "一项工程，甲单独做需要12天，乙单独做需要18天，甲、乙合作需要多少天完成？",
+    "options": [
+      "A. 7天",
+      "B. 8天",
+      "C. 6天",
+      "D. 9天"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "工程问题",
+    "explanation": "甲的效率是1/12，乙是1/18，合计5/36，工作时间=1÷5/36=36/5≈7.2天，最接近7天。"
+  },
+  {
+    "id": "math-primary-151",
+    "type": "choice",
+    "question": "下面哪一个数满足“大于5且小于7”？",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 7",
+      "D. 8"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识数字1-10",
+    "explanation": "6大于5且小于7，满足条件。"
+  },
+  {
+    "id": "math-primary-152",
+    "type": "choice",
+    "question": "小明有7个苹果，吃了3个，还剩多少个？",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 7"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "10以内加减法",
+    "explanation": "把7减去3即可得到剩余数量"
+  },
+  {
+    "id": "math-primary-153",
+    "type": "choice",
+    "question": "在 11 到 20 之间（包括 11 和 20），有多少个整数？",
+    "options": [
+      "A. 8",
+      "B. 9",
+      "C. 10",
+      "D. 11"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识11-20",
+    "explanation": "从11到20共10个数。"
+  },
+  {
+    "id": "math-primary-154",
+    "type": "choice",
+    "question": "小明有12支铅笔，小红又给他5支，现在小明一共有多少支铅笔？",
+    "options": [
+      "A. 15",
+      "B. 16",
+      "C. 17",
+      "D. 18"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "20以内加减法",
+    "explanation": "将12和5相加，得到17。"
+  },
+  {
+    "id": "math-primary-155",
+    "type": "choice",
+    "question": "以下哪个数大于70且小于80？",
+    "options": [
+      "A. 68",
+      "B. 73",
+      "C. 81",
+      "D. 78"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识100以内数字",
+    "explanation": "先找出大于70且小于80的数，只有73符合条件。"
+  },
+  {
+    "id": "math-primary-156",
+    "type": "choice",
+    "question": "48 + 27 = ?",
+    "options": [
+      "A. 71",
+      "B. 75",
+      "C. 73",
+      "D. 77"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "100以内加减法",
+    "explanation": "先把48和27相加，48+20=68，68+7=75"
+  },
+  {
+    "id": "math-primary-157",
+    "type": "choice",
+    "question": "在数字 4,872 中，百位上的数字是（ ）。",
+    "options": [
+      "A. 4",
+      "B. 8",
+      "C. 7",
+      "D. 2"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识百位",
+    "explanation": "百位是从右数第三位，4872的百位是7。"
+  },
+  {
+    "id": "math-primary-158",
+    "type": "choice",
+    "question": "书店的图书原价为456元，优惠后便宜了178元，现价是多少元？",
+    "options": [
+      "A. 268元",
+      "B. 278元",
+      "C. 288元",
+      "D. 258元"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "三位数加减法",
+    "explanation": "用456减去178，先算456-100=356，再减78得278。"
+  },
+  {
+    "id": "math-primary-159",
+    "type": "choice",
+    "question": "下面哪个算式表示“5个3相加”？",
+    "options": [
+      "A. 5+3",
+      "B. 3×5",
+      "C. 5×3",
+      "D. 5-3"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识乘法",
+    "explanation": "5个3相加等于3+3+3+3+3，即5×3。"
+  },
+  {
+    "id": "math-primary-160",
+    "type": "choice",
+    "question": "小明有4盒彩笔，每盒有5支，他一共有多少支彩笔？",
+    "options": [
+      "A. 15支",
+      "B. 20支",
+      "C. 25支",
+      "D. 30支"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "2-5的乘法口诀",
+    "explanation": "利用乘法口诀，4×5=20"
+  },
+  {
+    "id": "math-primary-161",
+    "type": "choice",
+    "question": "7×8等于多少？",
+    "options": [
+      "A. 54",
+      "B. 56",
+      "C. 48",
+      "D. 64"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "6-9的乘法口诀",
+    "explanation": "用7的乘法口诀，7×8=56。"
+  },
+  {
+    "id": "math-primary-162",
+    "type": "choice",
+    "question": "3 × 7 = ?",
+    "options": [
+      "A. 18",
+      "B. 21",
+      "C. 24",
+      "D. 27"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "表内乘法",
+    "explanation": "利用乘法表，3×7等于21"
+  },
+  {
+    "id": "math-primary-163",
+    "type": "choice",
+    "question": "把12颗糖果平均分给3个小朋友，每个小朋友可以得到多少颗糖果？",
+    "options": [
+      "A. 2颗",
+      "B. 3颗",
+      "C. 4颗",
+      "D. 6颗"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识除法",
+    "explanation": "用除法把12平均分成3份，每份是4颗。"
+  },
+  {
+    "id": "math-primary-164",
+    "type": "choice",
+    "question": "48 ÷ 6 = ?",
+    "options": [
+      "A. 7",
+      "B. 8",
+      "C. 9",
+      "D. 6"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "表内除法",
+    "explanation": "因为6×8=48，所以48÷6=8。"
+  },
+  {
+    "id": "math-primary-165",
+    "type": "choice",
+    "question": "计算 56 ÷ 9 的余数。",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "有余数的除法",
+    "explanation": "56除以9得6余2，故余数为2。"
+  },
+  {
+    "id": "math-primary-166",
+    "type": "choice",
+    "question": "计算 24 × 2 ÷ 6 = ?",
+    "options": [
+      "A. 8",
+      "B. 12",
+      "C. 6",
+      "D. 4"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "乘除混合运算",
+    "explanation": "先算乘法24×2=48，再除以6得8。"
+  },
+  {
+    "id": "math-primary-167",
+    "type": "choice",
+    "question": "一个披萨被平均切成8块，小明吃了3块，他吃掉的披萨占整块披萨的几分之几？",
+    "options": [
+      "A. 3/8",
+      "B. 8/3",
+      "C. 5/8",
+      "D. 3/5"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识分数",
+    "explanation": "把披萨分成8份，取3份，即3/8。"
+  },
+  {
+    "id": "math-primary-168",
+    "type": "choice",
+    "question": "比较下面两个分数的大小：5/8 和 3/4，哪个更大？",
+    "options": [
+      "A. 5/8 更大",
+      "B. 3/4 更大",
+      "C. 两者相等",
+      "D. 无法比较"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数的大小比较",
+    "explanation": "通分后比较分子：3/4 = 6/8 > 5/8"
+  },
+  {
+    "id": "math-primary-169",
+    "type": "choice",
+    "question": "计算 3/7 + 2/7 = ?",
+    "options": [
+      "A. 5/7",
+      "B. 5/14",
+      "C. 5/49",
+      "D. 6/7"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "同分母分数加减",
+    "explanation": "同分母分数相加，只把分子相加，分母不变。"
+  },
+  {
+    "id": "math-primary-170",
+    "type": "choice",
+    "question": "将分数 3/5 转化为小数，下面哪个正确？",
+    "options": [
+      "A. 0.6",
+      "B. 0.5",
+      "C. 0.75",
+      "D. 0.8"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数与小数互化",
+    "explanation": "把分子除以分母，3÷5=0.6"
+  },
+  {
+    "id": "math-primary-171",
+    "type": "choice",
+    "question": "0.125 是几位小数？",
+    "options": [
+      "A. 1位小数",
+      "B. 2位小数",
+      "C. 3位小数",
+      "D. 4位小数"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数的认识",
+    "explanation": "0.125 小数点后有三位数字，故为三位小数"
+  },
+  {
+    "id": "math-primary-172",
+    "type": "choice",
+    "question": "小红买了5.2千克的苹果，又买了3.75千克的香蕉，一共买了多少千克水果？",
+    "options": [
+      "A. 8.95千克",
+      "B. 8.85千克",
+      "C. 8.9千克",
+      "D. 9.05千克"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数加减法",
+    "explanation": "把5.20与3.75对齐小数点相加，得8.95千克。"
+  },
+  {
+    "id": "math-primary-173",
+    "type": "choice",
+    "question": "0.3 × 0.4 的结果是多少？",
+    "options": [
+      "A. 0.12",
+      "B. 0.07",
+      "C. 0.34",
+      "D. 0.014"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数乘法",
+    "explanation": "先算3×4=12，再把两位小数点向左移两位得0.12。"
+  },
+  {
+    "id": "math-primary-174",
+    "type": "choice",
+    "question": "下面哪个说法正确描述了小数0.3的意义？",
+    "options": [
+      "A. 0.3表示3个十分之一",
+      "B. 0.3表示3个百分之一",
+      "C. 0.3表示3个千分之一",
+      "D. 0.3表示3个整数"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数的意义",
+    "explanation": "0.3表示把整体分成10等份后取3份，即3个十分之一。"
+  },
+  {
+    "id": "math-primary-175",
+    "type": "choice",
+    "question": "一张10元纸币可以换几张5元纸币？",
+    "options": [
+      "A. 1张",
+      "B. 2张",
+      "C. 3张",
+      "D. 4张"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识人民币",
+    "explanation": "10元除以5元等于2张，故答案为2张。"
+  },
+  {
+    "id": "math-primary-176",
+    "type": "choice",
+    "question": "3元5角等于多少分？",
+    "options": [
+      "A. 350分",
+      "B. 305分",
+      "C. 315分",
+      "D. 355分"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "人民币换算",
+    "explanation": "1元=100分，1角=10分，3元5角=3×100+5×10=350分。"
+  },
+  {
+    "id": "math-primary-177",
+    "type": "choice",
+    "question": "小明在下午3点15分时，时针和分针分别指向哪里？",
+    "options": [
+      "A. 时针指向3，分针指向3",
+      "B. 时针指向3，分针指向9",
+      "C. 时针指向3和4之间，分针指向3",
+      "D. 时针指向3和4之间，分针指向9"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识时钟",
+    "explanation": "3点15分时，分针指向3，时针在3和4之间，因为每过15分钟时针走四分之一格。"
+  },
+  {
+    "id": "math-primary-178",
+    "type": "choice",
+    "question": "2024年是闰年，那么2024年的2月有多少天？",
+    "options": [
+      "A. 28天",
+      "B. 29天",
+      "C. 30天",
+      "D. 31天"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识日历",
+    "explanation": "因为2024年是闰年，2月有29天。"
+  },
+  {
+    "id": "math-primary-179",
+    "type": "choice",
+    "question": "2.5公里等于多少米？",
+    "options": [
+      "A. 250米",
+      "B. 2500米",
+      "C. 25000米",
+      "D. 25米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "长度单位换算",
+    "explanation": "1公里=1000米，2.5公里=2.5×1000=2500米。"
+  },
+  {
+    "id": "math-primary-180",
+    "type": "choice",
+    "question": "3.5千克等于多少克？",
+    "options": [
+      "A. 350克",
+      "B. 3500克",
+      "C. 35克",
+      "D. 35000克"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "重量单位换算",
+    "explanation": "1千克=1000克，乘以3.5即可得到3500克。"
+  },
+  {
+    "id": "math-primary-181",
+    "type": "choice",
+    "question": "一个长方形的长是8厘米，宽是5厘米，这个长方形的面积是多少平方厘米？",
+    "options": [
+      "A. 13平方厘米",
+      "B. 40平方厘米",
+      "C. 24平方厘米",
+      "D. 30平方厘米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识面积",
+    "explanation": "面积等于长乘宽，8×5=40平方厘米"
+  },
+  {
+    "id": "math-primary-182",
+    "type": "choice",
+    "question": "下列关于体积的说法，哪个是正确的？",
+    "options": [
+      "A. 体积是指物体表面的面积。",
+      "B. 体积是指物体所占空间的大小。",
+      "C. 体积可以用平方米来计量。",
+      "D. 体积只和物体的形状有关，与大小无关。"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识体积",
+    "explanation": "体积是物体所占空间的大小，用立方单位计量。"
+  },
+  {
+    "id": "math-primary-183",
+    "type": "choice",
+    "question": "以下哪个选项正确描述了角的特征？",
+    "options": [
+      "A. 角是由两条直线相交得到的",
+      "B. 角是由两条射线共享一个端点形成的",
+      "C. 角是一条直线",
+      "D. 角是由三条线段围成的"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识角",
+    "explanation": "角是由两条射线共享一个端点（顶点）构成的图形。"
+  },
+  {
+    "id": "math-primary-184",
+    "type": "choice",
+    "question": "下面哪组线段的长度可以围成三角形？",
+    "options": [
+      "A. 2 cm、3 cm、5 cm",
+      "B. 3 cm、4 cm、5 cm",
+      "C. 1 cm、2 cm、10 cm",
+      "D. 4 cm、4 cm、9 cm"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识三角形",
+    "explanation": "三角形任意两边之和大于第三边，3+4>5、3+5>4、4+5>3"
+  },
+  {
+    "id": "math-primary-185",
+    "type": "choice",
+    "question": "下列图形中，哪一个属于四边形？",
+    "options": [
+      "A. 正方形",
+      "B. 三角形",
+      "C. 圆形",
+      "D. 五边形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识四边形",
+    "explanation": "正方形有4条边，符合四边形的定义。"
+  },
+  {
+    "id": "math-primary-186",
+    "type": "choice",
+    "question": "下面哪个图形的特点是：所有点到中心O的距离相等？",
+    "options": [
+      "A. 正方形",
+      "B. 长方形",
+      "C. 圆形",
+      "D. 三角形"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识圆形",
+    "explanation": "圆形定义是平面上所有点到中心距离相等，其他图形不具备此特性。"
+  },
+  {
+    "id": "math-primary-187",
+    "type": "choice",
+    "question": "以下关于正方形和长方形的说法，正确的是？",
+    "options": [
+      "A. 正方形是特殊的长方形",
+      "B. 长方形一定是正方形",
+      "C. 正方形没有直角",
+      "D. 长方形的对角线不相等"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识正方形和长方形",
+    "explanation": "正方形满足长方形的所有条件（四个直角、对边相等），因此是正方形的特殊形式。"
+  },
+  {
+    "id": "math-primary-188",
+    "type": "choice",
+    "question": "把两个相同的正方形拼在一起，能够得到（ ）图形。",
+    "options": [
+      "A. 长方形",
+      "B. 三角形",
+      "C. 圆形",
+      "D. 正方形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "图形的拼组",
+    "explanation": "两个相同的正方形沿边相接后，形成的四边形两对边相等且四角为直角，即为长方形。"
+  },
+  {
+    "id": "math-primary-189",
+    "type": "choice",
+    "question": "下列图形中，哪一个一定是轴对称图形？",
+    "options": [
+      "A. 正方形",
+      "B. 任意三角形",
+      "C. 平行四边形",
+      "D. 任意梯形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识轴对称图形",
+    "explanation": "正方形四条对称轴，任意方向折叠都能完全重合。"
+  },
+  {
+    "id": "math-primary-190",
+    "type": "choice",
+    "question": "把一个长方形先向右平移3格，再顺时针旋转90度后，图形的（ ）不变。",
+    "options": [
+      "A. 位置",
+      "B. 大小",
+      "C. 颜色",
+      "D. 方向"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "图形的平移和旋转",
+    "explanation": "平移和旋转只改变位置和方向，图形本身的大小和形状保持不变。"
+  },
+  {
+    "id": "math-primary-191",
+    "type": "choice",
+    "question": "观察数列：1，4，9，16，?，请问 ? 处应填入的数是？",
+    "options": [
+      "A. 20",
+      "B. 25",
+      "C. 30",
+      "D. 36"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "找规律填数",
+    "explanation": "每个数是自然数的平方，1²=1，2²=4，3²=9，4²=16，5²=25，故填25。"
+  },
+  {
+    "id": "math-primary-192",
+    "type": "choice",
+    "question": "观察下面的图形规律，第四幅图应该画什么形状？图1是三角形，图2是正方形，图3是五边形。",
+    "options": [
+      "A. 六边形",
+      "B. 七边形",
+      "C. 正方形",
+      "D. 圆形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "找规律画图",
+    "explanation": "每幅图比前一副多一条边，依次为3、4、5条边，故下一幅应为六边形。"
+  },
+  {
+    "id": "math-primary-193",
+    "type": "choice",
+    "question": "下面这组数据的中位数是？23, 45, 12, 67, 34",
+    "options": [
+      "A. 34",
+      "B. 45",
+      "C. 23",
+      "D. 12"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "简单统计",
+    "explanation": "先把数据从小到大排列，位于中间的就是中位数"
+  },
+  {
+    "id": "math-primary-194",
+    "type": "choice",
+    "question": "某班级统计了学生上学的方式，得到下表：步行 30 人，骑车 20 人，坐公交 15 人，坐校车 5 人。下面哪个说法是正确的？",
+    "options": [
+      "A. 步行",
+      "B. 骑车",
+      "C. 坐公交",
+      "D. 坐校车"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "数据的收集整理",
+    "explanation": "根据表格，步行人数最多，为30人。"
+  },
+  {
+    "id": "math-primary-195",
+    "type": "choice",
+    "question": "比较 3/5 和 5/8 的大小，哪个更大？",
+    "options": [
+      "A. 3/5 更大",
+      "B. 5/8 更大",
+      "C. 两者相等",
+      "D. 无法判断"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "比大小",
+    "explanation": "交叉相乘比较：3×8=24，5×5=25，24<25，故5/8更大。"
+  },
+  {
+    "id": "math-primary-196",
+    "type": "choice",
+    "question": "小明有a个苹果，小红比他多3个苹果，小红有多少个苹果？",
+    "options": [
+      "A. a+3",
+      "B. a-3",
+      "C. 3a",
+      "D. a÷3"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用字母表示数",
+    "explanation": "小红比小明多3个，所以用a加3得到她的苹果数。"
+  },
+  {
+    "id": "math-primary-197",
+    "type": "choice",
+    "question": "下面的式子中，哪一个是一个方程？",
+    "options": [
+      "A. 3+5=8",
+      "B. 2x+3",
+      "C. 5+7=12",
+      "D. 4x-2=10"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识方程",
+    "explanation": "方程是含有未知数的等式，只有 D 含有未知数 x 且左右相等。"
+  },
+  {
+    "id": "math-primary-198",
+    "type": "choice",
+    "question": "求方程 3x + 5 = 20 中 x 的值。",
+    "options": [
+      "A. x = 5",
+      "B. x = 4",
+      "C. x = 3",
+      "D. x = 6"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "解简单方程",
+    "explanation": "把5移到等式右边，除以3，得 x = 5"
+  },
+  {
+    "id": "math-primary-199",
+    "type": "choice",
+    "question": "小明去书店买书，每本书的价格是12元，他买了5本，付了100元，书店应找回多少钱？",
+    "options": [
+      "A. 40元",
+      "B. 20元",
+      "C. 30元",
+      "D. 10元"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：购物",
+    "explanation": "先算总价5×12=60元，付100元，找回100-60=40元。"
+  },
+  {
+    "id": "math-primary-200",
+    "type": "choice",
+    "question": "小明每天早上7点15分起床，7点45分出门上学，路上用了20分钟，问小明到校的时间是几点？",
+    "options": [
+      "A. 8:05",
+      "B. 8:15",
+      "C. 8:00",
+      "D. 8:10"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：时间",
+    "explanation": "把出门时间7:45加上20分钟的路程，得到8:05。"
+  },
+  {
+    "id": "math-primary-201",
+    "type": "choice",
+    "question": "小明每秒跑5米，跑了20秒，他一共跑了多少米？",
+    "options": [
+      "A. 100米",
+      "B. 200米",
+      "C. 150米",
+      "D. 250米"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：距离",
+    "explanation": "速度×时间＝距离，5×20=100米"
+  },
+  {
+    "id": "math-primary-202",
+    "type": "choice",
+    "question": "小明有一些糖果，他把糖果平均分给5位同学后，还剩3颗糖果。已知小明原来有48颗糖果，那么每位同学分到了多少颗糖果？",
+    "options": [
+      "A. 9颗",
+      "B. 10颗",
+      "C. 11颗",
+      "D. 12颗"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：分配",
+    "explanation": "先去掉剩余的3颗，用48-3=45颗再除以5得到9颗。"
+  },
+  {
+    "id": "math-primary-203",
+    "type": "choice",
+    "question": "3.2千克等于多少克？",
+    "options": [
+      "A. 320克",
+      "B. 3200克",
+      "C. 32克",
+      "D. 32000克"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识千克和克",
+    "explanation": "1千克=1000克，3.2千克=3.2×1000=3200克。"
+  },
+  {
+    "id": "math-primary-204",
+    "type": "choice",
+    "question": "1升等于多少毫升？",
+    "options": [
+      "A. 1000毫升",
+      "B. 500毫升",
+      "C. 100毫升",
+      "D. 10毫升"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识升和毫升",
+    "explanation": "1升等于1000毫升。"
+  },
+  {
+    "id": "math-primary-205",
+    "type": "choice",
+    "question": "小明身高1.35米，换算成厘米是多少？",
+    "options": [
+      "A. 13.5厘米",
+      "B. 135厘米",
+      "C. 1350厘米",
+      "D. 13500厘米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识米和厘米",
+    "explanation": "1米=100厘米，1.35米=1.35×100=135厘米"
+  },
+  {
+    "id": "math-primary-206",
+    "type": "choice",
+    "question": "1 分米等于多少毫米？",
+    "options": [
+      "A. 10 毫米",
+      "B. 100 毫米",
+      "C. 1000 毫米",
+      "D. 1 毫米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识毫米和分米",
+    "explanation": "1 分米 = 10 厘米 = 100 毫米，所以选 B。"
+  },
+  {
+    "id": "math-primary-207",
+    "type": "choice",
+    "question": "已知直线AB与直线CD相交于点O，且∠AOC=90°，则AB与CD的关系是（ ）。",
+    "options": [
+      "A. 垂直",
+      "B. 平行",
+      "C. 相交且不成直角",
+      "D. 重合"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "垂直与平行",
+    "explanation": "∠AOC=90°表示两条直线相交成直角，故它们互相垂直。"
+  },
+  {
+    "id": "math-primary-208",
+    "type": "choice",
+    "question": "下列图形中，哪个只有一个平行边？",
+    "options": [
+      "A. 正方形",
+      "B. 长方形",
+      "C. 梯形",
+      "D. 平行四边形"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识梯形和平行四边形",
+    "explanation": "梯形有且仅有一对平行边，正方形、长方形和平行四边形都有两对平行边。"
+  },
+  {
+    "id": "math-primary-209",
+    "type": "choice",
+    "question": "下面哪个图形是扇形？",
+    "options": [
+      "A. 由两条半径和它们之间的弧组成的图形",
+      "B. 只包含一条曲线的图形",
+      "C. 四条直线围成的矩形",
+      "D. 由一条直线段围成的图形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识圆和扇形",
+    "explanation": "扇形由圆的两条半径及其之间的弧组成。"
+  },
+  {
+    "id": "math-primary-210",
+    "type": "choice",
+    "question": "下列关于正方体和长方体的说法，正确的是？",
+    "options": [
+      "A. 正方体有6个面，且全部是正方形",
+      "B. 长方体有12条棱，且全部长度相等",
+      "C. 正方体和长方体的面数相同",
+      "D. 长方体的每个面都是正方形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识正方体和长方体",
+    "explanation": "正方体有6个面，全部是正方形，且棱长相等；其他选项错误。"
+  },
+  {
+    "id": "math-primary-211",
+    "type": "choice",
+    "question": "下面哪个立体图形具有两个相等的圆形底面且没有顶点？",
+    "options": [
+      "A. 正方体",
+      "B. 球",
+      "C. 圆柱",
+      "D. 三棱锥"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识圆柱和球",
+    "explanation": "圆柱有两个相等的圆形底面，且没有顶点，所以选C。"
+  },
+  {
+    "id": "math-primary-212",
+    "type": "choice",
+    "question": "点A在点B的正北方，点C在点B的正东方。点C相对于点A的方向是（ ）。",
+    "options": [
+      "A. 正东",
+      "B. 正南",
+      "C. 东南",
+      "D. 西南"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "位置与方向",
+    "explanation": "因为A在B北，C在B东，相对于A，C在东南方向。"
+  },
+  {
+    "id": "math-primary-213",
+    "type": "choice",
+    "question": "从正面看是一个正方形，从上面看是一个圆形，这个立体图形可能是？",
+    "options": [
+      "A. 圆柱体",
+      "B. 正方体",
+      "C. 球体",
+      "D. 圆锥"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "从不同方向观察物体",
+    "explanation": "正面看到正方形，上面看到圆形，说明侧面为矩形，符合圆柱。"
+  },
+  {
+    "id": "math-primary-214",
+    "type": "choice",
+    "question": "下面是某校六年级学生对足球、篮球、游泳三种运动爱好的人数统计表（复式统计表）。请根据表格回答：男生喜欢足球的有多少人？\n\n爱好    足球  篮球  游泳\n性别\n男      10    6    4\n女       5    7    8",
+    "options": [
+      "A. 8",
+      "B. 10",
+      "C. 12",
+      "D. 14"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识复式统计表",
+    "explanation": "在复式统计表中，对应‘男生’行‘足球’列的数值为10。"
+  },
+  {
+    "id": "math-primary-215",
+    "type": "choice",
+    "question": "在方格纸上，小明站在第3列第4行，用数对表示他的位置是（ ， ）？",
+    "options": [
+      "A. (3,4)",
+      "B. (4,3)",
+      "C. (3,3)",
+      "D. (4,4)"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用数对表示位置",
+    "explanation": "数对的第一个数是列，第二个数是行，所以列3行4为(3,4)。"
+  },
+  {
+    "id": "math-primary-216",
+    "type": "choice",
+    "question": "把 0.75 用百分数表示，下面哪个正确？",
+    "options": [
+      "A. 75%",
+      "B. 7.5%",
+      "C. 0.75%",
+      "D. 750%"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识百分数",
+    "explanation": "0.75 小数点右移两位，变成 75%，所以选 A。"
+  },
+  {
+    "id": "math-primary-217",
+    "type": "choice",
+    "question": "把 0.73 转换成百分数，下面哪个是正确的？",
+    "options": [
+      "A. 73%",
+      "B. 7.3%",
+      "C. 0.73%",
+      "D. 730%"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "百分数与小数的互化",
+    "explanation": "小数乘100后加百分号，0.73×100=73，故为73%"
+  },
+  {
+    "id": "math-primary-218",
+    "type": "choice",
+    "question": "小明有120本书，其中25%是小说，小说有多少本？",
+    "options": [
+      "A. 30本",
+      "B. 24本",
+      "C. 36本",
+      "D. 40本"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "百分数的应用",
+    "explanation": "把25%化为0.25，120×0.25=30本。"
+  },
+  {
+    "id": "math-primary-219",
+    "type": "choice",
+    "question": "下面哪一组数能组成比例？",
+    "options": [
+      "A. 1、2、3、4",
+      "B. 2、3、4、6",
+      "C. 1、3、5、7",
+      "D. 3、5、7、9"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "比例的认识",
+    "explanation": "2:3 与 4:6 可以化简成相同比值，故成比例。"
+  },
+  {
+    "id": "math-primary-220",
+    "type": "choice",
+    "question": "已知y与x成正比例，x=3时y=12，那么x=5时y是多少？",
+    "options": [
+      "A. 20",
+      "B. 15",
+      "C. 24",
+      "D. 18"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "正比例与反比例",
+    "explanation": "先求比例系数k=y/x=12/3=4，代入x=5得y=4*5=20。"
+  },
+  {
+    "id": "math-primary-221",
+    "type": "choice",
+    "question": "在一幅地图上，比例尺是1:2000。如果实际距离是400米，那么在地图上的距离是多少厘米？",
+    "options": [
+      "A. 2厘米",
+      "B. 20厘米",
+      "C. 200厘米",
+      "D. 0.2厘米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "比例尺",
+    "explanation": "先换算实际距离400米=40000厘米，根据比例尺1:2000，图上距离=40000÷2000=20厘米。"
+  },
+  {
+    "id": "math-primary-222",
+    "type": "choice",
+    "question": "鸡和兔子同笼，头共20只，脚共56只。鸡有多少只？",
+    "options": [
+      "A. 8只",
+      "B. 10只",
+      "C. 12只",
+      "D. 14只"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "鸡兔同笼",
+    "explanation": "设鸡x，兔y，x+y=20，2x+4y=56，解得x=12。"
+  },
+  {
+    "id": "math-primary-223",
+    "type": "choice",
+    "question": "小明和小红一共有50本书，已知小明比小红多10本，问小明有多少本书？",
+    "options": [
+      "A. 30本",
+      "B. 35本",
+      "C. 40本",
+      "D. 20本"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "和差问题",
+    "explanation": "利用和差公式：大数=(和+差)/2=(50+10)/2=30本"
+  },
+  {
+    "id": "math-primary-224",
+    "type": "choice",
+    "question": "小华和小明共有40本书，已知小华的书是小明的3倍，两人各有多少本书？",
+    "options": [
+      "A. 小华30本, 小明10本",
+      "B. 小华25本, 小明15本",
+      "C. 小华20本, 小明20本",
+      "D. 小华35本, 小明5本"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "和倍问题",
+    "explanation": "设小明x本，则小华3x本，x+3x=40，解得x=10本，故小华30本。"
+  },
+  {
+    "id": "math-primary-225",
+    "type": "choice",
+    "question": "两个数的差是 24，且较大数是较小数的 5 倍，这两个数分别是多少？",
+    "options": [
+      "A. 较小数 6，较大数 30",
+      "B. 较小数 8，较大数 32",
+      "C. 较小数 4，较大数 20",
+      "D. 较小数 12，较大数 36"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "差倍问题",
+    "explanation": "设较小数为 x，则较大数为 5x，差为 5x - x = 4x = 24，得 x = 6，较大数 30。"
+  },
+  {
+    "id": "math-primary-226",
+    "type": "choice",
+    "question": "小明今年9岁，爸爸今年33岁，几年后爸爸的年龄是小明的3倍？",
+    "options": [
+      "A. 3年",
+      "B. 4年",
+      "C. 5年",
+      "D. 6年"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "年龄问题",
+    "explanation": "设x年后爸爸年龄是小明的3倍，列方程33+x=3(9+x)，解得x=3。"
+  },
+  {
+    "id": "math-primary-227",
+    "type": "choice",
+    "question": "小明买了15本相同的书，一共花了120元，每本书的平均价格是多少元？",
+    "options": [
+      "A. 6元",
+      "B. 8元",
+      "C. 10元",
+      "D. 12元"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "归一问题",
+    "explanation": "先求总价除以数量，得到每本书的价格：120÷15=8元。"
+  },
+  {
+    "id": "math-primary-228",
+    "type": "choice",
+    "question": "小明有5盒糖，每盒12颗；小华有4盒糖，每盒15颗。他们一共有多少颗糖？",
+    "options": [
+      "A. 110颗",
+      "B. 120颗",
+      "C. 130颗",
+      "D. 140颗"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "归总问题",
+    "explanation": "先分别算出小明和小华的糖数，再相加：5×12=60，4×15=60，合计120颗。"
+  },
+  {
+    "id": "math-primary-229",
+    "type": "choice",
+    "question": "在一条长60米的道路一侧每隔10米种一棵树，两端都种，需要种多少棵树？",
+    "options": [
+      "A. 6棵",
+      "B. 7棵",
+      "C. 8棵",
+      "D. 9棵"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "植树问题",
+    "explanation": "棵树 = 间隔数+1。60÷10=6，6+1=7。"
+  },
+  {
+    "id": "math-primary-230",
+    "type": "choice",
+    "question": "小明从A地骑自行车去B地，速度是每小时12公里。小华从B地骑自行车去A地，速度是每小时8公里。两人同时出发，5小时后相遇。请问A、B两地之间的距离是多少？",
+    "options": [
+      "A. 60 公里",
+      "B. 80 公里",
+      "C. 100 公里",
+      "D. 120 公里"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "相遇问题",
+    "explanation": "相遇时两人行驶距离之和等于总路程。速度和×时间=总距离。"
+  },
+  {
+    "id": "math-primary-231",
+    "type": "choice",
+    "question": "小明每小时跑6公里，小华每小时跑4公里，且小华先跑了1小时。请问小明需要几小时才能追上小华？",
+    "options": [
+      "A. 1小时",
+      "B. 2小时",
+      "C. 3小时",
+      "D. 4小时"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "追及问题",
+    "explanation": "先算出两人速度差2km/h，先跑1h领先4km，追上时间=距离差÷速度差=4÷2=2h。"
+  },
+  {
+    "id": "math-primary-232",
+    "type": "choice",
+    "question": "船在静水中的航速为12 km/h，水流速度为2 km/h。该船顺流航行3小时，能行驶多少千米？",
+    "options": [
+      "A. 30 km",
+      "B. 42 km",
+      "C. 48 km",
+      "D. 36 km"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "流水问题",
+    "explanation": "先求顺流速度：12+2=14 km/h，乘以3小时得42 km。"
+  },
+  {
+    "id": "math-primary-233",
+    "type": "choice",
+    "question": "某商品原价为200元，打8折后价格是多少？",
+    "options": [
+      "A. 140元",
+      "B. 160元",
+      "C. 180元",
+      "D. 200元"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "折扣问题",
+    "explanation": "打8折即原价的80%，200×0.8=160元。"
+  },
+  {
+    "id": "math-primary-234",
+    "type": "choice",
+    "question": "学校提供营养午餐，一份午餐包含200克米饭、150克蔬菜和100克肉类，午餐总热量为800千卡。已知米饭提供30%的热量，蔬菜提供20%的热量，剩下的热量全部由肉类提供。请问肉类提供的热量是多少千卡？",
+    "options": [
+      "A. 400千卡",
+      "B. 300千卡",
+      "C. 200千卡",
+      "D. 160千卡"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "营养午餐",
+    "explanation": "先算米饭和蔬菜的热量，800×30%＝240，800×20%＝160，剩余800-240-160=400千卡。"
+  },
+  {
+    "id": "math-primary-235",
+    "type": "choice",
+    "question": "有三只动物，小狗比小猫重，小猫比小老鼠重。哪只动物最重？",
+    "options": [
+      "A. 小狗",
+      "B. 小猫",
+      "C. 小老鼠",
+      "D. 一样重"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "简单推理",
+    "explanation": "因为小狗 > 小猫 > 小老鼠，所以小狗最重。"
+  },
+  {
+    "id": "math-primary-236",
+    "type": "choice",
+    "question": "把1、2、3这三个数字进行有序排列，一共能得到多少种不同的排列？",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 6",
+      "D. 7"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "有序枚举",
+    "explanation": "把1、2、3三个数字进行全排列，计算得3×2×1=6种。"
+  },
+  {
+    "id": "math-primary-237",
+    "type": "choice",
+    "question": "盒子里有3个红球和2个蓝球，随机摸一个球，摸到红球的可能性是多大？",
+    "options": [
+      "A. 3/5",
+      "B. 2/5",
+      "C. 1/5",
+      "D. 1/2"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "可能性大小",
+    "explanation": "总共5个球，红球3个，摸到红球的可能性为3/5。"
+  },
+  {
+    "id": "math-primary-238",
+    "type": "choice",
+    "question": "小华掷一枚标准的六面骰子，掷到 3 的概率是多少？",
+    "options": [
+      "A. 1/6",
+      "B. 1/3",
+      "C. 1/2",
+      "D. 2/3"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "掷骰子概率",
+    "explanation": "因为骰子有六个面，每个面出现机会相等，所以出现3的概率是1/6。"
+  },
+  {
+    "id": "math-primary-239",
+    "type": "choice",
+    "question": "下面关于数独的说法，正确的是（ ）",
+    "options": [
+      "A. 行中可以出现重复的数字",
+      "B. 列中可以出现重复的数字",
+      "C. 宫格中可以出现重复的数字",
+      "D. 每行、每列、每个宫格必须包含数字1-9且不重复"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "数独入门",
+    "explanation": "数独规则要求每行、每列、每个3×3宫格必须填入1-9且不重复。"
+  },
+  {
+    "id": "math-primary-240",
+    "type": "choice",
+    "question": "把用6根火柴棒摆成的数字0，只移动一根火柴棒，可以变成数字几？",
+    "options": [
+      "A. 1",
+      "B. 6",
+      "C. 8",
+      "D. 9"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "火柴棒游戏",
+    "explanation": "0去掉顶部的一根火柴棒即可变成6。"
+  },
+  {
+    "id": "math-primary-241",
+    "type": "choice",
+    "question": "下面哪个图形不能一笔画出（不重复经过同一条线）？",
+    "options": [
+      "A. 一个三角形",
+      "B. 一个正方形",
+      "C. 一个Y形",
+      "D. 一个圆形"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "一笔画",
+    "explanation": "Y形有四个奇点，超过2个，不能一笔画。"
+  },
+  {
+    "id": "math-primary-242",
+    "type": "choice",
+    "question": "下面哪个图形有且仅有一条对称轴？",
+    "options": [
+      "A. 正方形",
+      "B. 长方形",
+      "C. 等腰三角形",
+      "D. 圆形"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "对称之美",
+    "explanation": "等腰三角形只有一条通过顶点到底边的垂直平分线，其他图形有0、2或无数条对称轴。"
+  },
+  {
+    "id": "math-primary-243",
+    "type": "choice",
+    "question": "一块长方形的长是8厘米，宽是5厘米，它的周长是多少厘米？",
+    "options": [
+      "A. 26厘米",
+      "B. 13厘米",
+      "C. 40厘米",
+      "D. 24厘米"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "周长的计算",
+    "explanation": "周长=2×(长+宽)=2×13=26厘米"
+  },
+  {
+    "id": "math-primary-244",
+    "type": "choice",
+    "question": "一块矩形土地长12米，宽8米，它的面积是多少平方米？",
+    "options": [
+      "A. 96平方米",
+      "B. 84平方米",
+      "C. 96米",
+      "D. 84米"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "面积的计算",
+    "explanation": "矩形面积=长×宽，12×8=96（平方米）。"
+  },
+  {
+    "id": "math-primary-245",
+    "type": "choice",
+    "question": "一个长方形和一个直角三角形拼在一起，已知长方形的长8 cm，宽5 cm，直角三角形的两条直角边分别是5 cm和8 cm。组合图形的面积是多少平方厘米？",
+    "options": [
+      "A. 60 cm²",
+      "B. 48 cm²",
+      "C. 40 cm²",
+      "D. 80 cm²"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "组合图形的面积",
+    "explanation": "先算长方形面积8×5=40，再算三角形面积½×5×8=20，合计60平方厘米。"
+  },
+  {
+    "id": "math-primary-246",
+    "type": "choice",
+    "question": "把 3/5 转化为小数，正确的是哪个？",
+    "options": [
+      "A. 0.6",
+      "B. 0.5",
+      "C. 0.4",
+      "D. 0.8"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "转化思想",
+    "explanation": "把分子除以分母，3÷5=0.6。"
+  },
+  {
+    "id": "math-primary-247",
+    "type": "choice",
+    "question": "小明有30元，买书后还剩12元，问买书花了多少元？",
+    "options": [
+      "A. 12元",
+      "B. 18元",
+      "C. 20元",
+      "D. 15元"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用方程解应用题",
+    "explanation": "设买书花了x元，列方程30-x=12，求解得x=18元。"
+  },
+  {
+    "id": "math-primary-248",
+    "type": "choice",
+    "question": "小明用15分钟走了3公里，按相同速度，他走5公里需要多少分钟？",
+    "options": [
+      "A. 20分钟",
+      "B. 25分钟",
+      "C. 30分钟",
+      "D. 35分钟"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用比例解应用题",
+    "explanation": "用比例：3km对应15分钟，设5km对应x分钟，列出3:15=5:x，解得x=25分钟。"
+  },
+  {
+    "id": "math-primary-249",
+    "type": "choice",
+    "question": "一根绳子长12米，剪掉它的1/4，还剩多少米？",
+    "options": [
+      "A. 9米",
+      "B. 8米",
+      "C. 10米",
+      "D. 11米"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数应用题",
+    "explanation": "原长12米，剪掉1/4即剩下3/4，12×3/4=9米。"
+  },
+  {
+    "id": "math-primary-250",
+    "type": "choice",
+    "question": "某工程，甲单独完成需要10天，乙单独完成需要15天。两人合作需要多少天完成？",
+    "options": [
+      "A. 5天",
+      "B. 6天",
+      "C. 8天",
+      "D. 10天"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "工程问题",
+    "explanation": "甲的效率1/10，乙的效率1/15，合计1/6，完成需6天"
+  },
+  {
+    "id": "math-primary-251",
+    "type": "choice",
+    "question": "下列哪个数字比4大且比8小？",
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 9",
+      "D. 7"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识数字1-10",
+    "explanation": "比4大且比8小的整数是5、6、7，只有5在选项中出现。"
+  },
+  {
+    "id": "math-primary-252",
+    "type": "choice",
+    "question": "小明有7个苹果，给了小红3个，又买了2个，小明现在有多少个苹果？",
+    "options": [
+      "A. 6",
+      "B. 7",
+      "C. 8",
+      "D. 9"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "10以内加减法",
+    "explanation": "先算7-3=4，再加2得6。"
+  },
+  {
+    "id": "math-primary-253",
+    "type": "choice",
+    "question": "11到20之间，所有整数的个位数字之和是多少？",
+    "options": [
+      "A. 45",
+      "B. 50",
+      "C. 55",
+      "D. 60"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识11-20",
+    "explanation": "把11-20的个位相加，即1+2+...+9+0=45，故选A。"
+  },
+  {
+    "id": "math-primary-254",
+    "type": "choice",
+    "question": "小华原有18支铅笔，送走7支后又买了5支，他现在有多少支铅笔？",
+    "options": [
+      "A. 14支",
+      "B. 15支",
+      "C. 16支",
+      "D. 17支"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "20以内加减法",
+    "explanation": "先用18减7得11，再加5得16。"
+  },
+  {
+    "id": "math-primary-255",
+    "type": "choice",
+    "question": "数字45中，十位上的数字是（ ）。",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 45",
+      "D. 0"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识100以内数字",
+    "explanation": "十位是4，表示4个十。"
+  },
+  {
+    "id": "math-primary-256",
+    "type": "choice",
+    "question": "请计算 (48 + 37) - 25 = ?",
+    "options": [
+      "A. 60",
+      "B. 65",
+      "C. 55",
+      "D. 70"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "100以内加减法",
+    "explanation": "先把48和37相加得到85，再减去25得到60。"
+  },
+  {
+    "id": "math-primary-257",
+    "type": "choice",
+    "question": "下面哪个数的百位是7？",
+    "options": [
+      "A. 572",
+      "B. 730",
+      "C. 647",
+      "D. 8071"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识百位",
+    "explanation": "百位是左边第三位，730的百位是7。"
+  },
+  {
+    "id": "math-primary-258",
+    "type": "choice",
+    "question": "456 + 237 = ?",
+    "options": [
+      "A. 683",
+      "B. 693",
+      "C. 703",
+      "D. 713"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "三位数加减法",
+    "explanation": "把相同数位对齐，从低位相加，满十进一。"
+  },
+  {
+    "id": "math-primary-259",
+    "type": "choice",
+    "question": "下面哪个选项正确描述了 5×3 的意义？",
+    "options": [
+      "A. 5 加 3 等于 8",
+      "B. 5 个 3 相加的结果",
+      "C. 5 减 3 的差",
+      "D. 5 除以 3 的商"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识乘法",
+    "explanation": "5×3 表示 5 个 3 相加，即 3+3+3+3+3=15。"
+  },
+  {
+    "id": "math-primary-260",
+    "type": "choice",
+    "question": "小华有4本练习本，每本有5页，他一共有多少页？",
+    "options": [
+      "A. 20",
+      "B. 24",
+      "C. 18",
+      "D. 15"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "2-5的乘法口诀",
+    "explanation": "使用2-5乘法口诀，4×5=20，故答案为20。"
+  },
+  {
+    "id": "math-primary-261",
+    "type": "choice",
+    "question": "8 × 7 = ?",
+    "options": [
+      "A. 54",
+      "B. 56",
+      "C. 58",
+      "D. 62"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "6-9的乘法口诀",
+    "explanation": "八七的口诀是七八五十六，所以结果是56。"
+  },
+  {
+    "id": "math-primary-262",
+    "type": "choice",
+    "question": "某礼堂有9排座位，每排8个座位，这个礼堂一共有多少个座位？",
+    "options": [
+      "A. 56",
+      "B. 72",
+      "C. 48",
+      "D. 64"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "表内乘法",
+    "explanation": "9×8=72，可直接在乘法表中查到"
+  },
+  {
+    "id": "math-primary-263",
+    "type": "choice",
+    "question": "把 20 颗草莓平均分给 4 个同学，每个同学能得到多少颗草莓？",
+    "options": [
+      "A. 4颗",
+      "B. 5颗",
+      "C. 6颗",
+      "D. 7颗"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识除法",
+    "explanation": "将总数除以人数，20 ÷ 4 = 5，即每人得到5颗。"
+  },
+  {
+    "id": "math-primary-264",
+    "type": "choice",
+    "question": "小明有56支铅笔，他想平均分给7个同学，每个同学能得到多少支铅笔？",
+    "options": [
+      "A. 8",
+      "B. 7",
+      "C. 6",
+      "D. 9"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "表内除法",
+    "explanation": "56 ÷ 7 = 8，故每个同学得到8支。"
+  },
+  {
+    "id": "math-primary-265",
+    "type": "choice",
+    "question": "把 38 颗糖果平均分给 6 个同学，每人分到几颗，还剩多少颗？",
+    "options": [
+      "A. 每人6颗，剩2颗",
+      "B. 每人6颗，剩1颗",
+      "C. 每人5颗，剩8颗",
+      "D. 每人7颗，剩0颗"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "有余数的除法",
+    "explanation": "38÷6=6余2，所以每人分到6颗，剩2颗。"
+  },
+  {
+    "id": "math-primary-266",
+    "type": "choice",
+    "question": "计算 12 × 4 ÷ 2 = ?",
+    "options": [
+      "A. 24",
+      "B. 20",
+      "C. 18",
+      "D. 28"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "乘除混合运算",
+    "explanation": "先算乘法12×4=48，再除以2得24。"
+  },
+  {
+    "id": "math-primary-267",
+    "type": "choice",
+    "question": "下面哪个分数的值等于0.5？",
+    "options": [
+      "A. 1/2",
+      "B. 2/3",
+      "C. 3/8",
+      "D. 4/5"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识分数",
+    "explanation": "1/2 = 0.5，其他分数不等于0.5"
+  },
+  {
+    "id": "math-primary-268",
+    "type": "choice",
+    "question": "下面四个分数中，最小的分数是哪一个？",
+    "options": [
+      "A. 2/5",
+      "B. 3/8",
+      "C. 1/3",
+      "D. 4/7"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数的大小比较",
+    "explanation": "把分数通分成分母相同，比较分子大小，分子最小的分数最小。"
+  },
+  {
+    "id": "math-primary-269",
+    "type": "choice",
+    "question": "计算 2/7 + 3/7 = ?",
+    "options": [
+      "A. 5/14",
+      "B. 5/7",
+      "C. 5/49",
+      "D. 6/7"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "同分母分数加减",
+    "explanation": "同分母分数相加，只把分子相加，分母不变，即2+3=5，答案为5/7。"
+  },
+  {
+    "id": "math-primary-270",
+    "type": "choice",
+    "question": "把分数3/5化成小数，哪个选项正确？",
+    "options": [
+      "A. 0.6",
+      "B. 0.5",
+      "C. 0.3",
+      "D. 0.8"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "分数与小数互化",
+    "explanation": "3/5等于3除以5，结果为0.6"
+  },
+  {
+    "id": "math-primary-271",
+    "type": "choice",
+    "question": "0.75 用最简分数表示是（ ）。",
+    "options": [
+      "A. 3/4",
+      "B. 75/100",
+      "C. 75/10",
+      "D. 7/5"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数的认识",
+    "explanation": "0.75=75/100，约分后得到3/4。"
+  },
+  {
+    "id": "math-primary-272",
+    "type": "choice",
+    "question": "3.25 + 1.7 = ?",
+    "options": [
+      "A. 4.95",
+      "B. 4.92",
+      "C. 5.0",
+      "D. 4.85"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数加减法",
+    "explanation": "把3.25和1.7对齐小数点，1.7写成1.70，逐位相加得4.95"
+  },
+  {
+    "id": "math-primary-273",
+    "type": "choice",
+    "question": "4.2 × 0.3 = ?",
+    "options": [
+      "A. 1.26",
+      "B. 12.6",
+      "C. 0.126",
+      "D. 126"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数乘法",
+    "explanation": "先把4.2乘3得12.6，再把小数点向左移一位，得到1.26。"
+  },
+  {
+    "id": "math-primary-274",
+    "type": "choice",
+    "question": "下面关于小数的意义的说法，哪一项是正确的？",
+    "options": [
+      "A. 小数是整数的一部分",
+      "B. 小数是把整体分成10等份、100等份等得到的数",
+      "C. 小数只能表示小于1的数",
+      "D. 小数是带小数点的数"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "小数的意义",
+    "explanation": "小数表示把整体平均分成10、100等份，取其中若干份的值。"
+  },
+  {
+    "id": "math-primary-275",
+    "type": "choice",
+    "question": "小明买一支铅笔用了1元5角，他付了2元，应该找回多少元？",
+    "options": [
+      "A. 5角",
+      "B. 5元",
+      "C. 1元5角",
+      "D. 1元"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识人民币",
+    "explanation": "先把1元5角转换成1.5元，2元减去1.5元等于0.5元，即5角。"
+  },
+  {
+    "id": "math-primary-276",
+    "type": "choice",
+    "question": "5元8角等于多少元？",
+    "options": [
+      "A. 5.8元",
+      "B. 58元",
+      "C. 0.58元",
+      "D. 58.0元"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "人民币换算",
+    "explanation": "5元8角 = 5元 + 8角 = 5元 + 0.8元 = 5.8元"
+  },
+  {
+    "id": "math-primary-277",
+    "type": "choice",
+    "question": "钟面上，时针走完一圈需要多少小时？",
+    "options": [
+      "A. 12小时",
+      "B. 24小时",
+      "C. 6小时",
+      "D. 30小时"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识时钟",
+    "explanation": "时针每走一格代表1小时，走完12格为12小时"
+  },
+  {
+    "id": "math-primary-278",
+    "type": "choice",
+    "question": "已知2025年4月1日是星期二，2025年5月1日是星期几？",
+    "options": [
+      "A. 星期一",
+      "B. 星期三",
+      "C. 星期四",
+      "D. 星期五"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识日历",
+    "explanation": "4月1日为星期二，4月有30天，30天=4周+2天，向后2天，星期二+2=星期四。"
+  },
+  {
+    "id": "math-primary-279",
+    "type": "choice",
+    "question": "3.5米等于多少厘米？",
+    "options": [
+      "A. 35厘米",
+      "B. 350厘米",
+      "C. 3500厘米",
+      "D. 0.35厘米"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "长度单位换算",
+    "explanation": "1米=100厘米，3.5米即3.5×100=350厘米"
+  },
+  {
+    "id": "math-primary-280",
+    "type": "choice",
+    "question": "2.5 千克等于多少克？",
+    "options": [
+      "A. 250 克",
+      "B. 2500 克",
+      "C. 25000 克",
+      "D. 2.5 克"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "重量单位换算",
+    "explanation": "1 千克 = 1000 克，2.5 千克 = 2.5×1000 = 2500 克。"
+  },
+  {
+    "id": "math-primary-281",
+    "type": "choice",
+    "question": "下面四个图形中，哪个图形的面积最大？",
+    "options": [
+      "A. 长5 cm、宽4 cm的长方形",
+      "B. 边长6 cm的正方形",
+      "C. 底8 cm、高3 cm的三角形",
+      "D. 半径3 cm的圆"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识面积",
+    "explanation": "面积：长方形20，正方形36，三角形12，圆≈28.3，正方形最大。"
+  },
+  {
+    "id": "math-primary-282",
+    "type": "choice",
+    "question": "下面哪个立体图形的体积可以直接用“长×宽×高”来计算？",
+    "options": [
+      "A. 长方体",
+      "B. 圆柱体",
+      "C. 球体",
+      "D. 圆锥体"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识体积",
+    "explanation": "长方体的体积公式是长×宽×高。"
+  },
+  {
+    "id": "math-primary-283",
+    "type": "choice",
+    "question": "下列哪个图形是角？",
+    "options": [
+      "A. 两条射线从同一点出发的图形",
+      "B. 圆形",
+      "C. 正方形",
+      "D. 长方形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识角",
+    "explanation": "角是由两条射线从同一点出发形成的图形，故选A。"
+  },
+  {
+    "id": "math-primary-284",
+    "type": "choice",
+    "question": "下列哪一个不是三角形？",
+    "options": [
+      "A. 有三条边的封闭图形",
+      "B. 有四条边的封闭图形",
+      "C. 有五条边的封闭图形",
+      "D. 有曲线的封闭图形"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识三角形",
+    "explanation": "三角形必须是由三条直线段首尾相连围成的，四条边的图形不符合。"
+  },
+  {
+    "id": "math-primary-285",
+    "type": "choice",
+    "question": "四边形的内角和是多少？",
+    "options": [
+      "A. 180°",
+      "B. 360°",
+      "C. 90°",
+      "D. 540°"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识四边形",
+    "explanation": "四边形有四个内角，内角和恒为360°。"
+  },
+  {
+    "id": "math-primary-286",
+    "type": "choice",
+    "question": "以下关于圆形的描述，哪一项是正确的？",
+    "options": [
+      "A. 圆有3条半径",
+      "B. 圆的直径是半径的两倍",
+      "C. 圆有四个顶点",
+      "D. 圆的周长等于直径乘以2"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识圆形",
+    "explanation": "圆的直径等于半径的两倍，直径是穿过圆心、连接圆上两点的线段。"
+  },
+  {
+    "id": "math-primary-287",
+    "type": "choice",
+    "question": "下面的说法中，哪一个描述的是正方形而不是长方形？",
+    "options": [
+      "A. 四条边长度相等且四个角都是直角",
+      "B. 对边平行且相等，四个角都是直角",
+      "C. 对角线相等且互相平分",
+      "D. 两组对边平行且相等"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识正方形和长方形",
+    "explanation": "正方形四条边相等且每个角都是直角，区别于长方形只要求对边相等。"
+  },
+  {
+    "id": "math-primary-288",
+    "type": "choice",
+    "question": "把两个相同的直角三角形拼在一起，可以得到什么图形？",
+    "options": [
+      "A. 长方形",
+      "B. 正方形",
+      "C. 梯形",
+      "D. 圆形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "图形的拼组",
+    "explanation": "两个直角三角形对应边相接可拼成一个矩形，即长方形。"
+  },
+  {
+    "id": "math-primary-289",
+    "type": "choice",
+    "question": "下面哪个图形是轴对称图形？",
+    "options": [
+      "A. 正方形",
+      "B. 平行四边形",
+      "C. 任意三角形",
+      "D. 不规则四边形"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识轴对称图形",
+    "explanation": "正方形有两条对称轴，沿对称轴对折后两部分完全重合，因此是轴对称图形。"
+  },
+  {
+    "id": "math-primary-290",
+    "type": "choice",
+    "question": "把一个正方形先向右平移3格，再绕左上角顺时针旋转90°，得到的图形与原图形相比（ ）。",
+    "options": [
+      "A. 形状相同，只是位置和方向改变",
+      "B. 形状改变",
+      "C. 只改变位置，方向不变",
+      "D. 没有变化"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "图形的平移和旋转",
+    "explanation": "平移和旋转都是保形的变换，形状不变，只是位置或方向变化。"
+  },
+  {
+    "id": "math-primary-291",
+    "type": "choice",
+    "question": "观察数列 1，3，6，10，15，…，找出规律并填出下一个数。",
+    "options": [
+      "A. 18",
+      "B. 19",
+      "C. 20",
+      "D. 21"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "找规律填数",
+    "explanation": "相邻两项差递增1，差分别为2、3、4、5，依次递增1，下个数为15+6=21"
+  },
+  {
+    "id": "math-primary-292",
+    "type": "choice",
+    "question": "观察下面图形的排列规律，第五幅图应该是什么形状？（提示：每幅图的边数依次为3、4、5、6、？）",
+    "options": [
+      "A. 三角形",
+      "B. 四边形",
+      "C. 五边形",
+      "D. 六边形"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "找规律画图",
+    "explanation": "图形边数每次增加1，依次为3、4、5、6，第五个应为5条边，即五边形。"
+  },
+  {
+    "id": "math-primary-293",
+    "type": "choice",
+    "question": "某班10名同学的身高（cm）为152、155、155、158、160、162、162、165、167、170，这组数据的中位数是多少？",
+    "options": [
+      "A. 158",
+      "B. 160",
+      "C. 161",
+      "D. 162"
+    ],
+    "answer": "C",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "简单统计",
+    "explanation": "先把数据从小到大排序，取中间两位数的平均。"
+  },
+  {
+    "id": "math-primary-294",
+    "type": "choice",
+    "question": "在统计全班同学喜欢的颜色（红、蓝、绿、黄）时，最好使用哪种图表来展示结果？",
+    "options": [
+      "A. 折线图",
+      "B. 条形图",
+      "C. 饼图",
+      "D. 雷达图"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "数据的收集整理",
+    "explanation": "颜色是分类数据，条形图能直观比较各类别数量。"
+  },
+  {
+    "id": "math-primary-295",
+    "type": "choice",
+    "question": "下面四个数中，最小的数是哪个？",
+    "options": [
+      "A. 0.7",
+      "B. 3/4",
+      "C. 0.85",
+      "D. 1/2"
+    ],
+    "answer": "D",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "比大小",
+    "explanation": "把小数和分数统一化为小数或通分比较，发现 1/2=0.5 为最小。"
+  },
+  {
+    "id": "math-primary-296",
+    "type": "choice",
+    "question": "已知 a = 4，b = 6，求 a + b 的值。",
+    "options": [
+      "A. 10",
+      "B. 9",
+      "C. 8",
+      "D. 7"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "用字母表示数",
+    "explanation": "把a=4，b=6相加，得4+6=10。"
+  },
+  {
+    "id": "math-primary-297",
+    "type": "choice",
+    "question": "下面哪一项是方程？",
+    "options": [
+      "A. 2+3=5",
+      "B. x+4=9",
+      "C. 3>2",
+      "D. 7"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识方程",
+    "explanation": "方程是含有未知数的等式，只有 B 选项符合。"
+  },
+  {
+    "id": "math-primary-298",
+    "type": "choice",
+    "question": "求 x 的值：x + 5 = 12",
+    "options": [
+      "A. 5",
+      "B. 7",
+      "C. 17",
+      "D. 6"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "解简单方程",
+    "explanation": "两边同时减去5，得 x = 12 - 5 = 7"
+  },
+  {
+    "id": "math-primary-299",
+    "type": "choice",
+    "question": "小明去超市买水果，苹果每千克8元，梨每千克6元。他买了2千克苹果和3千克梨，一共花了多少元？",
+    "options": [
+      "A. 28元",
+      "B. 34元",
+      "C. 40元",
+      "D. 42元"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：购物",
+    "explanation": "先算苹果2×8=16元，梨3×6=18元，合计16+18=34元。"
+  },
+  {
+    "id": "math-primary-300",
+    "type": "choice",
+    "question": "小华下午3点30分开始做作业，每15分钟完成一道题，完成5道题后他结束作业的时间是？",
+    "options": [
+      "A. 4:30",
+      "B. 4:45",
+      "C. 5:00",
+      "D. 5:15"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "应用题：时间",
+    "explanation": "每题15分钟，5题共75分钟，即1小时15分，3:30加1:15等于4:45。"
   }
 ]

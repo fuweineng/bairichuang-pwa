@@ -254,7 +254,7 @@ async function init() {
   }
 
   // Bind events
-  document.getElementById('app').addEventListener('click', handleClick);
+  document.addEventListener('click', handleClick);
   window.addEventListener('hashchange', router);
 
   // Kick off router
@@ -474,8 +474,7 @@ async function renderHome() {
     accEl = document.createElement('div');
     accEl.id = 'header-account-info';
     accEl.style.cssText = 'display:flex;align-items:center;gap:6px;margin-right:8px;cursor:pointer';
-    accEl.dataset.action = 'nav';
-    accEl.dataset.view = 'settings';
+    accEl.dataset.action = 'open-avatar-choice';
     accEl.innerHTML = `
       <img id="header-account-avatar" src="" style="width:28px;height:28px;border-radius:50%;object-fit:cover;border:1.5px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.15)">
       <span id="header-account-name" style="font-size:13px;font-weight:500;color:#fff;max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></span>`;
