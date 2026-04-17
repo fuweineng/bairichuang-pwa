@@ -1,9 +1,9 @@
 {
-  "version": "9.0.3-20260417",
+  "version": "9.1.0-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "feat: Settings题库与数据显示三学段切换按钮; 当前学段高亮",
+  "changelog": "feat: 多学段题库切换 - chooseSection时重新加载对应section题库",
   "sections": {
     "junior": {
       "name": "初中",
