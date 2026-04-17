@@ -1467,7 +1467,8 @@ function renderProgress() {
 
 // 柱状图 — 各科掌握情况，每科目独立 易错题库/熟练掌握 按钮
 function drawChart() {
-  const subjects = ['chinese','math','english','physics','chemistry','biology','history','geography','politics'];
+  const sectionSubjects = getSubjects(state.settings.section);
+  const subjects = sectionSubjects;
   const subjectColors = {
     chinese: '#E91E63', math: '#2196F3', english: '#FF9800',
     physics: '#9C27B0', chemistry: '#E91E63', biology: '#009688',
@@ -1601,7 +1602,7 @@ async function renderSettings() {
     <div class="settings-card">
       <div class="settings-section-title">学段</div>
       <div style="display:flex;gap:6px;margin-bottom:10px">
-        ${['junior','primary','senior'].map(s => `
+        ${['primary','junior','senior'].map(s => `
           <button class="secondary-btn section-data-btn${state.settings.section === s ? ' active' : ''}"
             data-action="choose-section" data-section="${s}"
             style="flex:1;padding:7px 4px;font-size:0.75rem;${state.settings.section === s ? 'background:#4CAF50;color:white;border-color:#4CAF50' : ''}">
