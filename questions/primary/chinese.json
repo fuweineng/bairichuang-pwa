@@ -50,18 +50,21 @@
   {
     "id": "chinese-primary-4",
     "type": "choice",
-    "question": "chinese question 4 for primary grade 5",
-    "options": [
-      "A. Option A for 4",
-      "B. Option B for 4",
-      "C. Option C for 4",
-      "D. Option D for 4"
-    ],
-    "answer": "A",
+    "subject": "chinese",
     "difficulty": 2,
     "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledgeTags": [
+      "古诗词"
+    ],
+    "question": "下列诗句中，写的是春天景色的是：",
+    "options": [
+      "A. 停车坐爱枫林晚，霜叶红于二月花",
+      "B. 春眠不觉晓，处处闻啼鸟",
+      "C. 墙角数枝梅，凌寒独自开",
+      "D. 千山鸟飞绝，万径人踪灭"
+    ],
+    "answer": "B",
+    "explanation": "“春眠不觉晓，处处闻啼鸟”出自孟浩然的《春晓》，描写的是春天的景色。"
   },
   {
     "id": "chinese-primary-5",
@@ -146,18 +149,21 @@
   {
     "id": "chinese-primary-10",
     "type": "choice",
-    "question": "chinese question 10 for primary grade 5",
-    "options": [
-      "A. Option A for 10",
-      "B. Option B for 10",
-      "C. Option C for 10",
-      "D. Option D for 10"
-    ],
-    "answer": "A",
+    "subject": "chinese",
     "difficulty": 2,
     "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledgeTags": [
+      "阅读理解"
+    ],
+    "question": "“欲把西湖比西子，淡妆浓抹总相宜”这句诗赞美的是：",
+    "options": [
+      "A. 西湖",
+      "B. 西施",
+      "C. 庐山",
+      "D. 泰山"
+    ],
+    "answer": "A",
+    "explanation": "这句诗出自苏轼的《饮湖上初晴后雨》，把西湖比作古代美女西施，赞美西湖的美丽。"
   },
   {
     "id": "chinese-primary-11",
@@ -242,18 +248,21 @@
   {
     "id": "chinese-primary-16",
     "type": "choice",
-    "question": "chinese question 16 for primary grade 5",
-    "options": [
-      "A. Option A for 16",
-      "B. Option B for 16",
-      "C. Option C for 16",
-      "D. Option D for 16"
-    ],
-    "answer": "A",
+    "subject": "chinese",
     "difficulty": 2,
     "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledgeTags": [
+      "字词解释"
+    ],
+    "question": "“沉默”的近义词是：",
+    "options": [
+      "A. 热闹",
+      "B. 安静",
+      "C. 喧哗",
+      "D. 讨论"
+    ],
+    "answer": "B",
+    "explanation": "“沉默”指不说话、不出声，与“安静”的意思相近，都表示没有声音或不说话的状态。"
   },
   {
     "id": "chinese-primary-17",
