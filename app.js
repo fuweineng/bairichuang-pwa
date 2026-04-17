@@ -509,15 +509,24 @@ async function renderHome() {
 
   // 全科练习大按钮 — 柱状图下方，主题色
   let allBtn = document.getElementById('home-all-btn');
+  const hasAssessment = !!(state.meta.day1SubjectAcc);
   if (!allBtn) {
     allBtn = document.createElement('button');
     allBtn.id = 'home-all-btn';
     allBtn.className = 'chart-all-btn-large';
+    homeChartEl.parentNode.insertBefore(allBtn, homeChartEl.nextSibling);
+  }
+  // 动态设置文字和 action
+  if (hasAssessment) {
+    allBtn.textContent = '全科练习';
     allBtn.dataset.action = 'start-subject';
     allBtn.dataset.subject = 'all';
     allBtn.dataset.entry = 'standard';
-    allBtn.textContent = '全科练习';
-    homeChartEl.parentNode.insertBefore(allBtn, homeChartEl.nextSibling);
+  } else {
+    allBtn.textContent = '开始摸底测试';
+    allBtn.dataset.action = 'start-assessment';
+    allBtn.dataset.subject = 'all';
+    allBtn.dataset.entry = 'assessment';
   }
 
 
@@ -1528,7 +1537,7 @@ function drawChart() {
       <div class="chart-empty-icon">测评</div>
       <div class="chart-empty-title">还没有练习数据</div>
       <div class="chart-empty-sub">先做一次摸底测试，了解各科水平</div>
-      <button class="chart-assessment-btn" data-action="start-assessment">开始摸底测试</button>
+      <button class="chart-assessment-btn" data-action="start-assessment" data-subject="all" data-entry="assessment">开始摸底测试</button>
     </div>`;
   }
 
@@ -1637,13 +1646,6 @@ async function renderSettings() {
           <button class="theme-picker-btn${state.settings.theme === 'night' ? ' active' : ''}" data-action="set-theme" data-value="night">深夜</button>
         </div>
       </div>
-      <div class="settings-row" style="padding:8px 0;border-bottom:none">
-        <div class="settings-label" style="margin:0">版本</div>
-        <div style="display:flex;align-items:center;gap:6px">
-          <span class="settings-hint" style="margin:0">${(state.settings.appVersion || '9.1.2')}</span>
-          <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:3px 8px;font-size:0.7rem">检查更新</button>
-        </div>
-      </div>
     </div>
 
     <div class="settings-card">
@@ -1674,7 +1676,10 @@ async function renderSettings() {
       <div class="settings-hint">加载中...</div>
     </div>
 
-    <div class="settings-version">百日闯 v${state.settings.appVersion || '9.1.2'}</div>
+    <div style="text-align:center;padding:10px 0 4px;display:flex;flex-direction:column;align-items:center;gap:6px">
+      <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:4px 14px;font-size:0.75rem">检查更新</button>
+      <div class="settings-version">百日闯 v${state.settings.appVersion || '9.1.2'}</div>
+    </div>
   `;
 
   // Show QB stats

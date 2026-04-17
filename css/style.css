@@ -2346,8 +2346,8 @@ main {
 .chart-assessment-btn {
   display: inline-block;
   padding: 9px 20px;
-  background: linear-gradient(135deg, #1f8f6a, #4caf50);
-  color: white;
+  background: var(--theme-btn-bg);
+  color: var(--theme-btn-text);
   border: none;
   border-radius: 20px;
   font-size: 0.85rem;
