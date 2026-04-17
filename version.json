@@ -1,21 +1,4 @@
 {
-  "version": "9.1.4-20260417",
-  "questionBankVersion": "20260415-2-20260417",
-  "audioVersion": "20260413",
-  "updatedAt": "2026-04-17",
-  "changelog": "fix: click事件改为document级别; section-modal置顶z-index; 头像点击打开换头像弹窗",
-  "sections": {
-    "junior": {
-      "name": "初中",
-      "subjects": ["chinese","math","english","physics","chemistry","biology","history","geography","politics"]
-    },
-    "primary": {
-      "name": "小学",
-      "subjects": ["chinese","math","english"]
-    },
-    "senior": {
-      "name": "高中",
-      "subjects": ["chinese","math","english","physics","chemistry","biology","history","geography","politics"]
-    }
-  }
+  "version": "9.2.0-20260417",
+  "changelog": "新增: 小学题目配图+多语种朗读(国语/广东话/英语); 优化: Hero Banner外观+傍晚米黄深夜深色主题"
 }

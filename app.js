@@ -509,43 +509,8 @@ async function renderHome() {
   // Update badge
   const badge = document.getElementById('update-badge');
   if (badge) badge.style.display = hasQuestionPackUpdate() ? 'inline-block' : 'none';
-
-  // Today status
-  renderTodayStatus();
 }
 
-
-function renderTodayStatus() {
-  const el = document.getElementById('today-status-container');
-  if (!el) return;
-  const todayKey = getLocalDateKey(new Date());
-  const today = state.daily[todayKey];
-  if (!today || !today.questionsCount) {
-    el.innerHTML = `
-      <div class="today-status-row">
-        <span class="today-status-icon">待练</span>
-        <div class="today-status-info">
-          <div class="today-status-title">今日还没练习</div>
-          <div class="today-status-sub">点击下方按钮开始</div>
-        </div>
-        <span class="today-status-stat">0题</span>
-      </div>`;
-    return;
-  }
-  const rate = today.questionsCount > 0
-    ? Math.round((today.correct / today.questionsCount) * 100)
-    : 0;
-  const emoji = rate >= 80 ? '优秀' : rate >= 60 ? '不错' : '加油';
-  el.innerHTML = `
-    <div class="today-status-row">
-      <span class="today-status-icon">${emoji}</span>
-      <div class="today-status-info">
-        <div class="today-status-title">今日已完成</div>
-        <div class="today-status-sub">正确率</div>
-      </div>
-      <span class="today-status-stat">${today.correct}/${today.questionsCount} (${rate}%)</span>
-    </div>`;
-}
 
 // 计算某科目的掌握率 = 答对≥1次的题数 / 题库总题数（全部考点完整覆盖）
 function getSubjectAccuracy(subj) {
@@ -980,6 +945,39 @@ function speakWithWebSpeech(q) {
   speechSynthesis.speak(utter);
 }
 
+function speakVariant(lang) {
+  if (!('speechSynthesis' in window)) return;
+  const q = state.sessionQuestions[state.sessionIndex];
+  const variants = q.ttsVariants || {};
+  const langMap = {
+    mandarin:  { text: variants.mandarin,  lang: 'zh-CN' },
+    cantonese: { text: variants.cantonese, lang: 'zh-HK' },
+    english:   { text: variants.english,   lang: 'en-US' },
+  };
+  const cfg = langMap[lang];
+  if (!cfg || !cfg.text) {
+    showToast('暂无此语言版本'); return;
+  }
+  speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(cfg.text);
+  utter.lang = cfg.lang;
+  utter.rate = 0.8;
+  utter.pitch = 1;
+  utter.volume = 1;
+  // Highlight active button
+  document.querySelectorAll('.tts-lang-btn').forEach(b => b.classList.remove('tts-active'));
+  const btn = document.querySelector(`[data-lang="${lang}"]`);
+  if (btn) { btn.classList.add('tts-active'); btn.textContent = btn.textContent + ' ...'; }
+  utter.onend = () => {
+    if (btn) { btn.classList.remove('tts-active'); btn.textContent = btn.textContent.replace(' ...', ''); }
+  };
+  utter.onerror = () => {
+    if (btn) { btn.classList.remove('tts-active'); btn.textContent = btn.textContent.replace(' ...', ''); }
+    showToast('播放失败，请重试');
+  };
+  speechSynthesis.speak(utter);
+}
+
 function renderQuestion() {
   const container = document.getElementById('question-container');
   if (state.sessionIndex >= state.sessionQuestions.length) {
@@ -1004,6 +1002,15 @@ function renderQuestion() {
     ? `<div class="question-image-grid">${imageSources.map(src => `<img class="question-image" src="${src}" alt="题目配图" loading="lazy" />`).join('')}</div>`
     : '';
 
+  // ── 多语种朗读工具栏（所有题型通用）─────────────────────────────────
+  const ttsVariantsBlock = q.ttsVariants
+    ? `<div class="tts-lang-bar">
+         <button class="tts-lang-btn" data-action="speak-lang" data-lang="mandarin">国语</button>
+         <button class="tts-lang-btn" data-action="speak-lang" data-lang="cantonese">广东话</button>
+         <button class="tts-lang-btn" data-action="speak-lang" data-lang="english">English</button>
+       </div>`
+    : '';
+
   const mathSymbols = ['²', '³', '√', '°', '±', 'π', '∠', '×', '÷', 'Δ', 'α', 'β'];
   const mathSymbolBtns = mathSymbols.map(s =>
     `<button type="button" class="math-sym-btn" onclick="var inp=document.getElementById('fill-answer-input');inp.value+=('${s}');inp.focus()">${s}</button>`
@@ -1020,6 +1027,7 @@ function renderQuestion() {
       ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
       ${listenBtn}
       ${imageBlock}
+      ${ttsVariantsBlock}
       <div class="question-text">请填写你听到的关键词：</div>
       <div class="fill-area">
         <div class="math-symbol-toolbar">${mathSymbolBtns}</div>
@@ -1060,6 +1068,7 @@ function renderQuestion() {
       ${listenBtn}
       ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
       ${imageBlock}
+      ${ttsVariantsBlock}
       <div class="question-text">${sq.q}</div>
       <div class="fill-area">
         <div class="fill-input-row">
@@ -1121,7 +1130,8 @@ function renderQuestion() {
     ${listenBtn}
     ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
     ${imageBlock}
-    ${q.passage ? `<div class="passage-block"><strong>短文：</strong>${q.passage.replace(/\n/g, '<br>')}</div>` : ''}
+    ${ttsVariantsBlock}
+    ${q.passage ? `<div class="passage-block"><strong>短文：</strong>${q.passage.replace(/\\n/g, '<br>')}</div>` : ''}
     <div class="question-text">${q.question}</div>
     ${opts ? `<div class="answer-grid">${opts}</div>` : ''}
     ${inputArea}
@@ -1475,10 +1485,30 @@ function drawChart() {
   };
 
   const totalDays = Object.keys(state.daily).length;
+  const todayKey = getLocalDateKey(new Date());
+  const today = state.daily[todayKey];
+  const practicedToday = !!today;
+  const todayCount = today ? today.questionsCount : 0;
 
   // 未完成摸底测试 → 显示引导
   if (!state.meta.assessmentCompleted) {
     return `
+    <div class="home-header-strip">
+      <div class="home-header-top">
+        <span class="home-header-date-badge">${formatDateKeyLabel(todayKey)}</span>
+        <span class="home-header-days"><span class="home-header-days-dot"></span>累计 ${totalDays} 天</span>
+      </div>
+      <div class="home-header-body">
+        <div class="home-header-left">
+          <div class="home-header-greeting">${getTimeGreeting()}</div>
+        </div>
+        <div class="home-header-right">
+          <div class="home-header-today-label">今日练习</div>
+          <div class="home-header-today-stat">${todayCount}<span class="home-header-today-unit"> 题</span></div>
+        </div>
+      </div>
+      <div class="home-header-divider"></div>
+    </div>
     <div class="chart-empty">
       <div class="chart-empty-icon">测评</div>
       <div class="chart-empty-title">还没有练习数据</div>
@@ -1488,8 +1518,6 @@ function drawChart() {
   }
 
   // 已完成摸底测试 → 各科柱状图
-  const todayKey = getLocalDateKey(new Date());
-  const practicedToday = !!state.daily[todayKey];
   const barData = subjects.map(subj => {
     const acc = getSubjectAccuracy(subj);
     return { subj, acc };
@@ -1539,17 +1567,21 @@ function drawChart() {
 
   return `
   <div class="home-header-strip">
-    <div class="home-header-left">
-      <div class="home-header-greeting">${getTimeGreeting()}</div>
-      ${practicedToday ? '<div class="home-header-sub">坚持就是胜利</div>' : ''}
+    <div class="home-header-top">
+      <span class="home-header-date-badge">${formatDateKeyLabel(getLocalDateKey(new Date()))}</span>
+      <span class="home-header-days"><span class="home-header-days-dot"></span>累计 ${totalDays} 天</span>
     </div>
-    <div class="home-header-right">
-      <div class="home-header-date">${formatDateKeyLabel(getLocalDateKey(new Date()))}</div>
-      <div class="home-header-days">
-        <span class="home-header-days-dot"></span>
-        累计 ${totalDays} 天
+    <div class="home-header-body">
+      <div class="home-header-left">
+        <div class="home-header-greeting">${getTimeGreeting()}</div>
+        ${practicedToday ? '<div class="home-header-sub">坚持就是胜利</div>' : ''}
+      </div>
+      <div class="home-header-right">
+        <div class="home-header-today-label">${practicedToday ? '今日已完成' : '今日练习'}</div>
+        <div class="home-header-today-stat">${today ? today.questionsCount : 0}<span class="home-header-today-unit"> 题</span></div>
       </div>
     </div>
+    <div class="home-header-divider"></div>
   </div>
   <div class="chart-bar-list">${rows}</div>`;
 }
@@ -1817,6 +1849,10 @@ async function handleClick(e) {
 
     case 'listen':
       speakQuestion();
+      break;
+
+    case 'speak-lang':
+      speakVariant(t.dataset.lang);
       break;
 
     case 'fill-submit':
