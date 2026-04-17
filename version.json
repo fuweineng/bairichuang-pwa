@@ -1,21 +1,21 @@
 {
-  "version": "9.1.0-20260417",
+  "version": "9.1.2-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "feat: 多学段题库切换 - chooseSection时重新加载对应section题库",
+  "changelog": "fix: 移除账号区重复学段切换; 题库标题改学段; Settings学段区块整理",
   "sections": {
     "junior": {
       "name": "初中",
-      "subjects": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography", "politics"]
+      "subjects": ["chinese","math","english","physics","chemistry","biology","history","geography","politics"]
     },
     "primary": {
       "name": "小学",
-      "subjects": ["chinese", "math", "english"]
+      "subjects": ["chinese","math","english"]
     },
     "senior": {
       "name": "高中",
-      "subjects": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography", "politics"]
+      "subjects": ["chinese","math","english","physics","chemistry","biology","history","geography","politics"]
     }
   }
 }
