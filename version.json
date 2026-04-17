@@ -1,9 +1,9 @@
 {
-  "version": "9.0.0-20260417",
+  "version": "9.0.0",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "feat: state.section字段; getSubjects(section)函数; fetchQuestionPack支持section参数; sections.junior/primary/senior定义",
+  "changelog": "feat: v9.0.0 - 多学段(小学/初中/高中); 支持/强烈支持按钮拆分; 理科explanation完成",
   "sections": {
     "junior": {
       "name": "初中",
