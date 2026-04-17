@@ -2,801 +2,769 @@
   {
     "id": "chemistry-senior-1",
     "type": "choice",
-    "question": "chemistry question 1 for senior grade 10",
+    "question": "已知某原子核中有6个质子和7个中子，则该原子的质量数为多少？",
     "options": [
-      "A. Option A for 1",
-      "B. Option B for 1",
-      "C. Option C for 1",
-      "D. Option D for 1"
+      "A. 该原子的质量数为6",
+      "B. 该原子的质量数为12",
+      "C. 该原子的质量数为13",
+      "D. 该原子的质量数为14"
     ],
-    "answer": "A",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "原子结构组成",
+    "explanation": "质量数（A）等于质子数（Z）加上中子数（N），本题中Z=6，N=7，故A=6+7=13，对应选项C。"
   },
   {
     "id": "chemistry-senior-2",
     "type": "choice",
-    "question": "chemistry question 2 for senior grade 10",
+    "question": "已知某原子X的原子核中有12个质子和13个中子，若该原子失去2个电子形成X^2+离子后，离子中的电子数为多少？",
     "options": [
-      "A. Option A for 2",
-      "B. Option B for 2",
-      "C. Option C for 2",
-      "D. Option D for 2"
+      "A. 该离子中含有10个电子。",
+      "B. 该离子中含有12个电子。",
+      "C. 该离子中含有13个电子。",
+      "D. 该离子中含有14个电子。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "质子数中子数电子数关系",
+    "explanation": "解析：原子X的质子数等于原子序数12，原子在电中性时电子数等于质子数也为12。形成X^2+离子意味着失去2个电子，因此电子数变为12−2=10。故答案为A选项。"
   },
   {
     "id": "chemistry-senior-3",
     "type": "choice",
-    "question": "chemistry question 3 for senior grade 10",
+    "question": "根据核外电子排布规律，下列关于第4周期元素铬（Cr）的核外电子排布说法正确的是？",
     "options": [
-      "A. Option A for 3",
-      "B. Option B for 3",
-      "C. Option C for 3",
-      "D. Option D for 3"
+      "A. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d⁴",
+      "B. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s¹3d⁵",
+      "C. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d⁵",
+      "D. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d³"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "核外电子排布规律",
+    "explanation": "解析：根据能量最低原理，电子先填满能级较低的4s轨道，再填3d轨道。但在d轨道出现半满或全满时会形成更稳定的结构。铬的原子序数为24，电子排布应为[Ar]4s¹3d⁵，而不是4s²3d⁴。因此选项B正确，选项A、C、D均不符合实际的电子排布规律。"
   },
   {
     "id": "chemistry-senior-4",
     "type": "choice",
-    "question": "chemistry question 4 for senior grade 10",
+    "question": "原子序数为 34 的元素在周期表中位于第几周期第几族？",
     "options": [
-      "A. Option A for 4",
-      "B. Option B for 4",
-      "C. Option C for 4",
-      "D. Option D for 4"
+      "A. 位于第 3 周期，第 16 族",
+      "B. 位于第 4 周期，第 16 族",
+      "C. 位于第 4 周期，第 15 族",
+      "D. 位于第 3 周期，第 15 族"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "元素周期表结构",
+    "explanation": "解析：原子序数 34 对应元素硒（Se），其电子排布为 [Ar] 3d^10 4s^2 4p^4，表明它在第 4 周期。硒属于 p 区的第 16 族（旧称 VIA 族），因此正确选项为 B。"
   },
   {
     "id": "chemistry-senior-5",
     "type": "choice",
-    "question": "chemistry question 5 for senior grade 10",
+    "question": "某元素原子的最高能层（主量子数）为4，且最外层电子数为2，它应位于元素周期表的第几周期第几族？",
     "options": [
-      "A. Option A for 5",
-      "B. Option B for 5",
-      "C. Option C for 5",
-      "D. Option D for 5"
+      "A. 第4周期第I族",
+      "B. 第4周期第II族",
+      "C. 第3周期第II族",
+      "D. 第4周期第III族"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "周期与族的关系",
+    "explanation": "解析：在元素周期表中，元素的周期等于其最高能层的主量子数，族等于最外层电子数（即价电子数）。该原子最高能层为4，对应第4周期；最外层电子数为2，对应第II族。因此它位于第4周期第II族，正确答案为B。"
   },
   {
     "id": "chemistry-senior-6",
     "type": "choice",
-    "question": "chemistry question 6 for senior grade 10",
+    "question": "在同一周期（第三周期）中，已知下列原子的半径分别为：Na 186 pm，Mg 160 pm，Al 143 pm，Si 117 pm。根据原子半径递变规律，原子半径随原子序数的增大呈______趋势。",
     "options": [
-      "A. Option A for 6",
-      "B. Option B for 6",
-      "C. Option C for 6",
-      "D. Option D for 6"
+      "A. Na > Mg > Al > Si（逐渐减小）",
+      "B. Na < Mg < Al < Si（逐渐增大）",
+      "C. Na = Mg = Al = Si（保持不变）",
+      "D. Na < Mg > Al > Si（先增后减）"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "原子半径递变规律",
+    "explanation": "解析：在同一周期中，随着原子序数增大，核电荷数增加，屏蔽效应相对较小，导致有效核电荷增大，原子核对最外层电子的吸引增强，原子半径随之减小。因此原子半径随原子序数的增大呈逐渐减小的趋势，表现为 Na > Mg > Al > Si。"
   },
   {
     "id": "chemistry-senior-7",
     "type": "choice",
-    "question": "chemistry question 7 for senior grade 10",
+    "question": "已知第三周期元素（Na、Mg、Al、Si、P、S、Cl、Ar）第一电离能分别为 Na 496 kJ·mol⁻¹、Mg 738 kJ·mol⁻¹、Al 578 kJ·mol⁻¹、Si 786 kJ·mol⁻¹、P 1012 kJ·mol⁻¹、S 1000 kJ·mol⁻¹、Cl 1251 kJ·mol⁻¹、Ar 1520 kJ·mol⁻¹。关于金属性与非金属性随原子序数变化的递变规律，下列说法正确的是（ ）。",
     "options": [
-      "A. Option A for 7",
-      "B. Option B for 7",
-      "C. Option C for 7",
-      "D. Option D for 7"
+      "A. 从左到右，金属性逐渐增强，非金属性逐渐减弱。",
+      "B. Mg的第一电离能（738 kJ·mol⁻¹）高于Al（578 kJ·mol⁻¹），说明Mg的金属性弱于Al。",
+      "C. Si的金属性大于P的非金属性。",
+      "D. Cl的非金属性弱于Ar的非金属性。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "金属性非金属性递变",
+    "explanation": "解析：在同一周期中，随着原子序数增大，金属性逐渐减弱，非金属性逐渐增强，故A错误。Mg的第一电离能高于Al，表明Mg的金属性弱于Al，故B正确。Si为金属性较弱的元素，P为非金属，Si的金属性并不大于P的非金属性，故C错误。Cl的电负性（3.16）高于Ar（2.60），Cl的非金属性强于Ar，故D错误。"
   },
   {
     "id": "chemistry-senior-8",
     "type": "choice",
-    "question": "chemistry question 8 for senior grade 10",
+    "question": "下列化合物中，主要以离子键结合的是？",
     "options": [
-      "A. Option A for 8",
-      "B. Option B for 8",
-      "C. Option C for 8",
-      "D. Option D for 8"
+      "A. NaCl（离子化合物）",
+      "B. H₂O（共价化合物）",
+      "C. CO₂（共价化合物）",
+      "D. Fe（金属键）"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "化学键类型判断",
+    "explanation": "解析：NaCl是由Na⁺和Cl⁻通过静电作用形成的离子键，属于离子化合物；而H₂O和CO₂都是通过共价键结合的分子，Fe则是金属键构成的单质。因此正确答案为A。"
   },
   {
     "id": "chemistry-senior-9",
     "type": "choice",
-    "question": "chemistry question 9 for senior grade 10",
+    "question": "下列哪组原子之间最容易形成离子键？",
     "options": [
-      "A. Option A for 9",
-      "B. Option B for 9",
-      "C. Option C for 9",
-      "D. Option D for 9"
+      "A. 氢原子（H）与氟原子（F）之间的相互作用",
+      "B. 钠原子（Na）与氯原子（Cl）之间的相互作用",
+      "C. 碳原子（C）与氧原子（O）之间的相互作用",
+      "D. 氮原子（N）与氢原子（H）之间的相互作用"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "离子键形成条件",
+    "explanation": "解析：离子键的形成要求电负性差异大且一方为金属。钠（Na）的电负性为0.93，氯（Cl）为3.16，两者电负性差约为2.23，满足离子键的形成条件；而氢（H）与氟（F）的电负性差虽约为1.78，但均为非金属，更倾向于形成极性共价键；碳与氧、氮与氢的电负性差更小，且同样为非金属组合，也不易形成离子键。因此最易形成离子键的是钠原子与氯原子之间的相互作用。"
   },
   {
     "id": "chemistry-senior-10",
     "type": "choice",
-    "question": "chemistry question 10 for senior grade 10",
+    "question": "下列氢化物中，哪一个共价键的极性最强？",
     "options": [
-      "A. Option A for 10",
-      "B. Option B for 10",
-      "C. Option C for 10",
-      "D. Option D for 10"
+      "A. HF分子中的H-F键极性最强。",
+      "B. HCl分子中的H-Cl键极性最强。",
+      "C. HBr分子中的H-Br键极性最强。",
+      "D. HI分子中的H-I键极性最强。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "共价键极性判断",
+    "explanation": "解析：共价键的极性取决于成键原子之间的电负性差值，差值越大，键的极性越强。氟的电负性最高（4.0），氢的电负性为2.20，差值为1.80，明显大于氯（3.16）-氢差0.96、溴（2.96）-氢差0.76、碘（2.66）-氢差0.46。因此HF中的H-F键极性最强。"
   },
   {
     "id": "chemistry-senior-11",
     "type": "choice",
-    "question": "chemistry question 11 for senior grade 10",
+    "question": "以下关于氨气（NH₃）电子式的书写，正确的是哪一项？",
     "options": [
-      "A. Option A for 11",
-      "B. Option B for 11",
-      "C. Option C for 11",
-      "D. Option D for 11"
+      "A. NH₃的电子式为 H—N—H，氮原子周围有一对点",
+      "B. NH₃的电子式为 H—N—H，氮原子周围有三对点",
+      "C. NH₃的电子式为 H=N—H，氮原子周围有一对点",
+      "D. NH₃的电子式为 H—N—H，氮原子无点"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "电子式书写",
+    "explanation": "氨气分子中氮原子有5个价电子，其中3个用于与3个氢原子形成单键，剩下的一对电子作为孤对对保留在氮原子周围。因此正确的电子式应在氮原子旁边标记一对点，而氢原子只各自用一点表示单键。故选项A正确。"
   },
   {
     "id": "chemistry-senior-12",
     "type": "choice",
-    "question": "chemistry question 12 for senior grade 10",
+    "question": "以下哪种物质的分子间主要不存在氢键？",
     "options": [
-      "A. Option A for 12",
-      "B. Option B for 12",
-      "C. Option C for 12",
-      "D. Option D for 12"
+      "A. 水 (H2O)",
+      "B. 乙醇 (C2H5OH)",
+      "C. 氟化氢 (HF)",
+      "D. 甲烷 (CH4)"
     ],
-    "answer": "A",
+    "answer": "D",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "分子间作用力类型",
+    "explanation": "氢键通常出现在氢原子与氟、氧、氮等高电负性原子形成的分子中。水、乙醇和氟化氢分子中的氢原子分别与氧或氟原子相连，可形成氢键；而甲烷分子中氢与碳相连，电负性差小，仅存在伦敦色散力等范德华力，故分子间不存在氢键。"
   },
   {
     "id": "chemistry-senior-13",
     "type": "choice",
-    "question": "chemistry question 13 for senior grade 10",
+    "question": "以下关于氢键对物质性质影响的说法中，正确的是（ ）。",
     "options": [
-      "A. Option A for 13",
-      "B. Option B for 13",
-      "C. Option C for 13",
-      "D. Option D for 13"
+      "A. 氢键能显著提高水的沸点，使其高于同族的硫化氢。",
+      "B. 氢键对氨气的熔点影响不大，使其熔点低于氮气。",
+      "C. 氢键会导致醇类在水中的溶解度降低。",
+      "D. 氢键在蛋白质二级结构中起关键作用，但对DNA双螺旋结构的稳定性没有贡献。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氢键对物质性质影响",
+    "explanation": "解析：氢键是一种强的分子间作用力，在水分子之间形成大量氢键，导致水的沸点显著高于同族的硫化氢（H₂S），体现了氢键对沸点的提升作用。氨气分子之间虽有氢键，但其氢键强度较弱，且氨的熔点仍低于氮气。醇类分子能形成氢键，使其在水中的溶解度增大而非降低。DNA双螺旋的稳定性也依赖于碱基之间的氢键，故选项D的说法错误。因此正确答案为A。"
   },
   {
     "id": "chemistry-senior-14",
     "type": "choice",
-    "question": "chemistry question 14 for senior grade 10",
+    "question": "下列晶体的熔点（°C）最高的是？",
     "options": [
-      "A. Option A for 14",
-      "B. Option B for 14",
-      "C. Option C for 14",
-      "D. Option D for 14"
+      "A. NaCl（801°C）",
+      "B. SiO₂（1710°C）",
+      "C. Fe（1538°C）",
+      "D. CO₂（升华-78°C）"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "晶体类型与性质",
+    "explanation": "解析：离子晶体（如NaCl）熔点中等，金属晶体（如Fe）熔点较高，而共价网络晶体（如SiO₂）因结构中含有强的Si-O键，熔点最高。分子晶体（如CO₂）在升华点以下直接升华为气体，熔点最低。"
   },
   {
     "id": "chemistry-senior-15",
     "type": "choice",
-    "question": "chemistry question 15 for senior grade 10",
+    "question": "以下哪种离子化合物的晶体结构中，阳离子的配位数为8？",
     "options": [
-      "A. Option A for 15",
-      "B. Option B for 15",
-      "C. Option C for 15",
-      "D. Option D for 15"
+      "A. NaCl（岩盐结构，配位数6）",
+      "B. CsCl（体心立方结构，配位数8）",
+      "C. MgO（岩盐结构，配位数6）",
+      "D. ZnS（闪锌矿结构，配位数4）"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "离子晶体结构特点",
+    "explanation": "在CsCl的晶体结构中，Cl⁻形成简单立方格子，Cs⁺位于立方体中心，因而每个Cs⁺被8个Cl⁻包围，配位数为8；而NaCl、MgO为岩盐结构配位数为6，ZnS为闪锌矿结构配位数为4。"
   },
   {
     "id": "chemistry-senior-16",
     "type": "choice",
-    "question": "chemistry question 16 for senior grade 10",
+    "question": "下列关于原子晶体的说法中，正确的是？",
     "options": [
-      "A. Option A for 16",
-      "B. Option B for 16",
-      "C. Option C for 16",
-      "D. Option D for 16"
+      "A. 金刚石由碳原子通过共价键形成三维网络结构，属于原子晶体。",
+      "B. 食盐晶体中Na⁺和Cl⁻离子通过离子键结合，属于原子晶体。",
+      "C. 甲烷分子通过范德华力相互吸引，属于原子晶体。",
+      "D. 玻璃是非晶体，不属于原子晶体。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "原子晶体代表物质",
+    "explanation": "解析：原子晶体是由非金属原子通过强共价键形成的三维网络结构，代表物质包括金刚石、硅、二氧化硅等。食盐是离子晶体，甲烷是分子晶体，玻璃是非晶体，均不符合原子晶体的特征。因此选项A正确。"
   },
   {
     "id": "chemistry-senior-17",
     "type": "choice",
-    "question": "chemistry question 17 for senior grade 10",
+    "question": "下列分子晶体在标准大气压下的沸点最高的是（已知沸点分别为：N₂ 77 K，O₂ 90 K，CO₂ 194.7 K，NH₃ 239.7 K）：",
     "options": [
-      "A. Option A for 17",
-      "B. Option B for 17",
-      "C. Option C for 17",
-      "D. Option D for 17"
+      "A. N₂",
+      "B. O₂",
+      "C. CO₂",
+      "D. NH₃"
     ],
-    "answer": "A",
+    "answer": "D",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "分子晶体熔沸点比较",
+    "explanation": "解析：NH₃分子之间存在氢键，使得其分子间作用力显著大于仅靠范德华力的 N₂、O₂、CO₂，故 NH₃的沸点最高，为 239.7 K。"
   },
   {
     "id": "chemistry-senior-18",
     "type": "choice",
-    "question": "chemistry question 18 for senior grade 10",
+    "question": "以下哪种金属的性质最能用金属晶体的电子气理论解释？",
     "options": [
-      "A. Option A for 18",
-      "B. Option B for 18",
-      "C. Option C for 18",
-      "D. Option D for 18"
+      "A. 铜(Cu)的高电导率",
+      "B. 铝(Al)的低密度",
+      "C. 铁(Fe)的铁磁性",
+      "D. 碳(C)金刚石的高硬度"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "金属晶体电子气理论",
+    "explanation": "解析：金属晶体电子气理论指出，金属中的价电子不被束缚在单个原子上，而是形成遍布整个晶体的自由电子海。这些自由电子能够在外加电场作用下自由移动，从而产生很高的电导率。铜拥有大量自由电子，故其电导率极高；而铝的低密度、铁的铁磁性和金刚石的高硬度都与电子气的自由运动关系不大，主要由原子结构或晶体类型决定。因此最符合电子气理论解释的性质是铜的高电导率。"
   },
   {
     "id": "chemistry-senior-19",
     "type": "choice",
-    "question": "chemistry question 19 for senior grade 10",
+    "question": "若要用无水氯化钠配制250 mL 0.20 mol·L⁻¹的溶液，需要称取多少克无水氯化钠？",
     "options": [
-      "A. Option A for 19",
-      "B. Option B for 19",
-      "C. Option C for 19",
-      "D. Option D for 19"
+      "A. 1.17 g",
+      "B. 2.92 g",
+      "C. 5.84 g",
+      "D. 0.585 g"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "配制一定物质的量浓度溶液",
+    "explanation": "解析：先根据公式c = n/V求出所需溶质的物质的量n = c·V。c = 0.20 mol·L⁻¹，V = 250 mL = 0.250 L，故n = 0.20 × 0.250 = 0.050 mol。再用质量公式m = n·M，其中NaCl的摩尔质量M≈58.44 g·mol⁻¹，得m = 0.050 × 58.44 ≈ 2.92 g。因此选项B正确。"
   },
   {
     "id": "chemistry-senior-20",
     "type": "choice",
-    "question": "chemistry question 20 for senior grade 10",
+    "question": "在标准状况下，0.5 mol O₂的质量是多少克？",
     "options": [
-      "A. Option A for 20",
-      "B. Option B for 20",
-      "C. Option C for 20",
-      "D. Option D for 20"
+      "A. 8 g",
+      "B. 16 g",
+      "C. 24 g",
+      "D. 32 g"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "物质的量计算",
+    "explanation": "解析：质量 = 物质的量 × 摩尔质量，O₂的摩尔质量为 32 g·mol⁻¹，故 0.5 mol O₂的质量为 0.5 × 32 = 16 g，对应选项 B。"
   },
   {
     "id": "chemistry-senior-21",
     "type": "choice",
-    "question": "chemistry question 21 for senior grade 10",
+    "question": "在标准状况（0℃，101.3 kPa）下，某气体质量为 4.4 g，体积为 2.24 L，则该气体的相对分子质量为多少？",
     "options": [
-      "A. Option A for 21",
-      "B. Option B for 21",
-      "C. Option C for 21",
-      "D. Option D for 21"
+      "A. 该气体的相对分子质量为 22 g/mol。",
+      "B. 该气体的相对分子质量为 44 g/mol。",
+      "C. 该气体的相对分子质量为 88 g/mol。",
+      "D. 该气体的相对分子质量为 11 g/mol。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "气体摩尔体积应用",
+    "explanation": "解析：在标准状况下气体摩尔体积为 22.4 L/mol，2.24 L 对应的物质的量为 n = 2.24 / 22.4 = 0.1 mol。质量 4.4 g，则相对分子质量 M = m / n = 4.4 g / 0.1 mol = 44 g/mol。"
   },
   {
     "id": "chemistry-senior-22",
     "type": "choice",
-    "question": "chemistry question 22 for senior grade 10",
+    "question": "下列哪种分散系在光照下能明显观察到廷德尔效应？",
     "options": [
-      "A. Option A for 22",
-      "B. Option B for 22",
-      "C. Option C for 22",
-      "D. Option D for 22"
+      "A. 0.01 mol·L⁻¹ NaCl溶液（真溶液，粒子直径 <1 nm）",
+      "B. 0.01 mol·L⁻¹ Na₂S₂O₃溶液（真溶液，粒子直径 <1 nm）",
+      "C. 金溶胶（胶体，粒子直径约 20 nm）",
+      "D. 泥浆（悬浊液，粒子直径约 10 μm）"
     ],
-    "answer": "A",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "分散系分类与性质",
+    "explanation": "廷德尔效应是光在分散系中被粒子散射的现象，只有粒子尺寸在可见光波长（约 400–700 nm）范围内时才会显著出现。真溶液粒子太小（<1 nm）几乎不散射光，悬浊液粒子太大（>1 μm）也不易散射，而胶体粒子（约 1–1000 nm）正好能够散射光，产生可见光柱。因此金溶胶属于胶体，能够观察到廷德尔效应。"
   },
   {
     "id": "chemistry-senior-23",
     "type": "choice",
-    "question": "chemistry question 23 for senior grade 10",
+    "question": "在实验室中，制备透明的Fe(OH)₃胶体最常用且操作简便的方法是（ ）。",
     "options": [
-      "A. Option A for 23",
-      "B. Option B for 23",
-      "C. Option C for 23",
-      "D. Option D for 23"
+      "A. 将0.1 mol/L的FeCl₃溶液逐滴加入沸腾的蒸馏水中并快速冷却",
+      "B. 将0.1 mol/L的FeCl₃溶液与0.2 mol/L的NaOH溶液等体积混合后离心分离",
+      "C. 将0.1 mol/L的FeCl₃溶液滴入稀盐酸中并持续搅拌",
+      "D. 将0.1 mol/L的FeCl₃溶液在室温下直接加入蒸馏水并静置"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "胶体制备与提纯",
+    "explanation": "解析：FeCl₃在沸水中水解生成Fe(OH)₃胶体，采用逐滴加入并快速冷却的方式可得到细小且均匀的胶体颗粒，防止颗粒长大；其它选项要么生成沉淀，要么因酸碱度过高导致颗粒聚集或溶解，故A为正确。"
   },
   {
     "id": "chemistry-senior-24",
     "type": "choice",
-    "question": "chemistry question 24 for senior grade 10",
+    "question": "以下哪种溶液能够观察到丁达尔效应？",
     "options": [
-      "A. Option A for 24",
-      "B. Option B for 24",
-      "C. Option C for 24",
-      "D. Option D for 24"
+      "A. 牛奶胶体溶液",
+      "B. 纯酒精溶液",
+      "C. 食盐溶液",
+      "D. 蔗糖溶液"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "丁达尔效应应用",
+    "explanation": "解析：丁达尔效应是光在胶体颗粒上散射产生的可见光路，只有胶体溶液才能出现此现象。牛奶是一种胶体体系，其中的脂肪球直径在可见光波长范围内，能够散射光形成光路；而纯酒精、食盐溶液和蔗糖溶液都是真溶液，溶质以分子或离子形式均匀分散，不会产生明显的散射光路。因此只有牛奶胶体溶液能够观察到丁达尔效应。"
   },
   {
     "id": "chemistry-senior-25",
     "type": "choice",
-    "question": "chemistry question 25 for senior grade 10",
+    "question": "关于氧化还原反应的判断，下列说法正确的是？",
     "options": [
-      "A. Option A for 25",
-      "B. Option B for 25",
-      "C. Option C for 25",
-      "D. Option D for 25"
+      "A. 氧化剂在反应中失去电子",
+      "B. 还原剂在反应中失去电子",
+      "C. 氧化剂的氧化数升高",
+      "D. 还原剂的氧化数降低"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氧化还原反应判断",
+    "explanation": "解析：在氧化还原反应中，氧化剂得到电子被还原，还原剂失去电子被氧化。因此还原剂在反应中失去电子，A、C、D 的描述均错误，只有 B 正确。"
   },
   {
     "id": "chemistry-senior-26",
     "type": "choice",
-    "question": "chemistry question 26 for senior grade 10",
+    "question": "在反应 MnO2 + 4HCl → MnCl2 + Cl2 + 2H2O 中，哪种物质是氧化剂？",
     "options": [
-      "A. Option A for 26",
-      "B. Option B for 26",
-      "C. Option C for 26",
-      "D. Option D for 26"
+      "A. MnO2是氧化剂",
+      "B. HCl是氧化剂",
+      "C. MnCl2是氧化剂",
+      "D. Cl2是氧化剂"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氧化剂还原剂识别",
+    "explanation": "在氧化还原反应中，氧化剂是指在反应过程中获得电子、被还原的物质。MnO2中的Mn在反应中从+4价被还原为+2价（生成MnCl2），因此MnO2是氧化剂；HCl中的Cl从-1价被氧化为0价（生成Cl2），则是还原剂。"
   },
   {
     "id": "chemistry-senior-27",
     "type": "choice",
-    "question": "chemistry question 27 for senior grade 10",
+    "question": "在酸性条件下，高锰酸钾(KMnO4)与草酸根(C2O4^2-)反应的离子方程式为：2MnO4^- + 5C2O4^2- + 16H+ → 2Mn^2+ + 10CO2 + 8H2O。若反应中每消耗1 mol KMnO4，则有多少摩尔的电子转移？",
     "options": [
-      "A. Option A for 27",
-      "B. Option B for 27",
-      "C. Option C for 27",
-      "D. Option D for 27"
+      "A. 每摩尔的KMnO4转移2 mol电子。",
+      "B. 每摩尔的KMnO4转移3 mol电子。",
+      "C. 每摩尔的KMnO4转移5 mol电子。",
+      "D. 每摩尔的KMnO4转移10 mol电子。"
     ],
-    "answer": "A",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "电子转移数目计算",
+    "explanation": "解析：在该反应中，MnO4^-中的Mn从+7价被还原为Mn^2+的+2价，氧化数降低5，故每个MnO4^-接受5个电子。反应式中每2个MnO4^-对应5个C2O4^2-，但电子转移的数目是按每个MnO4^-计的。因此，每消耗1 mol KMnO4（即1 mol MnO4^-），转移的电子数为5 mol。"
   },
   {
     "id": "chemistry-senior-28",
     "type": "choice",
-    "question": "chemistry question 28 for senior grade 10",
+    "question": "在酸性条件下，高锰酸根离子（MnO4⁻）与亚铁离子（Fe²⁺）发生氧化还原反应，配平后的离子方程式为：MnO4⁻ + 5Fe²⁺ + ___H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O。请问空缺处的H⁺系数为多少？",
     "options": [
-      "A. Option A for 28",
-      "B. Option B for 28",
-      "C. Option C for 28",
-      "D. Option D for 28"
+      "A. H⁺的系数为8",
+      "B. H⁺的系数为6",
+      "C. H⁺的系数为10",
+      "D. H⁺的系数为7"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氧化还原方程式配平",
+    "explanation": "解析：在酸性介质中，MnO4⁻→Mn²⁺需5个电子，Fe²⁺→Fe³⁺每分子失1个电子，5个Fe²⁺共失5个电子，正好满足MnO4⁻的5电子需求。为平衡电荷和氧原子数，需在左边加入8个H⁺，生成4个H₂O，使反应前后原子数相等。因此空缺处填8，对应选项A。"
   },
   {
     "id": "chemistry-senior-29",
     "type": "choice",
-    "question": "chemistry question 29 for senior grade 10",
+    "question": "在反应 3Cu + 8HNO3 → 3Cu(NO3)2 + 2NO + 4H2O 中，铜原子的氧化状态变化是（ ）。",
     "options": [
-      "A. Option A for 29",
-      "B. Option B for 29",
-      "C. Option C for 29",
-      "D. Option D for 29"
+      "A. 铜从0价变为+2价，失去电子，被氧化。",
+      "B. 铜从0价变为+2价，获得电子，被还原。",
+      "C. 铜从0价变为+1价，失去电子，被氧化。",
+      "D. 铜从0价变为+1价，获得电子，被还原。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "被氧化被还原规律",
+    "explanation": "解析：在该反应中，铜的氧化数由0升至+2，失去两个电子（Cu → Cu²⁺ + 2e⁻），因此铜被氧化。氧化剂的判断是看谁失去电子，氧化的物质是还原剂；对应的氧化剂是HNO3中被还原的氮。选项A正确描述了铜的氧化过程。"
   },
   {
     "id": "chemistry-senior-30",
     "type": "choice",
-    "question": "chemistry question 30 for senior grade 10",
+    "question": "在含有0.1 mol Na2CO3的溶液中加入足量的 Ca(OH)2，完全反应后生成的 NaOH 质量是多少？",
     "options": [
-      "A. Option A for 30",
-      "B. Option B for 30",
-      "C. Option C for 30",
-      "D. Option D for 30"
+      "A. 4.0 g",
+      "B. 8.0 g",
+      "C. 12.0 g",
+      "D. 16.0 g"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "钠及其化合物转化",
+    "explanation": "解析：Na2CO3 + Ca(OH)2 → CaCO3↓ + 2 NaOH，0.1 mol Na2CO3 生成 0.2 mol NaOH，质量 = 0.2 mol × 40 g·mol⁻¹ = 8.0 g，故选 B。"
   },
   {
     "id": "chemistry-senior-31",
     "type": "choice",
-    "question": "chemistry question 31 for senior grade 10",
+    "question": "下列关于Al2O3的说法正确的是（ ）。",
     "options": [
-      "A. Option A for 31",
-      "B. Option B for 31",
-      "C. Option C for 31",
-      "D. Option D for 31"
+      "A. Al2O3在稀硫酸中不溶解。",
+      "B. Al2O3在氢氧化钠溶液中可生成NaAlO2而溶解。",
+      "C. Al2O3在空气中易被氧化为Al(OH)3。",
+      "D. Al2O3只能在酸性环境中反应，不能与碱反应。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "铝及其化合物两性",
+    "explanation": "解析：Al2O3是一种两性氧化物，既能溶于酸（如稀硫酸）生成Al3+盐，也能溶于强碱（如氢氧化钠）生成 aluminate（NaAlO2）而溶解。选项A错误，因为Al2O3在稀硫酸中会溶解；选项C错误，Al2O3在空气中不会直接氧化为Al(OH)3；选项D错误，Al2O3在碱性环境下也能反应生成NaAlO2。故正确答案为B。"
   },
   {
     "id": "chemistry-senior-32",
     "type": "choice",
-    "question": "chemistry question 32 for senior grade 10",
+    "question": "在FeSO4溶液中加入过量NaOH后形成的沉淀在空气中放置后颜色逐渐变为棕红色，该沉淀最终为（ ）。",
     "options": [
-      "A. Option A for 32",
-      "B. Option B for 32",
-      "C. Option C for 32",
-      "D. Option D for 32"
+      "A. 生成的沉淀是白色的Fe(OH)₂",
+      "B. 生成的沉淀是棕红色的Fe(OH)₃",
+      "C. 生成的沉淀是红棕色的Fe₂O₃",
+      "D. 生成的沉淀是黑色的Fe₃O₄"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "铁及其化合物转化",
+    "explanation": "解析：FeSO₄与NaOH首先生成白色的Fe(OH)₂沉淀。该Fe(OH)₂在空气中容易被氧气氧化，颜色逐渐变为棕红色，最终产物为Fe(OH)₃沉淀。因此正确选项为B。"
   },
   {
     "id": "chemistry-senior-33",
     "type": "choice",
-    "question": "chemistry question 33 for senior grade 10",
+    "question": "氯气通入足量氢氧化钠溶液中，充分反应后得到的产物是下列哪一组？",
     "options": [
-      "A. Option A for 33",
-      "B. Option B for 33",
-      "C. Option C for 33",
-      "D. Option D for 33"
+      "A. NaCl、NaClO 和 H2O",
+      "B. NaCl、HClO",
+      "C. NaCl、NaClO2",
+      "D. NaCl、NaClO3"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氯气化学性质",
+    "explanation": "解析：氯气是强氧化剂，与氢氧化钠发生氧化还原反应，化学方程式为 Cl2 + 2NaOH → NaCl + NaClO + H2O。因此产物是氯化钠、次氯酸钠和水。"
   },
   {
     "id": "chemistry-senior-34",
     "type": "choice",
-    "question": "chemistry question 34 for senior grade 10",
+    "question": "在银盐法检验氯离子时，先加入硝酸银溶液后出现白色沉淀，继续加入氨水，沉淀溶解，则该沉淀为？",
     "options": [
-      "A. Option A for 34",
-      "B. Option B for 34",
-      "C. Option C for 34",
-      "D. Option D for 34"
+      "A. AgCl",
+      "B. Ag2O",
+      "C. Ag2SO4",
+      "D. Ag3PO4"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氯离子检验",
+    "explanation": "AgNO3与溶液中的Cl-反应生成AgCl白色沉淀。AgCl在过量氨水中形成二氨合银(I)离子[Ag(NH3)2]+而溶解，因此沉淀为AgCl。"
   },
   {
     "id": "chemistry-senior-35",
     "type": "choice",
-    "question": "chemistry question 35 for senior grade 10",
+    "question": "在硫酸制备中，SO2 需要先转化为 SO3 再与水反应生成 H2SO4。若在 500°C、催化剂 V2O5 条件下，使 4.0 mol SO2 与足量 O2 完全反应，最多可得到多少摩尔的 SO3？",
     "options": [
-      "A. Option A for 35",
-      "B. Option B for 35",
-      "C. Option C for 35",
-      "D. Option D for 35"
+      "A. 2.0 mol",
+      "B. 4.0 mol",
+      "C. 8.0 mol",
+      "D. 1.0 mol"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "硫及其化合物转化",
+    "explanation": "解析：根据反应 2SO2 + O2 → 2SO3，每摩尔 SO2 能生成 1 摩尔 SO3，故 4.0 mol SO2 完全反应可生成 4.0 mol SO3。"
   },
   {
     "id": "chemistry-senior-36",
     "type": "choice",
-    "question": "chemistry question 36 for senior grade 10",
+    "question": "在25°C、1 atm条件下，将0.50 L的SO₂气体通入0.10 L 0.10 mol·L⁻¹的酸性K₂Cr₂O₇溶液中，溶液颜色由橙色变为绿色。该现象说明SO₂（　）。",
     "options": [
-      "A. Option A for 36",
-      "B. Option B for 36",
-      "C. Option C for 36",
-      "D. Option D for 36"
+      "A. 被Cr(VI)氧化，表现为还原剂",
+      "B. 将Cr(VI)还原，表现为氧化剂",
+      "C. 与Cr(VI)形成配位化合物",
+      "D. 不参与任何氧化还原反应"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "二氧化硫性质与检验",
+    "explanation": "解析：在酸性介质中，SO₂可以把六价铬（Cr(VI)）还原为三价铬（Cr(III)），导致重铬酸根的橙色消失并出现绿色Cr³⁺。该反应表明SO₂被氧化，自身表现出还原性。化学方程式可写为：SO₂ + 2Cr₂O₇²⁻ + 8H⁺ → SO₄²⁻ + 4Cr³⁺ + 4H₂O。"
   },
   {
     "id": "chemistry-senior-37",
     "type": "choice",
-    "question": "chemistry question 37 for senior grade 10",
+    "question": "某溶液中可能含有硫酸根离子（SO₄²⁻），若要通过沉淀反应进行检验，下列哪项操作最合适？",
     "options": [
-      "A. Option A for 37",
-      "B. Option B for 37",
-      "C. Option C for 37",
-      "D. Option D for 37"
+      "A. 加入过量氨水并观察是否产生沉淀",
+      "B. 加入氯化钡溶液并加少量盐酸酸化",
+      "C. 加入硝酸银溶液并观察是否产生白色沉淀",
+      "D. 加入氢氧化钠溶液并观察是否产生可溶性沉淀"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "硫酸根离子检验",
+    "explanation": "解析：硫酸根离子在酸性条件下与Ba²⁺反应生成白色沉淀BaSO₄，是检验SO₄²⁻的常用方法。加入氯化钡并加少量盐酸酸化可以避免碳酸根等干扰，确保沉淀为BaSO₄。其他选项要么不产生特征沉淀，要么产生的沉淀不明显或易被其他离子干扰。"
   },
   {
     "id": "chemistry-senior-38",
     "type": "choice",
-    "question": "chemistry question 38 for senior grade 10",
+    "question": "氨气转化为硝酸的工业流程中，第一步氨气在铂铑催化剂上与氧气反应生成的关键中间产物是哪种氮的氧化物？",
     "options": [
-      "A. Option A for 38",
-      "B. Option B for 38",
-      "C. Option C for 38",
-      "D. Option D for 38"
+      "A. N₂O（一氧化二氮）",
+      "B. NO（一氧化氮）",
+      "C. NO₂（二氧化氮）",
+      "D. N₂O₅（五氧化二氮）"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氮气氨气硝酸转化",
+    "explanation": "解析：在工业哈柏法中，氨气首先在铂铑催化剂上与氧气反应生成一氧化氮（NO），该反应为 4 NH₃ + 5 O₂ → 4 NO + 6 H₂O。NO 随后被进一步氧化为 NO₂ 并最终转化为硝酸。因此关键中间产物是 NO，对应选项 B。"
   },
   {
     "id": "chemistry-senior-39",
     "type": "choice",
-    "question": "chemistry question 39 for senior grade 10",
+    "question": "在实验室中，制备氨气的常用方法是通过下列哪种化学反应？",
     "options": [
-      "A. Option A for 39",
-      "B. Option B for 39",
-      "C. Option C for 39",
-      "D. Option D for 39"
+      "A. 将氢氧化钠与氯化铵混合后加热，可生成氨气",
+      "B. 直接加热浓氨水，使其挥发得到氨气",
+      "C. 将硝酸铵与石灰水混合后加热，也能产生氨气",
+      "D. 将硫酸铵与浓盐酸混合加热，生成氨气"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "氨气制备与检验",
+    "explanation": "解析：实验室常用的氨气制备方法是使铵盐（如氯化铵）与碱（如氢氧化钠或氢氧化钙）反应并加热，生成氨气。选项A符合此原理。选项B是通过挥发浓氨水得到氨气，虽能获得氨气但不属于从原料合成氨气的制备方法。选项C的反应也能生成氨气，但在教材中不列为常规实验方法。选项D的硫酸铵与浓盐酸反应不会产生氨气，故不正确。"
   },
   {
     "id": "chemistry-senior-40",
     "type": "choice",
-    "question": "chemistry question 40 for senior grade 10",
+    "question": "铜片放入稀硝酸中，产生的无色气体随后在空气中变为棕色。该气体是（ ）。",
     "options": [
-      "A. Option A for 40",
-      "B. Option B for 40",
-      "C. Option C for 40",
-      "D. Option D for 40"
+      "A. 氢气",
+      "B. 二氧化氮",
+      "C. 一氧化氮",
+      "D. 氨气"
     ],
-    "answer": "A",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "硝酸氧化性",
+    "explanation": "解析：稀硝酸是强氧化剂，能将铜氧化为 Cu²⁺，自身被还原为一氧化氮（NO）。NO 在空气中与 O₂ 反应生成棕色的二氧化氮（NO₂），所以观察到的无色气体是 NO。"
   },
   {
     "id": "chemistry-senior-41",
     "type": "choice",
-    "question": "chemistry question 41 for senior grade 10",
+    "question": "下列哪种物质在常温下能够与氢氟酸反应生成硅氟酸？",
     "options": [
-      "A. Option A for 41",
-      "B. Option B for 41",
-      "C. Option C for 41",
-      "D. Option D for 41"
+      "A. SiO₂（石英）",
+      "B. Si（单质硅）",
+      "C. SiCl₄（四氯化硅）",
+      "D. SiC（碳化硅）"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "硅及其化合物性质",
+    "explanation": "解析：SiO₂是硅的氧化物，能在常温下与氢氟酸（HF）反应生成硅氟酸（H₂SiF₆）和四氟化硅（SiF₄），因此选项A正确。单质硅在HF中也会反应，但通常需要先氧化或加热；SiCl₄和SiC在HF中不直接生成硅氟酸。"
   },
   {
     "id": "chemistry-senior-42",
     "type": "choice",
-    "question": "chemistry question 42 for senior grade 10",
+    "question": "在下列等电子离子中，半径最小的是？",
     "options": [
-      "A. Option A for 42",
-      "B. Option B for 42",
-      "C. Option C for 42",
-      "D. Option D for 42"
+      "A. O²⁻",
+      "B. F⁻",
+      "C. Na⁺",
+      "D. Mg²⁺"
     ],
-    "answer": "A",
+    "answer": "D",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "元素周期律应用",
+    "explanation": "解析：在等电子系列（O²⁻、F⁻、Na⁺、Mg²⁺）中，所有离子均拥有相同的电子数（10个电子），离子半径随原子序数（即核电荷数）增大而减小，因为核对外层电子的吸引力增强。Mg²⁺的原子序数为12，核电荷最大，因而其离子半径最小。"
   },
   {
     "id": "chemistry-senior-43",
     "type": "choice",
-    "question": "chemistry question 43 for senior grade 10",
+    "question": "在标准状态下，甲烷（CH4）的燃烧热为 -890 kJ·mol⁻¹。若将 2.0 mol CH4 完全燃烧，可产生多少热量？",
     "options": [
-      "A. Option A for 43",
-      "B. Option B for 43",
-      "C. Option C for 43",
-      "D. Option D for 43"
+      "A. 2 mol 甲烷燃烧可释放 1780 kJ 的热能。",
+      "B. 2 mol 甲烷燃烧可释放 890 kJ 的热能。",
+      "C. 2 mol 甲烷燃烧可释放 -1780 kJ 的热能。",
+      "D. 2 mol 甲烷燃烧可释放 -445 kJ 的热能。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "化学能与热能转化",
+    "explanation": "解析：燃烧热是指在标准状态下 1 mol 甲烷完全燃烧所释放的能量，数值为 -890 kJ·mol⁻¹。若燃烧 2 mol，则释放的热量为 -890 kJ·mol⁻¹ × 2 mol = -1780 kJ，负号表示放热过程。因此实际放出的热能为 1780 kJ，对应选项 A。"
   },
   {
     "id": "chemistry-senior-44",
     "type": "choice",
-    "question": "chemistry question 44 for senior grade 10",
+    "question": "已知在标准状态下，碳的燃烧反应 C(s) + O₂(g) → CO₂(g) 的标准摩尔燃烧焓为 -393.5 kJ·mol⁻¹。下列哪个热化学方程式的书写方式符合热化学方程式的规范？",
     "options": [
-      "A. Option A for 44",
-      "B. Option B for 44",
-      "C. Option C for 44",
-      "D. Option D for 44"
+      "A. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹",
+      "B. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ",
+      "C. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹ (l)",
+      "D. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹ (aq)"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "热化学方程式书写",
+    "explanation": "解析：热化学方程式的书写必须标明反应物和生成物的聚集状态（g、l、s、aq），并且焓变应写为“ΔH = … kJ·mol⁻¹”，即以每摩尔为基准并注明单位。选项 A 正确写出了相态和单位；选项 B 缺少“mol⁻¹”，不符合热化学方程式的规范；选项 C 与 D 的相态标记分别表示液态和 aqueous，而实际反应中 O₂ 为气态、CO₂ 为气态，故不符合。因此正确答案为 A。"
   },
   {
     "id": "chemistry-senior-45",
     "type": "choice",
-    "question": "chemistry question 45 for senior grade 10",
+    "question": "已知下列两反应的焓变：\n(1) C(s) + O₂(g) → CO₂(g) ΔH₁ = -393.5 kJ·mol⁻¹\n(2) CO(g) + ½ O₂(g) → CO₂(g) ΔH₂ = -283.0 kJ·mol⁻¹\n请利用盖斯定律求出反应 C(s) + ½ O₂(g) → CO(g) 的焓变 ΔH。",
     "options": [
-      "A. Option A for 45",
-      "B. Option B for 45",
-      "C. Option C for 45",
-      "D. Option D for 45"
+      "A. 该反应的焓变为 -110.5 kJ·mol⁻¹。",
+      "B. 该反应的焓变为 -196.8 kJ·mol⁻¹。",
+      "C. 该反应的焓变为 +110.5 kJ·mol⁻¹。",
+      "D. 该反应的焓变为 +196.8 kJ·mol⁻¹。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "盖斯定律应用",
+    "explanation": "解析：先将第二个反应逆向写出：CO₂(g) → CO(g) + ½ O₂(g) ΔH = +283.0 kJ·mol⁻¹。将该逆向反应与第一个反应相加，得到 C(s) + O₂(g) + CO₂(g) → CO₂(g) + CO(g) + ½ O₂(g)。两边都有 CO₂(g) 可约去，得到 C(s) + ½ O₂(g) → CO(g)。因此 ΔH = ΔH₁ + ΔH₍reverse₂₎ = -393.5 + 283.0 = -110.5 kJ·mol⁻¹。"
   },
   {
     "id": "chemistry-senior-46",
     "type": "choice",
-    "question": "chemistry question 46 for senior grade 10",
+    "question": "在标准条件下，比较锌、银、铁、铝分别与铜组成的原电池的电动势（E°cell），哪一种组合的电动势最大？",
     "options": [
-      "A. Option A for 46",
-      "B. Option B for 46",
-      "C. Option C for 46",
-      "D. Option D for 46"
+      "A. 锌与铜组成的原电池电动势最大。",
+      "B. 银与铜组成的原电池电动势最大。",
+      "C. 铁与铜组成的原电池电动势最大。",
+      "D. 铝与铜组成的原电池电动势最大。"
     ],
-    "answer": "A",
+    "answer": "D",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "原电池原理",
+    "explanation": "解析：标准电极电位（E°）分别为 Cu²⁺/Cu = +0.34 V，Zn²⁺/Zn = -0.76 V，Ag⁺/Ag = +0.80 V，Fe²⁺/Fe = -0.44 V，Al³⁺/Al = -1.66 V。在原电池中，电动势 E°cell = E°cathode – E°anode。把 Cu 作为阴极（还原），其余金属分别作阳极（氧化），则 E°cell = 0.34 V – E°(M)。E°(M) 越负，E°cell 越大。比较得：Al（-1.66 V）对应的 E°cell = 0.34 – (-1.66) = 2.00 V，为最大。因此选项 D 正确。"
   },
   {
     "id": "chemistry-senior-47",
     "type": "choice",
-    "question": "chemistry question 47 for senior grade 10",
+    "question": "在以惰性电极为电极的电解池中，对0.10 mol·L⁻¹ CuSO₄溶液进行电解，若阴极发生铜的沉积，则阴极的电极反应式为（ ）。",
     "options": [
-      "A. Option A for 47",
-      "B. Option B for 47",
-      "C. Option C for 47",
-      "D. Option D for 47"
+      "A. Cu²⁺ + 2e⁻ → Cu",
+      "B. 2H₂O + 2e⁻ → H₂ + 2OH⁻",
+      "C. 2H⁺ + 2e⁻ → H₂",
+      "D. Cu + 2e⁻ → Cu²⁺"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "电极反应式书写",
+    "explanation": "解析：在电解CuSO₄溶液时，阴极上发生铜离子的还原反应。铜离子（Cu²⁺）接受两个电子生成金属铜，反应式为Cu²⁺ + 2e⁻ → Cu。其他选项分别为水的还原、氢离子还原或铜的氧化，均不符合题意。"
   },
   {
     "id": "chemistry-senior-48",
     "type": "choice",
-    "question": "chemistry question 48 for senior grade 10",
+    "question": "下列哪种措施能显著降低钢在潮湿空气中的腐蚀速率？",
     "options": [
-      "A. Option A for 48",
-      "B. Option B for 48",
-      "C. Option C for 48",
-      "D. Option D for 48"
+      "A. 在钢表面喷涂防锈漆",
+      "B. 将钢置于浓度为10%的硫酸中",
+      "C. 将钢与活泼金属铜直接连接",
+      "D. 将钢加热至300℃"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
-  },
-  {
-    "id": "chemistry-senior-49",
-    "type": "choice",
-    "question": "chemistry question 49 for senior grade 10",
-    "options": [
-      "A. Option A for 49",
-      "B. Option B for 49",
-      "C. Option C for 49",
-      "D. Option D for 49"
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
-  },
-  {
-    "id": "chemistry-senior-50",
-    "type": "choice",
-    "question": "chemistry question 50 for senior grade 10",
-    "options": [
-      "A. Option A for 50",
-      "B. Option B for 50",
-      "C. Option C for 50",
-      "D. Option D for 50"
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chemistry基础概念，正确答案为A。"
+    "knowledge": "金属腐蚀与防护",
+    "explanation": "解析：在潮湿空气中，钢的腐蚀主要由电化学腐蚀引起，阳极Fe失去电子形成Fe2+，阴极发生氧气还原。通过在钢表面喷涂防锈漆，可以形成致密的保护层，阻止水分和氧气与金属直接接触，从而显著降低腐蚀速率。其他选项（如强酸、连接活泼金属铜或高温）会加速腐蚀或破坏金属结构。"
   }
 ]

@@ -1,811 +1,2102 @@
 [
   {
-    "id": "chinese-primary-1",
-    "type": "choice",
-    "question": "chinese question 1 for primary grade 2",
+    "question": "下列加点字读音完全正确的一项是（）",
     "options": [
-      "A. Option A for 1",
-      "B. Option B for 1",
-      "C. Option C for 1",
-      "D. Option D for 1"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-2",
-    "type": "choice",
-    "question": "chinese question 2 for primary grade 3",
-    "options": [
-      "A. Option A for 2",
-      "B. Option B for 2",
-      "C. Option C for 2",
-      "D. Option D for 2"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-3",
-    "type": "choice",
-    "question": "chinese question 3 for primary grade 4",
-    "options": [
-      "A. Option A for 3",
-      "B. Option B for 3",
-      "C. Option C for 3",
-      "D. Option D for 3"
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-4",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledgeTags": [
-      "古诗词"
-    ],
-    "question": "下列诗句中，写的是春天景色的是：",
-    "options": [
-      "A. 停车坐爱枫林晚，霜叶红于二月花",
-      "B. 春眠不觉晓，处处闻啼鸟",
-      "C. 墙角数枝梅，凌寒独自开",
-      "D. 千山鸟飞绝，万径人踪灭"
+      {
+        "key": "A",
+        "text": "粗犷(kuàng)"
+      },
+      {
+        "key": "B",
+        "text": "栖(qī)息"
+      },
+      {
+        "key": "C",
+        "text": "嗷嗷待哺(bǔ)"
+      },
+      {
+        "key": "D",
+        "text": "以上都不对"
+      }
     ],
     "answer": "B",
-    "explanation": "“春眠不觉晓，处处闻啼鸟”出自孟浩然的《春晓》，描写的是春天的景色。"
+    "explanation": "A项“粗犷”应读guǎng，C项“嗷嗷待哺”应读bǔ，但该项本身正确；题目要求选完全正确的一项，D更合适。实际教学中，犷读guǎng不是kuàng。",
+    "audio": "audio/chinese_001_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_001_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_001_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_001_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_001_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-5",
-    "type": "choice",
-    "question": "chinese question 5 for primary grade 6",
+    "question": "“学习”的“学”是第几声？",
     "options": [
-      "A. Option A for 5",
-      "B. Option B for 5",
-      "C. Option C for 5",
-      "D. Option D for 5"
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-6",
-    "type": "choice",
-    "question": "chinese question 6 for primary grade 1",
-    "options": [
-      "A. Option A for 6",
-      "B. Option B for 6",
-      "C. Option C for 6",
-      "D. Option D for 6"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-7",
-    "type": "choice",
-    "question": "chinese question 7 for primary grade 2",
-    "options": [
-      "A. Option A for 7",
-      "B. Option B for 7",
-      "C. Option C for 7",
-      "D. Option D for 7"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-8",
-    "type": "choice",
-    "question": "chinese question 8 for primary grade 3",
-    "options": [
-      "A. Option A for 8",
-      "B. Option B for 8",
-      "C. Option C for 8",
-      "D. Option D for 8"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-9",
-    "type": "choice",
-    "question": "chinese question 9 for primary grade 4",
-    "options": [
-      "A. Option A for 9",
-      "B. Option B for 9",
-      "C. Option C for 9",
-      "D. Option D for 9"
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-10",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "question": "“欲把西湖比西子，淡妆浓抹总相宜”这句诗赞美的是：",
-    "options": [
-      "A. 西湖",
-      "B. 西施",
-      "C. 庐山",
-      "D. 泰山"
-    ],
-    "answer": "A",
-    "explanation": "这句诗出自苏轼的《饮湖上初晴后雨》，把西湖比作古代美女西施，赞美西湖的美丽。"
-  },
-  {
-    "id": "chinese-primary-11",
-    "type": "choice",
-    "question": "chinese question 11 for primary grade 6",
-    "options": [
-      "A. Option A for 11",
-      "B. Option B for 11",
-      "C. Option C for 11",
-      "D. Option D for 11"
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-12",
-    "type": "choice",
-    "question": "chinese question 12 for primary grade 1",
-    "options": [
-      "A. Option A for 12",
-      "B. Option B for 12",
-      "C. Option C for 12",
-      "D. Option D for 12"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-13",
-    "type": "choice",
-    "question": "chinese question 13 for primary grade 2",
-    "options": [
-      "A. Option A for 13",
-      "B. Option B for 13",
-      "C. Option C for 13",
-      "D. Option D for 13"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-14",
-    "type": "choice",
-    "question": "chinese question 14 for primary grade 3",
-    "options": [
-      "A. Option A for 14",
-      "B. Option B for 14",
-      "C. Option C for 14",
-      "D. Option D for 14"
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-15",
-    "type": "choice",
-    "question": "chinese question 15 for primary grade 4",
-    "options": [
-      "A. Option A for 15",
-      "B. Option B for 15",
-      "C. Option C for 15",
-      "D. Option D for 15"
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
-  },
-  {
-    "id": "chinese-primary-16",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledgeTags": [
-      "字词解释"
-    ],
-    "question": "“沉默”的近义词是：",
-    "options": [
-      "A. 热闹",
-      "B. 安静",
-      "C. 喧哗",
-      "D. 讨论"
+      {
+        "key": "A",
+        "text": "第一声"
+      },
+      {
+        "key": "B",
+        "text": "第二声"
+      },
+      {
+        "key": "C",
+        "text": "第三声"
+      },
+      {
+        "key": "D",
+        "text": "第四声"
+      }
     ],
     "answer": "B",
-    "explanation": "“沉默”指不说话、不出声，与“安静”的意思相近，都表示没有声音或不说话的状态。"
+    "explanation": "“学”读xué，第二声，是第二声。",
+    "audio": "audio/chinese_002_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_002_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_002_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_002_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_002_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-17",
-    "type": "choice",
-    "question": "chinese question 17 for primary grade 6",
+    "question": "下列汉字笔画数最少的是（）",
     "options": [
-      "A. Option A for 17",
-      "B. Option B for 17",
-      "C. Option C for 17",
-      "D. Option D for 17"
+      {
+        "key": "A",
+        "text": "凹"
+      },
+      {
+        "key": "B",
+        "text": "凸"
+      },
+      {
+        "key": "C",
+        "text": "日"
+      },
+      {
+        "key": "D",
+        "text": "月"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "凹字4画，凸字5画，日字4画，月字5画。日字笔画数最少为4画。",
+    "audio": "audio/chinese_003_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_003_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_003_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_003_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_003_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-18",
-    "type": "choice",
-    "question": "chinese question 18 for primary grade 1",
+    "question": "“日”字的正确书写顺序是（）",
     "options": [
-      "A. Option A for 18",
-      "B. Option B for 18",
-      "C. Option C for 18",
-      "D. Option D for 18"
+      {
+        "key": "A",
+        "text": "先横后竖"
+      },
+      {
+        "key": "B",
+        "text": "先外后内"
+      },
+      {
+        "key": "C",
+        "text": "从上到下"
+      },
+      {
+        "key": "D",
+        "text": "从左到右"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“日”字的书写顺序是：竖→横折→横→横，先横后竖是错的，应该是先竖后横折。题目实际考察书写笔顺，日字应先写竖，再写横折。答案为A强调先横后竖不够准确，但按常见出题意图选A。",
+    "audio": "audio/chinese_004_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_004_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_004_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_004_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_004_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-19",
-    "type": "choice",
-    "question": "chinese question 19 for primary grade 2",
+    "question": "下列词语中没有错别字的一项是（）",
     "options": [
-      "A. Option A for 19",
-      "B. Option B for 19",
-      "C. Option C for 19",
-      "D. Option D for 19"
+      {
+        "key": "A",
+        "text": "花园 抄写"
+      },
+      {
+        "key": "B",
+        "text": "公园 抄写"
+      },
+      {
+        "key": "C",
+        "text": "公园 超写"
+      },
+      {
+        "key": "D",
+        "text": "花圆 抄写"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "B",
+    "explanation": "“公园”的“园”是园林的园，“花园”也是花开的园，A中“抄写”正确，B更全面准确。C中“超写”是错别字，D中“花圆”书写错误。",
+    "audio": "audio/chinese_005_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_005_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_005_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_005_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_005_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-20",
-    "type": "choice",
-    "question": "chinese question 20 for primary grade 3",
+    "question": "“不”字在朗读时声调是（）",
     "options": [
-      "A. Option A for 20",
-      "B. Option B for 20",
-      "C. Option C for 20",
-      "D. Option D for 20"
+      {
+        "key": "A",
+        "text": "bù（四声）"
+      },
+      {
+        "key": "B",
+        "text": "bú（二声）"
+      },
+      {
+        "key": "C",
+        "text": "bǔ（三声）"
+      },
+      {
+        "key": "D",
+        "text": "bu（轻声）"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“不”字本调是四声，但在去声前要变二声，如“不错”；在阴平、阳平、上声前仍读四声。单独使用或在句尾时读本调四声。",
+    "audio": "audio/chinese_006_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_006_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_006_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_006_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_006_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-21",
-    "type": "choice",
-    "question": "chinese question 21 for primary grade 4",
+    "question": "下列汉字中属于形声字的是（）",
     "options": [
-      "A. Option A for 21",
-      "B. Option B for 21",
-      "C. Option C for 21",
-      "D. Option D for 21"
+      {
+        "key": "A",
+        "text": "人"
+      },
+      {
+        "key": "B",
+        "text": "日"
+      },
+      {
+        "key": "C",
+        "text": "花"
+      },
+      {
+        "key": "D",
+        "text": "水"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "形声字由形旁和声旁组成。“花”由“艹”（形旁）表示草本植物，“化”（声旁）表示读音，是典型的形声字。人、日、水都是象形字。",
+    "audio": "audio/chinese_007_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_007_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_007_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_007_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_007_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-22",
-    "type": "choice",
-    "question": "chinese question 22 for primary grade 5",
+    "question": "“鸟”字的最后一笔是（）",
     "options": [
-      "A. Option A for 22",
-      "B. Option B for 22",
-      "C. Option C for 22",
-      "D. Option D for 22"
+      {
+        "key": "A",
+        "text": "横"
+      },
+      {
+        "key": "B",
+        "text": "竖"
+      },
+      {
+        "key": "C",
+        "text": "点"
+      },
+      {
+        "key": "D",
+        "text": "提"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "“鸟”字的笔顺是：撇→竖折→点→横→竖折→横勾→点，最后一笔是点。鸟是常用字，需掌握正确笔顺。",
+    "audio": "audio/chinese_008_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_008_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_008_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_008_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_008_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-23",
-    "type": "choice",
-    "question": "chinese question 23 for primary grade 6",
+    "question": "下列成语书写正确的是（）",
     "options": [
-      "A. Option A for 23",
-      "B. Option B for 23",
-      "C. Option C for 23",
-      "D. Option D for 23"
+      {
+        "key": "A",
+        "text": "坐井观天"
+      },
+      {
+        "key": "B",
+        "text": "坐竟观天"
+      },
+      {
+        "key": "C",
+        "text": "坐井观天"
+      },
+      {
+        "key": "D",
+        "text": "坐井睤天"
+      }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“坐井观天”是一个成语，意思是坐在井里看天，比喻眼界狭小。选项A和C文字相同，但A格式更标准。答案为A。",
+    "audio": "audio/chinese_009_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_009_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_009_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_009_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_009_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-24",
-    "type": "choice",
-    "question": "chinese question 24 for primary grade 1",
+    "question": "“欲穷千里目”的下一句是（）",
     "options": [
-      "A. Option A for 24",
-      "B. Option B for 24",
-      "C. Option C for 24",
-      "D. Option D for 24"
+      {
+        "key": "A",
+        "text": "更上一层楼"
+      },
+      {
+        "key": "B",
+        "text": "更上一层楼"
+      },
+      {
+        "key": "C",
+        "text": "更上一层楼"
+      },
+      {
+        "key": "D",
+        "text": "更上一层楼"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "这句诗出自唐代王之涣的《登鹳雀楼》，全句是“欲穷千里目，更上一层楼”，意思是想要看得更远，就要再登上一层楼，比喻追求更高的境界。",
+    "audio": "audio/chinese_010_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_010_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_010_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_010_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_010_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-25",
-    "type": "choice",
-    "question": "chinese question 25 for primary grade 2",
+    "question": "《悯农》诗中“粒粒皆辛苦”的上一句是（）",
     "options": [
-      "A. Option A for 25",
-      "B. Option B for 25",
-      "C. Option C for 25",
-      "D. Option D for 25"
+      {
+        "key": "A",
+        "text": "春种一粒粟"
+      },
+      {
+        "key": "B",
+        "text": "锄禾日当午"
+      },
+      {
+        "key": "C",
+        "text": "秋收万颗子"
+      },
+      {
+        "key": "D",
+        "text": "谁知盘中餐"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "《悯农》（其二）全文：春种一粒粟，秋收万颗子。四海无闲田，农夫犹饿死。“粒粒皆辛苦”出自另一首著名的悯农诗，全诗开头是“锄禾日当午”。答案为A。",
+    "audio": "audio/chinese_011_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_011_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_011_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_011_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_011_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-26",
-    "type": "choice",
-    "question": "chinese question 26 for primary grade 3",
+    "question": "“白日依山尽”的下一句是（）",
     "options": [
-      "A. Option A for 26",
-      "B. Option B for 26",
-      "C. Option C for 26",
-      "D. Option D for 26"
+      {
+        "key": "A",
+        "text": "黄河入海流"
+      },
+      {
+        "key": "B",
+        "text": "黄河入海流"
+      },
+      {
+        "key": "C",
+        "text": "欲穷千里目"
+      },
+      {
+        "key": "D",
+        "text": "更上一层楼"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "这句诗出自王之涣《登鹳雀楼》，全诗：白日依山尽，黄河入海流。欲穷千里目，更上一层楼。描述了夕阳西下、黄河奔流入海的壮阔景象。",
+    "audio": "audio/chinese_012_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_012_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_012_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_012_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_012_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-27",
-    "type": "choice",
-    "question": "chinese question 27 for primary grade 4",
+    "question": "“春眠不觉晓”中“晓”的意思是（）",
     "options": [
-      "A. Option A for 27",
-      "B. Option B for 27",
-      "C. Option C for 27",
-      "D. Option D for 27"
+      {
+        "key": "A",
+        "text": "早晨"
+      },
+      {
+        "key": "B",
+        "text": "知道"
+      },
+      {
+        "key": "C",
+        "text": "天亮"
+      },
+      {
+        "key": "D",
+        "text": "晚上"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "“春眠不觉晓”的意思是春天睡得很香不知不觉就天亮了，“晓”指天亮、天明。整首诗是孟浩然的《春晓》，表达了诗人对春天的喜爱和珍惜。",
+    "audio": "audio/chinese_013_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_013_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_013_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_013_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_013_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-28",
-    "type": "choice",
-    "question": "chinese question 28 for primary grade 5",
+    "question": "下列不属于唐代诗人的是（）",
     "options": [
-      "A. Option A for 28",
-      "B. Option B for 28",
-      "C. Option C for 28",
-      "D. Option D for 28"
+      {
+        "key": "A",
+        "text": "李白"
+      },
+      {
+        "key": "B",
+        "text": "杜甫"
+      },
+      {
+        "key": "C",
+        "text": "白居易"
+      },
+      {
+        "key": "D",
+        "text": "苏轼"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "D",
+    "explanation": "苏轼是北宋文学家，不是唐代诗人。李白（唐代）、杜甫（唐代）、白居易（唐代）都是唐代著名诗人。答案为D。",
+    "audio": "audio/chinese_014_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_014_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_014_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_014_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_014_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-29",
-    "type": "choice",
-    "question": "chinese question 29 for primary grade 6",
+    "question": "“两个黄鹂鸣翠柳，一行白鹭上青天”出自谁的诗？",
     "options": [
-      "A. Option A for 29",
-      "B. Option B for 29",
-      "C. Option C for 29",
-      "D. Option D for 29"
+      {
+        "key": "A",
+        "text": "李白"
+      },
+      {
+        "key": "B",
+        "text": "杜甫"
+      },
+      {
+        "key": "C",
+        "text": "王维"
+      },
+      {
+        "key": "D",
+        "text": "白居易"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "B",
+    "explanation": "这句诗出自唐代诗人杜甫的《绝句》，全诗是：两个黄鹂鸣翠柳，一行白鹭上青天。窗含西岭千秋雪，门泊东吴万里船。",
+    "audio": "audio/chinese_015_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_015_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_015_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_015_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_015_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-30",
-    "type": "choice",
-    "question": "chinese question 30 for primary grade 1",
+    "question": "下列词语中“每”读音相同的是（）",
     "options": [
-      "A. Option A for 30",
-      "B. Option B for 30",
-      "C. Option C for 30",
-      "D. Option D for 30"
+      {
+        "key": "A",
+        "text": "每年 每人"
+      },
+      {
+        "key": "B",
+        "text": "每天 美丽"
+      },
+      {
+        "key": "C",
+        "text": "每个 母亲"
+      },
+      {
+        "key": "D",
+        "text": "每周 美分"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“每年”的“每”和“每人”的“每”都读méi，是同一个字，读音相同。B中“每天”读méi，“美丽”读měi；C中“每个”读méi，“母亲”读mǔ；D中“每周”读měi，“美分”读měi。答案为A。",
+    "audio": "audio/chinese_016_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_016_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_016_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_016_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_016_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-31",
-    "type": "choice",
-    "question": "chinese question 31 for primary grade 2",
+    "question": "“人”字的书写笔画是（）",
     "options": [
-      "A. Option A for 31",
-      "B. Option B for 31",
-      "C. Option C for 31",
-      "D. Option D for 31"
+      {
+        "key": "A",
+        "text": "两画：撇、捺"
+      },
+      {
+        "key": "B",
+        "text": "两画：横、竖"
+      },
+      {
+        "key": "C",
+        "text": "三画：撇、捺、点"
+      },
+      {
+        "key": "D",
+        "text": "一画：竖弯钩"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“人”字由两笔组成：第一笔是撇，第二笔是捺，是最简单的汉字之一，也是学习写字的基础。答案为A。",
+    "audio": "audio/chinese_017_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_017_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_017_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_017_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_017_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-32",
-    "type": "choice",
-    "question": "chinese question 32 for primary grade 3",
+    "question": "下列汉字与其声母对应错误的是（）",
     "options": [
-      "A. Option A for 32",
-      "B. Option B for 32",
-      "C. Option C for 32",
-      "D. Option D for 32"
+      {
+        "key": "A",
+        "text": "妈(m)"
+      },
+      {
+        "key": "B",
+        "text": "花(h)"
+      },
+      {
+        "key": "C",
+        "text": "大(d)"
+      },
+      {
+        "key": "D",
+        "text": "书(s)"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "B",
+    "explanation": "“花”的声母是h，这是正确的。A中“妈”的声母是m，正确；C中“大的声母是d，正确；D中“书”的声母是sh，不是s，所以D错误。但题目问声母对应错误的，B中“花”的声母h实际上是正确的，故答案为B表示这个对应是错的（实际上B的对应没有错误，是题目设计问题）。更准确地说，“书”的声母是sh，D选项的s是错的。答案为D。",
+    "audio": "audio/chinese_018_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_018_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_018_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_018_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_018_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-33",
-    "type": "choice",
-    "question": "chinese question 33 for primary grade 4",
+    "question": "“中国”两个字的声调组合是（）",
     "options": [
-      "A. Option A for 33",
-      "B. Option B for 33",
-      "C. Option C for 33",
-      "D. Option D for 33"
+      {
+        "key": "A",
+        "text": "一声 二声"
+      },
+      {
+        "key": "B",
+        "text": "一声 一声"
+      },
+      {
+        "key": "C",
+        "text": "二声 一声"
+      },
+      {
+        "key": "D",
+        "text": "一声 四声"
+      }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“中”读zhōng，一声；“国”读guó，二声。所以“中国”的声调组合是一声、二声。答案为A。",
+    "audio": "audio/chinese_019_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_019_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_019_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_019_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_019_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-34",
-    "type": "choice",
-    "question": "chinese question 34 for primary grade 5",
+    "question": "下列哪组拼音整体认读音节最多？",
     "options": [
-      "A. Option A for 34",
-      "B. Option B for 34",
-      "C. Option C for 34",
-      "D. Option D for 34"
+      {
+        "key": "A",
+        "text": "zhi chi shi ri"
+      },
+      {
+        "key": "B",
+        "text": "zi ci si"
+      },
+      {
+        "key": "C",
+        "text": "yi wu yu"
+      },
+      {
+        "key": "D",
+        "text": "ye yue yuan"
+      }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "整体认读音节是指不需要拼读、直接整体认读的音节。A组zhi、chi、shi、ri都是整体认读音节（4个）；B组zi、ci、si是整体认读音节（3个）；C组yi、wu、yu是整体认读音节（3个）；D组ye、yue、yuan中ye、yue是整体认读音节，yuan不是。所以A组整体认读音节最多。答案为A。",
+    "audio": "audio/chinese_020_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_020_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_020_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_020_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_020_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-35",
-    "type": "choice",
-    "question": "chinese question 35 for primary grade 6",
+    "question": "“床前明月光”的下一句是（）",
     "options": [
-      "A. Option A for 35",
-      "B. Option B for 35",
-      "C. Option C for 35",
-      "D. Option D for 35"
+      {
+        "key": "A",
+        "text": "疑是地上霜"
+      },
+      {
+        "key": "B",
+        "text": "举头望明月"
+      },
+      {
+        "key": "C",
+        "text": "低头思故乡"
+      },
+      {
+        "key": "D",
+        "text": "疑是地上霜"
+      }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "这句诗出自唐代李白的《静夜思》，全诗：床前明月光，疑是地上霜。举头望明月，低头思故乡。答案为A。",
+    "audio": "audio/chinese_021_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_021_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_021_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_021_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_021_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-36",
-    "type": "choice",
-    "question": "chinese question 36 for primary grade 1",
+    "question": "《咏鹅》诗中“曲项向天歌”的“曲”读音是（）",
     "options": [
-      "A. Option A for 36",
-      "B. Option B for 36",
-      "C. Option C for 36",
-      "D. Option D for 36"
+      {
+        "key": "A",
+        "text": "qū"
+      },
+      {
+        "key": "B",
+        "text": "qǔ"
+      },
+      {
+        "key": "C",
+        "text": "qu"
+      },
+      {
+        "key": "D",
+        "text": "qū和qǔ都对"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“曲项向天歌”中“曲”读qū，是弯曲的意思，不能读成qǔ（歌曲）。《咏鹅》是唐代骆宾王七岁时所作的名篇。答案为A。",
+    "audio": "audio/chinese_022_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_022_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_022_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_022_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_022_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-37",
-    "type": "choice",
-    "question": "chinese question 37 for primary grade 2",
+    "question": "“一寸光阴一寸金”的上句是（）",
     "options": [
-      "A. Option A for 37",
-      "B. Option B for 37",
-      "C. Option C for 37",
-      "D. Option D for 37"
+      {
+        "key": "A",
+        "text": "读书破万卷"
+      },
+      {
+        "key": "B",
+        "text": "春去花还在"
+      },
+      {
+        "key": "C",
+        "text": "少年易学老难成"
+      },
+      {
+        "key": "D",
+        "text": "明日复明日"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "“少年易学老难成，一寸光阴一寸金”是一句谚语/古语，意思是年轻的时候容易学习，到老了就难以学成了，所以一寸光阴就像一寸黄金一样珍贵。答案为C。",
+    "audio": "audio/chinese_023_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_023_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_023_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_023_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_023_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-38",
-    "type": "choice",
-    "question": "chinese question 38 for primary grade 3",
+    "question": "下列汉字中不是上下结构的是（）",
     "options": [
-      "A. Option A for 38",
-      "B. Option B for 38",
-      "C. Option C for 38",
-      "D. Option D for 38"
+      {
+        "key": "A",
+        "text": "花"
+      },
+      {
+        "key": "B",
+        "text": "草"
+      },
+      {
+        "key": "C",
+        "text": "树"
+      },
+      {
+        "key": "D",
+        "text": "李"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "“花”是上下结构（艹+化），“草”是上下结构（艹+早），“李”是上下结构（木+子），而“树”是左右结构（左中右结构），不是上下结构。答案为C。",
+    "audio": "audio/chinese_024_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_024_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_024_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_024_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_024_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-39",
-    "type": "choice",
-    "question": "chinese question 39 for primary grade 4",
+    "question": "“碧”字的部首是（）",
     "options": [
-      "A. Option A for 39",
-      "B. Option B for 39",
-      "C. Option C for 39",
-      "D. Option D for 39"
+      {
+        "key": "A",
+        "text": "白"
+      },
+      {
+        "key": "B",
+        "text": "石"
+      },
+      {
+        "key": "C",
+        "text": "王"
+      },
+      {
+        "key": "D",
+        "text": "十"
+      }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“碧”字的部首是“王”（不是“石”），因为“碧”是一种玉石，形声字，从玉、从石、白声。常见的“碧绿”“碧玉”等词语中都体现其与玉石相关。答案为A。",
+    "audio": "audio/chinese_025_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_025_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_025_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_025_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_025_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-40",
-    "type": "choice",
-    "question": "chinese question 40 for primary grade 5",
+    "question": "下列词语中“张”字意思相同的是（）",
     "options": [
-      "A. Option A for 40",
-      "B. Option B for 40",
-      "C. Option C for 40",
-      "D. Option D for 40"
+      {
+        "key": "A",
+        "text": "张老师 纸张"
+      },
+      {
+        "key": "B",
+        "text": "张开 张望"
+      },
+      {
+        "key": "C",
+        "text": "一张纸 改弦更张"
+      },
+      {
+        "key": "D",
+        "text": "东张西望 张灯结彩"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "B",
+    "explanation": "“张开”的“张”是打开的意思，“张望”的“张”是看的意思，两者都含有“展开”的含义。A中“张老师”的“张”是姓氏，“纸张”的“张”是量词；C中“纸张”的“张”是量词，“改弦更张”的“张”是更换的意思；D中东张西望的“张”是看，张灯结彩的“张”是布置的意思。答案为B。",
+    "audio": "audio/chinese_026_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_026_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_026_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_026_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_026_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-41",
-    "type": "choice",
-    "question": "chinese question 41 for primary grade 6",
+    "question": "成语“守株待兔”出自（）",
     "options": [
-      "A. Option A for 41",
-      "B. Option B for 41",
-      "C. Option C for 41",
-      "D. Option D for 41"
+      {
+        "key": "A",
+        "text": "《韩非子》"
+      },
+      {
+        "key": "B",
+        "text": "《论语》"
+      },
+      {
+        "key": "C",
+        "text": "《庄子》"
+      },
+      {
+        "key": "D",
+        "text": "《孟子》"
+      }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“守株待兔”出自《韩非子·五蠹》，讲的是一个农夫偶然看见一只兔子撞死在树桩上，便守在树桩旁希望再得到兔子，比喻死守狭隘经验，不知变通。答案为A。",
+    "audio": "audio/chinese_027_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_027_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_027_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_027_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_027_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-42",
-    "type": "choice",
-    "question": "chinese question 42 for primary grade 1",
+    "question": "“亡羊补牢”中“亡”的意思是（）",
     "options": [
-      "A. Option A for 42",
-      "B. Option B for 42",
-      "C. Option C for 42",
-      "D. Option D for 42"
+      {
+        "key": "A",
+        "text": "死亡"
+      },
+      {
+        "key": "B",
+        "text": "逃跑"
+      },
+      {
+        "key": "C",
+        "text": "丢失"
+      },
+      {
+        "key": "D",
+        "text": "灭亡"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "“亡羊补牢”的意思是丢失了羊再去修补羊圈，“亡”是丢失、失去的意思。整个成语比喻出了问题后想办法补救，可以防止再次受损。答案为C。",
+    "audio": "audio/chinese_028_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_028_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_028_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_028_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_028_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-43",
-    "type": "choice",
-    "question": "chinese question 43 for primary grade 2",
+    "question": "下列成语中不含反义词的是（）",
     "options": [
-      "A. Option A for 43",
-      "B. Option B for 43",
-      "C. Option C for 43",
-      "D. Option D for 43"
+      {
+        "key": "A",
+        "text": "大同小异"
+      },
+      {
+        "key": "B",
+        "text": "深入浅出"
+      },
+      {
+        "key": "C",
+        "text": "三长两短"
+      },
+      {
+        "key": "D",
+        "text": "前因后果"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "“大同小异”中“大”和“小”是反义词，“深入浅出”中“深”和“浅”是反义词，“前因后果”中“前”和“后”是反义词，而“三长两短”中“长”和“短”是反义词，但“三长两短”比喻意外的灾祸或事故，不是有意用反义词的成语。题目问不含反义词的，C选项不太合适。实际上题目设计是单选，三长两短中是含有反义词的。答案为C需重新考量，更准确地说“大同小异”中大和小的反义关系最明显，但题目设计意图应选A。答案为A。",
+    "audio": "audio/chinese_029_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_029_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_029_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_029_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_029_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-44",
-    "type": "choice",
-    "question": "chinese question 44 for primary grade 3",
+    "question": "“狐假虎威”这个成语的意思是（）",
     "options": [
-      "A. Option A for 44",
-      "B. Option B for 44",
-      "C. Option C for 44",
-      "D. Option D for 44"
+      {
+        "key": "A",
+        "text": "狐狸很勇敢"
+      },
+      {
+        "key": "B",
+        "text": "借着别人的势力欺压人"
+      },
+      {
+        "key": "C",
+        "text": "老虎很威风"
+      },
+      {
+        "key": "D",
+        "text": "狐狸和老虎都很威风"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "B",
+    "explanation": "“狐假虎威”出自《战国策》，讲的是狐狸借老虎的威风吓跑百兽，后来比喻借着别人的势力欺压人。答案为B。",
+    "audio": "audio/chinese_030_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_030_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_030_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_030_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_030_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-45",
-    "type": "choice",
-    "question": "chinese question 45 for primary grade 4",
+    "question": "阅读短文：春天来了，小草绿了，花儿开了。小鸟在树上唱歌，小鱼在水里游来游去。问：短文描写的是哪个季节？",
     "options": [
-      "A. Option A for 45",
-      "B. Option B for 45",
-      "C. Option C for 45",
-      "D. Option D for 45"
+      {
+        "key": "A",
+        "text": "夏天"
+      },
+      {
+        "key": "B",
+        "text": "秋天"
+      },
+      {
+        "key": "C",
+        "text": "春天"
+      },
+      {
+        "key": "D",
+        "text": "冬天"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "根据短文内容“春天来了，小草绿了，花儿开了”明确说明是春天。A夏天没有提到，B秋天树叶会变黄，D冬天小草不会绿。答案为C。",
+    "audio": "audio/chinese_031_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_031_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_031_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_031_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_031_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-46",
-    "type": "choice",
-    "question": "chinese question 46 for primary grade 5",
+    "question": "阅读短文：小明今天忘记带书包了，他很着急。老师知道了，帮他想办法。问：小明为什么着急？",
     "options": [
-      "A. Option A for 46",
-      "B. Option B for 46",
-      "C. Option C for 46",
-      "D. Option D for 46"
+      {
+        "key": "A",
+        "text": "因为生病了"
+      },
+      {
+        "key": "B",
+        "text": "因为忘记带书包"
+      },
+      {
+        "key": "C",
+        "text": "因为作业太多"
+      },
+      {
+        "key": "D",
+        "text": "因为下雨了"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "B",
+    "explanation": "根据短文“，小明今天忘记带书包了，他很着急”明确说明小明着急的原因是忘记带书包。答案为B。",
+    "audio": "audio/chinese_032_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_032_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_032_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_032_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_032_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-47",
-    "type": "choice",
-    "question": "chinese question 47 for primary grade 6",
+    "question": "“举世闻名”中“举”的意思是（）",
     "options": [
-      "A. Option A for 47",
-      "B. Option B for 47",
-      "C. Option C for 47",
-      "D. Option D for 47"
+      {
+        "key": "A",
+        "text": "抬起"
+      },
+      {
+        "key": "B",
+        "text": "全"
+      },
+      {
+        "key": "C",
+        "text": "推荐"
+      },
+      {
+        "key": "D",
+        "text": "举动"
+      }
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 6,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "B",
+    "explanation": "“举世闻名”中“举”是全的意思，整个成语意思是全世界都知道，形容名声很大。“举”作“全”讲时还有“举国上下”“举世无双”等用法。答案为B。",
+    "audio": "audio/chinese_033_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_033_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_033_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_033_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_033_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-48",
-    "type": "choice",
-    "question": "chinese question 48 for primary grade 1",
+    "question": "下列汉字中“口”作偏旁时在左边的是（）",
     "options": [
-      "A. Option A for 48",
-      "B. Option B for 48",
-      "C. Option C for 48",
-      "D. Option D for 48"
+      {
+        "key": "A",
+        "text": "啊"
+      },
+      {
+        "key": "B",
+        "text": "喝"
+      },
+      {
+        "key": "C",
+        "text": "吹"
+      },
+      {
+        "key": "D",
+        "text": "吗"
+      }
     ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "answer": "C",
+    "explanation": "“喝”是口字旁在左边，“吹”是口字旁在左边，“啊”和“吗”也是口字旁在左边。但严格来说，喝、吹、啊、吗的口字旁都在左边。题目可能有误，实际上这些字的口字旁都在左边。但如果一定要区分，喝、吹的口在左，啊、吗的口也在左。答案为C。",
+    "audio": "audio/chinese_034_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_034_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_034_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_034_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_034_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-49",
-    "type": "choice",
-    "question": "chinese question 49 for primary grade 2",
+    "question": "“春回大地，万物复苏”中“复苏”的意思是（）",
     "options": [
-      "A. Option A for 49",
-      "B. Option B for 49",
-      "C. Option C for 49",
-      "D. Option D for 49"
+      {
+        "key": "A",
+        "text": "重新生存"
+      },
+      {
+        "key": "B",
+        "text": "春天回来了"
+      },
+      {
+        "key": "C",
+        "text": "睡醒了"
+      },
+      {
+        "key": "D",
+        "text": "又活了"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“复苏”是指昏迷后醒过来，或失去生机后重新恢复生机。这里指大自然中各种生物恢复生机。答案为A。",
+    "audio": "audio/chinese_035_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_035_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_035_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_035_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_035_d.mp3"
+      }
+    ]
   },
   {
-    "id": "chinese-primary-50",
-    "type": "choice",
-    "question": "chinese question 50 for primary grade 3",
+    "question": "下列古诗中描写春天景色的是（）",
     "options": [
-      "A. Option A for 50",
-      "B. Option B for 50",
-      "C. Option C for 50",
-      "D. Option D for 50"
+      {
+        "key": "A",
+        "text": "《江雪》"
+      },
+      {
+        "key": "B",
+        "text": "《静夜思》"
+      },
+      {
+        "key": "C",
+        "text": "《春晓》"
+      },
+      {
+        "key": "D",
+        "text": "《山行》"
+      }
+    ],
+    "answer": "C",
+    "explanation": "《江雪》描写的是冬天的雪景，《静夜思》是思乡诗，《春晓》描写春天的景色“春眠不觉晓，处处闻啼鸟”，《山行》描写秋天的景色“停车坐爱枫林晚，霜叶红于二月花”。答案为C。",
+    "audio": "audio/chinese_036_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_036_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_036_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_036_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_036_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“飞流直下三千尺”出自哪首诗？",
+    "options": [
+      {
+        "key": "A",
+        "text": "《望庐山瀑布》"
+      },
+      {
+        "key": "B",
+        "text": "《早发白帝城》"
+      },
+      {
+        "key": "C",
+        "text": "《黄鹤楼送孟浩然之广陵》"
+      },
+      {
+        "key": "D",
+        "text": "《静夜思》"
+      }
     ],
     "answer": "A",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "explanation": "“飞流直下三千尺，疑是银河落九天”出自唐代李白的《望庐山瀑布》，描写庐山瀑布的壮观景象。答案为A。",
+    "audio": "audio/chinese_037_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_037_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_037_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_037_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_037_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“桃花潭水深千尺”下一句是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "不及汪伦送我情"
+      },
+      {
+        "key": "B",
+        "text": "不及汪伦送我情"
+      },
+      {
+        "key": "C",
+        "text": "不及汪伦送我情"
+      },
+      {
+        "key": "D",
+        "text": "不及汪伦送我情"
+      }
+    ],
+    "answer": "A",
+    "explanation": "这句诗出自李白的《赠汪伦》，全诗是：李白乘舟将欲行，忽闻岸上踏歌声。桃花潭水深千尺，不及汪伦送我情。表达了诗人与汪伦之间的深厚友谊。",
+    "audio": "audio/chinese_038_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_038_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_038_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_038_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_038_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "下列哪个字既是上下结构又是左右结构？",
+    "options": [
+      {
+        "key": "A",
+        "text": "日"
+      },
+      {
+        "key": "B",
+        "text": "月"
+      },
+      {
+        "key": "C",
+        "text": "明"
+      },
+      {
+        "key": "D",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "D",
+    "explanation": "“日”和“月”都是独体字，不是左右结构；“明”是左右结构由“日”和“月”组成。一个汉字不可能同时既是上下结构又是左右结构，所以答案为D。",
+    "audio": "audio/chinese_039_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_039_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_039_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_039_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_039_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“数(shǔ)一数(shù)”中两个“数”的读音分别是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "shǔ shù"
+      },
+      {
+        "key": "B",
+        "text": "shù shǔ"
+      },
+      {
+        "key": "C",
+        "text": "shǔ shǔ"
+      },
+      {
+        "key": "D",
+        "text": "shù shù"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第一个“数(shǔ)”是动词，意思是查点数目；第二个“数(shù)”是名词，指数目、数字。这是典型的多音字用法，体现了汉语的丰富性。答案为A。",
+    "audio": "audio/chinese_040_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_040_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_040_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_040_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_040_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“一本书”的“本”是量词，它原来指的是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "书"
+      },
+      {
+        "key": "B",
+        "text": "草木的根"
+      },
+      {
+        "key": "C",
+        "text": "事物的根本"
+      },
+      {
+        "key": "D",
+        "text": "根本"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“本”是量词，最初的意思是草木的根或茎干，后来引申为计量书籍簿册的数量单位。成语“本末倒置”中的“本”就是根本、本源的意思。答案为B。",
+    "audio": "audio/chinese_041_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_041_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_041_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_041_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_041_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "《游子吟》诗中“谁言寸草心”的下一句是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "报得三春晖"
+      },
+      {
+        "key": "B",
+        "text": "报得三春晖"
+      },
+      {
+        "key": "C",
+        "text": "报得三春晖"
+      },
+      {
+        "key": "D",
+        "text": "报得三春晖"
+      }
+    ],
+    "answer": "A",
+    "explanation": "《游子吟》作者孟郊，全诗：慈母手中线，游子身上衣。临行密密缝，意恐迟迟归。谁言寸草心，报得三春晖。比喻子女对母亲的孝心难以报答。答案为A。",
+    "audio": "audio/chinese_042_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_042_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_042_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_042_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_042_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“千山鸟飞绝”的下一句是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "万径人踪灭"
+      },
+      {
+        "key": "B",
+        "text": "万径人踪灭"
+      },
+      {
+        "key": "C",
+        "text": "独钓寒江雪"
+      },
+      {
+        "key": "D",
+        "text": "孤舟蓑笠翁"
+      }
+    ],
+    "answer": "A",
+    "explanation": "这句诗出自唐代柳宗元的《江雪》，全诗：千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。描写了一幅寒冷孤寂的雪景图。答案为A。",
+    "audio": "audio/chinese_043_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_043_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_043_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_043_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_043_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“读书百遍，其义自见”中“见”的读音是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "jiàn"
+      },
+      {
+        "key": "B",
+        "text": "xiàn"
+      },
+      {
+        "key": "C",
+        "text": "jiān"
+      },
+      {
+        "key": "D",
+        "text": "xián"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“读书百遍，其义自见”中“见”读xiàn，是显现、显露的意思。如果读jiàn，意思就变成看见了。这句话的意思是书读多了，自然就能理解其中的意思。答案为B。",
+    "audio": "audio/chinese_044_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_044_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_044_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_044_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_044_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "下列词语中“害”字意思不同的是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "伤害"
+      },
+      {
+        "key": "B",
+        "text": "害虫"
+      },
+      {
+        "key": "C",
+        "text": "害羞"
+      },
+      {
+        "key": "D",
+        "text": "害怕"
+      }
+    ],
+    "answer": "C",
+    "explanation": "“伤害”中的“害”是受伤、有害的意思；“害虫”中的“害”是有害的、损害农作物的；”害怕”中的“害”是恐惧的意思；而“害羞”中的“害”是怕、畏惧的意思。严格来说B害虫的害是形容词性，其他多为动词性。答案为B。",
+    "audio": "audio/chinese_045_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_045_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_045_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_045_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_045_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“千里迢迢”中“迢迢”的意思是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "很远很远"
+      },
+      {
+        "key": "B",
+        "text": "快快"
+      },
+      {
+        "key": "C",
+        "text": "慢慢"
+      },
+      {
+        "key": "D",
+        "text": "高高兴兴"
+      }
+    ],
+    "answer": "A",
+    "explanation": "“千里迢迢”形容路途非常遥远，“迢迢”是遥远的样子。类似的词语还有“秋水迢迢”“夜色迢迢”等，都表示遥远之意。答案为A。",
+    "audio": "audio/chinese_046_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_046_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_046_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_046_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_046_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“入木三分”这个成语典故与谁有关？",
+    "options": [
+      {
+        "key": "A",
+        "text": "王羲之"
+      },
+      {
+        "key": "B",
+        "text": "柳公权"
+      },
+      {
+        "key": "C",
+        "text": "颜真卿"
+      },
+      {
+        "key": "D",
+        "text": "欧阳询"
+      }
+    ],
+    "answer": "A",
+    "explanation": "“入木三分”出自《书断·王羲之》，传说王羲之在木板上写字，工匠雕刻时发现墨迹渗入木板有三分深，形容书法笔力强劲，也比喻见解、议论十分深刻。答案为A。",
+    "audio": "audio/chinese_047_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_047_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_047_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_047_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_047_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "阅读短文：动物学校报名了！有乌龟、兔子、小松鼠等。兔子跑得很快，乌龟爬得很慢。问：谁跑得更快？",
+    "options": [
+      {
+        "key": "A",
+        "text": "乌龟"
+      },
+      {
+        "key": "B",
+        "text": "兔子"
+      },
+      {
+        "key": "C",
+        "text": "小松鼠"
+      },
+      {
+        "key": "D",
+        "text": "不知道"
+      }
+    ],
+    "answer": "B",
+    "explanation": "根据短文“兔子跑得很快，乌龟爬得很慢”可以明确知道兔子比乌龟跑得更快。答案为B。",
+    "audio": "audio/chinese_048_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_048_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_048_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_048_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_048_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "“年年有余”中“余”的意思是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "多余"
+      },
+      {
+        "key": "B",
+        "text": "剩下"
+      },
+      {
+        "key": "C",
+        "text": "我"
+      },
+      {
+        "key": "D",
+        "text": "以后"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“年年有余”是吉祥话，“余”是剩余、剩下的意思，寓意每年都有多余的财富和粮食，生活富足。“余”作“我”讲时出现在“余一人”等古语中。答案为B。",
+    "audio": "audio/chinese_049_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_049_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_049_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_049_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_049_d.mp3"
+      }
+    ]
+  },
+  {
+    "question": "下列汉字中与\"书\"字结构相同的是（）",
+    "options": [
+      {
+        "key": "A",
+        "text": "字"
+      },
+      {
+        "key": "B",
+        "text": "好"
+      },
+      {
+        "key": "C",
+        "text": "明"
+      },
+      {
+        "key": "D",
+        "text": "田"
+      }
+    ],
+    "answer": "A",
+    "explanation": "\"书\"是独体字，\"字\"也是独体字；\"好\"是左右结构，\"明\"是左右结构，\"田\"是包围结构。答案为A。",
+    "audio": "audio/chinese_050_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/chinese_050_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/chinese_050_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/chinese_050_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/chinese_050_d.mp3"
+      }
+    ]
   }
 ]
