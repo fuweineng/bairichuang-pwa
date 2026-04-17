@@ -313,6 +313,11 @@ async function init() {
     if (e.target.id === 'donate-modal') document.getElementById('donate-modal').style.display = 'none';
   });
 
+  // Support modal close
+  document.getElementById('support-modal')?.addEventListener('click', e => {
+    if (e.target.id === 'support-modal') document.getElementById('support-modal').style.display = 'none';
+  });
+
   console.log('百日闯 PWA 初始化完成');
 }
 
@@ -1537,9 +1542,12 @@ async function renderSettings() {
       </div>
     </div>
 
-    <div class="settings-card" style="padding:10px 14px">
-      <button class="donate-btn" data-action="show-donate-modal" style="width:100%;padding:10px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
-        支持百日闯
+    <div class="settings-card" style="padding:10px 14px;display:flex;flex-direction:column;gap:8px">
+      <button class="donate-btn" data-action="show-support-modal" style="flex:1;padding:10px;background:linear-gradient(135deg,#6bcb77,#4a9f5a);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
+        支持
+      </button>
+      <button class="donate-btn" data-action="show-donate-modal" style="flex:1;padding:10px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
+        强烈支持
       </button>
     </div>
 
@@ -1804,6 +1812,14 @@ async function handleClick(e) {
 
     case 'show-donate-modal':
       document.getElementById('donate-modal').style.display = 'flex';
+      break;
+
+    case 'show-support-modal':
+      document.getElementById('support-modal').style.display = 'flex';
+      break;
+
+    case 'close-support-modal':
+      document.getElementById('support-modal').style.display = 'none';
       break;
 
     case 'close-donate-modal':
