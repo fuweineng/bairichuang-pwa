@@ -1372,6 +1372,28 @@ main {
   white-space: nowrap;
 }
 
+.math-symbol-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.math-sym-btn {
+  min-width: 36px;
+  height: 34px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f8f8f8;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0 6px;
+}
+
+.math-sym-btn:active {
+  background: #e8e8e8;
+}
+
 .fill-feedback {
   font-size: 0.88rem;
   margin-top: 8px;

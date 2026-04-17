@@ -801,19 +801,31 @@ function stripMarkdown(text) {
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/```[\s\S]*?```/g, '')
     .replace(/`([^`]+)`/g, '$1')
+    // LaTeX inline math: $...$ → just content
     .replace(/\$+([^$\n]+)\$+/g, '$1')
+    // LaTeX block: $$...$$ → remove
     .replace(/\$\$[\s\S]*?\$\$/g, '')
+    // Image/links: ![alt](url) → alt, [text](url) → text
     .replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    .replace(/^#{1,6}\s+/gm, '')
+    // Headings: ## 中文标题 → just text (strip leading ## and spaces)
+    .replace(/^#{1,6}\s+[\u4e00-\u9fa5a-zA-Z0-9].*/gm, m => m.replace(/^#{1,6}\s+/, ''))
+    // Bold with space inside: ** 65° ** → 65°
+    .replace(/\*\*\s*([^*]+?)\s*\*\*/g, '$1')
+    // Bold standard: **text** → text
     .replace(/\*\*([^*]+)\*\*/g, '$1')
-    .replace(/\*([^*]+)\*/g, '$1')
+    // Italic with space: * text * → text
+    .replace(/(?<!\*)\*([^*]+?)\*(?!\*)/g, '$1')
     .replace(/__([^_]+)__/g, '$1')
-    .replace(/_([^_]+)_/g, '$1')
-    .replace(/^[-*+]\s+/gm, '· ')
-    .replace(/^\d+\.\s+/gm, '')
+    .replace(/_(?![*])([^_]+)_(?![*_])/g, '$1')
+    // List markers: "- item" or "* item" → "· item"
+    .replace(/^[-*+]\s+(?=[^\n])/gm, '· ')
+    // Numbered list: "1. item" → "· item"
+    .replace(/^\d+\.\s+(?=[^\n])/gm, '· ')
+    // Horizontal rules and dashes
     .replace(/^---\s*$/gm, '')
     .replace(/---/g, '')
+    // Collapse blank lines
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 }
@@ -964,6 +976,11 @@ function renderQuestion() {
     ? `<div class="question-image-grid">${imageSources.map(src => `<img class="question-image" src="${src}" alt="题目配图" loading="lazy" />`).join('')}</div>`
     : '';
 
+  const mathSymbols = ['²', '³', '√', '°', '±', 'π', '∠', '×', '÷', 'Δ', 'α', 'β'];
+  const mathSymbolBtns = mathSymbols.map(s =>
+    `<button type="button" class="math-sym-btn" onclick="var inp=document.getElementById('fill-answer-input');inp.value+=('${s}');inp.focus()">${s}</button>`
+  ).join('');
+
   // ── LISTENING TYPE: dictation ──────────────────────────────────────
   if (q.type === 'dictation') {
     const listenBtn = `<button class="listen-btn" id="listen-btn" data-action="listen">听句子</button>`;
@@ -977,9 +994,11 @@ function renderQuestion() {
       ${imageBlock}
       <div class="question-text">请填写你听到的关键词：</div>
       <div class="fill-area">
+        <div class="math-symbol-toolbar">${mathSymbolBtns}</div>
         <div class="fill-input-row">
           <input type="text" class="fill-input" id="fill-answer-input"
-            placeholder="输入答案后按回车或点击提交" autocomplete="off" />
+            placeholder="输入答案后按回车或点击提交" autocomplete="off"
+            onkeydown="if(event.key==='Enter')document.getElementById('fill-answer-input') && document.getElementById('fill-answer-input').closest('.fill-area').querySelector('[data-action]').click()" />
           <button class="fill-submit-btn primary-btn" data-action="dictation-submit">提交</button>
         </div>
       </div>
@@ -1058,6 +1077,7 @@ function renderQuestion() {
 
   const inputArea = isFillOrShort
     ? `<div class="fill-area">
+         <div class="math-symbol-toolbar">${mathSymbolBtns}</div>
          <div class="fill-input-row">
            <input type="text" class="fill-input" id="fill-answer-input" placeholder="${q.type === 'short_answer' ? '写出答案...' : '填写答案...'}" autocomplete="off" onkeydown="if(event.key==='Enter')document.getElementById('fill-answer-input') && document.getElementById('fill-answer-input').closest('.fill-area').querySelector('[data-action]').click()" />
            <button class="fill-submit-btn primary-btn" data-action="fill-submit">提交</button>
@@ -1123,13 +1143,13 @@ async function handleAnswer(choiceIdx) {
       const found = q.choices.find(c => c.label === q.answer);
       if (found) correctLabel = `${q.answer}. ${found.text}`;
     }
-    if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">正确</span>`;
-    } else {
-      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${correctLabel}</span>`;
-    }
+    // 下一题按钮在顶部，解释在下方（避免被长解释推走）
+    const feedbackContent = isCorrect
+      ? `<span class="fb-correct">正确</span>`
+      : `<span class="fb-wrong">错误，正确答案是：${correctLabel}</span>`;
+    fb.innerHTML = `<button class="primary-btn" data-action="next-question" style="margin-top:8px">下一题 →</button>`;
     appendExplanation(fb, q);
-    fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
+    fb.innerHTML += feedbackContent;
   }
 }
 
@@ -1152,13 +1172,12 @@ async function handleDictationSubmit() {
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
-    if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">正确</span>`;
-    } else {
-      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(q.answer)}</span>`;
-    }
+    const feedbackContent = isCorrect
+      ? `<span class="fb-correct">正确</span>`
+      : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(q.answer)}</span>`;
+    fb.innerHTML = `<button class="primary-btn" data-action="dictation-next" style="margin-top:8px">下一题 →</button>`;
     appendExplanation(fb, q);
-    fb.innerHTML += `<button class="primary-btn" data-action="dictation-next" style="margin-top:10px">下一题 →</button>`;
+    fb.innerHTML += feedbackContent;
   }
 }
 
@@ -1185,15 +1204,14 @@ async function handlePDSubmit() {
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
-    if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">正确</span>`;
-    } else {
-      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(sq.answer)}</span>`;
-    }
-    appendExplanation(fb, { ...sq, passage: q.passage });
-    fb.innerHTML += `<button class="primary-btn" data-action="pd-next" style="margin-top:10px">${
+    const feedbackContent = isCorrect
+      ? `<span class="fb-correct">正确</span>`
+      : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(sq.answer)}</span>`;
+    fb.innerHTML = `<button class="primary-btn" data-action="pd-next" style="margin-top:8px">${
       subIdx + 1 >= (q.questions || []).length ? '短文结束 →' : '下一题 →'
     }</button>`;
+    appendExplanation(fb, { ...sq, passage: q.passage });
+    fb.innerHTML += feedbackContent;
   }
 }
 
