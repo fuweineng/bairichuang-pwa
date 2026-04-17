@@ -1,21 +1,4 @@
 {
-  "version": "9.0.0",
-  "questionBankVersion": "20260415-2-20260417",
-  "audioVersion": "20260413",
-  "updatedAt": "2026-04-17",
-  "changelog": "feat: v9.0.0 - 多学段(小学/初中/高中); 支持/强烈支持按钮拆分; 理科explanation完成",
-  "sections": {
-    "junior": {
-      "name": "初中",
-      "subjects": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography", "politics"]
-    },
-    "primary": {
-      "name": "小学",
-      "subjects": ["chinese", "math", "english"]
-    },
-    "senior": {
-      "name": "高中",
-      "subjects": ["chinese", "math", "english", "physics", "chemistry", "biology", "history", "geography", "politics"]
-    }
-  }
+  "version": "8.8.1-20260417",
+  "changelog": "fix: session-end正确率合并一行+下一题按钮始终置顶(buildFeedbackHTML替换appendExplanation)"
 }
