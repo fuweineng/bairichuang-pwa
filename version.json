@@ -1,9 +1,9 @@
 {
-  "version": "9.0.2-20260417",
+  "version": "9.0.3-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "fix: 首次启动弹窗学段选择; Settings支持合并; PWA安装改为首页modal; support-modal第三点改为强烈支持",
+  "changelog": "feat: Settings题库与数据显示三学段切换按钮; 当前学段高亮",
   "sections": {
     "junior": {
       "name": "初中",

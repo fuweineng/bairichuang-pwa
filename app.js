@@ -1598,7 +1598,15 @@ async function renderSettings() {
 
     <div class="settings-card">
       <div class="settings-section-title">题库与数据</div>
-      <div id="qb-stats" class="settings-hint" style="padding:4px 0 6px;font-size:0.8rem">加载中...</div>
+      <div style="display:flex;gap:6px;margin-bottom:10px">
+        ${['junior','primary','senior'].map(s => `
+          <button class="secondary-btn section-data-btn${state.settings.section === s ? ' active' : ''}"
+            data-action="choose-section" data-section="${s}"
+            style="flex:1;padding:7px 4px;font-size:0.75rem;${state.settings.section === s ? 'background:#4CAF50;color:white;border-color:#4CAF50' : ''}">
+            ${s === 'junior' ? '初中' : s === 'primary' ? '小学' : '高中'}
+          </button>`).join('')}
+      </div>
+      <div id="qb-stats" class="settings-hint" style="font-size:0.8rem;padding:4px 0 8px">加载中...</div>
       <div style="display:flex;gap:6px">
         <button class="secondary-btn" data-action="upgrade-questions" id="upgrade-btn" style="flex:1;padding:8px;font-size:0.8rem">同步题库</button>
         <button class="secondary-btn" data-action="clear-qb-cache" style="flex:1;padding:8px;font-size:0.8rem">清缓存</button>
