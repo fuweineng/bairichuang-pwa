@@ -1,52 +1,1032 @@
 [
-  {"id": "primary-math-001", "type": "choice", "subject": "math", "difficulty": 1, "grade": 3, "knowledgeTags": ["100以内加法"], "question": "23 + 45 = ?", "options": ["68", "58", "78", "67"], "answer": "68", "explanation": "23+45=68"},
-  {"id": "primary-math-002", "type": "choice", "subject": "math", "difficulty": 1, "grade": 3, "knowledgeTags": ["100以内减法"], "question": "82 - 37 = ?", "options": ["45", "55", "35", "65"], "answer": "45", "explanation": "82-37=45"},
-  {"id": "primary-math-003", "type": "choice", "subject": "math", "difficulty": 1, "grade": 3, "knowledgeTags": ["乘法口诀"], "question": "7 × 8 = ?", "options": ["56", "54", "64", "48"], "answer": "56", "explanation": "七八五十六"},
-  {"id": "primary-math-004", "type": "choice", "subject": "math", "difficulty": 1, "grade": 3, "knowledgeTags": ["除法基础"], "question": "36 ÷ 6 = ?", "options": ["6", "5", "7", "4"], "answer": "6", "explanation": "六六三十六"},
-  {"id": "primary-math-005", "type": "choice", "subject": "math", "difficulty": 1, "grade": 4, "knowledgeTags": ["面积"], "question": "长方形长5米，宽3米，面积是多少平方米？", "options": ["15", "8", "16", "10"], "answer": "15", "explanation": "5×3=15平方米"},
-  {"id": "primary-math-006", "type": "choice", "subject": "math", "difficulty": 1, "grade": 4, "knowledgeTags": ["周长"], "question": "正方形边长4厘米，周长是多少厘米？", "options": ["16", "8", "12", "20"], "answer": "16", "explanation": "4×4=16厘米"},
-  {"id": "primary-math-007", "type": "choice", "subject": "math", "difficulty": 1, "grade": 4, "knowledgeTags": ["分数"], "question": "1/4 + 1/4 = ?", "options": ["1/2", "2/4", "1/8", "2/8"], "answer": "1/2", "explanation": "同分母分数相加"},
-  {"id": "primary-math-008", "type": "choice", "subject": "math", "difficulty": 1, "grade": 4, "knowledgeTags": ["小数"], "question": "0.3 + 0.5 = ?", "options": ["0.8", "0.8", "0.35", "0.15"], "answer": "0.8", "explanation": "0.3+0.5=0.8"},
-  {"id": "primary-math-009", "type": "choice", "subject": "math", "difficulty": 1, "grade": 5, "knowledgeTags": ["公倍数"], "question": "6和8的最小公倍数是？", "options": ["24", "48", "12", "16"], "answer": "24", "explanation": "6和8的最小公倍数是24"},
-  {"id": "primary-math-010", "type": "choice", "subject": "math", "difficulty": 1, "grade": 5, "knowledgeTags": ["公因数"], "question": "12和18的最大公因数是？", "options": ["6", "9", "3", "12"], "answer": "6", "explanation": "12和18的最大公因数是6"},
-  {"id": "primary-math-011", "type": "choice", "subject": "math", "difficulty": 1, "grade": 5, "knowledgeTags": ["方程"], "question": "x + 5 = 12，x = ?", "options": ["7", "6", "8", "17"], "answer": "7", "explanation": "x=12-5=7"},
-  {"id": "primary-math-012", "type": "choice", "subject": "math", "difficulty": 1, "grade": 5, "knowledgeTags": ["统计"], "question": "2、4、6、8的平均数是？", "options": ["5", "4", "6", "20"], "answer": "5", "explanation": "(2+4+6+8)/4=5"},
-  {"id": "primary-math-013", "type": "choice", "subject": "math", "difficulty": 2, "grade": 5, "knowledgeTags": ["速度"], "question": "汽车每小时行驶60千米，3小时行驶多少千米？", "options": ["180", "63", "57", "20"], "answer": "180", "explanation": "60×3=180千米"},
-  {"id": "primary-math-014", "type": "choice", "subject": "math", "difficulty": 2, "grade": 5, "knowledgeTags": ["分数乘法"], "question": "1/2 × 4 = ?", "options": ["2", "4/2", "1/8", "4"], "answer": "2", "explanation": "1/2×4=2"},
-  {"id": "primary-math-015", "type": "choice", "subject": "math", "difficulty": 2, "grade": 5, "knowledgeTags": ["三角形内角和"], "question": "三角形的内角和是？", "options": ["180°", "360°", "90°", "270°"], "answer": "180°", "explanation": "三角形内角和是180度"},
-  {"id": "primary-math-016", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["比例"], "question": "3:6 = 6:?，?是几？", "options": ["12", "9", "18", "3"], "answer": "12", "explanation": "3:6=6:12"},
-  {"id": "primary-math-017", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["百分数"], "question": "50的20%是多少？", "options": ["10", "25", "5", "20"], "answer": "10", "explanation": "50×0.2=10"},
-  {"id": "primary-math-018", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["圆柱体积"], "question": "圆柱底面半径2，高3，体积是？", "options": ["12π", "6π", "18π", "24π"], "answer": "12π", "explanation": "π×2²×3=12π"},
-  {"id": "primary-math-019", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["圆锥体积"], "question": "圆锥底面半径3，高4，体积是？", "options": ["12π", "36π", "9π", "24π"], "answer": "12π", "explanation": "1/3×π×3²×4=12π"},
-  {"id": "primary-math-020", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["负数"], "question": "-5的相反数是？", "options": ["5", "-5", "0", "10"], "answer": "5", "explanation": "-5的相反数是5"},
-  {"id": "primary-math-021", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["数轴"], "question": "数轴上，原点右边的数是？", "options": ["正数", "负数", "零", "无法确定"], "answer": "正数", "explanation": "原点右边是正数"},
-  {"id": "primary-math-022", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["运算律"], "question": "25 × 4 × 25 = ?", "options": ["2500", "100", "500", "250"], "answer": "2500", "explanation": "25×4=100, 100×25=2500"},
-  {"id": "primary-math-023", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["估算"], "question": "298 ≈ ?", "options": ["300", "290", "280", "310"], "answer": "300", "explanation": "298四舍五入约为300"},
-  {"id": "primary-math-024", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["找规律"], "question": "2、4、8、16、？", "options": ["32", "24", "20", "64"], "answer": "32", "explanation": "后一项是前一项的2倍"},
-  {"id": "primary-math-025", "type": "choice", "subject": "math", "difficulty": 2, "grade": 6, "knowledgeTags": ["可能性"], "question": "盒子里有3个红球，7个白球，摸到红球的可能性是？", "options": ["3/10", "7/10", "1/2", "1/10"], "answer": "3/10", "explanation": "3个红球/总共10个球"},
-  {"id": "primary-math-026", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["应用题"], "question": "小明有20元，买了3本笔记本，每本4元，还剩多少元？", "options": ["8", "12", "17", "7"], "answer": "8", "explanation": "20-3×4=8元"},
-  {"id": "primary-math-027", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["应用题"], "question": "一批货物，第一天运走1/3，第二天运走1/4，还剩几分之几？", "options": ["5/12", "7/12", "1/2", "1/12"], "answer": "5/12", "explanation": "1-1/3-1/4=5/12"},
-  {"id": "primary-math-028", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["应用题"], "question": "正方形边长扩大2倍，面积扩大几倍？", "options": ["4", "2", "8", "16"], "answer": "4", "explanation": "面积=边长²，扩大2倍→面积扩大4倍"},
-  {"id": "primary-math-029", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["逻辑推理"], "question": "A比B高，C比A矮，谁最高？", "options": ["A", "B", "C", "无法确定"], "answer": "A", "explanation": "A比B高，C比A矮，所以A最高"},
-  {"id": "primary-math-030", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["方位"], "question": "太阳从东方升起，从西方落下，北面在哪？", "options": ["左面", "右面", "前面", "后面"], "answer": "左面", "explanation": "面对太阳升起方向，北在左面"},
-  {"id": "primary-math-031", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["时间计算"], "question": "8:30出发，11:00到达，路上用了多少分钟？", "options": ["150", "180", "120", "90"], "answer": "150", "explanation": "11:00-8:30=2小时30分=150分钟"},
-  {"id": "primary-math-032", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["折扣"], "question": "原价100元，打8折后是？", "options": ["80", "20", "90", "8"], "answer": "80", "explanation": "100×0.8=80元"},
-  {"id": "primary-math-033", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["利息"], "question": "本金1000元，年利率5%，一年利息是？", "options": ["50", "500", "5", "100"], "answer": "50", "explanation": "1000×5%=50元"},
-  {"id": "primary-math-034", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["统筹"], "question": "洗水壶1分钟，烧水8分钟，等水凉3分钟，泡茶2分钟，最少需要几分钟？", "options": ["11", "14", "8", "13"], "answer": "11", "explanation": "1+8+2=11分钟（烧水时可以等水凉）"},
-  {"id": "primary-math-035", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["观察物体"], "question": "从正面看是圆形的物体可能是？", "options": ["球", "正方体", "圆柱", "两者都可能"], "answer": "两者都可能", "explanation": "球和圆柱从正面看都可能看到圆形"},
-  {"id": "primary-math-036", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["图形的变换"], "question": "将图形顺时针旋转90度，图形的大小？", "options": ["不变", "变大", "变小", "无法确定"], "answer": "不变", "explanation": "旋转不改变图形大小"},
-  {"id": "primary-math-037", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["编码"], "question": "邮政编码210000表示哪里？", "options": ["南京", "北京", "上海", "杭州"], "answer": "南京", "explanation": "21开头表示南京"},
-  {"id": "primary-math-038", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["搭配"], "question": "3件上衣，2条裤子，有几种搭配？", "options": ["6", "5", "9", "4"], "answer": "6", "explanation": "3×2=6种搭配"},
-  {"id": "primary-math-039", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["等量代换"], "question": "1个苹果=2个梨，1个梨=3个橘子，1个苹果=几个橘子？", "options": ["6", "5", "9", "3"], "answer": "6", "explanation": "1苹果=2梨=6橘子"},
-  {"id": "primary-math-040", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["周期问题"], "question": "1,1,2,3,5,8,13,...第8个数是？", "options": ["21", "20", "18", "34"], "answer": "21", "explanation": "斐波那契数列，第8个是21"},
-  {"id": "primary-math-041", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["植树问题"], "question": "一条路长100米，两端都种树，每隔10米种一棵，共种几棵？", "options": ["11", "10", "9", "100"], "answer": "11", "explanation": "100/10+1=11棵"},
-  {"id": "primary-math-042", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["和差问题"], "question": "两数之和10，之差2，大数是？", "options": ["6", "4", "8", "5"], "answer": "6", "explanation": "(10+2)/2=6"},
-  {"id": "primary-math-043", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["盈亏问题"], "question": "每人分3个多2个，每人分4个少2个，有几个人？", "options": ["4", "3", "5", "6"], "answer": "4", "explanation": "(2+2)/(4-3)=4人"},
-  {"id": "primary-math-044", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["平均速度"], "question": "去时速度4，回来速度6，平均速度是？", "options": ["4.8", "5", "5.2", "4.5"], "answer": "4.8", "explanation": "2/(1/4+1/6)=4.8"},
-  {"id": "primary-math-045", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["生活中的数学"], "question": "哪种形状的月饼盒包装更节省材料？", "options": ["圆柱体", "正方体", "长方体", "无法确定"], "answer": "圆柱体", "explanation": "相同体积下，球形表面积最小"},
-  {"id": "primary-math-046", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["数字规律"], "question": "1,4,9,16,25,？", "options": ["36", "30", "49", "32"], "answer": "36", "explanation": "这是平方数列：1²,2²,3²,4²,5²,6²"},
-  {"id": "primary-math-047", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["抽屉原理"], "question": "3个红球，4个蓝球，至少摸几个才能保证有2个同色？", "options": ["3", "2", "4", "5"], "answer": "3", "explanation": "抽屉原理：最坏情况摸到红、蓝、蓝"},
-  {"id": "primary-math-048", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["分类计数"], "question": "用0,1,2,3能组成多少个三位数？", "options": ["18", "24", "12", "27"], "answer": "18", "explanation": "百位不能为0：3×3×2=18个"},
-  {"id": "primary-math-049", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["烙饼问题"], "question": "一个锅同时放2张饼，烙熟1张饼要4分钟（两面），烙3张饼最少要几分钟？", "options": ["12", "8", "6", "4"], "answer": "12", "explanation": "优化：第一次烙1和2正面，第二次烙1反和3正，第三次烙2和3反"},
-  {"id": "primary-math-050", "type": "choice", "subject": "math", "difficulty": 3, "grade": 6, "knowledgeTags": ["综合应用"], "question": "一根绳子用去1/3，又用去余下的1/2，还剩10米，绳子原长？", "options": ["30", "20", "40", "15"], "answer": "30", "explanation": "设原长x，用去1/3后剩2x/3，又用去一半即x/3，还剩x/3=10，所以x=30"}
+  {
+    "id": "primary-math-001",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "100以内加法"
+    ],
+    "question": "23 + 45 = ?",
+    "options": [
+      "68",
+      "58",
+      "78",
+      "67"
+    ],
+    "answer": "68",
+    "explanation": "23+45=68"
+  },
+  {
+    "id": "primary-math-002",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "100以内减法"
+    ],
+    "question": "82 - 37 = ?",
+    "options": [
+      "45",
+      "55",
+      "35",
+      "65"
+    ],
+    "answer": "45",
+    "explanation": "82-37=45"
+  },
+  {
+    "id": "primary-math-003",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "乘法口诀"
+    ],
+    "question": "7 × 8 = ?",
+    "options": [
+      "56",
+      "54",
+      "64",
+      "48"
+    ],
+    "answer": "56",
+    "explanation": "七八五十六"
+  },
+  {
+    "id": "primary-math-004",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "除法基础"
+    ],
+    "question": "36 ÷ 6 = ?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "4"
+    ],
+    "answer": "6",
+    "explanation": "六六三十六"
+  },
+  {
+    "id": "primary-math-005",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "面积"
+    ],
+    "question": "长方形长5米，宽3米，面积是多少平方米？",
+    "options": [
+      "15",
+      "8",
+      "16",
+      "10"
+    ],
+    "answer": "15",
+    "explanation": "5×3=15平方米"
+  },
+  {
+    "id": "primary-math-006",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "周长"
+    ],
+    "question": "正方形边长4厘米，周长是多少厘米？",
+    "options": [
+      "16",
+      "8",
+      "12",
+      "20"
+    ],
+    "answer": "16",
+    "explanation": "4×4=16厘米"
+  },
+  {
+    "id": "primary-math-007",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "分数"
+    ],
+    "question": "1/4 + 1/4 = ?",
+    "options": [
+      "1/2",
+      "2/4",
+      "1/8",
+      "2/8"
+    ],
+    "answer": "1/2",
+    "explanation": "同分母分数相加"
+  },
+  {
+    "id": "primary-math-008",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "小数"
+    ],
+    "question": "0.3 + 0.5 = ?",
+    "options": [
+      "0.8",
+      "0.8",
+      "0.35",
+      "0.15"
+    ],
+    "answer": "0.8",
+    "explanation": "0.3+0.5=0.8"
+  },
+  {
+    "id": "primary-math-009",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "公倍数"
+    ],
+    "question": "6和8的最小公倍数是？",
+    "options": [
+      "24",
+      "48",
+      "12",
+      "16"
+    ],
+    "answer": "24",
+    "explanation": "6和8的最小公倍数是24"
+  },
+  {
+    "id": "primary-math-010",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "公因数"
+    ],
+    "question": "12和18的最大公因数是？",
+    "options": [
+      "6",
+      "9",
+      "3",
+      "12"
+    ],
+    "answer": "6",
+    "explanation": "12和18的最大公因数是6"
+  },
+  {
+    "id": "primary-math-011",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "方程"
+    ],
+    "question": "x + 5 = 12，x = ?",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "17"
+    ],
+    "answer": "7",
+    "explanation": "x=12-5=7"
+  },
+  {
+    "id": "primary-math-012",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "统计"
+    ],
+    "question": "2、4、6、8的平均数是？",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "20"
+    ],
+    "answer": "5",
+    "explanation": "(2+4+6+8)/4=5"
+  },
+  {
+    "id": "primary-math-013",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "速度"
+    ],
+    "question": "汽车每小时行驶60千米，3小时行驶多少千米？",
+    "options": [
+      "180",
+      "63",
+      "57",
+      "20"
+    ],
+    "answer": "180",
+    "explanation": "60×3=180千米"
+  },
+  {
+    "id": "primary-math-014",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "分数乘法"
+    ],
+    "question": "1/2 × 4 = ?",
+    "options": [
+      "2",
+      "4/2",
+      "1/8",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "1/2×4=2"
+  },
+  {
+    "id": "primary-math-015",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "三角形内角和"
+    ],
+    "question": "三角形的内角和是？",
+    "options": [
+      "180°",
+      "360°",
+      "90°",
+      "270°"
+    ],
+    "answer": "180°",
+    "explanation": "三角形内角和是180度"
+  },
+  {
+    "id": "primary-math-016",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "比例"
+    ],
+    "question": "3:6 = 6:?，?是几？",
+    "options": [
+      "12",
+      "9",
+      "18",
+      "3"
+    ],
+    "answer": "12",
+    "explanation": "3:6=6:12"
+  },
+  {
+    "id": "primary-math-017",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "百分数"
+    ],
+    "question": "50的20%是多少？",
+    "options": [
+      "10",
+      "25",
+      "5",
+      "20"
+    ],
+    "answer": "10",
+    "explanation": "50×0.2=10"
+  },
+  {
+    "id": "primary-math-018",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "圆柱体积"
+    ],
+    "question": "圆柱底面半径2，高3，体积是？",
+    "options": [
+      "12π",
+      "6π",
+      "18π",
+      "24π"
+    ],
+    "answer": "12π",
+    "explanation": "π×2²×3=12π"
+  },
+  {
+    "id": "primary-math-019",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "圆锥体积"
+    ],
+    "question": "圆锥底面半径3，高4，体积是？",
+    "options": [
+      "12π",
+      "36π",
+      "9π",
+      "24π"
+    ],
+    "answer": "12π",
+    "explanation": "1/3×π×3²×4=12π"
+  },
+  {
+    "id": "primary-math-020",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "负数"
+    ],
+    "question": "-5的相反数是？",
+    "options": [
+      "5",
+      "-5",
+      "0",
+      "10"
+    ],
+    "answer": "5",
+    "explanation": "-5的相反数是5"
+  },
+  {
+    "id": "primary-math-021",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "数轴"
+    ],
+    "question": "数轴上，原点右边的数是？",
+    "options": [
+      "正数",
+      "负数",
+      "零",
+      "无法确定"
+    ],
+    "answer": "正数",
+    "explanation": "原点右边是正数"
+  },
+  {
+    "id": "primary-math-022",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "运算律"
+    ],
+    "question": "25 × 4 × 25 = ?",
+    "options": [
+      "2500",
+      "100",
+      "500",
+      "250"
+    ],
+    "answer": "2500",
+    "explanation": "25×4=100, 100×25=2500"
+  },
+  {
+    "id": "primary-math-023",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "估算"
+    ],
+    "question": "298 ≈ ?",
+    "options": [
+      "300",
+      "290",
+      "280",
+      "310"
+    ],
+    "answer": "300",
+    "explanation": "298四舍五入约为300"
+  },
+  {
+    "id": "primary-math-024",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "找规律"
+    ],
+    "question": "2、4、8、16、？",
+    "options": [
+      "32",
+      "24",
+      "20",
+      "64"
+    ],
+    "answer": "32",
+    "explanation": "后一项是前一项的2倍"
+  },
+  {
+    "id": "primary-math-025",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "可能性"
+    ],
+    "question": "盒子里有3个红球，7个白球，摸到红球的可能性是？",
+    "options": [
+      "3/10",
+      "7/10",
+      "1/2",
+      "1/10"
+    ],
+    "answer": "3/10",
+    "explanation": "3个红球/总共10个球"
+  },
+  {
+    "id": "primary-math-026",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "应用题"
+    ],
+    "question": "小明有20元，买了3本笔记本，每本4元，还剩多少元？",
+    "options": [
+      "8",
+      "12",
+      "17",
+      "7"
+    ],
+    "answer": "8",
+    "explanation": "20-3×4=8元"
+  },
+  {
+    "id": "primary-math-027",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "应用题"
+    ],
+    "question": "一批货物，第一天运走1/3，第二天运走1/4，还剩几分之几？",
+    "options": [
+      "5/12",
+      "7/12",
+      "1/2",
+      "1/12"
+    ],
+    "answer": "5/12",
+    "explanation": "1-1/3-1/4=5/12"
+  },
+  {
+    "id": "primary-math-028",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "应用题"
+    ],
+    "question": "正方形边长扩大2倍，面积扩大几倍？",
+    "options": [
+      "4",
+      "2",
+      "8",
+      "16"
+    ],
+    "answer": "4",
+    "explanation": "面积=边长²，扩大2倍→面积扩大4倍"
+  },
+  {
+    "id": "primary-math-029",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "逻辑推理"
+    ],
+    "question": "A比B高，C比A矮，谁最高？",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "无法确定"
+    ],
+    "answer": "A",
+    "explanation": "A比B高，C比A矮，所以A最高"
+  },
+  {
+    "id": "primary-math-030",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "方位"
+    ],
+    "question": "太阳从东方升起，从西方落下，北面在哪？",
+    "options": [
+      "左面",
+      "右面",
+      "前面",
+      "后面"
+    ],
+    "answer": "左面",
+    "explanation": "面对太阳升起方向，北在左面"
+  },
+  {
+    "id": "primary-math-031",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "时间计算"
+    ],
+    "question": "8:30出发，11:00到达，路上用了多少分钟？",
+    "options": [
+      "150",
+      "180",
+      "120",
+      "90"
+    ],
+    "answer": "150",
+    "explanation": "11:00-8:30=2小时30分=150分钟"
+  },
+  {
+    "id": "primary-math-032",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "折扣"
+    ],
+    "question": "原价100元，打8折后是？",
+    "options": [
+      "80",
+      "20",
+      "90",
+      "8"
+    ],
+    "answer": "80",
+    "explanation": "100×0.8=80元"
+  },
+  {
+    "id": "primary-math-033",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "利息"
+    ],
+    "question": "本金1000元，年利率5%，一年利息是？",
+    "options": [
+      "50",
+      "500",
+      "5",
+      "100"
+    ],
+    "answer": "50",
+    "explanation": "1000×5%=50元"
+  },
+  {
+    "id": "primary-math-034",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "统筹"
+    ],
+    "question": "洗水壶1分钟，烧水8分钟，等水凉3分钟，泡茶2分钟，最少需要几分钟？",
+    "options": [
+      "11",
+      "14",
+      "8",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "1+8+2=11分钟（烧水时可以等水凉）"
+  },
+  {
+    "id": "primary-math-035",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "观察物体"
+    ],
+    "question": "从正面看是圆形的物体可能是？",
+    "options": [
+      "球",
+      "正方体",
+      "圆柱",
+      "两者都可能"
+    ],
+    "answer": "两者都可能",
+    "explanation": "球和圆柱从正面看都可能看到圆形"
+  },
+  {
+    "id": "primary-math-036",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "图形的变换"
+    ],
+    "question": "将图形顺时针旋转90度，图形的大小？",
+    "options": [
+      "不变",
+      "变大",
+      "变小",
+      "无法确定"
+    ],
+    "answer": "不变",
+    "explanation": "旋转不改变图形大小"
+  },
+  {
+    "id": "primary-math-037",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "编码"
+    ],
+    "question": "邮政编码210000表示哪里？",
+    "options": [
+      "南京",
+      "北京",
+      "上海",
+      "杭州"
+    ],
+    "answer": "南京",
+    "explanation": "21开头表示南京"
+  },
+  {
+    "id": "primary-math-038",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "搭配"
+    ],
+    "question": "3件上衣，2条裤子，有几种搭配？",
+    "options": [
+      "6",
+      "5",
+      "9",
+      "4"
+    ],
+    "answer": "6",
+    "explanation": "3×2=6种搭配"
+  },
+  {
+    "id": "primary-math-039",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "等量代换"
+    ],
+    "question": "1个苹果=2个梨，1个梨=3个橘子，1个苹果=几个橘子？",
+    "options": [
+      "6",
+      "5",
+      "9",
+      "3"
+    ],
+    "answer": "6",
+    "explanation": "1苹果=2梨=6橘子"
+  },
+  {
+    "id": "primary-math-040",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "周期问题"
+    ],
+    "question": "1,1,2,3,5,8,13,...第8个数是？",
+    "options": [
+      "21",
+      "20",
+      "18",
+      "34"
+    ],
+    "answer": "21",
+    "explanation": "斐波那契数列，第8个是21"
+  },
+  {
+    "id": "primary-math-041",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "植树问题"
+    ],
+    "question": "一条路长100米，两端都种树，每隔10米种一棵，共种几棵？",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "100"
+    ],
+    "answer": "11",
+    "explanation": "100/10+1=11棵"
+  },
+  {
+    "id": "primary-math-042",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "和差问题"
+    ],
+    "question": "两数之和10，之差2，大数是？",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "5"
+    ],
+    "answer": "6",
+    "explanation": "(10+2)/2=6"
+  },
+  {
+    "id": "primary-math-043",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "盈亏问题"
+    ],
+    "question": "每人分3个多2个，每人分4个少2个，有几个人？",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "(2+2)/(4-3)=4人"
+  },
+  {
+    "id": "primary-math-044",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "平均速度"
+    ],
+    "question": "去时速度4，回来速度6，平均速度是？",
+    "options": [
+      "4.8",
+      "5",
+      "5.2",
+      "4.5"
+    ],
+    "answer": "4.8",
+    "explanation": "2/(1/4+1/6)=4.8"
+  },
+  {
+    "id": "primary-math-045",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "生活中的数学"
+    ],
+    "question": "哪种形状的月饼盒包装更节省材料？",
+    "options": [
+      "圆柱体",
+      "正方体",
+      "长方体",
+      "无法确定"
+    ],
+    "answer": "圆柱体",
+    "explanation": "相同体积下，球形表面积最小"
+  },
+  {
+    "id": "primary-math-046",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "数字规律"
+    ],
+    "question": "1,4,9,16,25,？",
+    "options": [
+      "36",
+      "30",
+      "49",
+      "32"
+    ],
+    "answer": "36",
+    "explanation": "这是平方数列：1²,2²,3²,4²,5²,6²"
+  },
+  {
+    "id": "primary-math-047",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "抽屉原理"
+    ],
+    "question": "3个红球，4个蓝球，至少摸几个才能保证有2个同色？",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "抽屉原理：最坏情况摸到红、蓝、蓝"
+  },
+  {
+    "id": "primary-math-048",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "分类计数"
+    ],
+    "question": "用0,1,2,3能组成多少个三位数？",
+    "options": [
+      "18",
+      "24",
+      "12",
+      "27"
+    ],
+    "answer": "18",
+    "explanation": "百位不能为0：3×3×2=18个"
+  },
+  {
+    "id": "primary-math-049",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "烙饼问题"
+    ],
+    "question": "一个锅同时放2张饼，烙熟1张饼要4分钟（两面），烙3张饼最少要几分钟？",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "4"
+    ],
+    "answer": "12",
+    "explanation": "优化：第一次烙1和2正面，第二次烙1反和3正，第三次烙2和3反"
+  },
+  {
+    "id": "primary-math-050",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "综合应用"
+    ],
+    "question": "一根绳子用去1/3，又用去余下的1/2，还剩10米，绳子原长？",
+    "options": [
+      "30",
+      "20",
+      "40",
+      "15"
+    ],
+    "answer": "30",
+    "explanation": "设原长x，用去1/3后剩2x/3，又用去一半即x/3，还剩x/3=10，所以x=30"
+  },
+  {
+    "id": "math-primary-51",
+    "type": "choice",
+    "question": "把1到10这10个数字中最小的质数与最大的合数相加，结果是多少？",
+    "options": [
+      "A. 12",
+      "B. 11",
+      "C. 13",
+      "D. 14"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识数字1-10",
+    "explanation": "1到10中最小质数为2，最大合数为10，2+10=12。"
+  },
+  {
+    "id": "math-primary-52",
+    "type": "choice",
+    "question": "在算式 6 + 4 = ? 中，答案是多少？",
+    "options": [
+      "A. 9",
+      "B. 10",
+      "C. 11",
+      "D. 12"
+    ],
+    "answer": "B",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "10以内加减法",
+    "explanation": "6加4等于10"
+  },
+  {
+    "id": "math-primary-55",
+    "type": "choice",
+    "question": "一个两位数，十位是5，个位是7，这个数是（ ）。",
+    "options": [
+      "A. 57",
+      "B. 75",
+      "C. 53",
+      "D. 85"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识100以内数字",
+    "explanation": "十位是5、个位是7，十位在前，故该数为57。"
+  },
+  {
+    "id": "math-primary-58",
+    "type": "choice",
+    "question": "计算 345 + 478 = ?",
+    "options": [
+      "A. 823",
+      "B. 813",
+      "C. 833",
+      "D. 843"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "三位数加减法",
+    "explanation": "对齐相加，个位3+8=13写3进1，十位4+7+1=12写2进1，百位3+4+1=8，得823。"
+  },
+  {
+    "id": "math-primary-59",
+    "type": "choice",
+    "question": "下列说法中，哪个是正确的？",
+    "options": [
+      "A. 乘法是加法的简便运算",
+      "B. 乘法的结果是两个数的和",
+      "C. 乘法的运算只能用于整数",
+      "D. 乘法的符号是“÷”"
+    ],
+    "answer": "A",
+    "difficulty": 1,
+    "grade": 6,
+    "knowledge": "认识乘法",
+    "explanation": "乘法本质是把相同的数相加的快捷方式。"
+  }
 ]

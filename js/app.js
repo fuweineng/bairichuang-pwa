@@ -171,6 +171,27 @@ function bindEvents() {
     document.getElementById('checkin-modal').style.display = 'none';
   });
 
+  // Donate modal close
+  document.getElementById('donate-close-btn').addEventListener('click', () => {
+    document.getElementById('donate-modal').style.display = 'none';
+  });
+
+  // Support modal close
+  document.querySelector('[data-action="close-support-modal"]').addEventListener('click', () => {
+    document.getElementById('support-modal').style.display = 'none';
+  });
+
+  // PWA banner dismiss
+  document.querySelector('[data-action="dismiss-pwa"]').addEventListener('click', () => {
+    dismissPwaBanner();
+  });
+
+  // Support modal: install PWA button (point 3)
+  document.getElementById('support-install-pwa-btn').addEventListener('click', () => {
+    document.getElementById('support-modal').style.display = 'none';
+    installPWA();
+  });
+
   // Expose HTML onclick handlers
   window.startEntry = function(entry) {
     startPracticeSession(entry);

@@ -3172,7 +3172,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "AB∥CD，则弧AC=弧BD。弧AD=60°，圆周角定理：弧AD所对的圆周角∠ACB=30°。"
+    "explanation": "解析：  \n在圆O中，已知AB∥CD，弧AD=60°，需求∠ACB的度数。  \n由于AB∥CD，根据圆内平行弦的性质，两条平行弦所夹的弧相等，即弧AB=弧CD。同时，由平行线的性质，直线AC截平行线AB和CD，可得同位角∠BAC=∠ACD。根据圆周角定理，相等的圆周角所对的弧相等，因此弧BC=弧AD。  \n设弧AB的度数为x，则弧CD的度数为x（因弧AB=弧CD），弧BC的度数为60°（因弧BC=弧AD=60°），弧AD的度数为60°。  \n根据圆的周长为360°，有：  \n弧AB + 弧BC + 弧CD + 弧DA = 360°  \n代入得：x + 60° + x + 60° = 360°  \n2x + 120° = 360°  \n2x = 240°  \nx = 120°  \n因此弧AB的度数为120°。  \n∠ACB是圆周角，它所对的弧为弧AB，根据圆周角定理，∠ACB = 1/2 × 弧AB = 1/2 × 120° = 60°。  \n其他选项可能错误，因为未正确应用平行弦性质或圆周角定理。  \n因此，∠ACB的度数是60°，选A。"
   },
   {
     "id": "math-172",
@@ -3205,7 +3205,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "令y=0，得x²-4=0，解得x=±2。与x轴交点即y=0时的x值，所以是(2,0)和(-2,0)。"
+    "explanation": "函数 \\( y = x^2 - 4 \\) 的图象与 x 轴的交点坐标，就是方程 \\( y = 0 \\) 时 x 的值。因此，令 \\( y = 0 \\) 代入解析式：\n\\[\n0 = x^2 - 4\n\\]\n移项得：\n\\[\nx^2 = 4\n\\]\n两边同时开平方，得到：\n\\[\nx = \\pm 2\n\\]\n所以，与 x 轴的交点坐标为 \\( (-2, 0) \\) 和 \\( (2, 0) \\)。\n\n分析选项（假设选项内容）：\n- A 选项：\\( (-2, 0) \\) 和 \\( (2, 0) \\)——完整包含两个交点，正确。\n- B 选项：\\( (-2, 0) \\)——仅包含一个交点，不完整。\n- C 选项：\\( (2, 0) \\)——仅包含一个交点，不完整。\n- D 选项：\\( (0, -4) \\)——这是函数与 y 轴的交点（当 \\( x = 0 \\) 时 \\( y = -4 \\)），与 x 轴交点无关。\n\n因此，正确选项为 A。\n\n**结论：因此选 A**"
   },
   {
     "id": "math-173",
@@ -3238,7 +3238,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "平行四边形对角线互相平分，E为BC中点，利用相似三角形面积比等于相似比平方，可求得平行四边形面积为6。"
+    "explanation": "**解析：**\n\n首先分析几何配置：平行四边形ABCD中，E为BC中点，AE与对角线BD交于点O。已知三角形AOB面积为1，求平行四边形ABCD的面积。\n\n**方法一：坐标法（向量推导）**\n\n设A为原点，A=(0,0)，B=(b,0)，D=(d₁,d₂)，其中b>0，d₂>0保证面积为正。则C=B+D-A=(b+d₁, d₂)。\n\nE为BC中点，故E=(b+d₁/2, d₂/2)。\n\n直线AE的参数方程：A + t(E-A) = (t(b+d₁/2), t(d₂/2))，t∈[0,1]。\n\n直线BD的参数方程：B + s(D-B) = (b+s(d₁-b), s d₂)，s∈[0,1]。\n\n联立两直线方程求交点O：\n由t(d₂/2) = s d₂，得s = t/2。\n代入第一个方程：t(b+d₁/2) = b + (t/2)(d₁-b)\n整理得：2tb + t d₁ = 2b + t d₁ - t b\n化简：3tb = 2b\n由于b≠0，得t = 2/3，s = 1/3。\n\n因此O点坐标为：\n从AE参数式：O = ( (2/3)(b+d₁/2), (2/3)(d₂/2) ) = ( (2/3)b + (1/3)d₁, d₂/3 )\n从BD参数式验证一致。\n\n三角形AOB：底AB=b，高为O的纵坐标d₂/3，\n故面积S△AOB = 1/2 × b × (d₂/3) = (b d₂)/6。\n\n平行四边形ABCD的面积S = |b d₂| = b d₂（取正值）。\n\n由已知S△AOB=1，得b d₂/6 = 1，即b d₂ = 6，故S = 6。\n\n**方法二：面积比法（更简洁）**\n\n在平行四边形中，对角线BD将其分为两个等面积的三角形：△ABD和△BCD，故S△ABD = S△BCD = S/2。\n\n在△ABD中，点O在BD上，且AO与AE共线。由E为BC中点，可通过梅涅劳斯定理或向量关系证明BO:OD = 1:2（与平行四边形形状无关）。因此，在△ABD中，同高（从A到BD的距离）三角形面积比等于底边比：\nS△AOB : S△AOD = BO : OD = 1:2。\n\n设S△AOB = 1，则S△AOD = 2，故S△ABD = 1+2 = 3。\n由S△ABD = S/2，得S/2 = 3，解得S = 6。\n\n**结论：**\n\n无论采用坐标法还是面积比法，均得到平行四边形ABCD的面积为6。因此，正确答案为B。\n\n**因此选B。**"
   },
   {
     "id": "math-174",
@@ -3271,7 +3271,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "DE∥BC，则△ADE∽△ABC，相似比为AD:AB=1:3。面积比等于相似比的平方，所以面积比为1:9。"
+    "explanation": "解析：  \n由于 DE∥BC，根据平行线分线段成比例定理，有  \n\\[\n\\frac{AD}{AB} = \\frac{AE}{AC} = \\frac{DE}{BC}\n\\]  \n已知 AD:DB = 1:2，因此  \n\\[\nAD:AB = 1:(1+2) = 1:3\n\\]  \n所以相似三角形 △ADE 与 △ABC 的相似比为 1:3。  \n\n面积之比等于相似比的平方，因此  \n\\[\n\\frac{S_{\\triangle ADE}}{S_{\\triangle ABC}} = \\left(\\frac{1}{3}\\right)^2 = \\frac{1}{9}\n\\]  \n\n即 △ADE 与 △ABC 的面积之比为 1:9。  \n\n选项分析：  \n- A、B、C 选项可能为其他数值，但根据推导均不正确。  \n- D 选项为 1:9，符合推导结果。  \n\n因此选 **D**。"
   },
   {
     "id": "math-175",
@@ -3304,7 +3304,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "勾股定理：直角三角形两直角边的平方和等于斜边平方。AB²=AC²+BC²=3²+4²=25，所以AB=5。"
+    "explanation": "**解析：**\n\n**1. 先分析各选项的正误**\n\n由于这是一道数学选择题，选项未完整给出。但根据已知条件（AC=3，BC=4，直角在C点）：\n\n- 根据勾股定理，斜边AB应满足 $AB^2 = AC^2 + BC^2 = 3^2 + 4^2 = 25$\n- 因此 $AB = \\sqrt{25} = 5$\n\n所以正确的选项应该是AB = 5的那一项，即**选项C**。\n\n**2. 完整推导过程**\n\n**已知条件：**\n- 直角三角形ABC中，∠C = 90°（直角在C点）\n- AC = 3（一条直角边）\n- BC = 4（另一条直角边）\n- 求AB的长度（斜边）\n\n**解题思路：**\n这是直角三角形，已知两条直角边的长度，要求斜边的长度，直接应用勾股定理即可。\n\n**推导步骤：**\n\n**第一步：识别边和角的关系**\n\n由于∠C = 90°，所以：\n- AC和BC是两条直角边\n- AB是斜边（对边）\n\n**第二步：应用勾股定理**\n\n勾股定理：在直角三角形中，直角边的平方和等于斜边的平方。\n\n对于△ABC：\n$$AB^2 = AC^2 + BC^2$$\n\n**第三步：代入已知数值**\n\n$$AB^2 = 3^2 + 4^2$$\n$$AB^2 = 9 + 16$$\n$$AB^2 = 25$$\n\n**第四步：求平方根**\n\n$$AB = \\sqrt{25}$$\n$$AB = 5$$\n\n**3. 结论**\n\n因此，AB的长度是5。\n\n**因此选C**"
   },
   {
     "id": "math-176",
@@ -3337,7 +3337,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "等腰梯形对角线互相垂直。梯形面积=对角线乘积÷2=6×8÷2=24。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-201",
@@ -3357,7 +3357,7 @@
       "y=18x"
     ],
     "answer": "y=8x+10",
-    "explanation": "总费用=固定费用+单位费用×时长，因此 y=8x+10。"
+    "explanation": "解析：y=8x+10"
   },
   {
     "id": "math-202",
@@ -3376,7 +3376,7 @@
       "70",
       "70°"
     ],
-    "explanation": "等腰三角形两底角相等，∠ABC=∠ACB=(180°-40°)÷2=70°。"
+    "explanation": "解析：70°"
   },
   {
     "id": "math-203",
@@ -3396,7 +3396,7 @@
       "92"
     ],
     "answer": "90",
-    "explanation": "平均数=(88+92+90+95+85)÷5=90。"
+    "explanation": "解析：90"
   },
   {
     "id": "math-204",
@@ -3414,7 +3414,7 @@
       ">4",
       "x>4"
     ],
-    "explanation": "移项得3x>12，两边同时除以3，得到 x>4。"
+    "explanation": "解析：4"
   },
   {
     "id": "math-205",
@@ -3433,7 +3433,7 @@
       "D. -5/12"
     ],
     "answer": "A",
-    "explanation": "先将两分数通分，-3/4 = -9/12，5/6 = 10/12，两者相加得 1/12，已是最简分数。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-206",
@@ -3452,7 +3452,7 @@
       "D. 13"
     ],
     "answer": "D",
-    "explanation": "先算乘方：(-3)² = 9；再算除法：(-8) ÷ (-2) = 4；最后算加法：9 + 4 = 13。注意区分(-3)²与-3²的区别。"
+    "explanation": "解析：D"
   },
   {
     "id": "math-207",
@@ -3471,7 +3471,7 @@
       "D. 5"
     ],
     "answer": "A",
-    "explanation": "平方根指的是非负的那个根，即若 b ≥ 0 且 b^2 = a，则 b = √a。所以当 x^2 = 5 时，x 的平方根是 √5，即选项 A。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-208",
@@ -3490,7 +3490,7 @@
       "D. 0 与 5"
     ],
     "answer": "A",
-    "explanation": "将方程 x² - 5x + 6 = 0 因式分解得 (x-2)(x-3)=0，故根为 x=2 和 x=3，对应选项 A。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-209",
@@ -3509,7 +3509,7 @@
       "D. 6x + 27"
     ],
     "answer": "A",
-    "explanation": "先利用分配律展开：3(2x - 5) = 6x - 15，4(x + 3) = 4x + 12。原式变为 (6x - 15) - (4x + 12) = 6x - 15 - 4x - 12 = (6x - 4x) + (-15 - 12) = 2x - 27。因此正确答案是 A 选项。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-210",
@@ -3528,7 +3528,7 @@
       "D. 对称轴为直线 x = -2"
     ],
     "answer": "A",
-    "explanation": "将函数化为顶点式 y = (x-2)^2 + 3，可直接读出顶点坐标为 (2,3)。因为二次项系数为 1（正），抛物线开口向上，故选项 A 正确。选项 B 的开口方向错误；选项 C 的 y 轴截距应为函数在 x=0 时的值 0^2+3=3；选项 D 的对称轴应为 x=2，而非 x=-2。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-211",
@@ -3547,7 +3547,7 @@
       "D. 90°"
     ],
     "answer": "C",
-    "explanation": "根据三角形内角和定理，三角形的三个内角之和等于180°。因此∠C = 180° - (∠A + ∠B) = 180° - (30° + 70°) = 80°，选项C正确。"
+    "explanation": "解析：C"
   },
   {
     "id": "math-212",
@@ -3566,7 +3566,7 @@
       "D. 14"
     ],
     "answer": "B",
-    "explanation": "根据勾股定理，在直角三角形中，直角边的平方和等于斜边的平方。即AC²+BC²=AB²。代入已知得5²+BC²=13²，BC²=169-25=144，BC=√144=12。因此选项B正确。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-213",
@@ -3585,7 +3585,7 @@
       "D. 20 cm"
     ],
     "answer": "A",
-    "explanation": "全等三角形对应边相等，△ABC的每一条边在△DEF中都有长度相同的对应边。因此△DEF的周长等于△ABC的周长，即5 cm+7 cm+6 cm=18 cm。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-214",
@@ -3604,7 +3604,7 @@
       "D. 5 cm"
     ],
     "answer": "C",
-    "explanation": "在同圆中，两条弦相交于点E时，满足交点定理：AE·EB = CE·ED。代入已知数值得到 3×5 = 4×DE，解得 DE = (3×5)/4 = 15/4 = 3.75 cm。"
+    "explanation": "解析：C"
   },
   {
     "id": "math-215",
@@ -3623,7 +3623,7 @@
       "D. 251.2 cm³"
     ],
     "answer": "A",
-    "explanation": "圆柱的体积公式为 V=πr²h。代入 r=4 cm，h=10 cm，π≈3.14，得 V≈3.14×4²×10=3.14×16×10=502.4 cm³。因此选项 A 正确。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-216",
@@ -3642,7 +3642,7 @@
       "D. 10 cm"
     ],
     "answer": "B",
-    "explanation": "因为三角形ABC与三角形DEF相似，对应边成比例。已知AB对应DE，比例为 8/4 = 2，即三角形DEF的尺寸是三角形ABC的2倍。因此BC对应EF，BC = EF / 2 = 12 / 2 = 6 cm。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-217",
@@ -3661,7 +3661,7 @@
       "D. (2, -3)"
     ],
     "answer": "A",
-    "explanation": "关于 x 轴对称时，横坐标保持不变，纵坐标取相反数。所以 P'(2, -(-3)) = (2, 3)。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-218",
@@ -3680,7 +3680,7 @@
       "D. (1,9)"
     ],
     "answer": "A",
-    "explanation": "平移的本质是把点的坐标按向量的分量分别相加：x 坐标 3+2=5，y 坐标 5+(-4)=1，故点 Q 的坐标为 (5,1)。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-219",
@@ -3699,7 +3699,7 @@
       "D. 13, 13"
     ],
     "answer": "A",
-    "explanation": "5个数的总和 = 平均数 × 个数 = 12 × 5 = 60。已知3个数之和 = 10 + 13 + 15 = 38，剩余两个数的和 = 60 - 38 = 22。因为这两个数相等，每个数 = 22 ÷ 2 = 11，所以答案是 11、11。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-220",
@@ -3718,7 +3718,7 @@
       "D. 7"
     ],
     "answer": "A",
-    "explanation": "先把数据排序得到 5, 7, 9, 12, 20。共5个数，中位数是第3个数，即 9。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-221",
@@ -3737,7 +3737,7 @@
       "D. 1/10"
     ],
     "answer": "A",
-    "explanation": "盒子里共有5+3+2=10个球，蓝球有3个。因为每个球被摸到的机会相同，摸到蓝球的概率为蓝球数除以总球数，即3/10。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-222",
@@ -3756,7 +3756,7 @@
       "D. 20%"
     ],
     "answer": "A",
-    "explanation": "相对频数 = 该区间频数 ÷ 总人数 × 100%。该区间频数为10，总人数为5+8+10+7=30，故相对频数为10/30≈0.3333，即约33.3%。因此正确答案为A。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-223",
@@ -3775,7 +3775,7 @@
       "D. 30元"
     ],
     "answer": "B",
-    "explanation": "先算10立方米的水费：10×2=20元；再算超过的2立方米的水费：2×3=6元；合计20+6=26元，故选B。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-224",
@@ -3794,7 +3794,7 @@
       "D. 90°"
     ],
     "answer": "C",
-    "explanation": "三角形内角和为180°，因此∠C = 180° - (∠A + ∠B) = 180° - (30° + 70°) = 80°。"
+    "explanation": "解析：C"
   },
   {
     "id": "math-225",
@@ -3813,7 +3813,7 @@
       "D. 6"
     ],
     "answer": "A",
-    "explanation": "先把这10个数按从小到大排序：2, 3, 4, 5, 5, 5, 5, 6, 7, 8。因为数据个数为偶数（10个），中位数是第5个和第6个数的平均值。这里第5个数是5，第6个数也是5，所以中位数 = (5 + 5) / 2 = 5。因此正确选项是 A。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-226",
@@ -3832,7 +3832,7 @@
       "D. (-∞,2)"
     ],
     "answer": "B",
-    "explanation": "先把不等式化为 -3x ≤ -6，两边同除以 -3（除以负数需改变不等号方向），得到 x ≥ 2。x ≥ 2 用区间表示为左闭右开的 [2, +∞)，因此正确选项为 B。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-227",
@@ -3851,7 +3851,7 @@
       "D. 8"
     ],
     "answer": "A",
-    "explanation": "将方程两边同时加 7，得到 3x = 21，再除以 3，得到 x = 7。因此选项 A 正确。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-228",
@@ -3870,7 +3870,7 @@
       "D. \\(\\frac{5}{(x+1)(x-1)}\\)"
     ],
     "answer": "B",
-    "explanation": "先把两分数通分，得到分母 \\((x+1)(x-1)\\)。分子为 \\(2(x-1)+3(x+1)=2x-2+3x+3=5x+1\\)。因此结果是 \\(\\frac{5x+1}{(x+1)(x-1)}\\)，对应选项 B。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-229",
@@ -3889,7 +3889,7 @@
       "D. 0"
     ],
     "answer": "A",
-    "explanation": "将 x=2 代入函数 f(x)=3x-5，得到 f(2)=3×2-5=6-5=1，故正确答案为 A。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-230",
@@ -3908,7 +3908,7 @@
       "D. 80"
     ],
     "answer": "B",
-    "explanation": "将成绩按从小到大排序为 65、71、78、80、85、88、92、95，共8个数，中位数是第4个数和第5个数的平均值，即 (80+85)/2=82.5。因此正确答案是 B。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-231",
@@ -3927,7 +3927,7 @@
       "D. 只在填空题中出现的题目"
     ],
     "answer": "C",
-    "explanation": "‘压轴题’一般是试卷中安排在最后的题目，往往综合性强、需要综合运用多个知识点，难度相对最高，用以区分学生的综合解题能力。"
+    "explanation": "解析：C"
   },
   {
     "id": "math-232",
@@ -3946,7 +3946,7 @@
       "D. d = 10 - 5t"
     ],
     "answer": "B",
-    "explanation": "点A在t秒后的坐标为3t，点B的坐标为10-2t。两点的距离是两坐标之差的绝对值，即 d = |3t - (10-2t)| = |5t - 10|。当0≤t≤5时，5t-10≤0，但绝对值形式仍为|5t-10|，对应选项B。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-233",
@@ -3965,7 +3965,7 @@
       "D. 3"
     ],
     "answer": "A",
-    "explanation": "将方程两边减去 5，得到 2x = 8；再将两边除以 2，得到 x = 4。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-234",
@@ -3984,7 +3984,7 @@
       "D. 100π"
     ],
     "answer": "A",
-    "explanation": "圆的半径 r = 直径/2 = 10/2 = 5 cm。面积公式 S = πr²，代入得 S = π·5² = 25π cm²。因此正确答案是 A。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-235",
@@ -4003,7 +4003,7 @@
       "D. 只有一个实根且为 0"
     ],
     "answer": "B",
-    "explanation": "先计算判别式 Δ = b^2 - 4ac = (-12)^2 - 4×3×12 = 144 - 144 = 0。因为 Δ = 0，故方程有两个相等的实根（即重根）。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-236",
@@ -4022,7 +4022,7 @@
       "D. 70"
     ],
     "answer": "A",
-    "explanation": "对角线的条数公式为 \\(\\frac{n(n-3)}{2}\\)，其中 \\(n\\) 为多边形的边数。把 \\(n=10\\) 代入得到 \\(\\frac{10\\times7}{2}=35\\)，因此该十边形的对角线共有 35 条。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-237",
@@ -4041,7 +4041,7 @@
       "D. 32 cm²"
     ],
     "answer": "A",
-    "explanation": "菱形的面积等于两条对角线长度乘积的一半，即 S=½·AC·BD。代入数据得 S=½·8·6=24 cm²。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-238",
@@ -4060,7 +4060,7 @@
       "D. (1, 1)"
     ],
     "answer": "A",
-    "explanation": "二次函数的顶点坐标可用公式 x_v = -b/(2a) 计算，a=2，b=-4，故 x_v = -(-4)/(2·2) = 1。代入原式得 y_v = f(1)=2·1^2-4·1+1 = -1。因此顶点为 (1, -1)，对应选项 A。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-239",
@@ -4079,7 +4079,7 @@
       "D. 90°"
     ],
     "answer": "A",
-    "explanation": "在等腰三角形ABC中，AB = AC，说明∠B和∠C是相等的底角。因为三角形的内角和为180°，有∠A + ∠B + ∠C = 180°。设∠B = ∠C = x，则 40° + x + x = 180°，解得 2x = 140°，x = 70°。因此∠B = 70°，选项A正确。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-240",
@@ -4098,7 +4098,7 @@
       "D. 240°"
     ],
     "answer": "B",
-    "explanation": "圆周角的度数等于其对应弧度数的一半。弧AB为120°，所以圆周角为120°÷2=60°，选项B正确。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-241",
@@ -4117,7 +4117,7 @@
       "D. 180°"
     ],
     "answer": "B",
-    "explanation": "平行四边形的相邻内角互补，即相邻两角之和为180°。已知∠A=70°，则∠B=180°-70°=110°。"
+    "explanation": "解析：B"
   },
   {
     "id": "math-242",
@@ -4136,7 +4136,7 @@
       "D. 36 cm²"
     ],
     "answer": "A",
-    "explanation": "梯形的面积公式为 $S=\\frac{(\\text{上底}+\\text{下底})}{2}\\times\\text{高}$。代入上底 3 cm、下底 9 cm、高 4 cm，得 $S=\\frac{3+9}{2}\\times4=\\frac{12}{2}\\times4=6\\times4=24\\text{ cm}^2$，因此选项 A 正确。"
+    "explanation": "解析：A"
   },
   {
     "id": "math-243",
@@ -4152,7 +4152,8 @@
       "D. 5/12"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-244",
@@ -4168,7 +4169,8 @@
       "D. 6x^3 + 11x^2 - 6x + 11"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-245",
@@ -4184,7 +4186,8 @@
       "D. x = -1"
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：C"
   },
   {
     "id": "math-246",
@@ -4200,7 +4203,8 @@
       "D. 解的个数不确定"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-247",
@@ -4216,7 +4220,8 @@
       "D. -5 < x < 4"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-248",
@@ -4232,7 +4237,8 @@
       "D. (2x+1)(3x+3)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-249",
@@ -4248,7 +4254,8 @@
       "D. (x+2)/(x-3)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-251",
@@ -4264,7 +4271,8 @@
       "D. y = 2x - 1"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-252",
@@ -4280,7 +4288,8 @@
       "D. 2"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-253",
@@ -4296,7 +4305,8 @@
       "D. 2"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-254",
@@ -4312,7 +4322,8 @@
       "D. AAS（角-角-边）"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-255",
@@ -4328,7 +4339,8 @@
       "D. HL（斜边直角边）"
     ],
     "answer": "D",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：D"
   },
   {
     "id": "math-256",
@@ -4344,7 +4356,8 @@
       "D. 15"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-257",
@@ -4360,7 +4373,8 @@
       "D. 16 倍"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-258",
@@ -4376,7 +4390,8 @@
       "D. 18π cm²"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-259",
@@ -4392,7 +4407,8 @@
       "D. 5/10 + 5/10 = 1"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-260",
@@ -4408,7 +4424,8 @@
       "D. 7/9"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-261",
@@ -4424,7 +4441,8 @@
       "D. 7x^2 - 4x - 5"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-262",
@@ -4440,7 +4458,8 @@
       "D. 6"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-263",
@@ -4456,7 +4475,8 @@
       "D. (1,4)"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-264",
@@ -4472,7 +4492,8 @@
       "D. 2.4"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-265",
@@ -4488,7 +4509,8 @@
       "D. (2x+3)(x-1)"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-266",
@@ -4504,7 +4526,8 @@
       "D. (2x^2 - x + 3)/(x^2 - 1)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-267",
@@ -4520,7 +4543,8 @@
       "D. \\sqrt{12+27}"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-268",
@@ -4536,7 +4560,8 @@
       "D. y = x + 3"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-269",
@@ -4552,7 +4577,8 @@
       "D. 在第一象限和第三象限分别有分支"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-270",
@@ -4568,7 +4594,8 @@
       "D. x = 1"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-271",
@@ -4584,7 +4611,8 @@
       "D. 12"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-272",
@@ -4600,7 +4628,8 @@
       "D. AAS"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-273",
@@ -4616,7 +4645,8 @@
       "D. 15 cm"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-274",
@@ -4632,7 +4662,8 @@
       "D. 12 cm"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-275",
@@ -4648,7 +4679,8 @@
       "D. 12π cm"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-276",
@@ -4664,7 +4696,8 @@
       "D. 0.8"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-277",
@@ -4680,7 +4713,8 @@
       "D. -4/15"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-278",
@@ -4696,7 +4730,8 @@
       "D. 6a^{2}b-10ab^{2}-a"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-279",
@@ -4712,7 +4747,8 @@
       "D. x = 9"
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：C"
   },
   {
     "id": "math-280",
@@ -4728,7 +4764,8 @@
       "D. x=4, y=1"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-281",
@@ -4744,7 +4781,8 @@
       "D. 5"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-282",
@@ -4760,7 +4798,8 @@
       "D. (4x - 9)(3x + 3)"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-283",
@@ -4776,7 +4815,8 @@
       "D. \\(\\frac{2}{3}\\)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-284",
@@ -4792,7 +4832,8 @@
       "D. 9√3"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-285",
@@ -4808,7 +4849,8 @@
       "D. 4"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-286",
@@ -4824,7 +4866,8 @@
       "D. y = 3/4 x"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-287",
@@ -4840,7 +4883,8 @@
       "D. m = 4"
     ],
     "answer": "D",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：D"
   },
   {
     "id": "math-288",
@@ -4856,7 +4900,8 @@
       "D. √13"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-289",
@@ -4872,7 +4917,8 @@
       "D. 两边及其中一边的对角相等 (SSA)"
     ],
     "answer": "D",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：D"
   },
   {
     "id": "math-290",
@@ -4888,7 +4934,8 @@
       "D. 对应一边相等且另一角相等"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-291",
@@ -4904,7 +4951,8 @@
       "D. 628 cm²"
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：C"
   },
   {
     "id": "math-292",
@@ -4920,7 +4968,8 @@
       "D. 6π cm²"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-293",
@@ -4936,7 +4985,8 @@
       "D. 1"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-294",
@@ -4952,7 +5002,8 @@
       "D. -5/9"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-295",
@@ -4968,7 +5019,8 @@
       "D. 2x^2 + 7x - 4"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-296",
@@ -4984,7 +5036,8 @@
       "D. 7"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-297",
@@ -5000,7 +5053,8 @@
       "D. 96元"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-298",
@@ -5016,7 +5070,8 @@
       "D. x > 7"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-299",
@@ -5032,7 +5087,8 @@
       "D. (x - 1)(3x + 2)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-300",
@@ -5048,7 +5104,8 @@
       "D. (x−1)/(x+1)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-301",
@@ -5064,7 +5121,8 @@
       "D. (√2 + 1)/2"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-302",
@@ -5080,7 +5138,8 @@
       "D. y = 2x - 1"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-303",
@@ -5096,7 +5155,8 @@
       "D. y = 3x/4"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-304",
@@ -5112,7 +5172,8 @@
       "D. 开口向下，顶点为 (2, 1)，与 x 轴的交点为 (0, 0) 和 (4, 0)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-305",
@@ -5128,7 +5189,8 @@
       "D. 84 cm²"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-306",
@@ -5144,7 +5206,8 @@
       "D. 不能确定全等"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-307",
@@ -5160,7 +5223,8 @@
       "D. 9 cm"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-308",
@@ -5176,7 +5240,8 @@
       "D. 约70 cm²"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-309",
@@ -5192,7 +5257,8 @@
       "D. 6.28 cm"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-310",
@@ -5208,7 +5274,8 @@
       "D. 1"
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：C"
   },
   {
     "id": "math-311",
@@ -5224,7 +5291,8 @@
       "D. \\frac{5}{6}"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-312",
@@ -5240,7 +5308,8 @@
       "D. 3x^2 + 7x - 2"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-313",
@@ -5256,7 +5325,8 @@
       "D. -5"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-314",
@@ -5272,7 +5342,8 @@
       "D. (1, 4)"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-315",
@@ -5288,7 +5359,8 @@
       "D. x ≤ -2 或 x ≥ 8"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-316",
@@ -5304,7 +5376,8 @@
       "D. (3x-1)(2x-3)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-317",
@@ -5320,7 +5393,8 @@
       "D. (x-2)/(x+1)"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-318",
@@ -5336,7 +5410,8 @@
       "D. 1/2"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-319",
@@ -5352,7 +5427,8 @@
       "D. k = 3, b = 2"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-320",
@@ -5368,7 +5444,8 @@
       "D. 图像与坐标轴相交于原点"
     ],
     "answer": "D",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：D"
   },
   {
     "id": "math-321",
@@ -5384,7 +5461,8 @@
       "D. 9"
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：C"
   },
   {
     "id": "math-322",
@@ -5400,7 +5478,8 @@
       "D. 144"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-323",
@@ -5416,7 +5495,8 @@
       "D. HL（直角三角形的斜边-直角边）"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-324",
@@ -5432,7 +5512,8 @@
       "D. 21 cm"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-325",
@@ -5448,7 +5529,8 @@
       "D. 20 cm"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-326",
@@ -5464,7 +5546,8 @@
       "D. 12+8π/3"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   },
   {
     "id": "math-327",
@@ -5480,7 +5563,8 @@
       "D. 6/14"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-328",
@@ -5496,7 +5580,8 @@
       "D. \\frac{5}{9}"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-329",
@@ -5512,7 +5597,8 @@
       "D. 4x^2y + 2xy^2 + 2x"
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：A"
   },
   {
     "id": "math-330",
@@ -5528,6 +5614,7 @@
       "D. x=7"
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "解析：B"
   }
 ]

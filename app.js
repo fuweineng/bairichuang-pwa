@@ -70,6 +70,13 @@ function getSubjects(section) {
   return SUBJECTS_BY_SECTION[section] || SUBJECTS_BY_SECTION.junior;
 }
 
+// Per-section index URLs for multi-section question bank support
+const SECTION_INDEX_URLS = {
+  primary: 'questions/primary/index.json',
+  junior:  'questions/index.json',
+  senior:  'questions/senior/index.json',
+};
+
 // Legacy — kept for migration
 const SUBJECTS = SUBJECTS_ALL;
 
@@ -145,19 +152,20 @@ async function migrateLegacyQB() {
   return migrated;
 }
 
-async function fetchQuestionPack({ force = false } = {}) {
-  // Fetch index
-  const idxUrl = force ? `${INDEX_URL}?_=${Date.now()}` : INDEX_URL;
-  const idxResp = await fetch(idxUrl, force ? { cache: 'no-store' } : undefined);
+async function fetchQuestionPack({ section, force = false } = {}) {
+  const sec = section || state.settings.section;
+  const idxUrl = SECTION_INDEX_URLS[sec] || SECTION_INDEX_URLS.junior;
+  const effectiveIdxUrl = force ? `${idxUrl}?_=${Date.now()}` : idxUrl;
+  const idxResp = await fetch(effectiveIdxUrl, force ? { cache: 'no-store' } : undefined);
   if (!idxResp.ok) throw new Error(`题库索引加载失败: ${idxResp.status}`);
   const index = await idxResp.json();
 
-  // Parallel load all subject files
+  // Parallel load all subject files for this section
   const results = await Promise.all(
-    getSubjects(state.settings.section).map(async (subj) => {
+    getSubjects(sec).map(async (subj) => {
       const info = index.subjects?.[subj];
       if (!info) return [subj, []];
-      const url = `questions/${info.file}`;
+      const url = `${idxUrl.replace(/index\.json$/, '')}${info.file}`;
       try {
         const resp = await fetch(force ? `${url}?_=${Date.now()}` : url, force ? { cache: 'no-store' } : undefined);
         if (!resp.ok) return [subj, []];
@@ -216,7 +224,7 @@ async function init() {
   const legacyCached = await get(LEGACY_QB_CACHE);
   if (legacyCached && typeof legacyCached === 'object' && !Array.isArray(legacyCached)) {
     // Legacy format found — migrate to new per-subject format
-    const migrated = await fetchQuestionPack({ force: true });
+    const migrated = await fetchQuestionPack({ section: state.settings.section, force: true });
     await del(LEGACY_QB_CACHE);
     state.questionBank = migrated;
     await set(K.QB_CACHE, migrated);
@@ -224,7 +232,7 @@ async function init() {
     const cached = await get(K.QB_CACHE);
     state.questionBank = cached || createEmptyQuestionBank();
   }
-  fetchQuestionPack({ force: true })
+  fetchQuestionPack({ section: state.settings.section, force: true })
     .then(async (grouped) => {
       state.questionBank = grouped;
       state.settings.lastQuestionBankUpdate = todayKey();
@@ -2086,9 +2094,14 @@ function showAvatarEmojiGrid() {
       `<button class="emoji-btn" data-emoji="${e}" style="font-size:1.4rem;padding:4px;background:none;border:none;cursor:pointer;border-radius:6px">${e}</button>`
     ).join('');
     grid.querySelectorAll('.emoji-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
+      btn.addEventListener('click', async () => {
+        const emojiSvg = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-size='56'%3E${encodeURIComponent(btn.dataset.emoji)}%3C/text%3E%3C/svg%3E`;
         const preview = document.getElementById('avatar-preview');
-        if (preview) preview.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-size='56'%3E${encodeURIComponent(btn.dataset.emoji)}%3C/text%3E%3C/svg%3E`;
+        if (preview) preview.src = emojiSvg;
+        if (state.account) {
+          state.account.avatar = emojiSvg;
+          await set(K.ACCOUNT, state.account);
+        }
         document.getElementById('avatar-choice-modal').style.display = 'none';
       });
     });
@@ -2401,6 +2414,17 @@ async function chooseSection(section) {
   state.settings.section = section;
   await set(K.SETTINGS, state.settings);
   document.getElementById('section-setup-modal').style.display = 'none';
+
+  // Reload question bank for the new section
+  try {
+    const grouped = await fetchQuestionPack({ section, force: true });
+    state.questionBank = grouped;
+    await set(K.QB_CACHE, grouped);
+  } catch (e) {
+    console.warn('[QB] 学段切换后题库加载失败:', e);
+    state.questionBank = createEmptyQuestionBank();
+  }
+
   // Refresh UI
   if (state.view === 'home') renderHome();
   if (state.view === 'settings') renderSettings();
