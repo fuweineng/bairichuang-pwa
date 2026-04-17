@@ -2,9 +2,9 @@
   "project": "百日闯 PWA",
   "repo": "fuweineng/bairichuang-pwa",
   "url": "https://yjs.meetolove.com",
-  "version": "9.1.2-20260417",
-  "updatedAt": "2026-04-17T13:03:00+08:00",
-  "board_version": 2,
+  "version": "9.1.3-20260417",
+  "updatedAt": "2026-04-17T13:20:00+08:00",
+  "board_version": 3,
 
   "sections": {
     "junior": { "name": "初中", "subjects": ["chinese","math","english","physics","chemistry","biology","history","geography","politics"] },
@@ -19,43 +19,47 @@
       "priority": "high",
       "category": "bugfix",
       "title": "确认分身1的modal关闭+头像emoji picker是否已合并",
-      "description": "已确认 commit 6d5ca95: 9.0.4-20260417: fix: donate-modal关闭按钮 + 头像emoji picker更新逻辑",
-      "owner": "completed",
-      "verification": "git log --oneline -20 确认存在"
+      "description": "commit 6d5ca95: 9.0.4-20260417",
+      "owner": "completed"
     },
     {
       "id": "TASK-003",
       "status": "completed",
       "priority": "high",
       "category": "feature",
-      "title": "Settings题库与数据改入学段区块",
-      "description": "移除账号区重复学段切换；题库与数据标题改为学段；三操作按钮保留。commit 562e983",
+      "title": "Settings学段区块整理",
+      "description": "移除账号区重复学段切换; 题库标题改学段; 三操作按钮保留",
       "owner": "done",
       "files": ["app.js"]
     },
     {
+      "id": "TASK-006",
+      "status": "completed",
+      "priority": "high",
+      "category": "bugfix",
+      "title": "学段按钮排序+柱状图按学段显示",
+      "description": "学段按钮改为小学>初中>高中; drawChart改用getSubjects(state.settings.section)按当前学段科目显示",
+      "owner": "done",
+      "files": ["app.js", "index.html"]
+    },
+    {
       "id": "TASK-002",
-      "status": "pending",
+      "status": "completed",
       "priority": "high",
       "category": "feature",
       "title": "多学段题库目录创建",
-      "description": "在GitHub创建 questions/primary/ 和 questions/senior/ 目录及对应index.json和科目JSON文件。目前只有 questions/primary/math.json",
-      "owner": "",
-      "files": ["questions/primary/*.json", "questions/senior/*.json"],
-      "subtasks": [
-        "questions/primary/ 各科目题库文件",
-        "questions/senior/ 各科目题库文件",
-        "各自的 index.json（汇总所有subjects）"
-      ]
+      "description": "questions/primary/ 和 questions/senior/ 目录已存在，senior/index.json已补地理字段",
+      "owner": "done",
+      "files": ["questions/primary/", "questions/senior/"]
     },
     {
       "id": "TASK-004",
-      "status": "pending",
+      "status": "completed",
       "priority": "medium",
       "category": "feature",
       "title": "Settings版本号从version.json动态读取",
-      "description": "state.settings.appVersion 当前硬编码fallback为9.0.0，应该在initApp时从version.json读取并写入IndexedDB",
-      "owner": "",
+      "description": "initApp中fetch('version.json')已实现动态读取写入state.settings.appVersion",
+      "owner": "done",
       "files": ["app.js"]
     },
     {
@@ -64,32 +68,34 @@
       "priority": "low",
       "category": "feature",
       "title": "初中题库扩充",
-      "description": "初中9科题库已有基础题量，可根据需要继续扩充（参考英语151-200的MiniMax生成流程）",
+      "description": "初中9科题库已有基础题量，可根据需要继续扩充",
       "owner": "",
       "files": ["questions/*.json"]
     }
   ],
 
   "recentCommits": [
-    { "hash": "b9be6c7", "version": "9.1.0", "msg": "feat: 多学段题库切换 - chooseSection时重新加载对应section题库" },
-    { "hash": "xxxxxxx", "version": "9.0.4", "msg": "fix: donate-modal关闭按钮 + 头像emoji picker更新逻辑" },
-    { "hash": "xxxxxxx", "version": "9.0.3", "msg": "fix: Settings题库与数据显示三学段切换按钮" },
-    { "hash": "xxxxxxx", "version": "9.0.2", "msg": "feat: 首次启动学段选择 + PWA首页modal + 支持合并" },
-    { "hash": "d86faed", "version": "8.8.0", "msg": "fix: 下一题按钮置顶+符号工具栏+解释排版+modal关闭" }
+    { "hash": "81295c3", "version": "9.1.3", "msg": "fix: senior index.json add missing geography field" },
+    { "hash": "4936594", "version": "9.1.3", "msg": "fix: 学段按钮排序小学>初中>高中; drawChart按当前学段科目显示" },
+    { "hash": "562e983", "version": "9.1.2", "msg": "fix: 移除账号区重复学段切换+题库标题改学段" },
+    { "hash": "2abfa23", "version": "9.1.2", "msg": "sync version.json + app.js fallback to 9.1.2" },
+    { "hash": "6d5ca95", "version": "9.0.4", "msg": "fix: donate-modal关闭按钮 + 头像emoji picker更新逻辑" }
   ],
 
   "fileLocks": [
-    { "file": "app.js", "lockedBy": "", "version": "9.1.0", "note": "所有UI修复都在根目录app.js" },
-    { "file": "index.html", "lockedBy": "", "version": "current", "note": "HTML结构改动" },
+    { "file": "app.js", "lockedBy": "", "version": "9.1.3", "note": "所有UI修复都在根目录app.js" },
+    { "file": "index.html", "lockedBy": "", "version": "9.1.3", "note": "HTML结构改动" },
     { "file": "css/style.css", "lockedBy": "", "version": "current", "note": "样式改动" },
-    { "file": "version.json", "lockedBy": "", "version": "9.1.0", "note": "每次commit必须同步更新" },
-    { "file": "questions/*.json", "lockedBy": "", "version": "varied", "note": "题库文件，按学段分区" }
+    { "file": "version.json", "lockedBy": "", "version": "9.1.3", "note": "每次commit必须同步更新" },
+    { "file": "questions/*.json", "lockedBy": "", "version": "varied", "note": "题库文件" }
   ],
 
   "notes": [
     "compareVersion用split('-')[0]提取纯semver，忽略日期后缀",
     "线上主文件是app.js根目录，不是js/app.js",
     "打卡板头副文案：practicedToday = !!state.daily[todayKey]时才显示",
-    "多学段URL映射：junior→questions/index.json, primary→questions/primary/index.json, senior→questions/senior/index.json"
+    "多学段URL映射：junior→questions/index.json, primary→questions/primary/index.json, senior→questions/senior/index.json",
+    "学段排序：小学primary→初中junior→高中senior（视觉顺序）",
+    "drawChart按getSubjects(state.settings.section)显示当前学段科目"
   ]
 }
