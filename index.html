@@ -117,13 +117,30 @@
 <!-- Hidden file input for camera/upload -->
 <input type="file" accept="image/*" capture="environment" id="avatar-camera-input" style="display:none">
 
+<!-- ===== SECTION SELECT MODAL (first-time setup) ===== -->
+<div id="section-select-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:360px;text-align:center">
+    <p class="modal-title">选择学段</p>
+    <p style="font-size:0.85rem;color:#888;margin:8px 0 20px">请选择您所在的学段，之后可在设置中切换</p>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="primary-btn" data-action="select-section" data-value="primary" style="padding:14px;font-size:1rem">小学</button>
+      <button class="primary-btn" data-action="select-section" data-value="junior" style="padding:14px;font-size:1rem">初中</button>
+      <button class="primary-btn" data-action="select-section" data-value="senior" style="padding:14px;font-size:1rem">高中</button>
+    </div>
+  </div>
+</div>
+
 </div>
 
 <!-- ===== FLOATING MODALS ===== -->
-<div id="pwa-install-banner" class="float-card" style="display:none;top:12px">
-  <span>安装百日闯到桌面</span>
-  <button class="pwa-install-btn" id="pwa-install-btn" data-action="install-pwa">安装</button>
-  <button class="float-close" data-action="dismiss-pwa">×</button>
+<!-- ===== PWA INSTALL MODAL ===== -->
+<div id="pwa-install-banner" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:50%;transform:translateY(-50%);max-width:320px;text-align:center">
+    <p class="modal-title">可安装到桌面</p>
+    <p style="font-size:0.85rem;color:#666;margin:12px 0 16px">将百日闯添加到主屏幕，无需联网即可使用</p>
+    <button class="primary-btn" id="pwa-install-btn" data-action="install-pwa" style="width:100%;padding:12px;font-size:0.9rem">安装到桌面</button>
+    <button class="secondary-btn" data-action="dismiss-pwa" style="margin-top:8px;width:100%;padding:8px;font-size:0.82rem">暂不需要</button>
+  </div>
 </div>
 
 <div id="checkin-modal" class="modal-overlay" style="display:none">
@@ -261,10 +278,10 @@
     <div style="background:#f9f9f9;border-radius:10px;padding:16px;margin-bottom:12px">
       <div style="font-size:0.85rem;color:#666;margin-bottom:8px">推荐以下方式支持：</div>
       <div style="font-size:0.85rem;color:#333;line-height:2">
-        <div style="margin-bottom:4px">1. GitHub 点星 ⭐</div>
+        <div style="margin-bottom:4px">1. GitHub 点星</div>
         <div style="margin-bottom:4px">2. 转发给需要的同学</div>
-        <button id="support-install-pwa-btn" style="background:#e8f5e9;color:#2e7d32;border:1px solid #a5d6a7;border-radius:6px;padding:6px 12px;font-size:0.82rem;cursor:pointer;width:100%;text-align:left">
-          3. 安装百日闯到桌面
+        <button id="support-donate-btn" style="background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:6px;padding:8px 12px;font-size:0.85rem;cursor:pointer;width:100%;font-weight:700">
+          3. 强烈支持
         </button>
       </div>
     </div>

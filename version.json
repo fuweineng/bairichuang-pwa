@@ -1,9 +1,9 @@
 {
-  "version": "9.0.1-20260417",
+  "version": "9.0.2-20260417",
   "questionBankVersion": "20260415-2-20260417",
   "audioVersion": "20260413",
   "updatedAt": "2026-04-17",
-  "changelog": "fix: session-end正确率合并一行+下一题按钮始终置顶(buildFeedbackHTML替换appendExplanation)",
+  "changelog": "fix: 首次启动弹窗学段选择; Settings支持合并; PWA安装改为首页modal; support-modal第三点改为强烈支持",
   "sections": {
     "junior": {
       "name": "初中",

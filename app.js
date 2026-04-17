@@ -257,8 +257,8 @@ async function init() {
     showAccountSetupModal();
   }
 
-  // Show section setup if no section selected (first launch)
-  if (!state.settings.section) {
+  // Show section setup if first launch (no sessions ever)
+  if (!state.meta.startDate) {
     showSectionSetupModal();
   }
 
@@ -316,6 +316,10 @@ async function init() {
   // Support modal close
   document.getElementById('support-modal')?.addEventListener('click', e => {
     if (e.target.id === 'support-modal') document.getElementById('support-modal').style.display = 'none';
+  });
+  document.getElementById('support-donate-btn')?.addEventListener('click', () => {
+    document.getElementById('support-modal').style.display = 'none';
+    document.getElementById('donate-modal').style.display = 'flex';
   });
 
   console.log('百日闯 PWA 初始化完成');
@@ -1602,12 +1606,9 @@ async function renderSettings() {
       </div>
     </div>
 
-    <div class="settings-card" style="padding:10px 14px;display:flex;flex-direction:column;gap:8px">
-      <button class="donate-btn" data-action="show-support-modal" style="flex:1;padding:10px;background:linear-gradient(135deg,#6bcb77,#4a9f5a);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
-        支持
-      </button>
-      <button class="donate-btn" data-action="show-donate-modal" style="flex:1;padding:10px;background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
-        强烈支持
+    <div class="settings-card" style="padding:10px 14px">
+      <button class="donate-btn" data-action="show-support-modal" style="width:100%;padding:10px;background:linear-gradient(135deg,#6bcb77,#4a9f5a);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
+        支持百日闯
       </button>
     </div>
 
@@ -1969,8 +1970,9 @@ async function handleClick(e) {
       clearAllData();
       break;
 
+    case 'select-section':
     case 'open-section-switcher':
-      openSectionSwitcherModal();
+      showSectionSetupModal();
       break;
 
     case 'choose-section':
