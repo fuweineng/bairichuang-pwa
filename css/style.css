@@ -1971,7 +1971,7 @@ main {
 /* ==================== SESSION END ==================== */
 .session-end { text-align: center; padding: 24px 16px; }
 .session-score { margin: 16px 0; }
-.session-score .big-num { font-size: 2.5rem; font-weight: 700; color: #4CAF50; display: block; }
+.session-score .big-num { font-size: 2.5rem; font-weight: 700; color: #4CAF50; }
 .session-score span:last-child { font-size: 1rem; color: #666; }
 .session-daily { background: #f5f5f5; border-radius: 8px; padding: 10px; margin: 10px 0; }
 .session-daily p { margin: 4px 0; font-size: 0.85rem; color: #555; }

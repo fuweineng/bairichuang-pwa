@@ -843,6 +843,23 @@ function appendExplanation(fb, questionLike, skipPassage = false) {
   }
 }
 
+// 反馈区结构：按钮始终在最上方，解释在中间，正确/错误提示在按钮下方
+function buildFeedbackHTML(btnHTML, feedbackHTML, questionLike, skipPassage = false) {
+  let html = btnHTML;
+  if (questionLike?.audio_text) {
+    html += `<p class="explanation"><strong>听力原文：</strong>${questionLike.audio_text.replace(/\n/g, '<br>')}</p>`;
+  }
+  if (!skipPassage && questionLike?.passage) {
+    html += `<p class="explanation"><strong>短文原文：</strong>${questionLike.passage.replace(/\n/g, '<br>')}</p>`;
+  }
+  if (questionLike?.explanation) {
+    const clean = stripMarkdown(questionLike.explanation).replace(/\n/g, '<br>');
+    html += `<p class="explanation">${clean}</p>`;
+  }
+  html += feedbackHTML;
+  return html;
+}
+
 function speakQuestion() {
   const q = state.sessionQuestions[state.sessionIndex];
   if (!q) return;
@@ -1143,13 +1160,13 @@ async function handleAnswer(choiceIdx) {
       const found = q.choices.find(c => c.label === q.answer);
       if (found) correctLabel = `${q.answer}. ${found.text}`;
     }
-    // 下一题按钮在顶部，解释在下方（避免被长解释推走）
-    const feedbackContent = isCorrect
+    const feedbackHTML = isCorrect
       ? `<span class="fb-correct">正确</span>`
       : `<span class="fb-wrong">错误，正确答案是：${correctLabel}</span>`;
-    fb.innerHTML = `<button class="primary-btn" data-action="next-question" style="margin-top:8px">下一题 →</button>`;
-    appendExplanation(fb, q);
-    fb.innerHTML += feedbackContent;
+    fb.innerHTML = buildFeedbackHTML(
+      `<button class="primary-btn" data-action="next-question" style="margin-top:8px">下一题 →</button>`,
+      feedbackHTML, q
+    );
   }
 }
 
@@ -1172,12 +1189,13 @@ async function handleDictationSubmit() {
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
-    const feedbackContent = isCorrect
+    const feedbackHTML = isCorrect
       ? `<span class="fb-correct">正确</span>`
       : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(q.answer)}</span>`;
-    fb.innerHTML = `<button class="primary-btn" data-action="dictation-next" style="margin-top:8px">下一题 →</button>`;
-    appendExplanation(fb, q);
-    fb.innerHTML += feedbackContent;
+    fb.innerHTML = buildFeedbackHTML(
+      `<button class="primary-btn" data-action="dictation-next" style="margin-top:8px">下一题 →</button>`,
+      feedbackHTML, q
+    );
   }
 }
 
@@ -1204,14 +1222,14 @@ async function handlePDSubmit() {
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
-    const feedbackContent = isCorrect
+    const btnLabel = subIdx + 1 >= (q.questions || []).length ? '短文结束 →' : '下一题 →';
+    const feedbackHTML = isCorrect
       ? `<span class="fb-correct">正确</span>`
       : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(sq.answer)}</span>`;
-    fb.innerHTML = `<button class="primary-btn" data-action="pd-next" style="margin-top:8px">${
-      subIdx + 1 >= (q.questions || []).length ? '短文结束 →' : '下一题 →'
-    }</button>`;
-    appendExplanation(fb, { ...sq, passage: q.passage });
-    fb.innerHTML += feedbackContent;
+    fb.innerHTML = buildFeedbackHTML(
+      `<button class="primary-btn" data-action="pd-next" style="margin-top:8px">${btnLabel}</button>`,
+      feedbackHTML, { ...sq, passage: q.passage }
+    );
   }
 }
 
@@ -1230,13 +1248,14 @@ async function handleFillAnswer(userAnswer) {
   const fb = document.getElementById('answer-feedback');
   if (fb) {
     fb.style.display = 'block';
-    if (isCorrect) {
-      fb.innerHTML = `<span class="fb-correct">正确</span>`;
-    } else {
-      fb.innerHTML = `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(correctAns)}</span>`;
-    }
-    appendExplanation(fb, q, q.type === 'fill' || q.type === 'short_answer'); // skip passage for fill (already shown in question block)
-    fb.innerHTML += `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`;
+    const skipPassage = q.type === 'fill' || q.type === 'short_answer';
+    const feedbackHTML = isCorrect
+      ? `<span class="fb-correct">正确</span>`
+      : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(correctAns)}</span>`;
+    fb.innerHTML = buildFeedbackHTML(
+      `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`,
+      feedbackHTML, q, skipPassage
+    );
   }
 }
 
@@ -1361,8 +1380,7 @@ async function renderSessionEnd() {
     <div class="session-end">
       <p class="placeholder">本轮完成！</p>
       <div class="session-score">
-        <span class="big-num">${correct}/${total}</span>
-        <span>正确率 ${sessionAcc}%</span>
+        <span class="big-num">${correct}/${total} (${sessionAcc}%)</span>
       </div>
       <div class="session-daily">
         <p>今日累计: ${state.daily[today].questionsCount}题 | 得分: ${state.daily[today].score}</p>
