@@ -2,801 +2,817 @@
   {
     "id": "chinese-senior-1",
     "type": "choice",
-    "question": "chinese question 1 for senior grade 10",
+    "question": "以下哪句诗使用了借代手法？",
     "options": [
-      "A. Option A for 1",
-      "B. Option B for 1",
-      "C. Option C for 1",
-      "D. Option D for 1"
+      "A. 烽火连三月，家书抵万金",
+      "B. 春风又绿江南岸",
+      "C. 举头望明月，低头思故乡",
+      "D. 大江东去，浪淘尽，千古风流人物"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "古代诗歌鉴赏",
+    "explanation": "解析：借代是用事物的一部分或相关事物来代替整体的手法。选项A中的“烽火”本指边防的点燃的火光，用来代替战争，属于典型的借代；其余选项或为形容词动用（B），或为对仗（C），或为写景抒情（D），均未使用借代。"
   },
   {
     "id": "chinese-senior-2",
     "type": "choice",
-    "question": "chinese question 2 for senior grade 10",
+    "question": "某科技公司计划在一年内生产两种产品A和B。已知生产每件产品A需要2单位原料X和3单位原料Y，生产每件产品B需要4单位原料X和1单位原料Y。公司计划在明年使用不超过100单位的原料X和不超过90单位的原料Y。若每件产品A的利润为5元，每件产品B的利润为6元，请问下面哪个生产方案能够使公司在满足原料限制的前提下获得最大利润？",
     "options": [
-      "A. Option A for 2",
-      "B. Option B for 2",
-      "C. Option C for 2",
-      "D. Option D for 2"
+      "A. 生产10件产品A和20件产品B",
+      "B. 生产15件产品A和15件产品B",
+      "C. 生产20件产品A和10件产品B",
+      "D. 生产5件产品A和30件产品B"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "现代文阅读理解",
+    "explanation": "解析：首先将两种产品的原料需求和利润转化为线性约束与目标函数。设生产A的数量为x，B的数量为y，则约束条件为2x+4y≤100（原料X），3x+y≤90（原料Y），且x、y均为非负整数。目标函数为利润P=5x+6y，需在可行域内寻找P的最大值。对四个选项逐一检查：\nA：x=10,y=20 → 2·10+4·20=100（恰好用完X），3·10+20=50≤90，满足全部约束，利润P=5·10+6·20=170。\nB：x=15,y=15 → 2·15+4·15=90≤100，3·15+15=60≤90，满足约束，P=5·15+6·15=165。\nC：x=20,y=10 → 2·20+4·10=80≤100，3·20+10=70≤90，满足约束，P=5·20+6·10=160。\nD：x=5,y=30 → 2·5+4·30=130>100，已超出原料X的限制，不可行。\n因此在满足原料限制的所有方案中，A方案的利润最高，为170元，正确答案为A。"
   },
   {
     "id": "chinese-senior-3",
     "type": "choice",
-    "question": "chinese question 3 for senior grade 10",
+    "question": "《左传》中记载：“三年春，王正月，公及吴子会于黄池”。若把该句中的汉字数视为一个等差数列的前三项，已知公差为2，且这三项之和为30，则第二项的数值为多少？",
     "options": [
-      "A. Option A for 3",
-      "B. Option B for 3",
-      "C. Option C for 3",
-      "D. Option D for 3"
+      "A. 8",
+      "B. 9",
+      "C. 10",
+      "D. 11"
     ],
-    "answer": "A",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "文言文阅读",
+    "explanation": "设等差数列的前三项为a−d、a、a+d，其中公差d=2。三项之和为(a−d)+a+(a+d)=3a=30，解得a=10。因此第二项为10，对应选项C。"
   },
   {
     "id": "chinese-senior-4",
     "type": "choice",
-    "question": "chinese question 4 for senior grade 10",
+    "question": "已知函数 f(x)=2x+3, 下列哪句话最准确地描述了 f(x) 在实数域上的单调性？",
     "options": [
-      "A. Option A for 4",
-      "B. Option B for 4",
-      "C. Option C for 4",
-      "D. Option D for 4"
+      "f(x) 在整个定义域上单调递增，且斜率为正",
+      "f(x) 在整个定义域上单调递减，且斜率为负",
+      "f(x) 在 x<0 时单调递增，x>0 时单调递减",
+      "f(x) 在整个定义域上既不单调递增也不单调递减"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "语言表达与运用",
+    "explanation": "解析：因为 f(x)=2x+3 是一次函数，斜率为2>0，故在整个实数域上严格递增。其单调性可以语言描述为‘在整个定义域上单调递增，且斜率为正’，因此选项 A 正确。"
   },
   {
     "id": "chinese-senior-5",
     "type": "choice",
-    "question": "chinese question 5 for senior grade 10",
+    "question": "《红楼梦》全书共120回，已知每回平均有30页，问全书的总页数约为多少？",
     "options": [
-      "A. Option A for 5",
-      "B. Option B for 5",
-      "C. Option C for 5",
-      "D. Option D for 5"
+      "A. 全书的总页数约为3600页。",
+      "B. 全书的总页数约为3000页。",
+      "C. 全书的总页数约为3500页。",
+      "D. 全书的总页数约为4000页。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "文学常识",
+    "explanation": "解析：全书共120回，每回30页，总页数 = 120 × 30 = 3600页，故答案为约3600页，对应选项A。"
   },
   {
     "id": "chinese-senior-6",
     "type": "choice",
-    "question": "chinese question 6 for senior grade 10",
+    "question": "已知等差数列首项为2，公差为3，求该数列第5项除以4的余数。余数在《登鹳雀楼》诗句中的顺序对应哪一句？",
     "options": [
-      "A. Option A for 6",
-      "B. Option B for 6",
-      "C. Option C for 6",
-      "D. Option D for 6"
+      "A. 白日依山尽",
+      "B. 黄河入海流",
+      "C. 欲穷千里目",
+      "D. 更上一层楼"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "名句默写",
+    "explanation": "解析：首先计算等差数列第5项，a5 = a1 + (5-1)d = 2 + 4×3 = 14。然后求14除以4的余数，14 ÷ 4 = 3余2，所以余数为2。《登鹳雀楼》四句诗的顺序为：1)白日依山尽，2)黄河入海流，3)欲穷千里目，4)更上一层楼。余数2对应第二句，即“黄河入海流”。"
   },
   {
     "id": "chinese-senior-7",
     "type": "choice",
-    "question": "chinese question 7 for senior grade 10",
+    "question": "以下关于高中数学概念的描述，哪一句存在错误？",
     "options": [
-      "A. Option A for 7",
-      "B. Option B for 7",
-      "C. Option C for 7",
-      "D. Option D for 7"
+      "A. 函数是描述变量之间对应关系的数学工具。",
+      "B. 函数的定义域是指函数的取值范围。",
+      "C. 函数的图像在坐标平面上呈现为点的集合，这些点满足 y = f(x) 的关系。",
+      "D. 通过求导数可以得到函数的导函数，进而分析函数的增减性。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "病句辨析",
+    "explanation": "解析：选项B把“定义域”误称为“取值范围”。定义域是指自变量的取值范围，而取值范围通常指函数的值域。因此B句存在概念错误，属于病句。"
   },
   {
     "id": "chinese-senior-8",
     "type": "choice",
-    "question": "chinese question 8 for senior grade 10",
+    "question": "已知二次函数 y = -2x^2 + 8x - 3 的图像开口向下，且对称轴为 x = 2。用下列哪个成语最能贴切地描述该函数在对称轴右侧的走势？",
     "options": [
-      "A. Option A for 8",
-      "B. Option B for 8",
-      "C. Option C for 8",
-      "D. Option D for 8"
+      "A. 用‘蒸蒸日上’形容函数在右侧持续上升。",
+      "B. 用‘每况愈下’形容函数在右侧逐渐下降。",
+      "C. 用‘一帆风顺’形容函数在右侧没有起伏。",
+      "D. 用‘举世无双’形容函数在右侧与众不同。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "成语运用",
+    "explanation": "二次函数 y = -2x^2 + 8x - 3 开口向下，对称轴 x = 2 右侧，随着 x 增大，y 值不断减小，即函数呈下降趋势。‘每况愈下’形容事物状况越来越差，正好契合函数值的下降趋势，故选 B。"
   },
   {
     "id": "chinese-senior-9",
     "type": "choice",
-    "question": "chinese question 9 for senior grade 10",
+    "question": "在下面的数学命题中，哪一项的标点使用是正确的？",
     "options": [
-      "A. Option A for 9",
-      "B. Option B for 9",
-      "C. Option C for 9",
-      "D. Option D for 9"
+      "A. 若a>b，则a^2>b^2。",
+      "B. 若a>b，则a^2>b^2，",
+      "C. 若a>b，则a^2>b^2；",
+      "D. 若a>b，则a^2>b^2："
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "标点符号",
+    "explanation": "在完整的条件句中，结论部分应以句号结束，表示整个命题的结束。逗号、分号、冒号均不适合作为命题的结束标点。"
   },
   {
     "id": "chinese-senior-10",
     "type": "choice",
-    "question": "chinese question 10 for senior grade 10",
+    "question": "请阅读下面的文字，然后从四个选项中选出最恰当的概括该段文字主要内容的句子。\n\n随着全球气温的持续升高，极端天气事件的频率和强度显著增加。气象学家指出，如果不立即采取有效的减排措施，海平面上升将不可避免，沿海地区的居民将面临严重的生存危机。\n\n以下哪项最准确地概括了上文的主要内容？",
     "options": [
-      "A. Option A for 10",
-      "B. Option B for 10",
-      "C. Option C for 10",
-      "D. Option D for 10"
+      "A. 全球变暖导致极端天气增多，并且如果不减排，海平面上升将对沿海地区造成威胁。",
+      "B. 极地冰盖融化是海平面上升的主要原因。",
+      "C. 极端天气对农业生产没有显著影响。",
+      "D. 减排措施并非必要，气候变化是自然现象。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "压缩语段",
+    "explanation": "解析：压缩语段的核心是提取原文的关键信息，如“全球气温升高”“极端天气”“减排措施”“海平面上升”。选项A完整覆盖了这些要点，准确概括了原文的主旨；其他选项或遗漏关键信息，或偏离主题。因此答案为A。"
   },
   {
     "id": "chinese-senior-11",
     "type": "choice",
-    "question": "chinese question 11 for senior grade 10",
+    "question": "化简并展开 (2x+3y)^2 的结果是什么？",
     "options": [
-      "A. Option A for 11",
-      "B. Option B for 11",
-      "C. Option C for 11",
-      "D. Option D for 11"
+      "A. (2x+3y)^2 = 4x^2 + 12xy + 9y^2",
+      "B. (2x+3y)^2 = 4x^2 + 6xy + 9y^2",
+      "C. (2x+3y)^2 = 2x^2 + 12xy + 3y^2",
+      "D. (2x+3y)^2 = 4x^2 + 12xy + 6y^2"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "扩展语句",
+    "explanation": "解析：根据完全平方公式 (a+b)^2 = a^2 + 2ab + b^2，代入 a=2x, b=3y，得 (2x)^2 + 2·(2x)(3y) + (3y)^2 = 4x^2 + 12xy + 9y^2。因此正确选项为 A。"
   },
   {
     "id": "chinese-senior-12",
     "type": "choice",
-    "question": "chinese question 12 for senior grade 10",
+    "question": "已知等差数列首项为3，公差为5，把其通项公式写成 a_n = kn + b 的标准形式（其中k、b为常数），下列哪个选项等价于 a_n = 3 + (n-1)·5？",
     "options": [
-      "A. Option A for 12",
-      "B. Option B for 12",
-      "C. Option C for 12",
-      "D. Option D for 12"
+      "A. a_n = 5n - 2",
+      "B. a_n = 5n + 3",
+      "C. a_n = 3n + 5",
+      "D. a_n = 5n + 2"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "仿写句式",
+    "explanation": "根据等差数列通项公式 a_n = a_1 + (n-1)d，代入 a_1 = 3, d = 5，得 a_n = 3 + (n-1)·5 = 5n - 2。对照选项，只有 A 与之等价。"
   },
   {
     "id": "chinese-senior-13",
     "type": "choice",
-    "question": "chinese question 13 for senior grade 10",
+    "question": "如图所示，函数 f(x) 的图像是一条开口向上的抛物线，顶点为 (2,3)，且经过点 (0,5)。请判断下列关于 f(x) 的说法，正确的是（ ）。",
     "options": [
-      "A. Option A for 13",
-      "B. Option B for 13",
-      "C. Option C for 13",
-      "D. Option D for 13"
+      "A. f(2) 是函数 f(x) 的最小值。",
+      "B. f(x) 在区间 (0,2) 上单调递增。",
+      "C. f(x) 的对称轴是 x=0。",
+      "D. f(x) 的定义域为 [2, +∞)。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "图文转换",
+    "explanation": "解析：因为抛物线开口向上，顶点 (2,3) 为函数的最小值点，故 f(2)=3 为最小值，选项 A 正确；选项 B 描述为单调递增，实际上从 x=0 到 x=2 函数值由 5 递减到 3，属于单调递减，故错误；选项 C 对称轴应为 x=2，而非 x=0，错误；选项 D 的定义域为全体实数，而不是仅 [2,+∞)，错误。"
   },
   {
     "id": "chinese-senior-14",
     "type": "choice",
-    "question": "chinese question 14 for senior grade 10",
+    "question": "《周礼·考工记》记载，周代的长度单位‘丈、尺、寸’，规定1丈＝10尺，1尺＝10寸。若一根绳子的长度为4丈7尺3寸，已知现代1尺约等于0.33米，则该绳子约为多少米？",
     "options": [
-      "A. Option A for 14",
-      "B. Option B for 14",
-      "C. Option C for 14",
-      "D. Option D for 14"
+      "A. 该绳子约为15.6米",
+      "B. 该绳子约为16.0米",
+      "C. 该绳子约为14.5米",
+      "D. 该绳子约为15.0米"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "古代文化常识",
+    "explanation": "解析：先把4丈7尺3寸全部转化为尺。1丈＝10尺，故4丈＝40尺；再加上7尺，共47尺。1尺＝10寸，3寸＝0.3尺，故总长度为47.3尺。现代1尺≈0.33米，所以绳子长度≈47.3×0.33≈15.609米，约等于15.6米。因此正确答案为A。"
   },
   {
     "id": "chinese-senior-15",
     "type": "choice",
-    "question": "chinese question 15 for senior grade 10",
+    "question": "下面哪一句在描述数学运算时出现了词类活用（即把一种词性用于另一种词性）？",
     "options": [
-      "A. Option A for 15",
-      "B. Option B for 15",
-      "C. Option C for 15",
-      "D. Option D for 15"
+      "A. 我们需要先把矩阵A进行转置。",
+      "B. 把方程两边同除以2。",
+      "C. 求该函数的导数。",
+      "D. 设x为未知数。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "词类活用",
+    "explanation": "解析：‘转置’原本是名词（指转置运算本身），在句子‘把矩阵A进行转置’中，它被用作动词，表示‘进行转置操作’，属于典型的词类活用现象。其他选项中的‘除以’、‘求’、‘设’都是原本的动词或名词，没有发生词性的转换。"
   },
   {
     "id": "chinese-senior-16",
     "type": "choice",
-    "question": "chinese question 16 for senior grade 10",
+    "question": "在下列描述中，所使用的文言句式是哪一种？\n\n“圆之半径为三，周长等于二πr”。",
     "options": [
-      "A. Option A for 16",
-      "B. Option B for 16",
-      "C. Option C for 16",
-      "D. Option D for 16"
+      "A. 判断句，用以肯定圆半径与周长的关系",
+      "B. 被动句，突显半径被指定为三",
+      "C. 省略句，省略了主语或谓语的某些成分",
+      "D. 倒装句，将主语和谓语位置互换"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "文言句式",
+    "explanation": "解析：句子“圆之半径为三，周长等于二πr”是直接陈述半径与周长的数值关系，属于典型的判断句，用来肯定事实。被动句强调动作的承受者，省略句缺少成分，倒装句语序颠倒，故正确选项为A。"
   },
   {
     "id": "chinese-senior-17",
     "type": "choice",
-    "question": "chinese question 17 for senior grade 10",
+    "question": "已知 a, b 为实数，满足 a + b = 5，ab = 6，则 a, b 的取值为",
     "options": [
-      "A. Option A for 17",
-      "B. Option B for 17",
-      "C. Option C for 17",
-      "D. Option D for 17"
+      "A. a = 1, b = 4",
+      "B. a = 2, b = 3",
+      "C. a = 1, b = 5",
+      "D. a = -2, b = 7"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "实词推断",
+    "explanation": "解析：由已知 a + b = 5, ab = 6，可得 a, b 为方程 t^2 - (a+b)t + ab = t^2 -5t +6 = 0 的两个根。该二次方程的根为 t = (5 ± √(25 - 24))/2 = (5 ± 1)/2，即 t = 3 或 t = 2。因此 a, b 分别为 2 和 3，且顺序可互换，故选项 B 正确。"
   },
   {
     "id": "chinese-senior-18",
     "type": "choice",
-    "question": "chinese question 18 for senior grade 10",
+    "question": "下列句子中，‘和’的使用正确的是（ ）。",
     "options": [
-      "A. Option A for 18",
-      "B. Option B for 18",
-      "C. Option C for 18",
-      "D. Option D for 18"
+      "A. 我和我的朋友一起去电影院。",
+      "B. 我和去了电影院。",
+      "C. 我和朋友一起在图书馆学习，和在咖啡厅休息。",
+      "D. 我和她很要好，和很忙。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "虚词用法",
+    "explanation": "解析：‘和’是并列连词，用来连接并列的名词或代词，表示共同的对象或行为。选项A中‘和我的朋友’正确地连接了主语‘我’和共同行动的‘我的朋友’，符合‘和’的并列功能；选项B缺少并列对象，语法错误；选项C在同一个句子中出现两次‘和’，结构不完整；选项D的‘和很忙’缺少并列的词或短语，也不符合规范。"
   },
   {
     "id": "chinese-senior-19",
     "type": "choice",
-    "question": "chinese question 19 for senior grade 10",
+    "question": "已知函数 f(x)=x^2-4x+3，求不等式 f(x) > 0 的解集。",
     "options": [
-      "A. Option A for 19",
-      "B. Option B for 19",
-      "C. Option C for 19",
-      "D. Option D for 19"
+      "A. 当 x<1 或 x>3 时，不等式成立",
+      "B. 当 1<x<3 时，不等式成立",
+      "C. 当 x=1 或 x=3 时，不等式成立",
+      "D. 当 x 为任意实数时，不等式成立"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "二次不等式的因式分解与符号分析",
+    "explanation": "解析：首先将二次函数 f(x)=x^2-4x+3 进行因式分解，得到 f(x)=(x-1)(x-3)。该函数的零点为 x=1 与 x=3。将实数轴分为三个区间 (-\\infty,1)、(1,3)、(3,+\\infty)。在每个区间任取一个测试点代入因式式子 (x-1)(x-3) 的符号，可得：在 (-\\infty,1) 和 (3,+\\infty) 区间内，两个因式同号，乘积为正；在 (1,3) 区间内，两个因式异号，乘积为负；在零点处乘积为 0。因此不等式 f(x) > 0 的解集为 x<1 或 x>3，对应选项 A。"
   },
   {
     "id": "chinese-senior-20",
     "type": "choice",
-    "question": "chinese question 20 for senior grade 10",
+    "question": "某短视频平台对用户评论进行情感分析，将评论的情感倾向分为三类：积极（+1分）、中性（0分）、消极（-1分）。平台抽取了100条评论，统计结果如下：积极45条，中性35条，消极20条。求这100条评论的情感平均得分。",
     "options": [
-      "A. Option A for 20",
-      "B. Option B for 20",
-      "C. Option C for 20",
-      "D. Option D for 20"
+      "A. 这组数据的平均分为0.25分，表明整体情感倾向略偏积极。",
+      "B. 这组数据的平均分为-0.12分，表明整体情感倾向略偏消极。",
+      "C. 这组数据的平均分为0.78分，表明整体情感倾向明显积极。",
+      "D. 这组数据的平均分为0分，表明情感倾向保持中性。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "情感主旨",
+    "explanation": "解析：首先将每条评论的情感分值乘以对应数量相加，即45×1+35×0+20×(-1)=25，然后除以总数量100，得到平均分25/100=0.25。因此选项A正确。"
   },
   {
     "id": "chinese-senior-21",
     "type": "choice",
-    "question": "chinese question 21 for senior grade 10",
+    "question": "已知函数f(x)=x^2的图像经某种表现手法得到g(x)=(x-1)^2+2的图像，这种表现手法是______。",
     "options": [
-      "A. Option A for 21",
-      "B. Option B for 21",
-      "C. Option C for 21",
-      "D. Option D for 21"
+      "A. 将图像整体沿坐标轴平移",
+      "B. 将图像关于坐标轴对称",
+      "C. 将图像在横、纵方向进行伸缩",
+      "D. 将图像绕原点旋转"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "表现手法",
+    "explanation": "解析：f(x)=x^2的图像向右平移1个单位得到(x-1)^2，再向上平移2个单位得到(x-1)^2+2，这是一种典型的平移表现手法。其它选项（对称、伸缩、旋转）会使图像形态发生根本变化，而不是仅仅移动位置。"
   },
   {
     "id": "chinese-senior-22",
     "type": "choice",
-    "question": "chinese question 22 for senior grade 10",
+    "question": "已知函数 f(x)=x^2-4x+3，若要完整描述该函数的变化规律，通常可以采用三种不同的表达方式。这三种表达方式分别是（ ）",
     "options": [
-      "A. Option A for 22",
-      "B. Option B for 22",
-      "C. Option C for 22",
-      "D. Option D for 22"
+      "A. 解析式、表格、图像",
+      "B. 解析式、方程、图像",
+      "C. 表格、文字、图像",
+      "D. 文字、符号、图形"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "表达方式",
+    "explanation": "解析：函数的常见表达方式包括解析式（用代数式表示函数关系）、表格（列出自变量与函数值的对应关系）以及图像（在坐标系中用曲线描绘函数）。因此选项 A 正确。"
   },
   {
     "id": "chinese-senior-23",
     "type": "choice",
-    "question": "chinese question 23 for senior grade 10",
+    "question": "如图所示，有一个正四棱锥，底面是边长为6的正方形，顶点在底面中心的正上方，棱锥的高为4。若从左侧视图观察该棱锥，得到的平面图形是什么？",
     "options": [
-      "A. Option A for 23",
-      "B. Option B for 23",
-      "C. Option C for 23",
-      "D. Option D for 23"
+      "A. 直角三角形",
+      "B. 等腰三角形",
+      "C. 正方形",
+      "D. 梯形"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "叙述视角",
+    "explanation": "解析：从左侧观察正四棱锥时，只能看到左侧的两个斜面和底面的一条边，这三条边形成一个等腰三角形。左侧的两条斜棱长度相等，底边是底面的一条边。因此左侧视图的形状是等腰三角形，而不是直角三角形、正方形或梯形。"
   },
   {
     "id": "chinese-senior-24",
     "type": "choice",
-    "question": "chinese question 24 for senior grade 10",
+    "question": "小明在写作文时采用了倒叙的叙事手法。他写的作文共20页，其中倒叙部分占5页。请问倒叙部分占整篇作文页数的百分比是多少？",
     "options": [
-      "A. Option A for 24",
-      "B. Option B for 24",
-      "C. Option C for 24",
-      "D. Option D for 24"
+      "A. 倒叙部分占总页数的15%。",
+      "B. 倒叙部分占总页数的20%。",
+      "C. 倒叙部分占总页数的25%。",
+      "D. 倒叙部分占总页数的30%。"
     ],
-    "answer": "A",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "叙事手法",
+    "explanation": "解析：倒叙部分占5页，总页数为20页，比例=5/20=0.25，即25%。因此正确答案为C。"
   },
   {
     "id": "chinese-senior-25",
     "type": "choice",
-    "question": "chinese question 25 for senior grade 10",
+    "question": "在《射雕英雄传》中，郭靖、黄蓉和洪七公的年龄满足一定关系，已知郭靖比黄蓉大5岁，黄蓉比洪七公大2岁，三人的年龄之和为63岁，求郭靖的年龄。",
     "options": [
-      "A. Option A for 25",
-      "B. Option B for 25",
-      "C. Option C for 25",
-      "D. Option D for 25"
+      "A. 郭靖的年龄是24岁。",
+      "B. 郭靖的年龄是25岁。",
+      "C. 郭靖的年龄是26岁。",
+      "D. 郭靖的年龄是27岁。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "小说人物形象",
+    "explanation": "解析：设黄蓉的年龄为 x 岁，则郭靖的年龄为 x+5 岁，洪七公的年龄为 x-2 岁。由题意得 (x+5)+x+(x-2)=63，即 3x+3=63，解得 x=20。因此郭靖的年龄为 x+5=25 岁，对应选项 B。"
   },
   {
     "id": "chinese-senior-26",
     "type": "choice",
-    "question": "chinese question 26 for senior grade 10",
+    "question": "某小说的情节划分为五个阶段：开篇、发展、高潮、回落、结局。若每个阶段的字数构成等差数列，已知第一阶段的字数为500字，第五阶段的字数为800字，则第三阶段（即高潮）的字数是多少？",
     "options": [
-      "A. Option A for 26",
-      "B. Option B for 26",
-      "C. Option C for 26",
-      "D. Option D for 26"
+      "A. 第三阶段的字数为600字。",
+      "B. 第三阶段的字数为650字。",
+      "C. 第三阶段的字数为700字。",
+      "D. 第三阶段的字数为750字。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "小说情节结构",
+    "explanation": "解析：因为字数构成等差数列，设首项a1=500，末项a5=800，公差d=（800−500）/（5−1）=75，第三项a3=a1+2d=500+150=650。"
   },
   {
     "id": "chinese-senior-27",
     "type": "choice",
-    "question": "chinese question 27 for senior grade 10",
+    "question": "在某篇散文中，作者使用‘松’、‘鹤’、‘云’三种物象来表达志向。全篇共出现这些物象的次数分别为7次、9次、4次，共计20次。若随机抽取文中一次出现的物象描写，抽到‘松’的概率是多少？",
     "options": [
-      "A. Option A for 27",
-      "B. Option B for 27",
-      "C. Option C for 27",
-      "D. Option D for 27"
+      "A. 0.35（即7/20）",
+      "B. 0.45（即9/20）",
+      "C. 0.30（即6/20）",
+      "D. 0.40（即8/20）"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "散文托物言志",
+    "explanation": "解析：总次数为20次，‘松’出现了7次。随机抽取一次出现的物象描写，抽到‘松’的概率为出现次数除以总次数，即7/20=0.35。因此正确答案为A。"
   },
   {
     "id": "chinese-senior-28",
     "type": "choice",
-    "question": "chinese question 28 for senior grade 10",
+    "question": "在某篇散文中，作者使用了10句借景抒情的句子和15句其他句子。若从中随机抽取2句，求恰好抽到1句借景抒情的句子的概率。",
     "options": [
-      "A. Option A for 28",
-      "B. Option B for 28",
-      "C. Option C for 28",
-      "D. Option D for 28"
+      "A. 概率是1/3",
+      "B. 概率是1/2",
+      "C. 概率是2/5",
+      "D. 概率是4/9"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "散文借景抒情",
+    "explanation": "解析：总句子数为10+15=25，抽取2句的所有可能数为C(25,2)=300。恰好抽到1句借景抒情的句子的可能数为C(10,1)*C(15,1)=10×15=150，故概率为150/300=1/2。"
   },
   {
     "id": "chinese-senior-29",
     "type": "choice",
-    "question": "chinese question 29 for senior grade 10",
+    "question": "在戏剧《冲突的高潮》中，主角的情绪变化和反派的阴谋变化分别可以用一次函数 y = 2x + 3 和 y = -2x + 7 来描述。若把戏剧冲突的最高点定义为两函数图像的交点，则该交点的 x 坐标是多少？",
     "options": [
-      "A. Option A for 29",
-      "B. Option B for 29",
-      "C. Option C for 29",
-      "D. Option D for 29"
+      "A. 交点的 x 坐标为 1",
+      "B. 交点的 x 坐标为 2",
+      "C. 交点的 x 坐标为 3",
+      "D. 交点的 x 坐标为 4"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "戏剧冲突",
+    "explanation": "解析：令两函数相等，得 2x + 3 = -2x + 7，整理得 4x = 4，解得 x = 1。因此选项 A 正确。"
   },
   {
     "id": "chinese-senior-30",
     "type": "choice",
-    "question": "chinese question 30 for senior grade 10",
+    "question": "某剧团演出《雷雨》时，剧中角色共有300句台词，其中中文台词占60%，英文台词占30%，其余为法语台词。若该剧团计划将中文台词的比例提升至75%，在不改变总台词数的前提下，需要将多少句英文台词改为中文台词？",
     "options": [
-      "A. Option A for 30",
-      "B. Option B for 30",
-      "C. Option C for 30",
-      "D. Option D for 30"
+      "A. 需要将30句英文台词改为中文台词",
+      "B. 需要将45句英文台词改为中文台词",
+      "C. 需要将60句英文台词改为中文台词",
+      "D. 需要将75句英文台词改为中文台词"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "戏剧语言",
+    "explanation": "解析：原中文台词为300×60%＝180句，目标中文台词为300×75%＝225句，需要增加225-180=45句。因此必须把45句英文台词改为中文台词，对应选项B。"
   },
   {
     "id": "chinese-senior-31",
     "type": "choice",
-    "question": "chinese question 31 for senior grade 10",
+    "question": "《登鹳雀楼》全诗共四句，每句有5个互不相同的意象。若从每句随机抽取一个意象（抽取后可能相同），求全部抽取结果的总数是多少？",
     "options": [
-      "A. Option A for 31",
-      "B. Option B for 31",
-      "C. Option C for 31",
-      "D. Option D for 31"
+      "A. 5的4次方，即625",
+      "B. 4的5次方，即1024",
+      "C. 组合数C(5,4)=5",
+      "D. 5的阶乘，即120"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "诗歌意象",
+    "explanation": "解析：每句有5个可选意象，四句相互独立，抽取的总数为5×5×5×5=5^4=625，故选项A正确。"
   },
   {
     "id": "chinese-senior-32",
     "type": "choice",
-    "question": "chinese question 32 for senior grade 10",
+    "question": "阅读以下古诗《静夜思》，指出它所表达的情感基调。\n床前明月光，疑是地上霜。举头望明月，低头思故乡。",
     "options": [
-      "A. Option A for 32",
-      "B. Option B for 32",
-      "C. Option C for 32",
-      "D. Option D for 32"
+      "A. 对故乡的深切思念",
+      "B. 对自然的赞美与欣赏",
+      "C. 对人生的豁达与乐观",
+      "D. 对友情的眷恋与不舍"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "诗歌情感",
+    "explanation": "解析：诗中“举头望明月，低头思故乡”直接点出诗人因看到明月而思念远方的故乡，体现了对故乡的深切思念之情。选项A准确描述了诗歌的情感基调。"
   },
   {
     "id": "chinese-senior-33",
     "type": "choice",
-    "question": "chinese question 33 for senior grade 10",
+    "question": "以下诗句中，哪一句使用了比喻的修辞手法？",
     "options": [
-      "A. Option A for 33",
-      "B. Option B for 33",
-      "C. Option C for 33",
-      "D. Option D for 33"
+      "A. “春眠不觉晓，处处闻啼鸟。”（孟浩然《春晓》）",
+      "B. “春风如剪，裁出柳叶青。”（韩愈《早春呈水部张十八员外》）",
+      "C. “大漠孤烟直，长河落日圆。”（王维《使至塞上》）",
+      "D. “举头望明月，低头思故乡。”（李白《静夜思》）"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "诗歌手法",
+    "explanation": "解析：选项B中的“春风如剪”，把春风比作剪刀，用‘如’字构成明喻，属于比喻手法。其他选项均为写景或直陈，未使用比喻修辞。"
   },
   {
     "id": "chinese-senior-34",
     "type": "choice",
-    "question": "chinese question 34 for senior grade 10",
+    "question": "杜甫的《登高》全诗共10句，每句的字数构成首项为5、公差为1的等差数列（即第一句5个字，第二句6个字，依此类推），则全诗的总字数是多少？",
     "options": [
-      "A. Option A for 34",
-      "B. Option B for 34",
-      "C. Option C for 34",
-      "D. Option D for 34"
+      "A. 全诗总字数为85个。",
+      "B. 全诗总字数为95个。",
+      "C. 全诗总字数为105个。",
+      "D. 全诗总字数为115个。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "杜甫诗歌",
+    "explanation": "解析：每句字数构成等差数列，首项a₁=5，公差d=1，项数n=10。等差数列前n项和公式为S_n = n/2·(2a₁+(n-1)d)。代入得S_10 = 10/2·(2×5+9×1)=5·(10+9)=5·19=95，故全诗总字数为95。答案为B。"
   },
   {
     "id": "chinese-senior-35",
     "type": "choice",
-    "question": "chinese question 35 for senior grade 10",
+    "question": "《静夜思》是唐代诗人李白的名篇，全诗共四句，每句恰好5个字（即每个字算作一个字符，不计标点）。全诗共计20个字符，已知其中出现“月”字的次数为2次。若从全诗的20个字符中随机抽取一个字符，抽到“月”字的概率是多少？",
     "options": [
-      "A. Option A for 35",
-      "B. Option B for 35",
-      "C. Option C for 35",
-      "D. Option D for 35"
+      "A. 概率为1/20",
+      "B. 概率为1/10",
+      "C. 概率为1/5",
+      "D. 概率为1/8"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "李白诗歌",
+    "explanation": "解析：全诗共20个字符，其中“月”字出现2次，所以抽到“月”字的概率为2/20=1/10，对应选项B。"
   },
   {
     "id": "chinese-senior-36",
     "type": "choice",
-    "question": "chinese question 36 for senior grade 10",
+    "question": "陶渊明的《饮酒》诗集共收录20首诗，若一次随机抽取2首诗，求不同的抽取组合数。",
     "options": [
-      "A. Option A for 36",
-      "B. Option B for 36",
-      "C. Option C for 36",
-      "D. Option D for 36"
+      "A. 共有190种抽取方式",
+      "B. 共有180种抽取方式",
+      "C. 共有200种抽取方式",
+      "D. 共有210种抽取方式"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "陶渊明诗歌",
+    "explanation": "解析：抽取2首诗的组合数即从20首诗中选2首的组合数，计算公式为C(20,2)=20×19÷2=190，故答案为190种，即选项A。"
   },
   {
     "id": "chinese-senior-37",
     "type": "choice",
-    "question": "chinese question 37 for senior grade 10",
+    "question": "《念奴娇·赤壁怀古》是苏轼所作的著名词作，常被称为百字词。请问这首词（不含标点符号）共有多少个字？",
     "options": [
-      "A. Option A for 37",
-      "B. Option B for 37",
-      "C. Option C for 37",
-      "D. Option D for 37"
+      "A. 这首词共有100个字。",
+      "B. 这首词共有90个字。",
+      "C. 这首词共有80个字。",
+      "D. 这首词共有70个字。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "苏轼诗词",
+    "explanation": "解析：《念奴娇·赤壁怀古》全词正文共有100个汉字，符合其‘百字词’的称谓。计数时不计入标点符号，字数正好是100。"
   },
   {
     "id": "chinese-senior-38",
     "type": "choice",
-    "question": "chinese question 38 for senior grade 10",
+    "question": "《青玉案·元夕》这首词共有5句，各句的字数分别为9、11、10、12、9。若把这5句的字数视为一个数列，求该数列的中位数。",
     "options": [
-      "A. Option A for 38",
-      "B. Option B for 38",
-      "C. Option C for 38",
-      "D. Option D for 38"
+      "A. 该数列的中位数是9个字",
+      "B. 该数列的中位数是10个字",
+      "C. 该数列的中位数是11个字",
+      "D. 该数列的中位数是12个字"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "辛弃疾词",
+    "explanation": "解析：将5句字数按从小到大排列得到9、9、10、11、12，共5个数，中位数是第3个数，即10个字。"
   },
   {
     "id": "chinese-senior-39",
     "type": "choice",
-    "question": "chinese question 39 for senior grade 10",
+    "question": "已知李清照的《如梦令》全词（不含标点）共有多少个汉字？请从下列选项中选择正确答案。",
     "options": [
-      "A. Option A for 39",
-      "B. Option B for 39",
-      "C. Option C for 39",
-      "D. Option D for 39"
+      "A. 30个",
+      "B. 32个",
+      "C. 33个",
+      "D. 35个"
     ],
-    "answer": "A",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "李清照词",
+    "explanation": "解析：逐字统计《如梦令》全词的汉字（不计标点），分别为常、记、溪、亭、日、暮、沉、醉、不、知、归、路、兴、尽、晚、回、舟、误、入、藕、花、深、处、争、渡、争、渡、惊、起、一、滩、鸥、鹭，共33个汉字。因此正确答案为C。"
   },
   {
     "id": "chinese-senior-40",
     "type": "choice",
-    "question": "chinese question 40 for senior grade 10",
+    "question": "《赋得古原草送别》是白居易的一首诗，全诗共有8句，第一句有5个字，随后每句比前一句多2个字。请问全诗共有多少个字？",
     "options": [
-      "A. Option A for 40",
-      "B. Option B for 40",
-      "C. Option C for 40",
-      "D. Option D for 40"
+      "A. 全诗共有96个字",
+      "B. 全诗共有100个字",
+      "C. 全诗共有104个字",
+      "D. 全诗共有92个字"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "白居易诗歌",
+    "explanation": "解析：本题为等差数列求和问题。已知首项a₁=5，公差d=2，项数n=8。等差数列前n项和公式为Sₙ=n/2·[2a₁+(n-1)d]，代入得S₈=8/2·[2×5+(8-1)×2]=4·[10+14]=4·24=96。因此全诗共有96个字，正确选项为A。"
   },
   {
     "id": "chinese-senior-41",
     "type": "choice",
-    "question": "chinese question 41 for senior grade 10",
+    "question": "下列对“吾尝终日而思不如须臾之所学也”一句的断句，正确的是（ ）。",
     "options": [
-      "A. Option A for 41",
-      "B. Option B for 41",
-      "C. Option C for 41",
-      "D. Option D for 41"
+      "A. 吾尝终日而思，不若须臾之所学也。",
+      "B. 吾尝终日而思，不若须臾之所学。",
+      "C. 吾尝终日而思，不如须臾之所学也。",
+      "D. 吾尝终日而思，不如须臾之所学。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "文言文断句",
+    "explanation": "解析：在古文中，常用“不若”表示“不如”，且句末的“也”用于加强肯定语气。因此正确的断句为“吾尝终日而思，不若须臾之所学也”。其他选项或缺少“也”，或将“不若”改为“不如”，不符合原文语气。"
   },
   {
     "id": "chinese-senior-42",
     "type": "choice",
-    "question": "chinese question 42 for senior grade 10",
+    "question": "古文题：有二人共买三十枚钱，甲取十枚，乙取十五枚，问余钱几何？ 将上述文言文翻译成现代汉语后，求余下的钱数。",
     "options": [
-      "A. Option A for 42",
-      "B. Option B for 42",
-      "C. Option C for 42",
-      "D. Option D for 42"
+      "A. 余下的钱是五枚。",
+      "B. 余下的钱是十枚。",
+      "C. 余下的钱是十五枚。",
+      "D. 余下的钱是二十枚。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "文言文翻译",
+    "explanation": "先把文言文翻译为‘两个人一起买了三十枚钱币，甲拿了十枚，乙拿了十五枚，问剩下多少枚？’，计算30-10-15=5，故余下的钱是五枚。"
   },
   {
     "id": "chinese-senior-43",
     "type": "choice",
-    "question": "chinese question 43 for senior grade 10",
+    "question": "《诗经》共收录305首诗，分为《国风》《小雅》《大雅》和《颂》四部分，其中《国风》160首，《小雅》74首，《大雅》31首，《颂》40首。若随机抽取一首诗，抽到《雅》（即《小雅》或《大雅》）的概率是多少？",
     "options": [
-      "A. Option A for 43",
-      "B. Option B for 43",
-      "C. Option C for 43",
-      "D. Option D for 43"
+      "A. 随机抽取一首，抽到《雅》的概率为 105/305（约等于 0.344）。",
+      "B. 随机抽取一首，抽到《雅》的概率为 160/305（约等于 0.525）。",
+      "C. 随机抽取一首，抽到《雅》的概率为 40/305（约等于 0.131）。",
+      "D. 随机抽取一首，抽到《雅》的概率为 210/305（约等于 0.689）。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "文化经典阅读",
+    "explanation": "解析：首先统计《雅》部分的诗歌数量，《小雅》74首加上《大雅》31首，共105首。总的诗歌数量为305首，因此抽到《雅》的概率为 105/305。化简后得到 21/61（约等于 0.344）。所以选项A正确。"
   },
   {
     "id": "chinese-senior-44",
     "type": "choice",
-    "question": "chinese question 44 for senior grade 10",
+    "question": "阅读以下关于函数单调性的论述，判断下列说法正确的是（ ）。\n\n函数f(x)在区间I上若满足对任意x1<x2都有f(x1)≤f(x2)，则称f(x)在I上单调递增；若对任意x1<x2都有f(x1)≥f(x2)，则称单调递减。单调性的判定可以通过求导实现：若在I上f'(x)≥0，则f(x)单调递增；若f'(x)≤0，则单调递减。",
     "options": [
-      "A. Option A for 44",
-      "B. Option B for 44",
-      "C. Option C for 44",
-      "D. Option D for 44"
+      "A. 若f'(x)>0，则f(x)在该区间必为单调递减。",
+      "B. 若f'(x)≥0，则f(x)在该区间必为单调递增。",
+      "C. 若f(x)在区间I上单调递增，则对任意x1<x2都有f(x1)>f(x2)。",
+      "D. 若f(x)在区间I上单调递增，则必有f'(x)>0。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "论述类文本阅读",
+    "explanation": "解析：文中给出函数单调递增的定义是f(x1)≤f(x2)（非严格），并指出若导数f'(x)≥0，则函数在该区间单调递增。根据这一定义，选项B直接对应文中的判定条件，因而正确；选项A的结论与文中相反，选项C混淆了单调递增与严格递增的区别，选项D忽略了导数可以为0的情况。故正确答案为B。"
   },
   {
     "id": "chinese-senior-45",
     "type": "choice",
-    "question": "chinese question 45 for senior grade 10",
+    "question": "某咖啡店在周末推出以下优惠活动：\n1. 消费满30元减5元；\n2. 使用微信支付可再打9折；\n3. 持会员卡可再享受额外9折（该折扣在微信折扣之后进行）。\n小王是会员，周末在咖啡店消费共计45元，使用微信支付并出示会员卡，请问小王实际支付多少钱？",
     "options": [
-      "A. Option A for 45",
-      "B. Option B for 45",
-      "C. Option C for 45",
-      "D. Option D for 45"
+      "A. 32.4元",
+      "B. 36元",
+      "C. 40元",
+      "D. 45元"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "实用类文本阅读",
+    "explanation": "解析：先满足满30元减5元的条件，实际金额为45-5=40元；随后使用微信支付再打9折，40×0.9=36元；最后持会员卡再享受额外9折，36×0.9=32.4元。故小王实际支付32.4元，答案为A。"
   },
   {
     "id": "chinese-senior-46",
     "type": "choice",
-    "question": "chinese question 46 for senior grade 10",
+    "question": "请阅读下面的材料，选出最能体现文章中心立意的选项。材料：小李在高中阶段面对学业的压力，始终坚持每天早起跑步，以此调节身心。最终，他不仅学业成绩提升，而且体质也变得更好。",
     "options": [
-      "A. Option A for 46",
-      "B. Option B for 46",
-      "C. Option C for 46",
-      "D. Option D for 46"
+      "A. 通过坚持锻炼来提升体质，进而促进学习的进步",
+      "B. 早起跑步是一种浪费时间的行为",
+      "C. 高中学生不应关注健康，只专注于学业",
+      "D. 只有天赋才能决定成绩，努力没有意义"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "作文立意",
+    "explanation": "解析：材料的中心在于小李通过坚持锻炼改善身心，从而提升学习效果，这与选项A的表述一致。选项B、C、D均偏离或否定材料的积极立意。"
   },
   {
     "id": "chinese-senior-47",
     "type": "choice",
-    "question": "chinese question 47 for senior grade 10",
+    "question": "某次作文比赛中，参赛者需从5个预设主题中抽取2个进行写作。已知每个主题被抽中的概率相同，求恰好抽到‘科技创新’和‘传统文化’这两个主题的概率。",
     "options": [
-      "A. Option A for 47",
-      "B. Option B for 47",
-      "C. Option C for 47",
-      "D. Option D for 47"
+      "从5个主题中抽取2个恰好抽到‘科技创新’和‘传统文化’的概率为1/10。",
+      "从5个主题中抽取2个恰好抽到‘科技创新’和‘传统文化’的概率为1/5。",
+      "从5个主题中抽取2个恰好抽到‘科技创新’和‘传统文化’的概率为2/5。",
+      "从5个主题中抽取2个恰好抽到‘科技创新’和‘传统文化’的概率为1/2。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "作文素材运用",
+    "explanation": "解析：首先计算所有可能的抽取组合数，即从5个主题中任选2个的组合数C(5,2)=10。只有一种组合是抽到‘科技创新’和‘传统文化’，因此概率为1/10，对应选项A。"
   },
   {
     "id": "chinese-senior-48",
     "type": "choice",
-    "question": "chinese question 48 for senior grade 10",
+    "question": "某学生在课堂上使用敬谦辞向老师请教求方程 x^2 - 5x + 6 = 0 的根的方法。下面四个表述中，哪一个符合敬谦辞的使用规范？",
     "options": [
-      "A. Option A for 48",
-      "B. Option B for 48",
-      "C. Option C for 48",
-      "D. Option D for 48"
+      "A. 老师，请把答案告诉我。",
+      "B. 老师，请问能否把这道题的解法赐教于我？",
+      "C. 老师，直接把答案写在黑板上吧。",
+      "D. 老师，我想要答案。"
     ],
-    "answer": "A",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "敬谦辞",
+    "explanation": "解析：敬谦辞强调使用礼貌、恭敬的语言，如“请问”“赐教”等。选项B使用了“请问”和“赐教”，符合敬谦辞的规范；其他选项要么过于直接，要么缺乏恭敬语气。"
   },
   {
     "id": "chinese-senior-49",
     "type": "choice",
-    "question": "chinese question 49 for senior grade 10",
+    "question": "已知公元2000年是庚辰年，天干地支纪年法每60年循环一次，则公元2023年对应的天干地支是（ ）。",
     "options": [
-      "A. Option A for 49",
-      "B. Option B for 49",
-      "C. Option C for 49",
-      "D. Option D for 49"
+      "A. 癸卯年",
+      "B. 辛亥年",
+      "C. 甲午年",
+      "D. 壬戌年"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "古代纪年法",
+    "explanation": "解析：在天干地支纪年法中，天干和地支分别按10和12的循环序列配对，每年递增1。2000年为庚辰，天干序号为7，地支序号为5。2023年比2000年晚23年，故天干序号 = (7+23) mod 10 = 30 mod 10 = 10，对应癸；地支序号 = (5+23) mod 12 = 28 mod 12 = 4，对应卯。因此2023年对应癸卯。"
   },
   {
     "id": "chinese-senior-50",
     "type": "choice",
-    "question": "chinese question 50 for senior grade 10",
+    "question": "根据古代丝绸之路的地图，记载从汉代长安到撒马尔罕的距离约为2500公里，从撒马尔罕到巴格达的距离约为1800公里。若一支商队在保持匀速行驶的条件下，用30天完成了从长安到撒马尔罕的旅程，则该商队在相同速度下完成从撒马尔罕到巴格达的旅程需要多少天？",
     "options": [
-      "A. Option A for 50",
-      "B. Option B for 50",
-      "C. Option C for 50",
-      "D. Option D for 50"
+      "A. 该商队在相同速度下需要约21.6天完成。",
+      "B. 该商队在相同速度下需要约24.0天完成。",
+      "C. 该商队在相同速度下需要约27.0天完成。",
+      "D. 该商队在相同速度下需要约30.0天完成。"
     ],
     "answer": "A",
     "difficulty": 2,
     "grade": 10,
-    "knowledge": "基础知识点",
-    "explanation": "解析：本题考察chinese基础概念，正确答案为A。"
+    "knowledge": "古代地理常识",
+    "explanation": "解析：首先根据已知数据求出商队的行驶速度。已知距离 d₁ = 2500 km，时间 t₁ = 30 天，则速度 v = d₁ / t₁ = 2500 / 30 ≈ 83.33 km/天。随后计算第二段距离 d₂ = 1800 km 所需时间 t₂ = d₂ / v = 1800 / 83.33 ≈ 21.6 天。因此在相同速度下，商队需要约21.6天完成从撒马尔罕到巴格达的旅程，对应选项 A。"
+  },
+  {
+    "id": "chinese-senior-51",
+    "type": "choice",
+    "question": "在某古代王朝的官制中，官员分为三级：官、尉、令。已知官的数量是尉的两倍，尉的数量比令多3人，且三类官员总数为57人。则三类官员的人数分别为多少？",
+    "options": [
+      "官30人，尉15人，令12人",
+      "官28人，尉14人，令13人",
+      "官32人，尉15人，令10人",
+      "官30人，尉12人，令15人"
+    ],
+    "answer": "A",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledge": "古代官制常识",
+    "explanation": "解析：设令的人数为x，则尉为x+3，官为2(x+3)。根据总数57得 x + (x+3) + 2(x+3) = 57 → 4x + 9 = 57 → x = 12。于是令12人，尉15人，官30人，对应选项A。"
   }
 ]
