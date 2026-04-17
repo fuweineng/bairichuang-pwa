@@ -795,6 +795,29 @@ function isAnswerMatch(userAnswer, correctAnswer, question = null) {
     || normalizedUser.startsWith(normalizedAnswer.replace(/\s+/g, ''));
 }
 
+function stripMarkdown(text) {
+  if (!text) return '';
+  return text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/```[\s\S]*?```/g, '')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\$+([^$\n]+)\$+/g, '$1')
+    .replace(/\$\$[\s\S]*?\$\$/g, '')
+    .replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/^#{1,6}\s+/gm, '')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/__([^_]+)__/g, '$1')
+    .replace(/_([^_]+)_/g, '$1')
+    .replace(/^[-*+]\s+/gm, '· ')
+    .replace(/^\d+\.\s+/gm, '')
+    .replace(/^---\s*$/gm, '')
+    .replace(/---/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 function appendExplanation(fb, questionLike, skipPassage = false) {
   if (questionLike?.audio_text) {
     fb.innerHTML += `<p class="explanation"><strong>听力原文：</strong>${questionLike.audio_text.replace(/\n/g, '<br>')}</p>`;
@@ -803,7 +826,8 @@ function appendExplanation(fb, questionLike, skipPassage = false) {
     fb.innerHTML += `<p class="explanation"><strong>短文原文：</strong>${questionLike.passage.replace(/\n/g, '<br>')}</p>`;
   }
   if (questionLike?.explanation) {
-    fb.innerHTML += `<p class="explanation">${questionLike.explanation}</p>`;
+    const clean = stripMarkdown(questionLike.explanation).replace(/\n/g, '<br>');
+    fb.innerHTML += `<p class="explanation">${clean}</p>`;
   }
 }
 
