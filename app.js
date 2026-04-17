@@ -28,6 +28,7 @@ const state = {
   sessionScore: { correct: 0, wrong: 0 },
   sessionResults: [],
   sessionStartTime: null,
+  selectedChoice: null,   // { idx: number, submitted: bool } — null = 未选
   sessionStartQCount: 0,
   sessionStartCorrect: 0,
 
@@ -718,6 +719,7 @@ async function startSession(subject, entry) {
   state.sessionScore = { correct: 0, wrong: 0 };
   state.sessionResults = [];
   state.sessionIndex = 0;
+  state.selectedChoice = null;
 
   const filtered = buildSessionQuestions(subject, entry || 'standard');
 
@@ -879,7 +881,7 @@ function speakQuestion() {
   const av = state.settings.audioVersion || Date.now();
 
   const LOCAL_BASE = new URL('audio/', window.location.href).href;
-  const CDN_BASE = 'https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/';
+  const CDN_BASE = 'https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/audio/';
 
   const paths = [];
   if (q.audioUrl) {
@@ -967,6 +969,93 @@ function speakWithWebSpeech(q) {
 
   state.ttsUtterance = utter;
   speechSynthesis.speak(utter);
+}
+
+// ── 小学音频：点击题目文字播放 ───────────────────────────────────────
+window.playQAudio = function(el) {
+  const url = el.dataset.audio;
+  if (!url) return;
+  stopCurrentAudio();
+  const btn = document.getElementById('action-btn');
+  const grid = document.getElementById('answer-grid');
+  const label = document.querySelector('.q-text-audio');
+  if (label) { label.textContent = '🔊 播放中...'; label.style.pointerEvents = 'none'; }
+  if (grid) grid.style.pointerEvents = 'none';
+
+  const audio = new Audio(url);
+  currentAudio = audio;
+  audio.onended = () => {
+    currentAudio = null;
+    if (label) { label.textContent = el.textContent; label.style.pointerEvents = ''; }
+    if (grid) grid.style.pointerEvents = '';
+  };
+  audio.onerror = () => {
+    currentAudio = null;
+    if (label) { label.textContent = el.textContent; label.style.pointerEvents = ''; }
+    if (grid) grid.style.pointerEvents = '';
+  };
+  audio.play().catch(() => {
+    currentAudio = null;
+    if (label) { label.textContent = el.textContent; label.style.pointerEvents = ''; }
+    if (grid) grid.style.pointerEvents = '';
+  });
+};
+
+// ── 小学音频：点击选项文字播放 ───────────────────────────────────────
+window.playOpAudio = function(audioPath) {
+  if (!audioPath) return;
+  stopCurrentAudio();
+  const grid = document.getElementById('answer-grid');
+  const btns = document.querySelectorAll('.answer-btn[data-opaudio]');
+  if (grid) grid.style.pointerEvents = 'none';
+
+  const url = audioPath.startsWith('http') ? audioPath
+    : `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/${audioPath}`;
+  const audio = new Audio(url);
+  currentAudio = audio;
+
+  audio.onended = () => {
+    currentAudio = null;
+    if (grid) grid.style.pointerEvents = '';
+    btns.forEach(b => { b.textContent = b.textContent.replace(' 播放中', ''); });
+  };
+  audio.onerror = () => {
+    currentAudio = null;
+    if (grid) grid.style.pointerEvents = '';
+    btns.forEach(b => { b.textContent = b.textContent.replace(' 播放中', ''); });
+  };
+  audio.play().catch(() => {
+    currentAudio = null;
+    if (grid) grid.style.pointerEvents = '';
+  });
+  // 标记正在播放
+  btns.forEach(b => {
+    if (b.dataset.opaudio === audioPath) {
+      b.textContent += ' 播放中';
+    } else {
+      b.textContent = b.textContent.replace(' 播放中', '');
+    }
+  });
+};
+
+function stopCurrentAudio() {
+  if (currentAudio) { currentAudio.pause(); currentAudio = null; }
+  speechSynthesis.cancel();
+}
+
+// ── 提交答案 ─────────────────────────────────────────────────────────
+function handleSubmit() {
+  const sel = state.selectedChoice;
+  if (!sel || sel.submitted) return;
+  sel.submitted = true;
+  state.selectedChoice = sel;
+  handleAnswer(sel.idx);  // 显示对错 feedback，不 re-render
+  // 改按钮文字为"下一题"，不重新渲染整题（避免清除 feedback）
+  const btn = document.getElementById('action-btn');
+  if (btn) {
+    btn.textContent = '下一题';
+    btn.dataset.action = 'next-question';
+  }
 }
 
 function speakVariant(lang) {
@@ -1122,13 +1211,36 @@ function renderQuestion() {
   const isListeningType = hasChoices && q.type === 'listening';
   const isFillOrShort = !hasOptions && !hasChoices && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
 
+  // ── 小学语/英/数：题目文字可点播放音频 ────────────────────────────────
+  const primaryWithAudio = ['chinese', 'english', 'math'].includes(q.subject) && q.audio;
+  const qAudioUrl = primaryWithAudio
+    ? `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/${q.audio}`
+    : '';
+
   // 选项按钮 (choice 用 options/choices 文字；listening 用 choices[{label,text}])
-  // options/choices 兼容两种格式：纯字符串数组 或 {label,text}对象数组
+  // 小学primary科目：选项也可点着播放音频
+  // optionAudio 格式：[{key:'A',audio:'...'}] 或 {'a':'...','b':'...'}
+  let optionAudioMap = {};
+  if (['chinese', 'english', 'math'].includes(q.subject) && q.optionAudio) {
+    if (Array.isArray(q.optionAudio)) {
+      q.optionAudio.forEach(item => {
+        if (item.key) optionAudioMap[item.key.toLowerCase()] = item.audio;
+      });
+    } else {
+      optionAudioMap = q.optionAudio; // 已是 dict
+    }
+  }
+  const primaryWithOptionAudio = Object.keys(optionAudioMap).length > 0;
+  const sel = state.selectedChoice;
+  const isSubmitted = sel?.submitted === true;
+
   const opts = isChoice
     ? (q.options || q.choices).map((opt, i) => {
         const label = typeof opt === 'string' ? '' : opt.label + '. ';
         const text  = typeof opt === 'string' ? opt    : opt.text;
-        return `<button class="answer-btn" data-action="answer" data-choice="${i}">${label}${text}</button>`;
+        const selected = sel?.idx === i ? ' selected' : '';
+        const opAudio = primaryWithOptionAudio ? optionAudioMap['abcd'[i]] : '';
+        return `<button class="answer-btn${selected}" data-action="answer" data-choice="${i}"${opAudio ? ` data-opaudio="${opAudio}"` : ''}>${label}${text}</button>`;
       }).join('')
     : isListeningType
     ? q.choices.map((c, i) =>
@@ -1146,6 +1258,19 @@ function renderQuestion() {
        </div>`
     : '';
 
+  // 底部操作按钮：未提交 → 显示"提交"；已提交 → 显示"下一题"
+  const submitBtn = isChoice && !isFillOrShort
+    ? isSubmitted
+      ? `<button class="primary-btn" id="action-btn" data-action="next-question">下一题</button>`
+      : sel !== null
+        ? `<button class="primary-btn" id="action-btn" data-action="submit">提交</button>`
+        : ''
+    : '';
+
+  const qTextWithAudio = primaryWithAudio
+    ? `<span class="q-text-audio" data-audio="${qAudioUrl}" onclick="playQAudio(this)">${q.question}</span>`
+    : `<span>${q.question}</span>`;
+
   container.innerHTML = `
     <div class="question-meta">
       <span>${typeLabel}</span><span>${diffLabel}</span>
@@ -1156,11 +1281,39 @@ function renderQuestion() {
     ${imageBlock}
     ${ttsVariantsBlock}
     ${q.passage ? `<div class="passage-block"><strong>短文：</strong>${q.passage.replace(/\\n/g, '<br>')}</div>` : ''}
-    <div class="question-text">${q.question}</div>
-    ${opts ? `<div class="answer-grid">${opts}</div>` : ''}
+    <div class="question-text">${qTextWithAudio}</div>
+    ${opts ? `<div class="answer-grid" id="answer-grid">${opts}</div>` : ''}
     ${inputArea}
+    ${submitBtn}
     <div id="answer-feedback" style="display:none;margin-top:12px"></div>
   `;
+
+  // 键盘：1-4 选答案，回车提交/下一题
+  const onKey = (e) => {
+    if (!state.sessionQuestions.length) return;
+    const q = state.sessionQuestions[state.sessionIndex];
+    if (!q || q.type !== 'choice') return;
+    const maxChoice = (q.options || q.choices || []).length;
+    const curSel = state.selectedChoice;
+    const nowSubmitted = curSel?.submitted === true;
+
+    if (e.key >= '1' && e.key <= '4' && parseInt(e.key) <= maxChoice) {
+      const idx2 = parseInt(e.key) - 1;
+      state.selectedChoice = { idx: idx2, submitted: nowSubmitted };
+      renderQuestion();
+      return;
+    }
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (nowSubmitted) {
+        nextQuestion();
+      } else if (curSel !== null) {
+        handleSubmit();
+      }
+    }
+  };
+  document.removeEventListener('keydown', onKey);
+  document.addEventListener('keydown', onKey);
 
   if (isFillOrShort) {
     const inp = document.getElementById('fill-answer-input');
@@ -1307,6 +1460,7 @@ async function handleFillAnswer(userAnswer) {
 async function nextQuestion() {
   state.sessionIndex++;
   state.pdIndex = 0;
+  state.selectedChoice = null;
   renderQuestion();
 }
 
@@ -1860,8 +2014,24 @@ async function handleClick(e) {
       navigate('#/practice/all?entry=assessment');
       break;
 
-    case 'answer':
-      handleAnswer(parseInt(t.dataset.choice, 10));
+    case 'answer': {
+      const idx = parseInt(t.dataset.choice, 10);
+      const q = state.sessionQuestions[state.sessionIndex];
+      const hasOpAudio = ['chinese', 'english', 'math'].includes(q?.subject) && q?.optionAudio;
+      const isSubmitted = state.selectedChoice?.submitted === true;
+      // 点选项文字播音频（仅未提交时）
+      if (hasOpAudio && t.dataset.opaudio && !isSubmitted) {
+        playOpAudio(t.dataset.opaudio);
+        return;
+      }
+      // 选答案（不提交）
+      state.selectedChoice = { idx, submitted: isSubmitted };
+      renderQuestion();
+      break;
+    }
+
+    case 'submit':
+      handleSubmit();
       break;
 
     case 'next-question':

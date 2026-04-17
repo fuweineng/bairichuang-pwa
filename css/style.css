@@ -2067,6 +2067,7 @@ main {
 }
 .answer-btn:hover { background: var(--theme-surface-2); border-color: var(--theme-accent); }
 .answer-btn:active { transform: scale(0.98); }
+.answer-btn.selected { background: var(--theme-accent); color: var(--theme-bg); border-color: var(--theme-accent); font-weight: 600; }
 .fb-correct { color: var(--theme-accent); font-weight: 600; }
 .fb-wrong { color: #e53935; font-weight: 600; }
 .explanation { font-size: 0.8rem; color: var(--theme-text-secondary); margin-top: 6px; line-height: 1.5; }

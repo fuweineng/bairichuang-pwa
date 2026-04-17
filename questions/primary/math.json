@@ -16,7 +16,26 @@
       "67"
     ],
     "answer": "68",
-    "explanation": "23+45=68"
+    "explanation": "23+45=68",
+    "audio": "audio/math_001_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_001_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_001_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_001_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_001_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-002",
@@ -35,7 +54,26 @@
       "65"
     ],
     "answer": "45",
-    "explanation": "82-37=45"
+    "explanation": "82-37=45",
+    "audio": "audio/math_002_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_002_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_002_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_002_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_002_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-003",
@@ -54,7 +92,26 @@
       "48"
     ],
     "answer": "56",
-    "explanation": "七八五十六"
+    "explanation": "七八五十六",
+    "audio": "audio/math_003_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_003_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_003_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_003_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_003_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-004",
@@ -73,7 +130,26 @@
       "4"
     ],
     "answer": "6",
-    "explanation": "六六三十六"
+    "explanation": "六六三十六",
+    "audio": "audio/math_004_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_004_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_004_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_004_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_004_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-005",
@@ -92,7 +168,26 @@
       "10"
     ],
     "answer": "15",
-    "explanation": "5×3=15平方米"
+    "explanation": "5×3=15平方米",
+    "audio": "audio/math_005_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_005_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_005_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_005_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_005_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-006",
@@ -111,7 +206,26 @@
       "20"
     ],
     "answer": "16",
-    "explanation": "4×4=16厘米"
+    "explanation": "4×4=16厘米",
+    "audio": "audio/math_006_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_006_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_006_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_006_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_006_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-007",
@@ -130,7 +244,26 @@
       "2/8"
     ],
     "answer": "1/2",
-    "explanation": "同分母分数相加"
+    "explanation": "同分母分数相加",
+    "audio": "audio/math_007_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_007_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_007_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_007_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_007_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-008",
@@ -149,7 +282,26 @@
       "0.15"
     ],
     "answer": "0.8",
-    "explanation": "0.3+0.5=0.8"
+    "explanation": "0.3+0.5=0.8",
+    "audio": "audio/math_008_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_008_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_008_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_008_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_008_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-009",
@@ -168,7 +320,26 @@
       "16"
     ],
     "answer": "24",
-    "explanation": "6和8的最小公倍数是24"
+    "explanation": "6和8的最小公倍数是24",
+    "audio": "audio/math_009_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_009_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_009_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_009_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_009_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-010",
@@ -187,7 +358,26 @@
       "12"
     ],
     "answer": "6",
-    "explanation": "12和18的最大公因数是6"
+    "explanation": "12和18的最大公因数是6",
+    "audio": "audio/math_010_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_010_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_010_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_010_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_010_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-011",
@@ -206,7 +396,26 @@
       "17"
     ],
     "answer": "7",
-    "explanation": "x=12-5=7"
+    "explanation": "x=12-5=7",
+    "audio": "audio/math_011_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_011_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_011_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_011_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_011_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-012",
@@ -225,7 +434,26 @@
       "20"
     ],
     "answer": "5",
-    "explanation": "(2+4+6+8)/4=5"
+    "explanation": "(2+4+6+8)/4=5",
+    "audio": "audio/math_012_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_012_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_012_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_012_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_012_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-013",
@@ -244,7 +472,26 @@
       "20"
     ],
     "answer": "180",
-    "explanation": "60×3=180千米"
+    "explanation": "60×3=180千米",
+    "audio": "audio/math_013_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_013_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_013_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_013_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_013_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-014",
@@ -263,7 +510,26 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "1/2×4=2"
+    "explanation": "1/2×4=2",
+    "audio": "audio/math_014_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_014_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_014_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_014_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_014_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-015",
@@ -282,7 +548,26 @@
       "270°"
     ],
     "answer": "180°",
-    "explanation": "三角形内角和是180度"
+    "explanation": "三角形内角和是180度",
+    "audio": "audio/math_015_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_015_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_015_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_015_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_015_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-016",
@@ -301,7 +586,26 @@
       "3"
     ],
     "answer": "12",
-    "explanation": "3:6=6:12"
+    "explanation": "3:6=6:12",
+    "audio": "audio/math_016_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_016_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_016_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_016_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_016_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-017",
@@ -320,7 +624,26 @@
       "20"
     ],
     "answer": "10",
-    "explanation": "50×0.2=10"
+    "explanation": "50×0.2=10",
+    "audio": "audio/math_017_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_017_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_017_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_017_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_017_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-018",
@@ -339,7 +662,26 @@
       "24π"
     ],
     "answer": "12π",
-    "explanation": "π×2²×3=12π"
+    "explanation": "π×2²×3=12π",
+    "audio": "audio/math_018_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_018_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_018_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_018_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_018_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-019",
@@ -358,7 +700,26 @@
       "24π"
     ],
     "answer": "12π",
-    "explanation": "1/3×π×3²×4=12π"
+    "explanation": "1/3×π×3²×4=12π",
+    "audio": "audio/math_019_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_019_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_019_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_019_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_019_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-020",
@@ -377,7 +738,26 @@
       "10"
     ],
     "answer": "5",
-    "explanation": "-5的相反数是5"
+    "explanation": "-5的相反数是5",
+    "audio": "audio/math_020_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_020_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_020_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_020_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_020_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-021",
@@ -396,7 +776,26 @@
       "无法确定"
     ],
     "answer": "正数",
-    "explanation": "原点右边是正数"
+    "explanation": "原点右边是正数",
+    "audio": "audio/math_021_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_021_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_021_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_021_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_021_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-022",
@@ -415,7 +814,26 @@
       "250"
     ],
     "answer": "2500",
-    "explanation": "25×4=100, 100×25=2500"
+    "explanation": "25×4=100, 100×25=2500",
+    "audio": "audio/math_022_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_022_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_022_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_022_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_022_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-023",
@@ -434,7 +852,26 @@
       "310"
     ],
     "answer": "300",
-    "explanation": "298四舍五入约为300"
+    "explanation": "298四舍五入约为300",
+    "audio": "audio/math_023_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_023_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_023_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_023_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_023_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-024",
@@ -453,7 +890,26 @@
       "64"
     ],
     "answer": "32",
-    "explanation": "后一项是前一项的2倍"
+    "explanation": "后一项是前一项的2倍",
+    "audio": "audio/math_024_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_024_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_024_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_024_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_024_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-025",
@@ -472,7 +928,26 @@
       "1/10"
     ],
     "answer": "3/10",
-    "explanation": "3个红球/总共10个球"
+    "explanation": "3个红球/总共10个球",
+    "audio": "audio/math_025_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_025_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_025_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_025_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_025_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-026",
@@ -491,7 +966,26 @@
       "7"
     ],
     "answer": "8",
-    "explanation": "20-3×4=8元"
+    "explanation": "20-3×4=8元",
+    "audio": "audio/math_026_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_026_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_026_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_026_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_026_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-027",
@@ -510,7 +1004,26 @@
       "1/12"
     ],
     "answer": "5/12",
-    "explanation": "1-1/3-1/4=5/12"
+    "explanation": "1-1/3-1/4=5/12",
+    "audio": "audio/math_027_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_027_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_027_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_027_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_027_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-028",
@@ -529,7 +1042,26 @@
       "16"
     ],
     "answer": "4",
-    "explanation": "面积=边长²，扩大2倍→面积扩大4倍"
+    "explanation": "面积=边长²，扩大2倍→面积扩大4倍",
+    "audio": "audio/math_028_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_028_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_028_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_028_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_028_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-029",
@@ -548,7 +1080,26 @@
       "无法确定"
     ],
     "answer": "A",
-    "explanation": "A比B高，C比A矮，所以A最高"
+    "explanation": "A比B高，C比A矮，所以A最高",
+    "audio": "audio/math_029_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_029_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_029_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_029_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_029_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-030",
@@ -567,7 +1118,26 @@
       "后面"
     ],
     "answer": "左面",
-    "explanation": "面对太阳升起方向，北在左面"
+    "explanation": "面对太阳升起方向，北在左面",
+    "audio": "audio/math_030_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_030_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_030_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_030_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_030_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-031",
@@ -586,7 +1156,26 @@
       "90"
     ],
     "answer": "150",
-    "explanation": "11:00-8:30=2小时30分=150分钟"
+    "explanation": "11:00-8:30=2小时30分=150分钟",
+    "audio": "audio/math_031_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_031_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_031_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_031_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_031_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-032",
@@ -605,7 +1194,26 @@
       "8"
     ],
     "answer": "80",
-    "explanation": "100×0.8=80元"
+    "explanation": "100×0.8=80元",
+    "audio": "audio/math_032_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_032_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_032_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_032_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_032_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-033",
@@ -624,7 +1232,26 @@
       "100"
     ],
     "answer": "50",
-    "explanation": "1000×5%=50元"
+    "explanation": "1000×5%=50元",
+    "audio": "audio/math_033_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_033_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_033_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_033_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_033_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-034",
@@ -643,7 +1270,26 @@
       "13"
     ],
     "answer": "11",
-    "explanation": "1+8+2=11分钟（烧水时可以等水凉）"
+    "explanation": "1+8+2=11分钟（烧水时可以等水凉）",
+    "audio": "audio/math_034_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_034_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_034_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_034_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_034_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-035",
@@ -662,7 +1308,26 @@
       "两者都可能"
     ],
     "answer": "两者都可能",
-    "explanation": "球和圆柱从正面看都可能看到圆形"
+    "explanation": "球和圆柱从正面看都可能看到圆形",
+    "audio": "audio/math_035_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_035_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_035_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_035_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_035_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-036",
@@ -681,7 +1346,26 @@
       "无法确定"
     ],
     "answer": "不变",
-    "explanation": "旋转不改变图形大小"
+    "explanation": "旋转不改变图形大小",
+    "audio": "audio/math_036_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_036_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_036_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_036_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_036_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-037",
@@ -700,7 +1384,26 @@
       "杭州"
     ],
     "answer": "南京",
-    "explanation": "21开头表示南京"
+    "explanation": "21开头表示南京",
+    "audio": "audio/math_037_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_037_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_037_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_037_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_037_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-038",
@@ -719,7 +1422,26 @@
       "4"
     ],
     "answer": "6",
-    "explanation": "3×2=6种搭配"
+    "explanation": "3×2=6种搭配",
+    "audio": "audio/math_038_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_038_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_038_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_038_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_038_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-039",
@@ -738,7 +1460,26 @@
       "3"
     ],
     "answer": "6",
-    "explanation": "1苹果=2梨=6橘子"
+    "explanation": "1苹果=2梨=6橘子",
+    "audio": "audio/math_039_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_039_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_039_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_039_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_039_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-040",
@@ -757,7 +1498,26 @@
       "34"
     ],
     "answer": "21",
-    "explanation": "斐波那契数列，第8个是21"
+    "explanation": "斐波那契数列，第8个是21",
+    "audio": "audio/math_040_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_040_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_040_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_040_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_040_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-041",
@@ -776,7 +1536,26 @@
       "100"
     ],
     "answer": "11",
-    "explanation": "100/10+1=11棵"
+    "explanation": "100/10+1=11棵",
+    "audio": "audio/math_041_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_041_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_041_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_041_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_041_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-042",
@@ -795,7 +1574,26 @@
       "5"
     ],
     "answer": "6",
-    "explanation": "(10+2)/2=6"
+    "explanation": "(10+2)/2=6",
+    "audio": "audio/math_042_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_042_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_042_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_042_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_042_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-043",
@@ -814,7 +1612,26 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "(2+2)/(4-3)=4人"
+    "explanation": "(2+2)/(4-3)=4人",
+    "audio": "audio/math_043_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_043_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_043_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_043_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_043_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-044",
@@ -833,7 +1650,26 @@
       "4.5"
     ],
     "answer": "4.8",
-    "explanation": "2/(1/4+1/6)=4.8"
+    "explanation": "2/(1/4+1/6)=4.8",
+    "audio": "audio/math_044_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_044_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_044_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_044_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_044_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-045",
@@ -852,7 +1688,26 @@
       "无法确定"
     ],
     "answer": "圆柱体",
-    "explanation": "相同体积下，球形表面积最小"
+    "explanation": "相同体积下，球形表面积最小",
+    "audio": "audio/math_045_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_045_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_045_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_045_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_045_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-046",
@@ -871,7 +1726,26 @@
       "32"
     ],
     "answer": "36",
-    "explanation": "这是平方数列：1²,2²,3²,4²,5²,6²"
+    "explanation": "这是平方数列：1²,2²,3²,4²,5²,6²",
+    "audio": "audio/math_046_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_046_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_046_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_046_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_046_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-047",
@@ -890,7 +1764,26 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "抽屉原理：最坏情况摸到红、蓝、蓝"
+    "explanation": "抽屉原理：最坏情况摸到红、蓝、蓝",
+    "audio": "audio/math_047_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_047_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_047_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_047_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_047_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-048",
@@ -909,7 +1802,26 @@
       "27"
     ],
     "answer": "18",
-    "explanation": "百位不能为0：3×3×2=18个"
+    "explanation": "百位不能为0：3×3×2=18个",
+    "audio": "audio/math_048_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_048_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_048_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_048_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_048_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-049",
@@ -928,7 +1840,26 @@
       "4"
     ],
     "answer": "12",
-    "explanation": "优化：第一次烙1和2正面，第二次烙1反和3正，第三次烙2和3反"
+    "explanation": "优化：第一次烙1和2正面，第二次烙1反和3正，第三次烙2和3反",
+    "audio": "audio/math_049_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_049_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_049_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_049_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_049_d.mp3"
+      }
+    ]
   },
   {
     "id": "primary-math-050",
@@ -947,7 +1878,26 @@
       "15"
     ],
     "answer": "30",
-    "explanation": "设原长x，用去1/3后剩2x/3，又用去一半即x/3，还剩x/3=10，所以x=30"
+    "explanation": "设原长x，用去1/3后剩2x/3，又用去一半即x/3，还剩x/3=10，所以x=30",
+    "audio": "audio/math_050_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_050_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_050_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_050_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_050_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-51",
@@ -963,7 +1913,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识数字1-10",
-    "explanation": "1到10中最小质数为2，最大合数为10，2+10=12。"
+    "explanation": "1到10中最小质数为2，最大合数为10，2+10=12。",
+    "audio": "audio/math_051_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_051_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_051_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_051_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_051_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-52",
@@ -979,7 +1948,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "10以内加减法",
-    "explanation": "6加4等于10"
+    "explanation": "6加4等于10",
+    "audio": "audio/math_052_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_052_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_052_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_052_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_052_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-55",
@@ -995,7 +1983,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识100以内数字",
-    "explanation": "十位是5、个位是7，十位在前，故该数为57。"
+    "explanation": "十位是5、个位是7，十位在前，故该数为57。",
+    "audio": "audio/math_055_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_055_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_055_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_055_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_055_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-58",
@@ -1011,7 +2018,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "三位数加减法",
-    "explanation": "对齐相加，个位3+8=13写3进1，十位4+7+1=12写2进1，百位3+4+1=8，得823。"
+    "explanation": "对齐相加，个位3+8=13写3进1，十位4+7+1=12写2进1，百位3+4+1=8，得823。",
+    "audio": "audio/math_058_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_058_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_058_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_058_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_058_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-59",
@@ -1027,7 +2053,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识乘法",
-    "explanation": "乘法本质是把相同的数相加的快捷方式。"
+    "explanation": "乘法本质是把相同的数相加的快捷方式。",
+    "audio": "audio/math_059_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_059_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_059_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_059_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_059_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-60",
@@ -1043,7 +2088,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "2-5的乘法口诀",
-    "explanation": "先算乘法4×5=20，2×3=6，再相减20-6=14。"
+    "explanation": "先算乘法4×5=20，2×3=6，再相减20-6=14。",
+    "audio": "audio/math_060_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_060_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_060_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_060_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_060_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-61",
@@ -1059,7 +2123,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "6-9的乘法口诀",
-    "explanation": "7×8等于56，直接使用乘法口诀得到。"
+    "explanation": "7×8等于56，直接使用乘法口诀得到。",
+    "audio": "audio/math_061_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_061_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_061_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_061_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_061_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-62",
@@ -1075,7 +2158,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "表内乘法",
-    "explanation": "把7和8相乘，使用乘法口诀得到56。"
+    "explanation": "把7和8相乘，使用乘法口诀得到56。",
+    "audio": "audio/math_062_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_062_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_062_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_062_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_062_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-63",
@@ -1091,7 +2193,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识除法",
-    "explanation": "把12个苹果平均分给3人，用除法12÷3=4，得每人4个。"
+    "explanation": "把12个苹果平均分给3人，用除法12÷3=4，得每人4个。",
+    "audio": "audio/math_063_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_063_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_063_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_063_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_063_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-64",
@@ -1107,7 +2228,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "表内除法",
-    "explanation": "把24除以6，想6的乘法口诀，6×4=24，所以答案是4"
+    "explanation": "把24除以6，想6的乘法口诀，6×4=24，所以答案是4",
+    "audio": "audio/math_064_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_064_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_064_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_064_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_064_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-65",
@@ -1123,7 +2263,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "有余数的除法",
-    "explanation": "37 ÷ 5 = 7 余 2，因为 5×7=35，剩余2本。"
+    "explanation": "37 ÷ 5 = 7 余 2，因为 5×7=35，剩余2本。",
+    "audio": "audio/math_065_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_065_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_065_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_065_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_065_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-66",
@@ -1139,7 +2298,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "乘除混合运算",
-    "explanation": "先算除法24÷6=4，再乘以2得8。"
+    "explanation": "先算除法24÷6=4，再乘以2得8。",
+    "audio": "audio/math_066_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_066_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_066_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_066_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_066_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-67",
@@ -1155,7 +2333,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识分数",
-    "explanation": "把披萨分成8块，吃掉3块，所以是3/8。"
+    "explanation": "把披萨分成8块，吃掉3块，所以是3/8。",
+    "audio": "audio/math_067_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_067_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_067_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_067_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_067_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-68",
@@ -1171,7 +2368,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数的大小比较",
-    "explanation": "把分母统一为8，3/4=6/8，6/8 > 5/8，所以 3/4 更大。"
+    "explanation": "把分母统一为8，3/4=6/8，6/8 > 5/8，所以 3/4 更大。",
+    "audio": "audio/math_068_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_068_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_068_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_068_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_068_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-69",
@@ -1187,7 +2403,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "同分母分数加减",
-    "explanation": "同分母分数相加，只把分子相加，分母不变。3/8 + 5/8 = (3+5)/8 = 8/8 = 1"
+    "explanation": "同分母分数相加，只把分子相加，分母不变。3/8 + 5/8 = (3+5)/8 = 8/8 = 1",
+    "audio": "audio/math_069_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_069_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_069_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_069_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_069_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-70",
@@ -1203,7 +2438,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数与小数互化",
-    "explanation": "3/5 = 3÷5 = 0.6，故选 B。"
+    "explanation": "3/5 = 3÷5 = 0.6，故选 B。",
+    "audio": "audio/math_070_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_070_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_070_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_070_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_070_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-71",
@@ -1219,7 +2473,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数的认识",
-    "explanation": "0.56 的百分位是小数点后第二位，即6。"
+    "explanation": "0.56 的百分位是小数点后第二位，即6。",
+    "audio": "audio/math_071_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_071_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_071_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_071_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_071_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-72",
@@ -1235,7 +2508,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数加减法",
-    "explanation": "先把1.8写成1.80，再对齐小数点相加，得5.05。"
+    "explanation": "先把1.8写成1.80，再对齐小数点相加，得5.05。",
+    "audio": "audio/math_072_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_072_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_072_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_072_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_072_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-73",
@@ -1251,7 +2543,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数乘法",
-    "explanation": "把0.3和0.4相乘，先算3×4=12，再把两位小数点向左移两位得到0.12"
+    "explanation": "把0.3和0.4相乘，先算3×4=12，再把两位小数点向左移两位得到0.12",
+    "audio": "audio/math_073_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_073_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_073_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_073_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_073_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-74",
@@ -1267,7 +2578,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数的意义",
-    "explanation": "小数表示把整体均分后取若干份，选项B最准确。"
+    "explanation": "小数表示把整体均分后取若干份，选项B最准确。",
+    "audio": "audio/math_074_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_074_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_074_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_074_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_074_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-75",
@@ -1283,7 +2613,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识人民币",
-    "explanation": "计算：5张10元=50元，8枚1元=8元，合计58元。"
+    "explanation": "计算：5张10元=50元，8枚1元=8元，合计58元。",
+    "audio": "audio/math_075_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_075_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_075_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_075_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_075_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-76",
@@ -1299,7 +2648,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "人民币换算",
-    "explanation": "1元=10角，2.3元=2.3×10=23角。"
+    "explanation": "1元=10角，2.3元=2.3×10=23角。",
+    "audio": "audio/math_076_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_076_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_076_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_076_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_076_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-77",
@@ -1315,7 +2683,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识时钟",
-    "explanation": "分针指向12时为整点，时针指向5对应5时。"
+    "explanation": "分针指向12时为整点，时针指向5对应5时。",
+    "audio": "audio/math_077_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_077_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_077_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_077_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_077_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-78",
@@ -1331,7 +2718,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识日历",
-    "explanation": "10月是大月，共有31天。"
+    "explanation": "10月是大月，共有31天。",
+    "audio": "audio/math_078_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_078_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_078_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_078_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_078_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-79",
@@ -1347,7 +2753,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "长度单位换算",
-    "explanation": "1米=100厘米，2.5米=2.5×100=250厘米。"
+    "explanation": "1米=100厘米，2.5米=2.5×100=250厘米。",
+    "audio": "audio/math_079_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_079_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_079_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_079_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_079_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-80",
@@ -1363,7 +2788,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "重量单位换算",
-    "explanation": "1千克=1000克，1.2千克=1.2×1000=1200克。"
+    "explanation": "1千克=1000克，1.2千克=1.2×1000=1200克。",
+    "audio": "audio/math_080_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_080_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_080_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_080_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_080_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-81",
@@ -1379,7 +2823,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识面积",
-    "explanation": "面积=边长×边长，3×3=9平方厘米。"
+    "explanation": "面积=边长×边长，3×3=9平方厘米。",
+    "audio": "audio/math_081_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_081_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_081_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_081_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_081_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-82",
@@ -1395,7 +2858,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识体积",
-    "explanation": "体积是指物体在空间中占据的空间大小，即三维空间的大小。"
+    "explanation": "体积是指物体在空间中占据的空间大小，即三维空间的大小。",
+    "audio": "audio/math_082_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_082_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_082_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_082_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_082_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-83",
@@ -1411,7 +2893,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识角",
-    "explanation": "角由一点（顶点）和两条射线（边）组成，所以选B。"
+    "explanation": "角由一点（顶点）和两条射线（边）组成，所以选B。",
+    "audio": "audio/math_083_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_083_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_083_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_083_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_083_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-84",
@@ -1427,7 +2928,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识三角形",
-    "explanation": "等边三角形的三条边都相等，选项A满足该条件。"
+    "explanation": "等边三角形的三条边都相等，选项A满足该条件。",
+    "audio": "audio/math_084_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_084_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_084_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_084_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_084_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-85",
@@ -1443,7 +2963,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识四边形",
-    "explanation": "正方形是四边形的一种，有四条边和四个角。"
+    "explanation": "正方形是四边形的一种，有四条边和四个角。",
+    "audio": "audio/math_085_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_085_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_085_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_085_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_085_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-86",
@@ -1459,7 +2998,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识圆形",
-    "explanation": "圆的直径等于半径的两倍"
+    "explanation": "圆的直径等于半径的两倍",
+    "audio": "audio/math_086_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_086_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_086_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_086_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_086_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-87",
@@ -1475,7 +3033,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识正方形和长方形",
-    "explanation": "正方形四条边相等，长方形只有对边相等，其他描述错误。"
+    "explanation": "正方形四条边相等，长方形只有对边相等，其他描述错误。",
+    "audio": "audio/math_087_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_087_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_087_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_087_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_087_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-88",
@@ -1491,7 +3068,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "图形的拼组",
-    "explanation": "把两个相同的直角三角形的斜边对齐拼在一起，四条边两两平行且相等，形成长方形。"
+    "explanation": "把两个相同的直角三角形的斜边对齐拼在一起，四条边两两平行且相等，形成长方形。",
+    "audio": "audio/math_088_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_088_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_088_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_088_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_088_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-89",
@@ -1507,7 +3103,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识轴对称图形",
-    "explanation": "正方形可以沿对角线或中线对折，两半完全重合，符合轴对称图形的定义。"
+    "explanation": "正方形可以沿对角线或中线对折，两半完全重合，符合轴对称图形的定义。",
+    "audio": "audio/math_089_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_089_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_089_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_089_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_089_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-90",
@@ -1523,7 +3138,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "图形的平移和旋转",
-    "explanation": "平移是指图形沿直线路径整体移动，保持方向和形状不变。"
+    "explanation": "平移是指图形沿直线路径整体移动，保持方向和形状不变。",
+    "audio": "audio/math_090_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_090_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_090_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_090_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_090_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-91",
@@ -1539,7 +3173,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "找规律填数",
-    "explanation": "每项都是序号的平方，1²=1，2²=4，3²=9，4²=16，5²=25。"
+    "explanation": "每项都是序号的平方，1²=1，2²=4，3²=9，4²=16，5²=25。",
+    "audio": "audio/math_091_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_091_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_091_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_091_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_091_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-92",
@@ -1555,7 +3208,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "找规律画图",
-    "explanation": "规律是每个图中圆的个数为奇数1,3,5,7,…，第5幅图应为9个圆。"
+    "explanation": "规律是每个图中圆的个数为奇数1,3,5,7,…，第5幅图应为9个圆。",
+    "audio": "audio/math_092_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_092_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_092_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_092_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_092_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-93",
@@ -1571,7 +3243,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "简单统计",
-    "explanation": "把五个数相加后除以5，得到平均分85分。"
+    "explanation": "把五个数相加后除以5，得到平均分85分。",
+    "audio": "audio/math_093_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_093_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_093_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_093_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_093_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-94",
@@ -1587,7 +3278,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "数据的收集整理",
-    "explanation": "频数分布表能把大量数值分段统计，清晰展示分布情况，最适合整理此类连续数据。"
+    "explanation": "频数分布表能把大量数值分段统计，清晰展示分布情况，最适合整理此类连续数据。",
+    "audio": "audio/math_094_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_094_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_094_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_094_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_094_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-95",
@@ -1603,7 +3313,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "比大小",
-    "explanation": "把 0.5 与 1/3 换算为小数，0.5>0.333，所以 0.5 更大。"
+    "explanation": "把 0.5 与 1/3 换算为小数，0.5>0.333，所以 0.5 更大。",
+    "audio": "audio/math_095_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_095_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_095_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_095_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_095_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-96",
@@ -1619,7 +3348,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用字母表示数",
-    "explanation": "因为比x小5要用x减5，故选A。"
+    "explanation": "因为比x小5要用x减5，故选A。",
+    "audio": "audio/math_096_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_096_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_096_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_096_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_096_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-97",
@@ -1635,7 +3383,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识方程",
-    "explanation": "方程是含有未知数并用等号连接的式子。"
+    "explanation": "方程是含有未知数并用等号连接的式子。",
+    "audio": "audio/math_097_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_097_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_097_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_097_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_097_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-98",
@@ -1651,7 +3418,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "解简单方程",
-    "explanation": "将方程两边同时除以5，得到x=20÷5=4。"
+    "explanation": "将方程两边同时除以5，得到x=20÷5=4。",
+    "audio": "audio/math_098_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_098_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_098_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_098_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_098_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-99",
@@ -1667,7 +3453,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：购物",
-    "explanation": "先算总价4×3+2×8=28元，找零=50-28=22元。"
+    "explanation": "先算总价4×3+2×8=28元，找零=50-28=22元。",
+    "audio": "audio/math_099_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_099_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_099_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_099_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_099_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-100",
@@ -1683,7 +3488,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：时间",
-    "explanation": "时间=路程÷速度，5÷12≈0.417小时≈25分钟，8:15加25分钟为8:40。"
+    "explanation": "时间=路程÷速度，5÷12≈0.417小时≈25分钟，8:15加25分钟为8:40。",
+    "audio": "audio/math_100_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_100_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_100_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_100_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_100_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-101",
@@ -1699,7 +3523,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：距离",
-    "explanation": "时间=路程÷速度，12÷30=0.4小时，0.4×60=24分钟"
+    "explanation": "时间=路程÷速度，12÷30=0.4小时，0.4×60=24分钟",
+    "audio": "audio/math_101_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_101_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_101_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_101_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_101_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-102",
@@ -1715,7 +3558,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：分配",
-    "explanation": "把总数30除以人数5，得每个朋友分到6颗。"
+    "explanation": "把总数30除以人数5，得每个朋友分到6颗。",
+    "audio": "audio/math_102_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_102_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_102_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_102_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_102_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-103",
@@ -1731,7 +3593,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识千克和克",
-    "explanation": "1千克=1000克，1.5千克=1.5×1000=1500克"
+    "explanation": "1千克=1000克，1.5千克=1.5×1000=1500克",
+    "audio": "audio/math_103_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_103_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_103_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_103_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_103_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-104",
@@ -1747,7 +3628,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识升和毫升",
-    "explanation": "1升=1000毫升，250毫升的杯子需要4杯"
+    "explanation": "1升=1000毫升，250毫升的杯子需要4杯",
+    "audio": "audio/math_104_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_104_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_104_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_104_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_104_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-105",
@@ -1763,7 +3663,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识米和厘米",
-    "explanation": "1米=100厘米，3.5米=3.5×100=350厘米"
+    "explanation": "1米=100厘米，3.5米=3.5×100=350厘米",
+    "audio": "audio/math_105_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_105_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_105_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_105_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_105_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-106",
@@ -1779,7 +3698,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识毫米和分米",
-    "explanation": "1分米等于10厘米，等于100毫米，所以选B"
+    "explanation": "1分米等于10厘米，等于100毫米，所以选B",
+    "audio": "audio/math_106_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_106_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_106_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_106_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_106_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-107",
@@ -1795,7 +3733,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "垂直与平行",
-    "explanation": "两条直线相交且夹角为90°时，它们互相垂直。选项A符合。"
+    "explanation": "两条直线相交且夹角为90°时，它们互相垂直。选项A符合。",
+    "audio": "audio/math_107_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_107_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_107_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_107_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_107_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-108",
@@ -1811,7 +3768,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识梯形和平行四边形",
-    "explanation": "梯形只有一组对边平行，而平行四边形有两组对边平行，故选C。"
+    "explanation": "梯形只有一组对边平行，而平行四边形有两组对边平行，故选C。",
+    "audio": "audio/math_108_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_108_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_108_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_108_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_108_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-109",
@@ -1827,7 +3803,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识圆和扇形",
-    "explanation": "扇形占圆的比例等于圆心角除以360°，120÷360=1/3"
+    "explanation": "扇形占圆的比例等于圆心角除以360°，120÷360=1/3",
+    "audio": "audio/math_109_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_109_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_109_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_109_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_109_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-110",
@@ -1843,7 +3838,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识正方体和长方体",
-    "explanation": "正方体的6个面全部是相同的正方形。"
+    "explanation": "正方体的6个面全部是相同的正方形。",
+    "audio": "audio/math_110_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_110_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_110_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_110_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_110_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-111",
@@ -1859,7 +3873,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识圆柱和球",
-    "explanation": "圆柱有两个相等的圆形底面和一个曲面，没有顶点。"
+    "explanation": "圆柱有两个相等的圆形底面和一个曲面，没有顶点。",
+    "audio": "audio/math_111_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_111_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_111_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_111_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_111_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-112",
@@ -1875,7 +3908,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "位置与方向",
-    "explanation": "面向北方时，向左转即逆时针转90度，方向变为西方。"
+    "explanation": "面向北方时，向左转即逆时针转90度，方向变为西方。",
+    "audio": "audio/math_112_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_112_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_112_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_112_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_112_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-113",
@@ -1891,7 +3943,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "从不同方向观察物体",
-    "explanation": "左侧只能看到 x=0 的两个正方体，它们上下叠放形成竖排的两个正方形。"
+    "explanation": "左侧只能看到 x=0 的两个正方体，它们上下叠放形成竖排的两个正方形。",
+    "audio": "audio/math_113_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_113_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_113_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_113_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_113_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-114",
@@ -1907,7 +3978,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识复式统计表",
-    "explanation": "在复式统计表中，找到‘男生’行与‘苹果’列交叉的单元格，即为人数。"
+    "explanation": "在复式统计表中，找到‘男生’行与‘苹果’列交叉的单元格，即为人数。",
+    "audio": "audio/math_114_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_114_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_114_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_114_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_114_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-115",
@@ -1923,7 +4013,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用数对表示位置",
-    "explanation": "数对的第一个数是列，第二个数是行，故(3,2)对应第3列第2行"
+    "explanation": "数对的第一个数是列，第二个数是行，故(3,2)对应第3列第2行",
+    "audio": "audio/math_115_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_115_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_115_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_115_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_115_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-116",
@@ -1939,7 +4048,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识百分数",
-    "explanation": "百分数表示每100份中的几份，30% = 30/100 = 0.30"
+    "explanation": "百分数表示每100份中的几份，30% = 30/100 = 0.30",
+    "audio": "audio/math_116_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_116_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_116_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_116_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_116_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-117",
@@ -1955,7 +4083,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "百分数与小数的互化",
-    "explanation": "0.35 = 35/100 = 35%"
+    "explanation": "0.35 = 35/100 = 35%",
+    "audio": "audio/math_117_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_117_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_117_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_117_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_117_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-118",
@@ -1971,7 +4118,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "百分数的应用",
-    "explanation": "八折即原价的80%，120×0.8=96元。"
+    "explanation": "八折即原价的80%，120×0.8=96元。",
+    "audio": "audio/math_118_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_118_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_118_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_118_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_118_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-119",
@@ -1987,7 +4153,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "比例的认识",
-    "explanation": "用比例关系，宽 = 长 / 3 = 12 ÷ 3 = 4 cm。"
+    "explanation": "用比例关系，宽 = 长 / 3 = 12 ÷ 3 = 4 cm。",
+    "audio": "audio/math_119_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_119_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_119_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_119_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_119_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-120",
@@ -2003,7 +4188,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "正比例与反比例",
-    "explanation": "正比例关系中 y/x 为常数，12÷3=4，y=8×4=32"
+    "explanation": "正比例关系中 y/x 为常数，12÷3=4，y=8×4=32",
+    "audio": "audio/math_120_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_120_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_120_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_120_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_120_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-121",
@@ -2019,7 +4223,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "比例尺",
-    "explanation": "比例尺 1:500 表示1厘米对应500厘米，即5米"
+    "explanation": "比例尺 1:500 表示1厘米对应500厘米，即5米",
+    "audio": "audio/math_121_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_121_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_121_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_121_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_121_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-122",
@@ -2035,7 +4258,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "鸡兔同笼",
-    "explanation": "设鸡x只，兔y只，列方程x+y=8,2x+4y=22,求得x=5。"
+    "explanation": "设鸡x只，兔y只，列方程x+y=8,2x+4y=22,求得x=5。",
+    "audio": "audio/math_122_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_122_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_122_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_122_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_122_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-123",
@@ -2051,7 +4293,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "和差问题",
-    "explanation": "根据和差公式，大数 = (和+差)÷2 = (54+14)÷2 = 34。"
+    "explanation": "根据和差公式，大数 = (和+差)÷2 = (54+14)÷2 = 34。",
+    "audio": "audio/math_123_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_123_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_123_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_123_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_123_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-124",
@@ -2067,7 +4328,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "和倍问题",
-    "explanation": "设较小数为x，则x+3x=56，解得x=14，较大数为42，故选A。"
+    "explanation": "设较小数为x，则x+3x=56，解得x=14，较大数为42，故选A。",
+    "audio": "audio/math_124_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_124_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_124_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_124_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_124_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-125",
@@ -2083,7 +4363,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "差倍问题",
-    "explanation": "先求小数为 6÷(4‑1)=2，大数为 4×2=8，和为 10。"
+    "explanation": "先求小数为 6÷(4‑1)=2，大数为 4×2=8，和为 10。",
+    "audio": "audio/math_125_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_125_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_125_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_125_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_125_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-126",
@@ -2099,7 +4398,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "年龄问题",
-    "explanation": "小红的年龄乘以3再加5，即10×3+5=35，得到妈妈年龄。"
+    "explanation": "小红的年龄乘以3再加5，即10×3+5=35，得到妈妈年龄。",
+    "audio": "audio/math_126_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_126_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_126_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_126_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_126_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-127",
@@ -2115,7 +4433,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "归一问题",
-    "explanation": "先算速度12÷3=4km/h，再求30÷4=7.5小时。"
+    "explanation": "先算速度12÷3=4km/h，再求30÷4=7.5小时。",
+    "audio": "audio/math_127_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_127_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_127_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_127_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_127_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-128",
@@ -2131,7 +4468,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "归总问题",
-    "explanation": "先把每盒的铅笔数乘以盒数，得到总数。"
+    "explanation": "先把每盒的铅笔数乘以盒数，得到总数。",
+    "audio": "audio/math_128_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_128_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_128_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_128_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_128_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-129",
@@ -2147,7 +4503,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "植树问题",
-    "explanation": "路长40米，间隔5米，共40÷5=8个间隔，两端都栽树，则8+1=9棵。"
+    "explanation": "路长40米，间隔5米，共40÷5=8个间隔，两端都栽树，则8+1=9棵。",
+    "audio": "audio/math_129_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_129_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_129_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_129_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_129_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-130",
@@ -2163,7 +4538,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "相遇问题",
-    "explanation": "相遇时间 = 距离 ÷ 相对速度，即240 ÷ (4+6) = 24秒"
+    "explanation": "相遇时间 = 距离 ÷ 相对速度，即240 ÷ (4+6) = 24秒",
+    "audio": "audio/math_130_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_130_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_130_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_130_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_130_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-131",
@@ -2179,7 +4573,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "追及问题",
-    "explanation": "甲先走1小时已行12公里，乙相对速度4公里/小时，追上需12÷4=3小时。"
+    "explanation": "甲先走1小时已行12公里，乙相对速度4公里/小时，追上需12÷4=3小时。",
+    "audio": "audio/math_131_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_131_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_131_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_131_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_131_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-132",
@@ -2195,7 +4608,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "流水问题",
-    "explanation": "逆流速度=静水速-流速=8公里/时，乘以3小时得24公里。"
+    "explanation": "逆流速度=静水速-流速=8公里/时，乘以3小时得24公里。",
+    "audio": "audio/math_132_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_132_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_132_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_132_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_132_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-133",
@@ -2211,7 +4643,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "折扣问题",
-    "explanation": "把原价150元乘以0.7，得到105元。"
+    "explanation": "把原价150元乘以0.7，得到105元。",
+    "audio": "audio/math_133_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_133_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_133_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_133_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_133_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-134",
@@ -2227,7 +4678,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "营养午餐",
-    "explanation": "米饭热量占总热量的30%，600×30%＝180千卡"
+    "explanation": "米饭热量占总热量的30%，600×30%＝180千卡",
+    "audio": "audio/math_134_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_134_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_134_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_134_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_134_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-135",
@@ -2243,7 +4713,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "简单推理",
-    "explanation": "根据题意，小明快于小红，小红快于小李，推出小明最快"
+    "explanation": "根据题意，小明快于小红，小红快于小李，推出小明最快",
+    "audio": "audio/math_135_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_135_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_135_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_135_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_135_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-136",
@@ -2259,7 +4748,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "有序枚举",
-    "explanation": "把1、2、3全排列，3! = 6 种。"
+    "explanation": "把1、2、3全排列，3! = 6 种。",
+    "audio": "audio/math_136_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_136_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_136_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_136_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_136_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-137",
@@ -2275,7 +4783,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "可能性大小",
-    "explanation": "红球数量多，取到的概率更高。"
+    "explanation": "红球数量多，取到的概率更高。",
+    "audio": "audio/math_137_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_137_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_137_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_137_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_137_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-138",
@@ -2291,7 +4818,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "掷骰子概率",
-    "explanation": "偶数点有2、4、6共3个，概率=3/6=1/2"
+    "explanation": "偶数点有2、4、6共3个，概率=3/6=1/2",
+    "audio": "audio/math_138_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_138_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_138_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_138_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_138_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-139",
@@ -2307,7 +4853,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "数独入门",
-    "explanation": "在1到9的序列中，空格缺少的最后一个数字是9。"
+    "explanation": "在1到9的序列中，空格缺少的最后一个数字是9。",
+    "audio": "audio/math_139_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_139_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_139_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_139_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_139_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-140",
@@ -2323,7 +4888,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "火柴棒游戏",
-    "explanation": "把火柴棒摆成2×2网格，内部火柴棒共用，只需12根。"
+    "explanation": "把火柴棒摆成2×2网格，内部火柴棒共用，只需12根。",
+    "audio": "audio/math_140_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_140_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_140_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_140_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_140_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-141",
@@ -2339,7 +4923,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "一笔画",
-    "explanation": "T形有一个三分叉点（度为3），奇数度点超过两个，不能一笔画成。"
+    "explanation": "T形有一个三分叉点（度为3），奇数度点超过两个，不能一笔画成。",
+    "audio": "audio/math_141_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_141_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_141_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_141_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_141_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-142",
@@ -2355,7 +4958,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "对称之美",
-    "explanation": "等腰三角形沿顶点向底边的垂直线对折，两侧完全重合，具有轴对称。"
+    "explanation": "等腰三角形沿顶点向底边的垂直线对折，两侧完全重合，具有轴对称。",
+    "audio": "audio/math_142_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_142_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_142_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_142_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_142_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-143",
@@ -2371,7 +4993,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "周长的计算",
-    "explanation": "用公式 C=2×(长+宽) 计算，2×(8+5)=26厘米。"
+    "explanation": "用公式 C=2×(长+宽) 计算，2×(8+5)=26厘米。",
+    "audio": "audio/math_143_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_143_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_143_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_143_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_143_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-144",
@@ -2387,7 +5028,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "面积的计算",
-    "explanation": "面积 = 长 × 宽 = 12 × 8 = 96 平方米"
+    "explanation": "面积 = 长 × 宽 = 12 × 8 = 96 平方米",
+    "audio": "audio/math_144_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_144_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_144_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_144_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_144_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-145",
@@ -2403,7 +5063,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "组合图形的面积",
-    "explanation": "先算长方形面积10×5=50，再算三角形面积5×4÷2=10，合计60。"
+    "explanation": "先算长方形面积10×5=50，再算三角形面积5×4÷2=10，合计60。",
+    "audio": "audio/math_145_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_145_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_145_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_145_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_145_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-146",
@@ -2419,7 +5098,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "转化思想",
-    "explanation": "将分子除以分母，3÷4=0.75"
+    "explanation": "将分子除以分母，3÷4=0.75",
+    "audio": "audio/math_146_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_146_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_146_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_146_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_146_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-147",
@@ -2435,7 +5133,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用方程解应用题",
-    "explanation": "设原来有x个气球，列方程 x−4=15，解得 x=19。"
+    "explanation": "设原来有x个气球，列方程 x−4=15，解得 x=19。",
+    "audio": "audio/math_147_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_147_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_147_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_147_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_147_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-148",
@@ -2451,7 +5168,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用比例解应用题",
-    "explanation": "用比例：三对应四十五分钟，五对应未知时间，未知时间等于五乘四十五除以三等于七十五分钟。"
+    "explanation": "用比例：三对应四十五分钟，五对应未知时间，未知时间等于五乘四十五除以三等于七十五分钟。",
+    "audio": "audio/math_148_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_148_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_148_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_148_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_148_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-149",
@@ -2467,7 +5203,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数应用题",
-    "explanation": "剩余=总数-读了，120 - 120×3/8 = 120 - 45 = 75页。"
+    "explanation": "剩余=总数-读了，120 - 120×3/8 = 120 - 45 = 75页。",
+    "audio": "audio/math_149_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_149_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_149_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_149_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_149_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-150",
@@ -2483,7 +5238,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "工程问题",
-    "explanation": "甲的效率是1/12，乙是1/18，合计5/36，工作时间=1÷5/36=36/5≈7.2天，最接近7天。"
+    "explanation": "甲的效率是1/12，乙是1/18，合计5/36，工作时间=1÷5/36=36/5≈7.2天，最接近7天。",
+    "audio": "audio/math_150_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_150_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_150_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_150_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_150_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-151",
@@ -2499,7 +5273,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识数字1-10",
-    "explanation": "6大于5且小于7，满足条件。"
+    "explanation": "6大于5且小于7，满足条件。",
+    "audio": "audio/math_151_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_151_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_151_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_151_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_151_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-152",
@@ -2515,7 +5308,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "10以内加减法",
-    "explanation": "把7减去3即可得到剩余数量"
+    "explanation": "把7减去3即可得到剩余数量",
+    "audio": "audio/math_152_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_152_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_152_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_152_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_152_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-153",
@@ -2531,7 +5343,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识11-20",
-    "explanation": "从11到20共10个数。"
+    "explanation": "从11到20共10个数。",
+    "audio": "audio/math_153_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_153_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_153_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_153_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_153_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-154",
@@ -2547,7 +5378,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "20以内加减法",
-    "explanation": "将12和5相加，得到17。"
+    "explanation": "将12和5相加，得到17。",
+    "audio": "audio/math_154_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_154_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_154_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_154_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_154_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-155",
@@ -2563,7 +5413,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识100以内数字",
-    "explanation": "先找出大于70且小于80的数，只有73符合条件。"
+    "explanation": "先找出大于70且小于80的数，只有73符合条件。",
+    "audio": "audio/math_155_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_155_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_155_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_155_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_155_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-156",
@@ -2579,7 +5448,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "100以内加减法",
-    "explanation": "先把48和27相加，48+20=68，68+7=75"
+    "explanation": "先把48和27相加，48+20=68，68+7=75",
+    "audio": "audio/math_156_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_156_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_156_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_156_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_156_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-157",
@@ -2595,7 +5483,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识百位",
-    "explanation": "百位是从右数第三位，4872的百位是7。"
+    "explanation": "百位是从右数第三位，4872的百位是7。",
+    "audio": "audio/math_157_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_157_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_157_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_157_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_157_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-158",
@@ -2611,7 +5518,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "三位数加减法",
-    "explanation": "用456减去178，先算456-100=356，再减78得278。"
+    "explanation": "用456减去178，先算456-100=356，再减78得278。",
+    "audio": "audio/math_158_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_158_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_158_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_158_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_158_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-159",
@@ -2627,7 +5553,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识乘法",
-    "explanation": "5个3相加等于3+3+3+3+3，即5×3。"
+    "explanation": "5个3相加等于3+3+3+3+3，即5×3。",
+    "audio": "audio/math_159_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_159_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_159_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_159_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_159_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-160",
@@ -2643,7 +5588,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "2-5的乘法口诀",
-    "explanation": "利用乘法口诀，4×5=20"
+    "explanation": "利用乘法口诀，4×5=20",
+    "audio": "audio/math_160_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_160_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_160_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_160_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_160_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-161",
@@ -2659,7 +5623,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "6-9的乘法口诀",
-    "explanation": "用7的乘法口诀，7×8=56。"
+    "explanation": "用7的乘法口诀，7×8=56。",
+    "audio": "audio/math_161_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_161_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_161_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_161_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_161_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-162",
@@ -2675,7 +5658,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "表内乘法",
-    "explanation": "利用乘法表，3×7等于21"
+    "explanation": "利用乘法表，3×7等于21",
+    "audio": "audio/math_162_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_162_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_162_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_162_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_162_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-163",
@@ -2691,7 +5693,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识除法",
-    "explanation": "用除法把12平均分成3份，每份是4颗。"
+    "explanation": "用除法把12平均分成3份，每份是4颗。",
+    "audio": "audio/math_163_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_163_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_163_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_163_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_163_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-164",
@@ -2707,7 +5728,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "表内除法",
-    "explanation": "因为6×8=48，所以48÷6=8。"
+    "explanation": "因为6×8=48，所以48÷6=8。",
+    "audio": "audio/math_164_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_164_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_164_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_164_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_164_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-165",
@@ -2723,7 +5763,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "有余数的除法",
-    "explanation": "56除以9得6余2，故余数为2。"
+    "explanation": "56除以9得6余2，故余数为2。",
+    "audio": "audio/math_165_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_165_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_165_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_165_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_165_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-166",
@@ -2739,7 +5798,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "乘除混合运算",
-    "explanation": "先算乘法24×2=48，再除以6得8。"
+    "explanation": "先算乘法24×2=48，再除以6得8。",
+    "audio": "audio/math_166_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_166_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_166_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_166_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_166_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-167",
@@ -2755,7 +5833,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识分数",
-    "explanation": "把披萨分成8份，取3份，即3/8。"
+    "explanation": "把披萨分成8份，取3份，即3/8。",
+    "audio": "audio/math_167_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_167_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_167_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_167_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_167_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-168",
@@ -2771,7 +5868,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数的大小比较",
-    "explanation": "通分后比较分子：3/4 = 6/8 > 5/8"
+    "explanation": "通分后比较分子：3/4 = 6/8 > 5/8",
+    "audio": "audio/math_168_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_168_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_168_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_168_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_168_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-169",
@@ -2787,7 +5903,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "同分母分数加减",
-    "explanation": "同分母分数相加，只把分子相加，分母不变。"
+    "explanation": "同分母分数相加，只把分子相加，分母不变。",
+    "audio": "audio/math_169_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_169_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_169_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_169_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_169_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-170",
@@ -2803,7 +5938,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数与小数互化",
-    "explanation": "把分子除以分母，3÷5=0.6"
+    "explanation": "把分子除以分母，3÷5=0.6",
+    "audio": "audio/math_170_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_170_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_170_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_170_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_170_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-171",
@@ -2819,7 +5973,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数的认识",
-    "explanation": "0.125 小数点后有三位数字，故为三位小数"
+    "explanation": "0.125 小数点后有三位数字，故为三位小数",
+    "audio": "audio/math_171_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_171_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_171_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_171_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_171_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-172",
@@ -2835,7 +6008,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数加减法",
-    "explanation": "把5.20与3.75对齐小数点相加，得8.95千克。"
+    "explanation": "把5.20与3.75对齐小数点相加，得8.95千克。",
+    "audio": "audio/math_172_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_172_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_172_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_172_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_172_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-173",
@@ -2851,7 +6043,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数乘法",
-    "explanation": "先算3×4=12，再把两位小数点向左移两位得0.12。"
+    "explanation": "先算3×4=12，再把两位小数点向左移两位得0.12。",
+    "audio": "audio/math_173_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_173_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_173_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_173_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_173_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-174",
@@ -2867,7 +6078,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数的意义",
-    "explanation": "0.3表示把整体分成10等份后取3份，即3个十分之一。"
+    "explanation": "0.3表示把整体分成10等份后取3份，即3个十分之一。",
+    "audio": "audio/math_174_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_174_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_174_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_174_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_174_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-175",
@@ -2883,7 +6113,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识人民币",
-    "explanation": "10元除以5元等于2张，故答案为2张。"
+    "explanation": "10元除以5元等于2张，故答案为2张。",
+    "audio": "audio/math_175_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_175_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_175_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_175_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_175_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-176",
@@ -2899,7 +6148,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "人民币换算",
-    "explanation": "1元=100分，1角=10分，3元5角=3×100+5×10=350分。"
+    "explanation": "1元=100分，1角=10分，3元5角=3×100+5×10=350分。",
+    "audio": "audio/math_176_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_176_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_176_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_176_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_176_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-177",
@@ -2915,7 +6183,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识时钟",
-    "explanation": "3点15分时，分针指向3，时针在3和4之间，因为每过15分钟时针走四分之一格。"
+    "explanation": "3点15分时，分针指向3，时针在3和4之间，因为每过15分钟时针走四分之一格。",
+    "audio": "audio/math_177_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_177_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_177_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_177_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_177_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-178",
@@ -2931,7 +6218,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识日历",
-    "explanation": "因为2024年是闰年，2月有29天。"
+    "explanation": "因为2024年是闰年，2月有29天。",
+    "audio": "audio/math_178_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_178_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_178_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_178_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_178_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-179",
@@ -2947,7 +6253,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "长度单位换算",
-    "explanation": "1公里=1000米，2.5公里=2.5×1000=2500米。"
+    "explanation": "1公里=1000米，2.5公里=2.5×1000=2500米。",
+    "audio": "audio/math_179_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_179_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_179_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_179_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_179_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-180",
@@ -2963,7 +6288,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "重量单位换算",
-    "explanation": "1千克=1000克，乘以3.5即可得到3500克。"
+    "explanation": "1千克=1000克，乘以3.5即可得到3500克。",
+    "audio": "audio/math_180_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_180_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_180_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_180_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_180_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-181",
@@ -2979,7 +6323,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识面积",
-    "explanation": "面积等于长乘宽，8×5=40平方厘米"
+    "explanation": "面积等于长乘宽，8×5=40平方厘米",
+    "audio": "audio/math_181_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_181_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_181_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_181_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_181_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-182",
@@ -2995,7 +6358,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识体积",
-    "explanation": "体积是物体所占空间的大小，用立方单位计量。"
+    "explanation": "体积是物体所占空间的大小，用立方单位计量。",
+    "audio": "audio/math_182_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_182_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_182_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_182_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_182_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-183",
@@ -3011,7 +6393,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识角",
-    "explanation": "角是由两条射线共享一个端点（顶点）构成的图形。"
+    "explanation": "角是由两条射线共享一个端点（顶点）构成的图形。",
+    "audio": "audio/math_183_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_183_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_183_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_183_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_183_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-184",
@@ -3027,7 +6428,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识三角形",
-    "explanation": "三角形任意两边之和大于第三边，3+4>5、3+5>4、4+5>3"
+    "explanation": "三角形任意两边之和大于第三边，3+4>5、3+5>4、4+5>3",
+    "audio": "audio/math_184_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_184_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_184_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_184_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_184_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-185",
@@ -3043,7 +6463,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识四边形",
-    "explanation": "正方形有4条边，符合四边形的定义。"
+    "explanation": "正方形有4条边，符合四边形的定义。",
+    "audio": "audio/math_185_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_185_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_185_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_185_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_185_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-186",
@@ -3059,7 +6498,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识圆形",
-    "explanation": "圆形定义是平面上所有点到中心距离相等，其他图形不具备此特性。"
+    "explanation": "圆形定义是平面上所有点到中心距离相等，其他图形不具备此特性。",
+    "audio": "audio/math_186_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_186_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_186_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_186_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_186_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-187",
@@ -3075,7 +6533,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识正方形和长方形",
-    "explanation": "正方形满足长方形的所有条件（四个直角、对边相等），因此是正方形的特殊形式。"
+    "explanation": "正方形满足长方形的所有条件（四个直角、对边相等），因此是正方形的特殊形式。",
+    "audio": "audio/math_187_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_187_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_187_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_187_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_187_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-188",
@@ -3091,7 +6568,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "图形的拼组",
-    "explanation": "两个相同的正方形沿边相接后，形成的四边形两对边相等且四角为直角，即为长方形。"
+    "explanation": "两个相同的正方形沿边相接后，形成的四边形两对边相等且四角为直角，即为长方形。",
+    "audio": "audio/math_188_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_188_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_188_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_188_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_188_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-189",
@@ -3107,7 +6603,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识轴对称图形",
-    "explanation": "正方形四条对称轴，任意方向折叠都能完全重合。"
+    "explanation": "正方形四条对称轴，任意方向折叠都能完全重合。",
+    "audio": "audio/math_189_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_189_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_189_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_189_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_189_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-190",
@@ -3123,7 +6638,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "图形的平移和旋转",
-    "explanation": "平移和旋转只改变位置和方向，图形本身的大小和形状保持不变。"
+    "explanation": "平移和旋转只改变位置和方向，图形本身的大小和形状保持不变。",
+    "audio": "audio/math_190_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_190_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_190_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_190_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_190_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-191",
@@ -3139,7 +6673,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "找规律填数",
-    "explanation": "每个数是自然数的平方，1²=1，2²=4，3²=9，4²=16，5²=25，故填25。"
+    "explanation": "每个数是自然数的平方，1²=1，2²=4，3²=9，4²=16，5²=25，故填25。",
+    "audio": "audio/math_191_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_191_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_191_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_191_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_191_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-192",
@@ -3155,7 +6708,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "找规律画图",
-    "explanation": "每幅图比前一副多一条边，依次为3、4、5条边，故下一幅应为六边形。"
+    "explanation": "每幅图比前一副多一条边，依次为3、4、5条边，故下一幅应为六边形。",
+    "audio": "audio/math_192_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_192_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_192_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_192_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_192_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-193",
@@ -3171,7 +6743,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "简单统计",
-    "explanation": "先把数据从小到大排列，位于中间的就是中位数"
+    "explanation": "先把数据从小到大排列，位于中间的就是中位数",
+    "audio": "audio/math_193_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_193_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_193_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_193_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_193_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-194",
@@ -3187,7 +6778,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "数据的收集整理",
-    "explanation": "步行有30人，骑车有20人，坐公交有15人，坐校车有5人。30>20>15>5，所以步行人数最多。"
+    "explanation": "步行有30人，骑车有20人，坐公交有15人，坐校车有5人。30>20>15>5，所以步行人数最多。",
+    "audio": "audio/math_194_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_194_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_194_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_194_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_194_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-195",
@@ -3203,7 +6813,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "比大小",
-    "explanation": "交叉相乘比较：3×8=24，5×5=25，24<25，故5/8更大。"
+    "explanation": "交叉相乘比较：3×8=24，5×5=25，24<25，故5/8更大。",
+    "audio": "audio/math_195_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_195_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_195_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_195_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_195_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-196",
@@ -3219,7 +6848,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用字母表示数",
-    "explanation": "小红比小明多3个，所以用a加3得到她的苹果数。"
+    "explanation": "小红比小明多3个，所以用a加3得到她的苹果数。",
+    "audio": "audio/math_196_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_196_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_196_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_196_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_196_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-197",
@@ -3235,7 +6883,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识方程",
-    "explanation": "方程是含有未知数的等式，只有 D 含有未知数 x 且左右相等。"
+    "explanation": "方程是含有未知数的等式，只有 D 含有未知数 x 且左右相等。",
+    "audio": "audio/math_197_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_197_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_197_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_197_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_197_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-198",
@@ -3251,7 +6918,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "解简单方程",
-    "explanation": "把5移到等式右边，除以3，得 x = 5"
+    "explanation": "把5移到等式右边，除以3，得 x = 5",
+    "audio": "audio/math_198_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_198_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_198_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_198_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_198_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-199",
@@ -3267,7 +6953,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：购物",
-    "explanation": "先算总价5×12=60元，付100元，找回100-60=40元。"
+    "explanation": "先算总价5×12=60元，付100元，找回100-60=40元。",
+    "audio": "audio/math_199_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_199_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_199_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_199_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_199_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-200",
@@ -3283,7 +6988,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：时间",
-    "explanation": "把出门时间7:45加上20分钟的路程，得到8:05。"
+    "explanation": "把出门时间7:45加上20分钟的路程，得到8:05。",
+    "audio": "audio/math_200_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_200_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_200_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_200_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_200_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-201",
@@ -3299,7 +7023,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：距离",
-    "explanation": "速度×时间＝距离，5×20=100米"
+    "explanation": "速度×时间＝距离，5×20=100米",
+    "audio": "audio/math_201_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_201_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_201_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_201_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_201_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-202",
@@ -3315,7 +7058,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：分配",
-    "explanation": "先去掉剩余的3颗，用48-3=45颗再除以5得到9颗。"
+    "explanation": "先去掉剩余的3颗，用48-3=45颗再除以5得到9颗。",
+    "audio": "audio/math_202_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_202_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_202_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_202_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_202_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-203",
@@ -3331,7 +7093,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识千克和克",
-    "explanation": "1千克=1000克，3.2千克=3.2×1000=3200克。"
+    "explanation": "1千克=1000克，3.2千克=3.2×1000=3200克。",
+    "audio": "audio/math_203_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_203_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_203_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_203_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_203_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-204",
@@ -3347,7 +7128,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识升和毫升",
-    "explanation": "1升等于1000毫升。"
+    "explanation": "1升等于1000毫升。",
+    "audio": "audio/math_204_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_204_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_204_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_204_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_204_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-205",
@@ -3363,7 +7163,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识米和厘米",
-    "explanation": "1米=100厘米，1.35米=1.35×100=135厘米"
+    "explanation": "1米=100厘米，1.35米=1.35×100=135厘米",
+    "audio": "audio/math_205_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_205_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_205_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_205_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_205_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-206",
@@ -3379,7 +7198,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识毫米和分米",
-    "explanation": "1 分米 = 10 厘米 = 100 毫米，所以选 B。"
+    "explanation": "1 分米 = 10 厘米 = 100 毫米，所以选 B。",
+    "audio": "audio/math_206_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_206_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_206_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_206_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_206_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-207",
@@ -3395,7 +7233,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "垂直与平行",
-    "explanation": "∠AOC=90°表示两条直线相交成直角，故它们互相垂直。"
+    "explanation": "∠AOC=90°表示两条直线相交成直角，故它们互相垂直。",
+    "audio": "audio/math_207_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_207_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_207_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_207_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_207_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-208",
@@ -3411,7 +7268,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识梯形和平行四边形",
-    "explanation": "梯形有且仅有一对平行边，正方形、长方形和平行四边形都有两对平行边。"
+    "explanation": "梯形有且仅有一对平行边，正方形、长方形和平行四边形都有两对平行边。",
+    "audio": "audio/math_208_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_208_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_208_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_208_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_208_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-209",
@@ -3427,7 +7303,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识圆和扇形",
-    "explanation": "扇形由圆的两条半径及其之间的弧组成。"
+    "explanation": "扇形由圆的两条半径及其之间的弧组成。",
+    "audio": "audio/math_209_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_209_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_209_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_209_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_209_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-210",
@@ -3443,7 +7338,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识正方体和长方体",
-    "explanation": "正方体有6个面，全部是正方形，且棱长相等；其他选项错误。"
+    "explanation": "正方体有6个面，全部是正方形，且棱长相等；其他选项错误。",
+    "audio": "audio/math_210_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_210_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_210_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_210_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_210_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-211",
@@ -3459,7 +7373,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识圆柱和球",
-    "explanation": "圆柱有两个相等的圆形底面，且没有顶点，所以选C。"
+    "explanation": "圆柱有两个相等的圆形底面，且没有顶点，所以选C。",
+    "audio": "audio/math_211_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_211_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_211_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_211_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_211_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-212",
@@ -3475,7 +7408,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "位置与方向",
-    "explanation": "因为A在B北，C在B东，相对于A，C在东南方向。"
+    "explanation": "因为A在B北，C在B东，相对于A，C在东南方向。",
+    "audio": "audio/math_212_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_212_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_212_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_212_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_212_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-213",
@@ -3491,7 +7443,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "从不同方向观察物体",
-    "explanation": "正面看到正方形，上面看到圆形，说明侧面为矩形，符合圆柱。"
+    "explanation": "正面看到正方形，上面看到圆形，说明侧面为矩形，符合圆柱。",
+    "audio": "audio/math_213_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_213_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_213_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_213_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_213_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-214",
@@ -3507,7 +7478,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识复式统计表",
-    "explanation": "在复式统计表中，对应‘男生’行‘足球’列的数值为10。"
+    "explanation": "在复式统计表中，对应‘男生’行‘足球’列的数值为10。",
+    "audio": "audio/math_214_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_214_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_214_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_214_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_214_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-215",
@@ -3523,7 +7513,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用数对表示位置",
-    "explanation": "数对的第一个数是列，第二个数是行，所以列3行4为(3,4)。"
+    "explanation": "数对的第一个数是列，第二个数是行，所以列3行4为(3,4)。",
+    "audio": "audio/math_215_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_215_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_215_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_215_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_215_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-216",
@@ -3539,7 +7548,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识百分数",
-    "explanation": "0.75 小数点右移两位，变成 75%，所以选 A。"
+    "explanation": "0.75 小数点右移两位，变成 75%，所以选 A。",
+    "audio": "audio/math_216_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_216_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_216_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_216_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_216_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-217",
@@ -3555,7 +7583,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "百分数与小数的互化",
-    "explanation": "小数乘100后加百分号，0.73×100=73，故为73%"
+    "explanation": "小数乘100后加百分号，0.73×100=73，故为73%",
+    "audio": "audio/math_217_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_217_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_217_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_217_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_217_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-218",
@@ -3571,7 +7618,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "百分数的应用",
-    "explanation": "把25%化为0.25，120×0.25=30本。"
+    "explanation": "把25%化为0.25，120×0.25=30本。",
+    "audio": "audio/math_218_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_218_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_218_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_218_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_218_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-219",
@@ -3587,7 +7653,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "比例的认识",
-    "explanation": "2:3 与 4:6 可以化简成相同比值，故成比例。"
+    "explanation": "2:3 与 4:6 可以化简成相同比值，故成比例。",
+    "audio": "audio/math_219_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_219_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_219_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_219_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_219_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-220",
@@ -3603,7 +7688,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "正比例与反比例",
-    "explanation": "先求比例系数k=y/x=12/3=4，代入x=5得y=4*5=20。"
+    "explanation": "先求比例系数k=y/x=12/3=4，代入x=5得y=4*5=20。",
+    "audio": "audio/math_220_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_220_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_220_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_220_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_220_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-221",
@@ -3619,7 +7723,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "比例尺",
-    "explanation": "先换算实际距离400米=40000厘米，根据比例尺1:2000，图上距离=40000÷2000=20厘米。"
+    "explanation": "先换算实际距离400米=40000厘米，根据比例尺1:2000，图上距离=40000÷2000=20厘米。",
+    "audio": "audio/math_221_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_221_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_221_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_221_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_221_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-222",
@@ -3635,7 +7758,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "鸡兔同笼",
-    "explanation": "设鸡x，兔y，x+y=20，2x+4y=56，解得x=12。"
+    "explanation": "设鸡x，兔y，x+y=20，2x+4y=56，解得x=12。",
+    "audio": "audio/math_222_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_222_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_222_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_222_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_222_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-223",
@@ -3651,7 +7793,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "和差问题",
-    "explanation": "利用和差公式：大数=(和+差)/2=(50+10)/2=30本"
+    "explanation": "利用和差公式：大数=(和+差)/2=(50+10)/2=30本",
+    "audio": "audio/math_223_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_223_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_223_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_223_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_223_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-224",
@@ -3667,7 +7828,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "和倍问题",
-    "explanation": "设小明x本，则小华3x本，x+3x=40，解得x=10本，故小华30本。"
+    "explanation": "设小明x本，则小华3x本，x+3x=40，解得x=10本，故小华30本。",
+    "audio": "audio/math_224_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_224_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_224_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_224_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_224_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-225",
@@ -3683,7 +7863,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "差倍问题",
-    "explanation": "设较小数为 x，则较大数为 5x，差为 5x - x = 4x = 24，得 x = 6，较大数 30。"
+    "explanation": "设较小数为 x，则较大数为 5x，差为 5x - x = 4x = 24，得 x = 6，较大数 30。",
+    "audio": "audio/math_225_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_225_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_225_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_225_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_225_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-226",
@@ -3699,7 +7898,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "年龄问题",
-    "explanation": "设x年后爸爸年龄是小明的3倍，列方程33+x=3(9+x)，解得x=3。"
+    "explanation": "设x年后爸爸年龄是小明的3倍，列方程33+x=3(9+x)，解得x=3。",
+    "audio": "audio/math_226_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_226_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_226_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_226_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_226_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-227",
@@ -3715,7 +7933,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "归一问题",
-    "explanation": "先求总价除以数量，得到每本书的价格：120÷15=8元。"
+    "explanation": "先求总价除以数量，得到每本书的价格：120÷15=8元。",
+    "audio": "audio/math_227_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_227_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_227_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_227_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_227_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-228",
@@ -3731,7 +7968,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "归总问题",
-    "explanation": "先分别算出小明和小华的糖数，再相加：5×12=60，4×15=60，合计120颗。"
+    "explanation": "先分别算出小明和小华的糖数，再相加：5×12=60，4×15=60，合计120颗。",
+    "audio": "audio/math_228_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_228_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_228_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_228_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_228_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-229",
@@ -3747,7 +8003,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "植树问题",
-    "explanation": "棵树 = 间隔数+1。60÷10=6，6+1=7。"
+    "explanation": "棵树 = 间隔数+1。60÷10=6，6+1=7。",
+    "audio": "audio/math_229_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_229_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_229_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_229_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_229_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-230",
@@ -3763,7 +8038,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "相遇问题",
-    "explanation": "相遇时两人行驶距离之和等于总路程。速度和×时间=总距离。"
+    "explanation": "相遇时两人行驶距离之和等于总路程。速度和×时间=总距离。",
+    "audio": "audio/math_230_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_230_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_230_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_230_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_230_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-231",
@@ -3779,7 +8073,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "追及问题",
-    "explanation": "先算出两人速度差2km/h，先跑1h领先4km，追上时间=距离差÷速度差=4÷2=2h。"
+    "explanation": "先算出两人速度差2km/h，先跑1h领先4km，追上时间=距离差÷速度差=4÷2=2h。",
+    "audio": "audio/math_231_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_231_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_231_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_231_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_231_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-232",
@@ -3795,7 +8108,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "流水问题",
-    "explanation": "先求顺流速度：12+2=14 km/h，乘以3小时得42 km。"
+    "explanation": "先求顺流速度：12+2=14 km/h，乘以3小时得42 km。",
+    "audio": "audio/math_232_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_232_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_232_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_232_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_232_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-233",
@@ -3811,7 +8143,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "折扣问题",
-    "explanation": "打8折即原价的80%，200×0.8=160元。"
+    "explanation": "打8折即原价的80%，200×0.8=160元。",
+    "audio": "audio/math_233_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_233_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_233_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_233_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_233_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-234",
@@ -3827,7 +8178,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "营养午餐",
-    "explanation": "先算米饭和蔬菜的热量，800×30%＝240，800×20%＝160，剩余800-240-160=400千卡。"
+    "explanation": "先算米饭和蔬菜的热量，800×30%＝240，800×20%＝160，剩余800-240-160=400千卡。",
+    "audio": "audio/math_234_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_234_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_234_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_234_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_234_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-235",
@@ -3843,7 +8213,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "简单推理",
-    "explanation": "因为小狗 > 小猫 > 小老鼠，所以小狗最重。"
+    "explanation": "因为小狗 > 小猫 > 小老鼠，所以小狗最重。",
+    "audio": "audio/math_235_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_235_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_235_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_235_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_235_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-236",
@@ -3859,7 +8248,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "有序枚举",
-    "explanation": "把1、2、3三个数字进行全排列，计算得3×2×1=6种。"
+    "explanation": "把1、2、3三个数字进行全排列，计算得3×2×1=6种。",
+    "audio": "audio/math_236_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_236_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_236_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_236_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_236_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-237",
@@ -3875,7 +8283,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "可能性大小",
-    "explanation": "总共5个球，红球3个，摸到红球的可能性为3/5。"
+    "explanation": "总共5个球，红球3个，摸到红球的可能性为3/5。",
+    "audio": "audio/math_237_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_237_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_237_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_237_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_237_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-238",
@@ -3891,7 +8318,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "掷骰子概率",
-    "explanation": "因为骰子有六个面，每个面出现机会相等，所以出现3的概率是1/6。"
+    "explanation": "因为骰子有六个面，每个面出现机会相等，所以出现3的概率是1/6。",
+    "audio": "audio/math_238_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_238_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_238_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_238_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_238_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-239",
@@ -3907,7 +8353,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "数独入门",
-    "explanation": "数独规则要求每行、每列、每个3×3宫格必须填入1-9且不重复。"
+    "explanation": "数独规则要求每行、每列、每个3×3宫格必须填入1-9且不重复。",
+    "audio": "audio/math_239_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_239_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_239_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_239_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_239_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-240",
@@ -3923,7 +8388,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "火柴棒游戏",
-    "explanation": "0去掉顶部的一根火柴棒即可变成6。"
+    "explanation": "0去掉顶部的一根火柴棒即可变成6。",
+    "audio": "audio/math_240_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_240_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_240_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_240_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_240_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-241",
@@ -3939,7 +8423,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "一笔画",
-    "explanation": "Y形有四个奇点，超过2个，不能一笔画。"
+    "explanation": "Y形有四个奇点，超过2个，不能一笔画。",
+    "audio": "audio/math_241_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_241_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_241_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_241_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_241_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-242",
@@ -3955,7 +8458,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "对称之美",
-    "explanation": "等腰三角形只有一条通过顶点到底边的垂直平分线，其他图形有0、2或无数条对称轴。"
+    "explanation": "等腰三角形只有一条通过顶点到底边的垂直平分线，其他图形有0、2或无数条对称轴。",
+    "audio": "audio/math_242_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_242_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_242_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_242_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_242_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-243",
@@ -3971,7 +8493,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "周长的计算",
-    "explanation": "周长=2×(长+宽)=2×13=26厘米"
+    "explanation": "周长=2×(长+宽)=2×13=26厘米",
+    "audio": "audio/math_243_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_243_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_243_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_243_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_243_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-244",
@@ -3987,7 +8528,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "面积的计算",
-    "explanation": "矩形面积=长×宽，12×8=96（平方米）。"
+    "explanation": "矩形面积=长×宽，12×8=96（平方米）。",
+    "audio": "audio/math_244_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_244_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_244_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_244_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_244_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-245",
@@ -4003,7 +8563,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "组合图形的面积",
-    "explanation": "先算长方形面积8×5=40，再算三角形面积½×5×8=20，合计60平方厘米。"
+    "explanation": "先算长方形面积8×5=40，再算三角形面积½×5×8=20，合计60平方厘米。",
+    "audio": "audio/math_245_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_245_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_245_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_245_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_245_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-246",
@@ -4019,7 +8598,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "转化思想",
-    "explanation": "把分子除以分母，3÷5=0.6。"
+    "explanation": "把分子除以分母，3÷5=0.6。",
+    "audio": "audio/math_246_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_246_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_246_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_246_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_246_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-247",
@@ -4035,7 +8633,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用方程解应用题",
-    "explanation": "设买书花了x元，列方程30-x=12，求解得x=18元。"
+    "explanation": "设买书花了x元，列方程30-x=12，求解得x=18元。",
+    "audio": "audio/math_247_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_247_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_247_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_247_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_247_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-248",
@@ -4051,7 +8668,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用比例解应用题",
-    "explanation": "用比例：3km对应15分钟，设5km对应x分钟，列出3:15=5:x，解得x=25分钟。"
+    "explanation": "用比例：3km对应15分钟，设5km对应x分钟，列出3:15=5:x，解得x=25分钟。",
+    "audio": "audio/math_248_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_248_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_248_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_248_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_248_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-249",
@@ -4067,7 +8703,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数应用题",
-    "explanation": "原长12米，剪掉1/4即剩下3/4，12×3/4=9米。"
+    "explanation": "原长12米，剪掉1/4即剩下3/4，12×3/4=9米。",
+    "audio": "audio/math_249_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_249_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_249_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_249_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_249_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-250",
@@ -4083,7 +8738,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "工程问题",
-    "explanation": "甲的效率1/10，乙的效率1/15，合计1/6，完成需6天"
+    "explanation": "甲的效率1/10，乙的效率1/15，合计1/6，完成需6天",
+    "audio": "audio/math_250_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_250_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_250_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_250_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_250_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-251",
@@ -4099,7 +8773,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识数字1-10",
-    "explanation": "比4大且比8小的整数是5、6、7，只有5在选项中出现。"
+    "explanation": "比4大且比8小的整数是5、6、7，只有5在选项中出现。",
+    "audio": "audio/math_251_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_251_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_251_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_251_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_251_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-252",
@@ -4115,7 +8808,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "10以内加减法",
-    "explanation": "先算7-3=4，再加2得6。"
+    "explanation": "先算7-3=4，再加2得6。",
+    "audio": "audio/math_252_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_252_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_252_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_252_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_252_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-253",
@@ -4131,7 +8843,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识11-20",
-    "explanation": "把11-20的个位相加，即1+2+...+9+0=45，故选A。"
+    "explanation": "把11-20的个位相加，即1+2+...+9+0=45，故选A。",
+    "audio": "audio/math_253_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_253_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_253_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_253_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_253_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-254",
@@ -4147,7 +8878,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "20以内加减法",
-    "explanation": "先用18减7得11，再加5得16。"
+    "explanation": "先用18减7得11，再加5得16。",
+    "audio": "audio/math_254_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_254_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_254_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_254_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_254_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-255",
@@ -4163,7 +8913,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识100以内数字",
-    "explanation": "十位是4，表示4个十。"
+    "explanation": "十位是4，表示4个十。",
+    "audio": "audio/math_255_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_255_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_255_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_255_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_255_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-256",
@@ -4179,7 +8948,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "100以内加减法",
-    "explanation": "先把48和37相加得到85，再减去25得到60。"
+    "explanation": "先把48和37相加得到85，再减去25得到60。",
+    "audio": "audio/math_256_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_256_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_256_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_256_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_256_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-257",
@@ -4195,7 +8983,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识百位",
-    "explanation": "百位是左边第三位，730的百位是7。"
+    "explanation": "百位是左边第三位，730的百位是7。",
+    "audio": "audio/math_257_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_257_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_257_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_257_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_257_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-258",
@@ -4211,7 +9018,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "三位数加减法",
-    "explanation": "把相同数位对齐，从低位相加，满十进一。"
+    "explanation": "把相同数位对齐，从低位相加，满十进一。",
+    "audio": "audio/math_258_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_258_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_258_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_258_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_258_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-259",
@@ -4227,7 +9053,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识乘法",
-    "explanation": "5×3 表示 5 个 3 相加，即 3+3+3+3+3=15。"
+    "explanation": "5×3 表示 5 个 3 相加，即 3+3+3+3+3=15。",
+    "audio": "audio/math_259_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_259_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_259_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_259_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_259_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-260",
@@ -4243,7 +9088,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "2-5的乘法口诀",
-    "explanation": "使用2-5乘法口诀，4×5=20，故答案为20。"
+    "explanation": "使用2-5乘法口诀，4×5=20，故答案为20。",
+    "audio": "audio/math_260_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_260_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_260_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_260_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_260_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-261",
@@ -4259,7 +9123,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "6-9的乘法口诀",
-    "explanation": "八七的口诀是七八五十六，所以结果是56。"
+    "explanation": "八七的口诀是七八五十六，所以结果是56。",
+    "audio": "audio/math_261_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_261_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_261_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_261_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_261_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-262",
@@ -4275,7 +9158,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "表内乘法",
-    "explanation": "9×8=72，可直接在乘法表中查到"
+    "explanation": "9×8=72，可直接在乘法表中查到",
+    "audio": "audio/math_262_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_262_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_262_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_262_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_262_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-263",
@@ -4291,7 +9193,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识除法",
-    "explanation": "将总数除以人数，20 ÷ 4 = 5，即每人得到5颗。"
+    "explanation": "将总数除以人数，20 ÷ 4 = 5，即每人得到5颗。",
+    "audio": "audio/math_263_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_263_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_263_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_263_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_263_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-264",
@@ -4307,7 +9228,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "表内除法",
-    "explanation": "56 ÷ 7 = 8，故每个同学得到8支。"
+    "explanation": "56 ÷ 7 = 8，故每个同学得到8支。",
+    "audio": "audio/math_264_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_264_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_264_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_264_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_264_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-265",
@@ -4323,7 +9263,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "有余数的除法",
-    "explanation": "38÷6=6余2，所以每人分到6颗，剩2颗。"
+    "explanation": "38÷6=6余2，所以每人分到6颗，剩2颗。",
+    "audio": "audio/math_265_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_265_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_265_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_265_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_265_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-266",
@@ -4339,7 +9298,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "乘除混合运算",
-    "explanation": "先算乘法12×4=48，再除以2得24。"
+    "explanation": "先算乘法12×4=48，再除以2得24。",
+    "audio": "audio/math_266_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_266_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_266_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_266_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_266_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-267",
@@ -4355,7 +9333,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识分数",
-    "explanation": "1/2 = 0.5，其他分数不等于0.5"
+    "explanation": "1/2 = 0.5，其他分数不等于0.5",
+    "audio": "audio/math_267_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_267_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_267_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_267_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_267_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-268",
@@ -4371,7 +9368,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数的大小比较",
-    "explanation": "把分数通分成分母相同，比较分子大小，分子最小的分数最小。"
+    "explanation": "把分数通分成分母相同，比较分子大小，分子最小的分数最小。",
+    "audio": "audio/math_268_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_268_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_268_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_268_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_268_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-269",
@@ -4387,7 +9403,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "同分母分数加减",
-    "explanation": "同分母分数相加，只把分子相加，分母不变，即2+3=5，答案为5/7。"
+    "explanation": "同分母分数相加，只把分子相加，分母不变，即2+3=5，答案为5/7。",
+    "audio": "audio/math_269_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_269_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_269_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_269_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_269_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-270",
@@ -4403,7 +9438,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "分数与小数互化",
-    "explanation": "3/5等于3除以5，结果为0.6"
+    "explanation": "3/5等于3除以5，结果为0.6",
+    "audio": "audio/math_270_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_270_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_270_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_270_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_270_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-271",
@@ -4419,7 +9473,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数的认识",
-    "explanation": "0.75=75/100，约分后得到3/4。"
+    "explanation": "0.75=75/100，约分后得到3/4。",
+    "audio": "audio/math_271_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_271_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_271_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_271_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_271_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-272",
@@ -4435,7 +9508,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数加减法",
-    "explanation": "把3.25和1.7对齐小数点，1.7写成1.70，逐位相加得4.95"
+    "explanation": "把3.25和1.7对齐小数点，1.7写成1.70，逐位相加得4.95",
+    "audio": "audio/math_272_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_272_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_272_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_272_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_272_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-273",
@@ -4451,7 +9543,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数乘法",
-    "explanation": "先把4.2乘3得12.6，再把小数点向左移一位，得到1.26。"
+    "explanation": "先把4.2乘3得12.6，再把小数点向左移一位，得到1.26。",
+    "audio": "audio/math_273_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_273_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_273_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_273_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_273_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-274",
@@ -4467,7 +9578,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "小数的意义",
-    "explanation": "小数表示把整体平均分成10、100等份，取其中若干份的值。"
+    "explanation": "小数表示把整体平均分成10、100等份，取其中若干份的值。",
+    "audio": "audio/math_274_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_274_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_274_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_274_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_274_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-275",
@@ -4483,7 +9613,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识人民币",
-    "explanation": "先把1元5角转换成1.5元，2元减去1.5元等于0.5元，即5角。"
+    "explanation": "先把1元5角转换成1.5元，2元减去1.5元等于0.5元，即5角。",
+    "audio": "audio/math_275_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_275_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_275_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_275_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_275_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-276",
@@ -4499,7 +9648,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "人民币换算",
-    "explanation": "5元8角 = 5元 + 8角 = 5元 + 0.8元 = 5.8元"
+    "explanation": "5元8角 = 5元 + 8角 = 5元 + 0.8元 = 5.8元",
+    "audio": "audio/math_276_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_276_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_276_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_276_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_276_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-277",
@@ -4515,7 +9683,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识时钟",
-    "explanation": "时针每走一格代表1小时，走完12格为12小时"
+    "explanation": "时针每走一格代表1小时，走完12格为12小时",
+    "audio": "audio/math_277_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_277_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_277_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_277_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_277_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-278",
@@ -4531,7 +9718,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识日历",
-    "explanation": "4月1日为星期二，4月有30天，30天=4周+2天，向后2天，星期二+2=星期四。"
+    "explanation": "4月1日为星期二，4月有30天，30天=4周+2天，向后2天，星期二+2=星期四。",
+    "audio": "audio/math_278_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_278_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_278_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_278_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_278_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-279",
@@ -4547,7 +9753,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "长度单位换算",
-    "explanation": "1米=100厘米，3.5米即3.5×100=350厘米"
+    "explanation": "1米=100厘米，3.5米即3.5×100=350厘米",
+    "audio": "audio/math_279_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_279_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_279_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_279_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_279_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-280",
@@ -4563,7 +9788,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "重量单位换算",
-    "explanation": "1 千克 = 1000 克，2.5 千克 = 2.5×1000 = 2500 克。"
+    "explanation": "1 千克 = 1000 克，2.5 千克 = 2.5×1000 = 2500 克。",
+    "audio": "audio/math_280_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_280_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_280_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_280_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_280_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-281",
@@ -4579,7 +9823,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识面积",
-    "explanation": "面积：长方形20，正方形36，三角形12，圆≈28.3，正方形最大。"
+    "explanation": "面积：长方形20，正方形36，三角形12，圆≈28.3，正方形最大。",
+    "audio": "audio/math_281_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_281_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_281_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_281_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_281_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-282",
@@ -4595,7 +9858,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识体积",
-    "explanation": "长方体的体积公式是长×宽×高。"
+    "explanation": "长方体的体积公式是长×宽×高。",
+    "audio": "audio/math_282_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_282_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_282_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_282_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_282_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-283",
@@ -4611,7 +9893,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识角",
-    "explanation": "角是由两条射线从同一点出发形成的图形，故选A。"
+    "explanation": "角是由两条射线从同一点出发形成的图形，故选A。",
+    "audio": "audio/math_283_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_283_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_283_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_283_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_283_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-284",
@@ -4627,7 +9928,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识三角形",
-    "explanation": "三角形必须是由三条直线段首尾相连围成的，四条边的图形不符合。"
+    "explanation": "三角形必须是由三条直线段首尾相连围成的，四条边的图形不符合。",
+    "audio": "audio/math_284_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_284_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_284_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_284_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_284_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-285",
@@ -4643,7 +9963,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识四边形",
-    "explanation": "四边形有四个内角，内角和恒为360°。"
+    "explanation": "四边形有四个内角，内角和恒为360°。",
+    "audio": "audio/math_285_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_285_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_285_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_285_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_285_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-286",
@@ -4659,7 +9998,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识圆形",
-    "explanation": "圆的直径等于半径的两倍，直径是穿过圆心、连接圆上两点的线段。"
+    "explanation": "圆的直径等于半径的两倍，直径是穿过圆心、连接圆上两点的线段。",
+    "audio": "audio/math_286_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_286_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_286_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_286_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_286_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-287",
@@ -4675,7 +10033,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识正方形和长方形",
-    "explanation": "正方形四条边相等且每个角都是直角，区别于长方形只要求对边相等。"
+    "explanation": "正方形四条边相等且每个角都是直角，区别于长方形只要求对边相等。",
+    "audio": "audio/math_287_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_287_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_287_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_287_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_287_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-288",
@@ -4691,7 +10068,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "图形的拼组",
-    "explanation": "两个直角三角形对应边相接可拼成一个矩形，即长方形。"
+    "explanation": "两个直角三角形对应边相接可拼成一个矩形，即长方形。",
+    "audio": "audio/math_288_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_288_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_288_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_288_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_288_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-289",
@@ -4707,7 +10103,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识轴对称图形",
-    "explanation": "正方形有两条对称轴，沿对称轴对折后两部分完全重合，因此是轴对称图形。"
+    "explanation": "正方形有两条对称轴，沿对称轴对折后两部分完全重合，因此是轴对称图形。",
+    "audio": "audio/math_289_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_289_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_289_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_289_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_289_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-290",
@@ -4723,7 +10138,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "图形的平移和旋转",
-    "explanation": "平移和旋转都是保形的变换，形状不变，只是位置或方向变化。"
+    "explanation": "平移和旋转都是保形的变换，形状不变，只是位置或方向变化。",
+    "audio": "audio/math_290_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_290_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_290_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_290_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_290_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-291",
@@ -4739,7 +10173,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "找规律填数",
-    "explanation": "相邻两项差递增1，差分别为2、3、4、5，依次递增1，下个数为15+6=21"
+    "explanation": "相邻两项差递增1，差分别为2、3、4、5，依次递增1，下个数为15+6=21",
+    "audio": "audio/math_291_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_291_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_291_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_291_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_291_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-292",
@@ -4755,7 +10208,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "找规律画图",
-    "explanation": "图形边数每次增加1，依次为3、4、5、6，第五个应为5条边，即五边形。"
+    "explanation": "图形边数每次增加1，依次为3、4、5、6，第五个应为5条边，即五边形。",
+    "audio": "audio/math_292_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_292_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_292_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_292_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_292_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-293",
@@ -4771,7 +10243,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "简单统计",
-    "explanation": "先把数据从小到大排序，取中间两位数的平均。"
+    "explanation": "先把数据从小到大排序，取中间两位数的平均。",
+    "audio": "audio/math_293_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_293_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_293_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_293_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_293_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-294",
@@ -4787,7 +10278,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "数据的收集整理",
-    "explanation": "颜色是分类数据，条形图能直观比较各类别数量。"
+    "explanation": "颜色是分类数据，条形图能直观比较各类别数量。",
+    "audio": "audio/math_294_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_294_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_294_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_294_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_294_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-295",
@@ -4803,7 +10313,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "比大小",
-    "explanation": "把小数和分数统一化为小数或通分比较，发现 1/2=0.5 为最小。"
+    "explanation": "把小数和分数统一化为小数或通分比较，发现 1/2=0.5 为最小。",
+    "audio": "audio/math_295_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_295_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_295_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_295_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_295_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-296",
@@ -4819,7 +10348,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "用字母表示数",
-    "explanation": "把a=4，b=6相加，得4+6=10。"
+    "explanation": "把a=4，b=6相加，得4+6=10。",
+    "audio": "audio/math_296_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_296_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_296_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_296_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_296_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-297",
@@ -4835,7 +10383,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "认识方程",
-    "explanation": "方程是含有未知数的等式，只有 B 选项符合。"
+    "explanation": "方程是含有未知数的等式，只有 B 选项符合。",
+    "audio": "audio/math_297_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_297_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_297_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_297_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_297_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-298",
@@ -4851,7 +10418,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "解简单方程",
-    "explanation": "两边同时减去5，得 x = 12 - 5 = 7"
+    "explanation": "两边同时减去5，得 x = 12 - 5 = 7",
+    "audio": "audio/math_298_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_298_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_298_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_298_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_298_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-299",
@@ -4867,7 +10453,26 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：购物",
-    "explanation": "先算苹果2×8=16元，梨3×6=18元，合计16+18=34元。"
+    "explanation": "先算苹果2×8=16元，梨3×6=18元，合计16+18=34元。",
+    "audio": "audio/math_299_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_299_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_299_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_299_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_299_d.mp3"
+      }
+    ]
   },
   {
     "id": "math-primary-300",
@@ -4883,6 +10488,25 @@
     "difficulty": 1,
     "grade": 6,
     "knowledge": "应用题：时间",
-    "explanation": "每题15分钟，5题共75分钟，即1小时15分，3:30加1:15等于4:45。"
+    "explanation": "每题15分钟，5题共75分钟，即1小时15分，3:30加1:15等于4:45。",
+    "audio": "audio/math_300_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/math_300_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/math_300_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/math_300_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/math_300_d.mp3"
+      }
+    ]
   }
 ]
