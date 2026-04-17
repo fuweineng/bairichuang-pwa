@@ -1050,10 +1050,10 @@ function handleSubmit() {
   sel.submitted = true;
   state.selectedChoice = sel;
   handleAnswer(sel.idx);  // 显示对错 feedback，不 re-render
-  // 改按钮文字为"下一题"，不重新渲染整题（避免清除 feedback）
+  // 改按钮文字为"下一题 →"，不重新渲染整题（避免清除 feedback）
   const btn = document.getElementById('action-btn');
   if (btn) {
-    btn.textContent = '下一题';
+    btn.textContent = '下一题 →';
     btn.dataset.action = 'next-question';
   }
 }
@@ -1258,13 +1258,9 @@ function renderQuestion() {
        </div>`
     : '';
 
-  // 底部操作按钮：未提交 → 显示"提交"；已提交 → 显示"下一题"
+  // 底部操作按钮：始终显示"下一题"样式按钮，点击时判断是提交还是下一题
   const submitBtn = isChoice && !isFillOrShort
-    ? isSubmitted
-      ? `<button class="primary-btn" id="action-btn" data-action="next-question">下一题</button>`
-      : sel !== null
-        ? `<button class="primary-btn" id="action-btn" data-action="submit">提交</button>`
-        : ''
+    ? `<button class="primary-btn" id="action-btn" data-action="${isSubmitted ? 'next-question' : 'submit'}">${isSubmitted ? '下一题 →' : '提交'}</button>`
     : '';
 
   const qTextWithAudio = primaryWithAudio
