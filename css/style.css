@@ -1423,7 +1423,7 @@ main {
 }
 
 /* Fill blank */
-.fill-area { margin-top: 10px; }
+.fill-area { margin-top: 10px; min-height: 60px; }
 
 .fill-input-row {
   display: flex;
@@ -2059,7 +2059,7 @@ main {
 .question-meta span { background: #eee; padding: 2px 8px; border-radius: 4px; }
 .question-progress { margin-left: auto; }
 .question-text { font-size: 1.05rem; line-height: 1.6; margin: 8px 0 16px; }
-.answer-grid { display: flex; flex-direction: column; gap: 8px; }
+.answer-grid { display: flex; flex-direction: column; gap: 8px; min-height: 120px; justify-content: space-between; }
 .answer-btn {
   background: var(--theme-surface); border: 1px solid var(--theme-border); border-radius: 8px;
   padding: 10px 14px; font-size: 0.95rem; text-align: left;
@@ -2071,6 +2071,140 @@ main {
 .fb-correct { color: var(--theme-accent); font-weight: 600; }
 .fb-wrong { color: #e53935; font-weight: 600; }
 .explanation { font-size: 0.8rem; color: var(--theme-text-secondary); margin-top: 6px; line-height: 1.5; }
+
+/* ==================== ANSWER FEEDBACK MODAL ==================== */
+#feedback-modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+}
+#feedback-modal {
+  background: var(--theme-surface);
+  border-radius: 16px;
+  padding: 24px 20px;
+  max-width: 360px; width: 100%;
+  box-shadow: var(--shadow-card);
+  text-align: center;
+}
+#feedback-modal .fb-icon { font-size: 2.4rem; margin-bottom: 10px; }
+#feedback-modal .fb-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
+#feedback-modal .fb-correct-text { color: var(--theme-accent); }
+#feedback-modal .fb-wrong-text { color: #e53935; }
+#feedback-modal .fb-explanation {
+  background: var(--theme-bg); border-radius: 8px;
+  padding: 12px; margin: 10px 0;
+  text-align: left; font-size: 0.9rem; line-height: 1.6;
+  max-height: 200px; overflow-y: auto;
+}
+#feedback-modal .fb-passage {
+  background: #f0f0f0; border-radius: 8px;
+  padding: 10px; margin-top: 8px;
+  text-align: left; font-size: 0.85rem; color: var(--theme-text-secondary);
+  max-height: 120px; overflow-y: auto;
+}
+#feedback-modal .fb-correct-answer {
+  font-size: 0.9rem; margin: 8px 0;
+}
+
+/* ==================== ANSWER FEEDBACK PANEL (inline — deprecated) ==================== */
+.feedback-panel {
+  margin-top: 14px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.feedback-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.feedback-panel-header.correct {
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+  color: #2e7d32;
+}
+
+.feedback-panel-header.wrong {
+  background: linear-gradient(135deg, #ffebee, #ffcdd2);
+  color: #c62828;
+}
+
+.feedback-panel-header .fb-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.feedback-panel-body {
+  padding: 12px 16px;
+  background: var(--theme-surface);
+}
+
+.feedback-explanation {
+  font-size: 0.82rem;
+  color: var(--theme-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.feedback-explanation strong {
+  color: var(--theme-text-primary);
+}
+
+.feedback-passage {
+  font-size: 0.82rem;
+  color: var(--theme-text-secondary);
+  line-height: 1.6;
+  background: var(--theme-surface-2);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+}
+
+.feedback-passage strong {
+  color: var(--theme-text-primary);
+}
+
+.feedback-correct-answer {
+  font-size: 0.82rem;
+  color: var(--theme-text-secondary);
+  margin-top: 4px;
+}
+
+.feedback-correct-answer span {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+/* next question button inside feedback */
+.feedback-next-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 11px;
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+  border: 1.5px solid var(--theme-border);
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.feedback-next-btn:hover {
+  background: var(--theme-accent);
+  color: #fff;
+  border-color: var(--theme-accent);
+}
 
 /* ==================== PROGRESS ==================== */
 .progress-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }

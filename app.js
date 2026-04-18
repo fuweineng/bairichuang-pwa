@@ -1044,18 +1044,56 @@ function stopCurrentAudio() {
 }
 
 // ── 提交答案 ─────────────────────────────────────────────────────────
-function handleSubmit() {
+async function handleSubmit() {
   const sel = state.selectedChoice;
   if (!sel || sel.submitted) return;
   sel.submitted = true;
   state.selectedChoice = sel;
-  handleAnswer(sel.idx);  // 显示对错 feedback，不 re-render
-  // 改按钮文字为"下一题 →"，不重新渲染整题（避免清除 feedback）
-  const btn = document.getElementById('action-btn');
-  if (btn) {
-    btn.textContent = '下一题 →';
-    btn.dataset.action = 'next-question';
+  await handleAnswer(sel.idx);  // 等待判分完成
+  renderQuestion();             // 重新渲染：按钮消失，选项高亮
+  showFeedbackModal(state.lastAnswerResult); // 弹窗
+}
+
+// ── 反馈弹窗 ─────────────────────────────────────────────────────────
+function showFeedbackModal(result, onNextName) {
+  const overlay = document.getElementById('feedback-modal-overlay');
+  const modal   = document.getElementById('feedback-modal');
+  if (!overlay || !modal) return;
+
+  const icon = result.isCorrect ? '✓' : '✗';
+  const titleClass = result.isCorrect ? 'fb-correct-text' : 'fb-wrong-text';
+  const titleText  = result.feedbackText;
+
+  let explanationHtml = '';
+  if (result.q.explanation) {
+    explanationHtml += `<div class="fb-explanation"><strong>解析：</strong>${stripMarkdown(result.q.explanation).replace(/\n/g, '<br>')}</div>`;
   }
+  if (result.q.audio_text) {
+    explanationHtml += `<div class="fb-passage"><strong>听力原文：</strong>${result.q.audio_text.replace(/\n/g, '<br>')}</div>`;
+  }
+  if (result.q.passage) {
+    explanationHtml += `<div class="fb-passage"><strong>短文原文：</strong>${result.q.passage.replace(/\n/g, '<br>')}</div>`;
+  }
+  const correctAnswerHtml = !result.isCorrect && result.q.type === 'choice'
+    ? `<div class="fb-correct-answer">正确答案：<strong>${titleText.split('：')[1] || ''}</strong></div>` : '';
+
+  const nextFnName = onNextName || 'nextQuestion';
+
+  modal.innerHTML = `
+    <div class="fb-icon">${icon}</div>
+    <div class="fb-title ${titleClass}">${titleText}</div>
+    ${explanationHtml}
+    ${correctAnswerHtml}
+    <button class="primary-btn" data-action="feedback-next" data-next-fn="${nextFnName}">下一题 →</button>
+  `;
+
+  overlay.style.display = 'flex';
+}
+
+function closeFeedbackModal(callback) {
+  const overlay = document.getElementById('feedback-modal-overlay');
+  if (overlay) overlay.style.display = 'none';
+  if (callback) callback();
 }
 
 function speakVariant(lang) {
@@ -1115,7 +1153,16 @@ function renderQuestion() {
     ? `<div class="question-image-grid">${imageSources.map(src => `<img class="question-image" src="${src}" alt="题目配图" loading="lazy" />`).join('')}</div>`
     : '';
 
-  // ── 多语种朗读工具栏（所有题型通用）─────────────────────────────────
+  // 所有学科：题目文字可点播放音频（只要 q.audio 存在）
+  const qAudioUrl = q.audio
+    ? `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/${q.audio}`
+    : '';
+
+  const qTextWithAudio = qAudioUrl
+    ? `<span class="q-text-audio" data-audio="${qAudioUrl}" onclick="playQAudio(this)">${q.question}</span>`
+    : `<span>${q.question}</span>`;
+
+  // 多语种朗读工具栏（所有题型通用）
   const ttsVariantsBlock = q.ttsVariants
     ? `<div class="tts-lang-bar">
          <button class="tts-lang-btn" data-action="speak-lang" data-lang="mandarin">国语</button>
@@ -1209,19 +1256,16 @@ function renderQuestion() {
   const hasChoices = q.choices && q.choices.length > 0;         // listening / choice 用 choices
   const isChoice = (hasOptions || hasChoices) && q.type === 'choice';
   const isListeningType = hasChoices && q.type === 'listening';
-  const isFillOrShort = !hasOptions && !hasChoices && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression');
+  const isFillOrShort = (!hasOptions && !hasChoices && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression'))
+    || (q.type === 'choice' && !hasOptions && !hasChoices);
 
-  // ── 小学语/英/数：题目文字可点播放音频 ────────────────────────────────
-  const primaryWithAudio = ['chinese', 'english', 'math'].includes(q.subject) && q.audio;
-  const qAudioUrl = primaryWithAudio
-    ? `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/${q.audio}`
-    : '';
+  // 所有学科：题目文字可点播放音频（只要 q.audio 存在）
+  // qTextWithAudio 已在上方定义
 
-  // 选项按钮 (choice 用 options/choices 文字；listening 用 choices[{label,text}])
-  // 小学primary科目：选项也可点着播放音频
+  // 所有学科：选项可点着播放音频（只要 q.optionAudio 存在）
   // optionAudio 格式：[{key:'A',audio:'...'}] 或 {'a':'...','b':'...'}
   let optionAudioMap = {};
-  if (['chinese', 'english', 'math'].includes(q.subject) && q.optionAudio) {
+  if (q.optionAudio) {
     if (Array.isArray(q.optionAudio)) {
       q.optionAudio.forEach(item => {
         if (item.key) optionAudioMap[item.key.toLowerCase()] = item.audio;
@@ -1230,7 +1274,7 @@ function renderQuestion() {
       optionAudioMap = q.optionAudio; // 已是 dict
     }
   }
-  const primaryWithOptionAudio = Object.keys(optionAudioMap).length > 0;
+  const hasOptionAudio = Object.keys(optionAudioMap).length > 0;
   const sel = state.selectedChoice;
   const isSubmitted = sel?.submitted === true;
 
@@ -1239,7 +1283,7 @@ function renderQuestion() {
         const label = typeof opt === 'string' ? '' : opt.label + '. ';
         const text  = typeof opt === 'string' ? opt    : opt.text;
         const selected = sel?.idx === i ? ' selected' : '';
-        const opAudio = primaryWithOptionAudio ? optionAudioMap['abcd'[i]] : '';
+        const opAudio = hasOptionAudio ? optionAudioMap['abcd'[i]] : '';
         return `<button class="answer-btn${selected}" data-action="answer" data-choice="${i}"${opAudio ? ` data-opaudio="${opAudio}"` : ''}>${label}${text}</button>`;
       }).join('')
     : isListeningType
@@ -1258,14 +1302,8 @@ function renderQuestion() {
        </div>`
     : '';
 
-  // 底部操作按钮：始终显示"下一题"样式按钮，点击时判断是提交还是下一题
-  const submitBtn = isChoice && !isFillOrShort
-    ? `<button class="primary-btn" id="action-btn" data-action="${isSubmitted ? 'next-question' : 'submit'}">${isSubmitted ? '下一题 →' : '提交'}</button>`
-    : '';
-
-  const qTextWithAudio = primaryWithAudio
-    ? `<span class="q-text-audio" data-audio="${qAudioUrl}" onclick="playQAudio(this)">${q.question}</span>`
-    : `<span>${q.question}</span>`;
+  // needsSubmitBtn: choice/listening 且非填空类
+  const needsSubmitBtn = (isChoice || isListeningType) && !isFillOrShort;
 
   container.innerHTML = `
     <div class="question-meta">
@@ -1276,12 +1314,11 @@ function renderQuestion() {
     ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
     ${imageBlock}
     ${ttsVariantsBlock}
-    ${q.passage ? `<div class="passage-block"><strong>短文：</strong>${q.passage.replace(/\\n/g, '<br>')}</div>` : ''}
+    ${q.passage ? `<div class="passage-block"><strong>短文：</strong>${q.passage.replace(/\n/g, '<br>')}</div>` : ''}
     <div class="question-text">${qTextWithAudio}</div>
     ${opts ? `<div class="answer-grid" id="answer-grid">${opts}</div>` : ''}
     ${inputArea}
-    ${submitBtn}
-    <div id="answer-feedback" style="display:none;margin-top:12px"></div>
+    ${!isSubmitted && needsSubmitBtn ? `<button class="primary-btn" id="action-btn" data-action="submit">提交</button>` : ''}
   `;
 
   // 键盘：1-4 选答案，回车提交/下一题
@@ -1324,10 +1361,9 @@ function renderQuestion() {
 async function handleAnswer(choiceIdx) {
   const q = state.sessionQuestions[state.sessionIndex];
 
-  // 判断答案：choice 用 q.options[idx] === q.answer；listening 用 q.choices[idx].label === q.answer
+  // ── 判断答案 ──────────────────────────────────────────────────────────
   let isCorrect = false;
   if (q.type === 'choice' && (q.options || q.choices)) {
-    // options/choices 可能是纯字符串数组，也可能是 {label,text} 对象数组
     const source = q.options || q.choices;
     const opt = source[choiceIdx];
     const optText = typeof opt === 'string' ? opt : opt.text;
@@ -1345,23 +1381,14 @@ async function handleAnswer(choiceIdx) {
 
   await recordAnswer(q.id, isCorrect, q.subject, q.type);
 
-  const fb = document.getElementById('answer-feedback');
-  if (fb) {
-    fb.style.display = 'block';
-    // 显示正确答案标签
-    let correctLabel = q.answer;
-    if ((q.type === 'listening' || q.type === 'choice') && q.choices) {
-      const found = q.choices.find(c => c.label === q.answer);
-      if (found) correctLabel = `${q.answer}. ${found.text}`;
-    }
-    const feedbackHTML = isCorrect
-      ? `<span class="fb-correct">正确</span>`
-      : `<span class="fb-wrong">错误，正确答案是：${correctLabel}</span>`;
-    fb.innerHTML = buildFeedbackHTML(
-      `<button class="primary-btn" data-action="next-question" style="margin-top:8px">下一题 →</button>`,
-      feedbackHTML, q
-    );
+  // ── 存结果，feedback 由 renderQuestion 统一渲染 ──────────────────────
+  let correctLabel = q.answer;
+  if ((q.type === 'listening' || q.type === 'choice') && q.choices) {
+    const found = q.choices.find(c => c.label === q.answer);
+    if (found) correctLabel = `${q.answer}. ${found.text}`;
   }
+  const feedbackText = isCorrect ? '正确' : `错误，正确答案是：${correctLabel}`;
+  state.lastAnswerResult = { isCorrect, feedbackText, q };
 }
 
 // ── Dictation (听写填空) ──────────────────────────────────────────────────
@@ -1380,17 +1407,17 @@ async function handleDictationSubmit() {
 
   await recordAnswer(q.id, isCorrect, q.subject, q.type);
 
+  const result = {
+    isCorrect,
+    feedbackText: isCorrect ? '正确' : `错误，正确答案是：${formatAnswerForDisplay(q.answer)}`,
+    q
+  };
+  state.lastAnswerResult = result;
+
+  // 替换下方反馈框为弹窗
   const fb = document.getElementById('answer-feedback');
-  if (fb) {
-    fb.style.display = 'block';
-    const feedbackHTML = isCorrect
-      ? `<span class="fb-correct">正确</span>`
-      : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(q.answer)}</span>`;
-    fb.innerHTML = buildFeedbackHTML(
-      `<button class="primary-btn" data-action="dictation-next" style="margin-top:8px">下一题 →</button>`,
-      feedbackHTML, q
-    );
-  }
+  if (fb) { fb.style.display = 'none'; }
+  showFeedbackModal(result);
 }
 
 // ── Passage dictation (短文听写) sub-question ─────────────────────────────
@@ -1413,17 +1440,28 @@ async function handlePDSubmit() {
 
   await recordAnswer(q.id + '_sub_' + subIdx, isCorrect, q.subject, q.type);
 
+  const result = {
+    isCorrect,
+    feedbackText: isCorrect ? '正确' : `错误，正确答案是：${formatAnswerForDisplay(sq.answer)}`,
+    q: { ...sq, passage: q.passage }
+  };
+  state.lastAnswerResult = result;
+
   const fb = document.getElementById('answer-feedback');
-  if (fb) {
-    fb.style.display = 'block';
-    const btnLabel = subIdx + 1 >= (q.questions || []).length ? '短文结束 →' : '下一题 →';
-    const feedbackHTML = isCorrect
-      ? `<span class="fb-correct">正确</span>`
-      : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(sq.answer)}</span>`;
-    fb.innerHTML = buildFeedbackHTML(
-      `<button class="primary-btn" data-action="pd-next" style="margin-top:8px">${btnLabel}</button>`,
-      feedbackHTML, { ...sq, passage: q.passage }
-    );
+  if (fb) { fb.style.display = 'none'; }
+
+  const isLastSub = subIdx + 1 >= (q.questions || []).length;
+  showFeedbackModal(result, isLastSub ? 'nextQuestion' : 'advancePD');
+}
+
+function advancePD() {
+  const q = state.sessionQuestions[state.sessionIndex];
+  state.pdIndex = (state.pdIndex || 0) + 1;
+  if (state.pdIndex >= (q.questions || []).length) {
+    state.pdIndex = 0;
+    nextQuestion();
+  } else {
+    renderQuestion();
   }
 }
 
@@ -1439,24 +1477,23 @@ async function handleFillAnswer(userAnswer) {
 
   await recordAnswer(q.id, isCorrect, q.subject, q.type);
 
+  const result = {
+    isCorrect,
+    feedbackText: isCorrect ? '正确' : `错误，正确答案是：${formatAnswerForDisplay(correctAns)}`,
+    q
+  };
+  state.lastAnswerResult = result;
+
   const fb = document.getElementById('answer-feedback');
-  if (fb) {
-    fb.style.display = 'block';
-    const skipPassage = q.type === 'fill' || q.type === 'short_answer';
-    const feedbackHTML = isCorrect
-      ? `<span class="fb-correct">正确</span>`
-      : `<span class="fb-wrong">错误，正确答案是：${formatAnswerForDisplay(correctAns)}</span>`;
-    fb.innerHTML = buildFeedbackHTML(
-      `<button class="primary-btn" data-action="next-question" style="margin-top:10px">下一题 →</button>`,
-      feedbackHTML, q, skipPassage
-    );
-  }
+  if (fb) { fb.style.display = 'none'; }
+  showFeedbackModal(result);
 }
 
 async function nextQuestion() {
   state.sessionIndex++;
   state.pdIndex = 0;
   state.selectedChoice = null;
+  state.lastAnswerResult = null;
   renderQuestion();
 }
 
@@ -1687,7 +1724,6 @@ function drawChart() {
       <div class="chart-empty-icon">测评</div>
       <div class="chart-empty-title">还没有练习数据</div>
       <div class="chart-empty-sub">先做一次摸底测试，了解各科水平</div>
-      <button class="chart-assessment-btn" data-action="start-assessment" data-subject="all" data-entry="assessment">开始摸底测试</button>
     </div>`;
   }
 
@@ -2029,6 +2065,13 @@ async function handleClick(e) {
     case 'submit':
       handleSubmit();
       break;
+
+    case 'feedback-next': {
+      const fnName = t.dataset.nextFn || 'nextQuestion';
+      const fn = fnName === 'advancePD' ? advancePD : nextQuestion;
+      closeFeedbackModal(() => fn());
+      break;
+    }
 
     case 'next-question':
       nextQuestion();
