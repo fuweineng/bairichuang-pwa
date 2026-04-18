@@ -1285,7 +1285,7 @@ function renderQuestion() {
 
   const opts = isChoice
     ? (q.options || q.choices).map((opt, i) => {
-        const label = typeof opt === 'string' ? '' : opt.label + '. ';
+        const label = typeof opt === 'string' ? '' : (opt.label ?? opt.key ?? '') + '. ';
         const text  = typeof opt === 'string' ? opt    : opt.text;
         const selected = sel?.idx === i ? ' selected' : '';
         const opAudio = hasOptionAudio ? optionAudioMap['abcd'[i]] : '';
