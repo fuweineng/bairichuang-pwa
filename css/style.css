@@ -117,29 +117,29 @@ body[data-theme="evening"] {
   --theme-sub-progress-bg: #ffe8cc;
 }
 body[data-theme="night"] {
-  --theme-bg-1: #1a1a2e;
-  --theme-bg-2: #16213e;
-  --theme-accent: #7c8db5;
+  --theme-bg-1: #12121e;
+  --theme-bg-2: #1a1a2e;
+  --theme-accent: #7986cb;
   --theme-text: #c5cae9;
-  --theme-btn-bg: #5C6BC0;
+  --theme-btn-bg: #3949ab;
   --theme-btn-text: #e8eaf6;
-  --theme-surface: #1e2240;
-  --theme-border: #2c3060;
-  --theme-surface-2: #252a4a;
-  --theme-header-bg: #1a1c30;
+  --theme-surface: #1a1c30;
+  --theme-border: #2a2d50;
+  --theme-surface-2: #242640;
+  --theme-header-bg: #12121e;
   --theme-header-text: #c5cae9;
-  --theme-modal-overlay: rgba(0,0,0,0.60);
+  --theme-modal-overlay: rgba(0,0,0,0.70);
   --theme-modal-card: #1e2240;
   --theme-modal-text: #c5cae9;
-  --theme-input-bg: #252a4a;
+  --theme-input-bg: #242640;
   --theme-input-border: #3c4080;
-  --theme-card-bg: #1e2240;
+  --theme-card-bg: #1a1c30;
   --theme-text-primary: #c5cae9;
   --theme-text-secondary: #9fa8d0;
-  --theme-text-muted: #6c72a8;
-  --theme-weak-bg: #2a1a2a;
-  --theme-info-bar-bg: #1e2a1e;
-  --theme-sub-progress-bg: #2a2a1e;
+  --theme-text-muted: #5a5f8a;
+  --theme-weak-bg: #1e1520;
+  --theme-info-bar-bg: #1a2018;
+  --theme-sub-progress-bg: #201e14;
 }
 
 
@@ -2557,7 +2557,7 @@ main {
 .theme-picker-btn[data-theme="morning"] { background: #e8f5e9; color: #2e7d32; }
 .theme-picker-btn[data-theme="afternoon"] { background: #e3f2fd; color: #1565c0; }
 .theme-picker-btn[data-theme="evening"] { background: var(--theme-surface-2); color: var(--theme-accent); }
-.theme-picker-btn[data-theme="night"] { background: #e8eaf6; color: #283593; }
+.theme-picker-btn[data-theme="night"] { background: #1a1c30; color: #7986cb; }
 .chart-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; flex-wrap: wrap; }
 .chart-title { font-size: 0.9rem; font-weight: 600; color: var(--theme-text-primary); }
 .chart-hint { font-size: 0.75rem; color: var(--theme-text-muted); text-align: center; margin: 6px 0 4px; padding: 0 4px; }
@@ -3061,4 +3061,99 @@ footer {
   color: #fff;
   font-weight: 600;
   box-shadow: 0 2px 8px rgba(76, 175, 80, 0.35);
+}
+
+.section-data-btn.active {
+  background: var(--primary) !important;
+  color: #fff !important;
+  border-color: var(--primary) !important;
+}
+
+.section-tab-btn.active {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.35);
+}
+
+body[data-theme="night"] .section-tab-btn.active {
+  background: var(--theme-btn-bg);
+  box-shadow: 0 2px 8px rgba(57, 73, 171, 0.4);
+}
+
+body[data-theme="night"] .section-data-btn.active {
+  background: var(--theme-btn-bg) !important;
+  box-shadow: 0 2px 8px rgba(57, 73, 171, 0.4);
+}
+
+body[data-theme="night"] .theme-picker-btn.active {
+  border-color: var(--theme-accent);
+}
+
+body[data-theme="night"] .settings-card {
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+}
+
+body[data-theme="night"] .settings-row {
+  border-color: var(--theme-border);
+}
+
+body[data-theme="night"] .profile-name-input {
+  background: var(--theme-input-bg);
+  border-color: var(--theme-input-border);
+  color: var(--theme-text-primary);
+}
+
+body[data-theme="night"] .secondary-btn {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+  border-color: var(--theme-border);
+}
+
+body[data-theme="night"] .settings-action-btn {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+  border-color: var(--theme-border);
+}
+
+body[data-theme="night"] .settings-danger-btn {
+  background: var(--theme-surface-2);
+  color: #ef9a9a;
+  border-color: #5c2020;
+}
+
+body[data-theme="night"] .stepper-btn {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+  border-color: var(--theme-border);
+}
+
+body[data-theme="night"] .stepper-val {
+  color: var(--theme-text-primary);
+}
+
+body[data-theme="night"] .settings-label {
+  color: var(--theme-text-secondary);
+}
+
+body[data-theme="night"] .settings-hint {
+  color: var(--theme-text-muted);
+}
+
+body[data-theme="night"] .settings-version {
+  color: var(--theme-text-muted);
+}
+
+body[data-theme="night"] .profile-stat {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+}
+
+body[data-theme="night"] .profile-stat-num {
+  color: var(--theme-accent);
+}
+
+body[data-theme="night"] .profile-stat-label {
+  color: var(--theme-text-muted);
 }

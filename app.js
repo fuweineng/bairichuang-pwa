@@ -1855,7 +1855,7 @@ async function renderSettings() {
         ${['primary','junior','senior'].map(s => `
           <button class="secondary-btn section-data-btn${state.settings.section === s ? ' active' : ''}"
             data-action="choose-section" data-section="${s}"
-            style="flex:1;padding:7px 4px;font-size:0.75rem;${state.settings.section === s ? 'background:#4CAF50;color:white;border-color:#4CAF50' : ''}">
+            style="flex:1;padding:7px 4px;font-size:0.75rem">
             ${s === 'junior' ? '初中' : s === 'primary' ? '小学' : '高中'}
           </button>`).join('')}
       </div>
