@@ -1,0 +1,24 @@
+{
+  "segment": "primary",
+  "subject": "chinese",
+  "knowledgePoints": [
+    {"code": "PC-GY-001", "name": "多音字辨析", "description": "区分同一字在不同词语或语境中的读音"},
+    {"code": "PC-GY-002", "name": "声调辨析", "description": "判断汉字的声调及变调规则"},
+    {"code": "PC-GY-003", "name": "声母辨析", "description": "判断汉字的声母是否正确"},
+    {"code": "PC-GY-004", "name": "整体认读音节", "description": "识别整体认读音节的数量或完整性"},
+    {"code": "PC-GY-005", "name": "笔画顺序", "description": "判断汉字的书写笔画数或最后一笔"},
+    {"code": "PC-GY-006", "name": "汉字结构", "description": "判断汉字的上下、左右、包围等结构类型"},
+    {"code": "PC-GY-007", "name": "偏旁部首", "description": "判断汉字的部首是什么"},
+    {"code": "PC-GY-008", "name": "形声字", "description": "识别形声字及其形旁声旁"},
+    {"code": "PC-GY-009", "name": "错别字辨识", "description": "识别词语或成语中的错别字"},
+    {"code": "PC-GY-010", "name": "词义理解", "description": "理解词语在具体语境中的含义"},
+    {"code": "PC-GY-011", "name": "成语含义", "description": "理解成语的意思及用法"},
+    {"code": "PC-GY-012", "name": "成语典故", "description": "了解成语的出处和背景故事"},
+    {"code": "PC-GY-013", "name": "古诗词上下句", "description": "默写古诗的上句或下句"},
+    {"code": "PC-GY-014", "name": "诗意理解", "description": "理解古诗词中字词句的含义"},
+    {"code": "PC-GY-015", "name": "诗人朝代", "description": "判断诗人所处的朝代"},
+    {"code": "PC-GY-016", "name": "古诗出处", "description": "判断诗句出自哪首诗"},
+    {"code": "PC-GY-017", "name": "量词理解", "description": "理解量词的含义及本义"},
+    {"code": "PC-GY-018", "name": "阅读理解", "description": "根据短文内容回答问题"}
+  ]
+}

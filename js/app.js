@@ -376,6 +376,9 @@ async function startPracticeSession(subject) {
 }
 
 // Render the current question in the session
+// Track answered state to prevent rapid-fire key spam
+let _answeredThisQuestion = false;
+
 function renderCurrentQuestion() {
   // Remove previous keyboard listener
   document.removeEventListener('keydown', handleQuestionKey);
@@ -385,6 +388,9 @@ function renderCurrentQuestion() {
     renderSessionResult();
     return;
   }
+
+  // Reset answered guard for new question
+  _answeredThisQuestion = false;
 
   // Add keyboard shortcut listener
   document.addEventListener('keydown', handleQuestionKey);
@@ -401,7 +407,7 @@ function renderCurrentQuestion() {
         <span class="red">✗${sessionScore.wrong}</span>
       </span>
     </div>
-    ${q.type === 'choice' ? '<div class="keyboard-hint"><span class="key-hint-item"><span class="key-cap">1-4</span> 选</span><span class="key-hint-item"><span class="key-cap">空格</span> 下一题</span></div>' : ''}
+    ${q.type === 'choice' && q.options ? '<div class="keyboard-hint"><span class="key-hint-item"><span class="key-cap">A-D</span> 选</span><span class="key-hint-item"><span class="key-cap">空格</span> 下一题</span></div>' : ''}
     <div class="question">
       <p class="question-type">${getQuestionTypeName(q.type)} · ${getDifficultyName(q.difficulty)}</p>
       <p class="question-text">${q.question}</p>
@@ -410,9 +416,12 @@ function renderCurrentQuestion() {
   `;
 
   if (q.type === 'choice' && q.options) {
+    const LABELS = ['A', 'B', 'C', 'D', 'E', 'F'];
     html += '<div class="options">';
     q.options.forEach((opt, i) => {
-      html += `<button class="option-btn" data-index="${i}">${opt}</button>`;
+      const key = typeof opt === 'string' ? opt : (opt.key || opt.label || '');
+      const text = typeof opt === 'string' ? opt : (opt.text || opt.label || '');
+      html += `<button class="option-btn" data-index="${i}" data-key="${key}">${LABELS[i] || i+1}. ${text}</button>`;
     });
     html += '</div>';
   } else if (q.type === 'fill') {
@@ -483,15 +492,24 @@ function renderCurrentQuestion() {
 }
 
 // Handle answer for choice questions
+// Guard: skip if already answered (prevents double-click / rapid key spam)
 async function handleAnswer(optBtn, q) {
+  if (optBtn.disabled || optBtn.classList.contains('answered')) return;
+  optBtn.classList.add('answered'); // mark immediately to block double-fire
+
   const selectedIndex = parseInt(optBtn.dataset.index);
-  const isCorrect = q.answer === q.options[selectedIndex];
-  await processAnswer(q, q.options[selectedIndex], isCorrect, () => {
+  const selectedOpt = q.options[selectedIndex];
+  const key = typeof selectedOpt === 'string' ? selectedOpt : (selectedOpt.key || selectedOpt.label || '');
+  const isCorrect = key === q.answer;
+
+  await processAnswer(q, key, isCorrect, () => {
     const container = document.getElementById('question-container');
     container.querySelectorAll('.option-btn').forEach(b => {
       b.disabled = true;
       const idx = parseInt(b.dataset.index);
-      if (idx === q.options.indexOf(q.answer)) b.classList.add('correct');
+      const opt = q.options[idx];
+      const optKey = typeof opt === 'string' ? opt : (opt.key || opt.label || '');
+      if (optKey === q.answer) b.classList.add('correct');
       else if (idx === selectedIndex && !isCorrect) b.classList.add('wrong');
     });
   });
@@ -658,12 +676,14 @@ function handleQuestionKey(e) {
   if (!q) return;
 
   if (q.type === 'choice' && q.options) {
-    // 1-4 keys select option
-    const keyMap = { '1': 0, '2': 1, '3': 2, '4': 3 };
-    if (e.key in keyMap) {
-      const idx = keyMap[e.key];
+    // A-D keys select option
+    const keyMap = { 'a': 0, 'b': 1, 'c': 2, 'd': 3 };
+    const key = e.key.toLowerCase();
+    if (key in keyMap) {
+      const idx = keyMap[key];
       const btns = container.querySelectorAll('.option-btn');
-      if (btns[idx] && !btns[idx].disabled) {
+      if (btns[idx] && !btns[idx].disabled && !_answeredThisQuestion) {
+        _answeredThisQuestion = true;
         handleAnswer(btns[idx], q);
       }
       return;
@@ -1680,11 +1700,15 @@ async function showWrongReview(idx) {
   container.querySelectorAll('.option-btn').forEach(optBtn => {
     optBtn.addEventListener('click', async () => {
       const selectedIndex = parseInt(optBtn.dataset.index);
-      const isCorrect = q.answer === q.options[selectedIndex];
+      const selectedOpt = q.options[selectedIndex];
+      const selectedKey = typeof selectedOpt === 'string' ? selectedOpt : (selectedOpt.key || selectedOpt.label || '');
+      const isCorrect = selectedKey === q.answer;
 
       container.querySelectorAll('.option-btn').forEach(b => {
         b.disabled = true;
-        if (q.options.indexOf(q.answer) === parseInt(b.dataset.index)) {
+        const opt = q.options[parseInt(b.dataset.index)];
+        const optKey = typeof opt === 'string' ? opt : (opt.key || opt.label || '');
+        if (optKey === q.answer) {
           b.classList.add('correct');
         } else if (parseInt(b.dataset.index) === selectedIndex && !isCorrect) {
           b.classList.add('wrong');

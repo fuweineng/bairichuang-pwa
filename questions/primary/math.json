@@ -277,7 +277,7 @@
     "question": "0.3 + 0.5 = ?",
     "options": [
       "0.8",
-      "0.8",
+      "0.7",
       "0.35",
       "0.15"
     ],
@@ -1944,6 +1944,10 @@
         "key": "D",
         "audio": "audio/math_051_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "因数倍数",
+      "100以内加法"
     ]
   },
   {
@@ -1991,6 +1995,9 @@
         "key": "D",
         "audio": "audio/math_052_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -2038,6 +2045,9 @@
         "key": "D",
         "audio": "audio/math_055_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -2085,6 +2095,9 @@
         "key": "D",
         "audio": "audio/math_058_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -2132,6 +2145,10 @@
         "key": "D",
         "audio": "audio/math_059_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "乘法口诀"
     ]
   },
   {
@@ -2179,6 +2196,9 @@
         "key": "D",
         "audio": "audio/math_060_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -2226,6 +2246,9 @@
         "key": "D",
         "audio": "audio/math_061_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -2273,6 +2296,9 @@
         "key": "D",
         "audio": "audio/math_062_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -2320,6 +2346,10 @@
         "key": "D",
         "audio": "audio/math_063_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -2367,6 +2397,10 @@
         "key": "D",
         "audio": "audio/math_064_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -2414,6 +2448,10 @@
         "key": "D",
         "audio": "audio/math_065_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -2461,6 +2499,10 @@
         "key": "D",
         "audio": "audio/math_066_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "除法基础"
     ]
   },
   {
@@ -2508,6 +2550,10 @@
         "key": "D",
         "audio": "audio/math_067_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算",
+      "平均速度"
     ]
   },
   {
@@ -2555,6 +2601,9 @@
         "key": "D",
         "audio": "audio/math_068_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -2602,6 +2651,9 @@
         "key": "D",
         "audio": "audio/math_069_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -2649,6 +2701,9 @@
         "key": "D",
         "audio": "audio/math_070_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "小数"
     ]
   },
   {
@@ -2696,6 +2751,9 @@
         "key": "D",
         "audio": "audio/math_071_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -2743,6 +2801,9 @@
         "key": "D",
         "audio": "audio/math_072_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -2790,6 +2851,9 @@
         "key": "D",
         "audio": "audio/math_073_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -2837,6 +2901,10 @@
         "key": "D",
         "audio": "audio/math_074_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "分数"
     ]
   },
   {
@@ -2884,6 +2952,9 @@
         "key": "D",
         "audio": "audio/math_075_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -2931,6 +3002,9 @@
         "key": "D",
         "audio": "audio/math_076_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -2978,6 +3052,9 @@
         "key": "D",
         "audio": "audio/math_077_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -3025,6 +3102,9 @@
         "key": "D",
         "audio": "audio/math_078_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -3072,6 +3152,9 @@
         "key": "D",
         "audio": "audio/math_079_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -3119,6 +3202,9 @@
         "key": "D",
         "audio": "audio/math_080_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -3166,6 +3252,10 @@
         "key": "D",
         "audio": "audio/math_081_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -3213,6 +3303,10 @@
         "key": "D",
         "audio": "audio/math_082_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -3260,6 +3354,10 @@
         "key": "D",
         "audio": "audio/math_083_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周长",
+      "时间计算"
     ]
   },
   {
@@ -3307,6 +3405,10 @@
         "key": "D",
         "audio": "audio/math_084_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算",
+      "三角形内角和"
     ]
   },
   {
@@ -3354,6 +3456,9 @@
         "key": "D",
         "audio": "audio/math_085_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -3401,6 +3506,9 @@
         "key": "D",
         "audio": "audio/math_086_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -3448,6 +3556,9 @@
         "key": "D",
         "audio": "audio/math_087_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -3495,6 +3606,9 @@
         "key": "D",
         "audio": "audio/math_088_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -3542,6 +3656,10 @@
         "key": "D",
         "audio": "audio/math_089_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "图形的变换",
+      "三角形内角和"
     ]
   },
   {
@@ -3589,6 +3707,9 @@
         "key": "D",
         "audio": "audio/math_090_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "图形的变换"
     ]
   },
   {
@@ -3636,6 +3757,9 @@
         "key": "D",
         "audio": "audio/math_091_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -3683,6 +3807,9 @@
         "key": "D",
         "audio": "audio/math_092_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周期问题"
     ]
   },
   {
@@ -3730,6 +3857,10 @@
         "key": "D",
         "audio": "audio/math_093_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -3777,6 +3908,10 @@
         "key": "D",
         "audio": "audio/math_094_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -3824,6 +3959,9 @@
         "key": "D",
         "audio": "audio/math_095_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -3871,6 +4009,10 @@
         "key": "D",
         "audio": "audio/math_096_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "100以内减法"
     ]
   },
   {
@@ -3918,6 +4060,10 @@
         "key": "D",
         "audio": "audio/math_097_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "100以内减法"
     ]
   },
   {
@@ -3965,6 +4111,9 @@
         "key": "D",
         "audio": "audio/math_098_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "方程"
     ]
   },
   {
@@ -4012,6 +4161,9 @@
         "key": "D",
         "audio": "audio/math_099_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4059,6 +4211,10 @@
         "key": "D",
         "audio": "audio/math_100_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -4106,6 +4262,10 @@
         "key": "D",
         "audio": "audio/math_101_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -4153,6 +4313,10 @@
         "key": "D",
         "audio": "audio/math_102_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -4200,6 +4364,9 @@
         "key": "D",
         "audio": "audio/math_103_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4247,6 +4414,9 @@
         "key": "D",
         "audio": "audio/math_104_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4294,6 +4464,9 @@
         "key": "D",
         "audio": "audio/math_105_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4341,6 +4514,10 @@
         "key": "D",
         "audio": "audio/math_106_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "估算",
+      "时间计算"
     ]
   },
   {
@@ -4388,6 +4565,9 @@
         "key": "D",
         "audio": "audio/math_107_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4435,6 +4615,9 @@
         "key": "D",
         "audio": "audio/math_108_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4482,6 +4665,9 @@
         "key": "D",
         "audio": "audio/math_109_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "比例"
     ]
   },
   {
@@ -4529,6 +4715,9 @@
         "key": "D",
         "audio": "audio/math_110_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -4576,6 +4765,10 @@
         "key": "D",
         "audio": "audio/math_111_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "圆柱体积",
+      "观察物体"
     ]
   },
   {
@@ -4623,6 +4816,9 @@
         "key": "D",
         "audio": "audio/math_112_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "方位"
     ]
   },
   {
@@ -4670,6 +4866,9 @@
         "key": "D",
         "audio": "audio/math_113_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4717,6 +4916,9 @@
         "key": "D",
         "audio": "audio/math_114_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "统计"
     ]
   },
   {
@@ -4764,6 +4966,9 @@
         "key": "D",
         "audio": "audio/math_115_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周期问题"
     ]
   },
   {
@@ -4811,6 +5016,9 @@
         "key": "D",
         "audio": "audio/math_116_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "百分数"
     ]
   },
   {
@@ -4858,6 +5066,10 @@
         "key": "D",
         "audio": "audio/math_117_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "百分数"
     ]
   },
   {
@@ -4905,6 +5117,9 @@
         "key": "D",
         "audio": "audio/math_118_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -4952,6 +5167,9 @@
         "key": "D",
         "audio": "audio/math_119_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -4999,6 +5217,10 @@
         "key": "D",
         "audio": "audio/math_120_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "比例",
+      "时间计算"
     ]
   },
   {
@@ -5046,6 +5268,10 @@
         "key": "D",
         "audio": "audio/math_121_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "比例",
+      "生活中的数学"
     ]
   },
   {
@@ -5093,6 +5319,9 @@
         "key": "D",
         "audio": "audio/math_122_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -5140,6 +5369,9 @@
         "key": "D",
         "audio": "audio/math_123_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内减法"
     ]
   },
   {
@@ -5187,6 +5419,9 @@
         "key": "D",
         "audio": "audio/math_124_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -5234,6 +5469,10 @@
         "key": "D",
         "audio": "audio/math_125_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内减法",
+      "小数"
     ]
   },
   {
@@ -5281,6 +5520,9 @@
         "key": "D",
         "audio": "audio/math_126_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -5328,6 +5570,10 @@
         "key": "D",
         "audio": "audio/math_127_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -5375,6 +5621,9 @@
         "key": "D",
         "audio": "audio/math_128_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -5422,6 +5671,9 @@
         "key": "D",
         "audio": "audio/math_129_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -5469,6 +5721,10 @@
         "key": "D",
         "audio": "audio/math_130_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -5516,6 +5772,10 @@
         "key": "D",
         "audio": "audio/math_131_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -5563,6 +5823,10 @@
         "key": "D",
         "audio": "audio/math_132_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -5610,6 +5874,9 @@
         "key": "D",
         "audio": "audio/math_133_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -5657,6 +5924,9 @@
         "key": "D",
         "audio": "audio/math_134_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "百分数"
     ]
   },
   {
@@ -5704,6 +5974,9 @@
         "key": "D",
         "audio": "audio/math_135_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -5751,6 +6024,9 @@
         "key": "D",
         "audio": "audio/math_136_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -5798,6 +6074,9 @@
         "key": "D",
         "audio": "audio/math_137_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "可能性"
     ]
   },
   {
@@ -5845,6 +6124,9 @@
         "key": "D",
         "audio": "audio/math_138_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "可能性"
     ]
   },
   {
@@ -5892,6 +6174,9 @@
         "key": "D",
         "audio": "audio/math_139_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -5939,6 +6224,9 @@
         "key": "D",
         "audio": "audio/math_140_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -5986,6 +6274,9 @@
         "key": "D",
         "audio": "audio/math_141_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -6033,6 +6324,10 @@
         "key": "D",
         "audio": "audio/math_142_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "图形的变换",
+      "三角形内角和"
     ]
   },
   {
@@ -6080,6 +6375,9 @@
         "key": "D",
         "audio": "audio/math_143_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周长"
     ]
   },
   {
@@ -6127,6 +6425,10 @@
         "key": "D",
         "audio": "audio/math_144_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -6174,6 +6476,10 @@
         "key": "D",
         "audio": "audio/math_145_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -6221,6 +6527,9 @@
         "key": "D",
         "audio": "audio/math_146_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "小数"
     ]
   },
   {
@@ -6268,6 +6577,9 @@
         "key": "D",
         "audio": "audio/math_147_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6315,6 +6627,10 @@
         "key": "D",
         "audio": "audio/math_148_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -6362,6 +6678,9 @@
         "key": "D",
         "audio": "audio/math_149_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6409,6 +6728,9 @@
         "key": "D",
         "audio": "audio/math_150_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6456,6 +6778,9 @@
         "key": "D",
         "audio": "audio/math_151_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6503,6 +6828,9 @@
         "key": "D",
         "audio": "audio/math_152_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6550,6 +6878,9 @@
         "key": "D",
         "audio": "audio/math_153_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6597,6 +6928,9 @@
         "key": "D",
         "audio": "audio/math_154_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -6644,6 +6978,9 @@
         "key": "D",
         "audio": "audio/math_155_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6691,6 +7028,9 @@
         "key": "D",
         "audio": "audio/math_156_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -6738,6 +7078,9 @@
         "key": "D",
         "audio": "audio/math_157_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -6785,6 +7128,9 @@
         "key": "D",
         "audio": "audio/math_158_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "折扣"
     ]
   },
   {
@@ -6832,6 +7178,10 @@
         "key": "D",
         "audio": "audio/math_159_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "100以内减法"
     ]
   },
   {
@@ -6879,6 +7229,9 @@
         "key": "D",
         "audio": "audio/math_160_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -6926,6 +7279,9 @@
         "key": "D",
         "audio": "audio/math_161_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -6973,6 +7329,9 @@
         "key": "D",
         "audio": "audio/math_162_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -7020,6 +7379,10 @@
         "key": "D",
         "audio": "audio/math_163_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -7067,6 +7430,9 @@
         "key": "D",
         "audio": "audio/math_164_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础"
     ]
   },
   {
@@ -7114,6 +7480,9 @@
         "key": "D",
         "audio": "audio/math_165_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础"
     ]
   },
   {
@@ -7161,6 +7530,10 @@
         "key": "D",
         "audio": "audio/math_166_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "除法基础"
     ]
   },
   {
@@ -7208,6 +7581,10 @@
         "key": "D",
         "audio": "audio/math_167_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算",
+      "平均速度"
     ]
   },
   {
@@ -7255,6 +7632,10 @@
         "key": "D",
         "audio": "audio/math_168_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "时间计算"
     ]
   },
   {
@@ -7302,6 +7683,9 @@
         "key": "D",
         "audio": "audio/math_169_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -7349,6 +7733,10 @@
         "key": "D",
         "audio": "audio/math_170_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "小数"
     ]
   },
   {
@@ -7396,6 +7784,9 @@
         "key": "D",
         "audio": "audio/math_171_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "小数"
     ]
   },
   {
@@ -7443,6 +7834,9 @@
         "key": "D",
         "audio": "audio/math_172_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -7490,6 +7884,9 @@
         "key": "D",
         "audio": "audio/math_173_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -7537,6 +7934,10 @@
         "key": "D",
         "audio": "audio/math_174_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "小数",
+      "百分数"
     ]
   },
   {
@@ -7584,6 +7985,9 @@
         "key": "D",
         "audio": "audio/math_175_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -7631,6 +8035,9 @@
         "key": "D",
         "audio": "audio/math_176_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -7678,6 +8085,9 @@
         "key": "D",
         "audio": "audio/math_177_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -7725,6 +8135,9 @@
         "key": "D",
         "audio": "audio/math_178_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -7772,6 +8185,9 @@
         "key": "D",
         "audio": "audio/math_179_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -7819,6 +8235,9 @@
         "key": "D",
         "audio": "audio/math_180_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -7866,6 +8285,10 @@
         "key": "D",
         "audio": "audio/math_181_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -7913,6 +8336,10 @@
         "key": "D",
         "audio": "audio/math_182_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -7960,6 +8387,9 @@
         "key": "D",
         "audio": "audio/math_183_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周长"
     ]
   },
   {
@@ -8007,6 +8437,10 @@
         "key": "D",
         "audio": "audio/math_184_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周长",
+      "三角形内角和"
     ]
   },
   {
@@ -8054,6 +8488,9 @@
         "key": "D",
         "audio": "audio/math_185_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -8101,6 +8538,9 @@
         "key": "D",
         "audio": "audio/math_186_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -8148,6 +8588,9 @@
         "key": "D",
         "audio": "audio/math_187_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -8195,6 +8638,9 @@
         "key": "D",
         "audio": "audio/math_188_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -8242,6 +8688,10 @@
         "key": "D",
         "audio": "audio/math_189_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "图形的变换",
+      "三角形内角和"
     ]
   },
   {
@@ -8289,6 +8739,10 @@
         "key": "D",
         "audio": "audio/math_190_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "方位",
+      "时间计算"
     ]
   },
   {
@@ -8336,6 +8790,9 @@
         "key": "D",
         "audio": "audio/math_191_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -8383,6 +8840,10 @@
         "key": "D",
         "audio": "audio/math_192_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周期问题",
+      "三角形内角和"
     ]
   },
   {
@@ -8430,6 +8891,9 @@
         "key": "D",
         "audio": "audio/math_193_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "统计"
     ]
   },
   {
@@ -8477,6 +8941,9 @@
         "key": "D",
         "audio": "audio/math_194_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "统计"
     ]
   },
   {
@@ -8524,6 +8991,9 @@
         "key": "D",
         "audio": "audio/math_195_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "逻辑推理"
     ]
   },
   {
@@ -8571,6 +9041,10 @@
         "key": "D",
         "audio": "audio/math_196_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "100以内减法"
     ]
   },
   {
@@ -8618,6 +9092,10 @@
         "key": "D",
         "audio": "audio/math_197_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "100以内减法"
     ]
   },
   {
@@ -8665,6 +9143,10 @@
         "key": "D",
         "audio": "audio/math_198_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "方程"
     ]
   },
   {
@@ -8712,6 +9194,9 @@
         "key": "D",
         "audio": "audio/math_199_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -8759,6 +9244,10 @@
         "key": "D",
         "audio": "audio/math_200_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -8806,6 +9295,9 @@
         "key": "D",
         "audio": "audio/math_201_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -8853,6 +9345,10 @@
         "key": "D",
         "audio": "audio/math_202_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -8900,6 +9396,9 @@
         "key": "D",
         "audio": "audio/math_203_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -8947,6 +9446,9 @@
         "key": "D",
         "audio": "audio/math_204_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -8994,6 +9496,9 @@
         "key": "D",
         "audio": "audio/math_205_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -9041,6 +9546,9 @@
         "key": "D",
         "audio": "audio/math_206_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -9088,6 +9596,9 @@
         "key": "D",
         "audio": "audio/math_207_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -9135,6 +9646,9 @@
         "key": "D",
         "audio": "audio/math_208_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -9182,6 +9696,9 @@
         "key": "D",
         "audio": "audio/math_209_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周长"
     ]
   },
   {
@@ -9229,6 +9746,9 @@
         "key": "D",
         "audio": "audio/math_210_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -9276,6 +9796,10 @@
         "key": "D",
         "audio": "audio/math_211_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "圆柱体积",
+      "观察物体"
     ]
   },
   {
@@ -9323,6 +9847,9 @@
         "key": "D",
         "audio": "audio/math_212_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "方位"
     ]
   },
   {
@@ -9370,6 +9897,10 @@
         "key": "D",
         "audio": "audio/math_213_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "圆柱体积",
+      "观察物体"
     ]
   },
   {
@@ -9417,6 +9948,9 @@
         "key": "D",
         "audio": "audio/math_214_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "统计"
     ]
   },
   {
@@ -9464,6 +9998,9 @@
         "key": "D",
         "audio": "audio/math_215_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周期问题"
     ]
   },
   {
@@ -9511,6 +10048,10 @@
         "key": "D",
         "audio": "audio/math_216_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "百分数"
     ]
   },
   {
@@ -9558,6 +10099,10 @@
         "key": "D",
         "audio": "audio/math_217_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "百分数"
     ]
   },
   {
@@ -9605,6 +10150,9 @@
         "key": "D",
         "audio": "audio/math_218_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "百分数"
     ]
   },
   {
@@ -9652,6 +10200,9 @@
         "key": "D",
         "audio": "audio/math_219_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "比例"
     ]
   },
   {
@@ -9699,6 +10250,10 @@
         "key": "D",
         "audio": "audio/math_220_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "比例",
+      "时间计算"
     ]
   },
   {
@@ -9746,6 +10301,10 @@
         "key": "D",
         "audio": "audio/math_221_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "比例",
+      "生活中的数学"
     ]
   },
   {
@@ -9793,6 +10352,9 @@
         "key": "D",
         "audio": "audio/math_222_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -9840,6 +10402,9 @@
         "key": "D",
         "audio": "audio/math_223_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -9887,6 +10452,9 @@
         "key": "D",
         "audio": "audio/math_224_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -9934,6 +10502,10 @@
         "key": "D",
         "audio": "audio/math_225_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内减法",
+      "小数"
     ]
   },
   {
@@ -9981,6 +10553,9 @@
         "key": "D",
         "audio": "audio/math_226_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -10028,6 +10603,9 @@
         "key": "D",
         "audio": "audio/math_227_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "平均速度"
     ]
   },
   {
@@ -10075,6 +10653,9 @@
         "key": "D",
         "audio": "audio/math_228_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -10122,6 +10703,9 @@
         "key": "D",
         "audio": "audio/math_229_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -10169,6 +10753,10 @@
         "key": "D",
         "audio": "audio/math_230_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -10216,6 +10804,10 @@
         "key": "D",
         "audio": "audio/math_231_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -10263,6 +10855,10 @@
         "key": "D",
         "audio": "audio/math_232_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -10310,6 +10906,9 @@
         "key": "D",
         "audio": "audio/math_233_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -10357,6 +10956,9 @@
         "key": "D",
         "audio": "audio/math_234_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "百分数"
     ]
   },
   {
@@ -10404,6 +11006,9 @@
         "key": "D",
         "audio": "audio/math_235_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -10451,6 +11056,9 @@
         "key": "D",
         "audio": "audio/math_236_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "搭配"
     ]
   },
   {
@@ -10498,6 +11106,9 @@
         "key": "D",
         "audio": "audio/math_237_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "可能性"
     ]
   },
   {
@@ -10545,6 +11156,9 @@
         "key": "D",
         "audio": "audio/math_238_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "可能性"
     ]
   },
   {
@@ -10592,6 +11206,9 @@
         "key": "D",
         "audio": "audio/math_239_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内减法"
     ]
   },
   {
@@ -10639,6 +11256,9 @@
         "key": "D",
         "audio": "audio/math_240_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -10686,6 +11306,9 @@
         "key": "D",
         "audio": "audio/math_241_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -10733,6 +11356,10 @@
         "key": "D",
         "audio": "audio/math_242_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "图形的变换",
+      "三角形内角和"
     ]
   },
   {
@@ -10780,6 +11407,9 @@
         "key": "D",
         "audio": "audio/math_243_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周长"
     ]
   },
   {
@@ -10827,6 +11457,10 @@
         "key": "D",
         "audio": "audio/math_244_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -10874,6 +11508,10 @@
         "key": "D",
         "audio": "audio/math_245_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -10921,6 +11559,9 @@
         "key": "D",
         "audio": "audio/math_246_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "小数"
     ]
   },
   {
@@ -10968,6 +11609,9 @@
         "key": "D",
         "audio": "audio/math_247_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11015,6 +11659,10 @@
         "key": "D",
         "audio": "audio/math_248_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   },
   {
@@ -11062,6 +11710,9 @@
         "key": "D",
         "audio": "audio/math_249_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11109,6 +11760,9 @@
         "key": "D",
         "audio": "audio/math_250_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11156,6 +11810,9 @@
         "key": "D",
         "audio": "audio/math_251_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11203,6 +11860,9 @@
         "key": "D",
         "audio": "audio/math_252_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11250,6 +11910,9 @@
         "key": "D",
         "audio": "audio/math_253_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11297,6 +11960,9 @@
         "key": "D",
         "audio": "audio/math_254_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11344,6 +12010,9 @@
         "key": "D",
         "audio": "audio/math_255_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11391,6 +12060,10 @@
         "key": "D",
         "audio": "audio/math_256_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "100以内减法"
     ]
   },
   {
@@ -11438,6 +12111,9 @@
         "key": "D",
         "audio": "audio/math_257_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -11485,6 +12161,9 @@
         "key": "D",
         "audio": "audio/math_258_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -11532,6 +12211,10 @@
         "key": "D",
         "audio": "audio/math_259_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "100以内减法"
     ]
   },
   {
@@ -11579,6 +12262,9 @@
         "key": "D",
         "audio": "audio/math_260_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -11626,6 +12312,9 @@
         "key": "D",
         "audio": "audio/math_261_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -11673,6 +12362,9 @@
         "key": "D",
         "audio": "audio/math_262_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -11720,6 +12412,10 @@
         "key": "D",
         "audio": "audio/math_263_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -11767,6 +12463,10 @@
         "key": "D",
         "audio": "audio/math_264_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -11814,6 +12514,10 @@
         "key": "D",
         "audio": "audio/math_265_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "除法基础",
+      "时间计算"
     ]
   },
   {
@@ -11861,6 +12565,10 @@
         "key": "D",
         "audio": "audio/math_266_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "除法基础"
     ]
   },
   {
@@ -11908,6 +12616,10 @@
         "key": "D",
         "audio": "audio/math_267_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "时间计算"
     ]
   },
   {
@@ -11955,6 +12667,10 @@
         "key": "D",
         "audio": "audio/math_268_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "时间计算"
     ]
   },
   {
@@ -12002,6 +12718,9 @@
         "key": "D",
         "audio": "audio/math_269_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -12049,6 +12768,10 @@
         "key": "D",
         "audio": "audio/math_270_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "小数"
     ]
   },
   {
@@ -12096,6 +12819,10 @@
         "key": "D",
         "audio": "audio/math_271_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "分数",
+      "时间计算"
     ]
   },
   {
@@ -12143,6 +12870,9 @@
         "key": "D",
         "audio": "audio/math_272_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -12190,6 +12920,9 @@
         "key": "D",
         "audio": "audio/math_273_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀"
     ]
   },
   {
@@ -12237,6 +12970,10 @@
         "key": "D",
         "audio": "audio/math_274_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "小数",
+      "时间计算"
     ]
   },
   {
@@ -12284,6 +13021,9 @@
         "key": "D",
         "audio": "audio/math_275_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -12331,6 +13071,9 @@
         "key": "D",
         "audio": "audio/math_276_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -12378,6 +13121,10 @@
         "key": "D",
         "audio": "audio/math_277_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "周长",
+      "时间计算"
     ]
   },
   {
@@ -12425,6 +13172,9 @@
         "key": "D",
         "audio": "audio/math_278_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -12472,6 +13222,9 @@
         "key": "D",
         "audio": "audio/math_279_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -12519,6 +13272,9 @@
         "key": "D",
         "audio": "audio/math_280_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -12566,6 +13322,10 @@
         "key": "D",
         "audio": "audio/math_281_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "面积"
     ]
   },
   {
@@ -12613,6 +13373,10 @@
         "key": "D",
         "audio": "audio/math_282_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "体积"
     ]
   },
   {
@@ -12660,6 +13424,9 @@
         "key": "D",
         "audio": "audio/math_283_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -12707,6 +13474,9 @@
         "key": "D",
         "audio": "audio/math_284_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -12754,6 +13524,9 @@
         "key": "D",
         "audio": "audio/math_285_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -12801,6 +13574,10 @@
         "key": "D",
         "audio": "audio/math_286_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "乘法口诀",
+      "周长"
     ]
   },
   {
@@ -12848,6 +13625,9 @@
         "key": "D",
         "audio": "audio/math_287_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算"
     ]
   },
   {
@@ -12895,6 +13675,9 @@
         "key": "D",
         "audio": "audio/math_288_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "三角形内角和"
     ]
   },
   {
@@ -12942,6 +13725,10 @@
         "key": "D",
         "audio": "audio/math_289_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "图形的变换",
+      "三角形内角和"
     ]
   },
   {
@@ -12989,6 +13776,10 @@
         "key": "D",
         "audio": "audio/math_290_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "方位",
+      "时间计算"
     ]
   },
   {
@@ -13036,6 +13827,9 @@
         "key": "D",
         "audio": "audio/math_291_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -13083,6 +13877,10 @@
         "key": "D",
         "audio": "audio/math_292_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "搭配",
+      "周期问题"
     ]
   },
   {
@@ -13130,6 +13928,9 @@
         "key": "D",
         "audio": "audio/math_293_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "统计"
     ]
   },
   {
@@ -13177,6 +13978,10 @@
         "key": "D",
         "audio": "audio/math_294_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "时间计算",
+      "统计"
     ]
   },
   {
@@ -13224,6 +14029,9 @@
         "key": "D",
         "audio": "audio/math_295_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "应用题"
     ]
   },
   {
@@ -13271,6 +14079,9 @@
         "key": "D",
         "audio": "audio/math_296_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -13318,6 +14129,10 @@
         "key": "D",
         "audio": "audio/math_297_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法",
+      "方程"
     ]
   },
   {
@@ -13365,6 +14180,9 @@
         "key": "D",
         "audio": "audio/math_298_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -13412,6 +14230,9 @@
         "key": "D",
         "audio": "audio/math_299_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "100以内加法"
     ]
   },
   {
@@ -13459,6 +14280,10 @@
         "key": "D",
         "audio": "audio/math_300_d.mp3"
       }
+    ],
+    "knowledgeTags": [
+      "速度",
+      "时间计算"
     ]
   }
 ]

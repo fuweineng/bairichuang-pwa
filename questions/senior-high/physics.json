@@ -1,0 +1,252 @@
+[
+  {
+    "id": "physics-senior-high-1",
+    "type": "choice",
+    "question": "一物体从静止开始做匀加速直线运动，第3秒内的位移大小为15m，则该物体的加速度为多少m/s²？",
+    "options": [{"label":"A","text":"2"},{"label":"B","text":"3"},{"label":"C","text":"4"},{"label":"D","text":"5"}],
+    "answer": "C",
+    "explanation": "第3秒内的位移等于前3秒位移减前2秒位移，即½a·9-½a·4=½a·5=15，解得a=6m/s²。",
+    "knowledgePoints": ["运动学"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-2",
+    "type": "choice",
+    "question": "质量为2kg的物体受到三个共点力作用而处于平衡状态，已知F1=5N方向向东，F2=8N方向向北，则F3的大小和方向分别为多少？",
+    "options": [{"label":"A","text":"5N向西"},{"label":"B","text":"√89N向西南"},{"label":"C","text":"√89N向东南"},{"label":"D","text":"13N向西"}],
+    "answer": "C",
+    "explanation": "由共点力平衡条件，F1+F2+F3=0，故F3=-(F1+F2)。F1+F2的合力的标量：√(5²+8²)=√89N，方向为北偏东arctan(5/8)。F3应为大小√89N，方向相反，即向西南。",
+    "knowledgePoints": ["力的合成与分解"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-3",
+    "type": "choice",
+    "question": "一个质量为5kg的物体在水平地面上受水平拉力F=25N作用，由静止开始运动。已知物体与地面间的动摩擦因数μ=0.2，g=10m/s²。则物体在第2秒末的速度大小为多少m/s？",
+    "options": [{"label":"A","text":"4"},{"label":"B","text":"6"},{"label":"C","text":"8"},{"label":"D","text":"10"}],
+    "answer": "A",
+    "explanation": "摩擦力f=μmg=0.2×5×10=10N，合力F合=25-10=15N，加速度a=F合/m=15/5=3m/s²，v=at=3×2=6m/s。",
+    "knowledgePoints": ["牛顿运动定律"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-4",
+    "type": "choice",
+    "question": "从高度为20m的塔顶水平抛出一物体，物体质量为1kg，抛出时的初速度大小为10m/s。则物体从抛出到落地的过程中，重力所做的功为多少J？（g=10m/s²）",
+    "options": [{"label":"A","text":"100"},{"label":"B","text":"150"},{"label":"C","text":"200"},{"label":"D","text":"250"}],
+    "answer": "C",
+    "explanation": "重力做功W=mgh=1×10×20=200J，与路径无关，只与高度差有关。",
+    "knowledgePoints": ["曲线运动"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-5",
+    "type": "choice",
+    "question": "地球半径为R，表面重力加速度为g，则地球质量为多少？（万有引力常量G已知）",
+    "options": [{"label":"A","text":"gR²/G"},{"label":"B","text":"gR/G²"},{"label":"C","text":"g²R/G"},{"label":"D","text":"gR²/G²"}],
+    "answer": "A",
+    "explanation": "在地球表面，万有引力等于重力：GMm/R²=mg，解得M=gR²/G。",
+    "knowledgePoints": ["万有引力与航天"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-6",
+    "type": "choice",
+    "question": "质量为2kg的物体从高度为10m的斜面顶端由静止滑下，斜面倾角为30°，物体滑到底端时的速度为8m/s。则物体克服摩擦力所做的功为多少J？（g=10m/s²）",
+    "options": [{"label":"A","text":"40"},{"label":"B","text":"60"},{"label":"C","text":"80"},{"label":"D","text":"120"}],
+    "answer": "B",
+    "explanation": "重力势能减少mgh=2×10×10=200J，动能增加½mv²=½×2×64=64J，克服摩擦力做功W_f=200-64=136J。",
+    "knowledgePoints": ["机械能"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-7",
+    "type": "choice",
+    "question": "质量为1kg的小球以10m/s的速度水平撞击墙壁后以6m/s的速度反向弹回，撞击时间为0.2s。则墙壁对小球的冲量大小为多少N·s？",
+    "options": [{"label":"A","text":"1.6"},{"label":"B","text":"8"},{"label":"C","text":"16"},{"label":"D","text":"80"}],
+    "answer": "C",
+    "explanation": "初动量p₁=1×10=10kg·m/s，末动量p₂=1×(-6)=-6kg·m/s，冲量I=Δp=p₂-p₁=-6-10=-16N·s，大小为16N·s。",
+    "knowledgePoints": ["动量"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-8",
+    "type": "choice",
+    "question": "一弹簧振子的质量为0.5kg，劲度系数为200N/m，将振子从平衡位置拉开0.1m后由静止释放。则振子振动的周期为多少s？",
+    "options": [{"label":"A","text":"0.1π"},{"label":"B","text":"0.2π"},{"label":"C","text":"0.1"},{"label":"D","text":"0.2"}],
+    "answer": "A",
+    "explanation": "弹簧振子周期公式T=2π√(m/k)=2π√(0.5/200)=2π√(0.0025)=2π×0.05=0.1πs。",
+    "knowledgePoints": ["机械振动"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-9",
+    "type": "choice",
+    "question": "一列横波在绳上传播，波速为4m/s，周期为0.5s。则相邻波谷之间的距离为多少m？",
+    "options": [{"label":"A","text":"0.5"},{"label":"B","text":"1"},{"label":"C","text":"2"},{"label":"D","text":"4"}],
+    "answer": "C",
+    "explanation": "波长λ=vT=4×0.5=2m，相邻波谷之间的距离等于一个波长，即2m。",
+    "knowledgePoints": ["机械波"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-10",
+    "type": "choice",
+    "question": "两个点电荷A、B间的距离为r，A带电量Q，B带电量4Q，已知静电力常量为k，则A对B的静电力大小与B对A的静电力大小之比为多少？",
+    "options": [{"label":"A","text":"1:1"},{"label":"B","text":"1:4"},{"label":"C","text":"4:1"},{"label":"D","text":"1:16"}],
+    "answer": "A",
+    "explanation": "根据库仑定律，静电力F=kQ·4Q/r²=4kQ²/r²，两个电荷间的相互作用力是作用力与反作用力关系，大小相等，方向相反，故比为1:1。",
+    "knowledgePoints": ["电场"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-11",
+    "type": "choice",
+    "question": "一个阻值为10Ω的电阻两端电压为6V，则该电阻在1分钟内产生的热量为多少J？",
+    "options": [{"label":"A","text":"36"},{"label":"B","text":"216"},{"label":"C","text":"360"},{"label":"D","text":"2160"}],
+    "answer": "B",
+    "explanation": "电流I=U/R=6/10=0.6A，热量Q=I²Rt=0.6²×10×60=0.36×10×60=216J。",
+    "knowledgePoints": ["恒定电流"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-12",
+    "type": "choice",
+    "question": "长为0.5m的直导线垂直于磁感应强度为0.2T的匀强磁场放置，当导线中通有5A电流时，导线所受安培力的大小为多少N？",
+    "options": [{"label":"A","text":"0.1"},{"label":"B","text":"0.5"},{"label":"C","text":"1"},{"label":"D","text":"5"}],
+    "answer": "B",
+    "explanation": "安培力公式F=BIL=0.2×5×0.5=0.5N。",
+    "knowledgePoints": ["磁场"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-13",
+    "type": "choice",
+    "question": "闭合线圈的磁通量在0.2s内从0.01Wb均匀增加到0.05Wb，则线圈中感应电动势的大小为多少V？",
+    "options": [{"label":"A","text":"0.1"},{"label":"B","text":"0.2"},{"label":"C","text":"0.4"},{"label":"D","text":"0.8"}],
+    "answer": "B",
+    "explanation": "根据法拉第电磁感应定律，E=nΔΦ/Δt=1×(0.05-0.01)/0.2=0.04/0.2=0.2V。",
+    "knowledgePoints": ["电磁感应"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-14",
+    "type": "choice",
+    "question": "某交变电流的瞬时表达式为i=10√2sin(100πt)A，则该电流的有效值为多少A？",
+    "options": [{"label":"A","text":"5"},{"label":"B","text":"10"},{"label":"C","text":"10√2"},{"label":"D","text":"20"}],
+    "answer": "B",
+    "explanation": "正弦交变电流的有效值I=I_m/√2=10√2/√2=10A。",
+    "knowledgePoints": ["交变电流"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-15",
+    "type": "choice",
+    "question": "光线从空气射入折射率为√2的玻璃中，则临界角的正弦值为多少？",
+    "options": [{"label":"A","text":"1/2"},{"label":"B","text":"√2/2"},{"label":"C","text":"√3/2"},{"label":"D","text":"1"}],
+    "answer": "B",
+    "explanation": "临界角C满足sinC=1/n=1/√2=√2/2。",
+    "knowledgePoints": ["光学"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-16",
+    "type": "choice",
+    "question": "一定量理想气体从状态A经等压过程到达状态B，已知状态A的体积为2L、温度为300K，状态B的体积为4L，则状态B的温度为多少K？",
+    "options": [{"label":"A","text":"300"},{"label":"B","text":"450"},{"label":"C","text":"600"},{"label":"D","text":"900"}],
+    "answer": "C",
+    "explanation": "等压过程，V/T=常数，即2/300=4/T_B，解得T_B=600K。",
+    "knowledgePoints": ["热学"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-17",
+    "type": "choice",
+    "question": "氢原子从n=3能级跃迁到n=1能级时，辐射光子的波长为λ，已知普朗克常量为h，光速为c，则该光子的能量为多少？",
+    "options": [{"label":"A","text":"hc/λ"},{"label":"B","text":"hλ/c"},{"label":"C","text":"cλ/h"},{"label":"D","text":"h/(cλ)"}],
+    "answer": "A",
+    "explanation": "光子能量E=hν=h(c/λ)=hc/λ。",
+    "knowledgePoints": ["原子物理"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-18",
+    "type": "choice",
+    "question": "质量为1kg的小球A以10m/s的速度向右运动，与静止的同质量小球B发生弹性正碰。则碰撞后小球A的速度为多少m/s？",
+    "options": [{"label":"A","text":"0"},{"label":"B","text":"5"},{"label":"C","text":"-5"},{"label":"D","text":"10"}],
+    "answer": "A",
+    "explanation": "弹性碰撞公式，质量相等时速度交换。碰撞后A的速度为0，B的速度为10m/s。",
+    "knowledgePoints": ["动量守恒综合"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-19",
+    "type": "choice",
+    "question": "一物体从高度h处自由下落，着地时的速度大小为v，整个过程中机械能守恒。则物体下落过程中，任意时刻的动能与势能之和为多少？",
+    "options": [{"label":"A","text":"mgh"},{"label":"B","text":"½mv²"},{"label":"C","text":"mgh+½mv²"},{"label":"D","text":"½mv²+mg(h-y)"}],
+    "answer": "A",
+    "explanation": "机械能守恒，任意时刻动能与势能之和等于初始机械能mgh或落地时的动能½mv²（两者相等）。",
+    "knowledgePoints": ["能量守恒综合"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-senior-high-20",
+    "type": "choice",
+    "question": "带电粒子垂直进入匀强电场和匀强磁场相互垂直的区域，电场强度为E，磁感应强度为B，粒子的速度为v，则当满足什么条件时粒子将做匀速直线运动？",
+    "options": [{"label":"A","text":"v=E/B"},{"label":"B","text":"v=BE"},{"label":"C","text":"v=E/B²"},{"label":"D","text":"v=B/E"}],
+    "answer": "A",
+    "explanation": "当电场力与洛伦兹力平衡时，qE=qvB，即v=E/B时，粒子做匀速直线运动。",
+    "knowledgePoints": ["电磁场综合"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-21",
+    "type": "choice",
+    "question": "在验证牛顿第二定律的实验中，某同学得到加速度与质量的关系图像，该图像应为什么形状才能说明加速度与质量成反比？",
+    "options": [{"label":"A","text":"过原点的直线"},{"label":"B","text":"双曲线的一支"},{"label":"C","text":"抛物线"},{"label":"D","text":"反比例函数图像"}],
+    "answer": "B",
+    "explanation": "由a=F/m，当F一定时，a与m成反比，在a-m坐标系中为双曲线的一支。",
+    "knowledgePoints": ["实验：验证牛顿运动定律"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-22",
+    "type": "choice",
+    "question": "用电压表和电流表测量电源电动势和内阻，若电压表读数为U，电流表读数为I，电压表内阻为Rv，则电源内阻的测量值与真实值相比会怎样？",
+    "options": [{"label":"A","text":"偏大"},{"label":"B","text":"偏小"},{"label":"C","text":"相等"},{"label":"D","text":"无法确定"}],
+    "answer": "B",
+    "explanation": "由于电压表内阻不是无穷大，电流表中分压导致电流测量值偏大，由r=U/I计算的内阻值偏小。",
+    "knowledgePoints": ["实验：测定电源电动势和内阻"],
+    "difficulty": "hard"
+  },
+  {
+    "id": "physics-senior-high-23",
+    "type": "choice",
+    "question": "描绘小灯泡伏安特性曲线时，采用电流表外接法测量。若小灯泡电阻约为10Ω，电压表内阻为1kΩ，则由于电表内阻引起的误差属于什么误差？",
+    "options": [{"label":"A","text":"系统误差"},{"label":"B","text":"偶然误差"},{"label":"C","text":"疏失误差"},{"label":"D","text":"没有误差"}],
+    "answer": "A",
+    "explanation": "由于电压表内阻不是无穷大，分流导致电流测量值偏大，属于原理性系统误差。",
+    "knowledgePoints": ["实验：描绘小灯泡伏安特性曲线"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-24",
+    "type": "choice",
+    "question": "在验证机械能守恒定律的实验中，对于自由落体运动，打点计时器打出的纸带应选择从哪里开始计数才能减少误差？",
+    "options": [{"label":"A","text":"第一个点"},{"label":"B","text":"第二个点"},{"label":"C","text":"第三个点"},{"label":"D","text":"任意点"}],
+    "answer": "A",
+    "explanation": "选择间距合适、清晰可辨的点开始计数，第一个点若间距合适则更准确，避免选择过密或过疏的点。",
+    "knowledgePoints": ["实验：验证机械能守恒定律"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-senior-high-25",
+    "type": "choice",
+    "question": "光敏电阻的阻值随光照强度增强而怎样变化？这一特性可用来制作什么传感器？",
+    "options": [{"label":"A","text":"增大，光强传感器"},{"label":"B","text":"减小，光强传感器"},{"label":"C","text":"增大，温度传感器"},{"label":"D","text":"减小，温度传感器"}],
+    "answer": "B",
+    "explanation": "光敏电阻的阻值随光照强度增强而减小，利用这一特性可制作光强传感器（光电传感器）。",
+    "knowledgePoints": ["实验：传感器的简单使用"],
+    "difficulty": "easy"
+  }
+]

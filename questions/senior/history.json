@@ -933,7 +933,7 @@
       "隋",
       "唐"
     ],
-    "answer": "隋",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "科举制度形成与完善",
@@ -949,7 +949,7 @@
       "唐玄宗",
       "宋太祖"
     ],
-    "answer": "唐玄宗",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "唐朝盛世",
@@ -965,7 +965,7 @@
       "《永乐大典》",
       "《律令》"
     ],
-    "answer": "《秦律》",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "秦朝中央集权制度",
@@ -981,7 +981,7 @@
       "刘备",
       "孙权"
     ],
-    "answer": "曹丕",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "魏晋南北朝",
@@ -997,7 +997,7 @@
       "扬州",
       "泉州"
     ],
-    "answer": "广州",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "唐代对外交流",
@@ -1013,7 +1013,7 @@
       "银行存款",
       "信用票据"
     ],
-    "answer": "纸币",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "宋代商品经济发展",
@@ -1029,7 +1029,7 @@
       "促进人口流动",
       "抑制商业"
     ],
-    "answer": "调整税收",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "清朝赋税制度",
@@ -1045,7 +1045,7 @@
       "寻求海外宗教传播",
       "收集海外情报"
     ],
-    "answer": "寻求海外宗教传播",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "明朝对外交流",
@@ -1061,7 +1061,7 @@
       "扬州",
       "洛阳"
     ],
-    "answer": "开封",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "宋代城市生活",
@@ -1077,7 +1077,7 @@
       "英国",
       "美国"
     ],
-    "answer": "英国",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "工业革命",
@@ -1093,7 +1093,7 @@
       "英国",
       "德国"
     ],
-    "answer": "法国",
+    "answer": "B",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "法国大革命",
@@ -1109,7 +1109,7 @@
       "十月革命",
       "布尔什维克革命"
     ],
-    "answer": "第一次资产阶级民主革命",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "俄国革命",
@@ -1125,7 +1125,7 @@
       "俄国",
       "中国"
     ],
-    "answer": "俄国",
+    "answer": "C",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "马克思主义诞生与传播",
@@ -1141,7 +1141,7 @@
       "北约",
       "华约"
     ],
-    "answer": "联合国",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "中国古代史与世界近现代史",
@@ -1157,7 +1157,7 @@
       "促进女性平等",
       "推动教育改革"
     ],
-    "answer": "争取种族平等",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "美国民权运动",
@@ -1173,7 +1173,7 @@
       "居里夫人",
       "费米"
     ],
-    "answer": "爱因斯坦",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "现代科技发展",
@@ -1189,7 +1189,7 @@
       "俄国革命",
       "经济危机"
     ],
-    "answer": "萨拉热窝事件",
+    "answer": "A",
     "difficulty": 2,
     "grade": 10,
     "knowledge": "中国古代史与世界近现代史",

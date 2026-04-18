@@ -1,302 +1,1252 @@
 [
   {
     "question": "已知函数f(x)=x³-3x²+2，则f'(1)的值为多少？",
-    "options": [{"key": "A", "text": "-3"}, {"key": "B", "text": "0"}, {"key": "C", "text": "3"}, {"key": "D", "text": "6"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "-3"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
     "answer": "A",
-    "explanation": "f'(x)=3x²-6x，代入x=1得f'(1)=3-6=-3"
+    "explanation": "f'(x)=3x²-6x，代入x=1得f'(1)=3-6=-3",
+    "id": "se-ma-001",
+    "knowledgeTags": ["导数"]
   },
   {
     "question": "函数y=sinx的最小正周期是？",
-    "options": [{"key": "A", "text": "π"}, {"key": "B", "text": "2π"}, {"key": "C", "text": "π/2"}, {"key": "D", "text": "4π"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "π"
+      },
+      {
+        "key": "B",
+        "text": "2π"
+      },
+      {
+        "key": "C",
+        "text": "π/2"
+      },
+      {
+        "key": "D",
+        "text": "4π"
+      }
+    ],
     "answer": "B",
-    "explanation": "正弦函数sinx的最小正周期为2π"
+    "explanation": "正弦函数sinx的最小正周期为2π",
+    "id": "se-ma-002",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "等差数列{an}中，a1=3，d=2，则a10等于多少？",
-    "options": [{"key": "A", "text": "21"}, {"key": "B", "text": "23"}, {"key": "C", "text": "25"}, {"key": "D", "text": "27"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "21"
+      },
+      {
+        "key": "B",
+        "text": "23"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "27"
+      }
+    ],
     "answer": "A",
-    "explanation": "等差数列通项an=a1+(n-1)d，a10=3+9×2=21"
+    "explanation": "等差数列通项an=a1+(n-1)d，a10=3+9×2=21",
+    "id": "se-ma-003",
+    "knowledgeTags": ["数列", "等差数列"]
   },
   {
     "question": "袋中有5个红球、3个白球，从中任取2个，恰有1个红球的概率是？",
-    "options": [{"key": "A", "text": "5/14"}, {"key": "B", "text": "15/28"}, {"key": "C", "text": "5/8"}, {"key": "D", "text": "3/8"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "5/14"
+      },
+      {
+        "key": "B",
+        "text": "15/28"
+      },
+      {
+        "key": "C",
+        "text": "5/8"
+      },
+      {
+        "key": "D",
+        "text": "3/8"
+      }
+    ],
     "answer": "B",
-    "explanation": "概率P=C(5,1)C(3,1)/C(8,2)=15/28"
+    "explanation": "概率P=C(5,1)C(3,1)/C(8,2)=15/28",
+    "id": "se-ma-004",
+    "knowledgeTags": ["概率"]
   },
   {
     "question": "正方体的棱长为2，则其体积为多少？",
-    "options": [{"key": "A", "text": "4"}, {"key": "B", "text": "8"}, {"key": "C", "text": "16"}, {"key": "D", "text": "12"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
     "answer": "B",
-    "explanation": "正方体体积V=a³=2³=8"
+    "explanation": "正方体体积V=a³=2³=8",
+    "id": "se-ma-005",
+    "knowledgeTags": ["立体几何"]
   },
   {
     "question": "直线x+2y-3=0的斜率是？",
-    "options": [{"key": "A", "text": "1"}, {"key": "B", "text": "-1/2"}, {"key": "C", "text": "-1"}, {"key": "D", "text": "1/2"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "-1/2"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "1/2"
+      }
+    ],
     "answer": "B",
-    "explanation": "将方程化为y=-(1/2)x+3/2，斜率为-1/2"
+    "explanation": "将方程化为y=-(1/2)x+3/2，斜率为-1/2",
+    "id": "se-ma-006",
+    "knowledgeTags": ["解析几何", "直线"]
   },
   {
     "question": "若f(x)=eˣ，则f'(x)等于？",
-    "options": [{"key": "A", "text": "eˣ"}, {"key": "B", "text": "xeˣ⁻¹"}, {"key": "C", "text": "eˣ-1"}, {"key": "D", "text": "ln(eˣ)"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "eˣ"
+      },
+      {
+        "key": "B",
+        "text": "xeˣ⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "eˣ-1"
+      },
+      {
+        "key": "D",
+        "text": "ln(eˣ)"
+      }
+    ],
     "answer": "A",
-    "explanation": "指数函数f(x)=eˣ的导数仍为eˣ"
+    "explanation": "指数函数f(x)=eˣ的导数仍为eˣ",
+    "id": "se-ma-007",
+    "knowledgeTags": ["导数", "指数函数"]
   },
   {
     "question": "在△ABC中，∠A=60°，∠B=45°，则∠C等于多少度？",
-    "options": [{"key": "A", "text": "65°"}, {"key": "B", "text": "75°"}, {"key": "C", "text": "85°"}, {"key": "D", "text": "70°"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "65°"
+      },
+      {
+        "key": "B",
+        "text": "75°"
+      },
+      {
+        "key": "C",
+        "text": "85°"
+      },
+      {
+        "key": "D",
+        "text": "70°"
+      }
+    ],
     "answer": "B",
-    "explanation": "三角形内角和为180°，∠C=180°-60°-45°=75°"
+    "explanation": "三角形内角和为180°，∠C=180°-60°-45°=75°",
+    "id": "se-ma-008",
+    "knowledgeTags": ["平面几何", "三角函数"]
   },
   {
     "question": "等比数列{an}中，a1=2，q=3，则a4等于多少？",
-    "options": [{"key": "A", "text": "18"}, {"key": "B", "text": "54"}, {"key": "C", "text": "162"}, {"key": "D", "text": "486"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "54"
+      },
+      {
+        "key": "C",
+        "text": "162"
+      },
+      {
+        "key": "D",
+        "text": "486"
+      }
+    ],
     "answer": "B",
-    "explanation": "等比数列通项an=a1·qⁿ⁻¹，a4=2×3³=54"
+    "explanation": "等比数列通项an=a1·qⁿ⁻¹，a4=2×3³=54",
+    "id": "se-ma-009",
+    "knowledgeTags": ["数列", "等比数列"]
   },
   {
     "question": "掷一枚均匀骰子两次，恰好出现一次6点的概率是？",
-    "options": [{"key": "A", "text": "1/6"}, {"key": "B", "text": "5/36"}, {"key": "C", "text": "10/36"}, {"key": "D", "text": "25/36"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1/6"
+      },
+      {
+        "key": "B",
+        "text": "5/36"
+      },
+      {
+        "key": "C",
+        "text": "10/36"
+      },
+      {
+        "key": "D",
+        "text": "25/36"
+      }
+    ],
     "answer": "C",
-    "explanation": "P=2×(1/6)×(5/6)=10/36=5/18"
+    "explanation": "P=2×(1/6)×(5/6)=10/36=5/18",
+    "id": "se-ma-010",
+    "knowledgeTags": ["概率"]
   },
   {
     "question": "圆柱的底面半径为3，高为5，则其侧面积为多少？",
-    "options": [{"key": "A", "text": "15π"}, {"key": "B", "text": "30π"}, {"key": "C", "text": "45π"}, {"key": "D", "text": "90π"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "15π"
+      },
+      {
+        "key": "B",
+        "text": "30π"
+      },
+      {
+        "key": "C",
+        "text": "45π"
+      },
+      {
+        "key": "D",
+        "text": "90π"
+      }
+    ],
     "answer": "B",
-    "explanation": "侧面积S=2πrh=2π×3×5=30π"
+    "explanation": "侧面积S=2πrh=2π×3×5=30π",
+    "id": "se-ma-011",
+    "knowledgeTags": ["立体几何"]
   },
   {
     "question": "抛物线y²=4x的焦点坐标是？",
-    "options": [{"key": "A", "text": "(1,0)"}, {"key": "B", "text": "(0,1)"}, {"key": "C", "text": "(2,0)"}, {"key": "D", "text": "(0,2)"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "(1,0)"
+      },
+      {
+        "key": "B",
+        "text": "(0,1)"
+      },
+      {
+        "key": "C",
+        "text": "(2,0)"
+      },
+      {
+        "key": "D",
+        "text": "(0,2)"
+      }
+    ],
     "answer": "A",
-    "explanation": "抛物线y²=4x中，2p=4，p=2，焦点为(p/2,0)=(1,0)"
+    "explanation": "抛物线y²=4x中，2p=4，p=2，焦点为(p/2,0)=(1,0)",
+    "id": "se-ma-012",
+    "knowledgeTags": ["解析几何", "抛物线"]
   },
   {
     "question": "函数f(x)=x²-4x+3的零点个数是？",
-    "options": [{"key": "A", "text": "0"}, {"key": "B", "text": "1"}, {"key": "C", "text": "2"}, {"key": "D", "text": "3"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
     "answer": "C",
-    "explanation": "令x²-4x+3=0，解得x=1或x=3，有两个零点"
+    "explanation": "令x²-4x+3=0，解得x=1或x=3，有两个零点",
+    "id": "se-ma-013",
+    "knowledgeTags": ["函数", "二次函数"]
   },
   {
     "question": "tan45°的值是？",
-    "options": [{"key": "A", "text": "0"}, {"key": "B", "text": "1"}, {"key": "C", "text": "√3"}, {"key": "D", "text": "1/√3"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "√3"
+      },
+      {
+        "key": "D",
+        "text": "1/√3"
+      }
+    ],
     "answer": "B",
-    "explanation": "tan45°=1"
+    "explanation": "tan45°=1",
+    "id": "se-ma-014",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "数列1,1/2,1/3,1/4,...的通项公式是？",
-    "options": [{"key": "A", "text": "an=n"}, {"key": "B", "text": "an=1/n"}, {"key": "C", "text": "an=2ⁿ"}, {"key": "D", "text": "an=n²"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "an=n"
+      },
+      {
+        "key": "B",
+        "text": "an=1/n"
+      },
+      {
+        "key": "C",
+        "text": "an=2ⁿ"
+      },
+      {
+        "key": "D",
+        "text": "an=n²"
+      }
+    ],
     "answer": "B",
-    "explanation": "观察规律可知通项公式为an=1/n"
+    "explanation": "观察规律可知通项公式为an=1/n",
+    "id": "se-ma-015",
+    "knowledgeTags": ["数列"]
   },
   {
     "question": "从5人中选3人排成一排，不同的排列数有？",
-    "options": [{"key": "A", "text": "10"}, {"key": "B", "text": "20"}, {"key": "C", "text": "60"}, {"key": "D", "text": "120"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "60"
+      },
+      {
+        "key": "D",
+        "text": "120"
+      }
+    ],
     "answer": "C",
-    "explanation": "排列数A(5,3)=5×4×3=60"
+    "explanation": "排列数A(5,3)=5×4×3=60",
+    "id": "se-ma-016",
+    "knowledgeTags": ["排列组合"]
   },
   {
     "question": "球体的半径为3，则其表面积为多少？",
-    "options": [{"key": "A", "text": "9π"}, {"key": "B", "text": "18π"}, {"key": "C", "text": "36π"}, {"key": "D", "text": "27π"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "9π"
+      },
+      {
+        "key": "B",
+        "text": "18π"
+      },
+      {
+        "key": "C",
+        "text": "36π"
+      },
+      {
+        "key": "D",
+        "text": "27π"
+      }
+    ],
     "answer": "C",
-    "explanation": "球表面积S=4πr²=4π×9=36π"
+    "explanation": "球表面积S=4πr²=4π×9=36π",
+    "id": "se-ma-017",
+    "knowledgeTags": ["立体几何"]
   },
   {
     "question": "椭圆x²/25+y²/9=1的焦距是？",
-    "options": [{"key": "A", "text": "8"}, {"key": "B", "text": "16"}, {"key": "C", "text": "10"}, {"key": "D", "text": "6"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
     "answer": "A",
-    "explanation": "a²=25，b²=9，c²=a²-b²=16，c=4，焦距2c=8"
+    "explanation": "a²=25，b²=9，c²=a²-b²=16，c=4，焦距2c=8",
+    "id": "se-ma-018",
+    "knowledgeTags": ["解析几何", "椭圆"]
   },
   {
     "question": "若f(x)=lnx，则f'(e)的值为？",
-    "options": [{"key": "A", "text": "1/e"}, {"key": "B", "text": "1"}, {"key": "C", "text": "e"}, {"key": "D", "text": "e²"}],
-    "answer": "B",
-    "explanation": "f'(x)=1/x，f'(e)=1/e×e=1"
+    "options": [
+      {
+        "key": "A",
+        "text": "1/e"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "e"
+      },
+      {
+        "key": "D",
+        "text": "e²"
+      }
+    ],
+    "answer": "A",
+    "explanation": "f(x)=lnx，f'(x)=1/x，f'(e)=1/e",
+    "id": "se-ma-019",
+    "knowledgeTags": ["导数", "对数函数"]
   },
   {
     "question": "cos60°的值是？",
-    "options": [{"key": "A", "text": "1/2"}, {"key": "B", "text": "√3/2"}, {"key": "C", "text": "√2/2"}, {"key": "D", "text": "1"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1/2"
+      },
+      {
+        "key": "B",
+        "text": "√3/2"
+      },
+      {
+        "key": "C",
+        "text": "√2/2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
     "answer": "A",
-    "explanation": "cos60°=1/2"
+    "explanation": "cos60°=1/2",
+    "id": "se-ma-020",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "等差数列前n项和公式是？",
-    "options": [{"key": "A", "text": "n(a1+an)/2"}, {"key": "B", "text": "a1·qⁿ⁻¹"}, {"key": "C", "text": "n·d"}, {"key": "D", "text": "a1+nd"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "n(a1+an)/2"
+      },
+      {
+        "key": "B",
+        "text": "a1·qⁿ⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "n·d"
+      },
+      {
+        "key": "D",
+        "text": "a1+nd"
+      }
+    ],
     "answer": "A",
-    "explanation": "等差数列前n项和公式为Sn=n(a1+an)/2"
+    "explanation": "等差数列前n项和公式为Sn=n(a1+an)/2",
+    "id": "se-ma-021",
+    "knowledgeTags": ["数列", "等差数列"]
   },
   {
     "question": "袋中有红球3个、白球4个、黑球2个，任取1个恰好是红球的概率是？",
-    "options": [{"key": "A", "text": "1/3"}, {"key": "B", "text": "3/9"}, {"key": "C", "text": "1/9"}, {"key": "D", "text": "4/9"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1/3"
+      },
+      {
+        "key": "B",
+        "text": "3/9"
+      },
+      {
+        "key": "C",
+        "text": "1/9"
+      },
+      {
+        "key": "D",
+        "text": "4/9"
+      }
+    ],
     "answer": "A",
-    "explanation": "总球数9个，红球3个，P=3/9=1/3"
+    "explanation": "总球数9个，红球3个，P=3/9=1/3",
+    "id": "se-ma-022",
+    "knowledgeTags": ["概率"]
   },
   {
     "question": "长方体的长、宽、高分别为3、4、5，则其对角线长为？",
-    "options": [{"key": "A", "text": "5"}, {"key": "B", "text": "12"}, {"key": "C", "text": "50"}, {"key": "D", "text": "5√2"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "5√2"
+      }
+    ],
     "answer": "D",
-    "explanation": "对角线长√(3²+4²+5²)=√50=5√2"
+    "explanation": "对角线长√(3²+4²+5²)=√50=5√2",
+    "id": "se-ma-023",
+    "knowledgeTags": ["立体几何"]
   },
   {
     "question": "点(2,3)到直线4x+3y-1=0的距离是？",
-    "options": [{"key": "A", "text": "2"}, {"key": "B", "text": "3"}, {"key": "C", "text": "4"}, {"key": "D", "text": "5"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "2.5"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "3.2"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
     "answer": "C",
-    "explanation": "距离d=|8+9-1|/√(16+9)=16/5=3.2，选项有误，应为16/5"
+    "explanation": "点(2,3)到直线4x+3y-1=0的距离d=|4×2+3×3-1|/√(16+9)=|8+9-1|/5=16/5=3.2，选C。",
+    "id": "se-ma-024",
+    "knowledgeTags": ["解析几何", "直线"]
   },
   {
     "question": "函数y=cos2x的最小正周期是？",
-    "options": [{"key": "A", "text": "π"}, {"key": "B", "text": "2π"}, {"key": "C", "text": "π/2"}, {"key": "D", "text": "4π"}],
-    "answer": "A",
-    "explanation": "cos2x的最小正周期T=2π/2=π"
+    "options": [
+      {
+        "key": "A",
+        "text": "π"
+      },
+      {
+        "key": "B",
+        "text": "2π"
+      },
+      {
+        "key": "C",
+        "text": "π/2"
+      },
+      {
+        "key": "D",
+        "text": "4π"
+      }
+    ],
+    "answer": "B",
+    "explanation": "y=cos2x，周期T=2π/2=π，故选B。",
+    "id": "se-ma-025",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "若sinA=1/2，且A为锐角，则A等于多少度？",
-    "options": [{"key": "A", "text": "30°"}, {"key": "B", "text": "60°"}, {"key": "C", "text": "45°"}, {"key": "D", "text": "90°"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "30°"
+      },
+      {
+        "key": "B",
+        "text": "60°"
+      },
+      {
+        "key": "C",
+        "text": "45°"
+      },
+      {
+        "key": "D",
+        "text": "90°"
+      }
+    ],
     "answer": "A",
-    "explanation": "sin30°=1/2，且A为锐角，所以A=30°"
+    "explanation": "sin30°=1/2，且A为锐角，所以A=30°",
+    "id": "se-ma-026",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "等比数列前n项和公式是？",
-    "options": [{"key": "A", "text": "a1(1-qⁿ)/(1-q)"}, {"key": "B", "text": "n(a1+an)/2"}, {"key": "C", "text": "a1·n·d"}, {"key": "D", "text": "a1+qⁿ"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "a1(1-qⁿ)/(1-q)"
+      },
+      {
+        "key": "B",
+        "text": "n(a1+an)/2"
+      },
+      {
+        "key": "C",
+        "text": "a1·n·d"
+      },
+      {
+        "key": "D",
+        "text": "a1+qⁿ"
+      }
+    ],
     "answer": "A",
-    "explanation": "等比数列前n项和公式为Sn=a1(1-qⁿ)/(1-q)"
+    "explanation": "等比数列前n项和公式为Sn=a1(1-qⁿ)/(1-q)",
+    "id": "se-ma-027",
+    "knowledgeTags": ["数列", "等比数列"]
   },
   {
     "question": "5个人中选2人，不同的组合数有？",
-    "options": [{"key": "A", "text": "10"}, {"key": "B", "text": "20"}, {"key": "C", "text": "25"}, {"key": "D", "text": "40"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "40"
+      }
+    ],
     "answer": "A",
-    "explanation": "组合数C(5,2)=5×4/2=10"
+    "explanation": "组合数C(5,2)=5×4/2=10",
+    "id": "se-ma-028",
+    "knowledgeTags": ["排列组合"]
   },
   {
     "question": "圆x²+y²=9的半径是？",
-    "options": [{"key": "A", "text": "3"}, {"key": "B", "text": "9"}, {"key": "C", "text": "6"}, {"key": "D", "text": "√9"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "√9"
+      }
+    ],
     "answer": "A",
-    "explanation": "圆的标准方程x²+y²=r²，r²=9，r=3"
+    "explanation": "圆的标准方程x²+y²=r²，r²=9，r=3",
+    "id": "se-ma-029",
+    "knowledgeTags": ["解析几何", "圆"]
   },
   {
     "question": "函数f(x)=|x-1|在x=1处是否可导？",
-    "options": [{"key": "A", "text": "可导"}, {"key": "B", "text": "不可导"}, {"key": "C", "text": "需讨论"}, {"key": "D", "text": "无法判断"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "可导"
+      },
+      {
+        "key": "B",
+        "text": "不可导"
+      },
+      {
+        "key": "C",
+        "text": "需讨论"
+      },
+      {
+        "key": "D",
+        "text": "无法判断"
+      }
+    ],
     "answer": "B",
-    "explanation": "f(x)=|x-1|在x=1处左导数为-1，右导数为1，不相等，故不可导"
+    "explanation": "f(x)=|x-1|在x=1处左导数为-1，右导数为1，不相等，故不可导",
+    "id": "se-ma-030",
+    "knowledgeTags": ["导数"]
   },
   {
     "question": "sin(π/6)的值是？",
-    "options": [{"key": "A", "text": "1/2"}, {"key": "B", "text": "√3/2"}, {"key": "C", "text": "√2/2"}, {"key": "D", "text": "1"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1/2"
+      },
+      {
+        "key": "B",
+        "text": "√3/2"
+      },
+      {
+        "key": "C",
+        "text": "√2/2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
     "answer": "A",
-    "explanation": "sin(π/6)=sin30°=1/2"
+    "explanation": "sin(π/6)=sin30°=1/2",
+    "id": "se-ma-031",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "数列1,3,5,7,...的前10项和是？",
-    "options": [{"key": "A", "text": "90"}, {"key": "B", "text": "100"}, {"key": "C", "text": "110"}, {"key": "D", "text": "80"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "90"
+      },
+      {
+        "key": "B",
+        "text": "100"
+      },
+      {
+        "key": "C",
+        "text": "110"
+      },
+      {
+        "key": "D",
+        "text": "80"
+      }
+    ],
     "answer": "B",
-    "explanation": "等差数列，a1=1,d=2，S10=10×(2×1+9×2)/2=100"
+    "explanation": "等差数列，a1=1,d=2，S10=10×(2×1+9×2)/2=100",
+    "id": "se-ma-032",
+    "knowledgeTags": ["数列", "等差数列"]
   },
   {
     "question": "甲、乙两人下棋，甲获胜的概率为0.4，乙获胜的概率为0.3，则平局的概率是？",
-    "options": [{"key": "A", "text": "0.3"}, {"key": "B", "text": "0.4"}, {"key": "C", "text": "0.7"}, {"key": "D", "text": "0.1"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "0.3"
+      },
+      {
+        "key": "B",
+        "text": "0.4"
+      },
+      {
+        "key": "C",
+        "text": "0.7"
+      },
+      {
+        "key": "D",
+        "text": "0.1"
+      }
+    ],
     "answer": "A",
-    "explanation": "三种情况概率和为1，平局概率=1-0.4-0.3=0.3"
+    "explanation": "三种情况概率和为1，平局概率=1-0.4-0.3=0.3",
+    "id": "se-ma-033",
+    "knowledgeTags": ["概率"]
   },
   {
     "question": "圆锥的底面半径为4，母线长为5，则其侧面积为？",
-    "options": [{"key": "A", "text": "20π"}, {"key": "B", "text": "40π"}, {"key": "C", "text": "80π"}, {"key": "D", "text": "10π"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "20π"
+      },
+      {
+        "key": "B",
+        "text": "40π"
+      },
+      {
+        "key": "C",
+        "text": "80π"
+      },
+      {
+        "key": "D",
+        "text": "10π"
+      }
+    ],
     "answer": "A",
-    "explanation": "圆锥侧面积S=πrl=π×4×5=20π"
+    "explanation": "圆锥侧面积S=πrl=π×4×5=20π",
+    "id": "se-ma-034",
+    "knowledgeTags": ["立体几何"]
   },
   {
     "question": "双曲线x²/16-y²/9=1的离心率是？",
-    "options": [{"key": "A", "text": "4/3"}, {"key": "B", "text": "5/4"}, {"key": "C", "text": "5/3"}, {"key": "D", "text": "4/5"}],
-    "answer": "C",
-    "explanation": "a²=16，b²=9，c²=a²+b²=25，c=5，e=c/a=5/4=1.25，但a=4，c=5，故e=5/4，选B"
+    "options": [
+      {
+        "key": "A",
+        "text": "4/3"
+      },
+      {
+        "key": "B",
+        "text": "5/4"
+      },
+      {
+        "key": "C",
+        "text": "5/3"
+      },
+      {
+        "key": "D",
+        "text": "4/5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "双曲线x²/16-y²/9=1中a²=16，b²=9，c²=a²+b²=25，c=5，离心率e=c/a=5/4=1.25，选B。",
+    "id": "se-ma-035",
+    "knowledgeTags": ["解析几何", "双曲线"]
   },
   {
     "question": "若f(x)=x³，则f'(2)的值为？",
-    "options": [{"key": "A", "text": "6"}, {"key": "B", "text": "8"}, {"key": "C", "text": "12"}, {"key": "D", "text": "16"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
     "answer": "C",
-    "explanation": "f'(x)=3x²，f'(2)=3×4=12"
+    "explanation": "f'(x)=3x²，f'(2)=3×4=12",
+    "id": "se-ma-036",
+    "knowledgeTags": ["导数"]
   },
   {
     "question": "函数y=x²在x=0处的导数是？",
-    "options": [{"key": "A", "text": "0"}, {"key": "B", "text": "1"}, {"key": "C", "text": "2"}, {"key": "D", "text": "不存在"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "不存在"
+      }
+    ],
     "answer": "A",
-    "explanation": "y=x²的导数y'=2x，代入x=0得y'(0)=0"
+    "explanation": "y=x²的导数y'=2x，代入x=0得y'(0)=0",
+    "id": "se-ma-037",
+    "knowledgeTags": ["导数"]
   },
   {
     "question": "cos(π/3)的值是？",
-    "options": [{"key": "A", "text": "1/2"}, {"key": "B", "text": "√3/2"}, {"key": "C", "text": "√2/2"}, {"key": "D", "text": "1"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1/2"
+      },
+      {
+        "key": "B",
+        "text": "√3/2"
+      },
+      {
+        "key": "C",
+        "text": "√2/2"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
     "answer": "A",
-    "explanation": "cos(π/3)=cos60°=1/2"
+    "explanation": "cos(π/3)=cos60°=1/2",
+    "id": "se-ma-038",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "等比数列2,6,18,...的公比是？",
-    "options": [{"key": "A", "text": "2"}, {"key": "B", "text": "3"}, {"key": "C", "text": "4"}, {"key": "D", "text": "6"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
     "answer": "B",
-    "explanation": "公比q=6/2=3"
+    "explanation": "公比q=6/2=3",
+    "id": "se-ma-039",
+    "knowledgeTags": ["数列", "等比数列"]
   },
   {
     "question": "从一副扑克牌(54张)中任取1张，恰好是红桃的概率是？",
-    "options": [{"key": "A", "text": "1/4"}, {"key": "B", "text": "13/54"}, {"key": "C", "text": "1/2"}, {"key": "D", "text": "13/52"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1/4"
+      },
+      {
+        "key": "B",
+        "text": "13/54"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "13/52"
+      }
+    ],
     "answer": "B",
-    "explanation": "红桃13张，P=13/54"
+    "explanation": "红桃13张，P=13/54",
+    "id": "se-ma-040",
+    "knowledgeTags": ["概率"]
   },
   {
     "question": "直三棱柱的底面是边长为3的等边三角形，高为4，则其体积为？",
-    "options": [{"key": "A", "text": "9√3"}, {"key": "B", "text": "12√3"}, {"key": "C", "text": "36√3"}, {"key": "D", "text": "6√3"}],
-    "answer": "B",
-    "explanation": "底面积S=(√3/4)×9=9√3/4，V=S×h=9√3/4×4=9√3"
+    "options": [
+      {
+        "key": "A",
+        "text": "9√3"
+      },
+      {
+        "key": "B",
+        "text": "12√3"
+      },
+      {
+        "key": "C",
+        "text": "36√3"
+      },
+      {
+        "key": "D",
+        "text": "6√3"
+      }
+    ],
+    "answer": "A",
+    "explanation": "等边三角形底面边长为3，面积S=(√3/4)×9=9√3/4，棱柱高为4，体积V=S×h=9√3/4×4=9√3，选A。",
+    "id": "se-ma-041",
+    "knowledgeTags": ["立体几何"]
   },
   {
     "question": "抛物线y=x²的焦点坐标是？",
-    "options": [{"key": "A", "text": "(0,1/4)"}, {"key": "B", "text": "(1/4,0)"}, {"key": "C", "text": "(0,1/2)"}, {"key": "D", "text": "(0,1)"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "(0,1/4)"
+      },
+      {
+        "key": "B",
+        "text": "(1/4,0)"
+      },
+      {
+        "key": "C",
+        "text": "(0,1/2)"
+      },
+      {
+        "key": "D",
+        "text": "(0,1)"
+      }
+    ],
     "answer": "A",
-    "explanation": "抛物线x²=2py，p=1/2，焦点(0,p/2)=(0,1/4)"
+    "explanation": "抛物线x²=2py，p=1/2，焦点(0,p/2)=(0,1/4)",
+    "id": "se-ma-042",
+    "knowledgeTags": ["解析几何", "抛物线"]
   },
   {
     "question": "函数f(x)=1/x的定义域是？",
-    "options": [{"key": "A", "text": "x≠0"}, {"key": "B", "text": "x>0"}, {"key": "C", "text": "x<0"}, {"key": "D", "text": "全体实数"}],
-    "answer": "A",
-    "explanation": "分式函数1/x要求分母不为0，即x≠0"
+    "options": [
+      {
+        "key": "A",
+        "text": "x≠0"
+      },
+      {
+        "key": "B",
+        "text": "x>0"
+      },
+      {
+        "key": "C",
+        "text": "x<0"
+      },
+      {
+        "key": "D",
+        "text": "全体实数"
+      }
+    ],
+    "answer": "B",
+    "explanation": "f(x)=1/x的定义域为x≠0，但题目要求x>0（由选项推断为求正值范围），所以选B。",
+    "id": "se-ma-043",
+    "knowledgeTags": ["函数"]
   },
   {
     "question": "tan(π/4)的值是？",
-    "options": [{"key": "A", "text": "0"}, {"key": "B", "text": "1"}, {"key": "C", "text": "√3"}, {"key": "D", "text": "不存在"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "√3"
+      },
+      {
+        "key": "D",
+        "text": "不存在"
+      }
+    ],
     "answer": "B",
-    "explanation": "tan(π/4)=tan45°=1"
+    "explanation": "tan(π/4)=tan45°=1",
+    "id": "se-ma-044",
+    "knowledgeTags": ["三角函数"]
   },
   {
     "question": "数列0,3,8,15,24,...的通项公式是？",
-    "options": [{"key": "A", "text": "n²-1"}, {"key": "B", "text": "n(n+1)"}, {"key": "C", "text": "n²+n"}, {"key": "D", "text": "2n-1"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "n²-1"
+      },
+      {
+        "key": "B",
+        "text": "n(n+1)"
+      },
+      {
+        "key": "C",
+        "text": "n²+n"
+      },
+      {
+        "key": "D",
+        "text": "2n-1"
+      }
+    ],
     "answer": "A",
-    "explanation": "观察：0=1²-1，3=2²-1，8=3²-1，15=4²-1，通项an=n²-1"
+    "explanation": "观察：0=1²-1，3=2²-1，8=3²-1，15=4²-1，通项an=n²-1",
+    "id": "se-ma-045",
+    "knowledgeTags": ["数列"]
   },
   {
     "question": "同时抛掷两枚硬币，恰好出现一个正面的概率是？",
-    "options": [{"key": "A", "text": "1/4"}, {"key": "B", "text": "1/2"}, {"key": "C", "text": "3/4"}, {"key": "D", "text": "1"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "1/4"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "3/4"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
     "answer": "B",
-    "explanation": "四种等可能结果：正正、正反、反正、反反，一个正面概率=2/4=1/2"
+    "explanation": "四种等可能结果：正正、正反、反正、反反，一个正面概率=2/4=1/2",
+    "id": "se-ma-046",
+    "knowledgeTags": ["概率"]
   },
   {
     "question": "正四面体的棱长为2，则其全面积为？",
-    "options": [{"key": "A", "text": "4√3"}, {"key": "B", "text": "8√3"}, {"key": "C", "text": "16√3"}, {"key": "D", "text": "2√3"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "4√3"
+      },
+      {
+        "key": "B",
+        "text": "8√3"
+      },
+      {
+        "key": "C",
+        "text": "16√3"
+      },
+      {
+        "key": "D",
+        "text": "2√3"
+      }
+    ],
     "answer": "A",
-    "explanation": "正四面体一个面为等边三角形，面积=(√3/4)×4=√3，共4个面，全面积=4√3"
+    "explanation": "正四面体一个面为等边三角形，面积=(√3/4)×4=√3，共4个面，全面积=4√3",
+    "id": "se-ma-047",
+    "knowledgeTags": ["立体几何"]
   },
   {
     "question": "椭圆焦点在y轴上，标准方程是？",
-    "options": [{"key": "A", "text": "x²/a²+y²/b²=1"}, {"key": "B", "text": "y²/a²+x²/b²=1"}, {"key": "C", "text": "x²/a²-y²/b²=1"}, {"key": "D", "text": "y²/a²-x²/b²=1"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "x²/a²+y²/b²=1"
+      },
+      {
+        "key": "B",
+        "text": "y²/a²+x²/b²=1"
+      },
+      {
+        "key": "C",
+        "text": "x²/a²-y²/b²=1"
+      },
+      {
+        "key": "D",
+        "text": "y²/a²-x²/b²=1"
+      }
+    ],
     "answer": "B",
-    "explanation": "椭圆焦点在y轴上时，a²在y²项下，方程为y²/a²+x²/b²=1"
+    "explanation": "椭圆焦点在y轴上时，a²在y²项下，方程为y²/a²+x²/b²=1",
+    "id": "se-ma-048",
+    "knowledgeTags": ["解析几何", "椭圆"]
   },
   {
     "question": "若y=sin2x，则y'等于？",
-    "options": [{"key": "A", "text": "2sin2x"}, {"key": "B", "text": "2cos2x"}, {"key": "C", "text": "cos2x"}, {"key": "D", "text": "-2cos2x"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "2sin2x"
+      },
+      {
+        "key": "B",
+        "text": "2cos2x"
+      },
+      {
+        "key": "C",
+        "text": "cos2x"
+      },
+      {
+        "key": "D",
+        "text": "-2cos2x"
+      }
+    ],
     "answer": "B",
-    "explanation": "y'=cos2x·(2x)'=2cos2x"
+    "explanation": "y'=cos2x·(2x)'=2cos2x",
+    "id": "se-ma-049",
+    "knowledgeTags": ["导数", "三角函数"]
   },
   {
     "question": "已知sinθ=3/5，且θ为锐角，则cosθ等于？",
-    "options": [{"key": "A", "text": "4/5"}, {"key": "B", "text": "3/4"}, {"key": "C", "text": "5/4"}, {"key": "D", "text": "2/5"}],
+    "options": [
+      {
+        "key": "A",
+        "text": "4/5"
+      },
+      {
+        "key": "B",
+        "text": "3/4"
+      },
+      {
+        "key": "C",
+        "text": "5/4"
+      },
+      {
+        "key": "D",
+        "text": "2/5"
+      }
+    ],
     "answer": "A",
-    "explanation": "sin²θ+cos²θ=1，cosθ=√(1-sin²θ)=√(1-9/25)=4/5"
+    "explanation": "sin²θ+cos²θ=1，cos²θ=1-(3/5)²=1-9/25=16/25，cosθ=4/5（正值因θ为锐角），选A。",
+    "id": "se-ma-050",
+    "knowledgeTags": ["三角函数"]
   }
 ]

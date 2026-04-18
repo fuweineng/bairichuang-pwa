@@ -20,7 +20,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "A项“粗犷”应读guǎng，C项“嗷嗷待哺”应读bǔ，但该项本身正确；题目要求选完全正确的一项，D更合适。实际教学中，犷读guǎng不是kuàng。",
+    "explanation": "A项'粗犷'读guǎng而非kuàng，错误；B项'栖息'qī正确；C项'嗷嗷待哺'bǔ正确。本题要求选'读音完全正确的一项'，B项单个读音正确，当选。",
     "audio": "audio/chinese_001_q.mp3",
     "optionAudio": [
       {
@@ -39,10 +39,15 @@
         "key": "D",
         "audio": "audio/chinese_001_d.mp3"
       }
+    ],
+    "id": "primary-chinese-1",
+    "knowledgePoint": "PC-GY-001",
+    "knowledgeTags": [
+      "拼音"
     ]
   },
   {
-    "question": "“学习”的“学”是第几声？",
+    "question": "'学习'的'学'是第几声？",
     "options": [
       {
         "key": "A",
@@ -62,7 +67,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“学”读xué，第二声，是第二声。",
+    "explanation": "'学'读xué，第二声。",
     "audio": "audio/chinese_002_q.mp3",
     "optionAudio": [
       {
@@ -81,30 +86,35 @@
         "key": "D",
         "audio": "audio/chinese_002_d.mp3"
       }
+    ],
+    "id": "primary-chinese-2",
+    "knowledgePoint": "PC-GY-002",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "下列汉字笔画数最少的是（）",
+    "question": "下列汉字中笔画数最多的是（）",
     "options": [
       {
         "key": "A",
-        "text": "凹"
-      },
-      {
-        "key": "B",
-        "text": "凸"
-      },
-      {
-        "key": "C",
         "text": "日"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "月"
+      },
+      {
+        "key": "C",
+        "text": "水"
+      },
+      {
+        "key": "D",
+        "text": "山"
       }
     ],
-    "answer": "C",
-    "explanation": "凹字4画，凸字5画，日字4画，月字5画。日字笔画数最少为4画。",
+    "answer": "B",
+    "explanation": "日字4画，月字5画，水字4画，山字3画。月字笔画数最多为5画。",
     "audio": "audio/chinese_003_q.mp3",
     "optionAudio": [
       {
@@ -123,10 +133,15 @@
         "key": "D",
         "audio": "audio/chinese_003_d.mp3"
       }
+    ],
+    "id": "primary-chinese-3",
+    "knowledgePoint": "PC-GY-005",
+    "knowledgeTags": [
+      "笔画"
     ]
   },
   {
-    "question": "“日”字的正确书写顺序是（）",
+    "question": "'日'字的正确书写顺序是（）",
     "options": [
       {
         "key": "A",
@@ -145,8 +160,8 @@
         "text": "从左到右"
       }
     ],
-    "answer": "A",
-    "explanation": "“日”字的书写顺序是：竖→横折→横→横，先横后竖是错的，应该是先竖后横折。题目实际考察书写笔顺，日字应先写竖，再写横折。答案为A强调先横后竖不够准确，但按常见出题意图选A。",
+    "answer": "C",
+    "explanation": "'日'字的书写顺序是：竖→横折→横→横，即先中间后两边，属于'从上到下'的笔顺原则。答案为C。",
     "audio": "audio/chinese_004_q.mp3",
     "optionAudio": [
       {
@@ -165,6 +180,11 @@
         "key": "D",
         "audio": "audio/chinese_004_d.mp3"
       }
+    ],
+    "id": "primary-chinese-4",
+    "knowledgePoint": "PC-GY-005",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
@@ -176,19 +196,19 @@
       },
       {
         "key": "B",
-        "text": "公园 抄写"
+        "text": "公圆 抄写"
       },
       {
         "key": "C",
-        "text": "公园 超写"
+        "text": "花园 超写"
       },
       {
         "key": "D",
         "text": "花圆 抄写"
       }
     ],
-    "answer": "B",
-    "explanation": "“公园”的“园”是园林的园，“花园”也是花开的园，A中“抄写”正确，B更全面准确。C中“超写”是错别字，D中“花圆”书写错误。",
+    "answer": "A",
+    "explanation": "'花园'的'园'和'抄写'的'抄'都是正确写法。B项'公圆'的'圆'是错别字（应为'园'）；C项'超写'的'超'是错别字（应为'抄'）；D项'花圆'两个都是错别字。答案为A。",
     "audio": "audio/chinese_005_q.mp3",
     "optionAudio": [
       {
@@ -207,10 +227,16 @@
         "key": "D",
         "audio": "audio/chinese_005_d.mp3"
       }
+    ],
+    "id": "primary-chinese-5",
+    "knowledgePoint": "PC-GY-009",
+    "knowledgeTags": [
+      "错别字",
+      "词义辨析"
     ]
   },
   {
-    "question": "“不”字在朗读时声调是（）",
+    "question": "'不'字在朗读时声调是（）",
     "options": [
       {
         "key": "A",
@@ -230,7 +256,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“不”字本调是四声，但在去声前要变二声，如“不错”；在阴平、阳平、上声前仍读四声。单独使用或在句尾时读本调四声。",
+    "explanation": "'不'字本调是四声，但在去声前要变二声，如'不错'；在阴平、阳平、上声前仍读四声。单独使用或在句尾时读本调四声。",
     "audio": "audio/chinese_006_q.mp3",
     "optionAudio": [
       {
@@ -249,6 +275,11 @@
         "key": "D",
         "audio": "audio/chinese_006_d.mp3"
       }
+    ],
+    "id": "primary-chinese-6",
+    "knowledgePoint": "PC-GY-002",
+    "knowledgeTags": [
+      "拼音"
     ]
   },
   {
@@ -272,7 +303,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "形声字由形旁和声旁组成。“花”由“艹”（形旁）表示草本植物，“化”（声旁）表示读音，是典型的形声字。人、日、水都是象形字。",
+    "explanation": "形声字由形旁和声旁组成。'花'由'艹'（形旁）表示草本植物，'化'（声旁）表示读音，是典型的形声字。人、日、水都是象形字。",
     "audio": "audio/chinese_007_q.mp3",
     "optionAudio": [
       {
@@ -291,10 +322,15 @@
         "key": "D",
         "audio": "audio/chinese_007_d.mp3"
       }
+    ],
+    "id": "primary-chinese-7",
+    "knowledgePoint": "PC-GY-008",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“鸟”字的最后一笔是（）",
+    "question": "'鸟'字的最后一笔是（）",
     "options": [
       {
         "key": "A",
@@ -314,7 +350,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "“鸟”字的笔顺是：撇→竖折→点→横→竖折→横勾→点，最后一笔是点。鸟是常用字，需掌握正确笔顺。",
+    "explanation": "'鸟'字的笔顺是：撇→竖折→点→横→竖折→横勾→点，最后一笔是点。",
     "audio": "audio/chinese_008_q.mp3",
     "optionAudio": [
       {
@@ -333,6 +369,11 @@
         "key": "D",
         "audio": "audio/chinese_008_d.mp3"
       }
+    ],
+    "id": "primary-chinese-8",
+    "knowledgePoint": "PC-GY-005",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
@@ -348,7 +389,7 @@
       },
       {
         "key": "C",
-        "text": "坐井观天"
+        "text": "坐前观天"
       },
       {
         "key": "D",
@@ -356,7 +397,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“坐井观天”是一个成语，意思是坐在井里看天，比喻眼界狭小。选项A和C文字相同，但A格式更标准。答案为A。",
+    "explanation": "'坐井观天'是一个成语，意思是坐在井里看天，比喻眼界狭小。其中'坐'是座位、坐着，'井'是水井，都是正确写法。B项'竟'和D项'睤'都是错别字。答案为A。",
     "audio": "audio/chinese_009_q.mp3",
     "optionAudio": [
       {
@@ -375,10 +416,15 @@
         "key": "D",
         "audio": "audio/chinese_009_d.mp3"
       }
+    ],
+    "id": "primary-chinese-9",
+    "knowledgePoint": "PC-GY-009",
+    "knowledgeTags": [
+      "成语俗语"
     ]
   },
   {
-    "question": "“欲穷千里目”的下一句是（）",
+    "question": "'欲穷千里目'的下一句是（）",
     "options": [
       {
         "key": "A",
@@ -386,19 +432,19 @@
       },
       {
         "key": "B",
-        "text": "更上一层楼"
+        "text": "明月照我还"
       },
       {
         "key": "C",
-        "text": "更上一层楼"
+        "text": "登鹳雀楼"
       },
       {
         "key": "D",
-        "text": "更上一层楼"
+        "text": "黄河入海流"
       }
     ],
     "answer": "A",
-    "explanation": "这句诗出自唐代王之涣的《登鹳雀楼》，全句是“欲穷千里目，更上一层楼”，意思是想要看得更远，就要再登上一层楼，比喻追求更高的境界。",
+    "explanation": "这句诗出自唐代王之涣的《登鹳雀楼》，全句是'欲穷千里目，更上一层楼'，意思是想要看得更远，就要再登上一层楼，比喻追求更高的境界。",
     "audio": "audio/chinese_010_q.mp3",
     "optionAudio": [
       {
@@ -417,10 +463,15 @@
         "key": "D",
         "audio": "audio/chinese_010_d.mp3"
       }
+    ],
+    "id": "primary-chinese-10",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "《悯农》诗中“粒粒皆辛苦”的上一句是（）",
+    "question": "'粒粒皆辛苦'的上一句是（）",
     "options": [
       {
         "key": "A",
@@ -436,11 +487,11 @@
       },
       {
         "key": "D",
-        "text": "谁知盘中餐"
+        "text": "农夫犹饿死"
       }
     ],
-    "answer": "A",
-    "explanation": "《悯农》（其二）全文：春种一粒粟，秋收万颗子。四海无闲田，农夫犹饿死。“粒粒皆辛苦”出自另一首著名的悯农诗，全诗开头是“锄禾日当午”。答案为A。",
+    "answer": "B",
+    "explanation": "'粒粒皆辛苦'出自李绅《悯农》（其一），全诗：锄禾日当午，汗滴禾下土。谁知盘中餐，粒粒皆辛苦。'锄禾日当午'是上一句，答案为B。",
     "audio": "audio/chinese_011_q.mp3",
     "optionAudio": [
       {
@@ -459,10 +510,15 @@
         "key": "D",
         "audio": "audio/chinese_011_d.mp3"
       }
+    ],
+    "id": "primary-chinese-11",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“白日依山尽”的下一句是（）",
+    "question": "'白日依山尽'的下一句是（）",
     "options": [
       {
         "key": "A",
@@ -470,7 +526,7 @@
       },
       {
         "key": "B",
-        "text": "黄河入海流"
+        "text": "海上明月生"
       },
       {
         "key": "C",
@@ -501,10 +557,15 @@
         "key": "D",
         "audio": "audio/chinese_012_d.mp3"
       }
+    ],
+    "id": "primary-chinese-12",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“春眠不觉晓”中“晓”的意思是（）",
+    "question": "'春眠不觉晓'中'晓'的意思是（）",
     "options": [
       {
         "key": "A",
@@ -524,7 +585,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "“春眠不觉晓”的意思是春天睡得很香不知不觉就天亮了，“晓”指天亮、天明。整首诗是孟浩然的《春晓》，表达了诗人对春天的喜爱和珍惜。",
+    "explanation": "'春眠不觉晓'的意思是春天睡得很香不知不觉就天亮了，'晓'指天亮、天明。整首诗是孟浩然的《春晓》，表达了诗人对春天的喜爱和珍惜。",
     "audio": "audio/chinese_013_q.mp3",
     "optionAudio": [
       {
@@ -543,6 +604,11 @@
         "key": "D",
         "audio": "audio/chinese_013_d.mp3"
       }
+    ],
+    "id": "primary-chinese-13",
+    "knowledgePoint": "PC-GY-014",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
@@ -585,10 +651,15 @@
         "key": "D",
         "audio": "audio/chinese_014_d.mp3"
       }
+    ],
+    "id": "primary-chinese-14",
+    "knowledgePoint": "PC-GY-015",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“两个黄鹂鸣翠柳，一行白鹭上青天”出自谁的诗？",
+    "question": "'两个黄鹂鸣翠柳，一行白鹭上青天'出自谁的诗？",
     "options": [
       {
         "key": "A",
@@ -627,10 +698,15 @@
         "key": "D",
         "audio": "audio/chinese_015_d.mp3"
       }
+    ],
+    "id": "primary-chinese-15",
+    "knowledgePoint": "PC-GY-016",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "下列词语中“每”读音相同的是（）",
+    "question": "下列词语中'每'读音相同的是（）",
     "options": [
       {
         "key": "A",
@@ -650,7 +726,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“每年”的“每”和“每人”的“每”都读méi，是同一个字，读音相同。B中“每天”读méi，“美丽”读měi；C中“每个”读méi，“母亲”读mǔ；D中“每周”读měi，“美分”读měi。答案为A。",
+    "explanation": "'每年'的'每'和'每人'的'每'都读méi，是同一个字，读音相同。B中'每天'读méi，'美丽'读měi；C中'每个'读méi，'母亲'读mǔ；D中'每周'读měi，'美分'读měi。答案为A。",
     "audio": "audio/chinese_016_q.mp3",
     "optionAudio": [
       {
@@ -669,10 +745,16 @@
         "key": "D",
         "audio": "audio/chinese_016_d.mp3"
       }
+    ],
+    "id": "primary-chinese-16",
+    "knowledgePoint": "PC-GY-001",
+    "knowledgeTags": [
+      "拼音",
+      "词义辨析"
     ]
   },
   {
-    "question": "“人”字的书写笔画是（）",
+    "question": "'人'字的书写笔画是（）",
     "options": [
       {
         "key": "A",
@@ -692,7 +774,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“人”字由两笔组成：第一笔是撇，第二笔是捺，是最简单的汉字之一，也是学习写字的基础。答案为A。",
+    "explanation": "'人'字由两画组成：撇和捺。书写顺序是先撇后捺。'人'是常用汉字，需掌握正确书写。答案为A。",
     "audio": "audio/chinese_017_q.mp3",
     "optionAudio": [
       {
@@ -711,6 +793,11 @@
         "key": "D",
         "audio": "audio/chinese_017_d.mp3"
       }
+    ],
+    "id": "primary-chinese-17",
+    "knowledgePoint": "PC-GY-005",
+    "knowledgeTags": [
+      "笔画"
     ]
   },
   {
@@ -733,8 +820,8 @@
         "text": "书(s)"
       }
     ],
-    "answer": "B",
-    "explanation": "“花”的声母是h，这是正确的。A中“妈”的声母是m，正确；C中“大的声母是d，正确；D中“书”的声母是sh，不是s，所以D错误。但题目问声母对应错误的，B中“花”的声母h实际上是正确的，故答案为B表示这个对应是错的（实际上B的对应没有错误，是题目设计问题）。更准确地说，“书”的声母是sh，D选项的s是错的。答案为D。",
+    "answer": "D",
+    "explanation": "'书'的声母是sh，不是s，D选项写作's'是错误的，因此选D。其他选项声母均正确：妈m、花h、都是正确的。",
     "audio": "audio/chinese_018_q.mp3",
     "optionAudio": [
       {
@@ -753,10 +840,15 @@
         "key": "D",
         "audio": "audio/chinese_018_d.mp3"
       }
+    ],
+    "id": "primary-chinese-18",
+    "knowledgePoint": "PC-GY-003",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“中国”两个字的声调组合是（）",
+    "question": "'中国'两个字的声调组合是（）",
     "options": [
       {
         "key": "A",
@@ -776,7 +868,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“中”读zhōng，一声；“国”读guó，二声。所以“中国”的声调组合是一声、二声。答案为A。",
+    "explanation": "'中'读zhōng，一声；'国'读guó，二声。所以'中国'的声调组合是一声、二声。答案为A。",
     "audio": "audio/chinese_019_q.mp3",
     "optionAudio": [
       {
@@ -795,6 +887,11 @@
         "key": "D",
         "audio": "audio/chinese_019_d.mp3"
       }
+    ],
+    "id": "primary-chinese-19",
+    "knowledgePoint": "PC-GY-002",
+    "knowledgeTags": [
+      "拼音"
     ]
   },
   {
@@ -818,7 +915,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "整体认读音节是指不需要拼读、直接整体认读的音节。A组zhi、chi、shi、ri都是整体认读音节（4个）；B组zi、ci、si是整体认读音节（3个）；C组yi、wu、yu是整体认读音节（3个）；D组ye、yue、yuan中ye、yue是整体认读音节，yuan不是。所以A组整体认读音节最多。答案为A。",
+    "explanation": "整体认读音节是指不需要拼读、直接整体认读的音节。A组zhi、chi、shi、ri都是整体认读音节（4个）；B组zi、ci、si是整体认读音节（3个）；C组yi、wu、yu是整体认读音节（3个）；D组ye、yue是整体认读音节，yuan不是。所以A组整体认读音节最多。答案为A。",
     "audio": "audio/chinese_020_q.mp3",
     "optionAudio": [
       {
@@ -837,10 +934,15 @@
         "key": "D",
         "audio": "audio/chinese_020_d.mp3"
       }
+    ],
+    "id": "primary-chinese-20",
+    "knowledgePoint": "PC-GY-004",
+    "knowledgeTags": [
+      "拼音"
     ]
   },
   {
-    "question": "“床前明月光”的下一句是（）",
+    "question": "'床前明月光'的下一句是（）",
     "options": [
       {
         "key": "A",
@@ -856,7 +958,7 @@
       },
       {
         "key": "D",
-        "text": "疑是地上霜"
+        "text": "明月照故乡"
       }
     ],
     "answer": "A",
@@ -879,10 +981,15 @@
         "key": "D",
         "audio": "audio/chinese_021_d.mp3"
       }
+    ],
+    "id": "primary-chinese-21",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "《咏鹅》诗中“曲项向天歌”的“曲”读音是（）",
+    "question": "《咏鹅》诗中'曲项向天歌'的'曲'读音是（）",
     "options": [
       {
         "key": "A",
@@ -902,7 +1009,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“曲项向天歌”中“曲”读qū，是弯曲的意思，不能读成qǔ（歌曲）。《咏鹅》是唐代骆宾王七岁时所作的名篇。答案为A。",
+    "explanation": "'曲项向天歌'中'曲'读qū，是弯曲的意思，不能读成qǔ（歌曲）。《咏鹅》是唐代骆宾王七岁时所作的名篇。答案为A。",
     "audio": "audio/chinese_022_q.mp3",
     "optionAudio": [
       {
@@ -921,10 +1028,15 @@
         "key": "D",
         "audio": "audio/chinese_022_d.mp3"
       }
+    ],
+    "id": "primary-chinese-22",
+    "knowledgePoint": "PC-GY-001",
+    "knowledgeTags": [
+      "拼音"
     ]
   },
   {
-    "question": "“一寸光阴一寸金”的上句是（）",
+    "question": "'一寸光阴一寸金'的上句是（）",
     "options": [
       {
         "key": "A",
@@ -944,7 +1056,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "“少年易学老难成，一寸光阴一寸金”是一句谚语/古语，意思是年轻的时候容易学习，到老了就难以学成了，所以一寸光阴就像一寸黄金一样珍贵。答案为C。",
+    "explanation": "'少年易学老难成，一寸光阴一寸金'是一句谚语/古语，意思是年轻的时候容易学习，到老了就难以学成了，所以一寸光阴就像一寸黄金一样珍贵。答案为C。",
     "audio": "audio/chinese_023_q.mp3",
     "optionAudio": [
       {
@@ -963,6 +1075,11 @@
         "key": "D",
         "audio": "audio/chinese_023_d.mp3"
       }
+    ],
+    "id": "primary-chinese-23",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
@@ -986,7 +1103,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "“花”是上下结构（艹+化），“草”是上下结构（艹+早），“李”是上下结构（木+子），而“树”是左右结构（左中右结构），不是上下结构。答案为C。",
+    "explanation": "'花'是上下结构（艹+化），'草'是上下结构（艹+早），'李'是上下结构（木+子），而'树'是左右结构（左中右结构），不是上下结构。答案为C。",
     "audio": "audio/chinese_024_q.mp3",
     "optionAudio": [
       {
@@ -1005,10 +1122,15 @@
         "key": "D",
         "audio": "audio/chinese_024_d.mp3"
       }
+    ],
+    "id": "primary-chinese-24",
+    "knowledgePoint": "PC-GY-006",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“碧”字的部首是（）",
+    "question": "'碧'字的部首是（）",
     "options": [
       {
         "key": "A",
@@ -1027,8 +1149,8 @@
         "text": "十"
       }
     ],
-    "answer": "A",
-    "explanation": "“碧”字的部首是“王”（不是“石”），因为“碧”是一种玉石，形声字，从玉、从石、白声。常见的“碧绿”“碧玉”等词语中都体现其与玉石相关。答案为A。",
+    "answer": "C",
+    "explanation": "'碧'字的部首是'王'（玉）。'碧'字由'王'和'白'组成，表示青绿色的玉石。常见的'碧绿''碧玉'等词语中都体现了其与玉石相关。答案为C。",
     "audio": "audio/chinese_025_q.mp3",
     "optionAudio": [
       {
@@ -1047,10 +1169,15 @@
         "key": "D",
         "audio": "audio/chinese_025_d.mp3"
       }
+    ],
+    "id": "primary-chinese-25",
+    "knowledgePoint": "PC-GY-007",
+    "knowledgeTags": [
+      "部首"
     ]
   },
   {
-    "question": "下列词语中“张”字意思相同的是（）",
+    "question": "下列词语中'张'字意思相同的是（）",
     "options": [
       {
         "key": "A",
@@ -1070,7 +1197,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“张开”的“张”是打开的意思，“张望”的“张”是看的意思，两者都含有“展开”的含义。A中“张老师”的“张”是姓氏，“纸张”的“张”是量词；C中“纸张”的“张”是量词，“改弦更张”的“张”是更换的意思；D中东张西望的“张”是看，张灯结彩的“张”是布置的意思。答案为B。",
+    "explanation": "'张开'的'张'是打开的意思，'张望'的'张'是看的意思，两者都含有'展开'的含义。A中'张老师'的'张'是姓氏，'纸张'的'张'是量词；C中'纸张'的'张'是量词，'改弦更张'的'张'是更换的意思；D中东张西望的'张'是看，张灯结彩的'张'是布置的意思。答案为B。",
     "audio": "audio/chinese_026_q.mp3",
     "optionAudio": [
       {
@@ -1089,10 +1216,15 @@
         "key": "D",
         "audio": "audio/chinese_026_d.mp3"
       }
+    ],
+    "id": "primary-chinese-26",
+    "knowledgePoint": "PC-GY-010",
+    "knowledgeTags": [
+      "词义辨析"
     ]
   },
   {
-    "question": "成语“守株待兔”出自（）",
+    "question": "成语'守株待兔'出自（）",
     "options": [
       {
         "key": "A",
@@ -1112,7 +1244,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“守株待兔”出自《韩非子·五蠹》，讲的是一个农夫偶然看见一只兔子撞死在树桩上，便守在树桩旁希望再得到兔子，比喻死守狭隘经验，不知变通。答案为A。",
+    "explanation": "'守株待兔'出自《韩非子·五蠹》，讲的是一个农夫偶然看见一只兔子撞死在树桩上，便守在树桩旁希望再得到兔子，比喻死守狭隘经验，不知变通。答案为A。",
     "audio": "audio/chinese_027_q.mp3",
     "optionAudio": [
       {
@@ -1131,10 +1263,15 @@
         "key": "D",
         "audio": "audio/chinese_027_d.mp3"
       }
+    ],
+    "id": "primary-chinese-27",
+    "knowledgePoint": "PC-GY-012",
+    "knowledgeTags": [
+      "成语俗语"
     ]
   },
   {
-    "question": "“亡羊补牢”中“亡”的意思是（）",
+    "question": "'亡羊补牢'中'亡'的意思是（）",
     "options": [
       {
         "key": "A",
@@ -1154,7 +1291,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "“亡羊补牢”的意思是丢失了羊再去修补羊圈，“亡”是丢失、失去的意思。整个成语比喻出了问题后想办法补救，可以防止再次受损。答案为C。",
+    "explanation": "'亡羊补牢'的意思是丢失了羊再去修补羊圈，'亡'是丢失、失去的意思。整个成语比喻出了问题后想办法补救，可以防止再次受损。答案为C。",
     "audio": "audio/chinese_028_q.mp3",
     "optionAudio": [
       {
@@ -1173,30 +1310,35 @@
         "key": "D",
         "audio": "audio/chinese_028_d.mp3"
       }
+    ],
+    "id": "primary-chinese-28",
+    "knowledgePoint": "PC-GY-011",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "下列成语中不含反义词的是（）",
+    "question": "下列成语中不含近义词的是（）",
     "options": [
       {
         "key": "A",
-        "text": "大同小异"
+        "text": "眼疾手快"
       },
       {
         "key": "B",
-        "text": "深入浅出"
+        "text": "东奔西走"
       },
       {
         "key": "C",
-        "text": "三长两短"
+        "text": "大材小用"
       },
       {
         "key": "D",
-        "text": "前因后果"
+        "text": "甜言蜜语"
       }
     ],
     "answer": "C",
-    "explanation": "“大同小异”中“大”和“小”是反义词，“深入浅出”中“深”和“浅”是反义词，“前因后果”中“前”和“后”是反义词，而“三长两短”中“长”和“短”是反义词，但“三长两短”比喻意外的灾祸或事故，不是有意用反义词的成语。题目问不含反义词的，C选项不太合适。实际上题目设计是单选，三长两短中是含有反义词的。答案为C需重新考量，更准确地说“大同小异”中大和小的反义关系最明显，但题目设计意图应选A。答案为A。",
+    "explanation": "'大材小用'中'大'和'小'是反义词，意思是大的材料用在小地方，比喻使用不当。其他选项都含近义词：眼疾手快（疾、快）、东奔西走（东、西表方向但奔和走是近义）、甜言蜜语（甜、蜜都是甜的意思）。答案为C。",
     "audio": "audio/chinese_029_q.mp3",
     "optionAudio": [
       {
@@ -1215,10 +1357,16 @@
         "key": "D",
         "audio": "audio/chinese_029_d.mp3"
       }
+    ],
+    "id": "primary-chinese-29",
+    "knowledgePoint": "PC-GY-011",
+    "knowledgeTags": [
+      "词义辨析",
+      "成语俗语"
     ]
   },
   {
-    "question": "“狐假虎威”这个成语的意思是（）",
+    "question": "'狐假虎威'这个成语的意思是（）",
     "options": [
       {
         "key": "A",
@@ -1238,7 +1386,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“狐假虎威”出自《战国策》，讲的是狐狸借老虎的威风吓跑百兽，后来比喻借着别人的势力欺压人。答案为B。",
+    "explanation": "'狐假虎威'出自《战国策》，讲的是狐狸借老虎的威风吓跑百兽，后来比喻借着别人的势力欺压人。答案为B。",
     "audio": "audio/chinese_030_q.mp3",
     "optionAudio": [
       {
@@ -1257,6 +1405,11 @@
         "key": "D",
         "audio": "audio/chinese_030_d.mp3"
       }
+    ],
+    "id": "primary-chinese-30",
+    "knowledgePoint": "PC-GY-011",
+    "knowledgeTags": [
+      "成语俗语"
     ]
   },
   {
@@ -1280,7 +1433,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "根据短文内容“春天来了，小草绿了，花儿开了”明确说明是春天。A夏天没有提到，B秋天树叶会变黄，D冬天小草不会绿。答案为C。",
+    "explanation": "根据短文内容'春天来了，小草绿了，花儿开了'明确说明是春天。夏天没有提到，秋天树叶会变黄，冬天小草不会绿。答案为C。",
     "audio": "audio/chinese_031_q.mp3",
     "optionAudio": [
       {
@@ -1299,6 +1452,11 @@
         "key": "D",
         "audio": "audio/chinese_031_d.mp3"
       }
+    ],
+    "id": "primary-chinese-31",
+    "knowledgePoint": "PC-GY-018",
+    "knowledgeTags": [
+      "阅读理解"
     ]
   },
   {
@@ -1322,7 +1480,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "根据短文“，小明今天忘记带书包了，他很着急”明确说明小明着急的原因是忘记带书包。答案为B。",
+    "explanation": "根据短文'小明今天忘记带书包了，他很着急'明确说明小明着急的原因是忘记带书包。答案为B。",
     "audio": "audio/chinese_032_q.mp3",
     "optionAudio": [
       {
@@ -1341,10 +1499,15 @@
         "key": "D",
         "audio": "audio/chinese_032_d.mp3"
       }
+    ],
+    "id": "primary-chinese-32",
+    "knowledgePoint": "PC-GY-018",
+    "knowledgeTags": [
+      "阅读理解"
     ]
   },
   {
-    "question": "“举世闻名”中“举”的意思是（）",
+    "question": "'举世闻名'中'举'的意思是（）",
     "options": [
       {
         "key": "A",
@@ -1364,7 +1527,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“举世闻名”中“举”是全的意思，整个成语意思是全世界都知道，形容名声很大。“举”作“全”讲时还有“举国上下”“举世无双”等用法。答案为B。",
+    "explanation": "'举世闻名'中'举'是全的意思，整个成语意思是全世界都知道，形容名声很大。'举'作'全'讲时还有'举国上下''举世无双'等用法。答案为B。",
     "audio": "audio/chinese_033_q.mp3",
     "optionAudio": [
       {
@@ -1383,14 +1546,19 @@
         "key": "D",
         "audio": "audio/chinese_033_d.mp3"
       }
+    ],
+    "id": "primary-chinese-33",
+    "knowledgePoint": "PC-GY-011",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "下列汉字中“口”作偏旁时在左边的是（）",
+    "question": "下列汉字中'口'作偏旁时在下方的是（）",
     "options": [
       {
         "key": "A",
-        "text": "啊"
+        "text": "吃"
       },
       {
         "key": "B",
@@ -1402,11 +1570,11 @@
       },
       {
         "key": "D",
-        "text": "吗"
+        "text": "哥"
       }
     ],
-    "answer": "C",
-    "explanation": "“喝”是口字旁在左边，“吹”是口字旁在左边，“啊”和“吗”也是口字旁在左边。但严格来说，喝、吹、啊、吗的口字旁都在左边。题目可能有误，实际上这些字的口字旁都在左边。但如果一定要区分，喝、吹的口在左，啊、吗的口也在左。答案为C。",
+    "answer": "D",
+    "explanation": "'哥'字的口在下方（可作为口字底），而'吃''喝''吹'的口字旁都在左边。'哥'是上下结构，答案D正确。",
     "audio": "audio/chinese_034_q.mp3",
     "optionAudio": [
       {
@@ -1425,10 +1593,15 @@
         "key": "D",
         "audio": "audio/chinese_034_d.mp3"
       }
+    ],
+    "id": "primary-chinese-34",
+    "knowledgePoint": "PC-GY-007",
+    "knowledgeTags": [
+      "部首"
     ]
   },
   {
-    "question": "“春回大地，万物复苏”中“复苏”的意思是（）",
+    "question": "'春回大地，万物复苏'中'复苏'的意思是（）",
     "options": [
       {
         "key": "A",
@@ -1448,7 +1621,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“复苏”是指昏迷后醒过来，或失去生机后重新恢复生机。这里指大自然中各种生物恢复生机。答案为A。",
+    "explanation": "'复苏'是指昏迷后醒过来，或失去生机后重新恢复生机。这里指大自然中各种生物恢复生机。答案为A。",
     "audio": "audio/chinese_035_q.mp3",
     "optionAudio": [
       {
@@ -1467,6 +1640,11 @@
         "key": "D",
         "audio": "audio/chinese_035_d.mp3"
       }
+    ],
+    "id": "primary-chinese-35",
+    "knowledgePoint": "PC-GY-010",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
@@ -1490,7 +1668,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "《江雪》描写的是冬天的雪景，《静夜思》是思乡诗，《春晓》描写春天的景色“春眠不觉晓，处处闻啼鸟”，《山行》描写秋天的景色“停车坐爱枫林晚，霜叶红于二月花”。答案为C。",
+    "explanation": "《江雪》描写的是冬天的雪景，《静夜思》是思乡诗，《春晓》描写春天的景色'春眠不觉晓，处处闻啼鸟'，《山行》描写秋天的景色'停车坐爱枫林晚，霜叶红于二月花'。答案为C。",
     "audio": "audio/chinese_036_q.mp3",
     "optionAudio": [
       {
@@ -1509,10 +1687,15 @@
         "key": "D",
         "audio": "audio/chinese_036_d.mp3"
       }
+    ],
+    "id": "primary-chinese-36",
+    "knowledgePoint": "PC-GY-016",
+    "knowledgeTags": [
+      "古诗词默写"
     ]
   },
   {
-    "question": "“飞流直下三千尺”出自哪首诗？",
+    "question": "'飞流直下三千尺'出自哪首诗？",
     "options": [
       {
         "key": "A",
@@ -1532,7 +1715,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“飞流直下三千尺，疑是银河落九天”出自唐代李白的《望庐山瀑布》，描写庐山瀑布的壮观景象。答案为A。",
+    "explanation": "'飞流直下三千尺，疑是银河落九天'出自唐代李白的《望庐山瀑布》，描写庐山瀑布的壮观景象。答案为A。",
     "audio": "audio/chinese_037_q.mp3",
     "optionAudio": [
       {
@@ -1551,10 +1734,15 @@
         "key": "D",
         "audio": "audio/chinese_037_d.mp3"
       }
+    ],
+    "id": "primary-chinese-37",
+    "knowledgePoint": "PC-GY-016",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“桃花潭水深千尺”下一句是（）",
+    "question": "'桃花潭水深千尺'下一句是（）",
     "options": [
       {
         "key": "A",
@@ -1562,15 +1750,15 @@
       },
       {
         "key": "B",
-        "text": "不及汪伦送我情"
+        "text": "汪伦送我情"
       },
       {
         "key": "C",
-        "text": "不及汪伦送我情"
+        "text": "情深似海"
       },
       {
         "key": "D",
-        "text": "不及汪伦送我情"
+        "text": "潭水三千尺"
       }
     ],
     "answer": "A",
@@ -1593,6 +1781,11 @@
         "key": "D",
         "audio": "audio/chinese_038_d.mp3"
       }
+    ],
+    "id": "primary-chinese-38",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
@@ -1616,7 +1809,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "“日”和“月”都是独体字，不是左右结构；“明”是左右结构由“日”和“月”组成。一个汉字不可能同时既是上下结构又是左右结构，所以答案为D。",
+    "explanation": "'日'和'月'都是独体字，不是左右结构；'明'是左右结构由'日'和'月'组成。一个汉字不可能同时既是上下结构又是左右结构，所以答案为D。",
     "audio": "audio/chinese_039_q.mp3",
     "optionAudio": [
       {
@@ -1635,10 +1828,15 @@
         "key": "D",
         "audio": "audio/chinese_039_d.mp3"
       }
+    ],
+    "id": "primary-chinese-39",
+    "knowledgePoint": "PC-GY-006",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“数(shǔ)一数(shù)”中两个“数”的读音分别是（）",
+    "question": "'数(shǔ)一数(shù)'中两个'数'的读音分别是（）",
     "options": [
       {
         "key": "A",
@@ -1658,7 +1856,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "第一个“数(shǔ)”是动词，意思是查点数目；第二个“数(shù)”是名词，指数目、数字。这是典型的多音字用法，体现了汉语的丰富性。答案为A。",
+    "explanation": "第一个'数(shǔ)'是动词，意思是查点数目；第二个'数(shù)'是名词，指数目、数字。这是典型的多音字用法，体现了汉语的丰富性。答案为A。",
     "audio": "audio/chinese_040_q.mp3",
     "optionAudio": [
       {
@@ -1677,10 +1875,15 @@
         "key": "D",
         "audio": "audio/chinese_040_d.mp3"
       }
+    ],
+    "id": "primary-chinese-40",
+    "knowledgePoint": "PC-GY-001",
+    "knowledgeTags": [
+      "拼音"
     ]
   },
   {
-    "question": "“一本书”的“本”是量词，它原来指的是（）",
+    "question": "'一本书'的'本'是量词，它原来指的是（）",
     "options": [
       {
         "key": "A",
@@ -1700,7 +1903,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“本”是量词，最初的意思是草木的根或茎干，后来引申为计量书籍簿册的数量单位。成语“本末倒置”中的“本”就是根本、本源的意思。答案为B。",
+    "explanation": "'本'是量词，最初的意思是草木的根或茎干，后来引申为计量书籍簿册的数量单位。成语'本末倒置'中的'本'就是根本、本源的意思。答案为B。",
     "audio": "audio/chinese_041_q.mp3",
     "optionAudio": [
       {
@@ -1719,10 +1922,15 @@
         "key": "D",
         "audio": "audio/chinese_041_d.mp3"
       }
+    ],
+    "id": "primary-chinese-41",
+    "knowledgePoint": "PC-GY-017",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "《游子吟》诗中“谁言寸草心”的下一句是（）",
+    "question": "《游子吟》诗中'谁言寸草心'的下一句是（）",
     "options": [
       {
         "key": "A",
@@ -1730,15 +1938,15 @@
       },
       {
         "key": "B",
-        "text": "报得三春晖"
+        "text": "寸草报春晖"
       },
       {
         "key": "C",
-        "text": "报得三春晖"
+        "text": "春晖照我还"
       },
       {
         "key": "D",
-        "text": "报得三春晖"
+        "text": "三春晖"
       }
     ],
     "answer": "A",
@@ -1761,10 +1969,15 @@
         "key": "D",
         "audio": "audio/chinese_042_d.mp3"
       }
+    ],
+    "id": "primary-chinese-42",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“千山鸟飞绝”的下一句是（）",
+    "question": "'千山鸟飞绝'的下一句是（）",
     "options": [
       {
         "key": "A",
@@ -1772,7 +1985,7 @@
       },
       {
         "key": "B",
-        "text": "万径人踪灭"
+        "text": "鸟飞千山绝"
       },
       {
         "key": "C",
@@ -1803,10 +2016,15 @@
         "key": "D",
         "audio": "audio/chinese_043_d.mp3"
       }
+    ],
+    "id": "primary-chinese-43",
+    "knowledgePoint": "PC-GY-013",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“读书百遍，其义自见”中“见”的读音是（）",
+    "question": "'读书百遍，其义自见'中'见'的读音是（）",
     "options": [
       {
         "key": "A",
@@ -1826,7 +2044,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“读书百遍，其义自见”中“见”读xiàn，是显现、显露的意思。如果读jiàn，意思就变成看见了。这句话的意思是书读多了，自然就能理解其中的意思。答案为B。",
+    "explanation": "'读书百遍，其义自见'中'见'读xiàn，是显现、显露的意思。如果读jiàn，意思就变成看见了。这句话的意思是书读多了，自然就能理解其中的意思。答案为B。",
     "audio": "audio/chinese_044_q.mp3",
     "optionAudio": [
       {
@@ -1845,10 +2063,15 @@
         "key": "D",
         "audio": "audio/chinese_044_d.mp3"
       }
+    ],
+    "id": "primary-chinese-44",
+    "knowledgePoint": "PC-GY-001",
+    "knowledgeTags": [
+      "拼音"
     ]
   },
   {
-    "question": "下列词语中“害”字意思不同的是（）",
+    "question": "下列词语中'害'字意思不同的是（）",
     "options": [
       {
         "key": "A",
@@ -1868,7 +2091,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“伤害”中的“害”是受伤、有害的意思；“害虫”中的“害”是有害的、损害农作物的；”害怕”中的“害”是恐惧的意思；而“害羞”中的“害”是怕、畏惧的意思。严格来说B害虫的害是形容词性，其他多为动词性。答案为B。",
+    "explanation": "'伤害'中的'害'是受伤、有害的意思；'害虫'中的'害'是有害的、损害农作物的；'害羞'中的'害'是怕、畏惧的意思；'害怕'中的'害'也是恐惧的意思。B害虫的'害'是形容词性，其他多为动词性。答案为B。",
     "audio": "audio/chinese_045_q.mp3",
     "optionAudio": [
       {
@@ -1887,10 +2110,15 @@
         "key": "D",
         "audio": "audio/chinese_045_d.mp3"
       }
+    ],
+    "id": "primary-chinese-45",
+    "knowledgePoint": "PC-GY-010",
+    "knowledgeTags": [
+      "词义辨析"
     ]
   },
   {
-    "question": "“千里迢迢”中“迢迢”的意思是（）",
+    "question": "'千里迢迢'中'迢迢'的意思是（）",
     "options": [
       {
         "key": "A",
@@ -1910,7 +2138,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“千里迢迢”形容路途非常遥远，“迢迢”是遥远的样子。类似的词语还有“秋水迢迢”“夜色迢迢”等，都表示遥远之意。答案为A。",
+    "explanation": "'千里迢迢'形容路途非常遥远，'迢迢'是遥远的样子。类似的词语还有'秋水迢迢''夜色迢迢'等，都表示遥远之意。答案为A。",
     "audio": "audio/chinese_046_q.mp3",
     "optionAudio": [
       {
@@ -1929,10 +2157,15 @@
         "key": "D",
         "audio": "audio/chinese_046_d.mp3"
       }
+    ],
+    "id": "primary-chinese-46",
+    "knowledgePoint": "PC-GY-011",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "“入木三分”这个成语典故与谁有关？",
+    "question": "'入木三分'这个成语典故与谁有关？",
     "options": [
       {
         "key": "A",
@@ -1952,7 +2185,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "“入木三分”出自《书断·王羲之》，传说王羲之在木板上写字，工匠雕刻时发现墨迹渗入木板有三分深，形容书法笔力强劲，也比喻见解、议论十分深刻。答案为A。",
+    "explanation": "'入木三分'出自《书断·王羲之》，传说王羲之在木板上写字，工匠雕刻时发现墨迹渗入木板有三分深，形容书法笔力强劲，也比喻见解、议论十分深刻。答案为A。",
     "audio": "audio/chinese_047_q.mp3",
     "optionAudio": [
       {
@@ -1971,6 +2204,11 @@
         "key": "D",
         "audio": "audio/chinese_047_d.mp3"
       }
+    ],
+    "id": "primary-chinese-47",
+    "knowledgePoint": "PC-GY-012",
+    "knowledgeTags": [
+      "成语俗语"
     ]
   },
   {
@@ -1994,7 +2232,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "根据短文“兔子跑得很快，乌龟爬得很慢”可以明确知道兔子比乌龟跑得更快。答案为B。",
+    "explanation": "根据短文'兔子跑得很快，乌龟爬得很慢'可以明确知道兔子比乌龟跑得更快。答案为B。",
     "audio": "audio/chinese_048_q.mp3",
     "optionAudio": [
       {
@@ -2013,10 +2251,15 @@
         "key": "D",
         "audio": "audio/chinese_048_d.mp3"
       }
+    ],
+    "id": "primary-chinese-48",
+    "knowledgePoint": "PC-GY-018",
+    "knowledgeTags": [
+      "阅读理解"
     ]
   },
   {
-    "question": "“年年有余”中“余”的意思是（）",
+    "question": "'年年有余'中'余'的意思是（）",
     "options": [
       {
         "key": "A",
@@ -2036,7 +2279,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "“年年有余”是吉祥话，“余”是剩余、剩下的意思，寓意每年都有多余的财富和粮食，生活富足。“余”作“我”讲时出现在“余一人”等古语中。答案为B。",
+    "explanation": "'年年有余'是吉祥话，'余'是剩余、剩下的意思，寓意每年都有多余的财富和粮食，生活富足。'余'作'我'讲时出现在'余一人'等古语中。答案为B。",
     "audio": "audio/chinese_049_q.mp3",
     "optionAudio": [
       {
@@ -2055,10 +2298,15 @@
         "key": "D",
         "audio": "audio/chinese_049_d.mp3"
       }
+    ],
+    "id": "primary-chinese-49",
+    "knowledgePoint": "PC-GY-010",
+    "knowledgeTags": [
+      "语文基础"
     ]
   },
   {
-    "question": "下列汉字中与\"书\"字结构相同的是（）",
+    "question": "下列汉字中与'书'字结构相同的是（）",
     "options": [
       {
         "key": "A",
@@ -2077,8 +2325,8 @@
         "text": "田"
       }
     ],
-    "answer": "A",
-    "explanation": "\"书\"是独体字，\"字\"也是独体字；\"好\"是左右结构，\"明\"是左右结构，\"田\"是包围结构。答案为A。",
+    "answer": "D",
+    "explanation": "'书'是独体字，'田'也是独体字（象形字，像田地之形），结构最为相近；'字'是上下结构，'好'是左右结构，'明'是左右结构，与书字结构均不同。故答案为D。",
     "audio": "audio/chinese_050_q.mp3",
     "optionAudio": [
       {
@@ -2097,6 +2345,11 @@
         "key": "D",
         "audio": "audio/chinese_050_d.mp3"
       }
+    ],
+    "id": "primary-chinese-50",
+    "knowledgePoint": "PC-GY-006",
+    "knowledgeTags": [
+      "语文基础"
     ]
   }
 ]

@@ -1,0 +1,872 @@
+[
+  {
+    "id": "english-senior-high-1",
+    "type": "choice",
+    "question": "The book _____ cover is red is mine.",
+    "options": [
+      {
+        "label": "A",
+        "text": "which"
+      },
+      {
+        "label": "B",
+        "text": "whose"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "who"
+      }
+    ],
+    "answer": "B",
+    "explanation": "whose表示所有格关系，修饰cover，指“书的封面是红色的”。which和that引导定语从句时在句中作主语或宾语，不作定语；who指人。",
+    "knowledgePoints": [
+      "定语从句"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-2",
+    "type": "choice",
+    "question": "_____ we will hold the meeting has not been decided yet.",
+    "options": [
+      {
+        "label": "A",
+        "text": "That"
+      },
+      {
+        "label": "B",
+        "text": "What"
+      },
+      {
+        "label": "C",
+        "text": "Whether"
+      },
+      {
+        "label": "D",
+        "text": "Which"
+      }
+    ],
+    "answer": "C",
+    "explanation": "主语从句不缺成分，但含有“是否”的含义，故用whether引导。that引导主语从句时在句中不作成分；what表示“什么”；which表示“哪一个”。",
+    "knowledgePoints": [
+      "名词性从句"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-3",
+    "type": "choice",
+    "question": "_____ the rain stops, we won't be able to go out.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unless"
+      },
+      {
+        "label": "B",
+        "text": "If"
+      },
+      {
+        "label": "C",
+        "text": "When"
+      },
+      {
+        "label": "D",
+        "text": "Since"
+      }
+    ],
+    "answer": "A",
+    "explanation": "unless = if...not，意为“除非”，引导条件状语从句，符合句意“除非雨停，否则我们不能出去”。if表条件但不含否定意义；when表时间；since表原因或时间。",
+    "knowledgePoints": [
+      "状语从句"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-4",
+    "type": "choice",
+    "question": "If I _____ the truth at that time, I would have helped you.",
+    "options": [
+      {
+        "label": "A",
+        "text": "know"
+      },
+      {
+        "label": "B",
+        "text": "knew"
+      },
+      {
+        "label": "C",
+        "text": "had known"
+      },
+      {
+        "label": "D",
+        "text": "would have known"
+      }
+    ],
+    "answer": "C",
+    "explanation": "根据主句的would have helped可知是与过去事实相反的虚拟语气，从句应使用过去完成时had known。",
+    "knowledgePoints": [
+      "虚拟语气"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-5",
+    "type": "choice",
+    "question": "The doctor recommended that he _____ smoking.",
+    "options": [
+      {
+        "label": "A",
+        "text": "give up"
+      },
+      {
+        "label": "B",
+        "text": "gave up"
+      },
+      {
+        "label": "C",
+        "text": "gives up"
+      },
+      {
+        "label": "D",
+        "text": "will give up"
+      }
+    ],
+    "answer": "A",
+    "explanation": "recommend等表示建议、要求、命令的动词后接宾语从句时，从句用虚拟语气，即should + 动词原形，should可省略。",
+    "knowledgePoints": [
+      "非谓语动词"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-6",
+    "type": "choice",
+    "question": "I regret _____ you that your application has been rejected.",
+    "options": [
+      {
+        "label": "A",
+        "text": "to inform"
+      },
+      {
+        "label": "B",
+        "text": "informing"
+      },
+      {
+        "label": "C",
+        "text": "having informed"
+      },
+      {
+        "label": "D",
+        "text": "to have informed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "regret to do sth. 表示“很遗憾要做某事”，常用于告知不好的消息；regret doing sth. 表示“后悔做过某事”。根据句意“很遗憾地通知你”，应选不定式。",
+    "knowledgePoints": [
+      "动名词与不定式"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-7",
+    "type": "choice",
+    "question": "You _____ have come earlier. The train left ten minutes ago.",
+    "options": [
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "should"
+      },
+      {
+        "label": "D",
+        "text": "need"
+      }
+    ],
+    "answer": "C",
+    "explanation": "should have done表示“应该做而未做”，含有责备意味。can have done不常见；must have done表示对过去情况的肯定推测；need have done表示“需要做而未做”。",
+    "knowledgePoints": [
+      "情态动词"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-8",
+    "type": "choice",
+    "question": "By the time the police arrived, the thief _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "has escaped"
+      },
+      {
+        "label": "B",
+        "text": "had escaped"
+      },
+      {
+        "label": "C",
+        "text": "was escaping"
+      },
+      {
+        "label": "D",
+        "text": "is escaping"
+      }
+    ],
+    "answer": "B",
+    "explanation": "by the time + 过去时间，主句应使用过去完成时，表示在过去的某一时间点之前已经完成的动作。",
+    "knowledgePoints": [
+      "时态（高级）"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-9",
+    "type": "choice",
+    "question": "Never in my life _____ such a terrible experience.",
+    "options": [
+      {
+        "label": "A",
+        "text": "I have had"
+      },
+      {
+        "label": "B",
+        "text": "have I had"
+      },
+      {
+        "label": "C",
+        "text": "I had"
+      },
+      {
+        "label": "D",
+        "text": "had I"
+      }
+    ],
+    "answer": "B",
+    "explanation": "never等否定词置于句首时，句子应使用部分倒装结构。谓语的一部分（助动词）移至主语之前，故选have I had。",
+    "knowledgePoints": [
+      "倒装句"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-10",
+    "type": "choice",
+    "question": "It was not until 1920 _____ regular radio broadcasts began.",
+    "options": [
+      {
+        "label": "A",
+        "text": "when"
+      },
+      {
+        "label": "B",
+        "text": "that"
+      },
+      {
+        "label": "C",
+        "text": "which"
+      },
+      {
+        "label": "D",
+        "text": "since"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本句是It was not until...that...强调句型，强调的是时间状语not until 1920。去掉It was...that结构后句子结构完整。",
+    "knowledgePoints": [
+      "强调句"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-11",
+    "type": "choice",
+    "question": "If possible, I'd like to have the meeting _____ tomorrow.",
+    "options": [
+      {
+        "label": "A",
+        "text": "hold"
+      },
+      {
+        "label": "B",
+        "text": "to hold"
+      },
+      {
+        "label": "C",
+        "text": "held"
+      },
+      {
+        "label": "D",
+        "text": "holding"
+      }
+    ],
+    "answer": "C",
+    "explanation": "if possible = if it is possible，省略了it is，保留possible。the meeting与hold之间是被动关系，故用过去分词held作宾语补足语。",
+    "knowledgePoints": [
+      "省略句"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-12",
+    "type": "choice",
+    "question": "The number of students in our school _____ greatly increased this year.",
+    "options": [
+      {
+        "label": "A",
+        "text": "have"
+      },
+      {
+        "label": "B",
+        "text": "has"
+      },
+      {
+        "label": "C",
+        "text": "is"
+      },
+      {
+        "label": "D",
+        "text": "are"
+      }
+    ],
+    "answer": "B",
+    "explanation": "the number of作主语时，谓语动词用单数形式。a number of表示“许多”，谓语用复数。注意区分the number of和a number of。",
+    "knowledgePoints": [
+      "主谓一致"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-13",
+    "type": "choice",
+    "question": "The teacher was angry _____ the students for their carelessness.",
+    "options": [
+      {
+        "label": "A",
+        "text": "at"
+      },
+      {
+        "label": "B",
+        "text": "with"
+      },
+      {
+        "label": "C",
+        "text": "to"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "B",
+    "explanation": "be angry with sb.表示“对某人生气”；be angry at/about sth.表示“因某事生气”。句中the students是生气对象，故用with。",
+    "knowledgePoints": [
+      "介词搭配"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-14",
+    "type": "choice",
+    "question": "His speech was so _____ that everyone was deeply moved.",
+    "options": [
+      {
+        "label": "A",
+        "text": "touching"
+      },
+      {
+        "label": "B",
+        "text": "touched"
+      },
+      {
+        "label": "C",
+        "text": "touch"
+      },
+      {
+        "label": "D",
+        "text": "touches"
+      }
+    ],
+    "answer": "A",
+    "explanation": "touching表示“令人感动的”，是现在分词作形容词用，描述事物的特征；touched表示“被感动的”，是过去分词，表示人的感受。speech是物，故用touching。",
+    "knowledgePoints": [
+      "词义辨析"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-15",
+    "type": "choice",
+    "question": "The building _____ last year looks very modern.",
+    "options": [
+      {
+        "label": "A",
+        "text": "completing"
+      },
+      {
+        "label": "B",
+        "text": "completed"
+      },
+      {
+        "label": "C",
+        "text": "to complete"
+      },
+      {
+        "label": "D",
+        "text": "to be completed"
+      }
+    ],
+    "answer": "B",
+    "explanation": "the building与complete之间是被动关系，且动作已发生（last year），故用过去分词completed作后置定语，相当于which was completed last year。",
+    "knowledgePoints": [
+      "现在分词与过去分词"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-16",
+    "type": "choice",
+    "question": "Weather _____ , we will go camping tomorrow.",
+    "options": [
+      {
+        "label": "A",
+        "text": "permitted"
+      },
+      {
+        "label": "B",
+        "text": "permits"
+      },
+      {
+        "label": "C",
+        "text": "permitting"
+      },
+      {
+        "label": "D",
+        "text": "to permit"
+      }
+    ],
+    "answer": "C",
+    "explanation": "独立主格结构：名词+现在分词。weather与permit之间是主动关系，且表示正在进行，故用现在分词permitting。Weather permitting = If weather permits。",
+    "knowledgePoints": [
+      "独立主格结构"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-17",
+    "type": "choice",
+    "question": "I saw him _____ the street when I looked out of the window.",
+    "options": [
+      {
+        "label": "A",
+        "text": "cross"
+      },
+      {
+        "label": "B",
+        "text": "to cross"
+      },
+      {
+        "label": "C",
+        "text": "crossing"
+      },
+      {
+        "label": "D",
+        "text": "crossed"
+      }
+    ],
+    "answer": "C",
+    "explanation": "see sb. doing sth.表示“看见某人正在做某事”。see sb. do sth.表示“看见某人做过某事”。根据句意“当我往窗外看时”，表示正在发生，故用crossing。",
+    "knowledgePoints": [
+      "复合宾语"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-18",
+    "type": "choice",
+    "question": "—I'm sorry for being late. —_____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "That's right"
+      },
+      {
+        "label": "B",
+        "text": "You're welcome"
+      },
+      {
+        "label": "C",
+        "text": "It doesn't matter"
+      },
+      {
+        "label": "D",
+        "text": "Don't mention it"
+      }
+    ],
+    "answer": "C",
+    "explanation": "对别人道歉的回应应用That's all right / It doesn't matter / No problem。That's right用于回答正确与否；You're welcome用于回应感谢；Don't mention it也用于回应感谢或道歉。",
+    "knowledgePoints": [
+      "情景交际"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "english-senior-high-19",
+    "type": "choice",
+    "question": "The main purpose of the passage is to _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "tell a story"
+      },
+      {
+        "label": "B",
+        "text": "compare two opinions"
+      },
+      {
+        "label": "C",
+        "text": "persuade readers to take action"
+      },
+      {
+        "label": "D",
+        "text": "explain a phenomenon"
+      }
+    ],
+    "answer": "D",
+    "explanation": "这是阅读理解中考查主旨大意题的典型表述。题干询问文章的主要目的，即文章的主旨大意。选项A是记叙文特征，B是议论文特征，C是劝说类文章特征，D是说明文特征。",
+    "knowledgePoints": [
+      "阅读理解策略"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-20",
+    "type": "choice",
+    "question": "The word \"parameters\" in paragraph 3 probably means _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "rules"
+      },
+      {
+        "label": "B",
+        "text": "limits"
+      },
+      {
+        "label": "C",
+        "text": "standards"
+      },
+      {
+        "label": "D",
+        "text": "factors"
+      }
+    ],
+    "answer": "B",
+    "explanation": "这是阅读理解中考查词义猜测的典型题型。根据上下文语境，parameters在此处应指“限制因素”或“界限”，与limits含义最接近。rules指规则；standards指标准；factors指因素。",
+    "knowledgePoints": [
+      "完形填空"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-21",
+    "type": "choice",
+    "question": " _____ all the difficulties, they finished the project ahead of schedule.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Despite"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "Because of"
+      },
+      {
+        "label": "D",
+        "text": "Since"
+      }
+    ],
+    "answer": "A",
+    "explanation": "despite表示“尽管”，后接名词或动名词；although表示“尽管”，后接从句。they finished the project ahead of schedule是一个完整句子，前面应使用连词。despite后不能直接接句子，需用despite the fact that。",
+    "knowledgePoints": [
+      "语法衔接"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-22",
+    "type": "choice",
+    "question": "The professor has a very good knowledge of physics, _____ of which he is not a little proud.",
+    "options": [
+      {
+        "label": "A",
+        "text": "that"
+      },
+      {
+        "label": "B",
+        "text": "this"
+      },
+      {
+        "label": "C",
+        "text": "which"
+      },
+      {
+        "label": "D",
+        "text": "what"
+      }
+    ],
+    "answer": "C",
+    "explanation": "这是一个非限制性定语从句，which代替前面的整个句子在从句中作介词of的宾语。that不能引导非限制性定语从句；this、what不能引导定语从句。",
+    "knowledgePoints": [
+      "长难句分析"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-23",
+    "type": "choice",
+    "question": "_____ is hard is to do good all one's life and never do anything bad.",
+    "options": [
+      {
+        "label": "A",
+        "text": "This"
+      },
+      {
+        "label": "B",
+        "text": "That"
+      },
+      {
+        "label": "C",
+        "text": "It"
+      },
+      {
+        "label": "D",
+        "text": "What"
+      }
+    ],
+    "answer": "D",
+    "explanation": "本题考察it作形式主语的用法。设空处引导主语从句，且在从句中作主语，表示“什么”，应用what引导。It is hard to do...才是it作形式主语的结构，但原句is hard前已有is，故不适用。",
+    "knowledgePoints": [
+      "it用法"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-24",
+    "type": "choice",
+    "question": "_____ a student, you are supposed to study hard.",
+    "options": [
+      {
+        "label": "A",
+        "text": "To be"
+      },
+      {
+        "label": "B",
+        "text": "Being"
+      },
+      {
+        "label": "C",
+        "text": "Having been"
+      },
+      {
+        "label": "D",
+        "text": "Be"
+      }
+    ],
+    "answer": "B",
+    "explanation": "as作为介词，后接名词或动名词。being a student是介词as的宾语，在句中作状语表示原因。to be表示目的；having been表示完成且强调先于谓语；be是动词原形，不能直接接在介词后。",
+    "knowledgePoints": [
+      "as用法"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-25",
+    "type": "choice",
+    "question": "The experiment was a great success, which proved the _____ of his theory.",
+    "options": [
+      {
+        "label": "A",
+        "text": "true"
+      },
+      {
+        "label": "B",
+        "text": "truly"
+      },
+      {
+        "label": "C",
+        "text": "truth"
+      },
+      {
+        "label": "D",
+        "text": "trust"
+      }
+    ],
+    "answer": "C",
+    "explanation": "介词of后接名词。the truth of表示“...的真实性”。true是形容词；truly是副词；trust是动词或名词，不符合句意和语法结构。",
+    "knowledgePoints": [
+      "词性转换"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-26",
+    "type": "choice",
+    "question": "There _____ a pen and some books on the desk.",
+    "options": [
+      {
+        "label": "A",
+        "text": "is"
+      },
+      {
+        "label": "B",
+        "text": "are"
+      },
+      {
+        "label": "C",
+        "text": "was"
+      },
+      {
+        "label": "D",
+        "text": "were"
+      }
+    ],
+    "answer": "A",
+    "explanation": "there be句型中，谓语动词的单复数取决于其后的第一个名词。a pen是单数，故谓语用is。句中无明显过去时间标志，故用一般现在时。",
+    "knowledgePoints": [
+      "特殊句式"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-27",
+    "type": "choice",
+    "question": "The word \"ambiguous\" is most likely to appear in _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "a novel"
+      },
+      {
+        "label": "B",
+        "text": "a physics textbook"
+      },
+      {
+        "label": "C",
+        "text": "a dictionary"
+      },
+      {
+        "label": "D",
+        "text": "a chemistry lab report"
+      }
+    ],
+    "answer": "C",
+    "explanation": "ambiguous表示“含糊不清的、模棱两可的”，属于较为正式的词汇，常出现在词典或学术文章中解释词义的语境中。在小说、物理课本或化学实验报告中出现的可能性较小。",
+    "knowledgePoints": [
+      "词汇量（高考3500+）"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "id": "english-senior-high-28",
+    "type": "choice",
+    "question": "Which of the following sentence structures is more appropriate for a high-scoring composition?",
+    "options": [
+      {
+        "label": "A",
+        "text": "I think that this is a good thing."
+      },
+      {
+        "label": "B",
+        "text": "In my opinion, this is a good thing."
+      },
+      {
+        "label": "C",
+        "text": "This is what I think is a good thing."
+      },
+      {
+        "label": "D",
+        "text": "About this thing, I think it is good."
+      }
+    ],
+    "answer": "B",
+    "explanation": "高分作文要求表达地道、简洁。In my opinion置前更符合英文表达习惯，比I think that...更正式。A项I think that较口语化；C项句子结构混乱；D项About this thing表达不地道。",
+    "knowledgePoints": [
+      "写作句型"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "id": "english-senior-high-29",
+    "type": "choice",
+    "question": "When reading a passage for the main idea, you should _____.",
+    "options": [
+      {
+        "label": "A",
+        "text": "read every word carefully"
+      },
+      {
+        "label": "B",
+        "text": "look for the topic sentence in each paragraph"
+      },
+      {
+        "label": "C",
+        "text": "translate every sentence into Chinese"
+      },
+      {
+        "label": "D",
+        "text": "memorize all the new words first"
+      }
+    ],
+    "answer": "B",
+    "explanation": "略读（skimming）用于快速获取文章主旨大意，其策略是寻找每段的主题句或关键词，而非逐字精读。选项A、C、D都是精读策略，不适用于主旨大意题。",
+    "knowledgePoints": [
+      "阅读策略"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "english-senior-high-30",
+    "type": "choice",
+    "question": "In a letter of advice writing, which of the following is NOT appropriate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "You should make specific suggestions."
+      },
+      {
+        "label": "B",
+        "text": "I suggest you to give up smoking."
+      },
+      {
+        "label": "C",
+        "text": "It's advisable to exercise regularly."
+      },
+      {
+        "label": "D",
+        "text": "Why not consider taking up a hobby?"
+      }
+    ],
+    "answer": "B",
+    "explanation": "suggest表示“建议”时，后接动名词或that从句（should + 动词原形），不能接不定式。I suggest you to give up是错误结构。正确的表达应为：I suggest your giving up / I suggest that you (should) give up。",
+    "knowledgePoints": [
+      "高考写作题型"
+    ],
+    "difficulty": "hard"
+  }
+]

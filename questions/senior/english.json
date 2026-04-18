@@ -1,1 +1,2716 @@
-[{"question": "The teacher asked the students _____ their homework carefully.", "options": [{"key": "A", "text": "to complete"}, {"key": "B", "text": "completing"}, {"key": "C", "text": "complete"}, {"key": "D", "text": "completed"}], "answer": "A", "explanation": "ask sb. to do sth. 结构中，不定式作宾语补足语。"}, {"question": "If it _____ tomorrow, we will stay at home.", "options": [{"key": "A", "text": "rains"}, {"key": "B", "text": "will rain"}, {"key": "C", "text": "rained"}, {"key": "D", "text": "is raining"}], "answer": "A", "explanation": "条件状语从句中用一般现在时表将来。"}, {"question": "She has lived in Beijing _____ 2010.", "options": [{"key": "A", "text": "since"}, {"key": "B", "text": "for"}, {"key": "C", "text": "in"}, {"key": "D", "text": "on"}], "answer": "A", "explanation": "since 后接时间点，for 后接时间段。2010是时间点，故用since。"}, {"question": "The book _____ on the desk is mine.", "options": [{"key": "A", "text": "lying"}, {"key": "B", "text": "lies"}, {"key": "C", "text": "lay"}, {"key": "D", "text": "lain"}], "answer": "A", "explanation": "现在分词作后置定语，修饰 the book。lie 的现在分词是 lying。"}, {"question": "Neither the teacher nor the students _____ happy.", "options": [{"key": "A", "text": "are"}, {"key": "B", "text": "is"}, {"key": "C", "text": "am"}, {"key": "D", "text": "be"}], "answer": "A", "explanation": "neither...nor... 遵循就近原则，students 为复数，故用 are。"}, {"question": "I would appreciate _____ if you could help me.", "options": [{"key": "A", "text": "it"}, {"key": "B", "text": "that"}, {"key": "C", "text": "this"}, {"key": "D", "text": "them"}], "answer": "A", "explanation": "appreciate it if... 是固定结构，it 作形式宾语。"}, {"question": "The man _____ leg was broken is a famous athlete.", "options": [{"key": "A", "text": "whose"}, {"key": "B", "text": "who"}, {"key": "C", "text": "which"}, {"key": "D", "text": "that"}], "answer": "A", "explanation": "定语从句中 whose 指代 the man，与 leg 是所属关系。"}, {"question": "_____ it is raining heavily, we still went out.", "options": [{"key": "A", "text": "Although"}, {"key": "B", "text": "Because"}, {"key": "C", "text": "Unless"}, {"key": "D", "text": "If"}], "answer": "A", "explanation": "although 引导让步状语从句，表示“虽然…仍然…”。"}, {"question": "He has finished the work _____.", "options": [{"key": "A", "text": "already"}, {"key": "B", "text": "still"}, {"key": "C", "text": "yet"}, {"key": "D", "text": "ever"}], "answer": "A", "explanation": "already 用于肯定句中，表示“已经”。"}, {"question": "The building _____ last year looks beautiful.", "options": [{"key": "A", "text": "built"}, {"key": "B", "text": "was built"}, {"key": "C", "text": "builds"}, {"key": "D", "text": "building"}], "answer": "A", "explanation": "过去分词 built 作后置定语，相当于 which was built。"}, {"question": "_____ of the students passed the exam.", "options": [{"key": "A", "text": "Two thirds"}, {"key": "B", "text": "Two third"}, {"key": "C", "text": "Second thirds"}, {"key": "D", "text": "Two three"}], "answer": "A", "explanation": "分数表达：分子用基数词，分母用序数词，三分之二即 two thirds。"}, {"question": "It is necessary that everyone _____ the rules.", "options": [{"key": "A", "text": "obeys"}, {"key": "B", "text": "obey"}, {"key": "C", "text": "obeyed"}, {"key": "D", "text": "obeying"}], "answer": "A", "explanation": "在 It is necessary that... 结构中，从句用虚拟语气，谓语用一般现在时。"}, {"question": "The movie is worth _____ again.", "options": [{"key": "A", "text": "watching"}, {"key": "B", "text": "to watch"}, {"key": "C", "text": "watch"}, {"key": "D", "text": "watched"}], "answer": "A", "explanation": "be worth doing 是固定结构，表示“值得做…”。"}, {"question": "She looks sad. Something must have _____.", "options": [{"key": "A", "text": "gone wrong"}, {"key": "B", "text": "gone away"}, {"key": "C", "text": "gone out"}, {"key": "D", "text": "gone off"}], "answer": "A", "explanation": "go wrong 意为“出错、出问题”，符合语境。"}, {"question": "He had no sooner arrived _____ he wanted to leave.", "options": [{"key": "A", "text": "than"}, {"key": "B", "text": "when"}, {"key": "C", "text": "after"}, {"key": "D", "text": "before"}], "answer": "A", "explanation": "no sooner...than... 是固定搭配，表示“一…就…”。"}, {"question": "I suggest that he _____ the meeting right now.", "options": [{"key": "A", "text": "attend"}, {"key": "B", "text": "attends"}, {"key": "C", "text": "attended"}, {"key": "D", "text": "attending"}], "answer": "A", "explanation": "suggest 后接宾语从句，从句用虚拟语气，谓语用 (should) + 动词原形。"}, {"question": "The boy is too young to _____ himself.", "options": [{"key": "A", "text": "dress"}, {"key": "B", "text": "wear"}, {"key": "C", "text": "put on"}, {"key": "D", "text": "have on"}], "answer": "A", "explanation": "dress oneself 表示“给自己穿衣服”，符合句意。"}, {"question": "I haven't seen her _____ three years ago.", "options": [{"key": "A", "text": "since"}, {"key": "B", "text": "for"}, {"key": "C", "text": "during"}, {"key": "D", "text": "within"}], "answer": "A", "explanation": "since 后接时间点（three years ago），与现在完成时连用。"}, {"question": "The reason _____ he was late is that he missed the bus.", "options": [{"key": "A", "text": "why"}, {"key": "B", "text": "that"}, {"key": "C", "text": "which"}, {"key": "D", "text": "because"}], "answer": "A", "explanation": "the reason why... 是固定结构，why 引导定语从句。"}, {"question": "She speaks English _____ her mother does.", "options": [{"key": "A", "text": "as well as"}, {"key": "B", "text": "so well as"}, {"key": "C", "text": "more well than"}, {"key": "D", "text": "weller than"}], "answer": "A", "explanation": "as well as 意为“和…一样好”，用于肯定句比较。"}, {"question": "The room needs _____, but we plan to wait until next year.", "options": [{"key": "A", "text": "painting"}, {"key": "B", "text": "to paint"}, {"key": "C", "text": "painted"}, {"key": "D", "text": "paint"}], "answer": "A", "explanation": "need doing = need to be done，表示“需要被…”。"}, {"question": "I would have helped you _____ you told me.", "options": [{"key": "A", "text": "if"}, {"key": "B", "text": "unless"}, {"key": "C", "text": "though"}, {"key": "D", "text": "because"}], "answer": "A", "explanation": "虚拟语气结构：would have done if + 过去完成时。"}, {"question": "He asked me where I _____.", "options": [{"key": "A", "text": "lived"}, {"key": "B", "text": "live"}, {"key": "C", "text": "am living"}, {"key": "D", "text": "was living"}], "answer": "A", "explanation": "宾语从句的时态与主句呼应，主句为一般过去时，从句用过去相应时态。"}, {"question": "_____ the work, he went home.", "options": [{"key": "A", "text": "Having finished"}, {"key": "B", "text": "Finished"}, {"key": "C", "text": "Finishing"}, {"key": "D", "text": "To finish"}], "answer": "A", "explanation": "现在分词完成式作状语，表示动作在谓语之前发生。"}, {"question": "It was at the school _____ I studied hard.", "options": [{"key": "A", "text": "that"}, {"key": "B", "text": "where"}, {"key": "C", "text": "which"}, {"key": "D", "text": "when"}], "answer": "A", "explanation": "强调句结构：It is/was + 强调部分 + that/who + 其余部分。"}, {"question": "I have never seen _____ film before.", "options": [{"key": "A", "text": "such an exciting"}, {"key": "B", "text": "so an exciting"}, {"key": "C", "text": "such exciting"}, {"key": "D", "text": "a such exciting"}], "answer": "A", "explanation": "such + a/an + adj. + n. = so + adj. + a/an + n.，film 是单数可数名词。"}, {"question": "The boy would have died _____ the doctor's arrival.", "options": [{"key": "A", "text": "but for"}, {"key": "B", "text": "if not"}, {"key": "C", "text": "without"}, {"key": "D", "text": "except"}], "answer": "A", "explanation": "but for 意为“要不是”，与虚拟语气连用。"}, {"question": "She has a gift for _____ languages.", "options": [{"key": "A", "text": "learning"}, {"key": "B", "text": "learn"}, {"key": "C", "text": "learned"}, {"key": "D", "text": "to learn"}], "answer": "A", "explanation": "have a gift for doing sth. 是固定搭配，意为“有做…的天赋”。"}, {"question": "The teacher said that light _____ faster than sound.", "options": [{"key": "A", "text": "travels"}, {"key": "B", "text": "traveled"}, {"key": "C", "text": "is traveling"}, {"key": "D", "text": "has traveled"}], "answer": "A", "explanation": "客观真理和科学事实用在宾语从句中时，任何时态都不变。"}, {"question": "I would rather you _____ tomorrow.", "options": [{"key": "A", "text": "came"}, {"key": "B", "text": "come"}, {"key": "C", "text": "would come"}, {"key": "D", "text": "to come"}], "answer": "A", "explanation": "would rather 后接宾语从句，用虚拟语气，谓语用一般过去时。"}, {"question": "The old man has three sons, _____ is a doctor.", "options": [{"key": "A", "text": "one of whom"}, {"key": "B", "text": "one of which"}, {"key": "C", "text": "a one of them"}, {"key": "D", "text": "one of them"}], "answer": "A", "explanation": "one of whom 引导非限制性定语从句，whom 指代 sons。"}, {"question": "It's time we _____ something to protect the environment.", "options": [{"key": "A", "text": "did"}, {"key": "B", "text": "do"}, {"key": "C", "text": "would do"}, {"key": "D", "text": "have done"}], "answer": "A", "explanation": "It's time (that) sb. did sth. 是虚拟语气结构，意为“该做…了”。"}, {"question": "He got up early _____ he could catch the first bus.", "options": [{"key": "A", "text": "in order that"}, {"key": "B", "text": "so that"}, {"key": "C", "text": "both A and B"}, {"key": "D", "text": "neither A nor B"}], "answer": "C", "explanation": "in order that 和 so that 都可引导目的状语从句，意为“以便、为了”。"}, {"question": "The weather in Beijing is different from _____ in Guangzhou.", "options": [{"key": "A", "text": "that"}, {"key": "B", "text": "it"}, {"key": "C", "text": "one"}, {"key": "D", "text": "this"}], "answer": "A", "explanation": "that 替代前面出现的单数名词 the weather，避免重复。"}, {"question": "She had hardly sat down _____ the phone rang.", "options": [{"key": "A", "text": "when"}, {"key": "B", "text": "than"}, {"key": "C", "text": "after"}, {"key": "D", "text": "as"}], "answer": "A", "explanation": "hardly...when... 意为“一…就…”，hardly 后的主句用过去完成时。"}, {"question": "The book is _____ of the two.", "options": [{"key": "A", "text": "the more interesting"}, {"key": "B", "text": "more interesting"}, {"key": "C", "text": "most interesting"}, {"key": "D", "text": "interesting"}], "answer": "A", "explanation": "两者之间比较用比较级，且前有定冠词 the。"}, {"question": "He was about to leave _____ the doorbell rang.", "options": [{"key": "A", "text": "when"}, {"key": "B", "text": "as"}, {"key": "C", "text": "than"}, {"key": "D", "text": "while"}], "answer": "A", "explanation": "be about to do...when... 意为“正要…这时…”。"}, {"question": "_____ the day went on, the weather got worse.", "options": [{"key": "A", "text": "With"}, {"key": "B", "text": "As"}, {"key": "C", "text": "Since"}, {"key": "D", "text": "Because"}], "answer": "B", "explanation": "as 引导时间状语从句，意为“随着”。with 后不接从句。"}, {"question": "I have no idea _____.", "options": [{"key": "A", "text": "when he will come"}, {"key": "B", "text": "when he comes"}, {"key": "C", "text": "when did he come"}, {"key": "D", "text": "when will he come"}], "answer": "A", "explanation": "idea 后接同位语从句，从句用陈述语序，且表示将来用 will come。"}, {"question": "She is the only one of the girls who _____ the piano well.", "options": [{"key": "A", "text": "plays"}, {"key": "B", "text": "play"}, {"key": "C", "text": "played"}, {"key": "D", "text": "has played"}], "answer": "A", "explanation": "the only one of...who... 定语从句修饰 one，谓语用单数。"}, {"question": "The man insisted that he _____ nothing wrong.", "options": [{"key": "A", "text": "had done"}, {"key": "B", "text": "has done"}, {"key": "C", "text": "did"}, {"key": "D", "text": "does"}], "answer": "A", "explanation": "insist 表示“坚持说（某事属实）”时，用陈述语气；从句动作先于主句，用过去完成时。"}, {"question": "The teacher told us that light _____ in straight lines.", "options": [{"key": "A", "text": "travels"}, {"key": "B", "text": "traveled"}, {"key": "C", "text": "is traveling"}, {"key": "D", "text": "was traveling"}], "answer": "A", "explanation": "宾语从句中客观真理用一般现在时，不受主句时态影响。"}, {"question": "_____ the truth, he would not have believed you.", "options": [{"key": "A", "text": "Had he known"}, {"key": "B", "text": "If he knew"}, {"key": "C", "text": "If he has known"}, {"key": "D", "text": "Would he have known"}], "answer": "A", "explanation": "倒装虚拟语气，相当于 If he had known the truth，省略 if 用 Had he known。"}, {"question": "_____ beautiful the flower is!", "options": [{"key": "A", "text": "What"}, {"key": "B", "text": "How"}, {"key": "C", "text": "What a"}, {"key": "D", "text": "How a"}], "answer": "B", "explanation": "how 引导的感叹句结构：How + adj./adv. + 主谓！"}, {"question": "I remember _____ her somewhere before.", "options": [{"key": "A", "text": "meeting"}, {"key": "B", "text": "to meet"}, {"key": "C", "text": "meet"}, {"key": "D", "text": "met"}], "answer": "A", "explanation": "remember doing sth. 表示“记得做过某事”；remember to do sth. 表示“记得要去做”。"}, {"question": "The girl _____ by the window is my sister.", "options": [{"key": "A", "text": "sitting"}, {"key": "B", "text": "sits"}, {"key": "C", "text": "sat"}, {"key": "D", "text": "to sit"}], "answer": "A", "explanation": "现在分词 sitting 作后置定语，相当于 who is sitting。"}, {"question": "He asked me if I knew whose car _____.", "options": [{"key": "A", "text": "this was"}, {"key": "B", "text": "this is"}, {"key": "C", "text": "it was"}, {"key": "D", "text": "it is"}], "answer": "A", "explanation": "宾语从句用陈述语序，且 whose 限定 car，从句主语为 this。"}, {"question": "_____ the project, they decided to have a celebration.", "options": [{"key": "A", "text": "Having completed"}, {"key": "B", "text": "Completing"}, {"key": "C", "text": "To complete"}, {"key": "D", "text": "Completed"}], "answer": "A", "explanation": "Having completed 作状语，表示动作在谓语之前已完成。"}, {"question": "We should keep the window _____.", "options": [{"key": "A", "text": "open"}, {"key": "B", "text": "opened"}, {"key": "C", "text": "opening"}, {"key": "D", "text": "to open"}], "answer": "A", "explanation": "keep + n. + adj. 结构，open 作宾语补足语，表示保持某种状态。"}, {"question": "It is no use _____ over spilt milk.", "options": [{"key": "A", "text": "crying"}, {"key": "B", "text": "cry"}, {"key": "C", "text": "cried"}, {"key": "D", "text": "to cry"}], "answer": "A", "explanation": "It is no use doing sth. 是固定结构，意为“做…是无用的”。"}, {"question": "She has difficulty in learning _____, which is very popular nowadays.", "options": [{"key": "A", "text": "AI"}, {"key": "B", "text": "an AI"}, {"key": "C", "text": "the AI"}, {"key": "D", "text": "AIs"}], "answer": "A", "explanation": "AI（人工智能）是缩略词，作不可数名词用，不加冠词也不变复数。"}, {"question": "This is the very book _____ I lost yesterday.", "options": [{"key": "A", "text": "that"}, {"key": "B", "text": "which"}, {"key": "C", "text": "who"}, {"key": "D", "text": "whom"}], "answer": "A", "explanation": "当先行词被 the very, the only, the same 等修饰时，关系代词用 that。"}, {"question": "He acted as if he _____ everything in the world.", "options": [{"key": "A", "text": "knew"}, {"key": "B", "text": "knows"}, {"key": "C", "text": "has known"}, {"key": "D", "text": "known"}], "answer": "A", "explanation": "as if 引导的状语从句用虚拟语气，与现在事实相反用一般过去时。"}, {"question": "The children were excited _____ the cartoon.", "options": [{"key": "A", "text": "to watch"}, {"key": "B", "text": "watching"}, {"key": "C", "text": "watch"}, {"key": "D", "text": "watched"}], "answer": "A", "explanation": "be excited to do sth. 意为“很兴奋去做某事”。"}, {"question": "The teacher asked the new student _____.", "options": [{"key": "A", "text": "where did he come from"}, {"key": "B", "text": "where he came from"}, {"key": "C", "text": "where does he come from"}, {"key": "D", "text": "where he comes from"}], "answer": "B", "explanation": "宾语从句用陈述语序，且主句为一般过去时，从句用过去相应时态。"}, {"question": "It is reported that the president _____ Beijing tomorrow.", "options": [{"key": "A", "text": "will visit"}, {"key": "B", "text": "visits"}, {"key": "C", "text": "visited"}, {"key": "D", "text": "is visiting"}], "answer": "A", "explanation": "It is reported that... 宾语从句表示将来，用一般将来时。"}, {"question": "He ran too quickly for us _____.", "options": [{"key": "A", "text": "to catch"}, {"key": "B", "text": "catch"}, {"key": "C", "text": "caught"}, {"key": "D", "text": "catching"}], "answer": "A", "explanation": "too...to... 结构中，不定式 to catch 作结果状语。"}, {"question": "_____ is known to all, China is a developing country.", "options": [{"key": "A", "text": "As"}, {"key": "B", "text": "It"}, {"key": "C", "text": "Which"}, {"key": "D", "text": "That"}], "answer": "A", "explanation": "as 引导非限制性定语从句，指代后面整个句子，可位于句首。"}, {"question": "I would appreciate _____ very much if you could give me a hand.", "options": [{"key": "A", "text": "that"}, {"key": "B", "text": "this"}, {"key": "C", "text": "it"}, {"key": "D", "text": "them"}], "answer": "C", "explanation": "appreciate it if/when... 是固定结构，it 作形式宾语。"}, {"question": "He made up his mind to work harder to _____ the lost time.", "options": [{"key": "A", "text": "make up for"}, {"key": "B", "text": "make out"}, {"key": "C", "text": "make up"}, {"key": "D", "text": "make over"}], "answer": "A", "explanation": "make up for 意为“弥补”，符合句意。"}, {"question": "The student denied _____ the book from the library.", "options": [{"key": "A", "text": "having taken"}, {"key": "B", "text": "taking"}, {"key": "C", "text": "to take"}, {"key": "D", "text": "took"}], "answer": "A", "explanation": "deny doing sth. 意为“否认做过某事”。动名词的完成式 having taken 表示动作已发生。"}, {"question": "We must study hard _____ we can serve our country better.", "options": [{"key": "A", "text": "in order that"}, {"key": "B", "text": "now that"}, {"key": "C", "text": "since that"}, {"key": "D", "text": "that"}], "answer": "A", "explanation": "in order that 引导目的状语从句，意为“为了、以便”。"}, {"question": "The concert was _____ success.", "options": [{"key": "A", "text": "a great"}, {"key": "B", "text": "great"}, {"key": "C", "text": "very great"}, {"key": "D", "text": "greatly"}], "answer": "A", "explanation": "success 作可数名词用，意为“一次成功的事”，前加 a。"}, {"question": "He has difficulty _____ the problem.", "options": [{"key": "A", "text": "solving"}, {"key": "B", "text": "to solve"}, {"key": "C", "text": "solve"}, {"key": "D", "text": "solved"}], "answer": "A", "explanation": "have difficulty (in) doing sth. 结构，in 可省略。"}, {"question": "The book _____ on the shelf is very interesting.", "options": [{"key": "A", "text": "to lie"}, {"key": "B", "text": "lies"}, {"key": "C", "text": "lying"}, {"key": "D", "text": "to be lying"}], "answer": "C", "explanation": "lying 是 lie 的现在分词，作后置定语，相当于 which is lying。"}, {"question": "If I _____ you, I would take this job.", "options": [{"key": "A", "text": "were"}, {"key": "B", "text": "am"}, {"key": "C", "text": "was"}, {"key": "D", "text": "are"}], "answer": "A", "explanation": "与现在事实相反的虚拟语气条件句，谓语用一般过去时，be 动词用 were。"}, {"question": "He is not such a man _____ would tell a lie.", "options": [{"key": "A", "text": "as"}, {"key": "B", "text": "who"}, {"key": "C", "text": "that"}, {"key": "D", "text": "whom"}], "answer": "A", "explanation": "such...as... 是固定搭配，as 引导定语从句。"}, {"question": "My parents insisted that I _____ at home.", "options": [{"key": "A", "text": "stay"}, {"key": "B", "text": "stayed"}, {"key": "C", "text": "staying"}, {"key": "D", "text": "stays"}], "answer": "A", "explanation": "insist 表示“坚持要求”时，从句用虚拟语气 should + 动词原形，should 可省略。"}, {"question": "The boy spent the whole morning _____ the puzzle.", "options": [{"key": "A", "text": "working on"}, {"key": "B", "text": "working out"}, {"key": "C", "text": "working up"}, {"key": "D", "text": "working with"}], "answer": "A", "explanation": "work on 意为“从事、致力于”；work out 意为“计算出、解出”。"}, {"question": "I would rather you _____ the plan.", "options": [{"key": "A", "text": "didn't change"}, {"key": "B", "text": "don't change"}, {"key": "C", "text": "won't change"}, {"key": "D", "text": "not change"}], "answer": "A", "explanation": "would rather 后接宾语从句，用一般过去时表示虚拟。"}, {"question": "He walked into the room without _____.", "options": [{"key": "A", "text": "being noticed"}, {"key": "B", "text": "noticing"}, {"key": "C", "text": "notice"}, {"key": "D", "text": "noticed"}], "answer": "A", "explanation": "without 为介词，后接动名词被动式 being noticed。"}, {"question": "He is said _____ abroad, but I don't know which country he studied in.", "options": [{"key": "A", "text": "to have studied"}, {"key": "B", "text": "to study"}, {"key": "C", "text": "to be studying"}, {"key": "D", "text": "to have been studying"}], "answer": "A", "explanation": "be said to have done 表示“据说做过某事”，动作已发生，用不定式完成式。"}, {"question": "The reason for his absence was _____ he was ill.", "options": [{"key": "A", "text": "that"}, {"key": "B", "text": "because"}, {"key": "C", "text": "why"}, {"key": "D", "text": "whether"}], "answer": "A", "explanation": "the reason 后接 that 引导的表语从句，because 用于回答 why。"}, {"question": "_____ for your help, I wouldn't have passed the exam.", "options": [{"key": "A", "text": "Hadn't it been"}, {"key": "B", "text": "If it were not"}, {"key": "C", "text": "If you weren't"}, {"key": "D", "text": "Had it not been"}], "answer": "D", "explanation": "Had it not been = If it had not been，与虚拟语气连用。"}, {"question": "It is essential that everyone _____ the meeting on time.", "options": [{"key": "A", "text": "attend"}, {"key": "B", "text": "attends"}, {"key": "C", "text": "attended"}, {"key": "D", "text": "attending"}], "answer": "A", "explanation": "It is essential that... 从句用虚拟语气，谓语用 (should) + 动词原形。"}, {"question": "The police found the missing child _____ under a tree.", "options": [{"key": "A", "text": "sleeping"}, {"key": "B", "text": "asleep"}, {"key": "C", "text": "slept"}, {"key": "D", "text": "to sleep"}], "answer": "A", "explanation": "find + 宾语 + 现在分词 sleeping，表示“发现…正在…”。"}, {"question": "He went to the party _____ his teacher's advice.", "options": [{"key": "A", "text": "against"}, {"key": "B", "text": "for"}, {"key": "C", "text": "without"}, {"key": "D", "text": "by"}], "answer": "A", "explanation": "against one's advice 意为“违背某人的建议”。"}, {"question": "He broke the window and was made _____ it.", "options": [{"key": "A", "text": "to pay for"}, {"key": "B", "text": "pay for"}, {"key": "C", "text": "paid for"}, {"key": "D", "text": "paying for"}], "answer": "A", "explanation": "make 为使役动词，用于被动语态时，后面的不定式 to 不能省略。"}, {"question": "I have no money and _____ books.", "options": [{"key": "A", "text": "neither does he"}, {"key": "B", "text": "neither he does"}, {"key": "C", "text": "so does he"}, {"key": "D", "text": "so he does"}], "answer": "A", "explanation": "neither/nor + 助动词 + 主语，表示“…也不”，倒装结构。"}, {"question": "He is the only one of the students who _____ elected.", "options": [{"key": "A", "text": "have been"}, {"key": "B", "text": "has been"}, {"key": "C", "text": "is"}, {"key": "D", "text": "are"}], "answer": "B", "explanation": "the only one of... 修饰 one，从句谓语用单数；elect 与 students 为动宾关系，用被动语态。"}, {"question": "The doctor suggested that he _____ smoking.", "options": [{"key": "A", "text": "give up"}, {"key": "B", "text": "gives up"}, {"key": "C", "text": "gave up"}, {"key": "D", "text": "giving up"}], "answer": "A", "explanation": "suggest 表示“建议”时，从句用虚拟语气 (should) + 动词原形。give up 意为“戒烟”。"}, {"question": "The little girl is too shy to _____ in public.", "options": [{"key": "A", "text": "speak up"}, {"key": "B", "text": "speak out"}, {"key": "C", "text": "talk about"}, {"key": "D", "text": "say"}], "answer": "A", "explanation": "speak up 意为“大声说、在公开场合发言”。"}, {"question": "She regrets _____ you that your application has been rejected.", "options": [{"key": "A", "text": "to inform"}, {"key": "B", "text": "informing"}, {"key": "C", "text": "to have informed"}, {"key": "D", "text": "having informed"}], "answer": "A", "explanation": "regret to do sth. 表示“为即将做的事感到遗憾”；regret doing sth. 表示“为已做的事感到后悔”。"}, {"question": "I saw him _____ the road when I passed by.", "options": [{"key": "A", "text": "cross"}, {"key": "B", "text": "to cross"}, {"key": "C", "text": "crossing"}, {"key": "D", "text": "crossed"}], "answer": "A", "explanation": "see 为感官动词，接不带 to 的不定式作宾补，表示看到整个动作。"}, {"question": "The teacher walked into the classroom, _____ by his students.", "options": [{"key": "A", "text": "following"}, {"key": "B", "text": "followed"}, {"key": "C", "text": "to follow"}, {"key": "D", "text": "follows"}], "answer": "B", "explanation": "过去分词 followed 作伴随状语，表示被动含义：被学生跟随。"}, {"question": "He is not fond of _____ music.", "options": [{"key": "A", "text": "classical"}, {"key": "B", "text": "a classical"}, {"key": "C", "text": "classicals"}, {"key": "D", "text": "the classical"}], "answer": "A", "explanation": "music 为不可数名词，其前的修饰语 classical 不加冠词。"}, {"question": "I used to _____ a lot of coffee when I was young.", "options": [{"key": "A", "text": "drink"}, {"key": "B", "text": "drinking"}, {"key": "C", "text": "drank"}, {"key": "D", "text": "drunk"}], "answer": "A", "explanation": "used to do 表示“过去常常做…”，to 后接动词原形。"}, {"question": "The book _____ on this subject is worth reading.", "options": [{"key": "A", "text": "written"}, {"key": "B", "text": "writing"}, {"key": "C", "text": "to write"}, {"key": "D", "text": "to be written"}], "answer": "A", "explanation": "过去分词 written 作后置定语，相当于 which is written。"}, {"question": "He didn't come to class, _____ made the teacher angry.", "options": [{"key": "A", "text": "which"}, {"key": "B", "text": "that"}, {"key": "C", "text": "what"}, {"key": "D", "text": "who"}], "answer": "A", "explanation": "which 引导非限制性定语从句，指代前面整个句子。"}, {"question": "_____ the exam, he went to the library.", "options": [{"key": "A", "text": "Having finished"}, {"key": "B", "text": "Finished"}, {"key": "C", "text": "Finishing"}, {"key": "D", "text": "To finish"}], "answer": "A", "explanation": "Having finished 作时间状语，表示“完成考试后”，动作在谓语之前发生。"}, {"question": "It is said that he _____ the novel into English already.", "options": [{"key": "A", "text": "has translated"}, {"key": "B", "text": "translated"}, {"key": "C", "text": "had translated"}, {"key": "D", "text": "translates"}], "answer": "A", "explanation": "already 常与现在完成时连用，表示“已经”。"}, {"question": "He acted as if he _____ the champion.", "options": [{"key": "A", "text": "was"}, {"key": "B", "text": "is"}, {"key": "C", "text": "were"}, {"key": "D", "text": "had been"}], "answer": "A", "explanation": "as if 引导的状语从句用虚拟语气；与当时情况相符可用一般过去时。"}, {"question": "The teacher told the students to stop _____ and listen to him.", "options": [{"key": "A", "text": "talking"}, {"key": "B", "text": "to talk"}, {"key": "C", "text": "talk"}, {"key": "D", "text": "talked"}], "answer": "A", "explanation": "stop doing sth. 表示“停止做某事”；stop to do sth. 表示“停下来去做另一件事”。"}, {"question": "_____ the day went on, the weather got worse.", "options": [{"key": "A", "text": "With"}, {"key": "B", "text": "As"}, {"key": "C", "text": "Because"}, {"key": "D", "text": "Since"}], "answer": "B", "explanation": "as 引导时间状语从句，意为“随着”。"}, {"question": "He had no sooner arrived home _____ he was called out again.", "options": [{"key": "A", "text": "than"}, {"key": "B", "text": "when"}, {"key": "C", "text": "after"}, {"key": "D", "text": "before"}], "answer": "A", "explanation": "no sooner...than... 意为“一…就…”。"}, {"question": "The boy is young _____ to carry the box.", "options": [{"key": "A", "text": "enough"}, {"key": "B", "text": "very"}, {"key": "C", "text": "too"}, {"key": "D", "text": "so"}], "answer": "A", "explanation": "adj./adv. + enough + to do sth. 表示“足够…可以…”。"}, {"question": "I have never seen _____ film.", "options": [{"key": "A", "text": "such an interesting"}, {"key": "B", "text": "so an interesting"}, {"key": "C", "text": "such interesting"}, {"key": "D", "text": "a such interesting"}], "answer": "A", "explanation": "such + a/an + adj. + 单数可数名词 = so + adj. + a/an + 单数可数名词。"}, {"question": "The man _____ was our English teacher.", "options": [{"key": "A", "text": "whom you just talked to"}, {"key": "B", "text": "who you just talked to"}, {"key": "C", "text": "that you just talked"}, {"key": "D", "text": "which you just talked to"}], "answer": "A", "explanation": "whom 引导定语从句，在从句中作 talked to 的宾语。"}, {"question": "He was angry at _____ nothing.", "options": [{"key": "A", "text": "being asked"}, {"key": "B", "text": "asking"}, {"key": "C", "text": "asked"}, {"key": "D", "text": "to be asked"}], "answer": "A", "explanation": "at 为介词，后接动名词；ask 与主语为动宾关系，用被动式 being asked。"}, {"question": "Reading is _____ to my life.", "options": [{"key": "A", "text": "of great importance"}, {"key": "B", "text": "great importance"}, {"key": "C", "text": "very importance"}, {"key": "D", "text": "importantly"}], "answer": "A", "explanation": "of great importance = very important，是固定表达。"}]
+[
+  {
+    "question": "The teacher asked the students _____ their homework carefully.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to complete"
+      },
+      {
+        "key": "B",
+        "text": "completing"
+      },
+      {
+        "key": "C",
+        "text": "complete"
+      },
+      {
+        "key": "D",
+        "text": "completed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "ask sb. to do sth. 结构中，不定式作宾语补足语。",
+    "id": "se-en-001",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "If it _____ tomorrow, we will stay at home.",
+    "options": [
+      {
+        "key": "A",
+        "text": "rains"
+      },
+      {
+        "key": "B",
+        "text": "will rain"
+      },
+      {
+        "key": "C",
+        "text": "rained"
+      },
+      {
+        "key": "D",
+        "text": "is raining"
+      }
+    ],
+    "answer": "A",
+    "explanation": "条件状语从句中用一般现在时表将来。",
+    "id": "se-en-002",
+    "knowledgePoints": [
+      "状语从句(条件)",
+      "时态(一般现在时表将来)"
+    ]
+  },
+  {
+    "question": "She has lived in Beijing _____ 2010.",
+    "options": [
+      {
+        "key": "A",
+        "text": "since"
+      },
+      {
+        "key": "B",
+        "text": "for"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "answer": "A",
+    "explanation": "since 后接时间点，for 后接时间段。2010是时间点，故用since。",
+    "id": "se-en-003",
+    "knowledgePoints": [
+      "介词"
+    ]
+  },
+  {
+    "question": "The book _____ on the desk is mine.",
+    "options": [
+      {
+        "key": "A",
+        "text": "lying"
+      },
+      {
+        "key": "B",
+        "text": "lies"
+      },
+      {
+        "key": "C",
+        "text": "lay"
+      },
+      {
+        "key": "D",
+        "text": "lain"
+      }
+    ],
+    "answer": "A",
+    "explanation": "现在分词作后置定语，修饰 the book。lie 的现在分词是 lying。",
+    "id": "se-en-004",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "Neither the teacher nor the students _____ happy.",
+    "options": [
+      {
+        "key": "A",
+        "text": "are"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "am"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "answer": "A",
+    "explanation": "neither...nor... 遵循就近原则，students 为复数，故用 are。",
+    "id": "se-en-005",
+    "knowledgePoints": [
+      "主谓一致"
+    ]
+  },
+  {
+    "question": "I would appreciate _____ if you could help me.",
+    "options": [
+      {
+        "key": "A",
+        "text": "it"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "this"
+      },
+      {
+        "key": "D",
+        "text": "them"
+      }
+    ],
+    "answer": "A",
+    "explanation": "appreciate it if... 是固定结构，it 作形式宾语。",
+    "id": "se-en-006",
+    "knowledgePoints": [
+      "虚拟语气",
+      "it作形式宾语"
+    ]
+  },
+  {
+    "question": "The man _____ leg was broken is a famous athlete.",
+    "options": [
+      {
+        "key": "A",
+        "text": "whose"
+      },
+      {
+        "key": "B",
+        "text": "who"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "D",
+        "text": "that"
+      }
+    ],
+    "answer": "A",
+    "explanation": "定语从句中 whose 指代 the man，与 leg 是所属关系。",
+    "id": "se-en-007",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "_____ it is raining heavily, we still went out.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Although"
+      },
+      {
+        "key": "B",
+        "text": "Because"
+      },
+      {
+        "key": "C",
+        "text": "Unless"
+      },
+      {
+        "key": "D",
+        "text": "If"
+      }
+    ],
+    "answer": "A",
+    "explanation": "although 引导让步状语从句，表示“虽然…仍然…”。",
+    "id": "se-en-008",
+    "knowledgePoints": [
+      "状语从句(让步)"
+    ]
+  },
+  {
+    "question": "He has finished the work _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "already"
+      },
+      {
+        "key": "B",
+        "text": "still"
+      },
+      {
+        "key": "C",
+        "text": "yet"
+      },
+      {
+        "key": "D",
+        "text": "ever"
+      }
+    ],
+    "answer": "A",
+    "explanation": "already 用于肯定句中，表示“已经”。",
+    "id": "se-en-009",
+    "knowledgePoints": [
+      "时态(现在完成时)",
+      "副词"
+    ]
+  },
+  {
+    "question": "The building _____ last year looks beautiful.",
+    "options": [
+      {
+        "key": "A",
+        "text": "built"
+      },
+      {
+        "key": "B",
+        "text": "was built"
+      },
+      {
+        "key": "C",
+        "text": "builds"
+      },
+      {
+        "key": "D",
+        "text": "building"
+      }
+    ],
+    "answer": "A",
+    "explanation": "过去分词 built 作后置定语，相当于 which was built。",
+    "id": "se-en-010",
+    "knowledgePoints": [
+      "非谓语动词(过去分词)"
+    ]
+  },
+  {
+    "question": "_____ of the students passed the exam.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two thirds"
+      },
+      {
+        "key": "B",
+        "text": "Two third"
+      },
+      {
+        "key": "C",
+        "text": "Second thirds"
+      },
+      {
+        "key": "D",
+        "text": "Two three"
+      }
+    ],
+    "answer": "A",
+    "explanation": "分数表达：分子用基数词，分母用序数词，三分之二即 two thirds。",
+    "id": "se-en-011",
+    "knowledgePoints": [
+      "分数表达"
+    ]
+  },
+  {
+    "question": "It is necessary that everyone _____ the rules.",
+    "options": [
+      {
+        "key": "A",
+        "text": "obeys"
+      },
+      {
+        "key": "B",
+        "text": "obey"
+      },
+      {
+        "key": "C",
+        "text": "obeyed"
+      },
+      {
+        "key": "D",
+        "text": "obeying"
+      }
+    ],
+    "answer": "A",
+    "explanation": "在 It is necessary that... 结构中，从句用虚拟语气，谓语用一般现在时。",
+    "id": "se-en-012",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The movie is worth _____ again.",
+    "options": [
+      {
+        "key": "A",
+        "text": "watching"
+      },
+      {
+        "key": "B",
+        "text": "to watch"
+      },
+      {
+        "key": "C",
+        "text": "watch"
+      },
+      {
+        "key": "D",
+        "text": "watched"
+      }
+    ],
+    "answer": "A",
+    "explanation": "be worth doing 是固定结构，表示“值得做…”。",
+    "id": "se-en-013",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "She looks sad. Something must have _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "gone wrong"
+      },
+      {
+        "key": "B",
+        "text": "gone away"
+      },
+      {
+        "key": "C",
+        "text": "gone out"
+      },
+      {
+        "key": "D",
+        "text": "gone off"
+      }
+    ],
+    "answer": "A",
+    "explanation": "go wrong 意为“出错、出问题”，符合语境。",
+    "id": "se-en-014",
+    "knowledgePoints": [
+      "词汇辨析"
+    ]
+  },
+  {
+    "question": "He had no sooner arrived _____ he wanted to leave.",
+    "options": [
+      {
+        "key": "A",
+        "text": "than"
+      },
+      {
+        "key": "B",
+        "text": "when"
+      },
+      {
+        "key": "C",
+        "text": "after"
+      },
+      {
+        "key": "D",
+        "text": "before"
+      }
+    ],
+    "answer": "A",
+    "explanation": "no sooner...than... 是固定搭配，表示“一…就…”。",
+    "id": "se-en-015",
+    "knowledgePoints": [
+      "连词/固定搭配"
+    ]
+  },
+  {
+    "question": "I suggest that he _____ the meeting right now.",
+    "options": [
+      {
+        "key": "A",
+        "text": "attend"
+      },
+      {
+        "key": "B",
+        "text": "attends"
+      },
+      {
+        "key": "C",
+        "text": "attended"
+      },
+      {
+        "key": "D",
+        "text": "attending"
+      }
+    ],
+    "answer": "A",
+    "explanation": "suggest 后接宾语从句，从句用虚拟语气，谓语用 (should) + 动词原形。",
+    "id": "se-en-016",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The boy is too young to _____ himself.",
+    "options": [
+      {
+        "key": "A",
+        "text": "dress"
+      },
+      {
+        "key": "B",
+        "text": "wear"
+      },
+      {
+        "key": "C",
+        "text": "put on"
+      },
+      {
+        "key": "D",
+        "text": "have on"
+      }
+    ],
+    "answer": "A",
+    "explanation": "dress oneself 表示“给自己穿衣服”，符合句意。",
+    "id": "se-en-017",
+    "knowledgePoints": [
+      "词汇辨析"
+    ]
+  },
+  {
+    "question": "I haven't seen her _____ three years ago.",
+    "options": [
+      {
+        "key": "A",
+        "text": "since"
+      },
+      {
+        "key": "B",
+        "text": "for"
+      },
+      {
+        "key": "C",
+        "text": "during"
+      },
+      {
+        "key": "D",
+        "text": "within"
+      }
+    ],
+    "answer": "A",
+    "explanation": "since 后接时间点（three years ago），与现在完成时连用。",
+    "id": "se-en-018",
+    "knowledgePoints": [
+      "介词",
+      "时态(现在完成时)"
+    ]
+  },
+  {
+    "question": "The reason _____ he was late is that he missed the bus.",
+    "options": [
+      {
+        "key": "A",
+        "text": "why"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "D",
+        "text": "because"
+      }
+    ],
+    "answer": "A",
+    "explanation": "the reason why... 是固定结构，why 引导定语从句。",
+    "id": "se-en-019",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "She speaks English _____ her mother does.",
+    "options": [
+      {
+        "key": "A",
+        "text": "as well as"
+      },
+      {
+        "key": "B",
+        "text": "so well as"
+      },
+      {
+        "key": "C",
+        "text": "more well than"
+      },
+      {
+        "key": "D",
+        "text": "weller than"
+      }
+    ],
+    "answer": "A",
+    "explanation": "as well as 意为“和…一样好”，用于肯定句比较。",
+    "id": "se-en-020",
+    "knowledgePoints": [
+      "形容词/副词比较级最高级"
+    ]
+  },
+  {
+    "question": "The room needs _____, but we plan to wait until next year.",
+    "options": [
+      {
+        "key": "A",
+        "text": "painting"
+      },
+      {
+        "key": "B",
+        "text": "to paint"
+      },
+      {
+        "key": "C",
+        "text": "painted"
+      },
+      {
+        "key": "D",
+        "text": "paint"
+      }
+    ],
+    "answer": "A",
+    "explanation": "need doing = need to be done，表示“需要被…”。",
+    "id": "se-en-021",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "I would have helped you _____ you told me.",
+    "options": [
+      {
+        "key": "A",
+        "text": "if"
+      },
+      {
+        "key": "B",
+        "text": "unless"
+      },
+      {
+        "key": "C",
+        "text": "though"
+      },
+      {
+        "key": "D",
+        "text": "because"
+      }
+    ],
+    "answer": "A",
+    "explanation": "虚拟语气结构：would have done if + 过去完成时。",
+    "id": "se-en-022",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "He asked me where I _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "lived"
+      },
+      {
+        "key": "B",
+        "text": "live"
+      },
+      {
+        "key": "C",
+        "text": "am living"
+      },
+      {
+        "key": "D",
+        "text": "was living"
+      }
+    ],
+    "answer": "A",
+    "explanation": "宾语从句的时态与主句呼应，主句为一般过去时，从句用过去相应时态。",
+    "id": "se-en-023",
+    "knowledgePoints": [
+      "名词性从句(宾语从句)"
+    ]
+  },
+  {
+    "question": "_____ the work, he went home.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Having finished"
+      },
+      {
+        "key": "B",
+        "text": "Finished"
+      },
+      {
+        "key": "C",
+        "text": "Finishing"
+      },
+      {
+        "key": "D",
+        "text": "To finish"
+      }
+    ],
+    "answer": "A",
+    "explanation": "现在分词完成式作状语，表示动作在谓语之前发生。",
+    "id": "se-en-024",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "It was at the school _____ I studied hard.",
+    "options": [
+      {
+        "key": "A",
+        "text": "that"
+      },
+      {
+        "key": "B",
+        "text": "where"
+      },
+      {
+        "key": "C",
+        "text": "which"
+      },
+      {
+        "key": "D",
+        "text": "when"
+      }
+    ],
+    "answer": "A",
+    "explanation": "强调句结构：It is/was + 强调部分 + that/who + 其余部分。",
+    "id": "se-en-025",
+    "knowledgePoints": [
+      "强调句"
+    ]
+  },
+  {
+    "question": "I have never seen _____ film before.",
+    "options": [
+      {
+        "key": "A",
+        "text": "such an exciting"
+      },
+      {
+        "key": "B",
+        "text": "so an exciting"
+      },
+      {
+        "key": "C",
+        "text": "such exciting"
+      },
+      {
+        "key": "D",
+        "text": "a such exciting"
+      }
+    ],
+    "answer": "A",
+    "explanation": "such + a/an + adj. + n. = so + adj. + a/an + n.，film 是单数可数名词。",
+    "id": "se-en-026",
+    "knowledgePoints": [
+      "such/so用法"
+    ]
+  },
+  {
+    "question": "The boy would have died _____ the doctor's arrival.",
+    "options": [
+      {
+        "key": "A",
+        "text": "but for"
+      },
+      {
+        "key": "B",
+        "text": "if not"
+      },
+      {
+        "key": "C",
+        "text": "without"
+      },
+      {
+        "key": "D",
+        "text": "except"
+      }
+    ],
+    "answer": "A",
+    "explanation": "but for 意为“要不是”，与虚拟语气连用。",
+    "id": "se-en-027",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "She has a gift for _____ languages.",
+    "options": [
+      {
+        "key": "A",
+        "text": "learning"
+      },
+      {
+        "key": "B",
+        "text": "learn"
+      },
+      {
+        "key": "C",
+        "text": "learned"
+      },
+      {
+        "key": "D",
+        "text": "to learn"
+      }
+    ],
+    "answer": "A",
+    "explanation": "have a gift for doing sth. 是固定搭配，意为“有做…的天赋”。",
+    "id": "se-en-028",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "The teacher said that light _____ faster than sound.",
+    "options": [
+      {
+        "key": "A",
+        "text": "travels"
+      },
+      {
+        "key": "B",
+        "text": "traveled"
+      },
+      {
+        "key": "C",
+        "text": "is traveling"
+      },
+      {
+        "key": "D",
+        "text": "has traveled"
+      }
+    ],
+    "answer": "A",
+    "explanation": "客观真理和科学事实用在宾语从句中时，任何时态都不变。",
+    "id": "se-en-029",
+    "knowledgePoints": [
+      "名词性从句(宾语从句)",
+      "时态"
+    ]
+  },
+  {
+    "question": "I would rather you _____ tomorrow.",
+    "options": [
+      {
+        "key": "A",
+        "text": "came"
+      },
+      {
+        "key": "B",
+        "text": "come"
+      },
+      {
+        "key": "C",
+        "text": "would come"
+      },
+      {
+        "key": "D",
+        "text": "to come"
+      }
+    ],
+    "answer": "A",
+    "explanation": "would rather 后接宾语从句，用虚拟语气，谓语用一般过去时。",
+    "id": "se-en-030",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The old man has three sons, _____ is a doctor.",
+    "options": [
+      {
+        "key": "A",
+        "text": "one of whom"
+      },
+      {
+        "key": "B",
+        "text": "one of which"
+      },
+      {
+        "key": "C",
+        "text": "a one of them"
+      },
+      {
+        "key": "D",
+        "text": "one of them"
+      }
+    ],
+    "answer": "A",
+    "explanation": "one of whom 引导非限制性定语从句，whom 指代 sons。",
+    "id": "se-en-031",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "It's time we _____ something to protect the environment.",
+    "options": [
+      {
+        "key": "A",
+        "text": "did"
+      },
+      {
+        "key": "B",
+        "text": "do"
+      },
+      {
+        "key": "C",
+        "text": "would do"
+      },
+      {
+        "key": "D",
+        "text": "have done"
+      }
+    ],
+    "answer": "A",
+    "explanation": "It's time (that) sb. did sth. 是虚拟语气结构，意为“该做…了”。",
+    "id": "se-en-032",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "He got up early _____ he could catch the first bus.",
+    "options": [
+      {
+        "key": "A",
+        "text": "in order that"
+      },
+      {
+        "key": "B",
+        "text": "so that"
+      },
+      {
+        "key": "C",
+        "text": "both A and B"
+      },
+      {
+        "key": "D",
+        "text": "neither A nor B"
+      }
+    ],
+    "answer": "C",
+    "explanation": "in order that 和 so that 都可引导目的状语从句，意为“以便、为了”。",
+    "id": "se-en-033",
+    "knowledgePoints": [
+      "状语从句(目的)"
+    ]
+  },
+  {
+    "question": "The weather in Beijing is different from _____ in Guangzhou.",
+    "options": [
+      {
+        "key": "A",
+        "text": "that"
+      },
+      {
+        "key": "B",
+        "text": "it"
+      },
+      {
+        "key": "C",
+        "text": "one"
+      },
+      {
+        "key": "D",
+        "text": "this"
+      }
+    ],
+    "answer": "A",
+    "explanation": "that 替代前面出现的单数名词 the weather，避免重复。",
+    "id": "se-en-034",
+    "knowledgePoints": [
+      "指示代词"
+    ]
+  },
+  {
+    "question": "She had hardly sat down _____ the phone rang.",
+    "options": [
+      {
+        "key": "A",
+        "text": "when"
+      },
+      {
+        "key": "B",
+        "text": "than"
+      },
+      {
+        "key": "C",
+        "text": "after"
+      },
+      {
+        "key": "D",
+        "text": "as"
+      }
+    ],
+    "answer": "A",
+    "explanation": "hardly...when... 意为“一…就…”，hardly 后的主句用过去完成时。",
+    "id": "se-en-035",
+    "knowledgePoints": [
+      "连词/固定搭配"
+    ]
+  },
+  {
+    "question": "The book is _____ of the two.",
+    "options": [
+      {
+        "key": "A",
+        "text": "the more interesting"
+      },
+      {
+        "key": "B",
+        "text": "more interesting"
+      },
+      {
+        "key": "C",
+        "text": "most interesting"
+      },
+      {
+        "key": "D",
+        "text": "interesting"
+      }
+    ],
+    "answer": "A",
+    "explanation": "两者之间比较用比较级，且前有定冠词 the。",
+    "id": "se-en-036",
+    "knowledgePoints": [
+      "形容词/副词比较级最高级"
+    ]
+  },
+  {
+    "question": "He was about to leave _____ the doorbell rang.",
+    "options": [
+      {
+        "key": "A",
+        "text": "when"
+      },
+      {
+        "key": "B",
+        "text": "as"
+      },
+      {
+        "key": "C",
+        "text": "than"
+      },
+      {
+        "key": "D",
+        "text": "while"
+      }
+    ],
+    "answer": "A",
+    "explanation": "be about to do...when... 意为“正要…这时…”。",
+    "id": "se-en-037",
+    "knowledgePoints": [
+      "状语从句(时间)",
+      "连词"
+    ]
+  },
+  {
+    "question": "_____ the day went on, the weather got worse.",
+    "options": [
+      {
+        "key": "A",
+        "text": "With"
+      },
+      {
+        "key": "B",
+        "text": "As"
+      },
+      {
+        "key": "C",
+        "text": "Since"
+      },
+      {
+        "key": "D",
+        "text": "Because"
+      }
+    ],
+    "answer": "B",
+    "explanation": "as 引导时间状语从句，意为“随着”。with 后不接从句。",
+    "id": "se-en-038",
+    "knowledgePoints": [
+      "状语从句(时间)"
+    ]
+  },
+  {
+    "question": "I have no idea _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "when he will come"
+      },
+      {
+        "key": "B",
+        "text": "when he comes"
+      },
+      {
+        "key": "C",
+        "text": "when did he come"
+      },
+      {
+        "key": "D",
+        "text": "when will he come"
+      }
+    ],
+    "answer": "A",
+    "explanation": "idea 后接同位语从句，从句用陈述语序，且表示将来用 will come。",
+    "id": "se-en-039",
+    "knowledgePoints": [
+      "名词性从句(同位语从句)"
+    ]
+  },
+  {
+    "question": "She is the only one of the girls who _____ the piano well.",
+    "options": [
+      {
+        "key": "A",
+        "text": "plays"
+      },
+      {
+        "key": "B",
+        "text": "play"
+      },
+      {
+        "key": "C",
+        "text": "played"
+      },
+      {
+        "key": "D",
+        "text": "has played"
+      }
+    ],
+    "answer": "A",
+    "explanation": "the only one of...who... 定语从句修饰 one，谓语用单数。",
+    "id": "se-en-040",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "The man insisted that he _____ nothing wrong.",
+    "options": [
+      {
+        "key": "A",
+        "text": "had done"
+      },
+      {
+        "key": "B",
+        "text": "has done"
+      },
+      {
+        "key": "C",
+        "text": "did"
+      },
+      {
+        "key": "D",
+        "text": "does"
+      }
+    ],
+    "answer": "A",
+    "explanation": "insist 表示“坚持说（某事属实）”时，用陈述语气；从句动作先于主句，用过去完成时。",
+    "id": "se-en-041",
+    "knowledgePoints": [
+      "名词性从句(宾语从句)",
+      "时态"
+    ]
+  },
+  {
+    "question": "The teacher told us that light _____ in straight lines.",
+    "options": [
+      {
+        "key": "A",
+        "text": "travels"
+      },
+      {
+        "key": "B",
+        "text": "traveled"
+      },
+      {
+        "key": "C",
+        "text": "is traveling"
+      },
+      {
+        "key": "D",
+        "text": "was traveling"
+      }
+    ],
+    "answer": "A",
+    "explanation": "宾语从句中客观真理用一般现在时，不受主句时态影响。",
+    "id": "se-en-042",
+    "knowledgePoints": [
+      "名词性从句(宾语从句)",
+      "时态"
+    ]
+  },
+  {
+    "question": "_____ the truth, he would not have believed you.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Had he known"
+      },
+      {
+        "key": "B",
+        "text": "If he knew"
+      },
+      {
+        "key": "C",
+        "text": "If he has known"
+      },
+      {
+        "key": "D",
+        "text": "Would he have known"
+      }
+    ],
+    "answer": "A",
+    "explanation": "倒装虚拟语气，相当于 If he had known the truth，省略 if 用 Had he known。",
+    "id": "se-en-043",
+    "knowledgePoints": [
+      "虚拟语气",
+      "倒装"
+    ]
+  },
+  {
+    "question": "_____ beautiful the flower is!",
+    "options": [
+      {
+        "key": "A",
+        "text": "What"
+      },
+      {
+        "key": "B",
+        "text": "How"
+      },
+      {
+        "key": "C",
+        "text": "What a"
+      },
+      {
+        "key": "D",
+        "text": "How a"
+      }
+    ],
+    "answer": "B",
+    "explanation": "how 引导的感叹句结构：How + adj./adv. + 主谓！",
+    "id": "se-en-044",
+    "knowledgePoints": [
+      "感叹句"
+    ]
+  },
+  {
+    "question": "I remember _____ her somewhere before.",
+    "options": [
+      {
+        "key": "A",
+        "text": "meeting"
+      },
+      {
+        "key": "B",
+        "text": "to meet"
+      },
+      {
+        "key": "C",
+        "text": "meet"
+      },
+      {
+        "key": "D",
+        "text": "met"
+      }
+    ],
+    "answer": "A",
+    "explanation": "remember doing sth. 表示“记得做过某事”；remember to do sth. 表示“记得要去做”。",
+    "id": "se-en-045",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "The girl _____ by the window is my sister.",
+    "options": [
+      {
+        "key": "A",
+        "text": "sitting"
+      },
+      {
+        "key": "B",
+        "text": "sits"
+      },
+      {
+        "key": "C",
+        "text": "sat"
+      },
+      {
+        "key": "D",
+        "text": "to sit"
+      }
+    ],
+    "answer": "A",
+    "explanation": "现在分词 sitting 作后置定语，相当于 who is sitting。",
+    "id": "se-en-046",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "He asked me if I knew whose car _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "this was"
+      },
+      {
+        "key": "B",
+        "text": "this is"
+      },
+      {
+        "key": "C",
+        "text": "it was"
+      },
+      {
+        "key": "D",
+        "text": "it is"
+      }
+    ],
+    "answer": "A",
+    "explanation": "宾语从句用陈述语序，且 whose 限定 car，从句主语为 this。",
+    "id": "se-en-047",
+    "knowledgePoints": [
+      "名词性从句(宾语从句)"
+    ]
+  },
+  {
+    "question": "_____ the project, they decided to have a celebration.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Having completed"
+      },
+      {
+        "key": "B",
+        "text": "Completing"
+      },
+      {
+        "key": "C",
+        "text": "To complete"
+      },
+      {
+        "key": "D",
+        "text": "Completed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Having completed 作状语，表示动作在谓语之前已完成。",
+    "id": "se-en-048",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "We should keep the window _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "open"
+      },
+      {
+        "key": "B",
+        "text": "opened"
+      },
+      {
+        "key": "C",
+        "text": "opening"
+      },
+      {
+        "key": "D",
+        "text": "to open"
+      }
+    ],
+    "answer": "A",
+    "explanation": "keep + n. + adj. 结构，open 作宾语补足语，表示保持某种状态。",
+    "id": "se-en-049",
+    "knowledgePoints": [
+      "形容词/副词",
+      "宾补"
+    ]
+  },
+  {
+    "question": "It is no use _____ over spilt milk.",
+    "options": [
+      {
+        "key": "A",
+        "text": "crying"
+      },
+      {
+        "key": "B",
+        "text": "cry"
+      },
+      {
+        "key": "C",
+        "text": "cried"
+      },
+      {
+        "key": "D",
+        "text": "to cry"
+      }
+    ],
+    "answer": "A",
+    "explanation": "It is no use doing sth. 是固定结构，意为“做…是无用的”。",
+    "id": "se-en-050",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "She has difficulty in learning _____, which is very popular nowadays.",
+    "options": [
+      {
+        "key": "A",
+        "text": "AI"
+      },
+      {
+        "key": "B",
+        "text": "an AI"
+      },
+      {
+        "key": "C",
+        "text": "the AI"
+      },
+      {
+        "key": "D",
+        "text": "AIs"
+      }
+    ],
+    "answer": "A",
+    "explanation": "AI（人工智能）是缩略词，作不可数名词用，不加冠词也不变复数。",
+    "id": "se-en-051",
+    "knowledgePoints": [
+      "名词/冠词"
+    ]
+  },
+  {
+    "question": "This is the very book _____ I lost yesterday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "that"
+      },
+      {
+        "key": "B",
+        "text": "which"
+      },
+      {
+        "key": "C",
+        "text": "who"
+      },
+      {
+        "key": "D",
+        "text": "whom"
+      }
+    ],
+    "answer": "A",
+    "explanation": "当先行词被 the very, the only, the same 等修饰时，关系代词用 that。",
+    "id": "se-en-052",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "He acted as if he _____ everything in the world.",
+    "options": [
+      {
+        "key": "A",
+        "text": "knew"
+      },
+      {
+        "key": "B",
+        "text": "knows"
+      },
+      {
+        "key": "C",
+        "text": "has known"
+      },
+      {
+        "key": "D",
+        "text": "known"
+      }
+    ],
+    "answer": "A",
+    "explanation": "as if 引导的状语从句用虚拟语气，与现在事实相反用一般过去时。",
+    "id": "se-en-053",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The children were excited _____ the cartoon.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to watch"
+      },
+      {
+        "key": "B",
+        "text": "watching"
+      },
+      {
+        "key": "C",
+        "text": "watch"
+      },
+      {
+        "key": "D",
+        "text": "watched"
+      }
+    ],
+    "answer": "A",
+    "explanation": "be excited to do sth. 意为“很兴奋去做某事”。",
+    "id": "se-en-054",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "The teacher asked the new student _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "where did he come from"
+      },
+      {
+        "key": "B",
+        "text": "where he came from"
+      },
+      {
+        "key": "C",
+        "text": "where does he come from"
+      },
+      {
+        "key": "D",
+        "text": "where he comes from"
+      }
+    ],
+    "answer": "B",
+    "explanation": "宾语从句用陈述语序，且主句为一般过去时，从句用过去相应时态。",
+    "id": "se-en-055",
+    "knowledgePoints": [
+      "名词性从句(宾语从句)"
+    ]
+  },
+  {
+    "question": "It is reported that the president _____ Beijing tomorrow.",
+    "options": [
+      {
+        "key": "A",
+        "text": "will visit"
+      },
+      {
+        "key": "B",
+        "text": "visits"
+      },
+      {
+        "key": "C",
+        "text": "visited"
+      },
+      {
+        "key": "D",
+        "text": "is visiting"
+      }
+    ],
+    "answer": "A",
+    "explanation": "It is reported that... 宾语从句表示将来，用一般将来时。",
+    "id": "se-en-056",
+    "knowledgePoints": [
+      "名词性从句(宾语从句)",
+      "时态(将来时)"
+    ]
+  },
+  {
+    "question": "He ran too quickly for us _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to catch"
+      },
+      {
+        "key": "B",
+        "text": "catch"
+      },
+      {
+        "key": "C",
+        "text": "caught"
+      },
+      {
+        "key": "D",
+        "text": "catching"
+      }
+    ],
+    "answer": "A",
+    "explanation": "too...to... 结构中，不定式 to catch 作结果状语。",
+    "id": "se-en-057",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "_____ is known to all, China is a developing country.",
+    "options": [
+      {
+        "key": "A",
+        "text": "As"
+      },
+      {
+        "key": "B",
+        "text": "It"
+      },
+      {
+        "key": "C",
+        "text": "Which"
+      },
+      {
+        "key": "D",
+        "text": "That"
+      }
+    ],
+    "answer": "A",
+    "explanation": "as 引导非限制性定语从句，指代后面整个句子，可位于句首。",
+    "id": "se-en-058",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "I would appreciate _____ very much if you could give me a hand.",
+    "options": [
+      {
+        "key": "A",
+        "text": "that"
+      },
+      {
+        "key": "B",
+        "text": "this"
+      },
+      {
+        "key": "C",
+        "text": "it"
+      },
+      {
+        "key": "D",
+        "text": "them"
+      }
+    ],
+    "answer": "C",
+    "explanation": "appreciate it if/when... 是固定结构，it 作形式宾语。",
+    "id": "se-en-059",
+    "knowledgePoints": [
+      "it作形式宾语"
+    ]
+  },
+  {
+    "question": "He made up his mind to work harder to _____ the lost time.",
+    "options": [
+      {
+        "key": "A",
+        "text": "make up for"
+      },
+      {
+        "key": "B",
+        "text": "make out"
+      },
+      {
+        "key": "C",
+        "text": "make up"
+      },
+      {
+        "key": "D",
+        "text": "make over"
+      }
+    ],
+    "answer": "A",
+    "explanation": "make up for 意为“弥补”，符合句意。",
+    "id": "se-en-060",
+    "knowledgePoints": [
+      "词汇辨析"
+    ]
+  },
+  {
+    "question": "The student denied _____ the book from the library.",
+    "options": [
+      {
+        "key": "A",
+        "text": "having taken"
+      },
+      {
+        "key": "B",
+        "text": "taking"
+      },
+      {
+        "key": "C",
+        "text": "to take"
+      },
+      {
+        "key": "D",
+        "text": "took"
+      }
+    ],
+    "answer": "A",
+    "explanation": "deny doing sth. 意为“否认做过某事”。动名词的完成式 having taken 表示动作已发生。",
+    "id": "se-en-061",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "We must study hard _____ we can serve our country better.",
+    "options": [
+      {
+        "key": "A",
+        "text": "in order that"
+      },
+      {
+        "key": "B",
+        "text": "now that"
+      },
+      {
+        "key": "C",
+        "text": "since that"
+      },
+      {
+        "key": "D",
+        "text": "that"
+      }
+    ],
+    "answer": "A",
+    "explanation": "in order that 引导目的状语从句，意为“为了、以便”。",
+    "id": "se-en-062",
+    "knowledgePoints": [
+      "状语从句(目的)"
+    ]
+  },
+  {
+    "question": "The concert was _____ success.",
+    "options": [
+      {
+        "key": "A",
+        "text": "a great"
+      },
+      {
+        "key": "B",
+        "text": "great"
+      },
+      {
+        "key": "C",
+        "text": "very great"
+      },
+      {
+        "key": "D",
+        "text": "greatly"
+      }
+    ],
+    "answer": "A",
+    "explanation": "success 作可数名词用，意为“一次成功的事”，前加 a。",
+    "id": "se-en-063",
+    "knowledgePoints": [
+      "名词/冠词"
+    ]
+  },
+  {
+    "question": "He has difficulty _____ the problem.",
+    "options": [
+      {
+        "key": "A",
+        "text": "solving"
+      },
+      {
+        "key": "B",
+        "text": "to solve"
+      },
+      {
+        "key": "C",
+        "text": "solve"
+      },
+      {
+        "key": "D",
+        "text": "solved"
+      }
+    ],
+    "answer": "A",
+    "explanation": "have difficulty (in) doing sth. 结构，in 可省略。",
+    "id": "se-en-064",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "The book _____ on the shelf is very interesting.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to lie"
+      },
+      {
+        "key": "B",
+        "text": "lies"
+      },
+      {
+        "key": "C",
+        "text": "lying"
+      },
+      {
+        "key": "D",
+        "text": "to be lying"
+      }
+    ],
+    "answer": "C",
+    "explanation": "lying 是 lie 的现在分词，作后置定语，相当于 which is lying。",
+    "id": "se-en-065",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "If I _____ you, I would take this job.",
+    "options": [
+      {
+        "key": "A",
+        "text": "were"
+      },
+      {
+        "key": "B",
+        "text": "am"
+      },
+      {
+        "key": "C",
+        "text": "was"
+      },
+      {
+        "key": "D",
+        "text": "are"
+      }
+    ],
+    "answer": "A",
+    "explanation": "与现在事实相反的虚拟语气条件句，谓语用一般过去时，be 动词用 were。",
+    "id": "se-en-066",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "He is not such a man _____ would tell a lie.",
+    "options": [
+      {
+        "key": "A",
+        "text": "as"
+      },
+      {
+        "key": "B",
+        "text": "who"
+      },
+      {
+        "key": "C",
+        "text": "that"
+      },
+      {
+        "key": "D",
+        "text": "whom"
+      }
+    ],
+    "answer": "A",
+    "explanation": "such...as... 是固定搭配，as 引导定语从句。",
+    "id": "se-en-067",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "My parents insisted that I _____ at home.",
+    "options": [
+      {
+        "key": "A",
+        "text": "stay"
+      },
+      {
+        "key": "B",
+        "text": "stayed"
+      },
+      {
+        "key": "C",
+        "text": "staying"
+      },
+      {
+        "key": "D",
+        "text": "stays"
+      }
+    ],
+    "answer": "A",
+    "explanation": "insist 表示“坚持要求”时，从句用虚拟语气 should + 动词原形，should 可省略。",
+    "id": "se-en-068",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The boy spent the whole morning _____ the puzzle.",
+    "options": [
+      {
+        "key": "A",
+        "text": "working on"
+      },
+      {
+        "key": "B",
+        "text": "working out"
+      },
+      {
+        "key": "C",
+        "text": "working up"
+      },
+      {
+        "key": "D",
+        "text": "working with"
+      }
+    ],
+    "answer": "A",
+    "explanation": "work on 意为“从事、致力于”；work out 意为“计算出、解出”。",
+    "id": "se-en-069",
+    "knowledgePoints": [
+      "词汇辨析"
+    ]
+  },
+  {
+    "question": "I would rather you _____ the plan.",
+    "options": [
+      {
+        "key": "A",
+        "text": "didn't change"
+      },
+      {
+        "key": "B",
+        "text": "don't change"
+      },
+      {
+        "key": "C",
+        "text": "won't change"
+      },
+      {
+        "key": "D",
+        "text": "not change"
+      }
+    ],
+    "answer": "A",
+    "explanation": "would rather 后接宾语从句，用一般过去时表示虚拟。",
+    "id": "se-en-070",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "He walked into the room without _____.",
+    "options": [
+      {
+        "key": "A",
+        "text": "being noticed"
+      },
+      {
+        "key": "B",
+        "text": "noticing"
+      },
+      {
+        "key": "C",
+        "text": "notice"
+      },
+      {
+        "key": "D",
+        "text": "noticed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "without 为介词，后接动名词被动式 being noticed。",
+    "id": "se-en-071",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "He is said _____ abroad, but I don't know which country he studied in.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to have studied"
+      },
+      {
+        "key": "B",
+        "text": "to study"
+      },
+      {
+        "key": "C",
+        "text": "to be studying"
+      },
+      {
+        "key": "D",
+        "text": "to have been studying"
+      }
+    ],
+    "answer": "A",
+    "explanation": "be said to have done 表示“据说做过某事”，动作已发生，用不定式完成式。",
+    "id": "se-en-072",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "The reason for his absence was _____ he was ill.",
+    "options": [
+      {
+        "key": "A",
+        "text": "that"
+      },
+      {
+        "key": "B",
+        "text": "because"
+      },
+      {
+        "key": "C",
+        "text": "why"
+      },
+      {
+        "key": "D",
+        "text": "whether"
+      }
+    ],
+    "answer": "A",
+    "explanation": "the reason 后接 that 引导的表语从句，because 用于回答 why。",
+    "id": "se-en-073",
+    "knowledgePoints": [
+      "名词性从句(表语从句)"
+    ]
+  },
+  {
+    "question": "_____ for your help, I wouldn't have passed the exam.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hadn't it been"
+      },
+      {
+        "key": "B",
+        "text": "If it were not"
+      },
+      {
+        "key": "C",
+        "text": "If you weren't"
+      },
+      {
+        "key": "D",
+        "text": "Had it not been"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Had it not been = If it had not been，与虚拟语气连用。",
+    "id": "se-en-074",
+    "knowledgePoints": [
+      "虚拟语气",
+      "倒装"
+    ]
+  },
+  {
+    "question": "It is essential that everyone _____ the meeting on time.",
+    "options": [
+      {
+        "key": "A",
+        "text": "attend"
+      },
+      {
+        "key": "B",
+        "text": "attends"
+      },
+      {
+        "key": "C",
+        "text": "attended"
+      },
+      {
+        "key": "D",
+        "text": "attending"
+      }
+    ],
+    "answer": "A",
+    "explanation": "It is essential that... 从句用虚拟语气，谓语用 (should) + 动词原形。",
+    "id": "se-en-075",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The police found the missing child _____ under a tree.",
+    "options": [
+      {
+        "key": "A",
+        "text": "sleeping"
+      },
+      {
+        "key": "B",
+        "text": "asleep"
+      },
+      {
+        "key": "C",
+        "text": "slept"
+      },
+      {
+        "key": "D",
+        "text": "to sleep"
+      }
+    ],
+    "answer": "A",
+    "explanation": "find + 宾语 + 现在分词 sleeping，表示“发现…正在…”。",
+    "id": "se-en-076",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "He went to the party _____ his teacher's advice.",
+    "options": [
+      {
+        "key": "A",
+        "text": "against"
+      },
+      {
+        "key": "B",
+        "text": "for"
+      },
+      {
+        "key": "C",
+        "text": "without"
+      },
+      {
+        "key": "D",
+        "text": "by"
+      }
+    ],
+    "answer": "A",
+    "explanation": "against one's advice 意为“违背某人的建议”。",
+    "id": "se-en-077",
+    "knowledgePoints": [
+      "介词"
+    ]
+  },
+  {
+    "question": "He broke the window and was made _____ it.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to pay for"
+      },
+      {
+        "key": "B",
+        "text": "pay for"
+      },
+      {
+        "key": "C",
+        "text": "paid for"
+      },
+      {
+        "key": "D",
+        "text": "paying for"
+      }
+    ],
+    "answer": "A",
+    "explanation": "make 为使役动词，用于被动语态时，后面的不定式 to 不能省略。",
+    "id": "se-en-078",
+    "knowledgePoints": [
+      "被动语态",
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "I have no money and _____ books.",
+    "options": [
+      {
+        "key": "A",
+        "text": "neither does he"
+      },
+      {
+        "key": "B",
+        "text": "neither he does"
+      },
+      {
+        "key": "C",
+        "text": "so does he"
+      },
+      {
+        "key": "D",
+        "text": "so he does"
+      }
+    ],
+    "answer": "A",
+    "explanation": "neither/nor + 助动词 + 主语，表示“…也不”，倒装结构。",
+    "id": "se-en-079",
+    "knowledgePoints": [
+      "倒装句"
+    ]
+  },
+  {
+    "question": "He is the only one of the students who _____ elected.",
+    "options": [
+      {
+        "key": "A",
+        "text": "have been"
+      },
+      {
+        "key": "B",
+        "text": "has been"
+      },
+      {
+        "key": "C",
+        "text": "is"
+      },
+      {
+        "key": "D",
+        "text": "are"
+      }
+    ],
+    "answer": "B",
+    "explanation": "the only one of... 修饰 one，从句谓语用单数；elect 与 students 为动宾关系，用被动语态。",
+    "id": "se-en-080",
+    "knowledgePoints": [
+      "定语从句",
+      "被动语态"
+    ]
+  },
+  {
+    "question": "The doctor suggested that he _____ smoking.",
+    "options": [
+      {
+        "key": "A",
+        "text": "give up"
+      },
+      {
+        "key": "B",
+        "text": "gives up"
+      },
+      {
+        "key": "C",
+        "text": "gave up"
+      },
+      {
+        "key": "D",
+        "text": "giving up"
+      }
+    ],
+    "answer": "A",
+    "explanation": "suggest 表示“建议”时，从句用虚拟语气 (should) + 动词原形。give up 意为“戒烟”。",
+    "id": "se-en-081",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The little girl is too shy to _____ in public.",
+    "options": [
+      {
+        "key": "A",
+        "text": "speak up"
+      },
+      {
+        "key": "B",
+        "text": "speak out"
+      },
+      {
+        "key": "C",
+        "text": "talk about"
+      },
+      {
+        "key": "D",
+        "text": "say"
+      }
+    ],
+    "answer": "A",
+    "explanation": "speak up 意为“大声说、在公开场合发言”。",
+    "id": "se-en-082",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "She regrets _____ you that your application has been rejected.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to inform"
+      },
+      {
+        "key": "B",
+        "text": "informing"
+      },
+      {
+        "key": "C",
+        "text": "to have informed"
+      },
+      {
+        "key": "D",
+        "text": "having informed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "regret to do sth. 表示“为即将做的事感到遗憾”；regret doing sth. 表示“为已做的事感到后悔”。",
+    "id": "se-en-083",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "I saw him _____ the road when I passed by.",
+    "options": [
+      {
+        "key": "A",
+        "text": "cross"
+      },
+      {
+        "key": "B",
+        "text": "to cross"
+      },
+      {
+        "key": "C",
+        "text": "crossing"
+      },
+      {
+        "key": "D",
+        "text": "crossed"
+      }
+    ],
+    "answer": "A",
+    "explanation": "see 为感官动词，接不带 to 的不定式作宾补，表示看到整个动作。",
+    "id": "se-en-084",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "The teacher walked into the classroom, _____ by his students.",
+    "options": [
+      {
+        "key": "A",
+        "text": "following"
+      },
+      {
+        "key": "B",
+        "text": "followed"
+      },
+      {
+        "key": "C",
+        "text": "to follow"
+      },
+      {
+        "key": "D",
+        "text": "follows"
+      }
+    ],
+    "answer": "B",
+    "explanation": "过去分词 followed 作伴随状语，表示被动含义：被学生跟随。",
+    "id": "se-en-085",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "He is not fond of _____ music.",
+    "options": [
+      {
+        "key": "A",
+        "text": "classical"
+      },
+      {
+        "key": "B",
+        "text": "a classical"
+      },
+      {
+        "key": "C",
+        "text": "classicals"
+      },
+      {
+        "key": "D",
+        "text": "the classical"
+      }
+    ],
+    "answer": "A",
+    "explanation": "music 为不可数名词，其前的修饰语 classical 不加冠词。",
+    "id": "se-en-086",
+    "knowledgePoints": [
+      "名词/冠词"
+    ]
+  },
+  {
+    "question": "I used to _____ a lot of coffee when I was young.",
+    "options": [
+      {
+        "key": "A",
+        "text": "drink"
+      },
+      {
+        "key": "B",
+        "text": "drinking"
+      },
+      {
+        "key": "C",
+        "text": "drank"
+      },
+      {
+        "key": "D",
+        "text": "drunk"
+      }
+    ],
+    "answer": "A",
+    "explanation": "used to do 表示“过去常常做…”，to 后接动词原形。",
+    "id": "se-en-087",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "The book _____ on this subject is worth reading.",
+    "options": [
+      {
+        "key": "A",
+        "text": "written"
+      },
+      {
+        "key": "B",
+        "text": "writing"
+      },
+      {
+        "key": "C",
+        "text": "to write"
+      },
+      {
+        "key": "D",
+        "text": "to be written"
+      }
+    ],
+    "answer": "A",
+    "explanation": "过去分词 written 作后置定语，相当于 which is written。",
+    "id": "se-en-088",
+    "knowledgePoints": [
+      "非谓语动词(过去分词)"
+    ]
+  },
+  {
+    "question": "He didn't come to class, _____ made the teacher angry.",
+    "options": [
+      {
+        "key": "A",
+        "text": "which"
+      },
+      {
+        "key": "B",
+        "text": "that"
+      },
+      {
+        "key": "C",
+        "text": "what"
+      },
+      {
+        "key": "D",
+        "text": "who"
+      }
+    ],
+    "answer": "A",
+    "explanation": "which 引导非限制性定语从句，指代前面整个句子。",
+    "id": "se-en-089",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "_____ the exam, he went to the library.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Having finished"
+      },
+      {
+        "key": "B",
+        "text": "Finished"
+      },
+      {
+        "key": "C",
+        "text": "Finishing"
+      },
+      {
+        "key": "D",
+        "text": "To finish"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Having finished 作时间状语，表示“完成考试后”，动作在谓语之前发生。",
+    "id": "se-en-090",
+    "knowledgePoints": [
+      "非谓语动词(分词)"
+    ]
+  },
+  {
+    "question": "It is said that he _____ the novel into English already.",
+    "options": [
+      {
+        "key": "A",
+        "text": "has translated"
+      },
+      {
+        "key": "B",
+        "text": "translated"
+      },
+      {
+        "key": "C",
+        "text": "had translated"
+      },
+      {
+        "key": "D",
+        "text": "translates"
+      }
+    ],
+    "answer": "A",
+    "explanation": "already 常与现在完成时连用，表示“已经”。",
+    "id": "se-en-091",
+    "knowledgePoints": [
+      "时态(现在完成时)"
+    ]
+  },
+  {
+    "question": "He acted as if he _____ the champion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "was"
+      },
+      {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "were"
+      },
+      {
+        "key": "D",
+        "text": "had been"
+      }
+    ],
+    "answer": "A",
+    "explanation": "as if 引导的状语从句用虚拟语气；与当时情况相符可用一般过去时。",
+    "id": "se-en-092",
+    "knowledgePoints": [
+      "虚拟语气"
+    ]
+  },
+  {
+    "question": "The teacher told the students to stop _____ and listen to him.",
+    "options": [
+      {
+        "key": "A",
+        "text": "talking"
+      },
+      {
+        "key": "B",
+        "text": "to talk"
+      },
+      {
+        "key": "C",
+        "text": "talk"
+      },
+      {
+        "key": "D",
+        "text": "talked"
+      }
+    ],
+    "answer": "A",
+    "explanation": "stop doing sth. 表示“停止做某事”；stop to do sth. 表示“停下来去做另一件事”。",
+    "id": "se-en-093",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "_____ the day went on, the weather got worse.",
+    "options": [
+      {
+        "key": "A",
+        "text": "With"
+      },
+      {
+        "key": "B",
+        "text": "As"
+      },
+      {
+        "key": "C",
+        "text": "Because"
+      },
+      {
+        "key": "D",
+        "text": "Since"
+      }
+    ],
+    "answer": "B",
+    "explanation": "as 引导时间状语从句，意为“随着”。",
+    "id": "se-en-094",
+    "knowledgePoints": [
+      "状语从句(时间)"
+    ]
+  },
+  {
+    "question": "He had no sooner arrived home _____ he was called out again.",
+    "options": [
+      {
+        "key": "A",
+        "text": "than"
+      },
+      {
+        "key": "B",
+        "text": "when"
+      },
+      {
+        "key": "C",
+        "text": "after"
+      },
+      {
+        "key": "D",
+        "text": "before"
+      }
+    ],
+    "answer": "A",
+    "explanation": "no sooner...than... 意为“一…就…”。",
+    "id": "se-en-095",
+    "knowledgePoints": [
+      "连词/固定搭配"
+    ]
+  },
+  {
+    "question": "The boy is young _____ to carry the box.",
+    "options": [
+      {
+        "key": "A",
+        "text": "enough"
+      },
+      {
+        "key": "B",
+        "text": "very"
+      },
+      {
+        "key": "C",
+        "text": "too"
+      },
+      {
+        "key": "D",
+        "text": "so"
+      }
+    ],
+    "answer": "A",
+    "explanation": "adj./adv. + enough + to do sth. 表示“足够…可以…”。",
+    "id": "se-en-096",
+    "knowledgePoints": [
+      "非谓语动词(不定式)"
+    ]
+  },
+  {
+    "question": "I have never seen _____ film.",
+    "options": [
+      {
+        "key": "A",
+        "text": "such an interesting"
+      },
+      {
+        "key": "B",
+        "text": "so an interesting"
+      },
+      {
+        "key": "C",
+        "text": "such interesting"
+      },
+      {
+        "key": "D",
+        "text": "a such interesting"
+      }
+    ],
+    "answer": "A",
+    "explanation": "such + a/an + adj. + 单数可数名词 = so + adj. + a/an + 单数可数名词。",
+    "id": "se-en-097",
+    "knowledgePoints": [
+      "such/so用法"
+    ]
+  },
+  {
+    "question": "The man _____ was our English teacher.",
+    "options": [
+      {
+        "key": "A",
+        "text": "whom you just talked to"
+      },
+      {
+        "key": "B",
+        "text": "who you just talked to"
+      },
+      {
+        "key": "C",
+        "text": "that you just talked"
+      },
+      {
+        "key": "D",
+        "text": "which you just talked to"
+      }
+    ],
+    "answer": "A",
+    "explanation": "whom 引导定语从句，在从句中作 talked to 的宾语。",
+    "id": "se-en-098",
+    "knowledgePoints": [
+      "定语从句"
+    ]
+  },
+  {
+    "question": "He was angry at _____ nothing.",
+    "options": [
+      {
+        "key": "A",
+        "text": "being asked"
+      },
+      {
+        "key": "B",
+        "text": "asking"
+      },
+      {
+        "key": "C",
+        "text": "asked"
+      },
+      {
+        "key": "D",
+        "text": "to be asked"
+      }
+    ],
+    "answer": "A",
+    "explanation": "at 为介词，后接动名词；ask 与主语为动宾关系，用被动式 being asked。",
+    "id": "se-en-099",
+    "knowledgePoints": [
+      "非谓语动词(动名词)"
+    ]
+  },
+  {
+    "question": "Reading is _____ to my life.",
+    "options": [
+      {
+        "key": "A",
+        "text": "of great importance"
+      },
+      {
+        "key": "B",
+        "text": "great importance"
+      },
+      {
+        "key": "C",
+        "text": "very importance"
+      },
+      {
+        "key": "D",
+        "text": "importantly"
+      }
+    ],
+    "answer": "A",
+    "explanation": "of great importance = very important，是固定表达。",
+    "id": "se-en-100",
+    "knowledgePoints": [
+      "形容词/介词短语"
+    ]
+  }
+]
