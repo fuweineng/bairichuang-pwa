@@ -73,9 +73,10 @@ function getSubjects(section) {
 
 // Per-section index URLs for multi-section question bank support
 const SECTION_INDEX_URLS = {
-  primary: 'questions/primary/index.json',
-  junior:  'questions/index.json',
-  senior:  'questions/senior/index.json',
+  primary:     'questions/primary/index.json',
+  junior:      'questions/index.json',        // 初中 → root 旧数据（2209题）
+  senior:      'questions/senior/index.json', // 初中（命名混乱，实际是初高中旧数据）
+  'senior-high': 'questions/senior-high/index.json', // 高中（新建，9科235题）
 };
 
 // Legacy — kept for migration
@@ -158,6 +159,11 @@ function createEmptyQuestionBank() {
 
 // Migrate legacy question_bank_cache to new per-subject index.json format
 async function migrateLegacyQB() {
+  // Also clean up orphaned old-format keys from previous partial runs
+  for (const subj of SUBJECTS_ALL) {
+    await del('qb_' + subj);
+  }
+
   const cached = await get(LEGACY_QB_CACHE);
   if (!cached || typeof cached !== 'object') return null;
   // Already migrated (flat map)?
@@ -1852,7 +1858,7 @@ async function renderSettings() {
     <div class="settings-card">
       <div class="settings-section-title">学段</div>
       <div style="display:flex;gap:6px;margin-bottom:10px">
-        ${['primary','junior','senior'].map(s => `
+        ${['primary','junior','senior-high'].map(s => `
           <button class="secondary-btn section-data-btn${state.settings.section === s ? ' active' : ''}"
             data-action="choose-section" data-section="${s}"
             style="flex:1;padding:7px 4px;font-size:0.75rem">
@@ -2245,6 +2251,7 @@ async function handleClick(e) {
 
     case 'clear-qb-cache':
       await del(K.QB_CACHE);
+      for (const subj of SUBJECTS_ALL) { await del('qb_' + subj); }
       state.questionBank = createEmptyQuestionBank();
       alert('已清除题库缓存，下次进入时将重新下载');
       break;
