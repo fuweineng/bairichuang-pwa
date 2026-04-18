@@ -1377,12 +1377,9 @@ async function handleAnswer(choiceIdx) {
   if ((q.type === 'choice' || !q.type) && (q.options || q.choices)) {
     const source = q.options || q.choices;
     const opt = source[choiceIdx];
-    const optText = typeof opt === 'string' ? opt : opt.text;
-    const answerStr = String(q.answer);
-    isCorrect = optText === answerStr ||
-      optText.startsWith(answerStr + '. ') ||
-      (Array.isArray(q.answer) && q.answer.includes(answerStr)) ||
-      (typeof opt === 'object' && opt.label === answerStr);
+    const optLabel = typeof opt === 'string' ? opt : (opt.label ?? opt.key ?? '');
+    const answerStr = String(q.answer).toUpperCase();
+    isCorrect = optLabel.toUpperCase() === answerStr;
   } else if (q.type === 'listening' && q.choices) {
     isCorrect = q.choices[choiceIdx].label === String(q.answer);
   }
