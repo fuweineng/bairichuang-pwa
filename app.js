@@ -1079,7 +1079,7 @@ function showFeedbackModal(result, onNextName) {
   if (result.q.passage) {
     explanationHtml += `<div class="fb-passage"><strong>短文原文：</strong>${result.q.passage.replace(/\n/g, '<br>')}</div>`;
   }
-  const correctAnswerHtml = !result.isCorrect && result.q.type === 'choice'
+  const correctAnswerHtml = !result.isCorrect && (result.q.type === 'choice' || !result.q.type)
     ? `<div class="fb-correct-answer">正确答案：<strong>${titleText.split('：')[1] || ''}</strong></div>` : '';
 
   const nextFnName = onNextName || 'nextQuestion';
@@ -1256,10 +1256,10 @@ function renderQuestion() {
     : '';
 
   // ── 判断题型 ──────────────────────────────────────────────────────────
-  // choice 类型: q.options 或 q.choices 数组；listening 类型: q.choices 数组
+  // choice 类型: q.options 或 q.choices 数组（无论有无 type 字段）；listening 类型: q.choices 数组且 type=listening
   const hasOptions = q.options && q.options.length > 0;         // choice 用 options
   const hasChoices = q.choices && q.choices.length > 0;         // listening / choice 用 choices
-  const isChoice = (hasOptions || hasChoices) && q.type === 'choice';
+  const isChoice = (hasOptions || hasChoices) && q.type !== 'listening';
   const isListeningType = hasChoices && q.type === 'listening';
   const isFillOrShort = (!hasOptions && !hasChoices && (q.type === 'fill' || q.type === 'short_answer' || q.type === 'expression'))
     || (q.type === 'choice' && !hasOptions && !hasChoices);
@@ -1371,7 +1371,7 @@ async function handleAnswer(choiceIdx) {
 
   // ── 判断答案 ──────────────────────────────────────────────────────────
   let isCorrect = false;
-  if (q.type === 'choice' && (q.options || q.choices)) {
+  if ((q.type === 'choice' || !q.type) && (q.options || q.choices)) {
     const source = q.options || q.choices;
     const opt = source[choiceIdx];
     const optText = typeof opt === 'string' ? opt : opt.text;
@@ -1391,7 +1391,7 @@ async function handleAnswer(choiceIdx) {
 
   // ── 存结果，feedback 由 renderQuestion 统一渲染 ──────────────────────
   let correctLabel = q.answer;
-  if ((q.type === 'listening' || q.type === 'choice') && q.choices) {
+  if (((q.type === 'listening' || q.type === 'choice') || !q.type) && q.choices) {
     const found = q.choices.find(c => c.label === q.answer);
     if (found) correctLabel = `${q.answer}. ${found.text}`;
   }
