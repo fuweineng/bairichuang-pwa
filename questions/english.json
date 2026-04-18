@@ -70,7 +70,7 @@
       "主将从现"
     ],
     "question": "If it _______ tomorrow, I will stay at home.",
-    "options": null,
+    "options": [],
     "answer": "rains",
     "explanation": "In if-clauses referring to future time, use present simple (rains) to express future condition.",
     "acceptAnswers": [
@@ -107,7 +107,7 @@
       "句型转换"
     ],
     "question": "Change into passive voice: The teacher wrote the letter.",
-    "options": null,
+    "options": [],
     "answer": "The letter was written by the teacher.",
     "explanation": "Active: The teacher wrote the letter. Passive: The letter was written by the teacher.",
     "acceptAnswers": [
@@ -240,7 +240,7 @@
       "词性转换"
     ],
     "question": "She is very ______ (chemistry) - she always does experiments carefully.",
-    "options": null,
+    "options": [],
     "answer": "chemical",
     "explanation": "chemistry→chemical (adj).",
     "acceptAnswers": [
@@ -258,7 +258,7 @@
       "主旨大意"
     ],
     "question": "Reading is important because it helps us _____ (knowledge) and develop critical thinking.",
-    "options": null,
+    "options": [],
     "answer": "gain knowledge",
     "explanation": "The passage mainly discusses how reading helps people gain knowledge and develop critical thinking skills.",
     "acceptAnswers": [
@@ -451,7 +451,8 @@
     "explanation": "一般现在时，主语是第三人称单数，动词加s",
     "acceptAnswers": [
       "cooks"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-025",
@@ -587,7 +588,8 @@
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-031.m4a",
     "acceptAnswers": [
       "fluently"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-032",
@@ -784,7 +786,8 @@
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-041.m4a",
     "acceptAnswers": [
       "to learn"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-042",
@@ -941,7 +944,8 @@
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-049.m4a",
     "acceptAnswers": [
       "playing"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-050",
@@ -1078,7 +1082,8 @@
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-056.m4a",
     "acceptAnswers": [
       "rains"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-057",
@@ -1235,7 +1240,8 @@
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-064.m4a",
     "acceptAnswers": [
       "arrive"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-065",
@@ -4579,7 +4585,8 @@
     "acceptAnswers": [
       "school library"
     ],
-    "explanation": "句中的关键信息是见面地点 the school library。"
+    "explanation": "句中的关键信息是见面地点 the school library。",
+    "options": []
   },
   {
     "id": "english-203",
@@ -4615,7 +4622,8 @@
         "explanation": "上午活动是观看醒狮表演。"
       }
     ],
-    "explanation": "这类题要抓时间、地点和活动三个关键信息。"
+    "explanation": "这类题要抓时间、地点和活动三个关键信息。",
+    "options": []
   },
   {
     "id": "english-204",
@@ -4653,7 +4661,8 @@
       "cleaned",
       "be cleaned up"
     ],
-    "explanation": "情态动词后用被动结构 should be + done。"
+    "explanation": "情态动词后用被动结构 should be + done。",
+    "options": []
   },
   {
     "id": "english-206",
@@ -5774,7 +5783,8 @@
     "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "acceptAnswers": [
       "Middle"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-236-2",
@@ -5794,7 +5804,8 @@
     "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "acceptAnswers": [
       "morning"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-236-3",
@@ -5826,8 +5837,14 @@
         "text": "walk"
       }
     ],
-    "answer": "B",
-    "explanation": "根据短文：Then I go to school by bike."
+    "options": [
+      "bus",
+      "bike",
+      "car",
+      "walk"
+    ],
+    "answer": "bike",
+    "explanation": "根据短文：Then I go to school by bike. 所以答案是 bike。"
   },
   {
     "id": "english-236-4",
@@ -5847,7 +5864,8 @@
     "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "acceptAnswers": [
       "hour"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-236-5",
@@ -5867,7 +5885,8 @@
     "explanation": "短文原文：My name is Li Ming. I am a student in Foshan No. 1 Middle School. I am in Grade 8. Every day, I wake up at 6:30 in the morning. I have breakfast with my family at 7:00. Then I go to school by bike. School starts at 8:00. I study Chinese, Math, English, and other subjects. After school, I usually play basketball with my friends for one hour. Then I go home and do my homework. I usually finish my homework at 9:00 in the evening. After that, I read some books or watch TV. I go to bed at 10:00. This is my daily life.",
     "acceptAnswers": [
       "10:00"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-237-1",
@@ -5888,7 +5907,8 @@
     "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "acceptAnswers": [
       "Garden"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-237-2",
@@ -5909,7 +5929,8 @@
     "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "acceptAnswers": [
       "trees"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-237-3",
@@ -5930,7 +5951,8 @@
     "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "acceptAnswers": [
       "lunch"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-237-4",
@@ -5951,7 +5973,8 @@
     "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "acceptAnswers": [
       "years"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-237-5",
@@ -5972,7 +5995,8 @@
     "explanation": "短文原文：Last weekend, my family went to Foshan's Lianglu Garden. It is a beautiful place with many flowers and trees. We took a lot of photos there. My father cooked a delicious lunch for us. The food was really nice. We also visited the ancient temple nearby. The temple was more than 500 years old. We had a wonderful time there. I think Lianglu Garden is a great place for a family trip.",
     "acceptAnswers": [
       "trip"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-238-1",
@@ -5992,7 +6016,8 @@
     "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "acceptAnswers": [
       "bookshelf"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-238-2",
@@ -6012,7 +6037,8 @@
     "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "acceptAnswers": [
       "adventure"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-238-3",
@@ -6032,7 +6058,8 @@
     "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "acceptAnswers": [
       "minutes"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-238-4",
@@ -6052,7 +6079,8 @@
     "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "acceptAnswers": [
       "words"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-238-5",
@@ -6072,7 +6100,8 @@
     "explanation": "短文原文：I love reading books. I have a small bookshelf in my room. It has about fifty books. My favorite books are science fiction and adventure stories. Every night before I sleep, I read for about thirty minutes. Reading helps me learn many new words. It also makes my imagination richer. My dream is to become a writer when I grow up. I want to write interesting stories for children.",
     "acceptAnswers": [
       "writer"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-239-1",
@@ -6092,7 +6121,8 @@
     "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "acceptAnswers": [
       "Tom"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-239-2",
@@ -6112,7 +6142,8 @@
     "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "acceptAnswers": [
       "cake"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-239-3",
@@ -6132,7 +6163,8 @@
     "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "acceptAnswers": [
       "presents"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-239-4",
@@ -6152,7 +6184,8 @@
     "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "acceptAnswers": [
       "afternoon"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-239-5",
@@ -6172,7 +6205,8 @@
     "explanation": "短文原文：Tomorrow is Tom's birthday. His mother is going to make a big cake for him. His father will buy some balloons and presents. Tom's friends will come to his home in the afternoon. They will play games and eat the birthday cake together. Tom's mother will cook many delicious foods. Tom is very excited about his birthday party. He hopes everyone will have a good time.",
     "acceptAnswers": [
       "time"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-240-1",
@@ -6192,7 +6226,8 @@
     "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "acceptAnswers": [
       "bus"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-240-2",
@@ -6212,7 +6247,8 @@
     "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "acceptAnswers": [
       "minutes"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-240-3",
@@ -6232,7 +6268,8 @@
     "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "acceptAnswers": [
       "window"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-240-4",
@@ -6252,7 +6289,8 @@
     "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "acceptAnswers": [
       "Lucy"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-240-5",
@@ -6272,7 +6310,8 @@
     "explanation": "短文原文：I usually go to school by bus. The bus ride takes about twenty minutes. I always sit near the window so I can enjoy the scenery. Sometimes I read or listen to music on the bus. My best friend Lucy sits with me every day. We often talk about our homework or interesting things. The bus driver is very friendly. He always says good morning to us. I enjoy the bus ride to school.",
     "acceptAnswers": [
       "friendly"
-    ]
+    ],
+    "options": []
   },
   {
     "id": "english-241",
@@ -6285,10 +6324,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6304,10 +6355,22 @@
     ],
     "question": "By the time we arrived at the cinema, the movie ___.",
     "options": [
-      "A. has started",
-      "B. had started",
-      "C. started",
-      "D. was starting"
+      {
+        "label": "A",
+        "text": "has started"
+      },
+      {
+        "label": "B",
+        "text": "had started"
+      },
+      {
+        "label": "C",
+        "text": "started"
+      },
+      {
+        "label": "D",
+        "text": "was starting"
+      }
     ],
     "answer": "B",
     "explanation": "过去完成时表示在过去某一时刻之前已经完成的动作。此句中“by the time we arrived”暗示在到达之前电影已经开始，所以用过去完成时“had started”。"
@@ -6323,10 +6386,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6342,10 +6417,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6361,10 +6448,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6380,10 +6479,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6399,10 +6510,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6418,10 +6541,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6435,15 +6570,15 @@
     "knowledgeTags": [
       "动名词"
     ],
-    "question": "...",
+    "question": "My brother enjoys _____ music in his free time.",
     "options": [
-      "A. ...",
-      "B. ...",
-      "C. ...",
-      "D. ..."
+      "listen",
+      "listening",
+      "to listen",
+      "listened"
     ],
-    "answer": "B",
-    "explanation": "..."
+    "answer": "listening",
+    "explanation": "enjoy 后面接动名词（-ing形式）作宾语，因此用 listening。"
   },
   {
     "id": "english-250",
@@ -6456,10 +6591,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6475,10 +6622,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6494,10 +6653,22 @@
     ],
     "question": "Listen! Someone ___ at the door.",
     "options": [
-      "A. knocks",
-      "B. is knocking",
-      "C. knocked",
-      "D. knock"
+      {
+        "label": "A",
+        "text": "knocks"
+      },
+      {
+        "label": "B",
+        "text": "is knocking"
+      },
+      {
+        "label": "C",
+        "text": "knocked"
+      },
+      {
+        "label": "D",
+        "text": "knock"
+      }
     ],
     "answer": "B",
     "explanation": "“Listen!” 暗示动作正在进行中，所以用现在进行时 (is knocking)。一般现在时 (knocks) 表示习惯性动作，不符合语境。"
@@ -6513,10 +6684,22 @@
     ],
     "question": "She ___ to Beijing last month.",
     "options": [
-      "A. has gone",
-      "B. went",
-      "C. is going",
-      "D. will go"
+      {
+        "label": "A",
+        "text": "has gone"
+      },
+      {
+        "label": "B",
+        "text": "went"
+      },
+      {
+        "label": "C",
+        "text": "is going"
+      },
+      {
+        "label": "D",
+        "text": "will go"
+      }
     ],
     "answer": "B",
     "explanation": "因为时间状语 'last month' 表示过去的时间，应该使用一般过去时 'went'。"
@@ -6530,15 +6713,15 @@
     "knowledgeTags": [
       "语法-非谓语"
     ],
-    "question": "...",
+    "question": "His dream is _____ a doctor when he grows up.",
     "options": [
-      "A. ...",
-      "B. ...",
-      "C. ...",
-      "D. ..."
+      "be",
+      "to be",
+      "being",
+      "been"
     ],
-    "answer": "B",
-    "explanation": "..."
+    "answer": "to be",
+    "explanation": "be动词作表语时需用不定式形式，因此 His dream is to be a doctor。"
   },
   {
     "id": "english-255",
@@ -6551,10 +6734,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6570,10 +6765,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6589,10 +6796,22 @@
     ],
     "question": "Which of the following is the correct plural form of \"tooth\"?",
     "options": [
-      "A. tooths",
-      "B. teeth",
-      "C. teath",
-      "D. toothes"
+      {
+        "label": "A",
+        "text": "tooths"
+      },
+      {
+        "label": "B",
+        "text": "teeth"
+      },
+      {
+        "label": "C",
+        "text": "teath"
+      },
+      {
+        "label": "D",
+        "text": "toothes"
+      }
     ],
     "answer": "B",
     "explanation": "The irregular plural of \"tooth\" is \"teeth\", not \"teeth\" spelled with \"th\" as in \"teeth\". "
@@ -6608,10 +6827,22 @@
     ],
     "question": "Which of the following is the correct plural of \"child\"?",
     "options": [
-      "A. childs",
-      "B. children",
-      "C. childes",
-      "D. child"
+      {
+        "label": "A",
+        "text": "childs"
+      },
+      {
+        "label": "B",
+        "text": "children"
+      },
+      {
+        "label": "C",
+        "text": "childes"
+      },
+      {
+        "label": "D",
+        "text": "child"
+      }
     ],
     "answer": "B",
     "explanation": "The irregular plural of child is children."
@@ -6627,10 +6858,22 @@
     ],
     "question": "Please ______ the door before you leave.",
     "options": [
-      "A. close",
-      "B. closes",
-      "C. closing",
-      "D. closed"
+      {
+        "label": "A",
+        "text": "close"
+      },
+      {
+        "label": "B",
+        "text": "closes"
+      },
+      {
+        "label": "C",
+        "text": "closing"
+      },
+      {
+        "label": "D",
+        "text": "closed"
+      }
     ],
     "answer": "A",
     "explanation": "在祈使句中，动词使用原形，用来表示请求或指令。此句为对别人的请求，所以用动词原形‘close’。"
@@ -6646,10 +6889,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6665,10 +6920,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6684,10 +6951,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6703,10 +6982,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6722,10 +7013,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6741,10 +7044,22 @@
     ],
     "question": "Which of the following words is an adjective?",
     "options": [
-      "A. happy",
-      "B. happily",
-      "C. happiness",
-      "D. to be happy"
+      {
+        "label": "A",
+        "text": "happy"
+      },
+      {
+        "label": "B",
+        "text": "happily"
+      },
+      {
+        "label": "C",
+        "text": "happiness"
+      },
+      {
+        "label": "D",
+        "text": "to be happy"
+      }
     ],
     "answer": "A",
     "explanation": "‘happy’ is an adjective describing a noun, while ‘happily’ is an adverb, ‘happiness’ is a noun, and ‘to be happy’ is a verb phrase."
@@ -6760,10 +7075,22 @@
     ],
     "question": "She is always smiling and laughing. She looks very ____.",
     "options": [
-      "A. sad",
-      "B. happy",
-      "C. angry",
-      "D. tired"
+      {
+        "label": "A",
+        "text": "sad"
+      },
+      {
+        "label": "B",
+        "text": "happy"
+      },
+      {
+        "label": "C",
+        "text": "angry"
+      },
+      {
+        "label": "D",
+        "text": "tired"
+      }
     ],
     "answer": "B",
     "explanation": "The adjective \"happy\" describes a person who feels joy and smiles often, matching the description."
@@ -6779,10 +7106,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6798,10 +7137,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6815,15 +7166,15 @@
     "knowledgeTags": [
       "代词"
     ],
-    "question": "...",
+    "question": "This is my book. _____ is on the desk.",
     "options": [
-      "A. ...",
-      "B. ...",
-      "C. ...",
-      "D. ..."
+      "He",
+      "She",
+      "It",
+      "They"
     ],
-    "answer": "B",
-    "explanation": "..."
+    "answer": "It",
+    "explanation": "指代事物用 it，这里指代 book 这本书。"
   },
   {
     "id": "english-270",
@@ -6836,10 +7187,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6855,10 +7218,22 @@
     ],
     "question": "I like coffee, ___ I don't like tea.",
     "options": [
-      "A. and",
-      "B. but",
-      "C. or",
-      "D. so"
+      {
+        "label": "A",
+        "text": "and"
+      },
+      {
+        "label": "B",
+        "text": "but"
+      },
+      {
+        "label": "C",
+        "text": "or"
+      },
+      {
+        "label": "D",
+        "text": "so"
+      }
     ],
     "answer": "B",
     "explanation": "在句子中，前后半句表示转折关系，所以用转折连词“but”。"
@@ -6874,10 +7249,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6893,10 +7280,22 @@
     ],
     "question": "Which of the following sentences uses the correct comparative form of the adjective 'tall'?",
     "options": [
-      "A. Tom is taller than his brother.",
-      "B. Tom is more tall than his brother.",
-      "C. Tom is tall than his brother.",
-      "D. Tom is tallest than his brother."
+      {
+        "label": "A",
+        "text": "Tom is taller than his brother."
+      },
+      {
+        "label": "B",
+        "text": "Tom is more tall than his brother."
+      },
+      {
+        "label": "C",
+        "text": "Tom is tall than his brother."
+      },
+      {
+        "label": "D",
+        "text": "Tom is tallest than his brother."
+      }
     ],
     "answer": "A",
     "explanation": "The comparative form of a one‑syllable adjective is usually formed by adding -er. Therefore 'tall' becomes 'taller', not 'more tall' or 'tallest'."
@@ -6912,10 +7311,22 @@
     ],
     "question": "Which of the following is a countable noun?",
     "options": [
-      "A. apple",
-      "B. water",
-      "C. happiness",
-      "D. information"
+      {
+        "label": "A",
+        "text": "apple"
+      },
+      {
+        "label": "B",
+        "text": "water"
+      },
+      {
+        "label": "C",
+        "text": "happiness"
+      },
+      {
+        "label": "D",
+        "text": "information"
+      }
     ],
     "answer": "A",
     "explanation": "Apple is a countable noun because you can have one apple, two apples, etc."
@@ -6931,10 +7342,22 @@
     ],
     "question": "Which of the following is a countable noun?",
     "options": [
-      "A. apple",
-      "B. water",
-      "C. happiness",
-      "D. music"
+      {
+        "label": "A",
+        "text": "apple"
+      },
+      {
+        "label": "B",
+        "text": "water"
+      },
+      {
+        "label": "C",
+        "text": "happiness"
+      },
+      {
+        "label": "D",
+        "text": "music"
+      }
     ],
     "answer": "A",
     "explanation": "Apple can be counted (one apple, two apples), while water, happiness, and music are uncountable nouns."
@@ -6950,10 +7373,22 @@
     ],
     "question": "We will have a party _____ Sunday.",
     "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. for"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
     "answer": "B",
     "explanation": "在具体日期（星期）前使用介词 on。"
@@ -6969,10 +7404,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -6988,10 +7435,22 @@
     ],
     "question": "_____ Monday, we have an English test.",
     "options": [
-      "A. On",
-      "B. At",
-      "C. In",
-      "D. By"
+      {
+        "label": "A",
+        "text": "On"
+      },
+      {
+        "label": "B",
+        "text": "At"
+      },
+      {
+        "label": "C",
+        "text": "In"
+      },
+      {
+        "label": "D",
+        "text": "By"
+      }
     ],
     "answer": "A",
     "explanation": "在星期几前面要用时间介词 on。"
@@ -7007,10 +7466,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7026,10 +7497,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7045,10 +7528,22 @@
     ],
     "question": "She _______ to school every day.",
     "options": [
-      "A. goes",
-      "B. go",
-      "C. going",
-      "D. went"
+      {
+        "label": "A",
+        "text": "goes"
+      },
+      {
+        "label": "B",
+        "text": "go"
+      },
+      {
+        "label": "C",
+        "text": "going"
+      },
+      {
+        "label": "D",
+        "text": "went"
+      }
     ],
     "answer": "A",
     "explanation": "因为主语是She，第三人称单数，动词要用一般现在时的第三人称单数形式，即加-s，所以正确答案是goes。"
@@ -7064,10 +7559,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7083,10 +7590,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7102,10 +7621,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7121,10 +7652,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7140,10 +7683,22 @@
     ],
     "question": "How do you usually go to school?",
     "options": [
-      "A. By bus",
-      "B. By bike",
-      "C. By car",
-      "D. By subway"
+      {
+        "label": "A",
+        "text": "By bus"
+      },
+      {
+        "label": "B",
+        "text": "By bike"
+      },
+      {
+        "label": "C",
+        "text": "By car"
+      },
+      {
+        "label": "D",
+        "text": "By subway"
+      }
     ],
     "answer": "B",
     "explanation": "The most common way for many students to get to school is by bike, which is easy and healthy."
@@ -7159,10 +7714,22 @@
     ],
     "question": "How do you usually go to school?",
     "options": [
-      "A. By bus",
-      "B. By bike",
-      "C. On foot",
-      "D. By car"
+      {
+        "label": "A",
+        "text": "By bus"
+      },
+      {
+        "label": "B",
+        "text": "By bike"
+      },
+      {
+        "label": "C",
+        "text": "On foot"
+      },
+      {
+        "label": "D",
+        "text": "By car"
+      }
     ],
     "answer": "C",
     "explanation": "因为题目问的是‘usually’表示习惯，‘On foot’（步行）是常见的上学方式。"
@@ -7178,10 +7745,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7197,10 +7776,22 @@
     ],
     "question": "题干内容",
     "options": [
-      "A. 选项",
-      "B. 选项",
-      "C. 选项",
-      "D. 选项"
+      {
+        "label": "A",
+        "text": "选项"
+      },
+      {
+        "label": "B",
+        "text": "选项"
+      },
+      {
+        "label": "C",
+        "text": "选项"
+      },
+      {
+        "label": "D",
+        "text": "选项"
+      }
     ],
     "answer": "B",
     "explanation": "解析"
@@ -7216,10 +7807,22 @@
     ],
     "question": "She has ___ the homework already.",
     "options": [
-      "A. finish",
-      "B. finished",
-      "C. finishes",
-      "D. finishing"
+      {
+        "label": "A",
+        "text": "finish"
+      },
+      {
+        "label": "B",
+        "text": "finished"
+      },
+      {
+        "label": "C",
+        "text": "finishes"
+      },
+      {
+        "label": "D",
+        "text": "finishing"
+      }
     ],
     "answer": "B",
     "explanation": "在现在完成时中，助动词 have/has 后面要接动词的过去分词形式。句中 has 后面需要一个过去分词，故选 finished。"
@@ -7235,10 +7838,22 @@
     ],
     "question": "— Look! The dog ___ (play) in the garden right now.",
     "options": [
-      "A. plays",
-      "B. is playing",
-      "C. played",
-      "D. playing"
+      {
+        "label": "A",
+        "text": "plays"
+      },
+      {
+        "label": "B",
+        "text": "is playing"
+      },
+      {
+        "label": "C",
+        "text": "played"
+      },
+      {
+        "label": "D",
+        "text": "playing"
+      }
     ],
     "answer": "B",
     "explanation": "在“Look!”或具体表示说话时刻正在进行的动作用现在进行时，结构为“be + 动词‑ing”。这里的主语是The dog，be动词用is。"
@@ -7254,10 +7869,22 @@
     ],
     "question": "— Where is Tom? — He ___ a book in his room now.",
     "options": [
-      "A. reads",
-      "B. is reading",
-      "C. read",
-      "D. will read"
+      {
+        "label": "A",
+        "text": "reads"
+      },
+      {
+        "label": "B",
+        "text": "is reading"
+      },
+      {
+        "label": "C",
+        "text": "read"
+      },
+      {
+        "label": "D",
+        "text": "will read"
+      }
     ],
     "answer": "B",
     "explanation": "现在进行时表示说话时正在进行的动作，由 be 动词（am/is/are）+ 动词‑ing 构成。根据时间状语 now，这里应使用 is reading。"
@@ -7273,10 +7900,22 @@
     ],
     "question": "Look! The children ______ in the park now.",
     "options": [
-      "A. playing",
-      "B. are playing",
-      "C. is playing",
-      "D. plays"
+      {
+        "label": "A",
+        "text": "playing"
+      },
+      {
+        "label": "B",
+        "text": "are playing"
+      },
+      {
+        "label": "C",
+        "text": "is playing"
+      },
+      {
+        "label": "D",
+        "text": "plays"
+      }
     ],
     "answer": "B",
     "explanation": "在现在进行时中，主语是复数时使用 are + 动词‑ing 形式。因此，空格应填 are playing。"
@@ -7292,10 +7931,22 @@
     ],
     "question": "She _____ her homework before she went to the party.",
     "options": [
-      "A. finishes",
-      "B. finished",
-      "C. had finished",
-      "D. has finished"
+      {
+        "label": "A",
+        "text": "finishes"
+      },
+      {
+        "label": "B",
+        "text": "finished"
+      },
+      {
+        "label": "C",
+        "text": "had finished"
+      },
+      {
+        "label": "D",
+        "text": "has finished"
+      }
     ],
     "answer": "C",
     "explanation": "过去完成时用于表示在过去的另一个动作之前已经完成的动作。本题中，“她在派对之前已经完成作业”，所以用过去完成时 “had finished”。"
@@ -7311,10 +7962,22 @@
     ],
     "question": "When I got to the station, the train _____ (leave).",
     "options": [
-      "A. left",
-      "B. has left",
-      "C. had left",
-      "D. was leaving"
+      {
+        "label": "A",
+        "text": "left"
+      },
+      {
+        "label": "B",
+        "text": "has left"
+      },
+      {
+        "label": "C",
+        "text": "had left"
+      },
+      {
+        "label": "D",
+        "text": "was leaving"
+      }
     ],
     "answer": "C",
     "explanation": "过去完成时用于描述在过去某一时刻之前已经完成的动作。本题中，“当我到达车站时”是一个过去的时刻，“火车已经离开”这件事在此之前已经发生，所以要用过去完成时 had left。其它选项的时态不符合句意。"
@@ -7330,10 +7993,22 @@
     ],
     "question": "By the time I arrived, he ___ .",
     "options": [
-      "A. left",
-      "B. had left",
-      "C. has left",
-      "D. leaves"
+      {
+        "label": "A",
+        "text": "left"
+      },
+      {
+        "label": "B",
+        "text": "had left"
+      },
+      {
+        "label": "C",
+        "text": "has left"
+      },
+      {
+        "label": "D",
+        "text": "leaves"
+      }
     ],
     "answer": "B",
     "explanation": "在 “By the time I arrived” 引导的时间状语从句中，主句的动作发生在从句的动作之前，表示过去的过去，因此使用过去完成时（had + 过去分词）。"
@@ -7349,10 +8024,22 @@
     ],
     "question": "By the time he arrived at the station, the train ____.",
     "options": [
-      "A. had left",
-      "B. left",
-      "C. has left",
-      "D. leaves"
+      {
+        "label": "A",
+        "text": "had left"
+      },
+      {
+        "label": "B",
+        "text": "left"
+      },
+      {
+        "label": "C",
+        "text": "has left"
+      },
+      {
+        "label": "D",
+        "text": "leaves"
+      }
     ],
     "answer": "A",
     "explanation": "过去完成时用于表示在过去某一时间点之前已经完成的动作。这里指“火车在到达车站之前已经离开”，因此使用 had + 过去分词，即 had left。"
@@ -7368,10 +8055,22 @@
     ],
     "question": "下列句子中，符合“主将从现”语法规则的是哪一项？",
     "options": [
-      "A. I will call you when I will arrive.",
-      "B. I will call you when I arrive.",
-      "C. I called you when I arrived.",
-      "D. I call you when I arrive."
+      {
+        "label": "A",
+        "text": "I will call you when I will arrive."
+      },
+      {
+        "label": "B",
+        "text": "I will call you when I arrive."
+      },
+      {
+        "label": "C",
+        "text": "I called you when I arrived."
+      },
+      {
+        "label": "D",
+        "text": "I call you when I arrive."
+      }
     ],
     "answer": "B",
     "explanation": "“主将从现”指在条件或时间状语从句中，主句使用将来时，而从句使用一般现在时表示将来。选项B中，主句“will call”是将来时，从句“when I arrive”使用一般现在时，符合规则。"
@@ -7387,10 +8086,22 @@
     ],
     "question": "If it rains tomorrow, I __________ at home.",
     "options": [
-      "A. will stay",
-      "B. stay",
-      "C. stayed",
-      "D. stays"
+      {
+        "label": "A",
+        "text": "will stay"
+      },
+      {
+        "label": "B",
+        "text": "stay"
+      },
+      {
+        "label": "C",
+        "text": "stayed"
+      },
+      {
+        "label": "D",
+        "text": "stays"
+      }
     ],
     "answer": "A",
     "explanation": "在 if 引导的条件状语从句中，用一般现在时表示将来，而主句用将来时。因此，从句使用一般现在时 rains，主句使用 will stay。"
@@ -7406,10 +8117,22 @@
     ],
     "question": "请选择符合“主将从现”规则的句子。",
     "options": [
-      "A. If it will rain tomorrow, we will cancel the trip.",
-      "B. If it rains tomorrow, we will cancel the trip.",
-      "C. If it rains tomorrow, we cancel the trip.",
-      "D. If it will rain tomorrow, we cancel the trip."
+      {
+        "label": "A",
+        "text": "If it will rain tomorrow, we will cancel the trip."
+      },
+      {
+        "label": "B",
+        "text": "If it rains tomorrow, we will cancel the trip."
+      },
+      {
+        "label": "C",
+        "text": "If it rains tomorrow, we cancel the trip."
+      },
+      {
+        "label": "D",
+        "text": "If it will rain tomorrow, we cancel the trip."
+      }
     ],
     "answer": "B",
     "explanation": "在‘主将从现’的结构中，条件状语从句使用一般现在时，而主句使用一般将来时。因此，正确句子应为‘If it rains tomorrow, we will cancel the trip.’，即选项B。"
@@ -7425,10 +8148,22 @@
     ],
     "question": "When he _______ tomorrow, we will start the meeting.",
     "options": [
-      "A. arrives",
-      "B. will arrive",
-      "C. arrived",
-      "D. is arriving"
+      {
+        "label": "A",
+        "text": "arrives"
+      },
+      {
+        "label": "B",
+        "text": "will arrive"
+      },
+      {
+        "label": "C",
+        "text": "arrived"
+      },
+      {
+        "label": "D",
+        "text": "is arriving"
+      }
     ],
     "answer": "A",
     "explanation": "In a time clause (when) that refers to a future event, we use the present simple tense, not the future tense. Therefore, “arrives” is correct."
@@ -7444,10 +8179,22 @@
     ],
     "question": "把下面的句子改写为被动语态：The boy broke the window.",
     "options": [
-      "A. The window was broken by the boy.",
-      "B. The window broke by the boy.",
-      "C. The window is broken by the boy.",
-      "D. The window was broken the boy."
+      {
+        "label": "A",
+        "text": "The window was broken by the boy."
+      },
+      {
+        "label": "B",
+        "text": "The window broke by the boy."
+      },
+      {
+        "label": "C",
+        "text": "The window is broken by the boy."
+      },
+      {
+        "label": "D",
+        "text": "The window was broken the boy."
+      }
     ],
     "answer": "A",
     "explanation": "在被动语态中，原句的宾语（the window）成为主语，动词使用 be + 过去分词（was broken），并且施动者用 by 引出。因此正确选项是 A。"
@@ -7463,10 +8210,22 @@
     ],
     "question": "My parents want me ___ a doctor when I grow up.",
     "options": [
-      "A. be",
-      "B. to be",
-      "C. being",
-      "D. been"
+      {
+        "label": "A",
+        "text": "be"
+      },
+      {
+        "label": "B",
+        "text": "to be"
+      },
+      {
+        "label": "C",
+        "text": "being"
+      },
+      {
+        "label": "D",
+        "text": "been"
+      }
     ],
     "answer": "B",
     "explanation": "在 want 之后，需要使用不定式 to + 动词原形作补语，因此正确答案是 B 项的 to be。"
@@ -7482,10 +8241,22 @@
     ],
     "question": "My brother decided ___ a new bike.",
     "options": [
-      "A. buying",
-      "B. to buy",
-      "C. buys",
-      "D. bought"
+      {
+        "label": "A",
+        "text": "buying"
+      },
+      {
+        "label": "B",
+        "text": "to buy"
+      },
+      {
+        "label": "C",
+        "text": "buys"
+      },
+      {
+        "label": "D",
+        "text": "bought"
+      }
     ],
     "answer": "B",
     "explanation": "The verb 'decide' is followed by an infinitive, so the correct form is 'to buy'."
@@ -7501,10 +8272,22 @@
     ],
     "question": "He promised ____ the homework before dinner.",
     "options": [
-      "A. to finish",
-      "B. finishing",
-      "C. finished",
-      "D. finishes"
+      {
+        "label": "A",
+        "text": "to finish"
+      },
+      {
+        "label": "B",
+        "text": "finishing"
+      },
+      {
+        "label": "C",
+        "text": "finished"
+      },
+      {
+        "label": "D",
+        "text": "finishes"
+      }
     ],
     "answer": "A",
     "explanation": "在“promise”之后应使用不定式（to + 动词原形）作宾语补足语，故正确答案为 A。选项 B 为动名词，C、D 为过去式或第三人称单数，均不符合结构。"
@@ -7520,10 +8303,22 @@
     ],
     "question": "The teacher told us ____ the homework carefully before tomorrow's class.",
     "options": [
-      "A. to finish",
-      "B. finish",
-      "C. finishing",
-      "D. finished"
+      {
+        "label": "A",
+        "text": "to finish"
+      },
+      {
+        "label": "B",
+        "text": "finish"
+      },
+      {
+        "label": "C",
+        "text": "finishing"
+      },
+      {
+        "label": "D",
+        "text": "finished"
+      }
     ],
     "answer": "A",
     "explanation": "动词不定式由 \"to\" + 动词原形 构成，在句中作宾语补足语，表示要完成的动作。这里要用 \"to finish\"，而不是原形、动名词或过去式。"
@@ -7539,10 +8334,22 @@
     ],
     "question": "I enjoy _____ after school.",
     "options": [
-      "A. swim",
-      "B. to swim",
-      "C. swimming",
-      "D. swam"
+      {
+        "label": "A",
+        "text": "swim"
+      },
+      {
+        "label": "B",
+        "text": "to swim"
+      },
+      {
+        "label": "C",
+        "text": "swimming"
+      },
+      {
+        "label": "D",
+        "text": "swam"
+      }
     ],
     "answer": "C",
     "explanation": "动名词由动词加‑ing 构成，可在句中作宾语。此处 “enjoy” 后面需要名词性的成分，所以用 “swimming”。"
@@ -7558,10 +8365,22 @@
     ],
     "question": "I am interested in _____ (play) tennis after school.",
     "options": [
-      "A. playing",
-      "B. to play",
-      "C. play",
-      "D. plays"
+      {
+        "label": "A",
+        "text": "playing"
+      },
+      {
+        "label": "B",
+        "text": "to play"
+      },
+      {
+        "label": "C",
+        "text": "play"
+      },
+      {
+        "label": "D",
+        "text": "plays"
+      }
     ],
     "answer": "A",
     "explanation": "The preposition 'in' is followed by a gerund (the -ing form of the verb). Therefore, the correct choice is 'playing'."
@@ -7577,10 +8396,22 @@
     ],
     "question": "—Listen! Who ___ in the next room?",
     "options": [
-      "A. sings",
-      "B. is singing",
-      "C. sing",
-      "D. sang"
+      {
+        "label": "A",
+        "text": "sings"
+      },
+      {
+        "label": "B",
+        "text": "is singing"
+      },
+      {
+        "label": "C",
+        "text": "sing"
+      },
+      {
+        "label": "D",
+        "text": "sang"
+      }
     ],
     "answer": "B",
     "explanation": "现在进行时由be动词（am/is/are）+动词的-ing形式构成，常与look、listen等提示词连用，表示说话时正在进行的动作。这里“Listen!”提示正在发生的动作，故应使用is singing。"
@@ -7596,10 +8427,22 @@
     ],
     "question": "—Listen! The baby ___ (cry).",
     "options": [
-      "A. cry",
-      "B. is crying",
-      "C. cries",
-      "D. cried"
+      {
+        "label": "A",
+        "text": "cry"
+      },
+      {
+        "label": "B",
+        "text": "is crying"
+      },
+      {
+        "label": "C",
+        "text": "cries"
+      },
+      {
+        "label": "D",
+        "text": "cried"
+      }
     ],
     "answer": "B",
     "explanation": "现在进行时用来描述说话时正在进行的动作，构成是 be (am/is/are) + 动词‑ing。句子的开头Listen!表明动作正在进行，且主语是 The baby，所以用 is + crying，选项B正确。"
@@ -7615,10 +8458,22 @@
     ],
     "question": "Listen! The baby ___.",
     "options": [
-      "A. cries",
-      "B. is crying",
-      "C. cry",
-      "D. cried"
+      {
+        "label": "A",
+        "text": "cries"
+      },
+      {
+        "label": "B",
+        "text": "is crying"
+      },
+      {
+        "label": "C",
+        "text": "cry"
+      },
+      {
+        "label": "D",
+        "text": "cried"
+      }
     ],
     "answer": "B",
     "explanation": "现在进行时用来描述正在进行的动作，结构为 be动词 + 动词‑ing。句首的 Listen! 表示动作正在进行，因此应选 is crying。"
@@ -7634,10 +8489,22 @@
     ],
     "question": "— Listen! Someone ___ at the door.",
     "options": [
-      "A. knocks",
-      "B. is knocking",
-      "C. knock",
-      "D. knocked"
+      {
+        "label": "A",
+        "text": "knocks"
+      },
+      {
+        "label": "B",
+        "text": "is knocking"
+      },
+      {
+        "label": "C",
+        "text": "knock"
+      },
+      {
+        "label": "D",
+        "text": "knocked"
+      }
     ],
     "answer": "B",
     "explanation": "现在进行时用于描述正在发生的动作，结构为 am/is/are + 动词‑ing。这里“someone”是单数第三人称，动词应配合使用 is knocking。"
@@ -7653,10 +8520,22 @@
     ],
     "question": "The train _______ before they arrived at the station.",
     "options": [
-      "A. had left",
-      "B. has left",
-      "C. left",
-      "D. leaves"
+      {
+        "label": "A",
+        "text": "had left"
+      },
+      {
+        "label": "B",
+        "text": "has left"
+      },
+      {
+        "label": "C",
+        "text": "left"
+      },
+      {
+        "label": "D",
+        "text": "leaves"
+      }
     ],
     "answer": "A",
     "explanation": "过去完成时用来表示在过去某个时间点之前已经完成的动作，结构是 had + 过去分词。本题中“before they arrived”表示在过去的时间点之前已经离开，所以用 had left。"
@@ -7672,10 +8551,22 @@
     ],
     "question": "By the time the movie started, they ___ their seats.",
     "options": [
-      "A. have taken",
-      "B. took",
-      "C. had taken",
-      "D. were taking"
+      {
+        "label": "A",
+        "text": "have taken"
+      },
+      {
+        "label": "B",
+        "text": "took"
+      },
+      {
+        "label": "C",
+        "text": "had taken"
+      },
+      {
+        "label": "D",
+        "text": "were taking"
+      }
     ],
     "answer": "C",
     "explanation": "In this sentence, the action of taking seats occurred before the movie started, so the past perfect tense \"had taken\" is used to show the earlier past action."
@@ -7691,10 +8582,22 @@
     ],
     "question": "By the time we arrived, the train ______.",
     "options": [
-      "A. left",
-      "B. had left",
-      "C. has left",
-      "D. leaves"
+      {
+        "label": "A",
+        "text": "left"
+      },
+      {
+        "label": "B",
+        "text": "had left"
+      },
+      {
+        "label": "C",
+        "text": "has left"
+      },
+      {
+        "label": "D",
+        "text": "leaves"
+      }
     ],
     "answer": "B",
     "explanation": "此处表示“火车在我们到达之前已经离开”，是过去的过去，用过去完成时（had + 过去分词）。"
@@ -7710,10 +8613,22 @@
     ],
     "question": "When I got to the station, the train ____.",
     "options": [
-      "A. had left",
-      "B. left",
-      "C. has left",
-      "D. leaves"
+      {
+        "label": "A",
+        "text": "had left"
+      },
+      {
+        "label": "B",
+        "text": "left"
+      },
+      {
+        "label": "C",
+        "text": "has left"
+      },
+      {
+        "label": "D",
+        "text": "leaves"
+      }
     ],
     "answer": "A",
     "explanation": "过去完成时表示在过去某一时刻之前已经发生的动作或状态，常用于主句是过去时而从句用过去完成时，表示“过去的过去”。本题中，“当我到达车站时”是过去时间，而火车在更早的时间已经离开，所以用过去完成时 had left。"
@@ -7729,10 +8644,22 @@
     ],
     "question": "将下列句子改为被动语态：\n\"The teacher explains the lesson every day.\"",
     "options": [
-      "A. The lesson is explained by the teacher every day.",
-      "B. The lesson was explained by the teacher every day.",
-      "C. The lesson is explain by the teacher every day.",
-      "D. The lesson explains the teacher every day."
+      {
+        "label": "A",
+        "text": "The lesson is explained by the teacher every day."
+      },
+      {
+        "label": "B",
+        "text": "The lesson was explained by the teacher every day."
+      },
+      {
+        "label": "C",
+        "text": "The lesson is explain by the teacher every day."
+      },
+      {
+        "label": "D",
+        "text": "The lesson explains the teacher every day."
+      }
     ],
     "answer": "A",
     "explanation": "原句为一般现在时的主动语态，主语是 the teacher，宾语是 the lesson。改为被动语态时，宾语 the lesson 变成主语，谓语动词使用 be + 过去分词 结构，主语改为 by the teacher。所以正确形式是 “The lesson is explained by the teacher every day.”。选项 B 使用了过去时，不符合时态；选项 C 缺少了 be 动词的正确形式；选项 D 改变了句意。"
@@ -7748,10 +8675,22 @@
     ],
     "question": "Which of the following sentences uses the present perfect tense correctly?",
     "options": [
-      "A. She has visited Paris twice.",
-      "B. She visited Paris twice.",
-      "C. She has visit Paris twice.",
-      "D. She visits Paris twice."
+      {
+        "label": "A",
+        "text": "She has visited Paris twice."
+      },
+      {
+        "label": "B",
+        "text": "She visited Paris twice."
+      },
+      {
+        "label": "C",
+        "text": "She has visit Paris twice."
+      },
+      {
+        "label": "D",
+        "text": "She visits Paris twice."
+      }
     ],
     "answer": "A",
     "explanation": "The present perfect is formed with 'have/has' followed by the past participle. 'Has visited' correctly uses 'has' (third‑person singular) plus the past participle 'visited'."
@@ -7767,10 +8706,22 @@
     ],
     "question": "Transform the following sentence into passive voice: 'The cat caught the mouse.'",
     "options": [
-      "A. The mouse was caught by the cat.",
-      "B. The mouse caught the cat.",
-      "C. The mouse is catching the cat.",
-      "D. The cat is caught by the mouse."
+      {
+        "label": "A",
+        "text": "The mouse was caught by the cat."
+      },
+      {
+        "label": "B",
+        "text": "The mouse caught the cat."
+      },
+      {
+        "label": "C",
+        "text": "The mouse is catching the cat."
+      },
+      {
+        "label": "D",
+        "text": "The cat is caught by the mouse."
+      }
     ],
     "answer": "A",
     "explanation": "In passive voice, the object (the mouse) becomes the subject, the verb is changed to a form of 'be' (was) plus the past participle (caught), and the original subject (the cat) is placed after 'by'."
@@ -7786,10 +8737,22 @@
     ],
     "question": "Which sentence contains an object clause?",
     "options": [
-      "A. She likes to read books.",
-      "B. I wonder what she is doing.",
-      "C. The book is interesting.",
-      "D. He gave me a gift."
+      {
+        "label": "A",
+        "text": "She likes to read books."
+      },
+      {
+        "label": "B",
+        "text": "I wonder what she is doing."
+      },
+      {
+        "label": "C",
+        "text": "The book is interesting."
+      },
+      {
+        "label": "D",
+        "text": "He gave me a gift."
+      }
     ],
     "answer": "B",
     "explanation": "In option B, the clause 'what she is doing' serves as the object of the verb 'wonder', making it an object clause."
@@ -7805,10 +8768,22 @@
     ],
     "question": "The movie ______ we watched last night was fantastic.",
     "options": [
-      "A. who",
-      "B. which",
-      "C. that",
-      "D. whom"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "which"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "whom"
+      }
     ],
     "answer": "C",
     "explanation": "在本句中，空白处需要一个关系代词来引导定语从句，修饰先行词“the movie”。先行词是事物，关系代词可以用that或which，但在四个选项中，that是更合适的选项。who和whom用于指人，which可以指物，但在本题的语境下，that最常用且符合英语语法规则。"
@@ -7824,10 +8799,22 @@
     ],
     "question": "_____ she didn't study, she still passed the exam.",
     "options": [
-      "A. Although",
-      "B. Because",
-      "C. When",
-      "D. Unless"
+      {
+        "label": "A",
+        "text": "Although"
+      },
+      {
+        "label": "B",
+        "text": "Because"
+      },
+      {
+        "label": "C",
+        "text": "When"
+      },
+      {
+        "label": "D",
+        "text": "Unless"
+      }
     ],
     "answer": "A",
     "explanation": "Although introduces a concessive adverbial clause, indicating a contrast between not studying and still passing the exam."
@@ -7843,10 +8830,22 @@
     ],
     "question": "Which of the following is the correct adverb form of the adjective 'quick'?",
     "options": [
-      "A. quick",
-      "B. quickly",
-      "C. quicker",
-      "D. quickness"
+      {
+        "label": "A",
+        "text": "quick"
+      },
+      {
+        "label": "B",
+        "text": "quickly"
+      },
+      {
+        "label": "C",
+        "text": "quicker"
+      },
+      {
+        "label": "D",
+        "text": "quickness"
+      }
     ],
     "answer": "B",
     "explanation": "The adjective 'quick' changes to the adverb 'quickly' by adding the suffix -ly, which is a common word‑class conversion (词性转换) from adjective to adverb."
@@ -7862,10 +8861,22 @@
     ],
     "question": "Read the short passage and choose the best main idea.\n\n\"During the summer, many families travel to the beach. They enjoy swimming, building sandcastles, and watching the sunset. The beach provides a fun and relaxing escape from everyday life.\"\n\nWhat is the main idea of this passage?",
     "options": [
-      "A. Families travel to the beach only in winter.",
-      "B. The beach is a popular summer vacation spot for relaxation and fun.",
-      "C. Building sandcastles is the most important beach activity.",
-      "D. Sunsets are more beautiful at the beach than elsewhere."
+      {
+        "label": "A",
+        "text": "Families travel to the beach only in winter."
+      },
+      {
+        "label": "B",
+        "text": "The beach is a popular summer vacation spot for relaxation and fun."
+      },
+      {
+        "label": "C",
+        "text": "Building sandcastles is the most important beach activity."
+      },
+      {
+        "label": "D",
+        "text": "Sunsets are more beautiful at the beach than elsewhere."
+      }
     ],
     "answer": "B",
     "explanation": "The passage describes families going to the beach during summer and enjoying various activities, emphasizing that the beach offers fun and relaxation. Option B captures this overall message."
@@ -7881,10 +8892,22 @@
     ],
     "question": "Choose the correct verb form to complete the sentence: \"If I ___ the exam, I will go to the beach.\"",
     "options": [
-      "A. pass",
-      "B. passes",
-      "C. passed",
-      "D. will pass"
+      {
+        "label": "A",
+        "text": "pass"
+      },
+      {
+        "label": "B",
+        "text": "passes"
+      },
+      {
+        "label": "C",
+        "text": "passed"
+      },
+      {
+        "label": "D",
+        "text": "will pass"
+      }
     ],
     "answer": "A",
     "explanation": "In a first conditional sentence, we use the present simple after 'if' to refer to a future situation, so 'pass' is the correct choice."
@@ -7900,10 +8923,22 @@
     ],
     "question": "Which of the following sentences is in the passive voice?",
     "options": [
-      "A. The teacher explains the lesson.",
-      "B. The students finished the project yesterday.",
-      "C. The book was read by the class.",
-      "D. He writes a letter every day."
+      {
+        "label": "A",
+        "text": "The teacher explains the lesson."
+      },
+      {
+        "label": "B",
+        "text": "The students finished the project yesterday."
+      },
+      {
+        "label": "C",
+        "text": "The book was read by the class."
+      },
+      {
+        "label": "D",
+        "text": "He writes a letter every day."
+      }
     ],
     "answer": "C",
     "explanation": "In a passive sentence, the object of the active sentence becomes the subject and the verb is in past participle form, often followed by 'by'. Here, 'The book' is the subject, and the verb 'was read' shows the passive voice."
@@ -7919,10 +8954,22 @@
     ],
     "question": "Which of the following sentences contains a subordinate clause?",
     "options": [
-      "A. The dog barked loudly.",
-      "B. My friend, who lives next door, is a doctor.",
-      "C. She sang and danced.",
-      "D. We will go to the park."
+      {
+        "label": "A",
+        "text": "The dog barked loudly."
+      },
+      {
+        "label": "B",
+        "text": "My friend, who lives next door, is a doctor."
+      },
+      {
+        "label": "C",
+        "text": "She sang and danced."
+      },
+      {
+        "label": "D",
+        "text": "We will go to the park."
+      }
     ],
     "answer": "B",
     "explanation": "The clause 'who lives next door' is a relative (subordinate) clause that modifies 'My friend'."
@@ -7938,10 +8985,22 @@
     ],
     "question": "Which sentence uses the modal verb \"can\" correctly?",
     "options": [
-      "A. She can to speak three languages.",
-      "B. She can speak three languages.",
-      "C. She can speaks three languages.",
-      "D. She can speaking three languages."
+      {
+        "label": "A",
+        "text": "She can to speak three languages."
+      },
+      {
+        "label": "B",
+        "text": "She can speak three languages."
+      },
+      {
+        "label": "C",
+        "text": "She can speaks three languages."
+      },
+      {
+        "label": "D",
+        "text": "She can speaking three languages."
+      }
     ],
     "answer": "B",
     "explanation": "\"Can\" is a modal verb followed directly by the base form of the verb without \"to\". In option B, \"can speak\" is grammatically correct. Options A, C, and D incorrectly add \"to\", \"s\", or \"ing\" after \"can\"."
@@ -7957,10 +9016,22 @@
     ],
     "question": "Which of the following words is spelled correctly?",
     "options": [
-      "A. recieve",
-      "B. receive",
-      "C. recieve",
-      "D. receeve"
+      {
+        "label": "A",
+        "text": "recieve"
+      },
+      {
+        "label": "B",
+        "text": "receive"
+      },
+      {
+        "label": "C",
+        "text": "recieve"
+      },
+      {
+        "label": "D",
+        "text": "receeve"
+      }
     ],
     "answer": "B",
     "explanation": "The correct spelling is 'receive', which follows the 'i before e except after c' rule."
@@ -7976,10 +9047,22 @@
     ],
     "question": "The cat is sitting ___ the table.",
     "options": [
-      "A. on",
-      "B. in",
-      "C. under",
-      "D. with"
+      {
+        "label": "A",
+        "text": "on"
+      },
+      {
+        "label": "B",
+        "text": "in"
+      },
+      {
+        "label": "C",
+        "text": "under"
+      },
+      {
+        "label": "D",
+        "text": "with"
+      }
     ],
     "answer": "C",
     "explanation": "The correct preposition is 'under', indicating that the cat is beneath the table."
@@ -7995,10 +9078,22 @@
     ],
     "question": "I saw him _____ the piano.",
     "options": [
-      "A. play",
-      "B. playing",
-      "C. played",
-      "D. to play"
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "playing"
+      },
+      {
+        "label": "C",
+        "text": "played"
+      },
+      {
+        "label": "D",
+        "text": "to play"
+      }
     ],
     "answer": "B",
     "explanation": "In the structure 'see + object + non‑finite verb', the present participle (‑ing) is used to describe an action that was observed happening. Here, 'playing' shows the action in progress, so option B is correct."
@@ -8014,10 +9109,22 @@
     ],
     "question": "Choose the correct comparative form to complete the sentence: \"This problem is ___ than the last one.\"",
     "options": [
-      "A. harder",
-      "B. more hard",
-      "C. hardest",
-      "D. more harder"
+      {
+        "label": "A",
+        "text": "harder"
+      },
+      {
+        "label": "B",
+        "text": "more hard"
+      },
+      {
+        "label": "C",
+        "text": "hardest"
+      },
+      {
+        "label": "D",
+        "text": "more harder"
+      }
     ],
     "answer": "A",
     "explanation": "'Hard' is a one‑syllable adjective, so its comparative form is 'harder'. The correct structure is adjective + -er + than, not 'more hard' or 'hardest'."
@@ -8033,10 +9140,22 @@
     ],
     "question": "Only after the concert ended _________ we could leave.",
     "options": [
-      "A. we could leave",
-      "B. could we leave",
-      "C. we can leave",
-      "D. we left"
+      {
+        "label": "A",
+        "text": "we could leave"
+      },
+      {
+        "label": "B",
+        "text": "could we leave"
+      },
+      {
+        "label": "C",
+        "text": "we can leave"
+      },
+      {
+        "label": "D",
+        "text": "we left"
+      }
     ],
     "answer": "B",
     "explanation": "当“Only after...”“等否定或限定性状语位于句首时，需要使用倒装结构，即将助动词或情态动词放在主语之前。原句中“Only after the concert ended”后应接倒装形式“could we leave”。因此正确答案是B。"
@@ -8052,10 +9171,22 @@
     ],
     "question": "She likes reading books, ___?",
     "options": [
-      "A. does she?",
-      "B. doesn't she?",
-      "C. she does?",
-      "D. she doesn't?"
+      {
+        "label": "A",
+        "text": "does she?"
+      },
+      {
+        "label": "B",
+        "text": "doesn't she?"
+      },
+      {
+        "label": "C",
+        "text": "she does?"
+      },
+      {
+        "label": "D",
+        "text": "she doesn't?"
+      }
     ],
     "answer": "B",
     "explanation": "In a tag question, we repeat the auxiliary verb from the main clause with opposite polarity. Since the statement is affirmative, the tag must be negative: \"doesn't she?\"."
@@ -8071,10 +9202,22 @@
     ],
     "question": "If I ___ a million dollars, I ___ a new house.",
     "options": [
-      "A. had / would buy",
-      "B. have / will buy",
-      "C. had / will buy",
-      "D. have / would buy"
+      {
+        "label": "A",
+        "text": "had / would buy"
+      },
+      {
+        "label": "B",
+        "text": "have / will buy"
+      },
+      {
+        "label": "C",
+        "text": "had / will buy"
+      },
+      {
+        "label": "D",
+        "text": "have / would buy"
+      }
     ],
     "answer": "A",
     "explanation": "In a conditional sentence that expresses a hypothetical (unreal) situation, we use the past simple tense in the if‑clause and \"would + base verb\" in the main clause. Therefore, the correct choice is A: \"had\" and \"would buy\"."
@@ -8090,10 +9233,22 @@
     ],
     "question": "She is the teacher ______ taught me English.",
     "options": [
-      "A. which",
-      "B. that",
-      "C. who",
-      "D. whose"
+      {
+        "label": "A",
+        "text": "which"
+      },
+      {
+        "label": "B",
+        "text": "that"
+      },
+      {
+        "label": "C",
+        "text": "who"
+      },
+      {
+        "label": "D",
+        "text": "whose"
+      }
     ],
     "answer": "C",
     "explanation": "'Who' is used to refer to people in a defining relative clause. The clause 'who taught me English' describes 'the teacher'."
@@ -8109,10 +9264,22 @@
     ],
     "question": "I want ___ English well.",
     "options": [
-      "A. learn",
-      "B. learning",
-      "C. to learn",
-      "D. learned"
+      {
+        "label": "A",
+        "text": "learn"
+      },
+      {
+        "label": "B",
+        "text": "learning"
+      },
+      {
+        "label": "C",
+        "text": "to learn"
+      },
+      {
+        "label": "D",
+        "text": "learned"
+      }
     ],
     "answer": "C",
     "explanation": "Want后面要接动词不定式（to + 动词原形）作宾语，表示想要做某事。因此正确答案是\"to learn\"。"
@@ -8128,10 +9295,22 @@
     ],
     "question": "She ____ (read) a book right now. Which is the correct form?",
     "options": [
-      "A. reads",
-      "B. is reading",
-      "C. read",
-      "D. will read"
+      {
+        "label": "A",
+        "text": "reads"
+      },
+      {
+        "label": "B",
+        "text": "is reading"
+      },
+      {
+        "label": "C",
+        "text": "read"
+      },
+      {
+        "label": "D",
+        "text": "will read"
+      }
     ],
     "answer": "B",
     "explanation": "现在进行时的构成是 be 动词（am/is/are）+ 动词的 -ing 形式，表示正在进行的动作。主语是 She，需要使用 is，故正确形式为 is reading。"
@@ -8147,10 +9326,22 @@
     ],
     "question": "Which of the following nouns has an irregular plural form?",
     "options": [
-      "A. cat (cats)",
-      "B. mouse (mice)",
-      "C. book (books)",
-      "D. dog (dogs)"
+      {
+        "label": "A",
+        "text": "cat (cats)"
+      },
+      {
+        "label": "B",
+        "text": "mouse (mice)"
+      },
+      {
+        "label": "C",
+        "text": "book (books)"
+      },
+      {
+        "label": "D",
+        "text": "dog (dogs)"
+      }
     ],
     "answer": "B",
     "explanation": "The plural of 'mouse' is 'mice', which is an irregular plural, while the other nouns form regular plurals by adding -s."
@@ -8166,10 +9357,22 @@
     ],
     "question": "I don’t know _______ .",
     "options": [
-      "A. where he lives",
-      "B. where does he live",
-      "C. if he lives",
-      "D. he lives"
+      {
+        "label": "A",
+        "text": "where he lives"
+      },
+      {
+        "label": "B",
+        "text": "where does he live"
+      },
+      {
+        "label": "C",
+        "text": "if he lives"
+      },
+      {
+        "label": "D",
+        "text": "he lives"
+      }
     ],
     "answer": "A",
     "explanation": "'Where he lives' is a noun clause that functions as the direct object of the verb 'don’t know'. The other options are either not a proper clause (e.g., 'where does he live' is a question form) or a simple statement that doesn’t serve as an object."
@@ -8185,10 +9388,22 @@
     ],
     "question": "Which of the following is an imperative sentence?",
     "options": [
-      "A. Close the door.",
-      "B. He closes the door.",
-      "C. Do you close the door?",
-      "D. The door is closed."
+      {
+        "label": "A",
+        "text": "Close the door."
+      },
+      {
+        "label": "B",
+        "text": "He closes the door."
+      },
+      {
+        "label": "C",
+        "text": "Do you close the door?"
+      },
+      {
+        "label": "D",
+        "text": "The door is closed."
+      }
     ],
     "answer": "A",
     "explanation": "Option A is an imperative sentence because it gives a command or request to the listener."
@@ -8204,10 +9419,22 @@
     ],
     "question": "Which of the following sentences correctly uses a conditional adverbial clause?",
     "options": [
-      "A. If it will rain tomorrow, we will cancel the picnic.",
-      "B. If it rains tomorrow, we will cancel the picnic.",
-      "C. If it rained tomorrow, we will cancel the picnic.",
-      "D. If it rains tomorrow, we cancel the picnic."
+      {
+        "label": "A",
+        "text": "If it will rain tomorrow, we will cancel the picnic."
+      },
+      {
+        "label": "B",
+        "text": "If it rains tomorrow, we will cancel the picnic."
+      },
+      {
+        "label": "C",
+        "text": "If it rained tomorrow, we will cancel the picnic."
+      },
+      {
+        "label": "D",
+        "text": "If it rains tomorrow, we cancel the picnic."
+      }
     ],
     "answer": "B",
     "explanation": "In a first conditional sentence, use the present simple tense in the if‑clause (if it rains) and will + base verb in the main clause (we will cancel). The other options misuse the verb forms."
@@ -8223,10 +9450,22 @@
     ],
     "question": "_____ it was raining, we decided to stay inside.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. Since",
-      "D. When"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "Since"
+      },
+      {
+        "label": "D",
+        "text": "When"
+      }
     ],
     "answer": "B",
     "explanation": "\"Although\" is a conjunction that introduces a concessive clause, showing a contrast between the rainy weather and the decision to stay inside. \"Because\" and \"since\" express cause/reason, while \"when\" indicates time, none of which fit the concessive meaning here."
@@ -8242,10 +9481,22 @@
     ],
     "question": "By the time we arrived at the station, the train ____.",
     "options": [
-      "A. left",
-      "B. had left",
-      "C. has left",
-      "D. was leaving"
+      {
+        "label": "A",
+        "text": "left"
+      },
+      {
+        "label": "B",
+        "text": "had left"
+      },
+      {
+        "label": "C",
+        "text": "has left"
+      },
+      {
+        "label": "D",
+        "text": "was leaving"
+      }
     ],
     "answer": "B",
     "explanation": "The past perfect 'had left' indicates that the train had already departed before we arrived, which is the correct usage."
@@ -8261,10 +9512,22 @@
     ],
     "question": "Choose the correct pronoun to fill in the blank: \"_____ is my favorite subject because it is interesting.\"",
     "options": [
-      "A. He",
-      "B. Him",
-      "C. His",
-      "D. They"
+      {
+        "label": "A",
+        "text": "He"
+      },
+      {
+        "label": "B",
+        "text": "Him"
+      },
+      {
+        "label": "C",
+        "text": "His"
+      },
+      {
+        "label": "D",
+        "text": "They"
+      }
     ],
     "answer": "A",
     "explanation": "The subject of the sentence needs a subject pronoun. \"He\" is a subject pronoun, while \"Him\" is an object pronoun, \"His\" is a possessive adjective/pronoun, and \"They\" is plural. Therefore, \"He\" is the correct choice."
@@ -8280,10 +9543,22 @@
     ],
     "question": "Which of the following words is an adjective?",
     "options": [
-      "A. quickly",
-      "B. beautiful",
-      "C. runs",
-      "D. happily"
+      {
+        "label": "A",
+        "text": "quickly"
+      },
+      {
+        "label": "B",
+        "text": "beautiful"
+      },
+      {
+        "label": "C",
+        "text": "runs"
+      },
+      {
+        "label": "D",
+        "text": "happily"
+      }
     ],
     "answer": "B",
     "explanation": "'Beautiful' is an adjective because it describes a noun; the other words are adverbs or verbs."
@@ -8299,10 +9574,22 @@
     ],
     "question": "He is interested ____ learning new languages.",
     "options": [
-      "A. in",
-      "B. on",
-      "C. for",
-      "D. at"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "for"
+      },
+      {
+        "label": "D",
+        "text": "at"
+      }
     ],
     "answer": "A",
     "explanation": "The correct preposition to use after 'interested' is 'in', as in 'interested in learning new languages'."
@@ -8318,10 +9605,22 @@
     ],
     "question": "You are at a grocery store and want to know how much of a product the shop has. Which of the following sentences is grammatically correct?",
     "options": [
-      "A. How many sugar do you have?",
-      "B. How much sugar do you have?",
-      "C. How many sugars do you have?",
-      "D. How much sugars do you have?"
+      {
+        "label": "A",
+        "text": "How many sugar do you have?"
+      },
+      {
+        "label": "B",
+        "text": "How much sugar do you have?"
+      },
+      {
+        "label": "C",
+        "text": "How many sugars do you have?"
+      },
+      {
+        "label": "D",
+        "text": "How much sugars do you have?"
+      }
     ],
     "answer": "B",
     "explanation": "'Sugar' is an uncountable noun, so we use 'how much' to ask about its quantity. 'How many' is used with countable nouns, and we do not add an -s after 'sugar' because it is uncountable."
@@ -8337,10 +9636,22 @@
     ],
     "question": "Which sentence correctly reports the result of the match where Team A beat Team B 2‑1?",
     "options": [
-      "A. Team A won 2‑1.",
-      "B. Team A loss 2‑1.",
-      "C. Team A draw 2‑1.",
-      "D. Team A beaten 2‑1."
+      {
+        "label": "A",
+        "text": "Team A won 2‑1."
+      },
+      {
+        "label": "B",
+        "text": "Team A loss 2‑1."
+      },
+      {
+        "label": "C",
+        "text": "Team A draw 2‑1."
+      },
+      {
+        "label": "D",
+        "text": "Team A beaten 2‑1."
+      }
     ],
     "answer": "A",
     "explanation": "We use the verb 'win' (past tense 'won') to describe the team that beats the opponent. 'Loss' is a noun or verb but not used correctly here; 'draw' is a verb meaning to tie, not to win; 'beaten' is a past participle requiring an auxiliary verb such as 'was' or 'were'."
@@ -8356,10 +9667,22 @@
     ],
     "question": "Which word best completes the sentence: 'According to today's ___, we will have math class first.'",
     "options": [
-      "A. schedule",
-      "B. scheduled",
-      "C. scheduling",
-      "D. scheduler"
+      {
+        "label": "A",
+        "text": "schedule"
+      },
+      {
+        "label": "B",
+        "text": "scheduled"
+      },
+      {
+        "label": "C",
+        "text": "scheduling"
+      },
+      {
+        "label": "D",
+        "text": "scheduler"
+      }
     ],
     "answer": "A",
     "explanation": "In this sentence, we need a noun to mean 'a plan of what is going to happen and when.' 'Schedule' is the correct noun form meaning a plan of events or appointments. 'Scheduled' is the past tense verb form, 'scheduling' is the present participle or gerund, and 'scheduler' refers to a person who makes schedules."
@@ -8375,10 +9698,22 @@
     ],
     "question": "Which of the following is the most appropriate way to ask for directions to a place?",
     "options": [
-      "A. Where is the library?",
-      "B. How can I go to the library?",
-      "C. Could you tell me how to get to the library?",
-      "D. What is the library?"
+      {
+        "label": "A",
+        "text": "Where is the library?"
+      },
+      {
+        "label": "B",
+        "text": "How can I go to the library?"
+      },
+      {
+        "label": "C",
+        "text": "Could you tell me how to get to the library?"
+      },
+      {
+        "label": "D",
+        "text": "What is the library?"
+      }
     ],
     "answer": "C",
     "explanation": "Option C uses a polite request structure with \"Could you tell me how to get to...\" which is the standard, courteous way to ask for directions in English. Options A, B, and D either sound blunt or are not proper question forms for asking directions."
@@ -8394,10 +9729,22 @@
     ],
     "question": "Which sentence correctly gives directions to the library?",
     "options": [
-      "A. Go straight for two blocks, then turn left at the traffic light.",
-      "B. Going straight for two blocks, then turn left at the traffic light.",
-      "C. Go straight for two blocks, then left at the traffic light.",
-      "D. Going straight for two blocks, then left at the traffic light."
+      {
+        "label": "A",
+        "text": "Go straight for two blocks, then turn left at the traffic light."
+      },
+      {
+        "label": "B",
+        "text": "Going straight for two blocks, then turn left at the traffic light."
+      },
+      {
+        "label": "C",
+        "text": "Go straight for two blocks, then left at the traffic light."
+      },
+      {
+        "label": "D",
+        "text": "Going straight for two blocks, then left at the traffic light."
+      }
     ],
     "answer": "A",
     "explanation": "Option A uses the correct imperative form “Go” and the proper prepositional phrase “turn left at the traffic light.” The other options either use a dangling participle (“Going”) or omit necessary words, making them grammatically incorrect for giving directions."
@@ -8413,10 +9760,22 @@
     ],
     "question": "Which of the following is the most effective way to improve your English grammar?",
     "options": [
-      "A. Memorizing all vocabulary lists without context",
-      "B. Watching English movies without subtitles",
-      "C. Doing regular grammar exercises and reviewing mistakes",
-      "D. Reading only English comic books"
+      {
+        "label": "A",
+        "text": "Memorizing all vocabulary lists without context"
+      },
+      {
+        "label": "B",
+        "text": "Watching English movies without subtitles"
+      },
+      {
+        "label": "C",
+        "text": "Doing regular grammar exercises and reviewing mistakes"
+      },
+      {
+        "label": "D",
+        "text": "Reading only English comic books"
+      }
     ],
     "answer": "C",
     "explanation": "Regular practice with grammar exercises and analyzing errors helps reinforce correct structures. The other options may provide exposure but lack focused practice, making them less effective for improving grammar."
@@ -8432,10 +9791,22 @@
     ],
     "question": "Which sentence correctly uses the verb \"invite\" to ask someone to a party?",
     "options": [
-      "A. I invite you to come to my birthday party.",
-      "B. I inviting you to come to my birthday party.",
-      "C. I invited you to come to my birthday party.",
-      "D. I invites you to come to my birthday party."
+      {
+        "label": "A",
+        "text": "I invite you to come to my birthday party."
+      },
+      {
+        "label": "B",
+        "text": "I inviting you to come to my birthday party."
+      },
+      {
+        "label": "C",
+        "text": "I invited you to come to my birthday party."
+      },
+      {
+        "label": "D",
+        "text": "I invites you to come to my birthday party."
+      }
     ],
     "answer": "A",
     "explanation": "In the present simple tense with the subject \"I\", the correct form of the verb \"invite\" is \"invite\". Option A uses this form correctly, while the other options use incorrect verb forms."
@@ -8451,10 +9822,22 @@
     ],
     "question": "I usually travel to school ____.",
     "options": [
-      "A. by car",
-      "B. on car",
-      "C. with car",
-      "D. in car"
+      {
+        "label": "A",
+        "text": "by car"
+      },
+      {
+        "label": "B",
+        "text": "on car"
+      },
+      {
+        "label": "C",
+        "text": "with car"
+      },
+      {
+        "label": "D",
+        "text": "in car"
+      }
     ],
     "answer": "A",
     "explanation": "We use the preposition 'by' with means of transport, and no article follows it. Therefore, the correct sentence is 'I usually travel to school by car.'"
@@ -8470,10 +9853,22 @@
     ],
     "question": "Which sentence is the correct way to ask for a reservation at a restaurant?",
     "options": [
-      "A. I'd like to make a reservation for two people.",
-      "B. I want reservation for two people.",
-      "C. I want to make reservation for two people.",
-      "D. I would like making reservation."
+      {
+        "label": "A",
+        "text": "I'd like to make a reservation for two people."
+      },
+      {
+        "label": "B",
+        "text": "I want reservation for two people."
+      },
+      {
+        "label": "C",
+        "text": "I want to make reservation for two people."
+      },
+      {
+        "label": "D",
+        "text": "I would like making reservation."
+      }
     ],
     "answer": "A",
     "explanation": "In English, the correct phrase is \"make a reservation\" or \"reserve a table\". The infinitive \"make\" is used, and a reservation is for something; thus, option A is grammatically correct."
@@ -8489,10 +9884,22 @@
     ],
     "question": "Which of the following sentences is most appropriate to use when greeting a new business partner?",
     "options": [
-      "A. Hey, what's up?",
-      "B. Good morning, it's a pleasure to meet you.",
-      "C. Yo! Long time no see!",
-      "D. Hiya! How's it going?"
+      {
+        "label": "A",
+        "text": "Hey, what's up?"
+      },
+      {
+        "label": "B",
+        "text": "Good morning, it's a pleasure to meet you."
+      },
+      {
+        "label": "C",
+        "text": "Yo! Long time no see!"
+      },
+      {
+        "label": "D",
+        "text": "Hiya! How's it going?"
+      }
     ],
     "answer": "B",
     "explanation": "When meeting a new business partner, a formal greeting such as 'Good morning, it's a pleasure to meet you.' is appropriate, while the other options are too informal."
@@ -8508,10 +9915,22 @@
     ],
     "question": "Which sentence correctly uses a cause‑and‑effect expression?",
     "options": [
-      "A. Because his late arrival, the meeting started late.",
-      "B. Because of his late arrival, the meeting started late.",
-      "C. Since his late arrival, the meeting started late.",
-      "D. So his late arrival, the meeting started late."
+      {
+        "label": "A",
+        "text": "Because his late arrival, the meeting started late."
+      },
+      {
+        "label": "B",
+        "text": "Because of his late arrival, the meeting started late."
+      },
+      {
+        "label": "C",
+        "text": "Since his late arrival, the meeting started late."
+      },
+      {
+        "label": "D",
+        "text": "So his late arrival, the meeting started late."
+      }
     ],
     "answer": "B",
     "explanation": "‘Because of’ is followed by a noun phrase (his late arrival), while ‘because’ introduces a clause. The sentence needs a preposition that links the reason (a noun phrase) to the result, so ‘Because of his late arrival, the meeting started late.’ is the only grammatically correct choice."
@@ -8527,10 +9946,22 @@
     ],
     "question": "Which of the following sentences uses correct subject‑verb agreement with a mathematical expression?",
     "options": [
-      "A. Five and three are seven.",
-      "B. Five and three is seven.",
-      "C. Five plus three make seven.",
-      "D. Five plus three makes seven."
+      {
+        "label": "A",
+        "text": "Five and three are seven."
+      },
+      {
+        "label": "B",
+        "text": "Five and three is seven."
+      },
+      {
+        "label": "C",
+        "text": "Five plus three make seven."
+      },
+      {
+        "label": "D",
+        "text": "Five plus three makes seven."
+      }
     ],
     "answer": "D",
     "explanation": "In English, when a mathematical expression uses the word 'plus', the phrase is treated as a singular subject, so the verb should be in the singular form. Therefore 'Five plus three makes seven.' is grammatically correct."
@@ -8546,10 +9977,22 @@
     ],
     "question": "Choose the correct verb form to complete the sentence: 'She ___ to the library every Saturday.'",
     "options": [
-      "A. go",
-      "B. goes",
-      "C. going",
-      "D. gone"
+      {
+        "label": "A",
+        "text": "go"
+      },
+      {
+        "label": "B",
+        "text": "goes"
+      },
+      {
+        "label": "C",
+        "text": "going"
+      },
+      {
+        "label": "D",
+        "text": "gone"
+      }
     ],
     "answer": "B",
     "explanation": "In the present simple tense, third‑person singular subjects (he, she, it) require the verb to end in -s or -es. Therefore, 'goes' is the correct form."
@@ -8565,10 +10008,22 @@
     ],
     "question": "Which of the following sentences correctly uses the noun 'homework'?",
     "options": [
-      "A. I have a lot of homework today.",
-      "B. I have a lots of homework today.",
-      "C. I have many homework today.",
-      "D. I have some homeworks today."
+      {
+        "label": "A",
+        "text": "I have a lot of homework today."
+      },
+      {
+        "label": "B",
+        "text": "I have a lots of homework today."
+      },
+      {
+        "label": "C",
+        "text": "I have many homework today."
+      },
+      {
+        "label": "D",
+        "text": "I have some homeworks today."
+      }
     ],
     "answer": "A",
     "explanation": "'Homework' is an uncountable noun, so it does not take a plural form or the quantifier 'many'. The correct sentence uses 'a lot of' with the uncountable noun."
@@ -8584,10 +10039,22 @@
     ],
     "question": "Choose the correct sentence.",
     "options": [
-      "A. Each of the students have a notebook.",
-      "B. Each of the students has a notebook.",
-      "C. Each of the students is having a notebook.",
-      "D. Each of the students have had a notebook."
+      {
+        "label": "A",
+        "text": "Each of the students have a notebook."
+      },
+      {
+        "label": "B",
+        "text": "Each of the students has a notebook."
+      },
+      {
+        "label": "C",
+        "text": "Each of the students is having a notebook."
+      },
+      {
+        "label": "D",
+        "text": "Each of the students have had a notebook."
+      }
     ],
     "answer": "B",
     "explanation": "The pronoun \"each\" is singular, so it requires a singular verb. Therefore, \"has\" is the correct form."
@@ -8603,10 +10070,22 @@
     ],
     "question": "Which sentence correctly uses the present continuous tense to describe a basketball training activity that is happening right now?",
     "options": [
-      "A. I practice basketball training every day.",
-      "B. I am practicing basketball training now.",
-      "C. I will practice basketball training tomorrow.",
-      "D. I practiced basketball training yesterday."
+      {
+        "label": "A",
+        "text": "I practice basketball training every day."
+      },
+      {
+        "label": "B",
+        "text": "I am practicing basketball training now."
+      },
+      {
+        "label": "C",
+        "text": "I will practice basketball training tomorrow."
+      },
+      {
+        "label": "D",
+        "text": "I practiced basketball training yesterday."
+      }
     ],
     "answer": "B",
     "explanation": "The present continuous tense (be + verb‑ing) is used for actions happening at the moment of speaking. Sentence B uses 'am practicing', which correctly describes an ongoing basketball training activity."
@@ -8622,10 +10101,22 @@
     ],
     "question": "Which sentence correctly tells the competition time?",
     "options": [
-      "A. The competition starts at 3 p.m.",
-      "B. The competition starts on 3 p.m.",
-      "C. The competition starts in 3 p.m.",
-      "D. The competition starts 3 p.m."
+      {
+        "label": "A",
+        "text": "The competition starts at 3 p.m."
+      },
+      {
+        "label": "B",
+        "text": "The competition starts on 3 p.m."
+      },
+      {
+        "label": "C",
+        "text": "The competition starts in 3 p.m."
+      },
+      {
+        "label": "D",
+        "text": "The competition starts 3 p.m."
+      }
     ],
     "answer": "A",
     "explanation": "We use the preposition 'at' before specific times (e.g., at 3 p.m.). The other options are incorrect because 'on' is used for dates, 'in' for longer periods, and the last option lacks a preposition."
@@ -8641,10 +10132,22 @@
     ],
     "question": "Which sentence correctly uses the word 'ticket'?",
     "options": [
-      "A. I need ticket for the museum.",
-      "B. I need a ticket for the museum.",
-      "C. I need the ticket for the museum.",
-      "D. I need some ticket for the museum."
+      {
+        "label": "A",
+        "text": "I need ticket for the museum."
+      },
+      {
+        "label": "B",
+        "text": "I need a ticket for the museum."
+      },
+      {
+        "label": "C",
+        "text": "I need the ticket for the museum."
+      },
+      {
+        "label": "D",
+        "text": "I need some ticket for the museum."
+      }
     ],
     "answer": "B",
     "explanation": "The noun 'ticket' is a countable noun and must be preceded by an article or other determiner. Option B correctly uses the indefinite article 'a' before the singular noun 'ticket'."
@@ -8660,10 +10163,22 @@
     ],
     "question": "Mary wants to buy 4 pens that cost $2.50 each. How much will she pay in total?",
     "options": [
-      "A. $10.00",
-      "B. $9.50",
-      "C. $8.00",
-      "D. $11.20"
+      {
+        "label": "A",
+        "text": "$10.00"
+      },
+      {
+        "label": "B",
+        "text": "$9.50"
+      },
+      {
+        "label": "C",
+        "text": "$8.00"
+      },
+      {
+        "label": "D",
+        "text": "$11.20"
+      }
     ],
     "answer": "A",
     "explanation": "To find the total cost, multiply the price per pen ($2.50) by the number of pens (4). 2.50 × 4 = 10.00, so the correct answer is A."
@@ -8679,10 +10194,22 @@
     ],
     "question": "Which of the following sentences is correct when asking for more bread at a restaurant?",
     "options": [
-      "A. Can I have some more bread?",
-      "B. Can I have any more bread?",
-      "C. Can I have some breads?",
-      "D. Can I have any breads?"
+      {
+        "label": "A",
+        "text": "Can I have some more bread?"
+      },
+      {
+        "label": "B",
+        "text": "Can I have any more bread?"
+      },
+      {
+        "label": "C",
+        "text": "Can I have some breads?"
+      },
+      {
+        "label": "D",
+        "text": "Can I have any breads?"
+      }
     ],
     "answer": "A",
     "explanation": "In requests, 'some' is preferred: 'Can I have some more bread?' is natural. 'Any' is typically used in yes/no questions, though it can appear in polite offers, but 'some breads' and 'any breads' are ungrammatical because 'bread' is a non‑count noun."
@@ -8698,10 +10225,22 @@
     ],
     "question": "Choose the correct preposition to complete the sentence: We usually have lunch ___ 12:00.",
     "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. to"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "to"
+      }
     ],
     "answer": "C",
     "explanation": "We use 'at' before specific clock times (12:00). 'In' is used for months, years, or parts of the day; 'on' is used for dates and days of the week."
@@ -8714,10 +10253,22 @@
     "tag": "词汇辨析",
     "question": "There are only ___ students in the classroom today.",
     "options": [
-      "A. few",
-      "B. a few",
-      "C. little",
-      "D. a little"
+      {
+        "label": "A",
+        "text": "few"
+      },
+      {
+        "label": "B",
+        "text": "a few"
+      },
+      {
+        "label": "C",
+        "text": "little"
+      },
+      {
+        "label": "D",
+        "text": "a little"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8730,10 +10281,22 @@
     "tag": "动词时态",
     "question": "Which of the following sentences uses the past simple tense correctly?",
     "options": [
-      "A. She eat dinner at 7 PM yesterday.",
-      "B. They have visited Paris last summer.",
-      "C. He watched a movie last night.",
-      "D. We are playing soccer tomorrow."
+      {
+        "label": "A",
+        "text": "She eat dinner at 7 PM yesterday."
+      },
+      {
+        "label": "B",
+        "text": "They have visited Paris last summer."
+      },
+      {
+        "label": "C",
+        "text": "He watched a movie last night."
+      },
+      {
+        "label": "D",
+        "text": "We are playing soccer tomorrow."
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -8746,10 +10309,22 @@
     "tag": "被动语态",
     "question": "The cake ___ by my mother yesterday.",
     "options": [
-      "A. baked",
-      "B. was baked",
-      "C. is baked",
-      "D. bakes"
+      {
+        "label": "A",
+        "text": "baked"
+      },
+      {
+        "label": "B",
+        "text": "was baked"
+      },
+      {
+        "label": "C",
+        "text": "is baked"
+      },
+      {
+        "label": "D",
+        "text": "bakes"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8762,10 +10337,22 @@
     "tag": "情态动词",
     "question": "You _____ smoke in the library; it is strictly forbidden.",
     "options": [
-      "A. don't have to",
-      "B. mustn't",
-      "C. can't",
-      "D. shouldn't"
+      {
+        "label": "A",
+        "text": "don't have to"
+      },
+      {
+        "label": "B",
+        "text": "mustn't"
+      },
+      {
+        "label": "C",
+        "text": "can't"
+      },
+      {
+        "label": "D",
+        "text": "shouldn't"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8778,10 +10365,22 @@
     "tag": "非谓语动词",
     "question": "He enjoys _____ music after school.",
     "options": [
-      "A. listen",
-      "B. to listen",
-      "C. listening",
-      "D. listened"
+      {
+        "label": "A",
+        "text": "listen"
+      },
+      {
+        "label": "B",
+        "text": "to listen"
+      },
+      {
+        "label": "C",
+        "text": "listening"
+      },
+      {
+        "label": "D",
+        "text": "listened"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -8794,10 +10393,22 @@
     "tag": "名词性从句",
     "question": "I know _______.",
     "options": [
-      "A. where is the library",
-      "B. where the library is",
-      "C. to find the library",
-      "D. the library is where"
+      {
+        "label": "A",
+        "text": "where is the library"
+      },
+      {
+        "label": "B",
+        "text": "where the library is"
+      },
+      {
+        "label": "C",
+        "text": "to find the library"
+      },
+      {
+        "label": "D",
+        "text": "the library is where"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8810,10 +10421,22 @@
     "tag": "定语从句",
     "question": "The boy ______ father is a doctor wants to be a doctor too.",
     "options": [
-      "A. who",
-      "B. whose",
-      "C. that",
-      "D. which"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "whose"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "which"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8826,10 +10449,22 @@
     "tag": "状语从句",
     "question": "_____ it was raining heavily, we decided to go hiking.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. When",
-      "D. If"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "When"
+      },
+      {
+        "label": "D",
+        "text": "If"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8842,10 +10477,22 @@
     "tag": "虚拟语气",
     "question": "If I ___ you, I would accept the invitation. Which verb form correctly completes the sentence?",
     "options": [
-      "A. was",
-      "B. were",
-      "C. am",
-      "D. be"
+      {
+        "label": "A",
+        "text": "was"
+      },
+      {
+        "label": "B",
+        "text": "were"
+      },
+      {
+        "label": "C",
+        "text": "am"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8858,10 +10505,22 @@
     "tag": "介词搭配",
     "question": "He is terrified ____ spiders.",
     "options": [
-      "A. of",
-      "B. from",
-      "C. with",
-      "D. by"
+      {
+        "label": "A",
+        "text": "of"
+      },
+      {
+        "label": "B",
+        "text": "from"
+      },
+      {
+        "label": "C",
+        "text": "with"
+      },
+      {
+        "label": "D",
+        "text": "by"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -8874,10 +10533,22 @@
     "tag": "词性转换",
     "question": "Which of the following is the correct adverb form of the adjective 'quick'?",
     "options": [
-      "A. quickful",
-      "B. quickly",
-      "C. quicker",
-      "D. quickness"
+      {
+        "label": "A",
+        "text": "quickful"
+      },
+      {
+        "label": "B",
+        "text": "quickly"
+      },
+      {
+        "label": "C",
+        "text": "quicker"
+      },
+      {
+        "label": "D",
+        "text": "quickness"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8890,10 +10561,22 @@
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nLast weekend, Tom and his family went to the beach. The sky was blue, and the sun shone brightly. They built sandcastles, swam in the cool water, and had a picnic lunch. In the afternoon, they found a sea turtle nest and watched the baby turtles hatch. Everyone felt happy and learned something new about nature. Tom promised to help protect the beach in the future.\n\nWhat is the main idea of the passage?",
     "options": [
-      "A. The beach is a dangerous place for families.",
-      "B. Tom and his family enjoyed a fun and educational day at the beach.",
-      "C. Sea turtles are endangered and need more protection.",
-      "D. The weather was bad during Tom's weekend."
+      {
+        "label": "A",
+        "text": "The beach is a dangerous place for families."
+      },
+      {
+        "label": "B",
+        "text": "Tom and his family enjoyed a fun and educational day at the beach."
+      },
+      {
+        "label": "C",
+        "text": "Sea turtles are endangered and need more protection."
+      },
+      {
+        "label": "D",
+        "text": "The weather was bad during Tom's weekend."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8906,10 +10589,22 @@
     "tag": "完形填空",
     "question": "After school, Lily usually walks home. Today, she felt tired and decided to take the bus. She got on the bus and _________ a seat next to the window.",
     "options": [
-      "A. find",
-      "B. finds",
-      "C. found",
-      "D. finding"
+      {
+        "label": "A",
+        "text": "find"
+      },
+      {
+        "label": "B",
+        "text": "finds"
+      },
+      {
+        "label": "C",
+        "text": "found"
+      },
+      {
+        "label": "D",
+        "text": "finding"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -8922,10 +10617,22 @@
     "tag": "阅读填空",
     "question": "Read the passage and choose the best word to fill in the blank.\n\nYesterday, Sarah ______ to the library after school. She wanted to borrow a book about animals. After reading it, she told her friends about the amazing facts she learned.",
     "options": [
-      "A. go",
-      "B. went",
-      "C. will go",
-      "D. going"
+      {
+        "label": "A",
+        "text": "go"
+      },
+      {
+        "label": "B",
+        "text": "went"
+      },
+      {
+        "label": "C",
+        "text": "will go"
+      },
+      {
+        "label": "D",
+        "text": "going"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8938,10 +10645,22 @@
     "tag": "书面表达",
     "question": "You are going to write a formal letter to your school principal to suggest improvements to the library. Which sentence is the most appropriate way to begin your letter?",
     "options": [
-      "A. Hey Mr. Principal,",
-      "B. Dear Principal Lee,",
-      "C. Hi! I have a suggestion.",
-      "D. To Whom It May Concern,"
+      {
+        "label": "A",
+        "text": "Hey Mr. Principal,"
+      },
+      {
+        "label": "B",
+        "text": "Dear Principal Lee,"
+      },
+      {
+        "label": "C",
+        "text": "Hi! I have a suggestion."
+      },
+      {
+        "label": "D",
+        "text": "To Whom It May Concern,"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8954,10 +10673,22 @@
     "tag": "词汇辨析",
     "question": "Which word best fills the blank: 'I have ___ friends in this school.'",
     "options": [
-      "A. few",
-      "B. a few",
-      "C. little",
-      "D. a little"
+      {
+        "label": "A",
+        "text": "few"
+      },
+      {
+        "label": "B",
+        "text": "a few"
+      },
+      {
+        "label": "C",
+        "text": "little"
+      },
+      {
+        "label": "D",
+        "text": "a little"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -8970,10 +10701,22 @@
     "tag": "动词时态",
     "question": "They ________ (visit) their grandparents next weekend.",
     "options": [
-      "A. will visit",
-      "B. visit",
-      "C. visited",
-      "D. are visiting"
+      {
+        "label": "A",
+        "text": "will visit"
+      },
+      {
+        "label": "B",
+        "text": "visit"
+      },
+      {
+        "label": "C",
+        "text": "visited"
+      },
+      {
+        "label": "D",
+        "text": "are visiting"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -8986,10 +10729,22 @@
     "tag": "被动语态",
     "question": "Which of the following sentences is written in the passive voice?",
     "options": [
-      "A. She writes a letter every day.",
-      "B. The letter is written by her.",
-      "C. She wrote a letter yesterday.",
-      "D. She will write a letter tomorrow."
+      {
+        "label": "A",
+        "text": "She writes a letter every day."
+      },
+      {
+        "label": "B",
+        "text": "The letter is written by her."
+      },
+      {
+        "label": "C",
+        "text": "She wrote a letter yesterday."
+      },
+      {
+        "label": "D",
+        "text": "She will write a letter tomorrow."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9002,10 +10757,22 @@
     "tag": "情态动词",
     "question": "He looks exhausted. He ___ be very tired after the long meeting.",
     "options": [
-      "A. can",
-      "B. must",
-      "C. might",
-      "D. should"
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "might"
+      },
+      {
+        "label": "D",
+        "text": "should"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9018,10 +10785,22 @@
     "tag": "非谓语动词",
     "question": "_____ the homework, Tom decided to watch TV.",
     "options": [
-      "A. Finished",
-      "B. Finishing",
-      "C. To finish",
-      "D. Having finished"
+      {
+        "label": "A",
+        "text": "Finished"
+      },
+      {
+        "label": "B",
+        "text": "Finishing"
+      },
+      {
+        "label": "C",
+        "text": "To finish"
+      },
+      {
+        "label": "D",
+        "text": "Having finished"
+      }
     ],
     "answer": "D",
     "grade": 9
@@ -9034,10 +10813,22 @@
     "tag": "名词性从句",
     "question": "_____ surprised everyone in the class.",
     "options": [
-      "A. The sudden announcement",
-      "B. That the teacher announced the test early",
-      "C. The students' excitement",
-      "D. The bell ringing"
+      {
+        "label": "A",
+        "text": "The sudden announcement"
+      },
+      {
+        "label": "B",
+        "text": "That the teacher announced the test early"
+      },
+      {
+        "label": "C",
+        "text": "The students' excitement"
+      },
+      {
+        "label": "D",
+        "text": "The bell ringing"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9050,10 +10841,22 @@
     "tag": "定语从句",
     "question": "Complete the sentence with the correct relative pronoun: The girl _______ mother is a doctor won the scholarship.",
     "options": [
-      "A. who",
-      "B. which",
-      "C. that",
-      "D. whose"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "which"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "whose"
+      }
     ],
     "answer": "D",
     "grade": 9
@@ -9066,10 +10869,22 @@
     "tag": "状语从句",
     "question": "_____ it was raining, we decided to stay inside.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. Unless",
-      "D. When"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "Unless"
+      },
+      {
+        "label": "D",
+        "text": "When"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9082,10 +10897,22 @@
     "tag": "虚拟语气",
     "question": "If I ___ a million dollars, I would travel around the world.",
     "options": [
-      "A. have",
-      "B. had",
-      "C. will have",
-      "D. would have"
+      {
+        "label": "A",
+        "text": "have"
+      },
+      {
+        "label": "B",
+        "text": "had"
+      },
+      {
+        "label": "C",
+        "text": "will have"
+      },
+      {
+        "label": "D",
+        "text": "would have"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9098,10 +10925,22 @@
     "tag": "介词搭配",
     "question": "Which preposition correctly completes the sentence? 'He is interested ___ learning new languages.'",
     "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. about"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "about"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9114,10 +10953,22 @@
     "tag": "词性转换",
     "question": "The ______ (decide) of the committee was final.",
     "options": [
-      "A. decide",
-      "B. decided",
-      "C. deciding",
-      "D. decision"
+      {
+        "label": "A",
+        "text": "decide"
+      },
+      {
+        "label": "B",
+        "text": "decided"
+      },
+      {
+        "label": "C",
+        "text": "deciding"
+      },
+      {
+        "label": "D",
+        "text": "decision"
+      }
     ],
     "answer": "D",
     "grade": 9
@@ -9130,10 +10981,22 @@
     "tag": "阅读理解",
     "question": "Read the following short passage and answer the question.\n\nJack is a student in Grade 7. He likes playing soccer after school. Yesterday, he played soccer with his friends for an hour. He was very tired but happy. Today, he has a math test, so he needs to study. He is reviewing his notes and solving practice problems. He hopes to get a good grade.\n\nWhat is Jack's plan for today?",
     "options": [
-      "A. Play soccer with his friends",
-      "B. Study for his math test",
-      "C. Go to the library to read",
-      "D. Watch TV at home"
+      {
+        "label": "A",
+        "text": "Play soccer with his friends"
+      },
+      {
+        "label": "B",
+        "text": "Study for his math test"
+      },
+      {
+        "label": "C",
+        "text": "Go to the library to read"
+      },
+      {
+        "label": "D",
+        "text": "Watch TV at home"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9146,10 +11009,22 @@
     "tag": "完形填空",
     "question": "After school, Tom went to the library. He wanted to find a book for his science project. While searching, he found a thick book about space. The book _______ his favorite.",
     "options": [
-      "A. is",
-      "B. was",
-      "C. were",
-      "D. be"
+      {
+        "label": "A",
+        "text": "is"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9162,10 +11037,22 @@
     "tag": "阅读填空",
     "question": "Read the passage below and choose the correct word to fill in the blank.\n\nOne day, a young boy named Jack went to the park with his dog. While he was playing fetch, the ball got stuck in a tall tree. Jack tried to reach the ball by climbing the tree, but it was too high. He decided to ask his friend for help. His friend brought a long stick and carefully knocked the ball down.\n\nThe ball fell onto the grass and rolled away. Jack thanked his friend and they both went home, feeling ____.",
     "options": [
-      "A. happy",
-      "B. happily",
-      "C. sadness",
-      "D. sad"
+      {
+        "label": "A",
+        "text": "happy"
+      },
+      {
+        "label": "B",
+        "text": "happily"
+      },
+      {
+        "label": "C",
+        "text": "sadness"
+      },
+      {
+        "label": "D",
+        "text": "sad"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9178,10 +11065,22 @@
     "tag": "书面表达",
     "question": "When you write a composition, what is the best way to begin the first paragraph?",
     "options": [
-      "A. Start with a vivid description that supports the main idea.",
-      "B. Start with a topic sentence that states the main idea.",
-      "C. Start with a concluding sentence.",
-      "D. Start with a question that has no connection to the main idea."
+      {
+        "label": "A",
+        "text": "Start with a vivid description that supports the main idea."
+      },
+      {
+        "label": "B",
+        "text": "Start with a topic sentence that states the main idea."
+      },
+      {
+        "label": "C",
+        "text": "Start with a concluding sentence."
+      },
+      {
+        "label": "D",
+        "text": "Start with a question that has no connection to the main idea."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9194,10 +11093,22 @@
     "tag": "词汇辨析",
     "question": "Which of the following sentences uses the word 'advice' correctly?",
     "options": [
-      "A. He gave me a good advice.",
-      "B. She advised me to read more.",
-      "C. I need some advice about my project.",
-      "D. They advice us to be on time."
+      {
+        "label": "A",
+        "text": "He gave me a good advice."
+      },
+      {
+        "label": "B",
+        "text": "She advised me to read more."
+      },
+      {
+        "label": "C",
+        "text": "I need some advice about my project."
+      },
+      {
+        "label": "D",
+        "text": "They advice us to be on time."
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9210,10 +11121,22 @@
     "tag": "动词时态",
     "question": "Listen! The baby ___ (cry).",
     "options": [
-      "A. cries",
-      "B. cry",
-      "C. is crying",
-      "D. cried"
+      {
+        "label": "A",
+        "text": "cries"
+      },
+      {
+        "label": "B",
+        "text": "cry"
+      },
+      {
+        "label": "C",
+        "text": "is crying"
+      },
+      {
+        "label": "D",
+        "text": "cried"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9226,10 +11149,22 @@
     "tag": "被动语态",
     "question": "Which of the following sentences is written in the passive voice?",
     "options": [
-      "A. The teacher explained the lesson.",
-      "B. The lesson was explained by the teacher.",
-      "C. The teacher will explain the lesson tomorrow.",
-      "D. The teacher has explained the lesson."
+      {
+        "label": "A",
+        "text": "The teacher explained the lesson."
+      },
+      {
+        "label": "B",
+        "text": "The lesson was explained by the teacher."
+      },
+      {
+        "label": "C",
+        "text": "The teacher will explain the lesson tomorrow."
+      },
+      {
+        "label": "D",
+        "text": "The teacher has explained the lesson."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9242,10 +11177,22 @@
     "tag": "情态动词",
     "question": "You ___ worry about the exam; you have studied a lot.",
     "options": [
-      "A. must",
-      "B. mustn't",
-      "C. don't have to",
-      "D. should"
+      {
+        "label": "A",
+        "text": "must"
+      },
+      {
+        "label": "B",
+        "text": "mustn't"
+      },
+      {
+        "label": "C",
+        "text": "don't have to"
+      },
+      {
+        "label": "D",
+        "text": "should"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9258,10 +11205,22 @@
     "tag": "非谓语动词",
     "question": "Tom suggested ___ the project until next week because he needed more time to review the details.",
     "options": [
-      "A. to postpone",
-      "B. postponing",
-      "C. postponed",
-      "D. postpone"
+      {
+        "label": "A",
+        "text": "to postpone"
+      },
+      {
+        "label": "B",
+        "text": "postponing"
+      },
+      {
+        "label": "C",
+        "text": "postponed"
+      },
+      {
+        "label": "D",
+        "text": "postpone"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9274,10 +11233,22 @@
     "tag": "名词性从句",
     "question": "He didn't realize _______.",
     "options": [
-      "A. that the test was tomorrow.",
-      "B. if the test was tomorrow.",
-      "C. what the test was tomorrow.",
-      "D. when the test was tomorrow."
+      {
+        "label": "A",
+        "text": "that the test was tomorrow."
+      },
+      {
+        "label": "B",
+        "text": "if the test was tomorrow."
+      },
+      {
+        "label": "C",
+        "text": "what the test was tomorrow."
+      },
+      {
+        "label": "D",
+        "text": "when the test was tomorrow."
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9290,10 +11261,22 @@
     "tag": "定语从句",
     "question": "The boy ______ father works in Beijing is my friend.",
     "options": [
-      "A. who",
-      "B. which",
-      "C. whose",
-      "D. that"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "which"
+      },
+      {
+        "label": "C",
+        "text": "whose"
+      },
+      {
+        "label": "D",
+        "text": "that"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9306,10 +11289,22 @@
     "tag": "状语从句",
     "question": "_____ she was tired, she finished the homework.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. If",
-      "D. When"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "If"
+      },
+      {
+        "label": "D",
+        "text": "When"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9322,10 +11317,22 @@
     "tag": "虚拟语气",
     "question": "If I ___ you, I would accept the offer.",
     "options": [
-      "A. am",
-      "B. were",
-      "C. was",
-      "D. be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "were"
+      },
+      {
+        "label": "C",
+        "text": "was"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9338,10 +11345,22 @@
     "tag": "介词搭配",
     "question": "She is interested ___ learning new languages.",
     "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. for"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9354,10 +11373,22 @@
     "tag": "词性转换",
     "question": "Please select the correct noun form of the verb 'analyze' to fill in the blank: 'The _______ of the data took several hours.'",
     "options": [
-      "A. analyzing",
-      "B. analysis",
-      "C. analyzed",
-      "D. analytic"
+      {
+        "label": "A",
+        "text": "analyzing"
+      },
+      {
+        "label": "B",
+        "text": "analysis"
+      },
+      {
+        "label": "C",
+        "text": "analyzed"
+      },
+      {
+        "label": "D",
+        "text": "analytic"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9370,10 +11401,22 @@
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question below.\n\nOn a sunny Saturday, Lucy and her brother Max decided to explore the old abandoned lighthouse at the edge of their town. They had heard many stories about the lighthouse, and they were curious to see it for themselves. When they arrived, the building was covered in ivy, and the door was half‑open. Inside, they found a dusty room full of old maps and a broken telescope. They imagined the lighthouse keeper who once worked there, watching ships at night. After an hour of exploring, they left, feeling excited about their adventure.\n\nWhat can we infer about the lighthouse based on the passage?",
     "options": [
-      "A. It is still in use today.",
-      "B. It has been empty for many years.",
-      "C. It was destroyed recently.",
-      "D. It is a popular tourist attraction."
+      {
+        "label": "A",
+        "text": "It is still in use today."
+      },
+      {
+        "label": "B",
+        "text": "It has been empty for many years."
+      },
+      {
+        "label": "C",
+        "text": "It was destroyed recently."
+      },
+      {
+        "label": "D",
+        "text": "It is a popular tourist attraction."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9386,10 +11429,22 @@
     "tag": "完形填空",
     "question": "Mike usually rides his bike to school. Yesterday, he ______ the bus because it was raining.",
     "options": [
-      "A. takes",
-      "B. took",
-      "C. taken",
-      "D. taking"
+      {
+        "label": "A",
+        "text": "takes"
+      },
+      {
+        "label": "B",
+        "text": "took"
+      },
+      {
+        "label": "C",
+        "text": "taken"
+      },
+      {
+        "label": "D",
+        "text": "taking"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9402,10 +11457,22 @@
     "tag": "阅读填空",
     "question": "Last weekend, Tom and his friends went hiking in the mountains. The weather was sunny and warm. They walked for two hours and reached a beautiful lake. At the lake, Tom _______ his camera to take photos of the scenery. He wanted to capture the clear water and the blue sky.",
     "options": [
-      "A. used",
-      "B. broke",
-      "C. lent",
-      "D. forgot"
+      {
+        "label": "A",
+        "text": "used"
+      },
+      {
+        "label": "B",
+        "text": "broke"
+      },
+      {
+        "label": "C",
+        "text": "lent"
+      },
+      {
+        "label": "D",
+        "text": "forgot"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9418,10 +11485,22 @@
     "tag": "书面表达",
     "question": "Which of the following is the most appropriate topic sentence for a paragraph about the benefits of reading books?",
     "options": [
-      "A. Reading books can help you relax.",
-      "B. Many people enjoy reading because it is fun.",
-      "C. Reading books provides many benefits, including improving vocabulary and expanding knowledge.",
-      "D. Books have pages and covers."
+      {
+        "label": "A",
+        "text": "Reading books can help you relax."
+      },
+      {
+        "label": "B",
+        "text": "Many people enjoy reading because it is fun."
+      },
+      {
+        "label": "C",
+        "text": "Reading books provides many benefits, including improving vocabulary and expanding knowledge."
+      },
+      {
+        "label": "D",
+        "text": "Books have pages and covers."
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9434,10 +11513,22 @@
     "tag": "词汇辨析",
     "question": "Which word indicates a small amount of an uncountable noun in a negative sense?",
     "options": [
-      "A. few",
-      "B. a few",
-      "C. little",
-      "D. a little"
+      {
+        "label": "A",
+        "text": "few"
+      },
+      {
+        "label": "B",
+        "text": "a few"
+      },
+      {
+        "label": "C",
+        "text": "little"
+      },
+      {
+        "label": "D",
+        "text": "a little"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9450,10 +11541,22 @@
     "tag": "动词时态",
     "question": "When I arrived at the station, the train ___.",
     "options": [
-      "A. left",
-      "B. has left",
-      "C. was leaving",
-      "D. leaves"
+      {
+        "label": "A",
+        "text": "left"
+      },
+      {
+        "label": "B",
+        "text": "has left"
+      },
+      {
+        "label": "C",
+        "text": "was leaving"
+      },
+      {
+        "label": "D",
+        "text": "leaves"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9466,10 +11569,22 @@
     "tag": "被动语态",
     "question": "Which of the following sentences is written in the passive voice?",
     "options": [
-      "A. The manager approved the report yesterday.",
-      "B. The report was approved by the manager yesterday.",
-      "C. The manager will approve the report tomorrow.",
-      "D. The manager is approving the report now."
+      {
+        "label": "A",
+        "text": "The manager approved the report yesterday."
+      },
+      {
+        "label": "B",
+        "text": "The report was approved by the manager yesterday."
+      },
+      {
+        "label": "C",
+        "text": "The manager will approve the report tomorrow."
+      },
+      {
+        "label": "D",
+        "text": "The manager is approving the report now."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9482,10 +11597,22 @@
     "tag": "情态动词",
     "question": "She is only 12 years old; she ___ drive a car.",
     "options": [
-      "A. must",
-      "B. can",
-      "C. may",
-      "D. cannot"
+      {
+        "label": "A",
+        "text": "must"
+      },
+      {
+        "label": "B",
+        "text": "can"
+      },
+      {
+        "label": "C",
+        "text": "may"
+      },
+      {
+        "label": "D",
+        "text": "cannot"
+      }
     ],
     "answer": "D",
     "grade": 9
@@ -9498,10 +11625,22 @@
     "tag": "非谓语动词",
     "question": "The teacher asked the students _____ the homework before class.",
     "options": [
-      "A. complete",
-      "B. to complete",
-      "C. completing",
-      "D. completed"
+      {
+        "label": "A",
+        "text": "complete"
+      },
+      {
+        "label": "B",
+        "text": "to complete"
+      },
+      {
+        "label": "C",
+        "text": "completing"
+      },
+      {
+        "label": "D",
+        "text": "completed"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9514,10 +11653,22 @@
     "tag": "名词性从句",
     "question": "I wonder _____.",
     "options": [
-      "A. what is his name",
-      "B. what his name is",
-      "C. that his name",
-      "D. who his name"
+      {
+        "label": "A",
+        "text": "what is his name"
+      },
+      {
+        "label": "B",
+        "text": "what his name is"
+      },
+      {
+        "label": "C",
+        "text": "that his name"
+      },
+      {
+        "label": "D",
+        "text": "who his name"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9530,10 +11681,22 @@
     "tag": "定语从句",
     "question": "I know the man _______ sister is a famous singer.",
     "options": [
-      "A. who",
-      "B. whom",
-      "C. whose",
-      "D. that"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "whom"
+      },
+      {
+        "label": "C",
+        "text": "whose"
+      },
+      {
+        "label": "D",
+        "text": "that"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9546,10 +11709,22 @@
     "tag": "状语从句",
     "question": "Choose the correct conjunction to complete the adverbial clause of time in the following sentence: 'She will call you ___ she arrives.'",
     "options": [
-      "A. because",
-      "B. although",
-      "C. as soon as",
-      "D. if"
+      {
+        "label": "A",
+        "text": "because"
+      },
+      {
+        "label": "B",
+        "text": "although"
+      },
+      {
+        "label": "C",
+        "text": "as soon as"
+      },
+      {
+        "label": "D",
+        "text": "if"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9562,10 +11737,22 @@
     "tag": "虚拟语气",
     "question": "If I ____ a bird, I would fly over the ocean.",
     "options": [
-      "A. am",
-      "B. was",
-      "C. were",
-      "D. be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9578,10 +11765,22 @@
     "tag": "介词搭配",
     "question": "She is interested ____ learning English.",
     "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. of"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "of"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9594,10 +11793,22 @@
     "tag": "词性转换",
     "question": "Which of the following is the adjective form of the noun 'success'?",
     "options": [
-      "A. Successify",
-      "B. Successful",
-      "C. Successfully",
-      "D. Succeed"
+      {
+        "label": "A",
+        "text": "Successify"
+      },
+      {
+        "label": "B",
+        "text": "Successful"
+      },
+      {
+        "label": "C",
+        "text": "Successfully"
+      },
+      {
+        "label": "D",
+        "text": "Succeed"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9610,10 +11821,22 @@
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nEmma is a fifth‑grade student. She studies math every day after school. She wants to become a scientist one day. She reads many books about space and planets. Emma's teacher says she has a bright future. Emma's favorite subject is science.\n\nWhat does Emma want to be when she grows up?",
     "options": [
-      "A. Teacher",
-      "B. Scientist",
-      "C. Writer",
-      "D. Doctor"
+      {
+        "label": "A",
+        "text": "Teacher"
+      },
+      {
+        "label": "B",
+        "text": "Scientist"
+      },
+      {
+        "label": "C",
+        "text": "Writer"
+      },
+      {
+        "label": "D",
+        "text": "Doctor"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9626,10 +11849,22 @@
     "tag": "完形填空",
     "question": "Read the following passage and choose the best word to fill in the blank.\n\nEvery morning, Sarah drinks a cup of coffee to help her stay _______ during the early class.",
     "options": [
-      "A. awake",
-      "B. sleepy",
-      "C. tired",
-      "D. bored"
+      {
+        "label": "A",
+        "text": "awake"
+      },
+      {
+        "label": "B",
+        "text": "sleepy"
+      },
+      {
+        "label": "C",
+        "text": "tired"
+      },
+      {
+        "label": "D",
+        "text": "bored"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9642,10 +11877,22 @@
     "tag": "阅读填空",
     "question": "On a rainy afternoon, Tom stayed at home. He decided to read a book about space. After reading the first chapter, he felt _____ about the story.",
     "options": [
-      "A. excited",
-      "B. exciting",
-      "C. excitedly",
-      "D. excite"
+      {
+        "label": "A",
+        "text": "excited"
+      },
+      {
+        "label": "B",
+        "text": "exciting"
+      },
+      {
+        "label": "C",
+        "text": "excitedly"
+      },
+      {
+        "label": "D",
+        "text": "excite"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9658,10 +11905,22 @@
     "tag": "书面表达",
     "question": "Which of the following is the most important element of a well-written paragraph?",
     "options": [
-      "A. A catchy title",
-      "B. A clear topic sentence",
-      "C. A list of difficult vocabulary",
-      "D. Many exclamation marks"
+      {
+        "label": "A",
+        "text": "A catchy title"
+      },
+      {
+        "label": "B",
+        "text": "A clear topic sentence"
+      },
+      {
+        "label": "C",
+        "text": "A list of difficult vocabulary"
+      },
+      {
+        "label": "D",
+        "text": "Many exclamation marks"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9674,10 +11933,22 @@
     "tag": "词汇辨析",
     "question": "Which word correctly completes the sentence: 'The new law will _______ the economy.'",
     "options": [
-      "A. affect",
-      "B. effect",
-      "C. infect",
-      "D. defect"
+      {
+        "label": "A",
+        "text": "affect"
+      },
+      {
+        "label": "B",
+        "text": "effect"
+      },
+      {
+        "label": "C",
+        "text": "infect"
+      },
+      {
+        "label": "D",
+        "text": "defect"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9690,10 +11961,22 @@
     "tag": "动词时态",
     "question": "By the time I reached the station, the train _____.",
     "options": [
-      "A. left",
-      "B. leaves",
-      "C. had left",
-      "D. has left"
+      {
+        "label": "A",
+        "text": "left"
+      },
+      {
+        "label": "B",
+        "text": "leaves"
+      },
+      {
+        "label": "C",
+        "text": "had left"
+      },
+      {
+        "label": "D",
+        "text": "has left"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9706,10 +11989,22 @@
     "tag": "被动语态",
     "question": "The new computer ___ by the technician last week.",
     "options": [
-      "A. installed",
-      "B. was installed",
-      "C. is installed",
-      "D. has installed"
+      {
+        "label": "A",
+        "text": "installed"
+      },
+      {
+        "label": "B",
+        "text": "was installed"
+      },
+      {
+        "label": "C",
+        "text": "is installed"
+      },
+      {
+        "label": "D",
+        "text": "has installed"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9722,10 +12017,22 @@
     "tag": "情态动词",
     "question": "He ___ ride a bike when he was five years old.",
     "options": [
-      "A. can",
-      "B. could",
-      "C. may",
-      "D. must"
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "could"
+      },
+      {
+        "label": "C",
+        "text": "may"
+      },
+      {
+        "label": "D",
+        "text": "must"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9738,10 +12045,22 @@
     "tag": "非谓语动词",
     "question": "The teacher told us ____ our homework before class.",
     "options": [
-      "A. finish",
-      "B. to finish",
-      "C. finishing",
-      "D. finished"
+      {
+        "label": "A",
+        "text": "finish"
+      },
+      {
+        "label": "B",
+        "text": "to finish"
+      },
+      {
+        "label": "C",
+        "text": "finishing"
+      },
+      {
+        "label": "D",
+        "text": "finished"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9754,10 +12073,22 @@
     "tag": "名词性从句",
     "question": "I wonder ______ he will come to the party tomorrow.",
     "options": [
-      "A. if",
-      "B. whether",
-      "C. that",
-      "D. which"
+      {
+        "label": "A",
+        "text": "if"
+      },
+      {
+        "label": "B",
+        "text": "whether"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "which"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9770,10 +12101,22 @@
     "tag": "定语从句",
     "question": "The boy ___ mother is a doctor works at the hospital.",
     "options": [
-      "A. who",
-      "B. which",
-      "C. whose",
-      "D. that"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "which"
+      },
+      {
+        "label": "C",
+        "text": "whose"
+      },
+      {
+        "label": "D",
+        "text": "that"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9786,10 +12129,22 @@
     "tag": "状语从句",
     "question": "______ he was very tired, he continued to study.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. Unless",
-      "D. When"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "Unless"
+      },
+      {
+        "label": "D",
+        "text": "When"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9802,10 +12157,22 @@
     "tag": "虚拟语气",
     "question": "If I ___ you, I would accept the job offer.",
     "options": [
-      "A. am",
-      "B. was",
-      "C. were",
-      "D. be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9818,10 +12185,22 @@
     "tag": "介词搭配",
     "question": "He is interested ___ learning about history.",
     "options": [
-      "A. in",
-      "B. on",
-      "C. at",
-      "D. with"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "with"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9834,10 +12213,22 @@
     "tag": "词性转换",
     "question": "Complete the sentence with the correct form of the word in brackets.\nShe is very _____ (friend) to everyone.",
     "options": [
-      "A. friend",
-      "B. friendly",
-      "C. friendship",
-      "D. friendless"
+      {
+        "label": "A",
+        "text": "friend"
+      },
+      {
+        "label": "B",
+        "text": "friendly"
+      },
+      {
+        "label": "C",
+        "text": "friendship"
+      },
+      {
+        "label": "D",
+        "text": "friendless"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9850,10 +12241,22 @@
     "tag": "阅读理解",
     "question": "阅读下面的短文，然后回答问题。\n\nMany cities around the world have 'no‑car zones' in their downtown areas. These zones are created to reduce traffic congestion, lower air pollution, and encourage people to walk or cycle. In some cities, only electric vehicles are allowed, while in others, bicycles and public transport are the only options. The idea is gaining popularity, but it also brings challenges. Shop owners worry about fewer customers, and some residents feel that their freedom to drive is limited. Yet, studies show that air quality improves quickly after the zones are introduced.\n\nWhat is one of the main purposes of creating 'no‑car zones'?",
     "options": [
-      "A. To increase the number of cars on the road.",
-      "B. To reduce traffic congestion and air pollution.",
-      "C. To make driving more convenient for residents.",
-      "D. To limit the use of public transportation."
+      {
+        "label": "A",
+        "text": "To increase the number of cars on the road."
+      },
+      {
+        "label": "B",
+        "text": "To reduce traffic congestion and air pollution."
+      },
+      {
+        "label": "C",
+        "text": "To make driving more convenient for residents."
+      },
+      {
+        "label": "D",
+        "text": "To limit the use of public transportation."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9866,10 +12269,22 @@
     "tag": "完形填空",
     "question": "Last weekend, my family went to the beach. We ______ a lot of sandcastles and collected shells.",
     "options": [
-      "A. built",
-      "B. made",
-      "C. created",
-      "D. had"
+      {
+        "label": "A",
+        "text": "built"
+      },
+      {
+        "label": "B",
+        "text": "made"
+      },
+      {
+        "label": "C",
+        "text": "created"
+      },
+      {
+        "label": "D",
+        "text": "had"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9882,10 +12297,22 @@
     "tag": "阅读填空",
     "question": "Last weekend, the Smith family decided to go on a picnic in the countryside. They packed sandwiches, fruit, and a big bottle of lemonade. After they arrived, the children ran around the green field, while their parents set up a blanket under a large oak tree. While they were eating, a gentle breeze began to blow, and the leaves of the tree made a soft rustling sound. Suddenly, a small squirrel appeared from behind the trunk and stared at them. The children were excited and wanted to feed it. Their mother said, If you want to make friends with it, you should be ______.",
     "options": [
-      "A. patient",
-      "B. excited",
-      "C. angry",
-      "D. scared"
+      {
+        "label": "A",
+        "text": "patient"
+      },
+      {
+        "label": "B",
+        "text": "excited"
+      },
+      {
+        "label": "C",
+        "text": "angry"
+      },
+      {
+        "label": "D",
+        "text": "scared"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9898,10 +12325,22 @@
     "tag": "书面表达",
     "question": "When writing an introduction for an argumentative essay, which of the following should be included?",
     "options": [
-      "A. A detailed list of all supporting points.",
-      "B. Background information and a thesis statement.",
-      "C. The author's personal feelings only.",
-      "D. The final conclusion of the essay."
+      {
+        "label": "A",
+        "text": "A detailed list of all supporting points."
+      },
+      {
+        "label": "B",
+        "text": "Background information and a thesis statement."
+      },
+      {
+        "label": "C",
+        "text": "The author's personal feelings only."
+      },
+      {
+        "label": "D",
+        "text": "The final conclusion of the essay."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9914,10 +12353,22 @@
     "tag": "词汇辨析",
     "question": "Which word best completes the sentence: 'Please ___ your homework tomorrow.'",
     "options": [
-      "A. bring",
-      "B. take",
-      "C. fetch",
-      "D. carry"
+      {
+        "label": "A",
+        "text": "bring"
+      },
+      {
+        "label": "B",
+        "text": "take"
+      },
+      {
+        "label": "C",
+        "text": "fetch"
+      },
+      {
+        "label": "D",
+        "text": "carry"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9930,10 +12381,22 @@
     "tag": "动词时态",
     "question": "I ___ that film last week.",
     "options": [
-      "A. have seen",
-      "B. saw",
-      "C. see",
-      "D. will see"
+      {
+        "label": "A",
+        "text": "have seen"
+      },
+      {
+        "label": "B",
+        "text": "saw"
+      },
+      {
+        "label": "C",
+        "text": "see"
+      },
+      {
+        "label": "D",
+        "text": "will see"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9946,10 +12409,22 @@
     "tag": "被动语态",
     "question": "The song _____ by the famous singer last night.",
     "options": [
-      "A. sung",
-      "B. was sung",
-      "C. is sung",
-      "D. will be sung"
+      {
+        "label": "A",
+        "text": "sung"
+      },
+      {
+        "label": "B",
+        "text": "was sung"
+      },
+      {
+        "label": "C",
+        "text": "is sung"
+      },
+      {
+        "label": "D",
+        "text": "will be sung"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -9962,10 +12437,22 @@
     "tag": "情态动词",
     "question": "The teacher says we ___ submit the project by Friday.",
     "options": [
-      "A. must",
-      "B. can",
-      "C. might",
-      "D. could"
+      {
+        "label": "A",
+        "text": "must"
+      },
+      {
+        "label": "B",
+        "text": "can"
+      },
+      {
+        "label": "C",
+        "text": "might"
+      },
+      {
+        "label": "D",
+        "text": "could"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -9978,10 +12465,22 @@
     "tag": "非谓语动词",
     "question": "He enjoys _____ in the pool. Which of the following correctly fills the blank with a non‑finite verb?",
     "options": [
-      "A. swim",
-      "B. to swim",
-      "C. swimming",
-      "D. swam"
+      {
+        "label": "A",
+        "text": "swim"
+      },
+      {
+        "label": "B",
+        "text": "to swim"
+      },
+      {
+        "label": "C",
+        "text": "swimming"
+      },
+      {
+        "label": "D",
+        "text": "swam"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -9994,10 +12493,22 @@
     "tag": "名词性从句",
     "question": "_____ we should bring an umbrella depends on the weather.",
     "options": [
-      "A. That",
-      "B. Whether",
-      "C. If",
-      "D. What"
+      {
+        "label": "A",
+        "text": "That"
+      },
+      {
+        "label": "B",
+        "text": "Whether"
+      },
+      {
+        "label": "C",
+        "text": "If"
+      },
+      {
+        "label": "D",
+        "text": "What"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10010,10 +12521,22 @@
     "tag": "定语从句",
     "question": "The girl ___ father works in Shanghai is my classmate.",
     "options": [
-      "A. who",
-      "B. whose",
-      "C. that",
-      "D. which"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "whose"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "which"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10026,10 +12549,22 @@
     "tag": "状语从句",
     "question": "Which word can be used to start an adverbial clause in the sentence: '_____ it was raining, we decided to stay inside.'?",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. However",
-      "D. Therefore"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "However"
+      },
+      {
+        "label": "D",
+        "text": "Therefore"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10042,10 +12577,22 @@
     "tag": "虚拟语气",
     "question": "If I ___ rich, I would travel around the world.",
     "options": [
-      "A. am",
-      "B. were",
-      "C. is",
-      "D. be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "were"
+      },
+      {
+        "label": "C",
+        "text": "is"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10058,10 +12605,22 @@
     "tag": "介词搭配",
     "question": "Which preposition best completes the sentence: \"She is good ___ math.\"?",
     "options": [
-      "A. in",
-      "B. at",
-      "C. on",
-      "D. for"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "at"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10074,10 +12633,22 @@
     "tag": "词性转换",
     "question": "Which of the following is the adverb form of the adjective 'quick'?",
     "options": [
-      "A. quick",
-      "B. quickly",
-      "C. quickness",
-      "D. quicker"
+      {
+        "label": "A",
+        "text": "quick"
+      },
+      {
+        "label": "B",
+        "text": "quickly"
+      },
+      {
+        "label": "C",
+        "text": "quickness"
+      },
+      {
+        "label": "D",
+        "text": "quicker"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10090,10 +12661,22 @@
     "tag": "阅读理解",
     "question": "Read the short passage and answer the question.\n\nLast weekend, Tom and his classmates visited the City Science Museum. They were excited to see the new space exhibit. In the exhibit, they learned about the planets, built a small rocket, and even took a virtual tour of the moon. Tom was especially interested in the model of a rover that can move on Mars. He asked the guide many questions about how rovers work. At the end of the visit, the guide gave each student a souvenir sticker of a planet.\n\nWhat did Tom ask the guide about?",
     "options": [
-      "A. How the planet models were made.",
-      "B. How rovers work.",
-      "C. How to build a rocket.",
-      "D. The history of the museum."
+      {
+        "label": "A",
+        "text": "How the planet models were made."
+      },
+      {
+        "label": "B",
+        "text": "How rovers work."
+      },
+      {
+        "label": "C",
+        "text": "How to build a rocket."
+      },
+      {
+        "label": "D",
+        "text": "The history of the museum."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10106,10 +12689,22 @@
     "tag": "完形填空",
     "question": "John was late for school because he _____ his alarm clock.",
     "options": [
-      "A. forgot",
-      "B. missed",
-      "C. lost",
-      "D. broke"
+      {
+        "label": "A",
+        "text": "forgot"
+      },
+      {
+        "label": "B",
+        "text": "missed"
+      },
+      {
+        "label": "C",
+        "text": "lost"
+      },
+      {
+        "label": "D",
+        "text": "broke"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10122,10 +12717,22 @@
     "tag": "阅读填空",
     "question": "Read the following passage and choose the best word to fill in the blank.\n\nTom and his friends went to the park last Saturday. The weather was sunny and warm. They played soccer and had a picnic. After lunch, Tom felt tired and decided to take a short nap under a big tree. He ___ for about twenty minutes and then woke up refreshed.",
     "options": [
-      "A. slept",
-      "B. ran",
-      "C. read",
-      "D. cooked"
+      {
+        "label": "A",
+        "text": "slept"
+      },
+      {
+        "label": "B",
+        "text": "ran"
+      },
+      {
+        "label": "C",
+        "text": "read"
+      },
+      {
+        "label": "D",
+        "text": "cooked"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10138,10 +12745,22 @@
     "tag": "书面表达",
     "question": "Which of the following sentences is the most appropriate topic sentence for a paragraph about 'My favorite season'?",
     "options": [
-      "A. I think summer is the best season.",
-      "B. My favorite season is autumn, when the leaves change color and the air is crisp.",
-      "C. Seasons are part of nature and affect our daily life.",
-      "D. What is your favorite season?"
+      {
+        "label": "A",
+        "text": "I think summer is the best season."
+      },
+      {
+        "label": "B",
+        "text": "My favorite season is autumn, when the leaves change color and the air is crisp."
+      },
+      {
+        "label": "C",
+        "text": "Seasons are part of nature and affect our daily life."
+      },
+      {
+        "label": "D",
+        "text": "What is your favorite season?"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10154,10 +12773,22 @@
     "tag": "词汇辨析",
     "question": "The heavy rain caused the river to _____.",
     "options": [
-      "A. rise",
-      "B. raise",
-      "C. arise",
-      "D. arose"
+      {
+        "label": "A",
+        "text": "rise"
+      },
+      {
+        "label": "B",
+        "text": "raise"
+      },
+      {
+        "label": "C",
+        "text": "arise"
+      },
+      {
+        "label": "D",
+        "text": "arose"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10170,10 +12801,22 @@
     "tag": "动词时态",
     "question": "Which of the following sentences correctly uses the past continuous tense?",
     "options": [
-      "A. They were playing football when it started to rain.",
-      "B. They played football when it started to rain.",
-      "C. They have played football when it started to rain.",
-      "D. They will play football when it started to rain."
+      {
+        "label": "A",
+        "text": "They were playing football when it started to rain."
+      },
+      {
+        "label": "B",
+        "text": "They played football when it started to rain."
+      },
+      {
+        "label": "C",
+        "text": "They have played football when it started to rain."
+      },
+      {
+        "label": "D",
+        "text": "They will play football when it started to rain."
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10186,10 +12829,22 @@
     "tag": "被动语态",
     "question": "The letter ________ by Tom yesterday.",
     "options": [
-      "A. was wrote",
-      "B. was written",
-      "C. is written",
-      "D. wrote"
+      {
+        "label": "A",
+        "text": "was wrote"
+      },
+      {
+        "label": "B",
+        "text": "was written"
+      },
+      {
+        "label": "C",
+        "text": "is written"
+      },
+      {
+        "label": "D",
+        "text": "wrote"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10202,10 +12857,22 @@
     "tag": "情态动词",
     "question": "_____ I borrow your pen?",
     "options": [
-      "A. Can",
-      "B. May",
-      "C. Must",
-      "D. Should"
+      {
+        "label": "A",
+        "text": "Can"
+      },
+      {
+        "label": "B",
+        "text": "May"
+      },
+      {
+        "label": "C",
+        "text": "Must"
+      },
+      {
+        "label": "D",
+        "text": "Should"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10218,10 +12885,22 @@
     "tag": "非谓语动词",
     "question": "I look forward to _______ you at the conference.",
     "options": [
-      "A. meet",
-      "B. meeting",
-      "C. to meet",
-      "D. met"
+      {
+        "label": "A",
+        "text": "meet"
+      },
+      {
+        "label": "B",
+        "text": "meeting"
+      },
+      {
+        "label": "C",
+        "text": "to meet"
+      },
+      {
+        "label": "D",
+        "text": "met"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10234,10 +12913,22 @@
     "tag": "名词性从句",
     "question": "____ made everyone laugh.",
     "options": [
-      "A. The teacher told a joke",
-      "B. That the teacher told a joke",
-      "C. Telling a joke",
-      "D. The joke was told"
+      {
+        "label": "A",
+        "text": "The teacher told a joke"
+      },
+      {
+        "label": "B",
+        "text": "That the teacher told a joke"
+      },
+      {
+        "label": "C",
+        "text": "Telling a joke"
+      },
+      {
+        "label": "D",
+        "text": "The joke was told"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10250,10 +12941,22 @@
     "tag": "定语从句",
     "question": "I know the girl ____ mother works at a hospital.",
     "options": [
-      "A. who",
-      "B. which",
-      "C. whose",
-      "D. that"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "which"
+      },
+      {
+        "label": "C",
+        "text": "whose"
+      },
+      {
+        "label": "D",
+        "text": "that"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -10266,10 +12969,22 @@
     "tag": "状语从句",
     "question": "_____ she was very tired, she still finished her homework on time.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. When",
-      "D. If"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "When"
+      },
+      {
+        "label": "D",
+        "text": "If"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10282,10 +12997,22 @@
     "tag": "虚拟语气",
     "question": "If I ____ you, I would take the job.",
     "options": [
-      "A. am",
-      "B. was",
-      "C. were",
-      "D. will be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "will be"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -10298,10 +13025,22 @@
     "tag": "介词搭配",
     "question": "Which preposition correctly completes the sentence: She is very good ___ learning new languages?",
     "options": [
-      "A. at",
-      "B. in",
-      "C. on",
-      "D. for"
+      {
+        "label": "A",
+        "text": "at"
+      },
+      {
+        "label": "B",
+        "text": "in"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10314,10 +13053,22 @@
     "tag": "词性转换",
     "question": "Which of the following correctly fills the blank? \"She sings _____\"",
     "options": [
-      "A. beautiful",
-      "B. beautifully",
-      "C. beauty",
-      "D. beauteous"
+      {
+        "label": "A",
+        "text": "beautiful"
+      },
+      {
+        "label": "B",
+        "text": "beautifully"
+      },
+      {
+        "label": "C",
+        "text": "beauty"
+      },
+      {
+        "label": "D",
+        "text": "beauteous"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10330,10 +13081,22 @@
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nTom was walking in the park when he saw a small dog barking loudly. The dog had a broken leg and looked scared. Tom took the dog to a nearby vet, who fixed its leg. The next day, the owner came and thanked Tom.\n\nWhat is the main message of the passage?",
     "options": [
-      "A. Dogs are dangerous animals.",
-      "B. Small acts of kindness can make a big difference.",
-      "C. Parks are the best places to find dogs.",
-      "D. Tom enjoys spending time alone."
+      {
+        "label": "A",
+        "text": "Dogs are dangerous animals."
+      },
+      {
+        "label": "B",
+        "text": "Small acts of kindness can make a big difference."
+      },
+      {
+        "label": "C",
+        "text": "Parks are the best places to find dogs."
+      },
+      {
+        "label": "D",
+        "text": "Tom enjoys spending time alone."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10346,10 +13109,22 @@
     "tag": "完形填空",
     "question": "Because of the heavy rain, the children had to _____ their outdoor activities and stay inside all day.",
     "options": [
-      "A. cancel",
-      "B. postpone",
-      "C. continue",
-      "D. avoid"
+      {
+        "label": "A",
+        "text": "cancel"
+      },
+      {
+        "label": "B",
+        "text": "postpone"
+      },
+      {
+        "label": "C",
+        "text": "continue"
+      },
+      {
+        "label": "D",
+        "text": "avoid"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10362,10 +13137,22 @@
     "tag": "阅读填空",
     "question": "Read the passage and choose the best word to fill in the blank.\\n\\nIt was a sunny Saturday morning. Tom and his friends decided to go to the park for a picnic. After they arrived, Tom spread a blanket on the grass and _____ the food from his backpack.",
     "options": [
-      "A. unpacked",
-      "B. ate",
-      "C. took",
-      "D. opened"
+      {
+        "label": "A",
+        "text": "unpacked"
+      },
+      {
+        "label": "B",
+        "text": "ate"
+      },
+      {
+        "label": "C",
+        "text": "took"
+      },
+      {
+        "label": "D",
+        "text": "opened"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10378,10 +13165,22 @@
     "tag": "书面表达",
     "question": "Which of the following is the most appropriate opening line for a formal letter?",
     "options": [
-      "A. Dear Mr. Johnson,",
-      "B. Hi Mr. Johnson,",
-      "C. Hey Mr. Johnson,",
-      "D. Yo Mr. Johnson,"
+      {
+        "label": "A",
+        "text": "Dear Mr. Johnson,"
+      },
+      {
+        "label": "B",
+        "text": "Hi Mr. Johnson,"
+      },
+      {
+        "label": "C",
+        "text": "Hey Mr. Johnson,"
+      },
+      {
+        "label": "D",
+        "text": "Yo Mr. Johnson,"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10394,10 +13193,22 @@
     "tag": "词汇辨析",
     "question": "The teacher asked the students to _____ the new words in the dictionary.",
     "options": [
-      "A. look up",
-      "B. look for",
-      "C. look after",
-      "D. look into"
+      {
+        "label": "A",
+        "text": "look up"
+      },
+      {
+        "label": "B",
+        "text": "look for"
+      },
+      {
+        "label": "C",
+        "text": "look after"
+      },
+      {
+        "label": "D",
+        "text": "look into"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10410,10 +13221,22 @@
     "tag": "动词时态",
     "question": "Which of the following sentences uses the present perfect tense?",
     "options": [
-      "A. She works at a bank.",
-      "B. She worked at a bank.",
-      "C. She has worked at a bank for five years.",
-      "D. She is working at a bank."
+      {
+        "label": "A",
+        "text": "She works at a bank."
+      },
+      {
+        "label": "B",
+        "text": "She worked at a bank."
+      },
+      {
+        "label": "C",
+        "text": "She has worked at a bank for five years."
+      },
+      {
+        "label": "D",
+        "text": "She is working at a bank."
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -10426,10 +13249,22 @@
     "tag": "被动语态",
     "question": "Which sentence is written in the passive voice?",
     "options": [
-      "A. The chef prepared a delicious meal.",
-      "B. The cake was eaten by the children.",
-      "C. She writes many letters.",
-      "D. They will finish the project tomorrow."
+      {
+        "label": "A",
+        "text": "The chef prepared a delicious meal."
+      },
+      {
+        "label": "B",
+        "text": "The cake was eaten by the children."
+      },
+      {
+        "label": "C",
+        "text": "She writes many letters."
+      },
+      {
+        "label": "D",
+        "text": "They will finish the project tomorrow."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10442,10 +13277,22 @@
     "tag": "情态动词",
     "question": "Which of the following sentences correctly uses a modal verb to express past ability?",
     "options": [
-      "A. He could to swim when he was five.",
-      "B. He could swim when he was five.",
-      "C. He could swimming when he was five.",
-      "D. He can swim when he was five."
+      {
+        "label": "A",
+        "text": "He could to swim when he was five."
+      },
+      {
+        "label": "B",
+        "text": "He could swim when he was five."
+      },
+      {
+        "label": "C",
+        "text": "He could swimming when he was five."
+      },
+      {
+        "label": "D",
+        "text": "He can swim when he was five."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10458,10 +13305,22 @@
     "tag": "非谓语动词",
     "question": "_____ the letter, she went to the post office.",
     "options": [
-      "A. To write",
-      "B. Writing",
-      "C. Written",
-      "D. Wrote"
+      {
+        "label": "A",
+        "text": "To write"
+      },
+      {
+        "label": "B",
+        "text": "Writing"
+      },
+      {
+        "label": "C",
+        "text": "Written"
+      },
+      {
+        "label": "D",
+        "text": "Wrote"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10474,10 +13333,22 @@
     "tag": "名词性从句",
     "question": "Which of the following sentences contains a noun clause that functions as the subject?",
     "options": [
-      "A. That she was late made us worry.",
-      "B. I think that he is right.",
-      "C. She told me that she would come.",
-      "D. He gave me what I needed."
+      {
+        "label": "A",
+        "text": "That she was late made us worry."
+      },
+      {
+        "label": "B",
+        "text": "I think that he is right."
+      },
+      {
+        "label": "C",
+        "text": "She told me that she would come."
+      },
+      {
+        "label": "D",
+        "text": "He gave me what I needed."
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10490,10 +13361,22 @@
     "tag": "定语从句",
     "question": "Choose the correct relative pronoun to fill in the blank: I met a girl _____ mother works at a hospital.",
     "options": [
-      "A. who",
-      "B. whose",
-      "C. that",
-      "D. which"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "whose"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "which"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10506,10 +13389,22 @@
     "tag": "状语从句",
     "question": "_____ she was tired, she didn't want to rest.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. Unless",
-      "D. Since"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "Unless"
+      },
+      {
+        "label": "D",
+        "text": "Since"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10522,10 +13417,22 @@
     "tag": "虚拟语气",
     "question": "If I ___ you, I would take the job.",
     "options": [
-      "A. am",
-      "B. was",
-      "C. were",
-      "D. be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -10538,10 +13445,22 @@
     "tag": "介词搭配",
     "question": "She is good _____ math.",
     "options": [
-      "A. at",
-      "B. in",
-      "C. on",
-      "D. for"
+      {
+        "label": "A",
+        "text": "at"
+      },
+      {
+        "label": "B",
+        "text": "in"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10554,10 +13473,22 @@
     "tag": "词性转换",
     "question": "Please choose the correct form of the word 'decide' to fill in the blank: He made a ________ (decide) to study abroad.",
     "options": [
-      "A. decide",
-      "B. decided",
-      "C. decision",
-      "D. decisive"
+      {
+        "label": "A",
+        "text": "decide"
+      },
+      {
+        "label": "B",
+        "text": "decided"
+      },
+      {
+        "label": "C",
+        "text": "decision"
+      },
+      {
+        "label": "D",
+        "text": "decisive"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -10570,10 +13501,22 @@
     "tag": "阅读理解",
     "question": "Tom usually rides his bike to school. Yesterday, it was raining, so he took the bus instead.\nWhat did Tom do yesterday because of the rain?",
     "options": [
-      "A. He rode his bike.",
-      "B. He took the bus.",
-      "C. He walked to school.",
-      "D. He stayed at home."
+      {
+        "label": "A",
+        "text": "He rode his bike."
+      },
+      {
+        "label": "B",
+        "text": "He took the bus."
+      },
+      {
+        "label": "C",
+        "text": "He walked to school."
+      },
+      {
+        "label": "D",
+        "text": "He stayed at home."
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10586,10 +13529,22 @@
     "tag": "完形填空",
     "question": "Emily loves reading. She had to ____ the book before the test.",
     "options": [
-      "A. read",
-      "B. reading",
-      "C. reads",
-      "D. to read"
+      {
+        "label": "A",
+        "text": "read"
+      },
+      {
+        "label": "B",
+        "text": "reading"
+      },
+      {
+        "label": "C",
+        "text": "reads"
+      },
+      {
+        "label": "D",
+        "text": "to read"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10602,10 +13557,22 @@
     "tag": "阅读填空",
     "question": "Tom always arrives at school early. He likes to prepare his lessons before class starts. This morning, he ______ his notes carefully.\nWhich word best completes the sentence?",
     "options": [
-      "A. review",
-      "B. reviews",
-      "C. reviewing",
-      "D. to review"
+      {
+        "label": "A",
+        "text": "review"
+      },
+      {
+        "label": "B",
+        "text": "reviews"
+      },
+      {
+        "label": "C",
+        "text": "reviewing"
+      },
+      {
+        "label": "D",
+        "text": "to review"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10618,10 +13585,22 @@
     "tag": "书面表达",
     "question": "Which of the following sentences is the most suitable as a topic sentence for a paragraph about 'The importance of English in the modern world'?",
     "options": [
-      "A. English is spoken by millions of people worldwide.",
-      "B. I love learning English because it is fun.",
-      "C. My favorite subject is math.",
-      "D. The weather today is sunny."
+      {
+        "label": "A",
+        "text": "English is spoken by millions of people worldwide."
+      },
+      {
+        "label": "B",
+        "text": "I love learning English because it is fun."
+      },
+      {
+        "label": "C",
+        "text": "My favorite subject is math."
+      },
+      {
+        "label": "D",
+        "text": "The weather today is sunny."
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10634,10 +13613,22 @@
     "tag": "词汇辨析",
     "question": "Which of the following sentences correctly uses the word 'affect' as a verb?",
     "options": [
-      "A. The new policy will affect the economy.",
-      "B. The new policy will effect the economy.",
-      "C. The affect of the new policy is positive.",
-      "D. The economy will effect from the new policy."
+      {
+        "label": "A",
+        "text": "The new policy will affect the economy."
+      },
+      {
+        "label": "B",
+        "text": "The new policy will effect the economy."
+      },
+      {
+        "label": "C",
+        "text": "The affect of the new policy is positive."
+      },
+      {
+        "label": "D",
+        "text": "The economy will effect from the new policy."
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10650,10 +13641,22 @@
     "tag": "动词时态",
     "question": "I have ___ to Beijing, so I am excited to visit next year.",
     "options": [
-      "A. never be",
-      "B. never been",
-      "C. never was",
-      "D. never being"
+      {
+        "label": "A",
+        "text": "never be"
+      },
+      {
+        "label": "B",
+        "text": "never been"
+      },
+      {
+        "label": "C",
+        "text": "never was"
+      },
+      {
+        "label": "D",
+        "text": "never being"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10666,10 +13669,22 @@
     "tag": "被动语态",
     "question": "Which of the following sentences is the correct passive voice form of the sentence 'The teacher explained the lesson'?",
     "options": [
-      "A. The lesson was explained by the teacher.",
-      "B. The lesson were explained by the teacher.",
-      "C. The lesson is explained by the teacher.",
-      "D. The lesson explained by the teacher."
+      {
+        "label": "A",
+        "text": "The lesson was explained by the teacher."
+      },
+      {
+        "label": "B",
+        "text": "The lesson were explained by the teacher."
+      },
+      {
+        "label": "C",
+        "text": "The lesson is explained by the teacher."
+      },
+      {
+        "label": "D",
+        "text": "The lesson explained by the teacher."
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10682,10 +13697,22 @@
     "tag": "情态动词",
     "question": "You have an important meeting at 9 AM, and it is already 8:30. You ___ leave now to arrive on time.",
     "options": [
-      "A. can",
-      "B. must",
-      "C. should",
-      "D. might"
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "should"
+      },
+      {
+        "label": "D",
+        "text": "might"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10698,10 +13725,22 @@
     "tag": "非谓语动词",
     "question": "I look forward to _____ (see) you again.",
     "options": [
-      "A. see",
-      "B. seeing",
-      "C. to see",
-      "D. seen"
+      {
+        "label": "A",
+        "text": "see"
+      },
+      {
+        "label": "B",
+        "text": "seeing"
+      },
+      {
+        "label": "C",
+        "text": "to see"
+      },
+      {
+        "label": "D",
+        "text": "seen"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10714,10 +13753,22 @@
     "tag": "名词性从句",
     "question": "We still don't know ______.",
     "options": [
-      "A. where does the meeting take place",
-      "B. where the meeting takes place",
-      "C. where is the meeting",
-      "D. the meeting takes place where"
+      {
+        "label": "A",
+        "text": "where does the meeting take place"
+      },
+      {
+        "label": "B",
+        "text": "where the meeting takes place"
+      },
+      {
+        "label": "C",
+        "text": "where is the meeting"
+      },
+      {
+        "label": "D",
+        "text": "the meeting takes place where"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10730,10 +13781,22 @@
     "tag": "定语从句",
     "question": "The woman _________ teaches us English is very kind.",
     "options": [
-      "A. which",
-      "B. who",
-      "C. that",
-      "D. whose"
+      {
+        "label": "A",
+        "text": "which"
+      },
+      {
+        "label": "B",
+        "text": "who"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "whose"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10746,10 +13809,22 @@
     "tag": "状语从句",
     "question": "_____ she was tired, she kept working.",
     "options": [
-      "A. Because",
-      "B. Although",
-      "C. Unless",
-      "D. If"
+      {
+        "label": "A",
+        "text": "Because"
+      },
+      {
+        "label": "B",
+        "text": "Although"
+      },
+      {
+        "label": "C",
+        "text": "Unless"
+      },
+      {
+        "label": "D",
+        "text": "If"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10762,10 +13837,22 @@
     "tag": "虚拟语气",
     "question": "If I ___ you, I would take the job offer.",
     "options": [
-      "A. am",
-      "B. was",
-      "C. were",
-      "D. be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
     "answer": "C",
     "grade": 9
@@ -10778,10 +13865,22 @@
     "tag": "介词搭配",
     "question": "She is good ____ mathematics.",
     "options": [
-      "A. at",
-      "B. in",
-      "C. on",
-      "D. for"
+      {
+        "label": "A",
+        "text": "at"
+      },
+      {
+        "label": "B",
+        "text": "in"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
     "answer": "A",
     "grade": 9
@@ -10794,10 +13893,22 @@
     "tag": "词性转换",
     "question": "Complete the sentence with the correct noun form of the word 'strong'. She has a strong _______ to win the competition.",
     "options": [
-      "A. strong",
-      "B. strength",
-      "C. strengthen",
-      "D. strongly"
+      {
+        "label": "A",
+        "text": "strong"
+      },
+      {
+        "label": "B",
+        "text": "strength"
+      },
+      {
+        "label": "C",
+        "text": "strengthen"
+      },
+      {
+        "label": "D",
+        "text": "strongly"
+      }
     ],
     "answer": "B",
     "grade": 9
@@ -10810,10 +13921,22 @@
     "tag": "阅读理解",
     "question": "Read the following passage and answer the question.\n\nAfter school, Li Wei usually goes to the playground near his home. He loves playing soccer with his friends. They practice passing the ball, shooting, and learning new skills. One day, they decided to join a local tournament. They trained hard, encouraged each other, and finally won the championship. Li Wei realized that teamwork and practice were the keys to success.\n\nWhat is the main idea of the passage?",
     "options": [
-      "A. The importance of reading.",
-      "B. The benefits of regular practice and teamwork.",
-      "C. The dangers of playing soccer.",
-      "D. The story of a famous soccer player."
+      {
+        "label": "A",
+        "text": "The importance of reading."
+      },
+      {
+        "label": "B",
+        "text": "The benefits of regular practice and teamwork."
+      },
+      {
+        "label": "C",
+        "text": "The dangers of playing soccer."
+      },
+      {
+        "label": "D",
+        "text": "The story of a famous soccer player."
+      }
     ],
     "answer": "B",
     "grade": 9

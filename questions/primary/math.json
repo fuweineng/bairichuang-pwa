@@ -1904,10 +1904,22 @@
     "type": "choice",
     "question": "把1到10这10个数字中最小的质数与最大的合数相加，结果是多少？",
     "options": [
-      "A. 12",
-      "B. 11",
-      "C. 13",
-      "D. 14"
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "11"
+      },
+      {
+        "label": "C",
+        "text": "13"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -1939,10 +1951,22 @@
     "type": "choice",
     "question": "在算式 6 + 4 = ? 中，答案是多少？",
     "options": [
-      "A. 9",
-      "B. 10",
-      "C. 11",
-      "D. 12"
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "11"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -1974,10 +1998,22 @@
     "type": "choice",
     "question": "一个两位数，十位是5，个位是7，这个数是（ ）。",
     "options": [
-      "A. 57",
-      "B. 75",
-      "C. 53",
-      "D. 85"
+      {
+        "label": "A",
+        "text": "57"
+      },
+      {
+        "label": "B",
+        "text": "75"
+      },
+      {
+        "label": "C",
+        "text": "53"
+      },
+      {
+        "label": "D",
+        "text": "85"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2009,10 +2045,22 @@
     "type": "choice",
     "question": "计算 345 + 478 = ?",
     "options": [
-      "A. 823",
-      "B. 813",
-      "C. 833",
-      "D. 843"
+      {
+        "label": "A",
+        "text": "823"
+      },
+      {
+        "label": "B",
+        "text": "813"
+      },
+      {
+        "label": "C",
+        "text": "833"
+      },
+      {
+        "label": "D",
+        "text": "843"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2044,10 +2092,22 @@
     "type": "choice",
     "question": "下列说法中，哪个是正确的？",
     "options": [
-      "A. 乘法是加法的简便运算",
-      "B. 乘法的结果是两个数的和",
-      "C. 乘法的运算只能用于整数",
-      "D. 乘法的符号是“÷”"
+      {
+        "label": "A",
+        "text": "乘法是加法的简便运算"
+      },
+      {
+        "label": "B",
+        "text": "乘法的结果是两个数的和"
+      },
+      {
+        "label": "C",
+        "text": "乘法的运算只能用于整数"
+      },
+      {
+        "label": "D",
+        "text": "乘法的符号是“÷”"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2079,10 +2139,22 @@
     "type": "choice",
     "question": "计算 4×5−2×3 的结果是？",
     "options": [
-      "A. 14",
-      "B. 15",
-      "C. 16",
-      "D. 13"
+      {
+        "label": "A",
+        "text": "14"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "16"
+      },
+      {
+        "label": "D",
+        "text": "13"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2114,10 +2186,22 @@
     "type": "choice",
     "question": "7 × 8 = ?",
     "options": [
-      "A. 48",
-      "B. 56",
-      "C. 54",
-      "D. 64"
+      {
+        "label": "A",
+        "text": "48"
+      },
+      {
+        "label": "B",
+        "text": "56"
+      },
+      {
+        "label": "C",
+        "text": "54"
+      },
+      {
+        "label": "D",
+        "text": "64"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2149,10 +2233,22 @@
     "type": "choice",
     "question": "7×8的结果是下面哪一个？",
     "options": [
-      "A. 54",
-      "B. 56",
-      "C. 58",
-      "D. 48"
+      {
+        "label": "A",
+        "text": "54"
+      },
+      {
+        "label": "B",
+        "text": "56"
+      },
+      {
+        "label": "C",
+        "text": "58"
+      },
+      {
+        "label": "D",
+        "text": "48"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2184,10 +2280,22 @@
     "type": "choice",
     "question": "把12个苹果平均分给3个小朋友，每人得到多少个苹果？",
     "options": [
-      "A. 12 ÷ 3 = 4",
-      "B. 12 ÷ 4 = 3",
-      "C. 12 ÷ 2 = 6",
-      "D. 12 ÷ 6 = 2"
+      {
+        "label": "A",
+        "text": "12 ÷ 3 = 4"
+      },
+      {
+        "label": "B",
+        "text": "12 ÷ 4 = 3"
+      },
+      {
+        "label": "C",
+        "text": "12 ÷ 2 = 6"
+      },
+      {
+        "label": "D",
+        "text": "12 ÷ 6 = 2"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2219,10 +2327,22 @@
     "type": "choice",
     "question": "小明有24支彩色笔，他想平均分给6位同学，每人能得到多少支？",
     "options": [
-      "A. 3支",
-      "B. 4支",
-      "C. 5支",
-      "D. 6支"
+      {
+        "label": "A",
+        "text": "3支"
+      },
+      {
+        "label": "B",
+        "text": "4支"
+      },
+      {
+        "label": "C",
+        "text": "5支"
+      },
+      {
+        "label": "D",
+        "text": "6支"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2254,10 +2374,22 @@
     "type": "choice",
     "question": "把37本书平均分给5个人，每人能分到几本？还剩多少本？",
     "options": [
-      "A. 每人7本，余2本",
-      "B. 每人8本，余1本",
-      "C. 每人7本，余3本",
-      "D. 每人6本，余7本"
+      {
+        "label": "A",
+        "text": "每人7本，余2本"
+      },
+      {
+        "label": "B",
+        "text": "每人8本，余1本"
+      },
+      {
+        "label": "C",
+        "text": "每人7本，余3本"
+      },
+      {
+        "label": "D",
+        "text": "每人6本，余7本"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2289,10 +2421,22 @@
     "type": "choice",
     "question": "24 ÷ 6 × 2 = ?",
     "options": [
-      "A. 8",
-      "B. 2",
-      "C. 12",
-      "D. 4"
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2324,10 +2468,22 @@
     "type": "choice",
     "question": "小明把一个圆形披萨平均切成 8 块，吃了其中的 3 块，他吃掉了这个披萨的几分之几？",
     "options": [
-      "A. 3/8",
-      "B. 5/8",
-      "C. 3/5",
-      "D. 1/8"
+      {
+        "label": "A",
+        "text": "3/8"
+      },
+      {
+        "label": "B",
+        "text": "5/8"
+      },
+      {
+        "label": "C",
+        "text": "3/5"
+      },
+      {
+        "label": "D",
+        "text": "1/8"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2359,10 +2515,22 @@
     "type": "choice",
     "question": "比较 3/4 和 5/8 的大小，下面哪一项是正确的？",
     "options": [
-      "A. 3/4 > 5/8",
-      "B. 3/4 < 5/8",
-      "C. 3/4 = 5/8",
-      "D. 无法比较"
+      {
+        "label": "A",
+        "text": "3/4 > 5/8"
+      },
+      {
+        "label": "B",
+        "text": "3/4 < 5/8"
+      },
+      {
+        "label": "C",
+        "text": "3/4 = 5/8"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2394,10 +2562,22 @@
     "type": "choice",
     "question": "计算 3/8 + 5/8 = ?",
     "options": [
-      "A. 8/8",
-      "B. 1",
-      "C. 8/16",
-      "D. 1/2"
+      {
+        "label": "A",
+        "text": "8/8"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "8/16"
+      },
+      {
+        "label": "D",
+        "text": "1/2"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2429,10 +2609,22 @@
     "type": "choice",
     "question": "把 3/5 转化为小数，下面哪项正确？",
     "options": [
-      "A. 0.3",
-      "B. 0.6",
-      "C. 0.5",
-      "D. 0.8"
+      {
+        "label": "A",
+        "text": "0.3"
+      },
+      {
+        "label": "B",
+        "text": "0.6"
+      },
+      {
+        "label": "C",
+        "text": "0.5"
+      },
+      {
+        "label": "D",
+        "text": "0.8"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2464,10 +2656,22 @@
     "type": "choice",
     "question": "在 0.56 中，百分位上的数字是几？",
     "options": [
-      "A. 5",
-      "B. 6",
-      "C. 0",
-      "D. 56"
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "56"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2499,10 +2703,22 @@
     "type": "choice",
     "question": "请计算 3.25 + 1.8 的结果。",
     "options": [
-      "A. 5.05",
-      "B. 5.15",
-      "C. 5.25",
-      "D. 5.35"
+      {
+        "label": "A",
+        "text": "5.05"
+      },
+      {
+        "label": "B",
+        "text": "5.15"
+      },
+      {
+        "label": "C",
+        "text": "5.25"
+      },
+      {
+        "label": "D",
+        "text": "5.35"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2534,10 +2750,22 @@
     "type": "choice",
     "question": "0.3 × 0.4 = ?",
     "options": [
-      "A. 0.12",
-      "B. 1.2",
-      "C. 12",
-      "D. 0.012"
+      {
+        "label": "A",
+        "text": "0.12"
+      },
+      {
+        "label": "B",
+        "text": "1.2"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "0.012"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2569,10 +2797,22 @@
     "type": "choice",
     "question": "下面哪句话正确说明了小数的意义？",
     "options": [
-      "A. 小数是整数的一部分，用来表示比整数小的数",
-      "B. 小数是把整体平均分成10份、100份、1000份…后取其中若干份的数",
-      "C. 小数是分数的另一种写法，分母必须是10、100、1000等",
-      "D. 小数是指小数点后面的位数"
+      {
+        "label": "A",
+        "text": "小数是整数的一部分，用来表示比整数小的数"
+      },
+      {
+        "label": "B",
+        "text": "小数是把整体平均分成10份、100份、1000份…后取其中若干份的数"
+      },
+      {
+        "label": "C",
+        "text": "小数是分数的另一种写法，分母必须是10、100、1000等"
+      },
+      {
+        "label": "D",
+        "text": "小数是指小数点后面的位数"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2604,10 +2844,22 @@
     "type": "choice",
     "question": "小明有5张10元人民币和8枚1元硬币，他一共有多少元？",
     "options": [
-      "A. 58元",
-      "B. 68元",
-      "C. 78元",
-      "D. 48元"
+      {
+        "label": "A",
+        "text": "58元"
+      },
+      {
+        "label": "B",
+        "text": "68元"
+      },
+      {
+        "label": "C",
+        "text": "78元"
+      },
+      {
+        "label": "D",
+        "text": "48元"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2639,10 +2891,22 @@
     "type": "choice",
     "question": "2.3元等于多少角？",
     "options": [
-      "A. 23角",
-      "B. 230角",
-      "C. 2.3角",
-      "D. 0.23角"
+      {
+        "label": "A",
+        "text": "23角"
+      },
+      {
+        "label": "B",
+        "text": "230角"
+      },
+      {
+        "label": "C",
+        "text": "2.3角"
+      },
+      {
+        "label": "D",
+        "text": "0.23角"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2674,10 +2938,22 @@
     "type": "choice",
     "question": "时钟的时针指向5，分针指向12，表示几时几分？",
     "options": [
-      "A. 5:00",
-      "B. 5:12",
-      "C. 6:00",
-      "D. 5:30"
+      {
+        "label": "A",
+        "text": "5:00"
+      },
+      {
+        "label": "B",
+        "text": "5:12"
+      },
+      {
+        "label": "C",
+        "text": "6:00"
+      },
+      {
+        "label": "D",
+        "text": "5:30"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2709,10 +2985,22 @@
     "type": "choice",
     "question": "以下关于2023年10月的说法，正确的是？",
     "options": [
-      "A. 10月有31天",
-      "B. 10月有30天",
-      "C. 10月有28天",
-      "D. 10月有29天"
+      {
+        "label": "A",
+        "text": "10月有31天"
+      },
+      {
+        "label": "B",
+        "text": "10月有30天"
+      },
+      {
+        "label": "C",
+        "text": "10月有28天"
+      },
+      {
+        "label": "D",
+        "text": "10月有29天"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2744,10 +3032,22 @@
     "type": "choice",
     "question": "2.5米等于多少厘米？",
     "options": [
-      "A. 250厘米",
-      "B. 2500厘米",
-      "C. 25000厘米",
-      "D. 25厘米"
+      {
+        "label": "A",
+        "text": "250厘米"
+      },
+      {
+        "label": "B",
+        "text": "2500厘米"
+      },
+      {
+        "label": "C",
+        "text": "25000厘米"
+      },
+      {
+        "label": "D",
+        "text": "25厘米"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2779,10 +3079,22 @@
     "type": "choice",
     "question": "1.2千克等于多少克？",
     "options": [
-      "A. 120克",
-      "B. 1200克",
-      "C. 12克",
-      "D. 12000克"
+      {
+        "label": "A",
+        "text": "120克"
+      },
+      {
+        "label": "B",
+        "text": "1200克"
+      },
+      {
+        "label": "C",
+        "text": "12克"
+      },
+      {
+        "label": "D",
+        "text": "12000克"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2814,10 +3126,22 @@
     "type": "choice",
     "question": "一个正方形的边长是3厘米，它的面积是多少？",
     "options": [
-      "A. 6平方厘米",
-      "B. 9平方厘米",
-      "C. 12平方厘米",
-      "D. 3平方厘米"
+      {
+        "label": "A",
+        "text": "6平方厘米"
+      },
+      {
+        "label": "B",
+        "text": "9平方厘米"
+      },
+      {
+        "label": "C",
+        "text": "12平方厘米"
+      },
+      {
+        "label": "D",
+        "text": "3平方厘米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2849,10 +3173,22 @@
     "type": "choice",
     "question": "体积是指（ ）。",
     "options": [
-      "A. 物体所占空间的大小",
-      "B. 物体表面的面积",
-      "C. 物体的重量",
-      "D. 物体的形状"
+      {
+        "label": "A",
+        "text": "物体所占空间的大小"
+      },
+      {
+        "label": "B",
+        "text": "物体表面的面积"
+      },
+      {
+        "label": "C",
+        "text": "物体的重量"
+      },
+      {
+        "label": "D",
+        "text": "物体的形状"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2884,10 +3220,22 @@
     "type": "choice",
     "question": "下列哪个描述正确表示了一个角？",
     "options": [
-      "A. 两条直线相交形成的交叉点",
-      "B. 一个顶点和两条从顶点出发的射线组成的图形",
-      "C. 由三条线段围成的封闭图形",
-      "D. 一个圆形的弧线部分"
+      {
+        "label": "A",
+        "text": "两条直线相交形成的交叉点"
+      },
+      {
+        "label": "B",
+        "text": "一个顶点和两条从顶点出发的射线组成的图形"
+      },
+      {
+        "label": "C",
+        "text": "由三条线段围成的封闭图形"
+      },
+      {
+        "label": "D",
+        "text": "一个圆形的弧线部分"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -2919,10 +3267,22 @@
     "type": "choice",
     "question": "下列图形中，哪个是等边三角形？",
     "options": [
-      "A. 三条边均为5 cm的三角形",
-      "B. 两条边为5 cm，一条边为6 cm的三角形",
-      "C. 三个角分别为30°、60°、90°的三角形",
-      "D. 一个角是直角的三角形"
+      {
+        "label": "A",
+        "text": "三条边均为5 cm的三角形"
+      },
+      {
+        "label": "B",
+        "text": "两条边为5 cm，一条边为6 cm的三角形"
+      },
+      {
+        "label": "C",
+        "text": "三个角分别为30°、60°、90°的三角形"
+      },
+      {
+        "label": "D",
+        "text": "一个角是直角的三角形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2954,10 +3314,22 @@
     "type": "choice",
     "question": "下列哪个图形有四条边？",
     "options": [
-      "A. 正方形",
-      "B. 圆形",
-      "C. 三角形",
-      "D. 五边形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "圆形"
+      },
+      {
+        "label": "C",
+        "text": "三角形"
+      },
+      {
+        "label": "D",
+        "text": "五边形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -2989,10 +3361,22 @@
     "type": "choice",
     "question": "圆的直径是半径的多少倍？",
     "options": [
-      "A. 2倍",
-      "B. 3倍",
-      "C. 1/2倍",
-      "D. 4倍"
+      {
+        "label": "A",
+        "text": "2倍"
+      },
+      {
+        "label": "B",
+        "text": "3倍"
+      },
+      {
+        "label": "C",
+        "text": "1/2倍"
+      },
+      {
+        "label": "D",
+        "text": "4倍"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3024,10 +3408,22 @@
     "type": "choice",
     "question": "下面关于正方形和长方形的描述，哪项是正确的？",
     "options": [
-      "A. 正方形的四条边长度相等。",
-      "B. 长方形的四条边长度相等。",
-      "C. 正方形不是长方形。",
-      "D. 长方形的对角线不相等。"
+      {
+        "label": "A",
+        "text": "正方形的四条边长度相等。"
+      },
+      {
+        "label": "B",
+        "text": "长方形的四条边长度相等。"
+      },
+      {
+        "label": "C",
+        "text": "正方形不是长方形。"
+      },
+      {
+        "label": "D",
+        "text": "长方形的对角线不相等。"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3059,10 +3455,22 @@
     "type": "choice",
     "question": "用两个相同的直角三角形可以拼成什么图形？",
     "options": [
-      "A. 长方形",
-      "B. 正方形",
-      "C. 梯形",
-      "D. 圆形"
+      {
+        "label": "A",
+        "text": "长方形"
+      },
+      {
+        "label": "B",
+        "text": "正方形"
+      },
+      {
+        "label": "C",
+        "text": "梯形"
+      },
+      {
+        "label": "D",
+        "text": "圆形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3094,10 +3502,22 @@
     "type": "choice",
     "question": "下面哪个图形是轴对称图形？",
     "options": [
-      "A. 正方形",
-      "B. 任意不规则四边形",
-      "C. 不等边三角形",
-      "D. 平行四边形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "任意不规则四边形"
+      },
+      {
+        "label": "C",
+        "text": "不等边三角形"
+      },
+      {
+        "label": "D",
+        "text": "平行四边形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3129,10 +3549,22 @@
     "type": "choice",
     "question": "下面哪种运动属于平移？",
     "options": [
-      "A. 滑动",
-      "B. 旋转",
-      "C. 翻转",
-      "D. 放大"
+      {
+        "label": "A",
+        "text": "滑动"
+      },
+      {
+        "label": "B",
+        "text": "旋转"
+      },
+      {
+        "label": "C",
+        "text": "翻转"
+      },
+      {
+        "label": "D",
+        "text": "放大"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3164,10 +3596,22 @@
     "type": "choice",
     "question": "观察数列 1, 4, 9, 16, ___，下一个数是多少？",
     "options": [
-      "A. 20",
-      "B. 25",
-      "C. 30",
-      "D. 36"
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3199,10 +3643,22 @@
     "type": "choice",
     "question": "观察下面图形的规律，第5幅图应该在空白格子中画多少个圆？（已知图1有1个圆，图2有3个圆，图3有5个圆，图4有7个圆）",
     "options": [
-      "A. 7个",
-      "B. 8个",
-      "C. 9个",
-      "D. 10个"
+      {
+        "label": "A",
+        "text": "7个"
+      },
+      {
+        "label": "B",
+        "text": "8个"
+      },
+      {
+        "label": "C",
+        "text": "9个"
+      },
+      {
+        "label": "D",
+        "text": "10个"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -3234,10 +3690,22 @@
     "type": "choice",
     "question": "小明在五次数学测验中的得分分别是85、95、75、90、80。请问他的平均分是多少？",
     "options": [
-      "A. 84",
-      "B. 85",
-      "C. 86",
-      "D. 87"
+      {
+        "label": "A",
+        "text": "84"
+      },
+      {
+        "label": "B",
+        "text": "85"
+      },
+      {
+        "label": "C",
+        "text": "86"
+      },
+      {
+        "label": "D",
+        "text": "87"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3269,10 +3737,22 @@
     "type": "choice",
     "question": "老师收集了全班同学每天使用手机的时间（单位：分钟），要把这些数据整理成易于观察分布的形式，下面哪项最合适？",
     "options": [
-      "A. 列出每个人的时间",
-      "B. 制作频数分布表",
-      "C. 绘制折线统计图",
-      "D. 绘制扇形统计图"
+      {
+        "label": "A",
+        "text": "列出每个人的时间"
+      },
+      {
+        "label": "B",
+        "text": "制作频数分布表"
+      },
+      {
+        "label": "C",
+        "text": "绘制折线统计图"
+      },
+      {
+        "label": "D",
+        "text": "绘制扇形统计图"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3304,10 +3784,22 @@
     "type": "choice",
     "question": "比较 0.5 与 1/3 的大小，哪项正确？",
     "options": [
-      "A. 0.5 小于 1/3",
-      "B. 0.5 等于 1/3",
-      "C. 0.5 大于 1/3",
-      "D. 两者无法比较"
+      {
+        "label": "A",
+        "text": "0.5 小于 1/3"
+      },
+      {
+        "label": "B",
+        "text": "0.5 等于 1/3"
+      },
+      {
+        "label": "C",
+        "text": "0.5 大于 1/3"
+      },
+      {
+        "label": "D",
+        "text": "两者无法比较"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -3339,10 +3831,22 @@
     "type": "choice",
     "question": "小明用字母x表示一个数，想表示比x小5的数，下面哪个式子正确？",
     "options": [
-      "A. x-5",
-      "B. x+5",
-      "C. x×5",
-      "D. x÷5"
+      {
+        "label": "A",
+        "text": "x-5"
+      },
+      {
+        "label": "B",
+        "text": "x+5"
+      },
+      {
+        "label": "C",
+        "text": "x×5"
+      },
+      {
+        "label": "D",
+        "text": "x÷5"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3374,10 +3878,22 @@
     "type": "choice",
     "question": "下面的式子中，哪个是方程？",
     "options": [
-      "A. 2 + 3 = 5",
-      "B. x + 5 = 9",
-      "C. 3x - 7",
-      "D. 8 > 2"
+      {
+        "label": "A",
+        "text": "2 + 3 = 5"
+      },
+      {
+        "label": "B",
+        "text": "x + 5 = 9"
+      },
+      {
+        "label": "C",
+        "text": "3x - 7"
+      },
+      {
+        "label": "D",
+        "text": "8 > 2"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3409,10 +3925,22 @@
     "type": "choice",
     "question": "方程5x = 20，x 等于多少？",
     "options": [
-      "A. 3",
-      "B. 4",
-      "C. 5",
-      "D. 6"
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3444,10 +3972,22 @@
     "type": "choice",
     "question": "小明在文具店买了4支铅笔，每支3元，又买了2本笔记本，每本8元。他付了50元，找零多少元？",
     "options": [
-      "A. 12元",
-      "B. 18元",
-      "C. 22元",
-      "D. 28元"
+      {
+        "label": "A",
+        "text": "12元"
+      },
+      {
+        "label": "B",
+        "text": "18元"
+      },
+      {
+        "label": "C",
+        "text": "22元"
+      },
+      {
+        "label": "D",
+        "text": "28元"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -3479,10 +4019,22 @@
     "type": "choice",
     "question": "小明早上8点15分从家骑自行车去学校，路程5公里，速度12公里/小时。他什么时候到校？",
     "options": [
-      "A. 8:40",
-      "B. 8:30",
-      "C. 9:00",
-      "D. 8:45"
+      {
+        "label": "A",
+        "text": "8:40"
+      },
+      {
+        "label": "B",
+        "text": "8:30"
+      },
+      {
+        "label": "C",
+        "text": "9:00"
+      },
+      {
+        "label": "D",
+        "text": "8:45"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3514,10 +4066,22 @@
     "type": "choice",
     "question": "甲、乙两地相距12公里，驾车以每小时30公里的速度行驶，需要多少分钟？",
     "options": [
-      "A. 20分钟",
-      "B. 24分钟",
-      "C. 30分钟",
-      "D. 36分钟"
+      {
+        "label": "A",
+        "text": "20分钟"
+      },
+      {
+        "label": "B",
+        "text": "24分钟"
+      },
+      {
+        "label": "C",
+        "text": "30分钟"
+      },
+      {
+        "label": "D",
+        "text": "36分钟"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3549,10 +4113,22 @@
     "type": "choice",
     "question": "小明有30颗糖果，他想平均分给5个朋友，每个朋友能得到多少颗糖果？",
     "options": [
-      "A. 6颗",
-      "B. 5颗",
-      "C. 7颗",
-      "D. 8颗"
+      {
+        "label": "A",
+        "text": "6颗"
+      },
+      {
+        "label": "B",
+        "text": "5颗"
+      },
+      {
+        "label": "C",
+        "text": "7颗"
+      },
+      {
+        "label": "D",
+        "text": "8颗"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3584,10 +4160,22 @@
     "type": "choice",
     "question": "1.5千克等于多少克?",
     "options": [
-      "A. 150克",
-      "B. 1500克",
-      "C. 15000克",
-      "D. 15克"
+      {
+        "label": "A",
+        "text": "150克"
+      },
+      {
+        "label": "B",
+        "text": "1500克"
+      },
+      {
+        "label": "C",
+        "text": "15000克"
+      },
+      {
+        "label": "D",
+        "text": "15克"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3619,10 +4207,22 @@
     "type": "choice",
     "question": "一个杯子容量为250毫升，装满后倒入1升的瓶子里，需要多少杯才能把瓶子装满？",
     "options": [
-      "A. 2杯",
-      "B. 4杯",
-      "C. 5杯",
-      "D. 8杯"
+      {
+        "label": "A",
+        "text": "2杯"
+      },
+      {
+        "label": "B",
+        "text": "4杯"
+      },
+      {
+        "label": "C",
+        "text": "5杯"
+      },
+      {
+        "label": "D",
+        "text": "8杯"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3654,10 +4254,22 @@
     "type": "choice",
     "question": "一根绳子长3.5米，等于多少厘米？",
     "options": [
-      "A. 35厘米",
-      "B. 350厘米",
-      "C. 3500厘米",
-      "D. 3.5厘米"
+      {
+        "label": "A",
+        "text": "35厘米"
+      },
+      {
+        "label": "B",
+        "text": "350厘米"
+      },
+      {
+        "label": "C",
+        "text": "3500厘米"
+      },
+      {
+        "label": "D",
+        "text": "3.5厘米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3689,10 +4301,22 @@
     "type": "choice",
     "question": "1分米大约等于多少毫米？",
     "options": [
-      "A. 10毫米",
-      "B. 100毫米",
-      "C. 1厘米",
-      "D. 1米"
+      {
+        "label": "A",
+        "text": "10毫米"
+      },
+      {
+        "label": "B",
+        "text": "100毫米"
+      },
+      {
+        "label": "C",
+        "text": "1厘米"
+      },
+      {
+        "label": "D",
+        "text": "1米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3724,10 +4348,22 @@
     "type": "choice",
     "question": "下列哪组直线是相互垂直的？",
     "options": [
-      "A. 直线AB与直线CD相交成90°",
-      "B. 直线AB与直线CD相交成60°",
-      "C. 直线AB与直线CD相交成45°",
-      "D. 直线AB与直线CD相交成120°"
+      {
+        "label": "A",
+        "text": "直线AB与直线CD相交成90°"
+      },
+      {
+        "label": "B",
+        "text": "直线AB与直线CD相交成60°"
+      },
+      {
+        "label": "C",
+        "text": "直线AB与直线CD相交成45°"
+      },
+      {
+        "label": "D",
+        "text": "直线AB与直线CD相交成120°"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3759,10 +4395,22 @@
     "type": "choice",
     "question": "下面的四边形中，哪一个只拥有一组对边平行？",
     "options": [
-      "A. 矩形（两组对边平行）",
-      "B. 正方形（两组对边平行）",
-      "C. 梯形（有一组对边平行）",
-      "D. 菱形（两组对边平行）"
+      {
+        "label": "A",
+        "text": "矩形（两组对边平行）"
+      },
+      {
+        "label": "B",
+        "text": "正方形（两组对边平行）"
+      },
+      {
+        "label": "C",
+        "text": "梯形（有一组对边平行）"
+      },
+      {
+        "label": "D",
+        "text": "菱形（两组对边平行）"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -3794,10 +4442,22 @@
     "type": "choice",
     "question": "一个圆心角为120°的扇形占整个圆的多少比例？",
     "options": [
-      "A. 1/2",
-      "B. 1/3",
-      "C. 1/4",
-      "D. 1/5"
+      {
+        "label": "A",
+        "text": "1/2"
+      },
+      {
+        "label": "B",
+        "text": "1/3"
+      },
+      {
+        "label": "C",
+        "text": "1/4"
+      },
+      {
+        "label": "D",
+        "text": "1/5"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3829,10 +4489,22 @@
     "type": "choice",
     "question": "正方体的每个面都是什么形状？",
     "options": [
-      "A. 正方形",
-      "B. 长方形",
-      "C. 圆形",
-      "D. 三角形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "长方形"
+      },
+      {
+        "label": "C",
+        "text": "圆形"
+      },
+      {
+        "label": "D",
+        "text": "三角形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -3864,10 +4536,22 @@
     "type": "choice",
     "question": "下面哪个立体图形是圆柱体？",
     "options": [
-      "A. 圆锥",
-      "B. 圆柱",
-      "C. 球体",
-      "D. 正方体"
+      {
+        "label": "A",
+        "text": "圆锥"
+      },
+      {
+        "label": "B",
+        "text": "圆柱"
+      },
+      {
+        "label": "C",
+        "text": "球体"
+      },
+      {
+        "label": "D",
+        "text": "正方体"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3899,10 +4583,22 @@
     "type": "choice",
     "question": "小明站在操场的中心，面朝北方。如果他向左转90度，他现在面朝什么方向？",
     "options": [
-      "A. 东方",
-      "B. 西方",
-      "C. 南方",
-      "D. 东北"
+      {
+        "label": "A",
+        "text": "东方"
+      },
+      {
+        "label": "B",
+        "text": "西方"
+      },
+      {
+        "label": "C",
+        "text": "南方"
+      },
+      {
+        "label": "D",
+        "text": "东北"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3934,10 +4630,22 @@
     "type": "choice",
     "question": "下面是由三个相同小正方体拼成的 L 形物体（如图），从左边观察，看到的形状是下面哪一个？",
     "options": [
-      "A. 一个正方形",
-      "B. 两个正方形竖排",
-      "C. 两个正方形横排",
-      "D. 三个正方形排成 L 形"
+      {
+        "label": "A",
+        "text": "一个正方形"
+      },
+      {
+        "label": "B",
+        "text": "两个正方形竖排"
+      },
+      {
+        "label": "C",
+        "text": "两个正方形横排"
+      },
+      {
+        "label": "D",
+        "text": "三个正方形排成 L 形"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -3969,10 +4677,22 @@
     "type": "choice",
     "question": "下面的表格是一个复式统计表，记录了男生和女生对苹果、香蕉、橙子的喜爱人数：\n苹果  香蕉  橙子\n男生 12   8    5\n女生 9    10   7\n根据表格，喜爱苹果的男生有多少人？",
     "options": [
-      "A. 12",
-      "B. 8",
-      "C. 9",
-      "D. 5"
+      {
+        "label": "A",
+        "text": "12"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4004,10 +4724,22 @@
     "type": "choice",
     "question": "在格子图上，用数对 (3,2) 表示的点位于第几列，第几行？",
     "options": [
-      "A. 第3行第2列",
-      "B. 第2行第3列",
-      "C. 第3列第2行",
-      "D. 第2列第3行"
+      {
+        "label": "A",
+        "text": "第3行第2列"
+      },
+      {
+        "label": "B",
+        "text": "第2行第3列"
+      },
+      {
+        "label": "C",
+        "text": "第3列第2行"
+      },
+      {
+        "label": "D",
+        "text": "第2列第3行"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -4039,10 +4771,22 @@
     "type": "choice",
     "question": "下面哪个数等于 30%？",
     "options": [
-      "A. 0.03",
-      "B. 30",
-      "C. 0.30",
-      "D. 30/100"
+      {
+        "label": "A",
+        "text": "0.03"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "0.30"
+      },
+      {
+        "label": "D",
+        "text": "30/100"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -4074,10 +4818,22 @@
     "type": "choice",
     "question": "下列哪个数等于 0.35 的百分数形式？",
     "options": [
-      "A. 35%",
-      "B. 3.5%",
-      "C. 0.35%",
-      "D. 350%"
+      {
+        "label": "A",
+        "text": "35%"
+      },
+      {
+        "label": "B",
+        "text": "3.5%"
+      },
+      {
+        "label": "C",
+        "text": "0.35%"
+      },
+      {
+        "label": "D",
+        "text": "350%"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4109,10 +4865,22 @@
     "type": "choice",
     "question": "一本书原价120元，打八折后需要付多少钱？",
     "options": [
-      "A. 96元",
-      "B. 100元",
-      "C. 80元",
-      "D. 120元"
+      {
+        "label": "A",
+        "text": "96元"
+      },
+      {
+        "label": "B",
+        "text": "100元"
+      },
+      {
+        "label": "C",
+        "text": "80元"
+      },
+      {
+        "label": "D",
+        "text": "120元"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4144,10 +4912,22 @@
     "type": "choice",
     "question": "一个长方形的长是宽的 3 倍，已知长是 12 cm，宽是多少 cm？",
     "options": [
-      "A. 3 cm",
-      "B. 4 cm",
-      "C. 5 cm",
-      "D. 6 cm"
+      {
+        "label": "A",
+        "text": "3 cm"
+      },
+      {
+        "label": "B",
+        "text": "4 cm"
+      },
+      {
+        "label": "C",
+        "text": "5 cm"
+      },
+      {
+        "label": "D",
+        "text": "6 cm"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4179,10 +4959,22 @@
     "type": "choice",
     "question": "已知 y 与 x 成正比例，x=3 时 y=12，则 x=8 时 y=？",
     "options": [
-      "A. 24",
-      "B. 32",
-      "C. 36",
-      "D. 40"
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "32"
+      },
+      {
+        "label": "C",
+        "text": "36"
+      },
+      {
+        "label": "D",
+        "text": "40"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4214,10 +5006,22 @@
     "type": "choice",
     "question": "比例尺 1:500 表示图上1厘米代表实际多少米？",
     "options": [
-      "A. 5米",
-      "B. 50米",
-      "C. 500米",
-      "D. 5000米"
+      {
+        "label": "A",
+        "text": "5米"
+      },
+      {
+        "label": "B",
+        "text": "50米"
+      },
+      {
+        "label": "C",
+        "text": "500米"
+      },
+      {
+        "label": "D",
+        "text": "5000米"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4249,10 +5053,22 @@
     "type": "choice",
     "question": "笼子里有鸡和兔共8只，脚共有22只。请问鸡有几只？",
     "options": [
-      "A. 5",
-      "B. 6",
-      "C. 7",
-      "D. 8"
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4284,10 +5100,22 @@
     "type": "choice",
     "question": "甲、乙两数的和是 54，差是 14，求甲数（大数）是多少？",
     "options": [
-      "A. 34",
-      "B. 20",
-      "C. 40",
-      "D. 28"
+      {
+        "label": "A",
+        "text": "34"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "40"
+      },
+      {
+        "label": "D",
+        "text": "28"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4319,10 +5147,22 @@
     "type": "choice",
     "question": "两个数的和是 56，已知其中一个数是另一个数的 3 倍，这两个数分别是多少？",
     "options": [
-      "A. 14和42",
-      "B. 16和40",
-      "C. 12和44",
-      "D. 15和41"
+      {
+        "label": "A",
+        "text": "14和42"
+      },
+      {
+        "label": "B",
+        "text": "16和40"
+      },
+      {
+        "label": "C",
+        "text": "12和44"
+      },
+      {
+        "label": "D",
+        "text": "15和41"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4354,10 +5194,22 @@
     "type": "choice",
     "question": "已知两数之差为 6，且大数是小数的 4 倍，求这两个数的和。",
     "options": [
-      "A. 8",
-      "B. 10",
-      "C. 12",
-      "D. 14"
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4389,10 +5241,22 @@
     "type": "choice",
     "question": "小红今年10岁，她的妈妈的年龄是小红的3倍还多5岁。请问妈妈今年多少岁？",
     "options": [
-      "A. 30岁",
-      "B. 35岁",
-      "C. 40岁",
-      "D. 45岁"
+      {
+        "label": "A",
+        "text": "30岁"
+      },
+      {
+        "label": "B",
+        "text": "35岁"
+      },
+      {
+        "label": "C",
+        "text": "40岁"
+      },
+      {
+        "label": "D",
+        "text": "45岁"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4424,10 +5288,22 @@
     "type": "choice",
     "question": "小明用3小时走了12公里，照此速度，他走30公里需要多少小时？",
     "options": [
-      "A. 6小时",
-      "B. 7.5小时",
-      "C. 8小时",
-      "D. 9小时"
+      {
+        "label": "A",
+        "text": "6小时"
+      },
+      {
+        "label": "B",
+        "text": "7.5小时"
+      },
+      {
+        "label": "C",
+        "text": "8小时"
+      },
+      {
+        "label": "D",
+        "text": "9小时"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4459,10 +5335,22 @@
     "type": "choice",
     "question": "小明有3盒铅笔，每盒有12支。他把全部铅笔拿出来，一共有多少支？",
     "options": [
-      "A. 30支",
-      "B. 36支",
-      "C. 48支",
-      "D. 24支"
+      {
+        "label": "A",
+        "text": "30支"
+      },
+      {
+        "label": "B",
+        "text": "36支"
+      },
+      {
+        "label": "C",
+        "text": "48支"
+      },
+      {
+        "label": "D",
+        "text": "24支"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4494,10 +5382,22 @@
     "type": "choice",
     "question": "在一条长40米的路的两端各栽一棵树，且相邻两树之间的距离相等。如果相邻两树之间的距离是5米，那么这条路上一共栽了多少棵树？",
     "options": [
-      "A. 8棵",
-      "B. 9棵",
-      "C. 10棵",
-      "D. 11棵"
+      {
+        "label": "A",
+        "text": "8棵"
+      },
+      {
+        "label": "B",
+        "text": "9棵"
+      },
+      {
+        "label": "C",
+        "text": "10棵"
+      },
+      {
+        "label": "D",
+        "text": "11棵"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4529,10 +5429,22 @@
     "type": "choice",
     "question": "小明和小华相距240米，分别以4米/秒和6米/秒的速度相向而行，多少秒后相遇？",
     "options": [
-      "A. 20秒",
-      "B. 30秒",
-      "C. 24秒",
-      "D. 18秒"
+      {
+        "label": "A",
+        "text": "20秒"
+      },
+      {
+        "label": "B",
+        "text": "30秒"
+      },
+      {
+        "label": "C",
+        "text": "24秒"
+      },
+      {
+        "label": "D",
+        "text": "18秒"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -4564,10 +5476,22 @@
     "type": "choice",
     "question": "甲每小时行12公里，乙每小时行8公里，甲先走1小时后，乙从同一起点出发，乙几小时后能追上甲？",
     "options": [
-      "A. 2小时",
-      "B. 3小时",
-      "C. 4小时",
-      "D. 5小时"
+      {
+        "label": "A",
+        "text": "2小时"
+      },
+      {
+        "label": "B",
+        "text": "3小时"
+      },
+      {
+        "label": "C",
+        "text": "4小时"
+      },
+      {
+        "label": "D",
+        "text": "5小时"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4599,10 +5523,22 @@
     "type": "choice",
     "question": "一艘船在静水中的速度是每小时10公里，水流速度是每小时2公里。船逆流航行3小时，航行了多少公里？",
     "options": [
-      "A. 30公里",
-      "B. 24公里",
-      "C. 36公里",
-      "D. 12公里"
+      {
+        "label": "A",
+        "text": "30公里"
+      },
+      {
+        "label": "B",
+        "text": "24公里"
+      },
+      {
+        "label": "C",
+        "text": "36公里"
+      },
+      {
+        "label": "D",
+        "text": "12公里"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4634,10 +5570,22 @@
     "type": "choice",
     "question": "某商品标价 150 元，打 7 折后售价是多少元？",
     "options": [
-      "A. 105 元",
-      "B. 115 元",
-      "C. 135 元",
-      "D. 120 元"
+      {
+        "label": "A",
+        "text": "105 元"
+      },
+      {
+        "label": "B",
+        "text": "115 元"
+      },
+      {
+        "label": "C",
+        "text": "135 元"
+      },
+      {
+        "label": "D",
+        "text": "120 元"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4669,10 +5617,22 @@
     "type": "choice",
     "question": "一份营养午餐的总热量是600千卡，其中米饭占30%，蔬菜占20%，肉类占35%，水果占15%。请问米饭提供的热量是多少千卡？",
     "options": [
-      "A. 150千卡",
-      "B. 180千卡",
-      "C. 200千卡",
-      "D. 210千卡"
+      {
+        "label": "A",
+        "text": "150千卡"
+      },
+      {
+        "label": "B",
+        "text": "180千卡"
+      },
+      {
+        "label": "C",
+        "text": "200千卡"
+      },
+      {
+        "label": "D",
+        "text": "210千卡"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4704,10 +5664,22 @@
     "type": "choice",
     "question": "小明、小红和小李赛跑，已知小明比小红跑得快，小红比小李跑得快。谁跑得最快？",
     "options": [
-      "A. 小明",
-      "B. 小红",
-      "C. 小李",
-      "D. 无法确定"
+      {
+        "label": "A",
+        "text": "小明"
+      },
+      {
+        "label": "B",
+        "text": "小红"
+      },
+      {
+        "label": "C",
+        "text": "小李"
+      },
+      {
+        "label": "D",
+        "text": "无法确定"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4739,10 +5711,22 @@
     "type": "choice",
     "question": "把数字1、2、3排成三位数，一共能排成多少个不同的三位数？",
     "options": [
-      "A. 4",
-      "B. 6",
-      "C. 8",
-      "D. 12"
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -4774,10 +5758,22 @@
     "type": "choice",
     "question": "盒子里有3个红球和2个蓝球，一次随机取出1个球，取到哪种颜色球的可能性更大？",
     "options": [
-      "A. 红球",
-      "B. 蓝球",
-      "C. 两者相等",
-      "D. 无法比较"
+      {
+        "label": "A",
+        "text": "红球"
+      },
+      {
+        "label": "B",
+        "text": "蓝球"
+      },
+      {
+        "label": "C",
+        "text": "两者相等"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4809,10 +5805,22 @@
     "type": "choice",
     "question": "一枚均匀六面骰子，掷出偶数点的概率是多少？",
     "options": [
-      "A. 1/6",
-      "B. 1/3",
-      "C. 1/2",
-      "D. 2/3"
+      {
+        "label": "A",
+        "text": "1/6"
+      },
+      {
+        "label": "B",
+        "text": "1/3"
+      },
+      {
+        "label": "C",
+        "text": "1/2"
+      },
+      {
+        "label": "D",
+        "text": "2/3"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -4844,10 +5852,22 @@
     "type": "choice",
     "question": "在数独的每一行中，数字1到9只能出现一次。下面是一个已填好的行的一部分：“1 2 3 4 5 6 7 8 __”。请问空格处应该填入的数字是哪一个？",
     "options": [
-      "A. 9",
-      "B. 8",
-      "C. 7",
-      "D. 10"
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4879,10 +5899,22 @@
     "type": "choice",
     "question": "用火柴棒摆成4个小正方形，最少需要多少根火柴棒？",
     "options": [
-      "A. 8根",
-      "B. 9根",
-      "C. 10根",
-      "D. 12根"
+      {
+        "label": "A",
+        "text": "8根"
+      },
+      {
+        "label": "B",
+        "text": "9根"
+      },
+      {
+        "label": "C",
+        "text": "10根"
+      },
+      {
+        "label": "D",
+        "text": "12根"
+      }
     ],
     "answer": "D",
     "difficulty": 1,
@@ -4914,10 +5946,22 @@
     "type": "choice",
     "question": "下面的图形中，哪一个不能一笔画成？（笔不能离开纸面且不能重复画线）",
     "options": [
-      "A. 圆形",
-      "B. 正方形",
-      "C. 三角形",
-      "D. T形"
+      {
+        "label": "A",
+        "text": "圆形"
+      },
+      {
+        "label": "B",
+        "text": "正方形"
+      },
+      {
+        "label": "C",
+        "text": "三角形"
+      },
+      {
+        "label": "D",
+        "text": "T形"
+      }
     ],
     "answer": "D",
     "difficulty": 1,
@@ -4949,10 +5993,22 @@
     "type": "choice",
     "question": "下面哪个图形是轴对称图形？",
     "options": [
-      "A. 等腰三角形",
-      "B. 不等边三角形",
-      "C. 平行四边形",
-      "D. 直角梯形"
+      {
+        "label": "A",
+        "text": "等腰三角形"
+      },
+      {
+        "label": "B",
+        "text": "不等边三角形"
+      },
+      {
+        "label": "C",
+        "text": "平行四边形"
+      },
+      {
+        "label": "D",
+        "text": "直角梯形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -4984,10 +6040,22 @@
     "type": "choice",
     "question": "一个长方形的长是8厘米，宽是5厘米，求它的周长。",
     "options": [
-      "A. 26厘米",
-      "B. 13厘米",
-      "C. 40厘米",
-      "D. 20厘米"
+      {
+        "label": "A",
+        "text": "26厘米"
+      },
+      {
+        "label": "B",
+        "text": "13厘米"
+      },
+      {
+        "label": "C",
+        "text": "40厘米"
+      },
+      {
+        "label": "D",
+        "text": "20厘米"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5019,10 +6087,22 @@
     "type": "choice",
     "question": "一块长方形地的长是12米，宽是8米，它的面积是多少平方米？",
     "options": [
-      "A. 20平方米",
-      "B. 96平方米",
-      "C. 48平方米",
-      "D. 100平方米"
+      {
+        "label": "A",
+        "text": "20平方米"
+      },
+      {
+        "label": "B",
+        "text": "96平方米"
+      },
+      {
+        "label": "C",
+        "text": "48平方米"
+      },
+      {
+        "label": "D",
+        "text": "100平方米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5054,10 +6134,22 @@
     "type": "choice",
     "question": "一块地由一个长方形和一个直角三角形组成。长方形的长是10米，宽是5米，三角形的底是5米，高是4米。这块地的总面积是多少？",
     "options": [
-      "A. 55 m²",
-      "B. 60 m²",
-      "C. 65 m²",
-      "D. 70 m²"
+      {
+        "label": "A",
+        "text": "55 m²"
+      },
+      {
+        "label": "B",
+        "text": "60 m²"
+      },
+      {
+        "label": "C",
+        "text": "65 m²"
+      },
+      {
+        "label": "D",
+        "text": "70 m²"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5089,10 +6181,22 @@
     "type": "choice",
     "question": "把 3/4 转化为小数，正确的是哪一个？",
     "options": [
-      "A. 0.34",
-      "B. 0.75",
-      "C. 0.5",
-      "D. 0.8"
+      {
+        "label": "A",
+        "text": "0.34"
+      },
+      {
+        "label": "B",
+        "text": "0.75"
+      },
+      {
+        "label": "C",
+        "text": "0.5"
+      },
+      {
+        "label": "D",
+        "text": "0.8"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5124,10 +6228,22 @@
     "type": "choice",
     "question": "小明有一些气球，他送给小红4个后，还剩下15个。小明原来有多少个气球？",
     "options": [
-      "A. 19",
-      "B. 20",
-      "C. 21",
-      "D. 22"
+      {
+        "label": "A",
+        "text": "19"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "21"
+      },
+      {
+        "label": "D",
+        "text": "22"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5159,10 +6275,22 @@
     "type": "choice",
     "question": "小明从家到学校的路程是3千米，他步行用了45分钟。如果他以相同的速度走5千米，需要多少分钟？",
     "options": [
-      "A. 30分钟",
-      "B. 45分钟",
-      "C. 75分钟",
-      "D. 90分钟"
+      {
+        "label": "A",
+        "text": "30分钟"
+      },
+      {
+        "label": "B",
+        "text": "45分钟"
+      },
+      {
+        "label": "C",
+        "text": "75分钟"
+      },
+      {
+        "label": "D",
+        "text": "90分钟"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -5194,10 +6322,22 @@
     "type": "choice",
     "question": "一本书有120页，小明读了全书的3/8，还剩多少页？",
     "options": [
-      "A. 45页",
-      "B. 75页",
-      "C. 90页",
-      "D. 30页"
+      {
+        "label": "A",
+        "text": "45页"
+      },
+      {
+        "label": "B",
+        "text": "75页"
+      },
+      {
+        "label": "C",
+        "text": "90页"
+      },
+      {
+        "label": "D",
+        "text": "30页"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5229,10 +6369,22 @@
     "type": "choice",
     "question": "一项工程，甲单独做需要12天，乙单独做需要18天，甲、乙合作需要多少天完成？",
     "options": [
-      "A. 7天",
-      "B. 8天",
-      "C. 6天",
-      "D. 9天"
+      {
+        "label": "A",
+        "text": "7天"
+      },
+      {
+        "label": "B",
+        "text": "8天"
+      },
+      {
+        "label": "C",
+        "text": "6天"
+      },
+      {
+        "label": "D",
+        "text": "9天"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5264,10 +6416,22 @@
     "type": "choice",
     "question": "下面哪一个数满足“大于5且小于7”？",
     "options": [
-      "A. 5",
-      "B. 6",
-      "C. 7",
-      "D. 8"
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5299,10 +6463,22 @@
     "type": "choice",
     "question": "小明有7个苹果，吃了3个，还剩多少个？",
     "options": [
-      "A. 4",
-      "B. 5",
-      "C. 6",
-      "D. 7"
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5334,10 +6510,22 @@
     "type": "choice",
     "question": "在 11 到 20 之间（包括 11 和 20），有多少个整数？",
     "options": [
-      "A. 8",
-      "B. 9",
-      "C. 10",
-      "D. 11"
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -5369,10 +6557,22 @@
     "type": "choice",
     "question": "小明有12支铅笔，小红又给他5支，现在小明一共有多少支铅笔？",
     "options": [
-      "A. 15",
-      "B. 16",
-      "C. 17",
-      "D. 18"
+      {
+        "label": "A",
+        "text": "15"
+      },
+      {
+        "label": "B",
+        "text": "16"
+      },
+      {
+        "label": "C",
+        "text": "17"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -5404,10 +6604,22 @@
     "type": "choice",
     "question": "以下哪个数大于70且小于80？",
     "options": [
-      "A. 68",
-      "B. 73",
-      "C. 81",
-      "D. 78"
+      {
+        "label": "A",
+        "text": "68"
+      },
+      {
+        "label": "B",
+        "text": "73"
+      },
+      {
+        "label": "C",
+        "text": "81"
+      },
+      {
+        "label": "D",
+        "text": "78"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5439,10 +6651,22 @@
     "type": "choice",
     "question": "48 + 27 = ?",
     "options": [
-      "A. 71",
-      "B. 75",
-      "C. 73",
-      "D. 77"
+      {
+        "label": "A",
+        "text": "71"
+      },
+      {
+        "label": "B",
+        "text": "75"
+      },
+      {
+        "label": "C",
+        "text": "73"
+      },
+      {
+        "label": "D",
+        "text": "77"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5474,10 +6698,22 @@
     "type": "choice",
     "question": "在数字 4,872 中，百位上的数字是（ ）。",
     "options": [
-      "A. 4",
-      "B. 8",
-      "C. 7",
-      "D. 2"
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -5509,10 +6745,22 @@
     "type": "choice",
     "question": "书店的图书原价为456元，优惠后便宜了178元，现价是多少元？",
     "options": [
-      "A. 268元",
-      "B. 278元",
-      "C. 288元",
-      "D. 258元"
+      {
+        "label": "A",
+        "text": "268元"
+      },
+      {
+        "label": "B",
+        "text": "278元"
+      },
+      {
+        "label": "C",
+        "text": "288元"
+      },
+      {
+        "label": "D",
+        "text": "258元"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5544,10 +6792,22 @@
     "type": "choice",
     "question": "下面哪个算式表示“5个3相加”？",
     "options": [
-      "A. 5+3",
-      "B. 3×5",
-      "C. 5×3",
-      "D. 5-3"
+      {
+        "label": "A",
+        "text": "5+3"
+      },
+      {
+        "label": "B",
+        "text": "3×5"
+      },
+      {
+        "label": "C",
+        "text": "5×3"
+      },
+      {
+        "label": "D",
+        "text": "5-3"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -5579,10 +6839,22 @@
     "type": "choice",
     "question": "小明有4盒彩笔，每盒有5支，他一共有多少支彩笔？",
     "options": [
-      "A. 15支",
-      "B. 20支",
-      "C. 25支",
-      "D. 30支"
+      {
+        "label": "A",
+        "text": "15支"
+      },
+      {
+        "label": "B",
+        "text": "20支"
+      },
+      {
+        "label": "C",
+        "text": "25支"
+      },
+      {
+        "label": "D",
+        "text": "30支"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5614,10 +6886,22 @@
     "type": "choice",
     "question": "7×8等于多少？",
     "options": [
-      "A. 54",
-      "B. 56",
-      "C. 48",
-      "D. 64"
+      {
+        "label": "A",
+        "text": "54"
+      },
+      {
+        "label": "B",
+        "text": "56"
+      },
+      {
+        "label": "C",
+        "text": "48"
+      },
+      {
+        "label": "D",
+        "text": "64"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5649,10 +6933,22 @@
     "type": "choice",
     "question": "3 × 7 = ?",
     "options": [
-      "A. 18",
-      "B. 21",
-      "C. 24",
-      "D. 27"
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "21"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "27"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5684,10 +6980,22 @@
     "type": "choice",
     "question": "把12颗糖果平均分给3个小朋友，每个小朋友可以得到多少颗糖果？",
     "options": [
-      "A. 2颗",
-      "B. 3颗",
-      "C. 4颗",
-      "D. 6颗"
+      {
+        "label": "A",
+        "text": "2颗"
+      },
+      {
+        "label": "B",
+        "text": "3颗"
+      },
+      {
+        "label": "C",
+        "text": "4颗"
+      },
+      {
+        "label": "D",
+        "text": "6颗"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -5719,10 +7027,22 @@
     "type": "choice",
     "question": "48 ÷ 6 = ?",
     "options": [
-      "A. 7",
-      "B. 8",
-      "C. 9",
-      "D. 6"
+      {
+        "label": "A",
+        "text": "7"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5754,10 +7074,22 @@
     "type": "choice",
     "question": "计算 56 ÷ 9 的余数。",
     "options": [
-      "A. 2",
-      "B. 3",
-      "C. 4",
-      "D. 5"
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5789,10 +7121,22 @@
     "type": "choice",
     "question": "计算 24 × 2 ÷ 6 = ?",
     "options": [
-      "A. 8",
-      "B. 12",
-      "C. 6",
-      "D. 4"
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "12"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5824,10 +7168,22 @@
     "type": "choice",
     "question": "一个披萨被平均切成8块，小明吃了3块，他吃掉的披萨占整块披萨的几分之几？",
     "options": [
-      "A. 3/8",
-      "B. 8/3",
-      "C. 5/8",
-      "D. 3/5"
+      {
+        "label": "A",
+        "text": "3/8"
+      },
+      {
+        "label": "B",
+        "text": "8/3"
+      },
+      {
+        "label": "C",
+        "text": "5/8"
+      },
+      {
+        "label": "D",
+        "text": "3/5"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5859,10 +7215,22 @@
     "type": "choice",
     "question": "比较下面两个分数的大小：5/8 和 3/4，哪个更大？",
     "options": [
-      "A. 5/8 更大",
-      "B. 3/4 更大",
-      "C. 两者相等",
-      "D. 无法比较"
+      {
+        "label": "A",
+        "text": "5/8 更大"
+      },
+      {
+        "label": "B",
+        "text": "3/4 更大"
+      },
+      {
+        "label": "C",
+        "text": "两者相等"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -5894,10 +7262,22 @@
     "type": "choice",
     "question": "计算 3/7 + 2/7 = ?",
     "options": [
-      "A. 5/7",
-      "B. 5/14",
-      "C. 5/49",
-      "D. 6/7"
+      {
+        "label": "A",
+        "text": "5/7"
+      },
+      {
+        "label": "B",
+        "text": "5/14"
+      },
+      {
+        "label": "C",
+        "text": "5/49"
+      },
+      {
+        "label": "D",
+        "text": "6/7"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5929,10 +7309,22 @@
     "type": "choice",
     "question": "将分数 3/5 转化为小数，下面哪个正确？",
     "options": [
-      "A. 0.6",
-      "B. 0.5",
-      "C. 0.75",
-      "D. 0.8"
+      {
+        "label": "A",
+        "text": "0.6"
+      },
+      {
+        "label": "B",
+        "text": "0.5"
+      },
+      {
+        "label": "C",
+        "text": "0.75"
+      },
+      {
+        "label": "D",
+        "text": "0.8"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -5964,10 +7356,22 @@
     "type": "choice",
     "question": "0.125 是几位小数？",
     "options": [
-      "A. 1位小数",
-      "B. 2位小数",
-      "C. 3位小数",
-      "D. 4位小数"
+      {
+        "label": "A",
+        "text": "1位小数"
+      },
+      {
+        "label": "B",
+        "text": "2位小数"
+      },
+      {
+        "label": "C",
+        "text": "3位小数"
+      },
+      {
+        "label": "D",
+        "text": "4位小数"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -5999,10 +7403,22 @@
     "type": "choice",
     "question": "小红买了5.2千克的苹果，又买了3.75千克的香蕉，一共买了多少千克水果？",
     "options": [
-      "A. 8.95千克",
-      "B. 8.85千克",
-      "C. 8.9千克",
-      "D. 9.05千克"
+      {
+        "label": "A",
+        "text": "8.95千克"
+      },
+      {
+        "label": "B",
+        "text": "8.85千克"
+      },
+      {
+        "label": "C",
+        "text": "8.9千克"
+      },
+      {
+        "label": "D",
+        "text": "9.05千克"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6034,10 +7450,22 @@
     "type": "choice",
     "question": "0.3 × 0.4 的结果是多少？",
     "options": [
-      "A. 0.12",
-      "B. 0.07",
-      "C. 0.34",
-      "D. 0.014"
+      {
+        "label": "A",
+        "text": "0.12"
+      },
+      {
+        "label": "B",
+        "text": "0.07"
+      },
+      {
+        "label": "C",
+        "text": "0.34"
+      },
+      {
+        "label": "D",
+        "text": "0.014"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6069,10 +7497,22 @@
     "type": "choice",
     "question": "下面哪个说法正确描述了小数0.3的意义？",
     "options": [
-      "A. 0.3表示3个十分之一",
-      "B. 0.3表示3个百分之一",
-      "C. 0.3表示3个千分之一",
-      "D. 0.3表示3个整数"
+      {
+        "label": "A",
+        "text": "0.3表示3个十分之一"
+      },
+      {
+        "label": "B",
+        "text": "0.3表示3个百分之一"
+      },
+      {
+        "label": "C",
+        "text": "0.3表示3个千分之一"
+      },
+      {
+        "label": "D",
+        "text": "0.3表示3个整数"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6104,10 +7544,22 @@
     "type": "choice",
     "question": "一张10元纸币可以换几张5元纸币？",
     "options": [
-      "A. 1张",
-      "B. 2张",
-      "C. 3张",
-      "D. 4张"
+      {
+        "label": "A",
+        "text": "1张"
+      },
+      {
+        "label": "B",
+        "text": "2张"
+      },
+      {
+        "label": "C",
+        "text": "3张"
+      },
+      {
+        "label": "D",
+        "text": "4张"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6139,10 +7591,22 @@
     "type": "choice",
     "question": "3元5角等于多少分？",
     "options": [
-      "A. 350分",
-      "B. 305分",
-      "C. 315分",
-      "D. 355分"
+      {
+        "label": "A",
+        "text": "350分"
+      },
+      {
+        "label": "B",
+        "text": "305分"
+      },
+      {
+        "label": "C",
+        "text": "315分"
+      },
+      {
+        "label": "D",
+        "text": "355分"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6174,10 +7638,22 @@
     "type": "choice",
     "question": "小明在下午3点15分时，时针和分针分别指向哪里？",
     "options": [
-      "A. 时针指向3，分针指向3",
-      "B. 时针指向3，分针指向9",
-      "C. 时针指向3和4之间，分针指向3",
-      "D. 时针指向3和4之间，分针指向9"
+      {
+        "label": "A",
+        "text": "时针指向3，分针指向3"
+      },
+      {
+        "label": "B",
+        "text": "时针指向3，分针指向9"
+      },
+      {
+        "label": "C",
+        "text": "时针指向3和4之间，分针指向3"
+      },
+      {
+        "label": "D",
+        "text": "时针指向3和4之间，分针指向9"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -6209,10 +7685,22 @@
     "type": "choice",
     "question": "2024年是闰年，那么2024年的2月有多少天？",
     "options": [
-      "A. 28天",
-      "B. 29天",
-      "C. 30天",
-      "D. 31天"
+      {
+        "label": "A",
+        "text": "28天"
+      },
+      {
+        "label": "B",
+        "text": "29天"
+      },
+      {
+        "label": "C",
+        "text": "30天"
+      },
+      {
+        "label": "D",
+        "text": "31天"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6244,10 +7732,22 @@
     "type": "choice",
     "question": "2.5公里等于多少米？",
     "options": [
-      "A. 250米",
-      "B. 2500米",
-      "C. 25000米",
-      "D. 25米"
+      {
+        "label": "A",
+        "text": "250米"
+      },
+      {
+        "label": "B",
+        "text": "2500米"
+      },
+      {
+        "label": "C",
+        "text": "25000米"
+      },
+      {
+        "label": "D",
+        "text": "25米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6279,10 +7779,22 @@
     "type": "choice",
     "question": "3.5千克等于多少克？",
     "options": [
-      "A. 350克",
-      "B. 3500克",
-      "C. 35克",
-      "D. 35000克"
+      {
+        "label": "A",
+        "text": "350克"
+      },
+      {
+        "label": "B",
+        "text": "3500克"
+      },
+      {
+        "label": "C",
+        "text": "35克"
+      },
+      {
+        "label": "D",
+        "text": "35000克"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6314,10 +7826,22 @@
     "type": "choice",
     "question": "一个长方形的长是8厘米，宽是5厘米，这个长方形的面积是多少平方厘米？",
     "options": [
-      "A. 13平方厘米",
-      "B. 40平方厘米",
-      "C. 24平方厘米",
-      "D. 30平方厘米"
+      {
+        "label": "A",
+        "text": "13平方厘米"
+      },
+      {
+        "label": "B",
+        "text": "40平方厘米"
+      },
+      {
+        "label": "C",
+        "text": "24平方厘米"
+      },
+      {
+        "label": "D",
+        "text": "30平方厘米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6349,10 +7873,22 @@
     "type": "choice",
     "question": "下列关于体积的说法，哪个是正确的？",
     "options": [
-      "A. 体积是指物体表面的面积。",
-      "B. 体积是指物体所占空间的大小。",
-      "C. 体积可以用平方米来计量。",
-      "D. 体积只和物体的形状有关，与大小无关。"
+      {
+        "label": "A",
+        "text": "体积是指物体表面的面积。"
+      },
+      {
+        "label": "B",
+        "text": "体积是指物体所占空间的大小。"
+      },
+      {
+        "label": "C",
+        "text": "体积可以用平方米来计量。"
+      },
+      {
+        "label": "D",
+        "text": "体积只和物体的形状有关，与大小无关。"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6384,10 +7920,22 @@
     "type": "choice",
     "question": "以下哪个选项正确描述了角的特征？",
     "options": [
-      "A. 角是由两条直线相交得到的",
-      "B. 角是由两条射线共享一个端点形成的",
-      "C. 角是一条直线",
-      "D. 角是由三条线段围成的"
+      {
+        "label": "A",
+        "text": "角是由两条直线相交得到的"
+      },
+      {
+        "label": "B",
+        "text": "角是由两条射线共享一个端点形成的"
+      },
+      {
+        "label": "C",
+        "text": "角是一条直线"
+      },
+      {
+        "label": "D",
+        "text": "角是由三条线段围成的"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6419,10 +7967,22 @@
     "type": "choice",
     "question": "下面哪组线段的长度可以围成三角形？",
     "options": [
-      "A. 2 cm、3 cm、5 cm",
-      "B. 3 cm、4 cm、5 cm",
-      "C. 1 cm、2 cm、10 cm",
-      "D. 4 cm、4 cm、9 cm"
+      {
+        "label": "A",
+        "text": "2 cm、3 cm、5 cm"
+      },
+      {
+        "label": "B",
+        "text": "3 cm、4 cm、5 cm"
+      },
+      {
+        "label": "C",
+        "text": "1 cm、2 cm、10 cm"
+      },
+      {
+        "label": "D",
+        "text": "4 cm、4 cm、9 cm"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6454,10 +8014,22 @@
     "type": "choice",
     "question": "下列图形中，哪一个属于四边形？",
     "options": [
-      "A. 正方形",
-      "B. 三角形",
-      "C. 圆形",
-      "D. 五边形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "三角形"
+      },
+      {
+        "label": "C",
+        "text": "圆形"
+      },
+      {
+        "label": "D",
+        "text": "五边形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6489,10 +8061,22 @@
     "type": "choice",
     "question": "下面哪个图形的特点是：所有点到中心O的距离相等？",
     "options": [
-      "A. 正方形",
-      "B. 长方形",
-      "C. 圆形",
-      "D. 三角形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "长方形"
+      },
+      {
+        "label": "C",
+        "text": "圆形"
+      },
+      {
+        "label": "D",
+        "text": "三角形"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -6524,10 +8108,22 @@
     "type": "choice",
     "question": "以下关于正方形和长方形的说法，正确的是？",
     "options": [
-      "A. 正方形是特殊的长方形",
-      "B. 长方形一定是正方形",
-      "C. 正方形没有直角",
-      "D. 长方形的对角线不相等"
+      {
+        "label": "A",
+        "text": "正方形是特殊的长方形"
+      },
+      {
+        "label": "B",
+        "text": "长方形一定是正方形"
+      },
+      {
+        "label": "C",
+        "text": "正方形没有直角"
+      },
+      {
+        "label": "D",
+        "text": "长方形的对角线不相等"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6559,10 +8155,22 @@
     "type": "choice",
     "question": "把两个相同的正方形拼在一起，能够得到（ ）图形。",
     "options": [
-      "A. 长方形",
-      "B. 三角形",
-      "C. 圆形",
-      "D. 正方形"
+      {
+        "label": "A",
+        "text": "长方形"
+      },
+      {
+        "label": "B",
+        "text": "三角形"
+      },
+      {
+        "label": "C",
+        "text": "圆形"
+      },
+      {
+        "label": "D",
+        "text": "正方形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6594,10 +8202,22 @@
     "type": "choice",
     "question": "下列图形中，哪一个一定是轴对称图形？",
     "options": [
-      "A. 正方形",
-      "B. 任意三角形",
-      "C. 平行四边形",
-      "D. 任意梯形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "任意三角形"
+      },
+      {
+        "label": "C",
+        "text": "平行四边形"
+      },
+      {
+        "label": "D",
+        "text": "任意梯形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6629,10 +8249,22 @@
     "type": "choice",
     "question": "把一个长方形先向右平移3格，再顺时针旋转90度后，图形的（ ）不变。",
     "options": [
-      "A. 位置",
-      "B. 大小",
-      "C. 颜色",
-      "D. 方向"
+      {
+        "label": "A",
+        "text": "位置"
+      },
+      {
+        "label": "B",
+        "text": "大小"
+      },
+      {
+        "label": "C",
+        "text": "颜色"
+      },
+      {
+        "label": "D",
+        "text": "方向"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6664,10 +8296,22 @@
     "type": "choice",
     "question": "观察数列：1，4，9，16，?，请问 ? 处应填入的数是？",
     "options": [
-      "A. 20",
-      "B. 25",
-      "C. 30",
-      "D. 36"
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "30"
+      },
+      {
+        "label": "D",
+        "text": "36"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6699,10 +8343,22 @@
     "type": "choice",
     "question": "观察下面的图形规律，第四幅图应该画什么形状？图1是三角形，图2是正方形，图3是五边形。",
     "options": [
-      "A. 六边形",
-      "B. 七边形",
-      "C. 正方形",
-      "D. 圆形"
+      {
+        "label": "A",
+        "text": "六边形"
+      },
+      {
+        "label": "B",
+        "text": "七边形"
+      },
+      {
+        "label": "C",
+        "text": "正方形"
+      },
+      {
+        "label": "D",
+        "text": "圆形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6734,10 +8390,22 @@
     "type": "choice",
     "question": "下面这组数据的中位数是？23, 45, 12, 67, 34",
     "options": [
-      "A. 34",
-      "B. 45",
-      "C. 23",
-      "D. 12"
+      {
+        "label": "A",
+        "text": "34"
+      },
+      {
+        "label": "B",
+        "text": "45"
+      },
+      {
+        "label": "C",
+        "text": "23"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6769,10 +8437,22 @@
     "type": "choice",
     "question": "某班级统计了学生上学的方式，得到下表：步行 30 人，骑车 20 人，坐公交 15 人，坐校车 5 人。哪种上学方式的人数最多？",
     "options": [
-      "A. 步行",
-      "B. 骑车",
-      "C. 坐公交",
-      "D. 坐校车"
+      {
+        "label": "A",
+        "text": "步行"
+      },
+      {
+        "label": "B",
+        "text": "骑车"
+      },
+      {
+        "label": "C",
+        "text": "坐公交"
+      },
+      {
+        "label": "D",
+        "text": "坐校车"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6804,10 +8484,22 @@
     "type": "choice",
     "question": "比较 3/5 和 5/8 的大小，哪个更大？",
     "options": [
-      "A. 3/5 更大",
-      "B. 5/8 更大",
-      "C. 两者相等",
-      "D. 无法判断"
+      {
+        "label": "A",
+        "text": "3/5 更大"
+      },
+      {
+        "label": "B",
+        "text": "5/8 更大"
+      },
+      {
+        "label": "C",
+        "text": "两者相等"
+      },
+      {
+        "label": "D",
+        "text": "无法判断"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -6839,10 +8531,22 @@
     "type": "choice",
     "question": "小明有a个苹果，小红比他多3个苹果，小红有多少个苹果？",
     "options": [
-      "A. a+3",
-      "B. a-3",
-      "C. 3a",
-      "D. a÷3"
+      {
+        "label": "A",
+        "text": "a+3"
+      },
+      {
+        "label": "B",
+        "text": "a-3"
+      },
+      {
+        "label": "C",
+        "text": "3a"
+      },
+      {
+        "label": "D",
+        "text": "a÷3"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6874,10 +8578,22 @@
     "type": "choice",
     "question": "下面的式子中，哪一个是一个方程？",
     "options": [
-      "A. 3+5=8",
-      "B. 2x+3",
-      "C. 5+7=12",
-      "D. 4x-2=10"
+      {
+        "label": "A",
+        "text": "3+5=8"
+      },
+      {
+        "label": "B",
+        "text": "2x+3"
+      },
+      {
+        "label": "C",
+        "text": "5+7=12"
+      },
+      {
+        "label": "D",
+        "text": "4x-2=10"
+      }
     ],
     "answer": "D",
     "difficulty": 1,
@@ -6909,10 +8625,22 @@
     "type": "choice",
     "question": "求方程 3x + 5 = 20 中 x 的值。",
     "options": [
-      "A. x = 5",
-      "B. x = 4",
-      "C. x = 3",
-      "D. x = 6"
+      {
+        "label": "A",
+        "text": "x = 5"
+      },
+      {
+        "label": "B",
+        "text": "x = 4"
+      },
+      {
+        "label": "C",
+        "text": "x = 3"
+      },
+      {
+        "label": "D",
+        "text": "x = 6"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6944,10 +8672,22 @@
     "type": "choice",
     "question": "小明去书店买书，每本书的价格是12元，他买了5本，付了100元，书店应找回多少钱？",
     "options": [
-      "A. 40元",
-      "B. 20元",
-      "C. 30元",
-      "D. 10元"
+      {
+        "label": "A",
+        "text": "40元"
+      },
+      {
+        "label": "B",
+        "text": "20元"
+      },
+      {
+        "label": "C",
+        "text": "30元"
+      },
+      {
+        "label": "D",
+        "text": "10元"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -6979,10 +8719,22 @@
     "type": "choice",
     "question": "小明每天早上7点15分起床，7点45分出门上学，路上用了20分钟，问小明到校的时间是几点？",
     "options": [
-      "A. 8:05",
-      "B. 8:15",
-      "C. 8:00",
-      "D. 8:10"
+      {
+        "label": "A",
+        "text": "8:05"
+      },
+      {
+        "label": "B",
+        "text": "8:15"
+      },
+      {
+        "label": "C",
+        "text": "8:00"
+      },
+      {
+        "label": "D",
+        "text": "8:10"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7014,10 +8766,22 @@
     "type": "choice",
     "question": "小明每秒跑5米，跑了20秒，他一共跑了多少米？",
     "options": [
-      "A. 100米",
-      "B. 200米",
-      "C. 150米",
-      "D. 250米"
+      {
+        "label": "A",
+        "text": "100米"
+      },
+      {
+        "label": "B",
+        "text": "200米"
+      },
+      {
+        "label": "C",
+        "text": "150米"
+      },
+      {
+        "label": "D",
+        "text": "250米"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7049,10 +8813,22 @@
     "type": "choice",
     "question": "小明有一些糖果，他把糖果平均分给5位同学后，还剩3颗糖果。已知小明原来有48颗糖果，那么每位同学分到了多少颗糖果？",
     "options": [
-      "A. 9颗",
-      "B. 10颗",
-      "C. 11颗",
-      "D. 12颗"
+      {
+        "label": "A",
+        "text": "9颗"
+      },
+      {
+        "label": "B",
+        "text": "10颗"
+      },
+      {
+        "label": "C",
+        "text": "11颗"
+      },
+      {
+        "label": "D",
+        "text": "12颗"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7084,10 +8860,22 @@
     "type": "choice",
     "question": "3.2千克等于多少克？",
     "options": [
-      "A. 320克",
-      "B. 3200克",
-      "C. 32克",
-      "D. 32000克"
+      {
+        "label": "A",
+        "text": "320克"
+      },
+      {
+        "label": "B",
+        "text": "3200克"
+      },
+      {
+        "label": "C",
+        "text": "32克"
+      },
+      {
+        "label": "D",
+        "text": "32000克"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7119,10 +8907,22 @@
     "type": "choice",
     "question": "1升等于多少毫升？",
     "options": [
-      "A. 1000毫升",
-      "B. 500毫升",
-      "C. 100毫升",
-      "D. 10毫升"
+      {
+        "label": "A",
+        "text": "1000毫升"
+      },
+      {
+        "label": "B",
+        "text": "500毫升"
+      },
+      {
+        "label": "C",
+        "text": "100毫升"
+      },
+      {
+        "label": "D",
+        "text": "10毫升"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7154,10 +8954,22 @@
     "type": "choice",
     "question": "小明身高1.35米，换算成厘米是多少？",
     "options": [
-      "A. 13.5厘米",
-      "B. 135厘米",
-      "C. 1350厘米",
-      "D. 13500厘米"
+      {
+        "label": "A",
+        "text": "13.5厘米"
+      },
+      {
+        "label": "B",
+        "text": "135厘米"
+      },
+      {
+        "label": "C",
+        "text": "1350厘米"
+      },
+      {
+        "label": "D",
+        "text": "13500厘米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7189,10 +9001,22 @@
     "type": "choice",
     "question": "1 分米等于多少毫米？",
     "options": [
-      "A. 10 毫米",
-      "B. 100 毫米",
-      "C. 1000 毫米",
-      "D. 1 毫米"
+      {
+        "label": "A",
+        "text": "10 毫米"
+      },
+      {
+        "label": "B",
+        "text": "100 毫米"
+      },
+      {
+        "label": "C",
+        "text": "1000 毫米"
+      },
+      {
+        "label": "D",
+        "text": "1 毫米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7224,10 +9048,22 @@
     "type": "choice",
     "question": "已知直线AB与直线CD相交于点O，且∠AOC=90°，则AB与CD的关系是（ ）。",
     "options": [
-      "A. 垂直",
-      "B. 平行",
-      "C. 相交且不成直角",
-      "D. 重合"
+      {
+        "label": "A",
+        "text": "垂直"
+      },
+      {
+        "label": "B",
+        "text": "平行"
+      },
+      {
+        "label": "C",
+        "text": "相交且不成直角"
+      },
+      {
+        "label": "D",
+        "text": "重合"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7259,10 +9095,22 @@
     "type": "choice",
     "question": "下列图形中，哪个只有一个平行边？",
     "options": [
-      "A. 正方形",
-      "B. 长方形",
-      "C. 梯形",
-      "D. 平行四边形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "长方形"
+      },
+      {
+        "label": "C",
+        "text": "梯形"
+      },
+      {
+        "label": "D",
+        "text": "平行四边形"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -7294,10 +9142,22 @@
     "type": "choice",
     "question": "下面哪个图形是扇形？",
     "options": [
-      "A. 由两条半径和它们之间的弧组成的图形",
-      "B. 只包含一条曲线的图形",
-      "C. 四条直线围成的矩形",
-      "D. 由一条直线段围成的图形"
+      {
+        "label": "A",
+        "text": "由两条半径和它们之间的弧组成的图形"
+      },
+      {
+        "label": "B",
+        "text": "只包含一条曲线的图形"
+      },
+      {
+        "label": "C",
+        "text": "四条直线围成的矩形"
+      },
+      {
+        "label": "D",
+        "text": "由一条直线段围成的图形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7329,10 +9189,22 @@
     "type": "choice",
     "question": "下列关于正方体和长方体的说法，正确的是？",
     "options": [
-      "A. 正方体有6个面，且全部是正方形",
-      "B. 长方体有12条棱，且全部长度相等",
-      "C. 正方体和长方体的面数相同",
-      "D. 长方体的每个面都是正方形"
+      {
+        "label": "A",
+        "text": "正方体有6个面，且全部是正方形"
+      },
+      {
+        "label": "B",
+        "text": "长方体有12条棱，且全部长度相等"
+      },
+      {
+        "label": "C",
+        "text": "正方体和长方体的面数相同"
+      },
+      {
+        "label": "D",
+        "text": "长方体的每个面都是正方形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7364,10 +9236,22 @@
     "type": "choice",
     "question": "下面哪个立体图形具有两个相等的圆形底面且没有顶点？",
     "options": [
-      "A. 正方体",
-      "B. 球",
-      "C. 圆柱",
-      "D. 三棱锥"
+      {
+        "label": "A",
+        "text": "正方体"
+      },
+      {
+        "label": "B",
+        "text": "球"
+      },
+      {
+        "label": "C",
+        "text": "圆柱"
+      },
+      {
+        "label": "D",
+        "text": "三棱锥"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -7399,10 +9283,22 @@
     "type": "choice",
     "question": "点A在点B的正北方，点C在点B的正东方。点C相对于点A的方向是（ ）。",
     "options": [
-      "A. 正东",
-      "B. 正南",
-      "C. 东南",
-      "D. 西南"
+      {
+        "label": "A",
+        "text": "正东"
+      },
+      {
+        "label": "B",
+        "text": "正南"
+      },
+      {
+        "label": "C",
+        "text": "东南"
+      },
+      {
+        "label": "D",
+        "text": "西南"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -7434,10 +9330,22 @@
     "type": "choice",
     "question": "从正面看是一个正方形，从上面看是一个圆形，这个立体图形可能是？",
     "options": [
-      "A. 圆柱体",
-      "B. 正方体",
-      "C. 球体",
-      "D. 圆锥"
+      {
+        "label": "A",
+        "text": "圆柱体"
+      },
+      {
+        "label": "B",
+        "text": "正方体"
+      },
+      {
+        "label": "C",
+        "text": "球体"
+      },
+      {
+        "label": "D",
+        "text": "圆锥"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7469,10 +9377,22 @@
     "type": "choice",
     "question": "下面是某校六年级学生对足球、篮球、游泳三种运动爱好的人数统计表（复式统计表）。请根据表格回答：男生喜欢足球的有多少人？\n\n爱好    足球  篮球  游泳\n性别\n男      10    6    4\n女       5    7    8",
     "options": [
-      "A. 8",
-      "B. 10",
-      "C. 12",
-      "D. 14"
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "14"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7504,10 +9424,22 @@
     "type": "choice",
     "question": "在方格纸上，小明站在第3列第4行，用数对表示他的位置是（ ， ）？",
     "options": [
-      "A. (3,4)",
-      "B. (4,3)",
-      "C. (3,3)",
-      "D. (4,4)"
+      {
+        "label": "A",
+        "text": "(3,4)"
+      },
+      {
+        "label": "B",
+        "text": "(4,3)"
+      },
+      {
+        "label": "C",
+        "text": "(3,3)"
+      },
+      {
+        "label": "D",
+        "text": "(4,4)"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7539,10 +9471,22 @@
     "type": "choice",
     "question": "把 0.75 用百分数表示，下面哪个正确？",
     "options": [
-      "A. 75%",
-      "B. 7.5%",
-      "C. 0.75%",
-      "D. 750%"
+      {
+        "label": "A",
+        "text": "75%"
+      },
+      {
+        "label": "B",
+        "text": "7.5%"
+      },
+      {
+        "label": "C",
+        "text": "0.75%"
+      },
+      {
+        "label": "D",
+        "text": "750%"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7574,10 +9518,22 @@
     "type": "choice",
     "question": "把 0.73 转换成百分数，下面哪个是正确的？",
     "options": [
-      "A. 73%",
-      "B. 7.3%",
-      "C. 0.73%",
-      "D. 730%"
+      {
+        "label": "A",
+        "text": "73%"
+      },
+      {
+        "label": "B",
+        "text": "7.3%"
+      },
+      {
+        "label": "C",
+        "text": "0.73%"
+      },
+      {
+        "label": "D",
+        "text": "730%"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7609,10 +9565,22 @@
     "type": "choice",
     "question": "小明有120本书，其中25%是小说，小说有多少本？",
     "options": [
-      "A. 30本",
-      "B. 24本",
-      "C. 36本",
-      "D. 40本"
+      {
+        "label": "A",
+        "text": "30本"
+      },
+      {
+        "label": "B",
+        "text": "24本"
+      },
+      {
+        "label": "C",
+        "text": "36本"
+      },
+      {
+        "label": "D",
+        "text": "40本"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7644,10 +9612,22 @@
     "type": "choice",
     "question": "下面哪一组数能组成比例？",
     "options": [
-      "A. 1、2、3、4",
-      "B. 2、3、4、6",
-      "C. 1、3、5、7",
-      "D. 3、5、7、9"
+      {
+        "label": "A",
+        "text": "1、2、3、4"
+      },
+      {
+        "label": "B",
+        "text": "2、3、4、6"
+      },
+      {
+        "label": "C",
+        "text": "1、3、5、7"
+      },
+      {
+        "label": "D",
+        "text": "3、5、7、9"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7679,10 +9659,22 @@
     "type": "choice",
     "question": "已知y与x成正比例，x=3时y=12，那么x=5时y是多少？",
     "options": [
-      "A. 20",
-      "B. 15",
-      "C. 24",
-      "D. 18"
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "15"
+      },
+      {
+        "label": "C",
+        "text": "24"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7714,10 +9706,22 @@
     "type": "choice",
     "question": "在一幅地图上，比例尺是1:2000。如果实际距离是400米，那么在地图上的距离是多少厘米？",
     "options": [
-      "A. 2厘米",
-      "B. 20厘米",
-      "C. 200厘米",
-      "D. 0.2厘米"
+      {
+        "label": "A",
+        "text": "2厘米"
+      },
+      {
+        "label": "B",
+        "text": "20厘米"
+      },
+      {
+        "label": "C",
+        "text": "200厘米"
+      },
+      {
+        "label": "D",
+        "text": "0.2厘米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7749,10 +9753,22 @@
     "type": "choice",
     "question": "鸡和兔子同笼，头共20只，脚共56只。鸡有多少只？",
     "options": [
-      "A. 8只",
-      "B. 10只",
-      "C. 12只",
-      "D. 14只"
+      {
+        "label": "A",
+        "text": "8只"
+      },
+      {
+        "label": "B",
+        "text": "10只"
+      },
+      {
+        "label": "C",
+        "text": "12只"
+      },
+      {
+        "label": "D",
+        "text": "14只"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -7784,10 +9800,22 @@
     "type": "choice",
     "question": "小明和小红一共有50本书，已知小明比小红多10本，问小明有多少本书？",
     "options": [
-      "A. 30本",
-      "B. 35本",
-      "C. 40本",
-      "D. 20本"
+      {
+        "label": "A",
+        "text": "30本"
+      },
+      {
+        "label": "B",
+        "text": "35本"
+      },
+      {
+        "label": "C",
+        "text": "40本"
+      },
+      {
+        "label": "D",
+        "text": "20本"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7819,10 +9847,22 @@
     "type": "choice",
     "question": "小华和小明共有40本书，已知小华的书是小明的3倍，两人各有多少本书？",
     "options": [
-      "A. 小华30本, 小明10本",
-      "B. 小华25本, 小明15本",
-      "C. 小华20本, 小明20本",
-      "D. 小华35本, 小明5本"
+      {
+        "label": "A",
+        "text": "小华30本, 小明10本"
+      },
+      {
+        "label": "B",
+        "text": "小华25本, 小明15本"
+      },
+      {
+        "label": "C",
+        "text": "小华20本, 小明20本"
+      },
+      {
+        "label": "D",
+        "text": "小华35本, 小明5本"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7854,10 +9894,22 @@
     "type": "choice",
     "question": "两个数的差是 24，且较大数是较小数的 5 倍，这两个数分别是多少？",
     "options": [
-      "A. 较小数 6，较大数 30",
-      "B. 较小数 8，较大数 32",
-      "C. 较小数 4，较大数 20",
-      "D. 较小数 12，较大数 36"
+      {
+        "label": "A",
+        "text": "较小数 6，较大数 30"
+      },
+      {
+        "label": "B",
+        "text": "较小数 8，较大数 32"
+      },
+      {
+        "label": "C",
+        "text": "较小数 4，较大数 20"
+      },
+      {
+        "label": "D",
+        "text": "较小数 12，较大数 36"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7889,10 +9941,22 @@
     "type": "choice",
     "question": "小明今年9岁，爸爸今年33岁，几年后爸爸的年龄是小明的3倍？",
     "options": [
-      "A. 3年",
-      "B. 4年",
-      "C. 5年",
-      "D. 6年"
+      {
+        "label": "A",
+        "text": "3年"
+      },
+      {
+        "label": "B",
+        "text": "4年"
+      },
+      {
+        "label": "C",
+        "text": "5年"
+      },
+      {
+        "label": "D",
+        "text": "6年"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -7924,10 +9988,22 @@
     "type": "choice",
     "question": "小明买了15本相同的书，一共花了120元，每本书的平均价格是多少元？",
     "options": [
-      "A. 6元",
-      "B. 8元",
-      "C. 10元",
-      "D. 12元"
+      {
+        "label": "A",
+        "text": "6元"
+      },
+      {
+        "label": "B",
+        "text": "8元"
+      },
+      {
+        "label": "C",
+        "text": "10元"
+      },
+      {
+        "label": "D",
+        "text": "12元"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7959,10 +10035,22 @@
     "type": "choice",
     "question": "小明有5盒糖，每盒12颗；小华有4盒糖，每盒15颗。他们一共有多少颗糖？",
     "options": [
-      "A. 110颗",
-      "B. 120颗",
-      "C. 130颗",
-      "D. 140颗"
+      {
+        "label": "A",
+        "text": "110颗"
+      },
+      {
+        "label": "B",
+        "text": "120颗"
+      },
+      {
+        "label": "C",
+        "text": "130颗"
+      },
+      {
+        "label": "D",
+        "text": "140颗"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -7994,10 +10082,22 @@
     "type": "choice",
     "question": "在一条长60米的道路一侧每隔10米种一棵树，两端都种，需要种多少棵树？",
     "options": [
-      "A. 6棵",
-      "B. 7棵",
-      "C. 8棵",
-      "D. 9棵"
+      {
+        "label": "A",
+        "text": "6棵"
+      },
+      {
+        "label": "B",
+        "text": "7棵"
+      },
+      {
+        "label": "C",
+        "text": "8棵"
+      },
+      {
+        "label": "D",
+        "text": "9棵"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8029,10 +10129,22 @@
     "type": "choice",
     "question": "小明从A地骑自行车去B地，速度是每小时12公里。小华从B地骑自行车去A地，速度是每小时8公里。两人同时出发，5小时后相遇。请问A、B两地之间的距离是多少？",
     "options": [
-      "A. 60 公里",
-      "B. 80 公里",
-      "C. 100 公里",
-      "D. 120 公里"
+      {
+        "label": "A",
+        "text": "60 公里"
+      },
+      {
+        "label": "B",
+        "text": "80 公里"
+      },
+      {
+        "label": "C",
+        "text": "100 公里"
+      },
+      {
+        "label": "D",
+        "text": "120 公里"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -8064,10 +10176,22 @@
     "type": "choice",
     "question": "小明每小时跑6公里，小华每小时跑4公里，且小华先跑了1小时。请问小明需要几小时才能追上小华？",
     "options": [
-      "A. 1小时",
-      "B. 2小时",
-      "C. 3小时",
-      "D. 4小时"
+      {
+        "label": "A",
+        "text": "1小时"
+      },
+      {
+        "label": "B",
+        "text": "2小时"
+      },
+      {
+        "label": "C",
+        "text": "3小时"
+      },
+      {
+        "label": "D",
+        "text": "4小时"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8099,10 +10223,22 @@
     "type": "choice",
     "question": "船在静水中的航速为12 km/h，水流速度为2 km/h。该船顺流航行3小时，能行驶多少千米？",
     "options": [
-      "A. 30 km",
-      "B. 42 km",
-      "C. 48 km",
-      "D. 36 km"
+      {
+        "label": "A",
+        "text": "30 km"
+      },
+      {
+        "label": "B",
+        "text": "42 km"
+      },
+      {
+        "label": "C",
+        "text": "48 km"
+      },
+      {
+        "label": "D",
+        "text": "36 km"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8134,10 +10270,22 @@
     "type": "choice",
     "question": "某商品原价为200元，打8折后价格是多少？",
     "options": [
-      "A. 140元",
-      "B. 160元",
-      "C. 180元",
-      "D. 200元"
+      {
+        "label": "A",
+        "text": "140元"
+      },
+      {
+        "label": "B",
+        "text": "160元"
+      },
+      {
+        "label": "C",
+        "text": "180元"
+      },
+      {
+        "label": "D",
+        "text": "200元"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8169,10 +10317,22 @@
     "type": "choice",
     "question": "学校提供营养午餐，一份午餐包含200克米饭、150克蔬菜和100克肉类，午餐总热量为800千卡。已知米饭提供30%的热量，蔬菜提供20%的热量，剩下的热量全部由肉类提供。请问肉类提供的热量是多少千卡？",
     "options": [
-      "A. 400千卡",
-      "B. 300千卡",
-      "C. 200千卡",
-      "D. 160千卡"
+      {
+        "label": "A",
+        "text": "400千卡"
+      },
+      {
+        "label": "B",
+        "text": "300千卡"
+      },
+      {
+        "label": "C",
+        "text": "200千卡"
+      },
+      {
+        "label": "D",
+        "text": "160千卡"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8204,10 +10364,22 @@
     "type": "choice",
     "question": "有三只动物，小狗比小猫重，小猫比小老鼠重。哪只动物最重？",
     "options": [
-      "A. 小狗",
-      "B. 小猫",
-      "C. 小老鼠",
-      "D. 一样重"
+      {
+        "label": "A",
+        "text": "小狗"
+      },
+      {
+        "label": "B",
+        "text": "小猫"
+      },
+      {
+        "label": "C",
+        "text": "小老鼠"
+      },
+      {
+        "label": "D",
+        "text": "一样重"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8239,10 +10411,22 @@
     "type": "choice",
     "question": "把1、2、3这三个数字进行有序排列，一共能得到多少种不同的排列？",
     "options": [
-      "A. 4",
-      "B. 5",
-      "C. 6",
-      "D. 7"
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -8274,10 +10458,22 @@
     "type": "choice",
     "question": "盒子里有3个红球和2个蓝球，随机摸一个球，摸到红球的可能性是多大？",
     "options": [
-      "A. 3/5",
-      "B. 2/5",
-      "C. 1/5",
-      "D. 1/2"
+      {
+        "label": "A",
+        "text": "3/5"
+      },
+      {
+        "label": "B",
+        "text": "2/5"
+      },
+      {
+        "label": "C",
+        "text": "1/5"
+      },
+      {
+        "label": "D",
+        "text": "1/2"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8309,10 +10505,22 @@
     "type": "choice",
     "question": "小华掷一枚标准的六面骰子，掷到 3 的概率是多少？",
     "options": [
-      "A. 1/6",
-      "B. 1/3",
-      "C. 1/2",
-      "D. 2/3"
+      {
+        "label": "A",
+        "text": "1/6"
+      },
+      {
+        "label": "B",
+        "text": "1/3"
+      },
+      {
+        "label": "C",
+        "text": "1/2"
+      },
+      {
+        "label": "D",
+        "text": "2/3"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8344,10 +10552,22 @@
     "type": "choice",
     "question": "下面关于数独的说法，正确的是（ ）",
     "options": [
-      "A. 行中可以出现重复的数字",
-      "B. 列中可以出现重复的数字",
-      "C. 宫格中可以出现重复的数字",
-      "D. 每行、每列、每个宫格必须包含数字1-9且不重复"
+      {
+        "label": "A",
+        "text": "行中可以出现重复的数字"
+      },
+      {
+        "label": "B",
+        "text": "列中可以出现重复的数字"
+      },
+      {
+        "label": "C",
+        "text": "宫格中可以出现重复的数字"
+      },
+      {
+        "label": "D",
+        "text": "每行、每列、每个宫格必须包含数字1-9且不重复"
+      }
     ],
     "answer": "D",
     "difficulty": 1,
@@ -8379,10 +10599,22 @@
     "type": "choice",
     "question": "把用6根火柴棒摆成的数字0，只移动一根火柴棒，可以变成数字几？",
     "options": [
-      "A. 1",
-      "B. 6",
-      "C. 8",
-      "D. 9"
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8414,10 +10646,22 @@
     "type": "choice",
     "question": "下面哪个图形不能一笔画出（不重复经过同一条线）？",
     "options": [
-      "A. 一个三角形",
-      "B. 一个正方形",
-      "C. 一个Y形",
-      "D. 一个圆形"
+      {
+        "label": "A",
+        "text": "一个三角形"
+      },
+      {
+        "label": "B",
+        "text": "一个正方形"
+      },
+      {
+        "label": "C",
+        "text": "一个Y形"
+      },
+      {
+        "label": "D",
+        "text": "一个圆形"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -8449,10 +10693,22 @@
     "type": "choice",
     "question": "下面哪个图形有且仅有一条对称轴？",
     "options": [
-      "A. 正方形",
-      "B. 长方形",
-      "C. 等腰三角形",
-      "D. 圆形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "长方形"
+      },
+      {
+        "label": "C",
+        "text": "等腰三角形"
+      },
+      {
+        "label": "D",
+        "text": "圆形"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -8484,10 +10740,22 @@
     "type": "choice",
     "question": "一块长方形的长是8厘米，宽是5厘米，它的周长是多少厘米？",
     "options": [
-      "A. 26厘米",
-      "B. 13厘米",
-      "C. 40厘米",
-      "D. 24厘米"
+      {
+        "label": "A",
+        "text": "26厘米"
+      },
+      {
+        "label": "B",
+        "text": "13厘米"
+      },
+      {
+        "label": "C",
+        "text": "40厘米"
+      },
+      {
+        "label": "D",
+        "text": "24厘米"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8519,10 +10787,22 @@
     "type": "choice",
     "question": "一块矩形土地长12米，宽8米，它的面积是多少平方米？",
     "options": [
-      "A. 96平方米",
-      "B. 84平方米",
-      "C. 96米",
-      "D. 84米"
+      {
+        "label": "A",
+        "text": "96平方米"
+      },
+      {
+        "label": "B",
+        "text": "84平方米"
+      },
+      {
+        "label": "C",
+        "text": "96米"
+      },
+      {
+        "label": "D",
+        "text": "84米"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8554,10 +10834,22 @@
     "type": "choice",
     "question": "一个长方形和一个直角三角形拼在一起，已知长方形的长8 cm，宽5 cm，直角三角形的两条直角边分别是5 cm和8 cm。组合图形的面积是多少平方厘米？",
     "options": [
-      "A. 60 cm²",
-      "B. 48 cm²",
-      "C. 40 cm²",
-      "D. 80 cm²"
+      {
+        "label": "A",
+        "text": "60 cm²"
+      },
+      {
+        "label": "B",
+        "text": "48 cm²"
+      },
+      {
+        "label": "C",
+        "text": "40 cm²"
+      },
+      {
+        "label": "D",
+        "text": "80 cm²"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8589,10 +10881,22 @@
     "type": "choice",
     "question": "把 3/5 转化为小数，正确的是哪个？",
     "options": [
-      "A. 0.6",
-      "B. 0.5",
-      "C. 0.4",
-      "D. 0.8"
+      {
+        "label": "A",
+        "text": "0.6"
+      },
+      {
+        "label": "B",
+        "text": "0.5"
+      },
+      {
+        "label": "C",
+        "text": "0.4"
+      },
+      {
+        "label": "D",
+        "text": "0.8"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8624,10 +10928,22 @@
     "type": "choice",
     "question": "小明有30元，买书后还剩12元，问买书花了多少元？",
     "options": [
-      "A. 12元",
-      "B. 18元",
-      "C. 20元",
-      "D. 15元"
+      {
+        "label": "A",
+        "text": "12元"
+      },
+      {
+        "label": "B",
+        "text": "18元"
+      },
+      {
+        "label": "C",
+        "text": "20元"
+      },
+      {
+        "label": "D",
+        "text": "15元"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8659,10 +10975,22 @@
     "type": "choice",
     "question": "小明用15分钟走了3公里，按相同速度，他走5公里需要多少分钟？",
     "options": [
-      "A. 20分钟",
-      "B. 25分钟",
-      "C. 30分钟",
-      "D. 35分钟"
+      {
+        "label": "A",
+        "text": "20分钟"
+      },
+      {
+        "label": "B",
+        "text": "25分钟"
+      },
+      {
+        "label": "C",
+        "text": "30分钟"
+      },
+      {
+        "label": "D",
+        "text": "35分钟"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8694,10 +11022,22 @@
     "type": "choice",
     "question": "一根绳子长12米，剪掉它的1/4，还剩多少米？",
     "options": [
-      "A. 9米",
-      "B. 8米",
-      "C. 10米",
-      "D. 11米"
+      {
+        "label": "A",
+        "text": "9米"
+      },
+      {
+        "label": "B",
+        "text": "8米"
+      },
+      {
+        "label": "C",
+        "text": "10米"
+      },
+      {
+        "label": "D",
+        "text": "11米"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8729,10 +11069,22 @@
     "type": "choice",
     "question": "某工程，甲单独完成需要10天，乙单独完成需要15天。两人合作需要多少天完成？",
     "options": [
-      "A. 5天",
-      "B. 6天",
-      "C. 8天",
-      "D. 10天"
+      {
+        "label": "A",
+        "text": "5天"
+      },
+      {
+        "label": "B",
+        "text": "6天"
+      },
+      {
+        "label": "C",
+        "text": "8天"
+      },
+      {
+        "label": "D",
+        "text": "10天"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8764,10 +11116,22 @@
     "type": "choice",
     "question": "下列哪个数字比4大且比8小？",
     "options": [
-      "A. 3",
-      "B. 5",
-      "C. 9",
-      "D. 7"
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -8799,10 +11163,22 @@
     "type": "choice",
     "question": "小明有7个苹果，给了小红3个，又买了2个，小明现在有多少个苹果？",
     "options": [
-      "A. 6",
-      "B. 7",
-      "C. 8",
-      "D. 9"
+      {
+        "label": "A",
+        "text": "6"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8834,10 +11210,22 @@
     "type": "choice",
     "question": "11到20之间，所有整数的个位数字之和是多少？",
     "options": [
-      "A. 45",
-      "B. 50",
-      "C. 55",
-      "D. 60"
+      {
+        "label": "A",
+        "text": "45"
+      },
+      {
+        "label": "B",
+        "text": "50"
+      },
+      {
+        "label": "C",
+        "text": "55"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8869,10 +11257,22 @@
     "type": "choice",
     "question": "小华原有18支铅笔，送走7支后又买了5支，他现在有多少支铅笔？",
     "options": [
-      "A. 14支",
-      "B. 15支",
-      "C. 16支",
-      "D. 17支"
+      {
+        "label": "A",
+        "text": "14支"
+      },
+      {
+        "label": "B",
+        "text": "15支"
+      },
+      {
+        "label": "C",
+        "text": "16支"
+      },
+      {
+        "label": "D",
+        "text": "17支"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -8904,10 +11304,22 @@
     "type": "choice",
     "question": "数字45中，十位上的数字是（ ）。",
     "options": [
-      "A. 4",
-      "B. 5",
-      "C. 45",
-      "D. 0"
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "45"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8939,10 +11351,22 @@
     "type": "choice",
     "question": "请计算 (48 + 37) - 25 = ?",
     "options": [
-      "A. 60",
-      "B. 65",
-      "C. 55",
-      "D. 70"
+      {
+        "label": "A",
+        "text": "60"
+      },
+      {
+        "label": "B",
+        "text": "65"
+      },
+      {
+        "label": "C",
+        "text": "55"
+      },
+      {
+        "label": "D",
+        "text": "70"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -8974,10 +11398,22 @@
     "type": "choice",
     "question": "下面哪个数的百位是7？",
     "options": [
-      "A. 572",
-      "B. 730",
-      "C. 647",
-      "D. 8071"
+      {
+        "label": "A",
+        "text": "572"
+      },
+      {
+        "label": "B",
+        "text": "730"
+      },
+      {
+        "label": "C",
+        "text": "647"
+      },
+      {
+        "label": "D",
+        "text": "8071"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9009,10 +11445,22 @@
     "type": "choice",
     "question": "456 + 237 = ?",
     "options": [
-      "A. 683",
-      "B. 693",
-      "C. 703",
-      "D. 713"
+      {
+        "label": "A",
+        "text": "683"
+      },
+      {
+        "label": "B",
+        "text": "693"
+      },
+      {
+        "label": "C",
+        "text": "703"
+      },
+      {
+        "label": "D",
+        "text": "713"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9044,10 +11492,22 @@
     "type": "choice",
     "question": "下面哪个选项正确描述了 5×3 的意义？",
     "options": [
-      "A. 5 加 3 等于 8",
-      "B. 5 个 3 相加的结果",
-      "C. 5 减 3 的差",
-      "D. 5 除以 3 的商"
+      {
+        "label": "A",
+        "text": "5 加 3 等于 8"
+      },
+      {
+        "label": "B",
+        "text": "5 个 3 相加的结果"
+      },
+      {
+        "label": "C",
+        "text": "5 减 3 的差"
+      },
+      {
+        "label": "D",
+        "text": "5 除以 3 的商"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9079,10 +11539,22 @@
     "type": "choice",
     "question": "小华有4本练习本，每本有5页，他一共有多少页？",
     "options": [
-      "A. 20",
-      "B. 24",
-      "C. 18",
-      "D. 15"
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "24"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9114,10 +11586,22 @@
     "type": "choice",
     "question": "8 × 7 = ?",
     "options": [
-      "A. 54",
-      "B. 56",
-      "C. 58",
-      "D. 62"
+      {
+        "label": "A",
+        "text": "54"
+      },
+      {
+        "label": "B",
+        "text": "56"
+      },
+      {
+        "label": "C",
+        "text": "58"
+      },
+      {
+        "label": "D",
+        "text": "62"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9149,10 +11633,22 @@
     "type": "choice",
     "question": "某礼堂有9排座位，每排8个座位，这个礼堂一共有多少个座位？",
     "options": [
-      "A. 56",
-      "B. 72",
-      "C. 48",
-      "D. 64"
+      {
+        "label": "A",
+        "text": "56"
+      },
+      {
+        "label": "B",
+        "text": "72"
+      },
+      {
+        "label": "C",
+        "text": "48"
+      },
+      {
+        "label": "D",
+        "text": "64"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9184,10 +11680,22 @@
     "type": "choice",
     "question": "把 20 颗草莓平均分给 4 个同学，每个同学能得到多少颗草莓？",
     "options": [
-      "A. 4颗",
-      "B. 5颗",
-      "C. 6颗",
-      "D. 7颗"
+      {
+        "label": "A",
+        "text": "4颗"
+      },
+      {
+        "label": "B",
+        "text": "5颗"
+      },
+      {
+        "label": "C",
+        "text": "6颗"
+      },
+      {
+        "label": "D",
+        "text": "7颗"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9219,10 +11727,22 @@
     "type": "choice",
     "question": "小明有56支铅笔，他想平均分给7个同学，每个同学能得到多少支铅笔？",
     "options": [
-      "A. 8",
-      "B. 7",
-      "C. 6",
-      "D. 9"
+      {
+        "label": "A",
+        "text": "8"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9254,10 +11774,22 @@
     "type": "choice",
     "question": "把 38 颗糖果平均分给 6 个同学，每人分到几颗，还剩多少颗？",
     "options": [
-      "A. 每人6颗，剩2颗",
-      "B. 每人6颗，剩1颗",
-      "C. 每人5颗，剩8颗",
-      "D. 每人7颗，剩0颗"
+      {
+        "label": "A",
+        "text": "每人6颗，剩2颗"
+      },
+      {
+        "label": "B",
+        "text": "每人6颗，剩1颗"
+      },
+      {
+        "label": "C",
+        "text": "每人5颗，剩8颗"
+      },
+      {
+        "label": "D",
+        "text": "每人7颗，剩0颗"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9289,10 +11821,22 @@
     "type": "choice",
     "question": "计算 12 × 4 ÷ 2 = ?",
     "options": [
-      "A. 24",
-      "B. 20",
-      "C. 18",
-      "D. 28"
+      {
+        "label": "A",
+        "text": "24"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "18"
+      },
+      {
+        "label": "D",
+        "text": "28"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9324,10 +11868,22 @@
     "type": "choice",
     "question": "下面哪个分数的值等于0.5？",
     "options": [
-      "A. 1/2",
-      "B. 2/3",
-      "C. 3/8",
-      "D. 4/5"
+      {
+        "label": "A",
+        "text": "1/2"
+      },
+      {
+        "label": "B",
+        "text": "2/3"
+      },
+      {
+        "label": "C",
+        "text": "3/8"
+      },
+      {
+        "label": "D",
+        "text": "4/5"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9359,10 +11915,22 @@
     "type": "choice",
     "question": "下面四个分数中，最小的分数是哪一个？",
     "options": [
-      "A. 2/5",
-      "B. 3/8",
-      "C. 1/3",
-      "D. 4/7"
+      {
+        "label": "A",
+        "text": "2/5"
+      },
+      {
+        "label": "B",
+        "text": "3/8"
+      },
+      {
+        "label": "C",
+        "text": "1/3"
+      },
+      {
+        "label": "D",
+        "text": "4/7"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -9394,10 +11962,22 @@
     "type": "choice",
     "question": "计算 2/7 + 3/7 = ?",
     "options": [
-      "A. 5/14",
-      "B. 5/7",
-      "C. 5/49",
-      "D. 6/7"
+      {
+        "label": "A",
+        "text": "5/14"
+      },
+      {
+        "label": "B",
+        "text": "5/7"
+      },
+      {
+        "label": "C",
+        "text": "5/49"
+      },
+      {
+        "label": "D",
+        "text": "6/7"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9429,10 +12009,22 @@
     "type": "choice",
     "question": "把分数3/5化成小数，哪个选项正确？",
     "options": [
-      "A. 0.6",
-      "B. 0.5",
-      "C. 0.3",
-      "D. 0.8"
+      {
+        "label": "A",
+        "text": "0.6"
+      },
+      {
+        "label": "B",
+        "text": "0.5"
+      },
+      {
+        "label": "C",
+        "text": "0.3"
+      },
+      {
+        "label": "D",
+        "text": "0.8"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9464,10 +12056,22 @@
     "type": "choice",
     "question": "0.75 用最简分数表示是（ ）。",
     "options": [
-      "A. 3/4",
-      "B. 75/100",
-      "C. 75/10",
-      "D. 7/5"
+      {
+        "label": "A",
+        "text": "3/4"
+      },
+      {
+        "label": "B",
+        "text": "75/100"
+      },
+      {
+        "label": "C",
+        "text": "75/10"
+      },
+      {
+        "label": "D",
+        "text": "7/5"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9499,10 +12103,22 @@
     "type": "choice",
     "question": "3.25 + 1.7 = ?",
     "options": [
-      "A. 4.95",
-      "B. 4.92",
-      "C. 5.0",
-      "D. 4.85"
+      {
+        "label": "A",
+        "text": "4.95"
+      },
+      {
+        "label": "B",
+        "text": "4.92"
+      },
+      {
+        "label": "C",
+        "text": "5.0"
+      },
+      {
+        "label": "D",
+        "text": "4.85"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9534,10 +12150,22 @@
     "type": "choice",
     "question": "4.2 × 0.3 = ?",
     "options": [
-      "A. 1.26",
-      "B. 12.6",
-      "C. 0.126",
-      "D. 126"
+      {
+        "label": "A",
+        "text": "1.26"
+      },
+      {
+        "label": "B",
+        "text": "12.6"
+      },
+      {
+        "label": "C",
+        "text": "0.126"
+      },
+      {
+        "label": "D",
+        "text": "126"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9569,10 +12197,22 @@
     "type": "choice",
     "question": "下面关于小数的意义的说法，哪一项是正确的？",
     "options": [
-      "A. 小数是整数的一部分",
-      "B. 小数是把整体分成10等份、100等份等得到的数",
-      "C. 小数只能表示小于1的数",
-      "D. 小数是带小数点的数"
+      {
+        "label": "A",
+        "text": "小数是整数的一部分"
+      },
+      {
+        "label": "B",
+        "text": "小数是把整体分成10等份、100等份等得到的数"
+      },
+      {
+        "label": "C",
+        "text": "小数只能表示小于1的数"
+      },
+      {
+        "label": "D",
+        "text": "小数是带小数点的数"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9604,10 +12244,22 @@
     "type": "choice",
     "question": "小明买一支铅笔用了1元5角，他付了2元，应该找回多少元？",
     "options": [
-      "A. 5角",
-      "B. 5元",
-      "C. 1元5角",
-      "D. 1元"
+      {
+        "label": "A",
+        "text": "5角"
+      },
+      {
+        "label": "B",
+        "text": "5元"
+      },
+      {
+        "label": "C",
+        "text": "1元5角"
+      },
+      {
+        "label": "D",
+        "text": "1元"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9639,10 +12291,22 @@
     "type": "choice",
     "question": "5元8角等于多少元？",
     "options": [
-      "A. 5.8元",
-      "B. 58元",
-      "C. 0.58元",
-      "D. 58.0元"
+      {
+        "label": "A",
+        "text": "5.8元"
+      },
+      {
+        "label": "B",
+        "text": "58元"
+      },
+      {
+        "label": "C",
+        "text": "0.58元"
+      },
+      {
+        "label": "D",
+        "text": "58.0元"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9674,10 +12338,22 @@
     "type": "choice",
     "question": "钟面上，时针走完一圈需要多少小时？",
     "options": [
-      "A. 12小时",
-      "B. 24小时",
-      "C. 6小时",
-      "D. 30小时"
+      {
+        "label": "A",
+        "text": "12小时"
+      },
+      {
+        "label": "B",
+        "text": "24小时"
+      },
+      {
+        "label": "C",
+        "text": "6小时"
+      },
+      {
+        "label": "D",
+        "text": "30小时"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9709,10 +12385,22 @@
     "type": "choice",
     "question": "已知2025年4月1日是星期二，2025年5月1日是星期几？",
     "options": [
-      "A. 星期一",
-      "B. 星期三",
-      "C. 星期四",
-      "D. 星期五"
+      {
+        "label": "A",
+        "text": "星期一"
+      },
+      {
+        "label": "B",
+        "text": "星期三"
+      },
+      {
+        "label": "C",
+        "text": "星期四"
+      },
+      {
+        "label": "D",
+        "text": "星期五"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -9744,10 +12432,22 @@
     "type": "choice",
     "question": "3.5米等于多少厘米？",
     "options": [
-      "A. 35厘米",
-      "B. 350厘米",
-      "C. 3500厘米",
-      "D. 0.35厘米"
+      {
+        "label": "A",
+        "text": "35厘米"
+      },
+      {
+        "label": "B",
+        "text": "350厘米"
+      },
+      {
+        "label": "C",
+        "text": "3500厘米"
+      },
+      {
+        "label": "D",
+        "text": "0.35厘米"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9779,10 +12479,22 @@
     "type": "choice",
     "question": "2.5 千克等于多少克？",
     "options": [
-      "A. 250 克",
-      "B. 2500 克",
-      "C. 25000 克",
-      "D. 2.5 克"
+      {
+        "label": "A",
+        "text": "250 克"
+      },
+      {
+        "label": "B",
+        "text": "2500 克"
+      },
+      {
+        "label": "C",
+        "text": "25000 克"
+      },
+      {
+        "label": "D",
+        "text": "2.5 克"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9814,10 +12526,22 @@
     "type": "choice",
     "question": "下面四个图形中，哪个图形的面积最大？",
     "options": [
-      "A. 长5 cm、宽4 cm的长方形",
-      "B. 边长6 cm的正方形",
-      "C. 底8 cm、高3 cm的三角形",
-      "D. 半径3 cm的圆"
+      {
+        "label": "A",
+        "text": "长5 cm、宽4 cm的长方形"
+      },
+      {
+        "label": "B",
+        "text": "边长6 cm的正方形"
+      },
+      {
+        "label": "C",
+        "text": "底8 cm、高3 cm的三角形"
+      },
+      {
+        "label": "D",
+        "text": "半径3 cm的圆"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9849,10 +12573,22 @@
     "type": "choice",
     "question": "下面哪个立体图形的体积可以直接用“长×宽×高”来计算？",
     "options": [
-      "A. 长方体",
-      "B. 圆柱体",
-      "C. 球体",
-      "D. 圆锥体"
+      {
+        "label": "A",
+        "text": "长方体"
+      },
+      {
+        "label": "B",
+        "text": "圆柱体"
+      },
+      {
+        "label": "C",
+        "text": "球体"
+      },
+      {
+        "label": "D",
+        "text": "圆锥体"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9884,10 +12620,22 @@
     "type": "choice",
     "question": "下列哪个图形是角？",
     "options": [
-      "A. 两条射线从同一点出发的图形",
-      "B. 圆形",
-      "C. 正方形",
-      "D. 长方形"
+      {
+        "label": "A",
+        "text": "两条射线从同一点出发的图形"
+      },
+      {
+        "label": "B",
+        "text": "圆形"
+      },
+      {
+        "label": "C",
+        "text": "正方形"
+      },
+      {
+        "label": "D",
+        "text": "长方形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -9919,10 +12667,22 @@
     "type": "choice",
     "question": "下列哪一个不是三角形？",
     "options": [
-      "A. 有三条边的封闭图形",
-      "B. 有四条边的封闭图形",
-      "C. 有五条边的封闭图形",
-      "D. 有曲线的封闭图形"
+      {
+        "label": "A",
+        "text": "有三条边的封闭图形"
+      },
+      {
+        "label": "B",
+        "text": "有四条边的封闭图形"
+      },
+      {
+        "label": "C",
+        "text": "有五条边的封闭图形"
+      },
+      {
+        "label": "D",
+        "text": "有曲线的封闭图形"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9954,10 +12714,22 @@
     "type": "choice",
     "question": "四边形的内角和是多少？",
     "options": [
-      "A. 180°",
-      "B. 360°",
-      "C. 90°",
-      "D. 540°"
+      {
+        "label": "A",
+        "text": "180°"
+      },
+      {
+        "label": "B",
+        "text": "360°"
+      },
+      {
+        "label": "C",
+        "text": "90°"
+      },
+      {
+        "label": "D",
+        "text": "540°"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -9989,10 +12761,22 @@
     "type": "choice",
     "question": "以下关于圆形的描述，哪一项是正确的？",
     "options": [
-      "A. 圆有3条半径",
-      "B. 圆的直径是半径的两倍",
-      "C. 圆有四个顶点",
-      "D. 圆的周长等于直径乘以2"
+      {
+        "label": "A",
+        "text": "圆有3条半径"
+      },
+      {
+        "label": "B",
+        "text": "圆的直径是半径的两倍"
+      },
+      {
+        "label": "C",
+        "text": "圆有四个顶点"
+      },
+      {
+        "label": "D",
+        "text": "圆的周长等于直径乘以2"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -10024,10 +12808,22 @@
     "type": "choice",
     "question": "下面的说法中，哪一个描述的是正方形而不是长方形？",
     "options": [
-      "A. 四条边长度相等且四个角都是直角",
-      "B. 对边平行且相等，四个角都是直角",
-      "C. 对角线相等且互相平分",
-      "D. 两组对边平行且相等"
+      {
+        "label": "A",
+        "text": "四条边长度相等且四个角都是直角"
+      },
+      {
+        "label": "B",
+        "text": "对边平行且相等，四个角都是直角"
+      },
+      {
+        "label": "C",
+        "text": "对角线相等且互相平分"
+      },
+      {
+        "label": "D",
+        "text": "两组对边平行且相等"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -10059,10 +12855,22 @@
     "type": "choice",
     "question": "把两个相同的直角三角形拼在一起，可以得到什么图形？",
     "options": [
-      "A. 长方形",
-      "B. 正方形",
-      "C. 梯形",
-      "D. 圆形"
+      {
+        "label": "A",
+        "text": "长方形"
+      },
+      {
+        "label": "B",
+        "text": "正方形"
+      },
+      {
+        "label": "C",
+        "text": "梯形"
+      },
+      {
+        "label": "D",
+        "text": "圆形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -10094,10 +12902,22 @@
     "type": "choice",
     "question": "下面哪个图形是轴对称图形？",
     "options": [
-      "A. 正方形",
-      "B. 平行四边形",
-      "C. 任意三角形",
-      "D. 不规则四边形"
+      {
+        "label": "A",
+        "text": "正方形"
+      },
+      {
+        "label": "B",
+        "text": "平行四边形"
+      },
+      {
+        "label": "C",
+        "text": "任意三角形"
+      },
+      {
+        "label": "D",
+        "text": "不规则四边形"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -10129,10 +12949,22 @@
     "type": "choice",
     "question": "把一个正方形先向右平移3格，再绕左上角顺时针旋转90°，得到的图形与原图形相比（ ）。",
     "options": [
-      "A. 形状相同，只是位置和方向改变",
-      "B. 形状改变",
-      "C. 只改变位置，方向不变",
-      "D. 没有变化"
+      {
+        "label": "A",
+        "text": "形状相同，只是位置和方向改变"
+      },
+      {
+        "label": "B",
+        "text": "形状改变"
+      },
+      {
+        "label": "C",
+        "text": "只改变位置，方向不变"
+      },
+      {
+        "label": "D",
+        "text": "没有变化"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -10164,10 +12996,22 @@
     "type": "choice",
     "question": "观察数列 1，3，6，10，15，…，找出规律并填出下一个数。",
     "options": [
-      "A. 18",
-      "B. 19",
-      "C. 20",
-      "D. 21"
+      {
+        "label": "A",
+        "text": "18"
+      },
+      {
+        "label": "B",
+        "text": "19"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "21"
+      }
     ],
     "answer": "D",
     "difficulty": 1,
@@ -10199,10 +13043,22 @@
     "type": "choice",
     "question": "观察下面图形的排列规律，第五幅图应该是什么形状？（提示：每幅图的边数依次为3、4、5、6、？）",
     "options": [
-      "A. 三角形",
-      "B. 四边形",
-      "C. 五边形",
-      "D. 六边形"
+      {
+        "label": "A",
+        "text": "三角形"
+      },
+      {
+        "label": "B",
+        "text": "四边形"
+      },
+      {
+        "label": "C",
+        "text": "五边形"
+      },
+      {
+        "label": "D",
+        "text": "六边形"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -10234,10 +13090,22 @@
     "type": "choice",
     "question": "某班10名同学的身高（cm）为152、155、155、158、160、162、162、165、167、170，这组数据的中位数是多少？",
     "options": [
-      "A. 158",
-      "B. 160",
-      "C. 161",
-      "D. 162"
+      {
+        "label": "A",
+        "text": "158"
+      },
+      {
+        "label": "B",
+        "text": "160"
+      },
+      {
+        "label": "C",
+        "text": "161"
+      },
+      {
+        "label": "D",
+        "text": "162"
+      }
     ],
     "answer": "C",
     "difficulty": 1,
@@ -10269,10 +13137,22 @@
     "type": "choice",
     "question": "在统计全班同学喜欢的颜色（红、蓝、绿、黄）时，最好使用哪种图表来展示结果？",
     "options": [
-      "A. 折线图",
-      "B. 条形图",
-      "C. 饼图",
-      "D. 雷达图"
+      {
+        "label": "A",
+        "text": "折线图"
+      },
+      {
+        "label": "B",
+        "text": "条形图"
+      },
+      {
+        "label": "C",
+        "text": "饼图"
+      },
+      {
+        "label": "D",
+        "text": "雷达图"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -10304,10 +13184,22 @@
     "type": "choice",
     "question": "下面四个数中，最小的数是哪个？",
     "options": [
-      "A. 0.7",
-      "B. 3/4",
-      "C. 0.85",
-      "D. 1/2"
+      {
+        "label": "A",
+        "text": "0.7"
+      },
+      {
+        "label": "B",
+        "text": "3/4"
+      },
+      {
+        "label": "C",
+        "text": "0.85"
+      },
+      {
+        "label": "D",
+        "text": "1/2"
+      }
     ],
     "answer": "D",
     "difficulty": 1,
@@ -10339,10 +13231,22 @@
     "type": "choice",
     "question": "已知 a = 4，b = 6，求 a + b 的值。",
     "options": [
-      "A. 10",
-      "B. 9",
-      "C. 8",
-      "D. 7"
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "9"
+      },
+      {
+        "label": "C",
+        "text": "8"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
     ],
     "answer": "A",
     "difficulty": 1,
@@ -10374,10 +13278,22 @@
     "type": "choice",
     "question": "下面哪一项是方程？",
     "options": [
-      "A. 2+3=5",
-      "B. x+4=9",
-      "C. 3>2",
-      "D. 7"
+      {
+        "label": "A",
+        "text": "2+3=5"
+      },
+      {
+        "label": "B",
+        "text": "x+4=9"
+      },
+      {
+        "label": "C",
+        "text": "3>2"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -10409,10 +13325,22 @@
     "type": "choice",
     "question": "求 x 的值：x + 5 = 12",
     "options": [
-      "A. 5",
-      "B. 7",
-      "C. 17",
-      "D. 6"
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "17"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -10444,10 +13372,22 @@
     "type": "choice",
     "question": "小明去超市买水果，苹果每千克8元，梨每千克6元。他买了2千克苹果和3千克梨，一共花了多少元？",
     "options": [
-      "A. 28元",
-      "B. 34元",
-      "C. 40元",
-      "D. 42元"
+      {
+        "label": "A",
+        "text": "28元"
+      },
+      {
+        "label": "B",
+        "text": "34元"
+      },
+      {
+        "label": "C",
+        "text": "40元"
+      },
+      {
+        "label": "D",
+        "text": "42元"
+      }
     ],
     "answer": "B",
     "difficulty": 1,
@@ -10479,10 +13419,22 @@
     "type": "choice",
     "question": "小华下午3点30分开始做作业，每15分钟完成一道题，完成5道题后他结束作业的时间是？",
     "options": [
-      "A. 4:30",
-      "B. 4:45",
-      "C. 5:00",
-      "D. 5:15"
+      {
+        "label": "A",
+        "text": "4:30"
+      },
+      {
+        "label": "B",
+        "text": "4:45"
+      },
+      {
+        "label": "C",
+        "text": "5:00"
+      },
+      {
+        "label": "D",
+        "text": "5:15"
+      }
     ],
     "answer": "B",
     "difficulty": 1,

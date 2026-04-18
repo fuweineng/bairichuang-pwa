@@ -1568,12 +1568,24 @@
     ],
     "question": "What happened first in the story?",
     "options": [
-      "A.",
-      "B.",
-      "C.",
-      "D."
+      {
+        "label": "A",
+        "text": "The boy woke up early in the morning."
+      },
+      {
+        "label": "B",
+        "text": "The boy went to school with his backpack."
+      },
+      {
+        "label": "C",
+        "text": "The boy attended an English class."
+      },
+      {
+        "label": "D",
+        "text": "The boy played football after class."
+      }
     ],
-    "answer": "A.",
+    "answer": "A",
     "explanation": "根据时间顺序判断先后。",
     "audio": "audio/english_042_q.mp3",
     "optionAudio": [

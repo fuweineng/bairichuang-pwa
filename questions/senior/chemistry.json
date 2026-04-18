@@ -4,10 +4,22 @@
     "type": "choice",
     "question": "已知某原子核中有6个质子和7个中子，则该原子的质量数为多少？",
     "options": [
-      "A. 该原子的质量数为6",
-      "B. 该原子的质量数为12",
-      "C. 该原子的质量数为13",
-      "D. 该原子的质量数为14"
+      {
+        "label": "A",
+        "text": "该原子的质量数为6"
+      },
+      {
+        "label": "B",
+        "text": "该原子的质量数为12"
+      },
+      {
+        "label": "C",
+        "text": "该原子的质量数为13"
+      },
+      {
+        "label": "D",
+        "text": "该原子的质量数为14"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -20,10 +32,22 @@
     "type": "choice",
     "question": "已知某原子X的原子核中有12个质子和13个中子，若该原子失去2个电子形成X^2+离子后，离子中的电子数为多少？",
     "options": [
-      "A. 该离子中含有10个电子。",
-      "B. 该离子中含有12个电子。",
-      "C. 该离子中含有13个电子。",
-      "D. 该离子中含有14个电子。"
+      {
+        "label": "A",
+        "text": "该离子中含有10个电子。"
+      },
+      {
+        "label": "B",
+        "text": "该离子中含有12个电子。"
+      },
+      {
+        "label": "C",
+        "text": "该离子中含有13个电子。"
+      },
+      {
+        "label": "D",
+        "text": "该离子中含有14个电子。"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -36,10 +60,22 @@
     "type": "choice",
     "question": "根据核外电子排布规律，下列关于第4周期元素铬（Cr）的核外电子排布说法正确的是？",
     "options": [
-      "A. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d⁴",
-      "B. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s¹3d⁵",
-      "C. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d⁵",
-      "D. 铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d³"
+      {
+        "label": "A",
+        "text": "铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d⁴"
+      },
+      {
+        "label": "B",
+        "text": "铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s¹3d⁵"
+      },
+      {
+        "label": "C",
+        "text": "铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d⁵"
+      },
+      {
+        "label": "D",
+        "text": "铬的核外电子排布为1s²2s²2p⁶3s²3p⁶4s²3d³"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -52,10 +88,22 @@
     "type": "choice",
     "question": "原子序数为 34 的元素在周期表中位于第几周期第几族？",
     "options": [
-      "A. 位于第 3 周期，第 16 族",
-      "B. 位于第 4 周期，第 16 族",
-      "C. 位于第 4 周期，第 15 族",
-      "D. 位于第 3 周期，第 15 族"
+      {
+        "label": "A",
+        "text": "位于第 3 周期，第 16 族"
+      },
+      {
+        "label": "B",
+        "text": "位于第 4 周期，第 16 族"
+      },
+      {
+        "label": "C",
+        "text": "位于第 4 周期，第 15 族"
+      },
+      {
+        "label": "D",
+        "text": "位于第 3 周期，第 15 族"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -68,10 +116,22 @@
     "type": "choice",
     "question": "某元素原子的最高能层（主量子数）为4，且最外层电子数为2，它应位于元素周期表的第几周期第几族？",
     "options": [
-      "A. 第4周期第I族",
-      "B. 第4周期第II族",
-      "C. 第3周期第II族",
-      "D. 第4周期第III族"
+      {
+        "label": "A",
+        "text": "第4周期第I族"
+      },
+      {
+        "label": "B",
+        "text": "第4周期第II族"
+      },
+      {
+        "label": "C",
+        "text": "第3周期第II族"
+      },
+      {
+        "label": "D",
+        "text": "第4周期第III族"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -84,10 +144,22 @@
     "type": "choice",
     "question": "在同一周期（第三周期）中，已知下列原子的半径分别为：Na 186 pm，Mg 160 pm，Al 143 pm，Si 117 pm。根据原子半径递变规律，原子半径随原子序数的增大呈______趋势。",
     "options": [
-      "A. Na > Mg > Al > Si（逐渐减小）",
-      "B. Na < Mg < Al < Si（逐渐增大）",
-      "C. Na = Mg = Al = Si（保持不变）",
-      "D. Na < Mg > Al > Si（先增后减）"
+      {
+        "label": "A",
+        "text": "Na > Mg > Al > Si（逐渐减小）"
+      },
+      {
+        "label": "B",
+        "text": "Na < Mg < Al < Si（逐渐增大）"
+      },
+      {
+        "label": "C",
+        "text": "Na = Mg = Al = Si（保持不变）"
+      },
+      {
+        "label": "D",
+        "text": "Na < Mg > Al > Si（先增后减）"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -100,10 +172,22 @@
     "type": "choice",
     "question": "已知第三周期元素（Na、Mg、Al、Si、P、S、Cl、Ar）第一电离能分别为 Na 496 kJ·mol⁻¹、Mg 738 kJ·mol⁻¹、Al 578 kJ·mol⁻¹、Si 786 kJ·mol⁻¹、P 1012 kJ·mol⁻¹、S 1000 kJ·mol⁻¹、Cl 1251 kJ·mol⁻¹、Ar 1520 kJ·mol⁻¹。关于金属性与非金属性随原子序数变化的递变规律，下列说法正确的是（ ）。",
     "options": [
-      "A. 从左到右，金属性逐渐增强，非金属性逐渐减弱。",
-      "B. Mg的第一电离能（738 kJ·mol⁻¹）高于Al（578 kJ·mol⁻¹），说明Mg的金属性弱于Al。",
-      "C. Si的金属性大于P的非金属性。",
-      "D. Cl的非金属性弱于Ar的非金属性。"
+      {
+        "label": "A",
+        "text": "从左到右，金属性逐渐增强，非金属性逐渐减弱。"
+      },
+      {
+        "label": "B",
+        "text": "Mg的第一电离能（738 kJ·mol⁻¹）高于Al（578 kJ·mol⁻¹），说明Mg的金属性弱于Al。"
+      },
+      {
+        "label": "C",
+        "text": "Si的金属性大于P的非金属性。"
+      },
+      {
+        "label": "D",
+        "text": "Cl的非金属性弱于Ar的非金属性。"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -116,10 +200,22 @@
     "type": "choice",
     "question": "下列化合物中，主要以离子键结合的是？",
     "options": [
-      "A. NaCl（离子化合物）",
-      "B. H₂O（共价化合物）",
-      "C. CO₂（共价化合物）",
-      "D. Fe（金属键）"
+      {
+        "label": "A",
+        "text": "NaCl（离子化合物）"
+      },
+      {
+        "label": "B",
+        "text": "H₂O（共价化合物）"
+      },
+      {
+        "label": "C",
+        "text": "CO₂（共价化合物）"
+      },
+      {
+        "label": "D",
+        "text": "Fe（金属键）"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -132,10 +228,22 @@
     "type": "choice",
     "question": "下列哪组原子之间最容易形成离子键？",
     "options": [
-      "A. 氢原子（H）与氟原子（F）之间的相互作用",
-      "B. 钠原子（Na）与氯原子（Cl）之间的相互作用",
-      "C. 碳原子（C）与氧原子（O）之间的相互作用",
-      "D. 氮原子（N）与氢原子（H）之间的相互作用"
+      {
+        "label": "A",
+        "text": "氢原子（H）与氟原子（F）之间的相互作用"
+      },
+      {
+        "label": "B",
+        "text": "钠原子（Na）与氯原子（Cl）之间的相互作用"
+      },
+      {
+        "label": "C",
+        "text": "碳原子（C）与氧原子（O）之间的相互作用"
+      },
+      {
+        "label": "D",
+        "text": "氮原子（N）与氢原子（H）之间的相互作用"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -148,10 +256,22 @@
     "type": "choice",
     "question": "下列氢化物中，哪一个共价键的极性最强？",
     "options": [
-      "A. HF分子中的H-F键极性最强。",
-      "B. HCl分子中的H-Cl键极性最强。",
-      "C. HBr分子中的H-Br键极性最强。",
-      "D. HI分子中的H-I键极性最强。"
+      {
+        "label": "A",
+        "text": "HF分子中的H-F键极性最强。"
+      },
+      {
+        "label": "B",
+        "text": "HCl分子中的H-Cl键极性最强。"
+      },
+      {
+        "label": "C",
+        "text": "HBr分子中的H-Br键极性最强。"
+      },
+      {
+        "label": "D",
+        "text": "HI分子中的H-I键极性最强。"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -164,10 +284,22 @@
     "type": "choice",
     "question": "以下关于氨气（NH₃）电子式的书写，正确的是哪一项？",
     "options": [
-      "A. NH₃的电子式为 H—N—H，氮原子周围有一对点",
-      "B. NH₃的电子式为 H—N—H，氮原子周围有三对点",
-      "C. NH₃的电子式为 H=N—H，氮原子周围有一对点",
-      "D. NH₃的电子式为 H—N—H，氮原子无点"
+      {
+        "label": "A",
+        "text": "NH₃的电子式为 H—N—H，氮原子周围有一对点"
+      },
+      {
+        "label": "B",
+        "text": "NH₃的电子式为 H—N—H，氮原子周围有三对点"
+      },
+      {
+        "label": "C",
+        "text": "NH₃的电子式为 H=N—H，氮原子周围有一对点"
+      },
+      {
+        "label": "D",
+        "text": "NH₃的电子式为 H—N—H，氮原子无点"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -180,10 +312,22 @@
     "type": "choice",
     "question": "以下哪种物质的分子间主要不存在氢键？",
     "options": [
-      "A. 水 (H2O)",
-      "B. 乙醇 (C2H5OH)",
-      "C. 氟化氢 (HF)",
-      "D. 甲烷 (CH4)"
+      {
+        "label": "A",
+        "text": "水 (H2O)"
+      },
+      {
+        "label": "B",
+        "text": "乙醇 (C2H5OH)"
+      },
+      {
+        "label": "C",
+        "text": "氟化氢 (HF)"
+      },
+      {
+        "label": "D",
+        "text": "甲烷 (CH4)"
+      }
     ],
     "answer": "D",
     "difficulty": 2,
@@ -196,10 +340,22 @@
     "type": "choice",
     "question": "以下关于氢键对物质性质影响的说法中，正确的是（ ）。",
     "options": [
-      "A. 氢键能显著提高水的沸点，使其高于同族的硫化氢。",
-      "B. 氢键对氨气的熔点影响不大，使其熔点低于氮气。",
-      "C. 氢键会导致醇类在水中的溶解度降低。",
-      "D. 氢键在蛋白质二级结构中起关键作用，但对DNA双螺旋结构的稳定性没有贡献。"
+      {
+        "label": "A",
+        "text": "氢键能显著提高水的沸点，使其高于同族的硫化氢。"
+      },
+      {
+        "label": "B",
+        "text": "氢键对氨气的熔点影响不大，使其熔点低于氮气。"
+      },
+      {
+        "label": "C",
+        "text": "氢键会导致醇类在水中的溶解度降低。"
+      },
+      {
+        "label": "D",
+        "text": "氢键在蛋白质二级结构中起关键作用，但对DNA双螺旋结构的稳定性没有贡献。"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -212,10 +368,22 @@
     "type": "choice",
     "question": "下列晶体的熔点（°C）最高的是？",
     "options": [
-      "A. NaCl（801°C）",
-      "B. SiO₂（1710°C）",
-      "C. Fe（1538°C）",
-      "D. CO₂（升华-78°C）"
+      {
+        "label": "A",
+        "text": "NaCl（801°C）"
+      },
+      {
+        "label": "B",
+        "text": "SiO₂（1710°C）"
+      },
+      {
+        "label": "C",
+        "text": "Fe（1538°C）"
+      },
+      {
+        "label": "D",
+        "text": "CO₂（升华-78°C）"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -228,10 +396,22 @@
     "type": "choice",
     "question": "以下哪种离子化合物的晶体结构中，阳离子的配位数为8？",
     "options": [
-      "A. NaCl（岩盐结构，配位数6）",
-      "B. CsCl（体心立方结构，配位数8）",
-      "C. MgO（岩盐结构，配位数6）",
-      "D. ZnS（闪锌矿结构，配位数4）"
+      {
+        "label": "A",
+        "text": "NaCl（岩盐结构，配位数6）"
+      },
+      {
+        "label": "B",
+        "text": "CsCl（体心立方结构，配位数8）"
+      },
+      {
+        "label": "C",
+        "text": "MgO（岩盐结构，配位数6）"
+      },
+      {
+        "label": "D",
+        "text": "ZnS（闪锌矿结构，配位数4）"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -244,10 +424,22 @@
     "type": "choice",
     "question": "下列关于原子晶体的说法中，正确的是？",
     "options": [
-      "A. 金刚石由碳原子通过共价键形成三维网络结构，属于原子晶体。",
-      "B. 食盐晶体中Na⁺和Cl⁻离子通过离子键结合，属于原子晶体。",
-      "C. 甲烷分子通过范德华力相互吸引，属于原子晶体。",
-      "D. 玻璃是非晶体，不属于原子晶体。"
+      {
+        "label": "A",
+        "text": "金刚石由碳原子通过共价键形成三维网络结构，属于原子晶体。"
+      },
+      {
+        "label": "B",
+        "text": "食盐晶体中Na⁺和Cl⁻离子通过离子键结合，属于原子晶体。"
+      },
+      {
+        "label": "C",
+        "text": "甲烷分子通过范德华力相互吸引，属于原子晶体。"
+      },
+      {
+        "label": "D",
+        "text": "玻璃是非晶体，不属于原子晶体。"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -260,10 +452,22 @@
     "type": "choice",
     "question": "下列分子晶体在标准大气压下的沸点最高的是（已知沸点分别为：N₂ 77 K，O₂ 90 K，CO₂ 194.7 K，NH₃ 239.7 K）：",
     "options": [
-      "A. N₂",
-      "B. O₂",
-      "C. CO₂",
-      "D. NH₃"
+      {
+        "label": "A",
+        "text": "N₂"
+      },
+      {
+        "label": "B",
+        "text": "O₂"
+      },
+      {
+        "label": "C",
+        "text": "CO₂"
+      },
+      {
+        "label": "D",
+        "text": "NH₃"
+      }
     ],
     "answer": "D",
     "difficulty": 2,
@@ -276,10 +480,22 @@
     "type": "choice",
     "question": "以下哪种金属的性质最能用金属晶体的电子气理论解释？",
     "options": [
-      "A. 铜(Cu)的高电导率",
-      "B. 铝(Al)的低密度",
-      "C. 铁(Fe)的铁磁性",
-      "D. 碳(C)金刚石的高硬度"
+      {
+        "label": "A",
+        "text": "铜(Cu)的高电导率"
+      },
+      {
+        "label": "B",
+        "text": "铝(Al)的低密度"
+      },
+      {
+        "label": "C",
+        "text": "铁(Fe)的铁磁性"
+      },
+      {
+        "label": "D",
+        "text": "碳(C)金刚石的高硬度"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -292,10 +508,22 @@
     "type": "choice",
     "question": "若要用无水氯化钠配制250 mL 0.20 mol·L⁻¹的溶液，需要称取多少克无水氯化钠？",
     "options": [
-      "A. 1.17 g",
-      "B. 2.92 g",
-      "C. 5.84 g",
-      "D. 0.585 g"
+      {
+        "label": "A",
+        "text": "1.17 g"
+      },
+      {
+        "label": "B",
+        "text": "2.92 g"
+      },
+      {
+        "label": "C",
+        "text": "5.84 g"
+      },
+      {
+        "label": "D",
+        "text": "0.585 g"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -308,10 +536,22 @@
     "type": "choice",
     "question": "在标准状况下，0.5 mol O₂的质量是多少克？",
     "options": [
-      "A. 8 g",
-      "B. 16 g",
-      "C. 24 g",
-      "D. 32 g"
+      {
+        "label": "A",
+        "text": "8 g"
+      },
+      {
+        "label": "B",
+        "text": "16 g"
+      },
+      {
+        "label": "C",
+        "text": "24 g"
+      },
+      {
+        "label": "D",
+        "text": "32 g"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -324,10 +564,22 @@
     "type": "choice",
     "question": "在标准状况（0℃，101.3 kPa）下，某气体质量为 4.4 g，体积为 2.24 L，则该气体的相对分子质量为多少？",
     "options": [
-      "A. 该气体的相对分子质量为 22 g/mol。",
-      "B. 该气体的相对分子质量为 44 g/mol。",
-      "C. 该气体的相对分子质量为 88 g/mol。",
-      "D. 该气体的相对分子质量为 11 g/mol。"
+      {
+        "label": "A",
+        "text": "该气体的相对分子质量为 22 g/mol。"
+      },
+      {
+        "label": "B",
+        "text": "该气体的相对分子质量为 44 g/mol。"
+      },
+      {
+        "label": "C",
+        "text": "该气体的相对分子质量为 88 g/mol。"
+      },
+      {
+        "label": "D",
+        "text": "该气体的相对分子质量为 11 g/mol。"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -340,10 +592,22 @@
     "type": "choice",
     "question": "下列哪种分散系在光照下能明显观察到廷德尔效应？",
     "options": [
-      "A. 0.01 mol·L⁻¹ NaCl溶液（真溶液，粒子直径 <1 nm）",
-      "B. 0.01 mol·L⁻¹ Na₂S₂O₃溶液（真溶液，粒子直径 <1 nm）",
-      "C. 金溶胶（胶体，粒子直径约 20 nm）",
-      "D. 泥浆（悬浊液，粒子直径约 10 μm）"
+      {
+        "label": "A",
+        "text": "0.01 mol·L⁻¹ NaCl溶液（真溶液，粒子直径 <1 nm）"
+      },
+      {
+        "label": "B",
+        "text": "0.01 mol·L⁻¹ Na₂S₂O₃溶液（真溶液，粒子直径 <1 nm）"
+      },
+      {
+        "label": "C",
+        "text": "金溶胶（胶体，粒子直径约 20 nm）"
+      },
+      {
+        "label": "D",
+        "text": "泥浆（悬浊液，粒子直径约 10 μm）"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -356,10 +620,22 @@
     "type": "choice",
     "question": "在实验室中，制备透明的Fe(OH)₃胶体最常用且操作简便的方法是（ ）。",
     "options": [
-      "A. 将0.1 mol/L的FeCl₃溶液逐滴加入沸腾的蒸馏水中并快速冷却",
-      "B. 将0.1 mol/L的FeCl₃溶液与0.2 mol/L的NaOH溶液等体积混合后离心分离",
-      "C. 将0.1 mol/L的FeCl₃溶液滴入稀盐酸中并持续搅拌",
-      "D. 将0.1 mol/L的FeCl₃溶液在室温下直接加入蒸馏水并静置"
+      {
+        "label": "A",
+        "text": "将0.1 mol/L的FeCl₃溶液逐滴加入沸腾的蒸馏水中并快速冷却"
+      },
+      {
+        "label": "B",
+        "text": "将0.1 mol/L的FeCl₃溶液与0.2 mol/L的NaOH溶液等体积混合后离心分离"
+      },
+      {
+        "label": "C",
+        "text": "将0.1 mol/L的FeCl₃溶液滴入稀盐酸中并持续搅拌"
+      },
+      {
+        "label": "D",
+        "text": "将0.1 mol/L的FeCl₃溶液在室温下直接加入蒸馏水并静置"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -372,10 +648,22 @@
     "type": "choice",
     "question": "以下哪种溶液能够观察到丁达尔效应？",
     "options": [
-      "A. 牛奶胶体溶液",
-      "B. 纯酒精溶液",
-      "C. 食盐溶液",
-      "D. 蔗糖溶液"
+      {
+        "label": "A",
+        "text": "牛奶胶体溶液"
+      },
+      {
+        "label": "B",
+        "text": "纯酒精溶液"
+      },
+      {
+        "label": "C",
+        "text": "食盐溶液"
+      },
+      {
+        "label": "D",
+        "text": "蔗糖溶液"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -388,10 +676,22 @@
     "type": "choice",
     "question": "关于氧化还原反应的判断，下列说法正确的是？",
     "options": [
-      "A. 氧化剂在反应中失去电子",
-      "B. 还原剂在反应中失去电子",
-      "C. 氧化剂的氧化数升高",
-      "D. 还原剂的氧化数降低"
+      {
+        "label": "A",
+        "text": "氧化剂在反应中失去电子"
+      },
+      {
+        "label": "B",
+        "text": "还原剂在反应中失去电子"
+      },
+      {
+        "label": "C",
+        "text": "氧化剂的氧化数升高"
+      },
+      {
+        "label": "D",
+        "text": "还原剂的氧化数降低"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -404,10 +704,22 @@
     "type": "choice",
     "question": "在反应 MnO2 + 4HCl → MnCl2 + Cl2 + 2H2O 中，哪种物质是氧化剂？",
     "options": [
-      "A. MnO2是氧化剂",
-      "B. HCl是氧化剂",
-      "C. MnCl2是氧化剂",
-      "D. Cl2是氧化剂"
+      {
+        "label": "A",
+        "text": "MnO2是氧化剂"
+      },
+      {
+        "label": "B",
+        "text": "HCl是氧化剂"
+      },
+      {
+        "label": "C",
+        "text": "MnCl2是氧化剂"
+      },
+      {
+        "label": "D",
+        "text": "Cl2是氧化剂"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -420,10 +732,22 @@
     "type": "choice",
     "question": "在酸性条件下，高锰酸钾(KMnO4)与草酸根(C2O4^2-)反应的离子方程式为：2MnO4^- + 5C2O4^2- + 16H+ → 2Mn^2+ + 10CO2 + 8H2O。若反应中每消耗1 mol KMnO4，则有多少摩尔的电子转移？",
     "options": [
-      "A. 每摩尔的KMnO4转移2 mol电子。",
-      "B. 每摩尔的KMnO4转移3 mol电子。",
-      "C. 每摩尔的KMnO4转移5 mol电子。",
-      "D. 每摩尔的KMnO4转移10 mol电子。"
+      {
+        "label": "A",
+        "text": "每摩尔的KMnO4转移2 mol电子。"
+      },
+      {
+        "label": "B",
+        "text": "每摩尔的KMnO4转移3 mol电子。"
+      },
+      {
+        "label": "C",
+        "text": "每摩尔的KMnO4转移5 mol电子。"
+      },
+      {
+        "label": "D",
+        "text": "每摩尔的KMnO4转移10 mol电子。"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -436,10 +760,22 @@
     "type": "choice",
     "question": "在酸性条件下，高锰酸根离子（MnO4⁻）与亚铁离子（Fe²⁺）发生氧化还原反应，配平后的离子方程式为：MnO4⁻ + 5Fe²⁺ + ___H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O。请问空缺处的H⁺系数为多少？",
     "options": [
-      "A. H⁺的系数为8",
-      "B. H⁺的系数为6",
-      "C. H⁺的系数为10",
-      "D. H⁺的系数为7"
+      {
+        "label": "A",
+        "text": "H⁺的系数为8"
+      },
+      {
+        "label": "B",
+        "text": "H⁺的系数为6"
+      },
+      {
+        "label": "C",
+        "text": "H⁺的系数为10"
+      },
+      {
+        "label": "D",
+        "text": "H⁺的系数为7"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -452,10 +788,22 @@
     "type": "choice",
     "question": "在反应 3Cu + 8HNO3 → 3Cu(NO3)2 + 2NO + 4H2O 中，铜原子的氧化状态变化是（ ）。",
     "options": [
-      "A. 铜从0价变为+2价，失去电子，被氧化。",
-      "B. 铜从0价变为+2价，获得电子，被还原。",
-      "C. 铜从0价变为+1价，失去电子，被氧化。",
-      "D. 铜从0价变为+1价，获得电子，被还原。"
+      {
+        "label": "A",
+        "text": "铜从0价变为+2价，失去电子，被氧化。"
+      },
+      {
+        "label": "B",
+        "text": "铜从0价变为+2价，获得电子，被还原。"
+      },
+      {
+        "label": "C",
+        "text": "铜从0价变为+1价，失去电子，被氧化。"
+      },
+      {
+        "label": "D",
+        "text": "铜从0价变为+1价，获得电子，被还原。"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -468,10 +816,22 @@
     "type": "choice",
     "question": "在含有0.1 mol Na2CO3的溶液中加入足量的 Ca(OH)2，完全反应后生成的 NaOH 质量是多少？",
     "options": [
-      "A. 4.0 g",
-      "B. 8.0 g",
-      "C. 12.0 g",
-      "D. 16.0 g"
+      {
+        "label": "A",
+        "text": "4.0 g"
+      },
+      {
+        "label": "B",
+        "text": "8.0 g"
+      },
+      {
+        "label": "C",
+        "text": "12.0 g"
+      },
+      {
+        "label": "D",
+        "text": "16.0 g"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -484,10 +844,22 @@
     "type": "choice",
     "question": "下列关于Al2O3的说法正确的是（ ）。",
     "options": [
-      "A. Al2O3在稀硫酸中不溶解。",
-      "B. Al2O3在氢氧化钠溶液中可生成NaAlO2而溶解。",
-      "C. Al2O3在空气中易被氧化为Al(OH)3。",
-      "D. Al2O3只能在酸性环境中反应，不能与碱反应。"
+      {
+        "label": "A",
+        "text": "Al2O3在稀硫酸中不溶解。"
+      },
+      {
+        "label": "B",
+        "text": "Al2O3在氢氧化钠溶液中可生成NaAlO2而溶解。"
+      },
+      {
+        "label": "C",
+        "text": "Al2O3在空气中易被氧化为Al(OH)3。"
+      },
+      {
+        "label": "D",
+        "text": "Al2O3只能在酸性环境中反应，不能与碱反应。"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -500,10 +872,22 @@
     "type": "choice",
     "question": "在FeSO4溶液中加入过量NaOH后形成的沉淀在空气中放置后颜色逐渐变为棕红色，该沉淀最终为（ ）。",
     "options": [
-      "A. 生成的沉淀是白色的Fe(OH)₂",
-      "B. 生成的沉淀是棕红色的Fe(OH)₃",
-      "C. 生成的沉淀是红棕色的Fe₂O₃",
-      "D. 生成的沉淀是黑色的Fe₃O₄"
+      {
+        "label": "A",
+        "text": "生成的沉淀是白色的Fe(OH)₂"
+      },
+      {
+        "label": "B",
+        "text": "生成的沉淀是棕红色的Fe(OH)₃"
+      },
+      {
+        "label": "C",
+        "text": "生成的沉淀是红棕色的Fe₂O₃"
+      },
+      {
+        "label": "D",
+        "text": "生成的沉淀是黑色的Fe₃O₄"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -516,10 +900,22 @@
     "type": "choice",
     "question": "氯气通入足量氢氧化钠溶液中，充分反应后得到的产物是下列哪一组？",
     "options": [
-      "A. NaCl、NaClO 和 H2O",
-      "B. NaCl、HClO",
-      "C. NaCl、NaClO2",
-      "D. NaCl、NaClO3"
+      {
+        "label": "A",
+        "text": "NaCl、NaClO 和 H2O"
+      },
+      {
+        "label": "B",
+        "text": "NaCl、HClO"
+      },
+      {
+        "label": "C",
+        "text": "NaCl、NaClO2"
+      },
+      {
+        "label": "D",
+        "text": "NaCl、NaClO3"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -532,10 +928,22 @@
     "type": "choice",
     "question": "在银盐法检验氯离子时，先加入硝酸银溶液后出现白色沉淀，继续加入氨水，沉淀溶解，则该沉淀为？",
     "options": [
-      "A. AgCl",
-      "B. Ag2O",
-      "C. Ag2SO4",
-      "D. Ag3PO4"
+      {
+        "label": "A",
+        "text": "AgCl"
+      },
+      {
+        "label": "B",
+        "text": "Ag2O"
+      },
+      {
+        "label": "C",
+        "text": "Ag2SO4"
+      },
+      {
+        "label": "D",
+        "text": "Ag3PO4"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -548,10 +956,22 @@
     "type": "choice",
     "question": "在硫酸制备中，SO2 需要先转化为 SO3 再与水反应生成 H2SO4。若在 500°C、催化剂 V2O5 条件下，使 4.0 mol SO2 与足量 O2 完全反应，最多可得到多少摩尔的 SO3？",
     "options": [
-      "A. 2.0 mol",
-      "B. 4.0 mol",
-      "C. 8.0 mol",
-      "D. 1.0 mol"
+      {
+        "label": "A",
+        "text": "2.0 mol"
+      },
+      {
+        "label": "B",
+        "text": "4.0 mol"
+      },
+      {
+        "label": "C",
+        "text": "8.0 mol"
+      },
+      {
+        "label": "D",
+        "text": "1.0 mol"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -564,10 +984,22 @@
     "type": "choice",
     "question": "在25°C、1 atm条件下，将0.50 L的SO₂气体通入0.10 L 0.10 mol·L⁻¹的酸性K₂Cr₂O₇溶液中，溶液颜色由橙色变为绿色。该现象说明SO₂（　）。",
     "options": [
-      "A. 被Cr(VI)氧化，表现为还原剂",
-      "B. 将Cr(VI)还原，表现为氧化剂",
-      "C. 与Cr(VI)形成配位化合物",
-      "D. 不参与任何氧化还原反应"
+      {
+        "label": "A",
+        "text": "被Cr(VI)氧化，表现为还原剂"
+      },
+      {
+        "label": "B",
+        "text": "将Cr(VI)还原，表现为氧化剂"
+      },
+      {
+        "label": "C",
+        "text": "与Cr(VI)形成配位化合物"
+      },
+      {
+        "label": "D",
+        "text": "不参与任何氧化还原反应"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -580,10 +1012,22 @@
     "type": "choice",
     "question": "某溶液中可能含有硫酸根离子（SO₄²⁻），若要通过沉淀反应进行检验，下列哪项操作最合适？",
     "options": [
-      "A. 加入过量氨水并观察是否产生沉淀",
-      "B. 加入氯化钡溶液并加少量盐酸酸化",
-      "C. 加入硝酸银溶液并观察是否产生白色沉淀",
-      "D. 加入氢氧化钠溶液并观察是否产生可溶性沉淀"
+      {
+        "label": "A",
+        "text": "加入过量氨水并观察是否产生沉淀"
+      },
+      {
+        "label": "B",
+        "text": "加入氯化钡溶液并加少量盐酸酸化"
+      },
+      {
+        "label": "C",
+        "text": "加入硝酸银溶液并观察是否产生白色沉淀"
+      },
+      {
+        "label": "D",
+        "text": "加入氢氧化钠溶液并观察是否产生可溶性沉淀"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -596,10 +1040,22 @@
     "type": "choice",
     "question": "氨气转化为硝酸的工业流程中，第一步氨气在铂铑催化剂上与氧气反应生成的关键中间产物是哪种氮的氧化物？",
     "options": [
-      "A. N₂O（一氧化二氮）",
-      "B. NO（一氧化氮）",
-      "C. NO₂（二氧化氮）",
-      "D. N₂O₅（五氧化二氮）"
+      {
+        "label": "A",
+        "text": "N₂O（一氧化二氮）"
+      },
+      {
+        "label": "B",
+        "text": "NO（一氧化氮）"
+      },
+      {
+        "label": "C",
+        "text": "NO₂（二氧化氮）"
+      },
+      {
+        "label": "D",
+        "text": "N₂O₅（五氧化二氮）"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -612,10 +1068,22 @@
     "type": "choice",
     "question": "在实验室中，制备氨气的常用方法是通过下列哪种化学反应？",
     "options": [
-      "A. 将氢氧化钠与氯化铵混合后加热，可生成氨气",
-      "B. 直接加热浓氨水，使其挥发得到氨气",
-      "C. 将硝酸铵与石灰水混合后加热，也能产生氨气",
-      "D. 将硫酸铵与浓盐酸混合加热，生成氨气"
+      {
+        "label": "A",
+        "text": "将氢氧化钠与氯化铵混合后加热，可生成氨气"
+      },
+      {
+        "label": "B",
+        "text": "直接加热浓氨水，使其挥发得到氨气"
+      },
+      {
+        "label": "C",
+        "text": "将硝酸铵与石灰水混合后加热，也能产生氨气"
+      },
+      {
+        "label": "D",
+        "text": "将硫酸铵与浓盐酸混合加热，生成氨气"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -628,10 +1096,22 @@
     "type": "choice",
     "question": "铜片放入稀硝酸中，产生的无色气体随后在空气中变为棕色。该气体是（ ）。",
     "options": [
-      "A. 氢气",
-      "B. 二氧化氮",
-      "C. 一氧化氮",
-      "D. 氨气"
+      {
+        "label": "A",
+        "text": "氢气"
+      },
+      {
+        "label": "B",
+        "text": "二氧化氮"
+      },
+      {
+        "label": "C",
+        "text": "一氧化氮"
+      },
+      {
+        "label": "D",
+        "text": "氨气"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -644,10 +1124,22 @@
     "type": "choice",
     "question": "下列哪种物质在常温下能够与氢氟酸反应生成硅氟酸？",
     "options": [
-      "A. SiO₂（石英）",
-      "B. Si（单质硅）",
-      "C. SiCl₄（四氯化硅）",
-      "D. SiC（碳化硅）"
+      {
+        "label": "A",
+        "text": "SiO₂（石英）"
+      },
+      {
+        "label": "B",
+        "text": "Si（单质硅）"
+      },
+      {
+        "label": "C",
+        "text": "SiCl₄（四氯化硅）"
+      },
+      {
+        "label": "D",
+        "text": "SiC（碳化硅）"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -660,10 +1152,22 @@
     "type": "choice",
     "question": "在下列等电子离子中，半径最小的是？",
     "options": [
-      "A. O²⁻",
-      "B. F⁻",
-      "C. Na⁺",
-      "D. Mg²⁺"
+      {
+        "label": "A",
+        "text": "O²⁻"
+      },
+      {
+        "label": "B",
+        "text": "F⁻"
+      },
+      {
+        "label": "C",
+        "text": "Na⁺"
+      },
+      {
+        "label": "D",
+        "text": "Mg²⁺"
+      }
     ],
     "answer": "D",
     "difficulty": 2,
@@ -676,10 +1180,22 @@
     "type": "choice",
     "question": "在标准状态下，甲烷（CH4）的燃烧热为 -890 kJ·mol⁻¹。若将 2.0 mol CH4 完全燃烧，可产生多少热量？",
     "options": [
-      "A. 2 mol 甲烷燃烧可释放 1780 kJ 的热能。",
-      "B. 2 mol 甲烷燃烧可释放 890 kJ 的热能。",
-      "C. 2 mol 甲烷燃烧可释放 -1780 kJ 的热能。",
-      "D. 2 mol 甲烷燃烧可释放 -445 kJ 的热能。"
+      {
+        "label": "A",
+        "text": "2 mol 甲烷燃烧可释放 1780 kJ 的热能。"
+      },
+      {
+        "label": "B",
+        "text": "2 mol 甲烷燃烧可释放 890 kJ 的热能。"
+      },
+      {
+        "label": "C",
+        "text": "2 mol 甲烷燃烧可释放 -1780 kJ 的热能。"
+      },
+      {
+        "label": "D",
+        "text": "2 mol 甲烷燃烧可释放 -445 kJ 的热能。"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -692,10 +1208,22 @@
     "type": "choice",
     "question": "已知在标准状态下，碳的燃烧反应 C(s) + O₂(g) → CO₂(g) 的标准摩尔燃烧焓为 -393.5 kJ·mol⁻¹。下列哪个热化学方程式的书写方式符合热化学方程式的规范？",
     "options": [
-      "A. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹",
-      "B. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ",
-      "C. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹ (l)",
-      "D. C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹ (aq)"
+      {
+        "label": "A",
+        "text": "C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹"
+      },
+      {
+        "label": "B",
+        "text": "C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ"
+      },
+      {
+        "label": "C",
+        "text": "C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹ (l)"
+      },
+      {
+        "label": "D",
+        "text": "C(s) + O₂(g) → CO₂(g) ΔH = -393.5 kJ·mol⁻¹ (aq)"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -708,10 +1236,22 @@
     "type": "choice",
     "question": "已知下列两反应的焓变：\n(1) C(s) + O₂(g) → CO₂(g) ΔH₁ = -393.5 kJ·mol⁻¹\n(2) CO(g) + ½ O₂(g) → CO₂(g) ΔH₂ = -283.0 kJ·mol⁻¹\n请利用盖斯定律求出反应 C(s) + ½ O₂(g) → CO(g) 的焓变 ΔH。",
     "options": [
-      "A. 该反应的焓变为 -110.5 kJ·mol⁻¹。",
-      "B. 该反应的焓变为 -196.8 kJ·mol⁻¹。",
-      "C. 该反应的焓变为 +110.5 kJ·mol⁻¹。",
-      "D. 该反应的焓变为 +196.8 kJ·mol⁻¹。"
+      {
+        "label": "A",
+        "text": "该反应的焓变为 -110.5 kJ·mol⁻¹。"
+      },
+      {
+        "label": "B",
+        "text": "该反应的焓变为 -196.8 kJ·mol⁻¹。"
+      },
+      {
+        "label": "C",
+        "text": "该反应的焓变为 +110.5 kJ·mol⁻¹。"
+      },
+      {
+        "label": "D",
+        "text": "该反应的焓变为 +196.8 kJ·mol⁻¹。"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -724,10 +1264,22 @@
     "type": "choice",
     "question": "在标准条件下，比较锌、银、铁、铝分别与铜组成的原电池的电动势（E°cell），哪一种组合的电动势最大？",
     "options": [
-      "A. 锌与铜组成的原电池电动势最大。",
-      "B. 银与铜组成的原电池电动势最大。",
-      "C. 铁与铜组成的原电池电动势最大。",
-      "D. 铝与铜组成的原电池电动势最大。"
+      {
+        "label": "A",
+        "text": "锌与铜组成的原电池电动势最大。"
+      },
+      {
+        "label": "B",
+        "text": "银与铜组成的原电池电动势最大。"
+      },
+      {
+        "label": "C",
+        "text": "铁与铜组成的原电池电动势最大。"
+      },
+      {
+        "label": "D",
+        "text": "铝与铜组成的原电池电动势最大。"
+      }
     ],
     "answer": "D",
     "difficulty": 2,
@@ -740,10 +1292,22 @@
     "type": "choice",
     "question": "在以惰性电极为电极的电解池中，对0.10 mol·L⁻¹ CuSO₄溶液进行电解，若阴极发生铜的沉积，则阴极的电极反应式为（ ）。",
     "options": [
-      "A. Cu²⁺ + 2e⁻ → Cu",
-      "B. 2H₂O + 2e⁻ → H₂ + 2OH⁻",
-      "C. 2H⁺ + 2e⁻ → H₂",
-      "D. Cu + 2e⁻ → Cu²⁺"
+      {
+        "label": "A",
+        "text": "Cu²⁺ + 2e⁻ → Cu"
+      },
+      {
+        "label": "B",
+        "text": "2H₂O + 2e⁻ → H₂ + 2OH⁻"
+      },
+      {
+        "label": "C",
+        "text": "2H⁺ + 2e⁻ → H₂"
+      },
+      {
+        "label": "D",
+        "text": "Cu + 2e⁻ → Cu²⁺"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -756,10 +1320,22 @@
     "type": "choice",
     "question": "下列哪种措施能显著降低钢在潮湿空气中的腐蚀速率？",
     "options": [
-      "A. 在钢表面喷涂防锈漆",
-      "B. 将钢置于浓度为10%的硫酸中",
-      "C. 将钢与活泼金属铜直接连接",
-      "D. 将钢加热至300℃"
+      {
+        "label": "A",
+        "text": "在钢表面喷涂防锈漆"
+      },
+      {
+        "label": "B",
+        "text": "将钢置于浓度为10%的硫酸中"
+      },
+      {
+        "label": "C",
+        "text": "将钢与活泼金属铜直接连接"
+      },
+      {
+        "label": "D",
+        "text": "将钢加热至300℃"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
