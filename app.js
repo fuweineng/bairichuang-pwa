@@ -1285,7 +1285,6 @@ function renderQuestion() {
 
   const opts = isChoice
     ? (q.options || q.choices).map((opt, i) => {
-        const label = typeof opt === 'string' ? '' : (opt.label ?? opt.key ?? '') + '. ';
         const text  = typeof opt === 'string' ? opt    : opt.text;
         const selected = sel?.idx === i ? ' selected' : '';
         const opAudio = hasOptionAudio ? optionAudioMap['abcd'[i]] : '';
@@ -1296,11 +1295,11 @@ function renderQuestion() {
         if (!text || /^[A-Da-d]$/.test(text.trim())) {
           return playBtn || '';
         }
-        return `<div class="answer-row"><button class="answer-btn${selected}" data-action="answer" data-choice="${i}">${label}${text}</button>${playBtn}</div>`;
+        return `<div class="answer-row"><button class="answer-btn${selected}" data-action="answer" data-choice="${i}">${text}</button>${playBtn}</div>`;
       }).join('')
     : isListeningType
     ? q.choices.map((c, i) =>
-        `<div class="answer-row"><button class="answer-btn" data-action="answer" data-choice="${i}">${c.label}. ${c.text}</button></div>`
+        `<div class="answer-row"><button class="answer-btn" data-action="answer" data-choice="${i}">${c.text}</button></div>`
       ).join('')
     : '';
 
@@ -1394,11 +1393,18 @@ async function handleAnswer(choiceIdx) {
   await recordAnswer(q.id, isCorrect, q.subject, q.type);
 
   // ── 存结果，feedback 由 renderQuestion 统一渲染 ──────────────────────
-  let correctLabel = q.answer;
-  if (((q.type === 'listening' || q.type === 'choice') || !q.type) && q.choices) {
-    const found = q.choices.find(c => c.label === q.answer);
-    if (found) correctLabel = `${q.answer}. ${found.text}`;
+  // 构建正确答案文字（不含字母前缀）
+  let correctLabel = '';
+  if ((q.type === 'listening' || q.type === 'choice' || !q.type) && q.choices) {
+    const found = q.choices.find(c => c.label === q.answer || c.key === q.answer);
+    if (found) correctLabel = found.text || '';
   }
+  if (!correctLabel && q.options) {
+    const found = q.options.find(o => (o.key || o.label || '').toUpperCase() === (q.answer || '').toUpperCase());
+    if (found) correctLabel = found.text || '';
+  }
+  // fallback: 如果找不到文字说明，用字母答案本身（如纯音频题）
+  if (!correctLabel) correctLabel = q.answer || '';
   const feedbackText = isCorrect ? '正确' : `错误，正确答案是：${correctLabel}`;
   state.lastAnswerResult = { isCorrect, feedbackText, q };
 }
