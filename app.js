@@ -1164,7 +1164,7 @@ function renderQuestion() {
     : '';
 
   const qTextWithAudio = qAudioUrl
-    ? `<span class="q-text-main">${q.question}</span><button class="q-audio-btn" data-audio="${qAudioUrl}" onclick="playQAudio(this)">🔊 播放</button>`
+    ? `<span class="q-text-main">${q.question}</span><button class="q-audio-btn" data-audio="${qAudioUrl}" onclick="playQAudio(this); return false;">🔊 播放</button>`
     : `<span class="q-text-main">${q.question}</span>`;
 
   // 多语种朗读工具栏（所有题型通用）
@@ -1290,7 +1290,7 @@ function renderQuestion() {
         const selected = sel?.idx === i ? ' selected' : '';
         const opAudio = hasOptionAudio ? optionAudioMap['abcd'[i]] : '';
         const playBtn = opAudio
-          ? `<button class="op-audio-btn" onclick="playOpAudio('${opAudio}', this)">🔊</button>`
+          ? `<button class="op-audio-btn" onclick="playOpAudio('${opAudio}', this); return false;">🔊</button>`
           : '';
         return `<div class="answer-row"><button class="answer-btn${selected}" data-action="answer" data-choice="${i}">${label}${text}</button>${playBtn}</div>`;
       }).join('')
