@@ -1292,6 +1292,10 @@ function renderQuestion() {
         const playBtn = opAudio
           ? `<button class="op-audio-btn" onclick="playOpAudio('${opAudio}', this); return false;">🔊</button>`
           : '';
+        // 纯音频选项（text 是单个字母）只显示播放按钮，不显示空按钮
+        if (!text || /^[A-Da-d]$/.test(text.trim())) {
+          return playBtn || '';
+        }
         return `<div class="answer-row"><button class="answer-btn${selected}" data-action="answer" data-choice="${i}">${label}${text}</button>${playBtn}</div>`;
       }).join('')
     : isListeningType
@@ -2057,16 +2061,13 @@ async function handleClick(e) {
     case 'answer': {
       const idx = parseInt(t.dataset.choice, 10);
       const q = state.sessionQuestions[state.sessionIndex];
-      const hasOpAudio = ['chinese', 'english', 'math'].includes(q?.subject) && q?.optionAudio;
       const isSubmitted = state.selectedChoice?.submitted === true;
-      // 点选项文字播音频（仅未提交时）
-      if (hasOpAudio && t.dataset.opaudio && !isSubmitted) {
-        playOpAudio(t.dataset.opaudio);
-        return;
-      }
-      // 选答案（不提交）
-      state.selectedChoice = { idx, submitted: isSubmitted };
+      if (isSubmitted) return;
+      // 直接提交，不等待确认
+      state.selectedChoice = { idx, submitted: true };
+      await handleAnswer(idx);
       renderQuestion();
+      showFeedbackModal(state.lastAnswerResult);
       break;
     }
 
