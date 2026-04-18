@@ -1,9 +1,18 @@
-// Question Bank Module — per-subject lazy loading
+// Question Bank Module — per-subject lazy loading with multi-section support
 // Uses idb-keyval for IndexedDB storage
+// Sections: primary, senior, senior-high
 
+const SECTIONS = ['primary', 'senior', 'senior-high'];
+const SECTION_SUBJECTS = {
+  'primary': ['math', 'chinese', 'english'],
+  'senior': ['math', 'chinese', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'],
+  'senior-high': ['math', 'chinese', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics']
+};
+
+// Legacy flat SUBJECTS for backward compatibility during migration
 const SUBJECTS = ['math', 'english', 'chinese', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
 
-// New per-subject keys
+// New per-section per-subject keys
 const QB_INDEX_KEY = 'qb_index';
 const QB_MIGRATION_KEY = 'qb_migration';
 const QUESTION_PROGRESS_KEY = 'question_progress';
@@ -12,9 +21,10 @@ const KNOWLEDGE_PROGRESS_KEY = 'knowledge_progress';
 const SETTINGS_KEY = 'settings';
 const FEEDBACK_PENDING_KEY = 'feedback_pending';
 
-function qbKey(subject) { return `qb_${subject}`; }
+function qbKey(section, subject) { return `qb_${section}_${subject}`; }
 
 // In-memory cache — only loaded subjects kept here
+// Structure: { '${section}_${subject}': [...] }
 let questionBank = {};
 
 // ==================== Migration ====================
@@ -25,42 +35,47 @@ async function migrateFromLegacy() {
   const source = legacy || legacyCache;
   if (!source || typeof source !== 'object') return;
 
+  // Migrate legacy flat format to senior section (default)
   for (const subj of SUBJECTS) {
     if (Array.isArray(source[subj]) && source[subj].length > 0) {
-      await set(qbKey(subj), source[subj]);
-      questionBank[subj] = source[subj];
+      const questions = source[subj].map(q => ({ ...q, _section: 'senior', _subject: subj }));
+      await set(qbKey('senior', subj), questions);
+      questionBank[`senior_${subj}`] = questions;
     }
   }
   await del('question_bank');
   await del('question_bank_cache');
   await set(QB_MIGRATION_KEY, { legacy: false, migratedAt: Date.now() });
-  console.log('[QB] 迁移完成：旧格式 → 分学科格式');
+  console.log('[QB] 迁移完成：旧格式 → 分学科分学段格式');
 }
 
 // ==================== Lazy Load ====================
 
 // Ensure a single subject is loaded into memory + IDB
-async function ensureSubjectLoaded(subject) {
-  if (questionBank[subject]?.length > 0) return questionBank[subject];
+async function ensureSubjectLoaded(section, subject) {
+  const cacheKey = `${section}_${subject}`;
+  if (questionBank[cacheKey]?.length > 0) return questionBank[cacheKey];
 
   // Try IDB
-  const cached = await get(qbKey(subject));
+  const cached = await get(qbKey(section, subject));
   if (cached?.length > 0) {
-    questionBank[subject] = cached;
+    questionBank[cacheKey] = cached;
     return cached;
   }
 
   // Lazy load from network
   try {
-    const resp = await fetch(`questions/${subject}.json`);
+    const resp = await fetch(`questions/${section}/${subject}.json`);
     if (resp.ok) {
       const data = await resp.json();
-      await set(qbKey(subject), data);
-      questionBank[subject] = data;
-      return data;
+      // Attach internal fields
+      const enriched = data.map(q => ({ ...q, _section: section, _subject: subject }));
+      await set(qbKey(section, subject), enriched);
+      questionBank[cacheKey] = enriched;
+      return enriched;
     }
   } catch (e) {
-    console.warn(`[QB] Failed to load ${subject}:`, e);
+    console.warn(`[QB] Failed to load ${section}/${subject}:`, e);
   }
   return [];
 }
@@ -74,41 +89,50 @@ async function initializeQuestionBank() {
     await migrateFromLegacy();
   }
 
-  // 2. Fetch index
-  let remoteIndex = null;
-  try {
-    const resp = await fetch(`questions/index.json?_=${Date.now()}`);
-    if (resp.ok) remoteIndex = await resp.json();
-  } catch (e) {
-    console.warn('[QB] Failed to fetch index.json:', e);
-  }
-
-  // 3. Per-subject version check — load only if version changed or no local data
+  // 2. Fetch per-section index files and check versions
   const needsUpdate = [];
-  const cachedIndex = await get(QB_INDEX_KEY);
+  const sectionIndexCacheKey = 'qb_section_indexes';
 
-  for (const subj of SUBJECTS) {
-    const remoteVersion = remoteIndex?.subjects?.[subj]?.version;
-    const cachedVersion = cachedIndex?.subjects?.[subj]?.version;
-    const localData = await get(qbKey(subj));
+  for (const section of SECTIONS) {
+    const sectionSubjects = SECTION_SUBJECTS[section] || [];
+    let sectionIndex = null;
+    try {
+      const resp = await fetch(`questions/${section}/index.json?_=${Date.now()}`);
+      if (resp.ok) sectionIndex = await resp.json();
+    } catch (e) {
+      console.warn(`[QB] Failed to fetch ${section}/index.json:`, e);
+    }
+    const cachedSectionIndex = (await get(sectionIndexCacheKey)) || {};
 
-    if (!localData || localData.length === 0 || remoteVersion !== cachedVersion) {
-      needsUpdate.push(subj);
+    for (const subj of sectionSubjects) {
+      const remoteVersion = sectionIndex?.subjects?.[subj]?.version;
+      const cachedVersion = cachedSectionIndex[section]?.subjects?.[subj]?.version;
+      const localData = await get(qbKey(section, subj));
+
+      if (!localData || localData.length === 0 || remoteVersion !== cachedVersion) {
+        needsUpdate.push({ section, subject: subj });
+      }
+    }
+
+    if (sectionIndex) {
+      cachedSectionIndex[section] = sectionIndex;
     }
   }
+  await set(sectionIndexCacheKey, cachedSectionIndex);
 
   // 4. Parallel load of missing/outdated subjects
-  await Promise.all(needsUpdate.map(async (subj) => {
+  await Promise.all(needsUpdate.map(async ({ section, subject }) => {
     try {
-      const resp = await fetch(`questions/${subj}.json`);
+      const resp = await fetch(`questions/${section}/${subject}.json`);
       if (resp.ok) {
         const data = await resp.json();
-        await set(qbKey(subj), data);
-        questionBank[subj] = data;
-        console.log(`[QB] Loaded ${subj}: ${data.length} questions`);
+        const enriched = data.map(q => ({ ...q, _section: section, _subject: subject }));
+        await set(qbKey(section, subject), enriched);
+        questionBank[`${section}_${subject}`] = enriched;
+        console.log(`[QB] Loaded ${section}/${subject}: ${data.length} questions`);
       }
     } catch (e) {
-      console.warn(`[QB] Failed to load ${subj}:`, e);
+      console.warn(`[QB] Failed to load ${section}/${subject}:`, e);
     }
   }));
 
@@ -120,33 +144,47 @@ async function initializeQuestionBank() {
 
 // ==================== Public API ====================
 
-// Load questions — if subject provided, lazy load it;
-// if no subject, load ALL subjects (for updateEntryCardCounts)
-async function loadQuestions(subject) {
-  if (subject === undefined) {
+// Load questions — if section and subject provided, load that specific subject;
+// if only section provided, load all subjects for that section;
+// if no args, load ALL subjects across all sections (for updateEntryCardCounts)
+async function loadQuestions(section, subject) {
+  if (section === undefined) {
     // Full load path — used by updateEntryCardCounts
-    await Promise.all(SUBJECTS.map(s => ensureSubjectLoaded(s)));
+    await Promise.all(
+      SECTIONS.flatMap(sec =>
+        (SECTION_SUBJECTS[sec] || []).map(subj => ensureSubjectLoaded(sec, subj))
+      )
+    );
     return Object.values(questionBank).flat();
   }
-  return await ensureSubjectLoaded(subject);
+
+  if (subject === undefined) {
+    // Load all subjects for a section
+    const sectionSubjects = SECTION_SUBJECTS[section] || [];
+    await Promise.all(sectionSubjects.map(subj => ensureSubjectLoaded(section, subj)));
+    return Object.values(questionBank).filter((_, key) => key.startsWith(`${section}_`)).flat();
+  }
+
+  return await ensureSubjectLoaded(section, subject);
 }
 
 async function getQuestion(id) {
-  for (const subj of SUBJECTS) {
-    if (questionBank[subj]?.length > 0) {
-      const q = questionBank[subj].find(q => q.id === id);
+  for (const cacheKey of Object.keys(questionBank)) {
+    const questions = questionBank[cacheKey];
+    if (questions?.length > 0) {
+      const q = questions.find(q => q.id === id);
       if (q) return q;
     }
   }
   return null;
 }
 
-async function getQuestionsBySubject(subject) {
-  return await ensureSubjectLoaded(subject);
+async function getQuestionsBySubject(section, subject) {
+  return await ensureSubjectLoaded(section, subject);
 }
 
-async function getQuestionsByTag(subject, tag) {
-  const questions = await ensureSubjectLoaded(subject);
+async function getQuestionsByTag(section, subject, tag) {
+  const questions = await ensureSubjectLoaded(section, subject);
   if (!tag) return questions;
   return questions.filter(q => q.knowledgeTags?.includes(tag));
 }
@@ -197,13 +235,14 @@ async function recordKnowledgeTag(question, isCorrect) {
   const kp = await get(KNOWLEDGE_PROGRESS_KEY) || [];
   const tags = question.knowledgeTags || [];
   for (const tag of tags) {
-    const key = `${question.subject}::${tag}`;
+    const key = `${question._section || question.subject}::${tag}`;
+    const subject = question._subject || question.subject;
     const existing = kp.findIndex(r => r.key === key && r.date === today);
     if (existing >= 0) {
       kp[existing].total++;
       if (isCorrect) kp[existing].correct++;
     } else {
-      kp.push({ key, subject: question.subject, tag, date: today, total: 1, correct: isCorrect ? 1 : 0 });
+      kp.push({ key, subject, tag, date: today, total: 1, correct: isCorrect ? 1 : 0 });
     }
   }
   await set(KNOWLEDGE_PROGRESS_KEY, kp);
@@ -255,9 +294,12 @@ async function clearAllData() {
   await clear(WRONG_QUESTIONS_KEY);
   await clear(KNOWLEDGE_PROGRESS_KEY);
   await clear(SETTINGS_KEY);
-  // Also clear all qb_ keys
-  for (const subj of SUBJECTS) {
-    await clear(qbKey(subj));
+  // Also clear all qb_ keys across all sections
+  for (const section of SECTIONS) {
+    const sectionSubjects = SECTION_SUBJECTS[section] || [];
+    for (const subj of sectionSubjects) {
+      await clear(qbKey(section, subj));
+    }
   }
   await clear(QB_INDEX_KEY);
   await clear(QB_MIGRATION_KEY);
@@ -320,7 +362,11 @@ async function getFeedbackHistory() {
   return (await get(FEEDBACK_PENDING_KEY)) || [];
 }
 
+// ==================== Exports ====================
+
 export {
+  SECTIONS,
+  SECTION_SUBJECTS,
   loadQuestions,
   getQuestion,
   getQuestionsBySubject,

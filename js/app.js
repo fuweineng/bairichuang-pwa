@@ -4,9 +4,23 @@
 import { checkin, getCheckinStreak, getCheckinHistoryList, getCheckinMeta, recordDailySession, getDailyRecord, getRecentDailyRecords, getTotalScore } from './checkin.js';
 import { initializeQuestionBank, loadQuestions, getQuestionsBySubject, saveProgress, getProgress, addWrongQuestion, getWrongQuestions, removeWrongQuestion, clearWrongQuestions, recordKnowledgeTag, getKnowledgeMastery, getSettings, saveSetting, clearAllData, sendFeedback, getPendingFeedbacks, approveFeedback, rejectFeedback, getFeedbackStats } from './question_bank.js';
 
+// Section subjects configuration (mirrors question_bank.js to avoid circular import)
+const SECTION_SUBJECTS = {
+  'primary': ['chinese', 'math', 'english'],
+  'junior': ['chinese', 'math', 'english', 'physics', 'chemistry'],
+  'senior-high': ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'],
+};
+
+const SECTION_NAMES = {
+  'primary': '小学',
+  'senior': '初中',
+  'senior-high': '高中',
+};
+
 // State
 let currentView = 'index';
 let currentSubject = null;
+let currentSection = localStorage.getItem('section') || 'primary';
 
 // Practice session state
 let sessionQuestions = [];
@@ -77,6 +91,8 @@ function navigate(route) {
   if (route === '#/practice') {
     document.getElementById('practice-view').classList.add('active');
     currentView = 'practice';
+    renderSectionTabs();
+    renderSubjectGrid();
   } else if (route === '#/progress') {
     document.getElementById('progress-view').classList.add('active');
     currentView = 'progress';
@@ -201,10 +217,43 @@ function bindEvents() {
   };
 }
 
+// ==================== Section Tabs & Subject Grid ====================
+
+function renderSectionTabs() {
+  const container = document.getElementById('section-tabs-container');
+  if (!container) return;
+  const sections = ['primary', 'senior', 'senior-high'];
+  container.innerHTML = sections.map(sec => `
+    <button class="section-tab-btn ${sec === currentSection ? 'active' : ''}" data-section="${sec}">
+      ${SECTION_NAMES[sec]}
+    </button>
+  `).join('');
+  container.querySelectorAll('.section-tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      currentSection = btn.dataset.section;
+      localStorage.setItem('section', currentSection);
+      renderSectionTabs();
+      renderSubjectGrid();
+    });
+  });
+}
+
+function renderSubjectGrid() {
+  const container = document.getElementById('subject-grid-container');
+  if (!container) return;
+  const subjects = SECTION_SUBJECTS[currentSection] || [];
+  const subjectNames = { chinese: '语文', math: '数学', english: '英语', physics: '物理', chemistry: '化学', biology: '生物', history: '历史', geography: '地理', politics: '政治' };
+  container.innerHTML = subjects.map(subj => `
+    <button class="subject-grid-btn" data-subject="${subj}" onclick="_startSubject('${subj}')">
+      ${subjectNames[subj] || subj}
+    </button>
+  `).join('');
+}
+
 // ==================== Entry Card Counts ====================
 
 async function updateEntryCardCounts(settings) {
-  const allQuestions = await loadQuestions();
+  const allQuestions = await loadQuestions(currentSection);
   const progress = await getProgress() || {};
   const masteredThreshold = settings.masteredThreshold ?? 50; // %
 
@@ -296,7 +345,7 @@ async function startPracticeSession(subject) {
     showToast('继续加油！');
   }
 
-  const questions = await getQuestionsBySubject(subject);
+  const questions = await getQuestionsBySubject(currentSection, subject);
   if (questions.length === 0) return;
 
   const settings = await getSettings();
@@ -1288,7 +1337,7 @@ async function renderMasteryByType(container, subject) {
   const progress = await getProgress();
 
   // Count question types from the question bank
-  const questions = await getQuestionsBySubject(subject);
+  const questions = await getQuestionsBySubject(currentSection, subject);
   const typeStats = {};
   for (const q of questions) {
     if (!typeStats[q.type]) typeStats[q.type] = { total: 0, correct: 0 };
