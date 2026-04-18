@@ -976,65 +976,70 @@ window.playQAudio = function(el) {
   const url = el.dataset.audio;
   if (!url) return;
   stopCurrentAudio();
-  const btn = document.getElementById('action-btn');
   const grid = document.getElementById('answer-grid');
-  const label = document.querySelector('.q-text-audio');
-  if (label) { label.textContent = '🔊 播放中...'; label.style.pointerEvents = 'none'; }
   if (grid) grid.style.pointerEvents = 'none';
+  el.classList.add('playing');
+  el.textContent = '🔊 播放中...';
 
   const audio = new Audio(url);
   currentAudio = audio;
   audio.onended = () => {
     currentAudio = null;
-    if (label) { label.textContent = el.textContent; label.style.pointerEvents = ''; }
+    el.classList.remove('playing');
+    el.textContent = '🔊 播放';
     if (grid) grid.style.pointerEvents = '';
   };
   audio.onerror = () => {
     currentAudio = null;
-    if (label) { label.textContent = el.textContent; label.style.pointerEvents = ''; }
+    el.classList.remove('playing');
+    el.textContent = '🔊 播放';
     if (grid) grid.style.pointerEvents = '';
   };
   audio.play().catch(() => {
     currentAudio = null;
-    if (label) { label.textContent = el.textContent; label.style.pointerEvents = ''; }
+    el.classList.remove('playing');
+    el.textContent = '🔊 播放';
     if (grid) grid.style.pointerEvents = '';
   });
 };
 
-// ── 小学音频：点击选项文字播放 ───────────────────────────────────────
-window.playOpAudio = function(audioPath) {
+// ── 小学音频：点击选项旁播放按钮 ───────────────────────────────────
+window.playOpAudio = function(audioPath, btn) {
   if (!audioPath) return;
   stopCurrentAudio();
   const grid = document.getElementById('answer-grid');
-  const btns = document.querySelectorAll('.answer-btn[data-opaudio]');
   if (grid) grid.style.pointerEvents = 'none';
+
+  // 更新所有 op-audio-btn 状态
+  document.querySelectorAll('.op-audio-btn').forEach(b => {
+    b.classList.remove('playing');
+    b.textContent = '🔊';
+  });
+  if (btn) { btn.classList.add('playing'); btn.textContent = '🔊'; }
 
   const url = audioPath.startsWith('http') ? audioPath
     : `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/${audioPath}`;
   const audio = new Audio(url);
   currentAudio = audio;
-
   audio.onended = () => {
     currentAudio = null;
     if (grid) grid.style.pointerEvents = '';
-    btns.forEach(b => { b.textContent = b.textContent.replace(' 播放中', ''); });
+    document.querySelectorAll('.op-audio-btn').forEach(b => {
+      b.classList.remove('playing');
+      b.textContent = '🔊';
+    });
   };
   audio.onerror = () => {
     currentAudio = null;
     if (grid) grid.style.pointerEvents = '';
-    btns.forEach(b => { b.textContent = b.textContent.replace(' 播放中', ''); });
+    document.querySelectorAll('.op-audio-btn').forEach(b => {
+      b.classList.remove('playing');
+      b.textContent = '🔊';
+    });
   };
   audio.play().catch(() => {
     currentAudio = null;
     if (grid) grid.style.pointerEvents = '';
-  });
-  // 标记正在播放
-  btns.forEach(b => {
-    if (b.dataset.opaudio === audioPath) {
-      b.textContent += ' 播放中';
-    } else {
-      b.textContent = b.textContent.replace(' 播放中', '');
-    }
   });
 };
 
@@ -1159,8 +1164,8 @@ function renderQuestion() {
     : '';
 
   const qTextWithAudio = qAudioUrl
-    ? `<span class="q-text-audio" data-audio="${qAudioUrl}" onclick="playQAudio(this)">${q.question}</span>`
-    : `<span>${q.question}</span>`;
+    ? `<span class="q-text-main">${q.question}</span><button class="q-audio-btn" data-audio="${qAudioUrl}" onclick="playQAudio(this)">🔊 播放</button>`
+    : `<span class="q-text-main">${q.question}</span>`;
 
   // 多语种朗读工具栏（所有题型通用）
   const ttsVariantsBlock = q.ttsVariants
@@ -1284,11 +1289,14 @@ function renderQuestion() {
         const text  = typeof opt === 'string' ? opt    : opt.text;
         const selected = sel?.idx === i ? ' selected' : '';
         const opAudio = hasOptionAudio ? optionAudioMap['abcd'[i]] : '';
-        return `<button class="answer-btn${selected}" data-action="answer" data-choice="${i}"${opAudio ? ` data-opaudio="${opAudio}"` : ''}>${label}${text}</button>`;
+        const playBtn = opAudio
+          ? `<button class="op-audio-btn" onclick="playOpAudio('${opAudio}', this)">🔊</button>`
+          : '';
+        return `<div class="answer-row"><button class="answer-btn${selected}" data-action="answer" data-choice="${i}">${label}${text}</button>${playBtn}</div>`;
       }).join('')
     : isListeningType
     ? q.choices.map((c, i) =>
-        `<button class="answer-btn" data-action="answer" data-choice="${i}">${c.label}. ${c.text}</button>`
+        `<div class="answer-row"><button class="answer-btn" data-action="answer" data-choice="${i}">${c.label}. ${c.text}</button></div>`
       ).join('')
     : '';
 
@@ -1303,7 +1311,7 @@ function renderQuestion() {
     : '';
 
   // needsSubmitBtn: choice/listening 且非填空类
-  const needsSubmitBtn = (isChoice || isListeningType) && !isFillOrShort;
+  const needsSubmitBtn = (isChoice || isListeningType) && !isFillOrShort && sel !== null;
 
   container.innerHTML = `
     <div class="question-meta">
@@ -1325,7 +1333,7 @@ function renderQuestion() {
   const onKey = (e) => {
     if (!state.sessionQuestions.length) return;
     const q = state.sessionQuestions[state.sessionIndex];
-    if (!q || q.type !== 'choice') return;
+    if (!q || (q.type !== 'choice' && q.type !== 'listening')) return;
     const maxChoice = (q.options || q.choices || []).length;
     const curSel = state.selectedChoice;
     const nowSubmitted = curSel?.submitted === true;
