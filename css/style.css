@@ -3285,3 +3285,139 @@ body[data-theme="night"] .section-tab-btn {
   color: var(--theme-text-secondary);
   border-color: transparent;
 }
+
+/***** night mode: practice view detailed *****/
+body[data-theme="night"] .view-practice { background: var(--bg); }
+body[data-theme="night"] #question-container { background: var(--bg); }
+body[data-theme="night"] .question-type { color: var(--theme-text-secondary); }
+body[data-theme="night"] .question-text { color: var(--theme-text-primary); }
+body[data-theme="night"] .question-meta span { background: var(--theme-surface-2); color: var(--theme-text-secondary); }
+body[data-theme="night"] .view-toolbar { background: var(--theme-surface); color: var(--theme-text-primary); }
+body[data-theme="night"] .practice-entry-info { background: var(--theme-surface); color: var(--theme-text-secondary); }
+body[data-theme="night"] .back-home-btn { color: var(--theme-accent); }
+body[data-theme="night"] .section-tabs-container { background: var(--bg); }
+body[data-theme="night"] .subject-grid-container { background: var(--theme-surface); }
+body[data-theme="night"] .practice-view-title { color: var(--theme-text-primary); }
+
+/***** night mode: section setup cards *****/
+body[data-theme="night"] .section-setup-card {
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+}
+body[data-theme="night"] .section-card-name { color: var(--theme-text-primary); }
+body[data-theme="night"] .section-card-desc { color: var(--theme-text-secondary); }
+body[data-theme="night"] .section-setup-card:hover {
+  background: var(--theme-surface-2);
+  border-color: var(--theme-accent);
+}
+
+/***** night mode: chart-all-btn-large disabled state *****/
+body[data-theme="night"] .chart-all-btn-large:disabled {
+  opacity: 0.5;
+  color: var(--theme-text-secondary);
+  background: var(--theme-btn-bg);
+}
+
+/***** night mode: section setup modal *****/
+body[data-theme="night"] #section-setup-modal .modal-card {
+  background: var(--theme-modal-card);
+}
+
+/***** night mode: answer buttons (practice view) *****/
+body[data-theme="night"] .answer-btn {
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+  color: var(--theme-text-primary);
+}
+body[data-theme="night"] .answer-btn:hover {
+  background: var(--theme-surface-2);
+  border-color: var(--theme-accent);
+}
+body[data-theme="night"] .answer-btn.selected {
+  background: var(--theme-accent);
+  color: var(--theme-btn-text);
+  border-color: var(--theme-accent);
+}
+
+/***** night mode: answer grid *****/
+body[data-theme="night"] .answer-grid {
+  background: var(--bg);
+}
+
+/***** night mode: question hint *****/
+body[data-theme="night"] .question-hint {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-secondary);
+  border-left: 3px solid var(--theme-accent);
+}
+
+/***** night mode: passage block *****/
+body[data-theme="night"] .passage-block {
+  background: var(--theme-surface);
+  color: var(--theme-text-primary);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+/***** night mode: listen / audio buttons *****/
+body[data-theme="night"] .listen-btn {
+  background: var(--theme-surface);
+  color: var(--theme-accent);
+  border: 1px solid var(--theme-accent);
+}
+body[data-theme="night"] .q-audio-btn {
+  background: var(--theme-surface-2);
+  color: var(--theme-accent);
+  border: 1px solid var(--theme-accent);
+}
+body[data-theme="night"] .op-audio-btn {
+  background: var(--theme-surface-2);
+  color: var(--theme-accent);
+  border-color: var(--theme-accent);
+}
+body[data-theme="night"] .tts-lang-btn {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+  border-color: var(--theme-border);
+}
+body[data-theme="night"] .tts-lang-btn:hover {
+  border-color: var(--theme-accent);
+  color: var(--theme-accent);
+}
+
+/***** night mode: math symbol toolbar *****/
+body[data-theme="night"] .math-symbol-toolbar {
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+}
+body[data-theme="night"] .math-sym-btn {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+  border-color: var(--theme-border);
+}
+body[data-theme="night"] .math-sym-btn:hover {
+  background: var(--theme-accent);
+  color: #fff;
+}
+
+/***** night mode: fill area *****/
+body[data-theme="night"] .fill-area {
+  background: var(--bg);
+}
+
+/***** night mode: fill submit button *****/
+body[data-theme="night"] .fill-submit-btn {
+  background: var(--theme-btn-bg);
+  color: var(--theme-btn-text);
+}
+
+/***** night mode: placeholder text *****/
+body[data-theme="night"] .placeholder {
+  color: var(--theme-text-muted);
+}
+
+/***** night mode: primary btn in practice view *****/
+body[data-theme="night"] #action-btn {
+  background: var(--theme-btn-bg);
+  color: var(--theme-btn-text);
+}
