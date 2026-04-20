@@ -3421,3 +3421,43 @@ body[data-theme="night"] #action-btn {
   background: var(--theme-btn-bg);
   color: var(--theme-btn-text);
 }
+
+/***** night mode: feedback modal *****/
+body[data-theme="night"] #feedback-modal-overlay {
+  background: var(--theme-modal-overlay);
+}
+body[data-theme="night"] #feedback-modal {
+  background: var(--theme-modal-card);
+  color: var(--theme-modal-text);
+}
+body[data-theme="night"] #feedback-modal .fb-title {
+  color: var(--theme-text-primary);
+}
+body[data-theme="night"] #feedback-modal .fb-correct-text {
+  color: #81c784;
+}
+body[data-theme="night"] #feedback-modal .fb-wrong-text {
+  color: #ef9a9a;
+}
+body[data-theme="night"] #feedback-modal .fb-explanation {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+}
+body[data-theme="night"] #feedback-modal .fb-passage {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-secondary);
+}
+body[data-theme="night"] #feedback-modal .fb-correct-answer {
+  color: var(--theme-text-secondary);
+}
+body[data-theme="night"] #feedback-modal .fb-correct-answer strong {
+  color: var(--theme-text-primary);
+}
+
+/***** night mode: inline answer feedback (answer-feedback) *****/
+body[data-theme="night"] #answer-feedback {
+  background: var(--theme-surface-2);
+  color: var(--theme-text-primary);
+  border-radius: 8px;
+  padding: 12px;
+}
