@@ -2210,10 +2210,9 @@ main {
 /* ==================== ANSWER FEEDBACK MODAL ==================== */
 #feedback-modal-overlay {
   position: fixed; inset: 0;
-  background: rgba(0,0,0,0.5);
-  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.7);
+  display: flex; align-items: stretch; justify-content: center;
   z-index: 1000;
-  padding: 16px;
 }
 #feedback-modal {
   background: var(--theme-surface);
@@ -2222,6 +2221,8 @@ main {
   max-width: 360px; width: 100%;
   box-shadow: var(--shadow-card);
   text-align: center;
+  align-self: center;
+  max-height: 90vh; overflow-y: auto;
 }
 #feedback-modal .fb-icon { font-size: 2.4rem; margin-bottom: 10px; }
 #feedback-modal .fb-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 10px; }
@@ -3429,6 +3430,7 @@ body[data-theme="night"] #feedback-modal-overlay {
 body[data-theme="night"] #feedback-modal {
   background: var(--theme-modal-card);
   color: var(--theme-modal-text);
+  max-height: 95vh; overflow-y: auto;
 }
 body[data-theme="night"] #feedback-modal .fb-title {
   color: var(--theme-text-primary);
@@ -3442,10 +3444,12 @@ body[data-theme="night"] #feedback-modal .fb-wrong-text {
 body[data-theme="night"] #feedback-modal .fb-explanation {
   background: var(--theme-surface-2);
   color: var(--theme-text-primary);
+  max-height: 250px; overflow-y: auto;
 }
 body[data-theme="night"] #feedback-modal .fb-passage {
   background: var(--theme-surface-2);
   color: var(--theme-text-secondary);
+  max-height: 150px; overflow-y: auto;
 }
 body[data-theme="night"] #feedback-modal .fb-correct-answer {
   color: var(--theme-text-secondary);
