@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#4CAF50">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="description" content="百日闯 - 100天提升PWA">
+  <title>百日闯 - 100天提升</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ===== UPDATE BANNER ===== -->
+  <div id="update-banner" class="update-banner" style="display:none">
+    <span class="update-text">发现新版本，立即更新</span>
+    <button class="update-btn primary-btn">更新</button>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-left">
+      <h1 class="app-title-wrap">
+        <span id="app-title">百日闯</span>
+        <span class="update-badge" id="update-badge" data-action="upgrade-questions" style="display:none">有新版本</span>
+      </h1>
+      <span class="subtitle">100天提升</span>
+    </div>
+    <div class="header-right" id="header-right-container">
+      <button class="header-settings-btn" data-action="nav" data-view="settings">⚙️</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HOME VIEW ===== -->
+    <section id="view-home" class="view active">
+
+      <!-- 各科掌握情况 chart -->
+      <div class="home-section home-chart-section">
+        <div class="chart-wrapper" id="home-chart-container"></div>
+      </div>
+
+      <!-- 补弱科目区（JS 动态渲染） -->
+      <div id="weak-subjects-container"></div>
+
+    </section>
+
+    <!-- ===== PRACTICE VIEW ===== -->
+    <section id="view-practice" class="view">
+      <div class="view-toolbar">
+        <button class="back-home-btn" data-action="nav" data-view="home">← 返回</button>
+        <span class="view-title" id="practice-view-title">选择科目</span>
+      </div>
+      <div id="practice-entry-info" class="practice-entry-info"></div>
+      <div id="section-tabs-container" class="section-tabs-container"></div>
+      <div id="subject-grid-container" class="subject-grid-container"></div>
+      <div id="question-container">
+        <p class="placeholder">正在准备题目...</p>
+      </div>
+    </section>
+
+    <!-- ===== PROGRESS VIEW ===== -->
+    <section id="view-progress" class="view">
+      <div class="view-toolbar">
+        <button class="back-home-btn" data-action="nav" data-view="home">← 返回</button>
+        <span class="view-title">打卡记录</span>
+      </div>
+      <div id="history-container">
+        <p class="placeholder">加载中...</p>
+      </div>
+    </section>
+
+    <!-- ===== SETTINGS VIEW ===== -->
+    <section id="view-settings" class="view">
+      <div class="view-toolbar">
+        <button class="back-home-btn" data-action="nav" data-view="home">← 返回</button>
+        <span class="view-title">设置</span>
+      </div>
+      <div id="settings-content">
+        <p class="placeholder">加载中...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>百日闯 · 100天提升</p>
+  </footer>
+<!-- ===== AVATAR CHOICE MODAL ===== -->
+<div id="avatar-choice-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:320px">
+    <div class="modal-toolbar">
+      <span class="modal-title">更换头像</span>
+      <button class="modal-close-btn" id="avatar-choice-close-btn">×</button>
+    </div>
+    <div class="avatar-choice-btns">
+      <button class="avatar-choice-btn" data-action="avatar-use-camera">
+        <span class="acb-icon">📷</span>
+        <span>拍照</span>
+      </button>
+      <button class="avatar-choice-btn" data-action="avatar-use-emoji">
+        <span class="acb-icon">😊</span>
+        <span>表情</span>
+      </button>
+      <button class="avatar-choice-btn" data-action="avatar-use-upload">
+        <span class="acb-icon">🖼️</span>
+        <span>相册</span>
+      </button>
+    </div>
+    <div id="avatar-emoji-grid" style="display:none;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px;max-height:140px;overflow-y:auto"></div>
+  </div>
+</div>
+
+<!-- Hidden file input for camera/upload -->
+<input type="file" accept="image/*" capture="environment" id="avatar-camera-input" style="display:none">
+
+<!-- ===== SECTION SELECT MODAL (first-time setup) ===== -->
+<div id="section-select-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:360px;text-align:center">
+    <p class="modal-title">选择学段</p>
+    <p style="font-size:0.85rem;color:var(--theme-text-muted);margin:8px 0 20px">请选择您所在的学段，之后可在设置中切换</p>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="primary-btn" data-action="select-section" data-value="primary" style="padding:14px;font-size:1rem">小学</button>
+      <button class="primary-btn" data-action="select-section" data-value="junior" style="padding:14px;font-size:1rem">初中</button>
+      <button class="primary-btn" data-action="select-section" data-value="senior" style="padding:14px;font-size:1rem">高中</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!-- ===== FLOATING MODALS ===== -->
+<!-- ===== PWA INSTALL MODAL ===== -->
+<div id="pwa-install-banner" class="modal-overlay pwa-sheet-overlay" style="display:none;align-items:flex-end;justify-content:center">
+  <div class="modal-card float-card pwa-sheet" style="border-radius:16px 16px 0 0;max-width:100%;width:100%;padding:24px 20px 36px;text-align:center">
+    <div class="sheet-handle" style="width:36px;height:4px;background:#ddd;border-radius:2px;margin:0 auto 16px"></div>
+    <p class="modal-title" style="margin-bottom:8px">安装百日闯到桌面</p>
+    <p style="font-size:0.85rem;color:var(--theme-text-secondary);margin:0 0 20px">添加后离线可用，随时打卡</p>
+    <button class="primary-btn" id="pwa-install-btn" style="width:100%;padding:14px;font-size:1rem;border-radius:12px" onclick="installPWADirect()">安装到桌面</button>
+    <button class="secondary-btn" onclick="document.getElementById('pwa-install-banner').style.display='none'" style="margin-top:10px;width:100%;padding:10px;font-size:0.88rem;border-radius:10px;background:transparent;border:none;color:var(--theme-text-secondary)">暂不需要</button>
+  </div>
+</div>
+
+<div id="checkin-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px">
+    <div class="modal-emoji">100</div>
+    <p class="modal-title">打卡成功！</p>
+    <div class="checkin-stats">
+      <div class="checkin-stat-item">
+        <span class="checkin-stat-num" id="modal-streak">0</span>
+        <span class="checkin-stat-label">连续天数</span>
+      </div>
+      <div class="checkin-stat-item">
+        <span class="checkin-stat-num" id="modal-total">0</span>
+        <span class="checkin-stat-label">累计打卡</span>
+      </div>
+      <div class="checkin-stat-item">
+        <span class="checkin-stat-num" id="modal-week">0</span>
+        <span class="checkin-stat-label">本周</span>
+      </div>
+    </div>
+    <button class="primary-btn" data-action="close-checkin-modal" style="margin-top:16px">好的</button>
+  </div>
+</div>
+
+<div id="toast" class="toast" style="display:none"></div>
+
+<!-- ===== SECTION SETUP MODAL (first launch) ===== -->
+<div id="section-setup-modal" class="modal-overlay" style="display:none;z-index:1000">
+  <div class="modal-card float-card" style="top:20px;max-width:360px">
+    <div class="modal-emoji">🎓</div>
+    <p class="modal-title" id="section-setup-title">选择你的学段</p>
+    <p class="modal-sub">这将决定你可以练习的科目</p>
+    <div class="section-setup-cards">
+      <div class="section-setup-card" data-action="choose-section" data-section="primary">
+        <div class="section-card-icon">📗</div>
+        <div class="section-card-name">小学</div>
+        <div class="section-card-desc">语数英</div>
+      </div>
+      <div class="section-setup-card" data-action="choose-section" data-section="junior">
+        <div class="section-card-icon">📘</div>
+        <div class="section-card-name">初中</div>
+        <div class="section-card-desc">语数英物化生史地政</div>
+      </div>
+      <div class="section-setup-card" data-action="choose-section" data-section="senior">
+        <div class="section-card-icon">📙</div>
+        <div class="section-card-name">高中</div>
+        <div class="section-card-desc">语数英物化生史地政</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== ACCOUNT SETUP MODAL ===== -->
+<div id="account-setup-modal" class="modal-overlay" style="display:none;z-index:999" data-mode="create">
+  <div class="modal-card float-card" style="top:20px;max-width:360px">
+    <div class="modal-emoji" id="account-setup-emoji">Hi</div>
+    <p class="modal-title" id="account-setup-title">欢迎使用百日闯</p>
+    <p class="modal-sub" id="account-setup-sub">创建一个专属身份，换设备扫码即可恢复</p>
+    <div class="modal-close-row">
+      <button class="modal-close-x" id="account-setup-close-btn">×</button>
+    </div>
+    <div class="account-avatar-pick">
+      <img id="avatar-preview" data-action="open-avatar-choice" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23ddd'/%3E%3Ctext x='50' y='65' text-anchor='middle' font-size='50'%3E%3C/text%3E%3C/svg%3E" alt="点击更换头像" style="cursor:pointer" title="点击更换头像">
+    </div>
+    <input type="text" id="account-name-input" class="text-input" placeholder="输入你的名字" maxlength="20">
+    <button class="primary-btn" id="account-setup-confirm-btn" style="margin-top:12px">开启百日计划</button>
+  </div>
+</div>
+
+<!-- ===== 100-DAY COMPLETION MODAL ===== -->
+<div id="completion-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card completion-modal-card" style="top:10px">
+    <div class="completion-header">
+      <div class="completion-emoji">坚持</div>
+      <h2 class="completion-title">100天完成！</h2>
+      <p class="completion-sub">你已完成百日闯学习计划</p>
+    </div>
+    <div class="completion-compare">
+      <div class="compare-item">
+        <div class="compare-label">第1天平均</div>
+        <div class="compare-val" id="cmp-day1">--</div>
+      </div>
+      <div class="compare-arrow">→</div>
+      <div class="compare-item">
+        <div class="compare-label">第100天平均</div>
+        <div class="compare-val compare-val-now" id="cmp-day100">--</div>
+      </div>
+    </div>
+    <div class="compare-gain" id="cmp-gain"></div>
+    <div class="compare-subjects" id="cmp-subjects"></div>
+    <button class="primary-btn" id="completion-confirm-btn" style="margin-top:16px">继续努力</button>
+  </div>
+</div>
+
+<div id="qr-import-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:400px">
+    <div class="modal-toolbar">
+      <span class="modal-title">扫码接入</span>
+      <button class="modal-close-btn" id="qr-import-close-btn">×</button>
+    </div>
+    <div id="qr-reader" style="width:100%"></div>
+    <p class="placeholder" id="qr-import-tip">对准二维码扫描</p>
+    <p class="placeholder" id="qr-import-error" style="color:#e53935;display:none"></p>
+  </div>
+</div>
+
+<div id="donate-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:360px">
+    <div class="modal-toolbar">
+      <span class="modal-title">强烈支持</span>
+      <button class="modal-close-btn" id="donate-close-btn" data-action="close-donate-modal">×</button>
+    </div>
+    <p style="font-size:0.85rem;color:var(--theme-text-secondary);margin:8px 0 16px">你的支持是我持续更新的动力</p>
+    <div class="donate-qr-row">
+      <div class="donate-qr-item">
+        <div class="donate-qr-label">微信</div>
+        <img id="donate-wechat-qr" src="images/wechat_donate.png" alt="微信收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
+      </div>
+      <div class="donate-qr-item">
+        <div class="donate-qr-label">支付宝</div>
+        <img id="donate-alipay-qr" src="images/alipay_donate.png" alt="支付宝收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
+      </div>
+    </div>
+    <p style="font-size:0.75rem;color:#aaa;margin-top:12px;text-align:center">截图保存 → 打开对应App扫一扫</p>
+  </div>
+</div>
+
+<div id="support-modal" class="modal-overlay" style="display:none">
+  <div class="modal-card float-card" style="top:20px;max-width:360px">
+    <div class="modal-toolbar">
+      <span class="modal-title">支持百日闯</span>
+      <button class="modal-close-btn" data-action="close-support-modal">×</button>
+    </div>
+    <p style="font-size:0.9rem;color:#444;margin:16px 0;line-height:1.6">百日闯已持续维护更新，感谢你的使用。</p>
+    <div style="background:var(--theme-surface-2);border-radius:10px;padding:16px;margin-bottom:12px">
+      <div style="font-size:0.85rem;color:var(--theme-text-secondary);margin-bottom:8px">推荐以下方式支持：</div>
+      <div style="font-size:0.85rem;color:var(--theme-modal-text);line-height:2">
+        <div style="margin-bottom:4px">1. GitHub 点星</div>
+        <button id="support-share-btn" data-action="open-share-modal" style="background:#4CAF50;color:white;border:none;border-radius:6px;padding:8px 12px;font-size:0.85rem;cursor:pointer;width:100%;font-weight:700;margin-bottom:6px">
+          2. 转发给需要的同学
+        </button>
+        <button id="support-donate-btn" style="background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:6px;padding:8px 12px;font-size:0.85rem;cursor:pointer;width:100%;font-weight:700">
+          3. 强烈支持
+        </button>
+      </div>
+    </div>
+    <a href="https://github.com/fuweineng/bairichuang-pwa" target="_blank" style="display:block;text-align:center;padding:10px;background:#24292e;color:white;border-radius:8px;font-size:0.85rem;font-weight:600;text-decoration:none">
+      GitHub 仓库
+    </a>
+  </div>
+</div>
+
+<!-- ===== ANSWER FEEDBACK MODAL ===== -->
+<div id="feedback-modal-overlay" style="display:none" onclick="if(event.target===this)closeFeedbackModal()">
+  <div id="feedback-modal"></div>
+</div>
+
+<!-- QR + compression CDNs -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+
+<!-- ===== SCRIPTS ===== -->
+<script type="module" src="app.js"></script>
+</body>
+</html>

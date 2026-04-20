@@ -1,0 +1,738 @@
+// POLITICS — 40 questions, merged & deduplicated
+// Last updated: 2026-04-13
+
+export default [
+  {
+    "id": "society-011",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "道德教育",
+      "诚信"
+    ],
+    "question": "下列体现诚信品质的是：",
+    "options": [
+      "抄袭作业",
+      "考试作弊",
+      "守时守约",
+      "说谎推卸责任"
+    ],
+    "answer": "守时守约",
+    "explanation": "诚信就是诚实守信。守时守约是诚信的表现。"
+  },
+  {
+    "id": "society-012",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育",
+      "法律作用"
+    ],
+    "question": "法律最主要的特征是：",
+    "options": [
+      "由国家制定或认可",
+      "靠国家强制力保证实施",
+      "对全体社会成员具有普遍约束力",
+      "维护公平正义"
+    ],
+    "answer": "靠国家强制力保证实施",
+    "explanation": "法律有三个特征，最主要的是靠国家强制力保证实施。"
+  },
+  {
+    "id": "society-013",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "我国宪法规定，公民的基本权利有政治权利和自由、人身自由权利、社会经济权利、______和教育的权利等。",
+    "options": null,
+    "answer": "宗教信仰自由",
+    "explanation": "我国公民的基本权利包括政治权利和自由、人身自由权利、社会经济权利、宗教信仰自由等。"
+  },
+  {
+    "id": "society-014",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "依法纳税是公民的：",
+    "options": [
+      "基本权利",
+      "基本义务",
+      "道德义务",
+      "自愿行为"
+    ],
+    "answer": "基本义务",
+    "explanation": "依法纳税是公民的基本义务。我国宪法规定公民有依照法律纳税的义务。"
+  },
+  {
+    "id": "society-015",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "责任意识"
+    ],
+    "question": "下列行为体现了社会责任意识的是：",
+    "options": [
+      "过马路闯红灯",
+      "主动参加社区志愿服务",
+      "在文物上刻字留念",
+      "随手乱扔垃圾"
+    ],
+    "answer": "主动参加社区志愿服务",
+    "explanation": "参加社区志愿服务是服务社会、奉献社会的表现，体现了良好的社会责任意识。"
+  },
+  {
+    "id": "politics-001",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "个人与集体"
+    ],
+    "question": "个人利益与集体利益的关系是：",
+    "options": [
+      "完全对立",
+      "根本一致，但有时会发生矛盾",
+      "个人利益服从集体利益",
+      "集体利益服从个人利益"
+    ],
+    "answer": "根本一致，但有时会发生矛盾",
+    "explanation": "个人与集体相互依存，个人利益与集体利益在根本上是一致的，但具体问题上可能发生矛盾。"
+  },
+  {
+    "id": "politics-002",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "下列属于自尊表现的是：",
+    "options": [
+      "爱慕虚荣",
+      "嫉妒他人",
+      "维护自己的人格",
+      "贬低别人抬高自己"
+    ],
+    "answer": "维护自己的人格",
+    "explanation": "自尊即自我尊重，维护自己的人格，不做有损人格的事是自尊的表现。"
+  },
+  {
+    "id": "politics-003",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "诚信"
+    ],
+    "question": "对考试作弊行为认识正确的是：",
+    "options": [
+      "无所谓",
+      "小节问题",
+      "违反诚信原则，损害公平",
+      "可以理解"
+    ],
+    "answer": "违反诚信原则，损害公平",
+    "explanation": "考试作弊违背诚信原则，破坏公平竞争的环境，也是对自己不负责任的表现。"
+  },
+  {
+    "id": "politics-004",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "当情绪激动时，正确的做法是：",
+    "options": [
+      "立刻发脾气",
+      "压抑情绪不表达",
+      "转移注意力，等冷静后再处理",
+      "对着别人发泄"
+    ],
+    "answer": "转移注意力，等冷静后再处理",
+    "explanation": "情绪激动时应该学会调节，如转移注意力、做深呼吸等，等冷静后再处理问题。"
+  },
+  {
+    "id": "politics-005",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "意志品质"
+    ],
+    "question": "意志坚强的人表现在：",
+    "options": [
+      "遇到困难就放弃",
+      "能够坚持到底",
+      "做事三分钟热度",
+      "害怕困难逃避现实"
+    ],
+    "answer": "能够坚持到底",
+    "explanation": "意志坚强的人能够在困难面前坚持不懈，不怕挫折，最终实现目标。"
+  },
+  {
+    "id": "politics-006",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自我保护"
+    ],
+    "question": "遇到火灾时，正确的逃生做法是：",
+    "options": [
+      "乘坐电梯快速逃生",
+      "躲到衣柜里等待救援",
+      "用湿毛巾捂住口鼻，低姿势逃生",
+      "跳楼逃生"
+    ],
+    "answer": "用湿毛巾捂住口鼻，低姿势逃生",
+    "explanation": "火灾逃生应用湿毛巾捂住口鼻，低姿势沿墙壁逃生，切勿乘坐电梯或跳楼。"
+  },
+  {
+    "id": "politics-007",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "网络交往"
+    ],
+    "question": "在网络交往中，我们应该：",
+    "options": [
+      "随意泄露个人信息",
+      "对网友完全信任",
+      "遵守法律，文明上网",
+      "隐瞒真实身份进行欺诈"
+    ],
+    "answer": "遵守法律，文明上网",
+    "explanation": "网络交往也要遵守法律法规，文明礼貌，保护好个人隐私，不做违法犯罪的事。"
+  },
+  {
+    "id": "politics-008",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "换位思考"
+    ],
+    "question": "换位思考就是：",
+    "options": [
+      "把自己的想法强加给别人",
+      "站在别人的角度考虑问题",
+      "只考虑自己的利益",
+      "模仿别人的行为"
+    ],
+    "answer": "站在别人的角度考虑问题",
+    "explanation": "换位思考是理解他人的一种方式，指将自己的情感、立场转移到对方的角度去考虑问题。"
+  },
+  {
+    "id": "politics-009",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "礼貌礼仪"
+    ],
+    "question": "下列不属于文明礼貌用语的是：",
+    "options": [
+      "谢谢",
+      "您好",
+      "滚开",
+      "请问"
+    ],
+    "answer": "滚开",
+    "explanation": "文明礼貌用语包括'请'、'您好'、'谢谢'、'对不起'等，'滚开'是粗鲁、不礼貌的语言。"
+  },
+  {
+    "id": "politics-010",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "未满16周岁的未成年人违反治安管理处罚法：",
+    "options": [
+      "不需要承担任何责任",
+      "犯罪不受法律制裁",
+      "会被处罚，但从轻或减轻",
+      "可以随意行为"
+    ],
+    "answer": "会被处罚，但从轻或减轻",
+    "explanation": "未满16周岁的未成年人违反治安管理处罚法，会被从轻或减轻处罚；满16周岁才承担完全刑事责任。"
+  },
+  {
+    "id": "politics-011",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生命价值"
+    ],
+    "question": "以下关于生命的认识，正确的是：",
+    "options": [
+      "生命只属于自己",
+      "珍爱生命不需要关爱他人",
+      "生命至上，珍爱自己也尊重他人生命",
+      "生命价值在于寿命长短"
+    ],
+    "answer": "生命至上，珍爱自己也尊重他人生命",
+    "explanation": "每个生命都值得珍爱，生命既属于自己，也与他人、社会相关联，要尊重一切生命。"
+  },
+  {
+    "id": "politics-012",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "学习策略"
+    ],
+    "question": "下列属于高效学习方法的是：",
+    "options": [
+      "死记硬背",
+      "题海战术",
+      "制定计划、合理安排时间",
+      "临时抱佛脚"
+    ],
+    "answer": "制定计划、合理安排时间",
+    "explanation": "高效学习需要制定合理的学习计划，科学安排时间，结合多种学习方法。"
+  },
+  {
+    "id": "politics-013",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "亲子关系"
+    ],
+    "question": "当与父母发生矛盾时，正确的做法是：",
+    "options": [
+      "冷战到底",
+      "离家出走",
+      "主动沟通，耐心倾听",
+      "与父母对着干"
+    ],
+    "answer": "主动沟通，耐心倾听",
+    "explanation": "与父母发生矛盾时，应该冷静下来，主动沟通，耐心倾听父母的意见，理解他们的出发点。"
+  },
+  {
+    "id": "politics-014",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "认识自己"
+    ],
+    "question": "正确认识自己的方法是：",
+    "options": [
+      "只听别人夸奖",
+      "只用成绩衡量自己",
+      "通过他人评价和自我反思相结合",
+      "只看自己的优点"
+    ],
+    "answer": "通过他人评价和自我反思相结合",
+    "explanation": "认识自己需要全面客观，既要通过他人评价，也要进行自我反思，做到知己知彼。"
+  },
+  {
+    "id": "politics-015",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "预防犯罪"
+    ],
+    "question": "不良行为和严重不良行为之间的关系是：",
+    "options": [
+      "两者没有联系",
+      "不良行为可能发展为严重不良行为，甚至犯罪",
+      "严重不良行为不会发展为犯罪",
+      "只有犯罪才是严重问题"
+    ],
+    "answer": "不良行为可能发展为严重不良行为，甚至犯罪",
+    "explanation": "不良行为若不及时矫治，可能进一步发展成严重不良行为，最终可能导致犯罪。"
+  },
+  {
+    "id": "politics-021",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "心理品质"
+    ],
+    "question": "一个人具有良好的心理品质，有助于：",
+    "options": [
+      "只对学习有帮助",
+      "只对交往有帮助",
+      "身心健康成长，更好地适应社会",
+      "只对工作有帮助"
+    ],
+    "answer": "身心健康成长，更好地适应社会",
+    "explanation": "良好的心理品质对一个人的全面发展具有重要意义，有助于身心健康成长，更好地适应社会"
+  },
+  {
+    "id": "politics-022",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "挫折认识"
+    ],
+    "question": "对挫折的理解正确的是：",
+    "options": [
+      "挫折只会给人带来痛苦",
+      "挫折是人生的一部分",
+      "挫折是可以完全避免的",
+      "经历过挫折的人都会成功"
+    ],
+    "answer": "挫折是人生的一部分",
+    "explanation": "挫折是人生的一部分，没有人能一帆风顺，挫折既有消极作用也有积极作用"
+  },
+  {
+    "id": "politics-023",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "情绪低落时，正确的调节方法是：",
+    "options": [
+      "借酒消愁",
+      "大发脾气",
+      "转移注意力",
+      "压抑自己"
+    ],
+    "answer": "转移注意力",
+    "explanation": "转移注意力是调节情绪的好方法，如听音乐、运动、看书等；借酒消愁伤害身体，大发脾气影响人际关系"
+  },
+  {
+    "id": "politics-024",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "情绪的成分不包括：",
+    "options": [
+      "内在体验",
+      "外在表现",
+      "意志水平",
+      "生理唤醒"
+    ],
+    "answer": "意志水平",
+    "explanation": "情绪的成分包括：内在体验（感受）、外在表现（表情）、生理唤醒（生理变化）"
+  },
+  {
+    "id": "politics-025",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "自尊是既不向别人卑躬屈膝，也不允许别人歧视、侮辱的_____。",
+    "answer": "思想品质",
+    "explanation": "自尊是一种自己尊重自己、爱护自己，并期望受到他人、集体和社会尊重的内心体验，是一种积极的心理品质"
+  },
+  {
+    "id": "politics-026",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "未成年人的不良行为包括：",
+    "options": [
+      "上课认真听讲",
+      "旷课、夜不归宿",
+      "按时完成作业",
+      "遵守校纪校规"
+    ],
+    "answer": "旷课、夜不归宿",
+    "explanation": "旷课、夜不归宿属于未成年人的不良行为；按时完成作业、遵守校纪校规是良好行为"
+  },
+  {
+    "id": "politics-027",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "保护未成年人合法权益的专门法律是：",
+    "options": [
+      "《宪法》",
+      "《未成年人保护法》",
+      "《义务教育法》",
+      "《婚姻法》"
+    ],
+    "answer": "《未成年人保护法》",
+    "explanation": "《未成年人保护法》是专门保护未成年人合法权益的法律，分为家庭保护、学校保护、社会保护、司法保护四部分"
+  },
+  {
+    "id": "politics-028",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "个人与集体"
+    ],
+    "question": "个人与集体的关系是：",
+    "options": [
+      "个人利益高于集体利益",
+      "集体利益和个人利益同等重要",
+      "个人离开集体就无法生存",
+      "集体离开个人也能存在"
+    ],
+    "answer": "集体利益和个人利益同等重要",
+    "explanation": "个人与集体相互依存，集体利益和个人利益都很重要，应该把集体利益放在首位，但也尊重个人正当利益"
+  },
+  {
+    "id": "politics-029",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "行为与后果"
+    ],
+    "question": "行为与后果的关系是：",
+    "options": [
+      "行为与后果没有必然联系",
+      "一种行为只会产生一种后果",
+      "行为必然产生后果，有行为必有后果",
+      "有些行为有后果，有些行为没有后果"
+    ],
+    "answer": "行为必然产生后果，有行为必有后果",
+    "explanation": "行为与后果具有一致性，有行为就必然产生后果，行为不同后果也不同"
+  },
+  {
+    "id": "politics-030",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "我国宪法规定，公民有言论、出版、集会、结社、游行、示威的_____。",
+    "answer": "自由权利",
+    "explanation": "这是我国公民享有的政治自由权利，是公民参与国家政治生活的基础"
+  },
+  {
+    "id": "politics-031",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "关于情绪的描述，不正确的是：",
+    "options": [
+      "情绪是复杂的",
+      "情绪是可以调控的",
+      "情绪对青少年没有影响",
+      "情绪可以分为喜、怒、哀、惧等"
+    ],
+    "answer": "情绪对青少年没有影响",
+    "explanation": "情绪对人的身心健康、行为、人际关系等都有重要影响，因此需要学会调节情绪"
+  },
+  {
+    "id": "politics-032",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "责任意识"
+    ],
+    "question": "做负责任的人，应该做到：",
+    "options": [
+      "逃避责任",
+      "减少责任",
+      "信守承诺勇担过错",
+      "只承担他人责任"
+    ],
+    "answer": "信守承诺勇担过错",
+    "explanation": "做负责任的人要：信守承诺，勇担过错，勇担责任，主动承担责任，不推卸责任"
+  },
+  {
+    "id": "politics-033",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "诚实守信是：",
+    "options": [
+      "中华民族的最高道德理想",
+      "中华民族的传统美德",
+      "做人的基本要求",
+      "以上都是"
+    ],
+    "answer": "以上都是",
+    "explanation": "诚实守信是中华民族的传统美德，是做人的基本要求，是中华民族的最高道德理想之一"
+  },
+  {
+    "id": "politics-034",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "一般违法行为与犯罪的区别是：",
+    "options": [
+      "社会危害性大小不同",
+      "都要受到法律制裁",
+      "违反的都是法律",
+      "都是危害社会的行为"
+    ],
+    "answer": "社会危害性大小不同",
+    "explanation": "一般违法行为和犯罪都违反法律，但社会危害性大小不同，犯罪是严重违法行为"
+  },
+  {
+    "id": "politics-035",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "挫折应对"
+    ],
+    "question": "面对挫折时，我们要学会一些应对方法，如请求帮助、_____和自我疏导等。",
+    "answer": "自我疏导",
+    "explanation": "应对挫折的方法包括：请求帮助、自我疏导（写日记、倾诉）、心理安慰、目标调整等"
+  },
+  {
+    "id": "politics-036",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "网络道德"
+    ],
+    "question": "青少年正确使用网络应该：",
+    "options": [
+      "随意浏览不良信息",
+      "遵守道德和法律，不恶意制造和传播信息",
+      "匿名攻击他人",
+      "沉溺于网络游戏"
+    ],
+    "answer": "遵守道德和法律，不恶意制造和传播信息",
+    "explanation": "青少年使用网络要遵守《青少年网络文明公约》，文明上网，遵守道德和法律"
+  },
+  {
+    "id": "politics-037",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "自卑与自负的共同点是：",
+    "options": [
+      "都是正确的自我评价",
+      "都不能客观地看待自己",
+      "都是对自己不利的",
+      "都是对自己有利的"
+    ],
+    "answer": "都不能客观地看待自己",
+    "explanation": "自卑与自负都是不能正确认识自己的表现，自卑低估自己，自负高估自己，都是不客观的"
+  },
+  {
+    "id": "politics-038",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "依法服兵役是：",
+    "options": [
+      "大人们的义务",
+      "成年人的义务",
+      "中华人民共和国公民的基本义务",
+      "自愿的行为"
+    ],
+    "answer": "中华人民共和国公民的基本义务",
+    "explanation": "依照法律服兵役是中华人民共和国公民的基本义务，体现了公民对国家的责任"
+  },
+  {
+    "id": "politics-039",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "情绪调节"
+    ],
+    "question": "情绪ABC理论中，A代表：",
+    "options": [
+      "情绪",
+      "诱发性事件",
+      "信念和想法",
+      "行为和结果"
+    ],
+    "answer": "诱发性事件",
+    "explanation": "情绪ABC理论：A是诱发性事件（Activating event），B是信念和想法（Belief），C是行为和结果（Consequence）"
+  },
+  {
+    "id": "politics-040",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "《中华人民共和国未成年人保护法》从1992年1月1日起施行，于2007年和2012年进行了两次_____。",
+    "answer": "修订",
+    "explanation": "《未成年人保护法》于2007年和2012年进行了修订，不断完善对未成年人的保护"
+  }
+];

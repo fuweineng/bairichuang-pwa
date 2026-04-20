@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
+  <rect width="320" height="220" fill="#f7fcff"/>
+  <path d="M30 70 C80 95, 120 75, 160 100 S240 145, 290 170" fill="none" stroke="#0ea5e9" stroke-width="16" stroke-linecap="round"/>
+  <path d="M28 36 C86 62, 132 50, 178 74" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M36 116 C90 136, 126 128, 170 154" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 8"/>
+  <text x="24" y="30" font-size="15" fill="#92400e">100m</text>
+  <text x="184" y="76" font-size="15" fill="#92400e">100m</text>
+  <text x="24" y="112" font-size="15" fill="#92400e">200m</text>
+  <text x="174" y="156" font-size="15" fill="#92400e">200m</text>
+  <text x="228" y="62" font-size="18" font-weight="700" fill="#1f2937">北</text>
+  <path d="M238 92 L228 70 L218 92" fill="#1f2937"/>
+  <text x="26" y="196" font-size="16" fill="#475569">河流自西北向东南流动</text>
+</svg>

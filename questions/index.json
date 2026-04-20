@@ -1,0 +1,51 @@
+{
+  "version": "20260415-1",
+  "updatedAt": "2026-04-15",
+  "subjects": {
+    "math": {
+      "file": "math.json",
+      "count": 299,
+      "version": "20260415-1"
+    },
+    "english": {
+      "file": "english.json",
+      "count": 520,
+      "version": "20260415-1"
+    },
+    "chinese": {
+      "file": "chinese.json",
+      "count": 400,
+      "version": "20260415-1"
+    },
+    "physics": {
+      "file": "physics.json",
+      "count": 200,
+      "version": "20260415-1"
+    },
+    "chemistry": {
+      "file": "chemistry.json",
+      "count": 200,
+      "version": "20260415-1"
+    },
+    "biology": {
+      "file": "biology.json",
+      "count": 199,
+      "version": "20260415-1"
+    },
+    "history": {
+      "file": "history.json",
+      "count": 150,
+      "version": "20260415-1"
+    },
+    "geography": {
+      "file": "geography.json",
+      "count": 150,
+      "version": "20260415-1"
+    },
+    "politics": {
+      "file": "politics.json",
+      "count": 120,
+      "version": "20260415-1"
+    }
+  }
+}

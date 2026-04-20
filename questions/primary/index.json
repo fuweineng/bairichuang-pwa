@@ -1,0 +1,22 @@
+{
+  "section": "primary",
+  "questionBankVersion": "20260417-1",
+  "updatedAt": "2026-04-17",
+  "subjects": {
+    "chinese": {
+      "file": "chinese.json",
+      "count": 50,
+      "version": "20260417-1"
+    },
+    "math": {
+      "file": "math.json",
+      "count": 50,
+      "version": "20260417-1"
+    },
+    "english": {
+      "file": "english.json",
+      "count": 50,
+      "version": "20260417-1"
+    }
+  }
+}

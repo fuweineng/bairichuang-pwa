@@ -1,0 +1,1914 @@
+[
+  {
+    "id": "primary-english-001",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "词汇"
+    ],
+    "question": "Hello! How are you?",
+    "options": [
+      "I'm fine, thank you.",
+      "I'm 10 years old.",
+      "I'm a student.",
+      "Nice to meet you."
+    ],
+    "answer": "I'm fine, thank you.",
+    "explanation": "这是常见的问候回答。",
+    "audio": "audio/english_001_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_001_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_001_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_001_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_001_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-002",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "词汇"
+    ],
+    "question": "What is this?",
+    "options": [
+      "It's a book.",
+      "It's red.",
+      "I like it.",
+      "Yes, it is."
+    ],
+    "answer": "It's a book.",
+    "explanation": "this是指示代词，用于指代近处的事物。",
+    "audio": "audio/english_002_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_002_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_002_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_002_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_002_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-003",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "词汇"
+    ],
+    "question": "How old are you?",
+    "options": [
+      "I'm 9.",
+      "I'm a boy.",
+      "I'm happy.",
+      "I'm in Class 3."
+    ],
+    "answer": "I'm 9.",
+    "explanation": "How old用于询问年龄。",
+    "audio": "audio/english_003_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_003_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_003_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_003_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_003_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-004",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "颜色"
+    ],
+    "question": "What color is the sky?",
+    "options": [
+      "Blue.",
+      "Red.",
+      "Green.",
+      "Yellow."
+    ],
+    "answer": "Blue.",
+    "explanation": "天空是蓝色的。",
+    "audio": "audio/english_004_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_004_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_004_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_004_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_004_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-005",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "动物"
+    ],
+    "question": "What animal says 'woof woof'?",
+    "options": [
+      "Dog.",
+      "Cat.",
+      "Bird.",
+      "Fish."
+    ],
+    "answer": "Dog.",
+    "explanation": "狗的叫声是woof woof。",
+    "audio": "audio/english_005_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_005_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_005_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_005_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_005_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-006",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "食物"
+    ],
+    "question": "I like _______ for breakfast.",
+    "options": [
+      "bread",
+      "book",
+      "chair",
+      "desk"
+    ],
+    "answer": "bread",
+    "explanation": "早餐喜欢吃面包。",
+    "audio": "audio/english_006_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_006_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_006_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_006_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_006_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-007",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "家庭"
+    ],
+    "question": "This is my mother. She is a _______.",
+    "options": [
+      "teacher",
+      "doctor",
+      "nurse",
+      "driver"
+    ],
+    "answer": "teacher",
+    "explanation": "职业名称识别。",
+    "audio": "audio/english_007_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_007_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_007_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_007_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_007_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-008",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "时间"
+    ],
+    "question": "What time is it?",
+    "options": [
+      "It's 8 o'clock.",
+      "It's Monday.",
+      "It's sunny.",
+      "It's a book."
+    ],
+    "answer": "It's 8 o'clock.",
+    "explanation": "询问时间用What time。",
+    "audio": "audio/english_008_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_008_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_008_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_008_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_008_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-009",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "星期"
+    ],
+    "question": "Today is Friday. Tomorrow is _______.",
+    "options": [
+      "Saturday",
+      "Sunday",
+      "Monday",
+      "Thursday"
+    ],
+    "answer": "Saturday",
+    "explanation": "星期五是Friday，周六是Saturday。",
+    "audio": "audio/english_009_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_009_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_009_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_009_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_009_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-010",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "月份"
+    ],
+    "question": "There are _______ months in a year.",
+    "options": [
+      "twelve",
+      "ten",
+      "seven",
+      "five"
+    ],
+    "answer": "twelve",
+    "explanation": "一年有12个月。",
+    "audio": "audio/english_010_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_010_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_010_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_010_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_010_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-011",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "季节"
+    ],
+    "question": "In summer, it is very _______.",
+    "options": [
+      "hot",
+      "cold",
+      "snowy",
+      "cool"
+    ],
+    "answer": "hot",
+    "explanation": "夏天很热。",
+    "audio": "audio/english_011_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_011_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_011_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_011_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_011_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-012",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "数字"
+    ],
+    "question": "Five + three = _______.",
+    "options": [
+      "eight",
+      "two",
+      "fifteen",
+      "four"
+    ],
+    "answer": "eight",
+    "explanation": "5+3=8。",
+    "audio": "audio/english_012_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_012_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_012_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_012_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_012_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-013",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "数字"
+    ],
+    "question": "Twelve - four = _______.",
+    "options": [
+      "eight",
+      "sixteen",
+      "three",
+      "eighteen"
+    ],
+    "answer": "eight",
+    "explanation": "12-4=8。",
+    "audio": "audio/english_013_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_013_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_013_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_013_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_013_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-014",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "介词"
+    ],
+    "question": "The cat is _______ the table.",
+    "options": [
+      "under",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "under",
+    "explanation": "猫在桌子下面。",
+    "audio": "audio/english_014_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_014_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_014_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_014_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_014_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-015",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 4,
+    "knowledgeTags": [
+      "方位"
+    ],
+    "question": "The school is _______ my house.",
+    "options": [
+      "near",
+      "under",
+      "in",
+      "behind"
+    ],
+    "answer": "near",
+    "explanation": "学校在房子附近。",
+    "audio": "audio/english_015_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_015_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_015_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_015_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_015_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-016",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "现在进行时"
+    ],
+    "question": "Look! The children _______ in the park.",
+    "options": [
+      "are playing",
+      "play",
+      "played",
+      "is playing"
+    ],
+    "answer": "are playing",
+    "explanation": "Look提示进行时，多个孩子用are。",
+    "audio": "audio/english_016_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_016_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_016_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_016_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_016_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-017",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "be动词"
+    ],
+    "question": "There _______ some water in the glass.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "is",
+    "explanation": "water是不可数名词，用is。",
+    "audio": "audio/english_017_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_017_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_017_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_017_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_017_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-018",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "可数名词"
+    ],
+    "question": "I have two _______.",
+    "options": [
+      "apples",
+      "water",
+      "milk",
+      "bread"
+    ],
+    "answer": "apples",
+    "explanation": "apples是可数名词复数。",
+    "audio": "audio/english_018_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_018_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_018_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_018_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_018_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-019",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "第三人称单数"
+    ],
+    "question": "She _______ English very well.",
+    "options": [
+      "speaks",
+      "speak",
+      "speaking",
+      "spoke"
+    ],
+    "answer": "speaks",
+    "explanation": "she是第三人称单数，动词加s。",
+    "audio": "audio/english_019_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_019_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_019_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_019_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_019_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-020",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 5,
+    "knowledgeTags": [
+      "like加ing"
+    ],
+    "question": "My brother likes _______ football.",
+    "options": [
+      "playing",
+      "play",
+      "plays",
+      "played"
+    ],
+    "answer": "playing",
+    "explanation": "like后加动词ing形式。",
+    "audio": "audio/english_020_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_020_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_020_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_020_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_020_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-021",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "情态动词"
+    ],
+    "question": "_______ I use your pen?",
+    "options": [
+      "May",
+      "Am",
+      "Is",
+      "Are"
+    ],
+    "answer": "May",
+    "explanation": "May用于请求许可。",
+    "audio": "audio/english_021_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_021_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_021_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_021_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_021_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-022",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "there be"
+    ],
+    "question": "There _______ a book and two pencils on the desk.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "there be就近原则，a book是单数。",
+    "audio": "audio/english_022_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_022_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_022_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_022_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_022_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-023",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "特殊疑问句"
+    ],
+    "question": "_______ did you go last Sunday?",
+    "options": [
+      "Where",
+      "What",
+      "When",
+      "How"
+    ],
+    "answer": "Where",
+    "explanation": "last Sunday提示地点，用Where。",
+    "audio": "audio/english_023_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_023_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_023_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_023_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_023_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-024",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "形容词性物主代词"
+    ],
+    "question": "This is _______ book. It is _______ book.",
+    "options": [
+      "my / my",
+      "I / my",
+      "my / me",
+      "me / my"
+    ],
+    "answer": "my / my",
+    "explanation": "形容词性物主代词修饰名词。",
+    "audio": "audio/english_024_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_024_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_024_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_024_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_024_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-025",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "名词所有格"
+    ],
+    "question": "This is Tom _______ room.",
+    "options": [
+      "'s",
+      "s'",
+      "s",
+      "'"
+    ],
+    "answer": "'s",
+    "explanation": "Tom的房间用Tom's表示所有格。",
+    "audio": "audio/english_025_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_025_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_025_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_025_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_025_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-026",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "一般过去时"
+    ],
+    "question": "She _______ to school yesterday.",
+    "options": [
+      "went",
+      "go",
+      "going",
+      "goes"
+    ],
+    "answer": "went",
+    "explanation": "yesterday是一般过去时标志。",
+    "audio": "audio/english_026_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_026_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_026_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_026_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_026_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-027",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "规则动词过去式"
+    ],
+    "question": "We _______ a good time last night.",
+    "options": [
+      "had",
+      "have",
+      "has",
+      "having"
+    ],
+    "answer": "had",
+    "explanation": "last night是过去时间，have的过去式是had。",
+    "audio": "audio/english_027_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_027_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_027_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_027_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_027_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-028",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "一般将来时"
+    ],
+    "question": "I _______ go to Beijing next week.",
+    "options": [
+      "will",
+      "am going to",
+      "both A and B",
+      "not going to"
+    ],
+    "answer": "both A and B",
+    "explanation": "will和be going to都可以表示将来。",
+    "audio": "audio/english_028_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_028_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_028_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_028_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_028_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-029",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "some/any"
+    ],
+    "question": "Are there _______ apples on the table?",
+    "options": [
+      "any",
+      "some",
+      "a",
+      "an"
+    ],
+    "answer": "any",
+    "explanation": "一般疑问句中用any。",
+    "audio": "audio/english_029_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_029_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_029_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_029_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_029_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-030",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "比较级"
+    ],
+    "question": "Tom is _______ than Jim.",
+    "options": [
+      "taller",
+      "tall",
+      "tallest",
+      "more tall"
+    ],
+    "answer": "taller",
+    "explanation": "than提示比较级，tall的比较级是taller。",
+    "audio": "audio/english_030_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_030_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_030_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_030_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_030_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-031",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "反义词"
+    ],
+    "question": "The sun rises in the east and sets in the _______.",
+    "options": [
+      "west",
+      "south",
+      "north",
+      "up"
+    ],
+    "answer": "west",
+    "explanation": "太阳东升西落。",
+    "audio": "audio/english_031_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_031_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_031_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_031_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_031_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-032",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "频度副词"
+    ],
+    "question": "I _______ eat junk food. It's unhealthy.",
+    "options": [
+      "never",
+      "always",
+      "usually",
+      "often"
+    ],
+    "answer": "never",
+    "explanation": "从不吃不健康食品。",
+    "audio": "audio/english_032_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_032_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_032_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_032_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_032_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-033",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "现在完成时"
+    ],
+    "question": "I have _______ finished my homework.",
+    "options": [
+      "already",
+      "still",
+      "yet",
+      "again"
+    ],
+    "answer": "already",
+    "explanation": "already用于现在完成时肯定句。",
+    "audio": "audio/english_033_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_033_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_033_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_033_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_033_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-034",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "祈使句"
+    ],
+    "question": "_______ late for school again!",
+    "options": [
+      "Don't be",
+      "Be not",
+      "Not be",
+      "Don't"
+    ],
+    "answer": "Don't be",
+    "explanation": "否定祈使句用Don't + be。",
+    "audio": "audio/english_034_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_034_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_034_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_034_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_034_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-035",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 6,
+    "knowledgeTags": [
+      "too/to"
+    ],
+    "question": "The box is too heavy _______ carry.",
+    "options": [
+      "to",
+      "for",
+      "too",
+      "and"
+    ],
+    "answer": "to",
+    "explanation": "too...to...太...而不能...",
+    "audio": "audio/english_035_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_035_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_035_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_035_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_035_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-036",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读理解"
+    ],
+    "question": "What is the main idea of the passage?",
+    "options": [
+      "About animals.",
+      "About plants.",
+      "About weather.",
+      "About food."
+    ],
+    "answer": "About animals.",
+    "explanation": "根据文章内容判断主题。",
+    "audio": "audio/english_036_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_036_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_036_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_036_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_036_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-037",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "词义推断"
+    ],
+    "question": "The word 'brave' in the sentence means _______.",
+    "options": [
+      "勇敢的",
+      "聪明的",
+      "善良的",
+      "诚实的"
+    ],
+    "answer": "勇敢的",
+    "explanation": "根据上下文推断词义。",
+    "audio": "audio/english_037_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_037_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_037_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_037_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_037_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-038",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "排序"
+    ],
+    "question": "Which sentence comes first?",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "answer": "First",
+    "explanation": "根据逻辑顺序判断。",
+    "audio": "audio/english_038_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_038_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_038_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_038_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_038_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-039",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "口语交际"
+    ],
+    "question": "When someone says 'Thank you!', you should reply _______.",
+    "options": [
+      "You're welcome.",
+      "Sorry.",
+      "Excuse me.",
+      "That's OK."
+    ],
+    "answer": "You're welcome.",
+    "explanation": "礼貌回应感谢。",
+    "audio": "audio/english_039_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_039_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_039_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_039_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_039_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-040",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读细节"
+    ],
+    "question": "How many children are there in the story?",
+    "options": [
+      "Three.",
+      "Four.",
+      "Five.",
+      "Six."
+    ],
+    "answer": "Three.",
+    "explanation": "在文章中找到具体数字。",
+    "audio": "audio/english_040_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_040_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_040_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_040_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_040_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-041",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Please _______ the window. It's cold.",
+    "options": [
+      "close",
+      "open",
+      "clean",
+      "wash"
+    ],
+    "answer": "close",
+    "explanation": "冷的时候要关窗户。",
+    "audio": "audio/english_041_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_041_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_041_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_041_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_041_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-042",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读排序"
+    ],
+    "question": "What happened first in the story?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The boy woke up early in the morning."
+      },
+      {
+        "label": "B",
+        "text": "The boy went to school with his backpack."
+      },
+      {
+        "label": "C",
+        "text": "The boy attended an English class."
+      },
+      {
+        "label": "D",
+        "text": "The boy played football after class."
+      }
+    ],
+    "answer": "A",
+    "explanation": "根据时间顺序判断先后。",
+    "audio": "audio/english_042_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_042_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_042_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_042_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_042_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-043",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读推断"
+    ],
+    "question": "We can infer that _______.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": "根据文章信息进行推断。",
+    "audio": "audio/english_043_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_043_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_043_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_043_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_043_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-044",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "首字母填空"
+    ],
+    "question": "It is s_______ in winter.",
+    "options": [
+      "snowy",
+      "sunny",
+      "windy",
+      "cloudy"
+    ],
+    "answer": "snowy",
+    "explanation": "冬天是下雪的。",
+    "audio": "audio/english_044_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_044_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_044_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_044_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_044_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-045",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "选词填空"
+    ],
+    "question": "I would like some _______.",
+    "options": [
+      "juice",
+      "book",
+      "desk",
+      "chair"
+    ],
+    "answer": "juice",
+    "explanation": "would like后加名词饮品。",
+    "audio": "audio/english_045_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_045_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_045_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_045_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_045_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-046",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读判断"
+    ],
+    "question": "Is the following statement TRUE or FALSE?",
+    "options": [
+      "True.",
+      "False.",
+      "Not mentioned.",
+      "Both."
+    ],
+    "answer": "True.",
+    "explanation": "根据文章信息判断正误。",
+    "audio": "audio/english_046_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_046_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_046_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_046_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_046_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-047",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "情景交际"
+    ],
+    "question": "Your friend is sick. You should say _______.",
+    "options": [
+      "Hope you get better soon!",
+      "Happy birthday!",
+      "Congratulations!",
+      "Good luck!"
+    ],
+    "answer": "Hope you get better soon!",
+    "explanation": "朋友生病时的问候。",
+    "audio": "audio/english_047_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_047_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_047_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_047_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_047_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-048",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读推理"
+    ],
+    "question": "The story mainly tells us _______.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": "概括文章主旨大意。",
+    "audio": "audio/english_048_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_048_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_048_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_048_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_048_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-049",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "写作排序"
+    ],
+    "question": "Which is the best title for the passage?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": "选择最恰当的标题。",
+    "audio": "audio/english_049_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_049_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_049_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_049_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_049_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-050",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 6,
+    "knowledgeTags": [
+      "综合运用"
+    ],
+    "question": "According to the passage, we should _______.",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": "A",
+    "explanation": "综合文章信息得出结论。",
+    "audio": "audio/english_050_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_050_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_050_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_050_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_050_d.mp3"
+      }
+    ]
+  }
+]

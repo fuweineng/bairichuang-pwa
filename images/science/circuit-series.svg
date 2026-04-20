@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
+  <rect width="320" height="220" fill="#fbfffb"/>
+  <path d="M50 60 H125 M195 60 H270 V160 H50 Z" fill="none" stroke="#334155" stroke-width="4"/>
+  <circle cx="160" cy="60" r="34" fill="none" stroke="#16a34a" stroke-width="4"/>
+  <line x1="160" y1="26" x2="160" y2="94" stroke="#16a34a" stroke-width="4"/>
+  <line x1="132" y1="60" x2="188" y2="60" stroke="#16a34a" stroke-width="4"/>
+  <rect x="105" y="150" width="110" height="20" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="3"/>
+  <rect x="240" y="90" width="24" height="40" fill="#fbbf24" stroke="#92400e" stroke-width="3"/>
+  <rect x="256" y="96" width="8" height="28" fill="#fde68a"/>
+  <text x="142" y="66" font-size="20" font-weight="700" fill="#166534">A</text>
+  <text x="142" y="144" font-size="16" fill="#1f2937">R = 10Ω</text>
+  <text x="224" y="84" font-size="16" fill="#1f2937">U = 6V</text>
+</svg>

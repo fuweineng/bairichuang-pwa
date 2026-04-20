@@ -1,0 +1,31 @@
+{
+  "segment": "senior-high",
+  "subject": "chinese",
+  "knowledgePoints": [
+    {"code": "SHC-001", "name": "文言文阅读", "description": "实词、虚词、断句、翻译"},
+    {"code": "SHC-002", "name": "古代诗歌鉴赏", "description": "意象、意境、手法、情感"},
+    {"code": "SHC-003", "name": "现代文阅读", "description": "叙事、说明、议论"},
+    {"code": "SHC-004", "name": "散文阅读", "description": "语言、形象、情感、主旨"},
+    {"code": "SHC-005", "name": "小说阅读", "description": "人物、情节、环境、主题"},
+    {"code": "SHC-006", "name": "戏剧阅读", "description": "冲突、人物语言、舞台说明"},
+    {"code": "SHC-007", "name": "写作", "description": "审题、立意、选材、结构"},
+    {"code": "SHC-008", "name": "病句修改", "description": "成分残缺、搭配不当、语序不当"},
+    {"code": "SHC-009", "name": "标点符号", "description": "引号、括号、破折号用法"},
+    {"code": "SHC-010", "name": "成语运用", "description": "望文生义、对象不符、语义重复"},
+    {"code": "SHC-011", "name": "文学常识", "description": "中外重要作家、作品、体裁"},
+    {"code": "SHC-012", "name": "文化常识", "description": "传统节日、礼仪制度、古代称谓"},
+    {"code": "SHC-013", "name": "名句默写", "description": "课内必背名句"},
+    {"code": "SHC-014", "name": "压缩语段", "description": "概括、提取、关键词"},
+    {"code": "SHC-015", "name": "仿写与扩写", "description": "句式、意象、修辞"},
+    {"code": "SHC-016", "name": "语言表达", "description": "得体、准确、简明、连贯"},
+    {"code": "SHC-017", "name": "修辞手法", "description": "比喻、比拟、借代、夸张、对偶"},
+    {"code": "SHC-018", "name": "表现手法", "description": "对比、衬托、托物言志、借景抒情"},
+    {"code": "SHC-019", "name": "叙述视角", "description": "第一人称、第三人称、全知视角"},
+    {"code": "SHC-020", "name": "论证方法", "description": "举例、道理论证、对比、比喻"},
+    {"code": "SHC-021", "name": "说明方法", "description": "举例子、作比较、列数字、分类别"},
+    {"code": "SHC-022", "name": "词类活用", "description": "名词作动词、使动、意动"},
+    {"code": "SHC-023", "name": "文言特殊句式", "description": "倒装、省略、判断"},
+    {"code": "SHC-024", "name": "谦敬词", "description": "令、奉、惠、垂、卑"},
+    {"code": "SHC-025", "name": "图文转换", "description": "表格、徽标、流程图"}
+  ]
+}

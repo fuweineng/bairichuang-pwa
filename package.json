@@ -1,0 +1,28 @@
+{
+  "name": "bairichuang-pwa",
+  "version": "1.0.3",
+  "description": "百日闯 PWA - 100天提升学习系统",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "check": "npm run validate && npm run smoke",
+    "test": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuweineng/bairichuang-pwa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuweineng/bairichuang-pwa/issues"
+  },
+  "homepage": "https://github.com/fuweineng/bairichuang-pwa#readme",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

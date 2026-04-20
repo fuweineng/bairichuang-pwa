@@ -1,0 +1,3605 @@
+[
+  {
+    "id": "geography-006",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "经纬网"
+    ],
+    "question": "地球上的0°经线又称为：",
+    "options": [
+      "赤道",
+      "本初子午线",
+      "国际日期变更线",
+      "南北回归线"
+    ],
+    "answer": "本初子午线",
+    "explanation": "0°经线称为本初子午线，是经度的起始线，通过英国格林尼治天文台旧址。"
+  },
+  {
+    "id": "geography-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "西藏自治区",
+      "内蒙古自治区",
+      "青海省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区。"
+  },
+  {
+    "id": "geography-008",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上最大的大洋是______，跨经度最多的大洋是______。",
+    "options": [],
+    "answer": [
+      "太平洋",
+      "北冰洋"
+    ],
+    "explanation": "太平洋是世界上最大、最深的大洋。北冰洋是跨经度最多的大洋。",
+    "acceptAnswers": [
+      "太平洋",
+      "北冰洋"
+    ]
+  },
+  {
+    "id": "geography-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "地形"
+    ],
+    "question": "我国地形的主要特征是：",
+    "options": [
+      "地形单一",
+      "地形复杂多样，山区面积广",
+      "以平原为主",
+      "以盆地为主"
+    ],
+    "answer": "地形复杂多样，山区面积广",
+    "explanation": "我国地形复杂多样，五种基本地形齐全，山区面积约占全国陆地面积的三分之二。"
+  },
+  {
+    "id": "geography-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "气候"
+    ],
+    "question": "我国季风气候最显著的特点是：",
+    "options": [
+      "夏季多雨，冬季干燥",
+      "雨热同期",
+      "全年温和多雨",
+      "温差小"
+    ],
+    "answer": "雨热同期",
+    "explanation": "我国是世界上季风气候最显著的国家之一，特点是雨热同期。"
+  },
+  {
+    "id": "geography-001",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "经纬线"
+    ],
+    "question": "北纬23.5°到南纬23.5°之间的地区称为：",
+    "options": [
+      "热带",
+      "北温带",
+      "南温带",
+      "寒带"
+    ],
+    "answer": "热带",
+    "explanation": "南北回归线（23.5°）之间的地区有太阳直射现象，属于热带。"
+  },
+  {
+    "id": "geography-002",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "地球运动"
+    ],
+    "question": "地球自转一周的时间是：",
+    "options": [
+      "一年",
+      "一个月",
+      "一天",
+      "一小时"
+    ],
+    "answer": "一天",
+    "explanation": "地球自转一周为一天（约24小时），产生昼夜交替现象。"
+  },
+  {
+    "id": "geography-003",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的洲是：",
+    "options": [
+      "非洲",
+      "北美洲",
+      "亚洲",
+      "南美洲"
+    ],
+    "answer": "亚洲",
+    "explanation": "亚洲是世界上面积最大的洲，面积约4400万平方公里。"
+  },
+  {
+    "id": "geography-004",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上最深的大洋是：",
+    "options": [
+      "大西洋",
+      "印度洋",
+      "北冰洋",
+      "太平洋"
+    ],
+    "answer": "太平洋",
+    "explanation": "太平洋平均深度超过4000米，最深处马里亚纳海沟深达11034米。"
+  },
+  {
+    "id": "geography-005",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "气候"
+    ],
+    "question": "非洲乞力马扎罗山虽位于赤道附近，却终年积雪，原因是：",
+    "options": [
+      "靠近海洋",
+      "海拔高",
+      "纬度较高",
+      "受寒流影响"
+    ],
+    "answer": "海拔高",
+    "explanation": "海拔每升高1000米，气温下降约6℃。乞力马扎罗山海拔5895米，山顶终年低温。"
+  },
+  {
+    "id": "geography-006",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "内蒙古自治区",
+      "西藏自治区",
+      "四川省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆面积约166万平方公里，是我国面积最大的省级行政区。"
+  },
+  {
+    "id": "geography-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "地形"
+    ],
+    "question": "我国最大的平原是：",
+    "options": [
+      "华北平原",
+      "东北平原",
+      "长江中下游平原",
+      "成都平原"
+    ],
+    "answer": "东北平原",
+    "explanation": "东北平原面积约35万平方公里，是我国面积最大的平原。"
+  },
+  {
+    "id": "geography-008",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "气候"
+    ],
+    "question": "我国年降水量分布规律是：",
+    "options": [
+      "从东南向西北递减",
+      "从西北向东南递减",
+      "全国均匀分布",
+      "从北向南递减"
+    ],
+    "answer": "从东南向西北递减",
+    "explanation": "受季风影响，我国降水主要来自太平洋的东南季风，所以降水量从东南向西北递减。"
+  },
+  {
+    "id": "geography-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "人口"
+    ],
+    "question": "世界上人口最多的国家是：",
+    "options": [
+      "印度",
+      "美国",
+      "中国",
+      "印度尼西亚"
+    ],
+    "answer": "中国",
+    "explanation": "中国是世界上人口最多的国家，其次是印度。"
+  },
+  {
+    "id": "geography-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "河流"
+    ],
+    "question": "世界上最长的河流是：",
+    "options": [
+      "亚马逊河",
+      "尼罗河",
+      "长江",
+      "密西西比河"
+    ],
+    "answer": "尼罗河",
+    "explanation": "尼罗河全长约6670公里，是世界上最长的河流。"
+  },
+  {
+    "id": "geography-011",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "板块构造"
+    ],
+    "question": "日本多地震的原因是：",
+    "options": [
+      "位于板块内部",
+      "位于环太平洋地震带",
+      "位于地中海-喜马拉雅地震带",
+      "位于大洋中脊"
+    ],
+    "answer": "位于环太平洋地震带",
+    "explanation": "日本位于太平洋板块与欧亚板块交界处的环太平洋地震带上，地壳运动活跃。"
+  },
+  {
+    "id": "geography-012",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "方向"
+    ],
+    "question": "在北半球，河流冲刷较严重的是：",
+    "options": [
+      "南岸",
+      "北岸",
+      "东岸",
+      "西岸"
+    ],
+    "answer": "南岸",
+    "explanation": "北半球地转偏向力向右偏，河流对南岸冲刷更严重。"
+  },
+  {
+    "id": "geography-013",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "自然资源"
+    ],
+    "question": "我国水资源分布特点是：",
+    "options": [
+      "南多北少",
+      "南少北多",
+      "全国均匀",
+      "东部多西部少"
+    ],
+    "answer": "南多北少",
+    "explanation": "我国水资源南多北少，南方水量约占全国的80%，北方仅占20%。"
+  },
+  {
+    "id": "geography-014",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理",
+      "发达国家"
+    ],
+    "question": "世界上最大的发达国家群是：",
+    "options": [
+      "欧盟",
+      "北美自贸区",
+      "东南亚联盟",
+      "金砖国家"
+    ],
+    "answer": "欧盟",
+    "explanation": "欧盟由27个成员国组成，是世界上经济一体化程度最高的国家集团。"
+  },
+  {
+    "id": "geography-015",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "工业分布"
+    ],
+    "question": "我国最大的工业基地是：",
+    "options": [
+      "辽中南工业区",
+      "京津唐工业区",
+      "沪宁杭工业区",
+      "珠江三角洲工业区"
+    ],
+    "answer": "沪宁杭工业区",
+    "explanation": "沪宁杭工业区是我国最大的综合性工业基地，以上海、南京、杭州为核心。"
+  },
+  {
+    "id": "geography-021",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-地形"
+    ],
+    "question": "我国最大的平原是：",
+    "options": [
+      "华北平原",
+      "东北平原",
+      "长江中下游平原",
+      "成都平原"
+    ],
+    "answer": "东北平原",
+    "explanation": "东北平原是我国面积最大的平原，约35万平方公里，包括三江平原、松嫩平原、辽河平原"
+  },
+  {
+    "id": "geography-022",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-气候"
+    ],
+    "question": "热带雨林气候主要分布在：",
+    "options": [
+      "赤道附近",
+      "回归线附近",
+      "极圈附近",
+      "温带内陆"
+    ],
+    "answer": "赤道附近",
+    "explanation": "热带雨林气候主要分布在赤道附近，如亚马逊平原、刚果盆地、东南亚群岛"
+  },
+  {
+    "id": "geography-023",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国少数民族数量最多的省级行政区是：",
+    "options": [
+      "新疆维吾尔自治区",
+      "广西壮族自治区",
+      "云南省",
+      "贵州省"
+    ],
+    "answer": "云南省",
+    "explanation": "云南省有25个少数民族，是我国少数民族数量最多的省份"
+  },
+  {
+    "id": "geography-024",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上面积最大的湖泊是：",
+    "options": [
+      "贝加尔湖",
+      "里海",
+      "死海",
+      "青海湖"
+    ],
+    "answer": "里海",
+    "explanation": "里海是世界上面积最大的湖泊，同时也是世界上面积最大的咸水湖，位于亚欧交界处"
+  },
+  {
+    "id": "geography-025",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-河流"
+    ],
+    "question": "长江和黄河都发源于青海省的_____高原。",
+    "answer": "青藏",
+    "explanation": "长江发源于唐古拉山，黄河发源于巴颜喀拉山，都位于青藏高原",
+    "acceptAnswers": [
+      "青藏"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-026",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-人口"
+    ],
+    "question": "世界上人口最多的大洲是：",
+    "options": [
+      "亚洲",
+      "非洲",
+      "欧洲",
+      "北美洲"
+    ],
+    "answer": "亚洲",
+    "explanation": "亚洲是世界上人口最多的大洲，约47亿人，占世界总人口约60%"
+  },
+  {
+    "id": "geography-027",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-资源"
+    ],
+    "question": "我国土地资源的特点是：",
+    "options": [
+      "总量多，人均少",
+      "总量少，人均多",
+      "总量多，人均多",
+      "总量少，人均少"
+    ],
+    "answer": "总量多，人均少",
+    "explanation": "我国土地资源总量居世界前列，但人均占有量远低于世界平均水平"
+  },
+  {
+    "id": "geography-028",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上最高的高原是：",
+    "options": [
+      "巴西高原",
+      "青藏高原",
+      "东非高原",
+      "德干高原"
+    ],
+    "answer": "青藏高原",
+    "explanation": "青藏高原平均海拔4000米以上，被称为世界屋脊，是世界上最高的高原"
+  },
+  {
+    "id": "geography-029",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-气候"
+    ],
+    "question": "我国季风气候的特点是：",
+    "options": [
+      "夏季温和少雨，冬季寒冷多雨",
+      "夏季高温多雨，冬季寒冷干燥",
+      "全年温和湿润",
+      "全年炎热干燥"
+    ],
+    "answer": "夏季高温多雨，冬季寒冷干燥",
+    "explanation": "我国大部分地区属于季风气候，夏季受来自太平洋的东南季风影响，高温多雨；冬季受来自内陆的西北季风影响，寒冷干燥"
+  },
+  {
+    "id": "geography-030",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上最长的河流是非洲的_____河。",
+    "answer": "尼罗",
+    "explanation": "尼罗河全长约6670公里，是世界上最长的河流，主要流经埃及、苏丹等国家",
+    "acceptAnswers": [
+      "尼罗"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-031",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      "内蒙古自治区",
+      "新疆维吾尔自治区",
+      "西藏自治区",
+      "四川省"
+    ],
+    "answer": "新疆维吾尔自治区",
+    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区"
+  },
+  {
+    "id": "geography-032",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-经济"
+    ],
+    "question": "发达国家主要分布在：",
+    "options": [
+      "亚洲、非洲、拉丁美洲",
+      "北美洲、欧洲、大洋洲",
+      "南美洲、非洲、大洋洲",
+      "亚洲、欧洲、南美洲"
+    ],
+    "answer": "北美洲、欧洲、大洋洲",
+    "explanation": "发达国家主要集中在北美洲（如美国、加拿大）、欧洲（如英、法、德）和大洋洲（如澳大利亚、新西兰）"
+  },
+  {
+    "id": "geography-033",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界上海拔最高的山峰是：",
+    "options": [
+      "乞力马扎罗山",
+      "乔戈里峰",
+      "珠穆朗玛峰",
+      "干城章嘉峰"
+    ],
+    "answer": "珠穆朗玛峰",
+    "explanation": "珠穆朗玛峰海拔8848.86米，是世界最高峰，位于中国与尼泊尔边境"
+  },
+  {
+    "id": "geography-034",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-交通"
+    ],
+    "question": "我国最重要的铁路干线京广线的起止点是：",
+    "options": [
+      "北京-广州",
+      "北京-上海",
+      "上海-广州",
+      "南京-北京"
+    ],
+    "answer": "北京-广州",
+    "explanation": "京广线北起北京，南至广州，全长约2300公里，是我国最重要的南北铁路干线"
+  },
+  {
+    "id": "geography-035",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "世界面积最大的大洲是_____洲。",
+    "answer": "亚",
+    "explanation": "亚洲面积约4458万平方公里，是世界面积最大的大洲",
+    "acceptAnswers": [
+      "亚"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-036",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-气候"
+    ],
+    "question": "我国年降水量分布的总趋势是：",
+    "options": [
+      "从东南向西北递减",
+      "从西北向东南递减",
+      "从北向南递减",
+      "从南向北递减"
+    ],
+    "answer": "从东南向西北递减",
+    "explanation": "受夏季风影响，我国年降水量从东南向西北递减，东南沿海地区降水多，西北内陆地区降水少"
+  },
+  {
+    "id": "geography-037",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "撒哈拉沙漠位于：",
+    "options": [
+      "亚洲",
+      "非洲",
+      "澳大利亚",
+      "南美洲"
+    ],
+    "answer": "非洲",
+    "explanation": "撒哈拉沙漠位于非洲北部，是世界上面积最大的沙漠，约920万平方公里"
+  },
+  {
+    "id": "geography-038",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "我国纬度最高的省级行政区是：",
+    "options": [
+      "黑龙江省",
+      "吉林省",
+      "内蒙古自治区",
+      "新疆维吾尔自治区"
+    ],
+    "answer": "黑龙江省",
+    "explanation": "黑龙江省位于我国最东北部，是我国纬度最高的省份，漠河镇有北极村之称"
+  },
+  {
+    "id": "geography-039",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理-自然环境"
+    ],
+    "question": "澳大利亚大陆主要位于哪个温度带？",
+    "options": [
+      "热带",
+      "南温带",
+      "北温带",
+      "寒带"
+    ],
+    "answer": "南温带",
+    "explanation": "澳大利亚大陆约三分之二位于南回归线以南，主要属于南温带"
+  },
+  {
+    "id": "geography-040",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-地形"
+    ],
+    "question": "我国地势的特点是西高东低，呈_____级阶梯状分布。",
+    "answer": "三",
+    "explanation": "我国地势呈三级阶梯状分布：青藏高原为第一级阶梯，海拔4000米以上；黄土高原、云贵高原等为第二级阶梯；东北平原、华北平原等为第三级阶梯",
+    "acceptAnswers": [
+      "三"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-201",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地形图判读",
+      "河流流向"
+    ],
+    "question": "根据图中等高线和河流位置判断，该河流大致流向是：",
+    "imageUrl": "images/geography/river-landform.svg",
+    "options": [
+      "由西北流向东南",
+      "由东北流向西南",
+      "由东南流向西北",
+      "由西南流向东北"
+    ],
+    "answer": "由西北流向东南",
+    "explanation": "河流从高处流向低处，图示河道总体由西北流向东南。"
+  },
+  {
+    "id": "geography-202",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "珠江三角洲"
+    ],
+    "question": "佛山所在的珠江三角洲地区发展制造业的有利条件不包括：",
+    "options": [
+      "水陆交通便利",
+      "靠近港澳和国际市场",
+      "科技与产业基础较好",
+      "全年降水极少，利于重工业发展"
+    ],
+    "answer": "全年降水极少，利于重工业发展",
+    "explanation": "珠江三角洲属于亚热带季风气候，降水并不少，这不是其制造业发展的优势。"
+  },
+  {
+    "id": "geography-043",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "经纬线"
+    ],
+    "question": "关于经纬线的说法正确的是",
+    "answer": "赤道是最长的纬线",
+    "explanation": "赤道是0°纬线，是地球上最长的纬线（约4万千米）。",
+    "options": [
+      "经线指示东西方向",
+      "纬线指示南北方向",
+      "赤道是最长的纬线",
+      "所有经线都相交于南北两极"
+    ]
+  },
+  {
+    "id": "geography-044",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "五带划分"
+    ],
+    "question": "我国大部分地区位于五带中的",
+    "answer": "北温带",
+    "explanation": "中国领土南北跨纬度广，大部分地区位于北回归线（23.5°N）到漠河（53°N）之间，属北温带。",
+    "options": [
+      "热带",
+      "北温带",
+      "南温带",
+      "北寒带"
+    ]
+  },
+  {
+    "id": "geography-045",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "等高线地形图"
+    ],
+    "question": "在等高线地形图上，陡崖的等高线特征是",
+    "answer": "等高线重叠",
+    "explanation": "陡崖处多条等高线重叠在一起；山谷处等高线向高处凸出。",
+    "options": [
+      "等高线重叠",
+      "等高线稀疏",
+      "等高线向高处凸出",
+      "等高线呈封闭圆形"
+    ]
+  },
+  {
+    "id": "geography-046",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "方向判读"
+    ],
+    "question": "在有经纬网的地图上，确定方向的方法是",
+    "answer": "经线指示南北，纬线指示东西",
+    "explanation": "在经纬网地图上，经线指示南北方向，纬线指示东西方向。",
+    "options": [
+      "经线指示东西，纬线指示南北",
+      "经线指示南北，纬线指示东西",
+      "上北下南，左西右东",
+      "根据指向标确定"
+    ]
+  },
+  {
+    "id": "geography-047",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地图",
+      "比例尺"
+    ],
+    "question": "1:1000000的比例尺，改写成文字式是",
+    "answer": "图上1厘米代表实地10千米",
+    "explanation": "1:1000000表示图上1厘米代表实地1000000厘米=10千米。",
+    "options": [
+      "图上1厘米代表实地100千米",
+      "图上1厘米代表实地10千米",
+      "图上1厘米代表实地1千米",
+      "图上1厘米代表实地100米"
+    ]
+  },
+  {
+    "id": "geography-048",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "南北半球"
+    ],
+    "question": "中国位于",
+    "answer": "东半球和北半球",
+    "explanation": "中国经度约73°E~135°E（在东半球），纬度约4°N~53°N（在北半球）。",
+    "options": [
+      "东半球和南半球",
+      "东半球和北半球",
+      "西半球和北半球",
+      "西半球和南半球"
+    ]
+  },
+  {
+    "id": "geography-049",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "地球运动",
+      "自转"
+    ],
+    "question": "地球自转产生的现象是",
+    "answer": "昼夜更替",
+    "explanation": "地球自转产生昼夜更替；公转产生季节变化和昼夜长短变化。",
+    "options": [
+      "季节变化",
+      "昼夜长短变化",
+      "昼夜更替",
+      "五带划分"
+    ]
+  },
+  {
+    "id": "geography-050",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "地球运动",
+      "公转"
+    ],
+    "question": "当太阳直射北回归线时，北半球处于",
+    "answer": "夏季",
+    "explanation": "太阳直射北回归线时（约6月22日），北半球昼长夜短，为夏季。",
+    "options": [
+      "春季",
+      "夏季",
+      "秋季",
+      "冬季"
+    ]
+  },
+  {
+    "id": "geography-051",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "行政区划"
+    ],
+    "question": "广东省的简称是",
+    "answer": "粤",
+    "explanation": "广东省简称粤，广西壮族自治区简称桂，福建省简称闽，湖南省简称湘。",
+    "options": [
+      "桂",
+      "粤",
+      "闽",
+      "湘"
+    ]
+  },
+  {
+    "id": "geography-052",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "地形地势"
+    ],
+    "question": "我国地形特点是",
+    "answer": "地形复杂多样，山地高原为主",
+    "explanation": "我国地形复杂多样，山区面积广大，其中山地、高原约占全国陆地面积的2/3。",
+    "options": [
+      "地形单一",
+      "地形复杂多样，山地高原为主",
+      "以平原为主",
+      "以盆地为主"
+    ]
+  },
+  {
+    "id": "geography-053",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候"
+    ],
+    "question": "造成我国东部季风气候显著的主要因素是",
+    "answer": "海陆位置",
+    "explanation": "我国位于世界最大的大陆（亚欧大陆）东部和世界最大的大洋（太平洋）西岸，海陆热力性质差异大，形成显著的季风气候。",
+    "options": [
+      "纬度位置",
+      "海陆位置",
+      "地形因素",
+      "洋流因素"
+    ]
+  },
+  {
+    "id": "geography-054",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流",
+      "长江"
+    ],
+    "question": "长江被誉为",
+    "answer": "以上都是",
+    "explanation": "长江支流多、流量大，航运价值高（黄金水道）；上游落差大，水能丰富（水能宝库）；中下游平原盛产稻米淡水鱼（鱼米之乡）。",
+    "options": [
+      "黄金水道",
+      "水能宝库",
+      "鱼米之乡",
+      "以上都是"
+    ]
+  },
+  {
+    "id": "geography-055",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "资源"
+    ],
+    "question": "我国自然资源的基本特征是",
+    "answer": "总量丰富，人均不足",
+    "explanation": "我国自然资源总量大，种类齐全，但因人口众多，人均资源占有量远低于世界平均水平。",
+    "options": [
+      "总量丰富，人均不足",
+      "总量丰富，人均丰富",
+      "总量不足，人均充足",
+      "总量不足，人均不足"
+    ]
+  },
+  {
+    "id": "geography-056",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "人口"
+    ],
+    "question": "我国人口分布特点是",
+    "answer": "东南多，西北少",
+    "explanation": "我国人口以黑河-腾冲一线为界，东南部人口稠密，西北部人口稀疏。",
+    "options": [
+      "均匀分布",
+      "东南多，西北少",
+      "西北多，东南少",
+      "高原多，平原少"
+    ]
+  },
+  {
+    "id": "geography-057",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候",
+      "温度带"
+    ],
+    "question": "佛山位于的温度带是",
+    "answer": "亚热带",
+    "explanation": "佛山位于北回归线附近（23°N左右），属于亚热带季风气候。",
+    "options": [
+      "寒带",
+      "中温带",
+      "暖温带",
+      "亚热带"
+    ]
+  },
+  {
+    "id": "geography-058",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "行政区划",
+      "省份"
+    ],
+    "question": "与广东省相邻的省份不包括",
+    "answer": "福建",
+    "explanation": "广东省相邻省份：广西、湖南、江西、福建（由东向西）。",
+    "options": [
+      "广西",
+      "湖南",
+      "江西",
+      "福建"
+    ]
+  },
+  {
+    "id": "geography-059",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的大洲是",
+    "answer": "亚洲",
+    "explanation": "亚洲面积约4400万平方千米，是世界上面积最大的大洲。",
+    "options": [
+      "非洲",
+      "北美洲",
+      "亚洲",
+      "欧洲"
+    ]
+  },
+  {
+    "id": "geography-060",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲大洋"
+    ],
+    "question": "世界上面积最大的大洋是",
+    "answer": "太平洋",
+    "explanation": "太平洋面积约18000万平方千米，是世界上面积最大、最深的大洋。",
+    "options": [
+      "大西洋",
+      "印度洋",
+      "北冰洋",
+      "太平洋"
+    ]
+  },
+  {
+    "id": "geography-061",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "气候类型"
+    ],
+    "question": "赤道附近的主要气候类型是",
+    "answer": "热带雨林气候",
+    "explanation": "赤道附近终年高温多雨，属于热带雨林气候，分布在南美洲亚马逊流域、非洲刚果盆地、东南亚等地区。",
+    "options": [
+      "热带草原气候",
+      "热带雨林气候",
+      "热带沙漠气候",
+      "热带季风气候"
+    ]
+  },
+  {
+    "id": "geography-062",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "发达国家"
+    ],
+    "question": "日本主要的工业原料主要依靠",
+    "answer": "从国外进口",
+    "explanation": "日本地域狭小、资源贫乏，工业原料主要依靠从国外进口。",
+    "options": [
+      "本国资源",
+      "从国外进口",
+      "从他国援助",
+      "循环利用"
+    ]
+  },
+  {
+    "id": "geography-063",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "人口"
+    ],
+    "question": "世界人口最多的国家是",
+    "answer": "印度",
+    "explanation": "截至2024年，印度人口已超过中国，成为世界人口最多的国家，约14.4亿。",
+    "options": [
+      "中国",
+      "印度",
+      "美国",
+      "俄罗斯"
+    ]
+  },
+  {
+    "id": "geography-064",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "板块构造"
+    ],
+    "question": "地中海-喜马拉雅火山地震带位于哪两大板块交界处",
+    "answer": "亚欧板块与印度洋板块",
+    "explanation": "地中海-喜马拉雅地震带位于亚欧板块与印度洋板块的交界处，两大板块碰撞挤压形成了地中海、喜马拉雅山脉等。",
+    "options": [
+      "亚欧板块与印度洋板块",
+      "亚欧板块与非洲板块",
+      "印度洋板块与非洲板块",
+      "亚欧板块与太平洋板块"
+    ]
+  },
+  {
+    "id": "geography-065",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "宗教"
+    ],
+    "question": "中东地区居民主要信仰的宗教是",
+    "answer": "伊斯兰教",
+    "explanation": "中东地区居民主要信仰伊斯兰教，穆斯林人口占多数。耶路撒冷是伊斯兰教、基督教、犹太教的圣地。",
+    "options": [
+      "基督教",
+      "佛教",
+      "伊斯兰教",
+      "犹太教"
+    ]
+  },
+  {
+    "id": "geography-066",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "赤道"
+    ],
+    "question": "地球的赤道周长约_____万千米。",
+    "answer": "4",
+    "explanation": "根据地理知识填写：4",
+    "acceptAnswers": [
+      "4"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-067",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "自转"
+    ],
+    "question": "地球自转的方向是_____，周期为24小时。",
+    "answer": "自西向东",
+    "explanation": "根据地理知识填写：自西向东",
+    "acceptAnswers": [
+      "自西向东"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-068",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "大洲"
+    ],
+    "question": "七大洲中，面积最小的是_____洲。",
+    "answer": "大洋",
+    "explanation": "根据地理知识填写：大洋",
+    "acceptAnswers": [
+      "大洋"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-069",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "面积"
+    ],
+    "question": "我国陆地面积约_____万平方千米。",
+    "answer": "960",
+    "explanation": "根据地理知识填写：960",
+    "acceptAnswers": [
+      "960"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-070",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地球",
+      "半球"
+    ],
+    "question": "划分东西半球的界线是_____和160°E经线。",
+    "answer": "20°W",
+    "explanation": "根据地理知识填写：20°W",
+    "acceptAnswers": [
+      "20°W"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-071",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "地形"
+    ],
+    "question": "世界上最高的山峰是珠穆朗玛峰，海拔约_____米。",
+    "answer": "8848",
+    "explanation": "根据地理知识填写：8848",
+    "acceptAnswers": [
+      "8848"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-072",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "湖泊"
+    ],
+    "question": "我国最大的咸水湖是_____湖。",
+    "answer": "青海",
+    "explanation": "根据地理知识填写：青海",
+    "acceptAnswers": [
+      "青海"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-073",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流"
+    ],
+    "question": "我国最长、流量最大的河流是_____。",
+    "answer": "长江",
+    "explanation": "根据地理知识填写：长江",
+    "acceptAnswers": [
+      "长江"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-074",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-世界地理",
+      "地形"
+    ],
+    "question": "世界上最长的山脉是安第斯山脉，位于_____洲。",
+    "answer": "南美",
+    "explanation": "根据地理知识填写：南美",
+    "acceptAnswers": [
+      "南美"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-075",
+    "type": "fill",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "气候"
+    ],
+    "question": "我国从南到北划分的温度带依次是：热带、亚热带、暖温带、中温带、寒温带和_____。",
+    "answer": "高原气候区",
+    "explanation": "根据地理知识填写：高原气候区",
+    "acceptAnswers": [
+      "高原气候区"
+    ],
+    "options": []
+  },
+  {
+    "id": "geography-076",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-气候",
+      "气候类型图"
+    ],
+    "question": "如图是某地的气温曲线和降水量柱状图，该地的气候类型是",
+    "imageUrl": "images/geography/climate_001.svg",
+    "answer": "亚热带季风气候",
+    "explanation": "最冷月气温在0-15°C之间（亚热带范围），年降水量丰富且集中在夏季（800mm以上），是典型的亚热带季风气候（分布在中国秦岭-淮河以南）。",
+    "options": [
+      "温带季风气候",
+      "亚热带季风气候",
+      "热带季风气候",
+      "地中海气候"
+    ]
+  },
+  {
+    "id": "geography-077",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-地形",
+      "等高线"
+    ],
+    "question": "如图为某地的等高线地形图，以下说法正确的是",
+    "imageUrl": "images/geography/topo_001.svg",
+    "answer": "图中有一条河流发育于山谷",
+    "explanation": "等高线凸向高处为山谷（集水线），凸向低处为山脊（分水线）。河流发育于山谷。陡崖是多条等高线重叠处。C项需要看等高线是否重合。",
+    "options": [
+      "图中有一条河流发育于山谷",
+      "A处为山脊，B处为山谷",
+      "C处陡崖可进行攀岩活动",
+      "该图所示区域地势北高南低"
+    ]
+  },
+  {
+    "id": "geography-078",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-中国地理",
+      "河流"
+    ],
+    "question": "如图为中国主要河流分布示意图，图中①、②、③、④分别是",
+    "imageUrl": "images/geography/china_rivers_001.svg",
+    "answer": "长江、黄河、珠江、淮河",
+    "explanation": "①长江（中国最长河流，流经青藏、云贵、长江中下游平原）；②黄河（流经青藏、内蒙古、黄土、华北平原）；③珠江（流经云贵、两广）；④淮河（流入洪泽湖，注入黄海）。",
+    "options": [
+      "长江、黄河、珠江、淮河",
+      "黄河、长江、淮河、珠江",
+      "长江、黄河、淮河、珠江",
+      "黄河、长江、珠江、淮河"
+    ]
+  },
+  {
+    "id": "geography-079",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地理-亚洲",
+      "亚洲地理分区"
+    ],
+    "question": "如图为亚洲地理分区示意图，图中阴影部分（中国）位于",
+    "imageUrl": "images/geography/asia_regions_001.svg",
+    "answer": "东亚",
+    "explanation": "中国位于亚洲东部，太平洋西岸，属于东亚地区。东亚还包括日本、朝鲜、韩国、蒙古。",
+    "options": [
+      "东亚",
+      "东南亚",
+      "南亚",
+      "中亚"
+    ]
+  },
+  {
+    "id": "geography-203",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地球形状",
+    "question": "关于地球的形状，下列说法中正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "地球是一个完美的球体，半径在任何方向上相等"
+      },
+      {
+        "label": "B",
+        "text": "地球是两极略扁、赤道略鼓的椭球体"
+      },
+      {
+        "label": "C",
+        "text": "地球是一个平的圆盘，四周被海洋环绕"
+      },
+      {
+        "label": "D",
+        "text": "地球像一个倒置的圆锥"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "地球因自转导致两极略扁、赤道略鼓，是椭球体；A误认为球体，C和D描述不符合实际观测。"
+  },
+  {
+    "id": "geography-204",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "经纬线",
+    "question": "纬线在地球表面的指示方向是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "东西方向"
+      },
+      {
+        "label": "B",
+        "text": "南北方向"
+      },
+      {
+        "label": "C",
+        "text": "斜向"
+      },
+      {
+        "label": "D",
+        "text": "与经线相平行"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "纬线是沿地球表面东西环绕的闭合圆圈，指示的方向为东西方向，故选A。"
+  },
+  {
+    "id": "geography-205",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "时区计算",
+    "question": "当北京（东八区）时间是2023年5月1日8:00时，纽约（西五区）的时间是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "2023年4月30日19:00"
+      },
+      {
+        "label": "B",
+        "text": "2023年5月1日19:00"
+      },
+      {
+        "label": "C",
+        "text": "2023年5月1日21:00"
+      },
+      {
+        "label": "D",
+        "text": "2023年4月30日21:00"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "北京在东八区，纽约在西五区，时差为13小时。北京5月1日8:00减去13小时，纽约时间为4月30日19:00。"
+  },
+  {
+    "id": "geography-206",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地图比例尺",
+    "question": "在比例尺为1:50000的地图上，1厘米代表的实际距离是多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "0.5公里"
+      },
+      {
+        "label": "B",
+        "text": "5公里"
+      },
+      {
+        "label": "C",
+        "text": "50公里"
+      },
+      {
+        "label": "D",
+        "text": "500米"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "比例尺1:50000表示1厘米对应实际50000厘米，即500米，0.5公里。故选A。"
+  },
+  {
+    "id": "geography-207",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地形图判读",
+    "question": "在一幅等高距为50米的地形图上，两相邻等高线的水平距离为200米，则该段坡面的坡度约为（?）",
+    "options": [
+      {
+        "label": "A",
+        "text": "5°"
+      },
+      {
+        "label": "B",
+        "text": "14°"
+      },
+      {
+        "label": "C",
+        "text": "25°"
+      },
+      {
+        "label": "D",
+        "text": "30°"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "等高距50米表示相邻等高线垂直高差50米，水平距200米。坡度=垂直/水平=50/200=0.25，arctan0.25≈14°，对应选项B。"
+  },
+  {
+    "id": "geography-208",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "世界海陆分布",
+    "question": "以下关于地球海陆分布的说法，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "地球表面约71%是陆地，29%是海洋。"
+      },
+      {
+        "label": "B",
+        "text": "地球表面约71%是海洋，29%是陆地。"
+      },
+      {
+        "label": "C",
+        "text": "北半球的陆地面积大于海洋面积。"
+      },
+      {
+        "label": "D",
+        "text": "南半球的陆地面积约占南半球面积的30%。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "地球约71%被海洋覆盖，陆地仅约29%；北半球海洋占优，南半球陆地约占30%以下。故正确答案为B。"
+  },
+  {
+    "id": "geography-209",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "七大洲四大洋",
+    "question": "关于七大洲的说法，下面哪一项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚洲是七大洲中面积最大、人口最多的大洲。"
+      },
+      {
+        "label": "B",
+        "text": "北冰洋是四大洋中面积最大的大洋。"
+      },
+      {
+        "label": "C",
+        "text": "非洲完全位于赤道以北。"
+      },
+      {
+        "label": "D",
+        "text": "南美洲全部位于南半球。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "亚洲面积约4458万km²，人口最多，约46亿；北冰洋面积最小；非洲跨越赤道南北；南美洲大部在南半球，但有小部分在北半球。故选A。"
+  },
+  {
+    "id": "geography-210",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "板块构造",
+    "question": "板块构造理论认为，地球岩石圈被划分为若干板块，以下关于板块边界的描述，哪项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "离散边界（Divergent boundary）上，两板块相互远离，常伴随新海洋地壳的形成。"
+      },
+      {
+        "label": "B",
+        "text": "汇聚边界（Convergent boundary）上，两板块相互远离，导致海底扩张。"
+      },
+      {
+        "label": "C",
+        "text": "转换边界（Transform boundary）上，板块相互水平滑动，常形成山脉。"
+      },
+      {
+        "label": "D",
+        "text": "所有板块边界都会产生火山活动。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "离散边界两板块相离，岩浆上涌形成新海洋地壳，故A正确；汇聚边界两板块相撞产生俯冲或造山，B错误；转换边界为水平错动，不造山，C错误；非所有边界都有火山，D错误。"
+  },
+  {
+    "id": "geography-211",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地震带",
+    "question": "以下关于世界主要地震带的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "环太平洋地震带（又称环太平洋火山带）是世界上最活跃的地震带，主要影响亚洲东部和美洲西海岸。"
+      },
+      {
+        "label": "B",
+        "text": "地震主要发生在板块内部，地幔对流是导致地震的主要原因。"
+      },
+      {
+        "label": "C",
+        "text": "大西洋中脊是全球最密集的地震活动区。"
+      },
+      {
+        "label": "D",
+        "text": "所有地震都发生在板块交界处，板块内部的地震极少。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "环太平洋带是全球最活跃地震带，主要影响亚洲东部和美洲西岸，故A正确。B错，地震多在板块边界；C错，大西洋中脊地震不如环太平洋密集；D错，板块内部也有少量地震。"
+  },
+  {
+    "id": "geography-212",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "气候类型",
+    "question": "在下列气候类型中，年降水量最大且分配均匀的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "热带草原气候"
+      },
+      {
+        "label": "B",
+        "text": "温带海洋性气候"
+      },
+      {
+        "label": "C",
+        "text": "热带雨林气候"
+      },
+      {
+        "label": "D",
+        "text": "温带季风气候"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "热带雨林气候位于赤道低压带，全年高温多雨，年降水量最高且各月分配均匀；而热带草原有干湿季，温带海洋性和季风气候降水相对较少且季节差异明显。"
+  },
+  {
+    "id": "geography-213",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "季风气候",
+    "question": "下列关于季风气候的描述，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏季风向从陆地吹向海洋，导致降雨集中在冬季。"
+      },
+      {
+        "label": "B",
+        "text": "季风气候的特点是夏季受来自海洋的暖湿气流影响，降水充沛；冬季受来自陆地的干冷气流影响，降水稀少。"
+      },
+      {
+        "label": "C",
+        "text": "季风气候地区全年气温变化不大，日照充足。"
+      },
+      {
+        "label": "D",
+        "text": "季风气候只出现在亚洲地区，其他大洲没有类似的气候。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "夏季海洋暖湿气流带来丰沛降水，冬季陆地干冷气流导致降水稀少，符合季风特征。"
+  },
+  {
+    "id": "geography-214",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "降水类型",
+    "question": "在夏季午后，由于地面强烈受热导致空气快速上升而形成的降水，属于哪种降水类型？",
+    "options": [
+      {
+        "label": "A",
+        "text": "地形雨"
+      },
+      {
+        "label": "B",
+        "text": "对流雨"
+      },
+      {
+        "label": "C",
+        "text": "锋面雨"
+      },
+      {
+        "label": "D",
+        "text": "气旋雨"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "夏季午后，地面强烈受热使近地面空气快速上升冷却，凝结成雨，属于对流雨；地形雨与地形抬升有关，锋面雨需冷暖气流交汇，气旋雨与低压系统相联系，故选B。"
+  },
+  {
+    "id": "geography-215",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "世界人口",
+    "question": "以下关于世界人口分布的说法，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人口最多的洲是亚洲。"
+      },
+      {
+        "label": "B",
+        "text": "人口密度最高的洲是欧洲。"
+      },
+      {
+        "label": "C",
+        "text": "人口自然增长率最高的是北美洲。"
+      },
+      {
+        "label": "D",
+        "text": "人口负增长最严重的洲是南美洲。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "亚洲人口约46亿，居各大洲之首；欧洲人口密度虽高，但密度最高的是亚洲（因人口多、面积大），北美洲自然增长率并非最高，南美洲未出现明显负增长。"
+  },
+  {
+    "id": "geography-216",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "人种分布",
+    "question": "以下关于世界主要人种分布的描述，哪一项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚洲主要分布的是黑色人种。"
+      },
+      {
+        "label": "B",
+        "text": "非洲的居民大多属于尼格罗人种（黑色人种）。"
+      },
+      {
+        "label": "C",
+        "text": "欧洲主要是蒙古利亚人种（黄色人种）。"
+      },
+      {
+        "label": "D",
+        "text": "美洲主要是棕色人种。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "亚洲主要是黄色人种，非洲以黑色人种为主；欧洲以白色人种为主；美洲多为混血，选项A、C、D均不符合事实，故选B。"
+  },
+  {
+    "id": "geography-217",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "聚落分布",
+    "question": "下列关于聚落分布的说法，错误的是（　　）",
+    "options": [
+      {
+        "label": "A",
+        "text": "河流冲积平原地势平坦，土壤肥沃，适宜农耕，聚落往往较为密集。"
+      },
+      {
+        "label": "B",
+        "text": "高原地带因海拔高、气温低、交通不便，聚落相对稀少。"
+      },
+      {
+        "label": "C",
+        "text": "沿海地区因渔业资源丰富，海运便利，聚落密度极低。"
+      },
+      {
+        "label": "D",
+        "text": "山区聚落主要分布在山谷两侧，易受洪水灾害。"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "C选项错误。沿海地区渔业和海运便利，交通便利，人口聚集，聚落密度高，而非极低。"
+  },
+  {
+    "id": "geography-218",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "交通发展",
+    "question": "中国已建成世界上最长的高速铁路网络，以下关于中国高速铁路发展的说法，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "高速铁路主要服务于沿海大城市，西部地区尚未通达"
+      },
+      {
+        "label": "B",
+        "text": "高速铁路的运营速度普遍在300公里/小时以上"
+      },
+      {
+        "label": "C",
+        "text": "高速铁路的建设完全依赖国外技术"
+      },
+      {
+        "label": "D",
+        "text": "高速铁路票价与普通铁路相同"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "中国高铁已覆盖全国，运行时速普遍在300 km/h以上，连接东中西部；A错在西部已有高铁，C错在已掌握核心技术，D错在票价一般高于普通铁路。"
+  },
+  {
+    "id": "geography-219",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "资源分布",
+    "question": "以下关于中国主要能源资源分布的说法，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "煤炭资源主要集中在东北和华北的沿海地区"
+      },
+      {
+        "label": "B",
+        "text": "石油资源主要集中在长江三角洲地区"
+      },
+      {
+        "label": "C",
+        "text": "水能资源主要分布在青藏高原和西南山区"
+      },
+      {
+        "label": "D",
+        "text": "天然气资源主要集中在华北平原"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "A错，煤炭主要在华北、山西、内蒙古；B错，石油在东北、华北及西北；C正确，水能集中青藏高原和西南山区；D错，天然气在西北和四川盆地。"
+  },
+  {
+    "id": "geography-220",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "环境问题",
+    "question": "下列哪项不属于人类活动导致的环境问题？",
+    "options": [
+      {
+        "label": "A",
+        "text": "森林砍伐"
+      },
+      {
+        "label": "B",
+        "text": "雾霾"
+      },
+      {
+        "label": "C",
+        "text": "地震"
+      },
+      {
+        "label": "D",
+        "text": "水体富营养化"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "森林砍伐、雾霾、水体富营养化均为人类活动引起的环境问题；地震属自然现象，不属于人类活动导致的环境问题。"
+  },
+  {
+    "id": "geography-221",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国地形",
+    "question": "以下哪一项是中国面积最大的平原？",
+    "options": [
+      {
+        "label": "A",
+        "text": "东北平原"
+      },
+      {
+        "label": "B",
+        "text": "华北平原"
+      },
+      {
+        "label": "C",
+        "text": "长江中下游平原"
+      },
+      {
+        "label": "D",
+        "text": "珠江三角洲"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "东北平原面积约35万平方公里，是中国最大平原，其他平原面积均较小。"
+  },
+  {
+    "id": "geography-222",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国气候",
+    "question": "以下关于中国气候特征的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国大部分地区属于温带大陆性气候，降水均匀。"
+      },
+      {
+        "label": "B",
+        "text": "受季风影响，中国东部沿海地区夏季多雨，冬季少雨。"
+      },
+      {
+        "label": "C",
+        "text": "中国西北地区以热带沙漠气候为主。"
+      },
+      {
+        "label": "D",
+        "text": "青藏高原地区全年气温较高，适宜农业。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "受季风影响，东部沿海夏季受暖湿气流带来丰沛降水，冬季受干燥气流影响降水少；其他选项描述均不符合实际气候分布。"
+  },
+  {
+    "id": "geography-223",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国河流",
+    "question": "下列关于黄河的叙述，正确的是（ ）",
+    "options": [
+      {
+        "label": "A",
+        "text": "黄河发源于青藏高原，流经四川、陕西等省份，最终注入黄海。"
+      },
+      {
+        "label": "B",
+        "text": "黄河是中国的第二长河，也是中华文明的发源地之一，被称为“母亲河”。"
+      },
+      {
+        "label": "C",
+        "text": "黄河的含沙量居世界首位，导致下游出现地上悬河的现象。"
+      },
+      {
+        "label": "D",
+        "text": "黄河的主要支流有长江、淮河等。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "A错误，黄河注入渤海而非黄海；C错误，黄河含沙量虽大，但不一定是世界首位；D错误，黄河主要支流为汾河、渭河等，非长江、淮河。故选B。"
+  },
+  {
+    "id": "geography-224",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国行政区划",
+    "question": "截至2023年，中国大陆地区共有多少个省级行政区？",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "23"
+      },
+      {
+        "label": "C",
+        "text": "33"
+      },
+      {
+        "label": "D",
+        "text": "34"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "中国有23个省、5个自治区、4个直辖市和2个特别行政区，合计34个省级行政区。"
+  },
+  {
+    "id": "geography-225",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国人口",
+    "question": "以下关于中国人口的叙述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国人口最多的省级行政区是四川省"
+      },
+      {
+        "label": "B",
+        "text": "中国人口最多的省级行政区是广东省"
+      },
+      {
+        "label": "C",
+        "text": "中国人口最多的省级行政区是山东省"
+      },
+      {
+        "label": "D",
+        "text": "中国人口最多的省级行政区是河南省"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "根据最新人口统计，广东省常住人口约1.26亿，居全国首位；四川约0.81亿、河南约0.99亿、山东约1.01亿，均低于广东。故正确答案为B。"
+  },
+  {
+    "id": "geography-226",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国交通",
+    "question": "中国第一条投入商业运营的高速铁路是哪一条？",
+    "options": [
+      {
+        "label": "A",
+        "text": "胶济铁路"
+      },
+      {
+        "label": "B",
+        "text": "京津城际铁路"
+      },
+      {
+        "label": "C",
+        "text": "哈大高铁"
+      },
+      {
+        "label": "D",
+        "text": "武广高铁"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "京津城际铁路于2008年8月1日开通，是中国首条投入商业运营的高速铁路，速度达350公里/小时，标志中国进入高铁时代。"
+  },
+  {
+    "id": "geography-227",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "一带一路",
+    "question": "以下关于“一带一路”倡议的描述，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "仅包括陆上丝绸之路经济带"
+      },
+      {
+        "label": "B",
+        "text": "包括陆上丝绸之路经济带和21世纪海上丝绸之路"
+      },
+      {
+        "label": "C",
+        "text": "只针对亚洲国家"
+      },
+      {
+        "label": "D",
+        "text": "主要目标是文化输出"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "‘一带一路’倡议包括陆上丝绸之路经济带和21世纪海上丝绸之路，涵盖多洲，目标是互联互通与发展合作，非单纯文化输出。故选B。"
+  },
+  {
+    "id": "geography-228",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "可持续发展",
+    "question": "以下哪项措施最能体现可持续发展的理念？",
+    "options": [
+      {
+        "label": "A",
+        "text": "大规模砍伐森林以获取木材和经济收益"
+      },
+      {
+        "label": "B",
+        "text": "推广使用可再生能源，减少对化石燃料的依赖"
+      },
+      {
+        "label": "C",
+        "text": "在城市中大规模建设高层住宅，以容纳更多人口"
+      },
+      {
+        "label": "D",
+        "text": "鼓励一次性塑料产品的生产和使用，方便消费"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "可持续发展强调保护环境、合理利用资源。B选项使用可再生能源，减少化石燃料依赖，符合节能减排和长期资源利用的要求，最能体现可持续理念。"
+  },
+  {
+    "id": "geography-229",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地球形状",
+    "question": "以下关于地球形状的描述，哪项最准确？",
+    "options": [
+      {
+        "label": "A",
+        "text": "地球是一个完美的球体"
+      },
+      {
+        "label": "B",
+        "text": "地球是一个两极稍扁、赤道略鼓的旋转椭球体"
+      },
+      {
+        "label": "C",
+        "text": "地球呈扁平的圆盘形"
+      },
+      {
+        "label": "D",
+        "text": "地球是方形的"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "地球因自转产生离心力，使两极稍扁、赤道略鼓，形成旋转椭球体，故B正确。"
+  },
+  {
+    "id": "geography-230",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "经纬线",
+    "question": "下列关于经线和纬线的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "经线指示东西方向，纬线指示南北方向"
+      },
+      {
+        "label": "B",
+        "text": "所有经线长度相等，纬线长度随纬度变化"
+      },
+      {
+        "label": "C",
+        "text": "纬度0°的经线是赤道"
+      },
+      {
+        "label": "D",
+        "text": "纬线在两极处最长"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "经线连接两极，指示南北且长度相等；纬线平行赤道，指示东西，长度随纬度升高而减小。故A错、B对；C错，赤道是0°纬线；D错，纬线在赤道最长，两极最短。"
+  },
+  {
+    "id": "geography-231",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "时区计算",
+    "question": "当北京（东八区）为2023年5月20日8:00时，位于西五区的纽约当地时间是多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "5月20日19:00"
+      },
+      {
+        "label": "B",
+        "text": "5月19日19:00"
+      },
+      {
+        "label": "C",
+        "text": "5月20日21:00"
+      },
+      {
+        "label": "D",
+        "text": "5月19日21:00"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "北京UTC+8，纽约UTC-5，相差13小时。北京5月20日8:00往回13小时，即纽约5月19日19:00。故选B。"
+  },
+  {
+    "id": "geography-232",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地图比例尺",
+    "question": "比例尺为1:50000的地图上，实地距离为2.5千米的道路在地图上应该表示为多少厘米？",
+    "options": [
+      {
+        "label": "A",
+        "text": "5厘米"
+      },
+      {
+        "label": "B",
+        "text": "2.5厘米"
+      },
+      {
+        "label": "C",
+        "text": "0.5厘米"
+      },
+      {
+        "label": "D",
+        "text": "1厘米"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "比例尺1:50000意味着图上1厘米对应实地500米。2.5千米=2500米，2500÷500=5厘米，故选A。"
+  },
+  {
+    "id": "geography-233",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地形图判读",
+    "question": "在地形图上，若等高线呈同心圆状且越向中心等高线的高程值越大，则该处表示的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "山谷"
+      },
+      {
+        "label": "B",
+        "text": "山脊"
+      },
+      {
+        "label": "C",
+        "text": "盆地"
+      },
+      {
+        "label": "D",
+        "text": "山峰"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "等高线呈同心圆，且中心高程最高，说明该处地形向上凸起，即为山峰。"
+  },
+  {
+    "id": "geography-234",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "世界海陆分布",
+    "question": "以下关于地球海陆分布的说法，正确的是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "地球上约71%为陆地，29%为海洋"
+      },
+      {
+        "label": "B",
+        "text": "北半球的陆地面积大于海洋面积"
+      },
+      {
+        "label": "C",
+        "text": "南半球的陆地面积约占其表面的20%"
+      },
+      {
+        "label": "D",
+        "text": "地球上有七大洲和五大洋"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "①全球海洋约71%，陆地约29%，A错误。②北半球海洋占主导，B错误。③七大洲对应四大洋，D错误。④南半球陆地约占20%，C正确。"
+  },
+  {
+    "id": "geography-235",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "七大洲四大洋",
+    "question": "七大洲中面积最大的是哪一个？",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚洲"
+      },
+      {
+        "label": "B",
+        "text": "非洲"
+      },
+      {
+        "label": "C",
+        "text": "北美洲"
+      },
+      {
+        "label": "D",
+        "text": "南极洲"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "亚洲面积约4458万平方公里，是七大洲中面积最大的；非洲约3030万，北美洲约2420万，南极洲约1400万，故选A。"
+  },
+  {
+    "id": "geography-236",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "板块构造",
+    "question": "下列哪种板块边界最可能形成海沟？",
+    "options": [
+      {
+        "label": "A",
+        "text": "离散边界（两块板块相互远离）"
+      },
+      {
+        "label": "B",
+        "text": "聚合边界（两块板块相互靠近）"
+      },
+      {
+        "label": "C",
+        "text": "转换边界（两块板块水平滑动）"
+      },
+      {
+        "label": "D",
+        "text": "稳定板块内部"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "海沟是板块俯冲形成的，聚合边界两块板块相互靠近，一块俯冲到另一块下，形成深海沟。故选B。"
+  },
+  {
+    "id": "geography-237",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地震带",
+    "question": "关于世界主要地震带的分布，下列表述正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "环太平洋地震带（又称为环太平洋火山带）集中了全球约70%的地震，主要沿美洲西海岸和亚洲东部延伸。"
+      },
+      {
+        "label": "B",
+        "text": "欧亚地震带位于欧亚板块内部，贯穿亚洲中部，横跨数千公里，是最活跃的地震带。"
+      },
+      {
+        "label": "C",
+        "text": "非洲-欧亚碰撞带只在大西洋沿岸出现，影响范围仅限于北非地区。"
+      },
+      {
+        "label": "D",
+        "text": "南极洲板块内部因内部应力变化，产生了大量深源地震，属于主要地震带之一。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "A正确，环太平洋带集中约70%地震，分布在美洲西岸和亚洲东部。B错误，欧亚地震带沿板块边缘；C错误，非洲-欧亚碰撞带贯穿欧亚非；D错误，南极洲板块深源地震极少。"
+  },
+  {
+    "id": "geography-238",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "气候类型",
+    "question": "某地区全年高温，年降水量在2000毫米以上且分布均匀，该地区最可能属于哪种气候类型？",
+    "options": [
+      {
+        "label": "A",
+        "text": "热带草原气候"
+      },
+      {
+        "label": "B",
+        "text": "热带雨林气候"
+      },
+      {
+        "label": "C",
+        "text": "温带海洋性气候"
+      },
+      {
+        "label": "D",
+        "text": "沙漠气候"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "全年高温且降水超过2000毫米，分布均匀，属于热带雨林气候的典型特征。"
+  },
+  {
+    "id": "geography-239",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "季风气候",
+    "question": "下列关于季风气候特征的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "全年降水量均匀，季节变化不明显"
+      },
+      {
+        "label": "B",
+        "text": "夏季风从海洋吹向陆地，带来丰沛的降雨；冬季风从陆地吹向海洋，导致干燥"
+      },
+      {
+        "label": "C",
+        "text": "只在亚洲出现，其他大洲没有季风气候"
+      },
+      {
+        "label": "D",
+        "text": "年均温度变化不大，四季如春"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "季风气候夏季从海洋吹来湿润气流，降水多；冬季从陆地吹向海洋，干燥少雨，符合B。"
+  },
+  {
+    "id": "geography-240",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "降水类型",
+    "question": "以下哪种降水是由于空气在山岳地区被迫抬升而形成的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对流雨"
+      },
+      {
+        "label": "B",
+        "text": "地形雨"
+      },
+      {
+        "label": "C",
+        "text": "锋面雨"
+      },
+      {
+        "label": "D",
+        "text": "冰雹"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "当湿润空气遇到山脉被迫抬升，冷却凝结形成降水，这种由地形抬升导致的降雨称为地形雨。"
+  },
+  {
+    "id": "geography-241",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "世界人口",
+    "question": "截至2023年，世界人口约为多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "约70亿"
+      },
+      {
+        "label": "B",
+        "text": "约80亿"
+      },
+      {
+        "label": "C",
+        "text": "约90亿"
+      },
+      {
+        "label": "D",
+        "text": "约100亿"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "截至2023年，全球人口已突破80亿，约合8×10^9人，故选B。"
+  },
+  {
+    "id": "geography-242",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "人种分布",
+    "question": "以下关于世界主要人种分布的说法，哪一项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "白种人主要分布在撒哈拉以南的非洲地区。"
+      },
+      {
+        "label": "B",
+        "text": "黄种人主要分布在东亚、东南亚以及美洲北部地区。"
+      },
+      {
+        "label": "C",
+        "text": "黑种人主要分布在欧洲和西亚地区。"
+      },
+      {
+        "label": "D",
+        "text": "棕种人主要分布在北美洲的中部地区。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "白种人主要在欧洲和西亚，排除A；黑种人在撒哈拉以南非洲及美洲，排除C；棕种人在澳大利亚及太平洋岛屿，排除D；黄种人分布东亚、东南亚和美洲北部，符合B。"
+  },
+  {
+    "id": "geography-243",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "聚落分布",
+    "question": "以下关于聚落分布的说法，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "聚落总是均匀分布在整个地区。"
+      },
+      {
+        "label": "B",
+        "text": "在山区，聚落多分布在山谷和坡度较缓的地区。"
+      },
+      {
+        "label": "C",
+        "text": "聚落分布与自然环境关系不大，主要受政治因素影响。"
+      },
+      {
+        "label": "D",
+        "text": "聚落倾向于远离水源，以避免水灾。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "A过于均匀，C、D忽视自然，B符合山谷、缓坡便于取水、交通的特点，选B。"
+  },
+  {
+    "id": "geography-244",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "交通发展",
+    "question": "改革开放以来，我国交通发展的主要特征是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "铁路里程快速增长"
+      },
+      {
+        "label": "B",
+        "text": "高速公路里程快速增长"
+      },
+      {
+        "label": "C",
+        "text": "航空运输快速增长"
+      },
+      {
+        "label": "D",
+        "text": "水路运输快速增长"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "改革开放后，我国重点发展高速公路，国家高速网络快速延伸，增长速度居各类交通之首。"
+  },
+  {
+    "id": "geography-245",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "资源分布",
+    "question": "下列关于我国水资源分布的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "北方地区水资源相对丰富"
+      },
+      {
+        "label": "B",
+        "text": "南方地区水资源相对丰富"
+      },
+      {
+        "label": "C",
+        "text": "西部地区水资源相对丰富"
+      },
+      {
+        "label": "D",
+        "text": "各地区水资源分布均衡"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "我国水资源呈南多北少、东多西少的分布规律，南方降水丰沛、河网密布，水资源相对丰富，故选B。"
+  },
+  {
+    "id": "geography-246",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "环境问题",
+    "question": "以下哪种环境问题的产生，主要与工业排放的硫氧化物和氮氧化物有关？",
+    "options": [
+      {
+        "label": "A",
+        "text": "温室效应"
+      },
+      {
+        "label": "B",
+        "text": "酸雨"
+      },
+      {
+        "label": "C",
+        "text": "臭氧层空洞"
+      },
+      {
+        "label": "D",
+        "text": "雾霾"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "工业排放的二氧化硫和氮氧化物在大气中被氧化生成硫酸和硝酸，随雨水降落形成酸雨；而温室效应、臭氧空洞和雾霾主要与其他因素相关。"
+  },
+  {
+    "id": "geography-247",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国地形",
+    "question": "以下关于中国地形的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国的地形以平原为主，平原面积占全国总面积的一半以上"
+      },
+      {
+        "label": "B",
+        "text": "青藏高原是世界上海拔最高的高原，平均海拔约4500米"
+      },
+      {
+        "label": "C",
+        "text": "中国的四大盆地全部位于西北地区"
+      },
+      {
+        "label": "D",
+        "text": "长江中下游地区以山地和高原为主"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "解析：我国地势西高东低，高原山地多，平原占比不足一半；青藏高原平均海拔约4500米，是世界最高；四大盆地不全在西北；长江中下游主要是平原和丘陵。选项B正确。"
+  },
+  {
+    "id": "geography-248",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国气候",
+    "question": "关于中国气候的叙述，下面哪项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国北方地区以热带季风气候为主，全年高温多雨。"
+      },
+      {
+        "label": "B",
+        "text": "中国东部地区受夏季风影响显著，降水集中在夏季，形成雨热同期的特征。"
+      },
+      {
+        "label": "C",
+        "text": "青藏高原地区气候温和，四季如春。"
+      },
+      {
+        "label": "D",
+        "text": "西北内陆地区夏季雨量丰富，适合农业。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "夏季风从海上带来湿润气流，使东部地区夏季降水集中且气温高，形成雨热同期的特征，故选B。"
+  },
+  {
+    "id": "geography-249",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国河流",
+    "question": "以下关于长江的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "长江发源于青藏高原的唐古拉山脉，流经十一个省（直辖市），最后在上海注入东海。"
+      },
+      {
+        "label": "B",
+        "text": "长江的水量居世界第三位，仅次于尼罗河和亚马逊河。"
+      },
+      {
+        "label": "C",
+        "text": "长江是世界上含沙量最高的河流。"
+      },
+      {
+        "label": "D",
+        "text": "长江的支流中，以黄河最为著名。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "A正确，长江发源于唐古拉山，流程经十一省（市），在崇明注入东海；B错误，水量居世界第五；C错误，含沙量最高的是黄河；D错误，黄河不是长江支流。"
+  },
+  {
+    "id": "geography-250",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国行政区划",
+    "question": "截至2023年，中国共有多少个省级行政区（包括省、自治区、直辖市和特别行政区）？",
+    "options": [
+      {
+        "label": "A",
+        "text": "22"
+      },
+      {
+        "label": "B",
+        "text": "34"
+      },
+      {
+        "label": "C",
+        "text": "31"
+      },
+      {
+        "label": "D",
+        "text": "28"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "中国省级行政区包括23个省、5个自治区、4个直辖市和2个特别行政区，合计34个。"
+  },
+  {
+    "id": "geography-251",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国人口",
+    "question": "2020 年全国人口普查数据显示，中国常住人口最多的省级行政区是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "四川省"
+      },
+      {
+        "label": "B",
+        "text": "河南省"
+      },
+      {
+        "label": "C",
+        "text": "山东省"
+      },
+      {
+        "label": "D",
+        "text": "广东省"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "2020年全国人口普查结果显示，广东常住人口约1.26亿，居全国之首；四川约0.84亿、河南约1.00亿、山东约1.01亿，均低于广东。因此选D。"
+  },
+  {
+    "id": "geography-252",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国交通",
+    "question": "截至2023年，中国已建成并投入运营的高速铁路里程约为多少万公里？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1万公里"
+      },
+      {
+        "label": "B",
+        "text": "2万公里"
+      },
+      {
+        "label": "C",
+        "text": "4万公里"
+      },
+      {
+        "label": "D",
+        "text": "6万公里"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "截至2023年，中国高速铁路运营里程已超过4万公里，稳居全球第一，其他选项明显偏低，故选C。"
+  },
+  {
+    "id": "geography-253",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "一带一路",
+    "question": "以下关于“一带一路”倡议的描述，哪一项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "只涉及亚洲国家之间的合作。"
+      },
+      {
+        "label": "B",
+        "text": "旨在加强亚洲、欧洲和非洲等地区的互联互通与共同发展。"
+      },
+      {
+        "label": "C",
+        "text": "只包括海上丝绸之路，不涉及陆路。"
+      },
+      {
+        "label": "D",
+        "text": "完全由沿线国家政府出资，企业不参与。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "‘一带一路’覆盖亚欧非，强调互联互通与共同发展，兼顾陆海路线，且鼓励企业参与，故B正确。"
+  },
+  {
+    "id": "geography-254",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "可持续发展",
+    "question": "在推动可持续发展过程中，下列做法最符合其核心原则的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "大力发展煤炭火力发电，以满足能源需求"
+      },
+      {
+        "label": "B",
+        "text": "推广使用公共交通、共享单车等低碳出行方式"
+      },
+      {
+        "label": "C",
+        "text": "大规模开垦土地，扩大耕地面积以增加粮食产量"
+      },
+      {
+        "label": "D",
+        "text": "鼓励使用一次性塑料制品，提高生活便利度"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "可持续发展强调经济、社会、环境三者平衡，核心是减少碳排放和资源浪费。选项A、D违背环保；C破坏生态；B推广低碳出行，符合原则。"
+  },
+  {
+    "id": "geography-255",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地球形状",
+    "question": "地球的形状最接近以下哪种几何体？",
+    "options": [
+      {
+        "label": "A",
+        "text": "完美的球体"
+      },
+      {
+        "label": "B",
+        "text": "近似椭球体（扁球体）"
+      },
+      {
+        "label": "C",
+        "text": "圆锥体"
+      },
+      {
+        "label": "D",
+        "text": "立方体"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "地球因自转产生离心力，导致赤道半径略大于极半径，形状为两极略扁的椭球体（扁球体），最接近选项B。"
+  },
+  {
+    "id": "geography-256",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "经纬线",
+    "question": "关于经线和纬线的说法，下面正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "经线指示东西方向，纬线指示南北方向"
+      },
+      {
+        "label": "B",
+        "text": "纬线在赤道上最长，向两极逐渐变短；所有经线长度相等"
+      },
+      {
+        "label": "C",
+        "text": "所有经线和纬线均在两极相交"
+      },
+      {
+        "label": "D",
+        "text": "纬线的度数范围为0°~180°，经度的度数范围为0°~90°"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "经线等长、指向南北；纬线在赤道最长，向两极递减。故B正确；A错经线指示南北；C错纬线不相交；D错纬度0°~90°，经度0°~180°。"
+  },
+  {
+    "id": "geography-257",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "时区计算",
+    "question": "北京时间2023年7月1日 9:00时，纽约（美国东部标准时间）此时是几点？",
+    "options": [
+      {
+        "label": "A",
+        "text": "20:00（同一天）"
+      },
+      {
+        "label": "B",
+        "text": "21:00（同一天）"
+      },
+      {
+        "label": "C",
+        "text": "20:00（前一天）"
+      },
+      {
+        "label": "D",
+        "text": "22:00（后一天）"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "北京位于东八区，纽约使用东五区（标准时间），时差13小时。北京9:00减13小时即为纽约前一天的20:00。"
+  },
+  {
+    "id": "geography-258",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地图比例尺",
+    "question": "某地图的比例尺为1:50 000，表示图上1厘米代表的实际距离是多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "500 米"
+      },
+      {
+        "label": "B",
+        "text": "5 000 米"
+      },
+      {
+        "label": "C",
+        "text": "50 米"
+      },
+      {
+        "label": "D",
+        "text": "5 000 厘米"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "比例尺1:50 000表示图上1厘米对应实际50 000厘米，1米=100厘米，故50 000厘米=500米，选A。"
+  },
+  {
+    "id": "geography-259",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地形图判读",
+    "question": "下图所示的等高线在某处呈环形闭合，且内部等高线的高度大于外部，这说明该处是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "山谷"
+      },
+      {
+        "label": "B",
+        "text": "山脊"
+      },
+      {
+        "label": "C",
+        "text": "山峰"
+      },
+      {
+        "label": "D",
+        "text": "缓坡"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "等高线闭合且内部高程大于外部，说明等高线向内递增，属于地形凸起的山峰。"
+  },
+  {
+    "id": "geography-260",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "世界海陆分布",
+    "question": "下列关于全球海陆分布的叙述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "陆地面积约占全球面积的70%。"
+      },
+      {
+        "label": "B",
+        "text": "地球表面约71%被海洋覆盖，陆地仅约29%。"
+      },
+      {
+        "label": "C",
+        "text": "亚洲是面积最大的洲，约占全球陆地面积的50%。"
+      },
+      {
+        "label": "D",
+        "text": "北冰洋是面积最大的大洋。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "已知全球约71%为海洋，故B正确；A错误，海洋占71%；C亚洲约占30%，不是50%；D最大洋是太平洋，北冰洋最小。"
+  },
+  {
+    "id": "geography-261",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "七大洲四大洋",
+    "question": "以下关于七大洲四大洋的描述，哪项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚洲是面积最大的洲，约占地球陆地总面积的30%。"
+      },
+      {
+        "label": "B",
+        "text": "北冰洋是面积最小的大洋，约占全球海洋总面积的10%。"
+      },
+      {
+        "label": "C",
+        "text": "非洲是人口最多的大洲，约有14亿人口。"
+      },
+      {
+        "label": "D",
+        "text": "太平洋是面积最大的大洋，约占全球海洋总面积的70%。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "亚洲面积约30%全球陆地，最大；北冰洋约4%海洋，非10%；非洲人口不及亚洲；太平洋约46%海洋，非70%。故A正确。"
+  },
+  {
+    "id": "geography-262",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "板块构造",
+    "question": "板块构造理论认为，地球的岩石圈被分成若干大的板块，这些板块之间相对运动形成的边界类型不包括以下哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "离散边界"
+      },
+      {
+        "label": "B",
+        "text": "聚合边界"
+      },
+      {
+        "label": "C",
+        "text": "转换边界"
+      },
+      {
+        "label": "D",
+        "text": "稳定边界"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "板块构造理论只列出离散、聚合和转换三种边界，没有稳定边界，故选D。"
+  },
+  {
+    "id": "geography-263",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "地震带",
+    "question": "以下关于世界主要地震带的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "环太平洋地震带主要分布在太平洋周边的陆地和海域，包括日本、美国西海岸、澳大利亚等地区。"
+      },
+      {
+        "label": "B",
+        "text": "欧亚地震带横跨整个欧亚大陆，从大西洋海岸一直延伸至太平洋海岸。"
+      },
+      {
+        "label": "C",
+        "text": "中洋脊地震带主要分布在海底，对陆地地震活动影响最大。"
+      },
+      {
+        "label": "D",
+        "text": "全球约90%的地震能量在环太平洋地震带释放。"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "环太平洋地震带分布在太平洋周边，包括日本、美国西海岸、澳大利亚等地，符合事实；欧亚带未横跨整个大陆；中洋脊带主要在海底，对陆地影响有限；全球能量比例非90%。"
+  },
+  {
+    "id": "geography-264",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "气候类型",
+    "question": "以下哪种气候类型的特点是全年气温高，降水丰富且全年分配较均匀？",
+    "options": [
+      {
+        "label": "A",
+        "text": "热带雨林气候"
+      },
+      {
+        "label": "B",
+        "text": "热带草原气候"
+      },
+      {
+        "label": "C",
+        "text": "温带季风气候"
+      },
+      {
+        "label": "D",
+        "text": "亚寒带针叶林气候"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "热带雨林气候全年高温，降水丰沛且分配均匀；热带草原有干湿季，温带季风有季节变化，亚寒带寒冷少雨。因此选A。"
+  },
+  {
+    "id": "geography-265",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "季风气候",
+    "question": "下列关于季风气候的描述，正确的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "全年降水分布均匀"
+      },
+      {
+        "label": "B",
+        "text": "冬季风从陆地吹向海洋，夏季风从海洋吹向陆地"
+      },
+      {
+        "label": "C",
+        "text": "季风气候只出现在亚洲"
+      },
+      {
+        "label": "D",
+        "text": "季风气候地区的气温年较差普遍较小"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "季风气候夏季风从海洋吹向陆地，冬季风相反。选项B正确；A、C、D描述不符合季风特征。"
+  },
+  {
+    "id": "geography-266",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "降水类型",
+    "question": "在山脉的迎风坡，暖湿气流被迫抬升而形成的降水属于哪种类型？",
+    "options": [
+      {
+        "label": "A",
+        "text": "对流雨"
+      },
+      {
+        "label": "B",
+        "text": "锋面雨"
+      },
+      {
+        "label": "C",
+        "text": "地形雨"
+      },
+      {
+        "label": "D",
+        "text": "雪"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "暖湿气流受山脉阻挡，被迫上升冷却，水汽凝结形成降水，属于典型的地形雨（迎风坡降水），选C。"
+  },
+  {
+    "id": "geography-267",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "世界人口",
+    "question": "截至2023年，世界上人口最多的国家是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国"
+      },
+      {
+        "label": "B",
+        "text": "印度"
+      },
+      {
+        "label": "C",
+        "text": "美国"
+      },
+      {
+        "label": "D",
+        "text": "印度尼西亚"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "截至2023年，印度人口已超过14.2亿，超过中国的约14.1亿，成为世界人口第一大国，故选B。"
+  },
+  {
+    "id": "geography-268",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "人种分布",
+    "question": "关于世界主要人种的分布，下面哪项描述是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "白种人主要分布在欧洲、北美洲和澳大利亚。"
+      },
+      {
+        "label": "B",
+        "text": "黄种人主要分布在亚洲和美洲。"
+      },
+      {
+        "label": "C",
+        "text": "黑种人主要分布在非洲和南美洲。"
+      },
+      {
+        "label": "D",
+        "text": "黄种人在非洲的分布最广。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "白种人分布广泛，除欧美澳外还有亚洲部分地区，A不完整；黄种人主要在亚洲和美洲，B正确；黑种人主要在非洲，南美以混血为主，C错误；黄种人在非洲极少，D错误。"
+  },
+  {
+    "id": "geography-269",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "聚落分布",
+    "question": "以下关于不同地形条件下聚落分布特点的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "平原地区聚落多呈线形分布"
+      },
+      {
+        "label": "B",
+        "text": "河谷地区聚落多呈散居型分布"
+      },
+      {
+        "label": "C",
+        "text": "山地地区聚落多呈聚居型分布"
+      },
+      {
+        "label": "D",
+        "text": "高原地区聚落多呈星形分布"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "平原开阔，适合分散或聚集，不会形成线形；河谷沿水系，易成线形；高原地形平坦，星形分布少；山地地形破碎，适宜居住的土地有限，聚居型分布常见，故选C。"
+  },
+  {
+    "id": "geography-270",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "交通发展",
+    "question": "高速铁路相较于普通铁路，最突出的优势是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "票价更便宜"
+      },
+      {
+        "label": "B",
+        "text": "车站更靠近市中心"
+      },
+      {
+        "label": "C",
+        "text": "运行时速更高"
+      },
+      {
+        "label": "D",
+        "text": "货运能力更强"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "高速铁路的核心特点是运行时速远高于普通铁路，提供更快的出行时间；票价、站点位置和货运并非其优势。"
+  },
+  {
+    "id": "geography-271",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "资源分布",
+    "question": "关于我国资源分布的叙述，下面哪项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "北方地区水资源丰富，南方地区水资源相对不足。"
+      },
+      {
+        "label": "B",
+        "text": "煤炭资源主要分布在华北和西北地区。"
+      },
+      {
+        "label": "C",
+        "text": "森林资源主要集中在东北和华北地区。"
+      },
+      {
+        "label": "D",
+        "text": "稀土资源主要分布在东南沿海地区。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "分析各选项: A描述相反; B符合煤炭分布; C森林主在东北和西南; D稀土主要在中部和西部。"
+  },
+  {
+    "id": "geography-272",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "环境问题",
+    "question": "以下哪种行为最能有效降低城市空气中的细颗粒物（PM2.5）浓度？",
+    "options": [
+      {
+        "label": "A",
+        "text": "大量使用化石燃料，导致更多颗粒物排放"
+      },
+      {
+        "label": "B",
+        "text": "禁止公共交通，倡导私家车出行"
+      },
+      {
+        "label": "C",
+        "text": "鼓励使用公共交通、骑行和步行，减少汽车尾气排放"
+      },
+      {
+        "label": "D",
+        "text": "大面积使用农药，增加大气中有害物质"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "PM2.5主要来自汽车尾气和工业排放。公共交通、骑行和步行能显著减少车辆使用，从而降低颗粒物排放，是降低城市PM2.5最直接有效的措施。"
+  },
+  {
+    "id": "geography-273",
+    "subject": "geography",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国地形",
+    "question": "以下关于中国地形的描述，正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国东部以高原和山地为主，西部以平原和丘陵为主。"
+      },
+      {
+        "label": "B",
+        "text": "中国地形可以概括为“三级阶梯”，其中第一级阶梯主要是平原和丘陵。"
+      },
+      {
+        "label": "C",
+        "text": "青藏高原是世界上面积最小的高原。"
+      },
+      {
+        "label": "D",
+        "text": "中国最大的盆地是四川盆地。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "A把东部高原、西部平原说反，C青藏高原非最小，D四川盆地非最大，均错，排除后只剩B正确。"
+  }
+]
