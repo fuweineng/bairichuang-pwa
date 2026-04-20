@@ -138,7 +138,7 @@ body[data-theme="night"] {
   --theme-input-bg: #242640;
   --theme-input-border: #3c4080;
   --theme-card-bg: #1a1c30;
-  --theme-text-primary: #c5cae9;
+  --theme-text-primary: #e8eaf6;
   --theme-text-secondary: #9fa8d0;
   --theme-text-muted: #5a5f8a;
   --theme-weak-bg: #1e1520;
@@ -456,7 +456,7 @@ main {
 .home-streak-section { order: 1; }
 
 /* Chart — smaller, below streak */
-.home-chart-section { order: 2; margin-bottom: 0; }
+.home-chart-section { order: 2; margin-bottom: 0; background: var(--theme-surface); position: sticky; bottom: 0; z-index: 50; }
 
 /* Today status — shown after practice */
 .today-status-card {
@@ -3213,15 +3213,16 @@ body[data-theme="night"] .chart-bar-row:hover { background: var(--theme-surface-
 body[data-theme="night"] .chart-empty { background: var(--theme-surface); color: var(--theme-text-secondary); }
 body[data-theme="night"] .view-home { background: var(--bg); }
 body[data-theme="night"] .chart-empty-title { color: var(--theme-text-secondary); }
-body[data-theme="night"] .home-chart-section { background: var(--bg); }
+body[data-theme="night"] .home-chart-section { background: var(--theme-surface); position: sticky; bottom: 0; z-index: 50; }
 body[data-theme="night"] .home-header-strip { background: linear-gradient(135deg, #1a1a2e 0%, #242640 100%); }
 
 /***** night mode: practice view *****/
 body[data-theme="night"] .practice-entry-info { color: var(--theme-text-secondary); }
 body[data-theme="night"] .practice-entry-info { border-left-color: var(--theme-accent) !important; }
 body[data-theme="night"] .practice-entry-info .stat-num { color: var(--theme-text-primary); }
-body[data-theme="night"] .option-btn { border-color: var(--theme-border); }
-body[data-theme="night"] .option-btn.correct { background: var(--theme-bg-1); color: var(--theme-accent); border-color: var(--theme-accent); }
+body[data-theme="night"] .option-btn { background: var(--theme-surface-2); border-color: var(--theme-border); color: var(--theme-text-primary); }
+body[data-theme="night"] .option-btn:hover { border-color: var(--theme-accent); color: var(--theme-accent); }
+body[data-theme="night"] .option-btn.correct { background: #1a2e1a; color: #81c784; border-color: #81c784; }
 body[data-theme="night"] .option-btn.wrong { background: #2a1010; color: #ef9a9a; border-color: #ef5350; }
 body[data-theme="night"] .view-toolbar { border-color: var(--theme-border); }
 body[data-theme="night"] .back-home-btn { color: var(--theme-accent); }
