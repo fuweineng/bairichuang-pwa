@@ -94,8 +94,13 @@ async function main() {
   }
 
   for (const question of questionBank) {
-    if (question.type === 'choice' && Array.isArray(question.options) && !question.options.includes(question.answer)) {
-      errors.push(`选择题答案不在选项中: ${question.id}`);
+    if (question.type === 'choice' && Array.isArray(question.options) && question.options.length > 0) {
+      const firstOpt = question.options[0];
+      const isNewFormat = typeof firstOpt === 'object' && firstOpt !== null;
+      const opts = isNewFormat ? question.options.map(o => o.label) : question.options;
+      if (!opts.includes(question.answer)) {
+        errors.push(`选择题答案不在选项中: ${question.id} (answer=${question.answer})`);
+      }
     }
 
     if (question.type === 'listening') {
