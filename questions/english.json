@@ -11,12 +11,24 @@
     ],
     "question": "She ______ to Beijing three times.",
     "options": [
-      "has been",
-      "has gone",
-      "went",
-      "is going"
+      {
+        "label": "A",
+        "text": "has been"
+      },
+      {
+        "label": "B",
+        "text": "has gone"
+      },
+      {
+        "label": "C",
+        "text": "went"
+      },
+      {
+        "label": "D",
+        "text": "is going"
+      }
     ],
-    "answer": "has been",
+    "answer": "A",
     "explanation": "'has been to' means 'has visited and returned'. 'has gone to' means 'has gone and not returned yet'."
   },
   {
@@ -31,12 +43,24 @@
     ],
     "question": "Look! The children ______ on the playground.",
     "options": [
-      "play",
-      "played",
-      "are playing",
-      "were playing"
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "played"
+      },
+      {
+        "label": "C",
+        "text": "are playing"
+      },
+      {
+        "label": "D",
+        "text": "were playing"
+      }
     ],
-    "answer": "are playing",
+    "answer": "C",
     "explanation": "'Look!' indicates an action happening right now, so present continuous tense 'are playing' is used."
   },
   {
@@ -51,12 +75,24 @@
     ],
     "question": "When I arrived at the station, the train ______.",
     "options": [
-      "left",
-      "has left",
-      "had left",
-      "was leaving"
+      {
+        "label": "A",
+        "text": "left"
+      },
+      {
+        "label": "B",
+        "text": "has left"
+      },
+      {
+        "label": "C",
+        "text": "had left"
+      },
+      {
+        "label": "D",
+        "text": "was leaving"
+      }
     ],
-    "answer": "had left",
+    "answer": "C",
     "explanation": "到达车站之前火车已经开走，因此要用过去完成时 had left。"
   },
   {
@@ -88,12 +124,24 @@
     ],
     "question": "The song ______ by millions of people.",
     "options": [
-      "is known",
-      "knows",
-      "was known",
-      "has known"
+      {
+        "label": "A",
+        "text": "is known"
+      },
+      {
+        "label": "B",
+        "text": "knows"
+      },
+      {
+        "label": "C",
+        "text": "was known"
+      },
+      {
+        "label": "D",
+        "text": "has known"
+      }
     ],
-    "answer": "is known",
+    "answer": "A",
     "explanation": "Present simple passive: am/is/are + past participle. 'is known' shows current general truth."
   },
   {
@@ -126,12 +174,24 @@
     ],
     "question": "My dream is ______ a doctor.",
     "options": [
-      "be",
-      "to be",
-      "being",
-      "been"
+      {
+        "label": "A",
+        "text": "be"
+      },
+      {
+        "label": "B",
+        "text": "to be"
+      },
+      {
+        "label": "C",
+        "text": "being"
+      },
+      {
+        "label": "D",
+        "text": "been"
+      }
     ],
-    "answer": "to be",
+    "answer": "B",
     "explanation": "'be' as complement of 'is' requires infinitive form: My dream is to be a doctor."
   },
   {
@@ -146,12 +206,24 @@
     ],
     "question": "She enjoys ______ music in her free time.",
     "options": [
-      "listen",
-      "listening",
-      "to listen",
-      "listened"
+      {
+        "label": "A",
+        "text": "listen"
+      },
+      {
+        "label": "B",
+        "text": "listening"
+      },
+      {
+        "label": "C",
+        "text": "to listen"
+      },
+      {
+        "label": "D",
+        "text": "listened"
+      }
     ],
-    "answer": "listening",
+    "answer": "B",
     "explanation": "Verbs followed by gerund (-ing): enjoy, like, finish, practice, etc."
   },
   {
@@ -165,12 +237,24 @@
     ],
     "question": "I don't know ______.",
     "options": [
-      "where does he live",
-      "where he lives",
-      "where is he living",
-      "where he does live"
+      {
+        "label": "A",
+        "text": "where does he live"
+      },
+      {
+        "label": "B",
+        "text": "where he lives"
+      },
+      {
+        "label": "C",
+        "text": "where is he living"
+      },
+      {
+        "label": "D",
+        "text": "where he does live"
+      }
     ],
-    "answer": "where he lives",
+    "answer": "B",
     "explanation": "In indirect speech/embedded questions, use normal word order (subject+verb), not question order."
   },
   {
@@ -184,12 +268,24 @@
     ],
     "question": "The book ______ I bought yesterday is very interesting.",
     "options": [
-      "who",
-      "which",
-      "whom",
-      "whose"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "which"
+      },
+      {
+        "label": "C",
+        "text": "whom"
+      },
+      {
+        "label": "D",
+        "text": "whose"
+      }
     ],
-    "answer": "which",
+    "answer": "B",
     "explanation": "'which' is used for things. Here it refers to 'the book' and functions as the object of 'bought'."
   },
   {
@@ -203,12 +299,24 @@
     ],
     "question": "______ it rained heavily, we still went to school.",
     "options": [
-      "Although",
-      "Because",
-      "Since",
-      "Unless"
+      {
+        "label": "A",
+        "text": "Although"
+      },
+      {
+        "label": "B",
+        "text": "Because"
+      },
+      {
+        "label": "C",
+        "text": "Since"
+      },
+      {
+        "label": "D",
+        "text": "Unless"
+      }
     ],
-    "answer": "Although",
+    "answer": "A",
     "explanation": "'Although' introduces a contrast/concession clause."
   },
   {
@@ -222,12 +330,24 @@
     ],
     "question": "The word 'quiet' and 'quite' have ______ meanings.",
     "options": [
-      "same",
-      "different",
-      "similar",
-      "no"
+      {
+        "label": "A",
+        "text": "same"
+      },
+      {
+        "label": "B",
+        "text": "different"
+      },
+      {
+        "label": "C",
+        "text": "similar"
+      },
+      {
+        "label": "D",
+        "text": "no"
+      }
     ],
-    "answer": "different",
+    "answer": "B",
     "explanation": "'quiet' means silent/no sound, 'quite' means completely/fairly. They are completely different words."
   },
   {
@@ -277,12 +397,24 @@
     ],
     "question": "According to the passage, how many hours should a student sleep every night?",
     "options": [
-      "About 5 hours",
-      "About 7 hours",
-      "About 8 hours",
-      "About 10 hours"
+      {
+        "label": "A",
+        "text": "About 5 hours"
+      },
+      {
+        "label": "B",
+        "text": "About 7 hours"
+      },
+      {
+        "label": "C",
+        "text": "About 8 hours"
+      },
+      {
+        "label": "D",
+        "text": "About 10 hours"
+      }
     ],
-    "answer": "About 8 hours",
+    "answer": "C",
     "explanation": "The passage states that teenagers need about 8 hours of sleep for good health."
   },
   {
@@ -296,12 +428,24 @@
     ],
     "question": "The book is very _____. I can't put it down.",
     "options": [
-      "interesting",
-      "bored",
-      "tired",
-      "sad"
+      {
+        "label": "A",
+        "text": "interesting"
+      },
+      {
+        "label": "B",
+        "text": "bored"
+      },
+      {
+        "label": "C",
+        "text": "tired"
+      },
+      {
+        "label": "D",
+        "text": "sad"
+      }
     ],
-    "answer": "interesting",
+    "answer": "A",
     "explanation": "句意：这本书非常有趣，我爱不释手。interesting 意为有趣"
   },
   {
@@ -315,12 +459,24 @@
     ],
     "question": "He _____ TV when the phone rang.",
     "options": [
-      "was watching",
-      "watched",
-      "is watching",
-      "watches"
+      {
+        "label": "A",
+        "text": "was watching"
+      },
+      {
+        "label": "B",
+        "text": "watched"
+      },
+      {
+        "label": "C",
+        "text": "is watching"
+      },
+      {
+        "label": "D",
+        "text": "watches"
+      }
     ],
-    "answer": "was watching",
+    "answer": "A",
     "explanation": "过去进行时，表示在过去某一时刻正在进行的动作"
   },
   {
@@ -334,12 +490,24 @@
     ],
     "question": "There are many _____ on the farm.",
     "options": [
-      "sheep",
-      "sheeps",
-      "sheepes",
-      "sheeping"
+      {
+        "label": "A",
+        "text": "sheep"
+      },
+      {
+        "label": "B",
+        "text": "sheeps"
+      },
+      {
+        "label": "C",
+        "text": "sheepes"
+      },
+      {
+        "label": "D",
+        "text": "sheeping"
+      }
     ],
-    "answer": "sheep",
+    "answer": "A",
     "explanation": "sheep 是单复数同形的名词，复数仍是 sheep"
   },
   {
@@ -353,12 +521,24 @@
     ],
     "question": "The window _____ by Tom yesterday.",
     "options": [
-      "broke",
-      "was broken",
-      "is broken",
-      "breaks"
+      {
+        "label": "A",
+        "text": "broke"
+      },
+      {
+        "label": "B",
+        "text": "was broken"
+      },
+      {
+        "label": "C",
+        "text": "is broken"
+      },
+      {
+        "label": "D",
+        "text": "breaks"
+      }
     ],
-    "answer": "was broken",
+    "answer": "B",
     "explanation": "一般过去时的被动语态：be动词过去式 + 过去分词"
   },
   {
@@ -372,12 +552,24 @@
     ],
     "question": "I am interested _____ learning English.",
     "options": [
-      "in",
-      "on",
-      "at",
-      "with"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "with"
+      }
     ],
-    "answer": "in",
+    "answer": "A",
     "explanation": "be interested in 是固定搭配，意为对...感兴趣"
   },
   {
@@ -391,12 +583,24 @@
     ],
     "question": "I don't know _____.",
     "options": [
-      "where does he live",
-      "where he lives",
-      "where he live",
-      "he lives where"
+      {
+        "label": "A",
+        "text": "where does he live"
+      },
+      {
+        "label": "B",
+        "text": "where he lives"
+      },
+      {
+        "label": "C",
+        "text": "where he live"
+      },
+      {
+        "label": "D",
+        "text": "he lives where"
+      }
     ],
-    "answer": "where he lives",
+    "answer": "B",
     "explanation": "宾语从句用陈述语序"
   },
   {
@@ -410,12 +614,24 @@
     ],
     "question": "The weather is _____ today than yesterday.",
     "options": [
-      "hot",
-      "hotter",
-      "hottest",
-      "most hot"
+      {
+        "label": "A",
+        "text": "hot"
+      },
+      {
+        "label": "B",
+        "text": "hotter"
+      },
+      {
+        "label": "C",
+        "text": "hottest"
+      },
+      {
+        "label": "D",
+        "text": "most hot"
+      }
     ],
-    "answer": "hotter",
+    "answer": "B",
     "explanation": "than 提示用比较级，hot 的比较级是 hotter"
   },
   {
@@ -429,12 +645,24 @@
     ],
     "question": "You _____ be careful with the glass.",
     "options": [
-      "can",
-      "must",
-      "may",
-      "could"
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "may"
+      },
+      {
+        "label": "D",
+        "text": "could"
+      }
     ],
-    "answer": "must",
+    "answer": "B",
     "explanation": "must 意为必须，表示强烈的义务或责任"
   },
   {
@@ -465,12 +693,24 @@
     ],
     "question": "He arrived _____ Beijing _____ the morning of July 1st.",
     "options": [
-      "in, in",
-      "at, on",
-      "in, on",
-      "to, in"
+      {
+        "label": "A",
+        "text": "in, in"
+      },
+      {
+        "label": "B",
+        "text": "at, on"
+      },
+      {
+        "label": "C",
+        "text": "in, on"
+      },
+      {
+        "label": "D",
+        "text": "to, in"
+      }
     ],
-    "answer": "in, on",
+    "answer": "C",
     "explanation": "arrive in + 大地方，on + 具体日期的早晨"
   },
   {
@@ -484,12 +724,24 @@
     ],
     "question": "I think _____ he is a good student.",
     "options": [
-      "that",
-      "if",
-      "whether",
-      "because"
+      {
+        "label": "A",
+        "text": "that"
+      },
+      {
+        "label": "B",
+        "text": "if"
+      },
+      {
+        "label": "C",
+        "text": "whether"
+      },
+      {
+        "label": "D",
+        "text": "because"
+      }
     ],
-    "answer": "that",
+    "answer": "A",
     "explanation": "think/know/believe等动词后的宾语从句用that引导",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-026.m4a"
   },
@@ -504,12 +756,24 @@
     ],
     "question": "She looks _____. What happened?",
     "options": [
-      "sad",
-      "upset",
-      "tired",
-      "angry"
+      {
+        "label": "A",
+        "text": "sad"
+      },
+      {
+        "label": "B",
+        "text": "upset"
+      },
+      {
+        "label": "C",
+        "text": "tired"
+      },
+      {
+        "label": "D",
+        "text": "angry"
+      }
     ],
-    "answer": "upset",
+    "answer": "B",
     "explanation": "看起来很沮丧，upset表示难过的情绪",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-027.m4a"
   },
@@ -524,12 +788,24 @@
     ],
     "question": "_____ the work, he went home.",
     "options": [
-      "Finished",
-      "Having finished",
-      "Finishing",
-      "To finish"
+      {
+        "label": "A",
+        "text": "Finished"
+      },
+      {
+        "label": "B",
+        "text": "Having finished"
+      },
+      {
+        "label": "C",
+        "text": "Finishing"
+      },
+      {
+        "label": "D",
+        "text": "To finish"
+      }
     ],
-    "answer": "Having finished",
+    "answer": "B",
     "explanation": "having done 表示动作在谓语之前发生，是完成式分词作状语",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-028.m4a"
   },
@@ -544,12 +820,24 @@
     ],
     "question": "Don't rely _____ him. He is not reliable.",
     "options": [
-      "in",
-      "to",
-      "on",
-      "at"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "to"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "at"
+      }
     ],
-    "answer": "on",
+    "answer": "C",
     "explanation": "rely on 是固定搭配，意为依赖",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-029.m4a"
   },
@@ -564,12 +852,24 @@
     ],
     "question": "The book is _____ of the three.",
     "options": [
-      "interesting",
-      "more interesting",
-      "the most interesting",
-      "most interesting"
+      {
+        "label": "A",
+        "text": "interesting"
+      },
+      {
+        "label": "B",
+        "text": "more interesting"
+      },
+      {
+        "label": "C",
+        "text": "the most interesting"
+      },
+      {
+        "label": "D",
+        "text": "most interesting"
+      }
     ],
-    "answer": "the most interesting",
+    "answer": "C",
     "explanation": "三者比较用最高级，most+多音节形容词，最高级前加the",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-030.m4a"
   },
@@ -602,12 +902,24 @@
     ],
     "question": "The teacher is strict _____ us.",
     "options": [
-      "in",
-      "to",
-      "with",
-      "for"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "to"
+      },
+      {
+        "label": "C",
+        "text": "with"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
-    "answer": "with",
+    "answer": "C",
     "explanation": "be strict with sb. 对某人严格要求",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-032.m4a"
   },
@@ -622,12 +934,24 @@
     ],
     "question": "There is a _____ tree in front of our house.",
     "options": [
-      "high",
-      "tall",
-      "big",
-      "long"
+      {
+        "label": "A",
+        "text": "high"
+      },
+      {
+        "label": "B",
+        "text": "tall"
+      },
+      {
+        "label": "C",
+        "text": "big"
+      },
+      {
+        "label": "D",
+        "text": "long"
+      }
     ],
-    "answer": "tall",
+    "answer": "B",
     "explanation": "描述人和树的高度用tall，描述建筑物/山用high",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-033.m4a"
   },
@@ -642,12 +966,24 @@
     ],
     "question": "Never _____ such a strange thing.",
     "options": [
-      "I have seen",
-      "have I seen",
-      "I saw",
-      "did I see"
+      {
+        "label": "A",
+        "text": "I have seen"
+      },
+      {
+        "label": "B",
+        "text": "have I seen"
+      },
+      {
+        "label": "C",
+        "text": "I saw"
+      },
+      {
+        "label": "D",
+        "text": "did I see"
+      }
     ],
-    "answer": "have I seen",
+    "answer": "B",
     "explanation": "never放句首用部分倒装，即助动词/be动词/情态动词提到主语前",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-034.m4a"
   },
@@ -662,12 +998,24 @@
     ],
     "question": "Your father is a doctor, _____?",
     "options": [
-      "isn't father",
-      "isn't your father",
-      "isn't he",
-      "is he"
+      {
+        "label": "A",
+        "text": "isn't father"
+      },
+      {
+        "label": "B",
+        "text": "isn't your father"
+      },
+      {
+        "label": "C",
+        "text": "isn't he"
+      },
+      {
+        "label": "D",
+        "text": "is he"
+      }
     ],
-    "answer": "isn't he",
+    "answer": "C",
     "explanation": "反意疑问句，主语用人称代词Your father→he，否定式isn't he",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-035.m4a"
   },
@@ -682,12 +1030,24 @@
     ],
     "question": "I will call you _____ I arrive.",
     "options": [
-      "when",
-      "as soon as",
-      "after",
-      "before"
+      {
+        "label": "A",
+        "text": "when"
+      },
+      {
+        "label": "B",
+        "text": "as soon as"
+      },
+      {
+        "label": "C",
+        "text": "after"
+      },
+      {
+        "label": "D",
+        "text": "before"
+      }
     ],
-    "answer": "as soon as",
+    "answer": "B",
     "explanation": "as soon as 一...就...，强调即时性，主句用将来时从句用现在时",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-036.m4a"
   },
@@ -702,12 +1062,24 @@
     ],
     "question": "She is fond _____ music.",
     "options": [
-      "of",
-      "in",
-      "on",
-      "at"
+      {
+        "label": "A",
+        "text": "of"
+      },
+      {
+        "label": "B",
+        "text": "in"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "at"
+      }
     ],
-    "answer": "of",
+    "answer": "A",
     "explanation": "be fond of 喜欢...，固定搭配",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-037.m4a"
   },
@@ -722,12 +1094,24 @@
     ],
     "question": "If I _____ you, I would take this job.",
     "options": [
-      "am",
-      "was",
-      "were",
-      "is"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "is"
+      }
     ],
-    "answer": "were",
+    "answer": "C",
     "explanation": "与现在事实相反的虚拟条件句，从句用were（不管主语是谁都用were）",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-038.m4a"
   },
@@ -742,12 +1126,24 @@
     ],
     "question": "The baby is sleeping. Please keep the noise _____?",
     "options": [
-      "up",
-      "down",
-      "off",
-      "out"
+      {
+        "label": "A",
+        "text": "up"
+      },
+      {
+        "label": "B",
+        "text": "down"
+      },
+      {
+        "label": "C",
+        "text": "off"
+      },
+      {
+        "label": "D",
+        "text": "out"
+      }
     ],
-    "answer": "down",
+    "answer": "B",
     "explanation": "keep down 压低声音，keep up 保持，keep off 避开，keep out 挡在外面",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-039.m4a"
   },
@@ -762,12 +1158,24 @@
     ],
     "question": "The man _____ helped us is my uncle.",
     "options": [
-      "which",
-      "who",
-      "that",
-      "whom"
+      {
+        "label": "A",
+        "text": "which"
+      },
+      {
+        "label": "B",
+        "text": "who"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "whom"
+      }
     ],
-    "answer": "who",
+    "answer": "B",
     "explanation": "指人，在定语从句中who可以作主语或宾语",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-040.m4a"
   },
@@ -800,12 +1208,24 @@
     ],
     "question": "The _____ of the mountain is covered with snow.",
     "options": [
-      "bottom",
-      "top",
-      "foot",
-      "side"
+      {
+        "label": "A",
+        "text": "bottom"
+      },
+      {
+        "label": "B",
+        "text": "top"
+      },
+      {
+        "label": "C",
+        "text": "foot"
+      },
+      {
+        "label": "D",
+        "text": "side"
+      }
     ],
-    "answer": "top",
+    "answer": "B",
     "explanation": "top of mountain 山顶，bottom 山底，foot 山脚",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-042.m4a"
   },
@@ -820,12 +1240,24 @@
     ],
     "question": "Look! The boys _____ football on the playground.",
     "options": [
-      "play",
-      "are playing",
-      "played",
-      "have played"
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "are playing"
+      },
+      {
+        "label": "C",
+        "text": "played"
+      },
+      {
+        "label": "D",
+        "text": "have played"
+      }
     ],
-    "answer": "are playing",
+    "answer": "B",
     "explanation": "Look! 提示现在进行时 be+v-ing",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-043.m4a"
   },
@@ -840,12 +1272,24 @@
     ],
     "question": "The bridge _____ last year.",
     "options": [
-      "built",
-      "was built",
-      "is built",
-      "were built"
+      {
+        "label": "A",
+        "text": "built"
+      },
+      {
+        "label": "B",
+        "text": "was built"
+      },
+      {
+        "label": "C",
+        "text": "is built"
+      },
+      {
+        "label": "D",
+        "text": "were built"
+      }
     ],
-    "answer": "was built",
+    "answer": "B",
     "explanation": "一般过去时的被动语态：be动词(过去式)+过去分词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-044.m4a"
   },
@@ -860,12 +1304,24 @@
     ],
     "question": "Each of us has two _____ (child).",
     "options": [
-      "childs",
-      "childrens",
-      "children",
-      "childes"
+      {
+        "label": "A",
+        "text": "childs"
+      },
+      {
+        "label": "B",
+        "text": "childrens"
+      },
+      {
+        "label": "C",
+        "text": "children"
+      },
+      {
+        "label": "D",
+        "text": "childes"
+      }
     ],
-    "answer": "children",
+    "answer": "C",
     "explanation": "child的复数是不规则变化children",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-045.m4a"
   },
@@ -880,12 +1336,24 @@
     ],
     "question": "_____ we will go camping depends on the weather.",
     "options": [
-      "If",
-      "Whether",
-      "That",
-      "What"
+      {
+        "label": "A",
+        "text": "If"
+      },
+      {
+        "label": "B",
+        "text": "Whether"
+      },
+      {
+        "label": "C",
+        "text": "That"
+      },
+      {
+        "label": "D",
+        "text": "What"
+      }
     ],
-    "answer": "Whether",
+    "answer": "B",
     "explanation": "主语从句用whether不用if（句首if不能引导主语从句）",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-046.m4a"
   },
@@ -900,12 +1368,24 @@
     ],
     "question": "Please turn _____ the lights when you leave.",
     "options": [
-      "on",
-      "off",
-      "up",
-      "down"
+      {
+        "label": "A",
+        "text": "on"
+      },
+      {
+        "label": "B",
+        "text": "off"
+      },
+      {
+        "label": "C",
+        "text": "up"
+      },
+      {
+        "label": "D",
+        "text": "down"
+      }
     ],
-    "answer": "off",
+    "answer": "B",
     "explanation": "turn off 关掉，turn on 打开，turn up 调大，turn down 调小",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-047.m4a"
   },
@@ -920,12 +1400,24 @@
     ],
     "question": "You _____ have seen the movie. It is very popular.",
     "options": [
-      "can",
-      "must",
-      "need",
-      "may"
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "need"
+      },
+      {
+        "label": "D",
+        "text": "may"
+      }
     ],
-    "answer": "must",
+    "answer": "B",
     "explanation": "must have done 表示对过去事实的肯定推测，你一定看过",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-048.m4a"
   },
@@ -958,12 +1450,24 @@
     ],
     "question": "I agree _____ you. You are right.",
     "options": [
-      "with",
-      "to",
-      "on",
-      "at"
+      {
+        "label": "A",
+        "text": "with"
+      },
+      {
+        "label": "B",
+        "text": "to"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "at"
+      }
     ],
-    "answer": "with",
+    "answer": "A",
     "explanation": "agree with sb. 同意某人的观点，agree to a plan/idea",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-050.m4a"
   },
@@ -978,12 +1482,24 @@
     ],
     "question": "My mother does the _____ every day.",
     "options": [
-      "homework",
-      "housework",
-      "job",
-      "work"
+      {
+        "label": "A",
+        "text": "homework"
+      },
+      {
+        "label": "B",
+        "text": "housework"
+      },
+      {
+        "label": "C",
+        "text": "job"
+      },
+      {
+        "label": "D",
+        "text": "work"
+      }
     ],
-    "answer": "housework",
+    "answer": "B",
     "explanation": "housework 家务（不可数），homework 作业（不可数），job 工作（可数）",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-051.m4a"
   },
@@ -998,12 +1514,24 @@
     ],
     "question": "Is this the factory _____ you visited last week?",
     "options": [
-      "where",
-      "that",
-      "which",
-      "who"
+      {
+        "label": "A",
+        "text": "where"
+      },
+      {
+        "label": "B",
+        "text": "that"
+      },
+      {
+        "label": "C",
+        "text": "which"
+      },
+      {
+        "label": "D",
+        "text": "who"
+      }
     ],
-    "answer": "that",
+    "answer": "B",
     "explanation": "先行词是物（factory），在定语从句中作visited的宾语，可以省略或用that/which",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-052.m4a"
   },
@@ -1018,12 +1546,24 @@
     ],
     "question": "The weather is _____ today than yesterday.",
     "options": [
-      "cold",
-      "colder",
-      "coldest",
-      "most cold"
+      {
+        "label": "A",
+        "text": "cold"
+      },
+      {
+        "label": "B",
+        "text": "colder"
+      },
+      {
+        "label": "C",
+        "text": "coldest"
+      },
+      {
+        "label": "D",
+        "text": "most cold"
+      }
     ],
-    "answer": "colder",
+    "answer": "B",
     "explanation": "than 提示用比较级，cold→colder（单音节词加-er）",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-053.m4a"
   },
@@ -1038,12 +1578,24 @@
     ],
     "question": "_____ cross the street when the traffic is busy.",
     "options": [
-      "Not",
-      "Don't",
-      "No",
-      "Never do"
+      {
+        "label": "A",
+        "text": "Not"
+      },
+      {
+        "label": "B",
+        "text": "Don't"
+      },
+      {
+        "label": "C",
+        "text": "No"
+      },
+      {
+        "label": "D",
+        "text": "Never do"
+      }
     ],
-    "answer": "Don't",
+    "answer": "B",
     "explanation": "否定祈使句用Don't+动词原形，Not cross the street is wrong",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-054.m4a"
   },
@@ -1058,12 +1610,24 @@
     ],
     "question": "She took the medicine but it didn't have any _____ on her.",
     "options": [
-      "affect",
-      "effect",
-      "effort",
-      "offer"
+      {
+        "label": "A",
+        "text": "affect"
+      },
+      {
+        "label": "B",
+        "text": "effect"
+      },
+      {
+        "label": "C",
+        "text": "effort"
+      },
+      {
+        "label": "D",
+        "text": "offer"
+      }
     ],
-    "answer": "effect",
+    "answer": "B",
     "explanation": "have an effect on 对...有效果，affect是动词，effort 努力",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-055.m4a"
   },
@@ -1096,12 +1660,24 @@
     ],
     "question": "_____ busy she is, she never gives up learning.",
     "options": [
-      "Whatever",
-      "However",
-      "Whenever",
-      "Wherever"
+      {
+        "label": "A",
+        "text": "Whatever"
+      },
+      {
+        "label": "B",
+        "text": "However"
+      },
+      {
+        "label": "C",
+        "text": "Whenever"
+      },
+      {
+        "label": "D",
+        "text": "Wherever"
+      }
     ],
-    "answer": "However",
+    "answer": "B",
     "explanation": "however+形容词/副词+主语+谓语，表示让步，意为无论多么",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-057.m4a"
   },
@@ -1116,12 +1692,24 @@
     ],
     "question": "This question is very _____ to understand.",
     "options": [
-      "easy",
-      "easily",
-      "ease",
-      "easier"
+      {
+        "label": "A",
+        "text": "easy"
+      },
+      {
+        "label": "B",
+        "text": "easily"
+      },
+      {
+        "label": "C",
+        "text": "ease"
+      },
+      {
+        "label": "D",
+        "text": "easier"
+      }
     ],
-    "answer": "easy",
+    "answer": "A",
     "explanation": "be + adj. + to do sth.，to后用动词原形，easy是形容词作表语",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-058.m4a"
   },
@@ -1136,12 +1724,24 @@
     ],
     "question": "He succeeded _____ passing the exam.",
     "options": [
-      "in",
-      "to",
-      "on",
-      "with"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "to"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "with"
+      }
     ],
-    "answer": "in",
+    "answer": "A",
     "explanation": "succeed in doing sth. 成功做某事，in是介词后面跟v-ing",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-059.m4a"
   },
@@ -1156,12 +1756,24 @@
     ],
     "question": "I am looking forward to _____ you again.",
     "options": [
-      "see",
-      "to see",
-      "seeing",
-      "seen"
+      {
+        "label": "A",
+        "text": "see"
+      },
+      {
+        "label": "B",
+        "text": "to see"
+      },
+      {
+        "label": "C",
+        "text": "seeing"
+      },
+      {
+        "label": "D",
+        "text": "seen"
+      }
     ],
-    "answer": "seeing",
+    "answer": "C",
     "explanation": "look forward to doing sth.，to是介词，后跟v-ing",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-060.m4a"
   },
@@ -1176,12 +1788,24 @@
     ],
     "question": "He needs to prepare well _____ he wants to give a speech.",
     "options": [
-      "because",
-      "if",
-      "unless",
-      "when"
+      {
+        "label": "A",
+        "text": "because"
+      },
+      {
+        "label": "B",
+        "text": "if"
+      },
+      {
+        "label": "C",
+        "text": "unless"
+      },
+      {
+        "label": "D",
+        "text": "when"
+      }
     ],
-    "answer": "unless",
+    "answer": "C",
     "explanation": "unless = if not，除非他想演讲否则不需要准备，符合句意",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-061.m4a"
   },
@@ -1196,12 +1820,24 @@
     ],
     "question": "The old man lives on the _____ floor.",
     "options": [
-      "three",
-      "third",
-      "thried",
-      "threeth"
+      {
+        "label": "A",
+        "text": "three"
+      },
+      {
+        "label": "B",
+        "text": "third"
+      },
+      {
+        "label": "C",
+        "text": "thried"
+      },
+      {
+        "label": "D",
+        "text": "threeth"
+      }
     ],
-    "answer": "third",
+    "answer": "B",
     "explanation": "序数词表示顺序，第三层是the third floor，前面加the",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-062.m4a"
   },
@@ -1216,12 +1852,24 @@
     ],
     "question": "By the time I got home, my mother _____ dinner.",
     "options": [
-      "cooked",
-      "has cooked",
-      "had cooked",
-      "was cooking"
+      {
+        "label": "A",
+        "text": "cooked"
+      },
+      {
+        "label": "B",
+        "text": "has cooked"
+      },
+      {
+        "label": "C",
+        "text": "had cooked"
+      },
+      {
+        "label": "D",
+        "text": "was cooking"
+      }
     ],
-    "answer": "had cooked",
+    "answer": "C",
     "explanation": "by+过去时间，主句用过去完成时had+过去分词，表示动作在过去某时已完成",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-063.m4a"
   },
@@ -1254,12 +1902,24 @@
     ],
     "question": "This is the best film _____ has ever been made.",
     "options": [
-      "which",
-      "that",
-      "what",
-      "where"
+      {
+        "label": "A",
+        "text": "which"
+      },
+      {
+        "label": "B",
+        "text": "that"
+      },
+      {
+        "label": "C",
+        "text": "what"
+      },
+      {
+        "label": "D",
+        "text": "where"
+      }
     ],
-    "answer": "that",
+    "answer": "B",
     "explanation": "最高级修饰名词时，定语从句用that引导，不用which",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-065.m4a"
   },
@@ -1274,12 +1934,24 @@
     ],
     "question": "A sheep is an animal _____ gives us wool.",
     "options": [
-      "what",
-      "who",
-      "that",
-      "which"
+      {
+        "label": "A",
+        "text": "what"
+      },
+      {
+        "label": "B",
+        "text": "who"
+      },
+      {
+        "label": "C",
+        "text": "that"
+      },
+      {
+        "label": "D",
+        "text": "which"
+      }
     ],
-    "answer": "that",
+    "answer": "C",
     "explanation": "定语从句修饰animal，指物用that/which，在从句中作主语",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-066.m4a"
   },
@@ -1294,12 +1966,24 @@
     ],
     "question": "He is good at _____ (swim).",
     "options": [
-      "swim",
-      "swimming",
-      "to swim",
-      "swimms"
+      {
+        "label": "A",
+        "text": "swim"
+      },
+      {
+        "label": "B",
+        "text": "swimming"
+      },
+      {
+        "label": "C",
+        "text": "to swim"
+      },
+      {
+        "label": "D",
+        "text": "swimms"
+      }
     ],
-    "answer": "swimming",
+    "answer": "B",
     "explanation": "be good at doing sth.，at是介词，后跟v-ing",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-067.m4a"
   },
@@ -1314,12 +1998,24 @@
     ],
     "question": "_____ of the two books is interesting.",
     "options": [
-      "Both",
-      "Neither",
-      "Either",
-      "None"
+      {
+        "label": "A",
+        "text": "Both"
+      },
+      {
+        "label": "B",
+        "text": "Neither"
+      },
+      {
+        "label": "C",
+        "text": "Either"
+      },
+      {
+        "label": "D",
+        "text": "None"
+      }
     ],
-    "answer": "Either",
+    "answer": "C",
     "explanation": "either of the two 两者之一，both两者都，neither两者都不，none三者都不",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-068.m4a"
   },
@@ -1334,12 +2030,24 @@
     ],
     "question": "The work should _____ by the end of this week.",
     "options": [
-      "finish",
-      "be finished",
-      "finished",
-      "finishing"
+      {
+        "label": "A",
+        "text": "finish"
+      },
+      {
+        "label": "B",
+        "text": "be finished"
+      },
+      {
+        "label": "C",
+        "text": "finished"
+      },
+      {
+        "label": "D",
+        "text": "finishing"
+      }
     ],
-    "answer": "be finished",
+    "answer": "B",
     "explanation": "should是情态动词，被动语态 should be+过去分词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-069.m4a"
   },
@@ -1354,12 +2062,24 @@
     ],
     "question": "Last night we had a _____ meal.",
     "options": [
-      "wonderful",
-      "wonderfully",
-      "wonder",
-      "wondered"
+      {
+        "label": "A",
+        "text": "wonderful"
+      },
+      {
+        "label": "B",
+        "text": "wonderfully"
+      },
+      {
+        "label": "C",
+        "text": "wonder"
+      },
+      {
+        "label": "D",
+        "text": "wondered"
+      }
     ],
-    "answer": "wonderful",
+    "answer": "A",
     "explanation": "形容词修饰名词meal，wonderful是形容词，wonderfully是副词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-070.m4a"
   },
@@ -1374,12 +2094,24 @@
     ],
     "question": "You _____ be tired after such a long walk.",
     "options": [
-      "can",
-      "must",
-      "should",
-      "could"
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "should"
+      },
+      {
+        "label": "D",
+        "text": "could"
+      }
     ],
-    "answer": "must",
+    "answer": "B",
     "explanation": "must be tired 表示肯定推测，你一定累了，should be tired 表示应该累了",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-071.m4a"
   },
@@ -1394,12 +2126,24 @@
     ],
     "question": "In the morning, I usually drink a cup of tea.",
     "options": [
-      "On",
-      "In",
-      "At",
-      "For"
+      {
+        "label": "A",
+        "text": "On"
+      },
+      {
+        "label": "B",
+        "text": "In"
+      },
+      {
+        "label": "C",
+        "text": "At"
+      },
+      {
+        "label": "D",
+        "text": "For"
+      }
     ],
-    "answer": "In",
+    "answer": "B",
     "explanation": "在早晨/下午/晚上用in，in the morning/afternoon/evening",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-072.m4a"
   },
@@ -1414,12 +2158,24 @@
     ],
     "question": "I don't have _____ money. Can you lend me some?",
     "options": [
-      "many",
-      "much",
-      "a lot",
-      "several"
+      {
+        "label": "A",
+        "text": "many"
+      },
+      {
+        "label": "B",
+        "text": "much"
+      },
+      {
+        "label": "C",
+        "text": "a lot"
+      },
+      {
+        "label": "D",
+        "text": "several"
+      }
     ],
-    "answer": "much",
+    "answer": "B",
     "explanation": "money是不可数名词，用much或a lot of修饰，many修饰可数名词复数",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-073.m4a"
   },
@@ -1434,12 +2190,24 @@
     ],
     "question": "He is very tall, _____ his brother is very short.",
     "options": [
-      "and",
-      "but",
-      "or",
-      "so"
+      {
+        "label": "A",
+        "text": "and"
+      },
+      {
+        "label": "B",
+        "text": "but"
+      },
+      {
+        "label": "C",
+        "text": "or"
+      },
+      {
+        "label": "D",
+        "text": "so"
+      }
     ],
-    "answer": "but",
+    "answer": "B",
     "explanation": "前后转折，but表示对比，and表示并列，or表示选择，so表示结果",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-074.m4a"
   },
@@ -1454,12 +2222,24 @@
     ],
     "question": "She is the _____ in her class.",
     "options": [
-      "one",
-      "first",
-      "two",
-      "second"
+      {
+        "label": "A",
+        "text": "one"
+      },
+      {
+        "label": "B",
+        "text": "first"
+      },
+      {
+        "label": "C",
+        "text": "two"
+      },
+      {
+        "label": "D",
+        "text": "second"
+      }
     ],
-    "answer": "first",
+    "answer": "B",
     "explanation": "first place 第一名，序数词前加the",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-075.m4a"
   },
@@ -1474,12 +2254,24 @@
     ],
     "question": "She _____ TV now.",
     "options": [
-      "watch",
-      "watches",
-      "is watching",
-      "watched"
+      {
+        "label": "A",
+        "text": "watch"
+      },
+      {
+        "label": "B",
+        "text": "watches"
+      },
+      {
+        "label": "C",
+        "text": "is watching"
+      },
+      {
+        "label": "D",
+        "text": "watched"
+      }
     ],
-    "answer": "is watching",
+    "answer": "C",
     "explanation": "now是现在进行时的标志，主语+is/am/are+动词ing，she用is",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-076.m4a"
   },
@@ -1494,12 +2286,24 @@
     ],
     "question": "The word 'receive' means _____",
     "options": [
-      "to give",
-      "to get",
-      "to send",
-      "to take"
+      {
+        "label": "A",
+        "text": "to give"
+      },
+      {
+        "label": "B",
+        "text": "to get"
+      },
+      {
+        "label": "C",
+        "text": "to send"
+      },
+      {
+        "label": "D",
+        "text": "to take"
+      }
     ],
-    "answer": "to get",
+    "answer": "B",
     "explanation": "receive表示收到、接到，是及物动词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-077.m4a"
   },
@@ -1514,12 +2318,24 @@
     ],
     "question": "We will meet _____ the school gate.",
     "options": [
-      "in",
-      "on",
-      "at",
-      "to"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "to"
+      }
     ],
-    "answer": "at",
+    "answer": "C",
     "explanation": "at the school gate在学校门口，gate是点状地点用at",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-078.m4a"
   },
@@ -1534,12 +2350,24 @@
     ],
     "question": "I don't know _____ she is.",
     "options": [
-      "who",
-      "whom",
-      "whose",
-      "which"
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "whom"
+      },
+      {
+        "label": "C",
+        "text": "whose"
+      },
+      {
+        "label": "D",
+        "text": "which"
+      }
     ],
-    "answer": "who",
+    "answer": "A",
     "explanation": "who在从句中作表语，表示是谁；whom作宾语；whose表示所属",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-079.m4a"
   },
@@ -1554,12 +2382,24 @@
     ],
     "question": "The 'careful' is an _____",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      {
+        "label": "A",
+        "text": "noun"
+      },
+      {
+        "label": "B",
+        "text": "verb"
+      },
+      {
+        "label": "C",
+        "text": "adjective"
+      },
+      {
+        "label": "D",
+        "text": "adverb"
+      }
     ],
-    "answer": "adjective",
+    "answer": "C",
     "explanation": "careful是形容词，carefully是副词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-080.m4a"
   },
@@ -1574,12 +2414,24 @@
     ],
     "question": "He is good _____ English.",
     "options": [
-      "in",
-      "at",
-      "on",
-      "with"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "at"
+      },
+      {
+        "label": "C",
+        "text": "on"
+      },
+      {
+        "label": "D",
+        "text": "with"
+      }
     ],
-    "answer": "at",
+    "answer": "B",
     "explanation": "be good at擅长，固定搭配",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-081.m4a"
   },
@@ -1594,12 +2446,24 @@
     ],
     "question": "They usually _____ football after school.",
     "options": [
-      "play",
-      "plays",
-      "playing",
-      "played"
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "plays"
+      },
+      {
+        "label": "C",
+        "text": "playing"
+      },
+      {
+        "label": "D",
+        "text": "played"
+      }
     ],
-    "answer": "play",
+    "answer": "A",
     "explanation": "usually是一般现在时的标志，主语they，复数，动词用原形",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-082.m4a"
   },
@@ -1614,12 +2478,24 @@
     ],
     "question": "Which sentence uses 'borrow' correctly?",
     "options": [
-      "I borrowed her a book.",
-      "I borrowed a book from her.",
-      "She borrowed me a book.",
-      "I borrowed with her book."
+      {
+        "label": "A",
+        "text": "I borrowed her a book."
+      },
+      {
+        "label": "B",
+        "text": "I borrowed a book from her."
+      },
+      {
+        "label": "C",
+        "text": "She borrowed me a book."
+      },
+      {
+        "label": "D",
+        "text": "I borrowed with her book."
+      }
     ],
-    "answer": "I borrowed a book from her.",
+    "answer": "B",
     "explanation": "borrow...from从...借，lend...to借给...，borrow不能用双宾语结构",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-083.m4a"
   },
@@ -1634,12 +2510,24 @@
     ],
     "question": "This is _____ desk.",
     "options": [
-      "Tom and Jerry",
-      "Tom's and Jerry's",
-      "Tom and Jerry's",
-      "TomJerry's"
+      {
+        "label": "A",
+        "text": "Tom and Jerry"
+      },
+      {
+        "label": "B",
+        "text": "Tom's and Jerry's"
+      },
+      {
+        "label": "C",
+        "text": "Tom and Jerry's"
+      },
+      {
+        "label": "D",
+        "text": "TomJerry's"
+      }
     ],
-    "answer": "Tom and Jerry's",
+    "answer": "C",
     "explanation": "两人共有，在最后一个名词后加所有格；分别拥有各加所有格",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-084.m4a"
   },
@@ -1654,12 +2542,24 @@
     ],
     "question": "You _____ finish your homework before you go out.",
     "options": [
-      "must",
-      "can",
-      "may",
-      "need"
+      {
+        "label": "A",
+        "text": "must"
+      },
+      {
+        "label": "B",
+        "text": "can"
+      },
+      {
+        "label": "C",
+        "text": "may"
+      },
+      {
+        "label": "D",
+        "text": "need"
+      }
     ],
-    "answer": "must",
+    "answer": "A",
     "explanation": "must必须，表示必要性，mustn't表示禁止",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-085.m4a"
   },
@@ -1674,12 +2574,24 @@
     ],
     "question": "My birthday is _____ June.",
     "options": [
-      "in",
-      "on",
-      "at",
-      "by"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "by"
+      }
     ],
-    "answer": "in",
+    "answer": "A",
     "explanation": "月份前用in，具体的日期或星期几用on",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-086.m4a"
   },
@@ -1694,12 +2606,24 @@
     ],
     "question": "This book is _____ than that one.",
     "options": [
-      "interesting",
-      "more interesting",
-      "most interesting",
-      "much interesting"
+      {
+        "label": "A",
+        "text": "interesting"
+      },
+      {
+        "label": "B",
+        "text": "more interesting"
+      },
+      {
+        "label": "C",
+        "text": "most interesting"
+      },
+      {
+        "label": "D",
+        "text": "much interesting"
+      }
     ],
-    "answer": "more interesting",
+    "answer": "B",
     "explanation": "比较级用more+多音节形容词，interesting是多音节词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-087.m4a"
   },
@@ -1714,12 +2638,24 @@
     ],
     "question": "He is _____ honest boy.",
     "options": [
-      "a",
-      "an",
-      "the",
-      "/"
+      {
+        "label": "A",
+        "text": "a"
+      },
+      {
+        "label": "B",
+        "text": "an"
+      },
+      {
+        "label": "C",
+        "text": "the"
+      },
+      {
+        "label": "D",
+        "text": "/"
+      }
     ],
-    "answer": "an",
+    "answer": "B",
     "explanation": "honest以元音音素开头，用an",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-088.m4a"
   },
@@ -1734,12 +2670,24 @@
     ],
     "question": "Never _____ such a thing.",
     "options": [
-      "I have heard",
-      "have I heard",
-      "I heard",
-      "did I heard"
+      {
+        "label": "A",
+        "text": "I have heard"
+      },
+      {
+        "label": "B",
+        "text": "have I heard"
+      },
+      {
+        "label": "C",
+        "text": "I heard"
+      },
+      {
+        "label": "D",
+        "text": "did I heard"
+      }
     ],
-    "answer": "have I heard",
+    "answer": "B",
     "explanation": "否定词never置于句首，主句要部分倒装，把助动词提到主语前",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-089.m4a"
   },
@@ -1754,12 +2702,24 @@
     ],
     "question": " _____ are my friends.",
     "options": [
-      "This",
-      "These",
-      "That",
-      "It"
+      {
+        "label": "A",
+        "text": "This"
+      },
+      {
+        "label": "B",
+        "text": "These"
+      },
+      {
+        "label": "C",
+        "text": "That"
+      },
+      {
+        "label": "D",
+        "text": "It"
+      }
     ],
-    "answer": "These",
+    "answer": "B",
     "explanation": "are复数，主语用复数these或those",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-090.m4a"
   },
@@ -1774,12 +2734,24 @@
     ],
     "question": "I saw him _____ in the classroom.",
     "options": [
-      "study",
-      "studied",
-      "studying",
-      "to study"
+      {
+        "label": "A",
+        "text": "study"
+      },
+      {
+        "label": "B",
+        "text": "studied"
+      },
+      {
+        "label": "C",
+        "text": "studying"
+      },
+      {
+        "label": "D",
+        "text": "to study"
+      }
     ],
-    "answer": "studying",
+    "answer": "C",
     "explanation": "see+宾语+doing，看到正在...，do表示看到了全过程",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-091.m4a"
   },
@@ -1794,12 +2766,24 @@
     ],
     "question": " _____ a book and two pens on the desk.",
     "options": [
-      "There is",
-      "There are",
-      "Is there",
-      "Are there"
+      {
+        "label": "A",
+        "text": "There is"
+      },
+      {
+        "label": "B",
+        "text": "There are"
+      },
+      {
+        "label": "C",
+        "text": "Is there"
+      },
+      {
+        "label": "D",
+        "text": "Are there"
+      }
     ],
-    "answer": "There is",
+    "answer": "A",
     "explanation": "a book是单数，there is就近一致",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-092.m4a"
   },
@@ -1814,12 +2798,24 @@
     ],
     "question": "The book _____ I bought yesterday is interesting.",
     "options": [
-      "that",
-      "who",
-      "where",
-      "when"
+      {
+        "label": "A",
+        "text": "that"
+      },
+      {
+        "label": "B",
+        "text": "who"
+      },
+      {
+        "label": "C",
+        "text": "where"
+      },
+      {
+        "label": "D",
+        "text": "when"
+      }
     ],
-    "answer": "that",
+    "answer": "A",
     "explanation": "定语从句，先行词是book，关系词用that或which",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-093.m4a"
   },
@@ -1834,12 +2830,24 @@
     ],
     "question": "I want to buy a new _____ (鞋).",
     "options": [
-      "shoe",
-      "shoes",
-      "a shoe",
-      "some shoe"
+      {
+        "label": "A",
+        "text": "shoe"
+      },
+      {
+        "label": "B",
+        "text": "shoes"
+      },
+      {
+        "label": "C",
+        "text": "a shoe"
+      },
+      {
+        "label": "D",
+        "text": "some shoe"
+      }
     ],
-    "answer": "shoes",
+    "answer": "B",
     "explanation": "鞋通常以复数形式shoes出现",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-094.m4a"
   },
@@ -1854,12 +2862,24 @@
     ],
     "question": "The song _____ by millions of people.",
     "options": [
-      "is loved",
-      "loves",
-      "is loving",
-      "loved"
+      {
+        "label": "A",
+        "text": "is loved"
+      },
+      {
+        "label": "B",
+        "text": "loves"
+      },
+      {
+        "label": "C",
+        "text": "is loving"
+      },
+      {
+        "label": "D",
+        "text": "loved"
+      }
     ],
-    "answer": "is loved",
+    "answer": "A",
     "explanation": "一般现在时被动：be+过去分词，主语the song第三人称单数用is loved",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-095.m4a"
   },
@@ -1874,12 +2894,24 @@
     ],
     "question": "I was late _____ I missed the bus.",
     "options": [
-      "because",
-      "so",
-      "but",
-      "and"
+      {
+        "label": "A",
+        "text": "because"
+      },
+      {
+        "label": "B",
+        "text": "so"
+      },
+      {
+        "label": "C",
+        "text": "but"
+      },
+      {
+        "label": "D",
+        "text": "and"
+      }
     ],
-    "answer": "because",
+    "answer": "A",
     "explanation": "because因为，接原因从句；so所以，接结果从句；but但是；and和",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-096.m4a"
   },
@@ -1894,12 +2926,24 @@
     ],
     "question": "The children enjoyed _____ at the party.",
     "options": [
-      "themself",
-      "themselves",
-      "ourselves",
-      "yourself"
+      {
+        "label": "A",
+        "text": "themself"
+      },
+      {
+        "label": "B",
+        "text": "themselves"
+      },
+      {
+        "label": "C",
+        "text": "ourselves"
+      },
+      {
+        "label": "D",
+        "text": "yourself"
+      }
     ],
-    "answer": "themselves",
+    "answer": "B",
     "explanation": "enjoy oneself玩得开心，主语the children，反身代词用themselves",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-097.m4a"
   },
@@ -1914,12 +2958,24 @@
     ],
     "question": "There is some _____ in the bottle.",
     "options": [
-      "water",
-      "apples",
-      "bananas",
-      "oranges"
+      {
+        "label": "A",
+        "text": "water"
+      },
+      {
+        "label": "B",
+        "text": "apples"
+      },
+      {
+        "label": "C",
+        "text": "bananas"
+      },
+      {
+        "label": "D",
+        "text": "oranges"
+      }
     ],
-    "answer": "water",
+    "answer": "A",
     "explanation": "water是不可数名词，用some修饰；apple/banana/orange是可数名词复数",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-098.m4a"
   },
@@ -1934,12 +2990,24 @@
     ],
     "question": "Don't forget _____ your homework.",
     "options": [
-      "to do",
-      "doing",
-      "do",
-      "does"
+      {
+        "label": "A",
+        "text": "to do"
+      },
+      {
+        "label": "B",
+        "text": "doing"
+      },
+      {
+        "label": "C",
+        "text": "do"
+      },
+      {
+        "label": "D",
+        "text": "does"
+      }
     ],
-    "answer": "to do",
+    "answer": "A",
     "explanation": "forget to do忘记要做某事（未做）；forget doing忘记做过某事（已做）",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-099.m4a"
   },
@@ -1954,12 +3022,24 @@
     ],
     "question": "_____ is your name?",
     "options": [
-      "Who",
-      "What",
-      "Where",
-      "When"
+      {
+        "label": "A",
+        "text": "Who"
+      },
+      {
+        "label": "B",
+        "text": "What"
+      },
+      {
+        "label": "C",
+        "text": "Where"
+      },
+      {
+        "label": "D",
+        "text": "When"
+      }
     ],
-    "answer": "What",
+    "answer": "B",
     "explanation": "问姓名用what's your name；who问是谁；where问地点；when问时间",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-100.m4a"
   },
@@ -1974,12 +3054,24 @@
     ],
     "question": " _____ I help you with the box?",
     "options": [
-      "Must",
-      "Need",
-      "May",
-      "Should"
+      {
+        "label": "A",
+        "text": "Must"
+      },
+      {
+        "label": "B",
+        "text": "Need"
+      },
+      {
+        "label": "C",
+        "text": "May"
+      },
+      {
+        "label": "D",
+        "text": "Should"
+      }
     ],
-    "answer": "May",
+    "answer": "C",
     "explanation": "May I...?我可以...吗？表示请求允许；must/need/should的语气不同",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-101.m4a"
   },
@@ -1994,12 +3086,24 @@
     ],
     "question": "Tom is _____ than Jim.",
     "options": [
-      "tall",
-      "taller",
-      "tallest",
-      "more tall"
+      {
+        "label": "A",
+        "text": "tall"
+      },
+      {
+        "label": "B",
+        "text": "taller"
+      },
+      {
+        "label": "C",
+        "text": "tallest"
+      },
+      {
+        "label": "D",
+        "text": "more tall"
+      }
     ],
-    "answer": "taller",
+    "answer": "B",
     "explanation": "than是比较级的标志，tall比较级加er",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-102.m4a"
   },
@@ -2014,12 +3118,24 @@
     ],
     "question": "The book is worth _____",
     "options": [
-      "read",
-      "to read",
-      "reading",
-      "reads"
+      {
+        "label": "A",
+        "text": "read"
+      },
+      {
+        "label": "B",
+        "text": "to read"
+      },
+      {
+        "label": "C",
+        "text": "reading"
+      },
+      {
+        "label": "D",
+        "text": "reads"
+      }
     ],
-    "answer": "reading",
+    "answer": "C",
     "explanation": "be worth doing值得做，固定用法，主动表示被动",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-103.m4a"
   },
@@ -2034,12 +3150,24 @@
     ],
     "question": "This is _____ book.",
     "options": [
-      "I",
-      "me",
-      "my",
-      "mine"
+      {
+        "label": "A",
+        "text": "I"
+      },
+      {
+        "label": "B",
+        "text": "me"
+      },
+      {
+        "label": "C",
+        "text": "my"
+      },
+      {
+        "label": "D",
+        "text": "mine"
+      }
     ],
-    "answer": "my",
+    "answer": "C",
     "explanation": "my是形容词性物主代词，后接名词；mine是名词性物主代词，后面不接名词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-104.m4a"
   },
@@ -2054,12 +3182,24 @@
     ],
     "question": "She looks _____ her mother.",
     "options": [
-      "like",
-      "after",
-      "at",
-      "for"
+      {
+        "label": "A",
+        "text": "like"
+      },
+      {
+        "label": "B",
+        "text": "after"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "for"
+      }
     ],
-    "answer": "like",
+    "answer": "A",
     "explanation": "look like看起来像；look after照顾；look at看；look for寻找",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-105.m4a"
   },
@@ -2074,12 +3214,24 @@
     ],
     "question": "He _____ to school yesterday.",
     "options": [
-      "go",
-      "goes",
-      "went",
-      "going"
+      {
+        "label": "A",
+        "text": "go"
+      },
+      {
+        "label": "B",
+        "text": "goes"
+      },
+      {
+        "label": "C",
+        "text": "went"
+      },
+      {
+        "label": "D",
+        "text": "going"
+      }
     ],
-    "answer": "went",
+    "answer": "C",
     "explanation": "yesterday一般过去时标志，go的过去式是went",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-106.m4a"
   },
@@ -2094,12 +3246,24 @@
     ],
     "question": "If I _____ you, I would accept the offer.",
     "options": [
-      "am",
-      "was",
-      "were",
-      "be"
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "was"
+      },
+      {
+        "label": "C",
+        "text": "were"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
     ],
-    "answer": "were",
+    "answer": "C",
     "explanation": "与现在事实相反的虚拟语气，if+主语+were，主语+would+动词原形",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-107.m4a"
   },
@@ -2114,12 +3278,24 @@
     ],
     "question": "How many _____ do you have?",
     "options": [
-      "book",
-      "books",
-      "a book",
-      "the book"
+      {
+        "label": "A",
+        "text": "book"
+      },
+      {
+        "label": "B",
+        "text": "books"
+      },
+      {
+        "label": "C",
+        "text": "a book"
+      },
+      {
+        "label": "D",
+        "text": "the book"
+      }
     ],
-    "answer": "books",
+    "answer": "B",
     "explanation": "how many后接可数名词复数",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-108.m4a"
   },
@@ -2134,12 +3310,24 @@
     ],
     "question": "I have a lot of work _____",
     "options": [
-      "to do",
-      "doing",
-      "done",
-      "do"
+      {
+        "label": "A",
+        "text": "to do"
+      },
+      {
+        "label": "B",
+        "text": "doing"
+      },
+      {
+        "label": "C",
+        "text": "done"
+      },
+      {
+        "label": "D",
+        "text": "do"
+      }
     ],
-    "answer": "to do",
+    "answer": "A",
     "explanation": "have sth to do有...要做，to do作后置定语修饰work",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-109.m4a"
   },
@@ -2154,12 +3342,24 @@
     ],
     "question": " _____ is in the room.",
     "options": [
-      "Someone",
-      "Some one",
-      "Any one",
-      "No one"
+      {
+        "label": "A",
+        "text": "Someone"
+      },
+      {
+        "label": "B",
+        "text": "Some one"
+      },
+      {
+        "label": "C",
+        "text": "Any one"
+      },
+      {
+        "label": "D",
+        "text": "No one"
+      }
     ],
-    "answer": "Someone",
+    "answer": "A",
     "explanation": "someone一些人，用于肯定句；any one用于否定句或疑问句；no one没有人",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-110.m4a"
   },
@@ -2174,12 +3374,24 @@
     ],
     "question": "By the time he came, I _____ already finished my work.",
     "options": [
-      "have",
-      "has",
-      "had",
-      "was"
+      {
+        "label": "A",
+        "text": "have"
+      },
+      {
+        "label": "B",
+        "text": "has"
+      },
+      {
+        "label": "C",
+        "text": "had"
+      },
+      {
+        "label": "D",
+        "text": "was"
+      }
     ],
-    "answer": "had",
+    "answer": "C",
     "explanation": "by the time+过去时，主句用过去完成时had+过去分词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-111.m4a"
   },
@@ -2194,12 +3406,24 @@
     ],
     "question": "He was born _____ 2005.",
     "options": [
-      "in",
-      "on",
-      "at",
-      "since"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "since"
+      }
     ],
-    "answer": "in",
+    "answer": "A",
     "explanation": "年份前用in；具体日期用on；具体时刻用at",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-112.m4a"
   },
@@ -2214,12 +3438,24 @@
     ],
     "question": "I will call you as soon as I _____ home.",
     "options": [
-      "get",
-      "got",
-      "will get",
-      "getting"
+      {
+        "label": "A",
+        "text": "get"
+      },
+      {
+        "label": "B",
+        "text": "got"
+      },
+      {
+        "label": "C",
+        "text": "will get"
+      },
+      {
+        "label": "D",
+        "text": "getting"
+      }
     ],
-    "answer": "get",
+    "answer": "A",
     "explanation": "as soon as引导的时间状语从句，主句将来时，从句用一般现在时表将来",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-113.m4a"
   },
@@ -2234,12 +3470,24 @@
     ],
     "question": "Please _____ the lights when you leave.",
     "options": [
-      "turn on",
-      "turn off",
-      "turn up",
-      "turn down"
+      {
+        "label": "A",
+        "text": "turn on"
+      },
+      {
+        "label": "B",
+        "text": "turn off"
+      },
+      {
+        "label": "C",
+        "text": "turn up"
+      },
+      {
+        "label": "D",
+        "text": "turn down"
+      }
     ],
-    "answer": "turn off",
+    "answer": "B",
     "explanation": "turn off关掉（灯/电器）；turn on打开；turn up调大；turn down调小",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-114.m4a"
   },
@@ -2254,12 +3502,24 @@
     ],
     "question": "The teacher is kind _____ us.",
     "options": [
-      "for",
-      "to",
-      "with",
-      "of"
+      {
+        "label": "A",
+        "text": "for"
+      },
+      {
+        "label": "B",
+        "text": "to"
+      },
+      {
+        "label": "C",
+        "text": "with"
+      },
+      {
+        "label": "D",
+        "text": "of"
+      }
     ],
-    "answer": "to",
+    "answer": "B",
     "explanation": "be kind to sb对某人友好，固定搭配",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-115.m4a"
   },
@@ -2274,12 +3534,24 @@
     ],
     "question": "The _____ room is very clean.",
     "options": [
-      "children",
-      "childrens",
-      "children's",
-      "childrens'"
+      {
+        "label": "A",
+        "text": "children"
+      },
+      {
+        "label": "B",
+        "text": "childrens"
+      },
+      {
+        "label": "C",
+        "text": "children's"
+      },
+      {
+        "label": "D",
+        "text": "childrens'"
+      }
     ],
-    "answer": "children's",
+    "answer": "C",
     "explanation": "children所有格直接在词尾加's",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-116.m4a"
   },
@@ -2294,12 +3566,24 @@
     ],
     "question": "He succeeded in _____ the exam.",
     "options": [
-      "pass",
-      "to pass",
-      "passed",
-      "passing"
+      {
+        "label": "A",
+        "text": "pass"
+      },
+      {
+        "label": "B",
+        "text": "to pass"
+      },
+      {
+        "label": "C",
+        "text": "passed"
+      },
+      {
+        "label": "D",
+        "text": "passing"
+      }
     ],
-    "answer": "passing",
+    "answer": "D",
     "explanation": "succeed in doing成功做某事，in可省略，in+doing",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-117.m4a"
   },
@@ -2314,12 +3598,24 @@
     ],
     "question": "You _____ be quiet in the library.",
     "options": [
-      "can",
-      "must",
-      "may",
-      "need"
+      {
+        "label": "A",
+        "text": "can"
+      },
+      {
+        "label": "B",
+        "text": "must"
+      },
+      {
+        "label": "C",
+        "text": "may"
+      },
+      {
+        "label": "D",
+        "text": "need"
+      }
     ],
-    "answer": "must",
+    "answer": "B",
     "explanation": "must必须，表示义务和必要性",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-118.m4a"
   },
@@ -2334,12 +3630,24 @@
     ],
     "question": "The weather here is _____ that of my hometown.",
     "options": [
-      "same as",
-      "same like",
-      "similar as",
-      "similar to"
+      {
+        "label": "A",
+        "text": "same as"
+      },
+      {
+        "label": "B",
+        "text": "same like"
+      },
+      {
+        "label": "C",
+        "text": "similar as"
+      },
+      {
+        "label": "D",
+        "text": "similar to"
+      }
     ],
-    "answer": "similar to",
+    "answer": "D",
     "explanation": "be similar to与...相似，固定搭配；same as与...一样",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-119.m4a"
   },
@@ -2354,12 +3662,24 @@
     ],
     "question": "_____ color do you like best?",
     "options": [
-      "What",
-      "Which",
-      "Whose",
-      "Whom"
+      {
+        "label": "A",
+        "text": "What"
+      },
+      {
+        "label": "B",
+        "text": "Which"
+      },
+      {
+        "label": "C",
+        "text": "Whose"
+      },
+      {
+        "label": "D",
+        "text": "Whom"
+      }
     ],
-    "answer": "What",
+    "answer": "A",
     "explanation": "what color什么颜色；which color哪一种颜色（在给定范围内）",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-120.m4a"
   },
@@ -2374,12 +3694,24 @@
     ],
     "question": "The classroom _____ every day.",
     "options": [
-      "cleans",
-      "is cleaned",
-      "cleaned",
-      "cleaning"
+      {
+        "label": "A",
+        "text": "cleans"
+      },
+      {
+        "label": "B",
+        "text": "is cleaned"
+      },
+      {
+        "label": "C",
+        "text": "cleaned"
+      },
+      {
+        "label": "D",
+        "text": "cleaning"
+      }
     ],
-    "answer": "is cleaned",
+    "answer": "B",
     "explanation": "一般现在时被动：be+过去分词，主语the classroom第三人称单数用is cleaned",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-121.m4a"
   },
@@ -2394,12 +3726,24 @@
     ],
     "question": "He _____ basketball every weekend.",
     "options": [
-      "play",
-      "plays",
-      "is playing",
-      "played"
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "plays"
+      },
+      {
+        "label": "C",
+        "text": "is playing"
+      },
+      {
+        "label": "D",
+        "text": "played"
+      }
     ],
-    "answer": "plays",
+    "answer": "B",
     "explanation": "every weekend一般现在时，主语he第三人称单数，动词加s",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-122.m4a"
   },
@@ -2414,12 +3758,24 @@
     ],
     "question": "She is responsible _____ the project.",
     "options": [
-      "to",
-      "for",
-      "with",
-      "at"
+      {
+        "label": "A",
+        "text": "to"
+      },
+      {
+        "label": "B",
+        "text": "for"
+      },
+      {
+        "label": "C",
+        "text": "with"
+      },
+      {
+        "label": "D",
+        "text": "at"
+      }
     ],
-    "answer": "for",
+    "answer": "B",
     "explanation": "be responsible for对...负责，固定搭配",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-123.m4a"
   },
@@ -2434,12 +3790,24 @@
     ],
     "question": "There isn't _____ milk in the fridge.",
     "options": [
-      "some",
-      "any",
-      "many",
-      "a"
+      {
+        "label": "A",
+        "text": "some"
+      },
+      {
+        "label": "B",
+        "text": "any"
+      },
+      {
+        "label": "C",
+        "text": "many"
+      },
+      {
+        "label": "D",
+        "text": "a"
+      }
     ],
-    "answer": "any",
+    "answer": "B",
     "explanation": "any用于否定句和疑问句；some用于肯定句；milk是不可数名词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-124.m4a"
   },
@@ -2454,12 +3822,24 @@
     ],
     "question": "The man _____ spoke to me is a teacher.",
     "options": [
-      "which",
-      "who",
-      "whom",
-      "where"
+      {
+        "label": "A",
+        "text": "which"
+      },
+      {
+        "label": "B",
+        "text": "who"
+      },
+      {
+        "label": "C",
+        "text": "whom"
+      },
+      {
+        "label": "D",
+        "text": "where"
+      }
     ],
-    "answer": "who",
+    "answer": "B",
     "explanation": "先行词the man是人，关系词用who/that",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-125.m4a"
   },
@@ -2474,12 +3854,24 @@
     ],
     "question": " _____ any apples in the basket?",
     "options": [
-      "Is there",
-      "Are there",
-      "There is",
-      "There are"
+      {
+        "label": "A",
+        "text": "Is there"
+      },
+      {
+        "label": "B",
+        "text": "Are there"
+      },
+      {
+        "label": "C",
+        "text": "There is"
+      },
+      {
+        "label": "D",
+        "text": "There are"
+      }
     ],
-    "answer": "Are there",
+    "answer": "B",
     "explanation": "apples复数，用are there提问",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-126.m4a"
   },
@@ -2494,12 +3886,24 @@
     ],
     "question": "My father told me _____ hard.",
     "options": [
-      "study",
-      "to study",
-      "studying",
-      "studied"
+      {
+        "label": "A",
+        "text": "study"
+      },
+      {
+        "label": "B",
+        "text": "to study"
+      },
+      {
+        "label": "C",
+        "text": "studying"
+      },
+      {
+        "label": "D",
+        "text": "studied"
+      }
     ],
-    "answer": "to study",
+    "answer": "B",
     "explanation": "tell sb to do sth告诉某人做某事",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-127.m4a"
   },
@@ -2514,12 +3918,24 @@
     ],
     "question": " _____ I open the window?",
     "options": [
-      "Can",
-      "May",
-      "Must",
-      "Should"
+      {
+        "label": "A",
+        "text": "Can"
+      },
+      {
+        "label": "B",
+        "text": "May"
+      },
+      {
+        "label": "C",
+        "text": "Must"
+      },
+      {
+        "label": "D",
+        "text": "Should"
+      }
     ],
-    "answer": "May",
+    "answer": "B",
     "explanation": "May I...?我可以...吗？表示请求允许",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-128.m4a"
   },
@@ -2534,12 +3950,24 @@
     ],
     "question": "I spent 100 yuan _____ this book.",
     "options": [
-      "in",
-      "on",
-      "for",
-      "to"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "for"
+      },
+      {
+        "label": "D",
+        "text": "to"
+      }
     ],
-    "answer": "on",
+    "answer": "B",
     "explanation": "spend...on在...上花费（时间/金钱）；spend...in doing花费...做某事",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-129.m4a"
   },
@@ -2554,12 +3982,24 @@
     ],
     "question": "He runs _____ in our class.",
     "options": [
-      "fast",
-      "fastest",
-      "faster",
-      "the fastest"
+      {
+        "label": "A",
+        "text": "fast"
+      },
+      {
+        "label": "B",
+        "text": "fastest"
+      },
+      {
+        "label": "C",
+        "text": "faster"
+      },
+      {
+        "label": "D",
+        "text": "the fastest"
+      }
     ],
-    "answer": "fastest",
+    "answer": "B",
     "explanation": "in our class范围内比较用最高级，run是行为动词用副词修饰",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-130.m4a"
   },
@@ -2574,12 +4014,24 @@
     ],
     "question": "She gave me a piece of _____",
     "options": [
-      "advices",
-      "advice",
-      "advise",
-      "advicing"
+      {
+        "label": "A",
+        "text": "advices"
+      },
+      {
+        "label": "B",
+        "text": "advice"
+      },
+      {
+        "label": "C",
+        "text": "advise"
+      },
+      {
+        "label": "D",
+        "text": "advicing"
+      }
     ],
-    "answer": "advice",
+    "answer": "B",
     "explanation": "advice是不可数名词，没有复数形式；advise是动词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-131.m4a"
   },
@@ -2594,12 +4046,24 @@
     ],
     "question": " _____ mother is a doctor.",
     "options": [
-      "She",
-      "Her",
-      "Hers",
-      "She's"
+      {
+        "label": "A",
+        "text": "She"
+      },
+      {
+        "label": "B",
+        "text": "Her"
+      },
+      {
+        "label": "C",
+        "text": "Hers"
+      },
+      {
+        "label": "D",
+        "text": "She's"
+      }
     ],
-    "answer": "Her",
+    "answer": "B",
     "explanation": "her是形容词性物主代词，后接名词；She's=She is",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-132.m4a"
   },
@@ -2614,12 +4078,24 @@
     ],
     "question": "Only then _____ understand the importance of health.",
     "options": [
-      "I did",
-      "did I",
-      "I could",
-      "could I"
+      {
+        "label": "A",
+        "text": "I did"
+      },
+      {
+        "label": "B",
+        "text": "did I"
+      },
+      {
+        "label": "C",
+        "text": "I could"
+      },
+      {
+        "label": "D",
+        "text": "could I"
+      }
     ],
-    "answer": "did I",
+    "answer": "B",
     "explanation": "Only+副词/介词短语/从句置于句首，主句要部分倒装",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-133.m4a"
   },
@@ -2634,12 +4110,24 @@
     ],
     "question": "I have _____ finished my homework.",
     "options": [
-      "yet",
-      "already",
-      "still",
-      "ago"
+      {
+        "label": "A",
+        "text": "yet"
+      },
+      {
+        "label": "B",
+        "text": "already"
+      },
+      {
+        "label": "C",
+        "text": "still"
+      },
+      {
+        "label": "D",
+        "text": "ago"
+      }
     ],
-    "answer": "already",
+    "answer": "B",
     "explanation": "already用于肯定句，通常放在动词前；yet用于否定句和疑问句",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-134.m4a"
   },
@@ -2654,12 +4142,24 @@
     ],
     "question": "He is interested _____ playing chess.",
     "options": [
-      "in",
-      "on",
-      "at",
-      "with"
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "with"
+      }
     ],
-    "answer": "in",
+    "answer": "A",
     "explanation": "be interested in对...感兴趣，固定搭配",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-135.m4a"
   },
@@ -2674,12 +4174,24 @@
     ],
     "question": "They _____ to the park last Sunday.",
     "options": [
-      "go",
-      "goes",
-      "went",
-      "going"
+      {
+        "label": "A",
+        "text": "go"
+      },
+      {
+        "label": "B",
+        "text": "goes"
+      },
+      {
+        "label": "C",
+        "text": "went"
+      },
+      {
+        "label": "D",
+        "text": "going"
+      }
     ],
-    "answer": "went",
+    "answer": "C",
     "explanation": "last Sunday一般过去时标志，go的过去式是went",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-136.m4a"
   },
@@ -2694,12 +4206,24 @@
     ],
     "question": "You _____ have told me the truth earlier.",
     "options": [
-      "would",
-      "could",
-      "should",
-      "might"
+      {
+        "label": "A",
+        "text": "would"
+      },
+      {
+        "label": "B",
+        "text": "could"
+      },
+      {
+        "label": "C",
+        "text": "should"
+      },
+      {
+        "label": "D",
+        "text": "might"
+      }
     ],
-    "answer": "should",
+    "answer": "C",
     "explanation": "should have done本应该做某事（却没做），表示责备",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-137.m4a"
   },
@@ -2714,12 +4238,24 @@
     ],
     "question": " _____ of the two books is yours?",
     "options": [
-      "Which",
-      "What",
-      "Who",
-      "Whose"
+      {
+        "label": "A",
+        "text": "Which"
+      },
+      {
+        "label": "B",
+        "text": "What"
+      },
+      {
+        "label": "C",
+        "text": "Who"
+      },
+      {
+        "label": "D",
+        "text": "Whose"
+      }
     ],
-    "answer": "Which",
+    "answer": "A",
     "explanation": "of the two books表示在两者之间，用which",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-138.m4a"
   },
@@ -2734,12 +4270,24 @@
     ],
     "question": "The reason _____ he was late is that he missed the bus.",
     "options": [
-      "why",
-      "because",
-      "for",
-      "since"
+      {
+        "label": "A",
+        "text": "why"
+      },
+      {
+        "label": "B",
+        "text": "because"
+      },
+      {
+        "label": "C",
+        "text": "for"
+      },
+      {
+        "label": "D",
+        "text": "since"
+      }
     ],
-    "answer": "why",
+    "answer": "A",
     "explanation": "the reason why...是...的原因，固定句型",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-139.m4a"
   },
@@ -2754,12 +4302,24 @@
     ],
     "question": "The cat is hiding _____ the table.",
     "options": [
-      "in front of",
-      "behind",
-      "under",
-      "next to"
+      {
+        "label": "A",
+        "text": "in front of"
+      },
+      {
+        "label": "B",
+        "text": "behind"
+      },
+      {
+        "label": "C",
+        "text": "under"
+      },
+      {
+        "label": "D",
+        "text": "next to"
+      }
     ],
-    "answer": "under",
+    "answer": "C",
     "explanation": "under在...下面；behind在...后面；in front of在...前面；next to在...旁边",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-140.m4a"
   },
@@ -2774,12 +4334,24 @@
     ],
     "question": " _____ more time, I could have done it better.",
     "options": [
-      "Given",
-      "Giving",
-      "To give",
-      "Give"
+      {
+        "label": "A",
+        "text": "Given"
+      },
+      {
+        "label": "B",
+        "text": "Giving"
+      },
+      {
+        "label": "C",
+        "text": "To give"
+      },
+      {
+        "label": "D",
+        "text": "Give"
+      }
     ],
-    "answer": "Given",
+    "answer": "A",
     "explanation": "given在此作介词，意思是如果给予...；given作状语表示条件",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-141.m4a"
   },
@@ -2794,12 +4366,24 @@
     ],
     "question": "The children are very _____",
     "options": [
-      "noise",
-      "noisy",
-      "noisily",
-      "more noisy"
+      {
+        "label": "A",
+        "text": "noise"
+      },
+      {
+        "label": "B",
+        "text": "noisy"
+      },
+      {
+        "label": "C",
+        "text": "noisily"
+      },
+      {
+        "label": "D",
+        "text": "more noisy"
+      }
     ],
-    "answer": "noisy",
+    "answer": "B",
     "explanation": "are是be动词，后接形容词；noisy是形容词，noisely是副词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-142.m4a"
   },
@@ -2814,12 +4398,24 @@
     ],
     "question": "The more you practice, the _____ you become.",
     "options": [
-      "good",
-      "better",
-      "best",
-      "well"
+      {
+        "label": "A",
+        "text": "good"
+      },
+      {
+        "label": "B",
+        "text": "better"
+      },
+      {
+        "label": "C",
+        "text": "best"
+      },
+      {
+        "label": "D",
+        "text": "well"
+      }
     ],
-    "answer": "better",
+    "answer": "B",
     "explanation": "The more..., the better...越...越...，比较级用better",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-143.m4a"
   },
@@ -2834,12 +4430,24 @@
     ],
     "question": "He is _____ tallest boy in our class.",
     "options": [
-      "a",
-      "an",
-      "the",
-      "/"
+      {
+        "label": "A",
+        "text": "a"
+      },
+      {
+        "label": "B",
+        "text": "an"
+      },
+      {
+        "label": "C",
+        "text": "the"
+      },
+      {
+        "label": "D",
+        "text": "/"
+      }
     ],
-    "answer": "the",
+    "answer": "C",
     "explanation": "最高级前要加the",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-144.m4a"
   },
@@ -2854,12 +4462,24 @@
     ],
     "question": "I prefer coffee _____ tea.",
     "options": [
-      "for",
-      "to",
-      "than",
-      "with"
+      {
+        "label": "A",
+        "text": "for"
+      },
+      {
+        "label": "B",
+        "text": "to"
+      },
+      {
+        "label": "C",
+        "text": "than"
+      },
+      {
+        "label": "D",
+        "text": "with"
+      }
     ],
-    "answer": "to",
+    "answer": "B",
     "explanation": "prefer A to B喜欢A胜过B，固定搭配，to是介词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-145.m4a"
   },
@@ -2874,12 +4494,24 @@
     ],
     "question": "The word 'succeed' is a _____",
     "options": [
-      "noun",
-      "verb",
-      "adjective",
-      "adverb"
+      {
+        "label": "A",
+        "text": "noun"
+      },
+      {
+        "label": "B",
+        "text": "verb"
+      },
+      {
+        "label": "C",
+        "text": "adjective"
+      },
+      {
+        "label": "D",
+        "text": "adverb"
+      }
     ],
-    "answer": "verb",
+    "answer": "B",
     "explanation": "succeed是动词，success是名词，successful是形容词，successfully是副词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-146.m4a"
   },
@@ -2894,12 +4526,24 @@
     ],
     "question": "Look! The baby _____ crying.",
     "options": [
-      "is",
-      "are",
-      "was",
-      "were"
+      {
+        "label": "A",
+        "text": "is"
+      },
+      {
+        "label": "B",
+        "text": "are"
+      },
+      {
+        "label": "C",
+        "text": "was"
+      },
+      {
+        "label": "D",
+        "text": "were"
+      }
     ],
-    "answer": "is",
+    "answer": "A",
     "explanation": "look是现在进行时标志，主语the baby单数用is",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-147.m4a"
   },
@@ -2914,12 +4558,24 @@
     ],
     "question": " _____ the window, please.",
     "options": [
-      "Close",
-      "Close to",
-      "Close up",
-      "Shut off"
+      {
+        "label": "A",
+        "text": "Close"
+      },
+      {
+        "label": "B",
+        "text": "Close to"
+      },
+      {
+        "label": "C",
+        "text": "Close up"
+      },
+      {
+        "label": "D",
+        "text": "Shut off"
+      }
     ],
-    "answer": "Close",
+    "answer": "A",
     "explanation": "close the window关窗户；close to接近",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-148.m4a"
   },
@@ -2934,12 +4590,24 @@
     ],
     "question": "Whatever you say, I won't _____.",
     "options": [
-      "believe",
-      "to believe",
-      "believing",
-      "believed"
+      {
+        "label": "A",
+        "text": "believe"
+      },
+      {
+        "label": "B",
+        "text": "to believe"
+      },
+      {
+        "label": "C",
+        "text": "believing"
+      },
+      {
+        "label": "D",
+        "text": "believed"
+      }
     ],
-    "answer": "believe",
+    "answer": "A",
     "explanation": "whatever引导的让步状语从句，从句用一般现在时表将来，主句用一般将来时",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-149.m4a"
   },
@@ -2954,12 +4622,24 @@
     ],
     "question": "I need _____ information about the exam.",
     "options": [
-      "some",
-      "any",
-      "many",
-      "a"
+      {
+        "label": "A",
+        "text": "some"
+      },
+      {
+        "label": "B",
+        "text": "any"
+      },
+      {
+        "label": "C",
+        "text": "many"
+      },
+      {
+        "label": "D",
+        "text": "a"
+      }
     ],
-    "answer": "some",
+    "answer": "A",
     "explanation": "information是不可数名词，some可用于肯定句中的不可数名词",
     "audioUrl": "https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@master/audio/english/english-150.m4a"
   },
@@ -4640,12 +6320,24 @@
     ],
     "question": "Could you tell me _____ the subway station is from here?",
     "options": [
-      "how far",
-      "how long",
-      "how often",
-      "how soon"
+      {
+        "label": "A",
+        "text": "how far"
+      },
+      {
+        "label": "B",
+        "text": "how long"
+      },
+      {
+        "label": "C",
+        "text": "how often"
+      },
+      {
+        "label": "D",
+        "text": "how soon"
+      }
     ],
-    "answer": "how far",
+    "answer": "A",
     "explanation": "询问距离要用 how far。"
   },
   {
@@ -5871,12 +7563,24 @@
       }
     ],
     "options": [
-      "bus",
-      "bike",
-      "car",
-      "walk"
+      {
+        "label": "A",
+        "text": "bus"
+      },
+      {
+        "label": "B",
+        "text": "bike"
+      },
+      {
+        "label": "C",
+        "text": "car"
+      },
+      {
+        "label": "D",
+        "text": "walk"
+      }
     ],
-    "answer": "bike",
+    "answer": "B",
     "explanation": "根据短文：Then I go to school by bike. 所以答案是 bike。"
   },
   {
@@ -6388,12 +8092,24 @@
     ],
     "question": "My brother enjoys _____ music in his free time.",
     "options": [
-      "listen",
-      "listening",
-      "to listen",
-      "listened"
+      {
+        "label": "A",
+        "text": "listen"
+      },
+      {
+        "label": "B",
+        "text": "listening"
+      },
+      {
+        "label": "C",
+        "text": "to listen"
+      },
+      {
+        "label": "D",
+        "text": "listened"
+      }
     ],
-    "answer": "listening",
+    "answer": "B",
     "explanation": "enjoy 后面接动名词（-ing形式）作宾语，因此用 listening。"
   },
   {
@@ -6469,12 +8185,24 @@
     ],
     "question": "His dream is _____ a doctor when he grows up.",
     "options": [
-      "be",
-      "to be",
-      "being",
-      "been"
+      {
+        "label": "A",
+        "text": "be"
+      },
+      {
+        "label": "B",
+        "text": "to be"
+      },
+      {
+        "label": "C",
+        "text": "being"
+      },
+      {
+        "label": "D",
+        "text": "been"
+      }
     ],
-    "answer": "to be",
+    "answer": "B",
     "explanation": "be动词作表语时需用不定式形式，因此 His dream is to be a doctor。"
   },
   {
@@ -6643,12 +8371,24 @@
     ],
     "question": "This is my book. _____ is on the desk.",
     "options": [
-      "He",
-      "She",
-      "It",
-      "They"
+      {
+        "label": "A",
+        "text": "He"
+      },
+      {
+        "label": "B",
+        "text": "She"
+      },
+      {
+        "label": "C",
+        "text": "It"
+      },
+      {
+        "label": "D",
+        "text": "They"
+      }
     ],
-    "answer": "It",
+    "answer": "C",
     "explanation": "指代事物用 it，这里指代 book 这本书。"
   },
   {
@@ -13086,10 +14826,22 @@
     ],
     "question": "My name is Li Ming. I am a student in Grade 8. Every morning, I (1) up at 6:30. Then I brush my (2) and wash my face. After that, I have (3) for breakfast. My mother always (4) milk for me. I usually eat some bread and an egg. I go to school by (5). Our class starts at 8:00. I like English (6). I want to travel around the world when I grow (7). I hope my dream can come (8).",
     "options": [
-      "A. wake; teeth; breakfast; gives; bus; very much; up; true",
-      "B. get; teeth; breakfast; gives; bus; very much; up; true",
-      "C. wake; face; lunch; gives; bike; very little; down; false",
-      "D. wake; teeth; breakfast; gives; bus; very much; down; true"
+      {
+        "label": "A",
+        "text": "A. wake; teeth; breakfast; gives; bus; very much; up; true"
+      },
+      {
+        "label": "B",
+        "text": "B. get; teeth; breakfast; gives; bus; very much; up; true"
+      },
+      {
+        "label": "C",
+        "text": "C. wake; face; lunch; gives; bike; very little; down; false"
+      },
+      {
+        "label": "D",
+        "text": "D. wake; teeth; breakfast; gives; bus; very much; down; true"
+      }
     ],
     "answer": "B",
     "explanation": "本文介绍李明的日常生活。wake up起床；brush teeth刷牙；have breakfast吃早餐；gives给；by bus乘公交车；like English very much非常喜欢英语；grow up长大；come true实现。"
@@ -13105,10 +14857,22 @@
     ],
     "question": "Last weekend, my family went to the (1). The weather was (2). We took many photos there. My father (3) some fish, but he didn't (4) any. My mother picked some (5) in the field. We had a (6) time. The food was (7) and the people were friendly. I hope we can go there (8) again.",
     "options": [
-      "A. beach; sunny; caught; get; flowers; wonderful; tasty; always",
-      "B. park; cloudy; caught; get; fruits; terrible; delicious; again",
-      "C. beach; sunny; caught; get; flowers; wonderful; tasty; again",
-      "D. mountain; rainy; found; get; vegetables; bad; salty; never"
+      {
+        "label": "A",
+        "text": "A. beach; sunny; caught; get; flowers; wonderful; tasty; always"
+      },
+      {
+        "label": "B",
+        "text": "B. park; cloudy; caught; get; fruits; terrible; delicious; again"
+      },
+      {
+        "label": "C",
+        "text": "C. beach; sunny; caught; get; flowers; wonderful; tasty; again"
+      },
+      {
+        "label": "D",
+        "text": "D. mountain; rainy; found; get; vegetables; bad; salty; never"
+      }
     ],
     "answer": "C",
     "explanation": "go to the beach去海滩；sunny晴朗的；caught fish钓鱼；get any（否定）；pick flowers采花；wonderful time玩得开心；tasty美味的；again再次。"
@@ -13124,10 +14888,22 @@
     ],
     "question": "Books are our best friends. They give us (1) and make us happy. When we read books, we can (2) new worlds without leaving home. Good books can (3) our minds and help us make better (4). Reading also makes our life more (5). It is (6) to spend time reading every day. Let's develop the (7) of reading. Books are truly our (8) friends.",
     "options": [
-      "A. money; see; close; decisions; busy; important; habit; good",
-      "B. knowledge; travel; open; choices; meaningful; necessary; habit; best",
-      "C. fun; find; open; mistakes; easy; useless; plan; real",
-      "D. knowledge; visit; close; choices; colorful; hard; hobby; real"
+      {
+        "label": "A",
+        "text": "A. money; see; close; decisions; busy; important; habit; good"
+      },
+      {
+        "label": "B",
+        "text": "B. knowledge; travel; open; choices; meaningful; necessary; habit; best"
+      },
+      {
+        "label": "C",
+        "text": "C. fun; find; open; mistakes; easy; useless; plan; real"
+      },
+      {
+        "label": "D",
+        "text": "D. knowledge; visit; close; choices; colorful; hard; hobby; real"
+      }
     ],
     "answer": "B",
     "explanation": "书籍给予知识；travel to new worlds游历新世界；open our minds开阔思维；make better choices做出更好的选择；meaningful有意义的；necessary必要的；develop the habit of reading养成阅读习惯；best friends最好的朋友。"
@@ -13143,10 +14919,22 @@
     ],
     "question": "This is Tom. He (1) eight years old. He is a student. He (2) to school every day. He likes math and (3). He wants to be a (4) in the future. He usually plays (5) with his friends after school. He is very (6). He has many (7) at school. His teachers like him very (8).",
     "options": [
-      "A. is; goes; English; doctor; basketball; happy; teachers; much",
-      "B. are; go; Chinese; teacher; soccer; tall; classmates; more",
-      "C. is; goes; art; engineer; football; short; books; much",
-      "D. am; go; music; teacher; basketball; fat; friends; well"
+      {
+        "label": "A",
+        "text": "A. is; goes; English; doctor; basketball; happy; teachers; much"
+      },
+      {
+        "label": "B",
+        "text": "B. are; go; Chinese; teacher; soccer; tall; classmates; more"
+      },
+      {
+        "label": "C",
+        "text": "C. is; goes; art; engineer; football; short; books; much"
+      },
+      {
+        "label": "D",
+        "text": "D. am; go; music; teacher; basketball; fat; friends; well"
+      }
     ],
     "answer": "A",
     "explanation": "Tom是第三人称单数用is；goes to school上学；likes English喜欢英语；doctor医生；plays basketball打篮球；very happy非常快乐；teachers老师；like him much非常喜欢他。"
@@ -13162,10 +14950,22 @@
     ],
     "question": "China is a country with a long (1). There are many famous places of (2) in our country. Last summer, I visited Beijing with my (3). We went to the Great Wall, Tian'anmen Square and the Palace. The food there was (4) and delicious. I took many (5) with my family. It was an (6) trip. I love my (7) country. I am (8) of China.",
     "options": [
-      "A. history; interest; parents; tasty; photos; amazing; beautiful; proud",
-      "B. culture; danger; friends; terrible; pictures; terrible; great; afraid",
-      "C. history; interest; teachers; sweet; photos; wonderful; great; proud",
-      "D. story; interest; parents; salty; photos; amazing; beautiful; tired"
+      {
+        "label": "A",
+        "text": "A. history; interest; parents; tasty; photos; amazing; beautiful; proud"
+      },
+      {
+        "label": "B",
+        "text": "B. culture; danger; friends; terrible; pictures; terrible; great; afraid"
+      },
+      {
+        "label": "C",
+        "text": "C. history; interest; teachers; sweet; photos; wonderful; great; proud"
+      },
+      {
+        "label": "D",
+        "text": "D. story; interest; parents; salty; photos; amazing; beautiful; tired"
+      }
     ],
     "answer": "C",
     "explanation": "history历史；places of interest名胜古迹；visited Beijing with my teachers和老师一起参观北京；sweet甜的；photos照片；wonderful trip美好的旅行；great country伟大的国家；proud of China为祖国自豪。"
@@ -13181,10 +14981,22 @@
     ],
     "question": "Water is very (1) for all living things. Every day, we should drink (2) water. It's good (3) our health. My father always asks me to drink at (4) eight glasses of water. He says water is a (5) way to stay healthy. Enough water can make our (6) work better. I think he is (7). We should all drink (8) water every day.",
     "options": [
-      "A. important; enough; for; least; simple; body; right; more",
-      "B. useful; much; to; most; difficult; mind; wrong; less",
-      "C. important; little; of; least; easy; body; right; enough",
-      "D. important; many; for; most; good; skin; right; less"
+      {
+        "label": "A",
+        "text": "A. important; enough; for; least; simple; body; right; more"
+      },
+      {
+        "label": "B",
+        "text": "B. useful; much; to; most; difficult; mind; wrong; less"
+      },
+      {
+        "label": "C",
+        "text": "C. important; little; of; least; easy; body; right; enough"
+      },
+      {
+        "label": "D",
+        "text": "D. important; many; for; most; good; skin; right; less"
+      }
     ],
     "answer": "A",
     "explanation": "important for对...重要；drink enough water喝足够的水；good for health对健康有益；at least至少；simple way简单的方法；body身体；right正确的；drink more water多喝水。"
@@ -13200,10 +15012,22 @@
     ],
     "question": "If I (1) a millionaire, I would give (2) to charity. I want to help children who can't go to school. I would build schools and libraries (3) them. Education is very important. With knowledge, they can (4) their future. I also want to travel to (5) places in the world. But (6) money, helping others comes first. I believe being (7) is more important than being (8).",
     "options": [
-      "A. become; away; for; improve; dangerous; without; kind; rich",
-      "B. am; much; to; change; strange; with; rich; happy",
-      "C. become; away; for; improve; remote; with; helpful; rich",
-      "D. become; more; with; change; beautiful; for; kind; poor"
+      {
+        "label": "A",
+        "text": "A. become; away; for; improve; dangerous; without; kind; rich"
+      },
+      {
+        "label": "B",
+        "text": "B. am; much; to; change; strange; with; rich; happy"
+      },
+      {
+        "label": "C",
+        "text": "C. become; away; for; improve; remote; with; helpful; rich"
+      },
+      {
+        "label": "D",
+        "text": "D. become; more; with; change; beautiful; for; kind; poor"
+      }
     ],
     "answer": "C",
     "explanation": "become a millionaire成为百万富翁；give away捐赠；build libraries for them为他们建图书馆；improve their future改善未来；remote places偏远地方；with money有钱的话；helpful有帮助的；rich富有的。"
@@ -13219,10 +15043,22 @@
     ],
     "question": "I have a good (1). Her name is Lucy. She is from (2). She is twelve years old. She (3) long hair and big eyes. She likes (4) very much. She can speak a little (5). We often play (6) together. She is my best (7). We always help each (8).",
     "options": [
-      "A. friend; USA; have; dancing; Chinese; games; classmate; other",
-      "B. friend; England; has; swimming; English; tennis; friend; other",
-      "C. friend; Canada; has; running; Chinese; games; friend; others",
-      "D. classmate; Australia; have; singing; English; sports; friend; other"
+      {
+        "label": "A",
+        "text": "A. friend; USA; have; dancing; Chinese; games; classmate; other"
+      },
+      {
+        "label": "B",
+        "text": "B. friend; England; has; swimming; English; tennis; friend; other"
+      },
+      {
+        "label": "C",
+        "text": "C. friend; Canada; has; running; Chinese; games; friend; others"
+      },
+      {
+        "label": "D",
+        "text": "D. classmate; Australia; have; singing; English; sports; friend; other"
+      }
     ],
     "answer": "B",
     "explanation": "good friend好朋友；from England来自英国；has long hair留着长发；likes swimming喜欢游泳；speak a little English说一点英语；play tennis打网球；best friend最好的朋友；help each other互相帮助。"
@@ -13238,10 +15074,22 @@
     ],
     "question": "The Internet is part of our daily life. We can use it to (1) information, watch movies, play games and (2) with friends. But it also has some (3). Too much time online is bad for our (4) and eyes. Some students (5) too much time playing games. We should use the Internet (6) and wisely. The Internet should be our (7), not our (8).",
     "options": [
-      "A. search; chat; problems; health; spend; carefully; friend; enemy",
-      "B. find; speak; reasons; study; waste; always; tool; toy",
-      "C. get; meet; uses; eyes; cost; never; teacher; boss",
-      "D. search; talk; advantages; body; take; sometimes; helper; master"
+      {
+        "label": "A",
+        "text": "A. search; chat; problems; health; spend; carefully; friend; enemy"
+      },
+      {
+        "label": "B",
+        "text": "B. find; speak; reasons; study; waste; always; tool; toy"
+      },
+      {
+        "label": "C",
+        "text": "C. get; meet; uses; eyes; cost; never; teacher; boss"
+      },
+      {
+        "label": "D",
+        "text": "D. search; talk; advantages; body; take; sometimes; helper; master"
+      }
     ],
     "answer": "A",
     "explanation": "search information搜索信息；chat with friends和朋友聊天；problems问题；bad for health对健康有害；spend too much time花太多时间；carefully and wisely谨慎明智地；our friend我们的朋友；our enemy我们的敌人。"
@@ -13257,10 +15105,22 @@
     ],
     "question": "Last Sunday, I didn't go to school. It was (1). I woke up late. After (2), I did my homework. In the afternoon, I (3) basketball with my friends. In the evening, I (4) my room and read some books before (5). I was very tired but (6). I really enjoyed my (7) day. Sunday is my (8) day of the week.",
     "options": [
-      "A. rainy; lunch; played; cleaned; bed; happy; relaxing; relaxing",
-      "B. sunny; breakfast; played; cleaned; sleeping; sad; busy; terrible",
-      "C. cloudy; getting up; played; cleaned; bed; excited; wonderful; worst",
-      "D. windy; lunch; played; cleaned; bed; happy; lazy; favorite"
+      {
+        "label": "A",
+        "text": "A. rainy; lunch; played; cleaned; bed; happy; relaxing; relaxing"
+      },
+      {
+        "label": "B",
+        "text": "B. sunny; breakfast; played; cleaned; sleeping; sad; busy; terrible"
+      },
+      {
+        "label": "C",
+        "text": "C. cloudy; getting up; played; cleaned; bed; excited; wonderful; worst"
+      },
+      {
+        "label": "D",
+        "text": "D. windy; lunch; played; cleaned; bed; happy; lazy; favorite"
+      }
     ],
     "answer": "A",
     "explanation": "rainy下雨的；after lunch午饭后；played basketball打篮球；cleaned my room打扫房间；before bed睡前；tired but happy累但快乐；relaxing day放松的一天；favorite day最喜欢的一天。"
@@ -13276,10 +15136,22 @@
     ],
     "question": "Trees are very (1) to us. They can make the air (2). They can stop the wind and (3) the ground. They also provide (4) and shelter for animals. Every year, on Tree Planting Day, we should plant more trees to protect our (5). Trees are our (6) friends. Let's take (7) action to make our world (8).",
     "options": [
-      "A. important; clean; protect; food; environment; true; active; greener",
-      "B. useful; dirty; keep; home; city; real; instant; cleaner",
-      "C. helpful; fresh; protect; food; world; best; positive; dirtier",
-      "D. important; clean; keep; shelter; environment; true; strong; beautiful"
+      {
+        "label": "A",
+        "text": "A. important; clean; protect; food; environment; true; active; greener"
+      },
+      {
+        "label": "B",
+        "text": "B. useful; dirty; keep; home; city; real; instant; cleaner"
+      },
+      {
+        "label": "C",
+        "text": "C. helpful; fresh; protect; food; world; best; positive; dirtier"
+      },
+      {
+        "label": "D",
+        "text": "D. important; clean; keep; shelter; environment; true; strong; beautiful"
+      }
     ],
     "answer": "A",
     "explanation": "important to us对我们重要；make the air clean使空气清洁；protect the ground保护地面；provide food提供食物；protect our environment保护环境；true friends真正的朋友；take active action采取积极行动；make our world greener让世界更绿。"
@@ -13295,10 +15167,22 @@
     ],
     "question": "Zhang Wei is a top student in our class. He studies very hard and always gets (1) marks in exams. His dream is to (2) a scientist when he grows up. He knows science can make our (3) better. He reads many books about physics and chemistry. He says he will (4) his knowledge to help people. His teachers say he is an (5) boy. I believe his dream will come (6).",
     "options": [
-      "A. full; become; life; use; excellent; true",
-      "B. high; become; country; give; ordinary; false",
-      "C. good; become; world; put; excellent; true",
-      "D. full; be; life; give; lazy; true"
+      {
+        "label": "A",
+        "text": "A. full; become; life; use; excellent; true"
+      },
+      {
+        "label": "B",
+        "text": "B. high; become; country; give; ordinary; false"
+      },
+      {
+        "label": "C",
+        "text": "C. good; become; world; put; excellent; true"
+      },
+      {
+        "label": "D",
+        "text": "D. full; be; life; give; lazy; true"
+      }
     ],
     "answer": "A",
     "explanation": "get full marks取得满分；become a scientist成为科学家；make our life better让我们的生活更好；use his knowledge运用他的知识；excellent boy优秀的男孩；come true实现。"
@@ -13314,10 +15198,22 @@
     ],
     "question": "This is my (1). It is not big but very (2). There is a bed in the room. There is a desk (3) the window. My books are on the desk. My (4) is on the bed. I clean my room every (5). I like my bedroom very (6). It is my favorite (7) in the house. I always feel (8) in my room.",
     "options": [
-      "A. room; clean; near; toy; day; much; room; happy",
-      "B. bedroom; tidy; by; quilt; week; much; room; comfortable",
-      "C. home; big; under; bag; month; much; place; sad",
-      "D. house; nice; behind; computer; year; well; area; tired"
+      {
+        "label": "A",
+        "text": "A. room; clean; near; toy; day; much; room; happy"
+      },
+      {
+        "label": "B",
+        "text": "B. bedroom; tidy; by; quilt; week; much; room; comfortable"
+      },
+      {
+        "label": "C",
+        "text": "C. home; big; under; bag; month; much; place; sad"
+      },
+      {
+        "label": "D",
+        "text": "D. house; nice; behind; computer; year; well; area; tired"
+      }
     ],
     "answer": "B",
     "explanation": "bedroom卧室；tidy整洁的；by the window在窗户旁；quilt被子；every week每周；like my bedroom very much非常喜欢我的卧室；favorite room最喜欢的房间；feel comfortable感到舒适。"
@@ -13333,10 +15229,22 @@
     ],
     "question": "Health is very important to everyone. We should eat more (1) and vegetables. We should drink enough (2) every day. We also need to exercise (3). Running, swimming and walking are all good (4). Enough sleep is also (5) for our health. We should go to bed (6) enough every night. Let's develop healthy (7) and keep (8)!",
     "options": [
-      "A. fruits; water; regularly; sports; important; early; habits; healthy",
-      "B. food; juice; always; games; necessary; late; plans; fit",
-      "C. meats; milk; sometimes; activities; good; early; ways; strong",
-      "D. rice; soda; never; exercise; useless; late; food; thin"
+      {
+        "label": "A",
+        "text": "A. fruits; water; regularly; sports; important; early; habits; healthy"
+      },
+      {
+        "label": "B",
+        "text": "B. food; juice; always; games; necessary; late; plans; fit"
+      },
+      {
+        "label": "C",
+        "text": "C. meats; milk; sometimes; activities; good; early; ways; strong"
+      },
+      {
+        "label": "D",
+        "text": "D. rice; soda; never; exercise; useless; late; food; thin"
+      }
     ],
     "answer": "A",
     "explanation": "fruits and vegetables水果和蔬菜；drink enough water喝足够的水；exercise regularly经常锻炼；good sports好的运动；important for health对健康重要；go to bed early early早睡；healthy habits健康习惯；keep healthy保持健康。"
@@ -13352,10 +15260,22 @@
     ],
     "question": "Last month, our school held a sports (1). All the students took (2) in it. I joined the 800-meter (3). I ran as fast as I could. My classmates cheered for me. At last, I got the (4) place. I was very (5). My teacher said I was (6) to be praised. I think sports can make us (7) and (8).",
     "options": [
-      "A. meeting; part; race; first; excited; worth; healthy; strong",
-      "B. party; park; race; second; happy; good; active; tall",
-      "C. meeting; part; running; third; proud; easy; healthy; brave",
-      "D. game; parts; run; fourth; tired; hard; thin; strong"
+      {
+        "label": "A",
+        "text": "A. meeting; part; race; first; excited; worth; healthy; strong"
+      },
+      {
+        "label": "B",
+        "text": "B. party; park; race; second; happy; good; active; tall"
+      },
+      {
+        "label": "C",
+        "text": "C. meeting; part; running; third; proud; easy; healthy; brave"
+      },
+      {
+        "label": "D",
+        "text": "D. game; parts; run; fourth; tired; hard; thin; strong"
+      }
     ],
     "answer": "A",
     "explanation": "sports meeting运动会；took part in参加；800-meter race800米赛跑；got the first place获得第一名；very excited非常兴奋；worth being praised值得表扬；healthy and strong健康强壮。"
@@ -13371,10 +15291,22 @@
     ],
     "question": "We are living in the 21st (1) now. The world is changing very (2). People use the Internet to (3) information and communicate with others. However, some people spend too much time (4) computer games. It's not a good habit. We should make (5) use of the Internet. The Internet is a (6), not a toy. It should help us learn and grow (7). Let's use it in a (8) way.",
     "options": [
-      "A. century; fast; search; playing; good; tool; better; proper",
-      "B. years; slow; send; spending; full; book; faster; wrong",
-      "C. century; quickly; find; playing; proper; game; best; bad",
-      "D. years; slowly; get; using; better; machine; well; good"
+      {
+        "label": "A",
+        "text": "A. century; fast; search; playing; good; tool; better; proper"
+      },
+      {
+        "label": "B",
+        "text": "B. years; slow; send; spending; full; book; faster; wrong"
+      },
+      {
+        "label": "C",
+        "text": "C. century; quickly; find; playing; proper; game; best; bad"
+      },
+      {
+        "label": "D",
+        "text": "D. years; slowly; get; using; better; machine; well; good"
+      }
     ],
     "answer": "A",
     "explanation": "21st century21世纪；changing fast快速变化；search information搜索信息；playing computer games玩电脑游戏；make good use of好好利用；a tool工具；grow better成长得更好；in a proper way以适当的方式。"
@@ -13390,10 +15322,22 @@
     ],
     "question": "Today is Monday. I go to school at 7:30 in the (1). I have four classes in the (2). I have lunch at 12:00. After lunch, I have two (3) classes. School (4) at 4:00 in the afternoon. Then I go (5) to my home. After dinner, I (6) my homework. I am always very (7) on Mondays. I (8) Mondays very much.",
     "options": [
-      "A. morning; morning; more; finishes; back; do; busy; like",
-      "B. afternoon; afternoon; other; starts; home; finish; free; hate",
-      "C. evening; evening; less; stops; away; make; tired; love",
-      "D. morning; morning; another; ends; down; write; happy; enjoy"
+      {
+        "label": "A",
+        "text": "A. morning; morning; more; finishes; back; do; busy; like"
+      },
+      {
+        "label": "B",
+        "text": "B. afternoon; afternoon; other; starts; home; finish; free; hate"
+      },
+      {
+        "label": "C",
+        "text": "C. evening; evening; less; stops; away; make; tired; love"
+      },
+      {
+        "label": "D",
+        "text": "D. morning; morning; another; ends; down; write; happy; enjoy"
+      }
     ],
     "answer": "A",
     "explanation": "in the morning在上午；four classes in the morning上午四节课；more classes更多的课；school finishes at 4:00下午4点放学；go back to my home回家；do my homework做作业；very busy on Mondays周一很忙；like Mondays very much非常喜欢周一。"
@@ -13409,10 +15353,22 @@
     ],
     "question": "Spring is the first (1) of the year. The weather becomes (2) and flowers start to (3). Many birds come back from (4) places. The days get (5) and nights get shorter. People like to go (6) for picnics on weekends. The (7) is beautiful and everything comes (8). What a nice season!",
     "options": [
-      "A. season; warm; bloom; warm; longer; out; world; back",
-      "B. month; cold; close; cold; shorter; away; city; over",
-      "C. year; hot; grow; hot; shorter; out; sky; alive",
-      "D. time; cool; open; cool; longer; away; earth; down"
+      {
+        "label": "A",
+        "text": "A. season; warm; bloom; warm; longer; out; world; back"
+      },
+      {
+        "label": "B",
+        "text": "B. month; cold; close; cold; shorter; away; city; over"
+      },
+      {
+        "label": "C",
+        "text": "C. year; hot; grow; hot; shorter; out; sky; alive"
+      },
+      {
+        "label": "D",
+        "text": "D. time; cool; open; cool; longer; away; earth; down"
+      }
     ],
     "answer": "A",
     "explanation": "first season of the year一年的第一个季节；becomes warm变暖；flowers start to bloom花开始开放；from warm places从温暖的地方；days get longer白天变长；go out for picnics出去野餐；the world is beautiful世界美丽；come back回来（指万物复苏）。"
@@ -13428,10 +15384,22 @@
     ],
     "question": "Life is like a (1). We may meet with difficulties on the way. When we face difficulties, we should never (2). As the saying goes, \"Where there is a (3), there is a way.\" I always keep this (4) my mind. No matter how (5) the problem is, I will try my best to (6) it. I believe my efforts will (7) off one day. Success belongs to those who never (8).",
     "options": [
-      "A. journey; give up; will; in; hard; solve; pay; give up",
-      "B. race; lose heart; way; in; difficult; face; turn; stop",
-      "C. book; run away; storm; on; serious; overcome; bring; quit",
-      "D. dream; fall down; hope; at; big; solve; pay; win"
+      {
+        "label": "A",
+        "text": "A. journey; give up; will; in; hard; solve; pay; give up"
+      },
+      {
+        "label": "B",
+        "text": "B. race; lose heart; way; in; difficult; face; turn; stop"
+      },
+      {
+        "label": "C",
+        "text": "C. book; run away; storm; on; serious; overcome; bring; quit"
+      },
+      {
+        "label": "D",
+        "text": "D. dream; fall down; hope; at; big; solve; pay; win"
+      }
     ],
     "answer": "A",
     "explanation": "life is like a journey人生如旅；never give up永不放弃；where there is a will there is a way有志者事竟成；keep in my mind铭记在心；no matter how hard无论多难；solve it解决它；pay off回报；success belongs to those who never give up成功属于永不放弃的人。"
@@ -13447,10 +15415,22 @@
     ],
     "question": "My favorite subject is English. I think English is very (1) and useful. I enjoy (2) English songs and (3) English movies. They help me learn English (4). I also practice (5) by talking with foreign teachers at school. I want to study (6) in the future. English is really a (7) subject. I am (8) in learning English.",
     "options": [
-      "A. interesting; listening to; watching; well; speaking; abroad; wonderful; active",
-      "B. boring; hearing; seeing; good; talking; home; difficult; lazy",
-      "C. easy; listening; seeing; better; speaking; overseas; important; weak",
-      "D. important; hearing; watching; fast; speaking; outside; boring; strong"
+      {
+        "label": "A",
+        "text": "A. interesting; listening to; watching; well; speaking; abroad; wonderful; active"
+      },
+      {
+        "label": "B",
+        "text": "B. boring; hearing; seeing; good; talking; home; difficult; lazy"
+      },
+      {
+        "label": "C",
+        "text": "C. easy; listening; seeing; better; speaking; overseas; important; weak"
+      },
+      {
+        "label": "D",
+        "text": "D. important; hearing; watching; fast; speaking; outside; boring; strong"
+      }
     ],
     "answer": "A",
     "explanation": "interesting有趣的；enjoy listening to English songs喜欢听英文歌；watching English movies看英文电影；learn English well学好英语；practice speaking练习口语；study abroad出国学习；wonderful subject精彩的科目；active in learning English积极参与英语学习。"
