@@ -4565,7 +4565,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "女生最后说科学社更令人兴奋，所以选择科学社。"
+    "explanation": "女生最后说科学社更令人兴奋，所以选择科学社。",
+    "audio": "audio/english/english-201.m4a"
   },
   {
     "id": "english-202",
@@ -4586,7 +4587,8 @@
       "school library"
     ],
     "explanation": "句中的关键信息是见面地点 the school library。",
-    "options": []
+    "options": [],
+    "audio": null
   },
   {
     "id": "english-203",
@@ -4623,7 +4625,8 @@
       }
     ],
     "explanation": "这类题要抓时间、地点和活动三个关键信息。",
-    "options": []
+    "options": [],
+    "audio": null
   },
   {
     "id": "english-204",
@@ -4699,7 +4702,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Lucy说她和家人去了新的科学博物馆，It was amazing!"
+    "explanation": "Lucy说她和家人去了新的科学博物馆，It was amazing!",
+    "audio": "audio/english/english-206.m4a"
   },
   {
     "id": "english-207",
@@ -4735,7 +4739,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "音乐会7:30开始，他们需要提前20分钟到达，即7:10。"
+    "explanation": "音乐会7:30开始，他们需要提前20分钟到达，即7:10。",
+    "audio": "audio/english/english-207.m4a"
   },
   {
     "id": "english-208",
@@ -4772,7 +4777,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Mary选择喝茶，因为咖啡让她紧张。"
+    "explanation": "Mary选择喝茶，因为咖啡让她紧张。",
+    "audio": "audio/english/english-208.m4a"
   },
   {
     "id": "english-209",
@@ -4809,7 +4815,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "原价200元，半价出售，所以付了100元。"
+    "explanation": "原价200元，半价出售，所以付了100元。",
+    "audio": "audio/english/english-209.m4a"
   },
   {
     "id": "english-210",
@@ -4846,7 +4853,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "比赛结果是平局，It ended in a tie。"
+    "explanation": "比赛结果是平局，It ended in a tie。",
+    "audio": "audio/english/english-210.m4a"
   },
   {
     "id": "english-211",
@@ -4883,7 +4891,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Jack说钢琴课是4点，现在3:55快迟到了。"
+    "explanation": "Jack说钢琴课是4点，现在3:55快迟到了。",
+    "audio": "audio/english/english-211.m4a"
   },
   {
     "id": "english-212",
@@ -4920,7 +4929,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "女孩说对机器人俱乐部感兴趣，想学做机器人。"
+    "explanation": "女孩说对机器人俱乐部感兴趣，想学做机器人。",
+    "audio": "audio/english/english-212.m4a"
   },
   {
     "id": "english-213",
@@ -4957,7 +4967,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "男士指示：直走两个路口，在红绿灯处右转，地铁站在大超市旁边。"
+    "explanation": "男士指示：直走两个路口，在红绿灯处右转，地铁站在大超市旁边。",
+    "audio": "audio/english/english-213.m4a"
   },
   {
     "id": "english-214",
@@ -4994,7 +5005,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "女孩通过看英文电影和听英文歌曲来练习英语。"
+    "explanation": "女孩通过看英文电影和听英文歌曲来练习英语。",
+    "audio": "audio/english/english-214.m4a"
   },
   {
     "id": "english-215",
@@ -5031,7 +5043,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Bob这周六要去看望在清远的祖父母，所以不能参加生日派对。"
+    "explanation": "Bob这周六要去看望在清远的祖父母，所以不能参加生日派对。",
+    "audio": "audio/english/english-215.m4a"
   },
   {
     "id": "english-216",
@@ -5068,7 +5081,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "李华计划去深圳，表哥住在那。"
+    "explanation": "李华计划去深圳，表哥住在那。",
+    "audio": "audio/english/english-216.m4a"
   },
   {
     "id": "english-217",
@@ -5104,7 +5118,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "她会去世界之窗和深圳湾公园，可能去海边。"
+    "explanation": "她会去世界之窗和深圳湾公园，可能去海边。",
+    "audio": null
   },
   {
     "id": "english-218",
@@ -5140,7 +5155,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "她坐高铁去深圳，快速又舒适。"
+    "explanation": "她坐高铁去深圳，快速又舒适。",
+    "audio": null
   },
   {
     "id": "english-219",
@@ -5176,7 +5192,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "她还没订酒店，说这周末订。"
+    "explanation": "她还没订酒店，说这周末订。",
+    "audio": null
   },
   {
     "id": "english-220",
@@ -5213,7 +5230,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "张伟在订餐厅的桌位。"
+    "explanation": "张伟在订餐厅的桌位。",
+    "audio": "audio/english/english-220.m4a"
   },
   {
     "id": "english-221",
@@ -5250,7 +5268,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "是她妈妈的生日晚餐。"
+    "explanation": "是她妈妈的生日晚餐。",
+    "audio": null
   },
   {
     "id": "english-222",
@@ -5286,7 +5305,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "订的是周六晚上7点。"
+    "explanation": "订的是周六晚上7点。",
+    "audio": null
   },
   {
     "id": "english-223",
@@ -5322,7 +5342,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "她要求靠窗且视野好的座位。"
+    "explanation": "她要求靠窗且视野好的座位。",
+    "audio": null
   },
   {
     "id": "english-224",
@@ -5359,7 +5380,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "Lisa不懂三角形的章节，所以担心明天的数学考试。"
+    "explanation": "Lisa不懂三角形的章节，所以担心明天的数学考试。",
+    "audio": "audio/english/english-224.m4a"
   },
   {
     "id": "english-225",
@@ -5396,7 +5418,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "他们放学后一起复习数学。"
+    "explanation": "他们放学后一起复习数学。",
+    "audio": null
   },
   {
     "id": "english-226",
@@ -5433,7 +5456,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "她还没做完角度的作业，今晚要完成。"
+    "explanation": "她还没做完角度的作业，今晚要完成。",
+    "audio": null
   },
   {
     "id": "english-227",
@@ -5469,7 +5493,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "考试范围包括三角形和角度，还要复习公式。"
+    "explanation": "考试范围包括三角形和角度，还要复习公式。",
+    "audio": null
   },
   {
     "id": "english-228",
@@ -5506,7 +5531,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "球队每周二和周四放学后训练。"
+    "explanation": "球队每周二和周四放学后训练。",
+    "audio": "audio/english/english-228.m4a"
   },
   {
     "id": "english-229",
@@ -5542,7 +5568,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "训练5:30结束，然后回家做作业。"
+    "explanation": "训练5:30结束，然后回家做作业。",
+    "audio": null
   },
   {
     "id": "english-230",
@@ -5579,7 +5606,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "教练教他们团队合作和纪律。"
+    "explanation": "教练教他们团队合作和纪律。",
+    "audio": null
   },
   {
     "id": "english-231",
@@ -5616,7 +5644,8 @@
       }
     ],
     "answer": "D",
-    "explanation": "下周五他们将对阵佛山第一中学。"
+    "explanation": "下周五他们将对阵佛山第一中学。",
+    "audio": null
   },
   {
     "id": "english-232",
@@ -5653,7 +5682,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "成人票120元一人。"
+    "explanation": "成人票120元一人。",
+    "audio": "audio/english/english-232.m4a"
   },
   {
     "id": "english-233",
@@ -5689,7 +5719,8 @@
       }
     ],
     "answer": "B",
-    "explanation": "儿童票半价60元，两张共120元。"
+    "explanation": "儿童票半价60元，两张共120元。",
+    "audio": null
   },
   {
     "id": "english-234",
@@ -5726,7 +5757,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "餐厅在二楼，营业到晚上8点。"
+    "explanation": "餐厅在二楼，营业到晚上8点。",
+    "audio": null
   },
   {
     "id": "english-235",
@@ -5763,7 +5795,8 @@
       }
     ],
     "answer": "C",
-    "explanation": "海豚表演下午3点，表演结束后可以拍照。"
+    "explanation": "海豚表演下午3点，表演结束后可以拍照。",
+    "audio": null
   },
   {
     "id": "english-236",

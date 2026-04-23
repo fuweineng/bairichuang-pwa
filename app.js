@@ -285,11 +285,16 @@ async function init() {
   // Show account setup if first time
   if (!state.account) {
     showAccountSetupModal();
+  } else {
+    // Account exists — hide account-setup if somehow visible
+    document.getElementById('account-setup-modal').style.display = 'none';
   }
 
   // Show section setup if first launch (no sessions ever)
   if (!state.meta.startDate) {
     showSectionSetupModal();
+  } else {
+    document.getElementById('section-select-modal').style.display = 'none';
   }
 
   // Avatar choice modal
