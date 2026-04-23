@@ -3342,11 +3342,11 @@ body[data-theme="night"] .section-tab-btn {
 /***** night mode: practice view detailed *****/
 body[data-theme="night"] .view-practice { background: var(--bg); }
 body[data-theme="night"] #question-container { background: var(--bg); }
-body[data-theme="night"] .question-type { color: var(--theme-text-secondary); }
+body[data-theme="night"] .question-type { color: var(--theme-text-primary); }
 body[data-theme="night"] .question-text { color: var(--theme-text-primary); }
-body[data-theme="night"] .question-meta span { background: var(--theme-surface-2); color: var(--theme-text-secondary); }
+body[data-theme="night"] .question-meta span { background: var(--theme-surface-2); color: var(--theme-text-primary); }
 body[data-theme="night"] .view-toolbar { background: var(--theme-surface); color: var(--theme-text-primary); }
-body[data-theme="night"] .practice-entry-info { background: var(--theme-surface); color: var(--theme-text-secondary); }
+body[data-theme="night"] .practice-entry-info { background: var(--theme-surface); color: var(--theme-text-primary); }
 body[data-theme="night"] .back-home-btn { color: var(--theme-accent); }
 body[data-theme="night"] .section-tabs-container { background: var(--bg); }
 body[data-theme="night"] .subject-grid-container { background: var(--theme-surface); }

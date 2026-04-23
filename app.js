@@ -39,7 +39,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.4', audioVersion: '', questionBankVersion: '', soundEnabled: true },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.5', audioVersion: '', questionBankVersion: '', soundEnabled: true },
   remoteVersions: null,
 };
 
@@ -224,7 +224,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.4', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.5', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Load local version from version.json
   try {
@@ -733,6 +733,8 @@ function renderPractice() {
   title.textContent = subjectLabel;
   entryInfo.className = `practice-entry-info ${mode === 'standard' ? '' : mode}`.trim();
   entryInfo.textContent = `${subjectLabel} · ${getPracticeModeLabel(mode)} · ${availableCount}题可练`;
+  document.getElementById('section-tabs-container').style.display = 'none';
+  document.getElementById('subject-grid-container').style.display = 'none';
   startSession(state.subject, state.entry);
 }
 
@@ -2466,7 +2468,7 @@ async function clearAllData() {
   state.daily = {};
   state.sessions = [];
   state.meta = {};
-  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.4', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.5', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Reload question bank from GitHub, then refresh UI (no full page reload)
   await upgradeQuestionBank();
