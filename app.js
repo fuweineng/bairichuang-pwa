@@ -177,24 +177,30 @@ async function migrateLegacyQB() {
 async function fetchQuestionPack({ section, force = false } = {}) {
   const sec = section || state.settings.section;
   const idxUrl = SECTION_INDEX_URLS[sec] || SECTION_INDEX_URLS.junior;
-  const effectiveIdxUrl = force ? `${idxUrl}?_=${Date.now()}` : idxUrl;
-  const idxResp = await fetch(effectiveIdxUrl, force ? { cache: 'no-store' } : undefined);
+  const idxResp = await fetch(idxUrl);
   if (!idxResp.ok) throw new Error(`题库索引加载失败: ${idxResp.status}`);
   const index = await idxResp.json();
 
-  // Parallel load all subject files for this section
+  // Per-subject: load from network (force=bust cache), fall back to IndexedDB
   const results = await Promise.all(
     getSubjects(sec).map(async (subj) => {
       const info = index.subjects?.[subj];
       if (!info) return [subj, []];
       const url = `${idxUrl.replace(/index\.json$/, '')}${info.file}`;
+      const cacheKey = `qb_${sec}_${subj}`;
       try {
+        // Network-first when force, cache-first otherwise
         const resp = await fetch(force ? `${url}?_=${Date.now()}` : url, force ? { cache: 'no-store' } : undefined);
-        if (!resp.ok) return [subj, []];
+        if (!resp.ok) throw new Error('bad response');
         const data = await resp.json();
-        return [subj, Array.isArray(data) ? data : []];
+        const qs = Array.isArray(data) ? data : [];
+        // Cache per-subject in IndexedDB for fast section switching
+        await set(cacheKey, qs);
+        return [subj, qs];
       } catch (e) {
-        return [subj, []];
+        // Network failed — try per-subject cache
+        const cached = await get(cacheKey);
+        return [subj, Array.isArray(cached) ? cached : []];
       }
     })
   );
@@ -2039,7 +2045,7 @@ async function renderSettings() {
             ${s === 'junior' ? '初中' : s === 'primary' ? '小学' : '高中'}
           </button>`).join('')}
       </div>
-      <div id="qb-stats" class="settings-hint" style="font-size:0.8rem;padding:4px 0 8px">加载中...</div>
+      <div id="qb-stats" class="subject-stats-grid" style="font-size:0.8rem;padding:4px 0 8px">加载中...</div>
       <div style="display:flex;gap:6px">
         <button class="secondary-btn" data-action="upgrade-questions" id="upgrade-btn" style="flex:1;padding:8px;font-size:0.8rem">同步题库</button>
         <button class="secondary-btn" data-action="clear-qb-cache" style="flex:1;padding:8px;font-size:0.8rem">清缓存</button>
@@ -2048,14 +2054,25 @@ async function renderSettings() {
     </div>
   `;
 
-  // Show QB stats + subject mastery
-  const stats = Object.entries(state.questionBank).map(([subj, qs]) => {
-    const mastered = qs.filter(q => (state.progress[q.id] || {}).status === 'mastered').length;
-    const mastery = (state.account?.subjects?.[subj]?.mastery ?? '-');
-    return `${subjectName(subj)}: ${qs.length}题/已掌握${mastered}/熟练${mastery}`;
-  }).join('；');
+  // Show QB stats as grid
   const el = document.getElementById('qb-stats');
-  if (el) el.textContent = stats || '无题目';
+  if (el) {
+    const subjects = getSubjects(state.settings.section);
+    const icons = { math:'🧮',chinese:'📖',english:'🔤',physics:'⚡',chemistry:'🧪',biology:'🧬',history:'📜',geography:'🌏',politics:'🏛' };
+    el.innerHTML = subjects.map(subj => {
+      const qs = state.questionBank[subj] || [];
+      const mastered = qs.filter(q => (state.progress[q.id] || {}).status === 'mastered').length;
+      const pct = qs.length > 0 ? Math.round(mastered / qs.length * 100) : 0;
+      return `<div class="subject-stat-card">
+        <div class="subject-stat-icon">${icons[subj] || '📚'}</div>
+        <div class="subject-stat-body">
+          <div class="subject-stat-name">${subjectName(subj)}</div>
+          <div class="subject-stat-count">${qs.length}题<span style="color:var(--theme-text-muted);font-size:0.7rem"> / 已掌握 ${mastered}</span></div>
+          <div class="subject-stat-bar"><div class="subject-stat-bar-fill" style="width:${pct}%"></div></div>
+        </div>
+      </div>`;
+    }).join('');
+  }
 
 
 }
@@ -2410,7 +2427,9 @@ async function handleClick(e) {
 
     case 'clear-qb-cache':
       await del(K.QB_CACHE);
-      for (const subj of SUBJECTS_ALL) { await del('qb_' + subj); }
+      for (const subj of getSubjects(state.settings.section)) {
+        await del('qb_' + state.settings.section + '_' + subj);
+      }
       state.questionBank = createEmptyQuestionBank();
       alert('已清除题库缓存，下次进入时将重新下载');
       break;
