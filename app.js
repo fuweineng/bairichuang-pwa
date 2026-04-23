@@ -1997,6 +1997,15 @@ async function renderSettings() {
     </div>
 
     <div class="settings-card">
+      <div class="settings-section-title">关于</div>
+      <div style="display:flex;gap:6px">
+        <button class="secondary-btn" data-action="show-donate-settings" style="flex:1;padding:8px;font-size:0.8rem">❤️ 打赏支持</button>
+        <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="flex:1;padding:8px;font-size:0.8rem">检查更新</button>
+      </div>
+      <div class="settings-version" style="text-align:center;margin-top:8px">百日闯 v${state.settings.appVersion || '9.1.2'}</div>
+    </div>
+
+    <div class="settings-card">
       <div class="settings-section-title">学段</div>
       <div style="display:flex;gap:6px;margin-bottom:10px">
         ${['primary','junior','senior-high'].map(s => `
@@ -2012,11 +2021,6 @@ async function renderSettings() {
         <button class="secondary-btn" data-action="clear-qb-cache" style="flex:1;padding:8px;font-size:0.8rem">清缓存</button>
         <button class="danger-btn" data-action="clear-all-data" style="flex:1;padding:8px;font-size:0.8rem">清除</button>
       </div>
-    </div>
-
-    <div style="text-align:center;padding:10px 0 4px;display:flex;flex-direction:column;align-items:center;gap:6px">
-      <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:4px 14px;font-size:0.75rem">检查更新</button>
-      <div class="settings-version">百日闯 v${state.settings.appVersion || '9.1.2'}</div>
     </div>
   `;
 
@@ -2303,12 +2307,9 @@ async function handleClick(e) {
       document.getElementById('pwa-install-banner').style.display = 'none';
       break;
 
+    case 'show-donate-settings':
     case 'show-donate-modal':
       document.getElementById('donate-modal').style.display = 'flex';
-      break;
-
-    case 'close-support-modal':
-      document.getElementById('support-modal').style.display = 'none';
       break;
 
     case 'close-donate-modal':

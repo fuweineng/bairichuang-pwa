@@ -2138,14 +2138,6 @@ main {
   to { transform: translateY(0); }
 }
 
-.donate-btn-home {
-  transition: background 0.2s, border-color 0.2s;
-}
-.donate-btn-home:hover {
-  background: #f5f5f5 !important;
-  border-color: #ccc !important;
-}
-
 /* Toast */
 .toast {
   position: fixed;
