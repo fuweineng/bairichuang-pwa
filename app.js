@@ -39,7 +39,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.2', audioVersion: '', questionBankVersion: '', soundEnabled: true },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.3', audioVersion: '', questionBankVersion: '', soundEnabled: true },
   remoteVersions: null,
 };
 
@@ -224,7 +224,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.2', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.3', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Load local version from version.json
   try {
@@ -340,22 +340,6 @@ async function init() {
   // QR import close
   document.getElementById('qr-import-close-btn')?.addEventListener('click', closeQRImport);
 
-  // Donate modal close
-  document.getElementById('donate-close-btn')?.addEventListener('click', () => {
-    document.getElementById('donate-modal').style.display = 'none';
-  });
-  document.getElementById('donate-modal')?.addEventListener('click', e => {
-    if (e.target.id === 'donate-modal') document.getElementById('donate-modal').style.display = 'none';
-  });
-
-  // Support modal close
-  document.getElementById('support-modal')?.addEventListener('click', e => {
-    if (e.target.id === 'support-modal') document.getElementById('support-modal').style.display = 'none';
-  });
-  document.getElementById('support-donate-btn')?.addEventListener('click', () => {
-    document.getElementById('support-modal').style.display = 'none';
-    document.getElementById('donate-modal').style.display = 'flex';
-  });
 
   console.log('百日闯 PWA 初始化完成');
 }
@@ -518,36 +502,6 @@ async function renderHome() {
   // Chart
   const homeChartEl = document.getElementById('home-chart-container');
   if (homeChartEl) homeChartEl.innerHTML = drawChart();
-
-  // 全科练习大按钮 — 柱状图下方，主题色
-  let allBtn = document.getElementById('home-all-btn');
-  const hasAssessment = !!(state.meta.day1SubjectAcc);
-  if (!allBtn) {
-    allBtn = document.createElement('button');
-    allBtn.id = 'home-all-btn';
-    allBtn.className = 'chart-all-btn-large';
-    homeChartEl.parentNode.insertBefore(allBtn, homeChartEl.nextSibling);
-  }
-  // 动态设置文字和 action
-  if (hasAssessment) {
-    allBtn.textContent = '全科练习';
-    allBtn.dataset.action = 'start-subject';
-    allBtn.dataset.subject = 'all';
-    allBtn.dataset.entry = 'standard';
-  } else {
-    allBtn.textContent = '开始摸底测试';
-    allBtn.dataset.action = 'start-assessment';
-    allBtn.dataset.subject = 'all';
-    allBtn.dataset.entry = 'assessment';
-  }
-
-
-  // Update badge
-  const badge = document.getElementById('update-badge');
-  if (badge) badge.style.display = hasQuestionPackUpdate() ? 'inline-block' : 'none';
-
-  // 补弱科目区
-  renderWeakSubjects();
 
   // 今日状态
   renderTodayStatus();
@@ -2068,16 +2022,6 @@ async function renderSettings() {
       </div>
     </div>
 
-    <div class="settings-card" style="padding:10px 14px">
-      <button class="donate-btn" data-action="show-support-modal" style="width:100%;padding:10px;background:linear-gradient(135deg,#6bcb77,#4a9f5a);color:white;border:none;border-radius:8px;font-size:0.85rem;font-weight:700;cursor:pointer">
-        支持百日闯
-      </button>
-    </div>
-
-    <div id="supporters-content" style="padding:4px 0 8px;text-align:center">
-      <div class="settings-hint">加载中...</div>
-    </div>
-
     <div style="text-align:center;padding:10px 0 4px;display:flex;flex-direction:column;align-items:center;gap:6px">
       <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="padding:4px 14px;font-size:0.75rem">检查更新</button>
       <div class="settings-version">百日闯 v${state.settings.appVersion || '9.1.2'}</div>
@@ -2093,8 +2037,7 @@ async function renderSettings() {
   const el = document.getElementById('qb-stats');
   if (el) el.textContent = stats || '无题目';
 
-  // Load supporters
-  loadSupporters();
+
 }
 
 async function loadSupporters() {
@@ -2372,10 +2315,6 @@ async function handleClick(e) {
       document.getElementById('donate-modal').style.display = 'flex';
       break;
 
-    case 'show-support-modal':
-      document.getElementById('support-modal').style.display = 'flex';
-      break;
-
     case 'close-support-modal':
       document.getElementById('support-modal').style.display = 'none';
       break;
@@ -2512,7 +2451,7 @@ async function clearAllData() {
   state.daily = {};
   state.sessions = [];
   state.meta = {};
-  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.2', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.3', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Reload question bank from GitHub, then refresh UI (no full page reload)
   await upgradeQuestionBank();

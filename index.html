@@ -30,7 +30,6 @@
       <span class="subtitle">100天提升</span>
     </div>
     <div class="header-right" id="header-right-container">
-      <button class="header-settings-btn" id="header-donate-btn" data-action="show-donate-modal" title="支持百日闯">❤️</button>
       <button class="header-settings-btn" data-action="nav" data-view="settings">⚙️</button>
     </div>
   </header>
@@ -47,9 +46,6 @@
 
       <!-- 今日状态卡片 -->
       <div id="today-status-container" class="home-section" style="order:3"></div>
-
-      <!-- 补弱科目区（JS 动态渲染） -->
-      <div id="weak-subjects-container" style="order:4"></div>
 
     </section>
 
@@ -250,52 +246,6 @@
     <div id="qr-reader" style="width:100%"></div>
     <p class="placeholder" id="qr-import-tip">对准二维码扫描</p>
     <p class="placeholder" id="qr-import-error" style="color:#e53935;display:none"></p>
-  </div>
-</div>
-
-<div id="donate-modal" class="modal-overlay" style="display:none">
-  <div class="modal-card float-card" style="top:20px;max-width:360px">
-    <div class="modal-toolbar">
-      <span class="modal-title">强烈支持</span>
-      <button class="modal-close-btn" id="donate-close-btn" data-action="close-donate-modal">×</button>
-    </div>
-    <p style="font-size:0.85rem;color:var(--theme-text-secondary);margin:8px 0 16px">你的支持是我持续更新的动力</p>
-    <div class="donate-qr-row">
-      <div class="donate-qr-item">
-        <div class="donate-qr-label">微信</div>
-        <img id="donate-wechat-qr" src="images/wechat_donate.png" alt="微信收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
-      </div>
-      <div class="donate-qr-item">
-        <div class="donate-qr-label">支付宝</div>
-        <img id="donate-alipay-qr" src="images/alipay_donate.png" alt="支付宝收款码" style="width:140px;height:140px;border-radius:8px;border:1px solid #eee">
-      </div>
-    </div>
-    <p style="font-size:0.75rem;color:#aaa;margin-top:12px;text-align:center">截图保存 → 打开对应App扫一扫</p>
-  </div>
-</div>
-
-<div id="support-modal" class="modal-overlay" style="display:none">
-  <div class="modal-card float-card" style="top:20px;max-width:360px">
-    <div class="modal-toolbar">
-      <span class="modal-title">支持百日闯</span>
-      <button class="modal-close-btn" data-action="close-support-modal">×</button>
-    </div>
-    <p style="font-size:0.9rem;color:#444;margin:16px 0;line-height:1.6">百日闯已持续维护更新，感谢你的使用。</p>
-    <div style="background:var(--theme-surface-2);border-radius:10px;padding:16px;margin-bottom:12px">
-      <div style="font-size:0.85rem;color:var(--theme-text-secondary);margin-bottom:8px">推荐以下方式支持：</div>
-      <div style="font-size:0.85rem;color:var(--theme-modal-text);line-height:2">
-        <div style="margin-bottom:4px">1. GitHub 点星</div>
-        <button id="support-share-btn" data-action="open-share-modal" style="background:#4CAF50;color:white;border:none;border-radius:6px;padding:8px 12px;font-size:0.85rem;cursor:pointer;width:100%;font-weight:700;margin-bottom:6px">
-          2. 转发给需要的同学
-        </button>
-        <button id="support-donate-btn" style="background:linear-gradient(135deg,#ff6b6b,#ee5a24);color:white;border:none;border-radius:6px;padding:8px 12px;font-size:0.85rem;cursor:pointer;width:100%;font-weight:700">
-          3. 强烈支持
-        </button>
-      </div>
-    </div>
-    <a href="https://github.com/fuweineng/bairichuang-pwa" target="_blank" style="display:block;text-align:center;padding:10px;background:#24292e;color:white;border-radius:8px;font-size:0.85rem;font-weight:600;text-decoration:none">
-      GitHub 仓库
-    </a>
   </div>
 </div>
 
