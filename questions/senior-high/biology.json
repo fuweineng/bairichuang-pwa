@@ -4,374 +4,724 @@
     "type": "choice",
     "question": "组成细胞膜的主要成分是磷脂和蛋白质，此外还有少量糖类。下列关于细胞膜功能的叙述，错误的是？",
     "options": [
-      {"label": "A", "text": "细胞膜上的载体蛋白能参与主动运输"},
-      {"label": "B", "text": "细胞膜上的糖蛋白具有细胞识别和信息传递功能"},
-      {"label": "C", "text": "细胞膜的选择透过性只与载体蛋白有关，与磷脂双分子层无关"},
-      {"label": "D", "text": "细胞膜作为系统的边界，能控制物质进出细胞"}
+      {
+        "label": "A",
+        "text": "细胞膜上的载体蛋白能参与主动运输"
+      },
+      {
+        "label": "B",
+        "text": "细胞膜上的糖蛋白具有细胞识别和信息传递功能"
+      },
+      {
+        "label": "C",
+        "text": "细胞膜的选择透过性只与载体蛋白有关，与磷脂双分子层无关"
+      },
+      {
+        "label": "D",
+        "text": "细胞膜作为系统的边界，能控制物质进出细胞"
+      }
     ],
     "answer": "C",
     "explanation": "细胞膜的选择透过性取决于两方面：磷脂双分子层对某些物质的不自由通过性（尤其是脂溶性物质），以及载体蛋白对特定物质的运输作用。两者共同构成选择透过性的物质基础。",
-    "knowledgePoints": ["细胞的结构与功能"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "细胞的结构与功能"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-2",
     "type": "choice",
     "question": "下列关于线粒体结构和功能的叙述，正确的是？",
     "options": [
-      {"label": "A", "text": "线粒体是双层膜结构，外膜光滑，内膜折叠成嵴"},
-      {"label": "B", "text": "线粒体嵴的面积大大增加，有利于容纳更多的酶"},
-      {"label": "C", "text": "线粒体基质中只含有与有氧呼吸相关的酶"},
-      {"label": "D", "text": "线粒体是细胞的能量中心，能合成ATP供细胞利用"}
+      {
+        "label": "A",
+        "text": "线粒体是双层膜结构，外膜光滑，内膜折叠成嵴"
+      },
+      {
+        "label": "B",
+        "text": "线粒体嵴的面积大大增加，有利于容纳更多的酶"
+      },
+      {
+        "label": "C",
+        "text": "线粒体基质中只含有与有氧呼吸相关的酶"
+      },
+      {
+        "label": "D",
+        "text": "线粒体是细胞的能量中心，能合成ATP供细胞利用"
+      }
     ],
     "answer": "D",
     "explanation": "线粒体是双层膜结构，内膜折叠成嵴使膜面积增大以容纳更多酶。线粒体基质中含有与有氧呼吸第二阶段（柠檬酸循环）相关的酶，也含有DNA和核糖体等结构，能进行半自主复制。线粒体是细胞的能量工厂，通过氧化磷酸化合成ATP。",
-    "knowledgePoints": ["细胞的结构与功能"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "细胞的结构与功能"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-3",
     "type": "choice",
     "question": "图甲为物质跨膜运输示意图，图中所示物质跨膜运输方式属于？",
     "options": [
-      {"label": "A", "text": "自由扩散"},
-      {"label": "B", "text": "协助扩散"},
-      {"label": "C", "text": "主动运输"},
-      {"label": "D", "text": "胞吞作用"}
+      {
+        "label": "A",
+        "text": "自由扩散"
+      },
+      {
+        "label": "B",
+        "text": "协助扩散"
+      },
+      {
+        "label": "C",
+        "text": "主动运输"
+      },
+      {
+        "label": "D",
+        "text": "胞吞作用"
+      }
     ],
     "answer": "C",
     "explanation": "分析图中运输方式：物质从低浓度向高浓度运输，且需要载体蛋白和能量（ATP）供应，符合主动运输的特点。自由扩散不需要载体蛋白且顺浓度梯度；协助扩散需要载体蛋白但顺浓度梯度；胞吞是大分子物质进入细胞的方式，不通过膜蛋白。",
-    "knowledgePoints": ["物质跨膜运输"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "物质跨膜运输"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-4",
     "type": "choice",
     "question": "下图表示酶活性与温度的关系。下列叙述正确的是？",
     "options": [
-      {"label": "A", "text": "温度为t1时，酶的活性最高"},
-      {"label": "B", "text": "温度为t2时，酶的空间结构完全破坏"},
-      {"label": "C", "text": "高温导致酶变性失活，低温只是抑制酶活性"},
-      {"label": "D", "text": "酶的最适温度对所有酶都相同"}
+      {
+        "label": "A",
+        "text": "温度为t1时，酶的活性最高"
+      },
+      {
+        "label": "B",
+        "text": "温度为t2时，酶的空间结构完全破坏"
+      },
+      {
+        "label": "C",
+        "text": "高温导致酶变性失活，低温只是抑制酶活性"
+      },
+      {
+        "label": "D",
+        "text": "酶的最适温度对所有酶都相同"
+      }
     ],
     "answer": "C",
     "explanation": "酶活性-温度曲线呈倒钟形，t1为低温侧，t2为最适温度。温度低于最适温度时，酶活性受低温抑制但未变性；温度高于最适温度时，酶逐渐变性失活。不同酶的最适温度不同，高温破坏酶的空间结构导致不可逆失活，而低温只是暂时抑制活性。",
-    "knowledgePoints": ["酶与ATP"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "酶与ATP"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-5",
     "type": "choice",
     "question": "细胞呼吸过程中，有氧呼吸第二阶段丙酮酸进入线粒体基质后，最终产物是？",
     "options": [
-      {"label": "A", "text": "CO2和H2O"},
-      {"label": "B", "text": "CO2和[H]"},
-      {"label": "C", "text": "丙酮酸和H2O"},
-      {"label": "D", "text": "乳酸和乙醇"}
+      {
+        "label": "A",
+        "text": "CO2和H2O"
+      },
+      {
+        "label": "B",
+        "text": "CO2和[H]"
+      },
+      {
+        "label": "C",
+        "text": "丙酮酸和H2O"
+      },
+      {
+        "label": "D",
+        "text": "乳酸和乙醇"
+      }
     ],
     "answer": "B",
     "explanation": "有氧呼吸第二阶段：丙酮酸进入线粒体基质后，与水反应生成CO2和[H]，并释放少量能量。第三阶段中，[H]与O2结合生成H2O并释放大量能量。无氧呼吸产物为乳酸或乙醇和CO2，非有氧呼吸第二阶段的产物。",
-    "knowledgePoints": ["细胞呼吸"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "细胞呼吸"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-6",
     "type": "choice",
     "question": "光合作用过程中，光反应为暗反应提供的物质是？",
     "options": [
-      {"label": "A", "text": "O2和ATP"},
-      {"label": "B", "text": "CO2和[H]"},
-      {"label": "C", "text": "ATP和[H]"},
-      {"label": "D", "text": "C3化合物和C5化合物"}
+      {
+        "label": "A",
+        "text": "O2和ATP"
+      },
+      {
+        "label": "B",
+        "text": "CO2和[H]"
+      },
+      {
+        "label": "C",
+        "text": "ATP和[H]"
+      },
+      {
+        "label": "D",
+        "text": "C3化合物和C5化合物"
+      }
     ],
     "answer": "C",
     "explanation": "光反应发生在叶绿体类囊体薄膜上，通过光解水产生O2、ATP和[H]。暗反应在叶绿体基质中进行，利用光反应产生的ATP和[H]将CO2固定并还原生成糖类。CO2是暗反应的原料而非光反应提供，C3和C5是暗反应的中间产物。",
-    "knowledgePoints": ["光合作用"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "光合作用"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-7",
     "type": "choice",
     "question": "下图是某植物细胞有丝分裂某时期示意图，该时期的主要特征是？",
     "options": [
-      {"label": "A", "text": "染色质高度螺旋化形成染色体"},
-      {"label": "B", "text": "着丝点分裂，染色单体分开"},
-      {"label": "C", "text": "同源染色体联会形成四分体"},
-      {"label": "D", "text": "核膜和核仁重新出现"}
+      {
+        "label": "A",
+        "text": "染色质高度螺旋化形成染色体"
+      },
+      {
+        "label": "B",
+        "text": "着丝点分裂，染色单体分开"
+      },
+      {
+        "label": "C",
+        "text": "同源染色体联会形成四分体"
+      },
+      {
+        "label": "D",
+        "text": "核膜和核仁重新出现"
+      }
     ],
     "answer": "B",
     "explanation": "图中显示姐妹染色单体分离并移向两极，表明该时期为有丝分裂后期。后期的主要特征是着丝点分裂，姐妹染色单体成为独立的染色体，在纺锤丝牵引下移向细胞两极。选项A为前期特征，C为减数分裂特征，D为末期特征。",
-    "knowledgePoints": ["有丝分裂"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "有丝分裂"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-8",
     "type": "choice",
     "question": "某生物体细胞中含有4条染色体，下图表示该生物精巢内某细胞分裂模式图。此细胞正处于？",
     "options": [
-      {"label": "A", "text": "有丝分裂中期"},
-      {"label": "B", "text": "有丝分裂后期"},
-      {"label": "C", "text": "减数第一次分裂中期"},
-      {"label": "D", "text": "减数第二次分裂中期"}
+      {
+        "label": "A",
+        "text": "有丝分裂中期"
+      },
+      {
+        "label": "B",
+        "text": "有丝分裂后期"
+      },
+      {
+        "label": "C",
+        "text": "减数第一次分裂中期"
+      },
+      {
+        "label": "D",
+        "text": "减数第二次分裂中期"
+      }
     ],
     "answer": "C",
     "explanation": "分析图中细胞：同源染色体排列在赤道板两侧（联会后），表明是减数第一次分裂中期。该时期的主要特征是同源染色体（四分体）排列在细胞中央的赤道板上。减数第二次分裂中期的细胞不含同源染色体，有丝分裂中期的细胞同源染色体不配对排列。",
-    "knowledgePoints": ["减数分裂与受精作用"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "减数分裂与受精作用"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-9",
     "type": "choice",
     "question": "关于DNA分子结构的叙述，下图所示DNA片段中，碱基对的配对方式遵循何种规律？",
     "options": [
-      {"label": "A", "text": "A与T配对，G与C配对，且A=T，G≡C"},
-      {"label": "B", "text": "A与U配对，G与C配对"},
-      {"label": "C", "text": "A与T配对，G与C配对，但A≠T，G≠C"},
-      {"label": "D", "text": "任何碱基均可自由配对"}
+      {
+        "label": "A",
+        "text": "A与T配对，G与C配对，且A=T，G≡C"
+      },
+      {
+        "label": "B",
+        "text": "A与U配对，G与C配对"
+      },
+      {
+        "label": "C",
+        "text": "A与T配对，G与C配对，但A≠T，G≠C"
+      },
+      {
+        "label": "D",
+        "text": "任何碱基均可自由配对"
+      }
     ],
     "answer": "A",
     "explanation": "DNA分子双螺旋结构中，碱基配对遵循碱基互补配对原则：A与T通过两个氢键配对，G与C通过三个氢键配对。在双链DNA中，A的数目等于T的数目，G的数目等于C的数目，即A=T，G=C。RNA中碱基配对为A与U配对，G与C配对。",
-    "knowledgePoints": ["DNA复制与基因表达"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "DNA复制与基因表达"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-10",
     "type": "choice",
     "question": "豌豆的高茎（D）对矮茎（d）为显性，纯合高茎豌豆与矮茎豌豆杂交，F1代个体与矮茎豌豆回交，后代表现型比例为？",
     "options": [
-      {"label": "A", "text": "3:1"},
-      {"label": "B", "text": "1:1"},
-      {"label": "C", "text": "1:1:1:1"},
-      {"label": "D", "text": "9:3:3:1"}
+      {
+        "label": "A",
+        "text": "3:1"
+      },
+      {
+        "label": "B",
+        "text": "1:1"
+      },
+      {
+        "label": "C",
+        "text": "1:1:1:1"
+      },
+      {
+        "label": "D",
+        "text": "9:3:3:1"
+      }
     ],
     "answer": "B",
     "explanation": "纯合高茎（DD）与矮茎（dd）杂交，F1代为杂合子（Dd）。F1与矮茎（dd）回交，杂交组合为Dd×dd。后代基因型及表现型：DD（高茎）1/2，Dd（高茎）1/2，dd（矮茎）1/2，高茎:矮茎=1:1。",
-    "knowledgePoints": ["基因分离定律"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "基因分离定律"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-11",
     "type": "choice",
     "question": "香豌豆中，红花（A）对白花（a）为显性，长花粉（B）对圆花粉（b）为显性。让纯合红花长花粉与白花圆花粉杂交，F1代自交，F2代中出现纯合红花圆花粉的比例是？",
     "options": [
-      {"label": "A", "text": "1/4"},
-      {"label": "B", "text": "1/8"},
-      {"label": "C", "text": "1/16"},
-      {"label": "D", "text": "3/16"}
+      {
+        "label": "A",
+        "text": "1/4"
+      },
+      {
+        "label": "B",
+        "text": "1/8"
+      },
+      {
+        "label": "C",
+        "text": "1/16"
+      },
+      {
+        "label": "D",
+        "text": "3/16"
+      }
     ],
     "answer": "C",
     "explanation": "两对基因独立遗传，纯合红花长花粉（AABB）×白花圆花粉（aabb），F1为AaBb。F1自交，F2代中每对基因分离组合：AA:2Aa:aa=1:2:1，BB:2Bb:bb=1:2:1。纯合红花圆花粉基因型为AAbb，占1/4×1/4=1/16。",
-    "knowledgePoints": ["基因自由组合定律"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "基因自由组合定律"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-12",
     "type": "choice",
     "question": "某男孩为红绿色盲患者（XbY），其父亲正常，母亲是色盲基因携带者。下列分析正确的是？",
     "options": [
-      {"label": "A", "text": "该男孩的色盲基因来自父亲"},
-      {"label": "B", "text": "母亲是色盲基因携带者（XB Xb），父亲基因型为XBY"},
-      {"label": "C", "text": "该男孩的正常妹妹的基因型一定是XbXb"},
-      {"label": "D", "text": "外祖父是色盲基因的来源"}
+      {
+        "label": "A",
+        "text": "该男孩的色盲基因来自父亲"
+      },
+      {
+        "label": "B",
+        "text": "母亲是色盲基因携带者（XB Xb），父亲基因型为XBY"
+      },
+      {
+        "label": "C",
+        "text": "该男孩的正常妹妹的基因型一定是XbXb"
+      },
+      {
+        "label": "D",
+        "text": "外祖父是色盲基因的来源"
+      }
     ],
     "answer": "B",
     "explanation": "红绿色盲为X连锁隐性遗传，男孩XbY的Xb来自母亲。母亲是携带者（XBXb），父亲正常（XBY）。妹妹正常，基因型为XBXb或XBXB，不可能为XbXb（需父亲为XbY且母亲为XbXb）。外祖父基因型应为XBY，非色盲患者，色盲基因来自外祖母。",
-    "knowledgePoints": ["伴性遗传"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "伴性遗传"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-13",
     "type": "choice",
     "question": "镰刀型细胞贫血症的根本病因是？",
     "options": [
-      {"label": "A", "text": "DNA分子中碱基对的替换导致血红蛋白基因突变"},
-      {"label": "B", "text": "染色体结构变异导致基因数目减少"},
-      {"label": "C", "text": "mRNA剪接错误导致蛋白质结构异常"},
-      {"label": "D", "text": "血红蛋白合成速率降低"}
+      {
+        "label": "A",
+        "text": "DNA分子中碱基对的替换导致血红蛋白基因突变"
+      },
+      {
+        "label": "B",
+        "text": "染色体结构变异导致基因数目减少"
+      },
+      {
+        "label": "C",
+        "text": "mRNA剪接错误导致蛋白质结构异常"
+      },
+      {
+        "label": "D",
+        "text": "血红蛋白合成速率降低"
+      }
     ],
     "answer": "A",
     "explanation": "镰刀型细胞贫血症是一种单基因遗传病，根本病因是血红蛋白基因上一个碱基对的替换（GAG→GTG），导致编码的血红蛋白肽链上某个谷氨酸被缬氨酸取代。这种基因突变属于点突变（基因突变中的碱基替换）。",
-    "knowledgePoints": ["基因突变与染色体变异"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "基因突变与染色体变异"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-14",
     "type": "choice",
     "question": "下图为某单基因遗传病的家族系谱图，图中阴影表示患者。该遗传病最可能的遗传方式是？",
     "options": [
-      {"label": "A", "text": "常染色体显性遗传"},
-      {"label": "B", "text": "常染色体隐性遗传"},
-      {"label": "C", "text": "X连锁显性遗传"},
-      {"label": "D", "text": "X连锁隐性遗传"}
+      {
+        "label": "A",
+        "text": "常染色体显性遗传"
+      },
+      {
+        "label": "B",
+        "text": "常染色体隐性遗传"
+      },
+      {
+        "label": "C",
+        "text": "X连锁显性遗传"
+      },
+      {
+        "label": "D",
+        "text": "X连锁隐性遗传"
+      }
     ],
     "answer": "B",
     "explanation": "分析系谱图：父母均无病但生出患病女儿（隔代遗传），符合隐性遗传特点；患者子女的配偶正常，若为常染色体显性则患者子女必有一半患病；X连锁隐性中女儿患病需父亲患病且母亲为携带者。综合判断最可能为常染色体隐性遗传。",
-    "knowledgePoints": ["遗传系谱图分析"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "遗传系谱图分析"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-15",
     "type": "choice",
     "question": "现代生物进化理论认为，生物进化的基本单位是？",
     "options": [
-      {"label": "A", "text": "个体"},
-      {"label": "B", "text": "种群"},
-      {"label": "C", "text": "物种"},
-      {"label": "D", "text": "群落"}
+      {
+        "label": "A",
+        "text": "个体"
+      },
+      {
+        "label": "B",
+        "text": "种群"
+      },
+      {
+        "label": "C",
+        "text": "物种"
+      },
+      {
+        "label": "D",
+        "text": "群落"
+      }
     ],
     "answer": "B",
     "explanation": "现代生物进化理论认为种群是生物进化的基本单位。一个种群中全部个体所含有的全部基因构成基因库，基因频率的改变标志着生物的进化。个体作为自然选择的对象，但进化必须通过种群基因库的变化来实现。",
-    "knowledgePoints": ["变异与进化"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "变异与进化"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-16",
     "type": "choice",
     "question": "基因工程中，常用的运载体是？",
     "options": [
-      {"label": "A", "text": "质粒、噬菌体和植物病毒"},
-      {"label": "B", "text": "动物病毒和线粒体"},
-      {"label": "C", "text": "脂质体和蛋白质"},
-      {"label": "D", "text": "所有选项均可作为运载体"}
+      {
+        "label": "A",
+        "text": "质粒、噬菌体和植物病毒"
+      },
+      {
+        "label": "B",
+        "text": "动物病毒和线粒体"
+      },
+      {
+        "label": "C",
+        "text": "脂质体和蛋白质"
+      },
+      {
+        "label": "D",
+        "text": "所有选项均可作为运载体"
+      }
     ],
     "answer": "A",
     "explanation": "基因工程的运载体应具备的特点：能在宿主细胞中自主复制、有多个限制酶切位点、有标记基因等。常用运载体包括质粒（如大肠杆菌质粒）、噬菌体（如λ噬菌体）和植物病毒（如Ti质粒衍生物）。动物病毒和线粒体一般不作为常用运载体。",
-    "knowledgePoints": ["基因工程原理"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "基因工程原理"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-17",
     "type": "choice",
     "question": "植物组织培养的理论基础是？",
     "options": [
-      {"label": "A", "text": "细胞全能性"},
-      {"label": "B", "text": "细胞分化"},
-      {"label": "C", "text": "细胞衰老"},
-      {"label": "D", "text": "细胞凋亡"}
+      {
+        "label": "A",
+        "text": "细胞全能性"
+      },
+      {
+        "label": "B",
+        "text": "细胞分化"
+      },
+      {
+        "label": "C",
+        "text": "细胞衰老"
+      },
+      {
+        "label": "D",
+        "text": "细胞凋亡"
+      }
     ],
     "answer": "A",
     "explanation": "植物组织培养的理论基础是细胞全能性，即植物体的每一个细胞都包含有发育成完整植株所需的全部遗传信息。在离体培养条件下，给予适当的营养和激素条件，单个体细胞可以发育成完整的植物个体。",
-    "knowledgePoints": ["细胞工程"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "细胞工程"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-18",
     "type": "choice",
     "question": "微生物培养中，常用的灭菌方法是？",
     "options": [
-      {"label": "A", "text": "巴氏消毒法"},
-      {"label": "B", "text": "高压蒸汽灭菌法"},
-      {"label": "C", "text": "紫外线照射"},
-      {"label": "D", "text": "过滤除菌"}
+      {
+        "label": "A",
+        "text": "巴氏消毒法"
+      },
+      {
+        "label": "B",
+        "text": "高压蒸汽灭菌法"
+      },
+      {
+        "label": "C",
+        "text": "紫外线照射"
+      },
+      {
+        "label": "D",
+        "text": "过滤除菌"
+      }
     ],
     "answer": "B",
     "explanation": "高压蒸汽灭菌法（121°C，15-20min）是微生物培养中最常用的彻底灭菌方法，可杀死所有微生物包括芽孢。巴氏消毒法（60-65°C）不能彻底灭菌，用于食品消毒；紫外线照射和过滤除菌用于不耐高温物质的灭菌。",
-    "knowledgePoints": ["微生物培养与利用"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "微生物培养与利用"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-19",
     "type": "choice",
     "question": "人体内环境的稳态是指？",
     "options": [
-      {"label": "A", "text": "内环境各种化学成分和理化性质保持不变"},
-      {"label": "B", "text": "内环境各种化学成分和理化性质处于动态平衡"},
-      {"label": "C", "text": "血浆渗透压恒定不变"},
-      {"label": "D", "text": "体温恒定在37°C"}
+      {
+        "label": "A",
+        "text": "内环境各种化学成分和理化性质保持不变"
+      },
+      {
+        "label": "B",
+        "text": "内环境各种化学成分和理化性质处于动态平衡"
+      },
+      {
+        "label": "C",
+        "text": "血浆渗透压恒定不变"
+      },
+      {
+        "label": "D",
+        "text": "体温恒定在37°C"
+      }
     ],
     "answer": "B",
     "explanation": "内环境稳态是指内环境的各种化学成分和理化性质处于相对稳定的状态，即动态平衡，而非绝对不变。稳态是机体正常生命活动的必要条件，通过神经-体液-免疫调节网络维持。血浆渗透压、体温等都是稳态的具体表现。",
-    "knowledgePoints": ["人体内环境与稳态"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "人体内环境与稳态"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-20",
     "type": "choice",
     "question": "神经冲动在神经元之间的传递特点是？",
     "options": [
-      {"label": "A", "text": "双向传导，速度相同"},
-      {"label": "B", "text": "单向传递，速度较慢"},
-      {"label": "C", "text": "双向传递，速度较快"},
-      {"label": "D", "text": "单向传递，速度较快"}
+      {
+        "label": "A",
+        "text": "双向传导，速度相同"
+      },
+      {
+        "label": "B",
+        "text": "单向传递，速度较慢"
+      },
+      {
+        "label": "C",
+        "text": "双向传递，速度较快"
+      },
+      {
+        "label": "D",
+        "text": "单向传递，速度较快"
+      }
     ],
     "answer": "B",
     "explanation": "神经冲动在神经元之间的传递需要通过突触完成。突触小泡释放神经递质到突触间隙，神经递质与突触后膜上的受体结合引起下一神经元兴奋。由于神经递质只能从突触前膜释放，所以神经元之间的信息传递是单向的。突触传递涉及化学信号，比神经纤维上的电信号传导速度慢。",
-    "knowledgePoints": ["神经调节与体液调节"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "神经调节与体液调节"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-21",
     "type": "choice",
     "question": "下列关于特异性免疫的叙述，正确的是？",
     "options": [
-      {"label": "A", "text": "体液免疫中，浆细胞分泌的抗体可与抗原直接结合使其沉淀"},
-      {"label": "B", "text": "细胞免疫中，效应T细胞可攻击被病原体侵染的宿主细胞"},
-      {"label": "C", "text": "初次免疫时，B细胞和T细胞增殖分化后全部形成记忆细胞"},
-      {"label": "D", "text": "再次免疫时，抗体均由再次分化的浆细胞产生"}
+      {
+        "label": "A",
+        "text": "体液免疫中，浆细胞分泌的抗体可与抗原直接结合使其沉淀"
+      },
+      {
+        "label": "B",
+        "text": "细胞免疫中，效应T细胞可攻击被病原体侵染的宿主细胞"
+      },
+      {
+        "label": "C",
+        "text": "初次免疫时，B细胞和T细胞增殖分化后全部形成记忆细胞"
+      },
+      {
+        "label": "D",
+        "text": "再次免疫时，抗体均由再次分化的浆细胞产生"
+      }
     ],
     "answer": "B",
     "explanation": "特异性免疫包括体液免疫和细胞免疫。体液免疫中，浆细胞分泌抗体与抗原结合形成细胞集团或沉淀；细胞免疫中，效应T细胞与靶细胞密切接触，诱导靶细胞裂解死亡。二次免疫时，记忆细胞迅速增殖分化为效应细胞，产生更强的免疫应答。",
-    "knowledgePoints": ["免疫调节"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "免疫调节"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-22",
     "type": "choice",
     "question": "植物向光性产生的主要原因是？",
     "options": [
-      {"label": "A", "text": "单侧光引起生长素在茎尖积累并向下运输，背光侧生长素浓度高于向光侧"},
-      {"label": "B", "text": "单侧光引起光敏色素活化，抑制向光侧细胞伸长"},
-      {"label": "C", "text": "单侧光引起向光侧合成更多生长素"},
-      {"label": "D", "text": "单侧光引起生长素在向光侧分解加快"}
+      {
+        "label": "A",
+        "text": "单侧光引起生长素在茎尖积累并向下运输，背光侧生长素浓度高于向光侧"
+      },
+      {
+        "label": "B",
+        "text": "单侧光引起光敏色素活化，抑制向光侧细胞伸长"
+      },
+      {
+        "label": "C",
+        "text": "单侧光引起向光侧合成更多生长素"
+      },
+      {
+        "label": "D",
+        "text": "单侧光引起生长素在向光侧分解加快"
+      }
     ],
     "answer": "A",
     "explanation": "植物向光性的原理：单侧光照射时，生长素从向光侧向背光侧运输（横向运输），导致背光侧生长素浓度高于向光侧。由于生长素促进细胞伸长，背光侧生长更快，表现为向光弯曲。这是经典的生长素分布不均导致植物向光生长的解释。",
-    "knowledgePoints": ["植物激素调节"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "植物激素调节"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-23",
     "type": "choice",
     "question": "下列关于种群特征的叙述，错误的是？",
     "options": [
-      {"label": "A", "text": "种群密度是种群最基本的数量特征"},
-      {"label": "B", "text": "出生率和死亡率影响种群密度"},
-      {"label": "C", "text": "年龄组成能预测种群数量的变化趋势"},
-      {"label": "D", "text": "所有种群的个体数量在任一时期都保持不变"}
+      {
+        "label": "A",
+        "text": "种群密度是种群最基本的数量特征"
+      },
+      {
+        "label": "B",
+        "text": "出生率和死亡率影响种群密度"
+      },
+      {
+        "label": "C",
+        "text": "年龄组成能预测种群数量的变化趋势"
+      },
+      {
+        "label": "D",
+        "text": "所有种群的个体数量在任一时期都保持不变"
+      }
     ],
     "answer": "D",
     "explanation": "种群特征包括种群密度、出生率、死亡率、年龄组成、性别比例和迁入迁出率等。种群密度是种群最基本的数量特征，出生率和死亡率直接影响种群密度，年龄组成可预测种群变化趋势。种群数量处于动态变化中，并非恒定不变。",
-    "knowledgePoints": ["种群与群落"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "种群与群落"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-24",
     "type": "choice",
     "question": "在生态系统中，碳循环的主要形式是？",
     "options": [
-      {"label": "A", "text": "二氧化碳"},
-      {"label": "B", "text": "有机物"},
-      {"label": "C", "text": "碳酸盐"},
-      {"label": "D", "text": "化石燃料"}
+      {
+        "label": "A",
+        "text": "二氧化碳"
+      },
+      {
+        "label": "B",
+        "text": "有机物"
+      },
+      {
+        "label": "C",
+        "text": "碳酸盐"
+      },
+      {
+        "label": "D",
+        "text": "化石燃料"
+      }
     ],
     "answer": "A",
     "explanation": "碳循环的主要形式是二氧化碳。大气中的CO2通过光合作用进入生物群落（碳固定），生物群落中的碳通过呼吸作用、分解作用和燃烧等返回大气。碳在生物群落与无机环境之间主要以CO2形式进行循环，有机物、碳酸盐和化石燃料是碳的储存形态。",
-    "knowledgePoints": ["生态系统结构与功能"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "生态系统结构与功能"
+    ],
+    "difficulty": 4
   },
   {
     "id": "biology-senior-high-25",
     "type": "choice",
     "question": "全球气候变暖的主要原因是？",
     "options": [
-      {"label": "A", "text": "森林大量消失和化石燃料燃烧释放大量CO2，导致大气中温室气体浓度升高"},
-      {"label": "B", "text": "氟利昂等制冷剂大量使用导致臭氧层空洞"},
-      {"label": "C", "text": "酸雨由SO2和氮氧化物排放引起"},
-      {"label": "D", "text": "生物多样性减少导致生态系统自我调节能力下降"}
+      {
+        "label": "A",
+        "text": "森林大量消失和化石燃料燃烧释放大量CO2，导致大气中温室气体浓度升高"
+      },
+      {
+        "label": "B",
+        "text": "氟利昂等制冷剂大量使用导致臭氧层空洞"
+      },
+      {
+        "label": "C",
+        "text": "酸雨由SO2和氮氧化物排放引起"
+      },
+      {
+        "label": "D",
+        "text": "生物多样性减少导致生态系统自我调节能力下降"
+      }
     ],
     "answer": "A",
     "explanation": "全球气候变暖的主要原因是温室效应增强。森林大量破坏降低了对CO2的吸收，化石燃料燃烧增加了CO2排放，导致大气中CO2等温室气体浓度升高，温室效应加剧。臭氧层空洞与氟利昂有关，酸雨与SO2/氮氧化物有关，生物多样性减少是气候变暖的后果之一。",
-    "knowledgePoints": ["生态环境保护"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "生态环境保护"
+    ],
+    "difficulty": 4
   }
 ]

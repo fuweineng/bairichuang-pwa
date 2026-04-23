@@ -26,7 +26,7 @@
     "knowledgePoint": [
       "文言文阅读"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-2",
@@ -55,7 +55,7 @@
     "knowledgePoint": [
       "古代诗歌鉴赏"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-3",
@@ -84,7 +84,7 @@
     "knowledgePoint": [
       "现代文阅读"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-4",
@@ -113,7 +113,7 @@
     "knowledgePoint": [
       "散文阅读"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-5",
@@ -142,7 +142,7 @@
     "knowledgePoint": [
       "小说阅读"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-6",
@@ -171,7 +171,7 @@
     "knowledgePoint": [
       "戏剧阅读"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-7",
@@ -200,7 +200,7 @@
     "knowledgePoint": [
       "写作"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-8",
@@ -229,7 +229,7 @@
     "knowledgePoint": [
       "病句修改"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-9",
@@ -258,7 +258,7 @@
     "knowledgePoint": [
       "标点符号"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-10",
@@ -287,7 +287,7 @@
     "knowledgePoint": [
       "成语运用"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-11",
@@ -316,7 +316,7 @@
     "knowledgePoint": [
       "文学常识"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-12",
@@ -345,7 +345,7 @@
     "knowledgePoint": [
       "文化常识"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-13",
@@ -374,7 +374,7 @@
     "knowledgePoint": [
       "名句默写"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-14",
@@ -403,7 +403,7 @@
     "knowledgePoint": [
       "压缩语段"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-15",
@@ -432,7 +432,7 @@
     "knowledgePoint": [
       "仿写与扩写"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-16",
@@ -461,7 +461,7 @@
     "knowledgePoint": [
       "语言表达"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-17",
@@ -490,7 +490,7 @@
     "knowledgePoint": [
       "修辞手法"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-18",
@@ -519,7 +519,7 @@
     "knowledgePoint": [
       "表现手法"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-19",
@@ -548,7 +548,7 @@
     "knowledgePoint": [
       "叙述视角"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-20",
@@ -577,7 +577,7 @@
     "knowledgePoint": [
       "论证方法"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-21",
@@ -606,7 +606,7 @@
     "knowledgePoint": [
       "说明方法"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-22",
@@ -635,7 +635,7 @@
     "knowledgePoint": [
       "词类活用"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-23",
@@ -664,7 +664,7 @@
     "knowledgePoint": [
       "文言特殊句式"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-24",
@@ -693,7 +693,7 @@
     "knowledgePoint": [
       "谦敬词"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   },
   {
     "id": "chinese-senior-high-25",
@@ -722,6 +722,6 @@
     "knowledgePoint": [
       "图文转换"
     ],
-    "difficulty": "hard"
+    "difficulty": 4
   }
 ]

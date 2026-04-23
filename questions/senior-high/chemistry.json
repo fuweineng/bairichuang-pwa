@@ -4,374 +4,724 @@
     "type": "choice",
     "question": "在标准状况下，11.2L CO₂所含的分子数是多少？已知阿伏加德罗常数NA=6.02×10²³mol⁻¹",
     "options": [
-      {"label": "A", "text": "3.01×10²³个CO₂分子"},
-      {"label": "B", "text": "6.02×10²³个CO₂分子"},
-      {"label": "C", "text": "1.204×10²⁴个CO₂分子"},
-      {"label": "D", "text": "1.505×10²⁴个CO₂分子"}
+      {
+        "label": "A",
+        "text": "3.01×10²³个CO₂分子"
+      },
+      {
+        "label": "B",
+        "text": "6.02×10²³个CO₂分子"
+      },
+      {
+        "label": "C",
+        "text": "1.204×10²⁴个CO₂分子"
+      },
+      {
+        "label": "D",
+        "text": "1.505×10²⁴个CO₂分子"
+      }
     ],
     "answer": "A",
     "explanation": "标准状况下气体摩尔体积为22.4L/mol。n(CO₂)=11.2L÷22.4L/mol=0.5mol，分子数N=n×NA=0.5mol×6.02×10²³mol⁻¹=3.01×10²³个。因此正确答案为A选项。",
-    "knowledgePoints": ["物质的量与气体摩尔体积"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "物质的量与气体摩尔体积"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-2",
     "type": "choice",
     "question": "下列反应中，属于氧化还原反应的是哪个？",
     "options": [
-      {"label": "A", "text": "CaCO₃+2HCl→CaCl₂+H₂O+CO₂↑"},
-      {"label": "B", "text": "NaOH+HCl→NaCl+H₂O"},
-      {"label": "C", "text": "Zn+H₂SO₄(稀)→ZnSO₄+H₂↑"},
-      {"label": "D", "text": "AgNO₃+NaCl→AgCl↓+NaNO₃"}
+      {
+        "label": "A",
+        "text": "CaCO₃+2HCl→CaCl₂+H₂O+CO₂↑"
+      },
+      {
+        "label": "B",
+        "text": "NaOH+HCl→NaCl+H₂O"
+      },
+      {
+        "label": "C",
+        "text": "Zn+H₂SO₄(稀)→ZnSO₄+H₂↑"
+      },
+      {
+        "label": "D",
+        "text": "AgNO₃+NaCl→AgCl↓+NaNO₃"
+      }
     ],
     "answer": "C",
     "explanation": "氧化还原反应的实质是电子转移，特征是化合价变化。选项C：Zn+H₂SO₄→ZnSO₄+H₂↑中，Zn从0价升至+2价，H从+1价降至0价，有电子转移，属于氧化还原反应。其他选项均为复分解反应，没有化合价变化。",
-    "knowledgePoints": ["物质的分类与反应类型"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "物质的分类与反应类型"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-3",
     "type": "choice",
     "question": "写出下列反应的离子方程式：BaCl₂溶液与Na₂SO₄溶液混合",
     "options": [
-      {"label": "A", "text": "Ba²⁺+Cl₂⁻+Na⁺+SO₄²⁻→BaSO₄↓+2NaCl"},
-      {"label": "B", "text": "Ba²⁺+SO₄²⁻→BaSO₄↓"},
-      {"label": "C", "text": "Ba²⁺+2Cl⁻+2Na⁺+SO₄²⁻→BaSO₄↓+2Na⁺+2Cl⁻"},
-      {"label": "D", "text": "BaCl₂+SO₄²⁻→BaSO₄↓+2Cl⁻"}
+      {
+        "label": "A",
+        "text": "Ba²⁺+Cl₂⁻+Na⁺+SO₄²⁻→BaSO₄↓+2NaCl"
+      },
+      {
+        "label": "B",
+        "text": "Ba²⁺+SO₄²⁻→BaSO₄↓"
+      },
+      {
+        "label": "C",
+        "text": "Ba²⁺+2Cl⁻+2Na⁺+SO₄²⁻→BaSO₄↓+2Na⁺+2Cl⁻"
+      },
+      {
+        "label": "D",
+        "text": "BaCl₂+SO₄²⁻→BaSO₄↓+2Cl⁻"
+      }
     ],
     "answer": "B",
     "explanation": "BaCl₂和Na₂SO₄都是强电解质，在水中完全电离。反应的离子方程式应删去两边相同的离子。Ba²⁺+SO₄²⁻→BaSO₄↓，这就是正确的离子方程式。选项A没有约简；选项C多写了未参与反应的离子；选项D写了分子形式不正确。",
-    "knowledgePoints": ["离子反应与离子方程式"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "离子反应与离子方程式"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-4",
     "type": "choice",
     "question": "在反应MnO₂+4HCl(浓)→MnCl₂+Cl₂↑+2H₂O中，氧化剂与还原剂的物质的量之比为多少？",
     "options": [
-      {"label": "A", "text": "1:1"},
-      {"label": "B", "text": "1:2"},
-      {"label": "C", "text": "1:4"},
-      {"label": "D", "text": "2:1"}
+      {
+        "label": "A",
+        "text": "1:1"
+      },
+      {
+        "label": "B",
+        "text": "1:2"
+      },
+      {
+        "label": "C",
+        "text": "1:4"
+      },
+      {
+        "label": "D",
+        "text": "2:1"
+      }
     ],
     "answer": "B",
     "explanation": "该反应中，MnO₂中Mn从+4价降至+2价，得到2个电子，是氧化剂；HCl中Cl从-1价升至0价，失去电子，是还原剂。每生成1mol Cl₂，需要2mol HCl（作为还原剂）被氧化，同时1mol MnO₂被还原。所以氧化剂与还原剂的物质的量之比为1:2。",
-    "knowledgePoints": ["氧化还原反应"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "氧化还原反应"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-5",
     "type": "choice",
     "question": "下列关于元素周期表的说法正确的是？",
     "options": [
-      {"label": "A", "text": "同一周期元素从左到右，原子半径逐渐增大"},
-      {"label": "B", "text": "同一主族元素从上到下，原子半径逐渐减小"},
-      {"label": "C", "text": "F、Cl、Br、I的氢化物稳定性随原子序数增大而增强"},
-      {"label": "D", "text": "Na、Mg、Al的还原性随原子序数增大而减弱"}
+      {
+        "label": "A",
+        "text": "同一周期元素从左到右，原子半径逐渐增大"
+      },
+      {
+        "label": "B",
+        "text": "同一主族元素从上到下，原子半径逐渐减小"
+      },
+      {
+        "label": "C",
+        "text": "F、Cl、Br、I的氢化物稳定性随原子序数增大而增强"
+      },
+      {
+        "label": "D",
+        "text": "Na、Mg、Al的还原性随原子序数增大而减弱"
+      }
     ],
     "answer": "D",
     "explanation": "选项A错误：同一周期从左到右，核电荷数增大，原子半径逐渐减小。选项B错误：同一主族从上到下，电子层数增多，原子半径逐渐增大。选项C错误：F、Cl、Br、I的非金属性随原子序数增大而减弱，所以氢化物稳定性也减弱。选项D正确：Na、Mg、Al同周期，金属性逐渐减弱，还原性也逐渐减弱。",
-    "knowledgePoints": ["元素周期律与元素周期表"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "元素周期律与元素周期表"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-6",
     "type": "choice",
     "question": "下列分子中，既有极性键又有非极性键的是？",
     "options": [
-      {"label": "A", "text": "CH₄"},
-      {"label": "B", "text": "CO₂"},
-      {"label": "C", "text": "C₂H₄"},
-      {"label": "D", "text": "NaCl"}
+      {
+        "label": "A",
+        "text": "CH₄"
+      },
+      {
+        "label": "B",
+        "text": "CO₂"
+      },
+      {
+        "label": "C",
+        "text": "C₂H₄"
+      },
+      {
+        "label": "D",
+        "text": "NaCl"
+      }
     ],
     "answer": "C",
     "explanation": "CH₄中只有C-H极性键；CO₂中只有C=O极性键；C₂H₄(C₂H₄)中有C=C非极性键和C-H极性键；NaCl是离子化合物，只有离子键。C₂H₄分子中含有碳碳双键（非极性键）和碳氢键（极性键），因此选C。",
-    "knowledgePoints": ["化学键与分子结构"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "化学键与分子结构"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-7",
     "type": "choice",
     "question": "对于反应N₂(g)+3H₂(g)⇌2NH₃(g)，在一定条件下达到平衡时，下列说法正确的是？",
     "options": [
-      {"label": "A", "text": "N₂、H₂、NH₃的浓度相等"},
-      {"label": "B", "text": "正反应速率等于逆反应速率"},
-      {"label": "C", "text": "N₂和H₂完全转化为NH₃"},
-      {"label": "D", "text": "改变条件不影响平衡状态"}
+      {
+        "label": "A",
+        "text": "N₂、H₂、NH₃的浓度相等"
+      },
+      {
+        "label": "B",
+        "text": "正反应速率等于逆反应速率"
+      },
+      {
+        "label": "C",
+        "text": "N₂和H₂完全转化为NH₃"
+      },
+      {
+        "label": "D",
+        "text": "改变条件不影响平衡状态"
+      }
     ],
     "answer": "B",
     "explanation": "化学平衡的实质是正逆反应速率相等，各组分浓度保持不变。选项A：平衡时各物质浓度不一定相等，取决于起始浓度和平衡常数；选项C：可逆反应不可能完全转化；选项D：改变温度、浓度、压强等条件，平衡会发生移动。",
-    "knowledgePoints": ["化学反应速率与化学平衡"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "化学反应速率与化学平衡"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-8",
     "type": "choice",
     "question": "0.1mol/L的醋酸(CH₃COOH)溶液的pH值约为多少？已知醋酸的Ka=1.8×10⁻⁵",
     "options": [
-      {"label": "A", "text": "pH=1"},
-      {"label": "B", "text": "pH=2"},
-      {"label": "C", "text": "pH=3"},
-      {"label": "D", "text": "pH=5"}
+      {
+        "label": "A",
+        "text": "pH=1"
+      },
+      {
+        "label": "B",
+        "text": "pH=2"
+      },
+      {
+        "label": "C",
+        "text": "pH=3"
+      },
+      {
+        "label": "D",
+        "text": "pH=5"
+      }
     ],
     "answer": "C",
     "explanation": "对于弱酸，c(H⁺)≈√(Ka×c)=√(1.8×10⁻⁵×0.1)=√(1.8×10⁻⁶)≈1.34×10⁻³mol/L，pH=-lg(1.34×10⁻³)≈2.87≈3。醋酸是弱电解质，不能完全电离，所以pH不可能为1或2；也不是5因为酸性较强。",
-    "knowledgePoints": ["弱电解质与电离平衡"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "弱电解质与电离平衡"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-9",
     "type": "choice",
     "question": "下列盐溶液中，呈酸性的是？",
     "options": [
-      {"label": "A", "text": "NaCl"},
-      {"label": "B", "text": "Na₂CO₃"},
-      {"label": "C", "text": "NH₄Cl"},
-      {"label": "D", "text": "CH₃COONa"}
+      {
+        "label": "A",
+        "text": "NaCl"
+      },
+      {
+        "label": "B",
+        "text": "Na₂CO₃"
+      },
+      {
+        "label": "C",
+        "text": "NH₄Cl"
+      },
+      {
+        "label": "D",
+        "text": "CH₃COONa"
+      }
     ],
     "answer": "C",
     "explanation": "NH₄Cl是强酸弱碱盐，NH₄⁺水解使溶液呈酸性：NH₄⁺+H₂O⇌NH₃·H₂O+H⁺。NaCl是强酸强碱盐溶液呈中性；Na₂CO₃和CH₃COONa都是强碱弱酸盐，水解呈碱性。",
-    "knowledgePoints": ["水的电离与盐类水解"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "水的电离与盐类水解"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-10",
     "type": "choice",
     "question": "已知AgCl的Ksp=1.8×10⁻¹⁰，Ag₂CrO₄的Ksp=1.1×10⁻¹²，则两者的溶解度关系为？",
     "options": [
-      {"label": "A", "text": "AgCl的溶解度大于Ag₂CrO₄"},
-      {"label": "B", "text": "AgCl的溶解度小于Ag₂CrO₄"},
-      {"label": "C", "text": "两者溶解度相等"},
-      {"label": "D", "text": "无法比较"}
+      {
+        "label": "A",
+        "text": "AgCl的溶解度大于Ag₂CrO₄"
+      },
+      {
+        "label": "B",
+        "text": "AgCl的溶解度小于Ag₂CrO₄"
+      },
+      {
+        "label": "C",
+        "text": "两者溶解度相等"
+      },
+      {
+        "label": "D",
+        "text": "无法比较"
+      }
     ],
     "answer": "B",
     "explanation": "对于AgCl：s=√Ksp=√(1.8×10⁻¹⁰)=1.34×10⁻⁵mol/L；对于Ag₂CrO₄：s=³√(Ksp/4)=³√(1.1×10⁻¹²/4)=³√(2.75×10⁻¹³)≈6.5×10⁻⁵mol/L。Ag₂CrO₄的溶解度约为6.5×10⁻⁵mol/L，大于AgCl的溶解度1.34×10⁻⁵mol/L，因此AgCl的溶解度小于Ag₂CrO₄，选B。",
-    "knowledgePoints": ["难溶电解质沉淀溶解平衡"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "难溶电解质沉淀溶解平衡"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-11",
     "type": "choice",
     "question": "根据右图所示原电池装置，下列说法正确的是？",
     "options": [
-      {"label": "A", "text": "铜片作负极"},
-      {"label": "B", "text": "锌片发生氧化反应"},
-      {"label": "C", "text": "电子由铜片流向锌片"},
-      {"label": "D", "text": "硫酸浓度不变"}
+      {
+        "label": "A",
+        "text": "铜片作负极"
+      },
+      {
+        "label": "B",
+        "text": "锌片发生氧化反应"
+      },
+      {
+        "label": "C",
+        "text": "电子由铜片流向锌片"
+      },
+      {
+        "label": "D",
+        "text": "硫酸浓度不变"
+      }
     ],
     "answer": "B",
     "explanation": "该原电池中，Zn作负极（氧化反应：Zn→Zn²⁺+2e⁻），Cu作正极（还原反应：2H⁺+2e⁻→H₂↑）。电子由负极(Zn)流向正极(Cu)，即由锌片流向铜片。硫酸参与反应，浓度减小。",
-    "knowledgePoints": ["原电池原理与应用"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "原电池原理与应用"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-12",
     "type": "choice",
     "question": "用电解法精炼铜时，粗铜作阳极，精铜作阴极，电解液为CuSO₄溶液。下列说法正确的是？",
     "options": [
-      {"label": "A", "text": "阳极反应：Cu→Cu²⁺+2e⁻"},
-      {"label": "B", "text": "阴极反应：Cu²⁺+2e⁻→Cu"},
-      {"label": "C", "text": "电解过程中硫酸铜浓度增加"},
-      {"label": "D", "text": "粗铜中的杂质不参与反应"}
+      {
+        "label": "A",
+        "text": "阳极反应：Cu→Cu²⁺+2e⁻"
+      },
+      {
+        "label": "B",
+        "text": "阴极反应：Cu²⁺+2e⁻→Cu"
+      },
+      {
+        "label": "C",
+        "text": "电解过程中硫酸铜浓度增加"
+      },
+      {
+        "label": "D",
+        "text": "粗铜中的杂质不参与反应"
+      }
     ],
     "answer": "B",
     "explanation": "电解精炼铜时，阳极（粗铜）发生氧化反应：Cu→Cu²⁺+2e⁻，同时杂质金属也会溶解；阴极（精铜）发生还原反应：Cu²⁺+2e⁻→Cu。溶液中的Cu²⁺浓度基本保持不变。选项A应该是阳极反应，但通常表述正确；选B正确；C错误；D错误因为杂质也会参与。",
-    "knowledgePoints": ["电解池与电镀"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "电解池与电镀"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-13",
     "type": "choice",
     "question": "下列关于金属钠的说法错误的是？",
     "options": [
-      {"label": "A", "text": "钠与水反应：2Na+2H₂O→2NaOH+H₂↑"},
-      {"label": "B", "text": "钠在空气中燃烧生成Na₂O"},
-      {"label": "C", "text": "钠应保存在煤油中"},
-      {"label": "D", "text": "钠是活泼金属，能从CuSO₄溶液中置换出铜"}
+      {
+        "label": "A",
+        "text": "钠与水反应：2Na+2H₂O→2NaOH+H₂↑"
+      },
+      {
+        "label": "B",
+        "text": "钠在空气中燃烧生成Na₂O"
+      },
+      {
+        "label": "C",
+        "text": "钠应保存在煤油中"
+      },
+      {
+        "label": "D",
+        "text": "钠是活泼金属，能从CuSO₄溶液中置换出铜"
+      }
     ],
     "answer": "B",
     "explanation": "钠在空气中燃烧生成Na₂O₂（过氧化钠）而不是Na₂O，反应为2Na+O₂→Na₂O₂。钠与水反应生成NaOH和H₂；钠密度小于煤油，保存在煤油中隔绝空气；钠是活泼金属，但与CuSO₄溶液反应时先与水反应生成NaOH，再与CuSO₄反应生成Cu(OH)₂而不是单质铜。",
-    "knowledgePoints": ["金属及其化合物"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "金属及其化合物"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-14",
     "type": "choice",
     "question": "实验室制取氨气的正确方法是用什么反应？",
     "options": [
-      {"label": "A", "text": "加热分解NH₄Cl"},
-      {"label": "B", "text": "NaOH溶液与NH₄Cl溶液混合加热"},
-      {"label": "C", "text": "Ca(OH)₂与NH₄Cl混合加热"},
-      {"label": "D", "text": "氮气与氢气直接合成"}
+      {
+        "label": "A",
+        "text": "加热分解NH₄Cl"
+      },
+      {
+        "label": "B",
+        "text": "NaOH溶液与NH₄Cl溶液混合加热"
+      },
+      {
+        "label": "C",
+        "text": "Ca(OH)₂与NH₄Cl混合加热"
+      },
+      {
+        "label": "D",
+        "text": "氮气与氢气直接合成"
+      }
     ],
     "answer": "C",
     "explanation": "实验室制氨气常用Ca(OH)₂与NH₄Cl混合加热：Ca(OH)₂+2NH₄Cl→CaCl₂+2NH₃↑+2H₂O。加热NH₄Cl只能得到NH₃和HCl的混合物，冷后又化合成NH₄Cl；NaOH与NH₄Cl虽能反应，但挥发性碱不常用；N₂与H₂合成氨需要高温高压催化剂，不适合实验室。",
-    "knowledgePoints": ["非金属及其化合物"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "非金属及其化合物"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-15",
     "type": "choice",
     "question": "下列物质中，能发生银镜反应的是？",
     "options": [
-      {"label": "A", "text": "乙醇"},
-      {"label": "B", "text": "乙醛"},
-      {"label": "C", "text": "乙酸"},
-      {"label": "D", "text": "乙酸乙酯"}
+      {
+        "label": "A",
+        "text": "乙醇"
+      },
+      {
+        "label": "B",
+        "text": "乙醛"
+      },
+      {
+        "label": "C",
+        "text": "乙酸"
+      },
+      {
+        "label": "D",
+        "text": "乙酸乙酯"
+      }
     ],
     "answer": "B",
     "explanation": "银镜反应是醛基(-CHO)的特征反应。乙醛(CH₃CHO)含有醛基，能发生银镜反应。乙醇含有羟基(-OH)；乙酸含有羧基(-COOH)；乙酸乙酯含有酯基(-COO-)，都不能发生银镜反应。",
-    "knowledgePoints": ["有机物分类与官能团"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "有机物分类与官能团"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-16",
     "type": "choice",
     "question": "下列关于甲烷、乙烯、乙炔的说法正确的是？",
     "options": [
-      {"label": "A", "text": "甲烷是正四面体形分子"},
-      {"label": "B", "text": "乙烯含有碳碳三键"},
-      {"label": "C", "text": "乙炔分子中所有原子都在一条直线上"},
-      {"label": "D", "text": "三者都能使溴水褪色"}
+      {
+        "label": "A",
+        "text": "甲烷是正四面体形分子"
+      },
+      {
+        "label": "B",
+        "text": "乙烯含有碳碳三键"
+      },
+      {
+        "label": "C",
+        "text": "乙炔分子中所有原子都在一条直线上"
+      },
+      {
+        "label": "D",
+        "text": "三者都能使溴水褪色"
+      }
     ],
     "answer": "A",
     "explanation": "甲烷是正四面体形分子，碳位于中心，四个氢位于顶点；乙烯含碳碳双键(C=C)；乙炔含碳碳三键(C≡C)，但分子中两个碳原子和两个氢原子在一条直线上，碳碳三键轴向是直线形；甲烷不能使溴水褪色，乙烯和乙炔可以。",
-    "knowledgePoints": ["甲烷、乙烯、乙炔"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "甲烷、乙烯、乙炔"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-17",
     "type": "choice",
     "question": "下列关于苯的说法正确的是？",
     "options": [
-      {"label": "A", "text": "苯分子中含有碳碳双键，能使溴水褪色"},
-      {"label": "B", "text": "苯的邻位二元取代物只有一种"},
-      {"label": "C", "text": "苯在空气中燃烧火焰明亮，有浓烟"},
-      {"label": "D", "text": "苯可与浓硝酸发生加成反应"}
+      {
+        "label": "A",
+        "text": "苯分子中含有碳碳双键，能使溴水褪色"
+      },
+      {
+        "label": "B",
+        "text": "苯的邻位二元取代物只有一种"
+      },
+      {
+        "label": "C",
+        "text": "苯在空气中燃烧火焰明亮，有浓烟"
+      },
+      {
+        "label": "D",
+        "text": "苯可与浓硝酸发生加成反应"
+      }
     ],
     "answer": "B",
     "explanation": "苯的特殊结构使其邻位二元取代物只有一种（1,2-二取代苯），体现了苯环的高对称性。苯分子中虽含有碳碳双键，但它是介于单键和双键之间的独特结构，不能使溴水褪色（褪色需发生加成）；苯燃烧有浓烟是因为含碳量大；苯与浓硝酸发生的是取代反应（硝化反应）而不是加成反应。",
-    "knowledgePoints": ["苯与芳香烃"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "苯与芳香烃"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-18",
     "type": "choice",
     "question": "乙醇与乙酸在浓硫酸作催化剂的条件下发生酯化反应，下列说法正确的是？",
     "options": [
-      {"label": "A", "text": "乙醇分子中的羟基氢被乙酸取代"},
-      {"label": "B", "text": "乙酸分子中的羟基被乙醇取代"},
-      {"label": "C", "text": "生成物是乙酸乙酯和水"},
-      {"label": "D", "text": "该反应属于加成反应"}
+      {
+        "label": "A",
+        "text": "乙醇分子中的羟基氢被乙酸取代"
+      },
+      {
+        "label": "B",
+        "text": "乙酸分子中的羟基被乙醇取代"
+      },
+      {
+        "label": "C",
+        "text": "生成物是乙酸乙酯和水"
+      },
+      {
+        "label": "D",
+        "text": "该反应属于加成反应"
+      }
     ],
     "answer": "C",
     "explanation": "酯化反应是醇与酸反应生成酯和水的反应。在浓硫酸催化下，乙醇与乙酸反应生成乙酸乙酯（CH₃COOC₂H₅）和水。机理是乙酸提供羧基中的羟基(-OH)，乙醇提供羟基中的氢原子，这被称为酸脱羟基醇脱氢。",
-    "knowledgePoints": ["乙醇与乙酸"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "乙醇与乙酸"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-19",
     "type": "choice",
     "question": "下列物质中，不属于糖类的是？",
     "options": [
-      {"label": "A", "text": "葡萄糖"},
-      {"label": "B", "text": "果糖"},
-      {"label": "C", "text": "蔗糖"},
-      {"label": "D", "text": "甘油"}
+      {
+        "label": "A",
+        "text": "葡萄糖"
+      },
+      {
+        "label": "B",
+        "text": "果糖"
+      },
+      {
+        "label": "C",
+        "text": "蔗糖"
+      },
+      {
+        "label": "D",
+        "text": "甘油"
+      }
     ],
     "answer": "D",
     "explanation": "糖类是多羟基醛或多羟基酮及其缩聚物。葡萄糖和果糖是单糖，蔗糖是二糖，它们都属于糖类。甘油（丙三醇）是醇类物质，不属于糖类。",
-    "knowledgePoints": ["糖类、油脂、蛋白质"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "糖类、油脂、蛋白质"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-20",
     "type": "choice",
     "question": "下列反应中，属于加聚反应的是？",
     "options": [
-      {"label": "A", "text": "nCH₂=CH₂→-[CH₂-CH₂]-ₙ"},
-      {"label": "B", "text": "nHOOC-COOH+nHO-CH₂-CH₂-OH→聚酯"},
-      {"label": "C", "text": "氨基酸缩合生成多肽"},
-      {"label": "D", "text": "甲醛与苯酚缩聚生成酚醛树脂"}
+      {
+        "label": "A",
+        "text": "nCH₂=CH₂→-[CH₂-CH₂]-ₙ"
+      },
+      {
+        "label": "B",
+        "text": "nHOOC-COOH+nHO-CH₂-CH₂-OH→聚酯"
+      },
+      {
+        "label": "C",
+        "text": "氨基酸缩合生成多肽"
+      },
+      {
+        "label": "D",
+        "text": "甲醛与苯酚缩聚生成酚醛树脂"
+      }
     ],
     "answer": "A",
     "explanation": "加聚反应是含双键或三键的单体相互加成形成高聚物的反应。乙烯(CH₂=CH₂)双键断开，加聚生成聚乙烯。选项B、C、D都是缩聚反应，缩聚反应在形成高聚物的同时有小分子（水、醇等）生成。",
-    "knowledgePoints": ["加聚反应与缩聚反应"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "加聚反应与缩聚反应"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-21",
     "type": "choice",
     "question": "分子式为C₄H₁₀O的有机物共有多少种同分异构体？",
     "options": [
-      {"label": "A", "text": "3种"},
-      {"label": "B", "text": "4种"},
-      {"label": "C", "text": "5种"},
-      {"label": "D", "text": "6种"}
+      {
+        "label": "A",
+        "text": "3种"
+      },
+      {
+        "label": "B",
+        "text": "4种"
+      },
+      {
+        "label": "C",
+        "text": "5种"
+      },
+      {
+        "label": "D",
+        "text": "6种"
+      }
     ],
     "answer": "B",
     "explanation": "C₄H₁₀O可以是醇或醚。醇类异构体：1-丁醇、2-丁醇、2-甲基-1-丙醇（异丁醇）、2-甲基-2-丙醇（叔丁醇），共4种。醚类异构体：甲丙醚、乙醚（但乙醚是C₄H₁₀O吗？）、甲丙醚...C₄H₁₀O的醚有：CH₃-O-C₃H₇（甲丙醚）有2种（正丙醇和异丙醇对应的甲醚）...实际上醇4种，醚2种（甲丙醚和乙醚），但乙醚是C₄H₁₀O吗？C₂H₅-O-C₂H₅是C₄H₁₀O，所以总共是4种醇+2种醚=6种。但常见答案是4种，因为通常只考虑醇的异构体。",
-    "knowledgePoints": ["同分异构体"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "同分异构体"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-22",
     "type": "choice",
     "question": "下列物质中，不属于天然高分子化合物的是？",
     "options": [
-      {"label": "A", "text": "淀粉"},
-      {"label": "B", "text": "纤维素"},
-      {"label": "C", "text": "蛋白质"},
-      {"label": "D", "text": "聚乙烯"}
+      {
+        "label": "A",
+        "text": "淀粉"
+      },
+      {
+        "label": "B",
+        "text": "纤维素"
+      },
+      {
+        "label": "C",
+        "text": "蛋白质"
+      },
+      {
+        "label": "D",
+        "text": "聚乙烯"
+      }
     ],
     "answer": "D",
     "explanation": "天然高分子化合物包括淀粉、纤维素（植物多糖）、蛋白质（动物高聚物）等。聚乙烯是人工合成的高分子化合物，由乙烯加聚反应制得，不属于天然高分子。",
-    "knowledgePoints": ["高分子化合物"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "高分子化合物"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-23",
     "type": "choice",
     "question": "已知反应N₂(g)+O₂(g)→2NO(g)的反应热为△H=+180kJ/mol，则下列说法正确的是？",
     "options": [
-      {"label": "A", "text": "该反应是放热反应"},
-      {"label": "B", "text": "断开1mol N≡N键吸收的能量小于形成1mol NO释放的能量"},
-      {"label": "C", "text": "反应物的总能量高于生成物的总能量"},
-      {"label": "D", "text": "该反应在低温下更容易进行"}
+      {
+        "label": "A",
+        "text": "该反应是放热反应"
+      },
+      {
+        "label": "B",
+        "text": "断开1mol N≡N键吸收的能量小于形成1mol NO释放的能量"
+      },
+      {
+        "label": "C",
+        "text": "反应物的总能量高于生成物的总能量"
+      },
+      {
+        "label": "D",
+        "text": "该反应在低温下更容易进行"
+      }
     ],
     "answer": "B",
     "explanation": "△H>0表示该反应是吸热反应，反应物总能量低于生成物。断开化学键吸收能量，形成化学键释放能量。吸热说明断键吸收的能量大于成键释放的能量。该反应需要高温条件才能进行（雷固反应），因此D错误。",
-    "knowledgePoints": ["化学反应的热效应"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "化学反应的热效应"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-24",
     "type": "choice",
     "question": "已知：①C(s)+O₂(g)→CO₂(g) △H₁=-393.5kJ/mol ②CO(g)+½O₂(g)→CO₂(g) △H₂=-283kJ/mol 根据盖斯定律，C(s)+½O₂(g)→CO(g)的反应热△H为多少？",
     "options": [
-      {"label": "A", "text": "-110.5kJ/mol"},
-      {"label": "B", "text": "-676.5kJ/mol"},
-      {"label": "C", "text": "+110.5kJ/mol"},
-      {"label": "D", "text": "+676.5kJ/mol"}
+      {
+        "label": "A",
+        "text": "-110.5kJ/mol"
+      },
+      {
+        "label": "B",
+        "text": "-676.5kJ/mol"
+      },
+      {
+        "label": "C",
+        "text": "+110.5kJ/mol"
+      },
+      {
+        "label": "D",
+        "text": "+676.5kJ/mol"
+      }
     ],
     "answer": "A",
     "explanation": "根据盖斯定律，将反应①减去反应②即可得到目标反应：C(s)+½O₂(g)→CO(g)。因此△H=△H₁-△H₂=-393.5-(-283)=-110.5kJ/mol。生成CO是放热反应，正确答案为A选项。",
-    "knowledgePoints": ["盖斯定律与反应热"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "盖斯定律与反应热"
+    ],
+    "difficulty": 4
   },
   {
     "id": "chemistry-senior-high-25",
     "type": "choice",
     "question": "下列实验设计中，不合理的是？",
     "options": [
-      {"label": "A", "text": "用BaCl₂溶液鉴别Na₂SO₄和Na₂CO₃溶液"},
-      {"label": "B", "text": "用稀盐酸鉴别Na₂CO₃和NaHCO₃溶液"},
-      {"label": "C", "text": "用饱和Na₂CO₃溶液除去乙酸乙酯中的乙酸"},
-      {"label": "D", "text": "用分液漏斗分离互不相溶的两种液体"}
+      {
+        "label": "A",
+        "text": "用BaCl₂溶液鉴别Na₂SO₄和Na₂CO₃溶液"
+      },
+      {
+        "label": "B",
+        "text": "用稀盐酸鉴别Na₂CO₃和NaHCO₃溶液"
+      },
+      {
+        "label": "C",
+        "text": "用饱和Na₂CO₃溶液除去乙酸乙酯中的乙酸"
+      },
+      {
+        "label": "D",
+        "text": "用分液漏斗分离互不相溶的两种液体"
+      }
     ],
     "answer": "C",
     "explanation": "选项A：BaCl₂与Na₂SO₄生成BaSO₄白色沉淀，与Na₂CO₃生成BaCO₃白色沉淀但可溶于稀盐酸，可以鉴别。选项B：稀盐酸与Na₂CO₃反应生成气体，与NaHCO₃反应也生成气体，但NaHCO₃反应更剧烈。选项C：乙酸乙酯在饱和Na₂CO₃溶液中的溶解度不大，且Na₂CO₃不与乙酸乙酯反应但可以与乙酸反应...实际上饱和Na₂CO₃溶液可以降低乙酸乙酯的溶解度，同时与乙酸反应生成可溶性的醋酸钠和CO₂，因此可以除去乙酸。选项D：分液漏斗用于分离互不相溶的液体。",
-    "knowledgePoints": ["化学实验设计与评价"],
-    "difficulty": "hard"
+    "knowledgePoints": [
+      "化学实验设计与评价"
+    ],
+    "difficulty": 4
   }
 ]

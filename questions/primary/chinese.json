@@ -3,20 +3,20 @@
     "question": "下列加点字读音完全正确的一项是（）",
     "options": [
       {
-        "key": "A",
-        "text": "粗犷(kuàng)"
+        "text": "粗犷(kuàng)",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "栖(qī)息"
+        "text": "栖(qī)息",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "嗷嗷待哺(bǔ)"
+        "text": "嗷嗷待哺(bǔ)",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "以上都不对"
+        "text": "以上都不对",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -50,20 +50,20 @@
     "question": "'学习'的'学'是第几声？",
     "options": [
       {
-        "key": "A",
-        "text": "第一声"
+        "text": "第一声",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "第二声"
+        "text": "第二声",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "第三声"
+        "text": "第三声",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "第四声"
+        "text": "第四声",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -97,20 +97,20 @@
     "question": "下列汉字中笔画数最多的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "日"
+        "text": "日",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "月"
+        "text": "月",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "水"
+        "text": "水",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "山"
+        "text": "山",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -144,20 +144,20 @@
     "question": "'日'字的正确书写顺序是（）",
     "options": [
       {
-        "key": "A",
-        "text": "先横后竖"
+        "text": "先横后竖",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "先外后内"
+        "text": "先外后内",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "从上到下"
+        "text": "从上到下",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "从左到右"
+        "text": "从左到右",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -191,20 +191,20 @@
     "question": "下列词语中没有错别字的一项是（）",
     "options": [
       {
-        "key": "A",
-        "text": "花园 抄写"
+        "text": "花园 抄写",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "公圆 抄写"
+        "text": "公圆 抄写",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "花园 超写"
+        "text": "花园 超写",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "花圆 抄写"
+        "text": "花圆 抄写",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -239,20 +239,20 @@
     "question": "'不'字在朗读时声调是（）",
     "options": [
       {
-        "key": "A",
-        "text": "bù（四声）"
+        "text": "bù（四声）",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "bú（二声）"
+        "text": "bú（二声）",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "bǔ（三声）"
+        "text": "bǔ（三声）",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "bu（轻声）"
+        "text": "bu（轻声）",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -286,20 +286,20 @@
     "question": "下列汉字中属于形声字的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "人"
+        "text": "人",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "日"
+        "text": "日",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "花"
+        "text": "花",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "水"
+        "text": "水",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -333,20 +333,20 @@
     "question": "'鸟'字的最后一笔是（）",
     "options": [
       {
-        "key": "A",
-        "text": "横"
+        "text": "横",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "竖"
+        "text": "竖",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "点"
+        "text": "点",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "提"
+        "text": "提",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -380,20 +380,20 @@
     "question": "下列成语书写正确的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "坐井观天"
+        "text": "坐井观天",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "坐竟观天"
+        "text": "坐竟观天",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "坐前观天"
+        "text": "坐前观天",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "坐井睤天"
+        "text": "坐井睤天",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -427,20 +427,20 @@
     "question": "'欲穷千里目'的下一句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "更上一层楼"
+        "text": "更上一层楼",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "明月照我还"
+        "text": "明月照我还",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "登鹳雀楼"
+        "text": "登鹳雀楼",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "黄河入海流"
+        "text": "黄河入海流",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -474,20 +474,20 @@
     "question": "'粒粒皆辛苦'的上一句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "春种一粒粟"
+        "text": "春种一粒粟",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "锄禾日当午"
+        "text": "锄禾日当午",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "秋收万颗子"
+        "text": "秋收万颗子",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "农夫犹饿死"
+        "text": "农夫犹饿死",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -521,20 +521,20 @@
     "question": "'白日依山尽'的下一句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "黄河入海流"
+        "text": "黄河入海流",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "海上明月生"
+        "text": "海上明月生",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "欲穷千里目"
+        "text": "欲穷千里目",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "更上一层楼"
+        "text": "更上一层楼",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -568,20 +568,20 @@
     "question": "'春眠不觉晓'中'晓'的意思是（）",
     "options": [
       {
-        "key": "A",
-        "text": "早晨"
+        "text": "早晨",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "知道"
+        "text": "知道",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "天亮"
+        "text": "天亮",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "晚上"
+        "text": "晚上",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -615,20 +615,20 @@
     "question": "下列不属于唐代诗人的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "李白"
+        "text": "李白",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "杜甫"
+        "text": "杜甫",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "白居易"
+        "text": "白居易",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "苏轼"
+        "text": "苏轼",
+        "label": "D"
       }
     ],
     "answer": "D",
@@ -662,20 +662,20 @@
     "question": "'两个黄鹂鸣翠柳，一行白鹭上青天'出自谁的诗？",
     "options": [
       {
-        "key": "A",
-        "text": "李白"
+        "text": "李白",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "杜甫"
+        "text": "杜甫",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "王维"
+        "text": "王维",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "白居易"
+        "text": "白居易",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -709,20 +709,20 @@
     "question": "下列词语中'每'读音相同的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "每年 每人"
+        "text": "每年 每人",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "每天 美丽"
+        "text": "每天 美丽",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "每个 母亲"
+        "text": "每个 母亲",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "每周 美分"
+        "text": "每周 美分",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -757,20 +757,20 @@
     "question": "'人'字的书写笔画是（）",
     "options": [
       {
-        "key": "A",
-        "text": "两画：撇、捺"
+        "text": "两画：撇、捺",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "两画：横、竖"
+        "text": "两画：横、竖",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "三画：撇、捺、点"
+        "text": "三画：撇、捺、点",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "一画：竖弯钩"
+        "text": "一画：竖弯钩",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -804,20 +804,20 @@
     "question": "下列汉字与其声母对应错误的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "妈(m)"
+        "text": "妈(m)",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "花(h)"
+        "text": "花(h)",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "大(d)"
+        "text": "大(d)",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "书(s)"
+        "text": "书(s)",
+        "label": "D"
       }
     ],
     "answer": "D",
@@ -851,20 +851,20 @@
     "question": "'中国'两个字的声调组合是（）",
     "options": [
       {
-        "key": "A",
-        "text": "一声 二声"
+        "text": "一声 二声",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "一声 一声"
+        "text": "一声 一声",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "二声 一声"
+        "text": "二声 一声",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "一声 四声"
+        "text": "一声 四声",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -898,20 +898,20 @@
     "question": "下列哪组拼音整体认读音节最多？",
     "options": [
       {
-        "key": "A",
-        "text": "zhi chi shi ri"
+        "text": "zhi chi shi ri",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "zi ci si"
+        "text": "zi ci si",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "yi wu yu"
+        "text": "yi wu yu",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "ye yue yuan"
+        "text": "ye yue yuan",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -945,20 +945,20 @@
     "question": "'床前明月光'的下一句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "疑是地上霜"
+        "text": "疑是地上霜",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "举头望明月"
+        "text": "举头望明月",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "低头思故乡"
+        "text": "低头思故乡",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "明月照故乡"
+        "text": "明月照故乡",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -992,20 +992,20 @@
     "question": "《咏鹅》诗中'曲项向天歌'的'曲'读音是（）",
     "options": [
       {
-        "key": "A",
-        "text": "qū"
+        "text": "qū",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "qǔ"
+        "text": "qǔ",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "qu"
+        "text": "qu",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "qū和qǔ都对"
+        "text": "qū和qǔ都对",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1039,20 +1039,20 @@
     "question": "'一寸光阴一寸金'的上句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "读书破万卷"
+        "text": "读书破万卷",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "春去花还在"
+        "text": "春去花还在",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "少年易学老难成"
+        "text": "少年易学老难成",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "明日复明日"
+        "text": "明日复明日",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1086,20 +1086,20 @@
     "question": "下列汉字中不是上下结构的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "花"
+        "text": "花",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "草"
+        "text": "草",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "树"
+        "text": "树",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "李"
+        "text": "李",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1133,20 +1133,20 @@
     "question": "'碧'字的部首是（）",
     "options": [
       {
-        "key": "A",
-        "text": "白"
+        "text": "白",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "石"
+        "text": "石",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "王"
+        "text": "王",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "十"
+        "text": "十",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1180,20 +1180,20 @@
     "question": "下列词语中'张'字意思相同的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "张老师 纸张"
+        "text": "张老师 纸张",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "张开 张望"
+        "text": "张开 张望",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "一张纸 改弦更张"
+        "text": "一张纸 改弦更张",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "东张西望 张灯结彩"
+        "text": "东张西望 张灯结彩",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1227,20 +1227,20 @@
     "question": "成语'守株待兔'出自（）",
     "options": [
       {
-        "key": "A",
-        "text": "《韩非子》"
+        "text": "《韩非子》",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "《论语》"
+        "text": "《论语》",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "《庄子》"
+        "text": "《庄子》",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "《孟子》"
+        "text": "《孟子》",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1274,20 +1274,20 @@
     "question": "'亡羊补牢'中'亡'的意思是（）",
     "options": [
       {
-        "key": "A",
-        "text": "死亡"
+        "text": "死亡",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "逃跑"
+        "text": "逃跑",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "丢失"
+        "text": "丢失",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "灭亡"
+        "text": "灭亡",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1321,20 +1321,20 @@
     "question": "下列成语中不含近义词的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "眼疾手快"
+        "text": "眼疾手快",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "东奔西走"
+        "text": "东奔西走",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "大材小用"
+        "text": "大材小用",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "甜言蜜语"
+        "text": "甜言蜜语",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1369,20 +1369,20 @@
     "question": "'狐假虎威'这个成语的意思是（）",
     "options": [
       {
-        "key": "A",
-        "text": "狐狸很勇敢"
+        "text": "狐狸很勇敢",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "借着别人的势力欺压人"
+        "text": "借着别人的势力欺压人",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "老虎很威风"
+        "text": "老虎很威风",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "狐狸和老虎都很威风"
+        "text": "狐狸和老虎都很威风",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1416,20 +1416,20 @@
     "question": "阅读短文：春天来了，小草绿了，花儿开了。小鸟在树上唱歌，小鱼在水里游来游去。问：短文描写的是哪个季节？",
     "options": [
       {
-        "key": "A",
-        "text": "夏天"
+        "text": "夏天",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "秋天"
+        "text": "秋天",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "春天"
+        "text": "春天",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "冬天"
+        "text": "冬天",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1463,20 +1463,20 @@
     "question": "阅读短文：小明今天忘记带书包了，他很着急。老师知道了，帮他想办法。问：小明为什么着急？",
     "options": [
       {
-        "key": "A",
-        "text": "因为生病了"
+        "text": "因为生病了",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "因为忘记带书包"
+        "text": "因为忘记带书包",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "因为作业太多"
+        "text": "因为作业太多",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "因为下雨了"
+        "text": "因为下雨了",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1510,20 +1510,20 @@
     "question": "'举世闻名'中'举'的意思是（）",
     "options": [
       {
-        "key": "A",
-        "text": "抬起"
+        "text": "抬起",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "全"
+        "text": "全",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "推荐"
+        "text": "推荐",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "举动"
+        "text": "举动",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1557,20 +1557,20 @@
     "question": "下列汉字中'口'作偏旁时在下方的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "吃"
+        "text": "吃",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "喝"
+        "text": "喝",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "吹"
+        "text": "吹",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "哥"
+        "text": "哥",
+        "label": "D"
       }
     ],
     "answer": "D",
@@ -1604,20 +1604,20 @@
     "question": "'春回大地，万物复苏'中'复苏'的意思是（）",
     "options": [
       {
-        "key": "A",
-        "text": "重新生存"
+        "text": "重新生存",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "春天回来了"
+        "text": "春天回来了",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "睡醒了"
+        "text": "睡醒了",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "又活了"
+        "text": "又活了",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1651,20 +1651,20 @@
     "question": "下列古诗中描写春天景色的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "《江雪》"
+        "text": "《江雪》",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "《静夜思》"
+        "text": "《静夜思》",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "《春晓》"
+        "text": "《春晓》",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "《山行》"
+        "text": "《山行》",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1698,20 +1698,20 @@
     "question": "'飞流直下三千尺'出自哪首诗？",
     "options": [
       {
-        "key": "A",
-        "text": "《望庐山瀑布》"
+        "text": "《望庐山瀑布》",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "《早发白帝城》"
+        "text": "《早发白帝城》",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "《黄鹤楼送孟浩然之广陵》"
+        "text": "《黄鹤楼送孟浩然之广陵》",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "《静夜思》"
+        "text": "《静夜思》",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1745,20 +1745,20 @@
     "question": "'桃花潭水深千尺'下一句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "不及汪伦送我情"
+        "text": "不及汪伦送我情",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "汪伦送我情"
+        "text": "汪伦送我情",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "情深似海"
+        "text": "情深似海",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "潭水三千尺"
+        "text": "潭水三千尺",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1792,20 +1792,20 @@
     "question": "下列哪个字既是上下结构又是左右结构？",
     "options": [
       {
-        "key": "A",
-        "text": "日"
+        "text": "日",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "月"
+        "text": "月",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "明"
+        "text": "明",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "以上都不是"
+        "text": "以上都不是",
+        "label": "D"
       }
     ],
     "answer": "D",
@@ -1839,20 +1839,20 @@
     "question": "'数(shǔ)一数(shù)'中两个'数'的读音分别是（）",
     "options": [
       {
-        "key": "A",
-        "text": "shǔ shù"
+        "text": "shǔ shù",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "shù shǔ"
+        "text": "shù shǔ",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "shǔ shǔ"
+        "text": "shǔ shǔ",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "shù shù"
+        "text": "shù shù",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1886,20 +1886,20 @@
     "question": "'一本书'的'本'是量词，它原来指的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "书"
+        "text": "书",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "草木的根"
+        "text": "草木的根",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "事物的根本"
+        "text": "事物的根本",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "根本"
+        "text": "根本",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1933,20 +1933,20 @@
     "question": "《游子吟》诗中'谁言寸草心'的下一句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "报得三春晖"
+        "text": "报得三春晖",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "寸草报春晖"
+        "text": "寸草报春晖",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "春晖照我还"
+        "text": "春晖照我还",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "三春晖"
+        "text": "三春晖",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1980,20 +1980,20 @@
     "question": "'千山鸟飞绝'的下一句是（）",
     "options": [
       {
-        "key": "A",
-        "text": "万径人踪灭"
+        "text": "万径人踪灭",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "鸟飞千山绝"
+        "text": "鸟飞千山绝",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "独钓寒江雪"
+        "text": "独钓寒江雪",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "孤舟蓑笠翁"
+        "text": "孤舟蓑笠翁",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2027,20 +2027,20 @@
     "question": "'读书百遍，其义自见'中'见'的读音是（）",
     "options": [
       {
-        "key": "A",
-        "text": "jiàn"
+        "text": "jiàn",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "xiàn"
+        "text": "xiàn",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "jiān"
+        "text": "jiān",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "xián"
+        "text": "xián",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -2074,20 +2074,20 @@
     "question": "下列词语中'害'字意思不同的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "伤害"
+        "text": "伤害",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "害虫"
+        "text": "害虫",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "害羞"
+        "text": "害羞",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "害怕"
+        "text": "害怕",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -2121,20 +2121,20 @@
     "question": "'千里迢迢'中'迢迢'的意思是（）",
     "options": [
       {
-        "key": "A",
-        "text": "很远很远"
+        "text": "很远很远",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "快快"
+        "text": "快快",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "慢慢"
+        "text": "慢慢",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "高高兴兴"
+        "text": "高高兴兴",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2168,20 +2168,20 @@
     "question": "'入木三分'这个成语典故与谁有关？",
     "options": [
       {
-        "key": "A",
-        "text": "王羲之"
+        "text": "王羲之",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "柳公权"
+        "text": "柳公权",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "颜真卿"
+        "text": "颜真卿",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "欧阳询"
+        "text": "欧阳询",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2215,20 +2215,20 @@
     "question": "阅读短文：动物学校报名了！有乌龟、兔子、小松鼠等。兔子跑得很快，乌龟爬得很慢。问：谁跑得更快？",
     "options": [
       {
-        "key": "A",
-        "text": "乌龟"
+        "text": "乌龟",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "兔子"
+        "text": "兔子",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "小松鼠"
+        "text": "小松鼠",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "不知道"
+        "text": "不知道",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -2262,20 +2262,20 @@
     "question": "'年年有余'中'余'的意思是（）",
     "options": [
       {
-        "key": "A",
-        "text": "多余"
+        "text": "多余",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "剩下"
+        "text": "剩下",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "我"
+        "text": "我",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "以后"
+        "text": "以后",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -2309,20 +2309,20 @@
     "question": "下列汉字中与'书'字结构相同的是（）",
     "options": [
       {
-        "key": "A",
-        "text": "字"
+        "text": "字",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "好"
+        "text": "好",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "明"
+        "text": "明",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "田"
+        "text": "田",
+        "label": "D"
       }
     ],
     "answer": "D",

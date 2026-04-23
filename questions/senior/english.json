@@ -3,20 +3,20 @@
     "question": "The teacher asked the students _____ their homework carefully.",
     "options": [
       {
-        "key": "A",
-        "text": "to complete"
+        "text": "to complete",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "completing"
+        "text": "completing",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "complete"
+        "text": "complete",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "completed"
+        "text": "completed",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -30,20 +30,20 @@
     "question": "If it _____ tomorrow, we will stay at home.",
     "options": [
       {
-        "key": "A",
-        "text": "rains"
+        "text": "rains",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "will rain"
+        "text": "will rain",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "rained"
+        "text": "rained",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "is raining"
+        "text": "is raining",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -58,20 +58,20 @@
     "question": "She has lived in Beijing _____ 2010.",
     "options": [
       {
-        "key": "A",
-        "text": "since"
+        "text": "since",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "for"
+        "text": "for",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "in"
+        "text": "in",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "on"
+        "text": "on",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -85,20 +85,20 @@
     "question": "The book _____ on the desk is mine.",
     "options": [
       {
-        "key": "A",
-        "text": "lying"
+        "text": "lying",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "lies"
+        "text": "lies",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "lay"
+        "text": "lay",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "lain"
+        "text": "lain",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -112,20 +112,20 @@
     "question": "Neither the teacher nor the students _____ happy.",
     "options": [
       {
-        "key": "A",
-        "text": "are"
+        "text": "are",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "is"
+        "text": "is",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "am"
+        "text": "am",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "be"
+        "text": "be",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -139,20 +139,20 @@
     "question": "I would appreciate _____ if you could help me.",
     "options": [
       {
-        "key": "A",
-        "text": "it"
+        "text": "it",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "that"
+        "text": "that",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "this"
+        "text": "this",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "them"
+        "text": "them",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -167,20 +167,20 @@
     "question": "The man _____ leg was broken is a famous athlete.",
     "options": [
       {
-        "key": "A",
-        "text": "whose"
+        "text": "whose",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "who"
+        "text": "who",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "which"
+        "text": "which",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "that"
+        "text": "that",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -194,20 +194,20 @@
     "question": "_____ it is raining heavily, we still went out.",
     "options": [
       {
-        "key": "A",
-        "text": "Although"
+        "text": "Although",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "Because"
+        "text": "Because",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "Unless"
+        "text": "Unless",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "If"
+        "text": "If",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -221,20 +221,20 @@
     "question": "He has finished the work _____.",
     "options": [
       {
-        "key": "A",
-        "text": "already"
+        "text": "already",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "still"
+        "text": "still",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "yet"
+        "text": "yet",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "ever"
+        "text": "ever",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -249,20 +249,20 @@
     "question": "The building _____ last year looks beautiful.",
     "options": [
       {
-        "key": "A",
-        "text": "built"
+        "text": "built",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "was built"
+        "text": "was built",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "builds"
+        "text": "builds",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "building"
+        "text": "building",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -276,20 +276,20 @@
     "question": "_____ of the students passed the exam.",
     "options": [
       {
-        "key": "A",
-        "text": "Two thirds"
+        "text": "Two thirds",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "Two third"
+        "text": "Two third",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "Second thirds"
+        "text": "Second thirds",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "Two three"
+        "text": "Two three",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -303,20 +303,20 @@
     "question": "It is necessary that everyone _____ the rules.",
     "options": [
       {
-        "key": "A",
-        "text": "obeys"
+        "text": "obeys",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "obey"
+        "text": "obey",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "obeyed"
+        "text": "obeyed",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "obeying"
+        "text": "obeying",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -330,20 +330,20 @@
     "question": "The movie is worth _____ again.",
     "options": [
       {
-        "key": "A",
-        "text": "watching"
+        "text": "watching",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "to watch"
+        "text": "to watch",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "watch"
+        "text": "watch",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "watched"
+        "text": "watched",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -357,20 +357,20 @@
     "question": "She looks sad. Something must have _____.",
     "options": [
       {
-        "key": "A",
-        "text": "gone wrong"
+        "text": "gone wrong",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "gone away"
+        "text": "gone away",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "gone out"
+        "text": "gone out",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "gone off"
+        "text": "gone off",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -384,20 +384,20 @@
     "question": "He had no sooner arrived _____ he wanted to leave.",
     "options": [
       {
-        "key": "A",
-        "text": "than"
+        "text": "than",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "when"
+        "text": "when",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "after"
+        "text": "after",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "before"
+        "text": "before",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -411,20 +411,20 @@
     "question": "I suggest that he _____ the meeting right now.",
     "options": [
       {
-        "key": "A",
-        "text": "attend"
+        "text": "attend",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "attends"
+        "text": "attends",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "attended"
+        "text": "attended",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "attending"
+        "text": "attending",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -438,20 +438,20 @@
     "question": "The boy is too young to _____ himself.",
     "options": [
       {
-        "key": "A",
-        "text": "dress"
+        "text": "dress",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "wear"
+        "text": "wear",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "put on"
+        "text": "put on",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "have on"
+        "text": "have on",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -465,20 +465,20 @@
     "question": "I haven't seen her _____ three years ago.",
     "options": [
       {
-        "key": "A",
-        "text": "since"
+        "text": "since",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "for"
+        "text": "for",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "during"
+        "text": "during",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "within"
+        "text": "within",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -493,20 +493,20 @@
     "question": "The reason _____ he was late is that he missed the bus.",
     "options": [
       {
-        "key": "A",
-        "text": "why"
+        "text": "why",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "that"
+        "text": "that",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "which"
+        "text": "which",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "because"
+        "text": "because",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -520,20 +520,20 @@
     "question": "She speaks English _____ her mother does.",
     "options": [
       {
-        "key": "A",
-        "text": "as well as"
+        "text": "as well as",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "so well as"
+        "text": "so well as",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "more well than"
+        "text": "more well than",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "weller than"
+        "text": "weller than",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -547,20 +547,20 @@
     "question": "The room needs _____, but we plan to wait until next year.",
     "options": [
       {
-        "key": "A",
-        "text": "painting"
+        "text": "painting",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "to paint"
+        "text": "to paint",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "painted"
+        "text": "painted",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "paint"
+        "text": "paint",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -574,20 +574,20 @@
     "question": "I would have helped you _____ you told me.",
     "options": [
       {
-        "key": "A",
-        "text": "if"
+        "text": "if",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "unless"
+        "text": "unless",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "though"
+        "text": "though",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "because"
+        "text": "because",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -601,20 +601,20 @@
     "question": "He asked me where I _____.",
     "options": [
       {
-        "key": "A",
-        "text": "lived"
+        "text": "lived",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "live"
+        "text": "live",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "am living"
+        "text": "am living",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "was living"
+        "text": "was living",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -628,20 +628,20 @@
     "question": "_____ the work, he went home.",
     "options": [
       {
-        "key": "A",
-        "text": "Having finished"
+        "text": "Having finished",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "Finished"
+        "text": "Finished",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "Finishing"
+        "text": "Finishing",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "To finish"
+        "text": "To finish",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -655,20 +655,20 @@
     "question": "It was at the school _____ I studied hard.",
     "options": [
       {
-        "key": "A",
-        "text": "that"
+        "text": "that",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "where"
+        "text": "where",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "which"
+        "text": "which",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "when"
+        "text": "when",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -682,20 +682,20 @@
     "question": "I have never seen _____ film before.",
     "options": [
       {
-        "key": "A",
-        "text": "such an exciting"
+        "text": "such an exciting",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "so an exciting"
+        "text": "so an exciting",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "such exciting"
+        "text": "such exciting",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "a such exciting"
+        "text": "a such exciting",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -709,20 +709,20 @@
     "question": "The boy would have died _____ the doctor's arrival.",
     "options": [
       {
-        "key": "A",
-        "text": "but for"
+        "text": "but for",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "if not"
+        "text": "if not",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "without"
+        "text": "without",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "except"
+        "text": "except",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -736,20 +736,20 @@
     "question": "She has a gift for _____ languages.",
     "options": [
       {
-        "key": "A",
-        "text": "learning"
+        "text": "learning",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "learn"
+        "text": "learn",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "learned"
+        "text": "learned",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to learn"
+        "text": "to learn",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -763,20 +763,20 @@
     "question": "The teacher said that light _____ faster than sound.",
     "options": [
       {
-        "key": "A",
-        "text": "travels"
+        "text": "travels",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "traveled"
+        "text": "traveled",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "is traveling"
+        "text": "is traveling",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "has traveled"
+        "text": "has traveled",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -791,20 +791,20 @@
     "question": "I would rather you _____ tomorrow.",
     "options": [
       {
-        "key": "A",
-        "text": "came"
+        "text": "came",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "come"
+        "text": "come",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "would come"
+        "text": "would come",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to come"
+        "text": "to come",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -818,20 +818,20 @@
     "question": "The old man has three sons, _____ is a doctor.",
     "options": [
       {
-        "key": "A",
-        "text": "one of whom"
+        "text": "one of whom",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "one of which"
+        "text": "one of which",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "a one of them"
+        "text": "a one of them",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "one of them"
+        "text": "one of them",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -845,20 +845,20 @@
     "question": "It's time we _____ something to protect the environment.",
     "options": [
       {
-        "key": "A",
-        "text": "did"
+        "text": "did",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "do"
+        "text": "do",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "would do"
+        "text": "would do",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "have done"
+        "text": "have done",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -872,20 +872,20 @@
     "question": "He got up early _____ he could catch the first bus.",
     "options": [
       {
-        "key": "A",
-        "text": "in order that"
+        "text": "in order that",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "so that"
+        "text": "so that",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "both A and B"
+        "text": "both A and B",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "neither A nor B"
+        "text": "neither A nor B",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -899,20 +899,20 @@
     "question": "The weather in Beijing is different from _____ in Guangzhou.",
     "options": [
       {
-        "key": "A",
-        "text": "that"
+        "text": "that",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "it"
+        "text": "it",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "one"
+        "text": "one",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "this"
+        "text": "this",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -926,20 +926,20 @@
     "question": "She had hardly sat down _____ the phone rang.",
     "options": [
       {
-        "key": "A",
-        "text": "when"
+        "text": "when",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "than"
+        "text": "than",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "after"
+        "text": "after",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "as"
+        "text": "as",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -953,20 +953,20 @@
     "question": "The book is _____ of the two.",
     "options": [
       {
-        "key": "A",
-        "text": "the more interesting"
+        "text": "the more interesting",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "more interesting"
+        "text": "more interesting",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "most interesting"
+        "text": "most interesting",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "interesting"
+        "text": "interesting",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -980,20 +980,20 @@
     "question": "He was about to leave _____ the doorbell rang.",
     "options": [
       {
-        "key": "A",
-        "text": "when"
+        "text": "when",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "as"
+        "text": "as",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "than"
+        "text": "than",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "while"
+        "text": "while",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1008,20 +1008,20 @@
     "question": "_____ the day went on, the weather got worse.",
     "options": [
       {
-        "key": "A",
-        "text": "With"
+        "text": "With",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "As"
+        "text": "As",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "Since"
+        "text": "Since",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "Because"
+        "text": "Because",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1035,20 +1035,20 @@
     "question": "I have no idea _____.",
     "options": [
       {
-        "key": "A",
-        "text": "when he will come"
+        "text": "when he will come",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "when he comes"
+        "text": "when he comes",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "when did he come"
+        "text": "when did he come",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "when will he come"
+        "text": "when will he come",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1062,20 +1062,20 @@
     "question": "She is the only one of the girls who _____ the piano well.",
     "options": [
       {
-        "key": "A",
-        "text": "plays"
+        "text": "plays",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "play"
+        "text": "play",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "played"
+        "text": "played",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "has played"
+        "text": "has played",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1089,20 +1089,20 @@
     "question": "The man insisted that he _____ nothing wrong.",
     "options": [
       {
-        "key": "A",
-        "text": "had done"
+        "text": "had done",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "has done"
+        "text": "has done",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "did"
+        "text": "did",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "does"
+        "text": "does",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1117,20 +1117,20 @@
     "question": "The teacher told us that light _____ in straight lines.",
     "options": [
       {
-        "key": "A",
-        "text": "travels"
+        "text": "travels",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "traveled"
+        "text": "traveled",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "is traveling"
+        "text": "is traveling",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "was traveling"
+        "text": "was traveling",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1145,20 +1145,20 @@
     "question": "_____ the truth, he would not have believed you.",
     "options": [
       {
-        "key": "A",
-        "text": "Had he known"
+        "text": "Had he known",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "If he knew"
+        "text": "If he knew",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "If he has known"
+        "text": "If he has known",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "Would he have known"
+        "text": "Would he have known",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1173,20 +1173,20 @@
     "question": "_____ beautiful the flower is!",
     "options": [
       {
-        "key": "A",
-        "text": "What"
+        "text": "What",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "How"
+        "text": "How",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "What a"
+        "text": "What a",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "How a"
+        "text": "How a",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1200,20 +1200,20 @@
     "question": "I remember _____ her somewhere before.",
     "options": [
       {
-        "key": "A",
-        "text": "meeting"
+        "text": "meeting",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "to meet"
+        "text": "to meet",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "meet"
+        "text": "meet",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "met"
+        "text": "met",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1227,20 +1227,20 @@
     "question": "The girl _____ by the window is my sister.",
     "options": [
       {
-        "key": "A",
-        "text": "sitting"
+        "text": "sitting",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "sits"
+        "text": "sits",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "sat"
+        "text": "sat",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to sit"
+        "text": "to sit",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1254,20 +1254,20 @@
     "question": "He asked me if I knew whose car _____.",
     "options": [
       {
-        "key": "A",
-        "text": "this was"
+        "text": "this was",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "this is"
+        "text": "this is",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "it was"
+        "text": "it was",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "it is"
+        "text": "it is",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1281,20 +1281,20 @@
     "question": "_____ the project, they decided to have a celebration.",
     "options": [
       {
-        "key": "A",
-        "text": "Having completed"
+        "text": "Having completed",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "Completing"
+        "text": "Completing",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "To complete"
+        "text": "To complete",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "Completed"
+        "text": "Completed",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1308,20 +1308,20 @@
     "question": "We should keep the window _____.",
     "options": [
       {
-        "key": "A",
-        "text": "open"
+        "text": "open",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "opened"
+        "text": "opened",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "opening"
+        "text": "opening",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to open"
+        "text": "to open",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1336,20 +1336,20 @@
     "question": "It is no use _____ over spilt milk.",
     "options": [
       {
-        "key": "A",
-        "text": "crying"
+        "text": "crying",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "cry"
+        "text": "cry",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "cried"
+        "text": "cried",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to cry"
+        "text": "to cry",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1363,20 +1363,20 @@
     "question": "She has difficulty in learning _____, which is very popular nowadays.",
     "options": [
       {
-        "key": "A",
-        "text": "AI"
+        "text": "AI",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "an AI"
+        "text": "an AI",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "the AI"
+        "text": "the AI",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "AIs"
+        "text": "AIs",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1390,20 +1390,20 @@
     "question": "This is the very book _____ I lost yesterday.",
     "options": [
       {
-        "key": "A",
-        "text": "that"
+        "text": "that",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "which"
+        "text": "which",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "who"
+        "text": "who",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "whom"
+        "text": "whom",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1417,20 +1417,20 @@
     "question": "He acted as if he _____ everything in the world.",
     "options": [
       {
-        "key": "A",
-        "text": "knew"
+        "text": "knew",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "knows"
+        "text": "knows",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "has known"
+        "text": "has known",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "known"
+        "text": "known",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1444,20 +1444,20 @@
     "question": "The children were excited _____ the cartoon.",
     "options": [
       {
-        "key": "A",
-        "text": "to watch"
+        "text": "to watch",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "watching"
+        "text": "watching",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "watch"
+        "text": "watch",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "watched"
+        "text": "watched",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1471,20 +1471,20 @@
     "question": "The teacher asked the new student _____.",
     "options": [
       {
-        "key": "A",
-        "text": "where did he come from"
+        "text": "where did he come from",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "where he came from"
+        "text": "where he came from",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "where does he come from"
+        "text": "where does he come from",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "where he comes from"
+        "text": "where he comes from",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -1498,20 +1498,20 @@
     "question": "It is reported that the president _____ Beijing tomorrow.",
     "options": [
       {
-        "key": "A",
-        "text": "will visit"
+        "text": "will visit",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "visits"
+        "text": "visits",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "visited"
+        "text": "visited",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "is visiting"
+        "text": "is visiting",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1526,20 +1526,20 @@
     "question": "He ran too quickly for us _____.",
     "options": [
       {
-        "key": "A",
-        "text": "to catch"
+        "text": "to catch",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "catch"
+        "text": "catch",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "caught"
+        "text": "caught",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "catching"
+        "text": "catching",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1553,20 +1553,20 @@
     "question": "_____ is known to all, China is a developing country.",
     "options": [
       {
-        "key": "A",
-        "text": "As"
+        "text": "As",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "It"
+        "text": "It",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "Which"
+        "text": "Which",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "That"
+        "text": "That",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1580,20 +1580,20 @@
     "question": "I would appreciate _____ very much if you could give me a hand.",
     "options": [
       {
-        "key": "A",
-        "text": "that"
+        "text": "that",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "this"
+        "text": "this",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "it"
+        "text": "it",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "them"
+        "text": "them",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1607,20 +1607,20 @@
     "question": "He made up his mind to work harder to _____ the lost time.",
     "options": [
       {
-        "key": "A",
-        "text": "make up for"
+        "text": "make up for",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "make out"
+        "text": "make out",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "make up"
+        "text": "make up",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "make over"
+        "text": "make over",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1634,20 +1634,20 @@
     "question": "The student denied _____ the book from the library.",
     "options": [
       {
-        "key": "A",
-        "text": "having taken"
+        "text": "having taken",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "taking"
+        "text": "taking",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "to take"
+        "text": "to take",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "took"
+        "text": "took",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1661,20 +1661,20 @@
     "question": "We must study hard _____ we can serve our country better.",
     "options": [
       {
-        "key": "A",
-        "text": "in order that"
+        "text": "in order that",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "now that"
+        "text": "now that",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "since that"
+        "text": "since that",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "that"
+        "text": "that",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1688,20 +1688,20 @@
     "question": "The concert was _____ success.",
     "options": [
       {
-        "key": "A",
-        "text": "a great"
+        "text": "a great",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "great"
+        "text": "great",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "very great"
+        "text": "very great",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "greatly"
+        "text": "greatly",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1715,20 +1715,20 @@
     "question": "He has difficulty _____ the problem.",
     "options": [
       {
-        "key": "A",
-        "text": "solving"
+        "text": "solving",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "to solve"
+        "text": "to solve",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "solve"
+        "text": "solve",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "solved"
+        "text": "solved",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1742,20 +1742,20 @@
     "question": "The book _____ on the shelf is very interesting.",
     "options": [
       {
-        "key": "A",
-        "text": "to lie"
+        "text": "to lie",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "lies"
+        "text": "lies",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "lying"
+        "text": "lying",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to be lying"
+        "text": "to be lying",
+        "label": "D"
       }
     ],
     "answer": "C",
@@ -1769,20 +1769,20 @@
     "question": "If I _____ you, I would take this job.",
     "options": [
       {
-        "key": "A",
-        "text": "were"
+        "text": "were",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "am"
+        "text": "am",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "was"
+        "text": "was",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "are"
+        "text": "are",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1796,20 +1796,20 @@
     "question": "He is not such a man _____ would tell a lie.",
     "options": [
       {
-        "key": "A",
-        "text": "as"
+        "text": "as",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "who"
+        "text": "who",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "that"
+        "text": "that",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "whom"
+        "text": "whom",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1823,20 +1823,20 @@
     "question": "My parents insisted that I _____ at home.",
     "options": [
       {
-        "key": "A",
-        "text": "stay"
+        "text": "stay",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "stayed"
+        "text": "stayed",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "staying"
+        "text": "staying",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "stays"
+        "text": "stays",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1850,20 +1850,20 @@
     "question": "The boy spent the whole morning _____ the puzzle.",
     "options": [
       {
-        "key": "A",
-        "text": "working on"
+        "text": "working on",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "working out"
+        "text": "working out",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "working up"
+        "text": "working up",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "working with"
+        "text": "working with",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1877,20 +1877,20 @@
     "question": "I would rather you _____ the plan.",
     "options": [
       {
-        "key": "A",
-        "text": "didn't change"
+        "text": "didn't change",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "don't change"
+        "text": "don't change",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "won't change"
+        "text": "won't change",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "not change"
+        "text": "not change",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1904,20 +1904,20 @@
     "question": "He walked into the room without _____.",
     "options": [
       {
-        "key": "A",
-        "text": "being noticed"
+        "text": "being noticed",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "noticing"
+        "text": "noticing",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "notice"
+        "text": "notice",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "noticed"
+        "text": "noticed",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1931,20 +1931,20 @@
     "question": "He is said _____ abroad, but I don't know which country he studied in.",
     "options": [
       {
-        "key": "A",
-        "text": "to have studied"
+        "text": "to have studied",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "to study"
+        "text": "to study",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "to be studying"
+        "text": "to be studying",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to have been studying"
+        "text": "to have been studying",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1958,20 +1958,20 @@
     "question": "The reason for his absence was _____ he was ill.",
     "options": [
       {
-        "key": "A",
-        "text": "that"
+        "text": "that",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "because"
+        "text": "because",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "why"
+        "text": "why",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "whether"
+        "text": "whether",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -1985,20 +1985,20 @@
     "question": "_____ for your help, I wouldn't have passed the exam.",
     "options": [
       {
-        "key": "A",
-        "text": "Hadn't it been"
+        "text": "Hadn't it been",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "If it were not"
+        "text": "If it were not",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "If you weren't"
+        "text": "If you weren't",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "Had it not been"
+        "text": "Had it not been",
+        "label": "D"
       }
     ],
     "answer": "D",
@@ -2013,20 +2013,20 @@
     "question": "It is essential that everyone _____ the meeting on time.",
     "options": [
       {
-        "key": "A",
-        "text": "attend"
+        "text": "attend",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "attends"
+        "text": "attends",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "attended"
+        "text": "attended",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "attending"
+        "text": "attending",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2040,20 +2040,20 @@
     "question": "The police found the missing child _____ under a tree.",
     "options": [
       {
-        "key": "A",
-        "text": "sleeping"
+        "text": "sleeping",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "asleep"
+        "text": "asleep",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "slept"
+        "text": "slept",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to sleep"
+        "text": "to sleep",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2067,20 +2067,20 @@
     "question": "He went to the party _____ his teacher's advice.",
     "options": [
       {
-        "key": "A",
-        "text": "against"
+        "text": "against",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "for"
+        "text": "for",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "without"
+        "text": "without",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "by"
+        "text": "by",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2094,20 +2094,20 @@
     "question": "He broke the window and was made _____ it.",
     "options": [
       {
-        "key": "A",
-        "text": "to pay for"
+        "text": "to pay for",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "pay for"
+        "text": "pay for",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "paid for"
+        "text": "paid for",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "paying for"
+        "text": "paying for",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2122,20 +2122,20 @@
     "question": "I have no money and _____ books.",
     "options": [
       {
-        "key": "A",
-        "text": "neither does he"
+        "text": "neither does he",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "neither he does"
+        "text": "neither he does",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "so does he"
+        "text": "so does he",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "so he does"
+        "text": "so he does",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2149,20 +2149,20 @@
     "question": "He is the only one of the students who _____ elected.",
     "options": [
       {
-        "key": "A",
-        "text": "have been"
+        "text": "have been",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "has been"
+        "text": "has been",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "is"
+        "text": "is",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "are"
+        "text": "are",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -2177,20 +2177,20 @@
     "question": "The doctor suggested that he _____ smoking.",
     "options": [
       {
-        "key": "A",
-        "text": "give up"
+        "text": "give up",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "gives up"
+        "text": "gives up",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "gave up"
+        "text": "gave up",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "giving up"
+        "text": "giving up",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2204,20 +2204,20 @@
     "question": "The little girl is too shy to _____ in public.",
     "options": [
       {
-        "key": "A",
-        "text": "speak up"
+        "text": "speak up",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "speak out"
+        "text": "speak out",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "talk about"
+        "text": "talk about",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "say"
+        "text": "say",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2231,20 +2231,20 @@
     "question": "She regrets _____ you that your application has been rejected.",
     "options": [
       {
-        "key": "A",
-        "text": "to inform"
+        "text": "to inform",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "informing"
+        "text": "informing",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "to have informed"
+        "text": "to have informed",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "having informed"
+        "text": "having informed",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2258,20 +2258,20 @@
     "question": "I saw him _____ the road when I passed by.",
     "options": [
       {
-        "key": "A",
-        "text": "cross"
+        "text": "cross",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "to cross"
+        "text": "to cross",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "crossing"
+        "text": "crossing",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "crossed"
+        "text": "crossed",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2285,20 +2285,20 @@
     "question": "The teacher walked into the classroom, _____ by his students.",
     "options": [
       {
-        "key": "A",
-        "text": "following"
+        "text": "following",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "followed"
+        "text": "followed",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "to follow"
+        "text": "to follow",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "follows"
+        "text": "follows",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -2312,20 +2312,20 @@
     "question": "He is not fond of _____ music.",
     "options": [
       {
-        "key": "A",
-        "text": "classical"
+        "text": "classical",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "a classical"
+        "text": "a classical",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "classicals"
+        "text": "classicals",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "the classical"
+        "text": "the classical",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2339,20 +2339,20 @@
     "question": "I used to _____ a lot of coffee when I was young.",
     "options": [
       {
-        "key": "A",
-        "text": "drink"
+        "text": "drink",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "drinking"
+        "text": "drinking",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "drank"
+        "text": "drank",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "drunk"
+        "text": "drunk",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2366,20 +2366,20 @@
     "question": "The book _____ on this subject is worth reading.",
     "options": [
       {
-        "key": "A",
-        "text": "written"
+        "text": "written",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "writing"
+        "text": "writing",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "to write"
+        "text": "to write",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to be written"
+        "text": "to be written",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2393,20 +2393,20 @@
     "question": "He didn't come to class, _____ made the teacher angry.",
     "options": [
       {
-        "key": "A",
-        "text": "which"
+        "text": "which",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "that"
+        "text": "that",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "what"
+        "text": "what",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "who"
+        "text": "who",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2420,20 +2420,20 @@
     "question": "_____ the exam, he went to the library.",
     "options": [
       {
-        "key": "A",
-        "text": "Having finished"
+        "text": "Having finished",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "Finished"
+        "text": "Finished",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "Finishing"
+        "text": "Finishing",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "To finish"
+        "text": "To finish",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2447,20 +2447,20 @@
     "question": "It is said that he _____ the novel into English already.",
     "options": [
       {
-        "key": "A",
-        "text": "has translated"
+        "text": "has translated",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "translated"
+        "text": "translated",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "had translated"
+        "text": "had translated",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "translates"
+        "text": "translates",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2474,20 +2474,20 @@
     "question": "He acted as if he _____ the champion.",
     "options": [
       {
-        "key": "A",
-        "text": "was"
+        "text": "was",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "is"
+        "text": "is",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "were"
+        "text": "were",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "had been"
+        "text": "had been",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2501,20 +2501,20 @@
     "question": "The teacher told the students to stop _____ and listen to him.",
     "options": [
       {
-        "key": "A",
-        "text": "talking"
+        "text": "talking",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "to talk"
+        "text": "to talk",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "talk"
+        "text": "talk",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "talked"
+        "text": "talked",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2528,20 +2528,20 @@
     "question": "_____ the day went on, the weather got worse.",
     "options": [
       {
-        "key": "A",
-        "text": "With"
+        "text": "With",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "As"
+        "text": "As",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "Because"
+        "text": "Because",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "Since"
+        "text": "Since",
+        "label": "D"
       }
     ],
     "answer": "B",
@@ -2555,20 +2555,20 @@
     "question": "He had no sooner arrived home _____ he was called out again.",
     "options": [
       {
-        "key": "A",
-        "text": "than"
+        "text": "than",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "when"
+        "text": "when",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "after"
+        "text": "after",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "before"
+        "text": "before",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2582,20 +2582,20 @@
     "question": "The boy is young _____ to carry the box.",
     "options": [
       {
-        "key": "A",
-        "text": "enough"
+        "text": "enough",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "very"
+        "text": "very",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "too"
+        "text": "too",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "so"
+        "text": "so",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2609,20 +2609,20 @@
     "question": "I have never seen _____ film.",
     "options": [
       {
-        "key": "A",
-        "text": "such an interesting"
+        "text": "such an interesting",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "so an interesting"
+        "text": "so an interesting",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "such interesting"
+        "text": "such interesting",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "a such interesting"
+        "text": "a such interesting",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2636,20 +2636,20 @@
     "question": "The man _____ was our English teacher.",
     "options": [
       {
-        "key": "A",
-        "text": "whom you just talked to"
+        "text": "whom you just talked to",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "who you just talked to"
+        "text": "who you just talked to",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "that you just talked"
+        "text": "that you just talked",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "which you just talked to"
+        "text": "which you just talked to",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2663,20 +2663,20 @@
     "question": "He was angry at _____ nothing.",
     "options": [
       {
-        "key": "A",
-        "text": "being asked"
+        "text": "being asked",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "asking"
+        "text": "asking",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "asked"
+        "text": "asked",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "to be asked"
+        "text": "to be asked",
+        "label": "D"
       }
     ],
     "answer": "A",
@@ -2690,20 +2690,20 @@
     "question": "Reading is _____ to my life.",
     "options": [
       {
-        "key": "A",
-        "text": "of great importance"
+        "text": "of great importance",
+        "label": "A"
       },
       {
-        "key": "B",
-        "text": "great importance"
+        "text": "great importance",
+        "label": "B"
       },
       {
-        "key": "C",
-        "text": "very importance"
+        "text": "very importance",
+        "label": "C"
       },
       {
-        "key": "D",
-        "text": "importantly"
+        "text": "importantly",
+        "label": "D"
       }
     ],
     "answer": "A",

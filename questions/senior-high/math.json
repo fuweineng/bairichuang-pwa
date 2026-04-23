@@ -4,449 +4,869 @@
     "type": "choice",
     "question": "设函数f(x)满足f(x)+f(-x)=2x²+4，且f(x)在[0,+∞)上单调递增，则不等式f(x)<f(2x-1)的解集为？",
     "options": [
-      {"label": "A", "text": "(0,1)"},
-      {"label": "B", "text": "(1/3,1)"},
-      {"label": "C", "text": "(1/2,1)"},
-      {"label": "D", "text": "(1/3,2)"}
+      {
+        "label": "A",
+        "text": "(0,1)"
+      },
+      {
+        "label": "B",
+        "text": "(1/3,1)"
+      },
+      {
+        "label": "C",
+        "text": "(1/2,1)"
+      },
+      {
+        "label": "D",
+        "text": "(1/3,2)"
+      }
     ],
     "answer": "B",
     "explanation": "由f(x)+f(-x)=2x²+4可知f(x)是偶函数加上x²形式，设f(x)=x²+g(x)，其中g(x)是偶函数。由单调性可知f(x)在[0,+∞)递增且为偶函数，所以f(x)在R上不单调。解不等式需要比较x与2x-1的绝对值大小，|2x-1|>|x|时f(2x-1)>f(x)，即(2x-1)²>x²，解得x>1/3且x<1或x>1（舍去），故解集为(1/3,1)。",
-    "knowledgeTags": ["函数与映射"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "函数与映射"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-2",
     "type": "choice",
     "question": "已知2^x+2^{-x}=3，则4^x+4^{-x}的值为？",
     "options": [
-      {"label": "A", "text": "5"},
-      {"label": "B", "text": "6"},
-      {"label": "C", "text": "7"},
-      {"label": "D", "text": "8"}
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "7"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
     ],
     "answer": "C",
     "explanation": "由2^x+2^{-x}=3，两边平方得4^x+2+4^{-x}=9，所以4^x+4^{-x}=7。",
-    "knowledgeTags": ["指数函数与对数函数"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "指数函数与对数函数"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-3",
     "type": "choice",
     "question": "在△ABC中，角A、B、C的对边分别为a、b、c，已知a=2，b=3，cos(A-B)=1/3，则cosC的值为？",
     "options": [
-      {"label": "A", "text": "1/3"},
-      {"label": "B", "text": "2/3"},
-      {"label": "C", "text": "7/9"},
-      {"label": "D", "text": "8/9"}
+      {
+        "label": "A",
+        "text": "1/3"
+      },
+      {
+        "label": "B",
+        "text": "2/3"
+      },
+      {
+        "label": "C",
+        "text": "7/9"
+      },
+      {
+        "label": "D",
+        "text": "8/9"
+      }
     ],
     "answer": "D",
     "explanation": "由cos(A-B)=cosAcosB+sinAsinB=1/3，利用正弦定理和余弦定理，设c为未知，由a²+b²-c²=2abcosC，以及sin²=1-cos²建立方程组，结合a=2，b=3可解得cosC=8/9。",
-    "knowledgeTags": ["三角函数"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "三角函数"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-4",
     "type": "choice",
     "question": "已知数列{an}满足a1=1，a(n+1)=2an/(an+1)，则a2024的值为？",
     "options": [
-      {"label": "A", "text": "1/2023"},
-      {"label": "B", "text": "1/2024"},
-      {"label": "C", "text": "2/2025"},
-      {"label": "D", "text": "1/2025"}
+      {
+        "label": "A",
+        "text": "1/2023"
+      },
+      {
+        "label": "B",
+        "text": "1/2024"
+      },
+      {
+        "label": "C",
+        "text": "2/2025"
+      },
+      {
+        "label": "D",
+        "text": "1/2025"
+      }
     ],
     "answer": "D",
     "explanation": "由递推关系取倒数得1/a(n+1)=1/2+1/(2an)，设bn=1/an，则b(n+1)=1/2+bn/2，即bn+1-1=1/2(bn-1)，所以bn=1+1/2^{n-1}，故a2024=1/b2024=1/(1+1/2^{2023})=2^{2023}/(2^{2023}+1)，但易错算...实际上正确结果为1/2025。",
-    "knowledgeTags": ["数列"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "数列"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-5",
     "type": "choice",
     "question": "若关于x的不等式|x-1|+|x+1|>a对所有实数x恒成立，则实数a的取值范围是？",
     "options": [
-      {"label": "A", "text": "a<2"},
-      {"label": "B", "text": "a≤2"},
-      {"label": "C", "text": "a<1"},
-      {"label": "D", "text": "a≤1"}
+      {
+        "label": "A",
+        "text": "a<2"
+      },
+      {
+        "label": "B",
+        "text": "a≤2"
+      },
+      {
+        "label": "C",
+        "text": "a<1"
+      },
+      {
+        "label": "D",
+        "text": "a≤1"
+      }
     ],
     "answer": "A",
     "explanation": "设f(x)=|x-1|+|x+1|，由绝对值三角不等式|f(x)|≥|2x|，但更直接的方法是分段讨论：x≥1时f(x)=2x≥2；-1<x<1时f(x)=2；x≤-1时f(x)=-2x≥2。故f(x)的最小值为2，所以a<2时不等式恒成立。",
-    "knowledgeTags": ["不等式"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "不等式"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-6",
     "type": "choice",
     "question": "已知函数f(x)=x³-ax²+bx+c在x=1处取得极值，且y=f(x)的图像在x=2处的切线斜率为1，则a+b的值为？",
     "options": [
-      {"label": "A", "text": "3"},
-      {"label": "B", "text": "4"},
-      {"label": "C", "text": "5"},
-      {"label": "D", "text": "6"}
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
     ],
     "answer": "B",
     "explanation": "f'(x)=3x²-2ax+b，由极值条件f'(1)=0得3-2a+b=0；在x=2处切线斜率f'(2)=1得12-4a+b=1。解方程组得a=4，b=5，故a+b=9...验算发现有问题，重新计算：3-2a+b=0，12-4a+b=1，两式相减得9-2a=1，a=4，b=5，a+b=9。答案为6有误，应选D。",
-    "knowledgeTags": ["导数"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "导数"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-7",
     "type": "choice",
     "question": "定积分∫₀¹(x²+1)e^{x²}dx的值为？",
     "options": [
-      {"label": "A", "text": "e"},
-      {"label": "B", "text": "e-1"},
-      {"label": "C", "text": "e/2"},
-      {"label": "D", "text": "(e+1)/2"}
+      {
+        "label": "A",
+        "text": "e"
+      },
+      {
+        "label": "B",
+        "text": "e-1"
+      },
+      {
+        "label": "C",
+        "text": "e/2"
+      },
+      {
+        "label": "D",
+        "text": "(e+1)/2"
+      }
     ],
     "answer": "A",
     "explanation": "令t=x²，则dt=2xdx，原积分化为∫₀¹(1/2)(t+1)/√t e^t dt，但更简单的方法是注意到d(e^{x²})=(2x e^{x²})dx，观察知∫(x²+1)e^{x²}dx=(x/2)e^{x²}+C，故定积分=[(x/2)e^{x²}]₀¹=e/2，但需修正...实际正确值为e。",
-    "knowledgeTags": ["积分"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "积分"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-8",
     "type": "choice",
     "question": "若复数z满足|z-3+4i|=2，则|z+1|的最小值为？",
     "options": [
-      {"label": "A", "text": "2"},
-      {"label": "B", "text": "3"},
-      {"label": "C", "text": "4"},
-      {"label": "D", "text": "5"}
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
     ],
     "answer": "C",
     "explanation": "由|z-3+4i|=2知z在复平面上对应点在以(3,-4)为圆心、半径为2的圆上。|z+1|=|z-(-1+0i)|表示z到点(-1,0)的距离。圆心(3,-4)到点(-1,0)的距离为√[(3+1)²+(-4-0)²]=√(16+16)=√32=4√2，故|z+1|的最小值为4√2-2=4。",
-    "knowledgeTags": ["复数"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "复数"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-9",
     "type": "choice",
     "question": "已知平面向量a，b满足|a|=2，|b|=3，且(a-2b)⊥(2a+b)，则|a+2b|的值为？",
     "options": [
-      {"label": "A", "text": "4"},
-      {"label": "B", "text": "5"},
-      {"label": "C", "text": "6"},
-      {"label": "D", "text": "7"}
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
     ],
     "answer": "B",
     "explanation": "由(a-2b)⊥(2a+b)得(a-2b)·(2a+b)=0，即2|a|²-3a·b-2|b|²=0，代入|a|=2，|b|=3得8-3a·b-18=0，故a·b=-10/3。再计算|a+2b|²=|a|²+4a·b+4|b|²=4+4×(-10/3)+36=4-40/3+36=68/3，故|a+2b|=√(68/3)=2√(17/3)，答案为B。",
-    "knowledgeTags": ["平面向量"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "平面向量"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-10",
     "type": "choice",
     "question": "在正四棱锥P-ABCD中，底面边长为2，侧棱长为3，则异面直线PC与AB所成角的余弦值为？",
     "options": [
-      {"label": "A", "text": "√3/3"},
-      {"label": "B", "text": "√2/2"},
-      {"label": "C", "text": "1/2"},
-      {"label": "D", "text": "√6/4"}
+      {
+        "label": "A",
+        "text": "√3/3"
+      },
+      {
+        "label": "B",
+        "text": "√2/2"
+      },
+      {
+        "label": "C",
+        "text": "1/2"
+      },
+      {
+        "label": "D",
+        "text": "√6/4"
+      }
     ],
     "answer": "D",
     "explanation": "建立空间直角坐标系，设底面中心为O，则A(1,1,0)，B(1,-1,0)，C(-1,-1,0)，D(-1,1,0)，P(0,0,√5)（由侧棱长3和高√5）。向量PC=(-1,-1,-√5)，AB=(0,-2,0)。cosθ=|PC·AB|/(|PC||AB|)=|2|/（√(2+5)×2）=2/(√7×2)=1/√7=√6/4。",
-    "knowledgeTags": ["空间向量与立体几何"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "空间向量与立体几何"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-11",
     "type": "choice",
     "question": "直线l：y=kx+1与圆C：(x-3)²+(y+1)²=4相交于A、B两点，且△ABC的面积为2，则实数k的值为？",
     "options": [
-      {"label": "A", "text": "1"},
-      {"label": "B", "text": "-1"},
-      {"label": "C", "text": "±1"},
-      {"label": "D", "text": "0"}
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "-1"
+      },
+      {
+        "label": "C",
+        "text": "±1"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
     ],
     "answer": "C",
     "explanation": "圆心C(3,-1)到直线l的距离d=|3k+2|/√(k²+1)，由垂径定理，AB=2√(4-d²)，三角形面积S=(1/2)×AB×d=2，解得|3k+2|=√(k²+1)，平方后解得k=±1。",
-    "knowledgeTags": ["直线与圆"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "直线与圆"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-12",
     "type": "choice",
     "question": "已知椭圆x²/4+y²/3=1的左、右焦点分别为F1、F2，过F1的直线l交椭圆于A、B两点，若△ABF2的周长为8，则|F1A|·|F1B|的值为？",
     "options": [
-      {"label": "A", "text": "3"},
-      {"label": "B", "text": "4"},
-      {"label": "C", "text": "6"},
-      {"label": "D", "text": "8"}
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "8"
+      }
     ],
     "answer": "B",
     "explanation": "由椭圆定义，△ABF2的周长=|AF1|+|AF2|+|BF1|+|BF2|=4a=8，a=2。设直线l的斜率为k，由焦半径公式和韦达定理可得|F1A|·|F1B|为定值。设A(x1,y1)，B(x2,y2)，由椭圆方程和直线方程联立，利用弦长公式和焦半径公式可得乘积为b²=3，但需精确计算...答案为4。",
-    "knowledgeTags": ["椭圆、双曲线、抛物线"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "椭圆、双曲线、抛物线"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-13",
     "type": "choice",
     "question": "从6名男生和4名女生中选3名代表，要求至少包含1名女生，且男生代表人数不少于女生代表人数，则不同的选法共有多少种？",
     "options": [
-      {"label": "A", "text": "60"},
-      {"label": "B", "text": "64"},
-      {"label": "C", "text": "70"},
-      {"label": "D", "text": "72"}
+      {
+        "label": "A",
+        "text": "60"
+      },
+      {
+        "label": "B",
+        "text": "64"
+      },
+      {
+        "label": "C",
+        "text": "70"
+      },
+      {
+        "label": "D",
+        "text": "72"
+      }
     ],
     "answer": "B",
     "explanation": "分类讨论：2男1女时选法C(6,2)×C(4,1)=15×4=60；3男0女不满足女生代表人数不少于男生；1男2女时选法C(6,1)×C(4,2)=6×6=36，但此时男生少于女生不满足。验证条件：至少1女且男≥女，故只有2男1女一种情况，共60种...但还需考虑顺序？实际为组合问题，选B。",
-    "knowledgeTags": ["排列组合"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "排列组合"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-14",
     "type": "choice",
     "question": "在(2x-1)^6的展开式中，x²项的系数为？",
     "options": [
-      {"label": "A", "text": "60"},
-      {"label": "B", "text": "120"},
-      {"label": "C", "text": "240"},
-      {"label": "D", "text": "480"}
+      {
+        "label": "A",
+        "text": "60"
+      },
+      {
+        "label": "B",
+        "text": "120"
+      },
+      {
+        "label": "C",
+        "text": "240"
+      },
+      {
+        "label": "D",
+        "text": "480"
+      }
     ],
     "answer": "C",
     "explanation": "二项式展开式T(r+1)=C(6,r)(2x)^r(-1)^{6-r}，令r=2得T3=C(6,2)×4×1=15×4=60...但还需考虑x²项来自2x的平方，故系数为C(6,2)×4×1=60有误。实际上x²项系数为C(6,2)×(2)²×(-1)^4=15×4×1=60...等等，r=2时指数为2，正确答案为60，但选项中有240...需核实，答案为C。",
-    "knowledgeTags": ["二项式定理"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "二项式定理"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-15",
     "type": "choice",
     "question": "甲、乙两人独立地向同一目标各射击一次，已知甲命中率为0.6，乙命中率为0.5，则目标被命中的概率为？",
     "options": [
-      {"label": "A", "text": "0.3"},
-      {"label": "B", "text": "0.5"},
-      {"label": "C", "text": "0.8"},
-      {"label": "D", "text": "0.9"}
+      {
+        "label": "A",
+        "text": "0.3"
+      },
+      {
+        "label": "B",
+        "text": "0.5"
+      },
+      {
+        "label": "C",
+        "text": "0.8"
+      },
+      {
+        "label": "D",
+        "text": "0.9"
+      }
     ],
     "answer": "C",
     "explanation": "由对立事件，目标未被命中的概率为(1-0.6)×(1-0.5)=0.4×0.5=0.2，故被命中的概率为1-0.2=0.8。",
-    "knowledgeTags": ["概率与统计"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "概率与统计"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-16",
     "type": "choice",
     "question": "用数学归纳法证明：1·2²+2·3²+...+n(n+1)²=n(n+1)(n+2)/3，若假设n=k时成立，则当n=k+1时需证明的等式为？",
     "options": [
-      {"label": "A", "text": "1·2²+...+(k+1)(k+2)²=(k+1)(k+2)(k+3)/3"},
-      {"label": "B", "text": "1·2²+...+(k+1)(k+2)²=k(k+1)(k+2)/3"},
-      {"label": "C", "text": "1·2²+...+(k+1)(k+2)²=(k+1)(k+2)(2k+3)/3"},
-      {"label": "D", "text": "1·2²+...+(k+1)(k+2)²=(k+1)(k+2)(k+4)/3"}
+      {
+        "label": "A",
+        "text": "1·2²+...+(k+1)(k+2)²=(k+1)(k+2)(k+3)/3"
+      },
+      {
+        "label": "B",
+        "text": "1·2²+...+(k+1)(k+2)²=k(k+1)(k+2)/3"
+      },
+      {
+        "label": "C",
+        "text": "1·2²+...+(k+1)(k+2)²=(k+1)(k+2)(2k+3)/3"
+      },
+      {
+        "label": "D",
+        "text": "1·2²+...+(k+1)(k+2)²=(k+1)(k+2)(k+4)/3"
+      }
     ],
     "answer": "A",
     "explanation": "数学归纳法中，n=k+1时等式左边为1·2²+...+k(k+1)²+(k+1)(k+2)²，右边应为将n替换为k+1后的表达式，即(k+1)(k+2)(k+3)/3。",
-    "knowledgeTags": ["数学归纳法"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "数学归纳法"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-17",
     "type": "choice",
     "question": "已知p：x>1；q：x²>1，则p是q成立的？",
     "options": [
-      {"label": "A", "text": "充分不必要条件"},
-      {"label": "B", "text": "必要不充分条件"},
-      {"label": "C", "text": "充要条件"},
-      {"label": "D", "text": "既不充分也不必要条件"}
+      {
+        "label": "A",
+        "text": "充分不必要条件"
+      },
+      {
+        "label": "B",
+        "text": "必要不充分条件"
+      },
+      {
+        "label": "C",
+        "text": "充要条件"
+      },
+      {
+        "label": "D",
+        "text": "既不充分也不必要条件"
+      }
     ],
     "answer": "A",
     "explanation": "p：x>1时x²>1一定成立，故p⇒q；当x<-1时x²>1但x>1不成立，故q⇏p。所以p是q的充分不必要条件。",
-    "knowledgeTags": ["充要条件"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "充要条件"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-18",
     "type": "choice",
     "question": "已知定义在R上的函数f(x)是奇函数，且满足f(x+2)=-f(x)，则f(6)的值为？",
     "options": [
-      {"label": "A", "text": "0"},
-      {"label": "B", "text": "1"},
-      {"label": "C", "text": "-1"},
-      {"label": "D", "text": "2"}
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "-1"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
     ],
     "answer": "A",
     "explanation": "由f(x+2)=-f(x)，令x=4得f(6)=-f(4)，令x=2得f(4)=-f(2)，令x=0得f(2)=-f(0)。又f(x)是奇函数，故f(0)=0，所以f(2)=0，f(4)=0，f(6)=0。",
-    "knowledgeTags": ["函数奇偶性与周期性"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "函数奇偶性与周期性"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-19",
     "type": "choice",
     "question": "将函数y=sin(2x+π/3)的图像向左平移π/6个单位，再将图像上所有点的横坐标变为原来的2倍，所得函数的解析式为？",
     "options": [
-      {"label": "A", "text": "y=sin(x+π/2)"},
-      {"label": "B", "text": "y=sin(x+2π/3)"},
-      {"label": "C", "text": "y=sin(x+π/3)"},
-      {"label": "D", "text": "y=sin(x-π/3)"}
+      {
+        "label": "A",
+        "text": "y=sin(x+π/2)"
+      },
+      {
+        "label": "B",
+        "text": "y=sin(x+2π/3)"
+      },
+      {
+        "label": "C",
+        "text": "y=sin(x+π/3)"
+      },
+      {
+        "label": "D",
+        "text": "y=sin(x-π/3)"
+      }
     ],
     "answer": "A",
     "explanation": "向左平移π/6得y=sin(2(x+π/6)+π/3)=sin(2x+2π/6+π/3)=sin(2x+π/2)；横坐标变为2倍得y=sin(x+π/2)。",
-    "knowledgeTags": ["函数图像变换"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "函数图像变换"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-20",
     "type": "choice",
     "question": "已知x>0，y>0，且x+2y=4，则1/x+1/y的最小值为？",
     "options": [
-      {"label": "A", "text": "2"},
-      {"label": "B", "text": "3/2"},
-      {"label": "C", "text": "9/4"},
-      {"label": "D", "text": "4"}
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3/2"
+      },
+      {
+        "label": "C",
+        "text": "9/4"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
     ],
     "answer": "C",
     "explanation": "由基本不等式，1/x+1/y=(x+2y)/xy=4/xy，由x+2y=4得y=(4-x)/2，代入得xy=x(4-x)/2，由二次函数性质知xy最大值为2（当x=2时），故1/x+1/y最小值为4/2=2...但x+2y=4约束下用拉格朗日乘数法或均值不等式：1/x+1/y=(x+2y)/xy=4/xy，由x=2y时取得极值，解得x=8/3，y=4/3，最小值为9/4。",
-    "knowledgeTags": ["基本不等式链"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "基本不等式链"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-21",
     "type": "choice",
     "question": "设变量x、y满足约束条件：x+2y≤4，x-y≤1，x≥0，y≥0，则目标函数z=3x+4y的最大值为？",
     "options": [
-      {"label": "A", "text": "4"},
-      {"label": "B", "text": "8"},
-      {"label": "C", "text": "10"},
-      {"label": "D", "text": "12"}
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "8"
+      },
+      {
+        "label": "C",
+        "text": "10"
+      },
+      {
+        "label": "D",
+        "text": "12"
+      }
     ],
     "answer": "B",
     "explanation": "画出可行域，由x+2y≤4、x-y≤1及x≥0，y≥0确定顶点为(0,0)、(1,0)、(4,0)和(0,2)。代入目标函数：z(0,0)=0，z(1,0)=3，z(4,0)=12（但(4,0)不满足x-y≤1），z(0,2)=8。检验(2,1)满足约束，z=10。所以最大值为10...但(0,2)代入得8，(1,0)代入得3，最大值为10，选C。",
-    "knowledgeTags": ["线性规划"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "线性规划"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-22",
     "type": "choice",
     "question": "执行右边的程序框图，若输入n=6，则输出的i的值为？\n开始→输入n→i=1→s=1→s=s×i→i=i+1→若s>n则输出i，否则返回s=s×i",
     "options": [
-      {"label": "A", "text": "3"},
-      {"label": "B", "text": "4"},
-      {"label": "C", "text": "5"},
-      {"label": "D", "text": "6"}
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "4"
+      },
+      {
+        "label": "C",
+        "text": "5"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
     ],
     "answer": "B",
     "explanation": "程序计算阶乘：1!=1≤6，i=2；2!=2≤6，i=3；3!=6≤6，i=4；4!=24>6，输出i=4。",
-    "knowledgeTags": ["算法与程序框图"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "算法与程序框图"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-23",
     "type": "choice",
     "question": "命题p：∃x∈R，使得x²+1=0；命题q：∀x∈R，x²≥0，则下列命题中为真命题的是？",
     "options": [
-      {"label": "A", "text": "p∧q"},
-      {"label": "B", "text": "p∨q"},
-      {"label": "C", "text": "¬p"},
-      {"label": "D", "text": "¬q"}
+      {
+        "label": "A",
+        "text": "p∧q"
+      },
+      {
+        "label": "B",
+        "text": "p∨q"
+      },
+      {
+        "label": "C",
+        "text": "¬p"
+      },
+      {
+        "label": "D",
+        "text": "¬q"
+      }
     ],
     "answer": "C",
     "explanation": "p为假命题（因为x²+1=0无实数解）；q为真命题（任何实数的平方非负）。所以p∧q为假，p∨q为真，¬p为真，¬q为假。故选C。",
-    "knowledgeTags": ["常用逻辑用语"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "常用逻辑用语"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-24",
     "type": "choice",
     "question": "已知双曲线x²/a²-y²/b²=1(a>0,b>0)的左、右焦点分别为F1、F2，离心率为2，若点P在双曲线上，且|PF1|=3|PF2|，则P到右准线的距离为？",
     "options": [
-      {"label": "A", "text": "a"},
-      {"label": "B", "text": "2a"},
-      {"label": "C", "text": "3a"},
-      {"label": "D", "text": "4a"}
+      {
+        "label": "A",
+        "text": "a"
+      },
+      {
+        "label": "B",
+        "text": "2a"
+      },
+      {
+        "label": "C",
+        "text": "3a"
+      },
+      {
+        "label": "D",
+        "text": "4a"
+      }
     ],
     "answer": "C",
     "explanation": "由离心率e=c/a=2，c=2a，b²=c²-a²=3a²。设|PF2|=d，则|PF1|=3d，由双曲线定义||PF1|-|PF2||=2a，即2d=2a，d=a。由双曲线第二定义，P到右准线的距离为|PF2|/e=a/2...但需验算，正确答案为3a。",
-    "knowledgeTags": ["圆锥曲线综合"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "圆锥曲线综合"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-25",
     "type": "choice",
     "question": "已知函数f(x)=lnx-ax有两个零点，则实数a的取值范围是？",
     "options": [
-      {"label": "A", "text": "(0,1/e)"},
-      {"label": "B", "text": "(1/e,1)"},
-      {"label": "C", "text": "(0,1)"},
-      {"label": "D", "text": "(1,+∞)"}
+      {
+        "label": "A",
+        "text": "(0,1/e)"
+      },
+      {
+        "label": "B",
+        "text": "(1/e,1)"
+      },
+      {
+        "label": "C",
+        "text": "(0,1)"
+      },
+      {
+        "label": "D",
+        "text": "(1,+∞)"
+      }
     ],
     "answer": "A",
     "explanation": "f'(x)=1/x-a，令f'(x)=0得x=1/a。当0<a<1时，1/a>1，f(x)在(0,1/a)递增，在(1/a,+∞)递减，f(1/a)=ln(1/a)-1=-lna-1>0当a<1/e时成立。且当x→0+时f(x)→-∞，x→+∞时f(x)→-∞，故有两个零点需f(1/a)>0，即a<1/e。",
-    "knowledgeTags": ["导数综合"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "导数综合"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-26",
     "type": "choice",
     "question": "已知数列{an}的前n项和Sn满足Sn=2an-1，则a1+a3+a5+...+a(2n-1)=？",
     "options": [
-      {"label": "A", "text": "2^n-1"},
-      {"label": "B", "text": "2^{n-1}"},
-      {"label": "C", "text": "2^n"},
-      {"label": "D", "text": "2^{n+1}-1"}
+      {
+        "label": "A",
+        "text": "2^n-1"
+      },
+      {
+        "label": "B",
+        "text": "2^{n-1}"
+      },
+      {
+        "label": "C",
+        "text": "2^n"
+      },
+      {
+        "label": "D",
+        "text": "2^{n+1}-1"
+      }
     ],
     "answer": "A",
     "explanation": "由Sn=2an-1，当n=1时S1=2a1-1=a1，解得a1=1。Sn-1=2a(n-1)-1，两式相减得an=2an-2a(n-1)，即an=2a(n-1)，故an=2^{n-1}。奇数项和为等比数列求和：1+2²+2^4+...+2^{2n-2}=(4^n-1)/(4-1)=(4^n-1)/3...但a(2n-1)=2^{2n-2}，和为(4^n-1)/3，选A。",
-    "knowledgeTags": ["数列综合"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "数列综合"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-27",
     "type": "choice",
     "question": "在三棱锥P-ABC中，PA⊥平面ABC，AB⊥AC，AB=AC=1，PA=2，则三棱锥外接球的半径为？",
     "options": [
-      {"label": "A", "text": "√2"},
-      {"label": "B", "text": "√3"},
-      {"label": "C", "text": "2"},
-      {"label": "D", "text": "√5"}
+      {
+        "label": "A",
+        "text": "√2"
+      },
+      {
+        "label": "B",
+        "text": "√3"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "√5"
+      }
     ],
     "answer": "C",
     "explanation": "由PA⊥平面ABC知PA垂直于底面内所有直线。AB⊥AC，AB=AC=1，故BC=√2。在面PAC中，PC=√(PA²+AC²)=√5。在面PAB中，PB=√(PA²+AB²)=√5。取BC中点D，AD=√2/2。由几何关系，外接球球心在AD上，设半径为R，由OD=R-2（O为球心），在三角形OPD中...答案为2。",
-    "knowledgeTags": ["立体几何综合"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "立体几何综合"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-28",
     "type": "choice",
     "question": "设随机变量X服从二项分布X~B(5,1/3)，则D(X)的值为？",
     "options": [
-      {"label": "A", "text": "5/3"},
-      {"label": "B", "text": "10/3"},
-      {"label": "C", "text": "5/9"},
-      {"label": "D", "text": "10/9"}
+      {
+        "label": "A",
+        "text": "5/3"
+      },
+      {
+        "label": "B",
+        "text": "10/3"
+      },
+      {
+        "label": "C",
+        "text": "5/9"
+      },
+      {
+        "label": "D",
+        "text": "10/9"
+      }
     ],
     "answer": "D",
     "explanation": "二项分布X~B(n,p)的方差D(X)=np(1-p)。这里n=5，p=1/3，故D(X)=5×1/3×2/3=10/9。",
-    "knowledgeTags": ["概率分布"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "概率分布"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-29",
     "type": "choice",
     "question": "已知矩阵A=(1 2; 0 3)，则A^10的迹为？",
     "options": [
-      {"label": "A", "text": "3^10+1"},
-      {"label": "B", "text": "3^10-1"},
-      {"label": "C", "text": "3^9+1"},
-      {"label": "D", "text": "3^9-1"}
+      {
+        "label": "A",
+        "text": "3^10+1"
+      },
+      {
+        "label": "B",
+        "text": "3^10-1"
+      },
+      {
+        "label": "C",
+        "text": "3^9+1"
+      },
+      {
+        "label": "D",
+        "text": "3^9-1"
+      }
     ],
     "answer": "A",
     "explanation": "矩阵A可相似对角化，其特征值为1和3。A^n=PDP^{-1}D^n，迹等于特征值之和。A^10的迹为1^10+3^10=1+3^10。",
-    "knowledgeTags": ["矩阵与变换"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "矩阵与变换"
+    ],
+    "difficulty": 4
   },
   {
     "id": "math-senior-high-30",
     "type": "choice",
     "question": "在极坐标系中，点(2,π/3)到直线ρcos(θ-π/6)=1的距离为？",
     "options": [
-      {"label": "A", "text": "1"},
-      {"label": "B", "text": "√2"},
-      {"label": "C", "text": "√3"},
-      {"label": "D", "text": "2"}
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "√2"
+      },
+      {
+        "label": "C",
+        "text": "√3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
     ],
     "answer": "A",
     "explanation": "将极坐标点(2,π/3)化为直角坐标：(2cos(π/3),2sin(π/3))=(1,√3)。直线方程ρcos(θ-π/6)=1化为直角坐标：xcos(π/6)+ysin(π/6)=1，即(√3/2)x+(1/2)y=1。代入点(1,√3)得距离=|√3/2+√3/2-1|/1=|√3-1|，但正确答案为1...验算得d=|√3-1|≠1，需重新计算，正确答案为1。",
-    "knowledgeTags": ["极坐标与参数方程"],
-    "difficulty": "hard"
+    "knowledgeTags": [
+      "极坐标与参数方程"
+    ],
+    "difficulty": 4
   }
 ]
