@@ -24,7 +24,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-001"
+    "id": "politics-senior-001",
+    "subject": "politics"
   },
   {
     "question": "中国特色社会主义最本质的特征是？",
@@ -51,7 +52,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-002"
+    "id": "politics-senior-002",
+    "subject": "politics"
   },
   {
     "question": "我国发展的历史方位是？",
@@ -78,7 +80,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-003"
+    "id": "politics-senior-003",
+    "subject": "politics"
   },
   {
     "question": "中华民族伟大复兴的行动指南是？",
@@ -105,7 +108,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-004"
+    "id": "politics-senior-004",
+    "subject": "politics"
   },
   {
     "question": "中国特色社会主义制度的最大优势是？",
@@ -132,7 +136,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-005"
+    "id": "politics-senior-005",
+    "subject": "politics"
   },
   {
     "question": "十四个坚持中，属于党的领导方面的是？",
@@ -159,7 +164,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-006"
+    "id": "politics-senior-006",
+    "subject": "politics"
   },
   {
     "question": "中国特色社会主义进入新时代的依据是？",
@@ -186,7 +192,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-007"
+    "id": "politics-senior-007",
+    "subject": "politics"
   },
   {
     "question": "我国发展理念的核心是？",
@@ -213,7 +220,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-008"
+    "id": "politics-senior-008",
+    "subject": "politics"
   },
   {
     "question": "社会主义核心价值观在个人层面的内容是？",
@@ -240,7 +248,8 @@
     "knowledgePoints": [
       "诚信/道德"
     ],
-    "id": "politics-senior-009"
+    "id": "politics-senior-009",
+    "subject": "politics"
   },
   {
     "question": "中国梦的本质是？",
@@ -267,7 +276,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-010"
+    "id": "politics-senior-010",
+    "subject": "politics"
   },
   {
     "question": "社会主义市场经济的基本特征是？",
@@ -294,7 +304,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-011"
+    "id": "politics-senior-011",
+    "subject": "politics"
   },
   {
     "question": "我国社会主义基本经济制度是？",
@@ -321,7 +332,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-012"
+    "id": "politics-senior-012",
+    "subject": "politics"
   },
   {
     "question": "新发展理念包括？",
@@ -348,7 +360,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-013"
+    "id": "politics-senior-013",
+    "subject": "politics"
   },
   {
     "question": "推进经济高质量发展的关键是？",
@@ -375,7 +388,8 @@
     "knowledgePoints": [
       "创新驱动/科技"
     ],
-    "id": "politics-senior-014"
+    "id": "politics-senior-014",
+    "subject": "politics"
   },
   {
     "question": "我国当前经济体制是？",
@@ -402,7 +416,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-015"
+    "id": "politics-senior-015",
+    "subject": "politics"
   },
   {
     "question": "企业提高市场竞争力的根本途径是？",
@@ -429,7 +444,8 @@
     "knowledgePoints": [
       "创新驱动/科技"
     ],
-    "id": "politics-senior-016"
+    "id": "politics-senior-016",
+    "subject": "politics"
   },
   {
     "question": "按劳分配的前提是？",
@@ -456,7 +472,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-017"
+    "id": "politics-senior-017",
+    "subject": "politics"
   },
   {
     "question": "国民收入分配中属于初次分配的是？",
@@ -483,7 +500,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-018"
+    "id": "politics-senior-018",
+    "subject": "politics"
   },
   {
     "question": "财政收入的主要来源是？",
@@ -510,7 +528,8 @@
     "knowledgePoints": [
       "改革开放/经济发展"
     ],
-    "id": "politics-senior-019"
+    "id": "politics-senior-019",
+    "subject": "politics"
   },
   {
     "question": "经济全球化的实质是？",
@@ -537,7 +556,8 @@
     "knowledgePoints": [
       "国际关系/和平发展"
     ],
-    "id": "politics-senior-020"
+    "id": "politics-senior-020",
+    "subject": "politics"
   },
   {
     "question": "我国的国家性质是？",
@@ -564,7 +584,8 @@
     "knowledgePoints": [
       "宪法/法治"
     ],
-    "id": "politics-senior-021"
+    "id": "politics-senior-021",
+    "subject": "politics"
   },
   {
     "question": "人民代表大会制度的基石是？",
@@ -591,7 +612,8 @@
     "knowledgePoints": [
       "宪法/法治"
     ],
-    "id": "politics-senior-022"
+    "id": "politics-senior-022",
+    "subject": "politics"
   },
   {
     "question": "我国处理民族关系的基本原则是？",
@@ -618,7 +640,8 @@
     "knowledgePoints": [
       "公民权利与义务"
     ],
-    "id": "politics-senior-023"
+    "id": "politics-senior-023",
+    "subject": "politics"
   },
   {
     "question": "人民当家作主的根本保证是？",
@@ -645,7 +668,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-024"
+    "id": "politics-senior-024",
+    "subject": "politics"
   },
   {
     "question": "我国的政党制度是？",
@@ -672,7 +696,8 @@
     "knowledgePoints": [
       "宪法/法治"
     ],
-    "id": "politics-senior-025"
+    "id": "politics-senior-025",
+    "subject": "politics"
   },
   {
     "question": "人民政协的主要职能是？",
@@ -699,7 +724,8 @@
     "knowledgePoints": [
       "公民参与/民主意识"
     ],
-    "id": "politics-senior-026"
+    "id": "politics-senior-026",
+    "subject": "politics"
   },
   {
     "question": "全面依法治国的总目标是？",
@@ -726,7 +752,8 @@
     "knowledgePoints": [
       "宪法/法治"
     ],
-    "id": "politics-senior-027"
+    "id": "politics-senior-027",
+    "subject": "politics"
   },
   {
     "question": "公民参与民主决策的前提和基础是？",
@@ -753,7 +780,8 @@
     "knowledgePoints": [
       "公民参与/民主意识"
     ],
-    "id": "politics-senior-028"
+    "id": "politics-senior-028",
+    "subject": "politics"
   },
   {
     "question": "我国宗教工作的基本方针是？",
@@ -780,7 +808,8 @@
     "knowledgePoints": [
       "公民权利与义务"
     ],
-    "id": "politics-senior-029"
+    "id": "politics-senior-029",
+    "subject": "politics"
   },
   {
     "question": "主权国家的基本权利包括？",
@@ -807,7 +836,8 @@
     "knowledgePoints": [
       "国际关系/和平发展"
     ],
-    "id": "politics-senior-030"
+    "id": "politics-senior-030",
+    "subject": "politics"
   },
   {
     "question": "哲学的基本问题是？",
@@ -834,7 +864,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-031"
+    "id": "politics-senior-031",
+    "subject": "politics"
   },
   {
     "question": "唯物辩证法的总特征是？",
@@ -861,7 +892,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-032"
+    "id": "politics-senior-032",
+    "subject": "politics"
   },
   {
     "question": "矛盾的同一性和斗争性的关系是？",
@@ -888,7 +920,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-033"
+    "id": "politics-senior-033",
+    "subject": "politics"
   },
   {
     "question": "量变和质变的辩证关系是？",
@@ -915,7 +948,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-034"
+    "id": "politics-senior-034",
+    "subject": "politics"
   },
   {
     "question": "实践是认识的什么？",
@@ -942,7 +976,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-035"
+    "id": "politics-senior-035",
+    "subject": "politics"
   },
   {
     "question": "认识的两次飞跃是？",
@@ -969,7 +1004,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-036"
+    "id": "politics-senior-036",
+    "subject": "politics"
   },
   {
     "question": "社会存在包括？",
@@ -996,7 +1032,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-037"
+    "id": "politics-senior-037",
+    "subject": "politics"
   },
   {
     "question": "社会发展的根本动力是？",
@@ -1023,7 +1060,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-038"
+    "id": "politics-senior-038",
+    "subject": "politics"
   },
   {
     "question": "人民群众是历史的什么？",
@@ -1050,7 +1088,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-039"
+    "id": "politics-senior-039",
+    "subject": "politics"
   },
   {
     "question": "价值观的导向作用表现为？",
@@ -1077,7 +1116,8 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-040"
+    "id": "politics-senior-040",
+    "subject": "politics"
   },
   {
     "question": "中华优秀传统文化的基本特点包括？",
@@ -1104,7 +1144,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-041"
+    "id": "politics-senior-041",
+    "subject": "politics"
   },
   {
     "question": "文化创新的根本目的是？",
@@ -1131,7 +1172,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-042"
+    "id": "politics-senior-042",
+    "subject": "politics"
   },
   {
     "question": "中华民族精神的核心是？",
@@ -1158,7 +1200,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-043"
+    "id": "politics-senior-043",
+    "subject": "politics"
   },
   {
     "question": "社会主义核心价值体系的基础是？",
@@ -1185,7 +1228,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-044"
+    "id": "politics-senior-044",
+    "subject": "politics"
   },
   {
     "question": "文化的作用包括？",
@@ -1212,7 +1256,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-045"
+    "id": "politics-senior-045",
+    "subject": "politics"
   },
   {
     "question": "文化多样性的主要意义是？",
@@ -1239,7 +1284,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-046"
+    "id": "politics-senior-046",
+    "subject": "politics"
   },
   {
     "question": "我们坚定文化自信的根基是？",
@@ -1266,7 +1312,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-047"
+    "id": "politics-senior-047",
+    "subject": "politics"
   },
   {
     "question": "发展中国特色社会主义文化的关键是？",
@@ -1293,7 +1340,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-048"
+    "id": "politics-senior-048",
+    "subject": "politics"
   },
   {
     "question": "社会主义精神文明建设的根本任务是？",
@@ -1320,7 +1368,8 @@
     "knowledgePoints": [
       "文化认同/民族精神"
     ],
-    "id": "politics-senior-049"
+    "id": "politics-senior-049",
+    "subject": "politics"
   },
   {
     "question": "马克思主义中国化的最新成果是？",
@@ -1347,6 +1396,7 @@
     "knowledgePoints": [
       "中国特色社会主义"
     ],
-    "id": "politics-senior-050"
+    "id": "politics-senior-050",
+    "subject": "politics"
   }
 ]

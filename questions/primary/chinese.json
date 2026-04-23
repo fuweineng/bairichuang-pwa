@@ -44,7 +44,9 @@
     "knowledgePoint": "PC-GY-001",
     "knowledgeTags": [
       "拼音"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'学习'的'学'是第几声？",
@@ -91,7 +93,9 @@
     "knowledgePoint": "PC-GY-002",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列汉字中笔画数最多的是（）",
@@ -138,7 +142,9 @@
     "knowledgePoint": "PC-GY-005",
     "knowledgeTags": [
       "笔画"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'日'字的正确书写顺序是（）",
@@ -185,7 +191,9 @@
     "knowledgePoint": "PC-GY-005",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列词语中没有错别字的一项是（）",
@@ -233,7 +241,9 @@
     "knowledgeTags": [
       "错别字",
       "词义辨析"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'不'字在朗读时声调是（）",
@@ -280,7 +290,9 @@
     "knowledgePoint": "PC-GY-002",
     "knowledgeTags": [
       "拼音"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列汉字中属于形声字的是（）",
@@ -327,7 +339,9 @@
     "knowledgePoint": "PC-GY-008",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'鸟'字的最后一笔是（）",
@@ -374,7 +388,9 @@
     "knowledgePoint": "PC-GY-005",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列成语书写正确的是（）",
@@ -421,7 +437,9 @@
     "knowledgePoint": "PC-GY-009",
     "knowledgeTags": [
       "成语俗语"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'欲穷千里目'的下一句是（）",
@@ -468,7 +486,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'粒粒皆辛苦'的上一句是（）",
@@ -515,7 +535,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'白日依山尽'的下一句是（）",
@@ -562,7 +584,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'春眠不觉晓'中'晓'的意思是（）",
@@ -609,7 +633,9 @@
     "knowledgePoint": "PC-GY-014",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列不属于唐代诗人的是（）",
@@ -656,7 +682,9 @@
     "knowledgePoint": "PC-GY-015",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'两个黄鹂鸣翠柳，一行白鹭上青天'出自谁的诗？",
@@ -703,7 +731,9 @@
     "knowledgePoint": "PC-GY-016",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列词语中'每'读音相同的是（）",
@@ -751,7 +781,9 @@
     "knowledgeTags": [
       "拼音",
       "词义辨析"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'人'字的书写笔画是（）",
@@ -798,7 +830,9 @@
     "knowledgePoint": "PC-GY-005",
     "knowledgeTags": [
       "笔画"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列汉字与其声母对应错误的是（）",
@@ -845,7 +879,9 @@
     "knowledgePoint": "PC-GY-003",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'中国'两个字的声调组合是（）",
@@ -892,7 +928,9 @@
     "knowledgePoint": "PC-GY-002",
     "knowledgeTags": [
       "拼音"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列哪组拼音整体认读音节最多？",
@@ -939,7 +977,9 @@
     "knowledgePoint": "PC-GY-004",
     "knowledgeTags": [
       "拼音"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'床前明月光'的下一句是（）",
@@ -986,7 +1026,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "《咏鹅》诗中'曲项向天歌'的'曲'读音是（）",
@@ -1033,7 +1075,9 @@
     "knowledgePoint": "PC-GY-001",
     "knowledgeTags": [
       "拼音"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'一寸光阴一寸金'的上句是（）",
@@ -1080,7 +1124,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列汉字中不是上下结构的是（）",
@@ -1127,7 +1173,9 @@
     "knowledgePoint": "PC-GY-006",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'碧'字的部首是（）",
@@ -1174,7 +1222,9 @@
     "knowledgePoint": "PC-GY-007",
     "knowledgeTags": [
       "部首"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列词语中'张'字意思相同的是（）",
@@ -1221,7 +1271,9 @@
     "knowledgePoint": "PC-GY-010",
     "knowledgeTags": [
       "词义辨析"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "成语'守株待兔'出自（）",
@@ -1268,7 +1320,9 @@
     "knowledgePoint": "PC-GY-012",
     "knowledgeTags": [
       "成语俗语"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'亡羊补牢'中'亡'的意思是（）",
@@ -1315,7 +1369,9 @@
     "knowledgePoint": "PC-GY-011",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列成语中不含近义词的是（）",
@@ -1363,7 +1419,9 @@
     "knowledgeTags": [
       "词义辨析",
       "成语俗语"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'狐假虎威'这个成语的意思是（）",
@@ -1410,7 +1468,9 @@
     "knowledgePoint": "PC-GY-011",
     "knowledgeTags": [
       "成语俗语"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "阅读短文：春天来了，小草绿了，花儿开了。小鸟在树上唱歌，小鱼在水里游来游去。问：短文描写的是哪个季节？",
@@ -1457,7 +1517,9 @@
     "knowledgePoint": "PC-GY-018",
     "knowledgeTags": [
       "阅读理解"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "阅读短文：小明今天忘记带书包了，他很着急。老师知道了，帮他想办法。问：小明为什么着急？",
@@ -1504,7 +1566,9 @@
     "knowledgePoint": "PC-GY-018",
     "knowledgeTags": [
       "阅读理解"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'举世闻名'中'举'的意思是（）",
@@ -1551,7 +1615,9 @@
     "knowledgePoint": "PC-GY-011",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列汉字中'口'作偏旁时在下方的是（）",
@@ -1598,7 +1664,9 @@
     "knowledgePoint": "PC-GY-007",
     "knowledgeTags": [
       "部首"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'春回大地，万物复苏'中'复苏'的意思是（）",
@@ -1645,7 +1713,9 @@
     "knowledgePoint": "PC-GY-010",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列古诗中描写春天景色的是（）",
@@ -1692,7 +1762,9 @@
     "knowledgePoint": "PC-GY-016",
     "knowledgeTags": [
       "古诗词默写"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'飞流直下三千尺'出自哪首诗？",
@@ -1739,7 +1811,9 @@
     "knowledgePoint": "PC-GY-016",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'桃花潭水深千尺'下一句是（）",
@@ -1786,7 +1860,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列哪个字既是上下结构又是左右结构？",
@@ -1833,7 +1909,9 @@
     "knowledgePoint": "PC-GY-006",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'数(shǔ)一数(shù)'中两个'数'的读音分别是（）",
@@ -1880,7 +1958,9 @@
     "knowledgePoint": "PC-GY-001",
     "knowledgeTags": [
       "拼音"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'一本书'的'本'是量词，它原来指的是（）",
@@ -1927,7 +2007,9 @@
     "knowledgePoint": "PC-GY-017",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "《游子吟》诗中'谁言寸草心'的下一句是（）",
@@ -1974,7 +2056,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'千山鸟飞绝'的下一句是（）",
@@ -2021,7 +2105,9 @@
     "knowledgePoint": "PC-GY-013",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'读书百遍，其义自见'中'见'的读音是（）",
@@ -2068,7 +2154,9 @@
     "knowledgePoint": "PC-GY-001",
     "knowledgeTags": [
       "拼音"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列词语中'害'字意思不同的是（）",
@@ -2115,7 +2203,9 @@
     "knowledgePoint": "PC-GY-010",
     "knowledgeTags": [
       "词义辨析"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'千里迢迢'中'迢迢'的意思是（）",
@@ -2162,7 +2252,9 @@
     "knowledgePoint": "PC-GY-011",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'入木三分'这个成语典故与谁有关？",
@@ -2209,7 +2301,9 @@
     "knowledgePoint": "PC-GY-012",
     "knowledgeTags": [
       "成语俗语"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "阅读短文：动物学校报名了！有乌龟、兔子、小松鼠等。兔子跑得很快，乌龟爬得很慢。问：谁跑得更快？",
@@ -2256,7 +2350,9 @@
     "knowledgePoint": "PC-GY-018",
     "knowledgeTags": [
       "阅读理解"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "'年年有余'中'余'的意思是（）",
@@ -2303,7 +2399,9 @@
     "knowledgePoint": "PC-GY-010",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   },
   {
     "question": "下列汉字中与'书'字结构相同的是（）",
@@ -2350,6 +2448,8 @@
     "knowledgePoint": "PC-GY-006",
     "knowledgeTags": [
       "语文基础"
-    ]
+    ],
+    "type": "choice",
+    "subject": "chinese"
   }
 ]

@@ -26,7 +26,8 @@
     "knowledgePoints": [
       "定语从句"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-2",
@@ -55,7 +56,8 @@
     "knowledgePoints": [
       "名词性从句"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-3",
@@ -84,7 +86,8 @@
     "knowledgePoints": [
       "状语从句"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-4",
@@ -113,7 +116,8 @@
     "knowledgePoints": [
       "虚拟语气"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-5",
@@ -142,7 +146,8 @@
     "knowledgePoints": [
       "非谓语动词"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-6",
@@ -171,7 +176,8 @@
     "knowledgePoints": [
       "动名词与不定式"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-7",
@@ -200,7 +206,8 @@
     "knowledgePoints": [
       "情态动词"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-8",
@@ -229,7 +236,8 @@
     "knowledgePoints": [
       "时态（高级）"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-9",
@@ -258,7 +266,8 @@
     "knowledgePoints": [
       "倒装句"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-10",
@@ -287,7 +296,8 @@
     "knowledgePoints": [
       "强调句"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-11",
@@ -316,7 +326,8 @@
     "knowledgePoints": [
       "省略句"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-12",
@@ -345,7 +356,8 @@
     "knowledgePoints": [
       "主谓一致"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-13",
@@ -374,7 +386,8 @@
     "knowledgePoints": [
       "介词搭配"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-14",
@@ -403,7 +416,8 @@
     "knowledgePoints": [
       "词义辨析"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-15",
@@ -432,7 +446,8 @@
     "knowledgePoints": [
       "现在分词与过去分词"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-16",
@@ -461,7 +476,8 @@
     "knowledgePoints": [
       "独立主格结构"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-17",
@@ -490,7 +506,8 @@
     "knowledgePoints": [
       "复合宾语"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-18",
@@ -519,7 +536,8 @@
     "knowledgePoints": [
       "情景交际"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-19",
@@ -548,7 +566,8 @@
     "knowledgePoints": [
       "阅读理解策略"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-20",
@@ -577,7 +596,8 @@
     "knowledgePoints": [
       "完形填空"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-21",
@@ -606,7 +626,8 @@
     "knowledgePoints": [
       "语法衔接"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-22",
@@ -635,7 +656,8 @@
     "knowledgePoints": [
       "长难句分析"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-23",
@@ -664,7 +686,8 @@
     "knowledgePoints": [
       "it用法"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-24",
@@ -693,7 +716,8 @@
     "knowledgePoints": [
       "as用法"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-25",
@@ -722,7 +746,8 @@
     "knowledgePoints": [
       "词性转换"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-26",
@@ -751,7 +776,8 @@
     "knowledgePoints": [
       "特殊句式"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-27",
@@ -780,7 +806,8 @@
     "knowledgePoints": [
       "词汇量（高考3500+）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-28",
@@ -809,7 +836,8 @@
     "knowledgePoints": [
       "写作句型"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-29",
@@ -838,7 +866,8 @@
     "knowledgePoints": [
       "阅读策略"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "subject": "english"
   },
   {
     "id": "english-senior-high-30",
@@ -867,6 +896,7 @@
     "knowledgePoints": [
       "高考写作题型"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "english"
   }
 ]

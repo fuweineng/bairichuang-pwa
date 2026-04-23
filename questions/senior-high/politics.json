@@ -26,7 +26,8 @@
     "knowledgePoints": [
       "商品与货币"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-2",
@@ -55,7 +56,8 @@
     "knowledgePoints": [
       "价值规律"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-3",
@@ -84,7 +86,8 @@
     "knowledgePoints": [
       "企业与经营者"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-4",
@@ -113,7 +116,8 @@
     "knowledgePoints": [
       "劳动者权利"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-5",
@@ -142,7 +146,8 @@
     "knowledgePoints": [
       "投资与理财"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-6",
@@ -171,7 +176,8 @@
     "knowledgePoints": [
       "国家宏观调控"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-7",
@@ -200,7 +206,8 @@
     "knowledgePoints": [
       "社会主义市场经济"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-8",
@@ -229,7 +236,8 @@
     "knowledgePoints": [
       "公民的政治权利与义务"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-9",
@@ -258,7 +266,8 @@
     "knowledgePoints": [
       "我国的国家制度（国体与政体）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-10",
@@ -287,7 +296,8 @@
     "knowledgePoints": [
       "我国政党制度"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-11",
@@ -316,7 +326,8 @@
     "knowledgePoints": [
       "民族与宗教政策"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-12",
@@ -345,7 +356,8 @@
     "knowledgePoints": [
       "国际关系与外交政策"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-13",
@@ -374,7 +386,8 @@
     "knowledgePoints": [
       "文化的内涵与功能"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-14",
@@ -403,7 +416,8 @@
     "knowledgePoints": [
       "传统文化继承"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-15",
@@ -432,7 +446,8 @@
     "knowledgePoints": [
       "文化创新"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-16",
@@ -461,7 +476,8 @@
     "knowledgePoints": [
       "中华民族精神"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-17",
@@ -490,7 +506,8 @@
     "knowledgePoints": [
       "唯物论（物质与意识）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-18",
@@ -519,7 +536,8 @@
     "knowledgePoints": [
       "唯物辩证法（联系、发展、矛盾）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-19",
@@ -548,7 +566,8 @@
     "knowledgePoints": [
       "认识论（实践与认识）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-20",
@@ -577,7 +596,8 @@
     "knowledgePoints": [
       "历史唯物主义（社会存在与社会意识）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-21",
@@ -606,7 +626,8 @@
     "knowledgePoints": [
       "人生价值观"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-22",
@@ -635,7 +656,8 @@
     "knowledgePoints": [
       "公民有序政治参与"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-23",
@@ -664,7 +686,8 @@
     "knowledgePoints": [
       "行政法律制度"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-24",
@@ -693,7 +716,8 @@
     "knowledgePoints": [
       "经济全球化"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   },
   {
     "id": "politics-senior-high-25",
@@ -722,6 +746,7 @@
     "knowledgePoints": [
       "文化交流与竞争"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "politics"
   }
 ]

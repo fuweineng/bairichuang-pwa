@@ -24,7 +24,8 @@
     "knowledgePoints": [
       "运动学"
     ],
-    "id": "physics-senior-001"
+    "id": "physics-senior-001",
+    "subject": "physics"
   },
   {
     "question": "质量为2kg的物体在水平面上受水平拉力F=10N作用，若动摩擦因数为0.3，则物体所受摩擦力大小为多少N？（g=10m/s²）",
@@ -52,7 +53,8 @@
       "力学",
       "动力学"
     ],
-    "id": "physics-senior-002"
+    "id": "physics-senior-002",
+    "subject": "physics"
   },
   {
     "question": "一颗人造卫星绕地球做匀速圆周运动，已知轨道半径为r，地球质量为M，万有引力常量为G，则卫星的线速度大小为多少？",
@@ -80,7 +82,8 @@
       "力学",
       "万有引力"
     ],
-    "id": "physics-senior-003"
+    "id": "physics-senior-003",
+    "subject": "physics"
   },
   {
     "question": "一个弹簧振子的质量为0.5kg，劲度系数为200N/m，将其从平衡位置拉开0.1m后释放，则振子的最大加速度大小为多少m/s²？",
@@ -107,7 +110,8 @@
     "knowledgePoints": [
       "振动和波"
     ],
-    "id": "physics-senior-004"
+    "id": "physics-senior-004",
+    "subject": "physics"
   },
   {
     "question": "水平面上有一质量为5kg的物体，在水平恒力F=20N作用下由静止开始运动，已知物体与平面间的动摩擦因数为0.2，则物体在第3秒末的速度大小为多少m/s？（g=10m/s²）",
@@ -135,7 +139,8 @@
       "力学",
       "动力学"
     ],
-    "id": "physics-senior-005"
+    "id": "physics-senior-005",
+    "subject": "physics"
   },
   {
     "question": "竖直上抛一个小球，小球上升的最大高度为20m，则小球抛出时的初速度大小为多少m/s？（g=10m/s²）",
@@ -162,7 +167,8 @@
     "knowledgePoints": [
       "运动学"
     ],
-    "id": "physics-senior-006"
+    "id": "physics-senior-006",
+    "subject": "physics"
   },
   {
     "question": "一质量为m的物体在半径为R的竖直圆形轨道内侧做圆周运动，若物体恰能通过最高点，则物体通过最低点时对轨道的压力大小为多少？",
@@ -190,7 +196,8 @@
       "力学",
       "机械能守恒"
     ],
-    "id": "physics-senior-007"
+    "id": "physics-senior-007",
+    "subject": "physics"
   },
   {
     "question": "一质量为2kg的质点做直线运动，其速度随时间变化的关系为v=4t+2（SI单位），则该质点在t=2s时所受合外力的大小为多少N？",
@@ -217,7 +224,8 @@
     "knowledgePoints": [
       "运动学"
     ],
-    "id": "physics-senior-008"
+    "id": "physics-senior-008",
+    "subject": "physics"
   },
   {
     "question": "一质量均匀分布的细杆，长度为L，质量为m，则其关于一端的转动惯量为多少？",
@@ -244,7 +252,8 @@
     "knowledgePoints": [
       "力学"
     ],
-    "id": "physics-senior-009"
+    "id": "physics-senior-009",
+    "subject": "physics"
   },
   {
     "question": "一水平传送带以v=2m/s的速度匀速运动，将一质量为0.5kg的工件轻轻放在传送带上，工件与传送带间的动摩擦因数为0.4，则工件从放上到与传送带相对静止所经历的时间为多少s？（g=10m/s²）",
@@ -272,7 +281,8 @@
       "力学",
       "动力学"
     ],
-    "id": "physics-senior-010"
+    "id": "physics-senior-010",
+    "subject": "physics"
   },
   {
     "question": "汽车以36km/h的速度行驶，刹车后加速度大小为5m/s²，则汽车刹车后3秒内的位移大小为多少m？",
@@ -299,7 +309,8 @@
     "knowledgePoints": [
       "运动学"
     ],
-    "id": "physics-senior-011"
+    "id": "physics-senior-011",
+    "subject": "physics"
   },
   {
     "question": "两颗星组成的双星系统，两星质量分别为m₁和m₂，间距为L，则两星绕共同质心运动的周期为多少？",
@@ -327,7 +338,8 @@
       "力学",
       "万有引力"
     ],
-    "id": "physics-senior-012"
+    "id": "physics-senior-012",
+    "subject": "physics"
   },
   {
     "question": "一质量为m的小球从高度h处自由下落，落在软垫上陷入深度d后停止，则软垫对小球的平均冲击力大小为多少？",
@@ -355,7 +367,8 @@
       "力学",
       "动量"
     ],
-    "id": "physics-senior-013"
+    "id": "physics-senior-013",
+    "subject": "physics"
   },
   {
     "question": "一简谐振子的位移随时间变化关系为x=0.1cos(10t+π/3)（SI单位），则该振子的周期为多少s？",
@@ -382,7 +395,8 @@
     "knowledgePoints": [
       "振动和波"
     ],
-    "id": "physics-senior-014"
+    "id": "physics-senior-014",
+    "subject": "physics"
   },
   {
     "question": "质量为1kg的物体在光滑水平面上做匀速圆周运动，线速度大小为2m/s，圆轨道半径为0.5m，则物体所受向心力的大小为多少N？",
@@ -410,7 +424,8 @@
       "力学",
       "动力学"
     ],
-    "id": "physics-senior-015"
+    "id": "physics-senior-015",
+    "subject": "physics"
   },
   {
     "question": "一质量为m的物体从倾角为30°的斜面顶端由静止滑下，已知斜面长为L，物体与斜面间的动摩擦因数为0.2，则物体滑到斜面底端时的速度大小为多少？",
@@ -438,7 +453,8 @@
       "力学",
       "动力学"
     ],
-    "id": "physics-senior-016"
+    "id": "physics-senior-016",
+    "subject": "physics"
   },
   {
     "question": "半径为R的轻滑轮（转动惯量可忽略）上跨一轻绳，绳两端分别挂质量为m₁和m₂的物体（m₁>m₂），则系统的加速度大小为多少？",
@@ -466,7 +482,8 @@
       "力学",
       "动力学"
     ],
-    "id": "physics-senior-017"
+    "id": "physics-senior-017",
+    "subject": "physics"
   },
   {
     "question": "一水平放置的弹簧振子，弹簧劲度系数为k=100N/m，质量为m=1kg，振幅为0.1m，则振子的最大动能能为多少J？",
@@ -493,7 +510,8 @@
     "knowledgePoints": [
       "振动和波"
     ],
-    "id": "physics-senior-018"
+    "id": "physics-senior-018",
+    "subject": "physics"
   },
   {
     "question": "一质量为m=2kg的物体在变力F=6t（N）作用下从静止开始运动，则该物体在t=3s时的速度大小为多少m/s？",
@@ -521,7 +539,8 @@
       "力学",
       "动力学"
     ],
-    "id": "physics-senior-019"
+    "id": "physics-senior-019",
+    "subject": "physics"
   },
   {
     "question": "半径为R的半圆形轨道竖直放置，一质量为m的小球从轨道最高点由静止滑下，则小球通过最低点时对轨道的压力大小为多少？",
@@ -549,7 +568,8 @@
       "力学",
       "机械能守恒"
     ],
-    "id": "physics-senior-020"
+    "id": "physics-senior-020",
+    "subject": "physics"
   },
   {
     "question": "真空中两点电荷A和B，电荷量分别为Q₁和Q₂，距离为r，已知静电力大小为F，若将距离变为2r，同时将Q₁的电量加倍，则静电力大小变为多少？",
@@ -576,7 +596,8 @@
     "knowledgePoints": [
       "电场"
     ],
-    "id": "physics-senior-021"
+    "id": "physics-senior-021",
+    "subject": "physics"
   },
   {
     "question": "一带电粒子垂直射入匀强磁场中，若粒子的速度大小为v，磁感应强度为B，粒子电荷量为q，质量为m，则粒子做圆周运动的半径为多少？",
@@ -603,7 +624,8 @@
     "knowledgePoints": [
       "磁场"
     ],
-    "id": "physics-senior-022"
+    "id": "physics-senior-022",
+    "subject": "physics"
   },
   {
     "question": "一平行板电容器电容为C，带电量为Q，两极板间距离为d，则两极板间的电场强度大小为多少？",
@@ -630,7 +652,8 @@
     "knowledgePoints": [
       "电场"
     ],
-    "id": "physics-senior-023"
+    "id": "physics-senior-023",
+    "subject": "physics"
   },
   {
     "question": "一电阻为R的导体通有电流I，通电时间为t，则导体上产生的热量为多少？",
@@ -658,7 +681,8 @@
       "电场",
       "电路"
     ],
-    "id": "physics-senior-024"
+    "id": "physics-senior-024",
+    "subject": "physics"
   },
   {
     "question": "一闭合线圈在匀强磁场中平动，线圈平面与磁场方向垂直，则线圈中感应电动势的大小为多少？",
@@ -685,7 +709,8 @@
     "knowledgePoints": [
       "电磁感应"
     ],
-    "id": "physics-senior-025"
+    "id": "physics-senior-025",
+    "subject": "physics"
   },
   {
     "question": "半径为R的圆形单匝线圈置于磁感应强度为B的匀强磁场中，线圈平面与磁场成30°角，穿过线圈的磁通量为多少？",
@@ -712,7 +737,8 @@
     "knowledgePoints": [
       "磁场"
     ],
-    "id": "physics-senior-026"
+    "id": "physics-senior-026",
+    "subject": "physics"
   },
   {
     "question": "一电容器电容为C=10μF，两极板间电压为U=100V，则电容器所带电量为多少C？",
@@ -739,7 +765,8 @@
     "knowledgePoints": [
       "电场"
     ],
-    "id": "physics-senior-027"
+    "id": "physics-senior-027",
+    "subject": "physics"
   },
   {
     "question": "一质量为m、带电量为q的粒子，以速度v垂直射入磁感应强度为B的匀强磁场中，粒子做圆周运动的周期为多少？",
@@ -766,7 +793,8 @@
     "knowledgePoints": [
       "磁场"
     ],
-    "id": "physics-senior-028"
+    "id": "physics-senior-028",
+    "subject": "physics"
   },
   {
     "question": "三个相同的电阻，每个阻值为R，现将它们先串联再并联，总电阻为多少？",
@@ -793,7 +821,8 @@
     "knowledgePoints": [
       "电路"
     ],
-    "id": "physics-senior-029"
+    "id": "physics-senior-029",
+    "subject": "physics"
   },
   {
     "question": "一电路由理想电源（电动势E，内阻r）和电阻R组成，若外电阻等于内电阻，则电源的输出功率为多少？",
@@ -820,7 +849,8 @@
     "knowledgePoints": [
       "电路"
     ],
-    "id": "physics-senior-030"
+    "id": "physics-senior-030",
+    "subject": "physics"
   },
   {
     "question": "一电子在加速电压U下从静止加速后，以速度v垂直进入匀强磁场B中做螺旋运动，已知电子质量为m，电荷量为e，则螺旋运动的半径为多少？",
@@ -847,7 +877,8 @@
     "knowledgePoints": [
       "磁场"
     ],
-    "id": "physics-senior-031"
+    "id": "physics-senior-031",
+    "subject": "physics"
   },
   {
     "question": "一正方形线圈边长为a，电阻为R，在磁感应强度为B的匀强磁场中绕中心轴以角速度ω匀速转动，线圈中的感应电动势最大值为多少？",
@@ -874,7 +905,8 @@
     "knowledgePoints": [
       "电磁感应"
     ],
-    "id": "physics-senior-032"
+    "id": "physics-senior-032",
+    "subject": "physics"
   },
   {
     "question": "电场中某点的电势为φ=10V，则该点与电势为0的点间的电势差为多少？",
@@ -901,7 +933,8 @@
     "knowledgePoints": [
       "电场"
     ],
-    "id": "physics-senior-033"
+    "id": "physics-senior-033",
+    "subject": "physics"
   },
   {
     "question": "一电荷量q=2×10⁻⁸C的点电荷从A点移动到B点，电场力做功W=4×10⁻⁶J，则A、B两点间的电势差U_AB为多少V？",
@@ -928,7 +961,8 @@
     "knowledgePoints": [
       "电场"
     ],
-    "id": "physics-senior-034"
+    "id": "physics-senior-034",
+    "subject": "physics"
   },
   {
     "question": "一匀强电场的电场强度大小为E=5×10³N/C，一电荷量q=2×10⁻⁸C的点电荷在该电场中沿电场方向移动0.1m，则电场力所做的功为多少J？",
@@ -955,7 +989,8 @@
     "knowledgePoints": [
       "电场"
     ],
-    "id": "physics-senior-035"
+    "id": "physics-senior-035",
+    "subject": "physics"
   },
   {
     "question": "一自感线圈的自感系数为L=0.5H，线圈中电流的变化率为2A/s，则线圈的自感电动势大小为多少V？",
@@ -982,7 +1017,8 @@
     "knowledgePoints": [
       "电磁感应"
     ],
-    "id": "physics-senior-036"
+    "id": "physics-senior-036",
+    "subject": "physics"
   },
   {
     "question": "一理想变压器的原线圈匝数为n₁，副线圈匝数为n₂，若原线圈两端电压为U₁，则副线圈两端电压为多少？",
@@ -1009,7 +1045,8 @@
     "knowledgePoints": [
       "电磁感应"
     ],
-    "id": "physics-senior-037"
+    "id": "physics-senior-037",
+    "subject": "physics"
   },
   {
     "question": "真空中一束光从空气射入水中，入射角为45°，水的折射率为4/3，则折射角约为多少度？",
@@ -1036,7 +1073,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-038"
+    "id": "physics-senior-038",
+    "subject": "physics"
   },
   {
     "question": "一束平行光垂直入射到一单缝上，缝宽为a=0.5mm，已知第一级暗纹位置对应的衍射角为θ=3×10⁻³rad，则入射光的波长为多少nm？",
@@ -1063,7 +1101,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-039"
+    "id": "physics-senior-039",
+    "subject": "physics"
   },
   {
     "question": "用红光照射某金属表面能产生光电效应，则改用相同光强的蓝光照射时，可能发生的变化是",
@@ -1090,7 +1129,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-040"
+    "id": "physics-senior-040",
+    "subject": "physics"
   },
   {
     "question": "一束光从折射率为n₁的介质射向折射率为n₂的介质，若发生全反射，则",
@@ -1117,7 +1157,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-041"
+    "id": "physics-senior-041",
+    "subject": "physics"
   },
   {
     "question": "一束单色光在玻璃中的波长为λ=400nm，玻璃的折射率为n=1.5，则该光子在玻璃中的频率为多少Hz？（c=3×10⁸m/s）",
@@ -1145,7 +1186,8 @@
       "光学",
       "原子物理"
     ],
-    "id": "physics-senior-042"
+    "id": "physics-senior-042",
+    "subject": "physics"
   },
   {
     "question": "在双缝干涉实验中，若双缝间距为d，双缝到屏的距离为L，用波长为λ的单色光照射，则相邻明纹间的距离Δx为多少？",
@@ -1172,7 +1214,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-043"
+    "id": "physics-senior-043",
+    "subject": "physics"
   },
   {
     "question": "一凸透镜的焦距为f=10cm，若物体放在透镜前30cm处，则所成像的性质是",
@@ -1199,7 +1242,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-044"
+    "id": "physics-senior-044",
+    "subject": "physics"
   },
   {
     "question": "自然光以布儒斯特角θ_B入射到两种介质的界面上，则反射光与折射光的关系是",
@@ -1226,7 +1270,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-045"
+    "id": "physics-senior-045",
+    "subject": "physics"
   },
   {
     "question": "一束光线从空气垂直入射到一块玻璃砖上（玻璃砖上下表面平行），出射光线的方向是",
@@ -1253,7 +1298,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-046"
+    "id": "physics-senior-046",
+    "subject": "physics"
   },
   {
     "question": "在单缝夫琅禾费衍射实验中，若单缝宽度减小，则中央明纹的宽度将",
@@ -1280,7 +1326,8 @@
     "knowledgePoints": [
       "光学"
     ],
-    "id": "physics-senior-047"
+    "id": "physics-senior-047",
+    "subject": "physics"
   },
   {
     "question": "一活塞封闭了一定量的理想气体，已知气体压强为p，体积为V，温度为T，则该气体的物质的量为多少？",
@@ -1307,7 +1354,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-048"
+    "id": "physics-senior-048",
+    "subject": "physics"
   },
   {
     "question": "一定质量的理想气体在等压膨胀过程中，若气体吸收热量为Q，则下列关系正确的是",
@@ -1334,7 +1382,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-049"
+    "id": "physics-senior-049",
+    "subject": "physics"
   },
   {
     "question": "理想气体经历一循环过程，从外界吸收热量200J，对外做功100J，则气体内能的变化量为多少J？",
@@ -1361,7 +1410,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-050"
+    "id": "physics-senior-050",
+    "subject": "physics"
   },
   {
     "question": "一绝热容器中盛有理想气体，现用电阻丝对气体加热，已知气体吸收热量为Q，则气体的内能变化量ΔU和对外做功W的关系为",
@@ -1388,7 +1438,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-051"
+    "id": "physics-senior-051",
+    "subject": "physics"
   },
   {
     "question": "一卡诺热机在高温热源T₁=600K和低温热源T₂=300K之间工作，若热机对外做功为W，则它从高温热源吸收的热量Q₁为多少？",
@@ -1415,7 +1466,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-052"
+    "id": "physics-senior-052",
+    "subject": "physics"
   },
   {
     "question": "一定量的理想气体在等温压缩过程中，气体分子平均动能的变化是",
@@ -1442,7 +1494,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-053"
+    "id": "physics-senior-053",
+    "subject": "physics"
   },
   {
     "question": "理想气体绝热自由膨胀过程，下列表述正确的是",
@@ -1469,7 +1522,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-054"
+    "id": "physics-senior-054",
+    "subject": "physics"
   },
   {
     "question": "物体的温度没有改变，下列说法正确的是",
@@ -1496,7 +1550,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-055"
+    "id": "physics-senior-055",
+    "subject": "physics"
   },
   {
     "question": "甲、乙两个物体接触且达到热平衡，甲的比热容是乙的2倍，质量是乙的一半，若甲的温度变化了20℃，则乙的温度变化了",
@@ -1523,7 +1578,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-056"
+    "id": "physics-senior-056",
+    "subject": "physics"
   },
   {
     "question": "某理想气体的摩尔质量为M，密度为ρ，摩尔体积为V_m，则该气体的摩尔体积可表示为",
@@ -1550,7 +1606,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-057"
+    "id": "physics-senior-057",
+    "subject": "physics"
   },
   {
     "question": "一密闭容器中有0.1mol的理想气体，压强为1.01×10⁵Pa，温度为300K，则容器的体积约为多少L？",
@@ -1577,7 +1634,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-058"
+    "id": "physics-senior-058",
+    "subject": "physics"
   },
   {
     "question": "关于布朗运动，下列说法正确的是",
@@ -1604,7 +1662,8 @@
     "knowledgePoints": [
       "热学"
     ],
-    "id": "physics-senior-059"
+    "id": "physics-senior-059",
+    "subject": "physics"
   },
   {
     "question": "α粒子散射实验表明了",
@@ -1631,7 +1690,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-060"
+    "id": "physics-senior-060",
+    "subject": "physics"
   },
   {
     "question": "氢原子能级公式为E_n=-13.6/n²（eV），则氢原子从n=3跃迁到n=1时辐射光子的能量为多少eV？",
@@ -1658,7 +1718,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-061"
+    "id": "physics-senior-061",
+    "subject": "physics"
   },
   {
     "question": "氘核和氚核结合成氦核的反应方程为：²₁H+³₁H→⁴₂He+¹₀n，该反应属于",
@@ -1685,7 +1746,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-062"
+    "id": "physics-senior-062",
+    "subject": "physics"
   },
   {
     "question": "某原子核的半衰期为T，则该原子核衰变掉3/4所需的时间为",
@@ -1712,7 +1774,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-063"
+    "id": "physics-senior-063",
+    "subject": "physics"
   },
   {
     "question": "下列核反应方程中，符号X代表α粒子的是",
@@ -1739,7 +1802,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-064"
+    "id": "physics-senior-064",
+    "subject": "physics"
   },
   {
     "question": "光子能量为E的单色光照射某金属表面，光电子的最大初动能为K，则该金属的逸出功为",
@@ -1766,7 +1830,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-065"
+    "id": "physics-senior-065",
+    "subject": "physics"
   },
   {
     "question": "氢原子基态能量E₁=-13.6eV，则氢原子n=2激发态的量子数为",
@@ -1793,7 +1858,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-066"
+    "id": "physics-senior-066",
+    "subject": "physics"
   },
   {
     "question": "关于原子核的结合能，下列说法正确的是",
@@ -1820,7 +1886,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-067"
+    "id": "physics-senior-067",
+    "subject": "physics"
   },
   {
     "question": "一个原子序数为Z的原子核，其衰变后变成原子序数为Z-1的原子核，则该衰变属于",
@@ -1847,7 +1914,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-068"
+    "id": "physics-senior-068",
+    "subject": "physics"
   },
   {
     "question": "放射性元素的半衰期分别为T₁和T₂，若它们的初始质量相等，则经过2T₁时间后，两种元素剩余质量之比为",
@@ -1874,7 +1942,8 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-069"
+    "id": "physics-senior-069",
+    "subject": "physics"
   },
   {
     "question": "爱因斯坦质能方程E=mc²的物理意义是",
@@ -1901,6 +1970,7 @@
     "knowledgePoints": [
       "原子物理"
     ],
-    "id": "physics-senior-070"
+    "id": "physics-senior-070",
+    "subject": "physics"
   }
 ]

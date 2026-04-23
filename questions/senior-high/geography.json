@@ -26,7 +26,8 @@
     "knowledgePoints": [
       "地球与地图"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-2",
@@ -55,7 +56,8 @@
     "knowledgePoints": [
       "地球所处的宇宙环境"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-3",
@@ -84,7 +86,8 @@
     "knowledgePoints": [
       "太阳对地球的影响"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-4",
@@ -113,7 +116,8 @@
     "knowledgePoints": [
       "地球的自转与公转"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-5",
@@ -142,7 +146,8 @@
     "knowledgePoints": [
       "岩石圈与地质作用"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-6",
@@ -171,7 +176,8 @@
     "knowledgePoints": [
       "大气圈与气候"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-7",
@@ -200,7 +206,8 @@
     "knowledgePoints": [
       "水圈与水循环"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-8",
@@ -229,7 +236,8 @@
     "knowledgePoints": [
       "自然地理环境的整体性与差异性"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-9",
@@ -258,7 +266,8 @@
     "knowledgePoints": [
       "人口与城市"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-10",
@@ -287,7 +296,8 @@
     "knowledgePoints": [
       "农业区位因素"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-11",
@@ -316,7 +326,8 @@
     "knowledgePoints": [
       "工业区位因素"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-12",
@@ -345,7 +356,8 @@
     "knowledgePoints": [
       "交通运输"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-13",
@@ -374,7 +386,8 @@
     "knowledgePoints": [
       "环境问题与可持续发展"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-14",
@@ -403,7 +416,8 @@
     "knowledgePoints": [
       "区域地理（亚洲、欧洲、非洲、美洲）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-15",
@@ -432,7 +446,8 @@
     "knowledgePoints": [
       "中国地理（地形、气候、资源）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-16",
@@ -461,7 +476,8 @@
     "knowledgePoints": [
       "等值线判读"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-17",
@@ -490,7 +506,8 @@
     "knowledgePoints": [
       "地球运动的意义"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-18",
@@ -519,7 +536,8 @@
     "knowledgePoints": [
       "锋面与气旋"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-19",
@@ -548,7 +566,8 @@
     "knowledgePoints": [
       "地表形态的塑造"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-20",
@@ -577,7 +596,8 @@
     "knowledgePoints": [
       "外力作用与地貌"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-21",
@@ -606,7 +626,8 @@
     "knowledgePoints": [
       "人口迁移"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-22",
@@ -635,7 +656,8 @@
     "knowledgePoints": [
       "产业转移"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-23",
@@ -664,7 +686,8 @@
     "knowledgePoints": [
       "资源跨区域调配"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-24",
@@ -693,7 +716,8 @@
     "knowledgePoints": [
       "地理信息技术（RS、GIS、GPS）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   },
   {
     "id": "geography-senior-high-25",
@@ -722,6 +746,7 @@
     "knowledgePoints": [
       "环境保护"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "geography"
   }
 ]

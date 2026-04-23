@@ -26,7 +26,8 @@
     "knowledgePoints": [
       "先秦政治制度（分封制、宗法制）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-2",
@@ -55,7 +56,8 @@
     "knowledgePoints": [
       "秦汉政治制度（郡县制、专制主义中央集权）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-3",
@@ -84,7 +86,8 @@
     "knowledgePoints": [
       "唐宋政治制度（三省六部、科举制）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-4",
@@ -113,7 +116,8 @@
     "knowledgePoints": [
       "明清政治制度（内阁、军机处）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-5",
@@ -142,7 +146,8 @@
     "knowledgePoints": [
       "古代希腊罗马政治制度"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-6",
@@ -171,7 +176,8 @@
     "knowledgePoints": [
       "近代西方政治制度（英国君主立宪、美国民主共和）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-7",
@@ -200,7 +206,8 @@
     "knowledgePoints": [
       "十月革命与苏联模式"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-8",
@@ -229,7 +236,8 @@
     "knowledgePoints": [
       "二战后世界政治格局（两极、冷战、多极化）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-9",
@@ -258,7 +266,8 @@
     "knowledgePoints": [
       "第一次工业革命"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-10",
@@ -287,7 +296,8 @@
     "knowledgePoints": [
       "第二次工业革命"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-11",
@@ -316,7 +326,8 @@
     "knowledgePoints": [
       "近代中国经济结构变动"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-12",
@@ -345,7 +356,8 @@
     "knowledgePoints": [
       "洋务运动与戊戌变法"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-13",
@@ -374,7 +386,8 @@
     "knowledgePoints": [
       "辛亥革命"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-14",
@@ -403,7 +416,8 @@
     "knowledgePoints": [
       "新民主主义革命"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-15",
@@ -432,7 +446,8 @@
     "knowledgePoints": [
       "中国特色社会主义建设"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-16",
@@ -461,7 +476,8 @@
     "knowledgePoints": [
       "改革开放"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-17",
@@ -490,7 +506,8 @@
     "knowledgePoints": [
       "古代商业与城市"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-18",
@@ -519,7 +536,8 @@
     "knowledgePoints": [
       "近代中国经济近代化"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-19",
@@ -548,7 +566,8 @@
     "knowledgePoints": [
       "世界贸易体系"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-20",
@@ -577,7 +596,8 @@
     "knowledgePoints": [
       "中国古代思想（百家争鸣、儒学发展）"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-21",
@@ -606,7 +626,8 @@
     "knowledgePoints": [
       "西方人文主义思想发展"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-22",
@@ -635,7 +656,8 @@
     "knowledgePoints": [
       "近代科技革命"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-23",
@@ -664,7 +686,8 @@
     "knowledgePoints": [
       "现代科技革命"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-24",
@@ -693,7 +716,8 @@
     "knowledgePoints": [
       "文化遗产保护"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   },
   {
     "id": "history-senior-high-25",
@@ -722,6 +746,7 @@
     "knowledgePoints": [
       "中外历史人物对比"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "history"
   }
 ]

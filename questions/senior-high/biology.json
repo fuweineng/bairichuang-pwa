@@ -26,7 +26,8 @@
     "knowledgePoints": [
       "细胞的结构与功能"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-2",
@@ -55,7 +56,8 @@
     "knowledgePoints": [
       "细胞的结构与功能"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-3",
@@ -84,7 +86,8 @@
     "knowledgePoints": [
       "物质跨膜运输"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-4",
@@ -113,7 +116,8 @@
     "knowledgePoints": [
       "酶与ATP"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-5",
@@ -142,7 +146,8 @@
     "knowledgePoints": [
       "细胞呼吸"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-6",
@@ -171,7 +176,8 @@
     "knowledgePoints": [
       "光合作用"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-7",
@@ -200,7 +206,8 @@
     "knowledgePoints": [
       "有丝分裂"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-8",
@@ -229,7 +236,8 @@
     "knowledgePoints": [
       "减数分裂与受精作用"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-9",
@@ -258,7 +266,8 @@
     "knowledgePoints": [
       "DNA复制与基因表达"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-10",
@@ -287,7 +296,8 @@
     "knowledgePoints": [
       "基因分离定律"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-11",
@@ -316,7 +326,8 @@
     "knowledgePoints": [
       "基因自由组合定律"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-12",
@@ -345,7 +356,8 @@
     "knowledgePoints": [
       "伴性遗传"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-13",
@@ -374,7 +386,8 @@
     "knowledgePoints": [
       "基因突变与染色体变异"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-14",
@@ -403,7 +416,8 @@
     "knowledgePoints": [
       "遗传系谱图分析"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-15",
@@ -432,7 +446,8 @@
     "knowledgePoints": [
       "变异与进化"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-16",
@@ -461,7 +476,8 @@
     "knowledgePoints": [
       "基因工程原理"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-17",
@@ -490,7 +506,8 @@
     "knowledgePoints": [
       "细胞工程"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-18",
@@ -519,7 +536,8 @@
     "knowledgePoints": [
       "微生物培养与利用"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-19",
@@ -548,7 +566,8 @@
     "knowledgePoints": [
       "人体内环境与稳态"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-20",
@@ -577,7 +596,8 @@
     "knowledgePoints": [
       "神经调节与体液调节"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-21",
@@ -606,7 +626,8 @@
     "knowledgePoints": [
       "免疫调节"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-22",
@@ -635,7 +656,8 @@
     "knowledgePoints": [
       "植物激素调节"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-23",
@@ -664,7 +686,8 @@
     "knowledgePoints": [
       "种群与群落"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-24",
@@ -693,7 +716,8 @@
     "knowledgePoints": [
       "生态系统结构与功能"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   },
   {
     "id": "biology-senior-high-25",
@@ -722,6 +746,7 @@
     "knowledgePoints": [
       "生态环境保护"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "biology"
   }
 ]

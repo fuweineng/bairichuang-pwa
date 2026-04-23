@@ -26,7 +26,8 @@
     "knowledgePoints": [
       "物质的量与气体摩尔体积"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-2",
@@ -55,7 +56,8 @@
     "knowledgePoints": [
       "物质的分类与反应类型"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-3",
@@ -84,7 +86,8 @@
     "knowledgePoints": [
       "离子反应与离子方程式"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-4",
@@ -113,7 +116,8 @@
     "knowledgePoints": [
       "氧化还原反应"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-5",
@@ -142,7 +146,8 @@
     "knowledgePoints": [
       "元素周期律与元素周期表"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-6",
@@ -171,7 +176,8 @@
     "knowledgePoints": [
       "化学键与分子结构"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-7",
@@ -200,7 +206,8 @@
     "knowledgePoints": [
       "化学反应速率与化学平衡"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-8",
@@ -229,7 +236,8 @@
     "knowledgePoints": [
       "弱电解质与电离平衡"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-9",
@@ -258,7 +266,8 @@
     "knowledgePoints": [
       "水的电离与盐类水解"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-10",
@@ -287,7 +296,8 @@
     "knowledgePoints": [
       "难溶电解质沉淀溶解平衡"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-11",
@@ -316,7 +326,8 @@
     "knowledgePoints": [
       "原电池原理与应用"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-12",
@@ -345,7 +356,8 @@
     "knowledgePoints": [
       "电解池与电镀"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-13",
@@ -374,7 +386,8 @@
     "knowledgePoints": [
       "金属及其化合物"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-14",
@@ -403,7 +416,8 @@
     "knowledgePoints": [
       "非金属及其化合物"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-15",
@@ -432,7 +446,8 @@
     "knowledgePoints": [
       "有机物分类与官能团"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-16",
@@ -461,7 +476,8 @@
     "knowledgePoints": [
       "甲烷、乙烯、乙炔"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-17",
@@ -490,7 +506,8 @@
     "knowledgePoints": [
       "苯与芳香烃"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-18",
@@ -519,7 +536,8 @@
     "knowledgePoints": [
       "乙醇与乙酸"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-19",
@@ -548,7 +566,8 @@
     "knowledgePoints": [
       "糖类、油脂、蛋白质"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-20",
@@ -577,7 +596,8 @@
     "knowledgePoints": [
       "加聚反应与缩聚反应"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-21",
@@ -606,7 +626,8 @@
     "knowledgePoints": [
       "同分异构体"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-22",
@@ -635,7 +656,8 @@
     "knowledgePoints": [
       "高分子化合物"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-23",
@@ -664,7 +686,8 @@
     "knowledgePoints": [
       "化学反应的热效应"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-24",
@@ -693,7 +716,8 @@
     "knowledgePoints": [
       "盖斯定律与反应热"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   },
   {
     "id": "chemistry-senior-high-25",
@@ -722,6 +746,7 @@
     "knowledgePoints": [
       "化学实验设计与评价"
     ],
-    "difficulty": 4
+    "difficulty": 4,
+    "subject": "chemistry"
   }
 ]
