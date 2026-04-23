@@ -278,6 +278,8 @@ header {
   padding: 10px 16px 8px;
   flex-shrink: 0;
   border-bottom: 1px solid var(--theme-border);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header-left {

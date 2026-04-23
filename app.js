@@ -39,7 +39,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.5', audioVersion: '', questionBankVersion: '', soundEnabled: true },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.6', audioVersion: '', questionBankVersion: '', soundEnabled: true },
   remoteVersions: null,
 };
 
@@ -224,7 +224,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.5', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.6', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Load local version from version.json
   try {
@@ -2468,7 +2468,7 @@ async function clearAllData() {
   state.daily = {};
   state.sessions = [];
   state.meta = {};
-  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.5', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.6', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Reload question bank from GitHub, then refresh UI (no full page reload)
   await upgradeQuestionBank();
