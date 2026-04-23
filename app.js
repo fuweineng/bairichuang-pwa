@@ -2666,7 +2666,8 @@ async function exportAccountQR() {
   if (typeof QRCode === 'undefined') { showToast('二维码库加载失败，请检查网络'); return; }
   const data = {
     account: state.account,
-    sessions: state.sessions,
+    // 只导出最近20条session，避免QR数据过长
+    sessions: (state.sessions || []).slice(-20),
     daily: state.daily,
     meta: state.meta,
     progress: state.progress,
@@ -2679,11 +2680,12 @@ async function exportAccountQR() {
   const qrEl = document.getElementById('qr-export-canvas');
   if (!qrEl) { showToast('QR容器不存在'); return; }
   try {
-    await QRCode.toCanvas(qrEl, compressed, { width: 280, margin: 2, color: { dark: '#000000', light: '#ffffff' } });
+    await QRCode.toCanvas(qrEl, compressed, { width: 280, margin: 2, errorCorrectionLevel: 'L', color: { dark: '#000000', light: '#ffffff' } });
     modal.style.display = 'flex';
   } catch(e) {
-    showToast('生成二维码失败');
-    console.error(e);
+    const errMsg = e?.message || e?.reason?.message || String(e);
+    showToast('生成二维码失败: ' + errMsg);
+    console.error('[QR export]', e);
   }
 }
 
