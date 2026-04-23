@@ -39,7 +39,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.3', audioVersion: '', questionBankVersion: '', soundEnabled: true },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.4', audioVersion: '', questionBankVersion: '', soundEnabled: true },
   remoteVersions: null,
 };
 
@@ -224,7 +224,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.3', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.4', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Load local version from version.json
   try {
@@ -505,6 +505,28 @@ async function renderHome() {
 
   // 今日状态
   renderTodayStatus();
+
+  // 全科练习大按钮 — 柱状图下方，主题色
+  let allBtn = document.getElementById('home-all-btn');
+  const hasAssessment = !!(state.meta.day1SubjectAcc);
+  if (!allBtn) {
+    allBtn = document.createElement('button');
+    allBtn.id = 'home-all-btn';
+    allBtn.className = 'chart-all-btn-large';
+    homeChartEl.parentNode.insertBefore(allBtn, homeChartEl.nextSibling);
+  }
+  // 动态设置文字和 action
+  if (hasAssessment) {
+    allBtn.textContent = '全科练习';
+    allBtn.dataset.action = 'start-subject';
+    allBtn.dataset.subject = 'all';
+    allBtn.dataset.entry = 'standard';
+  } else {
+    allBtn.textContent = '开始摸底测试';
+    allBtn.dataset.action = 'start-assessment';
+    allBtn.dataset.subject = 'all';
+    allBtn.dataset.entry = 'assessment';
+  }
 }
 
 
@@ -2444,7 +2466,7 @@ async function clearAllData() {
   state.daily = {};
   state.sessions = [];
   state.meta = {};
-  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.3', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.4', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Reload question bank from GitHub, then refresh UI (no full page reload)
   await upgradeQuestionBank();
