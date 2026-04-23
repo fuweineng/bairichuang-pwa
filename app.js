@@ -39,7 +39,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.0', audioVersion: '', questionBankVersion: '', soundEnabled: true },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.2', audioVersion: '', questionBankVersion: '', soundEnabled: true },
   remoteVersions: null,
 };
 
@@ -224,7 +224,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.0', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.2', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Load local version from version.json
   try {
@@ -1717,6 +1717,15 @@ async function recordAnswer(questionId, isCorrect, subject, qtype) {
   state.progress[questionId] = p;
   state.sessionResults.push({ questionId, isCorrect, subject, type: qtype || 'choice' });
   await set(K.PROGRESS, state.progress);
+  // 更新账号中该科目的熟练度
+  if (state.account && subject) {
+    if (!state.account.subjects) state.account.subjects = {};
+    if (!state.account.subjects[subject]) state.account.subjects[subject] = { mastery: 0 };
+    const sm = state.account.subjects[subject].mastery;
+    // 答对+2，答错-1，封顶100
+    state.account.subjects[subject].mastery = Math.max(0, Math.min(100, isCorrect ? sm + 2 : sm - 1));
+    await set(K.ACCOUNT, state.account);
+  }
 }
 
 async function renderSessionEnd() {
@@ -2075,10 +2084,11 @@ async function renderSettings() {
     </div>
   `;
 
-  // Show QB stats
+  // Show QB stats + subject mastery
   const stats = Object.entries(state.questionBank).map(([subj, qs]) => {
     const mastered = qs.filter(q => (state.progress[q.id] || {}).status === 'mastered').length;
-    return `${subjectName(subj)}: ${qs.length}题 / ${mastered}已掌握`;
+    const mastery = (state.account?.subjects?.[subj]?.mastery ?? '-');
+    return `${subjectName(subj)}: ${qs.length}题/已掌握${mastered}/熟练${mastery}`;
   }).join('；');
   const el = document.getElementById('qb-stats');
   if (el) el.textContent = stats || '无题目';
@@ -2502,7 +2512,7 @@ async function clearAllData() {
   state.daily = {};
   state.sessions = [];
   state.meta = {};
-  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.0', audioVersion: '', questionBankVersion: '', soundEnabled: true };
+  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.2', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Reload question bank from GitHub, then refresh UI (no full page reload)
   await upgradeQuestionBank();
@@ -2631,7 +2641,7 @@ async function confirmAccountSetup() {
     if (ha) ha.src = avatar;
     if (hn) hn.textContent = name;
   } else {
-    state.account = { name, avatar, createdAt: Date.now() };
+    state.account = { name, avatar, createdAt: Date.now(), subjects: {} };
     await set(K.ACCOUNT, state.account);
     showToast('欢迎，' + name + '！');
     renderHome();
@@ -2771,7 +2781,16 @@ async function onQRRead(decodedText) {
 
   // Import
   if (data.account) {
-    state.account = data.account;
+    if (!state.account) state.account = {};
+    // Merge subjects mastery (keep local if imported has no subjects for that subject)
+    const importedSubjects = data.account.subjects || {};
+    state.account.subjects = state.account.subjects || {};
+    for (const [subj, info] of Object.entries(importedSubjects)) {
+      state.account.subjects[subj] = info;
+    }
+    state.account.name = data.account.name || state.account.name;
+    state.account.avatar = data.account.avatar || state.account.avatar;
+    state.account.createdAt = data.account.createdAt || state.account.createdAt;
     await set(K.ACCOUNT, state.account);
   }
   if (data.sessions) {

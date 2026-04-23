@@ -1,9 +1,8 @@
 {
-  "version": "9.8.0",
+  "version": "9.8.2",
   "changelog": [
-    "首页补弱科目区渲染（renderWeakSubjects 在 renderHome 中调用）",
-    "首页打赏入口按钮 + 支持弹窗",
-    "PWA 安装提示改为底部 sheet",
-    "修复 renderHome 中无效的 renderTodayStatus 调用"
+    "账号新增各科目熟练度字段（答对+2/答错-1，封顶100）",
+    "设置页显示各科目熟练度数值",
+    "新建账号初始化空subjects，QR导入合并subjects数据"
   ]
 }
