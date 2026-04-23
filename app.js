@@ -1277,7 +1277,7 @@ function renderQuestion() {
   const typeLabel = {
     choice: '选择题', fill: '填空题', reading: '阅读理解',
     dictation: '听写填空', listening: '听力选择', passage_dictation: '短文听写',
-    expression: '表达题', short_answer: '简答题'
+    expression: '表达题', short_answer: '简答题', cloze: '完形填空'
   }[q.type] || '选择题';
   const diffLabel = {1:'简单',2:'中等',3:'困难',medium:'中等'}[q.difficulty] || '';
   const imageSources = Array.isArray(q.images)
@@ -1375,6 +1375,60 @@ function renderQuestion() {
     `;
     const inp = document.getElementById('fill-answer-input');
     if (inp) inp.focus();
+    return;
+  }
+
+  // ── CLOZE TYPE: 完形填空 ───────────────────────────────────────────
+  if (q.type === 'cloze') {
+    const sel = state.selectedChoice;
+    const isSubmitted = sel?.submitted === true;
+    const parseOpt = (optStr) => optStr.split(';').map(p => p.trim());
+    const optionTexts = q.options.map(parseOpt);
+    const letters = ['A','B','C','D'];
+    const selectedCls = (oi) => sel?.idx === oi ? ' selected' : '';
+    const submittedCls = (oi) => {
+      if (!isSubmitted) return '';
+      const correctIdx = letters.indexOf(q.answer);
+      if (oi === correctIdx) return ' correct';
+      if (oi === sel?.idx && oi !== correctIdx) return ' wrong';
+      return '';
+    };
+    const optBtns = q.options.map((optStr, oi) => {
+      const parts = parseOpt(optStr);
+      const btnCls = `answer-btn${selectedCls(oi)}${submittedCls(oi)}`;
+      return `<button class="${btnCls}" data-action="answer" data-choice="${oi}">${letters[oi]}. ${parts.join(' · ')}</button>`;
+    }).join('');
+    container.innerHTML = `
+      <div class="question-meta">
+        <span>${typeLabel}</span><span>${diffLabel}</span>
+        <span class="question-progress">${idx + 1}/${total}</span>
+      </div>
+      ${q.hint ? `<div class="question-hint">${q.hint}</div>` : ''}
+      ${imageBlock}
+      <div class="question-text">${q.question}</div>
+      <div class="answer-grid" id="answer-grid">${optBtns}</div>
+      ${!isSubmitted && sel !== null ? `<button class="primary-btn" id="action-btn" data-action="submit">提交</button>` : ''}
+      ${isSubmitted ? `<div style="margin-top:12px;padding:10px 14px;background:#f0f4ff;border-radius:8px;font-size:14px"><strong>解析：</strong>${q.explanation}</div>` : ''}
+    `;
+    const onKey = (e) => {
+      if (!state.sessionQuestions.length) return;
+      const q2 = state.sessionQuestions[state.sessionIndex];
+      if (!q2 || q2.type !== 'cloze') return;
+      const maxChoice = 4;
+      const curSel = state.selectedChoice;
+      const nowSubmitted = curSel?.submitted === true;
+      if (e.key >= '1' && e.key <= '4' && parseInt(e.key) <= maxChoice) {
+        state.selectedChoice = { idx: parseInt(e.key) - 1, submitted: nowSubmitted };
+        renderQuestion(); return;
+      }
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        if (nowSubmitted) nextQuestion();
+        else if (curSel !== null) handleSubmit();
+      }
+    };
+    document.removeEventListener('keydown', onKey);
+    document.addEventListener('keydown', onKey);
     return;
   }
 
@@ -1503,12 +1557,14 @@ async function handleAnswer(choiceIdx) {
 
   // ── 判断答案 ──────────────────────────────────────────────────────────
   let isCorrect = false;
-  if ((q.type === 'choice' || !q.type) && (q.options || q.choices)) {
+  if ((q.type === 'choice' || !q.type || q.type === 'cloze') && (q.options || q.choices)) {
     const source = q.options || q.choices;
     const opt = source[choiceIdx];
     const optLabel = typeof opt === 'string' ? opt : (opt.label ?? opt.key ?? '');
     const answerStr = String(q.answer).toUpperCase();
-    isCorrect = optLabel.toUpperCase() === answerStr;
+    // For cloze: options are "A. word1; word2..." — compare only the leading letter
+    const labelToCompare = optLabel.replace(/\..*/, '').trim().toUpperCase();
+    isCorrect = labelToCompare === answerStr;
   } else if (q.type === 'listening' && q.choices) {
     isCorrect = q.choices[choiceIdx].label === String(q.answer);
   }

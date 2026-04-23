@@ -3693,5 +3693,391 @@
     "answer": "B",
     "grade": 9,
     "explanation": "秦始皇统一六国后，为削弱诸侯势力、加强对地方的控制，废除分封，实行郡县制，由中央直接任命官员，有效巩固统一。"
+  },
+  {
+    "id": "history-modern-001",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中华人民共和国成立于（）",
+    "options": [
+      "A. 1945年",
+      "B. 1949年",
+      "C. 1950年",
+      "D. 1951年"
+    ],
+    "answer": "B",
+    "explanation": "1949年10月1日，毛泽东在天安门城楼庄严宣告中华人民共和国中央人民政府成立"
+  },
+  {
+    "id": "history-modern-002",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "抗美援朝战争中，中国人民志愿军的司令员是（）",
+    "options": [
+      "A. 朱德",
+      "B. 彭德怀",
+      "C. 林彪",
+      "D. 刘伯承"
+    ],
+    "answer": "B",
+    "explanation": "彭德怀任中国人民志愿军司令员兼政治委员，率部赴朝作战"
+  },
+  {
+    "id": "history-modern-003",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "我国第一个五年计划实施的时间是（）",
+    "options": [
+      "A. 1949-1953年",
+      "B. 1953-1957年",
+      "C. 1956-1960年",
+      "D. 1958-1962年"
+    ],
+    "answer": "B",
+    "explanation": "第一个五年计划（1953-1957年），优先发展重工业，初步奠定了社会主义工业化的基础"
+  },
+  {
+    "id": "history-modern-004",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "作出改革开放重大决策的会议是（）",
+    "options": [
+      "A. 中共八大",
+      "B. 中共十一届三中全会",
+      "C. 中共十四大",
+      "D. 中共十五大"
+    ],
+    "answer": "B",
+    "explanation": "1978年12月召开的中共十一届三中全会，确立了改革开放的重大战略决策"
+  },
+  {
+    "id": "history-modern-005",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "中国第一个经济特区是（）",
+    "options": [
+      "A. 深圳",
+      "B. 珠海",
+      "C. 汕头",
+      "D. 海南"
+    ],
+    "answer": "A",
+    "explanation": "1980年，深圳、珠海、汕头、厦门成为首批经济特区，其中深圳发展最快，被誉为\"一夜崛起之城\""
+  },
+  {
+    "id": "history-modern-006",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "万隆会议召开于（）",
+    "options": [
+      "A. 1953年",
+      "B. 1954年",
+      "C. 1955年",
+      "D. 1956年"
+    ],
+    "answer": "C",
+    "explanation": "1955年4月，周恩来率团参加在印度尼西亚万隆举行的亚非会议，提出\"求同存异\"原则"
+  },
+  {
+    "id": "history-modern-007",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "1997年回归祖国的是（）",
+    "options": [
+      "A. 台湾",
+      "B. 香港",
+      "C. 澳门",
+      "D. 澳门半岛"
+    ],
+    "answer": "B",
+    "explanation": "1997年7月1日，香港回归祖国；1999年12月20日，澳门回归祖国"
+  },
+  {
+    "id": "history-modern-008",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国恢复在联合国的合法席位是在（）",
+    "options": [
+      "A. 1949年",
+      "B. 1955年",
+      "C. 1971年",
+      "D. 1978年"
+    ],
+    "answer": "C",
+    "explanation": "1971年10月25日，第26届联合国大会通过决议，恢复中华人民共和国在联合国的一切合法权利"
+  },
+  {
+    "id": "history-modern-009",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "中国加入世界贸易组织（WTO）的时间是（）",
+    "options": [
+      "A. 1995年",
+      "B. 1999年",
+      "C. 2001年",
+      "D. 2003年"
+    ],
+    "answer": "C",
+    "explanation": "2001年12月11日，中国正式成为世界贸易组织成员，标志着中国对外开放进入新阶段"
+  },
+  {
+    "id": "history-modern-010",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "1970年，中国成功发射的第一颗人造地球卫星是（）",
+    "options": [
+      "A. 东方红一号",
+      "B. 神舟一号",
+      "C. 长征一号",
+      "D. 风云一号"
+    ],
+    "answer": "A",
+    "explanation": "1970年4月24日，东方红一号卫星发射成功，使中国成为世界上第五个能独立发射人造卫星的国家"
+  },
+  {
+    "id": "history-modern-011",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "2008年，中国成功举办奥运会是在（）",
+    "options": [
+      "A. 北京",
+      "B. 上海",
+      "C. 广州",
+      "D. 深圳"
+    ],
+    "answer": "A",
+    "explanation": "2008年8月8日，北京第29届夏季奥林匹克运动会开幕，中国金牌数居首位"
+  },
+  {
+    "id": "history-modern-012",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "标志着\"改革开放\"起步的历史事件是（）",
+    "options": [
+      "A. 十一届三中全会的召开",
+      "B. 深圳等经济特区的建立",
+      "C. 农村家庭联产承包责任制",
+      "D. 国有企业改革"
+    ],
+    "answer": "A",
+    "explanation": "十一届三中全会是改革开放的起点，此后才有经济特区等具体措施"
+  },
+  {
+    "id": "history-modern-013",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国第一部社会主义宪法制定于（）",
+    "options": [
+      "A. 1949年",
+      "B. 1950年",
+      "C. 1954年",
+      "D. 1975年"
+    ],
+    "answer": "C",
+    "explanation": "1954年9月，第一届全国人民代表大会通过《中华人民共和国宪法》，这是中国第一部社会主义宪法"
+  },
+  {
+    "id": "history-modern-014",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "周恩来在外交方面的主要贡献不包括（）",
+    "options": [
+      "A. 提出和平共处五项原则",
+      "B. 出席万隆会议",
+      "C. 尼克松访华的幕后推手",
+      "D. 领导改革开放"
+    ],
+    "answer": "D",
+    "explanation": "周恩来在外交上有重大贡献，但领导改革开放的是邓小平等，邓小平是改革开放的总设计师"
+  },
+  {
+    "id": "history-modern-015",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "1999年12月20日，澳门回归祖国，其行政长官是（）",
+    "options": [
+      "A. 何厚铧",
+      "B. 崔世安",
+      "C. 林郑月娥",
+      "D. 梁振英"
+    ],
+    "answer": "A",
+    "explanation": "何厚铧是澳门特别行政区第一任行政长官（1999-2009年），澳门从此回到祖国怀抱"
+  },
+  {
+    "id": "history-modern-016",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国成功爆炸第一颗原子弹的时间是（）",
+    "options": [
+      "A. 1960年",
+      "B. 1964年",
+      "C. 1967年",
+      "D. 1970年"
+    ],
+    "answer": "B",
+    "explanation": "1964年10月16日，中国在新疆罗布泊成功爆炸第一颗原子弹，打破了超级大国的核垄断"
+  },
+  {
+    "id": "history-modern-017",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "邓小平被称为中国改革开放的总设计师，主要因为他（）",
+    "options": [
+      "A. 指挥了抗日战争",
+      "B. 领导了新民主主义革命",
+      "C. 创立了社会主义市场经济理论",
+      "D. 设计了中国现代化蓝图"
+    ],
+    "answer": "D",
+    "explanation": "邓小平为中国设计了\"三步走\"发展战略和改革开放的宏伟蓝图，被称为\"改革开放的总设计师\""
+  },
+  {
+    "id": "history-modern-018",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国进入特色社会主义新时代的标志是（）",
+    "options": [
+      "A. 中共十五大",
+      "B. 中共十八大",
+      "C. 中共十九大",
+      "D. 中共二十大"
+    ],
+    "answer": "C",
+    "explanation": "2017年中共十九大宣告，中国特色社会主义进入了新时代，这是我国发展的新的历史方位"
+  },
+  {
+    "id": "history-modern-019",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "土地改革运动完成的时间是（）",
+    "options": [
+      "A. 1950年",
+      "B. 1951年",
+      "C. 1952年",
+      "D. 1953年"
+    ],
+    "answer": "C",
+    "explanation": "1950-1952年，新中国进行了土地改革，彻底废除了封建土地所有制，农民成为土地的主人"
+  },
+  {
+    "id": "history-modern-020",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "\"一国两制\"构想首次提出是为了解决（）",
+    "options": [
+      "A. 台湾问题",
+      "B. 香港问题",
+      "C. 澳门问题",
+      "D. 西藏问题"
+    ],
+    "answer": "A",
+    "explanation": "\"一国两制\"是邓小平为解决台湾问题而提出的创造性构想，后成功用于香港、澳门回归"
   }
 ]

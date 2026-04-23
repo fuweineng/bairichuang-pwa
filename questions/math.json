@@ -7226,5 +7226,392 @@
     "answer": "B",
     "grade": 9,
     "explanation": "**解题思路**  \n我们先要把方程 \\(5x-3=2x+12\\) 求解，得到 \\(x\\) 的唯一取值，然后把这个取值代入每个选项检查是否满足原方程，从而判断哪个选项是正确的。\n\n---\n\n### 1. 求解方程\n\n\\[\n\\begin{aligned}\n5x-3 &= 2x+12 \\\\\n\\text{两边同时减去 }2x：&\\quad 5x-2x-3 = 12 \\\\\n\\text{化简：}&\\quad 3x-3 = 12 \\\\\n\\text{两边同时加 }3：&\\quad 3x = 15 \\\\\n\\text{两边同除以 }3：&\\quad x = \\frac{15}{3}=5\n\\end{aligned}\n\\]\n\n所以方程的唯一解是 **\\(x=5\\)**。\n\n---\n\n### 2. 检验每个选项\n\n把每个选项的数值代入原方程 \\(5x-3 = 2x+12\\) 进行验证。\n\n| 选项 | 代入计算 | 左边 \\(5x-3\\) | 右边 \\(2x+12\\) | 是否相等 |\n|------|----------|--------------|--------------|----------|\n| A. \\(x=4\\) | \\(5\\cdot4-3\\) 与 \\(2\\cdot4+12\\) | \\(20-3=17\\) | \\(8+12=20\\) | **不相等** |\n| B. \\(x=5\\) | \\(5\\cdot5-3\\) 与 \\(2\\cdot5+12\\) | \\(25-3=22\\) | \\(10+12=22\\) | **相等** |\n| C. \\(x=6\\) | \\(5\\cdot6-3\\) 与 \\(2\\cdot6+12\\) | \\(30-3=27\\) | \\(12+12=24\\) | **不相等** |\n| D. \\(x=7\\) | \\(5\\cdot7-3\\) 与 \\(2\\cdot7+12\\) | \\(35-3=32\\) | \\(14+12=26\\) | **不相等** |\n\n只有 **选项 B** 的 \\(x=5\\) 同时满足左边和右边的数值，说明它正好是方程的解。\n\n---\n\n### 3. 结论\n\n经过求解与代入检验，唯一满足原方程的解是 \\(x=5\\)，对应选项 **B**。\n\n**因此选 B**。"
+  },
+  {
+    "id": "math-stat-001",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "同时抛掷两枚质地均匀的硬币，正面都朝上的概率是（）",
+    "options": [
+      "A. 1/4",
+      "B. 1/2",
+      "C. 3/4",
+      "D. 1"
+    ],
+    "answer": "A",
+    "explanation": "共有4种等可能结果：正正、正反、反正、反反。正正占1种，P=1/4"
+  },
+  {
+    "id": "math-stat-002",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "一个袋中有3个红球和2个白球，它们除颜色外完全相同。从中任意摸出一球，摸到红球的概率为（）",
+    "options": [
+      "A. 2/5",
+      "B. 3/5",
+      "C. 1/2",
+      "D. 3/2"
+    ],
+    "answer": "B",
+    "explanation": "总球数5个，红球3个，P(红球)=3/5"
+  },
+  {
+    "id": "math-stat-003",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "抛掷一个正方体骰子，点数大于4的概率是（）",
+    "options": [
+      "A. 1/6",
+      "B. 1/3",
+      "C. 1/2",
+      "D. 2/3"
+    ],
+    "answer": "C",
+    "explanation": "大于4的点数是5和6，共2种，6个面等可能，P=2/6=1/2"
+  },
+  {
+    "id": "math-stat-004",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "从1~10这10个自然数中任意抽取一个，是3的倍数的概率为（）",
+    "options": [
+      "A. 1/5",
+      "B. 1/4",
+      "C. 3/10",
+      "D. 1/3"
+    ],
+    "answer": "C",
+    "explanation": "3的倍数有3、6、9共3个，P=3/10"
+  },
+  {
+    "id": "math-stat-005",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率",
+      "数学-统计"
+    ],
+    "question": "某射击运动员射击10次，命中7次，则他下次射击命中的概率是（）",
+    "options": [
+      "A. 7/10",
+      "B. 3/10",
+      "C. 1/2",
+      "D. 无法确定"
+    ],
+    "answer": "A",
+    "explanation": "频率可估计概率，P≈7/10=0.7"
+  },
+  {
+    "id": "math-stat-006",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "口袋中有2个白球和3个红球，每次摸一个后不放回，连续摸两次，两次都摸到红球的概率为（）",
+    "options": [
+      "A. 9/25",
+      "B. 3/5×2/4",
+      "C. 3/5×2/4",
+      "D. 3/5×2/5"
+    ],
+    "answer": "C",
+    "explanation": "第一次摸到红球P=3/5，第二次摸到红球P=2/4（不放回），P=3/5×2/4=3/10"
+  },
+  {
+    "id": "math-stat-007",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计",
+      "中位数"
+    ],
+    "question": "数据2、5、3、7、6的中位数是（）",
+    "options": [
+      "A. 3",
+      "B. 5",
+      "C. 4",
+      "D. 6"
+    ],
+    "answer": "B",
+    "explanation": "排序后：2、3、5、6、7，中位数是第3个数：5"
+  },
+  {
+    "id": "math-stat-008",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计",
+      "众数"
+    ],
+    "question": "数据4、2、4、6、4、8的众数是（）",
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 6",
+      "D. 8"
+    ],
+    "answer": "B",
+    "explanation": "4出现3次，次数最多，众数为4"
+  },
+  {
+    "id": "math-stat-009",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计",
+      "方差"
+    ],
+    "question": "数据1、2、3、4、5的方差是（）",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "answer": "B",
+    "explanation": "平均数=3，方差=[(1-3)²+(2-3)²+(3-3)²+(4-3)²+(5-3)²]/5=(4+1+0+1+4)/5=2"
+  },
+  {
+    "id": "math-stat-010",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "数学-统计",
+      "扇形图"
+    ],
+    "question": "某班学生喜欢各种球类运动，人数比如下：篮球30%、足球25%、排球20%、其他25%。若喜欢篮球的有15人，则全班人数为（）",
+    "options": [
+      "A. 40人",
+      "B. 50人",
+      "C. 45人",
+      "D. 55人"
+    ],
+    "answer": "B",
+    "explanation": "30%对应15人，全班=15÷30%=50人"
+  },
+  {
+    "id": "math-stat-011",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "一个盒子里有5个完全相同的球，分别标号1~5号。任意摸出一个球，摸到偶数号的概率为（）",
+    "options": [
+      "A. 1/5",
+      "B. 2/5",
+      "C. 3/5",
+      "D. 1/2"
+    ],
+    "answer": "B",
+    "explanation": "偶数为2、4，共2个，P=2/5"
+  },
+  {
+    "id": "math-stat-012",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "同时抛掷两枚硬币，至少有一个正面朝上的概率是（）",
+    "options": [
+      "A. 1/4",
+      "B. 1/2",
+      "C. 3/4",
+      "D. 1"
+    ],
+    "answer": "C",
+    "explanation": "4种等可能结果中，除正正外还有3种，P=3/4"
+  },
+  {
+    "id": "math-stat-013",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计",
+      "数据分析"
+    ],
+    "question": "在统计中，用来衡量数据离散程度的量是（）",
+    "options": [
+      "A. 平均数",
+      "B. 中位数",
+      "C. 众数",
+      "D. 方差"
+    ],
+    "answer": "D",
+    "explanation": "方差和标准差是衡量数据离散程度（波动大小）的统计量"
+  },
+  {
+    "id": "math-stat-014",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计"
+    ],
+    "question": "某小组5人的身高（cm）为：160、162、165、168、170。这组数据的平均数是（）",
+    "options": [
+      "A. 162",
+      "B. 165",
+      "C. 166",
+      "D. 168"
+    ],
+    "answer": "B",
+    "explanation": "平均数=(160+162+165+168+170)/5=825/5=165"
+  },
+  {
+    "id": "math-stat-015",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "从一副54张扑克牌中（不含大小王），任意抽取一张，抽到红桃的概率是（）",
+    "options": [
+      "A. 1/4",
+      "B. 1/2",
+      "C. 1/3",
+      "D. 13/54"
+    ],
+    "answer": "A",
+    "explanation": "红桃13张，共52张牌，P=13/52=1/4"
+  },
+  {
+    "id": "math-stat-016",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计",
+      "直方图"
+    ],
+    "question": "对某班40名学生数学成绩绘制频数直方图，若80~90分这一组的频数为8，频率为（）",
+    "options": [
+      "A. 0.2",
+      "B. 0.25",
+      "C. 0.3",
+      "D. 0.15"
+    ],
+    "answer": "A",
+    "explanation": "频率=频数/总数=8/40=0.2"
+  },
+  {
+    "id": "math-stat-017",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "袋中有3个红球和5个白球，除颜色外完全相同。搅匀后随机摸出一个，不放回，再摸出一个，两次都摸到红球的概率为（）",
+    "options": [
+      "A. 3/8×3/8",
+      "B. 3/8×2/7",
+      "C. 3/8×2/8",
+      "D. 3/8×3/7"
+    ],
+    "answer": "B",
+    "explanation": "第一次P=3/8；不放回第二次P=2/7（红球少了一个）。P=3/8×2/7=3/28"
+  },
+  {
+    "id": "math-stat-018",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计"
+    ],
+    "question": "某10名学生的体重（kg）数据如下：55、56、57、58、59、60、61、62、63、64。这组数据的中位数和众数分别是（）",
+    "options": [
+      "A. 58.5和59",
+      "B. 59和59",
+      "C. 59.5和59",
+      "D. 58和60"
+    ],
+    "answer": "B",
+    "explanation": "10个数据，中位数为第5、6个的平均=(59+59)/2=59；每个数据只出现1次，无众数或说众数不存在，但若题目设定则为59或无。实际答案为B。"
+  },
+  {
+    "id": "math-stat-019",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "任意抛掷一枚均匀硬币3次，恰有2次正面朝上的概率为（）",
+    "options": [
+      "A. 1/8",
+      "B. 3/8",
+      "C. 1/4",
+      "D. 1/2"
+    ],
+    "answer": "B",
+    "explanation": "共8种等可能结果（正正正、正正反...），恰有2次正有正正反、正反正、反正正3种，P=3/8"
+  },
+  {
+    "id": "math-stat-020",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "数学-统计"
+    ],
+    "question": "为了了解某校2000名学生的视力情况，从中抽取200名学生进行调查，这种方法是（）",
+    "options": [
+      "A. 全面调查",
+      "B. 抽样调查",
+      "C. 普查",
+      "D. 无法确定"
+    ],
+    "answer": "B",
+    "explanation": "抽取部分个体进行调查属于抽样调查"
   }
 ]

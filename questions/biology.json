@@ -5031,5 +5031,295 @@
     "answer": "D",
     "grade": 9,
     "explanation": "传染病流行三环节：传染源、传播途径、易感人群。选项D“医疗设施”不属于其中，故选D。"
+  },
+  {
+    "id": "biology-immune-001",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "人体抵御病原体感染的第一道防线是（）",
+    "options": [
+      "A. 皮肤和黏膜",
+      "B. 吞噬细胞",
+      "C. 抗体",
+      "D. 淋巴结"
+    ],
+    "answer": "A",
+    "explanation": "皮肤和黏膜是保卫人体的第一道防线，能够阻挡和杀死病原体，属于非特异性免疫"
+  },
+  {
+    "id": "biology-immune-002",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "人体特异性免疫的特点是（）",
+    "options": [
+      "A. 生来就有",
+      "B. 对多种病原体有效",
+      "C. 只针对特定病原体",
+      "D. 反应速度很快"
+    ],
+    "answer": "C",
+    "explanation": "特异性免疫是后天获得的，只针对某一特定病原体或异物，具有专一性"
+  },
+  {
+    "id": "biology-immune-003",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "抗体的化学本质是（）",
+    "options": [
+      "A. 蛋白质",
+      "B. 糖类",
+      "C. 脂肪",
+      "D. 无机盐"
+    ],
+    "answer": "A",
+    "explanation": "抗体是一种免疫球蛋白，属于蛋白质，由淋巴细胞产生，能与相应抗原特异性结合"
+  },
+  {
+    "id": "biology-immune-004",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "Vaccine（疫苗）的主要作用是（）",
+    "options": [
+      "A. 直接杀死病原体",
+      "B. 提供抗原，增强人体免疫力",
+      "C. 直接补充营养",
+      "D. 消除炎症反应"
+    ],
+    "answer": "B",
+    "explanation": "疫苗通常是经处理后失去致病性的病原体或部分成分，注入人体后可作为抗原，刺激机体产生相应的抗体和记忆细胞，从而获得免疫力"
+  },
+  {
+    "id": "biology-immune-005",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "病毒",
+      "细菌"
+    ],
+    "question": "病毒与细菌的主要区别是（）",
+    "options": [
+      "A. 病毒有细胞壁，细菌没有",
+      "B. 病毒没有细胞结构，细菌有细胞结构",
+      "C. 病毒都是有害的",
+      "D. 细菌都是有害的"
+    ],
+    "answer": "B",
+    "explanation": "病毒没有细胞结构，只由蛋白质外壳和遗传物质组成，必须寄生在活细胞内；细菌是单细胞生物，有细胞结构"
+  },
+  {
+    "id": "biology-immune-006",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "人体接种乙肝疫苗后获得的免疫属于（）",
+    "options": [
+      "A. 非特异性免疫",
+      "B. 人工主动免疫",
+      "C. 人工被动免疫",
+      "D. 自然免疫"
+    ],
+    "answer": "B",
+    "explanation": "接种疫苗使人体产生相应抗体和记忆细胞，属于人工主动免疫，获得免疫力较慢但持续时间较长"
+  },
+  {
+    "id": "biology-immune-007",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "人体特异性免疫的第二道防线是（）",
+    "options": [
+      "A. 皮肤和黏膜",
+      "B. 吞噬细胞和杀菌物质",
+      "C. 抗体",
+      "D. 记忆细胞"
+    ],
+    "answer": "B",
+    "explanation": "第一道防线：皮肤和黏膜。第二道防线：吞噬细胞和体液中的杀菌物质（溶菌酶等）。这两道防线属于非特异性免疫"
+  },
+  {
+    "id": "biology-immune-008",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "抗体和抗原结合后，会导致病原体（）",
+    "options": [
+      "A. 快速繁殖",
+      "B. 游走能力增强",
+      "C. 失去活性或被吞噬",
+      "D. 转变为有益菌"
+    ],
+    "answer": "C",
+    "explanation": "抗体与抗原特异性结合后，可使病原体失去活性（如中和毒素）或形成沉淀，再由吞噬细胞吞噬消化"
+  },
+  {
+    "id": "biology-immune-009",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "细菌",
+      "生物-微生物"
+    ],
+    "question": "下列关于细菌的说法正确的是（）",
+    "options": [
+      "A. 细菌都是单细胞生物",
+      "B. 细菌有成形的细胞核",
+      "C. 细菌对人类都有害",
+      "D. 细菌主要通过出芽生殖繁殖"
+    ],
+    "answer": "A",
+    "explanation": "细菌是单细胞生物，原核细胞，无成形的细胞核；大多数细菌对人类有益（如酸奶发酵）；细菌主要通过分裂生殖"
+  },
+  {
+    "id": "biology-immune-010",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病毒",
+      "免疫"
+    ],
+    "question": "抗生素药物可以治疗由（）引起的疾病",
+    "options": [
+      "A. 病毒",
+      "B. 细菌",
+      "C. 真菌",
+      "D. 朊病毒"
+    ],
+    "answer": "B",
+    "explanation": "抗生素主要作用于细菌，通过抑制细菌细胞壁合成、蛋白质合成等机制杀菌或抑菌。抗生素对病毒无效，因为病毒没有细胞结构"
+  },
+  {
+    "id": "biology-immune-011",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "免疫的功能不包括（）",
+    "options": [
+      "A. 抵抗病原体入侵",
+      "B. 清除体内衰老、死亡细胞",
+      "C. 促进人体生长发育",
+      "D. 监视并清除异常细胞"
+    ],
+    "answer": "C",
+    "explanation": "免疫功能包括：防御感染、清除衰老/损伤细胞、监视清除异常细胞。促进生长发育不属于免疫功能"
+  },
+  {
+    "id": "biology-immune-012",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "已康复的非典患者短期内不易再次患病，原因是（）",
+    "options": [
+      "A. 体内产生了抗体和记忆细胞",
+      "B. 体内一直有大量抗体",
+      "C. 病原体不能再次入侵",
+      "D. 个人身体素质好"
+    ],
+    "answer": "A",
+    "explanation": "康复后体内存在相应的抗体和记忆细胞，当相同病原体再次入侵时，记忆细胞能快速增殖分化产生大量抗体，二次免疫反应迅速"
+  },
+  {
+    "id": "biology-immune-013",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细菌",
+      "生物-微生物"
+    ],
+    "question": "酿酒时使用的酵母菌属于（）",
+    "options": [
+      "A. 细菌",
+      "B. 真菌",
+      "C. 病毒",
+      "D. 单细胞藻类"
+    ],
+    "answer": "B",
+    "explanation": "酵母菌是真菌，属于真核生物，可用于酿酒和发面；细菌和真菌的主要区别是有无成形的细胞核"
+  },
+  {
+    "id": "biology-immune-014",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "免疫"
+    ],
+    "question": "给人体注射免疫球蛋白属于（）",
+    "options": [
+      "A. 自然主动免疫",
+      "B. 人工主动免疫",
+      "C. 自然被动免疫",
+      "D. 人工被动免疫"
+    ],
+    "answer": "D",
+    "explanation": "免疫球蛋白（抗体）直接注入人体，属于人工被动免疫，可快速获得免疫力，但持续时间短（约2-3周）"
+  },
+  {
+    "id": "biology-immune-015",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "病毒",
+      "生物-微生物"
+    ],
+    "question": "烟草花叶病毒（TMV）的结构组成是（）",
+    "options": [
+      "A. DNA和蛋白质",
+      "B. RNA和蛋白质",
+      "C. 只有蛋白质",
+      "D. 只有RNA"
+    ],
+    "answer": "B",
+    "explanation": "烟草花叶病毒（TMV）是RNA病毒的代表，由RNA核心和蛋白质外壳组成，营寄生生活"
   }
 ]

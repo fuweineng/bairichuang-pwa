@@ -13074,5 +13074,385 @@
     ],
     "answer": "B",
     "grade": 9
+  },
+  {
+    "id": "english-cloze-001",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "My name is Li Ming. I am a student in Grade 8. Every morning, I (1) up at 6:30. Then I brush my (2) and wash my face. After that, I have (3) for breakfast. My mother always (4) milk for me. I usually eat some bread and an egg. I go to school by (5). Our class starts at 8:00. I like English (6). I want to travel around the world when I grow (7). I hope my dream can come (8).",
+    "options": [
+      "A. wake; teeth; breakfast; gives; bus; very much; up; true",
+      "B. get; teeth; breakfast; gives; bus; very much; up; true",
+      "C. wake; face; lunch; gives; bike; very little; down; false",
+      "D. wake; teeth; breakfast; gives; bus; very much; down; true"
+    ],
+    "answer": "B",
+    "explanation": "本文介绍李明的日常生活。wake up起床；brush teeth刷牙；have breakfast吃早餐；gives给；by bus乘公交车；like English very much非常喜欢英语；grow up长大；come true实现。"
+  },
+  {
+    "id": "english-cloze-002",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Last weekend, my family went to the (1). The weather was (2). We took many photos there. My father (3) some fish, but he didn't (4) any. My mother picked some (5) in the field. We had a (6) time. The food was (7) and the people were friendly. I hope we can go there (8) again.",
+    "options": [
+      "A. beach; sunny; caught; get; flowers; wonderful; tasty; always",
+      "B. park; cloudy; caught; get; fruits; terrible; delicious; again",
+      "C. beach; sunny; caught; get; flowers; wonderful; tasty; again",
+      "D. mountain; rainy; found; get; vegetables; bad; salty; never"
+    ],
+    "answer": "C",
+    "explanation": "go to the beach去海滩；sunny晴朗的；caught fish钓鱼；get any（否定）；pick flowers采花；wonderful time玩得开心；tasty美味的；again再次。"
+  },
+  {
+    "id": "english-cloze-003",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Books are our best friends. They give us (1) and make us happy. When we read books, we can (2) new worlds without leaving home. Good books can (3) our minds and help us make better (4). Reading also makes our life more (5). It is (6) to spend time reading every day. Let's develop the (7) of reading. Books are truly our (8) friends.",
+    "options": [
+      "A. money; see; close; decisions; busy; important; habit; good",
+      "B. knowledge; travel; open; choices; meaningful; necessary; habit; best",
+      "C. fun; find; open; mistakes; easy; useless; plan; real",
+      "D. knowledge; visit; close; choices; colorful; hard; hobby; real"
+    ],
+    "answer": "B",
+    "explanation": "书籍给予知识；travel to new worlds游历新世界；open our minds开阔思维；make better choices做出更好的选择；meaningful有意义的；necessary必要的；develop the habit of reading养成阅读习惯；best friends最好的朋友。"
+  },
+  {
+    "id": "english-cloze-004",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "This is Tom. He (1) eight years old. He is a student. He (2) to school every day. He likes math and (3). He wants to be a (4) in the future. He usually plays (5) with his friends after school. He is very (6). He has many (7) at school. His teachers like him very (8).",
+    "options": [
+      "A. is; goes; English; doctor; basketball; happy; teachers; much",
+      "B. are; go; Chinese; teacher; soccer; tall; classmates; more",
+      "C. is; goes; art; engineer; football; short; books; much",
+      "D. am; go; music; teacher; basketball; fat; friends; well"
+    ],
+    "answer": "A",
+    "explanation": "Tom是第三人称单数用is；goes to school上学；likes English喜欢英语；doctor医生；plays basketball打篮球；very happy非常快乐；teachers老师；like him much非常喜欢他。"
+  },
+  {
+    "id": "english-cloze-005",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "China is a country with a long (1). There are many famous places of (2) in our country. Last summer, I visited Beijing with my (3). We went to the Great Wall, Tian'anmen Square and the Palace. The food there was (4) and delicious. I took many (5) with my family. It was an (6) trip. I love my (7) country. I am (8) of China.",
+    "options": [
+      "A. history; interest; parents; tasty; photos; amazing; beautiful; proud",
+      "B. culture; danger; friends; terrible; pictures; terrible; great; afraid",
+      "C. history; interest; teachers; sweet; photos; wonderful; great; proud",
+      "D. story; interest; parents; salty; photos; amazing; beautiful; tired"
+    ],
+    "answer": "C",
+    "explanation": "history历史；places of interest名胜古迹；visited Beijing with my teachers和老师一起参观北京；sweet甜的；photos照片；wonderful trip美好的旅行；great country伟大的国家；proud of China为祖国自豪。"
+  },
+  {
+    "id": "english-cloze-006",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Water is very (1) for all living things. Every day, we should drink (2) water. It's good (3) our health. My father always asks me to drink at (4) eight glasses of water. He says water is a (5) way to stay healthy. Enough water can make our (6) work better. I think he is (7). We should all drink (8) water every day.",
+    "options": [
+      "A. important; enough; for; least; simple; body; right; more",
+      "B. useful; much; to; most; difficult; mind; wrong; less",
+      "C. important; little; of; least; easy; body; right; enough",
+      "D. important; many; for; most; good; skin; right; less"
+    ],
+    "answer": "A",
+    "explanation": "important for对...重要；drink enough water喝足够的水；good for health对健康有益；at least至少；simple way简单的方法；body身体；right正确的；drink more water多喝水。"
+  },
+  {
+    "id": "english-cloze-007",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "If I (1) a millionaire, I would give (2) to charity. I want to help children who can't go to school. I would build schools and libraries (3) them. Education is very important. With knowledge, they can (4) their future. I also want to travel to (5) places in the world. But (6) money, helping others comes first. I believe being (7) is more important than being (8).",
+    "options": [
+      "A. become; away; for; improve; dangerous; without; kind; rich",
+      "B. am; much; to; change; strange; with; rich; happy",
+      "C. become; away; for; improve; remote; with; helpful; rich",
+      "D. become; more; with; change; beautiful; for; kind; poor"
+    ],
+    "answer": "C",
+    "explanation": "become a millionaire成为百万富翁；give away捐赠；build libraries for them为他们建图书馆；improve their future改善未来；remote places偏远地方；with money有钱的话；helpful有帮助的；rich富有的。"
+  },
+  {
+    "id": "english-cloze-008",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "I have a good (1). Her name is Lucy. She is from (2). She is twelve years old. She (3) long hair and big eyes. She likes (4) very much. She can speak a little (5). We often play (6) together. She is my best (7). We always help each (8).",
+    "options": [
+      "A. friend; USA; have; dancing; Chinese; games; classmate; other",
+      "B. friend; England; has; swimming; English; tennis; friend; other",
+      "C. friend; Canada; has; running; Chinese; games; friend; others",
+      "D. classmate; Australia; have; singing; English; sports; friend; other"
+    ],
+    "answer": "B",
+    "explanation": "good friend好朋友；from England来自英国；has long hair留着长发；likes swimming喜欢游泳；speak a little English说一点英语；play tennis打网球；best friend最好的朋友；help each other互相帮助。"
+  },
+  {
+    "id": "english-cloze-009",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "The Internet is part of our daily life. We can use it to (1) information, watch movies, play games and (2) with friends. But it also has some (3). Too much time online is bad for our (4) and eyes. Some students (5) too much time playing games. We should use the Internet (6) and wisely. The Internet should be our (7), not our (8).",
+    "options": [
+      "A. search; chat; problems; health; spend; carefully; friend; enemy",
+      "B. find; speak; reasons; study; waste; always; tool; toy",
+      "C. get; meet; uses; eyes; cost; never; teacher; boss",
+      "D. search; talk; advantages; body; take; sometimes; helper; master"
+    ],
+    "answer": "A",
+    "explanation": "search information搜索信息；chat with friends和朋友聊天；problems问题；bad for health对健康有害；spend too much time花太多时间；carefully and wisely谨慎明智地；our friend我们的朋友；our enemy我们的敌人。"
+  },
+  {
+    "id": "english-cloze-010",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Last Sunday, I didn't go to school. It was (1). I woke up late. After (2), I did my homework. In the afternoon, I (3) basketball with my friends. In the evening, I (4) my room and read some books before (5). I was very tired but (6). I really enjoyed my (7) day. Sunday is my (8) day of the week.",
+    "options": [
+      "A. rainy; lunch; played; cleaned; bed; happy; relaxing; relaxing",
+      "B. sunny; breakfast; played; cleaned; sleeping; sad; busy; terrible",
+      "C. cloudy; getting up; played; cleaned; bed; excited; wonderful; worst",
+      "D. windy; lunch; played; cleaned; bed; happy; lazy; favorite"
+    ],
+    "answer": "A",
+    "explanation": "rainy下雨的；after lunch午饭后；played basketball打篮球；cleaned my room打扫房间；before bed睡前；tired but happy累但快乐；relaxing day放松的一天；favorite day最喜欢的一天。"
+  },
+  {
+    "id": "english-cloze-011",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Trees are very (1) to us. They can make the air (2). They can stop the wind and (3) the ground. They also provide (4) and shelter for animals. Every year, on Tree Planting Day, we should plant more trees to protect our (5). Trees are our (6) friends. Let's take (7) action to make our world (8).",
+    "options": [
+      "A. important; clean; protect; food; environment; true; active; greener",
+      "B. useful; dirty; keep; home; city; real; instant; cleaner",
+      "C. helpful; fresh; protect; food; world; best; positive; dirtier",
+      "D. important; clean; keep; shelter; environment; true; strong; beautiful"
+    ],
+    "answer": "A",
+    "explanation": "important to us对我们重要；make the air clean使空气清洁；protect the ground保护地面；provide food提供食物；protect our environment保护环境；true friends真正的朋友；take active action采取积极行动；make our world greener让世界更绿。"
+  },
+  {
+    "id": "english-cloze-012",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Zhang Wei is a top student in our class. He studies very hard and always gets (1) marks in exams. His dream is to (2) a scientist when he grows up. He knows science can make our (3) better. He reads many books about physics and chemistry. He says he will (4) his knowledge to help people. His teachers say he is an (5) boy. I believe his dream will come (6).",
+    "options": [
+      "A. full; become; life; use; excellent; true",
+      "B. high; become; country; give; ordinary; false",
+      "C. good; become; world; put; excellent; true",
+      "D. full; be; life; give; lazy; true"
+    ],
+    "answer": "A",
+    "explanation": "get full marks取得满分；become a scientist成为科学家；make our life better让我们的生活更好；use his knowledge运用他的知识；excellent boy优秀的男孩；come true实现。"
+  },
+  {
+    "id": "english-cloze-013",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "This is my (1). It is not big but very (2). There is a bed in the room. There is a desk (3) the window. My books are on the desk. My (4) is on the bed. I clean my room every (5). I like my bedroom very (6). It is my favorite (7) in the house. I always feel (8) in my room.",
+    "options": [
+      "A. room; clean; near; toy; day; much; room; happy",
+      "B. bedroom; tidy; by; quilt; week; much; room; comfortable",
+      "C. home; big; under; bag; month; much; place; sad",
+      "D. house; nice; behind; computer; year; well; area; tired"
+    ],
+    "answer": "B",
+    "explanation": "bedroom卧室；tidy整洁的；by the window在窗户旁；quilt被子；every week每周；like my bedroom very much非常喜欢我的卧室；favorite room最喜欢的房间；feel comfortable感到舒适。"
+  },
+  {
+    "id": "english-cloze-014",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Health is very important to everyone. We should eat more (1) and vegetables. We should drink enough (2) every day. We also need to exercise (3). Running, swimming and walking are all good (4). Enough sleep is also (5) for our health. We should go to bed (6) enough every night. Let's develop healthy (7) and keep (8)!",
+    "options": [
+      "A. fruits; water; regularly; sports; important; early; habits; healthy",
+      "B. food; juice; always; games; necessary; late; plans; fit",
+      "C. meats; milk; sometimes; activities; good; early; ways; strong",
+      "D. rice; soda; never; exercise; useless; late; food; thin"
+    ],
+    "answer": "A",
+    "explanation": "fruits and vegetables水果和蔬菜；drink enough water喝足够的水；exercise regularly经常锻炼；good sports好的运动；important for health对健康重要；go to bed early early早睡；healthy habits健康习惯；keep healthy保持健康。"
+  },
+  {
+    "id": "english-cloze-015",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Last month, our school held a sports (1). All the students took (2) in it. I joined the 800-meter (3). I ran as fast as I could. My classmates cheered for me. At last, I got the (4) place. I was very (5). My teacher said I was (6) to be praised. I think sports can make us (7) and (8).",
+    "options": [
+      "A. meeting; part; race; first; excited; worth; healthy; strong",
+      "B. party; park; race; second; happy; good; active; tall",
+      "C. meeting; part; running; third; proud; easy; healthy; brave",
+      "D. game; parts; run; fourth; tired; hard; thin; strong"
+    ],
+    "answer": "A",
+    "explanation": "sports meeting运动会；took part in参加；800-meter race800米赛跑；got the first place获得第一名；very excited非常兴奋；worth being praised值得表扬；healthy and strong健康强壮。"
+  },
+  {
+    "id": "english-cloze-016",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "We are living in the 21st (1) now. The world is changing very (2). People use the Internet to (3) information and communicate with others. However, some people spend too much time (4) computer games. It's not a good habit. We should make (5) use of the Internet. The Internet is a (6), not a toy. It should help us learn and grow (7). Let's use it in a (8) way.",
+    "options": [
+      "A. century; fast; search; playing; good; tool; better; proper",
+      "B. years; slow; send; spending; full; book; faster; wrong",
+      "C. century; quickly; find; playing; proper; game; best; bad",
+      "D. years; slowly; get; using; better; machine; well; good"
+    ],
+    "answer": "A",
+    "explanation": "21st century21世纪；changing fast快速变化；search information搜索信息；playing computer games玩电脑游戏；make good use of好好利用；a tool工具；grow better成长得更好；in a proper way以适当的方式。"
+  },
+  {
+    "id": "english-cloze-017",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Today is Monday. I go to school at 7:30 in the (1). I have four classes in the (2). I have lunch at 12:00. After lunch, I have two (3) classes. School (4) at 4:00 in the afternoon. Then I go (5) to my home. After dinner, I (6) my homework. I am always very (7) on Mondays. I (8) Mondays very much.",
+    "options": [
+      "A. morning; morning; more; finishes; back; do; busy; like",
+      "B. afternoon; afternoon; other; starts; home; finish; free; hate",
+      "C. evening; evening; less; stops; away; make; tired; love",
+      "D. morning; morning; another; ends; down; write; happy; enjoy"
+    ],
+    "answer": "A",
+    "explanation": "in the morning在上午；four classes in the morning上午四节课；more classes更多的课；school finishes at 4:00下午4点放学；go back to my home回家；do my homework做作业；very busy on Mondays周一很忙；like Mondays very much非常喜欢周一。"
+  },
+  {
+    "id": "english-cloze-018",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Spring is the first (1) of the year. The weather becomes (2) and flowers start to (3). Many birds come back from (4) places. The days get (5) and nights get shorter. People like to go (6) for picnics on weekends. The (7) is beautiful and everything comes (8). What a nice season!",
+    "options": [
+      "A. season; warm; bloom; warm; longer; out; world; back",
+      "B. month; cold; close; cold; shorter; away; city; over",
+      "C. year; hot; grow; hot; shorter; out; sky; alive",
+      "D. time; cool; open; cool; longer; away; earth; down"
+    ],
+    "answer": "A",
+    "explanation": "first season of the year一年的第一个季节；becomes warm变暖；flowers start to bloom花开始开放；from warm places从温暖的地方；days get longer白天变长；go out for picnics出去野餐；the world is beautiful世界美丽；come back回来（指万物复苏）。"
+  },
+  {
+    "id": "english-cloze-019",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "Life is like a (1). We may meet with difficulties on the way. When we face difficulties, we should never (2). As the saying goes, \"Where there is a (3), there is a way.\" I always keep this (4) my mind. No matter how (5) the problem is, I will try my best to (6) it. I believe my efforts will (7) off one day. Success belongs to those who never (8).",
+    "options": [
+      "A. journey; give up; will; in; hard; solve; pay; give up",
+      "B. race; lose heart; way; in; difficult; face; turn; stop",
+      "C. book; run away; storm; on; serious; overcome; bring; quit",
+      "D. dream; fall down; hope; at; big; solve; pay; win"
+    ],
+    "answer": "A",
+    "explanation": "life is like a journey人生如旅；never give up永不放弃；where there is a will there is a way有志者事竟成；keep in my mind铭记在心；no matter how hard无论多难；solve it解决它；pay off回报；success belongs to those who never give up成功属于永不放弃的人。"
+  },
+  {
+    "id": "english-cloze-020",
+    "type": "cloze",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "My favorite subject is English. I think English is very (1) and useful. I enjoy (2) English songs and (3) English movies. They help me learn English (4). I also practice (5) by talking with foreign teachers at school. I want to study (6) in the future. English is really a (7) subject. I am (8) in learning English.",
+    "options": [
+      "A. interesting; listening to; watching; well; speaking; abroad; wonderful; active",
+      "B. boring; hearing; seeing; good; talking; home; difficult; lazy",
+      "C. easy; listening; seeing; better; speaking; overseas; important; weak",
+      "D. important; hearing; watching; fast; speaking; outside; boring; strong"
+    ],
+    "answer": "A",
+    "explanation": "interesting有趣的；enjoy listening to English songs喜欢听英文歌；watching English movies看英文电影；learn English well学好英语；practice speaking练习口语；study abroad出国学习；wonderful subject精彩的科目；active in learning English积极参与英语学习。"
   }
 ]

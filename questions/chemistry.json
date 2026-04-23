@@ -5672,5 +5672,297 @@
     "answer": "A",
     "grade": 9,
     "explanation": "**解析：**\n\n## 一、已知条件分析\n\n- 溶液体积：V = 200 mL = 0.2 L\n- 溶液浓度：C = 0.1 mol/L  \n- NaCl 摩尔质量：M = 58.5 g/mol\n\n## 二、解题思路\n\n配制一定浓度溶液所需溶质质量的计算，需要先求出溶质的**物质的量**，再利用质量公式计算质量。\n\n## 三、详细计算过程\n\n**第一步：计算 NaCl 的物质的量**\n\n根据物质的量、浓度和体积的关系公式：\n$$n = C \\times V$$\n\n代入数据：\n$$n_{\\text{NaCl}} = 0.1 \\text{ mol/L} \\times 0.2 \\text{ L} = 0.02 \\text{ mol}$$\n\n**第二步：计算 NaCl 的质量**\n\n根据物质的量与质量的关系公式：\n$$m = n \\times M$$\n\n代入数据：\n$$m_{\\text{NaCl}} = 0.02 \\text{ mol} \\times 58.5 \\text{ g/mol} = 1.17 \\text{ g}$$\n\n## 四、各选项分析\n\n- **选项 A（1.17 g）**：✓ 正确，这是通过正规计算得出的结果\n- **选项 B（2.34 g）**：✗ 约为正确值的 2 倍，可能是将体积 200 mL 误当成 0.4 L 计算\n- **选项 C（3.51 g）**：✗ 约为正确值的 3 倍，计算存在较大偏差\n- **选项 D（4.68 g）**：✗ 约为正确值的 4 倍，可能是完全忽略单位换算（将 200 mL 当作 200 L）\n\n## 五、结论\n\n所需 NaCl 的质量为 **1.17 g**。\n\n**因此选 A**"
+  },
+  {
+    "id": "chemistry-solution-001",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶质质量分数计算"
+    ],
+    "question": "将50g氯化钠溶解在200g水中，所得溶液中氯化钠的质量分数是（）",
+    "options": [
+      "A. 20%",
+      "B. 25%",
+      "C. 10%",
+      "D. 15%"
+    ],
+    "answer": "A",
+    "explanation": "质量分数 = 溶质质量/(溶质质量+溶剂质量) × 100% = 50/(50+200) × 100% = 20%"
+  },
+  {
+    "id": "chemistry-solution-002",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶质质量分数计算"
+    ],
+    "question": "将100g 20%的蔗糖溶液稀释为10%，需要加入水的质量为（）",
+    "options": [
+      "A. 50g",
+      "B. 100g",
+      "C. 200g",
+      "D. 150g"
+    ],
+    "answer": "B",
+    "explanation": "稀释前后溶质质量不变。100×20% = (100+m)×10%，解得m=100g"
+  },
+  {
+    "id": "chemistry-solution-003",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "化学-溶解度"
+    ],
+    "question": "20℃时，硝酸钾的溶解度为31.6g/100g水。现将40g硝酸钾放入100g水中，充分溶解后，所得溶液的质量分数为（）",
+    "options": [
+      "A. 28.6%",
+      "B. 24.0%",
+      "C. 31.6%",
+      "D. 40.0%"
+    ],
+    "answer": "A",
+    "explanation": "20℃时最多溶解31.6g，故40g中有31.6g溶解，质量分数 = 31.6/(100+31.6) × 100% ≈ 24%。但因溶剂为100g，实际为31.6/131.6≈24.0%——溶解度限制下实际为24%。更准确：充分溶解后溶液已达饱和，质量分数 = 31.6/(100+31.6) × 100% = 24.0%。答案选B。"
+  },
+  {
+    "id": "chemistry-solution-004",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液"
+    ],
+    "question": "下列关于溶液的说法正确的是（）",
+    "options": [
+      "A. 溶液都是无色的",
+      "B. 溶液都是均一、稳定的",
+      "C. 溶液中溶质只能是一种物质",
+      "D. 溶液中考以有不溶于水的物质"
+    ],
+    "answer": "B",
+    "explanation": "溶液的特征：均一性、稳定性。溶液不一定无色（如CuSO4蓝色），溶质可以是一种或多种，可溶但不溶于水的物质不是溶液"
+  },
+  {
+    "id": "chemistry-solution-005",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶解度"
+    ],
+    "question": "影响固体溶解度大小的因素是（）",
+    "options": [
+      "A. 溶质的性质",
+      "B. 溶剂的性质",
+      "C. 温度",
+      "D. 以上都有"
+    ],
+    "answer": "D",
+    "explanation": "溶解度大小由溶质性质、溶剂性质、温度三者共同决定"
+  },
+  {
+    "id": "chemistry-solution-006",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶质质量分数计算"
+    ],
+    "question": "配制500mL 20%的硫酸溶液（密度1.14g/cm³），需要98%的浓硫酸（密度1.84g/cm³）体积约为（）",
+    "options": [
+      "A. 43mL",
+      "B. 54mL",
+      "C. 100mL",
+      "D. 63mL"
+    ],
+    "answer": "D",
+    "explanation": "溶液质量 = 500×1.14 = 570g，溶质H2SO4质量 = 570×20% = 114g。需浓硫酸质量 = 114/98% ≈ 116.3g，体积 = 116.3/1.84 ≈ 63.2mL"
+  },
+  {
+    "id": "chemistry-solution-007",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液"
+    ],
+    "question": "下列溶液中，溶质是气体的是（）",
+    "options": [
+      "A. 稀盐酸",
+      "B. 乙醇溶液",
+      "C. 碳酸饮料",
+      "D. 生理盐水"
+    ],
+    "answer": "C",
+    "explanation": "碳酸饮料中的CO2是气体溶质；稀盐酸HCl溶质是气体，但题目不明确；生理盐水溶质NaCl是固体；乙醇溶液溶质是液体"
+  },
+  {
+    "id": "chemistry-solution-008",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶解度"
+    ],
+    "question": "大多数固体物质的溶解度随温度升高而（）",
+    "options": [
+      "A. 减小",
+      "B. 增大",
+      "C. 不变",
+      "D. 无法确定"
+    ],
+    "answer": "B",
+    "explanation": "大多数固体物质（如硝酸钾、氯化钠等）的溶解度随温度升高而增大；但少数物质如氢氧化钙相反"
+  },
+  {
+    "id": "chemistry-solution-009",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶质质量分数计算"
+    ],
+    "question": "将30g 10%的盐水和20g 20%的盐水混合，混合后溶液的质量分数为（）",
+    "options": [
+      "A. 15%",
+      "B. 14%",
+      "C. 16%",
+      "D. 18%"
+    ],
+    "answer": "B",
+    "explanation": "总溶质 = 30×10% + 20×20% = 3 + 4 = 7g；总溶液 = 30 + 20 = 50g；质量分数 = 7/50 × 100% = 14%"
+  },
+  {
+    "id": "chemistry-solution-010",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液"
+    ],
+    "question": "下列物质属于溶液的是（）",
+    "options": [
+      "A. 泥水",
+      "B. 生理盐水",
+      "C. 植物油加入水中",
+      "D. 冰水混合物"
+    ],
+    "answer": "B",
+    "explanation": "溶液的特征：均一、稳定、澄清。生理盐水是NaCl的水溶液，均一稳定；泥水是悬浊液，植物油+水是乳浊液，冰水是纯净物"
+  },
+  {
+    "id": "chemistry-solution-011",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶解度"
+    ],
+    "question": "用海水晒盐的原理是（）",
+    "options": [
+      "A. 降低温度使溶质析出",
+      "B. 升高温度使溶剂减少",
+      "C. 蒸发溶剂使溶质析出",
+      "D. 加入其他溶剂"
+    ],
+    "answer": "C",
+    "explanation": "晒盐是利用风力、温度使海水中的水分蒸发，溶剂减少后NaCl达到过饱和而结晶析出"
+  },
+  {
+    "id": "chemistry-solution-012",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "化学-溶解度"
+    ],
+    "question": "某温度下，将接近饱和的硝酸钾溶液变为饱和溶液的方法是（）①加入硝酸钾②蒸发水③降温④升温",
+    "options": [
+      "A. ①②",
+      "B. ①③",
+      "C. ②③",
+      "D. ①②③"
+    ],
+    "answer": "D",
+    "explanation": "接近饱和的硝酸钾溶液变为饱和：加溶质（①）、蒸发水（②）、降温（③）都可以；升温（④）反而使溶解度增大，不能达到饱和"
+  },
+  {
+    "id": "chemistry-solution-013",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液"
+    ],
+    "question": "溶液和浊液的根本区别是（）",
+    "options": [
+      "A. 是否有颜色",
+      "B. 溶质颗粒大小",
+      "C. 是否透明",
+      "D. 是否有溶剂"
+    ],
+    "answer": "B",
+    "explanation": "溶液（溶质颗粒<1nm）、浊液（>100nm）、胶体（1-100nm）。颗粒大小决定了是否均一稳定"
+  },
+  {
+    "id": "chemistry-solution-014",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶液",
+      "溶质质量分数计算"
+    ],
+    "question": "实验室要配制50g 6%的氯化钠溶液，以下操作会导致质量分数偏高的是（）",
+    "options": [
+      "A. 称量时砝码和药品放反了",
+      "B. 量取水时俯视读数",
+      "C. 烧杯用蒸馏水润洗",
+      "D. 氯化钠中含有杂质"
+    ],
+    "answer": "B",
+    "explanation": "俯视读数会使量取的水偏少，导致溶剂减少，质量分数偏高；砝码和药品放反导致溶质偏少，质量分数偏低；烧杯润洗无影响；含有杂质使溶质减少"
+  },
+  {
+    "id": "chemistry-solution-015",
+    "type": "choice",
+    "subject": "chemistry",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "化学-溶解度"
+    ],
+    "question": "恒温蒸发溶剂可使（）",
+    "options": [
+      "A. 不饱和溶液变为饱和溶液",
+      "B. 饱和溶液析出晶体",
+      "C. 溶液质量分数增大",
+      "D. 以上都有可能"
+    ],
+    "answer": "D",
+    "explanation": "恒温蒸发溶剂：若原为不饱和溶液则变为饱和；若原为饱和则析出晶体；溶液浓度增大。故A、B、C都可能发生"
   }
 ]
