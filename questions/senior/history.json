@@ -928,10 +928,22 @@
     "type": "choice",
     "question": "科举制度正式确立于以下哪个朝代？",
     "options": [
-      "秦",
-      "汉",
-      "隋",
-      "唐"
+      {
+        "label": "A",
+        "text": "秦"
+      },
+      {
+        "label": "B",
+        "text": "汉"
+      },
+      {
+        "label": "C",
+        "text": "隋"
+      },
+      {
+        "label": "D",
+        "text": "唐"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -944,10 +956,22 @@
     "type": "choice",
     "question": "下列哪位皇帝在位期间，实行“开元之治”，国家政治清明，经济繁荣？",
     "options": [
-      "汉武帝",
-      "唐太宗",
-      "唐玄宗",
-      "宋太祖"
+      {
+        "label": "A",
+        "text": "汉武帝"
+      },
+      {
+        "label": "B",
+        "text": "唐太宗"
+      },
+      {
+        "label": "C",
+        "text": "唐玄宗"
+      },
+      {
+        "label": "D",
+        "text": "宋太祖"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -960,10 +984,22 @@
     "type": "choice",
     "question": "秦统一六国后，采取了统一度量衡、书同文、车同轨等措施，最重要的立法成果是哪一部法律？",
     "options": [
-      "《秦律》",
-      "《九章律》",
-      "《永乐大典》",
-      "《律令》"
+      {
+        "label": "A",
+        "text": "《秦律》"
+      },
+      {
+        "label": "B",
+        "text": "《九章律》"
+      },
+      {
+        "label": "C",
+        "text": "《永乐大典》"
+      },
+      {
+        "label": "D",
+        "text": "《律令》"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -976,10 +1012,22 @@
     "type": "choice",
     "question": "“三国”中的魏国是由谁建立的？",
     "options": [
-      "曹操",
-      "曹丕",
-      "刘备",
-      "孙权"
+      {
+        "label": "A",
+        "text": "曹操"
+      },
+      {
+        "label": "B",
+        "text": "曹丕"
+      },
+      {
+        "label": "C",
+        "text": "刘备"
+      },
+      {
+        "label": "D",
+        "text": "孙权"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -992,10 +1040,22 @@
     "type": "choice",
     "question": "唐代对外交流的重要港口是（），当时是东西方文化交流的中心之一。",
     "options": [
-      "广州",
-      "宁波",
-      "扬州",
-      "泉州"
+      {
+        "label": "A",
+        "text": "广州"
+      },
+      {
+        "label": "B",
+        "text": "宁波"
+      },
+      {
+        "label": "C",
+        "text": "扬州"
+      },
+      {
+        "label": "D",
+        "text": "泉州"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -1008,10 +1068,22 @@
     "type": "choice",
     "question": "宋代的“交子”是世界上最早的什么？",
     "options": [
-      "纸币",
-      "金属货币",
-      "银行存款",
-      "信用票据"
+      {
+        "label": "A",
+        "text": "纸币"
+      },
+      {
+        "label": "B",
+        "text": "金属货币"
+      },
+      {
+        "label": "C",
+        "text": "银行存款"
+      },
+      {
+        "label": "D",
+        "text": "信用票据"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -1024,10 +1096,22 @@
     "type": "choice",
     "question": "清朝实行“摊丁入亩”政策的目的主要是？",
     "options": [
-      "加强中央集权",
-      "调整税收",
-      "促进人口流动",
-      "抑制商业"
+      {
+        "label": "A",
+        "text": "加强中央集权"
+      },
+      {
+        "label": "B",
+        "text": "调整税收"
+      },
+      {
+        "label": "C",
+        "text": "促进人口流动"
+      },
+      {
+        "label": "D",
+        "text": "抑制商业"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -1040,10 +1124,22 @@
     "type": "choice",
     "question": "郑和下西洋的主要目的不包括以下哪项？",
     "options": [
-      "宣示明朝国威",
-      "开展海外贸易",
-      "寻求海外宗教传播",
-      "收集海外情报"
+      {
+        "label": "A",
+        "text": "宣示明朝国威"
+      },
+      {
+        "label": "B",
+        "text": "开展海外贸易"
+      },
+      {
+        "label": "C",
+        "text": "寻求海外宗教传播"
+      },
+      {
+        "label": "D",
+        "text": "收集海外情报"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -1056,10 +1152,22 @@
     "type": "choice",
     "question": "《清明上河图》描绘的是哪个城市的市井生活？",
     "options": [
-      "长安",
-      "开封",
-      "扬州",
-      "洛阳"
+      {
+        "label": "A",
+        "text": "长安"
+      },
+      {
+        "label": "B",
+        "text": "开封"
+      },
+      {
+        "label": "C",
+        "text": "扬州"
+      },
+      {
+        "label": "D",
+        "text": "洛阳"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -1072,10 +1180,22 @@
     "type": "choice",
     "question": "第一次工业革命的发源地是（）",
     "options": [
-      "法国",
-      "德国",
-      "英国",
-      "美国"
+      {
+        "label": "A",
+        "text": "法国"
+      },
+      {
+        "label": "B",
+        "text": "德国"
+      },
+      {
+        "label": "C",
+        "text": "英国"
+      },
+      {
+        "label": "D",
+        "text": "美国"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -1088,10 +1208,22 @@
     "type": "choice",
     "question": "《人权宣言》是由哪个国家的革命制定并颁布的？",
     "options": [
-      "美国",
-      "法国",
-      "英国",
-      "德国"
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "法国"
+      },
+      {
+        "label": "C",
+        "text": "英国"
+      },
+      {
+        "label": "D",
+        "text": "德国"
+      }
     ],
     "answer": "B",
     "difficulty": 2,
@@ -1104,10 +1236,22 @@
     "type": "choice",
     "question": "1905年的俄国革命常被称为（）",
     "options": [
-      "第一次资产阶级民主革命",
-      "俄国革命",
-      "十月革命",
-      "布尔什维克革命"
+      {
+        "label": "A",
+        "text": "第一次资产阶级民主革命"
+      },
+      {
+        "label": "B",
+        "text": "俄国革命"
+      },
+      {
+        "label": "C",
+        "text": "十月革命"
+      },
+      {
+        "label": "D",
+        "text": "布尔什维克革命"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -1120,10 +1264,22 @@
     "type": "choice",
     "question": "马克思主义理论在（）得到首次实践并取得政权。",
     "options": [
-      "法国",
-      "德国",
-      "俄国",
-      "中国"
+      {
+        "label": "A",
+        "text": "法国"
+      },
+      {
+        "label": "B",
+        "text": "德国"
+      },
+      {
+        "label": "C",
+        "text": "俄国"
+      },
+      {
+        "label": "D",
+        "text": "中国"
+      }
     ],
     "answer": "C",
     "difficulty": 2,
@@ -1136,10 +1292,22 @@
     "type": "choice",
     "question": "1945年第二次世界大战结束后，以下哪个组织被设立以维护国际和平与安全？",
     "options": [
-      "联合国",
-      "国际联盟",
-      "北约",
-      "华约"
+      {
+        "label": "A",
+        "text": "联合国"
+      },
+      {
+        "label": "B",
+        "text": "国际联盟"
+      },
+      {
+        "label": "C",
+        "text": "北约"
+      },
+      {
+        "label": "D",
+        "text": "华约"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -1152,10 +1320,22 @@
     "type": "choice",
     "question": "美国在20世纪60年代实行的“民权运动”主要目标是（）",
     "options": [
-      "争取种族平等",
-      "扩大选举权",
-      "促进女性平等",
-      "推动教育改革"
+      {
+        "label": "A",
+        "text": "争取种族平等"
+      },
+      {
+        "label": "B",
+        "text": "扩大选举权"
+      },
+      {
+        "label": "C",
+        "text": "促进女性平等"
+      },
+      {
+        "label": "D",
+        "text": "推动教育改革"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -1168,10 +1348,22 @@
     "type": "choice",
     "question": "20世纪初，哪位科学家提出了相对论，颠覆了经典物理学的框架？",
     "options": [
-      "爱因斯坦",
-      "牛顿",
-      "居里夫人",
-      "费米"
+      {
+        "label": "A",
+        "text": "爱因斯坦"
+      },
+      {
+        "label": "B",
+        "text": "牛顿"
+      },
+      {
+        "label": "C",
+        "text": "居里夫人"
+      },
+      {
+        "label": "D",
+        "text": "费米"
+      }
     ],
     "answer": "A",
     "difficulty": 2,
@@ -1184,10 +1376,22 @@
     "type": "choice",
     "question": "第一次世界大战的导火索是（）",
     "options": [
-      "萨拉热窝事件",
-      "德国对法国的侵略",
-      "俄国革命",
-      "经济危机"
+      {
+        "label": "A",
+        "text": "萨拉热窝事件"
+      },
+      {
+        "label": "B",
+        "text": "德国对法国的侵略"
+      },
+      {
+        "label": "C",
+        "text": "俄国革命"
+      },
+      {
+        "label": "D",
+        "text": "经济危机"
+      }
     ],
     "answer": "A",
     "difficulty": 2,

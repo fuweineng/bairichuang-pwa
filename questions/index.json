@@ -4,12 +4,12 @@
   "subjects": {
     "math": {
       "file": "math.json",
-      "count": 299,
+      "count": 319,
       "version": "20260415-1"
     },
     "english": {
       "file": "english.json",
-      "count": 520,
+      "count": 511,
       "version": "20260415-1"
     },
     "chinese": {
@@ -24,17 +24,17 @@
     },
     "chemistry": {
       "file": "chemistry.json",
-      "count": 200,
+      "count": 215,
       "version": "20260415-1"
     },
     "biology": {
       "file": "biology.json",
-      "count": 199,
+      "count": 214,
       "version": "20260415-1"
     },
     "history": {
       "file": "history.json",
-      "count": 150,
+      "count": 170,
       "version": "20260415-1"
     },
     "geography": {
