@@ -30,6 +30,7 @@
       <span class="subtitle">100天提升</span>
     </div>
     <div class="header-right" id="header-right-container">
+      <button class="header-settings-btn" id="header-donate-btn" data-action="show-donate-modal" title="支持百日闯">❤️</button>
       <button class="header-settings-btn" data-action="nav" data-view="settings">⚙️</button>
     </div>
   </header>
@@ -44,8 +45,11 @@
         <div class="chart-wrapper" id="home-chart-container"></div>
       </div>
 
+      <!-- 今日状态卡片 -->
+      <div id="today-status-container" class="home-section" style="order:3"></div>
+
       <!-- 补弱科目区（JS 动态渲染） -->
-      <div id="weak-subjects-container"></div>
+      <div id="weak-subjects-container" style="order:4"></div>
 
     </section>
 

@@ -39,7 +39,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.0', audioVersion: '', questionBankVersion: '', soundEnabled: true },
   remoteVersions: null,
 };
 
@@ -224,7 +224,7 @@ async function init() {
   state.sessions = await get(K.SESSIONS) || [];
   state.meta     = await get(K.META)     || {};
   state.account  = await get(K.ACCOUNT)  || null;
-  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.1.2', audioVersion: '', questionBankVersion: '' };
+  state.settings = await get(K.SETTINGS) || { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.0', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Load local version from version.json
   try {
@@ -540,6 +540,12 @@ async function renderHome() {
   // Update badge
   const badge = document.getElementById('update-badge');
   if (badge) badge.style.display = hasQuestionPackUpdate() ? 'inline-block' : 'none';
+
+  // 补弱科目区
+  renderWeakSubjects();
+
+  // 今日状态
+  renderTodayStatus();
 }
 
 
@@ -597,6 +603,71 @@ function renderWeakSubjects() {
   el.innerHTML = `
     <div class="weak-section-header">低于${thresholdPct}%正确率的科目</div>
     <div class="weak-pills-row">${pills}</div>`;
+}
+
+function renderSubjectGrid() {
+  const grid = document.getElementById('subject-grid-container');
+  if (!grid) return;
+
+  const mode = getPracticeMode();
+  const section = state.settings.section;
+  const subjects = getSubjects(section);
+
+  grid.innerHTML = subjects.map(subj => {
+    const acc = getSubjectAccuracy(subj);
+    const count = countQuestionsForSubject(subj, mode);
+    const accLabel = acc === null ? '未学' : `${acc}%`;
+    return `
+      <button class="subject-grid-btn" data-action="start-subject" data-subject="${subj}">
+        <span class="subject-card-name">${subjectName(subj)}</span>
+        <span class="subject-card-meta">${count}题可练</span>
+        <span class="subject-card-acc">${accLabel}</span>
+      </button>`;
+  }).join('');
+}
+
+function renderTodayStatus() {
+  const el = document.getElementById('today-status-container');
+  if (!el) return;
+
+  const today = todayKey();
+  const todayData = state.daily[today];
+  const hasAnyData = Object.keys(state.daily).length > 0;
+
+  if (!hasAnyData) {
+    el.innerHTML = `
+      <div class="today-status-card not-practiced" style="border-left-color:#FF9800">
+        <span class="today-status-icon">🌱</span>
+        <div class="today-status-info">
+          <div class="today-status-title">开始你的百日计划</div>
+          <div class="today-status-sub">每天坚持，终有收获</div>
+        </div>
+      </div>`;
+    return;
+  }
+
+  if (!todayData || todayData.questionsCount === 0) {
+    el.innerHTML = `
+      <div class="today-status-card not-practiced" style="border-left-color:#FF9800">
+        <span class="today-status-icon">📝</span>
+        <div class="today-status-info">
+          <div class="today-status-title">今日还没练习，开始吧</div>
+          <div class="today-status-sub">坚持就是胜利</div>
+        </div>
+        <button class="primary-btn" data-action="start-subject" data-subject="all" style="padding:6px 14px;font-size:0.8rem">开始练习</button>
+      </div>`;
+  } else {
+    const acc = todayData.accuracy || Math.round((todayData.correct / todayData.questionsCount) * 100);
+    el.innerHTML = `
+      <div class="today-status-card">
+        <span class="today-status-icon">✅</span>
+        <div class="today-status-info">
+          <div class="today-status-title">今日已完成 ${todayData.questionsCount} 题</div>
+          <div class="today-status-sub">正确率 ${acc}%</div>
+        </div>
+        <button class="primary-btn" data-action="start-subject" data-subject="all" style="padding:6px 14px;font-size:0.8rem">继续练习</button>
+      </div>`;
+  }
 }
 
 function getPracticeMode() {
@@ -674,9 +745,10 @@ function renderPractice() {
 
   if (!state.subject) {
     entryInfo.className = 'practice-entry-info';
-    entryInfo.textContent = '从首页选择全科或单科学习后，会直接进入练习。';
-    title.textContent = '开始练习';
-    container.innerHTML = '<p class="placeholder">正在等待你的选择...</p>';
+    entryInfo.textContent = '选择一个科目开始练习';
+    title.textContent = '选择科目';
+    container.innerHTML = '';
+    renderSubjectGrid();
     return;
   }
 
@@ -747,6 +819,49 @@ async function startSession(subject, entry) {
 
 // Current audio instance (for local file playback)
 let currentAudio = null;
+
+// Web Audio API context (lazy init, needed for sound effects)
+let _audioCtx = null;
+function getAudioCtx() {
+  if (!_audioCtx) _audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  return _audioCtx;
+}
+
+function playSoundEffect(type) {
+  if (state.settings.soundEnabled === false) return;
+  try {
+    const ctx = getAudioCtx();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    if (type === 'correct') {
+      // C5 → E5 → G5 上升三和弦，快短
+      const t = ctx.currentTime;
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(523.25, t);       // C5
+      osc.frequency.setValueAtTime(659.25, t + 0.07); // E5
+      osc.frequency.setValueAtTime(783.99, t + 0.14); // G5
+      gain.gain.setValueAtTime(0.25, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.35);
+      osc.start(t);
+      osc.stop(t + 0.35);
+    } else if (type === 'wrong') {
+      // E4 → C4 下降小二度
+      const t = ctx.currentTime;
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(329.63, t);       // E4
+      osc.frequency.setValueAtTime(261.63, t + 0.12); // C4
+      gain.gain.setValueAtTime(0.15, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.3);
+      osc.start(t);
+      osc.stop(t + 0.3);
+    }
+  } catch (e) {
+    console.warn('Sound effect failed:', e);
+  }
+}
 
 function normalizeAnswerText(value) {
   return String(value)
@@ -1067,6 +1182,9 @@ async function handleSubmit() {
 
 // ── 反馈弹窗 ─────────────────────────────────────────────────────────
 function showFeedbackModal(result, onNextName) {
+  // 播放音效
+  playSoundEffect(result.isCorrect ? 'correct' : 'wrong');
+
   const overlay = document.getElementById('feedback-modal-overlay');
   const modal   = document.getElementById('feedback-modal');
   if (!overlay || !modal) return;
@@ -1853,6 +1971,13 @@ async function renderSettings() {
           <button class="theme-picker-btn${state.settings.theme === 'night' ? ' active' : ''}" data-action="set-theme" data-value="night">深夜</button>
         </div>
       </div>
+      <div class="settings-row" style="padding:8px 0">
+        <div class="settings-label" style="margin:0">答题音效</div>
+        <label class="toggle-switch">
+          <input type="checkbox" id="sound-toggle" ${state.settings.soundEnabled !== false ? 'checked' : ''} data-action="toggle-sound">
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
     </div>
 
     <div class="settings-card">
@@ -2157,6 +2282,13 @@ async function handleClick(e) {
       applyTheme(state.settings.theme);
       break;
 
+    case 'toggle-sound':
+      state.settings.soundEnabled = e.target.checked;
+      saveSettingsAndUpdate();
+      // Play a test sound so user knows it works (only if enabling)
+      if (state.settings.soundEnabled) playSoundEffect('correct');
+      break;
+
     case 'upgrade-questions':
       upgradeQuestionBank();
       break;
@@ -2309,7 +2441,7 @@ async function clearAllData() {
   state.daily = {};
   state.sessions = [];
   state.meta = {};
-  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: 1, audioVersion: '', questionBankVersion: '' };
+  state.settings = { weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.0', audioVersion: '', questionBankVersion: '', soundEnabled: true };
 
   // Reload question bank from GitHub, then refresh UI (no full page reload)
   await upgradeQuestionBank();
