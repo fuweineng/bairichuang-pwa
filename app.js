@@ -606,15 +606,7 @@ function renderTodayStatus() {
   }
 
   if (!todayData || todayData.questionsCount === 0) {
-    el.innerHTML = `
-      <div class="today-status-card not-practiced" style="border-left-color:#FF9800">
-        <span class="today-status-icon">📝</span>
-        <div class="today-status-info">
-          <div class="today-status-title">今日还没练习，开始吧</div>
-          <div class="today-status-sub">坚持就是胜利</div>
-        </div>
-        <button class="primary-btn" data-action="start-subject" data-subject="all" style="padding:6px 14px;font-size:0.8rem">开始练习</button>
-      </div>`;
+    el.innerHTML = ''; return;
   } else {
     const acc = todayData.accuracy || Math.round((todayData.correct / todayData.questionsCount) * 100);
     el.innerHTML = `
