@@ -1,5 +1,5 @@
 // Service Worker — Cache-First strategy (per-subject lazy loading)
-const CACHE_NAME = 'bairichuang-v20260420-1';
+const CACHE_NAME = 'bairichuang-v20260426-1';
 
 const PRECACHE = [
   './',
@@ -89,7 +89,8 @@ self.addEventListener('fetch', e => {
     caches.match(e.request).then(cached => {
       if (cached) return cached;
       return fetch(e.request).then(resp => {
-        if (resp.ok && resp.type === 'basic') {
+        const scheme = url.protocol.replace(/:$/, '');
+        if (resp.ok && resp.type === 'basic' && (scheme === 'http' || scheme === 'https')) {
           const clone = resp.clone();
           caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
         }

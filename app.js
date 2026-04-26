@@ -56,7 +56,7 @@ const K = {
   ACCOUNT: 'user_account',
 };
 
-const VERSION_URL = 'https://raw.githubusercontent.com/fuweineng/bairichuang-pwa/main/version.json';
+const VERSION_URL = './version.json';
 const SUPPORTERS_URL = 'supporters.json';
 const INDEX_URL = 'questions/index.json';
 const SUBJECTS_ALL = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
@@ -633,20 +633,8 @@ function renderTodayStatus() {
     return;
   }
 
-  if (!todayData || todayData.questionsCount === 0) {
-    el.innerHTML = ''; return;
-  } else {
-    const acc = todayData.accuracy || Math.round((todayData.correct / todayData.questionsCount) * 100);
-    el.innerHTML = `
-      <div class="today-status-card">
-        <span class="today-status-icon">✅</span>
-        <div class="today-status-info">
-          <div class="today-status-title">今日已完成 ${todayData.questionsCount} 题</div>
-          <div class="today-status-sub">正确率 ${acc}%</div>
-        </div>
-        <button class="primary-btn" data-action="start-subject" data-subject="all" style="padding:6px 14px;font-size:0.8rem">继续练习</button>
-      </div>`;
-  }
+  // 今日状态卡片已移除
+  el.innerHTML = '';
 }
 
 function getPracticeMode() {
@@ -1075,8 +1063,12 @@ function speakWithWebSpeech(q) {
 
 // ── 小学音频：点击题目文字播放 ───────────────────────────────────────
 window.playQAudio = function(el) {
-  const url = el.dataset.audio;
+  let url = el.dataset.audio;
   if (!url) return;
+  // Fix relative audio paths for primary section: audio/xxx → questions/primary/audio/xxx
+  if (!url.startsWith('http') && url.startsWith('audio/')) {
+    url = 'https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/questions/primary/' + url;
+  }
   stopCurrentAudio();
   const grid = document.getElementById('answer-grid');
   if (grid) grid.style.pointerEvents = 'none';
@@ -1106,7 +1098,7 @@ window.playQAudio = function(el) {
 };
 
 // ── 小学音频：点击选项旁播放按钮 ───────────────────────────────────
-window.playOpAudio = function(audioPath, btn) {
+window.playOpAudio = function(audioPath, btn, choiceIdx) {
   if (!audioPath) return;
   stopCurrentAudio();
   const grid = document.getElementById('answer-grid');
@@ -1120,7 +1112,9 @@ window.playOpAudio = function(audioPath, btn) {
   if (btn) { btn.classList.add('playing'); btn.textContent = '🔊'; }
 
   const url = audioPath.startsWith('http') ? audioPath
-    : `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/${audioPath}`;
+    : audioPath.startsWith('audio/')
+      ? `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/questions/primary/${audioPath}`
+      : `https://cdn.jsdelivr.net/gh/fuweineng/bairichuang-pwa@main/${audioPath}`;
   const audio = new Audio(url);
   currentAudio = audio;
   audio.onended = () => {
@@ -1143,6 +1137,17 @@ window.playOpAudio = function(audioPath, btn) {
     currentAudio = null;
     if (grid) grid.style.pointerEvents = '';
   });
+};
+
+// 纯音频选项行点击 → 选答案并提交（喇叭按钮的 onclick 也调用这个）
+window.handleAnswerClick = async function(choiceIdx) {
+  const idx = parseInt(choiceIdx, 10);
+  const isSubmitted = state.selectedChoice?.submitted === true;
+  if (isSubmitted) return;
+  state.selectedChoice = { idx, submitted: true };
+  await handleAnswer(idx);
+  renderQuestion();
+  showFeedbackModal(state.lastAnswerResult);
 };
 
 function stopCurrentAudio() {
@@ -1448,11 +1453,14 @@ function renderQuestion() {
         const selected = sel?.idx === i ? ' selected' : '';
         const opAudio = hasOptionAudio ? optionAudioMap['abcd'[i]] : '';
         const playBtn = opAudio
-          ? `<button class="op-audio-btn" onclick="playOpAudio('${opAudio}', this); return false;">🔊</button>`
+          ? `<button class="op-audio-btn" onclick="playOpAudio('${opAudio}', this, ${i}); event.stopPropagation();">🔊</button>`
           : '';
-        // 纯音频选项（text 是单个字母）只显示播放按钮，不显示空按钮
+        // 纯音频选项（text 是单个字母）：喇叭按钮可点选答案，整行透明可点击
         if (!text || /^[A-Da-d]$/.test(text.trim())) {
-          return playBtn || '';
+          return `<div class="answer-row audio-option-row" onclick="handleAnswerClick(${i})">
+            <button class="answer-btn invisible-answer" data-action="answer" data-choice="${i}" tabindex="0">${text}</button>
+            ${playBtn}
+          </div>`;
         }
         return `<div class="answer-row"><button class="answer-btn${selected}" data-action="answer" data-choice="${i}">${text}</button>${playBtn}</div>`;
       }).join('')
@@ -2651,11 +2659,23 @@ async function exportAccountQR() {
   if (typeof QRCode === 'undefined') { showToast('二维码库加载失败，请检查网络'); return; }
   const data = {
     account: state.account,
-    // 只导出最近20条session，避免QR数据过长
-    sessions: (state.sessions || []).slice(-20),
-    daily: state.daily,
-    meta: state.meta,
-    progress: state.progress,
+    version: 1,
+    // 导出时实时计算各科台格百分比（纯数字，不依赖题库内容）
+    subjectAcc: (() => {
+      const subjects = ['chinese','math','english','physics','chemistry','biology','history','geography','politics'];
+      const acc = {};
+      subjects.forEach(s => {
+        const qs = state.questionBank[s] || [];
+        if (!qs.length) return;
+        const done = qs.filter(q => state.progress[q.id]);
+        if (!done.length) { acc[s] = 0; return; }
+        const correct = done.filter(q => state.progress[q.id].correct > 0).length;
+        acc[s] = Math.round((correct / qs.length) * 100);
+      });
+      return acc;
+    })(),
+    streak: calcStreak(),
+    lastUpdated: new Date().toLocaleDateString('zh-CN', { timeZone: 'Asia/Shanghai' }).replace(/\//g, '-'),
   };
   const json = JSON.stringify(data);
   const compressed = LZString.compressToBase64(json);
@@ -2776,7 +2796,14 @@ async function onQRRead(decodedText) {
     state.daily = data.daily;
     await set(K.DAILY, state.daily);
   }
-  if (data.meta) {
+  if (data.subjectAcc) {
+    // 新版精简QR格式：只含台格百分比，写入 meta.day1SubjectAcc
+    if (!state.meta.day1SubjectAcc) {
+      state.meta.day1SubjectAcc = data.subjectAcc;
+      await set(K.META, state.meta);
+    }
+  } else if (data.meta) {
+    // 旧版完整QR格式（兼容）
     state.meta = data.meta;
     await set(K.META, state.meta);
   }

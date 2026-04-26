@@ -1,10 +1,9 @@
 {
-  "version": 986,
+  "version": 988,
   "changelog": [
-    "修复头部自适应宽度",
-    "修复全科练习时显示空白学科选择区",
-    "夜间模式字体提亮"
+    "修复小学音频播放路径：audio/xxx → questions/primary/audio/xxx",
+    "修复 SW chrome-extension 协议写入 Cache 报错"
   ],
   "qb_version": 986,
-  "semver": "9.8.6"
+  "semver": "9.8.8"
 }
