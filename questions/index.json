@@ -1,59 +1,59 @@
 {
   "section": "junior",
-  "questionBankVersion": "20260501-01",
+  "questionBankVersion": "20260501-02",
   "updatedAt": "2026-05-01",
   "subjects": {
     "chinese": {
       "file": "chinese.json",
-      "count": 529,
+      "count": 386,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "math": {
       "file": "math.json",
-      "count": 638,
+      "count": 505,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "english": {
       "file": "english.json",
-      "count": 1038,
+      "count": 517,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "physics": {
       "file": "physics.json",
-      "count": 286,
+      "count": 198,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "chemistry": {
       "file": "chemistry.json",
-      "count": 285,
+      "count": 248,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "biology": {
       "file": "biology.json",
-      "count": 336,
+      "count": 218,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "history": {
       "file": "history.json",
-      "count": 316,
+      "count": 180,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "geography": {
       "file": "geography.json",
-      "count": 274,
+      "count": 147,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
     "politics": {
       "file": "politics.json",
-      "count": 254,
+      "count": 133,
       "version": "20260501-01",
       "qb_version": "20260501-01"
     },
