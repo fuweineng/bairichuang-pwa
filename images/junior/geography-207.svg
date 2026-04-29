@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">等高距50m，水平距离200m，求坡度角</text>
+  <g transform="translate(120,60)">
+    <!-- 斜坡示意 -->
+    <polygon points="0,180 300,180 300,30" fill="#e8f4e8" stroke="black" stroke-width="2"/>
+    <!-- 等高线 -->
+    <line x1="0" y1="180" x2="300" y2="180" stroke="#8B7355" stroke-width="1.5"/>
+    <line x1="0" y1="130" x2="300" y2="130" stroke="#8B7355" stroke-width="1.5"/>
+    <line x1="0" y1="80" x2="300" y2="80" stroke="#8B7355" stroke-width="1.5"/>
+    <line x1="0" y1="30" x2="300" y2="30" stroke="#8B7355" stroke-width="1.5"/>
+    <!-- 高差标注 -->
+    <line x1="320" y1="30" x2="320" y2="180" stroke="#0055aa" stroke-width="1.5"/>
+    <polygon points="320,30 315,45 325,45" fill="#0055aa"/>
+    <polygon points="320,180 315,165 325,165" fill="#0055aa"/>
+    <text x="340" y="110" font-size="13" fill="#0055aa" font-weight="bold">高差=50m</text>
+    <!-- 水平距离 -->
+    <text x="150" y="200" font-size="13" fill="#333">水平距离=200m</text>
+    <line x1="0" y1="195" x2="300" y2="195" stroke="#888" stroke-width="1" stroke-dasharray="4"/>
+    <!-- 坡度角 -->
+    <path d="M50,180 A50,50 0 0,1 100,155" fill="none" stroke="red" stroke-width="2"/>
+    <text x="75" y="160" font-size="13" fill="red">θ</text>
+    <!-- 公式 -->
+    <text x="150" y="245" font-size="15" fill="#333">坡度 = arctan(高差/水平距离)</text>
+    <text x="150" y="268" font-size="14" fill="#d00">= arctan(50/200) ≈ 14°</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" font-family="Arial">
+  <text x="400" y="25" text-anchor="middle" font-size="18" fill="#333">哪个角的度数是直角（90°）？</text>
+  <g transform="translate(80,60)">
+    <polygon points="0,130 100,130 100,30" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M85,130 A15,15 0 0,1 100,115" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">A 直角</text>
+  </g>
+  <g transform="translate(280,60)">
+    <polygon points="0,130 100,130 80,30" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M75,130 A15,15 0 0,1 90,115" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">B 钝角</text>
+  </g>
+  <g transform="translate(480,60)">
+    <polygon points="0,130 100,130 70,50" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M65,130 A15,15 0 0,1 80,115" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">C 锐角</text>
+  </g>
+  <g transform="translate(680,60)">
+    <polygon points="0,130 100,130 50,30" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M35,130 A15,15 0 0,1 50,115" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">D 锐角</text>
+  </g>
+</svg>

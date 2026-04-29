@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">体细胞含4条染色体，精巢内某细胞分裂模式图，此细胞正处于？</text>
+  <g transform="translate(100,60)">
+    <!-- 细胞轮廓 -->
+    <ellipse cx="200" cy="120" rx="160" ry="90" fill="#fff3e0" stroke="#e65100" stroke-width="3"/>
+    <!-- 同源染色体配对（四分体） -->
+    <!-- 第一对 -->
+    <line x1="80" y1="80" x2="130" y2="100" stroke="#1976d2" stroke-width="4"/>
+    <line x1="80" y1="100" x2="130" y2="80" stroke="#1976d2" stroke-width="4"/>
+    <circle cx="80" cy="80" r="5" fill="#1976d2"/>
+    <circle cx="80" cy="100" r="5" fill="#1976d2"/>
+    <circle cx="130" cy="80" r="5" fill="#1976d2"/>
+    <circle cx="130" cy="100" r="5" fill="#1976d2"/>
+    <!-- 第二对 -->
+    <line x1="250" y1="80" x2="300" y2="100" stroke="#388e3c" stroke-width="4"/>
+    <line x1="250" y1="100" x2="300" y2="80" stroke="#388e3c" stroke-width="4"/>
+    <circle cx="250" cy="80" r="5" fill="#388e3c"/>
+    <circle cx="250" cy="100" r="5" fill="#388e3c"/>
+    <circle cx="300" cy="80" r="5" fill="#388e3c"/>
+    <circle cx="300" cy="100" r="5" fill="#388e3c"/>
+    <!-- 标注交叉互换 -->
+    <circle cx="105" cy="90" r="4" fill="#f44336"/>
+    <circle cx="275" cy="90" r="4" fill="#f44336"/>
+    <text x="105" y="115" font-size="11" fill="#d00" text-anchor="middle">交叉互换</text>
+    <!-- 四分体标注 -->
+    <text x="200" y="50" font-size="14" fill="#333" text-anchor="middle">4条染色体，2对同源染色体</text>
+    <text x="200" y="70" font-size="13" fill="#1976d2" text-anchor="middle">四分体时期（减数第一次分裂前期）</text>
+    <!-- 选项 -->
+    <text x="200" y="240" font-size="14" fill="#333">A. 有丝分裂中期  B. 减数Ⅰ前期（四分体）  C. 减数Ⅱ中期  D. 精原细胞</text>
+    <text x="200" y="265" font-size="15" fill="#d00" font-weight="bold">答案：B（同源染色体联会配对，出现四分体）</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Arial">
+  <text x="400" y="25" text-anchor="middle" font-size="18" fill="#333">下列图形中，哪个是等边三角形？</text>
+  <!-- A: 等边三角形 -->
+  <g transform="translate(100,50)">
+    <polygon points="50,130 93.3,30 6.7,30" fill="none" stroke="black" stroke-width="2.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">A</text>
+    <text x="50" y="185" text-anchor="middle" font-size="13" fill="#555">等边三角形</text>
+  </g>
+  <!-- B: 等腰直角三角形 -->
+  <g transform="translate(300,50)">
+    <polygon points="10,130 90,130 10,30" fill="none" stroke="black" stroke-width="2.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">B</text>
+    <text x="50" y="185" text-anchor="middle" font-size="13" fill="#555">直角三角形</text>
+  </g>
+  <!-- C: 普通三角形 -->
+  <g transform="translate(500,50)">
+    <polygon points="10,130 90,40 10,30" fill="none" stroke="black" stroke-width="2.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">C</text>
+    <text x="50" y="185" text-anchor="middle" font-size="13" fill="#555">普通三角形</text>
+  </g>
+  <!-- D: 四边形 -->
+  <g transform="translate(700,50)">
+    <rect x="10" y="30" width="80" height="100" fill="none" stroke="black" stroke-width="2.5"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">D</text>
+    <text x="50" y="185" text-anchor="middle" font-size="13" fill="#555">正方形</text>
+  </g>
+</svg>

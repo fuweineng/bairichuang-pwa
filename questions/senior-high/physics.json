@@ -23,11 +23,11 @@
     ],
     "answer": "C",
     "explanation": "第3秒内的位移等于前3秒位移减前2秒位移，即½a·9-½a·4=½a·5=15，解得a=6m/s²。",
-    "knowledgePoints": [
-      "运动学"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "运动学"
+    ]
   },
   {
     "id": "physics-senior-high-2",
@@ -51,13 +51,13 @@
         "text": "13N向西"
       }
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "由共点力平衡条件，F1+F2+F3=0，故F3=-(F1+F2)。F1+F2的合力的标量：√(5²+8²)=√89N，方向为北偏东arctan(5/8)。F3应为大小√89N，方向相反，即向西南。",
-    "knowledgePoints": [
-      "力的合成与分解"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "力的合成与分解"
+    ]
   },
   {
     "id": "physics-senior-high-3",
@@ -81,13 +81,13 @@
         "text": "10"
       }
     ],
-    "answer": "A",
+    "answer": "B",
     "explanation": "摩擦力f=μmg=0.2×5×10=10N，合力F合=25-10=15N，加速度a=F合/m=15/5=3m/s²，v=at=3×2=6m/s。",
-    "knowledgePoints": [
-      "牛顿运动定律"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "牛顿运动定律"
+    ]
   },
   {
     "id": "physics-senior-high-4",
@@ -113,11 +113,11 @@
     ],
     "answer": "C",
     "explanation": "重力做功W=mgh=1×10×20=200J，与路径无关，只与高度差有关。",
-    "knowledgePoints": [
-      "曲线运动"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "曲线运动"
+    ]
   },
   {
     "id": "physics-senior-high-5",
@@ -143,11 +143,11 @@
     ],
     "answer": "A",
     "explanation": "在地球表面，万有引力等于重力：GMm/R²=mg，解得M=gR²/G。",
-    "knowledgePoints": [
-      "万有引力与航天"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "万有引力与航天"
+    ]
   },
   {
     "id": "physics-senior-high-6",
@@ -173,11 +173,11 @@
     ],
     "answer": "B",
     "explanation": "重力势能减少mgh=2×10×10=200J，动能增加½mv²=½×2×64=64J，克服摩擦力做功W_f=200-64=136J。",
-    "knowledgePoints": [
-      "机械能"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "机械能"
+    ]
   },
   {
     "id": "physics-senior-high-7",
@@ -203,11 +203,11 @@
     ],
     "answer": "C",
     "explanation": "初动量p₁=1×10=10kg·m/s，末动量p₂=1×(-6)=-6kg·m/s，冲量I=Δp=p₂-p₁=-6-10=-16N·s，大小为16N·s。",
-    "knowledgePoints": [
-      "动量"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "动量"
+    ]
   },
   {
     "id": "physics-senior-high-8",
@@ -233,11 +233,11 @@
     ],
     "answer": "A",
     "explanation": "弹簧振子周期公式T=2π√(m/k)=2π√(0.5/200)=2π√(0.0025)=2π×0.05=0.1πs。",
-    "knowledgePoints": [
-      "机械振动"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "机械振动"
+    ]
   },
   {
     "id": "physics-senior-high-9",
@@ -263,11 +263,11 @@
     ],
     "answer": "C",
     "explanation": "波长λ=vT=4×0.5=2m，相邻波谷之间的距离等于一个波长，即2m。",
-    "knowledgePoints": [
-      "机械波"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "机械波"
+    ]
   },
   {
     "id": "physics-senior-high-10",
@@ -293,11 +293,11 @@
     ],
     "answer": "A",
     "explanation": "根据库仑定律，静电力F=kQ·4Q/r²=4kQ²/r²，两个电荷间的相互作用力是作用力与反作用力关系，大小相等，方向相反，故比为1:1。",
-    "knowledgePoints": [
-      "电场"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "电场"
+    ]
   },
   {
     "id": "physics-senior-high-11",
@@ -323,11 +323,11 @@
     ],
     "answer": "B",
     "explanation": "电流I=U/R=6/10=0.6A，热量Q=I²Rt=0.6²×10×60=0.36×10×60=216J。",
-    "knowledgePoints": [
-      "恒定电流"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "恒定电流"
+    ]
   },
   {
     "id": "physics-senior-high-12",
@@ -353,11 +353,11 @@
     ],
     "answer": "B",
     "explanation": "安培力公式F=BIL=0.2×5×0.5=0.5N。",
-    "knowledgePoints": [
-      "磁场"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "磁场"
+    ]
   },
   {
     "id": "physics-senior-high-13",
@@ -383,11 +383,11 @@
     ],
     "answer": "B",
     "explanation": "根据法拉第电磁感应定律，E=nΔΦ/Δt=1×(0.05-0.01)/0.2=0.04/0.2=0.2V。",
-    "knowledgePoints": [
-      "电磁感应"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "电磁感应"
+    ]
   },
   {
     "id": "physics-senior-high-14",
@@ -413,11 +413,11 @@
     ],
     "answer": "B",
     "explanation": "正弦交变电流的有效值I=I_m/√2=10√2/√2=10A。",
-    "knowledgePoints": [
-      "交变电流"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "交变电流"
+    ]
   },
   {
     "id": "physics-senior-high-15",
@@ -443,11 +443,11 @@
     ],
     "answer": "B",
     "explanation": "临界角C满足sinC=1/n=1/√2=√2/2。",
-    "knowledgePoints": [
-      "光学"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "光学"
+    ]
   },
   {
     "id": "physics-senior-high-16",
@@ -473,11 +473,11 @@
     ],
     "answer": "C",
     "explanation": "等压过程，V/T=常数，即2/300=4/T_B，解得T_B=600K。",
-    "knowledgePoints": [
-      "热学"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "热学"
+    ]
   },
   {
     "id": "physics-senior-high-17",
@@ -503,11 +503,11 @@
     ],
     "answer": "A",
     "explanation": "光子能量E=hν=h(c/λ)=hc/λ。",
-    "knowledgePoints": [
-      "原子物理"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "原子物理"
+    ]
   },
   {
     "id": "physics-senior-high-18",
@@ -533,11 +533,11 @@
     ],
     "answer": "A",
     "explanation": "弹性碰撞公式，质量相等时速度交换。碰撞后A的速度为0，B的速度为10m/s。",
-    "knowledgePoints": [
-      "动量守恒综合"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "动量守恒综合"
+    ]
   },
   {
     "id": "physics-senior-high-19",
@@ -563,11 +563,11 @@
     ],
     "answer": "A",
     "explanation": "机械能守恒，任意时刻动能与势能之和等于初始机械能mgh或落地时的动能½mv²（两者相等）。",
-    "knowledgePoints": [
-      "能量守恒综合"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "能量守恒综合"
+    ]
   },
   {
     "id": "physics-senior-high-20",
@@ -593,11 +593,11 @@
     ],
     "answer": "A",
     "explanation": "当电场力与洛伦兹力平衡时，qE=qvB，即v=E/B时，粒子做匀速直线运动。",
-    "knowledgePoints": [
-      "电磁场综合"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "电磁场综合"
+    ]
   },
   {
     "id": "physics-senior-high-21",
@@ -623,11 +623,11 @@
     ],
     "answer": "B",
     "explanation": "由a=F/m，当F一定时，a与m成反比，在a-m坐标系中为双曲线的一支。",
-    "knowledgePoints": [
-      "实验：验证牛顿运动定律"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "实验：验证牛顿运动定律"
+    ]
   },
   {
     "id": "physics-senior-high-22",
@@ -653,11 +653,11 @@
     ],
     "answer": "B",
     "explanation": "由于电压表内阻不是无穷大，电流表中分压导致电流测量值偏大，由r=U/I计算的内阻值偏小。",
-    "knowledgePoints": [
-      "实验：测定电源电动势和内阻"
-    ],
     "difficulty": 4,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "实验：测定电源电动势和内阻"
+    ]
   },
   {
     "id": "physics-senior-high-23",
@@ -683,11 +683,11 @@
     ],
     "answer": "A",
     "explanation": "由于电压表内阻不是无穷大，分流导致电流测量值偏大，属于原理性系统误差。",
-    "knowledgePoints": [
-      "实验：描绘小灯泡伏安特性曲线"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "实验：描绘小灯泡伏安特性曲线"
+    ]
   },
   {
     "id": "physics-senior-high-24",
@@ -713,11 +713,11 @@
     ],
     "answer": "A",
     "explanation": "选择间距合适、清晰可辨的点开始计数，第一个点若间距合适则更准确，避免选择过密或过疏的点。",
-    "knowledgePoints": [
-      "实验：验证机械能守恒定律"
-    ],
     "difficulty": 3,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "实验：验证机械能守恒定律"
+    ]
   },
   {
     "id": "physics-senior-high-25",
@@ -743,10 +743,10 @@
     ],
     "answer": "B",
     "explanation": "光敏电阻的阻值随光照强度增强而减小，利用这一特性可制作光强传感器（光电传感器）。",
-    "knowledgePoints": [
-      "实验：传感器的简单使用"
-    ],
     "difficulty": 2,
-    "subject": "physics"
+    "subject": "physics",
+    "knowledgeTags": [
+      "实验：传感器的简单使用"
+    ]
   }
 ]

@@ -2035,15 +2035,6 @@ async function renderSettings() {
     </div>
 
     <div class="settings-card">
-      <div class="settings-section-title">关于</div>
-      <div style="display:flex;gap:6px">
-        <button class="secondary-btn" data-action="show-donate-settings" style="flex:1;padding:8px;font-size:0.8rem">❤️ 打赏支持</button>
-        <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="flex:1;padding:8px;font-size:0.8rem">检查更新</button>
-      </div>
-      <div class="settings-version" style="text-align:center;margin-top:8px">百日闯 v${state.settings.appVersion || '9.1.2'}</div>
-    </div>
-
-    <div class="settings-card">
       <div class="settings-section-title">学段</div>
       <div style="display:flex;gap:6px;margin-bottom:10px">
         ${['primary','junior','senior-high'].map(s => `
@@ -2058,6 +2049,17 @@ async function renderSettings() {
         <button class="secondary-btn" data-action="upgrade-questions" id="upgrade-btn" style="flex:1;padding:8px;font-size:0.8rem">同步题库</button>
         <button class="secondary-btn" data-action="clear-qb-cache" style="flex:1;padding:8px;font-size:0.8rem">清缓存</button>
         <button class="danger-btn" data-action="clear-all-data" style="flex:1;padding:8px;font-size:0.8rem">清除</button>
+      </div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-section-title">关于</div>
+      <div style="display:flex;gap:6px">
+        <button class="secondary-btn" data-action="show-donate-settings" style="flex:1;padding:8px;font-size:0.8rem">❤️ 打赏支持</button>
+        <button class="secondary-btn" data-action="check-app-update" id="check-app-update-btn" style="flex:1;padding:8px;font-size:0.8rem">检查更新</button>
+      </div>
+      <div class="settings-version" style="text-align:center;margin-top:8px">
+        百日闯 v${state.settings.appVersion || '9.1.2'}${state.settings.questionBankVersion ? ' · 题库 v' + state.settings.questionBankVersion : ''}
       </div>
     </div>
   `;

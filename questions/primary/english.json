@@ -2498,5 +2498,5005 @@
         "audio": "audio/english_050_d.mp3"
       }
     ]
+  },
+  {
+    "id": "primary-english-051",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "be动词"
+    ],
+    "question": "下面哪句话中的 be 动词使用正确？",
+    "options": [
+      {
+        "label": "A",
+        "text": "She am a student."
+      },
+      {
+        "label": "B",
+        "text": "She is a student."
+      },
+      {
+        "label": "C",
+        "text": "She are a student."
+      },
+      {
+        "label": "D",
+        "text": "She be a student."
+      }
+    ],
+    "answer": "B",
+    "explanation": "be 动词与主语 she 搭配要用 is。",
+    "audio": "audio/english_051_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_051_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_051_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_051_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_051_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-052",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "like加ing"
+    ],
+    "question": "下面哪个句子正确使用了 like + doing 结构？",
+    "options": [
+      {
+        "label": "A",
+        "text": "I like play games."
+      },
+      {
+        "label": "B",
+        "text": "I like playing games."
+      },
+      {
+        "label": "C",
+        "text": "I like to playing games."
+      },
+      {
+        "label": "D",
+        "text": "I likes playing games."
+      }
+    ],
+    "answer": "B",
+    "explanation": "like 后面接动词‑ing 形式表示爱好。",
+    "audio": "audio/english_052_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_052_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_052_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_052_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_052_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-053",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 4,
+    "knowledgeTags": [
+      "some/any"
+    ],
+    "question": "下面哪句话里使用了正确的 some 或 any？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Do you have some money?"
+      },
+      {
+        "label": "B",
+        "text": "Do you have any money?"
+      },
+      {
+        "label": "C",
+        "text": "Do you have any moneys?"
+      },
+      {
+        "label": "D",
+        "text": "Do you have some moneys?"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在一般疑问句中，疑问句用 any，money 不可数，不用复数。",
+    "audio": "audio/english_053_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_053_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_053_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_053_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_053_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-054",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "there be"
+    ],
+    "question": "下面哪个句子符合 there be 结构的正确时态？",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is a cat on the roof."
+      },
+      {
+        "label": "B",
+        "text": "There are a cat on the roof."
+      },
+      {
+        "label": "C",
+        "text": "There is two cats on the roof."
+      },
+      {
+        "label": "D",
+        "text": "There be a cat on the roof."
+      }
+    ],
+    "answer": "A",
+    "explanation": "there is 用来描述单数可数名词或不可数名词，复数名词用 there are。",
+    "audio": "audio/english_054_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_054_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_054_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_054_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_054_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-055",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 6,
+    "knowledgeTags": [
+      "too/to"
+    ],
+    "question": "下面哪句话中使用了正确的 too ... to 结构？",
+    "options": [
+      {
+        "label": "A",
+        "text": "He is too young for to go to school."
+      },
+      {
+        "label": "B",
+        "text": "He is too young to go to school."
+      },
+      {
+        "label": "C",
+        "text": "He is very too young to go to school."
+      },
+      {
+        "label": "D",
+        "text": "He is too young for go to school."
+      }
+    ],
+    "answer": "B",
+    "explanation": "too ... to 表示‘太…而不能’，to 后面接动词原形。",
+    "audio": "audio/english_055_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_055_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_055_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_055_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_055_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-056",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "一般将来时"
+    ],
+    "question": "下面哪句话使用了将来时？",
+    "options": [
+      {
+        "label": "A",
+        "text": "I play soccer."
+      },
+      {
+        "label": "B",
+        "text": "I will play soccer."
+      },
+      {
+        "label": "C",
+        "text": "I played soccer."
+      },
+      {
+        "label": "D",
+        "text": "I am playing soccer."
+      }
+    ],
+    "answer": "B",
+    "explanation": "将来时表示将要发生的动作，常用 will + 动词原形。",
+    "audio": "audio/english_056_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_056_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_056_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_056_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_056_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-057",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "一般过去时"
+    ],
+    "question": "选出使用了过去式的句子。",
+    "options": [
+      {
+        "label": "A",
+        "text": "She reads a book."
+      },
+      {
+        "label": "B",
+        "text": "She read a book."
+      },
+      {
+        "label": "C",
+        "text": "She reading a book."
+      },
+      {
+        "label": "D",
+        "text": "She will read a book."
+      }
+    ],
+    "answer": "B",
+    "explanation": "过去式表示过去发生的动作，动词通常加 -ed。",
+    "audio": "audio/english_057_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_057_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_057_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_057_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_057_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-058",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "介词"
+    ],
+    "question": "在空格处填入适当的介词：The cat is _____ the table.",
+    "options": [
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "to"
+      }
+    ],
+    "answer": "B",
+    "explanation": "on 表示在…上面，猫在桌子上用 on。",
+    "audio": "audio/english_058_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_058_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_058_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_058_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_058_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-059",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "可数名词"
+    ],
+    "question": "哪个词是复数可数名词？",
+    "options": [
+      {
+        "label": "A",
+        "text": "water"
+      },
+      {
+        "label": "B",
+        "text": "apple"
+      },
+      {
+        "label": "C",
+        "text": "apples"
+      },
+      {
+        "label": "D",
+        "text": "milk"
+      }
+    ],
+    "answer": "C",
+    "explanation": "apples 是复数形式，可数名词。",
+    "audio": "audio/english_059_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_059_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_059_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_059_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_059_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-060",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 6,
+    "knowledgeTags": [
+      "名词所有格"
+    ],
+    "question": "下列哪个是名词所有格形式？",
+    "options": [
+      {
+        "label": "A",
+        "text": "John's"
+      },
+      {
+        "label": "B",
+        "text": "Johns"
+      },
+      {
+        "label": "C",
+        "text": "Johnes"
+      },
+      {
+        "label": "D",
+        "text": "John"
+      }
+    ],
+    "answer": "A",
+    "explanation": "名词所有格通常在名词后加 's，表示所属关系。",
+    "audio": "audio/english_060_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_060_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_060_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_060_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_060_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-061",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "季节"
+    ],
+    "question": "以下哪句英文描述的是夏天？",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is cold."
+      },
+      {
+        "label": "B",
+        "text": "It is hot and sunny."
+      },
+      {
+        "label": "C",
+        "text": "Leaves are falling."
+      },
+      {
+        "label": "D",
+        "text": "Snow covers the ground."
+      }
+    ],
+    "answer": "B",
+    "explanation": "“It is hot and sunny.”表示天气炎热，阳光充足，符合夏天的特征。",
+    "audio": "audio/english_061_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_061_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_061_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_061_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_061_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-062",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "家庭"
+    ],
+    "question": "“我的爸爸是医生。”用英文怎么说？",
+    "options": [
+      {
+        "label": "A",
+        "text": "My father is a doctor."
+      },
+      {
+        "label": "B",
+        "text": "My mother is a teacher."
+      },
+      {
+        "label": "C",
+        "text": "My brother is a student."
+      },
+      {
+        "label": "D",
+        "text": "My sister is a nurse."
+      }
+    ],
+    "answer": "A",
+    "explanation": "father对应的英文单词是father，整句为My father is a doctor.",
+    "audio": "audio/english_062_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_062_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_062_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_062_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_062_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-063",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "方位"
+    ],
+    "question": "“在…上面” 用英文怎么说？",
+    "options": [
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "under"
+      },
+      {
+        "label": "D",
+        "text": "behind"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“在…上面”对应的介词是on，如The book is on the table.",
+    "audio": "audio/english_063_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_063_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_063_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_063_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_063_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-064",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "时间"
+    ],
+    "question": "现在几点？（英文回答）",
+    "options": [
+      {
+        "label": "A",
+        "text": "It's eight thirty."
+      },
+      {
+        "label": "B",
+        "text": "It's Tuesday."
+      },
+      {
+        "label": "C",
+        "text": "It's raining."
+      },
+      {
+        "label": "D",
+        "text": "It's summer."
+      }
+    ],
+    "answer": "A",
+    "explanation": "“八点半”的英文表达是It's eight thirty，符合时间的提问。",
+    "audio": "audio/english_064_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_064_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_064_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_064_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_064_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-065",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "星期"
+    ],
+    "question": "“星期一”用英文怎么说？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monday"
+      },
+      {
+        "label": "B",
+        "text": "January"
+      },
+      {
+        "label": "C",
+        "text": "Apple"
+      },
+      {
+        "label": "D",
+        "text": "Red"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Monday是星期一的英文单词。",
+    "audio": "audio/english_065_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_065_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_065_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_065_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_065_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-066",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "月份"
+    ],
+    "question": "下面哪个月份通常有28天？",
+    "options": [
+      {
+        "label": "A",
+        "text": "February"
+      },
+      {
+        "label": "B",
+        "text": "March"
+      },
+      {
+        "label": "C",
+        "text": "July"
+      },
+      {
+        "label": "D",
+        "text": "October"
+      }
+    ],
+    "answer": "A",
+    "explanation": "February在平年有28天。",
+    "audio": "audio/english_066_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_066_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_066_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_066_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_066_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-067",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "数字"
+    ],
+    "question": "请选出数字12的英文表达。",
+    "options": [
+      {
+        "label": "A",
+        "text": "twelve"
+      },
+      {
+        "label": "B",
+        "text": "twenty"
+      },
+      {
+        "label": "C",
+        "text": "eleven"
+      },
+      {
+        "label": "D",
+        "text": "thirteen"
+      }
+    ],
+    "answer": "A",
+    "explanation": "12的英语是twelve。",
+    "audio": "audio/english_067_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_067_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_067_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_067_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_067_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-068",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "比较级"
+    ],
+    "question": "在句子‘He is ______ than his brother.’中，空白处应填入哪个词的正确比较级形式？",
+    "options": [
+      {
+        "label": "A",
+        "text": "tall"
+      },
+      {
+        "label": "B",
+        "text": "taller"
+      },
+      {
+        "label": "C",
+        "text": "tallest"
+      },
+      {
+        "label": "D",
+        "text": "more tall"
+      }
+    ],
+    "answer": "B",
+    "explanation": "比较级在than前使用taller。",
+    "audio": "audio/english_068_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_068_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_068_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_068_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_068_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-069",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "特殊疑问句"
+    ],
+    "question": "如果要询问别人的名字，应该使用哪个疑问词？",
+    "options": [
+      {
+        "label": "A",
+        "text": "What"
+      },
+      {
+        "label": "B",
+        "text": "When"
+      },
+      {
+        "label": "C",
+        "text": "Where"
+      },
+      {
+        "label": "D",
+        "text": "Why"
+      }
+    ],
+    "answer": "A",
+    "explanation": "问名字用What is your name?",
+    "audio": "audio/english_069_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_069_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_069_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_069_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_069_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-070",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "现在进行时"
+    ],
+    "question": "请在句子‘They ______ now.’中填入正确的现在进行时形式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "plays"
+      },
+      {
+        "label": "C",
+        "text": "playing"
+      },
+      {
+        "label": "D",
+        "text": "are playing"
+      }
+    ],
+    "answer": "D",
+    "explanation": "现在进行时使用be动词加动词-ing，they对应are。",
+    "audio": "audio/english_070_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_070_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_070_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_070_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_070_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-071",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "第三人称单数"
+    ],
+    "question": "请选出正确的动词形式填空：He ___ a book every night. (A) read (B) reads (C) reading (D) to read",
+    "options": [
+      {
+        "label": "A",
+        "content": "read"
+      },
+      {
+        "label": "B",
+        "content": "reads"
+      },
+      {
+        "label": "C",
+        "content": "reading"
+      },
+      {
+        "label": "D",
+        "content": "to read"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在一般现在时的第三人称单数中，动词要加 -s 或 -es，reads 符合要求。",
+    "audio": "audio/english_071_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_071_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_071_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_071_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_071_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-072",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "规则动词过去式"
+    ],
+    "question": "请选出动词的过去式填空：Yesterday, I ___ my homework at 6 pm. (A) finish (B) finished (C) finishes (D) finishing",
+    "options": [
+      {
+        "label": "A",
+        "content": "finish"
+      },
+      {
+        "label": "B",
+        "content": "finished"
+      },
+      {
+        "label": "C",
+        "content": "finishes"
+      },
+      {
+        "label": "D",
+        "content": "finishing"
+      }
+    ],
+    "answer": "B",
+    "explanation": "规则动词的过去式在动词后加 -ed，finished 符合规则。",
+    "audio": "audio/english_072_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_072_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_072_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_072_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_072_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-073",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 4,
+    "knowledgeTags": [
+      "词义推断"
+    ],
+    "question": "根据句子意思推断划线词的意思：The sky was dark and the wind was strong. It seemed it would ___ soon. (A) rain (B) snow (C) shine (D) fog",
+    "options": [
+      {
+        "label": "A",
+        "content": "rain"
+      },
+      {
+        "label": "B",
+        "content": "snow"
+      },
+      {
+        "label": "C",
+        "content": "shine"
+      },
+      {
+        "label": "D",
+        "content": "fog"
+      }
+    ],
+    "answer": "A",
+    "explanation": "根据天空暗且风大，暗示可能要下雨，所以选择 rain。",
+    "audio": "audio/english_073_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_073_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_073_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_073_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_073_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-074",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "词汇"
+    ],
+    "question": "请选出正确的英文单词对应中文意思“苹果”。 (A) banana (B) apple (C) orange (D) grape",
+    "options": [
+      {
+        "label": "A",
+        "content": "banana"
+      },
+      {
+        "label": "B",
+        "content": "apple"
+      },
+      {
+        "label": "C",
+        "content": "orange"
+      },
+      {
+        "label": "D",
+        "content": "grape"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“苹果”的英文单词是 apple。",
+    "audio": "audio/english_074_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_074_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_074_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_074_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_074_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-075",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "选词填空"
+    ],
+    "question": "请在横线处填入恰当的单词：She ___ English books every day. (A) read (B) reads (C) reading (D) will read",
+    "options": [
+      {
+        "label": "A",
+        "content": "read"
+      },
+      {
+        "label": "B",
+        "content": "reads"
+      },
+      {
+        "label": "C",
+        "content": "reading"
+      },
+      {
+        "label": "D",
+        "content": "will read"
+      }
+    ],
+    "answer": "B",
+    "explanation": "因为句子为一般现在时的陈述，主语是 she，动词要加 -s，故 reads。",
+    "audio": "audio/english_075_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_075_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_075_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_075_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_075_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-076",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "阅读细节"
+    ],
+    "question": "阅读下面的短文，回答问题：\n\n'I have a pet dog. Its name is Brown. It is white and it likes to play with a ball.'\n\n问题是：这只狗是什么颜色？",
+    "options": [
+      {
+        "label": "A",
+        "text": "白色"
+      },
+      {
+        "label": "B",
+        "text": "黑色"
+      },
+      {
+        "label": "C",
+        "text": "棕色"
+      },
+      {
+        "label": "D",
+        "text": "黄色"
+      }
+    ],
+    "answer": "A",
+    "explanation": "短文中说狗是白色的。",
+    "audio": "audio/english_076_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_076_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_076_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_076_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_076_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-077",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "阅读推断"
+    ],
+    "question": "阅读下面的短文，回答问题：\n\n'Tom goes to school every day. He carries a big bag. One day, his bag is missing. He looks everywhere but cannot find it. Then he sees his sister playing with a bag in the garden.'\n\n问题是：从短文可以推断出Tom的包被谁拿走了？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tom本人"
+      },
+      {
+        "label": "B",
+        "text": "他的妹妹"
+      },
+      {
+        "label": "C",
+        "text": "他的老师"
+      },
+      {
+        "label": "D",
+        "text": "他的朋友"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文中提到他看到妹妹在花园里玩包，推断是妹妹拿走了包。",
+    "audio": "audio/english_077_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_077_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_077_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_077_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_077_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-078",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "阅读判断"
+    ],
+    "question": "阅读下面的短文，回答问题：\n\n'The sun rises in the east. The moon is round. Birds can fly.'\n\n问题是：以下哪句话描述是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "太阳从西方升起。"
+      },
+      {
+        "label": "B",
+        "text": "月亮是圆的。"
+      },
+      {
+        "label": "C",
+        "text": "鸟不能飞。"
+      },
+      {
+        "label": "D",
+        "text": "太阳是蓝色的。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文中明确说月亮是圆的。",
+    "audio": "audio/english_078_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_078_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_078_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_078_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_078_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-079",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 5,
+    "knowledgeTags": [
+      "阅读推断"
+    ],
+    "question": "阅读下面的短文，回答问题：\n\n'Mary loves reading. She goes to the library every Saturday. One Saturday, the library was closed. She felt sad. She decided to read a book at home instead. The next day, she returned the book to the library.'\n\n问题是：从文中可以推断，Mary对图书馆有什么感情？",
+    "options": [
+      {
+        "label": "A",
+        "text": "她不喜欢图书馆"
+      },
+      {
+        "label": "B",
+        "text": "她对图书馆很感兴趣"
+      },
+      {
+        "label": "C",
+        "text": "她对图书馆没有感觉"
+      },
+      {
+        "label": "D",
+        "text": "她讨厌图书馆"
+      }
+    ],
+    "answer": "B",
+    "explanation": "她每周都去图书馆，说明她对图书馆很感兴趣。",
+    "audio": "audio/english_079_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_079_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_079_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_079_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_079_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-080",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 5,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读排序"
+    ],
+    "question": "阅读下面的短文，回答问题：\n\n'1. Tom opened his new book. 2. Tom read a story about a dragon. 3. Tom closed the book and went to bed.'\n\n问题是：把下面的句子按事件顺序重新排列，哪一项是正确的顺序？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 → 2 → 3"
+      },
+      {
+        "label": "B",
+        "text": "2 → 1 → 3"
+      },
+      {
+        "label": "C",
+        "text": "3 → 2 → 1"
+      },
+      {
+        "label": "D",
+        "text": "1 → 3 → 2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "按照事件的先后顺序，Tom先打开书，然后阅读故事，最后关书睡觉。",
+    "audio": "audio/english_080_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_080_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_080_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_080_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_080_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-081",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "颜色"
+    ],
+    "question": "下面哪个颜色是“red”（红色）？",
+    "options": [
+      {
+        "label": "A",
+        "text": "蓝色"
+      },
+      {
+        "label": "B",
+        "text": "绿色"
+      },
+      {
+        "label": "C",
+        "text": "红色"
+      },
+      {
+        "label": "D",
+        "text": "黄色"
+      }
+    ],
+    "answer": "C",
+    "explanation": "“red”在英文中对应红色。",
+    "audio": "audio/english_081_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_081_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_081_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_081_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_081_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-082",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "食物"
+    ],
+    "question": "“apple”是什么食物？",
+    "options": [
+      {
+        "label": "A",
+        "text": "苹果"
+      },
+      {
+        "label": "B",
+        "text": "香蕉"
+      },
+      {
+        "label": "C",
+        "text": "橙子"
+      },
+      {
+        "label": "D",
+        "text": "葡萄"
+      }
+    ],
+    "answer": "A",
+    "explanation": "“apple”在中文里是苹果。",
+    "audio": "audio/english_082_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_082_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_082_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_082_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_082_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-083",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "频度副词"
+    ],
+    "question": "下面哪个词表示‘always’（总是）？",
+    "options": [
+      {
+        "label": "A",
+        "text": "有时"
+      },
+      {
+        "label": "B",
+        "text": "经常"
+      },
+      {
+        "label": "C",
+        "text": "总是"
+      },
+      {
+        "label": "D",
+        "text": "从不"
+      }
+    ],
+    "answer": "C",
+    "explanation": "“always”在英文中表示总是。",
+    "audio": "audio/english_083_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_083_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_083_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_083_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_083_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-084",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 5,
+    "knowledgeTags": [
+      "首字母填空"
+    ],
+    "question": "在单词 “b__k” 中，填入哪个字母组合能组成 “book”？",
+    "options": [
+      {
+        "label": "A",
+        "text": "oo"
+      },
+      {
+        "label": "B",
+        "text": "aa"
+      },
+      {
+        "label": "C",
+        "text": "ee"
+      },
+      {
+        "label": "D",
+        "text": "ii"
+      }
+    ],
+    "answer": "A",
+    "explanation": "“book”缺少的两个字母是“oo”。",
+    "audio": "audio/english_084_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_084_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_084_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_084_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_084_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-085",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 5,
+    "grade": 6,
+    "knowledgeTags": [
+      "口语交际"
+    ],
+    "question": "你想向朋友说“Hello, how are you?”以下哪个选项最合适？",
+    "options": [
+      {
+        "label": "A",
+        "text": "你好吗？"
+      },
+      {
+        "label": "B",
+        "text": "再见！"
+      },
+      {
+        "label": "C",
+        "text": "谢谢你！"
+      },
+      {
+        "label": "D",
+        "text": "我是学生。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "“Hello, how are you?”是打招呼问好的常用句子。",
+    "audio": "audio/english_085_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_085_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_085_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_085_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_085_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-086",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "情景交际"
+    ],
+    "question": "根据情境，选择合适的答句。Tom说：“How are you?”你应该回答：",
+    "options": [
+      {
+        "label": "A",
+        "text": "I am 9 years old."
+      },
+      {
+        "label": "B",
+        "text": "I am fine, thank you."
+      },
+      {
+        "label": "C",
+        "text": "My name is Tom."
+      },
+      {
+        "label": "D",
+        "text": "I like apples."
+      }
+    ],
+    "answer": "B",
+    "explanation": "“How are you?”用于询问身体状况，常用回答是“I am fine, thank you.”。",
+    "audio": "audio/english_086_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_086_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_086_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_086_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_086_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-087",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 3,
+    "knowledgeTags": [
+      "be动词"
+    ],
+    "question": "请在空格处填入正确的be动词：She ___ a teacher.",
+    "options": [
+      {
+        "label": "A",
+        "text": "am"
+      },
+      {
+        "label": "B",
+        "text": "is"
+      },
+      {
+        "label": "C",
+        "text": "are"
+      },
+      {
+        "label": "D",
+        "text": "be"
+      }
+    ],
+    "answer": "B",
+    "explanation": "She是第三人称单数，be动词应使用is。",
+    "audio": "audio/english_087_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_087_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_087_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_087_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_087_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-088",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 4,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "完形填空：He ___ (go) to school every day. 从下列选项中选出正确的词形。",
+    "options": [
+      {
+        "label": "A",
+        "text": "go"
+      },
+      {
+        "label": "B",
+        "text": "goes"
+      },
+      {
+        "label": "C",
+        "text": "going"
+      },
+      {
+        "label": "D",
+        "text": "to go"
+      }
+    ],
+    "answer": "B",
+    "explanation": "He是第三人称单数，一般现在时动词需加‑s，即goes。",
+    "audio": "audio/english_088_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_088_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_088_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_088_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_088_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-089",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 5,
+    "grade": 5,
+    "knowledgeTags": [
+      "综合运用"
+    ],
+    "question": "选出没有语法错误的句子。",
+    "options": [
+      {
+        "label": "A",
+        "text": "She have a cat."
+      },
+      {
+        "label": "B",
+        "text": "She has a cat."
+      },
+      {
+        "label": "C",
+        "text": "She has a cats."
+      },
+      {
+        "label": "D",
+        "text": "She have cats."
+      }
+    ],
+    "answer": "B",
+    "explanation": "She是第三人称单数，动词应使用has，名词cat应为单数。",
+    "audio": "audio/english_089_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_089_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_089_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_089_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_089_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-090",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "like加ing"
+    ],
+    "question": "我喜欢在游泳池里 ___ (swim)。请选出正确的形式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "swim"
+      },
+      {
+        "label": "B",
+        "text": "swims"
+      },
+      {
+        "label": "C",
+        "text": "swimming"
+      },
+      {
+        "label": "D",
+        "text": "to swim"
+      }
+    ],
+    "answer": "C",
+    "explanation": "在like后面应使用动词‑ing形式，所以答案是swimming。",
+    "audio": "audio/english_090_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_090_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_090_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_090_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_090_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-091",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "some/any"
+    ],
+    "question": "下面哪句英文正确使用了 some 或 any？",
+    "options": [
+      {
+        "label": "A",
+        "text": "There are some books on the desk."
+      },
+      {
+        "label": "B",
+        "text": "There are any books on the desk."
+      },
+      {
+        "label": "C",
+        "text": "There are many books on the desk."
+      },
+      {
+        "label": "D",
+        "text": "There are a books on the desk."
+      }
+    ],
+    "answer": "A",
+    "explanation": "在肯定句中，用 some 表示‘一些’，any 多用于否定句或疑问句。",
+    "audio": "audio/english_091_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_091_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_091_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_091_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_091_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-092",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "there be"
+    ],
+    "question": "请在横线处填入正确的 there be 结构：_____ a cat under the tree.",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is"
+      },
+      {
+        "label": "B",
+        "text": "There are"
+      },
+      {
+        "label": "C",
+        "text": "There have"
+      },
+      {
+        "label": "D",
+        "text": "It is"
+      }
+    ],
+    "answer": "A",
+    "explanation": "there be 结构的 be 形式取决于后面的名词，‘a cat’ 为单数，所以用 There is。",
+    "audio": "audio/english_092_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_092_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_092_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_092_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_092_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-093",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "too/to"
+    ],
+    "question": "选择正确的搭配完成句子：She is _____ young _____ go.",
+    "options": [
+      {
+        "label": "A",
+        "text": "too … to"
+      },
+      {
+        "label": "B",
+        "text": "very … to"
+      },
+      {
+        "label": "C",
+        "text": "so … that"
+      },
+      {
+        "label": "D",
+        "text": "enough … to"
+      }
+    ],
+    "answer": "A",
+    "explanation": "‘too … to …’ 表示‘太…而不能…’，符合句子意思‘她太年轻而不能去’。",
+    "audio": "audio/english_093_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_093_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_093_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_093_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_093_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-094",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "一般将来时"
+    ],
+    "question": "把句子‘我明天_____去学校。’翻译成英文，选择正确的时态。",
+    "options": [
+      {
+        "label": "A",
+        "text": "I am going to go to school tomorrow."
+      },
+      {
+        "label": "B",
+        "text": "I will go to school tomorrow."
+      },
+      {
+        "label": "C",
+        "text": "I go to school tomorrow."
+      },
+      {
+        "label": "D",
+        "text": "I went to school tomorrow."
+      }
+    ],
+    "answer": "B",
+    "explanation": "一般将来时用 will + 动词原形或 be going to 结构，这里最常用的是 will go。",
+    "audio": "audio/english_094_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_094_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_094_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_094_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_094_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-095",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 4,
+    "knowledgeTags": [
+      "一般过去时"
+    ],
+    "question": "把句子‘他昨天_____足球。’翻译成英文，选择正确的动词形式。",
+    "options": [
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "plays"
+      },
+      {
+        "label": "C",
+        "text": "played"
+      },
+      {
+        "label": "D",
+        "text": "playing"
+      }
+    ],
+    "answer": "C",
+    "explanation": "一般过去时使用动词的过去式，‘played’ 是 play 的过去式，表示过去的动作。",
+    "audio": "audio/english_095_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_095_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_095_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_095_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_095_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-096",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "介词"
+    ],
+    "question": "请选择正确的介词填空：The cat is ___ the box.",
+    "options": [
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "under"
+      },
+      {
+        "label": "D",
+        "text": "at"
+      }
+    ],
+    "answer": "C",
+    "explanation": "under表示在…下面，猫在盒子下面。",
+    "audio": "audio/english_096_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_096_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_096_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_096_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_096_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-097",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "可数名词"
+    ],
+    "question": "请选择合适的可数名词复数形式填空：How many ___ are there in the picture?",
+    "options": [
+      {
+        "label": "A",
+        "text": "apple"
+      },
+      {
+        "label": "B",
+        "text": "apples"
+      },
+      {
+        "label": "C",
+        "text": "water"
+      },
+      {
+        "label": "D",
+        "text": "money"
+      }
+    ],
+    "answer": "B",
+    "explanation": "apple是可数名词，需用复数形式apples。",
+    "audio": "audio/english_097_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_097_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_097_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_097_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_097_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-098",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "名词所有格"
+    ],
+    "question": "请选择正确的名词所有格形式填空：This is ___ bag.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tom"
+      },
+      {
+        "label": "B",
+        "text": "Tom's"
+      },
+      {
+        "label": "C",
+        "text": "Toms"
+      },
+      {
+        "label": "D",
+        "text": "Tom's bag"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Tom的所有格形式是Tom's，表示这个包是Tom的。",
+    "audio": "audio/english_098_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_098_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_098_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_098_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_098_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-099",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "季节"
+    ],
+    "question": "哪个季节树叶变黄，天气变凉？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spring"
+      },
+      {
+        "label": "B",
+        "text": "Summer"
+      },
+      {
+        "label": "C",
+        "text": "Autumn"
+      },
+      {
+        "label": "D",
+        "text": "Winter"
+      }
+    ],
+    "answer": "C",
+    "explanation": "秋季树叶变黄，天气转凉。",
+    "audio": "audio/english_099_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_099_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_099_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_099_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_099_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-100",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "家庭"
+    ],
+    "question": "请选择正确的词填空：My ___ has three people: dad, mom and me.",
+    "options": [
+      {
+        "label": "A",
+        "text": "family"
+      },
+      {
+        "label": "B",
+        "text": "families"
+      },
+      {
+        "label": "C",
+        "text": "family's"
+      },
+      {
+        "label": "D",
+        "text": "familyes"
+      }
+    ],
+    "answer": "A",
+    "explanation": "family是家庭的总称，这里用单数形式即可。",
+    "audio": "audio/english_100_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_100_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_100_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_100_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_100_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-101",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "数字"
+    ],
+    "question": "请选择‘seven’的正确中文意思。",
+    "options": [
+      {
+        "label": "A",
+        "text": "七"
+      },
+      {
+        "label": "B",
+        "text": "八"
+      },
+      {
+        "label": "C",
+        "text": "六"
+      },
+      {
+        "label": "D",
+        "text": "五"
+      }
+    ],
+    "answer": "A",
+    "explanation": "‘seven’对应中文数字七。",
+    "audio": "audio/english_101_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_101_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_101_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_101_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_101_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-102",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "月份"
+    ],
+    "question": "‘January’在英语里是哪个月份？",
+    "options": [
+      {
+        "label": "A",
+        "text": "一月"
+      },
+      {
+        "label": "B",
+        "text": "二月"
+      },
+      {
+        "label": "C",
+        "text": "三月"
+      },
+      {
+        "label": "D",
+        "text": "十二月"
+      }
+    ],
+    "answer": "A",
+    "explanation": "January 是公历的第一月，即一月。",
+    "audio": "audio/english_102_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_102_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_102_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_102_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_102_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-103",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "星期"
+    ],
+    "question": "‘Monday’对应的中文是星期几？",
+    "options": [
+      {
+        "label": "A",
+        "text": "星期一"
+      },
+      {
+        "label": "B",
+        "text": "星期二"
+      },
+      {
+        "label": "C",
+        "text": "星期三"
+      },
+      {
+        "label": "D",
+        "text": "星期四"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Monday 在一周的第一天，中文对应星期一。",
+    "audio": "audio/english_103_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_103_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_103_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_103_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_103_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-104",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "方位"
+    ],
+    "question": "‘in front of’表示的方位是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "前面"
+      },
+      {
+        "label": "B",
+        "text": "后面"
+      },
+      {
+        "label": "C",
+        "text": "左边"
+      },
+      {
+        "label": "D",
+        "text": "右边"
+      }
+    ],
+    "answer": "A",
+    "explanation": "in front of 直译为‘在…前面’，表示前方位置。",
+    "audio": "audio/english_104_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_104_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_104_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_104_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_104_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-105",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "数字"
+    ],
+    "question": "请选择‘twenty’的正确数字。",
+    "options": [
+      {
+        "label": "A",
+        "text": "20"
+      },
+      {
+        "label": "B",
+        "text": "30"
+      },
+      {
+        "label": "C",
+        "text": "12"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "A",
+    "explanation": "twenty 表示英文数字20。",
+    "audio": "audio/english_105_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_105_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_105_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_105_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_105_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-106",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 4,
+    "knowledgeTags": [
+      "比较级"
+    ],
+    "question": "请选择正确的比较级形式。句子：Tom is _____ than Jim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "taller"
+      },
+      {
+        "label": "B",
+        "text": "tall"
+      },
+      {
+        "label": "C",
+        "text": "more tall"
+      },
+      {
+        "label": "D",
+        "text": "talllier"
+      }
+    ],
+    "answer": "A",
+    "explanation": "比较级用于两者之间的比较，‘tall’的比较级是‘taller’。",
+    "audio": "audio/english_106_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_106_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_106_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_106_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_106_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-107",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "特殊疑问句"
+    ],
+    "question": "请选出正确的特殊疑问词。句子：_____ is your name?",
+    "options": [
+      {
+        "label": "A",
+        "text": "What"
+      },
+      {
+        "label": "B",
+        "text": "Where"
+      },
+      {
+        "label": "C",
+        "text": "Who"
+      },
+      {
+        "label": "D",
+        "text": "Why"
+      }
+    ],
+    "answer": "A",
+    "explanation": "特殊疑问句使用疑问词提问，‘What’用于询问名字。",
+    "audio": "audio/english_107_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_107_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_107_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_107_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_107_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-108",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "现在进行时"
+    ],
+    "question": "请选择合适的动词形式填空。句子：She _____ a book now.",
+    "options": [
+      {
+        "label": "A",
+        "text": "reads"
+      },
+      {
+        "label": "B",
+        "text": "reading"
+      },
+      {
+        "label": "C",
+        "text": "is reading"
+      },
+      {
+        "label": "D",
+        "text": "read"
+      }
+    ],
+    "answer": "C",
+    "explanation": "现在进行时用 be + V‑ing 表示正在进行的动作，‘She’后面用‘is reading’。",
+    "audio": "audio/english_108_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_108_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_108_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_108_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_108_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-109",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 5,
+    "knowledgeTags": [
+      "第三人称单数"
+    ],
+    "question": "请选择正确的动词形式。句子：He _____ English every day.",
+    "options": [
+      {
+        "label": "A",
+        "text": "speak"
+      },
+      {
+        "label": "B",
+        "text": "speaks"
+      },
+      {
+        "label": "C",
+        "text": "speaking"
+      },
+      {
+        "label": "D",
+        "text": "spoke"
+      }
+    ],
+    "answer": "B",
+    "explanation": "第三人称单数主语后，动词需加 -s 或 -es，故‘speaks’正确。",
+    "audio": "audio/english_109_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_109_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_109_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_109_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_109_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-110",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 5,
+    "grade": 6,
+    "knowledgeTags": [
+      "规则动词过去式"
+    ],
+    "question": "请选择正确的过去式形式。句子：Yesterday, I _____ soccer.",
+    "options": [
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "plays"
+      },
+      {
+        "label": "C",
+        "text": "played"
+      },
+      {
+        "label": "D",
+        "text": "playing"
+      }
+    ],
+    "answer": "C",
+    "explanation": "规则动词过去式在动词后加 -ed，‘play’的过去式是‘played’。",
+    "audio": "audio/english_110_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_110_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_110_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_110_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_110_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-111",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "词义推断"
+    ],
+    "question": "请判断句子中划线单词的中文含义：The girl is proud of her new dress. (proud)",
+    "options": [
+      {
+        "label": "A",
+        "text": "高兴"
+      },
+      {
+        "label": "B",
+        "text": "自豪"
+      },
+      {
+        "label": "C",
+        "text": "担心"
+      },
+      {
+        "label": "D",
+        "text": "后悔"
+      }
+    ],
+    "answer": "B",
+    "explanation": "proud 表示对自己或某事感到自豪，对应的中文是“自豪”。",
+    "audio": "audio/english_111_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_111_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_111_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_111_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_111_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-112",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 4,
+    "knowledgeTags": [
+      "词汇"
+    ],
+    "question": "请选出最合适的单词，使句子完整：She ___ to school every day.",
+    "options": [
+      {
+        "label": "A",
+        "text": "walk"
+      },
+      {
+        "label": "B",
+        "text": "walks"
+      },
+      {
+        "label": "C",
+        "text": "walking"
+      },
+      {
+        "label": "D",
+        "text": "walked"
+      }
+    ],
+    "answer": "B",
+    "explanation": "She 为第三人称单数，谓语动词需加 -s，使用 walks。",
+    "audio": "audio/english_112_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_112_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_112_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_112_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_112_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-113",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "选词填空"
+    ],
+    "question": "请在横线上填入正确的单词：The sun is ___ in the sky.",
+    "options": [
+      {
+        "label": "A",
+        "text": "shining"
+      },
+      {
+        "label": "B",
+        "text": "shines"
+      },
+      {
+        "label": "C",
+        "text": "shone"
+      },
+      {
+        "label": "D",
+        "text": "shine"
+      }
+    ],
+    "answer": "A",
+    "explanation": "此处需要现在分词作伴随状态，shining 符合句子结构。",
+    "audio": "audio/english_113_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_113_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_113_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_113_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_113_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-114",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 4,
+    "knowledgeTags": [
+      "阅读判断"
+    ],
+    "question": "阅读短文，判断以下陈述是否正确：\nThe cat hates water. It never goes near the pond. One day, it sees a fish swimming and wants to catch it. The cat jumps into the pond.\n陈述：The cat can swim.",
+    "options": [
+      {
+        "label": "A",
+        "text": "正确"
+      },
+      {
+        "label": "B",
+        "text": "错误"
+      },
+      {
+        "label": "C",
+        "text": "文中未提及"
+      },
+      {
+        "label": "D",
+        "text": "无法判断"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文说明猫怕水且从未靠近池塘，跳跃进池塘说明它不会游泳，所以“猫会游泳”是错误的。",
+    "audio": "audio/english_114_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_114_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_114_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_114_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_114_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-115",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读排序"
+    ],
+    "question": "请把下面句子重新排列，使其成为一段连贯的短文。\n1. Tom woke up early. 2. He brushed his teeth. 3. He ate a big breakfast. 4. He went to school.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1-2-3-4"
+      },
+      {
+        "label": "B",
+        "text": "2-1-3-4"
+      },
+      {
+        "label": "C",
+        "text": "3-2-1-4"
+      },
+      {
+        "label": "D",
+        "text": "4-3-2-1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "按照时间顺序，先醒来(1)，再刷牙(2)，吃早餐(3)，最后上学(4)，形成完整顺序。",
+    "audio": "audio/english_115_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_115_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_115_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_115_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_115_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-116",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "颜色"
+    ],
+    "question": "在句子 'I have a red apple.' 中，哪个单词表示颜色？",
+    "options": [
+      {
+        "label": "A",
+        "text": "have"
+      },
+      {
+        "label": "B",
+        "text": "red"
+      },
+      {
+        "label": "C",
+        "text": "apple"
+      },
+      {
+        "label": "D",
+        "text": "I"
+      }
+    ],
+    "answer": "B",
+    "explanation": "'red' 是表示颜色的词。",
+    "audio": "audio/english_116_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_116_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_116_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_116_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_116_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-117",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 4,
+    "knowledgeTags": [
+      "频度副词"
+    ],
+    "question": "请选择合适的频度副词填空：'Tom _____ goes to the park.'",
+    "options": [
+      {
+        "label": "A",
+        "text": "Always"
+      },
+      {
+        "label": "B",
+        "text": "Beautiful"
+      },
+      {
+        "label": "C",
+        "text": "Running"
+      },
+      {
+        "label": "D",
+        "text": "Walk"
+      }
+    ],
+    "answer": "A",
+    "explanation": "'Always' 是频度副词，表示‘总是’。",
+    "audio": "audio/english_117_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_117_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_117_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_117_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_117_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-118",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "阅读细节"
+    ],
+    "question": "阅读短文：'I have two cats. One is black and the other is white.' 请问我有几只猫？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文说明我有两只猫。",
+    "audio": "audio/english_118_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_118_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_118_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_118_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_118_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-119",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 5,
+    "knowledgeTags": [
+      "阅读推断"
+    ],
+    "question": "阅读短文：'Tom is 10 years old. He likes playing soccer. He has a soccer ball.' 我们可以推断出下面的哪一项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tom is a teacher."
+      },
+      {
+        "label": "B",
+        "text": "Tom can play soccer."
+      },
+      {
+        "label": "C",
+        "text": "Tom doesn't like soccer."
+      },
+      {
+        "label": "D",
+        "text": "Tom has a bike."
+      }
+    ],
+    "answer": "B",
+    "explanation": "根据 Tom 喜欢踢足球并且有足球，我们可以推断他会踢足球。",
+    "audio": "audio/english_119_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_119_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_119_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_119_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_119_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-120",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 6,
+    "knowledgeTags": [
+      "阅读理解"
+    ],
+    "question": "阅读短文：'In the morning, the sun rises in the east. Birds start singing. People go to work and children go to school.' 这段话的主旨是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "夜晚的安静"
+      },
+      {
+        "label": "B",
+        "text": "早晨的忙碌"
+      },
+      {
+        "label": "C",
+        "text": "动物的习性"
+      },
+      {
+        "label": "D",
+        "text": "四季的变化"
+      }
+    ],
+    "answer": "B",
+    "explanation": "短文描述了早晨太阳升起、鸟儿歌唱、人们上班、孩子上学，突显早晨的忙碌景象。",
+    "audio": "audio/english_120_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_120_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_120_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_120_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_120_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-121",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "首字母填空"
+    ],
+    "question": "下面句子中缺少的单词首字母已给出，请在横线处填入正确的单词，使句子完整：I ___ a big apple yesterday.",
+    "options": [
+      {
+        "label": "A",
+        "value": "eat"
+      },
+      {
+        "label": "B",
+        "value": "eats"
+      },
+      {
+        "label": "C",
+        "value": "eating"
+      },
+      {
+        "label": "D",
+        "value": "ate"
+      }
+    ],
+    "answer": "D",
+    "explanation": "句子的时间状语是 yesterday（昨天），动词要用过去式 ate。",
+    "audio": "audio/english_121_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_121_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_121_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_121_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_121_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-122",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "食物"
+    ],
+    "question": "你喜欢的早餐是什么？下面哪个是常见的早餐食物？",
+    "options": [
+      {
+        "label": "A",
+        "value": "pizza"
+      },
+      {
+        "label": "B",
+        "value": "sandwich"
+      },
+      {
+        "label": "C",
+        "value": "sushi"
+      },
+      {
+        "label": "D",
+        "value": "hamburger"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在英语国家，sandwich（小三明治）常作为早餐食物。",
+    "audio": "audio/english_122_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_122_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_122_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_122_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_122_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-123",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "口语交际"
+    ],
+    "question": "如果你想向朋友借铅笔，你应该说：",
+    "options": [
+      {
+        "label": "A",
+        "value": "Give me a pencil."
+      },
+      {
+        "label": "B",
+        "value": "May I borrow a pencil, please?"
+      },
+      {
+        "label": "C",
+        "value": "You have a pencil?"
+      },
+      {
+        "label": "D",
+        "value": "I want a pencil."
+      }
+    ],
+    "answer": "B",
+    "explanation": "用礼貌的请求 May I... 来表达借东西更符合口语交际的礼仪。",
+    "audio": "audio/english_123_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_123_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_123_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_123_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_123_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-124",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 5,
+    "knowledgeTags": [
+      "情景交际"
+    ],
+    "question": "在图书馆里，你应该怎样提醒同学保持安静？",
+    "options": [
+      {
+        "label": "A",
+        "value": "Stop talking!"
+      },
+      {
+        "label": "B",
+        "value": "Please be quiet in the library."
+      },
+      {
+        "label": "C",
+        "value": "You should not talk."
+      },
+      {
+        "label": "D",
+        "value": "Talk quietly."
+      }
+    ],
+    "answer": "B",
+    "explanation": "在公共场合，用礼貌的请求 Please be quiet 更合适。",
+    "audio": "audio/english_124_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_124_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_124_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_124_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_124_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-125",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "完形填空"
+    ],
+    "question": "阅读短文，选择合适的单词填入空白处：\nI usually go to school ___ bus. Today I ___ a bike.",
+    "options": [
+      {
+        "label": "A",
+        "value": "by / ride"
+      },
+      {
+        "label": "B",
+        "value": "on / rides"
+      },
+      {
+        "label": "C",
+        "value": "with / riding"
+      },
+      {
+        "label": "D",
+        "value": "in / rode"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第一空用介词 by 表示乘坐方式；第二空动词 ride 用一般现在时描述今天的行动，完整句子为 I usually go to school by bus. Today I ride a bike.",
+    "audio": "audio/english_125_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_125_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_125_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_125_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_125_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-126",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "be动词"
+    ],
+    "question": "下面哪句话使用了正确的be动词？",
+    "options": [
+      {
+        "label": "A",
+        "text": "She am a student."
+      },
+      {
+        "label": "B",
+        "text": "He is a teacher."
+      },
+      {
+        "label": "C",
+        "text": "They is playing."
+      },
+      {
+        "label": "D",
+        "text": "I are happy."
+      }
+    ],
+    "answer": "B",
+    "explanation": "He是第三人称单数，应该使用is。",
+    "audio": "audio/english_126_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_126_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_126_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_126_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_126_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-127",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "like加ing"
+    ],
+    "question": "以下哪个句子中like后面使用了正确的形式？",
+    "options": [
+      {
+        "label": "A",
+        "text": "I like swim."
+      },
+      {
+        "label": "B",
+        "text": "She likes dancing."
+      },
+      {
+        "label": "C",
+        "text": "He like to read."
+      },
+      {
+        "label": "D",
+        "text": "They likes playing."
+      }
+    ],
+    "answer": "B",
+    "explanation": "like后接动名词（-ing）时，主语为第三人称单数应使用likes。",
+    "audio": "audio/english_127_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_127_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_127_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_127_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_127_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-128",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "some/any"
+    ],
+    "question": "在肯定句中，应该使用哪个词来表示“一些”？",
+    "options": [
+      {
+        "label": "A",
+        "text": "any"
+      },
+      {
+        "label": "B",
+        "text": "some"
+      },
+      {
+        "label": "C",
+        "text": "many"
+      },
+      {
+        "label": "D",
+        "text": "much"
+      }
+    ],
+    "answer": "B",
+    "explanation": "some通常用于肯定句，any用于否定句和疑问句。",
+    "audio": "audio/english_128_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_128_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_128_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_128_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_128_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-129",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 5,
+    "knowledgeTags": [
+      "there be"
+    ],
+    "question": "下面哪个句子正确使用了there be结构？",
+    "options": [
+      {
+        "label": "A",
+        "text": "There have a book on the table."
+      },
+      {
+        "label": "B",
+        "text": "There is two cats in the room."
+      },
+      {
+        "label": "C",
+        "text": "There are some water in the glass."
+      },
+      {
+        "label": "D",
+        "text": "There are some books on the desk."
+      }
+    ],
+    "answer": "D",
+    "explanation": "there be结构中be动词的单复数取决于后面名词的单复数，books是复数用are。",
+    "audio": "audio/english_129_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_129_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_129_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_129_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_129_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-130",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 5,
+    "grade": 6,
+    "knowledgeTags": [
+      "综合运用"
+    ],
+    "question": "综合运用：下面哪个句子符合英语语法，且意义完整？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yesterday I go to school by bus."
+      },
+      {
+        "label": "B",
+        "text": "She doesn't likes ice cream."
+      },
+      {
+        "label": "C",
+        "text": "They are playing football now."
+      },
+      {
+        "label": "D",
+        "text": "He is run very fastly."
+      }
+    ],
+    "answer": "C",
+    "explanation": "现在进行时态使用be + 动词‑ing，句子结构完整且符合语法。",
+    "audio": "audio/english_130_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_130_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_130_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_130_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_130_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-131",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "too/to"
+    ],
+    "question": "请选择合适的词填空：I am ___ tired to go out.",
+    "options": [
+      {
+        "label": "A",
+        "text": "too"
+      },
+      {
+        "label": "B",
+        "text": "to"
+      },
+      {
+        "label": "C",
+        "text": "also"
+      },
+      {
+        "label": "D",
+        "text": "very"
+      }
+    ],
+    "answer": "A",
+    "explanation": "“too…to…”结构表示“太…而不能…”。",
+    "audio": "audio/english_131_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_131_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_131_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_131_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_131_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-132",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "一般将来时"
+    ],
+    "question": "请选出正确的动词形式：She ___ a new bike next week.",
+    "options": [
+      {
+        "label": "A",
+        "text": "buys"
+      },
+      {
+        "label": "B",
+        "text": "bought"
+      },
+      {
+        "label": "C",
+        "text": "will buy"
+      },
+      {
+        "label": "D",
+        "text": "is buying"
+      }
+    ],
+    "answer": "C",
+    "explanation": "next week 表示将来时间，使用 will + 动词原形。",
+    "audio": "audio/english_132_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_132_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_132_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_132_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_132_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-133",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "一般过去时"
+    ],
+    "question": "请选出正确的动词形式：He ___ to the park yesterday.",
+    "options": [
+      {
+        "label": "A",
+        "text": "goes"
+      },
+      {
+        "label": "B",
+        "text": "go"
+      },
+      {
+        "label": "C",
+        "text": "went"
+      },
+      {
+        "label": "D",
+        "text": "will go"
+      }
+    ],
+    "answer": "C",
+    "explanation": "yesterday 表示过去时间，使用动词的过去式。",
+    "audio": "audio/english_133_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_133_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_133_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_133_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_133_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-134",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "介词"
+    ],
+    "question": "请选择合适的介词：The cat is ___ the box.",
+    "options": [
+      {
+        "label": "A",
+        "text": "in"
+      },
+      {
+        "label": "B",
+        "text": "on"
+      },
+      {
+        "label": "C",
+        "text": "at"
+      },
+      {
+        "label": "D",
+        "text": "to"
+      }
+    ],
+    "answer": "A",
+    "explanation": "猫在箱子里面，用介词 in 表示在内部。",
+    "audio": "audio/english_134_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_134_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_134_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_134_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_134_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-135",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "可数名词"
+    ],
+    "question": "请选择可数名词：I have three ___.",
+    "options": [
+      {
+        "label": "A",
+        "text": "water"
+      },
+      {
+        "label": "B",
+        "text": "apple"
+      },
+      {
+        "label": "C",
+        "text": "rice"
+      },
+      {
+        "label": "D",
+        "text": "milk"
+      }
+    ],
+    "answer": "B",
+    "explanation": "apple 是可数名词，可以有复数形式 apples。",
+    "audio": "audio/english_135_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_135_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_135_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_135_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_135_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-136",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "名词所有格"
+    ],
+    "question": "下面哪一项是“Tom的书包”的正确英文表达？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tom's bag"
+      },
+      {
+        "label": "B",
+        "text": "Bag Tom's"
+      },
+      {
+        "label": "C",
+        "text": "Tom bag's"
+      },
+      {
+        "label": "D",
+        "text": "Tom's bag's"
+      }
+    ],
+    "answer": "A",
+    "explanation": "名词所有格在名词后加’s，Tom’s bag 表示 Tom 的书包。",
+    "audio": "audio/english_136_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_136_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_136_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_136_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_136_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-137",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 2,
+    "knowledgeTags": [
+      "季节"
+    ],
+    "question": "“夏季”在英文中怎么说？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spring"
+      },
+      {
+        "label": "B",
+        "text": "Summer"
+      },
+      {
+        "label": "C",
+        "text": "Autumn"
+      },
+      {
+        "label": "D",
+        "text": "Winter"
+      }
+    ],
+    "answer": "B",
+    "explanation": "夏季的英文是 Summer。",
+    "audio": "audio/english_137_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_137_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_137_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_137_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_137_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-138",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "家庭"
+    ],
+    "question": "“我爸爸的姐姐”用英文怎么表达？",
+    "options": [
+      {
+        "label": "A",
+        "text": "My aunt"
+      },
+      {
+        "label": "B",
+        "text": "My sister"
+      },
+      {
+        "label": "C",
+        "text": "My mother"
+      },
+      {
+        "label": "D",
+        "text": "My uncle"
+      }
+    ],
+    "answer": "A",
+    "explanation": "父亲的姐姐是姑姑，即 aunt。",
+    "audio": "audio/english_138_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_138_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_138_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_138_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_138_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-139",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 5,
+    "knowledgeTags": [
+      "方位"
+    ],
+    "question": "“在桌子下面”用英文怎么表示？",
+    "options": [
+      {
+        "label": "A",
+        "text": "On the table"
+      },
+      {
+        "label": "B",
+        "text": "Under the table"
+      },
+      {
+        "label": "C",
+        "text": "In the table"
+      },
+      {
+        "label": "D",
+        "text": "Behind the table"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Under 表示在……下面。",
+    "audio": "audio/english_139_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_139_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_139_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_139_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_139_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-140",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 6,
+    "knowledgeTags": [
+      "时间"
+    ],
+    "question": "“每天早上七点半”用英文怎么表达？",
+    "options": [
+      {
+        "label": "A",
+        "text": "Seven at morning every day"
+      },
+      {
+        "label": "B",
+        "text": "Every day at seven thirty in the morning"
+      },
+      {
+        "label": "C",
+        "text": "At morning seven thirty every day"
+      },
+      {
+        "label": "D",
+        "text": "Seven thirty morning every day"
+      }
+    ],
+    "answer": "B",
+    "explanation": "常用顺序是 every day + at + 时间 + in the morning。",
+    "audio": "audio/english_140_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_140_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_140_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_140_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_140_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-141",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "星期"
+    ],
+    "question": "请选择正确的单词填空：The day after Monday is ___。",
+    "options": [
+      {
+        "label": "A",
+        "content": "Tuesday"
+      },
+      {
+        "label": "B",
+        "content": "Wednesday"
+      },
+      {
+        "label": "C",
+        "content": "Thursday"
+      },
+      {
+        "label": "D",
+        "content": "Friday"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Monday之后是Tuesday。",
+    "audio": "audio/english_141_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_141_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_141_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_141_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_141_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-142",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "月份"
+    ],
+    "question": "请选出正确的月份名称：一年中的第六个月是___。",
+    "options": [
+      {
+        "label": "A",
+        "content": "June"
+      },
+      {
+        "label": "B",
+        "content": "July"
+      },
+      {
+        "label": "C",
+        "content": "August"
+      },
+      {
+        "label": "D",
+        "content": "September"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第六个月是June。",
+    "audio": "audio/english_142_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_142_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_142_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_142_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_142_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-143",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "数字"
+    ],
+    "question": "请数一数单词“apple”中有多少个字母：",
+    "options": [
+      {
+        "label": "A",
+        "content": "4"
+      },
+      {
+        "label": "B",
+        "content": "5"
+      },
+      {
+        "label": "C",
+        "content": "6"
+      },
+      {
+        "label": "D",
+        "content": "7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“apple”由5个字母组成。",
+    "audio": "audio/english_143_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_143_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_143_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_143_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_143_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-144",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "比较级"
+    ],
+    "question": "请选择正确的比较级形式填空：Tom is ___ than his brother.",
+    "options": [
+      {
+        "label": "A",
+        "content": "taller"
+      },
+      {
+        "label": "B",
+        "content": "shortest"
+      },
+      {
+        "label": "C",
+        "content": "big"
+      },
+      {
+        "label": "D",
+        "content": "more tall"
+      }
+    ],
+    "answer": "A",
+    "explanation": "“taller”是“tall”的比较级。",
+    "audio": "audio/english_144_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_144_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_144_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_144_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_144_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-145",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "特殊疑问句"
+    ],
+    "question": "请选出用来询问人名的特殊疑问词：___ is your name?",
+    "options": [
+      {
+        "label": "A",
+        "content": "Who"
+      },
+      {
+        "label": "B",
+        "content": "What"
+      },
+      {
+        "label": "C",
+        "content": "Where"
+      },
+      {
+        "label": "D",
+        "content": "When"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“What”用于询问名字。",
+    "audio": "audio/english_145_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_145_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_145_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_145_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_145_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-146",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 3,
+    "knowledgeTags": [
+      "现在进行时"
+    ],
+    "question": "请选择正确的动词形式填空：The cat ___ (sleep) on the sofa now.",
+    "options": [
+      {
+        "label": "A",
+        "text": "sleeps"
+      },
+      {
+        "label": "B",
+        "text": "is sleeping"
+      },
+      {
+        "label": "C",
+        "text": "sleeping"
+      },
+      {
+        "label": "D",
+        "text": "slept"
+      }
+    ],
+    "answer": "B",
+    "explanation": "句中有now，要用现在进行时，即be + 动词-ing。",
+    "audio": "audio/english_146_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_146_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_146_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_146_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_146_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-147",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 4,
+    "knowledgeTags": [
+      "第三人称单数"
+    ],
+    "question": "请选出句中动词的正确形式：He ___ (play) the piano every day.",
+    "options": [
+      {
+        "label": "A",
+        "text": "play"
+      },
+      {
+        "label": "B",
+        "text": "plays"
+      },
+      {
+        "label": "C",
+        "text": "playing"
+      },
+      {
+        "label": "D",
+        "text": "played"
+      }
+    ],
+    "answer": "B",
+    "explanation": "主语是He，第三人称单数，一般现在时动词要加-s。",
+    "audio": "audio/english_147_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_147_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_147_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_147_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_147_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-148",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 2,
+    "knowledgeTags": [
+      "规则动词过去式"
+    ],
+    "question": "请选择正确的过去式形式：Yesterday, I ___ (walk) to school.",
+    "options": [
+      {
+        "label": "A",
+        "text": "walked"
+      },
+      {
+        "label": "B",
+        "text": "walk"
+      },
+      {
+        "label": "C",
+        "text": "walks"
+      },
+      {
+        "label": "D",
+        "text": "walking"
+      }
+    ],
+    "answer": "A",
+    "explanation": "规则动词walk的过去式在词尾加-ed。",
+    "audio": "audio/english_148_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_148_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_148_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_148_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_148_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-149",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 4,
+    "grade": 5,
+    "knowledgeTags": [
+      "词义推断"
+    ],
+    "question": "请根据上下文推断划线单词的意思：The farmer harvested the crops before the rain came. 句中划线的单词是 ___。",
+    "options": [
+      {
+        "label": "A",
+        "text": "种植"
+      },
+      {
+        "label": "B",
+        "text": "收获"
+      },
+      {
+        "label": "C",
+        "text": "出售"
+      },
+      {
+        "label": "D",
+        "text": "加工"
+      }
+    ],
+    "answer": "B",
+    "explanation": "harvest意为‘收获’，与收获农作物相符。",
+    "audio": "audio/english_149_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_149_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_149_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_149_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_149_d.mp3"
+      }
+    ]
+  },
+  {
+    "id": "primary-english-150",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "词汇"
+    ],
+    "question": "请选出表示颜色的单词：",
+    "options": [
+      {
+        "label": "A",
+        "text": "Apple"
+      },
+      {
+        "label": "B",
+        "text": "Blue"
+      },
+      {
+        "label": "C",
+        "text": "Ball"
+      },
+      {
+        "label": "D",
+        "text": "Book"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Blue是颜色词，意思是蓝色。",
+    "audio": "audio/english_150_q.mp3",
+    "optionAudio": [
+      {
+        "key": "A",
+        "audio": "audio/english_150_a.mp3"
+      },
+      {
+        "key": "B",
+        "audio": "audio/english_150_b.mp3"
+      },
+      {
+        "key": "C",
+        "audio": "audio/english_150_c.mp3"
+      },
+      {
+        "key": "D",
+        "audio": "audio/english_150_d.mp3"
+      }
+    ]
   }
 ]

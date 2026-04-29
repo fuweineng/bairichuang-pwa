@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">等高线环形闭合，内部>外部，表示？</text>
+  <g transform="translate(100,60)">
+    <!-- 环形等高线，内部高程大于外部 -->
+    <circle cx="100" cy="100" r="70" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="55" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="40" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="25" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <!-- 标注内外高程 -->
+    <text x="180" y="70" font-size="12" fill="#333">外圈: 200m</text>
+    <text x="180" y="90" font-size="12" fill="#d00">内圈: 250m（更大!）</text>
+    <text x="100" y="148" font-size="13" fill="#d00" text-anchor="middle">▲ 凸起地形（山丘）</text>
+    <text x="100" y="168" font-size="12" fill="#555" text-anchor="middle">内>外 → 凸地（山/山丘）</text>
+  </g>
+  <g transform="translate(420,80)">
+    <text x="0" y="0" font-size="15" font-weight="bold" fill="#333">两种情况：</text>
+    <text x="0" y="30" font-size="14" fill="#2a2">内部 > 外部 → 山丘/山峰</text>
+    <text x="0" y="55" font-size="14" fill="#0055aa">内部 < 外部 → 洼地/盆地</text>
+    <text x="0" y="90" font-size="15" fill="#d00" font-weight="bold">答案：山丘/凸地</text>
+  </g>
+</svg>

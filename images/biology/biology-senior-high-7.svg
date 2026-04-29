@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">植物细胞有丝分裂某时期示意图，该时期的主要特征是？</text>
+  <g transform="translate(100,60)">
+    <!-- 细胞壁 -->
+    <rect x="50" y="30" width="250" height="180" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="5"/>
+    <!-- 细胞核（已解体） -->
+    <circle cx="175" cy="120" r="35" fill="none" stroke="#888" stroke-width="1" stroke-dasharray="3"/>
+    <text x="175" y="125" font-size="11" fill="#888" text-anchor="middle">核膜消失</text>
+    <!-- 纺锤体（细线） -->
+    <line x1="175" y1="30" x2="140" y2="50" stroke="#9c27b0" stroke-width="1.5"/>
+    <line x1="175" y1="30" x2="175" y2="55" stroke="#9c27b0" stroke-width="1.5"/>
+    <line x1="175" y1="30" x2="210" y2="50" stroke="#9c27b0" stroke-width="1.5"/>
+    <line x1="175" y1="210" x2="140" y2="190" stroke="#9c27b0" stroke-width="1.5"/>
+    <line x1="175" y1="210" x2="175" y2="185" stroke="#9c27b0" stroke-width="1.5"/>
+    <line x1="175" y1="210" x2="210" y2="190" stroke="#9c27b0" stroke-width="1.5"/>
+    <!-- 染色体（着丝粒连接） -->
+    <line x1="130" y="90" x2="170" y2="130" stroke="#e91e63" stroke-width="3"/>
+    <line x1="220" y="90" x2="180" y2="130" stroke="#e91e63" stroke-width="3"/>
+    <circle cx="130" cy="90" r="5" fill="#e91e63"/>
+    <circle cx="220" cy="90" r="5" fill="#e91e63"/>
+    <circle cx="170" cy="130" r="5" fill="#e91e63"/>
+    <circle cx="180" cy="130" r="5" fill="#e91e63"/>
+    <!-- 着丝粒 -->
+    <text x="150" y="112" font-size="10" fill="#d00">着丝粒</text>
+    <!-- 标注极 -->
+    <text x="80" y="110" font-size="13" fill="#9c27b0">极</text>
+    <text x="270" y="110" font-size="13" fill="#9c27b0">极</text>
+    <!-- 选项 -->
+    <text x="100" y="245" font-size="14" fill="#333">A. 染色质出现  B. 染色体排列在赤道板上  C. 细胞板形成  D. 核仁重建</text>
+    <text x="100" y="270" font-size="15" fill="#d00" font-weight="bold">答案：B（中期：染色体整齐排列在细胞中央赤道板上）</text>
+  </g>
+</svg>

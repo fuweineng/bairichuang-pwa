@@ -23,11 +23,11 @@
     ],
     "answer": "A",
     "explanation": "货币的基本职能是价值尺度和流通手段。价值尺度是指货币作为尺度来衡量和表现商品价值的大小；流通手段是指货币充当商品交换的媒介。支付手段、贮藏手段、世界货币是货币的衍生职能。",
-    "knowledgePoints": [
-      "商品与货币"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "商品与货币"
+    ]
   },
   {
     "id": "politics-senior-high-2",
@@ -53,11 +53,11 @@
     ],
     "answer": "A",
     "explanation": "价值规律的表现形式是商品价格围绕价值上下波动。由于供求关系的影响，商品价格会高于或低于价值，但从一个较长的时期来看，价格与价值趋于一致，这正是价值规律作用的表现形式。",
-    "knowledgePoints": [
-      "价值规律"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "价值规律"
+    ]
   },
   {
     "id": "politics-senior-high-3",
@@ -83,11 +83,11 @@
     ],
     "answer": "A",
     "explanation": "有限责任公司和股份有限公司的共同特点是公司以其全部资产对公司债务承担责任，即股东都只以投入的资本额为限对公司债务负有限责任。B、D是股份有限公司特有的，C是无限责任公司的特点。",
-    "knowledgePoints": [
-      "企业与经营者"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "企业与经营者"
+    ]
   },
   {
     "id": "politics-senior-high-4",
@@ -113,11 +113,11 @@
     ],
     "answer": "D",
     "explanation": "平等就业和选择职业的权利是劳动者依法享有的各项权利中最基本、最重要的权利，是公民劳动权的落脚点和出发点。只有实现了平等就业和选择职业的权利，才能实现其他各项劳动权利。",
-    "knowledgePoints": [
-      "劳动者权利"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "劳动者权利"
+    ]
   },
   {
     "id": "politics-senior-high-5",
@@ -143,11 +143,11 @@
     ],
     "answer": "A",
     "explanation": "国债以国家信用为担保，由中央政府发行，风险最小；股票收益取决于企业经营状况，风险较大；商业保险主要功能是风险保障；创办企业风险最大。国债虽然收益相对较低，但风险最小、收益最稳定。",
-    "knowledgePoints": [
-      "投资与理财"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "投资与理财"
+    ]
   },
   {
     "id": "politics-senior-high-6",
@@ -173,11 +173,11 @@
     ],
     "answer": "A",
     "explanation": "国家宏观调控的主要目标是促进经济增长、增加就业、稳定物价、保持国际收支平衡。这四大目标相互联系、相互制约，必须统筹兼顾，努力实现国民经济又好又快发展。",
-    "knowledgePoints": [
-      "国家宏观调控"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "国家宏观调控"
+    ]
   },
   {
     "id": "politics-senior-high-7",
@@ -203,11 +203,11 @@
     ],
     "answer": "A",
     "explanation": "坚持公有制的主体地位是社会主义市场经济的基本标志。社会主义市场经济与资本主义市场经济的根本区别在于所有制基础不同，公有制为主体决定了社会主义市场经济的性质。",
-    "knowledgePoints": [
-      "社会主义市场经济"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "社会主义市场经济"
+    ]
   },
   {
     "id": "politics-senior-high-8",
@@ -233,11 +233,11 @@
     ],
     "answer": "B",
     "explanation": "劳动权和受教育权既是公民的基本权利，又是公民的基本义务。从权利角度看，公民有权获得劳动机会和受教育机会；从义务角度看，公民有义务参加劳动和接受教育。",
-    "knowledgePoints": [
-      "公民的政治权利与义务"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "公民的政治权利与义务"
+    ]
   },
   {
     "id": "politics-senior-high-9",
@@ -263,11 +263,11 @@
     ],
     "answer": "B",
     "explanation": "人民代表大会制度是我国的根本政治制度，也就是国家政权组织形式（政体）。人民民主专政是我国的国体（国家性质），是中国特色社会主义制度的本质特征。",
-    "knowledgePoints": [
-      "我国的国家制度（国体与政体）"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "我国的国家制度（国体与政体）"
+    ]
   },
   {
     "id": "politics-senior-high-10",
@@ -293,11 +293,11 @@
     ],
     "answer": "A",
     "explanation": "中国共产党与各民主党派合作的基本方针是长期共存、互相监督、肝胆相照、荣辱与共。这一方针体现了中国共产党与各民主党派是亲密友党，共同致力于中国特色社会主义事业。",
-    "knowledgePoints": [
-      "我国政党制度"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "我国政党制度"
+    ]
   },
   {
     "id": "politics-senior-high-11",
@@ -323,11 +323,11 @@
     ],
     "answer": "B",
     "explanation": "民族平等、民族团结、各民族共同繁荣是我国处理民族关系的基本原则。民族区域自治是我国解决民族问题的基本政策，是我国的一项基本政治制度。",
-    "knowledgePoints": [
-      "民族与宗教政策"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "民族与宗教政策"
+    ]
   },
   {
     "id": "politics-senior-high-12",
@@ -353,11 +353,11 @@
     ],
     "answer": "B",
     "explanation": "独立自主是我国外交政策的基本立场。和平共处五项原则是我国外交政策的基本准则。维护世界和平、促进共同发展是我国对外政策的宗旨。互利共赢是开放战略。",
-    "knowledgePoints": [
-      "国际关系与外交政策"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "国际关系与外交政策"
+    ]
   },
   {
     "id": "politics-senior-high-13",
@@ -383,11 +383,11 @@
     ],
     "answer": "A",
     "explanation": "文化的本质属性是精神活动及其精神产品。文化是相对于经济、政治而言的人类全部精神活动及其精神产品，既包括世界观、人生观、价值观等具有意识形态性质的部分，也包括自然科学和技术等非意识形态的部分。",
-    "knowledgePoints": [
-      "文化的内涵与功能"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "文化的内涵与功能"
+    ]
   },
   {
     "id": "politics-senior-high-14",
@@ -413,11 +413,11 @@
     ],
     "answer": "B",
     "explanation": "对传统文化的正确态度是取其精华、去其糟粕，批判继承、古为今用。传统文化中有精华也有糟粕，我们必须一分为二地看待，在继承中发展，在发展中继承。",
-    "knowledgePoints": [
-      "传统文化继承"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "传统文化继承"
+    ]
   },
   {
     "id": "politics-senior-high-15",
@@ -443,11 +443,11 @@
     ],
     "answer": "A",
     "explanation": "文化创新的根本目的是推动社会实践的发展。社会实践是文化创新的源泉和动力，也是文化创新的根本目的和检验标准。文化创新必须立足于社会实践，着眼于服务社会实践。",
-    "knowledgePoints": [
-      "文化创新"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "文化创新"
+    ]
   },
   {
     "id": "politics-senior-high-16",
@@ -473,11 +473,11 @@
     ],
     "answer": "B",
     "explanation": "中华民族精神的核心是爱国主义。中华民族形成了以爱国主义为核心，包括团结统一、爱好和平、勤劳勇敢、自强不息等内容的伟大民族精神。爱国主义是中华民族精神的核心，是中华民族生生不息的精神动力。",
-    "knowledgePoints": [
-      "中华民族精神"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "中华民族精神"
+    ]
   },
   {
     "id": "politics-senior-high-17",
@@ -503,11 +503,11 @@
     ],
     "answer": "A",
     "explanation": "辩证唯物主义认为，物质的唯一特性是客观实在性。物质是指不依赖于人的意识、并能为人的意识所反映的客观实在。物质的根本属性是运动，但唯一特性是客观实在性。",
-    "knowledgePoints": [
-      "唯物论（物质与意识）"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "唯物论（物质与意识）"
+    ]
   },
   {
     "id": "politics-senior-high-18",
@@ -533,11 +533,11 @@
     ],
     "answer": "B",
     "explanation": "矛盾普遍性和特殊性的关系问题是唯物辩证法的核心问题。矛盾普遍性揭示了矛盾无处不在、无时不在；矛盾特殊性揭示了不同事物的矛盾及其同一事物的不同阶段各有特点。正确认识矛盾普遍性和特殊性的关系，是正确解决矛盾的关键。",
-    "knowledgePoints": [
-      "唯物辩证法（联系、发展、矛盾）"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "唯物辩证法（联系、发展、矛盾）"
+    ]
   },
   {
     "id": "politics-senior-high-19",
@@ -563,11 +563,11 @@
     ],
     "answer": "B",
     "explanation": "认识运动的两次飞跃是从感性认识到理性认识，再从理性认识到实践。其中，从理性认识到实践的飞跃更为重要，因为只有通过这次飞跃，才能把观念的东西变成现实，在实践中检验和发展认识。",
-    "knowledgePoints": [
-      "认识论（实践与认识）"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "认识论（实践与认识）"
+    ]
   },
   {
     "id": "politics-senior-high-20",
@@ -593,11 +593,11 @@
     ],
     "answer": "A",
     "explanation": "社会存在和社会意识的关系问题是历史唯物主义的基本问题。社会存在是指社会的物质生活过程，包括物质资料的生产方式、地理环境和人口因素；社会意识是指社会的精神生活过程，包括政治法律思想、道德、艺术、宗教等。",
-    "knowledgePoints": [
-      "历史唯物主义（社会存在与社会意识）"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "历史唯物主义（社会存在与社会意识）"
+    ]
   },
   {
     "id": "politics-senior-high-21",
@@ -623,11 +623,11 @@
     ],
     "answer": "C",
     "explanation": "人生价值的实现需要一定的客观条件和主观努力。客观条件包括社会历史条件和个人生活条件；主观努力包括提高自身素质、发挥主观能动性、在实践中追求真理等。人生价值是在创造价值中实现的。",
-    "knowledgePoints": [
-      "人生价值观"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "人生价值观"
+    ]
   },
   {
     "id": "politics-senior-high-22",
@@ -653,11 +653,11 @@
     ],
     "answer": "A",
     "explanation": "公民有序政治参与的主要渠道包括民主选举、民主决策、民主管理、民主监督等，具体形式有信访、听证会、政务公开、专家咨询、社会公示等。公民必须依法进行政治参与，不能采取非法手段。",
-    "knowledgePoints": [
-      "公民有序政治参与"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "公民有序政治参与"
+    ]
   },
   {
     "id": "politics-senior-high-23",
@@ -683,11 +683,11 @@
     ],
     "answer": "A",
     "explanation": "行政诉讼的受理范围是公民、法人或其他组织认为行政机关的具体行政行为侵犯其合法权益，可以向人民法院提起诉讼。B是监督权的内容，C是公民义务，D属于民事诉讼范围。",
-    "knowledgePoints": [
-      "行政法律制度"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "行政法律制度"
+    ]
   },
   {
     "id": "politics-senior-high-24",
@@ -713,11 +713,11 @@
     ],
     "answer": "A",
     "explanation": "经济全球化的主要表现是生产全球化、贸易全球化、资本全球化。经济全球化是指商品、技术、信息、服务、货币、人员、资金等生产要素在全球范围内的流动和配置，是生产力发展的客观要求和必然结果。",
-    "knowledgePoints": [
-      "经济全球化"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "经济全球化"
+    ]
   },
   {
     "id": "politics-senior-high-25",
@@ -743,10 +743,10 @@
     ],
     "answer": "A",
     "explanation": "面对文化交流与竞争，我们既要认同本民族文化，又要尊重其他民族文化，遵循各民族文化一律平等的原则。在文化交流中，要坚持求同存异、取长补短，积极推动中华文化走向世界。",
-    "knowledgePoints": [
-      "文化交流与竞争"
-    ],
     "difficulty": 4,
-    "subject": "politics"
+    "subject": "politics",
+    "knowledgeTags": [
+      "文化交流与竞争"
+    ]
   }
 ]

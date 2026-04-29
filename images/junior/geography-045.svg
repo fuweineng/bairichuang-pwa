@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">等高线地形图——陡崖的等高线特征是？</text>
+  <g transform="translate(100,50)">
+    <!-- 等高线地形图背景 -->
+    <rect x="0" y="0" width="300" height="220" fill="#f5f5dc" stroke="#ccc" stroke-width="1"/>
+    <!-- 模拟陡崖：多条等高线在某处密集重叠 -->
+    <path d="M0,180 Q75,175 150,170 Q225,165 300,160" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <path d="M0,150 Q75,145 150,140 Q225,135 300,130" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <path d="M0,120 Q75,115 150,110 Q225,105 300,100" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <!-- 陡崖处：等高线非常密集几乎重叠 -->
+    <path d="M100,90 Q105,70 110,50 Q115,70 120,90" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <path d="M108,90 Q112,65 116,40 Q120,65 124,90" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <path d="M115,90 Q118,60 122,30 Q126,60 130,90" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <path d="M121,90 Q124,55 127,20 Q130,55 133,90" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <path d="M0,60 Q75,55 150,50 Q225,45 300,40" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <path d="M0,30 Q75,25 150,20 Q225,15 300,10" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <!-- 标注 -->
+    <text x="50" y="15" font-size="12" fill="#555">等高线密集=陡崖</text>
+    <text x="50" y="240" font-size="14" fill="#333">等高线重叠/非常密集处</text>
+    <text x="50" y="258" font-size="13" fill="#d00">→ 陡崖（坡度最大）</text>
+  </g>
+  <g transform="translate(420,80)">
+    <text x="0" y="0" font-size="15" font-weight="bold" fill="#333">陡崖的特征：</text>
+    <text x="0" y="30" font-size="14" fill="#333">① 等高线重叠在一起</text>
+    <text x="0" y="55" font-size="14" fill="#333">② 重叠处坡度最大</text>
+    <text x="0" y="80" font-size="14" fill="#333">③ 陡崖处等高线</text>
+    <text x="0" y="100" font-size="14" fill="#333">    非常密集</text>
+    <text x="0" y="130" font-size="14" fill="#2a2">答案：等高线密集、重叠</text>
+  </g>
+</svg>

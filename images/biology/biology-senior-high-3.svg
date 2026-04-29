@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">图甲为物质跨膜运输示意图，该物质跨膜运输方式属于？</text>
+  <g transform="translate(100,60)">
+    <!-- 细胞膜 -->
+    <rect x="0" y="40" width="30" height="160" fill="#c8e6c9" stroke="#388e3c" stroke-width="3"/>
+    <rect x="180" y="40" width="30" height="160" fill="#c8e6c9" stroke="#388e3c" stroke-width="3"/>
+    <!-- 膜上的载体蛋白 -->
+    <rect x="25" y="95" width="30" height="30" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+    <rect x="25" y="135" width="30" height="30" fill="#a5d6a7" stroke="#388e3c" stroke-width="2"/>
+    <!-- 细胞外 -->
+    <text x="75" y="20" font-size="14" fill="#333" text-anchor="middle">细胞外</text>
+    <circle cx="75" cy="80" r="8" fill="#f44336" stroke="#c62828" stroke-width="1.5"/>
+    <text x="75" y="105" font-size="12" fill="#d00" text-anchor="middle">O₂</text>
+    <!-- 运输箭头 -->
+    <path d="M75,90 C100,90 120,120 140,120" fill="none" stroke="#f44336" stroke-width="2" stroke-dasharray="4"/>
+    <polygon points="140,120 130,114 130,126" fill="#f44336"/>
+    <!-- 载体蛋白转运 -->
+    <circle cx="75" cy="155" r="8" fill="#2196f3" stroke="#1565c0" stroke-width="1.5"/>
+    <text x="75" y="178" font-size="12" fill="#d00" text-anchor="middle">Na⁺</text>
+    <!-- 细胞内 -->
+    <text x="300" y="20" font-size="14" fill="#333" text-anchor="middle">细胞内</text>
+    <circle cx="280" cy="120" r="8" fill="#f44336" stroke="#c62828" stroke-width="1.5"/>
+    <circle cx="280" cy="155" r="8" fill="#2196f3" stroke="#1565c0" stroke-width="1.5"/>
+    <!-- 选项 -->
+    <text x="130" y="245" font-size="14" fill="#333">A. 自由扩散  B. 协助扩散  C. 主动运输  D. 胞吞胞吐</text>
+    <text x="130" y="268" font-size="14" fill="#d00" font-weight="bold">答案：C（需要载体蛋白且逆浓度梯度→主动运输）</text>
+  </g>
+</svg>

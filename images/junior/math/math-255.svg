@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">△ABC和△DEF中，AB=DE，BC=EF，∠B=∠E=90°，全等依据？</text>
+  <g transform="translate(80,60)">
+    <!-- △ABC -->
+    <polygon points="0,180 120,180 120,60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="60" y="45" font-size="14" fill="#333">A</text>
+    <text x="-15" y="195" font-size="14" fill="#333">B</text>
+    <text x="135" y="195" font-size="14" fill="#333">C</text>
+    <text x="55" y="110" font-size="13" fill="#0055aa">AB</text>
+    <text x="125" y="130" font-size="13" fill="#0055aa">BC</text>
+    <!-- 直角标记 -->
+    <path d="M108,180 L108,168 L120,168" fill="none" stroke="black" stroke-width="1.5"/>
+    <!-- △DEF -->
+    <polygon points="280,180 400,180 400,60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="340" y="45" font-size="14" fill="#333">D</text>
+    <text x="265" y="195" font-size="14" fill="#333">E</text>
+    <text x="415" y="195" font-size="14" fill="#333">F</text>
+    <text x="335" y="110" font-size="13" fill="#0055aa">DE</text>
+    <text x="405" y="130" font-size="13" fill="#0055aa">EF</text>
+    <path d="M388,180 L388,168 L400,168" fill="none" stroke="black" stroke-width="1.5"/>
+    <!-- 直角标记 -->
+    <text x="430" y="120" font-size="20" fill="#d00">=</text>
+    <!-- 说明 -->
+    <text x="250" y="250" font-size="14" fill="#333">两边及其夹角相等 → SAS</text>
+    <text x="250" y="275" font-size="14" fill="#d00">答案：SAS（边角边）</text>
+  </g>
+</svg>

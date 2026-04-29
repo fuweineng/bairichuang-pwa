@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">DNA片段中，碱基对配对方式遵循何种规律？</text>
+  <g transform="translate(100,60)">
+    <!-- DNA双螺旋简化图 -->
+    <!-- 两条骨架链 -->
+    <path d="M20,180 Q100,80 180,180 Q260,280 340,180 Q420,80 500,180 Q580,280 650,180"
+      fill="none" stroke="#1976d2" stroke-width="4"/>
+    <path d="M20,120 Q100,220 180,120 Q260,20 340,120 Q420,220 500,120 Q580,20 650,120"
+      fill="none" stroke="#388e3c" stroke-width="4"/>
+    <!-- 碱基对（横杠） -->
+    <!-- A-T 对 -->
+    <line x1="50" y1="155" x2="50" y2="145" stroke="#e91e63" stroke-width="3"/>
+    <line x1="100" y1="125" x2="100" y2="115" stroke="#9c27b0" stroke-width="3"/>
+    <line x1="150" y1="155" x2="150" y2="145" stroke="#e91e63" stroke-width="3"/>
+    <line x1="200" y1="125" x2="200" y2="115" stroke="#9c27b0" stroke-width="3"/>
+    <line x1="250" y1="155" x2="250" y2="145" stroke="#f44336" stroke-width="3"/>
+    <line x1="300" y1="125" x2="300" y2="115" stroke="#2196f3" stroke-width="3"/>
+    <line x1="350" y1="155" x2="350" y2="145" stroke="#f44336" stroke-width="3"/>
+    <line x1="400" y1="125" x2="400" y2="115" stroke="#2196f3" stroke-width="3"/>
+    <line x1="450" y1="155" x2="450" y2="145" stroke="#e91e63" stroke-width="3"/>
+    <line x1="500" y1="125" x2="500" y2="115" stroke="#9c27b0" stroke-width="3"/>
+    <!-- 碱基标签 -->
+    <text x="50" y="170" font-size="11" fill="#e91e63" text-anchor="middle">A</text>
+    <text x="50" y="128" font-size="11" fill="#9c27b0" text-anchor="middle">T</text>
+    <text x="100" y="170" font-size="11" fill="#e91e63" text-anchor="middle">A</text>
+    <text x="100" y="128" font-size="11" fill="#9c27b0" text-anchor="middle">T</text>
+    <text x="150" y="170" font-size="11" fill="#9c27b0" text-anchor="middle">T</text>
+    <text x="150" y="128" font-size="11" fill="#e91e63" text-anchor="middle">A</text>
+    <text x="200" y="170" font-size="11" fill="#9c27b0" text-anchor="middle">T</text>
+    <text x="200" y="128" font-size="11" fill="#e91e63" text-anchor="middle">A</text>
+    <text x="250" y="170" font-size="11" fill="#f44336" text-anchor="middle">C</text>
+    <text x="250" y="128" font-size="11" fill="#2196f3" text-anchor="middle">G</text>
+    <text x="300" y="170" font-size="11" fill="#2196f3" text-anchor="middle">G</text>
+    <text x="300" y="128" font-size="11" fill="#f44336" text-anchor="middle">C</text>
+    <text x="350" y="170" font-size="11" fill="#f44336" text-anchor="middle">C</text>
+    <text x="350" y="128" font-size="11" fill="#2196f3" text-anchor="middle">G</text>
+    <text x="400" y="170" font-size="11" fill="#2196f3" text-anchor="middle">G</text>
+    <text x="400" y="128" font-size="11" fill="#f44336" text-anchor="middle">C</text>
+    <text x="450" y="170" font-size="11" fill="#e91e63" text-anchor="middle">A</text>
+    <text x="450" y="128" font-size="11" fill="#9c27b0" text-anchor="middle">T</text>
+    <text x="500" y="170" font-size="11" fill="#9c27b0" text-anchor="middle">T</text>
+    <text x="500" y="128" font-size="11" fill="#e91e63" text-anchor="middle">A</text>
+    <!-- 配对规律 -->
+    <text x="350" y="230" font-size="14" fill="#333" text-anchor="middle">碱基互补配对原则：A↔T（2条氢键），C↔G（3条氢键）</text>
+    <text x="350" y="255" font-size="15" fill="#d00" font-weight="bold" text-anchor="middle">答案：碱基互补配对原则（A与T配对，C与G配对）</text>
+  </g>
+</svg>

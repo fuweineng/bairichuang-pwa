@@ -23,11 +23,11 @@
     ],
     "answer": "A",
     "explanation": "西周的分封制与宗法制是相互依存的政治制度体系。宗法制以血缘亲疏确定等级秩序，分封制则将土地和人口分封给诸侯。宗法制是分封制的内在核心，分封制是宗法制在政治层面的具体体现，两者共同构成西周政治制度的基本框架。",
-    "knowledgePoints": [
-      "先秦政治制度（分封制、宗法制）"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "先秦政治制度（分封制、宗法制）"
+    ]
   },
   {
     "id": "history-senior-high-2",
@@ -53,11 +53,11 @@
     ],
     "answer": "B",
     "explanation": "郡县制是秦朝中央集权的重要组成部分。与西周分封制最大的区别在于：郡守、县令由皇帝直接任命和撤换，不得世袭。这打破了贵族对地方的世袭控制，有效加强了中央对地方的管理，标志着中国古代政治制度从贵族政治向官僚政治的转变。",
-    "knowledgePoints": [
-      "秦汉政治制度（郡县制、专制主义中央集权）"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "秦汉政治制度（郡县制、专制主义中央集权）"
+    ]
   },
   {
     "id": "history-senior-high-3",
@@ -83,11 +83,11 @@
     ],
     "answer": "B",
     "explanation": "唐代三省六部制的分工是：中书省负责起草诏令（决策），门下省负责审议封驳（审议），尚书省负责执行（执行）。这种分工体现了古代官僚制度的权力制衡机制，对于防止决策失误、强化皇权具有重要作用。",
-    "knowledgePoints": [
-      "唐宋政治制度（三省六部、科举制）"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "唐宋政治制度（三省六部、科举制）"
+    ]
   },
   {
     "id": "history-senior-high-4",
@@ -113,11 +113,11 @@
     ],
     "answer": "B",
     "explanation": "明朝废除丞相制度、设立内阁，清朝设立军机处，其根本目的都是加强皇权、削弱相权。内阁和军机处实际上都是皇帝处理政务的御用机构，完全听命于皇帝，标志着君主专制达到顶峰。",
-    "knowledgePoints": [
-      "明清政治制度（内阁、军机处）"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "明清政治制度（内阁、军机处）"
+    ]
   },
   {
     "id": "history-senior-high-5",
@@ -143,11 +143,11 @@
     ],
     "answer": "A",
     "explanation": "雅典民主政治是直接民主制，其特征是公民大会是最高权力机关，所有成年男性公民可以直接参与讨论和投票决策国家大事。但这种民主有局限性，仅限于成年男性公民，妇女、奴隶和外邦人被排除在民主之外。",
-    "knowledgePoints": [
-      "古代希腊罗马政治制度"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "古代希腊罗马政治制度"
+    ]
   },
   {
     "id": "history-senior-high-6",
@@ -173,11 +173,11 @@
     ],
     "answer": "B",
     "explanation": "英国君主立宪制保留了世袭君主（国王/女王），君主名义上拥有最高权力但实际上统而不治；美国民主共和制不设君主，总统由选举人团间接选举产生。两者的核心区别在于是否保留世袭君主，这是君主立宪制与民主共和制的根本差异。",
-    "knowledgePoints": [
-      "近代西方政治制度（英国君主立宪、美国民主共和）"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "近代西方政治制度（英国君主立宪、美国民主共和）"
+    ]
   },
   {
     "id": "history-senior-high-7",
@@ -203,11 +203,11 @@
     ],
     "answer": "B",
     "explanation": "苏联模式（斯大林模式）的核心特征是高度集中的计划经济体制：国家通过五年计划对经济进行全面干预和管理，普遍实行生产资料公有制（包括全民所有制和集体所有制），排斥市场机制。这一模式使苏联在短期内实现了工业化，但也存在弊端。",
-    "knowledgePoints": [
-      "十月革命与苏联模式"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "十月革命与苏联模式"
+    ]
   },
   {
     "id": "history-senior-high-8",
@@ -233,11 +233,11 @@
     ],
     "answer": "B",
     "explanation": "冷战结束后，两极格局解体，世界政治多极化趋势加强。俄罗斯、日本、中国、欧盟等国家和国家集团成为重要的国际力量，在国际事务中发挥重要作用。多极化趋势是当今世界政治发展的主要特征，但多极化格局尚未最终形成。",
-    "knowledgePoints": [
-      "二战后世界政治格局（两极、冷战、多极化）"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "二战后世界政治格局（两极、冷战、多极化）"
+    ]
   },
   {
     "id": "history-senior-high-9",
@@ -263,11 +263,11 @@
     ],
     "answer": "C",
     "explanation": "工业革命发生的条件包括：资本、劳动力、市场、技术等。圈地运动使大量农民失去土地，成为自由劳动力，为工业革命提供了必要的雇佣工人，这是工业革命在英国发生的直接条件之一。资产阶级革命为其提供了政治前提，瓦特改良蒸汽机是其重要标志而非前提条件。",
-    "knowledgePoints": [
-      "第一次工业革命"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "第一次工业革命"
+    ]
   },
   {
     "id": "history-senior-high-10",
@@ -293,11 +293,11 @@
     ],
     "answer": "B",
     "explanation": "第二次工业革命最突出的特点是自然科学与技术紧密结合，产生了电磁学理论、化学理论等重大突破，并迅速转化为生产力。第一次工业革命更多依赖生产经验积累，技术革新主要由工匠完成；第二次工业革命则以科学理论的突破为先导。",
-    "knowledgePoints": [
-      "第二次工业革命"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "第二次工业革命"
+    ]
   },
   {
     "id": "history-senior-high-11",
@@ -323,11 +323,11 @@
     ],
     "answer": "B",
     "explanation": "自然经济解体的主要原因是西方列强的经济侵略。鸦片战争后，外国商品（尤其是洋纱、洋布）大量涌入中国，以低廉价格冲击传统的手工业，导致男耕女织的自然经济逐渐瓦解。这是中国近代经济结构变动的根本原因。",
-    "knowledgePoints": [
-      "近代中国经济结构变动"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "近代中国经济结构变动"
+    ]
   },
   {
     "id": "history-senior-high-12",
@@ -353,11 +353,11 @@
     ],
     "answer": "B",
     "explanation": "洋务运动是地主阶级洋务派发起的自强求富运动，主张中学为体、西学为用，只学习西方技术而不改变政治制度；戊戌变法是资产阶级维新派发起的主张君主立宪的改良运动，涉及政治制度的变革。两者最根本的区别在于是否主张变革政治制度。",
-    "knowledgePoints": [
-      "洋务运动与戊戌变法"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "洋务运动与戊戌变法"
+    ]
   },
   {
     "id": "history-senior-high-13",
@@ -383,11 +383,11 @@
     ],
     "answer": "B",
     "explanation": "辛亥革命的最大历史意义是推翻了清王朝的统治，结束了两千多年的封建君主专制制度，建立了中华民国。但它没有改变中国半殖民地半封建社会的性质，没有完成民族独立和人民解放的历史任务。新民主主义革命的开端是五四运动。",
-    "knowledgePoints": [
-      "辛亥革命"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "辛亥革命"
+    ]
   },
   {
     "id": "history-senior-high-14",
@@ -413,11 +413,11 @@
     ],
     "answer": "B",
     "explanation": "1919年的五四运动是中国新民主主义革命的开端。这是因为：五四运动中工人阶级作为独立政治力量登上历史舞台；马克思主义开始在中国传播并与工人运动相结合；具有彻底的反帝反封建性质。这些特点标志着中国民主革命从旧民主主义革命向新民主主义革命的转变。",
-    "knowledgePoints": [
-      "新民主主义革命"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "新民主主义革命"
+    ]
   },
   {
     "id": "history-senior-high-15",
@@ -443,11 +443,11 @@
     ],
     "answer": "B",
     "explanation": "1956年社会主义改造基本完成后，中国建立起社会主义基本制度，开始进入全面建设社会主义时期。以毛泽东《论十大关系》的发表为标志，中国共产党开始探索适合中国国情的社会主建设道路，为中国特色社会主义建设积累了重要经验。",
-    "knowledgePoints": [
-      "中国特色社会主义建设"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "中国特色社会主义建设"
+    ]
   },
   {
     "id": "history-senior-high-16",
@@ -473,11 +473,11 @@
     ],
     "answer": "A",
     "explanation": "1978年12月召开的中共十一届三中全会是改革开放的标志。会议确立了把党和国家工作重心转移到经济建设上来、实行改革开放的基本国策，标志着中国进入改革开放和社会主义现代化建设新时期。深圳等经济特区的设立是在十一届三中全会之后的举措。",
-    "knowledgePoints": [
-      "改革开放"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "改革开放"
+    ]
   },
   {
     "id": "history-senior-high-17",
@@ -503,11 +503,11 @@
     ],
     "answer": "A",
     "explanation": "宋代商业发展的重要突破是打破了唐代的坊市制度，出现了夜市和早市，商业活动不再局限于固定的市肆区域，城市的经济功能大大增强，草市和镇市也得到发展。这反映了宋代商品经济的繁荣和城镇经济的活跃。",
-    "knowledgePoints": [
-      "古代商业与城市"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "古代商业与城市"
+    ]
   },
   {
     "id": "history-senior-high-18",
@@ -533,11 +533,11 @@
     ],
     "answer": "B",
     "explanation": "中国近代经济近代化的核心是学习西方先进的科学技术和机器大工业生产方式，创办使用机器生产的近代企业。从洋务运动到民国时期的工业化建设，都以发展机器大工业、实现生产方式的近代化为主要内容，这是中国由传统农业社会向工业社会转变的重要途径。",
-    "knowledgePoints": [
-      "近代中国经济近代化"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "近代中国经济近代化"
+    ]
   },
   {
     "id": "history-senior-high-19",
@@ -563,11 +563,11 @@
     ],
     "answer": "D",
     "explanation": "布雷顿森林体系的主要内容是：美元与黄金挂钩（35美元兑换1盎司黄金）、其他货币与美元挂钩、成立国际货币基金组织（IMF）和世界银行。关税及贸易总协定（GATT）是在布雷顿森林体系之外建立的独立国际贸易组织，虽然也是战后世界经济体系的重要组成部分，但不属于布雷顿森林体系。",
-    "knowledgePoints": [
-      "世界贸易体系"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "世界贸易体系"
+    ]
   },
   {
     "id": "history-senior-high-20",
@@ -593,11 +593,11 @@
     ],
     "answer": "C",
     "explanation": "儒家思想的核心是仁政和德治。孔子提出仁者爱人、为政以德，孟子发展出仁政学说，强调民本思想。儒家重视道德教育和礼乐教化，主张通过道德感化来治理国家，与法家的严刑峻法、道家的无为而治形成对比。",
-    "knowledgePoints": [
-      "中国古代思想（百家争鸣、儒学发展）"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "中国古代思想（百家争鸣、儒学发展）"
+    ]
   },
   {
     "id": "history-senior-high-21",
@@ -623,11 +623,11 @@
     ],
     "answer": "A",
     "explanation": "人文主义是文艺复兴运动的核心思想，主张以人为中心而不是以神为中心，强调人的价值、尊严和力量，肯定人的现世生活，追求个性和自由。人文主义者运用古典文化中的理性精神批判封建神学，解放了人们的思想，为近代自然科学和资本主义的发展奠定了思想基础。",
-    "knowledgePoints": [
-      "西方人文主义思想发展"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "西方人文主义思想发展"
+    ]
   },
   {
     "id": "history-senior-high-22",
@@ -653,11 +653,11 @@
     ],
     "answer": "C",
     "explanation": "17-18世纪的近代科技革命以牛顿经典力学体系的建立为标志。牛顿在《自然哲学的数学原理》中系统总结了力学定律，创立了经典力学体系。这一时期还出现了以实验为基础、以数学为工具的近代科学研究方法，奠定了现代自然科学的基础。",
-    "knowledgePoints": [
-      "近代科技革命"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "近代科技革命"
+    ]
   },
   {
     "id": "history-senior-high-23",
@@ -683,11 +683,11 @@
     ],
     "answer": "C",
     "explanation": "20世纪四五十年代以来的现代科技革命以电子计算机的发明和发展为核心标志，随后出现了互联网、信息技术、人工智能等高新技术产业。这场科技革命极大地改变了人类的生产方式、生活方式和思维方式，标志着人类社会进入信息时代。",
-    "knowledgePoints": [
-      "现代科技革命"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "现代科技革命"
+    ]
   },
   {
     "id": "history-senior-high-24",
@@ -713,11 +713,11 @@
     ],
     "answer": "C",
     "explanation": "《世界遗产公约》定义的的世界遗产是指具有突出普遍价值的文化遗产和自然遗产，包括物质遗产和非物质文化遗产。列入《世界遗产名录》的遗产仍然受所在国法律保护，同时接受国际监督和援助。申报世界遗产需要经过国际专家评审和世界遗产委员会核准。",
-    "knowledgePoints": [
-      "文化遗产保护"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "文化遗产保护"
+    ]
   },
   {
     "id": "history-senior-high-25",
@@ -743,10 +743,10 @@
     ],
     "answer": "C",
     "explanation": "华盛顿领导美国独立战争，制定1787年宪法，建立三权分立的民主共和制；拿破仑颁布《拿破仑法典》，确立资本主义法律规范。两者的共同点是都为本国开创了具有进步意义的政治制度或法律原则，对后世产生深远影响。华盛顿没有建立独裁统治，拿破仑后期建立了独裁统治。",
-    "knowledgePoints": [
-      "中外历史人物对比"
-    ],
     "difficulty": 4,
-    "subject": "history"
+    "subject": "history",
+    "knowledgeTags": [
+      "中外历史人物对比"
+    ]
   }
 ]

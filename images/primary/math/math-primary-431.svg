@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" font-family="Arial">
+  <text x="300" y="25" text-anchor="middle" font-size="18" fill="#333">点A、B、C、D在同一直线上，AB=5cm，BC=3cm，CD=4cm，求AD长度？</text>
+  <g transform="translate(50,60)">
+    <!-- 直线 -->
+    <line x1="0" y1="50" x2="500" y2="50" stroke="black" stroke-width="2"/>
+    <!-- A点 -->
+    <circle cx="50" cy="50" r="5" fill="black"/>
+    <text x="50" y="75" text-anchor="middle" font-size="15" fill="#333">A</text>
+    <!-- B点 -->
+    <circle cx="150" cy="50" r="5" fill="black"/>
+    <text x="150" y="75" text-anchor="middle" font-size="15" fill="#333">B</text>
+    <!-- C点 -->
+    <circle cx="230" cy="50" r="5" fill="black"/>
+    <text x="230" y="75" text-anchor="middle" font-size="15" fill="#333">C</text>
+    <!-- D点 -->
+    <circle cx="330" cy="50" r="5" fill="black"/>
+    <text x="330" y="75" text-anchor="middle" font-size="15" fill="#333">D</text>
+    <!-- 线段标注 -->
+    <text x="100" y="35" text-anchor="middle" font-size="13" fill="#0055aa">5cm</text>
+    <line x1="50" y1="42" x2="150" y2="42" stroke="#0055aa" stroke-width="1"/>
+    <text x="190" y="35" text-anchor="middle" font-size="13" fill="#0055aa">3cm</text>
+    <line x1="150" y1="42" x2="230" y2="42" stroke="#0055aa" stroke-width="1"/>
+    <text x="280" y="35" text-anchor="middle" font-size="13" fill="#0055aa">4cm</text>
+    <line x1="230" y1="42" x2="330" y2="42" stroke="#0055aa" stroke-width="1"/>
+    <!-- AD总长 -->
+    <text x="190" y="100" text-anchor="middle" font-size="15" fill="#d00">AD = AB+BC+CD = 5+3+4 = 12cm</text>
+  </g>
+</svg>

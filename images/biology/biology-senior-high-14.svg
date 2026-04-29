@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">单基因遗传病家族系谱图，阴影为患者，最可能的遗传方式是？</text>
+  <g transform="translate(100,60)">
+    <!-- 祖父（患者） -->
+    <circle cx="80" cy="30" r="18" fill="#e91e63" stroke="black" stroke-width="2"/>
+    <text x="80" y="35" font-size="11" text-anchor="middle" fill="white">祖父</text>
+    <!-- 祖母（正常） -->
+    <circle cx="160" cy="30" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="160" y="35" font-size="11" text-anchor="middle">祖母</text>
+    <!-- 连接线 -->
+    <line x1="80" y1="48" x2="120" y2="80" stroke="black" stroke-width="1.5"/>
+    <line x1="160" y1="48" x2="120" y2="80" stroke="black" stroke-width="1.5"/>
+    <!-- 父母代横线 -->
+    <line x1="80" y1="80" x2="160" y2="80" stroke="black" stroke-width="1.5"/>
+    <!-- 父亲（患者） -->
+    <circle cx="100" cy="110" r="18" fill="#e91e63" stroke="black" stroke-width="2"/>
+    <text x="100" y="115" font-size="11" text-anchor="middle" fill="white">父亲</text>
+    <!-- 母亲（正常） -->
+    <circle cx="140" cy="110" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="140" y="115" font-size="11" text-anchor="middle">母亲</text>
+    <!-- 连接线到子女 -->
+    <line x1="100" y1="128" x2="80" y2="160" stroke="black" stroke-width="1.5"/>
+    <line x1="100" y1="128" x2="120" y2="160" stroke="black" stroke-width="1.5"/>
+    <line x1="140" y1="128" x2="120" y2="160" stroke="black" stroke-width="1.5"/>
+    <line x1="140" y1="128" x2="160" y2="160" stroke="black" stroke-width="1.5"/>
+    <!-- 子女 -->
+    <!-- 儿子1（患者） -->
+    <circle cx="80" cy="180" r="18" fill="#e91e63" stroke="black" stroke-width="2"/>
+    <text x="80" y="185" font-size="11" text-anchor="middle" fill="white">儿子</text>
+    <!-- 女儿（正常） -->
+    <circle cx="120" cy="180" r="18" fill="white" stroke="black" stroke-width="2"/>
+    <text x="120" y="185" font-size="11" text-anchor="middle">女儿</text>
+    <!-- 孙子（患者） -->
+    <circle cx="160" cy="180" r="18" fill="#e91e63" stroke="black" stroke-width="2"/>
+    <text x="160" y="185" font-size="11" text-anchor="middle" fill="white">孙子</text>
+    <!-- 分析 -->
+    <text x="300" y="80" font-size="14" fill="#333">分析：</text>
+    <text x="300" y="105" font-size="13" fill="#333">① 父亲患病，女儿正常→非X连锁显性</text>
+    <text x="300" y="128" font-size="13" fill="#333">② 父亲患病，儿子患病→常染色体显性</text>
+    <text x="300" y="151" font-size="13" fill="#333">③ 祖父→父亲→孙子（连续遗传）</text>
+    <text x="300" y="178" font-size="15" fill="#d00" font-weight="bold">答案：常染色体显性遗传</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">酶活性与温度的关系曲线，正确叙述是？</text>
+  <g transform="translate(100,60)">
+    <!-- 坐标轴 -->
+    <line x1="0" y1="180" x2="450" y2="180" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="180" x2="0" y2="0" stroke="black" stroke-width="2"/>
+    <text x="450" y="175" font-size="13" fill="#333">温度(℃)</text>
+    <text x="10" y="15" font-size="13" fill="#333">酶活性</text>
+    <!-- 曲线：从低到高升后降 -->
+    <path d="M20,160 Q60,158 100,155 Q140,145 180,120 Q220,80 250,30 Q280,80 320,120 Q360,145 400,155 Q440,158 480,160"
+      fill="none" stroke="#e91e63" stroke-width="3"/>
+    <!-- 标注 -->
+    <text x="250" y="15" font-size="14" fill="#e91e63" text-anchor="middle">最适温度</text>
+    <line x1="250" y1="25" x2="250" y2="180" stroke="#e91e63" stroke-width="1" stroke-dasharray="3"/>
+    <text x="250" y="195" font-size="13" fill="#e91e63" text-anchor="middle">~37℃</text>
+    <!-- 温度标签 -->
+    <text x="20" y="200" font-size="11" fill="#555">0</text>
+    <text x="120" y="200" font-size="11" fill="#555">20</text>
+    <text x="220" y="200" font-size="11" fill="#555">37</text>
+    <text x="320" y="200" font-size="11" fill="#555">50</text>
+    <text x="420" y="200" font-size="11" fill="#555">60</text>
+    <!-- 说明 -->
+    <text x="225" y="255" font-size="14" fill="#333">随温度升高，活性先升后降；温度过高会变性失活</text>
+    <text x="225" y="278" font-size="14" fill="#d00" font-weight="bold">答案：最适温度前，升高温度活性增加；超过最适温度，活性下降</text>
+  </g>
+</svg>

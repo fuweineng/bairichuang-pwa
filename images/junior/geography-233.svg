@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="17" fill="#333">等高线呈同心圆状，越向中心高程越大，表示？</text>
+  <g transform="translate(100,60)">
+    <!-- 同心圆等高线（中心高四周低=山顶/丘陵） -->
+    <circle cx="100" cy="100" r="15" fill="none" stroke="#8B7355" stroke-width="2"/>
+    <circle cx="100" cy="100" r="30" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="45" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="60" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <circle cx="100" cy="100" r="75" fill="none" stroke="#8B7355" stroke-width="1.5"/>
+    <!-- 高程标注 -->
+    <text x="100" y="105" font-size="11" fill="#d00" text-anchor="middle">100m</text>
+    <text x="100" y="70" font-size="11" fill="#333" text-anchor="middle">200m</text>
+    <text x="100" y="45" font-size="11" fill="#333" text-anchor="middle">300m</text>
+    <text x="100" y="20" font-size="11" fill="#333" text-anchor="middle">400m</text>
+    <!-- 中心箭头 -->
+    <text x="100" y="148" font-size="14" fill="#d00" text-anchor="middle">▲山顶/山峰</text>
+  </g>
+  <g transform="translate(420,80)">
+    <text x="0" y="0" font-size="15" font-weight="bold" fill="#333">判断方法：</text>
+    <text x="0" y="30" font-size="14" fill="#333">越向中心高程越大</text>
+    <text x="0" y="55" font-size="14" fill="#333">→ 中心是山地/山顶</text>
+    <text x="0" y="85" font-size="14" fill="#2a2">（若越向中心越小→盆地/洼地）</text>
+    <text x="0" y="115" font-size="15" fill="#d00" font-weight="bold">答案：山地/山峰</text>
+  </g>
+</svg>

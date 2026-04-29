@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" font-family="Arial">
+  <text x="250" y="25" text-anchor="middle" font-size="18" fill="#333">三角形一个角60°，另一个角40°，求第三个角？</text>
+  <g transform="translate(150,50)">
+    <polygon points="0,180 200,180 80,30" fill="none" stroke="black" stroke-width="2"/>
+    <!-- 标注60° -->
+    <path d="M25,165 A25,25 0 0,1 50,165" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="30" y="160" font-size="13" fill="#333">60°</text>
+    <!-- 标注40° -->
+    <path d="M115,165 A25,25 0 0,0 80,165" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="100" y="160" font-size="13" fill="#333">40°</text>
+    <!-- 问号 -->
+    <text x="60" y="100" font-size="22" fill="#d00" font-weight="bold">?</text>
+    <!-- 顶点标注 -->
+    <text x="80" y="20" text-anchor="middle" font-size="14" fill="#555">C</text>
+    <text x="-15" y="180" text-anchor="middle" font-size="14" fill="#555">A</text>
+    <text x="215" y="180" text-anchor="middle" font-size="14" fill="#555">B</text>
+    <text x="100" y="250" text-anchor="middle" font-size="16">答案：180°−60°−40°=80°</text>
+  </g>
+</svg>
