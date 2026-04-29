@@ -1,5655 +1,2983 @@
 [
   {
-    "question": "下列加点字读音完全正确的一项是（）",
-    "options": [
-      {
-        "text": "粗犷(kuàng)",
-        "label": "A"
-      },
-      {
-        "text": "栖(qī)息",
-        "label": "B"
-      },
-      {
-        "text": "嗷嗷待哺(bǔ)",
-        "label": "C"
-      },
-      {
-        "text": "以上都不对",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "A项'粗犷'读guǎng而非kuàng，错误；B项'栖息'qī正确；C项'嗷嗷待哺'bǔ正确。本题要求选'读音完全正确的一项'，B项单个读音正确，当选。",
-    "audio": "audio/chinese_001_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_001_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_001_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_001_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_001_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-1",
-    "knowledgePoint": "PC-GY-001",
-    "knowledgeTags": [
-      "拼音"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'学习'的'学'是第几声？",
-    "options": [
-      {
-        "text": "第一声",
-        "label": "A"
-      },
-      {
-        "text": "第二声",
-        "label": "B"
-      },
-      {
-        "text": "第三声",
-        "label": "C"
-      },
-      {
-        "text": "第四声",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'学'读xué，第二声。",
-    "audio": "audio/chinese_002_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_002_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_002_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_002_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_002_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-2",
-    "knowledgePoint": "PC-GY-002",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列汉字中笔画数最多的是（）",
-    "options": [
-      {
-        "text": "日",
-        "label": "A"
-      },
-      {
-        "text": "月",
-        "label": "B"
-      },
-      {
-        "text": "水",
-        "label": "C"
-      },
-      {
-        "text": "山",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "日字4画，月字5画，水字4画，山字3画。月字笔画数最多为5画。",
-    "audio": "audio/chinese_003_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_003_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_003_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_003_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_003_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-3",
-    "knowledgePoint": "PC-GY-005",
-    "knowledgeTags": [
-      "笔画"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'日'字的正确书写顺序是（）",
-    "options": [
-      {
-        "text": "先横后竖",
-        "label": "A"
-      },
-      {
-        "text": "先外后内",
-        "label": "B"
-      },
-      {
-        "text": "从上到下",
-        "label": "C"
-      },
-      {
-        "text": "从左到右",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'日'字的书写顺序是：竖→横折→横→横，即先中间后两边，属于'从上到下'的笔顺原则。答案为C。",
-    "audio": "audio/chinese_004_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_004_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_004_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_004_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_004_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-4",
-    "knowledgePoint": "PC-GY-005",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列词语中没有错别字的一项是（）",
-    "options": [
-      {
-        "text": "花园 抄写",
-        "label": "A"
-      },
-      {
-        "text": "公圆 抄写",
-        "label": "B"
-      },
-      {
-        "text": "花园 超写",
-        "label": "C"
-      },
-      {
-        "text": "花圆 抄写",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'花园'的'园'和'抄写'的'抄'都是正确写法。B项'公圆'的'圆'是错别字（应为'园'）；C项'超写'的'超'是错别字（应为'抄'）；D项'花圆'两个都是错别字。答案为A。",
-    "audio": "audio/chinese_005_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_005_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_005_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_005_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_005_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-5",
-    "knowledgePoint": "PC-GY-009",
-    "knowledgeTags": [
-      "错别字",
-      "词义辨析"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'不'字在朗读时声调是（）",
-    "options": [
-      {
-        "text": "bù（四声）",
-        "label": "A"
-      },
-      {
-        "text": "bú（二声）",
-        "label": "B"
-      },
-      {
-        "text": "bǔ（三声）",
-        "label": "C"
-      },
-      {
-        "text": "bu（轻声）",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'不'字本调是四声，但在去声前要变二声，如'不错'；在阴平、阳平、上声前仍读四声。单独使用或在句尾时读本调四声。",
-    "audio": "audio/chinese_006_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_006_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_006_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_006_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_006_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-6",
-    "knowledgePoint": "PC-GY-002",
-    "knowledgeTags": [
-      "拼音"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列汉字中属于形声字的是（）",
-    "options": [
-      {
-        "text": "人",
-        "label": "A"
-      },
-      {
-        "text": "日",
-        "label": "B"
-      },
-      {
-        "text": "花",
-        "label": "C"
-      },
-      {
-        "text": "水",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "形声字由形旁和声旁组成。'花'由'艹'（形旁）表示草本植物，'化'（声旁）表示读音，是典型的形声字。人、日、水都是象形字。",
-    "audio": "audio/chinese_007_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_007_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_007_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_007_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_007_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-7",
-    "knowledgePoint": "PC-GY-008",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'鸟'字的最后一笔是（）",
-    "options": [
-      {
-        "text": "横",
-        "label": "A"
-      },
-      {
-        "text": "竖",
-        "label": "B"
-      },
-      {
-        "text": "点",
-        "label": "C"
-      },
-      {
-        "text": "提",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'鸟'字的笔顺是：撇→竖折→点→横→竖折→横勾→点，最后一笔是点。",
-    "audio": "audio/chinese_008_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_008_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_008_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_008_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_008_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-8",
-    "knowledgePoint": "PC-GY-005",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列成语书写正确的是（）",
-    "options": [
-      {
-        "text": "坐井观天",
-        "label": "A"
-      },
-      {
-        "text": "坐竟观天",
-        "label": "B"
-      },
-      {
-        "text": "坐前观天",
-        "label": "C"
-      },
-      {
-        "text": "坐井睤天",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'坐井观天'是一个成语，意思是坐在井里看天，比喻眼界狭小。其中'坐'是座位、坐着，'井'是水井，都是正确写法。B项'竟'和D项'睤'都是错别字。答案为A。",
-    "audio": "audio/chinese_009_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_009_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_009_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_009_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_009_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-9",
-    "knowledgePoint": "PC-GY-009",
-    "knowledgeTags": [
-      "成语俗语"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'欲穷千里目'的下一句是（）",
-    "options": [
-      {
-        "text": "更上一层楼",
-        "label": "A"
-      },
-      {
-        "text": "明月照我还",
-        "label": "B"
-      },
-      {
-        "text": "登鹳雀楼",
-        "label": "C"
-      },
-      {
-        "text": "黄河入海流",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句诗出自唐代王之涣的《登鹳雀楼》，全句是'欲穷千里目，更上一层楼'，意思是想要看得更远，就要再登上一层楼，比喻追求更高的境界。",
-    "audio": "audio/chinese_010_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_010_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_010_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_010_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_010_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-10",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'粒粒皆辛苦'的上一句是（）",
-    "options": [
-      {
-        "text": "春种一粒粟",
-        "label": "A"
-      },
-      {
-        "text": "锄禾日当午",
-        "label": "B"
-      },
-      {
-        "text": "秋收万颗子",
-        "label": "C"
-      },
-      {
-        "text": "农夫犹饿死",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'粒粒皆辛苦'出自李绅《悯农》（其一），全诗：锄禾日当午，汗滴禾下土。谁知盘中餐，粒粒皆辛苦。'锄禾日当午'是上一句，答案为B。",
-    "audio": "audio/chinese_011_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_011_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_011_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_011_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_011_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-11",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'白日依山尽'的下一句是（）",
-    "options": [
-      {
-        "text": "黄河入海流",
-        "label": "A"
-      },
-      {
-        "text": "海上明月生",
-        "label": "B"
-      },
-      {
-        "text": "欲穷千里目",
-        "label": "C"
-      },
-      {
-        "text": "更上一层楼",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句诗出自王之涣《登鹳雀楼》，全诗：白日依山尽，黄河入海流。欲穷千里目，更上一层楼。描述了夕阳西下、黄河奔流入海的壮阔景象。",
-    "audio": "audio/chinese_012_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_012_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_012_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_012_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_012_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-12",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'春眠不觉晓'中'晓'的意思是（）",
-    "options": [
-      {
-        "text": "早晨",
-        "label": "A"
-      },
-      {
-        "text": "知道",
-        "label": "B"
-      },
-      {
-        "text": "天亮",
-        "label": "C"
-      },
-      {
-        "text": "晚上",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'春眠不觉晓'的意思是春天睡得很香不知不觉就天亮了，'晓'指天亮、天明。整首诗是孟浩然的《春晓》，表达了诗人对春天的喜爱和珍惜。",
-    "audio": "audio/chinese_013_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_013_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_013_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_013_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_013_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-13",
-    "knowledgePoint": "PC-GY-014",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列不属于唐代诗人的是（）",
-    "options": [
-      {
-        "text": "李白",
-        "label": "A"
-      },
-      {
-        "text": "杜甫",
-        "label": "B"
-      },
-      {
-        "text": "白居易",
-        "label": "C"
-      },
-      {
-        "text": "苏轼",
-        "label": "D"
-      }
-    ],
-    "answer": "D",
-    "explanation": "苏轼是北宋文学家，不是唐代诗人。李白（唐代）、杜甫（唐代）、白居易（唐代）都是唐代著名诗人。答案为D。",
-    "audio": "audio/chinese_014_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_014_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_014_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_014_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_014_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-14",
-    "knowledgePoint": "PC-GY-015",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'两个黄鹂鸣翠柳，一行白鹭上青天'出自谁的诗？",
-    "options": [
-      {
-        "text": "李白",
-        "label": "A"
-      },
-      {
-        "text": "杜甫",
-        "label": "B"
-      },
-      {
-        "text": "王维",
-        "label": "C"
-      },
-      {
-        "text": "白居易",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "这句诗出自唐代诗人杜甫的《绝句》，全诗是：两个黄鹂鸣翠柳，一行白鹭上青天。窗含西岭千秋雪，门泊东吴万里船。",
-    "audio": "audio/chinese_015_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_015_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_015_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_015_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_015_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-15",
-    "knowledgePoint": "PC-GY-016",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列词语中'每'读音相同的是（）",
-    "options": [
-      {
-        "text": "每年 每人",
-        "label": "A"
-      },
-      {
-        "text": "每天 美丽",
-        "label": "B"
-      },
-      {
-        "text": "每个 母亲",
-        "label": "C"
-      },
-      {
-        "text": "每周 美分",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'每年'的'每'和'每人'的'每'都读méi，是同一个字，读音相同。B中'每天'读méi，'美丽'读měi；C中'每个'读méi，'母亲'读mǔ；D中'每周'读měi，'美分'读měi。答案为A。",
-    "audio": "audio/chinese_016_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_016_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_016_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_016_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_016_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-16",
-    "knowledgePoint": "PC-GY-001",
-    "knowledgeTags": [
-      "拼音",
-      "词义辨析"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'人'字的书写笔画是（）",
-    "options": [
-      {
-        "text": "两画：撇、捺",
-        "label": "A"
-      },
-      {
-        "text": "两画：横、竖",
-        "label": "B"
-      },
-      {
-        "text": "三画：撇、捺、点",
-        "label": "C"
-      },
-      {
-        "text": "一画：竖弯钩",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'人'字由两画组成：撇和捺。书写顺序是先撇后捺。'人'是常用汉字，需掌握正确书写。答案为A。",
-    "audio": "audio/chinese_017_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_017_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_017_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_017_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_017_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-17",
-    "knowledgePoint": "PC-GY-005",
-    "knowledgeTags": [
-      "笔画"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列汉字与其声母对应错误的是（）",
-    "options": [
-      {
-        "text": "妈(m)",
-        "label": "A"
-      },
-      {
-        "text": "花(h)",
-        "label": "B"
-      },
-      {
-        "text": "大(d)",
-        "label": "C"
-      },
-      {
-        "text": "书(s)",
-        "label": "D"
-      }
-    ],
-    "answer": "D",
-    "explanation": "'书'的声母是sh，不是s，D选项写作's'是错误的，因此选D。其他选项声母均正确：妈m、花h、都是正确的。",
-    "audio": "audio/chinese_018_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_018_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_018_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_018_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_018_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-18",
-    "knowledgePoint": "PC-GY-003",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'中国'两个字的声调组合是（）",
-    "options": [
-      {
-        "text": "一声 二声",
-        "label": "A"
-      },
-      {
-        "text": "一声 一声",
-        "label": "B"
-      },
-      {
-        "text": "二声 一声",
-        "label": "C"
-      },
-      {
-        "text": "一声 四声",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'中'读zhōng，一声；'国'读guó，二声。所以'中国'的声调组合是一声、二声。答案为A。",
-    "audio": "audio/chinese_019_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_019_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_019_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_019_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_019_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-19",
-    "knowledgePoint": "PC-GY-002",
-    "knowledgeTags": [
-      "拼音"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列哪组拼音整体认读音节最多？",
-    "options": [
-      {
-        "text": "zhi chi shi ri",
-        "label": "A"
-      },
-      {
-        "text": "zi ci si",
-        "label": "B"
-      },
-      {
-        "text": "yi wu yu",
-        "label": "C"
-      },
-      {
-        "text": "ye yue yuan",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "整体认读音节是指不需要拼读、直接整体认读的音节。A组zhi、chi、shi、ri都是整体认读音节（4个）；B组zi、ci、si是整体认读音节（3个）；C组yi、wu、yu是整体认读音节（3个）；D组ye、yue是整体认读音节，yuan不是。所以A组整体认读音节最多。答案为A。",
-    "audio": "audio/chinese_020_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_020_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_020_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_020_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_020_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-20",
-    "knowledgePoint": "PC-GY-004",
-    "knowledgeTags": [
-      "拼音"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'床前明月光'的下一句是（）",
-    "options": [
-      {
-        "text": "疑是地上霜",
-        "label": "A"
-      },
-      {
-        "text": "举头望明月",
-        "label": "B"
-      },
-      {
-        "text": "低头思故乡",
-        "label": "C"
-      },
-      {
-        "text": "明月照故乡",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句诗出自唐代李白的《静夜思》，全诗：床前明月光，疑是地上霜。举头望明月，低头思故乡。答案为A。",
-    "audio": "audio/chinese_021_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_021_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_021_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_021_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_021_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-21",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "《咏鹅》诗中'曲项向天歌'的'曲'读音是（）",
-    "options": [
-      {
-        "text": "qū",
-        "label": "A"
-      },
-      {
-        "text": "qǔ",
-        "label": "B"
-      },
-      {
-        "text": "qu",
-        "label": "C"
-      },
-      {
-        "text": "qū和qǔ都对",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'曲项向天歌'中'曲'读qū，是弯曲的意思，不能读成qǔ（歌曲）。《咏鹅》是唐代骆宾王七岁时所作的名篇。答案为A。",
-    "audio": "audio/chinese_022_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_022_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_022_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_022_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_022_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-22",
-    "knowledgePoint": "PC-GY-001",
-    "knowledgeTags": [
-      "拼音"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'一寸光阴一寸金'的上句是（）",
-    "options": [
-      {
-        "text": "读书破万卷",
-        "label": "A"
-      },
-      {
-        "text": "春去花还在",
-        "label": "B"
-      },
-      {
-        "text": "少年易学老难成",
-        "label": "C"
-      },
-      {
-        "text": "明日复明日",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'少年易学老难成，一寸光阴一寸金'是一句谚语/古语，意思是年轻的时候容易学习，到老了就难以学成了，所以一寸光阴就像一寸黄金一样珍贵。答案为C。",
-    "audio": "audio/chinese_023_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_023_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_023_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_023_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_023_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-23",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列汉字中不是上下结构的是（）",
-    "options": [
-      {
-        "text": "花",
-        "label": "A"
-      },
-      {
-        "text": "草",
-        "label": "B"
-      },
-      {
-        "text": "树",
-        "label": "C"
-      },
-      {
-        "text": "李",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'花'是上下结构（艹+化），'草'是上下结构（艹+早），'李'是上下结构（木+子），而'树'是左右结构（左中右结构），不是上下结构。答案为C。",
-    "audio": "audio/chinese_024_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_024_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_024_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_024_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_024_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-24",
-    "knowledgePoint": "PC-GY-006",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'碧'字的部首是（）",
-    "options": [
-      {
-        "text": "白",
-        "label": "A"
-      },
-      {
-        "text": "石",
-        "label": "B"
-      },
-      {
-        "text": "王",
-        "label": "C"
-      },
-      {
-        "text": "十",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'碧'字的部首是'王'（玉）。'碧'字由'王'和'白'组成，表示青绿色的玉石。常见的'碧绿''碧玉'等词语中都体现了其与玉石相关。答案为C。",
-    "audio": "audio/chinese_025_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_025_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_025_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_025_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_025_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-25",
-    "knowledgePoint": "PC-GY-007",
-    "knowledgeTags": [
-      "部首"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列词语中'张'字意思相同的是（）",
-    "options": [
-      {
-        "text": "张老师 纸张",
-        "label": "A"
-      },
-      {
-        "text": "张开 张望",
-        "label": "B"
-      },
-      {
-        "text": "一张纸 改弦更张",
-        "label": "C"
-      },
-      {
-        "text": "东张西望 张灯结彩",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'张开'的'张'是打开的意思，'张望'的'张'是看的意思，两者都含有'展开'的含义。A中'张老师'的'张'是姓氏，'纸张'的'张'是量词；C中'纸张'的'张'是量词，'改弦更张'的'张'是更换的意思；D中东张西望的'张'是看，张灯结彩的'张'是布置的意思。答案为B。",
-    "audio": "audio/chinese_026_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_026_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_026_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_026_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_026_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-26",
-    "knowledgePoint": "PC-GY-010",
-    "knowledgeTags": [
-      "词义辨析"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "成语'守株待兔'出自（）",
-    "options": [
-      {
-        "text": "《韩非子》",
-        "label": "A"
-      },
-      {
-        "text": "《论语》",
-        "label": "B"
-      },
-      {
-        "text": "《庄子》",
-        "label": "C"
-      },
-      {
-        "text": "《孟子》",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'守株待兔'出自《韩非子·五蠹》，讲的是一个农夫偶然看见一只兔子撞死在树桩上，便守在树桩旁希望再得到兔子，比喻死守狭隘经验，不知变通。答案为A。",
-    "audio": "audio/chinese_027_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_027_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_027_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_027_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_027_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-27",
-    "knowledgePoint": "PC-GY-012",
-    "knowledgeTags": [
-      "成语俗语"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'亡羊补牢'中'亡'的意思是（）",
-    "options": [
-      {
-        "text": "死亡",
-        "label": "A"
-      },
-      {
-        "text": "逃跑",
-        "label": "B"
-      },
-      {
-        "text": "丢失",
-        "label": "C"
-      },
-      {
-        "text": "灭亡",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'亡羊补牢'的意思是丢失了羊再去修补羊圈，'亡'是丢失、失去的意思。整个成语比喻出了问题后想办法补救，可以防止再次受损。答案为C。",
-    "audio": "audio/chinese_028_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_028_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_028_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_028_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_028_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-28",
-    "knowledgePoint": "PC-GY-011",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列成语中不含近义词的是（）",
-    "options": [
-      {
-        "text": "眼疾手快",
-        "label": "A"
-      },
-      {
-        "text": "东奔西走",
-        "label": "B"
-      },
-      {
-        "text": "大材小用",
-        "label": "C"
-      },
-      {
-        "text": "甜言蜜语",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "'大材小用'中'大'和'小'是反义词，意思是大的材料用在小地方，比喻使用不当。其他选项都含近义词：眼疾手快（疾、快）、东奔西走（东、西表方向但奔和走是近义）、甜言蜜语（甜、蜜都是甜的意思）。答案为C。",
-    "audio": "audio/chinese_029_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_029_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_029_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_029_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_029_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-29",
-    "knowledgePoint": "PC-GY-011",
-    "knowledgeTags": [
-      "词义辨析",
-      "成语俗语"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'狐假虎威'这个成语的意思是（）",
-    "options": [
-      {
-        "text": "狐狸很勇敢",
-        "label": "A"
-      },
-      {
-        "text": "借着别人的势力欺压人",
-        "label": "B"
-      },
-      {
-        "text": "老虎很威风",
-        "label": "C"
-      },
-      {
-        "text": "狐狸和老虎都很威风",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'狐假虎威'出自《战国策》，讲的是狐狸借老虎的威风吓跑百兽，后来比喻借着别人的势力欺压人。答案为B。",
-    "audio": "audio/chinese_030_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_030_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_030_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_030_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_030_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-30",
-    "knowledgePoint": "PC-GY-011",
-    "knowledgeTags": [
-      "成语俗语"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "阅读短文：春天来了，小草绿了，花儿开了。小鸟在树上唱歌，小鱼在水里游来游去。问：短文描写的是哪个季节？",
-    "options": [
-      {
-        "text": "夏天",
-        "label": "A"
-      },
-      {
-        "text": "秋天",
-        "label": "B"
-      },
-      {
-        "text": "春天",
-        "label": "C"
-      },
-      {
-        "text": "冬天",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "根据短文内容'春天来了，小草绿了，花儿开了'明确说明是春天。夏天没有提到，秋天树叶会变黄，冬天小草不会绿。答案为C。",
-    "audio": "audio/chinese_031_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_031_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_031_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_031_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_031_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-31",
-    "knowledgePoint": "PC-GY-018",
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "阅读短文：小明今天忘记带书包了，他很着急。老师知道了，帮他想办法。问：小明为什么着急？",
-    "options": [
-      {
-        "text": "因为生病了",
-        "label": "A"
-      },
-      {
-        "text": "因为忘记带书包",
-        "label": "B"
-      },
-      {
-        "text": "因为作业太多",
-        "label": "C"
-      },
-      {
-        "text": "因为下雨了",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "根据短文'小明今天忘记带书包了，他很着急'明确说明小明着急的原因是忘记带书包。答案为B。",
-    "audio": "audio/chinese_032_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_032_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_032_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_032_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_032_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-32",
-    "knowledgePoint": "PC-GY-018",
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'举世闻名'中'举'的意思是（）",
-    "options": [
-      {
-        "text": "抬起",
-        "label": "A"
-      },
-      {
-        "text": "全",
-        "label": "B"
-      },
-      {
-        "text": "推荐",
-        "label": "C"
-      },
-      {
-        "text": "举动",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'举世闻名'中'举'是全的意思，整个成语意思是全世界都知道，形容名声很大。'举'作'全'讲时还有'举国上下''举世无双'等用法。答案为B。",
-    "audio": "audio/chinese_033_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_033_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_033_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_033_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_033_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-33",
-    "knowledgePoint": "PC-GY-011",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列汉字中'口'作偏旁时在下方的是（）",
-    "options": [
-      {
-        "text": "吃",
-        "label": "A"
-      },
-      {
-        "text": "喝",
-        "label": "B"
-      },
-      {
-        "text": "吹",
-        "label": "C"
-      },
-      {
-        "text": "哥",
-        "label": "D"
-      }
-    ],
-    "answer": "D",
-    "explanation": "'哥'字的口在下方（可作为口字底），而'吃''喝''吹'的口字旁都在左边。'哥'是上下结构，答案D正确。",
-    "audio": "audio/chinese_034_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_034_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_034_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_034_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_034_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-34",
-    "knowledgePoint": "PC-GY-007",
-    "knowledgeTags": [
-      "部首"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'春回大地，万物复苏'中'复苏'的意思是（）",
-    "options": [
-      {
-        "text": "重新生存",
-        "label": "A"
-      },
-      {
-        "text": "春天回来了",
-        "label": "B"
-      },
-      {
-        "text": "睡醒了",
-        "label": "C"
-      },
-      {
-        "text": "又活了",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'复苏'是指昏迷后醒过来，或失去生机后重新恢复生机。这里指大自然中各种生物恢复生机。答案为A。",
-    "audio": "audio/chinese_035_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_035_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_035_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_035_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_035_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-35",
-    "knowledgePoint": "PC-GY-010",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列古诗中描写春天景色的是（）",
-    "options": [
-      {
-        "text": "《江雪》",
-        "label": "A"
-      },
-      {
-        "text": "《静夜思》",
-        "label": "B"
-      },
-      {
-        "text": "《春晓》",
-        "label": "C"
-      },
-      {
-        "text": "《山行》",
-        "label": "D"
-      }
-    ],
-    "answer": "C",
-    "explanation": "《江雪》描写的是冬天的雪景，《静夜思》是思乡诗，《春晓》描写春天的景色'春眠不觉晓，处处闻啼鸟'，《山行》描写秋天的景色'停车坐爱枫林晚，霜叶红于二月花'。答案为C。",
-    "audio": "audio/chinese_036_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_036_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_036_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_036_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_036_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-36",
-    "knowledgePoint": "PC-GY-016",
-    "knowledgeTags": [
-      "古诗词默写"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'飞流直下三千尺'出自哪首诗？",
-    "options": [
-      {
-        "text": "《望庐山瀑布》",
-        "label": "A"
-      },
-      {
-        "text": "《早发白帝城》",
-        "label": "B"
-      },
-      {
-        "text": "《黄鹤楼送孟浩然之广陵》",
-        "label": "C"
-      },
-      {
-        "text": "《静夜思》",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'飞流直下三千尺，疑是银河落九天'出自唐代李白的《望庐山瀑布》，描写庐山瀑布的壮观景象。答案为A。",
-    "audio": "audio/chinese_037_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_037_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_037_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_037_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_037_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-37",
-    "knowledgePoint": "PC-GY-016",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'桃花潭水深千尺'下一句是（）",
-    "options": [
-      {
-        "text": "不及汪伦送我情",
-        "label": "A"
-      },
-      {
-        "text": "汪伦送我情",
-        "label": "B"
-      },
-      {
-        "text": "情深似海",
-        "label": "C"
-      },
-      {
-        "text": "潭水三千尺",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句诗出自李白的《赠汪伦》，全诗是：李白乘舟将欲行，忽闻岸上踏歌声。桃花潭水深千尺，不及汪伦送我情。表达了诗人与汪伦之间的深厚友谊。",
-    "audio": "audio/chinese_038_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_038_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_038_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_038_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_038_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-38",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列哪个字既是上下结构又是左右结构？",
-    "options": [
-      {
-        "text": "日",
-        "label": "A"
-      },
-      {
-        "text": "月",
-        "label": "B"
-      },
-      {
-        "text": "明",
-        "label": "C"
-      },
-      {
-        "text": "以上都不是",
-        "label": "D"
-      }
-    ],
-    "answer": "D",
-    "explanation": "'日'和'月'都是独体字，不是左右结构；'明'是左右结构由'日'和'月'组成。一个汉字不可能同时既是上下结构又是左右结构，所以答案为D。",
-    "audio": "audio/chinese_039_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_039_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_039_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_039_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_039_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-39",
-    "knowledgePoint": "PC-GY-006",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'数(shǔ)一数(shù)'中两个'数'的读音分别是（）",
-    "options": [
-      {
-        "text": "shǔ shù",
-        "label": "A"
-      },
-      {
-        "text": "shù shǔ",
-        "label": "B"
-      },
-      {
-        "text": "shǔ shǔ",
-        "label": "C"
-      },
-      {
-        "text": "shù shù",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "第一个'数(shǔ)'是动词，意思是查点数目；第二个'数(shù)'是名词，指数目、数字。这是典型的多音字用法，体现了汉语的丰富性。答案为A。",
-    "audio": "audio/chinese_040_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_040_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_040_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_040_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_040_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-40",
-    "knowledgePoint": "PC-GY-001",
-    "knowledgeTags": [
-      "拼音"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'一本书'的'本'是量词，它原来指的是（）",
-    "options": [
-      {
-        "text": "书",
-        "label": "A"
-      },
-      {
-        "text": "草木的根",
-        "label": "B"
-      },
-      {
-        "text": "事物的根本",
-        "label": "C"
-      },
-      {
-        "text": "根本",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'本'是量词，最初的意思是草木的根或茎干，后来引申为计量书籍簿册的数量单位。成语'本末倒置'中的'本'就是根本、本源的意思。答案为B。",
-    "audio": "audio/chinese_041_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_041_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_041_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_041_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_041_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-41",
-    "knowledgePoint": "PC-GY-017",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "《游子吟》诗中'谁言寸草心'的下一句是（）",
-    "options": [
-      {
-        "text": "报得三春晖",
-        "label": "A"
-      },
-      {
-        "text": "寸草报春晖",
-        "label": "B"
-      },
-      {
-        "text": "春晖照我还",
-        "label": "C"
-      },
-      {
-        "text": "三春晖",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "《游子吟》作者孟郊，全诗：慈母手中线，游子身上衣。临行密密缝，意恐迟迟归。谁言寸草心，报得三春晖。比喻子女对母亲的孝心难以报答。答案为A。",
-    "audio": "audio/chinese_042_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_042_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_042_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_042_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_042_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-42",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'千山鸟飞绝'的下一句是（）",
-    "options": [
-      {
-        "text": "万径人踪灭",
-        "label": "A"
-      },
-      {
-        "text": "鸟飞千山绝",
-        "label": "B"
-      },
-      {
-        "text": "独钓寒江雪",
-        "label": "C"
-      },
-      {
-        "text": "孤舟蓑笠翁",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句诗出自唐代柳宗元的《江雪》，全诗：千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。描写了一幅寒冷孤寂的雪景图。答案为A。",
-    "audio": "audio/chinese_043_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_043_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_043_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_043_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_043_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-43",
-    "knowledgePoint": "PC-GY-013",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'读书百遍，其义自见'中'见'的读音是（）",
-    "options": [
-      {
-        "text": "jiàn",
-        "label": "A"
-      },
-      {
-        "text": "xiàn",
-        "label": "B"
-      },
-      {
-        "text": "jiān",
-        "label": "C"
-      },
-      {
-        "text": "xián",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'读书百遍，其义自见'中'见'读xiàn，是显现、显露的意思。如果读jiàn，意思就变成看见了。这句话的意思是书读多了，自然就能理解其中的意思。答案为B。",
-    "audio": "audio/chinese_044_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_044_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_044_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_044_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_044_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-44",
-    "knowledgePoint": "PC-GY-001",
-    "knowledgeTags": [
-      "拼音"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列词语中'害'字意思不同的是（）",
-    "options": [
-      {
-        "text": "伤害",
-        "label": "A"
-      },
-      {
-        "text": "害虫",
-        "label": "B"
-      },
-      {
-        "text": "害羞",
-        "label": "C"
-      },
-      {
-        "text": "害怕",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'伤害'中的'害'是受伤、有害的意思；'害虫'中的'害'是有害的、损害农作物的；'害羞'中的'害'是怕、畏惧的意思；'害怕'中的'害'也是恐惧的意思。B害虫的'害'是形容词性，其他多为动词性。答案为B。",
-    "audio": "audio/chinese_045_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_045_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_045_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_045_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_045_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-45",
-    "knowledgePoint": "PC-GY-010",
-    "knowledgeTags": [
-      "词义辨析"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'千里迢迢'中'迢迢'的意思是（）",
-    "options": [
-      {
-        "text": "很远很远",
-        "label": "A"
-      },
-      {
-        "text": "快快",
-        "label": "B"
-      },
-      {
-        "text": "慢慢",
-        "label": "C"
-      },
-      {
-        "text": "高高兴兴",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'千里迢迢'形容路途非常遥远，'迢迢'是遥远的样子。类似的词语还有'秋水迢迢''夜色迢迢'等，都表示遥远之意。答案为A。",
-    "audio": "audio/chinese_046_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_046_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_046_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_046_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_046_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-46",
-    "knowledgePoint": "PC-GY-011",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'入木三分'这个成语典故与谁有关？",
-    "options": [
-      {
-        "text": "王羲之",
-        "label": "A"
-      },
-      {
-        "text": "柳公权",
-        "label": "B"
-      },
-      {
-        "text": "颜真卿",
-        "label": "C"
-      },
-      {
-        "text": "欧阳询",
-        "label": "D"
-      }
-    ],
-    "answer": "A",
-    "explanation": "'入木三分'出自《书断·王羲之》，传说王羲之在木板上写字，工匠雕刻时发现墨迹渗入木板有三分深，形容书法笔力强劲，也比喻见解、议论十分深刻。答案为A。",
-    "audio": "audio/chinese_047_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_047_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_047_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_047_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_047_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-47",
-    "knowledgePoint": "PC-GY-012",
-    "knowledgeTags": [
-      "成语俗语"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "阅读短文：动物学校报名了！有乌龟、兔子、小松鼠等。兔子跑得很快，乌龟爬得很慢。问：谁跑得更快？",
-    "options": [
-      {
-        "text": "乌龟",
-        "label": "A"
-      },
-      {
-        "text": "兔子",
-        "label": "B"
-      },
-      {
-        "text": "小松鼠",
-        "label": "C"
-      },
-      {
-        "text": "不知道",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "根据短文'兔子跑得很快，乌龟爬得很慢'可以明确知道兔子比乌龟跑得更快。答案为B。",
-    "audio": "audio/chinese_048_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_048_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_048_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_048_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_048_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-48",
-    "knowledgePoint": "PC-GY-018",
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "'年年有余'中'余'的意思是（）",
-    "options": [
-      {
-        "text": "多余",
-        "label": "A"
-      },
-      {
-        "text": "剩下",
-        "label": "B"
-      },
-      {
-        "text": "我",
-        "label": "C"
-      },
-      {
-        "text": "以后",
-        "label": "D"
-      }
-    ],
-    "answer": "B",
-    "explanation": "'年年有余'是吉祥话，'余'是剩余、剩下的意思，寓意每年都有多余的财富和粮食，生活富足。'余'作'我'讲时出现在'余一人'等古语中。答案为B。",
-    "audio": "audio/chinese_049_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_049_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_049_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_049_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_049_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-49",
-    "knowledgePoint": "PC-GY-010",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "question": "下列汉字中与'书'字结构相同的是（）",
-    "options": [
-      {
-        "text": "字",
-        "label": "A"
-      },
-      {
-        "text": "好",
-        "label": "B"
-      },
-      {
-        "text": "明",
-        "label": "C"
-      },
-      {
-        "text": "田",
-        "label": "D"
-      }
-    ],
-    "answer": "D",
-    "explanation": "'书'是独体字，'田'也是独体字（象形字，像田地之形），结构最为相近；'字'是上下结构，'好'是左右结构，'明'是左右结构，与书字结构均不同。故答案为D。",
-    "audio": "audio/chinese_050_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/chinese_050_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/chinese_050_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/chinese_050_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/chinese_050_d.mp3"
-      }
-    ],
-    "id": "primary-chinese-50",
-    "knowledgePoint": "PC-GY-006",
-    "knowledgeTags": [
-      "语文基础"
-    ],
-    "type": "choice",
-    "subject": "chinese"
-  },
-  {
-    "id": "primary-chinese-51",
+    "id": "chinese-g1-001",
     "type": "choice",
     "subject": "chinese",
     "difficulty": 1,
     "grade": 1,
     "knowledgeTags": [
-      "声母"
+      "字词拼音"
     ],
-    "question": "下面哪个字的声母是 'p'？",
+    "question": "下列哪个是象形字?",
     "options": [
       {
         "label": "A",
-        "text": "爸"
+        "text": "日"
       },
       {
         "label": "B",
-        "text": "爬"
+        "text": "明"
       },
       {
         "label": "C",
-        "text": "妈"
-      },
-      {
-        "label": "D",
-        "text": "拿"
-      }
-    ],
-    "answer": "B",
-    "explanation": "‘爬’的声母是 p。",
-    "audio": "audio/chinese_51_q.mp3"
-  },
-  {
-    "id": "primary-chinese-52",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "韵母"
-    ],
-    "question": "请选出韵母是 'an' 的字。",
-    "options": [
-      {
-        "label": "A",
-        "text": "山"
-      },
-      {
-        "label": "B",
-        "text": "星"
-      },
-      {
-        "label": "C",
-        "text": "花"
-      },
-      {
-        "label": "D",
-        "text": "雨"
-      }
-    ],
-    "answer": "A",
-    "explanation": "‘山’的拼音是 shan，韵母为 an。",
-    "audio": "audio/chinese_52_q.mp3"
-  },
-  {
-    "id": "primary-chinese-53",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 3,
-    "knowledgeTags": [
-      "整体认读音节"
-    ],
-    "question": "下列哪个音节属于整体认读音节？",
-    "options": [
-      {
-        "label": "A",
-        "text": "a"
-      },
-      {
-        "label": "B",
-        "text": "zhi"
-      },
-      {
-        "label": "C",
-        "text": "ei"
-      },
-      {
-        "label": "D",
-        "text": "ou"
-      }
-    ],
-    "answer": "B",
-    "explanation": "‘zhi’是整体认读音节，不拆分声母和韵母。",
-    "audio": "audio/chinese_53_q.mp3"
-  },
-  {
-    "id": "primary-chinese-54",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 4,
-    "knowledgeTags": [
-      "音序查字法"
-    ],
-    "question": "使用音序查字法查字时，第一步应先按什么顺序查找？",
-    "options": [
-      {
-        "label": "A",
-        "text": "按声母"
-      },
-      {
-        "label": "B",
-        "text": "按韵母"
-      },
-      {
-        "label": "C",
-        "text": "按音调"
-      },
-      {
-        "label": "D",
-        "text": "按笔画"
-      }
-    ],
-    "answer": "A",
-    "explanation": "音序查字法先按拼音的首字母（即声母）排序。",
-    "audio": "audio/chinese_54_q.mp3"
-  },
-  {
-    "id": "primary-chinese-55",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 5,
-    "grade": 5,
-    "knowledgeTags": [
-      "汉语拼音"
-    ],
-    "question": "请选出‘雨’字的正确拼音。",
-    "options": [
-      {
-        "label": "A",
-        "text": "yu"
-      },
-      {
-        "label": "B",
-        "text": "yi"
-      },
-      {
-        "label": "C",
-        "text": "yü"
-      },
-      {
-        "label": "D",
-        "text": "you"
-      }
-    ],
-    "answer": "A",
-    "explanation": "‘雨’的拼音是 yu。",
-    "audio": "audio/chinese_55_q.mp3"
-  },
-  {
-    "id": "primary-chinese-56",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "多音字"
-    ],
-    "question": "下面哪个词语中，“长”字读作zhǎng？",
-    "options": [
-      {
-        "label": "A",
-        "text": "长短"
-      },
-      {
-        "label": "B",
-        "text": "长高"
-      },
-      {
-        "label": "C",
-        "text": "长城"
-      },
-      {
-        "label": "D",
-        "text": "长跑"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“长高”中的“长”表示增长，读zhǎng。",
-    "audio": "audio/chinese_56_q.mp3"
-  },
-  {
-    "id": "primary-chinese-57",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "同音字"
-    ],
-    "question": "下面哪个字的读音与“青”相同？",
-    "options": [
-      {
-        "label": "A",
-        "text": "请"
-      },
-      {
-        "label": "B",
-        "text": "清"
-      },
-      {
-        "label": "C",
-        "text": "晴"
-      },
-      {
-        "label": "D",
-        "text": "情"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“清”读qīng，和“青”同音。",
-    "audio": "audio/chinese_57_q.mp3"
-  },
-  {
-    "id": "primary-chinese-58",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "形近字"
-    ],
-    "question": "下面哪个字与“己”在字形上非常相似，但意义不同？",
-    "options": [
-      {
-        "label": "A",
-        "text": "己"
-      },
-      {
-        "label": "B",
-        "text": "已"
-      },
-      {
-        "label": "C",
-        "text": "巳"
-      },
-      {
-        "label": "D",
-        "text": "巴"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“已”比“己”多了封口的笔画，意义也不同。",
-    "audio": "audio/chinese_58_q.mp3"
-  },
-  {
-    "id": "primary-chinese-59",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "部首查字法"
-    ],
-    "question": "使用部首查字法查找‘林’字时，首先应找的部首是哪个？",
-    "options": [
-      {
-        "label": "A",
-        "text": "木部"
-      },
-      {
-        "label": "B",
-        "text": "林部"
-      },
-      {
-        "label": "C",
-        "text": "十部"
-      },
-      {
-        "label": "D",
-        "text": "一部"
-      }
-    ],
-    "answer": "A",
-    "explanation": "‘林’由两个‘木’组成，‘木’是其部首。",
-    "audio": "audio/chinese_59_q.mp3"
-  },
-  {
-    "id": "primary-chinese-60",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "近义词"
-    ],
-    "question": "下面哪一组词语是近义词？",
-    "options": [
-      {
-        "label": "A",
-        "text": "高兴—快乐"
-      },
-      {
-        "label": "B",
-        "text": "高大—矮小"
-      },
-      {
-        "label": "C",
-        "text": "快速—缓慢"
-      },
-      {
-        "label": "D",
-        "text": "早起—晚睡"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“高兴”和“快乐”都表示心情愉快，意义相近。",
-    "audio": "audio/chinese_60_q.mp3"
-  },
-  {
-    "id": "primary-chinese-61",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "反义词"
-    ],
-    "question": "下面哪个词是‘高’的反义词？",
-    "options": [
-      {
-        "label": "A",
-        "content": "小"
-      },
-      {
-        "label": "B",
-        "content": "矮"
-      },
-      {
-        "label": "C",
-        "content": "长"
-      },
-      {
-        "label": "D",
-        "content": "软"
-      }
-    ],
-    "answer": "B",
-    "explanation": "‘高’的反义词是‘矮’，表示高度较小。",
-    "audio": "audio/chinese_61_q.mp3"
-  },
-  {
-    "id": "primary-chinese-62",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "词语搭配"
-    ],
-    "question": "‘打开___’应该填入哪个词语？",
-    "options": [
-      {
-        "label": "A",
-        "content": "电视"
-      },
-      {
-        "label": "B",
-        "content": "电脑"
-      },
-      {
-        "label": "C",
-        "content": "书本"
-      },
-      {
-        "label": "D",
-        "content": "窗户"
-      }
-    ],
-    "answer": "D",
-    "explanation": "常见的词语搭配是‘打开窗户’，表示把窗户打开。",
-    "audio": "audio/chinese_62_q.mp3"
-  },
-  {
-    "id": "primary-chinese-63",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "标点符号"
-    ],
-    "question": "在句子‘今天天气很好吗？’中使用的标点是哪个？",
-    "options": [
-      {
-        "label": "A",
-        "content": "句号"
-      },
-      {
-        "label": "B",
-        "content": "逗号"
-      },
-      {
-        "label": "C",
-        "content": "问号"
-      },
-      {
-        "label": "D",
-        "content": "感叹号"
-      }
-    ],
-    "answer": "C",
-    "explanation": "问号‘？’用于表示疑问语气。",
-    "audio": "audio/chinese_63_q.mp3"
-  },
-  {
-    "id": "primary-chinese-64",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "修辞手法"
-    ],
-    "question": "‘春风像母亲的手，轻轻抚摸着大地。’这句话使用了什么修辞手法？",
-    "options": [
-      {
-        "label": "A",
-        "content": "比喻"
-      },
-      {
-        "label": "B",
-        "content": "拟人"
-      },
-      {
-        "label": "C",
-        "content": "排比"
-      },
-      {
-        "label": "D",
-        "content": "夸张"
-      }
-    ],
-    "answer": "A",
-    "explanation": "将春风比作母亲的手，属于比喻中的明喻。",
-    "audio": "audio/chinese_64_q.mp3"
-  },
-  {
-    "id": "primary-chinese-65",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 5,
-    "knowledgeTags": [
-      "比喻"
-    ],
-    "question": "下面哪个句子使用了暗喻？",
-    "options": [
-      {
-        "label": "A",
-        "content": "他像狮子一样勇猛"
-      },
-      {
-        "label": "B",
-        "content": "她的眼睛像星星一样亮"
-      },
-      {
-        "label": "C",
-        "content": "时间是一把锋利的刀"
-      },
-      {
-        "label": "D",
-        "content": "风儿在唱歌"
-      }
-    ],
-    "answer": "C",
-    "explanation": "句子把时间直接比作刀，属于暗喻，没有使用‘像’字。",
-    "audio": "audio/chinese_65_q.mp3"
-  },
-  {
-    "id": "primary-chinese-66",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "拟人"
-    ],
-    "question": "‘春风轻轻地拂过大地，像母亲的手抚摸孩子。’这句话使用了哪种修辞手法？",
-    "options": [
-      {
-        "label": "A",
-        "text": "拟人"
-      },
-      {
-        "label": "B",
-        "text": "夸张"
-      },
-      {
-        "label": "C",
-        "text": "排比"
-      },
-      {
-        "label": "D",
-        "text": "比喻"
-      }
-    ],
-    "answer": "A",
-    "explanation": "把春风比作母亲的手，赋予它人的动作，属于拟人。",
-    "audio": "audio/chinese_66_q.mp3"
-  },
-  {
-    "id": "primary-chinese-67",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "夸张"
-    ],
-    "question": "‘他的声音大得像雷一样。’使用了哪种修辞手法？",
-    "options": [
-      {
-        "label": "A",
-        "text": "拟人"
-      },
-      {
-        "label": "B",
-        "text": "夸张"
-      },
-      {
-        "label": "C",
-        "text": "排比"
-      },
-      {
-        "label": "D",
-        "text": "借代"
-      }
-    ],
-    "answer": "B",
-    "explanation": "用‘像雷一样’夸张地形容声音很大，属于夸张。",
-    "audio": "audio/chinese_67_q.mp3"
-  },
-  {
-    "id": "primary-chinese-68",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "排比"
-    ],
-    "question": "‘我们爱学习，爱思考，爱创造。’使用了哪种修辞手法？",
-    "options": [
-      {
-        "label": "A",
-        "text": "拟人"
-      },
-      {
-        "label": "B",
-        "text": "夸张"
-      },
-      {
-        "label": "C",
-        "text": "排比"
-      },
-      {
-        "label": "D",
-        "text": "比喻"
-      }
-    ],
-    "answer": "C",
-    "explanation": "三个结构相同的句子并列，形成排比。",
-    "audio": "audio/chinese_68_q.mp3"
-  },
-  {
-    "id": "primary-chinese-69",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "古诗默写"
-    ],
-    "question": "《春晓》作者是（ ）。",
-    "options": [
-      {
-        "label": "A",
-        "text": "李白"
-      },
-      {
-        "label": "B",
-        "text": "孟浩然"
-      },
-      {
-        "label": "C",
-        "text": "杜甫"
-      },
-      {
-        "label": "D",
-        "text": "王之涣"
-      }
-    ],
-    "answer": "B",
-    "explanation": "《春晓》是唐代诗人孟浩然的作品。",
-    "audio": "audio/chinese_69_q.mp3"
-  },
-  {
-    "id": "primary-chinese-70",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledgeTags": [
-      "诗意理解"
-    ],
-    "question": "‘两岸猿声啼不住，轻舟已过万重山。’这句诗的意思是（ ）。",
-    "options": [
-      {
-        "label": "A",
-        "text": "两岸有很多猿猴在叫，船慢慢地在山中航行。"
-      },
-      {
-        "label": "B",
-        "text": "轻舟快速驶过许多山谷，猿声不断。"
-      },
-      {
-        "label": "C",
-        "text": "船在两岸猿声的伴随下，快速地驶过了重重山岭。"
-      },
-      {
-        "label": "D",
-        "text": "船在山间停下，听见猿声。"
-      }
-    ],
-    "answer": "C",
-    "explanation": "诗句描写轻舟在猿声中快速驶过层叠的山岭，表达了舟行迅疾的意境。",
-    "audio": "audio/chinese_70_q.mp3"
-  },
-  {
-    "id": "primary-chinese-71",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "古诗词作者"
-    ],
-    "question": "《静夜思》的作者是哪位诗人？",
-    "options": [
-      {
-        "label": "A",
-        "text": "李白"
-      },
-      {
-        "label": "B",
-        "text": "杜甫"
-      },
-      {
-        "label": "C",
-        "text": "王维"
-      },
-      {
-        "label": "D",
-        "text": "白居易"
-      }
-    ],
-    "answer": "A",
-    "explanation": "《静夜思》是唐代诗人李白的名篇。",
-    "audio": "audio/chinese_71_q.mp3"
-  },
-  {
-    "id": "primary-chinese-72",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 5,
-    "knowledgeTags": [
-      "文言文阅读"
-    ],
-    "question": "《孟子》中“爱人者，人恒爱之”这句话的含义是什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "爱别人的人，别人也常常爱他"
-      },
-      {
-        "label": "B",
-        "text": "只爱自己的人，别人也会爱他"
-      },
-      {
-        "label": "C",
-        "text": "不关心别人，别人也不会爱他"
-      },
-      {
-        "label": "D",
-        "text": "被人讨厌"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句话出自《孟子·离娄上》，意指爱人会得到他人的回报。",
-    "audio": "audio/chinese_72_q.mp3"
-  },
-  {
-    "id": "primary-chinese-73",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledgeTags": [
-      "成语故事"
-    ],
-    "question": "“画蛇添足”这个成语故事出自哪部古代典籍？",
-    "options": [
-      {
-        "label": "A",
-        "text": "《庄子》"
-      },
-      {
-        "label": "B",
-        "text": "《韩非子》"
-      },
-      {
-        "label": "C",
-        "text": "《史记》"
-      },
-      {
-        "label": "D",
-        "text": "《左传》"
-      }
-    ],
-    "answer": "B",
-    "explanation": "《韩非子·外储说左上》记载了画蛇添足的寓言故事。",
-    "audio": "audio/chinese_73_q.mp3"
-  },
-  {
-    "id": "primary-chinese-74",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "成语运用"
-    ],
-    "question": "下面哪句话中使用了成语“手不释卷”？",
-    "options": [
-      {
-        "label": "A",
-        "text": "他每天都在练习写字，手不释卷。"
-      },
-      {
-        "label": "B",
-        "text": "这本书太难，他一直读不下去。"
-      },
-      {
-        "label": "C",
-        "text": "他刚跑完步，满头大汗。"
-      },
-      {
-        "label": "D",
-        "text": "老师表扬他，夸他是个好学生。"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“手不释卷”形容人勤奋好学，手里总是拿着书不肯放下。",
-    "audio": "audio/chinese_74_q.mp3"
-  },
-  {
-    "id": "primary-chinese-75",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledgeTags": [
-      "俗语谚语"
-    ],
-    "question": "“不怕慢，就怕站”这句俗语的意思是什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "只要慢慢走就行，停下来也没关系"
-      },
-      {
-        "label": "B",
-        "text": "只要前进得慢，就比停下来好"
-      },
-      {
-        "label": "C",
-        "text": "走得快才会成功，停下来会失败"
-      },
-      {
-        "label": "D",
-        "text": "慢和站都不重要"
-      }
-    ],
-    "answer": "B",
-    "explanation": "这句俗语强调只要在前进，哪怕速度慢，也比止步不前要好。",
-    "audio": "audio/chinese_75_q.mp3"
-  },
-  {
-    "id": "primary-chinese-76",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "笔画"
-    ],
-    "question": "下面哪个字的笔画数是8画？",
-    "options": [
-      {
-        "label": "A",
-        "value": "林"
-      },
-      {
-        "label": "B",
-        "value": "木"
-      },
-      {
-        "label": "C",
-        "value": "森"
-      },
-      {
-        "label": "D",
-        "value": "桥"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“林”字由两个“木”组成，每“木”四画，总共八画。",
-    "audio": "audio/chinese_76_q.mp3"
-  },
-  {
-    "id": "primary-chinese-77",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "汉字结构"
-    ],
-    "question": "下面的汉字中，哪个是左右结构的字？",
-    "options": [
-      {
-        "label": "A",
-        "value": "明"
-      },
-      {
-        "label": "B",
-        "value": "国"
-      },
-      {
-        "label": "C",
-        "value": "山"
-      },
-      {
-        "label": "D",
-        "value": "森"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“明”由“日”和“月”左右并列，属于左右结构。",
-    "audio": "audio/chinese_77_q.mp3"
-  },
-  {
-    "id": "primary-chinese-78",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "笔顺规则"
-    ],
-    "question": "书写汉字“马”时，第一笔应该写什么？",
-    "options": [
-      {
-        "label": "A",
-        "value": "横"
-      },
-      {
-        "label": "B",
-        "value": "竖"
-      },
-      {
-        "label": "C",
-        "value": "撇"
-      },
-      {
-        "label": "D",
-        "value": "点"
-      }
-    ],
-    "answer": "C",
-    "explanation": "“马”字的第一笔是横，表示上面的一条线。",
-    "audio": "audio/chinese_78_q.mp3"
-  },
-  {
-    "id": "primary-chinese-79",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "形声字"
-    ],
-    "question": "下列哪个字是形声字？",
-    "options": [
-      {
-        "label": "A",
-        "value": "明"
-      },
-      {
-        "label": "B",
-        "value": "江"
-      },
-      {
-        "label": "C",
-        "value": "人"
-      },
-      {
-        "label": "D",
-        "value": "上"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“江”由表意的“三点水”和表音的“工”组成，是典型的形声字。",
-    "audio": "audio/chinese_79_q.mp3"
-  },
-  {
-    "id": "primary-chinese-80",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledgeTags": [
-      "组词"
-    ],
-    "question": "下面哪个字可以和“学”组成词“学生”？",
-    "options": [
-      {
-        "label": "A",
-        "value": "生"
-      },
-      {
-        "label": "B",
-        "value": "校"
-      },
-      {
-        "label": "C",
-        "value": "读"
-      },
-      {
-        "label": "D",
-        "value": "教"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“学生”指在学校学习的人，“生”是构成该词的关键字。",
-    "audio": "audio/chinese_80_q.mp3"
-  },
-  {
-    "id": "primary-chinese-81",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "扩句"
-    ],
-    "question": "下面哪一句是对‘小明上学’进行扩句后的正确句子？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小明每天按时上学。"
-      },
-      {
-        "label": "B",
-        "text": "小明上学。"
-      },
-      {
-        "label": "C",
-        "text": "小明快上学。"
-      },
-      {
-        "label": "D",
-        "text": "小明上学吗？"
-      }
-    ],
-    "answer": "A",
-    "explanation": "‘小明每天按时上学’在‘小明上学’的基础上加入了时间状语‘每天’和方式状语‘按时’，形成扩句。",
-    "audio": "audio/chinese_81_q.mp3"
-  },
-  {
-    "id": "primary-chinese-82",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "缩句"
-    ],
-    "question": "请把句子‘春天的公园里有很多五颜六色的花’缩写为其核心意思的句子。",
-    "options": [
-      {
-        "label": "A",
-        "text": "公园有花。"
-      },
-      {
-        "label": "B",
-        "text": "春天的公园有很多五颜六色的花。"
-      },
-      {
-        "label": "C",
-        "text": "春天的公园里有花。"
-      },
-      {
-        "label": "D",
-        "text": "公园里有很多花。"
-      }
-    ],
-    "answer": "A",
-    "explanation": "‘公园有花’保留了句子的主要成分，表达核心意义。",
-    "audio": "audio/chinese_82_q.mp3"
-  },
-  {
-    "id": "primary-chinese-83",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "仿写句子"
-    ],
-    "question": "请仿照‘春风像一把柔软的刷子，轻轻地拂过大地。’写一个使用‘像…一样…’结构的句子。",
-    "options": [
-      {
-        "label": "A",
-        "text": "太阳像一个巨大的火球，照耀着大地。"
-      },
-      {
-        "label": "B",
-        "text": "太阳照耀大地。"
-      },
-      {
-        "label": "C",
-        "text": "太阳像一个火球，照耀大地。"
-      },
-      {
-        "label": "D",
-        "text": "太阳照耀着大地，像温暖的手。"
-      }
-    ],
-    "answer": "A",
-    "explanation": "选项A使用了‘像…一样…’的比喻结构，完整且符合要求。",
-    "audio": "audio/chinese_83_q.mp3"
-  },
-  {
-    "id": "primary-chinese-84",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 5,
-    "knowledgeTags": [
-      "病句修改"
-    ],
-    "question": "下面哪一句有语病，需要修改？",
-    "options": [
-      {
-        "label": "A",
-        "text": "我非常喜欢看书，因为可以学到很多知识。"
-      },
-      {
-        "label": "B",
-        "text": "我们应该爱祖国，爱人民。"
-      },
-      {
-        "label": "C",
-        "text": "这本书的作者是鲁迅写的。"
-      },
-      {
-        "label": "D",
-        "text": "他跑得很快，很快。"
-      }
-    ],
-    "answer": "C",
-    "explanation": "‘作者是…写的’结构重复，正确的表述应为‘这本书是鲁迅写的’或‘这本书的作者是鲁迅’。",
-    "audio": "audio/chinese_84_q.mp3"
-  },
-  {
-    "id": "primary-chinese-85",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 3,
-    "knowledgeTags": [
-      "句子排序"
-    ],
-    "question": "请把下列词语重新排列成一个完整的句子：‘在 公园 里 星期天 我们 玩耍’",
-    "options": [
-      {
-        "label": "A",
-        "text": "我们在公园里星期天玩耍。"
-      },
-      {
-        "label": "B",
-        "text": "星期天我们在公园里玩耍。"
-      },
-      {
-        "label": "C",
-        "text": "玩耍我们在公园里星期天。"
-      },
-      {
-        "label": "D",
-        "text": "在公园里我们星期天玩耍。"
-      }
-    ],
-    "answer": "B",
-    "explanation": "按照时间、地点、人物的顺序，‘星期天我们在公园里玩耍’组成完整通顺的句子。",
-    "audio": "audio/chinese_85_q.mp3"
-  },
-  {
-    "id": "primary-chinese-86",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "question": "阅读下面的短文，然后回答问题。\n一天，小兔子在森林里发现一只受伤的小鸟。它把叶子轻轻盖在小鸟的翅膀上，并把水带到它面前。第二天，小鸟的翅膀好多了，它高兴地飞走了。\n这段文字主要写了什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小兔子的外貌"
-      },
-      {
-        "label": "B",
-        "text": "小兔子帮助受伤的小鸟"
-      },
-      {
-        "label": "C",
-        "text": "小兔子学习唱歌"
-      },
-      {
-        "label": "D",
-        "text": "小兔子搬家"
-      }
-    ],
-    "answer": "B",
-    "explanation": "文中描写了小兔子帮助受伤小鸟的情节，体现了它的善良。",
-    "audio": "audio/chinese_86_q.mp3"
-  },
-  {
-    "id": "primary-chinese-87",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "概括段意"
-    ],
-    "question": "阅读下面的段落，然后概括段意。\n春天的早晨，阳光洒在草地上，露珠像珠子一样闪烁。孩子们在草地上奔跑，笑声充满了整个院子。\n这段话主要表达了什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "描述春天的景色"
-      },
-      {
-        "label": "B",
-        "text": "说明孩子们的学习情况"
-      },
-      {
-        "label": "C",
-        "text": "介绍露珠的形成"
-      },
-      {
-        "label": "D",
-        "text": "描述农民的劳动"
-      }
-    ],
-    "answer": "A",
-    "explanation": "段落主要描绘了春天清晨的景色和孩子们玩耍的欢乐氛围。",
-    "audio": "audio/chinese_87_q.mp3"
-  },
-  {
-    "id": "primary-chinese-88",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 5,
-    "knowledgeTags": [
-      "概括主要内容"
-    ],
-    "question": "阅读下面的短文，然后概括其主要内容。\n小明在放学回家的路上，看到一位老人掉了很多水果。他主动帮助老人把水果捡起并送回家。老人非常感激，邀请小明吃水果。\n这篇短文的主要内容是什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小明上学迟到"
-      },
-      {
-        "label": "B",
-        "text": "小明帮助老人捡水果"
-      },
-      {
-        "label": "C",
-        "text": "小明喜欢吃水果"
-      },
-      {
-        "label": "D",
-        "text": "小明的考试成绩"
-      }
-    ],
-    "answer": "B",
-    "explanation": "短文讲述了小明主动帮助老人捡水果并送回家的故事。",
-    "audio": "audio/chinese_88_q.mp3"
-  },
-  {
-    "id": "primary-chinese-89",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 5,
-    "grade": 6,
-    "knowledgeTags": [
-      "中心思想"
-    ],
-    "question": "阅读下面的短文，然后指出它的中心思想。\n小红养了一只小猫。她每天给小猫喂食、清理猫砂，还陪它玩耍。随着时间推移，小猫变得非常粘人，给小红带来很多快乐。\n这篇文章的中心思想是什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小红的学校生活"
-      },
-      {
-        "label": "B",
-        "text": "养宠物需要付出爱与责任"
-      },
-      {
-        "label": "C",
-        "text": "小红喜欢收集猫咪"
-      },
-      {
-        "label": "D",
-        "text": "小猫喜欢玩耍"
-      }
-    ],
-    "answer": "B",
-    "explanation": "短文通过小红养猫的细节，强调了养宠物需要爱心和责任心的主题。",
-    "audio": "audio/chinese_89_q.mp3"
-  },
-  {
-    "id": "primary-chinese-90",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "体会感情"
-    ],
-    "question": "阅读下面的句子，体会其中的感情。\n雨后的空气清新，天空中出现一道彩虹。小华站在窗前，兴奋地指着彩虹，眼中闪烁着光芒。\n小华此刻的感情是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "悲伤"
-      },
-      {
-        "label": "B",
-        "text": "惊喜"
-      },
-      {
-        "label": "C",
-        "text": "愤怒"
-      },
-      {
-        "label": "D",
-        "text": "困倦"
-      }
-    ],
-    "answer": "B",
-    "explanation": "小华看到彩虹时表现出兴奋和惊喜的情绪。",
-    "audio": "audio/chinese_90_q.mp3"
-  },
-  {
-    "id": "primary-chinese-91",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "理解词义"
-    ],
-    "question": "下面词语中‘茂盛’的意思是（   ）",
-    "options": [
-      {
-        "label": "A",
-        "text": "植物长得很高"
-      },
-      {
-        "label": "B",
-        "text": "植物长得很密"
-      },
-      {
-        "label": "C",
-        "text": "植物很少"
-      },
-      {
-        "label": "D",
-        "text": "植物枯萎"
-      }
-    ],
-    "answer": "B",
-    "explanation": "‘茂盛’形容植物生长得很茂密、旺盛。",
-    "audio": "audio/chinese_91_q.mp3"
-  },
-  {
-    "id": "primary-chinese-92",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "理解句子"
-    ],
-    "question": "‘春风又绿江南岸’这句诗的主要意思是（   ）",
-    "options": [
-      {
-        "label": "A",
-        "text": "春天的风把江南的河岸染成绿色"
-      },
-      {
-        "label": "B",
-        "text": "春天的风很温柔"
-      },
-      {
-        "label": "C",
-        "text": "春天的风很冷"
-      },
-      {
-        "label": "D",
-        "text": "春天的风把江南的花吹落"
-      }
-    ],
-    "answer": "A",
-    "explanation": "诗句描绘春风吹绿江南两岸的景象，突出了绿的生机。",
-    "audio": "audio/chinese_92_q.mp3"
-  },
-  {
-    "id": "primary-chinese-93",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "信息提取"
-    ],
-    "question": "根据短文‘小明喜欢踢足球，他每周练习三次’，小明每周练习多少次？",
-    "options": [
-      {
-        "label": "A",
-        "text": "一次"
-      },
-      {
-        "label": "B",
-        "text": "两次"
-      },
-      {
-        "label": "C",
-        "text": "三次"
-      },
-      {
-        "label": "D",
-        "text": "四次"
-      }
-    ],
-    "answer": "C",
-    "explanation": "文中明确写明小明每周练习三次。",
-    "audio": "audio/chinese_93_q.mp3"
-  },
-  {
-    "id": "primary-chinese-94",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 3,
-    "knowledgeTags": [
-      "信息推断"
-    ],
-    "question": "短文‘李老师今天没有来上课，学校安排王老师代课’，可以推断李老师可能怎么了？",
-    "options": [
-      {
-        "label": "A",
-        "text": "李老师迟到"
-      },
-      {
-        "label": "B",
-        "text": "李老师请了假"
-      },
-      {
-        "label": "C",
-        "text": "李老师在开会"
-      },
-      {
-        "label": "D",
-        "text": "李老师出差"
-      }
-    ],
-    "answer": "B",
-    "explanation": "老师没来且有代课老师，说明可能请假。",
-    "audio": "audio/chinese_94_q.mp3"
-  },
-  {
-    "id": "primary-chinese-95",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "课内阅读"
-    ],
-    "question": "《小蝌蚪找妈妈》的故事中，小蝌蚪最终变成了什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "青蛙"
-      },
-      {
-        "label": "B",
-        "text": "小鱼"
-      },
-      {
-        "label": "C",
-        "text": "妈妈"
-      },
-      {
-        "label": "D",
-        "text": "朋友"
-      }
-    ],
-    "answer": "A",
-    "explanation": "故事结尾小蝌蚪成长为青蛙，找到了妈妈。",
-    "audio": "audio/chinese_95_q.mp3"
-  },
-  {
-    "id": "primary-chinese-96",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 4,
-    "knowledgeTags": [
-      "课外阅读"
-    ],
-    "question": "阅读下面的短文，回答问题。\n\n【短文】\n小明今天在学校参加运动会，他跑了100米，得了第一名。回到家后，他把奖状贴在墙上，和家人一起分享这份荣誉。\n\n下面关于短文的说法，哪一项是正确的？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小明跑了200米并获奖。"
-      },
-      {
-        "label": "B",
-        "text": "小明在回家的路上跑了100米。"
-      },
-      {
-        "label": "C",
-        "text": "小明把奖状藏在抽屉里。"
-      },
-      {
-        "label": "D",
-        "text": "小明把奖状贴在墙上，和家人一起分享荣誉。"
-      }
-    ],
-    "answer": "D",
-    "explanation": "短文明确说小明把奖状贴在墙上并与家人分享，说明D正确。",
-    "audio": "audio/chinese_96_q.mp3"
-  },
-  {
-    "id": "primary-chinese-97",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "写作看图写话"
-    ],
-    "question": "观察下面的图片，图片中有一只小猫在树下玩耍。请从下列句子中选出最贴切的描述。",
-    "options": [
-      {
-        "label": "A",
-        "text": "小猫在草地上睡觉。"
-      },
-      {
-        "label": "B",
-        "text": "小猫在树枝上爬。"
-      },
-      {
-        "label": "C",
-        "text": "小猫在树下追逐蝴蝶。"
-      },
-      {
-        "label": "D",
-        "text": "小猫在屋子里吃饭。"
-      }
-    ],
-    "answer": "C",
-    "explanation": "图片显示小猫在树下追逐蝴蝶，最符合描述。",
-    "audio": "audio/chinese_97_q.mp3"
-  },
-  {
-    "id": "primary-chinese-98",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 5,
-    "knowledgeTags": [
-      "写作叙事"
-    ],
-    "question": "在写作叙事时，常见的结构顺序是“起、承、转、合”。请把下面四个情节按正确顺序排列。",
-    "options": [
-      {
-        "label": "A",
-        "text": "转、合、承、起"
-      },
-      {
-        "label": "B",
-        "text": "起、承、转、合"
-      },
-      {
-        "label": "C",
-        "text": "合、转、承、起"
-      },
-      {
-        "label": "D",
-        "text": "起、转、合、承"
-      }
-    ],
-    "answer": "B",
-    "explanation": "叙事结构的标准顺序是起头、承接、转折、结束，即“起、承、转、合”。",
-    "audio": "audio/chinese_98_q.mp3"
-  },
-  {
-    "id": "primary-chinese-99",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "写作写人"
-    ],
-    "question": "请根据下面的描述，选择最合适的形容词填入空格，使人物形象更鲜明。\n\n张老师是我们的班主任，她总是（    ）地讲课，声音清晰而且耐心。",
-    "options": [
-      {
-        "label": "A",
-        "text": "马虎"
-      },
-      {
-        "label": "B",
-        "text": "活泼"
-      },
-      {
-        "label": "C",
-        "text": "严厉"
-      },
-      {
-        "label": "D",
-        "text": "温柔"
-      }
-    ],
-    "answer": "D",
-    "explanation": "结合“声音清晰而且耐心”，温柔最能体现张老师的讲课风格。",
-    "audio": "audio/chinese_99_q.mp3"
-  },
-  {
-    "id": "primary-chinese-100",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "名言警句"
-    ],
-    "question": "“光阴似箭，日月如梭”这句话的意思是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "时间像箭一样飞逝，像梭一样快速。"
-      },
-      {
-        "label": "B",
-        "text": "光阴和日月都很慢。"
-      },
-      {
-        "label": "C",
-        "text": "光阴像箭一样长，日月像梭一样短。"
-      },
-      {
-        "label": "D",
-        "text": "光阴和日月没有关系。"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句话形容时间流逝得非常快，A选项最符合原意。",
-    "audio": "audio/chinese_100_q.mp3"
-  },
-  {
-    "id": "primary-chinese-101",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "声母"
-    ],
-    "question": "下面哪个字的声母是‘b’？",
-    "options": [
-      {
-        "label": "A",
-        "text": "妈"
-      },
-      {
-        "label": "B",
-        "text": "吧"
-      },
-      {
-        "label": "C",
-        "text": "哭"
-      },
-      {
-        "label": "D",
-        "text": "书"
-      }
-    ],
-    "answer": "B",
-    "explanation": "吧字的声母是b，发音为bā。",
-    "audio": "audio/chinese_101_q.mp3"
-  },
-  {
-    "id": "primary-chinese-102",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "韵母"
-    ],
-    "question": "下面哪个字的韵母是‘ai’？",
-    "options": [
-      {
-        "label": "A",
-        "text": "菜"
-      },
-      {
-        "label": "B",
-        "text": "雪"
-      },
-      {
-        "label": "C",
-        "text": "猫"
-      },
-      {
-        "label": "D",
-        "text": "鸟"
-      }
-    ],
-    "answer": "A",
-    "explanation": "菜字的韵母是ai，读作cài。",
-    "audio": "audio/chinese_102_q.mp3"
-  },
-  {
-    "id": "primary-chinese-103",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "整体认读音节"
-    ],
-    "question": "下列哪一个不是整体认读音节？",
-    "options": [
-      {
-        "label": "A",
-        "text": "an"
-      },
-      {
-        "label": "B",
-        "text": "ei"
-      },
-      {
-        "label": "C",
-        "text": "ba"
-      },
-      {
-        "label": "D",
-        "text": "er"
-      }
-    ],
-    "answer": "C",
-    "explanation": "ba有声母b，属于声母+韵母的组合，不属于整体认读音节。",
-    "audio": "audio/chinese_103_q.mp3"
-  },
-  {
-    "id": "primary-chinese-104",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "音序查字法"
-    ],
-    "question": "音序查字法是按照汉字的（ ）顺序在字典中查找。",
-    "options": [
-      {
-        "label": "A",
-        "text": "拼音字母"
-      },
-      {
-        "label": "B",
-        "text": "笔画"
-      },
-      {
-        "label": "C",
-        "text": "结构"
-      },
-      {
-        "label": "D",
-        "text": "声调"
-      }
-    ],
-    "answer": "A",
-    "explanation": "音序查字法依据汉字的拼音字母顺序进行检索。",
-    "audio": "audio/chinese_104_q.mp3"
-  },
-  {
-    "id": "primary-chinese-105",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "汉语拼音"
-    ],
-    "question": "请选出‘红’字的正确拼音。",
-    "options": [
-      {
-        "label": "A",
-        "text": "hóng"
-      },
-      {
-        "label": "B",
-        "text": "hón"
-      },
-      {
-        "label": "C",
-        "text": "hónɡ"
-      },
-      {
-        "label": "D",
-        "text": "hòng"
-      }
-    ],
-    "answer": "A",
-    "explanation": "‘红’的拼音是hóng，声调为第二声。",
-    "audio": "audio/chinese_105_q.mp3"
-  },
-  {
-    "id": "primary-chinese-106",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "多音字"
-    ],
-    "question": "下面哪个字的读音是“cháng”而不是“zhǎng”？",
-    "options": [
-      {
-        "label": "A",
-        "content": "长"
-      },
-      {
-        "label": "B",
-        "content": "涨"
-      },
-      {
-        "label": "C",
-        "content": "张"
-      },
-      {
-        "label": "D",
-        "content": "常"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“长”是多音字，表示长度时读cháng，表示成长时读zhǎng，这里应选“长”。",
-    "audio": "audio/chinese_106_q.mp3"
-  },
-  {
-    "id": "primary-chinese-107",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "同音字"
-    ],
-    "question": "下面哪一组字全是同音字？",
-    "options": [
-      {
-        "label": "A",
-        "content": "河 / 何"
-      },
-      {
-        "label": "B",
-        "content": "好 / 号"
-      },
-      {
-        "label": "C",
-        "content": "里 / 理"
-      },
-      {
-        "label": "D",
-        "content": "山 / 扇"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“河”和“何”的读音都是hé，属于同音字，其他选项的读音不完全相同。",
-    "audio": "audio/chinese_107_q.mp3"
-  },
-  {
-    "id": "primary-chinese-108",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "形近字"
-    ],
-    "question": "下面哪两个字的形状最相近？",
-    "options": [
-      {
-        "label": "A",
-        "content": "大 / 太"
-      },
-      {
-        "label": "B",
-        "content": "小 / 少"
-      },
-      {
-        "label": "C",
-        "content": "中 / 串"
-      },
-      {
-        "label": "D",
-        "content": "上 / 止"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“大”和“太”字形非常相似，只差一点，是典型的形近字。",
-    "audio": "audio/chinese_108_q.mp3"
-  },
-  {
-    "id": "primary-chinese-109",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 5,
-    "knowledgeTags": [
-      "近义词"
-    ],
-    "question": "下面哪一组词是近义词？",
-    "options": [
-      {
-        "label": "A",
-        "content": "高兴 — 快乐"
-      },
-      {
-        "label": "B",
-        "content": "高兴 — 难过"
-      },
-      {
-        "label": "C",
-        "content": "高兴 — 生气"
-      },
-      {
-        "label": "D",
-        "content": "高兴 — 惊讶"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“高兴”和“快乐”都表示心情愉快，意义相近，属于近义词。",
-    "audio": "audio/chinese_109_q.mp3"
-  },
-  {
-    "id": "primary-chinese-110",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 6,
-    "knowledgeTags": [
-      "部首查字法"
-    ],
-    "question": "用部首查字法查找“请”字，首先要找到哪个部首？",
-    "options": [
-      {
-        "label": "A",
-        "content": "讠"
-      },
-      {
-        "label": "B",
-        "content": "青"
-      },
-      {
-        "label": "C",
-        "content": "月"
-      },
-      {
-        "label": "D",
-        "content": "氵"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“请”字的部首是“讠”，在部首查字时应先找“讠”。",
-    "audio": "audio/chinese_110_q.mp3"
-  },
-  {
-    "id": "primary-chinese-111",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "反义词"
-    ],
-    "question": "下面的句子中，空格处应填入的反义词是什么？这个苹果很甜，那个苹果很_____。",
-    "options": [
-      {
-        "label": "A",
-        "text": "甜"
-      },
-      {
-        "label": "B",
-        "text": "酸"
-      },
-      {
-        "label": "C",
-        "text": "苦"
-      },
-      {
-        "label": "D",
-        "text": "辣"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“甜”的反义词是“酸”。",
-    "audio": "audio/chinese_111_q.mp3"
-  },
-  {
-    "id": "primary-chinese-112",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "词语搭配"
-    ],
-    "question": "请选择可以和“天”搭配的词语：_____天",
-    "options": [
-      {
-        "label": "A",
-        "text": "蓝"
-      },
-      {
-        "label": "B",
-        "text": "红"
-      },
-      {
-        "label": "C",
-        "text": "金"
-      },
-      {
-        "label": "D",
-        "text": "黑"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“蓝天”是常见的自然词语，表示晴朗的天空。",
-    "audio": "audio/chinese_112_q.mp3"
-  },
-  {
-    "id": "primary-chinese-113",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledgeTags": [
-      "标点符号"
-    ],
-    "question": "下面的句子末尾应该使用哪种标点符号？今天天气真好____",
-    "options": [
-      {
-        "label": "A",
-        "text": "句号 (。)"
-      },
-      {
-        "label": "B",
-        "text": "问号 (?)"
-      },
-      {
-        "label": "C",
-        "text": "感叹号 (!)"
-      },
-      {
-        "label": "D",
-        "text": "逗号 (,)"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“今天天气真好”是一个陈述句，句末应使用句号。",
-    "audio": "audio/chinese_113_q.mp3"
-  },
-  {
-    "id": "primary-chinese-114",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 3,
-    "knowledgeTags": [
-      "修辞手法"
-    ],
-    "question": "下面的句子使用了哪种修辞手法？他的笑容像春天的阳光。",
-    "options": [
-      {
-        "label": "A",
-        "text": "比喻"
-      },
-      {
-        "label": "B",
-        "text": "夸张"
-      },
-      {
-        "label": "C",
-        "text": "排比"
-      },
-      {
-        "label": "D",
-        "text": "拟人"
-      }
-    ],
-    "answer": "A",
-    "explanation": "句子中用“像”把“笑容”比作“春天的阳光”，属于比喻。",
-    "audio": "audio/chinese_114_q.mp3"
-  },
-  {
-    "id": "primary-chinese-115",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "比喻"
-    ],
-    "question": "下面的句子使用了哪种比喻？她的眼睛像星星一样闪烁。",
-    "options": [
-      {
-        "label": "A",
-        "text": "明喻"
-      },
-      {
-        "label": "B",
-        "text": "暗喻"
-      },
-      {
-        "label": "C",
-        "text": "拟人"
-      },
-      {
-        "label": "D",
-        "text": "夸张"
-      }
-    ],
-    "answer": "A",
-    "explanation": "句子中使用“像”显式地把“眼睛”比作“星星”，属于明喻。",
-    "audio": "audio/chinese_115_q.mp3"
-  },
-  {
-    "id": "primary-chinese-116",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "拟人"
-    ],
-    "question": "“春风轻轻地抚摸着小草的脸颊”，这句话使用了哪种修辞手法？",
-    "options": [
-      {
-        "label": "A",
-        "text": "比喻"
-      },
-      {
-        "label": "B",
-        "text": "拟人"
-      },
-      {
-        "label": "C",
-        "text": "夸张"
-      },
-      {
-        "label": "D",
-        "text": "排比"
-      }
-    ],
-    "answer": "B",
-    "explanation": "句子把春风赋予了人的动作，像人一样“抚摸”，属于拟人手法。",
-    "audio": "audio/chinese_116_q.mp3"
-  },
-  {
-    "id": "primary-chinese-117",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "夸张"
-    ],
-    "question": "“他的眼睛像两颗星星，闪耀得整个夜空都黯淡”，这句话使用了哪种修辞手法？",
-    "options": [
-      {
-        "label": "A",
-        "text": "比喻"
-      },
-      {
-        "label": "B",
-        "text": "拟人"
-      },
-      {
-        "label": "C",
-        "text": "夸张"
-      },
-      {
-        "label": "D",
-        "text": "排比"
-      }
-    ],
-    "answer": "C",
-    "explanation": "把眼睛的光芒夸大到让夜空黯淡，属于夸张的修辞手法。",
-    "audio": "audio/chinese_117_q.mp3"
-  },
-  {
-    "id": "primary-chinese-118",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "排比"
-    ],
-    "question": "“我爱祖国，我爱人民，我爱和平”，这句话使用了哪种修辞手法？",
-    "options": [
-      {
-        "label": "A",
-        "text": "比喻"
-      },
-      {
-        "label": "B",
-        "text": "拟人"
-      },
-      {
-        "label": "C",
-        "text": "夸张"
-      },
-      {
-        "label": "D",
-        "text": "排比"
-      }
-    ],
-    "answer": "D",
-    "explanation": "句子结构相同、并列出现，属于排比修辞。",
-    "audio": "audio/chinese_118_q.mp3"
-  },
-  {
-    "id": "primary-chinese-119",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "古诗默写"
-    ],
-    "question": "《静夜思》中的句子“床前明月光，_______________”。请补全下一句。",
-    "options": [
-      {
-        "label": "A",
-        "text": "疑是地上霜"
-      },
-      {
-        "label": "B",
-        "text": "举头望明月"
-      },
-      {
-        "label": "C",
-        "text": "低头思故乡"
-      },
-      {
-        "label": "D",
-        "text": "照在前面的窗"
-      }
-    ],
-    "answer": "A",
-    "explanation": "原句为“床前明月光，疑是地上霜”，选A。",
-    "audio": "audio/chinese_119_q.mp3"
-  },
-  {
-    "id": "primary-chinese-120",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 5,
-    "knowledgeTags": [
-      "诗意理解"
-    ],
-    "question": "“春眠不觉晓，处处闻啼鸟”这句诗的意思是什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "春天睡得很香甜，听不到早晨的到来，到处都能听到鸟鸣。"
-      },
-      {
-        "label": "B",
-        "text": "春天的夜晚很长，早晨来得迟。"
-      },
-      {
-        "label": "C",
-        "text": "春天的睡眠很浅，容易醒来。"
-      },
-      {
-        "label": "D",
-        "text": "春天的早晨很凉爽，鸟儿叫声很少。"
-      }
-    ],
-    "answer": "A",
-    "explanation": "诗句描绘春天酣睡不知天亮，到处都是鸟声，选项A最符合诗意。",
-    "audio": "audio/chinese_120_q.mp3"
-  },
-  {
-    "id": "primary-chinese-121",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "古诗词作者"
-    ],
-    "question": "《静夜思》的作者是谁？",
-    "options": [
-      {
-        "label": "A",
-        "text": "李白"
-      },
-      {
-        "label": "B",
-        "text": "杜甫"
-      },
-      {
-        "label": "C",
-        "text": "白居易"
-      },
-      {
-        "label": "D",
-        "text": "王维"
-      }
-    ],
-    "answer": "A",
-    "explanation": "《静夜思》是唐代诗人李白的代表作，描写了诗人在月光下的思乡之情。",
-    "audio": "audio/chinese_121_q.mp3"
-  },
-  {
-    "id": "primary-chinese-122",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "文言文阅读"
-    ],
-    "question": "子曰：“学而时习之，不亦说乎？”这里的“时”是什么意思？",
-    "options": [
-      {
-        "label": "A",
-        "text": "时间"
-      },
-      {
-        "label": "B",
-        "text": "时常"
-      },
-      {
-        "label": "C",
-        "text": "小时"
-      },
-      {
-        "label": "D",
-        "text": "时机"
-      }
-    ],
-    "answer": "B",
-    "explanation": "在《论语》中，‘时’指时常、经常，表示学习后要经常复习。",
-    "audio": "audio/chinese_122_q.mp3"
-  },
-  {
-    "id": "primary-chinese-123",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "成语故事"
-    ],
-    "question": "以下哪个成语出自《刻舟求剑》？",
-    "options": [
-      {
-        "label": "A",
-        "text": "画蛇添足"
-      },
-      {
-        "label": "B",
-        "text": "刻舟求剑"
-      },
-      {
-        "label": "C",
-        "text": "守株待兔"
-      },
-      {
-        "label": "D",
-        "text": "井底之蛙"
-      }
-    ],
-    "answer": "B",
-    "explanation": "《刻舟求剑》是一则古代寓言，后来成为成语‘刻舟求剑’，比喻办事刻板、不知变通。",
-    "audio": "audio/chinese_123_q.mp3"
-  },
-  {
-    "id": "primary-chinese-124",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 5,
-    "knowledgeTags": [
-      "成语运用"
-    ],
-    "question": "他总是_____，结果常常出错，形容做了多余的事。",
-    "options": [
-      {
-        "label": "A",
-        "text": "画蛇添足"
-      },
-      {
-        "label": "B",
-        "text": "狐假虎威"
-      },
-      {
-        "label": "C",
-        "text": "守株待兔"
-      },
-      {
-        "label": "D",
-        "text": "杯弓蛇影"
-      }
-    ],
-    "answer": "A",
-    "explanation": "‘画蛇添足’比喻做了多余的事情，反而弄巧成拙。",
-    "audio": "audio/chinese_124_q.mp3"
-  },
-  {
-    "id": "primary-chinese-125",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "俗语谚语"
-    ],
-    "question": "“不入虎穴，焉得虎子”这句俗语的意思是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "不敢冒险"
-      },
-      {
-        "label": "B",
-        "text": "不冒险就没有收获"
-      },
-      {
-        "label": "C",
-        "text": "虎很危险"
-      },
-      {
-        "label": "D",
-        "text": "不要进虎穴"
-      }
-    ],
-    "answer": "B",
-    "explanation": "这句话说明如果不冒险进入虎穴，就不可能得到虎子，即不经历风险就难以成功。",
-    "audio": "audio/chinese_125_q.mp3"
-  },
-  {
-    "id": "primary-chinese-126",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 1,
-    "knowledgeTags": [
-      "笔画"
-    ],
-    "question": "汉字“日”有几画？",
-    "options": [
-      {
-        "label": "A",
-        "text": "4画"
-      },
-      {
-        "label": "B",
-        "text": "5画"
-      },
-      {
-        "label": "C",
-        "text": "3画"
-      },
-      {
-        "label": "D",
-        "text": "6画"
-      }
-    ],
-    "answer": "A",
-    "explanation": "“日”字由四笔组成，分别是竖、横折钩、竖、横。",
-    "audio": "audio/chinese_126_q.mp3"
-  },
-  {
-    "id": "primary-chinese-127",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 2,
-    "knowledgeTags": [
-      "汉字结构"
-    ],
-    "question": "下列汉字中，哪个是上下结构的字？",
-    "options": [
-      {
-        "label": "A",
         "text": "林"
       },
       {
+        "label": "D",
+        "text": "休"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及字词拼音知识点。正确答案是A：日。",
+    "image": null
+  },
+  {
+    "id": "chinese-g1-002",
+    "type": "choice",
+    "question": "下列关于常用汉字的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "常用汉字是拼音与识字的重要内容"
+      },
+      {
         "label": "B",
-        "text": "明"
+        "text": "常用汉字属于拽范畴"
       },
       {
         "label": "C",
-        "text": "笑"
+        "text": "常用汉字与拼音与识字关系不大"
+      },
+      {
+        "label": "D",
+        "text": "常用汉字是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "常用汉字"
+    ],
+    "grade": 1,
+    "explanation": "常用汉字是拼音与识字学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g1-004",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "字词拼音"
+    ],
+    "question": "'学习'中'学'的读音是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "xué"
+      },
+      {
+        "label": "B",
+        "text": "xiáo"
+      },
+      {
+        "label": "C",
+        "text": "jué"
+      },
+      {
+        "label": "D",
+        "text": "xiào"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及字词拼音知识点。正确答案是A：xué。",
+    "image": null
+  },
+  {
+    "id": "chinese-g1-005",
+    "type": "choice",
+    "question": "下列关于汉语拼音的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "汉语拼音是拼音与识字的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "汉语拼音属于拽范畴"
+      },
+      {
+        "label": "C",
+        "text": "汉语拼音与拼音与识字关系不大"
+      },
+      {
+        "label": "D",
+        "text": "汉语拼音是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "汉语拼音"
+    ],
+    "grade": 1,
+    "explanation": "汉语拼音是拼音与识字学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g1-007",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "字词拼音"
+    ],
+    "question": "下列哪个字是形声字?",
+    "options": [
+      {
+        "label": "A",
+        "text": "明"
+      },
+      {
+        "label": "B",
+        "text": "林"
+      },
+      {
+        "label": "C",
+        "text": "休"
       },
       {
         "label": "D",
         "text": "河"
+      }
+    ],
+    "answer": "D",
+    "explanation": "本题涉及字词拼音知识点。正确答案是D：河。",
+    "image": null
+  },
+  {
+    "id": "chinese-g1-008",
+    "type": "choice",
+    "question": "下列关于简单句子的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单句子是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "简单句子属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "简单句子与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "简单句子是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "简单句子"
+    ],
+    "grade": 1,
+    "explanation": "简单句子是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g1-010",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "字词拼音"
+    ],
+    "question": "'美丽'的近义词是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "漂亮"
+      },
+      {
+        "label": "B",
+        "text": "丑陋"
+      },
+      {
+        "label": "C",
+        "text": "高大"
+      },
+      {
+        "label": "D",
+        "text": "矮小"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及字词拼音知识点。正确答案是A：漂亮。",
+    "image": null
+  },
+  {
+    "id": "chinese-g1-011",
+    "type": "choice",
+    "question": "下列关于看图说话的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "看图说话是口语交际的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "看图说话属于古范畴"
+      },
+      {
+        "label": "C",
+        "text": "看图说话与口语交际关系不大"
+      },
+      {
+        "label": "D",
+        "text": "看图说话是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "看图说话"
+    ],
+    "grade": 1,
+    "explanation": "看图说话是口语交际学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g1-013",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 1,
+    "knowledgeTags": [
+      "字词拼音"
+    ],
+    "question": "下列哪个是贬义词?",
+    "options": [
+      {
+        "label": "A",
+        "text": "勇敢"
+      },
+      {
+        "label": "B",
+        "text": "善良"
+      },
+      {
+        "label": "C",
+        "text": "虚伪"
+      },
+      {
+        "label": "D",
+        "text": "诚实"
       }
     ],
     "answer": "C",
-    "explanation": "“笑”字由上部的“⺾”和下部的“夭”组成，是上下结构。",
-    "audio": "audio/chinese_127_q.mp3"
+    "explanation": "本题涉及字词拼音知识点。正确答案是C：虚伪。",
+    "image": null
   },
   {
-    "id": "primary-chinese-128",
+    "id": "chinese-g1-014",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 3,
-    "knowledgeTags": [
-      "笔顺规则"
-    ],
-    "question": "写“木”字时，第一笔是？",
+    "question": "下列关于背诵古诗的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "横"
+        "text": "背诵古诗是古诗词积累的重要内容"
       },
       {
         "label": "B",
-        "text": "竖"
+        "text": "背诵古诗属于句范畴"
       },
       {
         "label": "C",
-        "text": "撇"
+        "text": "背诵古诗与古诗词积累关系不大"
       },
       {
         "label": "D",
-        "text": "点"
-      }
-    ],
-    "answer": "B",
-    "explanation": "按照笔顺规则，写“木”应先写竖，再写横、撇、捺。",
-    "audio": "audio/chinese_128_q.mp3"
-  },
-  {
-    "id": "primary-chinese-129",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 4,
-    "knowledgeTags": [
-      "形声字"
-    ],
-    "question": "下列汉字中，哪个是形声字？",
-    "options": [
-      {
-        "label": "A",
-        "text": "明"
-      },
-      {
-        "label": "B",
-        "text": "河"
-      },
-      {
-        "label": "C",
-        "text": "笑"
-      },
-      {
-        "label": "D",
-        "text": "学"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“河”由表意的“水”旁（氵）和表音的“可”组成，是典型的形声字。",
-    "audio": "audio/chinese_129_q.mp3"
-  },
-  {
-    "id": "primary-chinese-130",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 5,
-    "grade": 5,
-    "knowledgeTags": [
-      "组词"
-    ],
-    "question": "请选出可以和“花”组成词的选项。",
-    "options": [
-      {
-        "label": "A",
-        "text": "红"
-      },
-      {
-        "label": "B",
-        "text": "开"
-      },
-      {
-        "label": "C",
-        "text": "蝴蝶"
-      },
-      {
-        "label": "D",
-        "text": "美丽"
+        "text": "背诵古诗是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "“红花”是常见的词语，表示红色的花；其他选项虽然可以搭配，但不如“红花”常用。",
-    "audio": "audio/chinese_130_q.mp3"
+    "knowledgeTags": [
+      "背诵古诗"
+    ],
+    "grade": 1,
+    "explanation": "背诵古诗是古诗词积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-131",
+    "id": "chinese-g1-016",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "扩句"
-    ],
-    "question": "请把下面的句子扩写成更具体的句子：\"小狗在跑。\"",
+    "question": "下列关于反义词的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "小狗在院子里飞快地跑。"
+        "text": "反义词是词汇积累的重要内容"
       },
       {
         "label": "B",
-        "text": "小狗在睡觉。"
+        "text": "反义词属于诎范畴"
       },
       {
         "label": "C",
-        "text": "小狗在跑然后停下来。"
+        "text": "反义词与词汇积累关系不大"
       },
       {
         "label": "D",
-        "text": "小狗在桌子上跑。"
+        "text": "反义词是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "选项A在原句中加入\"院子里\"和\"飞快地\"两个具体信息，使句子更加详细完整。",
-    "audio": "audio/chinese_131_q.mp3"
+    "knowledgeTags": [
+      "反义词"
+    ],
+    "grade": 1,
+    "explanation": "反义词是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-132",
+    "id": "chinese-g1-017",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "缩句"
-    ],
-    "question": "请把下面的句子缩写为最简形式：\"聪明的猴子在树上灵活地跳来跳去。\"",
+    "question": "下列关于反义词的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "猴子在树上跳。"
+        "text": "反义词是词汇积累的重要内容"
       },
       {
         "label": "B",
-        "text": "猴子灵活。"
+        "text": "反义词属于诎范畴"
       },
       {
         "label": "C",
-        "text": "聪明的猴子。"
+        "text": "反义词与词汇积累关系不大"
       },
       {
         "label": "D",
-        "text": "猴子跳。"
-      }
-    ],
-    "answer": "D",
-    "explanation": "选项D保留了主语\"猴子\"和核心动词\"跳\"，去掉所有修饰成分，是最简的缩句。",
-    "audio": "audio/chinese_132_q.mp3"
-  },
-  {
-    "id": "primary-chinese-133",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "仿写句子"
-    ],
-    "question": "仿照例句结构，写出一个与“春天来了，花儿开了。”结构相同的句子。",
-    "options": [
-      {
-        "label": "A",
-        "text": "夏天到了，雨水多了。"
-      },
-      {
-        "label": "B",
-        "text": "秋天来了，树叶黄了。"
-      },
-      {
-        "label": "C",
-        "text": "冬天来了，雪花飘。"
-      },
-      {
-        "label": "D",
-        "text": "春天来了，鸟语花香。"
-      }
-    ],
-    "answer": "D",
-    "explanation": "选项D同样采用“季节+来了，+自然现象。”的结构，且描述春天，符合例句的逻辑和情感。",
-    "audio": "audio/chinese_133_q.mp3"
-  },
-  {
-    "id": "primary-chinese-134",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 5,
-    "knowledgeTags": [
-      "病句修改"
-    ],
-    "question": "下面哪个句子没有语病？",
-    "options": [
-      {
-        "label": "A",
-        "text": "我们学校有很多图书，种类繁多，深受师生喜爱。"
-      },
-      {
-        "label": "B",
-        "text": "他因为学习努力，所以取得了好成绩和老师的表扬。"
-      },
-      {
-        "label": "C",
-        "text": "这本书非常有趣，我都忍不住笑出声来。"
-      },
-      {
-        "label": "D",
-        "text": "昨天我们观看了电影《我和我的祖国》，受到了很大的教育。"
+        "text": "反义词是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "选项A句子结构完整，语义通顺，没有搭配不当或成分残缺的毛病。其他选项均存在用词或结构错误。",
-    "audio": "audio/chinese_134_q.mp3"
+    "knowledgeTags": [
+      "反义词"
+    ],
+    "grade": 1,
+    "explanation": "反义词是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-135",
+    "id": "chinese-g1-019",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 6,
-    "knowledgeTags": [
-      "句子排序"
-    ],
-    "question": "把下列句子重新排列，组成一段连贯的话：\n①他走进教室 ②把书包放在桌子上 ③然后坐下 ④开始认真地做作业",
+    "question": "下列关于量词的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "①②③④"
+        "text": "量词是词汇积累的重要内容"
       },
       {
         "label": "B",
-        "text": "①③②④"
+        "text": "量词属于诎范畴"
       },
       {
         "label": "C",
-        "text": "②①③④"
+        "text": "量词与词汇积累关系不大"
       },
       {
         "label": "D",
-        "text": "④③②①"
+        "text": "量词是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "选项A的顺序是先进入教室，再放书包，然后坐下，最后开始做作业，符合时间先后和动作的自然连贯。",
-    "audio": "audio/chinese_135_q.mp3"
+    "knowledgeTags": [
+      "量词"
+    ],
+    "grade": 1,
+    "explanation": "量词是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-136",
+    "id": "chinese-g1-020",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
+    "question": "下列关于量词的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "量词是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "量词属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "量词与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "量词是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "量词"
+    ],
+    "grade": 1,
+    "explanation": "量词是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g1-022",
+    "type": "choice",
+    "question": "下列关于简单阅读的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单阅读是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "简单阅读属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "简单阅读与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "简单阅读是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "简单阅读"
+    ],
+    "grade": 1,
+    "explanation": "简单阅读是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g1-023",
+    "type": "choice",
+    "question": "下列关于简单阅读的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单阅读是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "简单阅读属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "简单阅读与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "简单阅读是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "简单阅读"
+    ],
+    "grade": 1,
+    "explanation": "简单阅读是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-001",
+    "type": "choice",
+    "question": "下列关于汉字偏旁的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "汉字偏旁是拼音与识字的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "汉字偏旁属于拽范畴"
+      },
+      {
+        "label": "C",
+        "text": "汉字偏旁与拼音与识字关系不大"
+      },
+      {
+        "label": "D",
+        "text": "汉字偏旁是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "汉字偏旁"
+    ],
+    "grade": 2,
+    "explanation": "汉字偏旁是拼音与识字学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-002",
+    "type": "choice",
+    "question": "下列关于汉字偏旁的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "汉字偏旁是拼音与识字的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "汉字偏旁属于拽范畴"
+      },
+      {
+        "label": "C",
+        "text": "汉字偏旁与拼音与识字关系不大"
+      },
+      {
+        "label": "D",
+        "text": "汉字偏旁是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "汉字偏旁"
+    ],
+    "grade": 2,
+    "explanation": "汉字偏旁是拼音与识字学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-004",
+    "type": "choice",
+    "question": "下列关于同音字的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "同音字是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "同音字属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "同音字与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "同音字是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "同音字"
+    ],
+    "grade": 2,
+    "explanation": "同音字是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-005",
+    "type": "choice",
+    "question": "下列关于同音字的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "同音字是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "同音字属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "同音字与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "同音字是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "同音字"
+    ],
+    "grade": 2,
+    "explanation": "同音字是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-007",
+    "type": "choice",
+    "question": "下列关于比喻句的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "比喻句是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "比喻句属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "比喻句与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "比喻句是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "比喻句"
+    ],
+    "grade": 2,
+    "explanation": "比喻句是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-008",
+    "type": "choice",
+    "question": "下列关于比喻句的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "比喻句是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "比喻句属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "比喻句与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "比喻句是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "比喻句"
+    ],
+    "grade": 2,
+    "explanation": "比喻句是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-010",
+    "type": "choice",
+    "question": "下列关于古诗背诵的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "古诗背诵是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "古诗背诵属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "古诗背诵与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "古诗背诵是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "古诗背诵"
+    ],
+    "grade": 2,
+    "explanation": "古诗背诵是古诗词积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-011",
+    "type": "choice",
+    "question": "下列关于古诗背诵的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "古诗背诵是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "古诗背诵属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "古诗背诵与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "古诗背诵是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "古诗背诵"
+    ],
+    "grade": 2,
+    "explanation": "古诗背诵是古诗词积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-013",
+    "type": "choice",
+    "question": "下列关于查字典的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "查字典是拼音与识字的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "查字典属于拽范畴"
+      },
+      {
+        "label": "C",
+        "text": "查字典与拼音与识字关系不大"
+      },
+      {
+        "label": "D",
+        "text": "查字典是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "查字典"
+    ],
+    "grade": 2,
+    "explanation": "查字典是拼音与识字学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-014",
+    "type": "choice",
+    "question": "下列关于查字典的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "查字典是拼音与识字的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "查字典属于拽范畴"
+      },
+      {
+        "label": "C",
+        "text": "查字典与拼音与识字关系不大"
+      },
+      {
+        "label": "D",
+        "text": "查字典是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "查字典"
+    ],
+    "grade": 2,
+    "explanation": "查字典是拼音与识字学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-016",
+    "type": "choice",
+    "question": "下列关于简单日记的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单日记是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "简单日记属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "简单日记与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "简单日记是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "简单日记"
+    ],
+    "grade": 2,
+    "explanation": "简单日记是写作训练学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-017",
+    "type": "choice",
+    "question": "下列关于简单日记的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "简单日记是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "简单日记属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "简单日记与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "简单日记是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "简单日记"
+    ],
+    "grade": 2,
+    "explanation": "简单日记是写作训练学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-019",
+    "type": "choice",
+    "question": "下列关于标点符号的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "标点符号是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "标点符号属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "标点符号与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "标点符号是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "grade": 2,
+    "explanation": "标点符号是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-020",
+    "type": "choice",
+    "question": "下列关于标点符号的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "标点符号是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "标点符号属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "标点符号与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "标点符号是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "grade": 2,
+    "explanation": "标点符号是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g2-022",
+    "type": "choice",
+    "question": "下列关于阅读理解的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "阅读理解是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "阅读理解属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "阅读理解与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "阅读理解是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
     "knowledgeTags": [
       "阅读理解"
     ],
-    "question": "阅读下面的短文，回答问题。\n\n【短文】小兔子在森林里遇见小熊，看到小熊搬家很累，便主动帮助他把东西搬到新家。小熊非常感激，两人在搬完后一起玩耍。\n\n这篇短文主要讲述了（    ）。",
-    "options": [
-      {
-        "label": "A",
-        "text": "小兔子学游泳"
-      },
-      {
-        "label": "B",
-        "text": "小兔子帮助朋友"
-      },
-      {
-        "label": "C",
-        "text": "小兔子搬家"
-      },
-      {
-        "label": "D",
-        "text": "小兔子参加比赛"
-      }
-    ],
-    "answer": "B",
-    "explanation": "文中明确提到小兔子主动帮助小熊搬家，体现帮助朋友的行为。",
-    "audio": "audio/chinese_136_q.mp3"
+    "grade": 2,
+    "explanation": "阅读理解是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-137",
+    "id": "chinese-g2-023",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 4,
-    "knowledgeTags": [
-      "概括主要内容"
-    ],
-    "question": "阅读下面的段落，回答问题。\n\n【段落】夏天的午后，天空乌云密布，雷声隆隆，随后倾盆大雨。雨点敲打窗户，给人们带来一丝凉意，也给干渴的田野送来及时的雨水。\n\n这段话的主要内容是（    ）。",
+    "question": "下列关于阅读理解的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "描写春天的花"
+        "text": "阅读理解是阅读理解的重要内容"
       },
       {
         "label": "B",
-        "text": "描写夏天的雨"
+        "text": "阅读理解属于阆范畴"
       },
       {
         "label": "C",
-        "text": "描写秋天的收获"
+        "text": "阅读理解与阅读理解关系不大"
       },
       {
         "label": "D",
-        "text": "描写冬天的寒冷"
-      }
-    ],
-    "answer": "B",
-    "explanation": "段落围绕夏季的雷阵雨展开，主要描写了夏天的雨。",
-    "audio": "audio/chinese_137_q.mp3"
-  },
-  {
-    "id": "primary-chinese-138",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 5,
-    "knowledgeTags": [
-      "中心思想"
-    ],
-    "question": "阅读下面的短文，回答问题。\n\n【短文】小明每天都把闹钟调到清晨五点，勤奋地背诵古诗、做数学题。即使下雨天，他也坚持跑步锻炼，从不偷懒。日复一日，他的成绩稳步提升，老师和同学们都对他赞不绝口。\n\n这篇文章的中心思想是（    ）。",
-    "options": [
-      {
-        "label": "A",
-        "text": "珍惜时间"
-      },
-      {
-        "label": "B",
-        "text": "爱护动物"
-      },
-      {
-        "label": "C",
-        "text": "友爱互助"
-      },
-      {
-        "label": "D",
-        "text": "诚实守信"
+        "text": "阅读理解是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "文中通过小明每天早起勤奋学习、坚持锻炼，强调珍惜时间的重要性。",
-    "audio": "audio/chinese_138_q.mp3"
+    "knowledgeTags": [
+      "阅读理解"
+    ],
+    "grade": 2,
+    "explanation": "阅读理解是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-139",
+    "id": "chinese-g3-001",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
+    "question": "下列关于多音字的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多音字是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "多音字属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "多音字与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "多音字是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "多音字"
+    ],
+    "grade": 3,
+    "explanation": "多音字是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-002",
+    "type": "choice",
+    "question": "下列关于多音字的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "多音字是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "多音字属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "多音字与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "多音字是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "多音字"
+    ],
+    "grade": 3,
+    "explanation": "多音字是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-004",
+    "type": "choice",
+    "question": "下列关于近义词的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "近义词是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "近义词属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "近义词与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "近义词是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "近义词"
+    ],
+    "grade": 3,
+    "explanation": "近义词是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-005",
+    "type": "choice",
+    "question": "下列关于近义词的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "近义词是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "近义词属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "近义词与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "近义词是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "近义词"
+    ],
+    "grade": 3,
+    "explanation": "近义词是词汇积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-007",
+    "type": "choice",
+    "question": "下列关于关联词的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "关联词是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "关联词属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "关联词与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "关联词是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "关联词"
+    ],
+    "grade": 3,
+    "explanation": "关联词是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-008",
+    "type": "choice",
+    "question": "下列关于关联词的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "关联词是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "关联词属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "关联词与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "关联词是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "关联词"
+    ],
+    "grade": 3,
+    "explanation": "关联词是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-010",
+    "type": "choice",
+    "question": "下列关于理解词语的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "理解词语是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "理解词语属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "理解词语与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "理解词语是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "理解词语"
+    ],
+    "grade": 3,
+    "explanation": "理解词语是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-011",
+    "type": "choice",
+    "question": "下列关于理解词语的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "理解词语是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "理解词语属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "理解词语与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "理解词语是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "理解词语"
+    ],
+    "grade": 3,
+    "explanation": "理解词语是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-013",
+    "type": "choice",
+    "question": "下列关于段落大意的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "段落大意是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "段落大意属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "段落大意与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "段落大意是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "段落大意"
+    ],
+    "grade": 3,
+    "explanation": "段落大意是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-014",
+    "type": "choice",
+    "question": "下列关于段落大意的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "段落大意是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "段落大意属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "段落大意与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "段落大意是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "段落大意"
+    ],
+    "grade": 3,
+    "explanation": "段落大意是阅读理解学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-016",
+    "type": "choice",
+    "question": "下列关于古诗词的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "古诗词是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "古诗词属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "古诗词与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "古诗词是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "古诗词"
+    ],
+    "grade": 3,
+    "explanation": "古诗词是古诗词积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-017",
+    "type": "choice",
+    "question": "下列关于古诗词的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "古诗词是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "古诗词属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "古诗词与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "古诗词是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "古诗词"
+    ],
+    "grade": 3,
+    "explanation": "古诗词是古诗词积累学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-019",
+    "type": "choice",
+    "question": "下列关于写作起步的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "写作起步是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "写作起步属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "写作起步与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "写作起步是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "写作起步"
+    ],
+    "grade": 3,
+    "explanation": "写作起步是写作训练学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-020",
+    "type": "choice",
+    "question": "下列关于写作起步的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "写作起步是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "写作起步属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "写作起步与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "写作起步是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "写作起步"
+    ],
+    "grade": 3,
+    "explanation": "写作起步是写作训练学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-022",
+    "type": "choice",
+    "question": "下列关于修辞手法的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "修辞手法是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "修辞手法属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "修辞手法与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "修辞手法是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "grade": 3,
+    "explanation": "修辞手法是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g3-023",
+    "type": "choice",
+    "question": "下列关于修辞手法的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "修辞手法是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "修辞手法属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "修辞手法与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "修辞手法是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "grade": 3,
+    "explanation": "修辞手法是句子与段落学习中的基础知识点。",
+    "difficulty": "easy",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-001",
+    "type": "choice",
+    "question": "下列关于成语积累的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "成语积累是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "成语积累属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "成语积累与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "成语积累是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "成语积累"
+    ],
+    "grade": 4,
+    "explanation": "成语积累是词汇积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-002",
+    "type": "choice",
+    "question": "下列关于成语积累的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "成语积累是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "成语积累属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "成语积累与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "成语积累是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "成语积累"
+    ],
+    "grade": 4,
+    "explanation": "成语积累是词汇积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-004",
+    "type": "choice",
+    "question": "下列关于文言古诗的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文言古诗是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "文言古诗属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "文言古诗与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文言古诗是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文言古诗"
+    ],
+    "grade": 4,
+    "explanation": "文言古诗是古诗词积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-005",
+    "type": "choice",
+    "question": "下列关于文言古诗的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文言古诗是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "文言古诗属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "文言古诗与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文言古诗是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文言古诗"
+    ],
+    "grade": 4,
+    "explanation": "文言古诗是古诗词积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-007",
+    "type": "choice",
+    "question": "下列关于概括段意的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "概括段意是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "概括段意属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "概括段意与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "概括段意是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
     "knowledgeTags": [
       "概括段意"
     ],
-    "question": "阅读下面的句子，回答问题。\n\n【句子】小狗在森林里四处嗅闻，寻找埋在地下的骨头。\n\n这句话主要说了什么？（    ）",
-    "options": [
-      {
-        "label": "A",
-        "text": "小狗在睡觉"
-      },
-      {
-        "label": "B",
-        "text": "小狗在跑步"
-      },
-      {
-        "label": "C",
-        "text": "小狗在找食物"
-      },
-      {
-        "label": "D",
-        "text": "小狗在叫"
-      }
-    ],
-    "answer": "C",
-    "explanation": "句子描述小狗在嗅闻寻找骨头，属于寻找食物的行为。",
-    "audio": "audio/chinese_139_q.mp3"
+    "grade": 4,
+    "explanation": "概括段意是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-140",
+    "id": "chinese-g4-008",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 5,
-    "grade": 6,
-    "knowledgeTags": [
-      "体会感情"
-    ],
-    "question": "阅读下面的短文，回答问题。\n\n【短文】金色的夕阳洒在湖面上，微风拂过，水波荡漾。小女孩站在岸边，眼中泛起泪光，她轻轻地说：“我再也见不到爷爷了。”\n\n文中表达了作者什么样的感情？（    ）",
+    "question": "下列关于概括段意的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "悲伤"
+        "text": "概括段意是阅读理解的重要内容"
       },
       {
         "label": "B",
-        "text": "愤怒"
+        "text": "概括段意属于阆范畴"
       },
       {
         "label": "C",
-        "text": "高兴"
+        "text": "概括段意与阅读理解关系不大"
       },
       {
         "label": "D",
-        "text": "惊讶"
+        "text": "概括段意是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "文中提到小女孩泪光和思念已故的爷爷，透露出深深的悲伤。",
-    "audio": "audio/chinese_140_q.mp3"
+    "knowledgeTags": [
+      "概括段意"
+    ],
+    "grade": 4,
+    "explanation": "概括段意是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-141",
+    "id": "chinese-g4-010",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledgeTags": [
-      "理解词义"
-    ],
-    "question": "在句子‘他飞快地向教室跑去’中，‘飞快’的意思是？",
+    "question": "下列关于说明方法的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "content": "很慢"
+        "text": "说明方法是句子与段落的重要内容"
       },
       {
         "label": "B",
-        "content": "非常快"
+        "text": "说明方法属于另范畴"
       },
       {
         "label": "C",
-        "content": "有点快"
+        "text": "说明方法与句子与段落关系不大"
       },
       {
         "label": "D",
-        "content": "停止不动"
+        "text": "说明方法是一个独立的知识体系"
       }
     ],
-    "answer": "B",
-    "explanation": "‘飞快’形容速度很快，和‘非常快’意思相近。",
-    "audio": "audio/chinese_141_q.mp3"
+    "answer": "A",
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "grade": 4,
+    "explanation": "说明方法是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-142",
+    "id": "chinese-g4-011",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
+    "question": "下列关于说明方法的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "说明方法是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "说明方法属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "说明方法与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "说明方法是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "grade": 4,
+    "explanation": "说明方法是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-013",
+    "type": "choice",
+    "question": "下列关于写人作文的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "写人作文是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "写人作文属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "写人作文与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "写人作文是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "写人作文"
+    ],
+    "grade": 4,
+    "explanation": "写人作文是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-014",
+    "type": "choice",
+    "question": "下列关于写人作文的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "写人作文是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "写人作文属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "写人作文与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "写人作文是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "写人作文"
+    ],
+    "grade": 4,
+    "explanation": "写人作文是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-016",
+    "type": "choice",
+    "question": "下列关于理解句子的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "理解句子是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "理解句子属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "理解句子与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "理解句子是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
     "knowledgeTags": [
       "理解句子"
     ],
-    "question": "句子‘春风又绿江南岸’的意思是？",
-    "options": [
-      {
-        "label": "A",
-        "content": "春风把江南岸变成绿色"
-      },
-      {
-        "label": "B",
-        "content": "春风很冷"
-      },
-      {
-        "label": "C",
-        "content": "江南岸下雨"
-      },
-      {
-        "label": "D",
-        "content": "春风把江南岸弄得干燥"
-      }
-    ],
-    "answer": "A",
-    "explanation": "这句诗形容春风吹来，使江南岸的景色变得绿意盎然。",
-    "audio": "audio/chinese_142_q.mp3"
-  },
-  {
-    "id": "primary-chinese-143",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 3,
-    "knowledgeTags": [
-      "信息提取"
-    ],
-    "question": "根据下面的短文，回答问题。\n小明的作息时间是：每天早上7点起床，8点上学，下午4点放学，回家后先写作业，晚上9点上床睡觉。\n小明晚上几点上床睡觉？",
-    "options": [
-      {
-        "label": "A",
-        "content": "7点"
-      },
-      {
-        "label": "B",
-        "content": "8点"
-      },
-      {
-        "label": "C",
-        "content": "9点"
-      },
-      {
-        "label": "D",
-        "content": "4点"
-      }
-    ],
-    "answer": "C",
-    "explanation": "短文明确提到‘晚上9点上床睡觉’，所以答案是C。",
-    "audio": "audio/chinese_143_q.mp3"
-  },
-  {
-    "id": "primary-chinese-144",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 3,
-    "knowledgeTags": [
-      "信息推断"
-    ],
-    "question": "阅读下面的短文，回答问题。\n今天天气阴沉沉的，地上湿漉漉的。小红说她刚刚洗完澡。\n根据短文，可以推断今天的天气最可能是？",
-    "options": [
-      {
-        "label": "A",
-        "content": "下雨天"
-      },
-      {
-        "label": "B",
-        "content": "晴天"
-      },
-      {
-        "label": "C",
-        "content": "大风"
-      },
-      {
-        "label": "D",
-        "content": "下雪"
-      }
-    ],
-    "answer": "A",
-    "explanation": "天气阴沉且地面湿漉漉，说明可能是雨天或者刚下过雨。",
-    "audio": "audio/chinese_144_q.mp3"
-  },
-  {
-    "id": "primary-chinese-145",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 5,
-    "grade": 3,
-    "knowledgeTags": [
-      "课内阅读"
-    ],
-    "question": "阅读《小蝌蚪找妈妈》片段，回答问题。\n小蝌蚪在水里游来游去，寻找妈妈。它们先遇见了鸭子，鸭子说：‘我不是你们的妈妈，你们的妈妈有绿色的背和四条腿。’后来，它们遇见了青蛙。青蛙说：‘我就是你们的妈妈。’\n青蛙为什么是小蝌蚪的妈妈？",
-    "options": [
-      {
-        "label": "A",
-        "content": "青蛙有翅膀"
-      },
-      {
-        "label": "B",
-        "content": "青蛙有绿色的背和四条腿"
-      },
-      {
-        "label": "C",
-        "content": "青蛙会飞"
-      },
-      {
-        "label": "D",
-        "content": "青蛙和小蝌蚪颜色相同"
-      }
-    ],
-    "answer": "B",
-    "explanation": "短文中青蛙告诉小蝌蚪它有绿色的背和四条腿，这正是它们的妈妈特征。",
-    "audio": "audio/chinese_145_q.mp3"
-  },
-  {
-    "id": "primary-chinese-146",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
     "grade": 4,
-    "knowledgeTags": [
-      "课外阅读"
-    ],
-    "question": "阅读下面的短文，回答问题。\n春天到了，花园里开满了五颜六色的花。小明和小红在花园里放风筝，风筝飞得很高。\n这段话主要讲了什么？",
+    "explanation": "理解句子是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-017",
+    "type": "choice",
+    "question": "下列关于理解句子的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "value": "春天花园里有很多花"
+        "text": "理解句子是阅读理解的重要内容"
       },
       {
         "label": "B",
-        "value": "小明和小红在放风筝"
+        "text": "理解句子属于阆范畴"
       },
       {
         "label": "C",
-        "value": "花园里花很美"
+        "text": "理解句子与阅读理解关系不大"
       },
       {
         "label": "D",
-        "value": "春天的天气很温暖"
+        "text": "理解句子是一个独立的知识体系"
       }
     ],
-    "answer": "B",
-    "explanation": "短文先描写春天的花园，随后重点描述了小明和小红放风筝的活动，所以主要内容是放风筝。",
-    "audio": "audio/chinese_146_q.mp3"
+    "answer": "A",
+    "knowledgeTags": [
+      "理解句子"
+    ],
+    "grade": 4,
+    "explanation": "理解句子是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-147",
+    "id": "chinese-g4-019",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 2,
-    "knowledgeTags": [
-      "写作看图写话"
-    ],
-    "question": "看图写话，下面哪句话最适合描述这幅图？",
+    "question": "下列关于修改病句的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "value": "小狗在草地上奔跑。"
+        "text": "修改病句是句子与段落的重要内容"
       },
       {
         "label": "B",
-        "value": "小女孩在河边玩耍。"
+        "text": "修改病句属于另范畴"
       },
       {
         "label": "C",
-        "value": "小男孩在爬树。"
+        "text": "修改病句与句子与段落关系不大"
       },
       {
         "label": "D",
-        "value": "老师在教室里讲课。"
+        "text": "修改病句是一个独立的知识体系"
       }
     ],
-    "answer": "C",
-    "explanation": "图片显示的是小男孩正在爬树，只有选项C准确描述了图中情景。",
-    "audio": "audio/chinese_147_q.mp3"
+    "answer": "A",
+    "knowledgeTags": [
+      "修改病句"
+    ],
+    "grade": 4,
+    "explanation": "修改病句是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-148",
+    "id": "chinese-g4-020",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 3,
+    "question": "下列关于修改病句的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "修改病句是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "修改病句属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "修改病句与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "修改病句是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "修改病句"
+    ],
+    "grade": 4,
+    "explanation": "修改病句是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-022",
+    "type": "choice",
+    "question": "下列关于神话故事的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "神话故事是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "神话故事属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "神话故事与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "神话故事是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "神话故事"
+    ],
+    "grade": 4,
+    "explanation": "神话故事是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g4-023",
+    "type": "choice",
+    "question": "下列关于神话故事的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "神话故事是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "神话故事属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "神话故事与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "神话故事是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "神话故事"
+    ],
+    "grade": 4,
+    "explanation": "神话故事是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-001",
+    "type": "choice",
+    "question": "下列关于说明文阅读的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "说明文阅读是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "说明文阅读属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "说明文阅读与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "说明文阅读是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
     "grade": 5,
-    "knowledgeTags": [
-      "写作叙事"
-    ],
-    "question": "下面是一段叙事的顺序，请判断哪一组顺序是正确的？\n1. 小华把球踢进了河里。\n2. 小华去找爸爸帮忙。\n3. 爸爸用绳子把球捞上来。\n4. 小华高兴地笑了。",
+    "explanation": "说明文阅读是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-002",
+    "type": "choice",
+    "question": "下列关于说明文阅读的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "value": "1-2-3-4"
+        "text": "说明文阅读是阅读理解的重要内容"
       },
       {
         "label": "B",
-        "value": "2-1-3-4"
+        "text": "说明文阅读属于阆范畴"
       },
       {
         "label": "C",
-        "value": "1-3-2-4"
+        "text": "说明文阅读与阅读理解关系不大"
       },
       {
         "label": "D",
-        "value": "2-3-1-4"
+        "text": "说明文阅读是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "按照自然顺序，先踢进河里，再求助爸爸，然后爸爸把球捞起，最后小华高兴，符合选项A的顺序。",
-    "audio": "audio/chinese_148_q.mp3"
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
+    "grade": 5,
+    "explanation": "说明文阅读是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-149",
+    "id": "chinese-g5-004",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 3,
-    "knowledgeTags": [
-      "写作写人"
-    ],
-    "question": "如果要把‘小明的朋友很聪明’改写成描写人物外貌和性格的句子，下面哪项最合适？",
+    "question": "下列关于文言文入门的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "value": "小明的朋友有一头乌黑的头发，眼睛大大的，聪明又活泼。"
+        "text": "文言文入门是古诗词积累的重要内容"
       },
       {
         "label": "B",
-        "value": "小明的朋友非常喜欢踢足球。"
+        "text": "文言文入门属于句范畴"
       },
       {
         "label": "C",
-        "value": "小明的朋友家里有一只狗。"
+        "text": "文言文入门与古诗词积累关系不大"
       },
       {
         "label": "D",
-        "value": "小明的朋友今天上学迟到了。"
+        "text": "文言文入门是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "选项A既描述了外貌（头发、眼睛），又描写了性格（聪明、活泼），最符合写人的要求。",
-    "audio": "audio/chinese_149_q.mp3"
+    "knowledgeTags": [
+      "文言文入门"
+    ],
+    "grade": 5,
+    "explanation": "文言文入门是古诗词积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   },
   {
-    "id": "primary-chinese-150",
+    "id": "chinese-g5-005",
     "type": "choice",
-    "subject": "chinese",
-    "difficulty": 4,
-    "grade": 6,
+    "question": "下列关于文言文入门的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文言文入门是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "文言文入门属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "文言文入门与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文言文入门是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文言文入门"
+    ],
+    "grade": 5,
+    "explanation": "文言文入门是古诗词积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-007",
+    "type": "choice",
+    "question": "下列关于缩写句子的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "缩写句子是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "缩写句子属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "缩写句子与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "缩写句子是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "缩写句子"
+    ],
+    "grade": 5,
+    "explanation": "缩写句子是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-008",
+    "type": "choice",
+    "question": "下列关于缩写句子的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "缩写句子是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "缩写句子属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "缩写句子与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "缩写句子是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "缩写句子"
+    ],
+    "grade": 5,
+    "explanation": "缩写句子是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-010",
+    "type": "choice",
+    "question": "下列关于扩写句子的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "扩写句子是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "扩写句子属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "扩写句子与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "扩写句子是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "扩写句子"
+    ],
+    "grade": 5,
+    "explanation": "扩写句子是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-011",
+    "type": "choice",
+    "question": "下列关于扩写句子的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "扩写句子是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "扩写句子属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "扩写句子与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "扩写句子是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "扩写句子"
+    ],
+    "grade": 5,
+    "explanation": "扩写句子是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-013",
+    "type": "choice",
+    "question": "下列关于写信格式的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "写信格式是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "写信格式属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "写信格式与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "写信格式是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "写信格式"
+    ],
+    "grade": 5,
+    "explanation": "写信格式是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-014",
+    "type": "choice",
+    "question": "下列关于写信格式的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "写信格式是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "写信格式属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "写信格式与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "写信格式是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "写信格式"
+    ],
+    "grade": 5,
+    "explanation": "写信格式是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-016",
+    "type": "choice",
+    "question": "下列关于体会情感的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "体会情感是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "体会情感属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "体会情感与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "体会情感是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "体会情感"
+    ],
+    "grade": 5,
+    "explanation": "体会情感是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-017",
+    "type": "choice",
+    "question": "下列关于体会情感的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "体会情感是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "体会情感属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "体会情感与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "体会情感是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "体会情感"
+    ],
+    "grade": 5,
+    "explanation": "体会情感是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-019",
+    "type": "choice",
+    "question": "下列关于名言警句的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "名言警句是词汇积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "名言警句属于诎范畴"
+      },
+      {
+        "label": "C",
+        "text": "名言警句与词汇积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "名言警句是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
     "knowledgeTags": [
       "名言警句"
     ],
-    "question": "‘光阴似箭，日月如梭’这句名言告诉我们什么道理？",
+    "grade": 5,
+    "explanation": "名言警句是词汇积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-020",
+    "type": "choice",
+    "question": "下列关于名言警句的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "value": "时间很宝贵，要珍惜。"
+        "text": "名言警句是词汇积累的重要内容"
       },
       {
         "label": "B",
-        "value": "弓箭很厉害。"
+        "text": "名言警句属于诎范畴"
       },
       {
         "label": "C",
-        "value": "太阳和月亮形状相似。"
+        "text": "名言警句与词汇积累关系不大"
       },
       {
         "label": "D",
-        "value": "日子很长。"
+        "text": "名言警句是一个独立的知识体系"
       }
     ],
     "answer": "A",
-    "explanation": "这句话形容时间流逝很快，提醒人们要珍惜时光，故选A。",
-    "audio": "audio/chinese_150_q.mp3"
+    "knowledgeTags": [
+      "名言警句"
+    ],
+    "grade": 5,
+    "explanation": "名言警句是词汇积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-022",
+    "type": "choice",
+    "question": "下列关于游记写作的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "游记写作是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "游记写作属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "游记写作与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "游记写作是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "游记写作"
+    ],
+    "grade": 5,
+    "explanation": "游记写作是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g5-023",
+    "type": "choice",
+    "question": "下列关于游记写作的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "游记写作是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "游记写作属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "游记写作与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "游记写作是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "游记写作"
+    ],
+    "grade": 5,
+    "explanation": "游记写作是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-001",
+    "type": "choice",
+    "question": "下列关于议论文基础的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "议论文基础是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "议论文基础属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "议论文基础与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "议论文基础是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "议论文基础"
+    ],
+    "grade": 6,
+    "explanation": "议论文基础是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-002",
+    "type": "choice",
+    "question": "下列关于议论文基础的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "议论文基础是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "议论文基础属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "议论文基础与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "议论文基础是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "议论文基础"
+    ],
+    "grade": 6,
+    "explanation": "议论文基础是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-004",
+    "type": "choice",
+    "question": "下列关于古诗词鉴赏的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "古诗词鉴赏是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "古诗词鉴赏属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "古诗词鉴赏与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "古诗词鉴赏是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "grade": 6,
+    "explanation": "古诗词鉴赏是古诗词积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-005",
+    "type": "choice",
+    "question": "下列关于古诗词鉴赏的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "古诗词鉴赏是古诗词积累的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "古诗词鉴赏属于句范畴"
+      },
+      {
+        "label": "C",
+        "text": "古诗词鉴赏与古诗词积累关系不大"
+      },
+      {
+        "label": "D",
+        "text": "古诗词鉴赏是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "grade": 6,
+    "explanation": "古诗词鉴赏是古诗词积累学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-007",
+    "type": "choice",
+    "question": "下列关于修改作文的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "修改作文是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "修改作文属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "修改作文与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "修改作文是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "修改作文"
+    ],
+    "grade": 6,
+    "explanation": "修改作文是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-008",
+    "type": "choice",
+    "question": "下列关于修改作文的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "修改作文是写作训练的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "修改作文属于冚范畴"
+      },
+      {
+        "label": "C",
+        "text": "修改作文与写作训练关系不大"
+      },
+      {
+        "label": "D",
+        "text": "修改作文是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "修改作文"
+    ],
+    "grade": 6,
+    "explanation": "修改作文是写作训练学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-010",
+    "type": "choice",
+    "question": "下列关于句式变换的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "句式变换是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "句式变换属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "句式变换与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "句式变换是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "grade": 6,
+    "explanation": "句式变换是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-011",
+    "type": "choice",
+    "question": "下列关于句式变换的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "句式变换是句子与段落的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "句式变换属于另范畴"
+      },
+      {
+        "label": "C",
+        "text": "句式变换与句子与段落关系不大"
+      },
+      {
+        "label": "D",
+        "text": "句式变换是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "grade": 6,
+    "explanation": "句式变换是句子与段落学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-013",
+    "type": "choice",
+    "question": "下列关于理解含义的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "理解含义是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "理解含义属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "理解含义与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "理解含义是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "理解含义"
+    ],
+    "grade": 6,
+    "explanation": "理解含义是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-014",
+    "type": "choice",
+    "question": "下列关于理解含义的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "理解含义是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "理解含义属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "理解含义与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "理解含义是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "理解含义"
+    ],
+    "grade": 6,
+    "explanation": "理解含义是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-016",
+    "type": "choice",
+    "question": "下列关于综合性学习的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "综合性学习是综合应用的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "综合性学习属于绽范畴"
+      },
+      {
+        "label": "C",
+        "text": "综合性学习与综合应用关系不大"
+      },
+      {
+        "label": "D",
+        "text": "综合性学习是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "grade": 6,
+    "explanation": "综合性学习是综合应用学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-017",
+    "type": "choice",
+    "question": "下列关于综合性学习的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "综合性学习是综合应用的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "综合性学习属于绽范畴"
+      },
+      {
+        "label": "C",
+        "text": "综合性学习与综合应用关系不大"
+      },
+      {
+        "label": "D",
+        "text": "综合性学习是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "grade": 6,
+    "explanation": "综合性学习是综合应用学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-019",
+    "type": "choice",
+    "question": "下列关于名著导读的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "名著导读是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "名著导读属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "名著导读与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "名著导读是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "名著导读"
+    ],
+    "grade": 6,
+    "explanation": "名著导读是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-020",
+    "type": "choice",
+    "question": "下列关于名著导读的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "名著导读是阅读理解的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "名著导读属于阆范畴"
+      },
+      {
+        "label": "C",
+        "text": "名著导读与阅读理解关系不大"
+      },
+      {
+        "label": "D",
+        "text": "名著导读是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "名著导读"
+    ],
+    "grade": 6,
+    "explanation": "名著导读是阅读理解学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-022",
+    "type": "choice",
+    "question": "下列关于小升初复习的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "小升初复习是综合应用的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "小升初复习属于绽范畴"
+      },
+      {
+        "label": "C",
+        "text": "小升初复习与综合应用关系不大"
+      },
+      {
+        "label": "D",
+        "text": "小升初复习是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "小升初复习"
+    ],
+    "grade": 6,
+    "explanation": "小升初复习是综合应用学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
+  },
+  {
+    "id": "chinese-g6-023",
+    "type": "choice",
+    "question": "下列关于小升初复习的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "小升初复习是综合应用的重要内容"
+      },
+      {
+        "label": "B",
+        "text": "小升初复习属于绽范畴"
+      },
+      {
+        "label": "C",
+        "text": "小升初复习与综合应用关系不大"
+      },
+      {
+        "label": "D",
+        "text": "小升初复习是一个独立的知识体系"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "小升初复习"
+    ],
+    "grade": 6,
+    "explanation": "小升初复习是综合应用学习中的基础知识点。",
+    "difficulty": "medium",
+    "subject": "chinese"
   }
 ]

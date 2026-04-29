@@ -1,51 +1,67 @@
 {
-  "version": "20260415-1",
-  "updatedAt": "2026-04-15",
+  "section": "junior",
+  "questionBankVersion": "20260501-01",
+  "updatedAt": "2026-05-01",
   "subjects": {
+    "chinese": {
+      "file": "chinese.json",
+      "count": 529,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
+    },
     "math": {
       "file": "math.json",
-      "count": 319,
-      "version": "20260415-1"
+      "count": 638,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "english": {
       "file": "english.json",
-      "count": 511,
-      "version": "20260415-1"
-    },
-    "chinese": {
-      "file": "chinese.json",
-      "count": 400,
-      "version": "20260415-1"
+      "count": 1038,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "physics": {
       "file": "physics.json",
-      "count": 200,
-      "version": "20260415-1"
+      "count": 286,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "chemistry": {
       "file": "chemistry.json",
-      "count": 215,
-      "version": "20260415-1"
+      "count": 285,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "biology": {
       "file": "biology.json",
-      "count": 214,
-      "version": "20260415-1"
+      "count": 336,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "history": {
       "file": "history.json",
-      "count": 170,
-      "version": "20260415-1"
+      "count": 316,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "geography": {
       "file": "geography.json",
-      "count": 150,
-      "version": "20260415-1"
+      "count": 274,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "politics": {
       "file": "politics.json",
-      "count": 120,
-      "version": "20260415-1"
+      "count": 254,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
+    },
+    "science": {
+      "file": "science.json",
+      "count": 0,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     }
   }
 }

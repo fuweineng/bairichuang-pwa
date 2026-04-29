@@ -1,752 +1,3117 @@
 [
   {
-    "id": "physics-senior-high-1",
+    "id": "physics-g10-001",
     "type": "choice",
-    "question": "一物体从静止开始做匀加速直线运动，第3秒内的位移大小为15m，则该物体的加速度为多少m/s²？",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "欧姆定律"
+    ],
+    "question": "下列哪种属于光源?",
     "options": [
       {
         "label": "A",
-        "text": "2"
+        "text": "月亮"
       },
       {
         "label": "B",
-        "text": "3"
+        "text": "太阳"
       },
       {
         "label": "C",
-        "text": "4"
+        "text": "镜子"
       },
       {
         "label": "D",
-        "text": "5"
+        "text": "地球"
+      }
+    ],
+    "answer": "B",
+    "explanation": "I=U/R，电流与电压成正比，与电阻成反比。注意三个量的对应关系。正确答案是B：太阳。",
+    "image": "/questions/physics/img/physics-g10-001.svg"
+  },
+  {
+    "id": "physics-g10-002",
+    "type": "choice",
+    "question": "关于运动的描述的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "运动的描述是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "运动的描述属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "运动的描述与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "运动的描述很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "运动的描述"
+    ],
+    "grade": 10,
+    "explanation": "运动的描述是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-003",
+    "type": "choice",
+    "question": "分析运动的描述的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "运动的描述是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "运动的描述属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "运动的描述与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "运动的描述很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "运动的描述"
+    ],
+    "grade": 10,
+    "explanation": "运动的描述是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-007",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "欧姆定律"
+    ],
+    "question": "声音在哪种介质中传播最快?",
+    "options": [
+      {
+        "label": "A",
+        "text": "气体"
+      },
+      {
+        "label": "B",
+        "text": "液体"
+      },
+      {
+        "label": "C",
+        "text": "固体"
+      },
+      {
+        "label": "D",
+        "text": "真空"
       }
     ],
     "answer": "C",
-    "explanation": "第3秒内的位移等于前3秒位移减前2秒位移，即½a·9-½a·4=½a·5=15，解得a=6m/s²。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "运动学"
-    ]
+    "explanation": "I=U/R，电流与电压成正比，与电阻成反比。注意三个量的对应关系。正确答案是C：固体。",
+    "image": "/questions/physics/img/physics-g10-002.svg"
   },
   {
-    "id": "physics-senior-high-2",
+    "id": "physics-g10-008",
     "type": "choice",
-    "question": "质量为2kg的物体受到三个共点力作用而处于平衡状态，已知F1=5N方向向东，F2=8N方向向北，则F3的大小和方向分别为多少？",
+    "question": "关于匀变速直线运动的说法，正确的是？",
     "options": [
       {
         "label": "A",
-        "text": "5N向西"
+        "text": "匀变速直线运动是力学的基本内容"
       },
       {
         "label": "B",
-        "text": "√89N向西南"
+        "text": "匀变速直线运动属于力学的扩展"
       },
       {
         "label": "C",
-        "text": "√89N向东南"
+        "text": "匀变速直线运动与力学关系不大"
       },
       {
         "label": "D",
-        "text": "13N向西"
-      }
-    ],
-    "answer": "B",
-    "explanation": "由共点力平衡条件，F1+F2+F3=0，故F3=-(F1+F2)。F1+F2的合力的标量：√(5²+8²)=√89N，方向为北偏东arctan(5/8)。F3应为大小√89N，方向相反，即向西南。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "力的合成与分解"
-    ]
-  },
-  {
-    "id": "physics-senior-high-3",
-    "type": "choice",
-    "question": "一个质量为5kg的物体在水平地面上受水平拉力F=25N作用，由静止开始运动。已知物体与地面间的动摩擦因数μ=0.2，g=10m/s²。则物体在第2秒末的速度大小为多少m/s？",
-    "options": [
-      {
-        "label": "A",
-        "text": "4"
-      },
-      {
-        "label": "B",
-        "text": "6"
-      },
-      {
-        "label": "C",
-        "text": "8"
-      },
-      {
-        "label": "D",
-        "text": "10"
-      }
-    ],
-    "answer": "B",
-    "explanation": "摩擦力f=μmg=0.2×5×10=10N，合力F合=25-10=15N，加速度a=F合/m=15/5=3m/s²，v=at=3×2=6m/s。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "牛顿运动定律"
-    ]
-  },
-  {
-    "id": "physics-senior-high-4",
-    "type": "choice",
-    "question": "从高度为20m的塔顶水平抛出一物体，物体质量为1kg，抛出时的初速度大小为10m/s。则物体从抛出到落地的过程中，重力所做的功为多少J？（g=10m/s²）",
-    "options": [
-      {
-        "label": "A",
-        "text": "100"
-      },
-      {
-        "label": "B",
-        "text": "150"
-      },
-      {
-        "label": "C",
-        "text": "200"
-      },
-      {
-        "label": "D",
-        "text": "250"
-      }
-    ],
-    "answer": "C",
-    "explanation": "重力做功W=mgh=1×10×20=200J，与路径无关，只与高度差有关。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "曲线运动"
-    ]
-  },
-  {
-    "id": "physics-senior-high-5",
-    "type": "choice",
-    "question": "地球半径为R，表面重力加速度为g，则地球质量为多少？（万有引力常量G已知）",
-    "options": [
-      {
-        "label": "A",
-        "text": "gR²/G"
-      },
-      {
-        "label": "B",
-        "text": "gR/G²"
-      },
-      {
-        "label": "C",
-        "text": "g²R/G"
-      },
-      {
-        "label": "D",
-        "text": "gR²/G²"
+        "text": "匀变速直线运动很少在考试中出现"
       }
     ],
     "answer": "A",
-    "explanation": "在地球表面，万有引力等于重力：GMm/R²=mg，解得M=gR²/G。",
-    "difficulty": 2,
-    "subject": "physics",
     "knowledgeTags": [
-      "万有引力与航天"
-    ]
-  },
-  {
-    "id": "physics-senior-high-6",
-    "type": "choice",
-    "question": "质量为2kg的物体从高度为10m的斜面顶端由静止滑下，斜面倾角为30°，物体滑到底端时的速度为8m/s。则物体克服摩擦力所做的功为多少J？（g=10m/s²）",
-    "options": [
-      {
-        "label": "A",
-        "text": "40"
-      },
-      {
-        "label": "B",
-        "text": "60"
-      },
-      {
-        "label": "C",
-        "text": "80"
-      },
-      {
-        "label": "D",
-        "text": "120"
-      }
+      "匀变速直线运动"
     ],
-    "answer": "B",
-    "explanation": "重力势能减少mgh=2×10×10=200J，动能增加½mv²=½×2×64=64J，克服摩擦力做功W_f=200-64=136J。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "机械能"
-    ]
+    "grade": 10,
+    "explanation": "匀变速直线运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
   },
   {
-    "id": "physics-senior-high-7",
+    "id": "physics-g10-009",
     "type": "choice",
-    "question": "质量为1kg的小球以10m/s的速度水平撞击墙壁后以6m/s的速度反向弹回，撞击时间为0.2s。则墙壁对小球的冲量大小为多少N·s？",
+    "question": "分析匀变速直线运动的问题：____",
     "options": [
       {
         "label": "A",
-        "text": "1.6"
+        "text": "匀变速直线运动是力学的基本内容"
       },
       {
         "label": "B",
-        "text": "8"
+        "text": "匀变速直线运动属于力学的扩展"
       },
       {
         "label": "C",
-        "text": "16"
+        "text": "匀变速直线运动与力学关系不大"
       },
       {
         "label": "D",
-        "text": "80"
-      }
-    ],
-    "answer": "C",
-    "explanation": "初动量p₁=1×10=10kg·m/s，末动量p₂=1×(-6)=-6kg·m/s，冲量I=Δp=p₂-p₁=-6-10=-16N·s，大小为16N·s。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "动量"
-    ]
-  },
-  {
-    "id": "physics-senior-high-8",
-    "type": "choice",
-    "question": "一弹簧振子的质量为0.5kg，劲度系数为200N/m，将振子从平衡位置拉开0.1m后由静止释放。则振子振动的周期为多少s？",
-    "options": [
-      {
-        "label": "A",
-        "text": "0.1π"
-      },
-      {
-        "label": "B",
-        "text": "0.2π"
-      },
-      {
-        "label": "C",
-        "text": "0.1"
-      },
-      {
-        "label": "D",
-        "text": "0.2"
+        "text": "匀变速直线运动很少在考试中出现"
       }
     ],
     "answer": "A",
-    "explanation": "弹簧振子周期公式T=2π√(m/k)=2π√(0.5/200)=2π√(0.0025)=2π×0.05=0.1πs。",
-    "difficulty": 2,
-    "subject": "physics",
     "knowledgeTags": [
-      "机械振动"
-    ]
-  },
-  {
-    "id": "physics-senior-high-9",
-    "type": "choice",
-    "question": "一列横波在绳上传播，波速为4m/s，周期为0.5s。则相邻波谷之间的距离为多少m？",
-    "options": [
-      {
-        "label": "A",
-        "text": "0.5"
-      },
-      {
-        "label": "B",
-        "text": "1"
-      },
-      {
-        "label": "C",
-        "text": "2"
-      },
-      {
-        "label": "D",
-        "text": "4"
-      }
+      "匀变速直线运动"
     ],
-    "answer": "C",
-    "explanation": "波长λ=vT=4×0.5=2m，相邻波谷之间的距离等于一个波长，即2m。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "机械波"
-    ]
+    "grade": 10,
+    "explanation": "匀变速直线运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
   },
   {
-    "id": "physics-senior-high-10",
+    "id": "physics-g10-013",
     "type": "choice",
-    "question": "两个点电荷A、B间的距离为r，A带电量Q，B带电量4Q，已知静电力常量为k，则A对B的静电力大小与B对A的静电力大小之比为多少？",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "欧姆定律"
+    ],
+    "question": "在加油站时为什么不能使用手机?",
     "options": [
       {
         "label": "A",
-        "text": "1:1"
+        "text": "会产生火花"
       },
       {
         "label": "B",
-        "text": "1:4"
+        "text": "辐射大"
       },
       {
         "label": "C",
-        "text": "4:1"
+        "text": "干扰设备"
       },
       {
         "label": "D",
-        "text": "1:16"
+        "text": "无影响"
       }
     ],
     "answer": "A",
-    "explanation": "根据库仑定律，静电力F=kQ·4Q/r²=4kQ²/r²，两个电荷间的相互作用力是作用力与反作用力关系，大小相等，方向相反，故比为1:1。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "电场"
-    ]
+    "explanation": "I=U/R，电流与电压成正比，与电阻成反比。注意三个量的对应关系。正确答案是A：会产生火花。",
+    "image": null
   },
   {
-    "id": "physics-senior-high-11",
+    "id": "physics-g10-014",
     "type": "choice",
-    "question": "一个阻值为10Ω的电阻两端电压为6V，则该电阻在1分钟内产生的热量为多少J？",
+    "question": "关于相互作用的说法，正确的是？",
     "options": [
       {
         "label": "A",
-        "text": "36"
+        "text": "相互作用是力学的基本内容"
       },
       {
         "label": "B",
-        "text": "216"
+        "text": "相互作用属于力学的扩展"
       },
       {
         "label": "C",
-        "text": "360"
+        "text": "相互作用与力学关系不大"
       },
       {
         "label": "D",
-        "text": "2160"
-      }
-    ],
-    "answer": "B",
-    "explanation": "电流I=U/R=6/10=0.6A，热量Q=I²Rt=0.6²×10×60=0.36×10×60=216J。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "恒定电流"
-    ]
-  },
-  {
-    "id": "physics-senior-high-12",
-    "type": "choice",
-    "question": "长为0.5m的直导线垂直于磁感应强度为0.2T的匀强磁场放置，当导线中通有5A电流时，导线所受安培力的大小为多少N？",
-    "options": [
-      {
-        "label": "A",
-        "text": "0.1"
-      },
-      {
-        "label": "B",
-        "text": "0.5"
-      },
-      {
-        "label": "C",
-        "text": "1"
-      },
-      {
-        "label": "D",
-        "text": "5"
-      }
-    ],
-    "answer": "B",
-    "explanation": "安培力公式F=BIL=0.2×5×0.5=0.5N。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "磁场"
-    ]
-  },
-  {
-    "id": "physics-senior-high-13",
-    "type": "choice",
-    "question": "闭合线圈的磁通量在0.2s内从0.01Wb均匀增加到0.05Wb，则线圈中感应电动势的大小为多少V？",
-    "options": [
-      {
-        "label": "A",
-        "text": "0.1"
-      },
-      {
-        "label": "B",
-        "text": "0.2"
-      },
-      {
-        "label": "C",
-        "text": "0.4"
-      },
-      {
-        "label": "D",
-        "text": "0.8"
-      }
-    ],
-    "answer": "B",
-    "explanation": "根据法拉第电磁感应定律，E=nΔΦ/Δt=1×(0.05-0.01)/0.2=0.04/0.2=0.2V。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "电磁感应"
-    ]
-  },
-  {
-    "id": "physics-senior-high-14",
-    "type": "choice",
-    "question": "某交变电流的瞬时表达式为i=10√2sin(100πt)A，则该电流的有效值为多少A？",
-    "options": [
-      {
-        "label": "A",
-        "text": "5"
-      },
-      {
-        "label": "B",
-        "text": "10"
-      },
-      {
-        "label": "C",
-        "text": "10√2"
-      },
-      {
-        "label": "D",
-        "text": "20"
-      }
-    ],
-    "answer": "B",
-    "explanation": "正弦交变电流的有效值I=I_m/√2=10√2/√2=10A。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "交变电流"
-    ]
-  },
-  {
-    "id": "physics-senior-high-15",
-    "type": "choice",
-    "question": "光线从空气射入折射率为√2的玻璃中，则临界角的正弦值为多少？",
-    "options": [
-      {
-        "label": "A",
-        "text": "1/2"
-      },
-      {
-        "label": "B",
-        "text": "√2/2"
-      },
-      {
-        "label": "C",
-        "text": "√3/2"
-      },
-      {
-        "label": "D",
-        "text": "1"
-      }
-    ],
-    "answer": "B",
-    "explanation": "临界角C满足sinC=1/n=1/√2=√2/2。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "光学"
-    ]
-  },
-  {
-    "id": "physics-senior-high-16",
-    "type": "choice",
-    "question": "一定量理想气体从状态A经等压过程到达状态B，已知状态A的体积为2L、温度为300K，状态B的体积为4L，则状态B的温度为多少K？",
-    "options": [
-      {
-        "label": "A",
-        "text": "300"
-      },
-      {
-        "label": "B",
-        "text": "450"
-      },
-      {
-        "label": "C",
-        "text": "600"
-      },
-      {
-        "label": "D",
-        "text": "900"
-      }
-    ],
-    "answer": "C",
-    "explanation": "等压过程，V/T=常数，即2/300=4/T_B，解得T_B=600K。",
-    "difficulty": 2,
-    "subject": "physics",
-    "knowledgeTags": [
-      "热学"
-    ]
-  },
-  {
-    "id": "physics-senior-high-17",
-    "type": "choice",
-    "question": "氢原子从n=3能级跃迁到n=1能级时，辐射光子的波长为λ，已知普朗克常量为h，光速为c，则该光子的能量为多少？",
-    "options": [
-      {
-        "label": "A",
-        "text": "hc/λ"
-      },
-      {
-        "label": "B",
-        "text": "hλ/c"
-      },
-      {
-        "label": "C",
-        "text": "cλ/h"
-      },
-      {
-        "label": "D",
-        "text": "h/(cλ)"
+        "text": "相互作用很少在考试中出现"
       }
     ],
     "answer": "A",
-    "explanation": "光子能量E=hν=h(c/λ)=hc/λ。",
+    "knowledgeTags": [
+      "相互作用"
+    ],
+    "grade": 10,
+    "explanation": "相互作用是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-015",
+    "type": "choice",
+    "question": "分析相互作用的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "相互作用是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "相互作用属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "相互作用与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "相互作用很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "相互作用"
+    ],
+    "grade": 10,
+    "explanation": "相互作用是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-019",
+    "type": "choice",
+    "subject": "physics",
     "difficulty": 2,
-    "subject": "physics",
+    "grade": 10,
     "knowledgeTags": [
-      "原子物理"
-    ]
-  },
-  {
-    "id": "physics-senior-high-18",
-    "type": "choice",
-    "question": "质量为1kg的小球A以10m/s的速度向右运动，与静止的同质量小球B发生弹性正碰。则碰撞后小球A的速度为多少m/s？",
+      "欧姆定律"
+    ],
+    "question": "水的凝固点是?",
     "options": [
       {
         "label": "A",
-        "text": "0"
+        "text": "0摄氏度"
       },
       {
         "label": "B",
-        "text": "5"
+        "text": "100摄氏度"
       },
       {
         "label": "C",
-        "text": "-5"
+        "text": "-4摄氏度"
       },
       {
         "label": "D",
-        "text": "10"
+        "text": "4摄氏度"
       }
     ],
     "answer": "A",
-    "explanation": "弹性碰撞公式，质量相等时速度交换。碰撞后A的速度为0，B的速度为10m/s。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "动量守恒综合"
-    ]
+    "explanation": "I=U/R，电流与电压成正比，与电阻成反比。注意三个量的对应关系。正确答案是A：0摄氏度。",
+    "image": null
   },
   {
-    "id": "physics-senior-high-19",
+    "id": "physics-g10-020",
     "type": "choice",
-    "question": "一物体从高度h处自由下落，着地时的速度大小为v，整个过程中机械能守恒。则物体下落过程中，任意时刻的动能与势能之和为多少？",
+    "question": "关于牛顿定律的说法，正确的是？",
     "options": [
       {
         "label": "A",
-        "text": "mgh"
+        "text": "牛顿定律是力学的基本内容"
       },
       {
         "label": "B",
-        "text": "½mv²"
+        "text": "牛顿定律属于力学的扩展"
       },
       {
         "label": "C",
-        "text": "mgh+½mv²"
+        "text": "牛顿定律与力学关系不大"
       },
       {
         "label": "D",
-        "text": "½mv²+mg(h-y)"
+        "text": "牛顿定律很少在考试中出现"
       }
     ],
     "answer": "A",
-    "explanation": "机械能守恒，任意时刻动能与势能之和等于初始机械能mgh或落地时的动能½mv²（两者相等）。",
+    "knowledgeTags": [
+      "牛顿定律"
+    ],
+    "grade": 10,
+    "explanation": "牛顿定律是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-021",
+    "type": "choice",
+    "question": "分析牛顿定律的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "牛顿定律是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "牛顿定律属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "牛顿定律与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "牛顿定律很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "牛顿定律"
+    ],
+    "grade": 10,
+    "explanation": "牛顿定律是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-025",
+    "type": "choice",
+    "subject": "physics",
     "difficulty": 2,
-    "subject": "physics",
+    "grade": 10,
     "knowledgeTags": [
-      "能量守恒综合"
-    ]
-  },
-  {
-    "id": "physics-senior-high-20",
-    "type": "choice",
-    "question": "带电粒子垂直进入匀强电场和匀强磁场相互垂直的区域，电场强度为E，磁感应强度为B，粒子的速度为v，则当满足什么条件时粒子将做匀速直线运动？",
-    "options": [
-      {
-        "label": "A",
-        "text": "v=E/B"
-      },
-      {
-        "label": "B",
-        "text": "v=BE"
-      },
-      {
-        "label": "C",
-        "text": "v=E/B²"
-      },
-      {
-        "label": "D",
-        "text": "v=B/E"
-      }
+      "欧姆定律"
     ],
-    "answer": "A",
-    "explanation": "当电场力与洛伦兹力平衡时，qE=qvB，即v=E/B时，粒子做匀速直线运动。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "电磁场综合"
-    ]
-  },
-  {
-    "id": "physics-senior-high-21",
-    "type": "choice",
-    "question": "在验证牛顿第二定律的实验中，某同学得到加速度与质量的关系图像，该图像应为什么形状才能说明加速度与质量成反比？",
+    "question": "光在哪种介质中沿直线传播?",
     "options": [
       {
         "label": "A",
-        "text": "过原点的直线"
+        "text": "均匀介质"
       },
       {
         "label": "B",
-        "text": "双曲线的一支"
+        "text": "不均匀介质"
       },
       {
         "label": "C",
-        "text": "抛物线"
-      },
-      {
-        "label": "D",
-        "text": "反比例函数图像"
-      }
-    ],
-    "answer": "B",
-    "explanation": "由a=F/m，当F一定时，a与m成反比，在a-m坐标系中为双曲线的一支。",
-    "difficulty": 3,
-    "subject": "physics",
-    "knowledgeTags": [
-      "实验：验证牛顿运动定律"
-    ]
-  },
-  {
-    "id": "physics-senior-high-22",
-    "type": "choice",
-    "question": "用电压表和电流表测量电源电动势和内阻，若电压表读数为U，电流表读数为I，电压表内阻为Rv，则电源内阻的测量值与真实值相比会怎样？",
-    "options": [
-      {
-        "label": "A",
-        "text": "偏大"
-      },
-      {
-        "label": "B",
-        "text": "偏小"
-      },
-      {
-        "label": "C",
-        "text": "相等"
+        "text": "任何介质"
       },
       {
         "label": "D",
         "text": "无法确定"
       }
     ],
-    "answer": "B",
-    "explanation": "由于电压表内阻不是无穷大，电流表中分压导致电流测量值偏大，由r=U/I计算的内阻值偏小。",
-    "difficulty": 4,
-    "subject": "physics",
-    "knowledgeTags": [
-      "实验：测定电源电动势和内阻"
-    ]
+    "answer": "A",
+    "explanation": "I=U/R，电流与电压成正比，与电阻成反比。注意三个量的对应关系。正确答案是A：均匀介质。",
+    "image": null
   },
   {
-    "id": "physics-senior-high-23",
+    "id": "physics-g10-026",
     "type": "choice",
-    "question": "描绘小灯泡伏安特性曲线时，采用电流表外接法测量。若小灯泡电阻约为10Ω，电压表内阻为1kΩ，则由于电表内阻引起的误差属于什么误差？",
+    "question": "关于超重与失重的说法，正确的是？",
     "options": [
       {
         "label": "A",
-        "text": "系统误差"
+        "text": "超重与失重是力学的基本内容"
       },
       {
         "label": "B",
-        "text": "偶然误差"
+        "text": "超重与失重属于力学的扩展"
       },
       {
         "label": "C",
-        "text": "疏失误差"
+        "text": "超重与失重与力学关系不大"
       },
       {
         "label": "D",
-        "text": "没有误差"
+        "text": "超重与失重很少在考试中出现"
       }
     ],
     "answer": "A",
-    "explanation": "由于电压表内阻不是无穷大，分流导致电流测量值偏大，属于原理性系统误差。",
-    "difficulty": 3,
-    "subject": "physics",
     "knowledgeTags": [
-      "实验：描绘小灯泡伏安特性曲线"
-    ]
+      "超重与失重"
+    ],
+    "grade": 10,
+    "explanation": "超重与失重是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
   },
   {
-    "id": "physics-senior-high-24",
+    "id": "physics-g10-027",
     "type": "choice",
-    "question": "在验证机械能守恒定律的实验中，对于自由落体运动，打点计时器打出的纸带应选择从哪里开始计数才能减少误差？",
+    "question": "分析超重与失重的问题：____",
     "options": [
       {
         "label": "A",
-        "text": "第一个点"
+        "text": "超重与失重是力学的基本内容"
       },
       {
         "label": "B",
-        "text": "第二个点"
+        "text": "超重与失重属于力学的扩展"
       },
       {
         "label": "C",
-        "text": "第三个点"
+        "text": "超重与失重与力学关系不大"
       },
       {
         "label": "D",
-        "text": "任意点"
+        "text": "超重与失重很少在考试中出现"
       }
     ],
     "answer": "A",
-    "explanation": "选择间距合适、清晰可辨的点开始计数，第一个点若间距合适则更准确，避免选择过密或过疏的点。",
-    "difficulty": 3,
-    "subject": "physics",
     "knowledgeTags": [
-      "实验：验证机械能守恒定律"
-    ]
+      "超重与失重"
+    ],
+    "grade": 10,
+    "explanation": "超重与失重是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
   },
   {
-    "id": "physics-senior-high-25",
+    "id": "physics-g10-031",
     "type": "choice",
-    "question": "光敏电阻的阻值随光照强度增强而怎样变化？这一特性可用来制作什么传感器？",
+    "question": "关于曲线运动的说法，正确的是？",
     "options": [
       {
         "label": "A",
-        "text": "增大，光强传感器"
+        "text": "曲线运动是力学的基本内容"
       },
       {
         "label": "B",
-        "text": "减小，光强传感器"
+        "text": "曲线运动属于力学的扩展"
       },
       {
         "label": "C",
-        "text": "增大，温度传感器"
+        "text": "曲线运动与力学关系不大"
       },
       {
         "label": "D",
-        "text": "减小，温度传感器"
+        "text": "曲线运动很少在考试中出现"
       }
     ],
-    "answer": "B",
-    "explanation": "光敏电阻的阻值随光照强度增强而减小，利用这一特性可制作光强传感器（光电传感器）。",
+    "answer": "A",
+    "knowledgeTags": [
+      "曲线运动"
+    ],
+    "grade": 10,
+    "explanation": "曲线运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-032",
+    "type": "choice",
+    "question": "关于曲线运动的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "曲线运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "曲线运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "曲线运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "曲线运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "曲线运动"
+    ],
+    "grade": 10,
+    "explanation": "曲线运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-033",
+    "type": "choice",
+    "question": "分析曲线运动的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "曲线运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "曲线运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "曲线运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "曲线运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "曲线运动"
+    ],
+    "grade": 10,
+    "explanation": "曲线运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-037",
+    "type": "choice",
+    "question": "关于抛体运动的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "抛体运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "抛体运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "抛体运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "抛体运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "抛体运动"
+    ],
+    "grade": 10,
+    "explanation": "抛体运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-038",
+    "type": "choice",
+    "question": "关于抛体运动的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "抛体运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "抛体运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "抛体运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "抛体运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "抛体运动"
+    ],
+    "grade": 10,
+    "explanation": "抛体运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-039",
+    "type": "choice",
+    "question": "分析抛体运动的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "抛体运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "抛体运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "抛体运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "抛体运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "抛体运动"
+    ],
+    "grade": 10,
+    "explanation": "抛体运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-043",
+    "type": "choice",
+    "question": "关于圆周运动的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "圆周运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "圆周运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "圆周运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "圆周运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "圆周运动"
+    ],
+    "grade": 10,
+    "explanation": "圆周运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-044",
+    "type": "choice",
+    "question": "关于圆周运动的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "圆周运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "圆周运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "圆周运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "圆周运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "圆周运动"
+    ],
+    "grade": 10,
+    "explanation": "圆周运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-045",
+    "type": "choice",
+    "question": "分析圆周运动的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "圆周运动是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "圆周运动属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "圆周运动与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "圆周运动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "圆周运动"
+    ],
+    "grade": 10,
+    "explanation": "圆周运动是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-049",
+    "type": "choice",
+    "question": "关于万有引力的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "万有引力是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "万有引力属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "万有引力与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "万有引力很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "万有引力"
+    ],
+    "grade": 10,
+    "explanation": "万有引力是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-050",
+    "type": "choice",
+    "question": "关于万有引力的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "万有引力是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "万有引力属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "万有引力与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "万有引力很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "万有引力"
+    ],
+    "grade": 10,
+    "explanation": "万有引力是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-051",
+    "type": "choice",
+    "question": "分析万有引力的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "万有引力是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "万有引力属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "万有引力与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "万有引力很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "万有引力"
+    ],
+    "grade": 10,
+    "explanation": "万有引力是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-055",
+    "type": "choice",
+    "question": "关于宇宙航行的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "宇宙航行是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "宇宙航行属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "宇宙航行与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "宇宙航行很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "宇宙航行"
+    ],
+    "grade": 10,
+    "explanation": "宇宙航行是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-056",
+    "type": "choice",
+    "question": "关于宇宙航行的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "宇宙航行是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "宇宙航行属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "宇宙航行与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "宇宙航行很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "宇宙航行"
+    ],
+    "grade": 10,
+    "explanation": "宇宙航行是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g10-057",
+    "type": "choice",
+    "question": "分析宇宙航行的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "宇宙航行是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "宇宙航行属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "宇宙航行与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "宇宙航行很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "宇宙航行"
+    ],
+    "grade": 10,
+    "explanation": "宇宙航行是力学学习的重点内容。",
+    "difficulty": "medium",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-001",
+    "type": "choice",
+    "subject": "physics",
     "difficulty": 2,
-    "subject": "physics",
+    "grade": 11,
     "knowledgeTags": [
-      "实验：传感器的简单使用"
-    ]
+      "运动的描述"
+    ],
+    "question": "下列哪种属于光源?",
+    "options": [
+      {
+        "label": "A",
+        "text": "月亮"
+      },
+      {
+        "label": "B",
+        "text": "太阳"
+      },
+      {
+        "label": "C",
+        "text": "镜子"
+      },
+      {
+        "label": "D",
+        "text": "地球"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及运动的描述知识点。正确答案是B：太阳。",
+    "image": "/questions/physics/img/physics-g11-001.svg"
+  },
+  {
+    "id": "physics-g11-002",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 11,
+    "knowledgeTags": [
+      "运动的描述"
+    ],
+    "question": "声音在哪种介质中传播最快?",
+    "options": [
+      {
+        "label": "A",
+        "text": "气体"
+      },
+      {
+        "label": "B",
+        "text": "液体"
+      },
+      {
+        "label": "C",
+        "text": "固体"
+      },
+      {
+        "label": "D",
+        "text": "真空"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及运动的描述知识点。正确答案是C：固体。",
+    "image": null
+  },
+  {
+    "id": "physics-g11-003",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 11,
+    "knowledgeTags": [
+      "运动的描述"
+    ],
+    "question": "在加油站时为什么不能使用手机?",
+    "options": [
+      {
+        "label": "A",
+        "text": "会产生火花"
+      },
+      {
+        "label": "B",
+        "text": "辐射大"
+      },
+      {
+        "label": "C",
+        "text": "干扰设备"
+      },
+      {
+        "label": "D",
+        "text": "无影响"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及运动的描述知识点。正确答案是A：会产生火花。",
+    "image": null
+  },
+  {
+    "id": "physics-g11-004",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 11,
+    "knowledgeTags": [
+      "运动的描述"
+    ],
+    "question": "水的凝固点是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0摄氏度"
+      },
+      {
+        "label": "B",
+        "text": "100摄氏度"
+      },
+      {
+        "label": "C",
+        "text": "-4摄氏度"
+      },
+      {
+        "label": "D",
+        "text": "4摄氏度"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及运动的描述知识点。正确答案是A：0摄氏度。",
+    "image": null
+  },
+  {
+    "id": "physics-g11-005",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 11,
+    "knowledgeTags": [
+      "运动的描述"
+    ],
+    "question": "光在哪种介质中沿直线传播?",
+    "options": [
+      {
+        "label": "A",
+        "text": "均匀介质"
+      },
+      {
+        "label": "B",
+        "text": "不均匀介质"
+      },
+      {
+        "label": "C",
+        "text": "任何介质"
+      },
+      {
+        "label": "D",
+        "text": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及运动的描述知识点。正确答案是A：均匀介质。",
+    "image": null
+  },
+  {
+    "id": "physics-g11-011",
+    "type": "choice",
+    "question": "关于电场的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电场是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电场属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电场与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电场很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电场"
+    ],
+    "grade": 11,
+    "explanation": "电场是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-012",
+    "type": "choice",
+    "question": "关于电场的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电场是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电场属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电场与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电场很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电场"
+    ],
+    "grade": 11,
+    "explanation": "电场是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-013",
+    "type": "choice",
+    "question": "分析电场的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "电场是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电场属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电场与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电场很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电场"
+    ],
+    "grade": 11,
+    "explanation": "电场是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-017",
+    "type": "choice",
+    "question": "关于电路的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电路是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电路属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电路与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电路很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电路"
+    ],
+    "grade": 11,
+    "explanation": "电路是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-018",
+    "type": "choice",
+    "question": "关于电路的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电路是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电路属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电路与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电路很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电路"
+    ],
+    "grade": 11,
+    "explanation": "电路是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-019",
+    "type": "choice",
+    "question": "分析电路的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "电路是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电路属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电路与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电路很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电路"
+    ],
+    "grade": 11,
+    "explanation": "电路是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-023",
+    "type": "choice",
+    "question": "关于磁场的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁场是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "磁场属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "磁场与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "磁场很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "磁场"
+    ],
+    "grade": 11,
+    "explanation": "磁场是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-024",
+    "type": "choice",
+    "question": "关于磁场的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁场是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "磁场属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "磁场与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "磁场很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "磁场"
+    ],
+    "grade": 11,
+    "explanation": "磁场是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-025",
+    "type": "choice",
+    "question": "分析磁场的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁场是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "磁场属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "磁场与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "磁场很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "磁场"
+    ],
+    "grade": 11,
+    "explanation": "磁场是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-029",
+    "type": "choice",
+    "question": "关于电磁感应的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁感应是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁感应属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁感应与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁感应很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁感应"
+    ],
+    "grade": 11,
+    "explanation": "电磁感应是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-030",
+    "type": "choice",
+    "question": "关于电磁感应的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁感应是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁感应属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁感应与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁感应很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁感应"
+    ],
+    "grade": 11,
+    "explanation": "电磁感应是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-031",
+    "type": "choice",
+    "question": "分析电磁感应的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁感应是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁感应属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁感应与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁感应很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁感应"
+    ],
+    "grade": 11,
+    "explanation": "电磁感应是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-035",
+    "type": "choice",
+    "question": "关于交变电流的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "交变电流是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "交变电流属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "交变电流与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "交变电流很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "交变电流"
+    ],
+    "grade": 11,
+    "explanation": "交变电流是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-036",
+    "type": "choice",
+    "question": "关于交变电流的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "交变电流是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "交变电流属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "交变电流与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "交变电流很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "交变电流"
+    ],
+    "grade": 11,
+    "explanation": "交变电流是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-037",
+    "type": "choice",
+    "question": "分析交变电流的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "交变电流是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "交变电流属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "交变电流与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "交变电流很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "交变电流"
+    ],
+    "grade": 11,
+    "explanation": "交变电流是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-041",
+    "type": "choice",
+    "question": "关于机械振动的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械振动是热学与机械振动的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械振动属于热学与机械振动的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械振动与热学与机械振动关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械振动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械振动"
+    ],
+    "grade": 11,
+    "explanation": "机械振动是热学与机械振动学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-042",
+    "type": "choice",
+    "question": "关于机械振动的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械振动是热学与机械振动的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械振动属于热学与机械振动的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械振动与热学与机械振动关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械振动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械振动"
+    ],
+    "grade": 11,
+    "explanation": "机械振动是热学与机械振动学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-043",
+    "type": "choice",
+    "question": "分析机械振动的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械振动是热学与机械振动的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械振动属于热学与机械振动的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械振动与热学与机械振动关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械振动很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械振动"
+    ],
+    "grade": 11,
+    "explanation": "机械振动是热学与机械振动学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-047",
+    "type": "choice",
+    "question": "关于机械波的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械波是热学与机械振动的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械波属于热学与机械振动的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械波与热学与机械振动关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械波很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械波"
+    ],
+    "grade": 11,
+    "explanation": "机械波是热学与机械振动学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-048",
+    "type": "choice",
+    "question": "关于机械波的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械波是热学与机械振动的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械波属于热学与机械振动的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械波与热学与机械振动关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械波很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械波"
+    ],
+    "grade": 11,
+    "explanation": "机械波是热学与机械振动学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-049",
+    "type": "choice",
+    "question": "分析机械波的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械波是热学与机械振动的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械波属于热学与机械振动的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械波与热学与机械振动关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械波很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械波"
+    ],
+    "grade": 11,
+    "explanation": "机械波是热学与机械振动学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-053",
+    "type": "choice",
+    "question": "关于光的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "光是光学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "光属于光学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "光与光学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "光很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "光"
+    ],
+    "grade": 11,
+    "explanation": "光是光学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-054",
+    "type": "choice",
+    "question": "关于光的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "光是光学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "光属于光学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "光与光学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "光很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "光"
+    ],
+    "grade": 11,
+    "explanation": "光是光学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-055",
+    "type": "choice",
+    "question": "分析光的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "光是光学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "光属于光学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "光与光学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "光很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "光"
+    ],
+    "grade": 11,
+    "explanation": "光是光学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-059",
+    "type": "choice",
+    "question": "关于电磁波的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁波是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁波属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁波与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁波很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁波"
+    ],
+    "grade": 11,
+    "explanation": "电磁波是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-060",
+    "type": "choice",
+    "question": "关于电磁波的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁波是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁波属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁波与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁波很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁波"
+    ],
+    "grade": 11,
+    "explanation": "电磁波是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-061",
+    "type": "choice",
+    "question": "分析电磁波的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁波是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁波属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁波与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁波很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁波"
+    ],
+    "grade": 11,
+    "explanation": "电磁波是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-065",
+    "type": "choice",
+    "question": "关于热学的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "热学是热学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "热学属于热学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "热学与热学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "热学很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "热学"
+    ],
+    "grade": 11,
+    "explanation": "热学是热学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-066",
+    "type": "choice",
+    "question": "关于热学的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "热学是热学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "热学属于热学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "热学与热学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "热学很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "热学"
+    ],
+    "grade": 11,
+    "explanation": "热学是热学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g11-067",
+    "type": "choice",
+    "question": "分析热学的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "热学是热学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "热学属于热学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "热学与热学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "热学很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "热学"
+    ],
+    "grade": 11,
+    "explanation": "热学是热学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-001",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "电场"
+    ],
+    "question": "下列哪种属于光源?",
+    "options": [
+      {
+        "label": "A",
+        "text": "月亮"
+      },
+      {
+        "label": "B",
+        "text": "太阳"
+      },
+      {
+        "label": "C",
+        "text": "镜子"
+      },
+      {
+        "label": "D",
+        "text": "地球"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及电场知识点。正确答案是B：太阳。",
+    "image": null
+  },
+  {
+    "id": "physics-g12-002",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "电场"
+    ],
+    "question": "声音在哪种介质中传播最快?",
+    "options": [
+      {
+        "label": "A",
+        "text": "气体"
+      },
+      {
+        "label": "B",
+        "text": "液体"
+      },
+      {
+        "label": "C",
+        "text": "固体"
+      },
+      {
+        "label": "D",
+        "text": "真空"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及电场知识点。正确答案是C：固体。",
+    "image": null
+  },
+  {
+    "id": "physics-g12-003",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "电场"
+    ],
+    "question": "在加油站时为什么不能使用手机?",
+    "options": [
+      {
+        "label": "A",
+        "text": "会产生火花"
+      },
+      {
+        "label": "B",
+        "text": "辐射大"
+      },
+      {
+        "label": "C",
+        "text": "干扰设备"
+      },
+      {
+        "label": "D",
+        "text": "无影响"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及电场知识点。正确答案是A：会产生火花。",
+    "image": null
+  },
+  {
+    "id": "physics-g12-004",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "电场"
+    ],
+    "question": "水的凝固点是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0摄氏度"
+      },
+      {
+        "label": "B",
+        "text": "100摄氏度"
+      },
+      {
+        "label": "C",
+        "text": "-4摄氏度"
+      },
+      {
+        "label": "D",
+        "text": "4摄氏度"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及电场知识点。正确答案是A：0摄氏度。",
+    "image": null
+  },
+  {
+    "id": "physics-g12-005",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "电场"
+    ],
+    "question": "光在哪种介质中沿直线传播?",
+    "options": [
+      {
+        "label": "A",
+        "text": "均匀介质"
+      },
+      {
+        "label": "B",
+        "text": "不均匀介质"
+      },
+      {
+        "label": "C",
+        "text": "任何介质"
+      },
+      {
+        "label": "D",
+        "text": "无法确定"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及电场知识点。正确答案是A：均匀介质。",
+    "image": null
+  },
+  {
+    "id": "physics-g12-011",
+    "type": "choice",
+    "question": "关于动量的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "动量是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "动量属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "动量与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "动量很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "动量"
+    ],
+    "grade": 12,
+    "explanation": "动量是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-012",
+    "type": "choice",
+    "question": "关于动量的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "动量是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "动量属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "动量与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "动量很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "动量"
+    ],
+    "grade": 12,
+    "explanation": "动量是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-013",
+    "type": "choice",
+    "question": "分析动量的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "动量是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "动量属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "动量与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "动量很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "动量"
+    ],
+    "grade": 12,
+    "explanation": "动量是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-017",
+    "type": "choice",
+    "question": "关于冲量的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "冲量是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "冲量属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "冲量与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "冲量很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "冲量"
+    ],
+    "grade": 12,
+    "explanation": "冲量是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-018",
+    "type": "choice",
+    "question": "关于冲量的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "冲量是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "冲量属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "冲量与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "冲量很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "冲量"
+    ],
+    "grade": 12,
+    "explanation": "冲量是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-019",
+    "type": "choice",
+    "question": "分析冲量的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "冲量是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "冲量属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "冲量与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "冲量很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "冲量"
+    ],
+    "grade": 12,
+    "explanation": "冲量是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-023",
+    "type": "choice",
+    "question": "关于弹性碰撞的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "弹性碰撞是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "弹性碰撞属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "弹性碰撞与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "弹性碰撞很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "弹性碰撞"
+    ],
+    "grade": 12,
+    "explanation": "弹性碰撞是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-024",
+    "type": "choice",
+    "question": "关于弹性碰撞的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "弹性碰撞是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "弹性碰撞属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "弹性碰撞与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "弹性碰撞很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "弹性碰撞"
+    ],
+    "grade": 12,
+    "explanation": "弹性碰撞是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-025",
+    "type": "choice",
+    "question": "分析弹性碰撞的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "弹性碰撞是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "弹性碰撞属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "弹性碰撞与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "弹性碰撞很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "弹性碰撞"
+    ],
+    "grade": 12,
+    "explanation": "弹性碰撞是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-029",
+    "type": "choice",
+    "question": "关于机械能守恒的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械能守恒是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械能守恒属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械能守恒与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械能守恒很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械能守恒"
+    ],
+    "grade": 12,
+    "explanation": "机械能守恒是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-030",
+    "type": "choice",
+    "question": "关于机械能守恒的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械能守恒是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械能守恒属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械能守恒与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械能守恒很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械能守恒"
+    ],
+    "grade": 12,
+    "explanation": "机械能守恒是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-031",
+    "type": "choice",
+    "question": "分析机械能守恒的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "机械能守恒是力学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "机械能守恒属于力学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "机械能守恒与力学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "机械能守恒很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "机械能守恒"
+    ],
+    "grade": 12,
+    "explanation": "机械能守恒是力学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-035",
+    "type": "choice",
+    "question": "关于电场综合的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电场综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电场综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电场综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电场综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电场综合"
+    ],
+    "grade": 12,
+    "explanation": "电场综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-036",
+    "type": "choice",
+    "question": "关于电场综合的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电场综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电场综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电场综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电场综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电场综合"
+    ],
+    "grade": 12,
+    "explanation": "电场综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-037",
+    "type": "choice",
+    "question": "分析电场综合的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "电场综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电场综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电场综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电场综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电场综合"
+    ],
+    "grade": 12,
+    "explanation": "电场综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-041",
+    "type": "choice",
+    "question": "关于磁场综合的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁场综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "磁场综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "磁场综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "磁场综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "磁场综合"
+    ],
+    "grade": 12,
+    "explanation": "磁场综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-042",
+    "type": "choice",
+    "question": "关于磁场综合的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁场综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "磁场综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "磁场综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "磁场综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "磁场综合"
+    ],
+    "grade": 12,
+    "explanation": "磁场综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-043",
+    "type": "choice",
+    "question": "分析磁场综合的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "磁场综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "磁场综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "磁场综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "磁场综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "磁场综合"
+    ],
+    "grade": 12,
+    "explanation": "磁场综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-047",
+    "type": "choice",
+    "question": "关于电磁感应综合的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁感应综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁感应综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁感应综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁感应综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁感应综合"
+    ],
+    "grade": 12,
+    "explanation": "电磁感应综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-048",
+    "type": "choice",
+    "question": "关于电磁感应综合的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁感应综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁感应综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁感应综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁感应综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁感应综合"
+    ],
+    "grade": 12,
+    "explanation": "电磁感应综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-049",
+    "type": "choice",
+    "question": "分析电磁感应综合的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "电磁感应综合是电磁学的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "电磁感应综合属于电磁学的扩展"
+      },
+      {
+        "label": "C",
+        "text": "电磁感应综合与电磁学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "电磁感应综合很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "电磁感应综合"
+    ],
+    "grade": 12,
+    "explanation": "电磁感应综合是电磁学学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-053",
+    "type": "choice",
+    "question": "关于原子物理的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "原子物理是原子物理的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "原子物理属于原子物理的扩展"
+      },
+      {
+        "label": "C",
+        "text": "原子物理与原子物理关系不大"
+      },
+      {
+        "label": "D",
+        "text": "原子物理很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "原子物理"
+    ],
+    "grade": 12,
+    "explanation": "原子物理是原子物理学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-054",
+    "type": "choice",
+    "question": "关于原子物理的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "原子物理是原子物理的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "原子物理属于原子物理的扩展"
+      },
+      {
+        "label": "C",
+        "text": "原子物理与原子物理关系不大"
+      },
+      {
+        "label": "D",
+        "text": "原子物理很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "原子物理"
+    ],
+    "grade": 12,
+    "explanation": "原子物理是原子物理学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-055",
+    "type": "choice",
+    "question": "分析原子物理的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "原子物理是原子物理的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "原子物理属于原子物理的扩展"
+      },
+      {
+        "label": "C",
+        "text": "原子物理与原子物理关系不大"
+      },
+      {
+        "label": "D",
+        "text": "原子物理很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "原子物理"
+    ],
+    "grade": 12,
+    "explanation": "原子物理是原子物理学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-059",
+    "type": "choice",
+    "question": "关于波粒二象性的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "波粒二象性是原子物理的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "波粒二象性属于原子物理的扩展"
+      },
+      {
+        "label": "C",
+        "text": "波粒二象性与原子物理关系不大"
+      },
+      {
+        "label": "D",
+        "text": "波粒二象性很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "波粒二象性"
+    ],
+    "grade": 12,
+    "explanation": "波粒二象性是原子物理学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-060",
+    "type": "choice",
+    "question": "关于波粒二象性的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "波粒二象性是原子物理的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "波粒二象性属于原子物理的扩展"
+      },
+      {
+        "label": "C",
+        "text": "波粒二象性与原子物理关系不大"
+      },
+      {
+        "label": "D",
+        "text": "波粒二象性很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "波粒二象性"
+    ],
+    "grade": 12,
+    "explanation": "波粒二象性是原子物理学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-061",
+    "type": "choice",
+    "question": "分析波粒二象性的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "波粒二象性是原子物理的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "波粒二象性属于原子物理的扩展"
+      },
+      {
+        "label": "C",
+        "text": "波粒二象性与原子物理关系不大"
+      },
+      {
+        "label": "D",
+        "text": "波粒二象性很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "波粒二象性"
+    ],
+    "grade": 12,
+    "explanation": "波粒二象性是原子物理学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-065",
+    "type": "choice",
+    "question": "关于实验专题的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "实验专题是实验的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "实验专题属于实验的扩展"
+      },
+      {
+        "label": "C",
+        "text": "实验专题与实验关系不大"
+      },
+      {
+        "label": "D",
+        "text": "实验专题很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "实验专题"
+    ],
+    "grade": 12,
+    "explanation": "实验专题是实验学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-066",
+    "type": "choice",
+    "question": "关于实验专题的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "实验专题是实验的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "实验专题属于实验的扩展"
+      },
+      {
+        "label": "C",
+        "text": "实验专题与实验关系不大"
+      },
+      {
+        "label": "D",
+        "text": "实验专题很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "实验专题"
+    ],
+    "grade": 12,
+    "explanation": "实验专题是实验学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
+  },
+  {
+    "id": "physics-g12-067",
+    "type": "choice",
+    "question": "分析实验专题的问题：____",
+    "options": [
+      {
+        "label": "A",
+        "text": "实验专题是实验的基本内容"
+      },
+      {
+        "label": "B",
+        "text": "实验专题属于实验的扩展"
+      },
+      {
+        "label": "C",
+        "text": "实验专题与实验关系不大"
+      },
+      {
+        "label": "D",
+        "text": "实验专题很少在考试中出现"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "实验专题"
+    ],
+    "grade": 12,
+    "explanation": "实验专题是实验学习的重点内容。",
+    "difficulty": "hard",
+    "subject": "physics"
   }
 ]

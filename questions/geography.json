@@ -1,155 +1,5 @@
 [
   {
-    "id": "geography-006",
-    "type": "choice",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地球与地图",
-      "经纬网"
-    ],
-    "question": "地球上的0°经线又称为：",
-    "options": [
-      {
-        "label": "A",
-        "text": "赤道"
-      },
-      {
-        "label": "B",
-        "text": "本初子午线"
-      },
-      {
-        "label": "C",
-        "text": "国际日期变更线"
-      },
-      {
-        "label": "D",
-        "text": "南北回归线"
-      }
-    ],
-    "answer": "B",
-    "explanation": "0°经线称为本初子午线，是经度的起始线，通过英国格林尼治天文台旧址。"
-  },
-  {
-    "id": "geography-007",
-    "type": "choice",
-    "subject": "geography",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "中国地理",
-      "行政区划"
-    ],
-    "question": "我国面积最大的省级行政区是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "新疆维吾尔自治区"
-      },
-      {
-        "label": "B",
-        "text": "西藏自治区"
-      },
-      {
-        "label": "C",
-        "text": "内蒙古自治区"
-      },
-      {
-        "label": "D",
-        "text": "青海省"
-      }
-    ],
-    "answer": "A",
-    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区。"
-  },
-  {
-    "id": "geography-008",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "世界地理",
-      "大洲大洋"
-    ],
-    "question": "世界上最大的大洋是______，跨经度最多的大洋是______。",
-    "options": [],
-    "answer": [
-      "太平洋",
-      "北冰洋"
-    ],
-    "explanation": "太平洋是世界上最大、最深的大洋。北冰洋是跨经度最多的大洋。",
-    "acceptAnswers": [
-      "太平洋",
-      "北冰洋"
-    ]
-  },
-  {
-    "id": "geography-009",
-    "type": "choice",
-    "subject": "geography",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "中国地理",
-      "地形"
-    ],
-    "question": "我国地形的主要特征是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "地形单一"
-      },
-      {
-        "label": "B",
-        "text": "地形复杂多样，山区面积广"
-      },
-      {
-        "label": "C",
-        "text": "以平原为主"
-      },
-      {
-        "label": "D",
-        "text": "以盆地为主"
-      }
-    ],
-    "answer": "B",
-    "explanation": "我国地形复杂多样，五种基本地形齐全，山区面积约占全国陆地面积的三分之二。"
-  },
-  {
-    "id": "geography-010",
-    "type": "choice",
-    "subject": "geography",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "中国地理",
-      "气候"
-    ],
-    "question": "我国季风气候最显著的特点是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "夏季多雨，冬季干燥"
-      },
-      {
-        "label": "B",
-        "text": "雨热同期"
-      },
-      {
-        "label": "C",
-        "text": "全年温和多雨"
-      },
-      {
-        "label": "D",
-        "text": "温差小"
-      }
-    ],
-    "answer": "B",
-    "explanation": "我国是世界上季风气候最显著的国家之一，特点是雨热同期。"
-  },
-  {
     "id": "geography-001",
     "type": "choice",
     "subject": "geography",
@@ -308,6 +158,134 @@
     ],
     "answer": "B",
     "explanation": "海拔每升高1000米，气温下降约6℃。乞力马扎罗山海拔5895米，山顶终年低温。"
+  },
+  {
+    "id": "geography-006",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图",
+      "经纬网"
+    ],
+    "question": "地球上的0°经线又称为：",
+    "options": [
+      {
+        "label": "A",
+        "text": "赤道"
+      },
+      {
+        "label": "B",
+        "text": "本初子午线"
+      },
+      {
+        "label": "C",
+        "text": "国际日期变更线"
+      },
+      {
+        "label": "D",
+        "text": "南北回归线"
+      }
+    ],
+    "answer": "B",
+    "explanation": "0°经线称为本初子午线，是经度的起始线，通过英国格林尼治天文台旧址。"
+  },
+  {
+    "id": "geography-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "行政区划"
+    ],
+    "question": "我国面积最大的省级行政区是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "新疆维吾尔自治区"
+      },
+      {
+        "label": "B",
+        "text": "西藏自治区"
+      },
+      {
+        "label": "C",
+        "text": "内蒙古自治区"
+      },
+      {
+        "label": "D",
+        "text": "青海省"
+      }
+    ],
+    "answer": "A",
+    "explanation": "新疆维吾尔自治区面积约166万平方公里，是我国面积最大的省级行政区。"
+  },
+  {
+    "id": "geography-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "地形"
+    ],
+    "question": "我国地形的主要特征是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "地形单一"
+      },
+      {
+        "label": "B",
+        "text": "地形复杂多样，山区面积广"
+      },
+      {
+        "label": "C",
+        "text": "以平原为主"
+      },
+      {
+        "label": "D",
+        "text": "以盆地为主"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国地形复杂多样，五种基本地形齐全，山区面积约占全国陆地面积的三分之二。"
+  },
+  {
+    "id": "geography-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "气候"
+    ],
+    "question": "我国季风气候最显著的特点是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏季多雨，冬季干燥"
+      },
+      {
+        "label": "B",
+        "text": "雨热同期"
+      },
+      {
+        "label": "C",
+        "text": "全年温和多雨"
+      },
+      {
+        "label": "D",
+        "text": "温差小"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国是世界上季风气候最显著的国家之一，特点是雨热同期。"
   },
   {
     "id": "geography-011",
@@ -594,23 +572,6 @@
     "explanation": "里海是世界上面积最大的湖泊，同时也是世界上面积最大的咸水湖，位于亚欧交界处"
   },
   {
-    "id": "geography-025",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "中国地理-河流"
-    ],
-    "question": "长江和黄河都发源于青海省的_____高原。",
-    "answer": "青藏",
-    "explanation": "长江发源于唐古拉山，黄河发源于巴颜喀拉山，都位于青藏高原",
-    "acceptAnswers": [
-      "青藏"
-    ],
-    "options": []
-  },
-  {
     "id": "geography-026",
     "type": "choice",
     "subject": "geography",
@@ -733,23 +694,6 @@
     ],
     "answer": "B",
     "explanation": "我国大部分地区属于季风气候，夏季受来自太平洋的东南季风影响，高温多雨；冬季受来自内陆的西北季风影响，寒冷干燥"
-  },
-  {
-    "id": "geography-030",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "世界地理-自然环境"
-    ],
-    "question": "世界上最长的河流是非洲的_____河。",
-    "answer": "尼罗",
-    "explanation": "尼罗河全长约6670公里，是世界上最长的河流，主要流经埃及、苏丹等国家",
-    "acceptAnswers": [
-      "尼罗"
-    ],
-    "options": []
   },
   {
     "id": "geography-031",
@@ -876,23 +820,6 @@
     "explanation": "京广线北起北京，南至广州，全长约2300公里，是我国最重要的南北铁路干线"
   },
   {
-    "id": "geography-035",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "世界地理-自然环境"
-    ],
-    "question": "世界面积最大的大洲是_____洲。",
-    "answer": "亚",
-    "explanation": "亚洲面积约4458万平方公里，是世界面积最大的大洲",
-    "acceptAnswers": [
-      "亚"
-    ],
-    "options": []
-  },
-  {
     "id": "geography-036",
     "type": "choice",
     "subject": "geography",
@@ -1017,88 +944,6 @@
     "explanation": "澳大利亚大陆约三分之二位于南回归线以南，主要属于南温带"
   },
   {
-    "id": "geography-040",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "中国地理-地形"
-    ],
-    "question": "我国地势的特点是西高东低，呈_____级阶梯状分布。",
-    "answer": "三",
-    "explanation": "我国地势呈三级阶梯状分布：青藏高原为第一级阶梯，海拔4000米以上；黄土高原、云贵高原等为第二级阶梯；东北平原、华北平原等为第三级阶梯",
-    "acceptAnswers": [
-      "三"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-201",
-    "type": "choice",
-    "subject": "geography",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "地形图判读",
-      "河流流向"
-    ],
-    "question": "根据图中等高线和河流位置判断，该河流大致流向是：",
-    "imageUrl": "images/geography/river-landform.svg",
-    "options": [
-      {
-        "label": "A",
-        "text": "由西北流向东南"
-      },
-      {
-        "label": "B",
-        "text": "由东北流向西南"
-      },
-      {
-        "label": "C",
-        "text": "由东南流向西北"
-      },
-      {
-        "label": "D",
-        "text": "由西南流向东北"
-      }
-    ],
-    "answer": "A",
-    "explanation": "河流从高处流向低处，图示河道总体由西北流向东南。"
-  },
-  {
-    "id": "geography-202",
-    "type": "choice",
-    "subject": "geography",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "中国地理",
-      "珠江三角洲"
-    ],
-    "question": "佛山所在的珠江三角洲地区发展制造业的有利条件不包括：",
-    "options": [
-      {
-        "label": "A",
-        "text": "水陆交通便利"
-      },
-      {
-        "label": "B",
-        "text": "靠近港澳和国际市场"
-      },
-      {
-        "label": "C",
-        "text": "科技与产业基础较好"
-      },
-      {
-        "label": "D",
-        "text": "全年降水极少，利于重工业发展"
-      }
-    ],
-    "answer": "D",
-    "explanation": "珠江三角洲属于亚热带季风气候，降水并不少，这不是其制造业发展的优势。"
-  },
-  {
     "id": "geography-043",
     "type": "choice",
     "subject": "geography",
@@ -1192,8 +1037,7 @@
         "label": "D",
         "text": "等高线呈封闭圆形"
       }
-    ],
-    "image": "images/junior/geography-045.svg"
+    ]
   },
   {
     "id": "geography-046",
@@ -1841,186 +1685,6 @@
     ]
   },
   {
-    "id": "geography-066",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-地球",
-      "赤道"
-    ],
-    "question": "地球的赤道周长约_____万千米。",
-    "answer": "4",
-    "explanation": "根据地理知识填写：4",
-    "acceptAnswers": [
-      "4"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-067",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-地球",
-      "自转"
-    ],
-    "question": "地球自转的方向是_____，周期为24小时。",
-    "answer": "自西向东",
-    "explanation": "根据地理知识填写：自西向东",
-    "acceptAnswers": [
-      "自西向东"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-068",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-世界地理",
-      "大洲"
-    ],
-    "question": "七大洲中，面积最小的是_____洲。",
-    "answer": "大洋",
-    "explanation": "根据地理知识填写：大洋",
-    "acceptAnswers": [
-      "大洋"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-069",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-中国地理",
-      "面积"
-    ],
-    "question": "我国陆地面积约_____万平方千米。",
-    "answer": "960",
-    "explanation": "根据地理知识填写：960",
-    "acceptAnswers": [
-      "960"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-070",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-地球",
-      "半球"
-    ],
-    "question": "划分东西半球的界线是_____和160°E经线。",
-    "answer": "20°W",
-    "explanation": "根据地理知识填写：20°W",
-    "acceptAnswers": [
-      "20°W"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-071",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-世界地理",
-      "地形"
-    ],
-    "question": "世界上最高的山峰是珠穆朗玛峰，海拔约_____米。",
-    "answer": "8848",
-    "explanation": "根据地理知识填写：8848",
-    "acceptAnswers": [
-      "8848"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-072",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-中国地理",
-      "湖泊"
-    ],
-    "question": "我国最大的咸水湖是_____湖。",
-    "answer": "青海",
-    "explanation": "根据地理知识填写：青海",
-    "acceptAnswers": [
-      "青海"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-073",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-中国地理",
-      "河流"
-    ],
-    "question": "我国最长、流量最大的河流是_____。",
-    "answer": "长江",
-    "explanation": "根据地理知识填写：长江",
-    "acceptAnswers": [
-      "长江"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-074",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-世界地理",
-      "地形"
-    ],
-    "question": "世界上最长的山脉是安第斯山脉，位于_____洲。",
-    "answer": "南美",
-    "explanation": "根据地理知识填写：南美",
-    "acceptAnswers": [
-      "南美"
-    ],
-    "options": []
-  },
-  {
-    "id": "geography-075",
-    "type": "fill",
-    "subject": "geography",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "地理-中国地理",
-      "气候"
-    ],
-    "question": "我国从南到北划分的温度带依次是：热带、亚热带、暖温带、中温带、寒温带和_____。",
-    "answer": "高原气候区",
-    "explanation": "根据地理知识填写：高原气候区",
-    "acceptAnswers": [
-      "高原气候区"
-    ],
-    "options": []
-  },
-  {
     "id": "geography-076",
     "type": "choice",
     "subject": "geography",
@@ -2153,6 +1817,71 @@
     ]
   },
   {
+    "id": "geography-201",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "地形图判读",
+      "河流流向"
+    ],
+    "question": "根据图中等高线和河流位置判断，该河流大致流向是：",
+    "imageUrl": "images/geography/river-landform.svg",
+    "options": [
+      {
+        "label": "A",
+        "text": "由西北流向东南"
+      },
+      {
+        "label": "B",
+        "text": "由东北流向西南"
+      },
+      {
+        "label": "C",
+        "text": "由东南流向西北"
+      },
+      {
+        "label": "D",
+        "text": "由西南流向东北"
+      }
+    ],
+    "answer": "A",
+    "explanation": "河流从高处流向低处，图示河道总体由西北流向东南。"
+  },
+  {
+    "id": "geography-202",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理",
+      "珠江三角洲"
+    ],
+    "question": "佛山所在的珠江三角洲地区发展制造业的有利条件不包括：",
+    "options": [
+      {
+        "label": "A",
+        "text": "水陆交通便利"
+      },
+      {
+        "label": "B",
+        "text": "靠近港澳和国际市场"
+      },
+      {
+        "label": "C",
+        "text": "科技与产业基础较好"
+      },
+      {
+        "label": "D",
+        "text": "全年降水极少，利于重工业发展"
+      }
+    ],
+    "answer": "D",
+    "explanation": "珠江三角洲属于亚热带季风气候，降水并不少，这不是其制造业发展的优势。"
+  },
+  {
     "id": "geography-203",
     "subject": "geography",
     "type": "choice",
@@ -2179,12 +1908,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "地球因自转导致两极略扁、赤道略鼓，是椭球体；A误认为球体，C和D描述不符合实际观测。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "地球因自转导致两极略扁、赤道略鼓，是椭球体；A误认为球体，C和D描述不符合实际观测。"
   },
   {
     "id": "geography-204",
@@ -2213,12 +1937,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "纬线是沿地球表面东西环绕的闭合圆圈，指示的方向为东西方向，故选A。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "纬线是沿地球表面东西环绕的闭合圆圈，指示的方向为东西方向，故选A。"
   },
   {
     "id": "geography-205",
@@ -2247,11 +1966,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "北京在东八区，纽约在西五区，时差为13小时。北京5月1日8:00减去13小时，纽约时间为4月30日19:00。",
-    "knowledgeTags": [
-      "世界地理",
-      "时区计算"
-    ]
+    "explanation": "北京在东八区，纽约在西五区，时差为13小时。北京5月1日8:00减去13小时，纽约时间为4月30日19:00。"
   },
   {
     "id": "geography-206",
@@ -2280,12 +1995,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "比例尺1:50000表示1厘米对应实际50000厘米，即500米，0.5公里。故选A。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "比例尺1:50000表示1厘米对应实际50000厘米，即500米，0.5公里。故选A。"
   },
   {
     "id": "geography-207",
@@ -2314,13 +2024,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "等高距50米表示相邻等高线垂直高差50米，水平距200米。坡度=垂直/水平=50/200=0.25，arctan0.25≈14°，对应选项B。",
-    "image": "images/junior/geography-207.svg",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "等高距50米表示相邻等高线垂直高差50米，水平距200米。坡度=垂直/水平=50/200=0.25，arctan0.25≈14°，对应选项B。"
   },
   {
     "id": "geography-208",
@@ -2349,13 +2053,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "地球约71%被海洋覆盖，陆地仅约29%；北半球海洋占优，南半球陆地约占30%以下。故正确答案为B。",
-    "knowledgeTags": [
-      [
-        "地球与地图",
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "地球约71%被海洋覆盖，陆地仅约29%；北半球海洋占优，南半球陆地约占30%以下。故正确答案为B。"
   },
   {
     "id": "geography-209",
@@ -2384,14 +2082,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "亚洲面积约4458万km²，人口最多，约46亿；北冰洋面积最小；非洲跨越赤道南北；南美洲大部在南半球，但有小部分在北半球。故选A。",
-    "knowledgeTags": [
-      [
-        "地球与地图",
-        "陆地与海洋",
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "亚洲面积约4458万km²，人口最多，约46亿；北冰洋面积最小；非洲跨越赤道南北；南美洲大部在南半球，但有小部分在北半球。故选A。"
   },
   {
     "id": "geography-210",
@@ -2420,13 +2111,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "离散边界两板块相离，岩浆上涌形成新海洋地壳，故A正确；汇聚边界两板块相撞产生俯冲或造山，B错误；转换边界为水平错动，不造山，C错误；非所有边界都有火山，D错误。",
-    "knowledgeTags": [
-      [
-        "地球与地图",
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "离散边界两板块相离，岩浆上涌形成新海洋地壳，故A正确；汇聚边界两板块相撞产生俯冲或造山，B错误；转换边界为水平错动，不造山，C错误；非所有边界都有火山，D错误。"
   },
   {
     "id": "geography-211",
@@ -2455,12 +2140,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "环太平洋带是全球最活跃地震带，主要影响亚洲东部和美洲西岸，故A正确。B错，地震多在板块边界；C错，大西洋中脊地震不如环太平洋密集；D错，板块内部也有少量地震。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "环太平洋带是全球最活跃地震带，主要影响亚洲东部和美洲西岸，故A正确。B错，地震多在板块边界；C错，大西洋中脊地震不如环太平洋密集；D错，板块内部也有少量地震。"
   },
   {
     "id": "geography-212",
@@ -2489,12 +2169,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "热带雨林气候位于赤道低压带，全年高温多雨，年降水量最高且各月分配均匀；而热带草原有干湿季，温带海洋性和季风气候降水相对较少且季节差异明显。",
-    "knowledgeTags": [
-      [
-        "气候与天气"
-      ]
-    ]
+    "explanation": "热带雨林气候位于赤道低压带，全年高温多雨，年降水量最高且各月分配均匀；而热带草原有干湿季，温带海洋性和季风气候降水相对较少且季节差异明显。"
   },
   {
     "id": "geography-213",
@@ -2523,13 +2198,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "夏季海洋暖湿气流带来丰沛降水，冬季陆地干冷气流导致降水稀少，符合季风特征。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "气候与天气"
-      ]
-    ]
+    "explanation": "夏季海洋暖湿气流带来丰沛降水，冬季陆地干冷气流导致降水稀少，符合季风特征。"
   },
   {
     "id": "geography-214",
@@ -2558,12 +2227,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "夏季午后，地面强烈受热使近地面空气快速上升冷却，凝结成雨，属于对流雨；地形雨与地形抬升有关，锋面雨需冷暖气流交汇，气旋雨与低压系统相联系，故选B。",
-    "knowledgeTags": [
-      [
-        "气候与天气"
-      ]
-    ]
+    "explanation": "夏季午后，地面强烈受热使近地面空气快速上升冷却，凝结成雨，属于对流雨；地形雨与地形抬升有关，锋面雨需冷暖气流交汇，气旋雨与低压系统相联系，故选B。"
   },
   {
     "id": "geography-215",
@@ -2592,12 +2256,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "亚洲人口约46亿，居各大洲之首；欧洲人口密度虽高，但密度最高的是亚洲（因人口多、面积大），北美洲自然增长率并非最高，南美洲未出现明显负增长。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "亚洲人口约46亿，居各大洲之首；欧洲人口密度虽高，但密度最高的是亚洲（因人口多、面积大），北美洲自然增长率并非最高，南美洲未出现明显负增长。"
   },
   {
     "id": "geography-216",
@@ -2626,11 +2285,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "亚洲主要是黄色人种，非洲以黑色人种为主；欧洲以白色人种为主；美洲多为混血，选项A、C、D均不符合事实，故选B。",
-    "knowledgeTags": [
-      "世界地理",
-      "人种分布"
-    ]
+    "explanation": "亚洲主要是黄色人种，非洲以黑色人种为主；欧洲以白色人种为主；美洲多为混血，选项A、C、D均不符合事实，故选B。"
   },
   {
     "id": "geography-217",
@@ -2659,15 +2314,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "C选项错误。沿海地区渔业和海运便利，交通便利，人口聚集，聚落密度高，而非极低。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "气候与天气",
-        "人口与聚落",
-        "资源与产业"
-      ]
-    ]
+    "explanation": "C选项错误。沿海地区渔业和海运便利，交通便利，人口聚集，聚落密度高，而非极低。"
   },
   {
     "id": "geography-218",
@@ -2696,12 +2343,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "中国高铁已覆盖全国，运行时速普遍在300 km/h以上，连接东中西部；A错在西部已有高铁，C错在已掌握核心技术，D错在票价一般高于普通铁路。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "中国高铁已覆盖全国，运行时速普遍在300 km/h以上，连接东中西部；A错在西部已有高铁，C错在已掌握核心技术，D错在票价一般高于普通铁路。"
   },
   {
     "id": "geography-219",
@@ -2730,13 +2372,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "A错，煤炭主要在华北、山西、内蒙古；B错，石油在东北、华北及西北；C正确，水能集中青藏高原和西南山区；D错，天然气在西北和四川盆地。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "资源与产业"
-      ]
-    ]
+    "explanation": "A错，煤炭主要在华北、山西、内蒙古；B错，石油在东北、华北及西北；C正确，水能集中青藏高原和西南山区；D错，天然气在西北和四川盆地。"
   },
   {
     "id": "geography-220",
@@ -2765,12 +2401,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "森林砍伐、雾霾、水体富营养化均为人类活动引起的环境问题；地震属自然现象，不属于人类活动导致的环境问题。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "森林砍伐、雾霾、水体富营养化均为人类活动引起的环境问题；地震属自然现象，不属于人类活动导致的环境问题。"
   },
   {
     "id": "geography-221",
@@ -2799,12 +2430,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "东北平原面积约35万平方公里，是中国最大平原，其他平原面积均较小。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "东北平原面积约35万平方公里，是中国最大平原，其他平原面积均较小。"
   },
   {
     "id": "geography-222",
@@ -2833,14 +2459,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "受季风影响，东部沿海夏季受暖湿气流带来丰沛降水，冬季受干燥气流影响降水少；其他选项描述均不符合实际气候分布。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "气候与天气",
-        "资源与产业"
-      ]
-    ]
+    "explanation": "受季风影响，东部沿海夏季受暖湿气流带来丰沛降水，冬季受干燥气流影响降水少；其他选项描述均不符合实际气候分布。"
   },
   {
     "id": "geography-223",
@@ -2869,12 +2488,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "A错误，黄河注入渤海而非黄海；C错误，黄河含沙量虽大，但不一定是世界首位；D错误，黄河主要支流为汾河、渭河等，非长江、淮河。故选B。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "A错误，黄河注入渤海而非黄海；C错误，黄河含沙量虽大，但不一定是世界首位；D错误，黄河主要支流为汾河、渭河等，非长江、淮河。故选B。"
   },
   {
     "id": "geography-224",
@@ -2903,11 +2517,7 @@
     ],
     "answer": "D",
     "grade": 9,
-    "explanation": "中国有23个省、5个自治区、4个直辖市和2个特别行政区，合计34个省级行政区。",
-    "knowledgeTags": [
-      "中国地理",
-      "行政区划"
-    ]
+    "explanation": "中国有23个省、5个自治区、4个直辖市和2个特别行政区，合计34个省级行政区。"
   },
   {
     "id": "geography-225",
@@ -2936,12 +2546,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "根据最新人口统计，广东省常住人口约1.26亿，居全国首位；四川约0.81亿、河南约0.99亿、山东约1.01亿，均低于广东。故正确答案为B。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "根据最新人口统计，广东省常住人口约1.26亿，居全国首位；四川约0.81亿、河南约0.99亿、山东约1.01亿，均低于广东。故正确答案为B。"
   },
   {
     "id": "geography-226",
@@ -2970,11 +2575,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "京津城际铁路于2008年8月1日开通，是中国首条投入商业运营的高速铁路，速度达350公里/小时，标志中国进入高铁时代。",
-    "knowledgeTags": [
-      "中国地理",
-      "交通"
-    ]
+    "explanation": "京津城际铁路于2008年8月1日开通，是中国首条投入商业运营的高速铁路，速度达350公里/小时，标志中国进入高铁时代。"
   },
   {
     "id": "geography-227",
@@ -3003,11 +2604,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "‘一带一路’倡议包括陆上丝绸之路经济带和21世纪海上丝绸之路，涵盖多洲，目标是互联互通与发展合作，非单纯文化输出。故选B。",
-    "knowledgeTags": [
-      "中国地理",
-      "经济"
-    ]
+    "explanation": "‘一带一路’倡议包括陆上丝绸之路经济带和21世纪海上丝绸之路，涵盖多洲，目标是互联互通与发展合作，非单纯文化输出。故选B。"
   },
   {
     "id": "geography-228",
@@ -3036,12 +2633,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "可持续发展强调保护环境、合理利用资源。B选项使用可再生能源，减少化石燃料依赖，符合节能减排和长期资源利用的要求，最能体现可持续理念。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "可持续发展强调保护环境、合理利用资源。B选项使用可再生能源，减少化石燃料依赖，符合节能减排和长期资源利用的要求，最能体现可持续理念。"
   },
   {
     "id": "geography-229",
@@ -3070,12 +2662,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "地球因自转产生离心力，使两极稍扁、赤道略鼓，形成旋转椭球体，故B正确。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "地球因自转产生离心力，使两极稍扁、赤道略鼓，形成旋转椭球体，故B正确。"
   },
   {
     "id": "geography-230",
@@ -3104,12 +2691,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "经线连接两极，指示南北且长度相等；纬线平行赤道，指示东西，长度随纬度升高而减小。故A错、B对；C错，赤道是0°纬线；D错，纬线在赤道最长，两极最短。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "经线连接两极，指示南北且长度相等；纬线平行赤道，指示东西，长度随纬度升高而减小。故A错、B对；C错，赤道是0°纬线；D错，纬线在赤道最长，两极最短。"
   },
   {
     "id": "geography-231",
@@ -3138,11 +2720,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "北京UTC+8，纽约UTC-5，相差13小时。北京5月20日8:00往回13小时，即纽约5月19日19:00。故选B。",
-    "knowledgeTags": [
-      "世界地理",
-      "时区计算"
-    ]
+    "explanation": "北京UTC+8，纽约UTC-5，相差13小时。北京5月20日8:00往回13小时，即纽约5月19日19:00。故选B。"
   },
   {
     "id": "geography-232",
@@ -3171,12 +2749,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "比例尺1:50000意味着图上1厘米对应实地500米。2.5千米=2500米，2500÷500=5厘米，故选A。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "比例尺1:50000意味着图上1厘米对应实地500米。2.5千米=2500米，2500÷500=5厘米，故选A。"
   },
   {
     "id": "geography-233",
@@ -3205,13 +2778,7 @@
     ],
     "answer": "D",
     "grade": 9,
-    "explanation": "等高线呈同心圆，且中心高程最高，说明该处地形向上凸起，即为山峰。",
-    "image": "images/junior/geography-233.svg",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "等高线呈同心圆，且中心高程最高，说明该处地形向上凸起，即为山峰。"
   },
   {
     "id": "geography-234",
@@ -3240,13 +2807,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "①全球海洋约71%，陆地约29%，A错误。②北半球海洋占主导，B错误。③七大洲对应四大洋，D错误。④南半球陆地约占20%，C正确。",
-    "knowledgeTags": [
-      [
-        "地球与地图",
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "①全球海洋约71%，陆地约29%，A错误。②北半球海洋占主导，B错误。③七大洲对应四大洋，D错误。④南半球陆地约占20%，C正确。"
   },
   {
     "id": "geography-235",
@@ -3275,12 +2836,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "亚洲面积约4458万平方公里，是七大洲中面积最大的；非洲约3030万，北美洲约2420万，南极洲约1400万，故选A。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "亚洲面积约4458万平方公里，是七大洲中面积最大的；非洲约3030万，北美洲约2420万，南极洲约1400万，故选A。"
   },
   {
     "id": "geography-236",
@@ -3309,12 +2865,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "海沟是板块俯冲形成的，聚合边界两块板块相互靠近，一块俯冲到另一块下，形成深海沟。故选B。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "海沟是板块俯冲形成的，聚合边界两块板块相互靠近，一块俯冲到另一块下，形成深海沟。故选B。"
   },
   {
     "id": "geography-237",
@@ -3343,12 +2894,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "A正确，环太平洋带集中约70%地震，分布在美洲西岸和亚洲东部。B错误，欧亚地震带沿板块边缘；C错误，非洲-欧亚碰撞带贯穿欧亚非；D错误，南极洲板块深源地震极少。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "A正确，环太平洋带集中约70%地震，分布在美洲西岸和亚洲东部。B错误，欧亚地震带沿板块边缘；C错误，非洲-欧亚碰撞带贯穿欧亚非；D错误，南极洲板块深源地震极少。"
   },
   {
     "id": "geography-238",
@@ -3377,12 +2923,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "全年高温且降水超过2000毫米，分布均匀，属于热带雨林气候的典型特征。",
-    "knowledgeTags": [
-      [
-        "气候与天气"
-      ]
-    ]
+    "explanation": "全年高温且降水超过2000毫米，分布均匀，属于热带雨林气候的典型特征。"
   },
   {
     "id": "geography-239",
@@ -3411,13 +2952,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "季风气候夏季从海洋吹来湿润气流，降水多；冬季从陆地吹向海洋，干燥少雨，符合B。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "气候与天气"
-      ]
-    ]
+    "explanation": "季风气候夏季从海洋吹来湿润气流，降水多；冬季从陆地吹向海洋，干燥少雨，符合B。"
   },
   {
     "id": "geography-240",
@@ -3446,12 +2981,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "当湿润空气遇到山脉被迫抬升，冷却凝结形成降水，这种由地形抬升导致的降雨称为地形雨。",
-    "knowledgeTags": [
-      [
-        "气候与天气"
-      ]
-    ]
+    "explanation": "当湿润空气遇到山脉被迫抬升，冷却凝结形成降水，这种由地形抬升导致的降雨称为地形雨。"
   },
   {
     "id": "geography-241",
@@ -3480,12 +3010,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "截至2023年，全球人口已突破80亿，约合8×10^9人，故选B。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "截至2023年，全球人口已突破80亿，约合8×10^9人，故选B。"
   },
   {
     "id": "geography-242",
@@ -3514,11 +3039,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "白种人主要在欧洲和西亚，排除A；黑种人在撒哈拉以南非洲及美洲，排除C；棕种人在澳大利亚及太平洋岛屿，排除D；黄种人分布东亚、东南亚和美洲北部，符合B。",
-    "knowledgeTags": [
-      "世界地理",
-      "人种分布"
-    ]
+    "explanation": "白种人主要在欧洲和西亚，排除A；黑种人在撒哈拉以南非洲及美洲，排除C；棕种人在澳大利亚及太平洋岛屿，排除D；黄种人分布东亚、东南亚和美洲北部，符合B。"
   },
   {
     "id": "geography-243",
@@ -3547,12 +3068,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "A过于均匀，C、D忽视自然，B符合山谷、缓坡便于取水、交通的特点，选B。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "A过于均匀，C、D忽视自然，B符合山谷、缓坡便于取水、交通的特点，选B。"
   },
   {
     "id": "geography-244",
@@ -3581,11 +3097,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "改革开放后，我国重点发展高速公路，国家高速网络快速延伸，增长速度居各类交通之首。",
-    "knowledgeTags": [
-      "中国地理",
-      "交通"
-    ]
+    "explanation": "改革开放后，我国重点发展高速公路，国家高速网络快速延伸，增长速度居各类交通之首。"
   },
   {
     "id": "geography-245",
@@ -3614,13 +3126,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "我国水资源呈南多北少、东多西少的分布规律，南方降水丰沛、河网密布，水资源相对丰富，故选B。",
-    "knowledgeTags": [
-      [
-        "资源与产业",
-        "区域地理"
-      ]
-    ]
+    "explanation": "我国水资源呈南多北少、东多西少的分布规律，南方降水丰沛、河网密布，水资源相对丰富，故选B。"
   },
   {
     "id": "geography-246",
@@ -3649,12 +3155,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "工业排放的二氧化硫和氮氧化物在大气中被氧化生成硫酸和硝酸，随雨水降落形成酸雨；而温室效应、臭氧空洞和雾霾主要与其他因素相关。",
-    "knowledgeTags": [
-      [
-        "资源与产业"
-      ]
-    ]
+    "explanation": "工业排放的二氧化硫和氮氧化物在大气中被氧化生成硫酸和硝酸，随雨水降落形成酸雨；而温室效应、臭氧空洞和雾霾主要与其他因素相关。"
   },
   {
     "id": "geography-247",
@@ -3683,12 +3184,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "解析：我国地势西高东低，高原山地多，平原占比不足一半；青藏高原平均海拔约4500米，是世界最高；四大盆地不全在西北；长江中下游主要是平原和丘陵。选项B正确。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "解析：我国地势西高东低，高原山地多，平原占比不足一半；青藏高原平均海拔约4500米，是世界最高；四大盆地不全在西北；长江中下游主要是平原和丘陵。选项B正确。"
   },
   {
     "id": "geography-248",
@@ -3717,15 +3213,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "夏季风从海上带来湿润气流，使东部地区夏季降水集中且气温高，形成雨热同期的特征，故选B。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "气候与天气",
-        "资源与产业",
-        "区域地理"
-      ]
-    ]
+    "explanation": "夏季风从海上带来湿润气流，使东部地区夏季降水集中且气温高，形成雨热同期的特征，故选B。"
   },
   {
     "id": "geography-249",
@@ -3754,12 +3242,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "A正确，长江发源于唐古拉山，流程经十一省（市），在崇明注入东海；B错误，水量居世界第五；C错误，含沙量最高的是黄河；D错误，黄河不是长江支流。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "A正确，长江发源于唐古拉山，流程经十一省（市），在崇明注入东海；B错误，水量居世界第五；C错误，含沙量最高的是黄河；D错误，黄河不是长江支流。"
   },
   {
     "id": "geography-250",
@@ -3788,11 +3271,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "中国省级行政区包括23个省、5个自治区、4个直辖市和2个特别行政区，合计34个。",
-    "knowledgeTags": [
-      "中国地理",
-      "行政区划"
-    ]
+    "explanation": "中国省级行政区包括23个省、5个自治区、4个直辖市和2个特别行政区，合计34个。"
   },
   {
     "id": "geography-251",
@@ -3821,12 +3300,7 @@
     ],
     "answer": "D",
     "grade": 9,
-    "explanation": "2020年全国人口普查结果显示，广东常住人口约1.26亿，居全国之首；四川约0.84亿、河南约1.00亿、山东约1.01亿，均低于广东。因此选D。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "2020年全国人口普查结果显示，广东常住人口约1.26亿，居全国之首；四川约0.84亿、河南约1.00亿、山东约1.01亿，均低于广东。因此选D。"
   },
   {
     "id": "geography-252",
@@ -3855,11 +3329,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "截至2023年，中国高速铁路运营里程已超过4万公里，稳居全球第一，其他选项明显偏低，故选C。",
-    "knowledgeTags": [
-      "中国地理",
-      "交通"
-    ]
+    "explanation": "截至2023年，中国高速铁路运营里程已超过4万公里，稳居全球第一，其他选项明显偏低，故选C。"
   },
   {
     "id": "geography-253",
@@ -3888,11 +3358,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "‘一带一路’覆盖亚欧非，强调互联互通与共同发展，兼顾陆海路线，且鼓励企业参与，故B正确。",
-    "knowledgeTags": [
-      "中国地理",
-      "经济"
-    ]
+    "explanation": "‘一带一路’覆盖亚欧非，强调互联互通与共同发展，兼顾陆海路线，且鼓励企业参与，故B正确。"
   },
   {
     "id": "geography-254",
@@ -3921,11 +3387,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "可持续发展强调经济、社会、环境三者平衡，核心是减少碳排放和资源浪费。选项A、D违背环保；C破坏生态；B推广低碳出行，符合原则。",
-    "knowledgeTags": [
-      "世界地理",
-      "可持续发展"
-    ]
+    "explanation": "可持续发展强调经济、社会、环境三者平衡，核心是减少碳排放和资源浪费。选项A、D违背环保；C破坏生态；B推广低碳出行，符合原则。"
   },
   {
     "id": "geography-255",
@@ -3954,12 +3416,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "地球因自转产生离心力，导致赤道半径略大于极半径，形状为两极略扁的椭球体（扁球体），最接近选项B。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "地球因自转产生离心力，导致赤道半径略大于极半径，形状为两极略扁的椭球体（扁球体），最接近选项B。"
   },
   {
     "id": "geography-256",
@@ -3988,12 +3445,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "经线等长、指向南北；纬线在赤道最长，向两极递减。故B正确；A错经线指示南北；C错纬线不相交；D错纬度0°~90°，经度0°~180°。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "经线等长、指向南北；纬线在赤道最长，向两极递减。故B正确；A错经线指示南北；C错纬线不相交；D错纬度0°~90°，经度0°~180°。"
   },
   {
     "id": "geography-257",
@@ -4022,11 +3474,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "北京位于东八区，纽约使用东五区（标准时间），时差13小时。北京9:00减13小时即为纽约前一天的20:00。",
-    "knowledgeTags": [
-      "世界地理",
-      "时区计算"
-    ]
+    "explanation": "北京位于东八区，纽约使用东五区（标准时间），时差13小时。北京9:00减13小时即为纽约前一天的20:00。"
   },
   {
     "id": "geography-258",
@@ -4055,12 +3503,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "比例尺1:50 000表示图上1厘米对应实际50 000厘米，1米=100厘米，故50 000厘米=500米，选A。",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "explanation": "比例尺1:50 000表示图上1厘米对应实际50 000厘米，1米=100厘米，故50 000厘米=500米，选A。"
   },
   {
     "id": "geography-259",
@@ -4090,12 +3533,7 @@
     "answer": "C",
     "grade": 9,
     "explanation": "等高线闭合且内部高程大于外部，说明等高线向内递增，属于地形凸起的山峰。",
-    "image": "images/junior/geography-259.svg",
-    "knowledgeTags": [
-      [
-        "地球与地图"
-      ]
-    ]
+    "imageUrl": "images/geography/contour-closed.png"
   },
   {
     "id": "geography-260",
@@ -4124,13 +3562,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "已知全球约71%为海洋，故B正确；A错误，海洋占71%；C亚洲约占30%，不是50%；D最大洋是太平洋，北冰洋最小。",
-    "knowledgeTags": [
-      [
-        "地球与地图",
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "已知全球约71%为海洋，故B正确；A错误，海洋占71%；C亚洲约占30%，不是50%；D最大洋是太平洋，北冰洋最小。"
   },
   {
     "id": "geography-261",
@@ -4159,14 +3591,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "亚洲面积约30%全球陆地，最大；北冰洋约4%海洋，非10%；非洲人口不及亚洲；太平洋约46%海洋，非70%。故A正确。",
-    "knowledgeTags": [
-      [
-        "地球与地图",
-        "陆地与海洋",
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "亚洲面积约30%全球陆地，最大；北冰洋约4%海洋，非10%；非洲人口不及亚洲；太平洋约46%海洋，非70%。故A正确。"
   },
   {
     "id": "geography-262",
@@ -4195,13 +3620,7 @@
     ],
     "answer": "D",
     "grade": 9,
-    "explanation": "板块构造理论只列出离散、聚合和转换三种边界，没有稳定边界，故选D。",
-    "knowledgeTags": [
-      [
-        "地球与地图",
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "板块构造理论只列出离散、聚合和转换三种边界，没有稳定边界，故选D。"
   },
   {
     "id": "geography-263",
@@ -4230,12 +3649,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "环太平洋地震带分布在太平洋周边，包括日本、美国西海岸、澳大利亚等地，符合事实；欧亚带未横跨整个大陆；中洋脊带主要在海底，对陆地影响有限；全球能量比例非90%。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+    "explanation": "环太平洋地震带分布在太平洋周边，包括日本、美国西海岸、澳大利亚等地，符合事实；欧亚带未横跨整个大陆；中洋脊带主要在海底，对陆地影响有限；全球能量比例非90%。"
   },
   {
     "id": "geography-264",
@@ -4264,12 +3678,7 @@
     ],
     "answer": "A",
     "grade": 9,
-    "explanation": "热带雨林气候全年高温，降水丰沛且分配均匀；热带草原有干湿季，温带季风有季节变化，亚寒带寒冷少雨。因此选A。",
-    "knowledgeTags": [
-      [
-        "气候与天气"
-      ]
-    ]
+    "explanation": "热带雨林气候全年高温，降水丰沛且分配均匀；热带草原有干湿季，温带季风有季节变化，亚寒带寒冷少雨。因此选A。"
   },
   {
     "id": "geography-265",
@@ -4298,12 +3707,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "季风气候夏季风从海洋吹向陆地，冬季风相反。选项B正确；A、C、D描述不符合季风特征。",
-    "knowledgeTags": [
-      [
-        "气候与天气"
-      ]
-    ]
+    "explanation": "季风气候夏季风从海洋吹向陆地，冬季风相反。选项B正确；A、C、D描述不符合季风特征。"
   },
   {
     "id": "geography-266",
@@ -4332,13 +3736,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "暖湿气流受山脉阻挡，被迫上升冷却，水汽凝结形成降水，属于典型的地形雨（迎风坡降水），选C。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "气候与天气"
-      ]
-    ]
+    "explanation": "暖湿气流受山脉阻挡，被迫上升冷却，水汽凝结形成降水，属于典型的地形雨（迎风坡降水），选C。"
   },
   {
     "id": "geography-267",
@@ -4367,12 +3765,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "截至2023年，印度人口已超过14.2亿，超过中国的约14.1亿，成为世界人口第一大国，故选B。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "截至2023年，印度人口已超过14.2亿，超过中国的约14.1亿，成为世界人口第一大国，故选B。"
   },
   {
     "id": "geography-268",
@@ -4401,11 +3794,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "白种人分布广泛，除欧美澳外还有亚洲部分地区，A不完整；黄种人主要在亚洲和美洲，B正确；黑种人主要在非洲，南美以混血为主，C错误；黄种人在非洲极少，D错误。",
-    "knowledgeTags": [
-      "世界地理",
-      "人种分布"
-    ]
+    "explanation": "白种人分布广泛，除欧美澳外还有亚洲部分地区，A不完整；黄种人主要在亚洲和美洲，B正确；黑种人主要在非洲，南美以混血为主，C错误；黄种人在非洲极少，D错误。"
   },
   {
     "id": "geography-269",
@@ -4434,13 +3823,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "平原开阔，适合分散或聚集，不会形成线形；河谷沿水系，易成线形；高原地形平坦，星形分布少；山地地形破碎，适宜居住的土地有限，聚居型分布常见，故选C。",
-    "knowledgeTags": [
-      [
-        "陆地与海洋",
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "平原开阔，适合分散或聚集，不会形成线形；河谷沿水系，易成线形；高原地形平坦，星形分布少；山地地形破碎，适宜居住的土地有限，聚居型分布常见，故选C。"
   },
   {
     "id": "geography-270",
@@ -4469,11 +3852,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "高速铁路的核心特点是运行时速远高于普通铁路，提供更快的出行时间；票价、站点位置和货运并非其优势。",
-    "knowledgeTags": [
-      "中国地理",
-      "交通"
-    ]
+    "explanation": "高速铁路的核心特点是运行时速远高于普通铁路，提供更快的出行时间；票价、站点位置和货运并非其优势。"
   },
   {
     "id": "geography-271",
@@ -4502,13 +3881,7 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "分析各选项: A描述相反; B符合煤炭分布; C森林主在东北和西南; D稀土主要在中部和西部。",
-    "knowledgeTags": [
-      [
-        "资源与产业",
-        "区域地理"
-      ]
-    ]
+    "explanation": "分析各选项: A描述相反; B符合煤炭分布; C森林主在东北和西南; D稀土主要在中部和西部。"
   },
   {
     "id": "geography-272",
@@ -4537,12 +3910,7 @@
     ],
     "answer": "C",
     "grade": 9,
-    "explanation": "PM2.5主要来自汽车尾气和工业排放。公共交通、骑行和步行能显著减少车辆使用，从而降低颗粒物排放，是降低城市PM2.5最直接有效的措施。",
-    "knowledgeTags": [
-      [
-        "人口与聚落"
-      ]
-    ]
+    "explanation": "PM2.5主要来自汽车尾气和工业排放。公共交通、骑行和步行能显著减少车辆使用，从而降低颗粒物排放，是降低城市PM2.5最直接有效的措施。"
   },
   {
     "id": "geography-273",
@@ -4571,11 +3939,2547 @@
     ],
     "answer": "B",
     "grade": 9,
-    "explanation": "A把东部高原、西部平原说反，C青藏高原非最小，D四川盆地非最大，均错，排除后只剩B正确。",
+    "explanation": "A把东部高原、西部平原说反，C青藏高原非最小，D四川盆地非最大，均错，排除后只剩B正确。"
+  },
+  {
+    "id": "geography-g7-001",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
     "knowledgeTags": [
-      [
-        "陆地与海洋"
-      ]
-    ]
+      "地球和地图"
+    ],
+    "question": "地球的形状是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "正球体"
+      },
+      {
+        "label": "B",
+        "text": "两极略扁的不规则球体"
+      },
+      {
+        "label": "C",
+        "text": "立方体"
+      },
+      {
+        "label": "D",
+        "text": "圆锥体"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及地球和地图知识点。正确答案是B：两极略扁的不规则球体。",
+    "image": null
+  },
+  {
+    "id": "geography-g7-002",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球和地图"
+    ],
+    "question": "地球自转的方向是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "自西向东"
+      },
+      {
+        "label": "B",
+        "text": "自东向西"
+      },
+      {
+        "label": "C",
+        "text": "从北向南"
+      },
+      {
+        "label": "D",
+        "text": "从南向北"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及地球和地图知识点。正确答案是A：自西向东。",
+    "image": null
+  },
+  {
+    "id": "geography-g7-003",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球和地图"
+    ],
+    "question": "地球自转周期是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24小时"
+      },
+      {
+        "label": "B",
+        "text": "365天"
+      },
+      {
+        "label": "C",
+        "text": "12小时"
+      },
+      {
+        "label": "D",
+        "text": "30天"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及地球和地图知识点。正确答案是A：24小时。",
+    "image": null
+  },
+  {
+    "id": "geography-g7-004",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球和地图"
+    ],
+    "question": "经线指示的方向是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "南北"
+      },
+      {
+        "label": "B",
+        "text": "东西"
+      },
+      {
+        "label": "C",
+        "text": "东北"
+      },
+      {
+        "label": "D",
+        "text": "西南"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及地球和地图知识点。正确答案是A：南北。",
+    "image": null
+  },
+  {
+    "id": "geography-g7-005",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球和地图"
+    ],
+    "question": "赤道的纬度是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0度"
+      },
+      {
+        "label": "B",
+        "text": "90度"
+      },
+      {
+        "label": "C",
+        "text": "180度"
+      },
+      {
+        "label": "D",
+        "text": "360度"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及地球和地图知识点。正确答案是A：0度。",
+    "image": null
+  },
+  {
+    "id": "geography-g8-001",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "地球的形状是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "正球体"
+      },
+      {
+        "label": "B",
+        "text": "两极略扁的不规则球体"
+      },
+      {
+        "label": "C",
+        "text": "立方体"
+      },
+      {
+        "label": "D",
+        "text": "圆锥体"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及中国地理知识点。正确答案是B：两极略扁的不规则球体。",
+    "image": null
+  },
+  {
+    "id": "geography-g8-002",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "地球自转的方向是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "自西向东"
+      },
+      {
+        "label": "B",
+        "text": "自东向西"
+      },
+      {
+        "label": "C",
+        "text": "从北向南"
+      },
+      {
+        "label": "D",
+        "text": "从南向北"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及中国地理知识点。正确答案是A：自西向东。",
+    "image": null
+  },
+  {
+    "id": "geography-g8-003",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "地球自转周期是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24小时"
+      },
+      {
+        "label": "B",
+        "text": "365天"
+      },
+      {
+        "label": "C",
+        "text": "12小时"
+      },
+      {
+        "label": "D",
+        "text": "30天"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及中国地理知识点。正确答案是A：24小时。",
+    "image": null
+  },
+  {
+    "id": "geography-g8-004",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "经线指示的方向是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "南北"
+      },
+      {
+        "label": "B",
+        "text": "东西"
+      },
+      {
+        "label": "C",
+        "text": "东北"
+      },
+      {
+        "label": "D",
+        "text": "西南"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及中国地理知识点。正确答案是A：南北。",
+    "image": null
+  },
+  {
+    "id": "geography-g8-005",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "赤道的纬度是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0度"
+      },
+      {
+        "label": "B",
+        "text": "90度"
+      },
+      {
+        "label": "C",
+        "text": "180度"
+      },
+      {
+        "label": "D",
+        "text": "360度"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及中国地理知识点。正确答案是A：0度。",
+    "image": null
+  },
+  {
+    "id": "geography-g9-001",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "地球的形状是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "正球体"
+      },
+      {
+        "label": "B",
+        "text": "两极略扁的不规则球体"
+      },
+      {
+        "label": "C",
+        "text": "立方体"
+      },
+      {
+        "label": "D",
+        "text": "圆锥体"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及世界地理知识点。正确答案是B：两极略扁的不规则球体。",
+    "image": null
+  },
+  {
+    "id": "geography-g9-002",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "地球自转的方向是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "自西向东"
+      },
+      {
+        "label": "B",
+        "text": "自东向西"
+      },
+      {
+        "label": "C",
+        "text": "从北向南"
+      },
+      {
+        "label": "D",
+        "text": "从南向北"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及世界地理知识点。正确答案是A：自西向东。",
+    "image": null
+  },
+  {
+    "id": "geography-g9-003",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "地球自转周期是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "24小时"
+      },
+      {
+        "label": "B",
+        "text": "365天"
+      },
+      {
+        "label": "C",
+        "text": "12小时"
+      },
+      {
+        "label": "D",
+        "text": "30天"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及世界地理知识点。正确答案是A：24小时。",
+    "image": null
+  },
+  {
+    "id": "geography-g9-004",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "经线指示的方向是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "南北"
+      },
+      {
+        "label": "B",
+        "text": "东西"
+      },
+      {
+        "label": "C",
+        "text": "东北"
+      },
+      {
+        "label": "D",
+        "text": "西南"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及世界地理知识点。正确答案是A：南北。",
+    "image": null
+  },
+  {
+    "id": "geography-g9-005",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "赤道的纬度是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "0度"
+      },
+      {
+        "label": "B",
+        "text": "90度"
+      },
+      {
+        "label": "C",
+        "text": "180度"
+      },
+      {
+        "label": "D",
+        "text": "360度"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及世界地理知识点。正确答案是A：0度。",
+    "image": null
+  },
+  {
+    "id": "geography-大洲大洋-8-NEW",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "大洲大洋"
+    ],
+    "question": "哪个大洲位于东亚和南亚之间？",
+    "options": [
+      {
+        "label": "A",
+        "text": "南美洲"
+      },
+      {
+        "label": "B",
+        "text": "非洲"
+      },
+      {
+        "label": "C",
+        "text": "亚洲"
+      },
+      {
+        "label": "D",
+        "text": "欧洲"
+      }
+    ],
+    "answer": "C",
+    "explanation": "亚洲是最大的大洲，其范围也包括东亚和南亚。"
+  },
+  {
+    "id": "geography-板块构造-8-NEW",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "根据板块构造的原理，下列哪种地球构造类型最能解释一个山脉形成的机制？",
+    "options": [
+      {
+        "label": "A",
+        "text": "地壳运动"
+      },
+      {
+        "label": "B",
+        "text": "火山活动"
+      },
+      {
+        "label": "C",
+        "text": "板块碰撞"
+      },
+      {
+        "label": "D",
+        "text": "地幔流动"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-8-NEW",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "下列哪个地形通常与山脉或河流有关？",
+    "options": [
+      {
+        "label": "A",
+        "text": "沙漠"
+      },
+      {
+        "label": "B",
+        "text": "森林"
+      },
+      {
+        "label": "C",
+        "text": "平原"
+      },
+      {
+        "label": "D",
+        "text": "海洋"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-板块构造-8-NEW-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "下列哪种板块构造现象最能解释地球上大大小小山脉的形成？",
+    "options": [
+      {
+        "label": "A",
+        "text": "板块漂移"
+      },
+      {
+        "label": "B",
+        "text": "地幔柱运动"
+      },
+      {
+        "label": "C",
+        "text": "火山活动"
+      },
+      {
+        "label": "D",
+        "text": "地震的频率升高"
+      }
+    ],
+    "answer": "B",
+    "explanation": "地幔柱运动是导致大大小小山脉形成的主要原因，因为它们不断地向地球内部移动并压实。"
+  },
+  {
+    "id": "geography-板块构造-8-NEW-2",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "下列哪一项是板块构造的正确描述？",
+    "options": [
+      {
+        "label": "A",
+        "text": "板块构造是地球内部物质运动的结果"
+      },
+      {
+        "label": "B",
+        "text": "板块构造是指地壳和地幔之间的相互作用"
+      },
+      {
+        "label": "C",
+        "text": "板块构造主要影响的是大陆的形状"
+      },
+      {
+        "label": "D",
+        "text": "板块构造是地球上岩石变质过程中的一个重要环节"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-8-NEW-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "下列哪个国家与地球上最相似的地理特征？",
+    "options": [
+      {
+        "label": "A",
+        "text": "南极洲"
+      },
+      {
+        "label": "B",
+        "text": "亚马逊河"
+      },
+      {
+        "label": "C",
+        "text": "撒哈拉沙漠"
+      },
+      {
+        "label": "D",
+        "text": "格陵兰冰盖"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地球运动-8-NEW",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "地球运动"
+    ],
+    "question": "地球运动的主要驱动力是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "太阳的引力"
+      },
+      {
+        "label": "B",
+        "text": "地球的自转"
+      },
+      {
+        "label": "C",
+        "text": "月球的引力"
+      },
+      {
+        "label": "D",
+        "text": "大气层中的气体运动"
+      }
+    ],
+    "answer": "B",
+    "explanation": "地球的自转和公转是主要驱动地球运动的主要因素，它们共同作用产生地球的旋转和运动。"
+  },
+  {
+    "id": "geography-地球运动-8-NEW-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "地球运动"
+    ],
+    "question": "地球运动的主要驱动力是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "太阳的引力"
+      },
+      {
+        "label": "B",
+        "text": "月球的引力"
+      },
+      {
+        "label": "C",
+        "text": "地球的自转"
+      },
+      {
+        "label": "D",
+        "text": "地球的加热"
+      }
+    ],
+    "answer": "C",
+    "explanation": "地球的自转驱动着地球上的风向和气候变化，而月球的引力也影响到地球的潮汐现象。"
+  },
+  {
+    "id": "geography-自然资源-8-NEW",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "下列哪一项是自然资源管理中最重要的原则？",
+    "options": [
+      {
+        "label": "A",
+        "text": "过度开发"
+      },
+      {
+        "label": "B",
+        "text": "可持续利用"
+      },
+      {
+        "label": "C",
+        "text": "资源枯竭"
+      },
+      {
+        "label": "D",
+        "text": "人为破坏"
+      }
+    ],
+    "answer": "B",
+    "explanation": "可持续利用是指在满足当代需求的同时，不损害后代子孙的潜力来满足他们的需求。"
+  },
+  {
+    "id": "geography-自然资源-8-NEW-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "下列哪种自然资源最能为当地居民提供水资源？",
+    "options": [
+      {
+        "label": "A",
+        "text": "河流"
+      },
+      {
+        "label": "B",
+        "text": "湖泊"
+      },
+      {
+        "label": "C",
+        "text": "地下水"
+      },
+      {
+        "label": "D",
+        "text": "森林"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-自然资源-8-NEW-2",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "下列哪个因素最能影响地球气候？",
+    "options": [
+      {
+        "label": "A",
+        "text": "太阳辐射"
+      },
+      {
+        "label": "B",
+        "text": "大气层中的温室气体"
+      },
+      {
+        "label": "C",
+        "text": "海洋温度"
+      },
+      {
+        "label": "D",
+        "text": "地表温度"
+      }
+    ],
+    "answer": "B",
+    "explanation": "大气层中的温室气体能够吸收太阳辐射，导致地球表面温度升高。"
+  },
+  {
+    "id": "geography-中国地理-行政区-8-NEW",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "中国大陆的行政区划主要由哪些地区组成？",
+    "options": [
+      {
+        "label": "A",
+        "text": "华北地区"
+      },
+      {
+        "label": "B",
+        "text": "东北地区"
+      },
+      {
+        "label": "C",
+        "text": "西北地区"
+      },
+      {
+        "label": "D",
+        "text": "长江流域"
+      }
+    ],
+    "answer": "C",
+    "explanation": "中国大陆主要由西北、西南、甘肃、青海、宁夏、新疆、西藏等地区组成。"
+  },
+  {
+    "id": "geography-中国地理-行政区-8-NEW-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理-行政区划"
+    ],
+    "question": "中国大陆的行政区划主要由哪些区域组成？",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚洲陆地"
+      },
+      {
+        "label": "B",
+        "text": "中国大陆"
+      },
+      {
+        "label": "C",
+        "text": "东海地区"
+      },
+      {
+        "label": "D",
+        "text": "南极洲"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国大陆主要由东部、中部和西部区域组成，包括：中国东部沿海地区（如浙江、江苏、山东等）、中国中部平原地区以及中国西部沙漠地区。"
+  },
+  {
+    "id": "geography-自然资源-8-NEW-3",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "中国最丰富的自然资源有哪些？",
+    "options": [
+      {
+        "label": "A",
+        "text": "石油"
+      },
+      {
+        "label": "B",
+        "text": "煤炭"
+      },
+      {
+        "label": "C",
+        "text": "盐"
+      },
+      {
+        "label": "D",
+        "text": "森林"
+      }
+    ],
+    "answer": "B",
+    "explanation": "煤炭是重要的能源，而盐是一种重要的工业原料。"
+  },
+  {
+    "id": "geography-气候-8-NEW",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "气候"
+    ],
+    "question": "下列哪种气候类型最适合于热带雨林生态系统发展？",
+    "options": [
+      {
+        "label": "A",
+        "text": "温带草原"
+      },
+      {
+        "label": "B",
+        "text": "热带雨林"
+      },
+      {
+        "label": "C",
+        "text": "寒冷高山"
+      },
+      {
+        "label": "D",
+        "text": "亚热带沙漠"
+      }
+    ],
+    "answer": "B",
+    "explanation": "热带雨林拥有持续的温暖气候，湿度高、降水丰富，为植物和动物提供了理想的环境。"
+  },
+  {
+    "id": "geography-地球形状-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "地球形状"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-时区计算-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "时区计算"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地图比例尺-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "地图比例尺"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-等高线-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "等高线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-板块构造-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-气候类型-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "气候类型"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-降水分布-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "降水分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-人口分布-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "人口分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-聚落形成-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "聚落形成"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发达国家-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "发达国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发展中国家-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "发展中国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-自然资源-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-国际合作-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "国际合作"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-环境保护-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "环境保护"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-亚洲地理-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "亚洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-欧洲地理-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "欧洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-非洲地理-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "非洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-美洲地理-7",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "美洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地球形状-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "地球形状"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-时区计算-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "时区计算"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地图比例尺-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "地图比例尺"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-等高线-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "等高线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-板块构造-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-气候类型-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "气候类型"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-降水分布-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "降水分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-人口分布-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "人口分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-聚落形成-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "聚落形成"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发达国家-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "发达国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发展中国家-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "发展中国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-国际合作-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "国际合作"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-自然资源-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-环境保护-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "环境保护"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-亚洲地理-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "亚洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-欧洲地理-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "欧洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-非洲地理-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "非洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-美洲地理-8",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "美洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地球形状-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "地球形状"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-时区计算-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "时区计算"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地图比例尺-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "地图比例尺"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-等高线-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "等高线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-板块构造-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-气候类型-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "气候类型"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-降水分布-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "降水分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-人口分布-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "人口分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-聚落形成-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "聚落形成"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发达国家-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "发达国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发展中国家-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "发展中国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-国际合作-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "国际合作"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-自然资源-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-环境保护-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "环境保护"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-亚洲地理-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "亚洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-欧洲地理-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "欧洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-非洲地理-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "非洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-美洲地理-9",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "美洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地球形状-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "地球形状"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-时区计算-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "时区计算"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地图比例尺-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "地图比例尺"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-等高线-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "等高线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-板块构造-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-气候类型-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "气候类型"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-降水分布-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "降水分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-人口分布-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "人口分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-聚落形成-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "聚落形成"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发达国家-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "发达国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发展中国家-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "发展中国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-国际合作-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "国际合作"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-自然资源-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-环境保护-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "环境保护"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-亚洲地理-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "亚洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-欧洲地理-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "欧洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-非洲地理-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "非洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-美洲地理-7-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "美洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地球形状-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "地球形状"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-时区计算-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "时区计算"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地图比例尺-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "地图比例尺"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-等高线-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "等高线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-板块构造-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-气候类型-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "气候类型"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-降水分布-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "降水分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-人口分布-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "人口分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-聚落形成-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "聚落形成"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发达国家-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "发达国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发展中国家-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "发展中国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-国际合作-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "国际合作"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-自然资源-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-环境保护-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "环境保护"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-亚洲地理-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "亚洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-欧洲地理-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "欧洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-非洲地理-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "非洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-美洲地理-8-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "美洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地球形状-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "地球形状"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-经纬线-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "经纬线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-时区计算-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "时区计算"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-地图比例尺-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "地图比例尺"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-等高线-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "等高线"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-板块构造-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "板块构造"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-气候类型-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "气候类型"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-降水分布-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "降水分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-人口分布-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "人口分布"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-聚落形成-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "聚落形成"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发达国家-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "发达国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-发展中国家-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "发展中国家"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-国际合作-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "国际合作"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-自然资源-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "自然资源"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-环境保护-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "环境保护"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-亚洲地理-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "亚洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-欧洲地理-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "欧洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-非洲地理-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "非洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "geography-美洲地理-9-1",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "美洲地理"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
   }
 ]

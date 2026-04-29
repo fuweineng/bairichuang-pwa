@@ -1,752 +1,2187 @@
 [
   {
-    "id": "politics-senior-high-1",
+    "id": "politics-g10-001",
     "type": "choice",
-    "question": "货币的本质是一般等价物，它能够表现其他一切商品的价值。货币的基本职能是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "价值尺度和流通手段"
-      },
-      {
-        "label": "B",
-        "text": "支付手段和贮藏手段"
-      },
-      {
-        "label": "C",
-        "text": "世界货币和储藏手段"
-      },
-      {
-        "label": "D",
-        "text": "价值尺度和支付手段"
-      }
-    ],
-    "answer": "A",
-    "explanation": "货币的基本职能是价值尺度和流通手段。价值尺度是指货币作为尺度来衡量和表现商品价值的大小；流通手段是指货币充当商品交换的媒介。支付手段、贮藏手段、世界货币是货币的衍生职能。",
-    "difficulty": 4,
     "subject": "politics",
+    "difficulty": 2,
+    "grade": 10,
     "knowledgeTags": [
-      "商品与货币"
-    ]
-  },
-  {
-    "id": "politics-senior-high-2",
-    "type": "choice",
-    "question": "价值规律是商品经济的基本规律。价值规律的表现形式是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "商品价格围绕价值上下波动"
-      },
-      {
-        "label": "B",
-        "text": "商品价值由社会必要劳动时间决定"
-      },
-      {
-        "label": "C",
-        "text": "商品交换必须实行等价交换"
-      },
-      {
-        "label": "D",
-        "text": "商品生产者的两极分化"
-      }
+      "理解公民"
     ],
-    "answer": "A",
-    "explanation": "价值规律的表现形式是商品价格围绕价值上下波动。由于供求关系的影响，商品价格会高于或低于价值，但从一个较长的时期来看，价格与价值趋于一致，这正是价值规律作用的表现形式。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "价值规律"
-    ]
-  },
-  {
-    "id": "politics-senior-high-3",
-    "type": "choice",
-    "question": "有限责任公司和股份有限公司的共同特点是？",
+    "question": "一个人的价值在于?",
     "options": [
       {
         "label": "A",
-        "text": "公司以其全部资产对公司债务承担责任"
+        "text": "成绩好"
       },
       {
         "label": "B",
-        "text": "资本必须分为等额股份"
+        "text": "对社会的贡献"
       },
       {
         "label": "C",
-        "text": "股东对公司债务承担无限连带责任"
+        "text": "赚很多钱"
       },
       {
         "label": "D",
-        "text": "可以通过发行股票筹集资金"
-      }
-    ],
-    "answer": "A",
-    "explanation": "有限责任公司和股份有限公司的共同特点是公司以其全部资产对公司债务承担责任，即股东都只以投入的资本额为限对公司债务负有限责任。B、D是股份有限公司特有的，C是无限责任公司的特点。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "企业与经营者"
-    ]
-  },
-  {
-    "id": "politics-senior-high-4",
-    "type": "choice",
-    "question": "劳动者依法享有的各项权利中，最基本、最重要的权利是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "取得劳动报酬的权利"
-      },
-      {
-        "label": "B",
-        "text": "休息休假的权利"
-      },
-      {
-        "label": "C",
-        "text": "劳动安全卫生保护的权利"
-      },
-      {
-        "label": "D",
-        "text": "平等就业和选择职业的权利"
-      }
-    ],
-    "answer": "D",
-    "explanation": "平等就业和选择职业的权利是劳动者依法享有的各项权利中最基本、最重要的权利，是公民劳动权的落脚点和出发点。只有实现了平等就业和选择职业的权利，才能实现其他各项劳动权利。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "劳动者权利"
-    ]
-  },
-  {
-    "id": "politics-senior-high-5",
-    "type": "choice",
-    "question": "下列投资方式中，风险最小、收益最稳定的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "购买国债"
-      },
-      {
-        "label": "B",
-        "text": "购买股票"
-      },
-      {
-        "label": "C",
-        "text": "购买商业保险"
-      },
-      {
-        "label": "D",
-        "text": "直接创办企业"
-      }
-    ],
-    "answer": "A",
-    "explanation": "国债以国家信用为担保，由中央政府发行，风险最小；股票收益取决于企业经营状况，风险较大；商业保险主要功能是风险保障；创办企业风险最大。国债虽然收益相对较低，但风险最小、收益最稳定。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "投资与理财"
-    ]
-  },
-  {
-    "id": "politics-senior-high-6",
-    "type": "choice",
-    "question": "国家宏观调控的主要目标是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "促进经济增长、增加就业、稳定物价、保持国际收支平衡"
-      },
-      {
-        "label": "B",
-        "text": "增加财政收入、减少财政支出"
-      },
-      {
-        "label": "C",
-        "text": "提高利率、控制通货膨胀"
-      },
-      {
-        "label": "D",
-        "text": "扩大进口、减少出口"
-      }
-    ],
-    "answer": "A",
-    "explanation": "国家宏观调控的主要目标是促进经济增长、增加就业、稳定物价、保持国际收支平衡。这四大目标相互联系、相互制约，必须统筹兼顾，努力实现国民经济又好又快发展。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "国家宏观调控"
-    ]
-  },
-  {
-    "id": "politics-senior-high-7",
-    "type": "choice",
-    "question": "社会主义市场经济的基本标志是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "坚持公有制的主体地位"
-      },
-      {
-        "label": "B",
-        "text": "市场在资源配置中起决定性作用"
-      },
-      {
-        "label": "C",
-        "text": "能够实行科学的宏观调控"
-      },
-      {
-        "label": "D",
-        "text": "以共同富裕为根本目标"
-      }
-    ],
-    "answer": "A",
-    "explanation": "坚持公有制的主体地位是社会主义市场经济的基本标志。社会主义市场经济与资本主义市场经济的根本区别在于所有制基础不同，公有制为主体决定了社会主义市场经济的性质。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "社会主义市场经济"
-    ]
-  },
-  {
-    "id": "politics-senior-high-8",
-    "type": "choice",
-    "question": "我国宪法规定公民的基本权利和义务中，既是权利又是义务的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "监督权和休息权"
-      },
-      {
-        "label": "B",
-        "text": "劳动权和受教育权"
-      },
-      {
-        "label": "C",
-        "text": "选举权和被选举权"
-      },
-      {
-        "label": "D",
-        "text": "财产所有权和人身自由权"
+        "text": "当大官"
       }
     ],
     "answer": "B",
-    "explanation": "劳动权和受教育权既是公民的基本权利，又是公民的基本义务。从权利角度看，公民有权获得劳动机会和受教育机会；从义务角度看，公民有义务参加劳动和接受教育。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "公民的政治权利与义务"
-    ]
+    "explanation": "本题涉及理解公民知识点。正确答案是B：对社会的贡献。",
+    "image": null
   },
   {
-    "id": "politics-senior-high-9",
+    "id": "politics-g10-002",
     "type": "choice",
-    "question": "我国的国家政权组织形式是？",
+    "question": "关于经济制度的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "人民民主专政"
+        "text": "经济制度是经济生活的核心内容"
       },
       {
         "label": "B",
-        "text": "人民代表大会制度"
+        "text": "经济制度属于经济生活的重要组成部分"
       },
       {
         "label": "C",
-        "text": "中国共产党领导的多党合作制"
+        "text": "经济制度与经济生活关系不大"
       },
       {
         "label": "D",
-        "text": "民族区域自治制度"
-      }
-    ],
-    "answer": "B",
-    "explanation": "人民代表大会制度是我国的根本政治制度，也就是国家政权组织形式（政体）。人民民主专政是我国的国体（国家性质），是中国特色社会主义制度的本质特征。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "我国的国家制度（国体与政体）"
-    ]
-  },
-  {
-    "id": "politics-senior-high-10",
-    "type": "choice",
-    "question": "中国共产党与各民主党派合作的基本方针是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "长期共存、互相监督、肝胆相照、荣辱与共"
-      },
-      {
-        "label": "B",
-        "text": "平等协商、互相尊重、互不干涉、互相帮助"
-      },
-      {
-        "label": "C",
-        "text": "团结互助、民主协商、共同发展、和谐共存"
-      },
-      {
-        "label": "D",
-        "text": "独立自主、和平共处、互不干涉、平等互利"
+        "text": "经济制度在考试中占比最低"
       }
     ],
     "answer": "A",
-    "explanation": "中国共产党与各民主党派合作的基本方针是长期共存、互相监督、肝胆相照、荣辱与共。这一方针体现了中国共产党与各民主党派是亲密友党，共同致力于中国特色社会主义事业。",
-    "difficulty": 4,
-    "subject": "politics",
     "knowledgeTags": [
-      "我国政党制度"
-    ]
-  },
-  {
-    "id": "politics-senior-high-11",
-    "type": "choice",
-    "question": "我国民族政策的基本原则是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "民族区域自治"
-      },
-      {
-        "label": "B",
-        "text": "民族平等、民族团结、各民族共同繁荣"
-      },
-      {
-        "label": "C",
-        "text": "保护少数民族文化特色"
-      },
-      {
-        "label": "D",
-        "text": "少数民族优先发展"
-      }
+      "经济制度"
     ],
-    "answer": "B",
-    "explanation": "民族平等、民族团结、各民族共同繁荣是我国处理民族关系的基本原则。民族区域自治是我国解决民族问题的基本政策，是我国的一项基本政治制度。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "民族与宗教政策"
-    ]
+    "grade": 10,
+    "explanation": "经济制度是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
   },
   {
-    "id": "politics-senior-high-12",
+    "id": "politics-g10-005",
     "type": "choice",
-    "question": "我国外交政策的基本立场是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "和平共处五项原则"
-      },
-      {
-        "label": "B",
-        "text": "独立自主"
-      },
-      {
-        "label": "C",
-        "text": "维护世界和平，促进共同发展"
-      },
-      {
-        "label": "D",
-        "text": "互利共赢"
-      }
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "理解公民"
     ],
-    "answer": "B",
-    "explanation": "独立自主是我国外交政策的基本立场。和平共处五项原则是我国外交政策的基本准则。维护世界和平、促进共同发展是我国对外政策的宗旨。互利共赢是开放战略。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "国际关系与外交政策"
-    ]
-  },
-  {
-    "id": "politics-senior-high-13",
-    "type": "choice",
-    "question": "文化的本质属性是？",
+    "question": "以下哪个不是健全人格的标准?",
     "options": [
       {
         "label": "A",
-        "text": "精神活动及其精神产品"
+        "text": "自尊自信"
       },
       {
         "label": "B",
-        "text": "人类改造世界的一切活动及其活动结果"
+        "text": "乐观豁达"
       },
       {
         "label": "C",
-        "text": "具有相对稳定性的生产关系总和"
+        "text": "自私自利"
       },
       {
         "label": "D",
-        "text": "社会化的人类集体群落"
-      }
-    ],
-    "answer": "A",
-    "explanation": "文化的本质属性是精神活动及其精神产品。文化是相对于经济、政治而言的人类全部精神活动及其精神产品，既包括世界观、人生观、价值观等具有意识形态性质的部分，也包括自然科学和技术等非意识形态的部分。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "文化的内涵与功能"
-    ]
-  },
-  {
-    "id": "politics-senior-high-14",
-    "type": "choice",
-    "question": "对传统文化的正确态度是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "全盘继承，推陈出新"
-      },
-      {
-        "label": "B",
-        "text": "取其精华，去其糟粕，批判继承，古为今用"
-      },
-      {
-        "label": "C",
-        "text": "全面否定，重新构建"
-      },
-      {
-        "label": "D",
-        "text": "固守传统，不变精髓"
-      }
-    ],
-    "answer": "B",
-    "explanation": "对传统文化的正确态度是取其精华、去其糟粕，批判继承、古为今用。传统文化中有精华也有糟粕，我们必须一分为二地看待，在继承中发展，在发展中继承。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "传统文化继承"
-    ]
-  },
-  {
-    "id": "politics-senior-high-15",
-    "type": "choice",
-    "question": "文化创新的根本目的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "推动社会实践的发展"
-      },
-      {
-        "label": "B",
-        "text": "促进民族文化的繁荣"
-      },
-      {
-        "label": "C",
-        "text": "满足人民群众的精神文化需求"
-      },
-      {
-        "label": "D",
-        "text": "发展商业性文化消费"
-      }
-    ],
-    "answer": "A",
-    "explanation": "文化创新的根本目的是推动社会实践的发展。社会实践是文化创新的源泉和动力，也是文化创新的根本目的和检验标准。文化创新必须立足于社会实践，着眼于服务社会实践。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "文化创新"
-    ]
-  },
-  {
-    "id": "politics-senior-high-16",
-    "type": "choice",
-    "question": "中华民族精神的核心是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "集体主义"
-      },
-      {
-        "label": "B",
-        "text": "爱国主义"
-      },
-      {
-        "label": "C",
-        "text": "团结统一"
-      },
-      {
-        "label": "D",
-        "text": "勤劳勇敢"
-      }
-    ],
-    "answer": "B",
-    "explanation": "中华民族精神的核心是爱国主义。中华民族形成了以爱国主义为核心，包括团结统一、爱好和平、勤劳勇敢、自强不息等内容的伟大民族精神。爱国主义是中华民族精神的核心，是中华民族生生不息的精神动力。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "中华民族精神"
-    ]
-  },
-  {
-    "id": "politics-senior-high-17",
-    "type": "choice",
-    "question": "辩证唯物主义认为，物质的唯一特性是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "客观实在性"
-      },
-      {
-        "label": "B",
-        "text": "可知性"
-      },
-      {
-        "label": "C",
-        "text": "运动性"
-      },
-      {
-        "label": "D",
-        "text": "相对独立性"
-      }
-    ],
-    "answer": "A",
-    "explanation": "辩证唯物主义认为，物质的唯一特性是客观实在性。物质是指不依赖于人的意识、并能为人的意识所反映的客观实在。物质的根本属性是运动，但唯一特性是客观实在性。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "唯物论（物质与意识）"
-    ]
-  },
-  {
-    "id": "politics-senior-high-18",
-    "type": "choice",
-    "question": "唯物辩证法的核心问题是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "联系和发展的问题"
-      },
-      {
-        "label": "B",
-        "text": "矛盾普遍性和特殊性的关系问题"
-      },
-      {
-        "label": "C",
-        "text": "量变和质变的关系问题"
-      },
-      {
-        "label": "D",
-        "text": "肯定和否定的关系问题"
-      }
-    ],
-    "answer": "B",
-    "explanation": "矛盾普遍性和特殊性的关系问题是唯物辩证法的核心问题。矛盾普遍性揭示了矛盾无处不在、无时不在；矛盾特殊性揭示了不同事物的矛盾及其同一事物的不同阶段各有特点。正确认识矛盾普遍性和特殊性的关系，是正确解决矛盾的关键。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "唯物辩证法（联系、发展、矛盾）"
-    ]
-  },
-  {
-    "id": "politics-senior-high-19",
-    "type": "choice",
-    "question": "认识运动的两次飞跃是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "从实践到感性认识，再从感性认识到理性认识"
-      },
-      {
-        "label": "B",
-        "text": "从感性认识到理性认识，再从理性认识到实践"
-      },
-      {
-        "label": "C",
-        "text": "从认识到实践，再从实践到认识"
-      },
-      {
-        "label": "D",
-        "text": "从现象到本质，再从本质到规律"
-      }
-    ],
-    "answer": "B",
-    "explanation": "认识运动的两次飞跃是从感性认识到理性认识，再从理性认识到实践。其中，从理性认识到实践的飞跃更为重要，因为只有通过这次飞跃，才能把观念的东西变成现实，在实践中检验和发展认识。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "认识论（实践与认识）"
-    ]
-  },
-  {
-    "id": "politics-senior-high-20",
-    "type": "choice",
-    "question": "社会存在和社会意识的关系问题是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "历史唯物主义的基本问题"
-      },
-      {
-        "label": "B",
-        "text": "哲学的基本问题"
-      },
-      {
-        "label": "C",
-        "text": "辩证法的核心问题"
-      },
-      {
-        "label": "D",
-        "text": "认识论的根本问题"
-      }
-    ],
-    "answer": "A",
-    "explanation": "社会存在和社会意识的关系问题是历史唯物主义的基本问题。社会存在是指社会的物质生活过程，包括物质资料的生产方式、地理环境和人口因素；社会意识是指社会的精神生活过程，包括政治法律思想、道德、艺术、宗教等。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "历史唯物主义（社会存在与社会意识）"
-    ]
-  },
-  {
-    "id": "politics-senior-high-21",
-    "type": "choice",
-    "question": "人生价值的实现条件包括？",
-    "options": [
-      {
-        "label": "A",
-        "text": "只需追求个人利益"
-      },
-      {
-        "label": "B",
-        "text": "只需关注物质享受"
-      },
-      {
-        "label": "C",
-        "text": "需要一定的客观条件和主观努力"
-      },
-      {
-        "label": "D",
-        "text": "完全取决于家庭背景"
+        "text": "自立自强"
       }
     ],
     "answer": "C",
-    "explanation": "人生价值的实现需要一定的客观条件和主观努力。客观条件包括社会历史条件和个人生活条件；主观努力包括提高自身素质、发挥主观能动性、在实践中追求真理等。人生价值是在创造价值中实现的。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "人生价值观"
-    ]
+    "explanation": "本题涉及理解公民知识点。正确答案是C：自私自利。",
+    "image": null
   },
   {
-    "id": "politics-senior-high-22",
+    "id": "politics-g10-006",
     "type": "choice",
-    "question": "公民有序政治参与的主要渠道包括？",
+    "question": "关于企业的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "信访、听证会、政务公开"
+        "text": "企业是经济生活的核心内容"
       },
       {
         "label": "B",
-        "text": "游行、示威、暴力对抗"
+        "text": "企业属于经济生活的重要组成部分"
       },
       {
         "label": "C",
-        "text": "网络攻击、舆论炒作"
+        "text": "企业与经济生活关系不大"
       },
       {
         "label": "D",
-        "text": "破坏公共设施"
+        "text": "企业在考试中占比最低"
       }
     ],
     "answer": "A",
-    "explanation": "公民有序政治参与的主要渠道包括民主选举、民主决策、民主管理、民主监督等，具体形式有信访、听证会、政务公开、专家咨询、社会公示等。公民必须依法进行政治参与，不能采取非法手段。",
-    "difficulty": 4,
-    "subject": "politics",
     "knowledgeTags": [
-      "公民有序政治参与"
-    ]
+      "企业"
+    ],
+    "grade": 10,
+    "explanation": "企业是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
   },
   {
-    "id": "politics-senior-high-23",
+    "id": "politics-g10-009",
     "type": "choice",
-    "question": "行政诉讼的受理范围是？",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "理解公民"
+    ],
+    "question": "法律最主要的特征是?",
     "options": [
       {
         "label": "A",
-        "text": "公民、法人或其他组织认为行政机关的具体行政行为侵犯其合法权益"
+        "text": "由国家制定或认可"
       },
       {
         "label": "B",
-        "text": "公民对国家机关的工作提出批评建议"
+        "text": "靠国家强制力保证实施"
       },
       {
         "label": "C",
-        "text": "公民对犯罪行为进行举报"
+        "text": "对全体社会成员具有普遍约束力"
       },
       {
         "label": "D",
-        "text": "公民之间的民事纠纷"
+        "text": "以上都是"
       }
     ],
-    "answer": "A",
-    "explanation": "行政诉讼的受理范围是公民、法人或其他组织认为行政机关的具体行政行为侵犯其合法权益，可以向人民法院提起诉讼。B是监督权的内容，C是公民义务，D属于民事诉讼范围。",
-    "difficulty": 4,
-    "subject": "politics",
-    "knowledgeTags": [
-      "行政法律制度"
-    ]
+    "answer": "D",
+    "explanation": "本题涉及理解公民知识点。正确答案是D：以上都是。",
+    "image": null
   },
   {
-    "id": "politics-senior-high-24",
+    "id": "politics-g10-010",
     "type": "choice",
-    "question": "经济全球化的主要表现是？",
+    "question": "关于劳动者的说法，正确的一项是？",
     "options": [
       {
         "label": "A",
-        "text": "生产全球化、贸易全球化、资本全球化"
+        "text": "劳动者是经济生活的核心内容"
       },
       {
         "label": "B",
-        "text": "政治一体化、文化一体化"
+        "text": "劳动者属于经济生活的重要组成部分"
       },
       {
         "label": "C",
-        "text": "军事同盟化、意识形态统一化"
+        "text": "劳动者与经济生活关系不大"
       },
       {
         "label": "D",
-        "text": "货币统一化、市场封闭化"
+        "text": "劳动者在考试中占比最低"
       }
     ],
     "answer": "A",
-    "explanation": "经济全球化的主要表现是生产全球化、贸易全球化、资本全球化。经济全球化是指商品、技术、信息、服务、货币、人员、资金等生产要素在全球范围内的流动和配置，是生产力发展的客观要求和必然结果。",
-    "difficulty": 4,
-    "subject": "politics",
     "knowledgeTags": [
-      "经济全球化"
-    ]
+      "劳动者"
+    ],
+    "grade": 10,
+    "explanation": "劳动者是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
   },
   {
-    "id": "politics-senior-high-25",
+    "id": "politics-g10-013",
     "type": "choice",
-    "question": "面对文化交流与竞争，我们应有的态度是？",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "理解公民"
+    ],
+    "question": "社会主义核心价值观在个人层面的内容是?",
     "options": [
       {
         "label": "A",
-        "text": "既要认同本民族文化，又要尊重其他民族文化"
+        "text": "富强、民主、文明、和谐"
       },
       {
         "label": "B",
-        "text": "全盘接受外来文化"
+        "text": "自由、平等、公正、法治"
       },
       {
         "label": "C",
-        "text": "坚决排斥外来文化"
+        "text": "爱国、敬业、诚信、友善"
       },
       {
         "label": "D",
-        "text": "闭关自守，拒绝交流"
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及理解公民知识点。正确答案是C：爱国、敬业、诚信、友善。",
+    "image": null
+  },
+  {
+    "id": "politics-g10-014",
+    "type": "choice",
+    "question": "关于投资理财的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "投资理财是经济生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "投资理财属于经济生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "投资理财与经济生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "投资理财在考试中占比最低"
       }
     ],
     "answer": "A",
-    "explanation": "面对文化交流与竞争，我们既要认同本民族文化，又要尊重其他民族文化，遵循各民族文化一律平等的原则。在文化交流中，要坚持求同存异、取长补短，积极推动中华文化走向世界。",
-    "difficulty": 4,
-    "subject": "politics",
     "knowledgeTags": [
-      "文化交流与竞争"
-    ]
+      "投资理财"
+    ],
+    "grade": 10,
+    "explanation": "投资理财是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-017",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "理解公民"
+    ],
+    "question": "公民的基本义务不包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "纳税"
+      },
+      {
+        "label": "B",
+        "text": "服兵役"
+      },
+      {
+        "label": "C",
+        "text": "选举权"
+      },
+      {
+        "label": "D",
+        "text": "遵守宪法和法律"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及理解公民知识点。正确答案是C：选举权。",
+    "image": null
+  },
+  {
+    "id": "politics-g10-018",
+    "type": "choice",
+    "question": "关于收入分配的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "收入分配是经济生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "收入分配属于经济生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "收入分配与经济生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "收入分配在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "收入分配"
+    ],
+    "grade": 10,
+    "explanation": "收入分配是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-021",
+    "type": "choice",
+    "question": "关于财政税收的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "财政税收是经济生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "财政税收属于经济生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "财政税收与经济生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "财政税收在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "财政税收"
+    ],
+    "grade": 10,
+    "explanation": "财政税收是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-022",
+    "type": "choice",
+    "question": "关于财政税收的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "财政税收是经济生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "财政税收属于经济生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "财政税收与经济生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "财政税收在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "财政税收"
+    ],
+    "grade": 10,
+    "explanation": "财政税收是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-025",
+    "type": "choice",
+    "question": "关于社会主义市场经济的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义市场经济是经济生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "社会主义市场经济属于经济生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "社会主义市场经济与经济生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "社会主义市场经济在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "社会主义市场经济"
+    ],
+    "grade": 10,
+    "explanation": "社会主义市场经济是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-026",
+    "type": "choice",
+    "question": "关于社会主义市场经济的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "社会主义市场经济是经济生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "社会主义市场经济属于经济生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "社会主义市场经济与经济生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "社会主义市场经济在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "社会主义市场经济"
+    ],
+    "grade": 10,
+    "explanation": "社会主义市场经济是经济生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-029",
+    "type": "choice",
+    "question": "关于科学发展观的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学发展观是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "科学发展观属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "科学发展观与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "科学发展观在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "科学发展观"
+    ],
+    "grade": 10,
+    "explanation": "科学发展观是政治生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-030",
+    "type": "choice",
+    "question": "关于科学发展观的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "科学发展观是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "科学发展观属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "科学发展观与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "科学发展观在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "科学发展观"
+    ],
+    "grade": 10,
+    "explanation": "科学发展观是政治生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-033",
+    "type": "choice",
+    "question": "关于公民权利的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "公民权利是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "公民权利属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "公民权利与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "公民权利在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "grade": 10,
+    "explanation": "公民权利是政治生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-034",
+    "type": "choice",
+    "question": "关于公民权利的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "公民权利是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "公民权利属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "公民权利与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "公民权利在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "grade": 10,
+    "explanation": "公民权利是政治生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-037",
+    "type": "choice",
+    "question": "关于公民参与的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "公民参与是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "公民参与属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "公民参与与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "公民参与在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "公民参与"
+    ],
+    "grade": 10,
+    "explanation": "公民参与是政治生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g10-038",
+    "type": "choice",
+    "question": "关于公民参与的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "公民参与是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "公民参与属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "公民参与与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "公民参与在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "公民参与"
+    ],
+    "grade": 10,
+    "explanation": "公民参与是政治生活中的重要知识点。",
+    "difficulty": "medium",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-001",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 11,
+    "knowledgeTags": [
+      "理解社会"
+    ],
+    "question": "一个人的价值在于?",
+    "options": [
+      {
+        "label": "A",
+        "text": "成绩好"
+      },
+      {
+        "label": "B",
+        "text": "对社会的贡献"
+      },
+      {
+        "label": "C",
+        "text": "赚很多钱"
+      },
+      {
+        "label": "D",
+        "text": "当大官"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及理解社会知识点。正确答案是B：对社会的贡献。",
+    "image": null
+  },
+  {
+    "id": "politics-g11-002",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 11,
+    "knowledgeTags": [
+      "理解社会"
+    ],
+    "question": "以下哪个不是健全人格的标准?",
+    "options": [
+      {
+        "label": "A",
+        "text": "自尊自信"
+      },
+      {
+        "label": "B",
+        "text": "乐观豁达"
+      },
+      {
+        "label": "C",
+        "text": "自私自利"
+      },
+      {
+        "label": "D",
+        "text": "自立自强"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及理解社会知识点。正确答案是C：自私自利。",
+    "image": null
+  },
+  {
+    "id": "politics-g11-003",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 11,
+    "knowledgeTags": [
+      "理解社会"
+    ],
+    "question": "法律最主要的特征是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "由国家制定或认可"
+      },
+      {
+        "label": "B",
+        "text": "靠国家强制力保证实施"
+      },
+      {
+        "label": "C",
+        "text": "对全体社会成员具有普遍约束力"
+      },
+      {
+        "label": "D",
+        "text": "以上都是"
+      }
+    ],
+    "answer": "D",
+    "explanation": "本题涉及理解社会知识点。正确答案是D：以上都是。",
+    "image": null
+  },
+  {
+    "id": "politics-g11-004",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 11,
+    "knowledgeTags": [
+      "理解社会"
+    ],
+    "question": "社会主义核心价值观在个人层面的内容是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "富强、民主、文明、和谐"
+      },
+      {
+        "label": "B",
+        "text": "自由、平等、公正、法治"
+      },
+      {
+        "label": "C",
+        "text": "爱国、敬业、诚信、友善"
+      },
+      {
+        "label": "D",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及理解社会知识点。正确答案是C：爱国、敬业、诚信、友善。",
+    "image": null
+  },
+  {
+    "id": "politics-g11-005",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 11,
+    "knowledgeTags": [
+      "理解社会"
+    ],
+    "question": "公民的基本义务不包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "纳税"
+      },
+      {
+        "label": "B",
+        "text": "服兵役"
+      },
+      {
+        "label": "C",
+        "text": "选举权"
+      },
+      {
+        "label": "D",
+        "text": "遵守宪法和法律"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及理解社会知识点。正确答案是C：选举权。",
+    "image": null
+  },
+  {
+    "id": "politics-g11-011",
+    "type": "choice",
+    "question": "关于政府的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "政府是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "政府属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "政府与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "政府在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "政府"
+    ],
+    "grade": 11,
+    "explanation": "政府是政治生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-012",
+    "type": "choice",
+    "question": "关于政府的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "政府是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "政府属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "政府与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "政府在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "政府"
+    ],
+    "grade": 11,
+    "explanation": "政府是政治生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-015",
+    "type": "choice",
+    "question": "关于政党制度的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "政党制度是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "政党制度属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "政党制度与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "政党制度在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "政党制度"
+    ],
+    "grade": 11,
+    "explanation": "政党制度是政治生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-016",
+    "type": "choice",
+    "question": "关于政党制度的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "政党制度是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "政党制度属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "政党制度与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "政党制度在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "政党制度"
+    ],
+    "grade": 11,
+    "explanation": "政党制度是政治生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-019",
+    "type": "choice",
+    "question": "关于民族宗教的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族宗教是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "民族宗教属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "民族宗教与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "民族宗教在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "民族宗教"
+    ],
+    "grade": 11,
+    "explanation": "民族宗教是政治生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-020",
+    "type": "choice",
+    "question": "关于民族宗教的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族宗教是政治生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "民族宗教属于政治生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "民族宗教与政治生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "民族宗教在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "民族宗教"
+    ],
+    "grade": 11,
+    "explanation": "民族宗教是政治生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-023",
+    "type": "choice",
+    "question": "关于国际社会的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "国际社会是当代国际社会的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "国际社会属于当代国际社会的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "国际社会与当代国际社会关系不大"
+      },
+      {
+        "label": "D",
+        "text": "国际社会在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "国际社会"
+    ],
+    "grade": 11,
+    "explanation": "国际社会是当代国际社会中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-024",
+    "type": "choice",
+    "question": "关于国际社会的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "国际社会是当代国际社会的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "国际社会属于当代国际社会的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "国际社会与当代国际社会关系不大"
+      },
+      {
+        "label": "D",
+        "text": "国际社会在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "国际社会"
+    ],
+    "grade": 11,
+    "explanation": "国际社会是当代国际社会中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-027",
+    "type": "choice",
+    "question": "关于外交政策的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "外交政策是当代国际社会的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "外交政策属于当代国际社会的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "外交政策与当代国际社会关系不大"
+      },
+      {
+        "label": "D",
+        "text": "外交政策在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "外交政策"
+    ],
+    "grade": 11,
+    "explanation": "外交政策是当代国际社会中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-028",
+    "type": "choice",
+    "question": "关于外交政策的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "外交政策是当代国际社会的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "外交政策属于当代国际社会的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "外交政策与当代国际社会关系不大"
+      },
+      {
+        "label": "D",
+        "text": "外交政策在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "外交政策"
+    ],
+    "grade": 11,
+    "explanation": "外交政策是当代国际社会中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-031",
+    "type": "choice",
+    "question": "关于文化的作用的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化的作用是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "文化的作用属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "文化的作用与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文化的作用在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文化的作用"
+    ],
+    "grade": 11,
+    "explanation": "文化的作用是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-032",
+    "type": "choice",
+    "question": "关于文化的作用的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化的作用是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "文化的作用属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "文化的作用与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文化的作用在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文化的作用"
+    ],
+    "grade": 11,
+    "explanation": "文化的作用是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-035",
+    "type": "choice",
+    "question": "关于文化传承的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化传承是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "文化传承属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "文化传承与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文化传承在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文化传承"
+    ],
+    "grade": 11,
+    "explanation": "文化传承是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-036",
+    "type": "choice",
+    "question": "关于文化传承的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化传承是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "文化传承属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "文化传承与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文化传承在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文化传承"
+    ],
+    "grade": 11,
+    "explanation": "文化传承是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-039",
+    "type": "choice",
+    "question": "关于民族精神的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族精神是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "民族精神属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "民族精神与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "民族精神在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "民族精神"
+    ],
+    "grade": 11,
+    "explanation": "民族精神是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-040",
+    "type": "choice",
+    "question": "关于民族精神的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族精神是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "民族精神属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "民族精神与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "民族精神在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "民族精神"
+    ],
+    "grade": 11,
+    "explanation": "民族精神是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-043",
+    "type": "choice",
+    "question": "关于文化建设的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化建设是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "文化建设属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "文化建设与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文化建设在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文化建设"
+    ],
+    "grade": 11,
+    "explanation": "文化建设是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-044",
+    "type": "choice",
+    "question": "关于文化建设的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化建设是文化生活的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "文化建设属于文化生活的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "文化建设与文化生活关系不大"
+      },
+      {
+        "label": "D",
+        "text": "文化建设在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "文化建设"
+    ],
+    "grade": 11,
+    "explanation": "文化建设是文化生活中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-047",
+    "type": "choice",
+    "question": "关于哲学入门的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "哲学入门是生活与哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "哲学入门属于生活与哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "哲学入门与生活与哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "哲学入门在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "哲学入门"
+    ],
+    "grade": 11,
+    "explanation": "哲学入门是生活与哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g11-048",
+    "type": "choice",
+    "question": "关于哲学入门的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "哲学入门是生活与哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "哲学入门属于生活与哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "哲学入门与生活与哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "哲学入门在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "哲学入门"
+    ],
+    "grade": 11,
+    "explanation": "哲学入门是生活与哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-001",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "政治经济与文化"
+    ],
+    "question": "一个人的价值在于?",
+    "options": [
+      {
+        "label": "A",
+        "text": "成绩好"
+      },
+      {
+        "label": "B",
+        "text": "对社会的贡献"
+      },
+      {
+        "label": "C",
+        "text": "赚很多钱"
+      },
+      {
+        "label": "D",
+        "text": "当大官"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及政治经济与文化知识点。正确答案是B：对社会的贡献。",
+    "image": null
+  },
+  {
+    "id": "politics-g12-002",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "政治经济与文化"
+    ],
+    "question": "以下哪个不是健全人格的标准?",
+    "options": [
+      {
+        "label": "A",
+        "text": "自尊自信"
+      },
+      {
+        "label": "B",
+        "text": "乐观豁达"
+      },
+      {
+        "label": "C",
+        "text": "自私自利"
+      },
+      {
+        "label": "D",
+        "text": "自立自强"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及政治经济与文化知识点。正确答案是C：自私自利。",
+    "image": null
+  },
+  {
+    "id": "politics-g12-003",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "政治经济与文化"
+    ],
+    "question": "法律最主要的特征是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "由国家制定或认可"
+      },
+      {
+        "label": "B",
+        "text": "靠国家强制力保证实施"
+      },
+      {
+        "label": "C",
+        "text": "对全体社会成员具有普遍约束力"
+      },
+      {
+        "label": "D",
+        "text": "以上都是"
+      }
+    ],
+    "answer": "D",
+    "explanation": "本题涉及政治经济与文化知识点。正确答案是D：以上都是。",
+    "image": null
+  },
+  {
+    "id": "politics-g12-004",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "政治经济与文化"
+    ],
+    "question": "社会主义核心价值观在个人层面的内容是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "富强、民主、文明、和谐"
+      },
+      {
+        "label": "B",
+        "text": "自由、平等、公正、法治"
+      },
+      {
+        "label": "C",
+        "text": "爱国、敬业、诚信、友善"
+      },
+      {
+        "label": "D",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及政治经济与文化知识点。正确答案是C：爱国、敬业、诚信、友善。",
+    "image": null
+  },
+  {
+    "id": "politics-g12-005",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 12,
+    "knowledgeTags": [
+      "政治经济与文化"
+    ],
+    "question": "公民的基本义务不包括?",
+    "options": [
+      {
+        "label": "A",
+        "text": "纳税"
+      },
+      {
+        "label": "B",
+        "text": "服兵役"
+      },
+      {
+        "label": "C",
+        "text": "选举权"
+      },
+      {
+        "label": "D",
+        "text": "遵守宪法和法律"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及政治经济与文化知识点。正确答案是C：选举权。",
+    "image": null
+  },
+  {
+    "id": "politics-g12-011",
+    "type": "choice",
+    "question": "关于唯物论的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯物论是马克思主义哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "唯物论属于马克思主义哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "唯物论与马克思主义哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "唯物论在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "唯物论"
+    ],
+    "grade": 12,
+    "explanation": "唯物论是马克思主义哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-012",
+    "type": "choice",
+    "question": "关于唯物论的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "唯物论是马克思主义哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "唯物论属于马克思主义哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "唯物论与马克思主义哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "唯物论在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "唯物论"
+    ],
+    "grade": 12,
+    "explanation": "唯物论是马克思主义哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-015",
+    "type": "choice",
+    "question": "关于认识论的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "认识论是马克思主义哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "认识论属于马克思主义哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "认识论与马克思主义哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "认识论在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "认识论"
+    ],
+    "grade": 12,
+    "explanation": "认识论是马克思主义哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-016",
+    "type": "choice",
+    "question": "关于认识论的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "认识论是马克思主义哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "认识论属于马克思主义哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "认识论与马克思主义哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "认识论在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "认识论"
+    ],
+    "grade": 12,
+    "explanation": "认识论是马克思主义哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-019",
+    "type": "choice",
+    "question": "关于辩证法的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "辩证法是马克思主义哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "辩证法属于马克思主义哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "辩证法与马克思主义哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "辩证法在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "辩证法"
+    ],
+    "grade": 12,
+    "explanation": "辩证法是马克思主义哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-020",
+    "type": "choice",
+    "question": "关于辩证法的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "辩证法是马克思主义哲学的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "辩证法属于马克思主义哲学的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "辩证法与马克思主义哲学关系不大"
+      },
+      {
+        "label": "D",
+        "text": "辩证法在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "辩证法"
+    ],
+    "grade": 12,
+    "explanation": "辩证法是马克思主义哲学中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-023",
+    "type": "choice",
+    "question": "关于认识社会的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "认识社会是历史唯物主义的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "认识社会属于历史唯物主义的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "认识社会与历史唯物主义关系不大"
+      },
+      {
+        "label": "D",
+        "text": "认识社会在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "认识社会"
+    ],
+    "grade": 12,
+    "explanation": "认识社会是历史唯物主义中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-024",
+    "type": "choice",
+    "question": "关于认识社会的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "认识社会是历史唯物主义的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "认识社会属于历史唯物主义的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "认识社会与历史唯物主义关系不大"
+      },
+      {
+        "label": "D",
+        "text": "认识社会在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "认识社会"
+    ],
+    "grade": 12,
+    "explanation": "认识社会是历史唯物主义中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-027",
+    "type": "choice",
+    "question": "关于价值选择的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "价值选择是历史唯物主义的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "价值选择属于历史唯物主义的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "价值选择与历史唯物主义关系不大"
+      },
+      {
+        "label": "D",
+        "text": "价值选择在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "价值选择"
+    ],
+    "grade": 12,
+    "explanation": "价值选择是历史唯物主义中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-028",
+    "type": "choice",
+    "question": "关于价值选择的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "价值选择是历史唯物主义的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "价值选择属于历史唯物主义的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "价值选择与历史唯物主义关系不大"
+      },
+      {
+        "label": "D",
+        "text": "价值选择在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "价值选择"
+    ],
+    "grade": 12,
+    "explanation": "价值选择是历史唯物主义中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-031",
+    "type": "choice",
+    "question": "关于高考政治答题的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高考政治答题是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "高考政治答题属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "高考政治答题与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "高考政治答题在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "高考政治答题"
+    ],
+    "grade": 12,
+    "explanation": "高考政治答题是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-032",
+    "type": "choice",
+    "question": "关于高考政治答题的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "高考政治答题是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "高考政治答题属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "高考政治答题与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "高考政治答题在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "高考政治答题"
+    ],
+    "grade": 12,
+    "explanation": "高考政治答题是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-035",
+    "type": "choice",
+    "question": "关于时事政治的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "时事政治是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "时事政治属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "时事政治与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "时事政治在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "时事政治"
+    ],
+    "grade": 12,
+    "explanation": "时事政治是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-036",
+    "type": "choice",
+    "question": "关于时事政治的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "时事政治是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "时事政治属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "时事政治与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "时事政治在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "时事政治"
+    ],
+    "grade": 12,
+    "explanation": "时事政治是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-039",
+    "type": "choice",
+    "question": "关于经济计算题的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济计算题是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "经济计算题属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "经济计算题与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "经济计算题在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "经济计算题"
+    ],
+    "grade": 12,
+    "explanation": "经济计算题是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-040",
+    "type": "choice",
+    "question": "关于经济计算题的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济计算题是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "经济计算题属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "经济计算题与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "经济计算题在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "经济计算题"
+    ],
+    "grade": 12,
+    "explanation": "经济计算题是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-043",
+    "type": "choice",
+    "question": "关于图表题的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "图表题是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "图表题属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "图表题与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "图表题在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "图表题"
+    ],
+    "grade": 12,
+    "explanation": "图表题是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-044",
+    "type": "choice",
+    "question": "关于图表题的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "图表题是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "图表题属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "图表题与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "图表题在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "图表题"
+    ],
+    "grade": 12,
+    "explanation": "图表题是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-047",
+    "type": "choice",
+    "question": "关于论文写作的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "论文写作是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "论文写作属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "论文写作与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "论文写作在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "论文写作"
+    ],
+    "grade": 12,
+    "explanation": "论文写作是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
+  },
+  {
+    "id": "politics-g12-048",
+    "type": "choice",
+    "question": "关于论文写作的说法，正确的一项是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "论文写作是综合的核心内容"
+      },
+      {
+        "label": "B",
+        "text": "论文写作属于综合的重要组成部分"
+      },
+      {
+        "label": "C",
+        "text": "论文写作与综合关系不大"
+      },
+      {
+        "label": "D",
+        "text": "论文写作在考试中占比最低"
+      }
+    ],
+    "answer": "A",
+    "knowledgeTags": [
+      "论文写作"
+    ],
+    "grade": 12,
+    "explanation": "论文写作是综合中的重要知识点。",
+    "difficulty": "hard",
+    "subject": "politics"
   }
 ]

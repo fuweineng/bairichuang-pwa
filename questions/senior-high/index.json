@@ -1,52 +1,61 @@
 {
   "section": "senior-high",
-  "questionBankVersion": "9.7.1",
-  "updatedAt": "2026-04-19",
+  "questionBankVersion": "20260501-01",
+  "updatedAt": "2026-05-01",
   "subjects": {
-    "math": {
-      "file": "math.json",
-      "count": 30,
-      "version": "9.7.1"
-    },
     "chinese": {
       "file": "chinese.json",
-      "count": 25,
-      "version": "9.7.1"
+      "count": 100,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
+    },
+    "math": {
+      "file": "math.json",
+      "count": 90,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "english": {
       "file": "english.json",
-      "count": 30,
-      "version": "9.7.1"
+      "count": 90,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "physics": {
       "file": "physics.json",
-      "count": 25,
-      "version": "9.7.1"
+      "count": 100,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "chemistry": {
       "file": "chemistry.json",
-      "count": 25,
-      "version": "9.7.1"
+      "count": 148,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "biology": {
       "file": "biology.json",
-      "count": 25,
-      "version": "9.7.1"
+      "count": 151,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "history": {
       "file": "history.json",
-      "count": 25,
-      "version": "9.7.1"
+      "count": 120,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "geography": {
       "file": "geography.json",
-      "count": 25,
-      "version": "9.7.1"
+      "count": 119,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     },
     "politics": {
       "file": "politics.json",
-      "count": 25,
-      "version": "9.7.1"
+      "count": 70,
+      "version": "20260501-01",
+      "qb_version": "20260501-01"
     }
   }
 }

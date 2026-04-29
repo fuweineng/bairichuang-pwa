@@ -64,24 +64,6 @@
     "explanation": "迫不急待→迫不及待，直接了当→直截了当，走头无路→走投无路。"
   },
   {
-    "id": "chinese-003",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "字音",
-      "多音字"
-    ],
-    "question": "根据拼音写汉字：他把东西____(cáng)起来了，怕被人发现。",
-    "options": [],
-    "answer": "藏",
-    "explanation": "藏在这里读cáng，动词，躲藏的意思。",
-    "acceptAnswers": [
-      "藏"
-    ]
-  },
-  {
     "id": "chinese-004",
     "type": "choice",
     "subject": "chinese",
@@ -173,23 +155,6 @@
     ],
     "answer": "C",
     "explanation": "A句缺主语，B句两面对一面不搭配，D句'越来越'搭配不当。"
-  },
-  {
-    "id": "chinese-007",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "句子成分"
-    ],
-    "question": "指出下列句子的主干：'小明今天早上在教室里认真地写作业。' 主语是____，谓语是____，宾语是____。",
-    "options": [],
-    "answer": "小明, 写, 作业",
-    "explanation": "主语回答'谁'，谓语回答'做什么'，宾语回答'什么'。",
-    "acceptAnswers": [
-      "小明, 写, 作业"
-    ]
   },
   {
     "id": "chinese-008",
@@ -320,27 +285,6 @@
     "explanation": "'发于畎亩'是被起用之意，属于意念上的被动句。"
   },
   {
-    "id": "chinese-012",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗理解性默写"
-    ],
-    "question": "《望岳》中表达诗人远大抱负的诗句是：______，______。",
-    "options": [],
-    "answer": [
-      "会当凌绝顶",
-      "一览众山小"
-    ],
-    "explanation": "这两句诗表达了杜甫想要登上泰山顶峰、俯瞰众山的雄心壮志，象征着远大抱负。",
-    "acceptAnswers": [
-      "会当凌绝顶",
-      "一览众山小"
-    ]
-  },
-  {
     "id": "chinese-013",
     "type": "choice",
     "subject": "chinese",
@@ -371,24 +315,6 @@
     ],
     "answer": "C",
     "explanation": "'大漠'对'长河'，'孤烟直'对'落日圆'，字数相等、结构相同，是对偶。"
-  },
-  {
-    "id": "chinese-014",
-    "type": "short_answer",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 8,
-    "knowledgeTags": [
-      "现代文阅读",
-      "人物形象分析"
-    ],
-    "question": "阅读《背影》片段，回答问题：父亲攀爬月台买橘子的背影，表达了怎样的思想感情？",
-    "options": [],
-    "answer": "感激、思念和愧疚，深沉父爱",
-    "explanation": "通过描写父亲送别儿子时爬月台买橘子的背影，表达了儿子对父亲深深的感激、思念和愧疚之情，体现了深沉而真挚的父爱。",
-    "acceptAnswers": [
-      "感激、思念和愧疚，深沉父爱"
-    ]
   },
   {
     "id": "chinese-015",
@@ -636,23 +562,6 @@
     "explanation": "因感叹时事，看到花鸟也流泪惊心，深刻表现忧国忧民之情"
   },
   {
-    "id": "chinese-023",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "海内存知己，_____。",
-    "answer": "天涯若比邻",
-    "explanation": "出自王勃《送杜少府之任蜀州》",
-    "acceptAnswers": [
-      "天涯若比邻"
-    ],
-    "options": []
-  },
-  {
     "id": "chinese-024",
     "type": "choice",
     "subject": "chinese",
@@ -806,23 +715,6 @@
     ],
     "answer": "A",
     "explanation": "喜出望外：意料之外的喜悦，含有盼望、期待的意思"
-  },
-  {
-    "id": "chinese-029",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "春风得意，_____。",
-    "answer": "骏马奔驰",
-    "explanation": "出自孟郊《登科后》，全诗：昔日龌龊不足夸，今朝放荡思无涯。春风得意马蹄疾，一日看尽长安花。",
-    "acceptAnswers": [
-      "骏马奔驰"
-    ],
-    "options": []
   },
   {
     "id": "chinese-030",
@@ -980,23 +872,6 @@
     "explanation": "简直表示完全如此，语气强烈，后一分句像一阵风是比喻"
   },
   {
-    "id": "chinese-035",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "会当凌绝顶，_____。",
-    "answer": "一览众山小",
-    "explanation": "出自杜甫《望岳》：荡胸生层云，决眦入归鸟。会当凌绝顶，一览众山小。",
-    "acceptAnswers": [
-      "一览众山小"
-    ],
-    "options": []
-  },
-  {
     "id": "chinese-036",
     "type": "choice",
     "subject": "chinese",
@@ -1119,23 +994,6 @@
     ],
     "answer": "C",
     "explanation": "王安石是北宋文学家，唐代诗人有李白、杜甫、白居易、李商隐等"
-  },
-  {
-    "id": "chinese-040",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "两岸猿声啼不住，_____。",
-    "answer": "轻舟已过万重山",
-    "explanation": "出自李白《早发白帝城》：朝辞白帝彩云间，千里江陵一日还。两岸猿声啼不住，轻舟已过万重山。",
-    "acceptAnswers": [
-      "轻舟已过万重山"
-    ],
-    "options": []
   },
   {
     "id": "chinese-041",
@@ -1262,23 +1120,6 @@
     "explanation": "轻风指柔和的风，这里轻形容风的柔和程度"
   },
   {
-    "id": "chinese-045",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "请写出《观沧海》中描写草木的句子：",
-    "answer": "树木丛生，百草丰茂。",
-    "explanation": "曹操《观沧海》：东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。",
-    "acceptAnswers": [
-      "树木丛生，百草丰茂。"
-    ],
-    "options": []
-  },
-  {
     "id": "chinese-046",
     "type": "choice",
     "subject": "chinese",
@@ -1372,23 +1213,6 @@
     "explanation": "出自文天祥《过零丁洋》，表现了崇高的爱国精神"
   },
   {
-    "id": "chinese-049",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "出淤泥而不染，_____。",
-    "answer": "濯清涟而不妖",
-    "explanation": "出自周敦颐《爱莲说》，描写莲花的品质，出淤泥而不染，濯清涟而不妖",
-    "acceptAnswers": [
-      "濯清涟而不妖"
-    ],
-    "options": []
-  },
-  {
     "id": "chinese-050",
     "type": "choice",
     "subject": "chinese",
@@ -1480,23 +1304,6 @@
     ],
     "answer": "A",
     "explanation": "把洞庭湖比作白银盘，把君山比作青螺"
-  },
-  {
-    "id": "chinese-053",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "大漠孤烟直，_____。",
-    "answer": "长河落日圆",
-    "explanation": "出自王维《使至塞上》，描写边塞壮阔景象",
-    "acceptAnswers": [
-      "长河落日圆"
-    ],
-    "options": []
   },
   {
     "id": "chinese-054",
@@ -1716,23 +1523,6 @@
     "explanation": "草船借箭是诸葛亮利用大雾天气，用草船向曹操借箭的故事"
   },
   {
-    "id": "chinese-061",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "落红不是无情物，_____。",
-    "answer": "化作春泥更护花",
-    "explanation": "出自龚自珍《己亥杂诗》，以落红化作春泥比喻奉献精神",
-    "acceptAnswers": [
-      "化作春泥更护花"
-    ],
-    "options": []
-  },
-  {
     "id": "chinese-062",
     "type": "choice",
     "subject": "chinese",
@@ -1944,23 +1734,6 @@
     ],
     "answer": "A",
     "explanation": "柳宗元《江雪》：千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。"
-  },
-  {
-    "id": "chinese-069",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "旧时王谢堂前燕，_____。",
-    "answer": "飞入寻常百姓家",
-    "explanation": "出自刘禹锡《乌衣巷》，感叹世事变迁，昔日王谢贵族已衰落",
-    "acceptAnswers": [
-      "飞入寻常百姓家"
-    ],
-    "options": []
   },
   {
     "id": "chinese-070",
@@ -2862,23 +2635,6 @@
     "explanation": "引人入胜：吸引人进入优美的境界，胜是优美的意思"
   },
   {
-    "id": "chinese-099",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写"
-    ],
-    "question": "填写：问君能有几多愁？_____。",
-    "answer": "恰似一江春水向东流",
-    "explanation": "出自李煜《虞美人》：春花秋月何时了，往事知多少。小楼昨夜又东风，故国不堪回首月明中。雕栏玉砌应犹在，只是朱颜改。问君能有几多愁？恰似一江春水向东流。",
-    "acceptAnswers": [
-      "恰似一江春水向东流"
-    ],
-    "options": []
-  },
-  {
     "id": "chinese-100",
     "type": "choice",
     "subject": "chinese",
@@ -3524,254 +3280,6 @@
     ],
     "answer": "D",
     "explanation": "A、B、C是状语+动词；D是重叠形容词+动词，且多了状语"
-  },
-  {
-    "id": "chinese-201",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "词语运用",
-      "岭南文化"
-    ],
-    "question": "依次填入句中横线处的词语，最恰当的一项是：佛山秋色巡游把醒狮、武术、粤剧等元素自然地______在一起，让整座城市的文化气质更加______。",
-    "options": [
-      {
-        "label": "A",
-        "text": "堆砌 鲜亮"
-      },
-      {
-        "label": "B",
-        "text": "融合 鲜明"
-      },
-      {
-        "label": "C",
-        "text": "拼凑 热闹"
-      },
-      {
-        "label": "D",
-        "text": "组合 朴素"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“融合”强调自然结合，“鲜明”更适合形容文化气质特点突出。"
-  },
-  {
-    "id": "chinese-202",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "古诗文默写",
-      "爱国情怀"
-    ],
-    "question": "补写杜甫《春望》中的名句：______，______。",
-    "answer": [
-      "感时花溅泪",
-      "恨别鸟惊心"
-    ],
-    "explanation": "“感时花溅泪，恨别鸟惊心”通过移情手法写出诗人忧国思家的情感。",
-    "acceptAnswers": [
-      "感时花溅泪",
-      "恨别鸟惊心"
-    ],
-    "options": []
-  },
-  {
-    "id": "chinese-203",
-    "type": "short_answer",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 8,
-    "knowledgeTags": [
-      "现代文阅读",
-      "内容理解"
-    ],
-    "question": "阅读句子“鼓点一起，狮头忽而昂起，忽而俯冲，像把整条老街都唤醒了”。这句话突出了醒狮表演怎样的特点？",
-    "answer": "动作有力，气氛热烈，富有感染力",
-    "keywords": [
-      "有力",
-      "热烈",
-      "感染力"
-    ],
-    "explanation": "句中通过“昂起”“俯冲”“唤醒”写出表演节奏强、场面热烈、感染力强。",
-    "acceptAnswers": [
-      "动作有力，气氛热烈，富有感染力"
-    ],
-    "options": []
-  },
-  {
-    "id": "chinese-121",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《送杜少府之任蜀州》"
-    ],
-    "question": "王勃《送杜少府之任蜀州》中表达真挚友情、成为千古名句的两句是：___，___。",
-    "options": [],
-    "answer": "海内存知己，天涯若比邻",
-    "explanation": "出自王勃《送杜少府之任蜀州》，意思是四海之内有知心朋友，即使远在天涯也如同近邻，表达了真挚深厚的友情。",
-    "acceptAnswers": [
-      "海内存知己，天涯若比邻"
-    ]
-  },
-  {
-    "id": "chinese-122",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《使至塞上》"
-    ],
-    "question": "王维《使至塞上》中描绘塞外壮观景色的名句是：___，___。",
-    "options": [],
-    "answer": "大漠孤烟直，长河落日圆",
-    "explanation": "此联以工整对仗写出塞外苍茫壮阔的景象，\"直\"字写烟柱竖立，\"圆\"字写落日浑圆，被誉为\"千古壮观\"之句。",
-    "acceptAnswers": [
-      "大漠孤烟直，长河落日圆"
-    ]
-  },
-  {
-    "id": "chinese-123",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《春望》"
-    ],
-    "question": "杜甫《春望》中感时伤世、以花鸟拟人的两句是：___，___。",
-    "options": [],
-    "answer": "感时花溅泪，恨别鸟惊心",
-    "explanation": "诗人以\"感时\"和\"恨别\"两个情感为核心，花因感时而溅泪，鸟因恨别而惊心，移情于物，表达了忧国思家之情。",
-    "acceptAnswers": [
-      "感时花溅泪，恨别鸟惊心"
-    ]
-  },
-  {
-    "id": "chinese-124",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 9,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《岳阳楼记》"
-    ],
-    "question": "范仲淹《岳阳楼记》中体现\"先忧后乐\"精神的千古名句是：___，___。",
-    "options": [],
-    "answer": "先天下之忧而忧，后天下之乐而乐",
-    "explanation": "范仲淹借\"古仁人之心\"道出自己的政治抱负：忧在天下人之前，乐在天下人之后，体现了忧国忧民的高尚情怀。",
-    "acceptAnswers": [
-      "先天下之忧而忧，后天下之乐而乐"
-    ]
-  },
-  {
-    "id": "chinese-125",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 9,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《醉翁亭记》"
-    ],
-    "question": "欧阳修《醉翁亭记》中点明全文主旨\"与民同乐\"的句子是：___，___也。",
-    "options": [],
-    "answer": "人知从太守游而乐，而不知太守之乐其乐也",
-    "explanation": "此句揭示了文章主旨：百姓知道跟着太守游玩的快乐，却不知道太守以百姓的快乐为快乐，体现了欧阳修\"与民同乐\"的思想。",
-    "acceptAnswers": [
-      "人知从太守游而乐，而不知太守之乐其乐也"
-    ]
-  },
-  {
-    "id": "chinese-126",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 9,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《出师表》"
-    ],
-    "question": "诸葛亮《出师表》中表明自己临危受命的句子是：___，___。",
-    "options": [],
-    "answer": "受任于败军之际，奉命于危难之间",
-    "explanation": "这两句话回顾了诸葛亮接受刘备托付时的艰难处境，表明了他忠贞不渝、鞠躬尽瘁的精神。",
-    "acceptAnswers": [
-      "受任于败军之际，奉命于危难之间"
-    ]
-  },
-  {
-    "id": "chinese-127",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 1,
-    "grade": 7,
-    "level": "easy",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《次北固山下》"
-    ],
-    "question": "王湾《次北固山下》中蕴含新旧事物更替哲理的名句是：___，___。",
-    "options": [],
-    "answer": "海日生残夜，江春入旧年",
-    "explanation": "残夜未尽，红日已生；旧年未尽，春意已至。此联在描写景物中蕴含了新旧交替、时序推移的哲理，给人以积极向上的力量。",
-    "acceptAnswers": [
-      "海日生残夜，江春入旧年"
-    ]
-  },
-  {
-    "id": "chinese-128",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《茅屋为秋风所破歌》"
-    ],
-    "question": "杜甫《茅屋为秋风所破歌》中表达推己及人、忧国忧民的名句是：___，___！",
-    "options": [],
-    "answer": "安得广厦千万间，大庇天下寒士俱欢颜",
-    "explanation": "诗人由自身的遭遇想到天下寒士，表达了宁愿自己受苦也要让天下人得到幸福的博大情怀。",
-    "acceptAnswers": [
-      "安得广厦千万间，大庇天下寒士俱欢颜"
-    ]
-  },
-  {
-    "id": "chinese-129",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 9,
-    "level": "hard",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《水调歌头》"
-    ],
-    "question": "苏轼《水调歌头》中表达对远方亲人美好祝愿的名句是：___，___，___。",
-    "options": [],
-    "answer": "但愿人长久，千里共婵娟",
-    "explanation": "词人由月圆月缺联想到人的离合悲欢，最终以美好祝愿作结：愿人们长久平安，即使相隔千里也能共享这一轮明月。",
-    "acceptAnswers": [
-      "但愿人长久，千里共婵娟"
-    ]
   },
   {
     "id": "chinese-130",
@@ -5071,101 +4579,6 @@
     "explanation": "宋濂写自己借书抄书、衣食不足、行路之苦等求学经历，是为了与马生的优越学习条件形成对比，目的是勉励马生珍惜条件、勤奋读书，而非炫耀或抱怨。"
   },
   {
-    "id": "chinese-169",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 9,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《渔家傲·秋思》"
-    ],
-    "question": "范仲淹《渔家傲·秋思》中，写戍边将士思乡却又不能归的矛盾心情的句子是：___，___。",
-    "options": [],
-    "answer": "浊酒一杯家万里，燕然未勒归无计",
-    "explanation": "喝一杯浑浊的酒，想起家乡在万里之外，功业未成（燕然未勒），无法归家。表达了戍边将士思乡却又不得不坚守边关的复杂矛盾心情。",
-    "acceptAnswers": [
-      "浊酒一杯家万里，燕然未勒归无计"
-    ]
-  },
-  {
-    "id": "chinese-170",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 9,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《江城子·密州出猎》"
-    ],
-    "question": "苏轼《江城子·密州出猎》中，直接表达渴望为国效力的词句是：___，___，射天狼。",
-    "options": [],
-    "answer": "会挽雕弓如满月，西北望",
-    "explanation": "\"会挽雕弓如满月，西北望，射天狼\"——拉弓如满月，向西北瞄准，射向天狼（象征侵边之敌），表达了词人渴望为国御敌、建功立业的豪情壮志。",
-    "acceptAnswers": [
-      "会挽雕弓如满月，西北望"
-    ]
-  },
-  {
-    "id": "chinese-171",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 9,
-    "level": "hard",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《白雪歌送武判官归京》"
-    ],
-    "question": "岑参《白雪歌送武判官归京》中，以梨花喻雪的千古名句是：___，___。",
-    "options": [],
-    "answer": "忽如一夜春风来，千树万树梨花开",
-    "explanation": "诗人以春风中梨花盛开的美景比喻雪后千树银妆，想象奇特，以春景写冬景，将北方雪景写得壮美而浪漫，是咏雪的千古绝唱。",
-    "acceptAnswers": [
-      "忽如一夜春风来，千树万树梨花开"
-    ]
-  },
-  {
-    "id": "chinese-172",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 7,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《论语》"
-    ],
-    "question": "《论语》中，孔子论述学习与思考关系的名句是：___，___。",
-    "options": [],
-    "answer": "学而不思则罔，思而不学则殆",
-    "explanation": "此句出自《论语·为政》，意思是只学习不思考，就会迷惘；只思考不学习，就会疑惑。强调学习和思考必须结合，相辅相成，不可偏废。",
-    "acceptAnswers": [
-      "学而不思则罔，思而不学则殆"
-    ]
-  },
-  {
-    "id": "chinese-173",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《行路难》"
-    ],
-    "question": "李白《行路难》中，表达乐观自信、勇往直前精神的名句是：___，___。",
-    "options": [],
-    "answer": "长风破浪会有时，直挂云帆济沧海",
-    "explanation": "此联出自李白《行路难》，意思是终有一天会乘长风破万里浪，扬起云帆渡过沧海。表达了诗人面对困难不屈服、对理想执着追求的乐观精神。",
-    "acceptAnswers": [
-      "长风破浪会有时，直挂云帆济沧海"
-    ]
-  },
-  {
     "id": "chinese-174",
     "type": "choice",
     "subject": "chinese",
@@ -5664,8 +5077,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "读图题要求综合分析：观察数据的变化趋势、比较各项数据的差异、找出规律，最终得出客观准确的结论，语言要简洁明了，既包含具体数据，又能概括规律。",
-    "image": "images/junior/chinese/chinese-188.svg"
+    "explanation": "读图题要求综合分析：观察数据的变化趋势、比较各项数据的差异、找出规律，最终得出客观准确的结论，语言要简洁明了，既包含具体数据，又能概括规律。"
   },
   {
     "id": "chinese-189",
@@ -5869,63 +5281,6 @@
     "explanation": "菲利普夫妇在于勒有钱时把他视为\"福星\"，在他穷困潦倒时避而远之，深刻揭示了资本主义社会中金钱至上、亲情冷漠的社会现实，是批判现实主义文学的经典之作。"
   },
   {
-    "id": "chinese-195",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《望岳》"
-    ],
-    "question": "杜甫《望岳》中，表达诗人勇攀高峰、俯视一切豪情壮志的名句是：___，___。",
-    "options": [],
-    "answer": "会当凌绝顶，一览众山小",
-    "explanation": "诗人用\"会当凌绝顶，一览众山小\"表达了不畏艰难、勇攀高峰的壮志豪情，也蕴含了登高望远、俯视一切的宏大气魄，成为激励后人积极进取的千古名句。",
-    "acceptAnswers": [
-      "会当凌绝顶，一览众山小"
-    ]
-  },
-  {
-    "id": "chinese-196",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 9,
-    "level": "medium",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《酬乐天扬州初逢席上见赠》"
-    ],
-    "question": "刘禹锡《酬乐天扬州初逢席上见赠》中，常被用来比喻新事物代替旧事物的句子是：___，___。",
-    "options": [],
-    "answer": "沉舟侧畔千帆过，病树前头万木春",
-    "explanation": "此联出自刘禹锡的七律，原意是以沉舟、病树自比，以千帆、万木比喻新生事物，表达了诗人乐观豁达的精神。后人借用此联，比喻新生事物必然代替旧事物的自然规律。",
-    "acceptAnswers": [
-      "沉舟侧畔千帆过，病树前头万木春"
-    ]
-  },
-  {
-    "id": "chinese-197",
-    "type": "fill",
-    "subject": "chinese",
-    "difficulty": 3,
-    "grade": 9,
-    "level": "hard",
-    "knowledgeTags": [
-      "古诗文默写",
-      "《生于忧患，死于安乐》"
-    ],
-    "question": "《孟子》\"生于忧患，死于安乐\"中，从个人角度论述成才必经磨难的句子（人才被大任之前的六种磨炼）首句是：___。",
-    "options": [],
-    "answer": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为",
-    "explanation": "孟子认为上天要将重大使命交给某人之前，必先让其受苦：心志受苦、筋骨劳苦、体肤饥饿、身体匮乏、行为受阻，通过这六种磨炼使其增长才干，这是\"生于忧患\"的具体阐释。",
-    "acceptAnswers": [
-      "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为"
-    ]
-  },
-  {
     "id": "chinese-198",
     "type": "choice",
     "subject": "chinese",
@@ -5992,24 +5347,36 @@
     "explanation": "\"汗青\"指史册、历史，源于古代书写竹简时需先烤干竹子，烤时渗出的水分如汗，故称\"汗青\"，如\"留取丹心照汗青\"意为留下忠诚之心照耀史册。与鲜血无关。"
   },
   {
-    "id": "chinese-200",
-    "type": "short_answer",
+    "id": "chinese-201",
+    "type": "choice",
     "subject": "chinese",
-    "difficulty": 3,
-    "grade": 9,
-    "level": "hard",
+    "difficulty": 2,
+    "grade": 8,
     "knowledgeTags": [
-      "综合运用",
-      "语言表达",
-      "情境写作"
+      "词语运用",
+      "岭南文化"
     ],
-    "question": "请根据以下情境，写一段80字左右的劝说词：\n情境：你的同学小华最近沉迷于手机游戏，学习成绩下降明显。请你劝说他合理使用手机，把精力放在学习上。\n要求：语言得体，有理有据，不少于两个理由。",
-    "options": [],
-    "answer": "示例：小华，我理解游戏很吸引人，但你有没有发现最近成绩下降了很多？适度娱乐可以放松心情，但沉迷其中会占用大量学习时间，影响未来的发展。初中是打基础的关键阶段，现在的努力会为将来打开更多大门。我们可以约定每天学习完成后玩半小时游戏，既不耽误学习，也有放松的时间，你觉得怎么样？",
-    "explanation": "劝说词要注意：①称呼得体，用朋友口吻而非说教；②理由充分，至少提出学习重要性和合理安排时间两个理由；③提出可行的解决方案；④语气委婉诚恳，避免生硬批评。",
-    "acceptAnswers": [
-      "示例：小华，我理解游戏很吸引人，但你有没有发现最近成绩下降了很多？适度娱乐可以放松心情，但沉迷其中会占用大量学习时间，影响未来的发展。初中是打基础的关键阶段，现在的努力会为将来打开更多大门。我们可以约定每天学习完成后玩半小时游戏，既不耽误学习，也有放松的时间，你觉得怎么样？"
-    ]
+    "question": "依次填入句中横线处的词语，最恰当的一项是：佛山秋色巡游把醒狮、武术、粤剧等元素自然地______在一起，让整座城市的文化气质更加______。",
+    "options": [
+      {
+        "label": "A",
+        "text": "堆砌 鲜亮"
+      },
+      {
+        "label": "B",
+        "text": "融合 鲜明"
+      },
+      {
+        "label": "C",
+        "text": "拼凑 热闹"
+      },
+      {
+        "label": "D",
+        "text": "组合 朴素"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“融合”强调自然结合，“鲜明”更适合形容文化气质特点突出。"
   },
   {
     "id": "chinese-204",
@@ -9234,8 +8601,7 @@
       }
     ],
     "answer": "A",
-    "explanation": "在统计图中，4~6小时的学生人数为30人，是所有分组中最高的，说明大多数学生的阅读时间落在4到6小时之间，因此A选项正确。B选项错误，因为0~2小时与8~10小时的人数相同，都是5人，不能说最少；C选项错误，8~10小时和0~2小时的人数相等，均为5人；D选项错误，2~4小时的人数（15人）少于4~6小时的人数（30人）。",
-    "image": "images/junior/chinese/chinese-307.svg"
+    "explanation": "在统计图中，4~6小时的学生人数为30人，是所有分组中最高的，说明大多数学生的阅读时间落在4到6小时之间，因此A选项正确。B选项错误，因为0~2小时与8~10小时的人数相同，都是5人，不能说最少；C选项错误，8~10小时和0~2小时的人数相等，均为5人；D选项错误，2~4小时的人数（15人）少于4~6小时的人数（30人）。"
   },
   {
     "id": "chinese-308",
@@ -9294,13 +8660,7 @@
       }
     ],
     "answer": "D",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "拼音",
-        "词语"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-310",
@@ -9328,12 +8688,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "字形"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-311",
@@ -9361,13 +8716,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "词语",
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-312",
@@ -9395,12 +8744,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "病句"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-313",
@@ -9428,12 +8772,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-314",
@@ -9461,12 +8800,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-315",
@@ -9494,13 +8828,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "标点",
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-316",
@@ -9528,12 +8856,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-317",
@@ -9561,10 +8884,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      "古诗词览赏"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-318",
@@ -9592,12 +8912,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-319",
@@ -9625,13 +8940,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "文言文",
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-320",
@@ -9659,13 +8968,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-321",
@@ -9693,12 +8996,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-322",
@@ -9726,12 +9024,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-323",
@@ -9759,12 +9052,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-324",
@@ -9792,12 +9080,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-325",
@@ -9825,12 +9108,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-326",
@@ -9858,12 +9136,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "拼音"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-327",
@@ -9891,12 +9164,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "字形"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-328",
@@ -9924,12 +9192,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "词语"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-329",
@@ -9957,12 +9220,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "病句"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-330",
@@ -9990,12 +9248,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-331",
@@ -10023,12 +9276,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-332",
@@ -10056,12 +9304,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "标点"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-333",
@@ -10089,12 +9332,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-334",
@@ -10122,13 +9360,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "文言文",
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-335",
@@ -10156,10 +9388,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      "古诗词鉴赏"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-336",
@@ -10187,10 +9416,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      "文言文阅读"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-337",
@@ -10218,12 +9444,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-338",
@@ -10251,12 +9472,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-339",
@@ -10284,12 +9500,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-340",
@@ -10317,13 +9528,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-341",
@@ -10351,13 +9556,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-342",
@@ -10385,13 +9584,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-343",
@@ -10419,13 +9612,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "拼音",
-        "词语"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-344",
@@ -10453,10 +9640,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      "汉字结构"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-345",
@@ -10484,12 +9668,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "词语"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-346",
@@ -10517,12 +9696,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "病句"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-347",
@@ -10550,10 +9724,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      "句式变换"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-348",
@@ -10581,12 +9752,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-349",
@@ -10614,13 +9780,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "标点",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-350",
@@ -10648,10 +9808,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      "中国古典小说"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-351",
@@ -10679,13 +9836,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词",
-        "文学常识"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-352",
@@ -10713,12 +9864,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-353",
@@ -10746,13 +9892,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "文言文",
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-354",
@@ -10780,12 +9920,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-355",
@@ -10813,12 +9948,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-356",
@@ -10846,12 +9976,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-357",
@@ -10879,12 +10004,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-358",
@@ -10912,12 +10032,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-359",
@@ -10945,12 +10060,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-360",
@@ -10978,12 +10088,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "拼音"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-361",
@@ -11011,10 +10116,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      "汉字结构"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-362",
@@ -11042,12 +10144,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "词语"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-363",
@@ -11075,12 +10172,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "病句"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-364",
@@ -11108,12 +10200,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-365",
@@ -11141,12 +10228,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-366",
@@ -11174,13 +10256,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "词语",
-        "标点"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-367",
@@ -11208,12 +10284,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-368",
@@ -11241,10 +10312,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      "古诗词览赏"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-369",
@@ -11272,12 +10340,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-370",
@@ -11305,13 +10368,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "文言文",
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-371",
@@ -11339,10 +10396,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      "现代文阅读"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-372",
@@ -11370,12 +10424,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-373",
@@ -11403,12 +10452,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-374",
@@ -11436,13 +10480,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-375",
@@ -11470,12 +10508,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-376",
@@ -11503,13 +10536,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-377",
@@ -11537,12 +10564,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "拼音"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-378",
@@ -11570,12 +10592,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "字形"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-379",
@@ -11603,13 +10620,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "词语",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-380",
@@ -11637,12 +10648,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "病句"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-381",
@@ -11670,12 +10676,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-382",
@@ -11703,12 +10704,7 @@
       }
     ],
     "answer": "D",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-383",
@@ -11736,12 +10732,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "标点"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-384",
@@ -11769,10 +10760,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      "宋词"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-385",
@@ -11800,10 +10788,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      "古诗词鉴赏"
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-386",
@@ -11831,12 +10816,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-387",
@@ -11864,13 +10844,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "文言文",
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-388",
@@ -11898,12 +10872,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-389",
@@ -11931,13 +10900,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-390",
@@ -11965,12 +10928,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-391",
@@ -11998,13 +10956,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "古诗词",
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-392",
@@ -12032,12 +10984,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-393",
@@ -12065,13 +11012,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文",
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-394",
@@ -12099,13 +11040,7 @@
       }
     ],
     "answer": "D",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "拼音",
-        "词语"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-395",
@@ -12133,12 +11068,7 @@
       }
     ],
     "answer": "C",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "字形"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-396",
@@ -12166,12 +11096,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "词语"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-397",
@@ -12199,12 +11124,7 @@
       }
     ],
     "answer": "B",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "病句"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-398",
@@ -12232,12 +11152,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "写作"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-399",
@@ -12265,12 +11180,7 @@
       }
     ],
     "answer": "A",
-    "grade": 9,
-    "knowledgeTags": [
-      [
-        "现代文"
-      ]
-    ]
+    "grade": 9
   },
   {
     "id": "chinese-400",
@@ -12298,11 +11208,2705 @@
       }
     ],
     "answer": "A",
+    "grade": 9
+  },
+  {
+    "id": "chinese-g7-001",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "文言文阅读"
+    ],
+    "question": "下列哪个是象形字?",
+    "options": [
+      {
+        "label": "A",
+        "text": "日"
+      },
+      {
+        "label": "B",
+        "text": "明"
+      },
+      {
+        "label": "C",
+        "text": "林"
+      },
+      {
+        "label": "D",
+        "text": "休"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及文言文阅读知识点。正确答案是A：日。",
+    "image": null
+  },
+  {
+    "id": "chinese-g7-002",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "文言文阅读"
+    ],
+    "question": "'学习'中'学'的读音是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "xué"
+      },
+      {
+        "label": "B",
+        "text": "xiáo"
+      },
+      {
+        "label": "C",
+        "text": "jué"
+      },
+      {
+        "label": "D",
+        "text": "xiào"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及文言文阅读知识点。正确答案是A：xué。",
+    "image": null
+  },
+  {
+    "id": "chinese-g7-003",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "文言文阅读"
+    ],
+    "question": "下列哪个字是形声字?",
+    "options": [
+      {
+        "label": "A",
+        "text": "明"
+      },
+      {
+        "label": "B",
+        "text": "林"
+      },
+      {
+        "label": "C",
+        "text": "休"
+      },
+      {
+        "label": "D",
+        "text": "河"
+      }
+    ],
+    "answer": "D",
+    "explanation": "本题涉及文言文阅读知识点。正确答案是D：河。",
+    "image": null
+  },
+  {
+    "id": "chinese-g7-004",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "文言文阅读"
+    ],
+    "question": "'美丽'的近义词是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "漂亮"
+      },
+      {
+        "label": "B",
+        "text": "丑陋"
+      },
+      {
+        "label": "C",
+        "text": "高大"
+      },
+      {
+        "label": "D",
+        "text": "矮小"
+      }
+    ],
+    "answer": "A",
+    "explanation": "本题涉及文言文阅读知识点。正确答案是A：漂亮。",
+    "image": null
+  },
+  {
+    "id": "chinese-g7-005",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "文言文阅读"
+    ],
+    "question": "下列哪个是贬义词?",
+    "options": [
+      {
+        "label": "A",
+        "text": "勇敢"
+      },
+      {
+        "label": "B",
+        "text": "善良"
+      },
+      {
+        "label": "C",
+        "text": "虚伪"
+      },
+      {
+        "label": "D",
+        "text": "诚实"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及文言文阅读知识点。正确答案是C：虚伪。",
+    "image": null
+  },
+  {
+    "id": "chinese-古诗词鉴赏-8-NEW",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "下列哪一句诗句最能体现“落花”的意境？",
+    "options": [
+      {
+        "label": "A",
+        "text": "春风拂柳，花开烂漫"
+      },
+      {
+        "label": "B",
+        "text": "落花静留，一抹残红"
+      },
+      {
+        "label": "C",
+        "text": "流水潺潺，映浅水"
+      },
+      {
+        "label": "D",
+        "text": "山河壮丽，飞鸟翱翔"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-古诗词鉴赏-8-NEW-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "‘月满西楼’中的‘月’象征什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "春天的气息"
+      },
+      {
+        "label": "B",
+        "text": "秋天的景象"
+      },
+      {
+        "label": "C",
+        "text": "冬天的寒冷"
+      },
+      {
+        "label": "D",
+        "text": "夜晚的宁静"
+      }
+    ],
+    "answer": "B",
+    "explanation": "‘月满西楼’描绘了清冷的月色，象征着秋天的景象，体现了秋季的凉爽和萧瑟。"
+  },
+  {
+    "id": "chinese-古诗词鉴赏-8-NEW-2",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "‘落花有意于秋’出自哪首诗？",
+    "options": [
+      {
+        "label": "A",
+        "text": "唐·李白"
+      },
+      {
+        "label": "B",
+        "text": "宋·苏轼"
+      },
+      {
+        "label": "C",
+        "text": "元·王维"
+      },
+      {
+        "label": "D",
+        "text": "杜甫"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-名著阅读-8-NEW",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "名著阅读"
+    ],
+    "question": "在《红楼梦》中，贾宝玉对金锁的喜爱是怎样的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "他十分厌恶金锁"
+      },
+      {
+        "label": "B",
+        "text": "他认为金锁是珍贵的东西"
+      },
+      {
+        "label": "C",
+        "text": "他喜欢金锁的香味"
+      },
+      {
+        "label": "D",
+        "text": "他觉得金锁可以为自己带来幸福"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-名著阅读-8-NEW-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "名著阅读"
+    ],
+    "question": "下列哪一项是故事中人物最主要表达的理想？",
+    "options": [
+      {
+        "label": "A",
+        "text": "他渴望成为国王"
+      },
+      {
+        "label": "B",
+        "text": "他渴望拥有财富"
+      },
+      {
+        "label": "C",
+        "text": "他渴望被人们爱戴"
+      },
+      {
+        "label": "D",
+        "text": "他渴望自由身动"
+      }
+    ],
+    "answer": "C",
+    "explanation": "故事中人物渴望被人们爱戴，这体现了他对人际关系和社会地位的追求。"
+  },
+  {
+    "id": "chinese-作文写作-8-NEW",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "作文写作"
+    ],
+    "question": "在描写家乡的作文中，你认为‘家’不仅仅是一个地点，它还代表着什么？请用一到两句话概括你的观点。",
+    "options": [
+      {
+        "label": "A",
+        "text": "家只是一个温暖舒适的地方"
+      },
+      {
+        "label": "B",
+        "text": "家是我的安全港湾"
+      },
+      {
+        "label": "C",
+        "text": "家是我的梦想之地"
+      },
+      {
+        "label": "D",
+        "text": "家是所有人的共同回忆"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-综合性学习-8-NEW",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "question": "下列哪一项是正确的？ 学习科学的目的是...",
+    "options": [
+      {
+        "label": "A",
+        "text": "探索自然界"
+      },
+      {
+        "label": "B",
+        "text": "理解物理规律"
+      },
+      {
+        "label": "C",
+        "text": "掌握数学知识"
+      },
+      {
+        "label": "D",
+        "text": "创造新的技术"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-作文写作-9-NEW",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
     "grade": 9,
     "knowledgeTags": [
-      [
-        "标点"
-      ]
-    ]
+      "作文写作"
+    ],
+    "question": "在你的作文中，你认为学生应该如何更好地学习？请用一句话概括您的观点。",
+    "options": [
+      {
+        "label": "A",
+        "text": "通过考试来获得好成绩"
+      },
+      {
+        "label": "B",
+        "text": "通过努力学习才能取得进步"
+      },
+      {
+        "label": "C",
+        "text": "只有在老师的指导下才能学得更好"
+      },
+      {
+        "label": "D",
+        "text": "学习就是浪费时间"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-综合性学习-8-NEW-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "question": "下列哪一项是关于中国文化中“道”的定义？",
+    "options": [
+      {
+        "label": "A",
+        "text": "古代的政治制度"
+      },
+      {
+        "label": "B",
+        "text": "自然规律和宇宙法则"
+      },
+      {
+        "label": "C",
+        "text": "人类的欲望与情感"
+      },
+      {
+        "label": "D",
+        "text": "一种简单的社会等级制度"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-综合性学习-9-NEW",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "question": "下列哪一项是构成中国文化的重要组成部分？",
+    "options": [
+      {
+        "label": "A",
+        "text": "传统节日"
+      },
+      {
+        "label": "B",
+        "text": "诗歌"
+      },
+      {
+        "label": "C",
+        "text": "绘画"
+      },
+      {
+        "label": "D",
+        "text": "武术"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-综合性学习-9-NEW-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "question": "下列哪一项是关于中国古代社会政治制度的正确描述？",
+    "options": [
+      {
+        "label": "A",
+        "text": "专制统治"
+      },
+      {
+        "label": "B",
+        "text": "民主共和"
+      },
+      {
+        "label": "C",
+        "text": "君主专制"
+      },
+      {
+        "label": "D",
+        "text": "平民统治"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国古代的政治制度主要以民主共和为主，皇帝拥有有限的权力，地方官员也受到民众的监督。"
+  },
+  {
+    "id": "chinese-综合性学习-9-NEW-2",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "question": "下列哪一项是关于中国古代社会政治制度的正确描述？",
+    "options": [
+      {
+        "label": "A",
+        "text": "君主专制"
+      },
+      {
+        "label": "B",
+        "text": "民主专制"
+      },
+      {
+        "label": "C",
+        "text": "等级森严"
+      },
+      {
+        "label": "D",
+        "text": "平民统治"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国古代的政治制度，特别是君主专制，是其主要特征。"
+  },
+  {
+    "id": "chinese-文言文阅读-8-NEW",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言文阅读"
+    ],
+    "question": "‘吾将载道’，字数多少？",
+    "options": [
+      {
+        "label": "A",
+        "text": "30"
+      },
+      {
+        "label": "B",
+        "text": "40"
+      },
+      {
+        "label": "C",
+        "text": "50"
+      },
+      {
+        "label": "D",
+        "text": "60"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言文阅读-8-NEW-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言文阅读"
+    ],
+    "question": "‘吾日夜思如潮，莫止于此。’ 句子的意思是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "人生的苦难"
+      },
+      {
+        "label": "B",
+        "text": "对未来的憧憬"
+      },
+      {
+        "label": "C",
+        "text": "对过去的怀念"
+      },
+      {
+        "label": "D",
+        "text": "对死亡的恐惧"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-名著阅读-8-NEW-2",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "名著阅读"
+    ],
+    "question": "在《红楼梦》中，贾宝玉对女性的看法主要是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "他认为女性应该被禁锢在家庭之中"
+      },
+      {
+        "label": "B",
+        "text": "他欣赏女性的美丽和才华"
+      },
+      {
+        "label": "C",
+        "text": "他认为女性是弱者，不值得尊重"
+      },
+      {
+        "label": "D",
+        "text": "他崇尚男性权力与地位"
+      }
+    ],
+    "answer": "B",
+    "explanation": "贾宝玉对女性的看法主要体现了其“性命不鉴”的处境，他欣赏女性的美丽和才华，但同时认为她们的价值在于婚姻和家庭，而非独立自主。"
+  },
+  {
+    "id": "chinese-作文写作-8-NEW-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "作文写作"
+    ],
+    "question": "在描述你最喜欢的旅行经历时，你应该使用哪些修辞手法？",
+    "options": [
+      {
+        "label": "A",
+        "text": "用简洁明了的语言描述。",
+        "answer": "D"
+      },
+      {
+        "label": "B",
+        "text": "运用比喻和拟人来表达情感。",
+        "answer": "C"
+      },
+      {
+        "label": "C",
+        "text": "使用夸张的形容词来强调你的旅行经历。",
+        "answer": "A"
+      },
+      {
+        "label": "D",
+        "text": "用具体的细节描写，让读者身临其境。",
+        "answer": "B"
+      }
+    ],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-作文写作-8-NEW-2",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "作文写作"
+    ],
+    "question": "你最喜欢的小动物是什么？请简述原因。",
+    "options": [
+      {
+        "label": "A",
+        "text": "狮子"
+      },
+      {
+        "label": "B",
+        "text": "熊猫"
+      },
+      {
+        "label": "C",
+        "text": "小狗"
+      },
+      {
+        "label": "D",
+        "text": "海豚"
+      }
+    ],
+    "answer": "B",
+    "explanation": "熊猫因为它们圆滚滚的体型，喜欢吃竹子，而且它们非常可爱，让人喜爱。"
+  },
+  {
+    "id": "chinese-综合性学习-8-NEW-2",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "question": "下列哪个生物是地球上最大的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "蓝鲸"
+      },
+      {
+        "label": "B",
+        "text": "海牛"
+      },
+      {
+        "label": "C",
+        "text": "珊瑚"
+      },
+      {
+        "label": "D",
+        "text": "巨型海马"
+      }
+    ],
+    "answer": "B",
+    "explanation": "海牛是地球上最大的生物，它们通常体型巨大。"
+  },
+  {
+    "id": "chinese-综合性学习-9-NEW-3",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "综合性学习"
+    ],
+    "question": "下列哪一项是构成中国古代社会政治制度的组成部分？",
+    "options": [
+      {
+        "label": "A",
+        "text": "君主统治"
+      },
+      {
+        "label": "B",
+        "text": "贵族统治"
+      },
+      {
+        "label": "C",
+        "text": "平民统治"
+      },
+      {
+        "label": "D",
+        "text": "地方自治"
+      }
+    ],
+    "answer": "B",
+    "explanation": "贵族统治是古代中国社会政治制度的重要组成部分，它通过掌握权力来维护自己的利益。"
+  },
+  {
+    "id": "chinese-文言虚词-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-汉字结构-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "汉字结构"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-拼音读写-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "拼音读写"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-笔画顺序-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "笔画顺序"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词义理解-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "词义理解"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-字形辨析-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "字形辨析"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词语搭配-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "词语搭配"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-成语使用-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "成语使用"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-病句修改-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-修辞手法-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文学常识-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-句式变换-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言实词-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-古诗词鉴赏-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言虚词-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-内容概括-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "内容概括"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言句式-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文言句式"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-描写方法-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "描写方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-中心思想-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "中心思想"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明方法-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-记叙文阅读-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "记叙文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-论证方法-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "论证方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明文阅读-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-拼音读写-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "拼音读写"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-议论文阅读-7",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "议论文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-汉字结构-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "汉字结构"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-笔画顺序-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "笔画顺序"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-字形辨析-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "字形辨析"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词义理解-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "词义理解"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-成语使用-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "成语使用"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词语搭配-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "词语搭配"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-病句修改-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-修辞手法-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-句式变换-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文学常识-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-古诗词鉴赏-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言实词-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言句式-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言句式"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-内容概括-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "内容概括"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-中心思想-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "中心思想"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言虚词-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-描写方法-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "描写方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-论证方法-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "论证方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明方法-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明文阅读-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-记叙文阅读-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "记叙文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-议论文阅读-8",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "议论文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-拼音读写-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "拼音读写"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-汉字结构-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "汉字结构"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-笔画顺序-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "笔画顺序"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词义理解-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "词义理解"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-字形辨析-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "字形辨析"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词语搭配-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "词语搭配"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-成语使用-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "成语使用"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-病句修改-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-修辞手法-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-句式变换-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文学常识-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言实词-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-古诗词鉴赏-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言虚词-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-内容概括-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "内容概括"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言句式-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文言句式"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-描写方法-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "描写方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明方法-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-中心思想-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "中心思想"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-论证方法-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "论证方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明文阅读-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-记叙文阅读-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "记叙文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-汉字结构-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "汉字结构"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-议论文阅读-9",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "议论文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-拼音读写-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "拼音读写"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词义理解-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "词义理解"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-字形辨析-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "字形辨析"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-笔画顺序-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "笔画顺序"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-成语使用-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "成语使用"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词语搭配-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "词语搭配"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-病句修改-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-修辞手法-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文学常识-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-句式变换-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言实词-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-古诗词鉴赏-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言虚词-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-内容概括-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "内容概括"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-中心思想-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "中心思想"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-描写方法-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "描写方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言句式-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "文言句式"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明方法-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-论证方法-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "论证方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-记叙文阅读-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "记叙文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明文阅读-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-拼音读写-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "拼音读写"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-汉字结构-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "汉字结构"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-议论文阅读-7-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 7,
+    "knowledgeTags": [
+      "议论文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-笔画顺序-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "笔画顺序"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-字形辨析-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "字形辨析"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词义理解-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "词义理解"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-成语使用-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "成语使用"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-病句修改-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词语搭配-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "词语搭配"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-修辞手法-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文学常识-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-句式变换-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-古诗词鉴赏-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言句式-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言句式"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言虚词-8-2",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-内容概括-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "内容概括"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言实词-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-中心思想-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "中心思想"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-描写方法-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "描写方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明方法-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-论证方法-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "论证方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-记叙文阅读-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "记叙文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明文阅读-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-议论文阅读-8-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 8,
+    "knowledgeTags": [
+      "议论文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-汉字结构-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "汉字结构"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-拼音读写-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "拼音读写"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-笔画顺序-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "笔画顺序"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词义理解-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "词义理解"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-字形辨析-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "字形辨析"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-词语搭配-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "词语搭配"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-成语使用-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "成语使用"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-病句修改-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "病句修改"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-修辞手法-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "修辞手法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-句式变换-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "句式变换"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文学常识-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言实词-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-古诗词鉴赏-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "古诗词鉴赏"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-内容概括-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "内容概括"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言虚词-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-文言句式-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "文言句式"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-描写方法-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "描写方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-中心思想-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "中心思想"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明方法-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "说明方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-论证方法-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "论证方法"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-记叙文阅读-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "记叙文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-说明文阅读-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "说明文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
+  },
+  {
+    "id": "chinese-议论文阅读-9-1",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": "medium",
+    "grade": 9,
+    "knowledgeTags": [
+      "议论文阅读"
+    ],
+    "question": "",
+    "options": [],
+    "answer": "",
+    "explanation": ""
   }
 ]
