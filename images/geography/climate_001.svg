@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+  <rect width="320" height="220" fill="#f8f9fa"/>
+  <text x="10" y="22" font-size="13" fill="#333">某地气温曲线和降水量柱状图</text>
+  <line x1="50" y1="40" x2="50" y2="190" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="40" x2="45" y2="48" stroke="#333" stroke-width="1.5"/>
+  <text x="35" y="45" font-size="10" fill="#e74c3c">°C</text>
+  <line x1="290" y1="40" x2="290" y2="190" stroke="#333" stroke-width="1.5"/>
+  <line x1="295" y1="45" x2="290" y2="40" stroke="#333" stroke-width="1.5"/>
+  <text x="278" y="45" font-size="10" fill="#2563eb">mm</text>
+  <line x1="50" y1="190" x2="300" y2="190" stroke="#333" stroke-width="1.5"/>
+  <text x="15" y="50" font-size="9" fill="#888">30°</text>
+  <text x="15" y="90" font-size="9" fill="#888">20°</text>
+  <text x="15" y="130" font-size="9" fill="#888">10°</text>
+  <text x="15" y="170" font-size="9" fill="#888">0°</text>
+  <text x="53" y="205" font-size="9" fill="#666">1</text>
+  <text x="73" y="205" font-size="9" fill="#666">2</text>
+  <text x="93" y="205" font-size="9" fill="#666">3</text>
+  <text x="113" y="205" font-size="9" fill="#666">4</text>
+  <text x="133" y="205" font-size="9" fill="#666">5</text>
+  <text x="153" y="205" font-size="9" fill="#666">6</text>
+  <text x="173" y="205" font-size="9" fill="#666">7</text>
+  <text x="193" y="205" font-size="9" fill="#666">8</text>
+  <text x="213" y="205" font-size="9" fill="#666">9</text>
+  <text x="233" y="205" font-size="9" fill="#666">10</text>
+  <text x="253" y="205" font-size="9" fill="#666">11</text>
+  <text x="273" y="205" font-size="9" fill="#666">12</text>
+  <!-- Temp line: 5,8,14,20,25,28,30,29,24,18,12,6 → y = 115 - temp*3 -->
+  <polyline points="60,170 80,161 100,143 120,125 140,110 160,98 180,92 200,95 220,113 240,137 260,155 280,167" fill="none" stroke="#e74c3c" stroke-width="2"/>
+  <!-- Precip bars -->
+  <rect x="54" y="172" width="10" height="18" fill="#2563eb" opacity="0.7"/>
+  <rect x="74" y="170" width="10" height="20" fill="#2563eb" opacity="0.7"/>
+  <rect x="94" y="156" width="10" height="34" fill="#2563eb" opacity="0.7"/>
+  <rect x="114" y="145" width="10" height="45" fill="#2563eb" opacity="0.7"/>
+  <rect x="134" y="125" width="10" height="65" fill="#2563eb" opacity="0.7"/>
+  <rect x="154" y="110" width="10" height="80" fill="#2563eb" opacity="0.7"/>
+  <rect x="174" y="95" width="10" height="95" fill="#2563eb" opacity="0.7"/>
+  <rect x="194" y="105" width="10" height="85" fill="#2563eb" opacity="0.7"/>
+  <rect x="214" y="130" width="10" height="60" fill="#2563eb" opacity="0.7"/>
+  <rect x="234" y="152" width="10" height="38" fill="#2563eb" opacity="0.7"/>
+  <rect x="254" y="165" width="10" height="25" fill="#2563eb" opacity="0.7"/>
+  <rect x="274" y="172" width="10" height="18" fill="#2563eb" opacity="0.7"/>
+</svg>

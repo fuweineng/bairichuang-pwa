@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" font-family="Arial">
+  <text x="400" y="25" text-anchor="middle" font-size="18" fill="#333">下列哪个图形属于四边形？</text>
+  <g transform="translate(100,50)">
+    <polygon points="50,130 93,30 7,30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">A 三角形</text>
+  </g>
+  <g transform="translate(300,50)">
+    <polygon points="10,130 90,130 90,30 10,30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">B 长方形</text>
+  </g>
+  <g transform="translate(500,50)">
+    <polygon points="15,30 85,30 70,130 30,130" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">C 平行四边形</text>
+  </g>
+  <g transform="translate(700,50)">
+    <polygon points="10,30 90,30 100,130 0,130" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">D 梯形</text>
+  </g>
+</svg>

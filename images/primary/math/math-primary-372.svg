@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 320" font-family="Arial">
+  <text x="275" y="25" text-anchor="middle" font-size="18" fill="#333">长8cm×宽5cm长方形，左上角裁去直角三角形（直角边3cm和4cm）</text>
+  <g transform="translate(100,50)">
+    <!-- 长方形 -->
+    <rect x="0" y="0" width="160" height="100" fill="none" stroke="black" stroke-width="2"/>
+    <!-- 裁去的三角形（阴影） -->
+    <polygon points="0,0 60,0 0,80" fill="#ddd" stroke="black" stroke-width="2"/>
+    <!-- 标注 -->
+    <text x="80" y="-12" text-anchor="middle" font-size="14" fill="#333">8 cm</text>
+    <text x="175" y="50" text-anchor="middle" font-size="14" fill="#333" transform="rotate(90,175,50)">5 cm</text>
+    <text x="20" y="35" font-size="11" fill="#555">3cm</text>
+    <text x="30" y="55" font-size="11" fill="#555">4cm</text>
+    <!-- 裁剪线虚线 -->
+    <line x1="0" y1="80" x2="60" y2="0" stroke="#888" stroke-width="1" stroke-dasharray="4"/>
+    <text x="80" y="130" text-anchor="middle" font-size="14">剩余面积 = 8×5 − ½×3×4 = 40 − 6 = 34 cm²</text>
+  </g>
+</svg>

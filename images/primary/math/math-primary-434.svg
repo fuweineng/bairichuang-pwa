@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" font-family="Arial">
+  <text x="350" y="25" text-anchor="middle" font-size="16" fill="#333">小方格组成的L形：■ ■ / ■   ，顺时针旋转90°，再向右平移3格、向下平移2格</text>
+  <g transform="translate(60,60)">
+    <!-- 原始L形 -->
+    <rect x="0" y="0" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <rect x="25" y="0" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <rect x="0" y="25" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <!-- 格子标注 -->
+    <text x="12" y="65" text-anchor="middle" font-size="13">原始L形</text>
+    <text x="12" y="82" text-anchor="middle" font-size="11" fill="#555">(左上角在第1列第1行)</text>
+    <!-- 旋转箭头 -->
+    <text x="70" y="25" text-anchor="middle" font-size="20">→</text>
+    <text x="70" y="45" text-anchor="middle" font-size="12">旋转90°</text>
+  </g>
+  <g transform="translate(200,60)">
+    <!-- 旋转后的L形（顺时针转90度后：■在左上，■在左下） -->
+    <rect x="0" y="0" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <rect x="0" y="25" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <rect x="-25" y="0" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="-12" y="75" text-anchor="middle" font-size="13">旋转后</text>
+  </g>
+  <g transform="translate(320,60)">
+    <!-- 再平移后：右移3格，下移2格 -->
+    <rect x="75" y="50" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <rect x="75" y="75" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <rect x="50" y="50" width="25" height="25" fill="none" stroke="black" stroke-width="1.5"/>
+    <text x="62" y="125" text-anchor="middle" font-size="13">平移后</text>
+    <text x="62" y="143" text-anchor="middle" font-size="11" fill="#2a2">左上角→第4列第3行</text>
+  </g>
+  <!-- 格子坐标系 -->
+  <g transform="translate(500,60)">
+    <text x="0" y="0" font-size="12" fill="#555">图示坐标系：</text>
+    <text x="0" y="20" font-size="12" fill="#555">→ x列</text>
+    <text x="0" y="38" font-size="12" fill="#555">↓ y行</text>
+    <text x="0" y="80" font-size="13">答案：第4列第3行</text>
+  </g>
+</svg>

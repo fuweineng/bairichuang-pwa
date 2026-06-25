@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
+  <rect width="320" height="220" fill="#f8fbff"/>
+  <path d="M60 180 L160 40 L270 180 Z" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M160 40 L160 180" fill="none" stroke="#93c5fd" stroke-width="3" stroke-dasharray="7 7"/>
+  <path d="M145 165 A22 22 0 0 0 175 165" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <path d="M74 171 A18 18 0 0 0 92 160" fill="none" stroke="#f97316" stroke-width="3"/>
+  <path d="M227 160 A18 18 0 0 0 246 171" fill="none" stroke="#f97316" stroke-width="3"/>
+  <text x="153" y="30" font-size="18" font-weight="700" fill="#1f2937">A</text>
+  <text x="46" y="196" font-size="18" font-weight="700" fill="#1f2937">B</text>
+  <text x="274" y="196" font-size="18" font-weight="700" fill="#1f2937">C</text>
+  <text x="167" y="120" font-size="16" fill="#1f2937">AD ⟂ BC</text>
+  <text x="146" y="158" font-size="18" font-weight="700" fill="#16a34a">40°</text>
+  <text x="88" y="158" font-size="16" font-weight="700" fill="#f97316">?</text>
+  <text x="217" y="158" font-size="16" font-weight="700" fill="#f97316">?</text>
+</svg>

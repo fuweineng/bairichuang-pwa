@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" font-family="Arial">
+  <text x="400" y="25" text-anchor="middle" font-size="18" fill="#333">哪个是轴对称图形？</text>
+  <g transform="translate(100,60)">
+    <polygon points="50,130 93,30 7,30" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="50" y1="130" x2="50" y2="30" stroke="#888" stroke-width="1" stroke-dasharray="3"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">A 等边三角形</text>
+    <text x="50" y="183" text-anchor="middle" font-size="13" fill="#2a2">✓ 是轴对称</text>
+  </g>
+  <g transform="translate(300,60)">
+    <polygon points="15,30 85,30 70,130 30,130" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">B 平行四边形</text>
+    <text x="50" y="183" text-anchor="middle" font-size="13" fill="#d00">✗ 不是</text>
+  </g>
+  <g transform="translate(500,60)">
+    <rect x="10" y="30" width="80" height="100" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="50" y1="30" x2="50" y2="130" stroke="#888" stroke-width="1" stroke-dasharray="3"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">C 长方形</text>
+    <text x="50" y="183" text-anchor="middle" font-size="13" fill="#2a2">✓ 是轴对称</text>
+  </g>
+  <g transform="translate(700,60)">
+    <polygon points="50,130 100,30 0,30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="165" text-anchor="middle" font-size="16">D 等腰三角形</text>
+    <text x="50" y="183" text-anchor="middle" font-size="13" fill="#2a2">✓ 是轴对称</text>
+  </g>
+</svg>

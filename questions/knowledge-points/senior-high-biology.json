@@ -1,0 +1,31 @@
+{
+  "segment": "senior-high",
+  "subject": "biology",
+  "knowledgePoints": [
+    {"code": "SHB-001", "name": "细胞的分子组成", "description": "蛋白质、核酸、糖类、脂质的结构与功能"},
+    {"code": "SHB-002", "name": "细胞的结构与功能", "description": "细胞膜、细胞器、细胞核的结构与功能"},
+    {"code": "SHB-003", "name": "物质跨膜运输", "description": "自由扩散、协助扩散、主动运输的原理与特点"},
+    {"code": "SHB-004", "name": "酶与ATP", "description": "酶的本质、特性、作用机制与ATP的结构功能"},
+    {"code": "SHB-005", "name": "细胞呼吸", "description": "有氧呼吸、无氧呼吸的过程与能量产出"},
+    {"code": "SHB-006", "name": "光合作用", "description": "光反应、暗反应过程及影响因素"},
+    {"code": "SHB-007", "name": "有丝分裂", "description": "有丝分裂各时期特点及细胞周期"},
+    {"code": "SHB-008", "name": "减数分裂与受精作用", "description": "减数分裂各阶段及受精过程"},
+    {"code": "SHB-009", "name": "DNA复制与基因表达", "description": "DNA复制、转录、翻译的过程"},
+    {"code": "SHB-010", "name": "基因分离定律", "description": "分离定律的实质与遗传分析"},
+    {"code": "SHB-011", "name": "基因自由组合定律", "description": "自由组合定律的实质与遗传分析"},
+    {"code": "SHB-012", "name": "伴性遗传", "description": "性染色体上的基因遗传特点"},
+    {"code": "SHB-013", "name": "基因突变与染色体变异", "description": "变异的类型、特点与诱变因素"},
+    {"code": "SHB-014", "name": "遗传系谱图分析", "description": "系谱图的阅读与遗传方式的判断"},
+    {"code": "SHB-015", "name": "变异与进化", "description": "可遗传变异的来源与现代生物进化理论"},
+    {"code": "SHB-016", "name": "基因工程原理", "description": "基因工程的基本步骤与应用"},
+    {"code": "SHB-017", "name": "细胞工程", "description": "植物组织培养、动物细胞培养与克隆技术"},
+    {"code": "SHB-018", "name": "微生物培养与利用", "description": "微生物培养技术及发酵工程"},
+    {"code": "SHB-019", "name": "人体内环境与稳态", "description": "内环境组成及稳态调节机制"},
+    {"code": "SHB-020", "name": "神经调节与体液调节", "description": "神经冲动传导、体液调节机制"},
+    {"code": "SHB-021", "name": "免疫调节", "description": "非特异性免疫与特异性免疫机制"},
+    {"code": "SHB-022", "name": "植物激素调节", "description": "生长素及其他植物激素的作用"},
+    {"code": "SHB-023", "name": "种群与群落", "description": "种群的特征、群落的结构与演替"},
+    {"code": "SHB-024", "name": "生态系统结构与功能", "description": "生态系统的组成、能量流动与物质循环"},
+    {"code": "SHB-025", "name": "生态环境保护", "description": "全球生态环境问题与可持续发展"}
+  ]
+}

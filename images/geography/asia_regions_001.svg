@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#f8f9fa"/>
+  <text x="10" y="22" font-size="13" fill="#333">亚洲地理分区示意图</text>
+  <path d="M20,40 L60,20 L120,15 L200,25 L260,40 L280,70 L275,110 L260,150 L230,180 L180,190 L130,185 L80,175 L30,150 L10,110 L5,70 Z" fill="none" stroke="#888" stroke-width="1.5"/>
+  <path d="M60,100 Q100,90 140,95 Q180,100 220,110" fill="none" stroke="#2563eb" stroke-width="1" stroke-dasharray="4,2"/>
+  <path d="M120,15 Q115,60 120,100" fill="none" stroke="#e74c3c" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="180" y="40" font-size="11" fill="#2563eb">东亚</text>
+  <text x="200" y="80" font-size="11" fill="#27ae60">东南亚</text>
+  <text x="230" y="130" font-size="11" fill="#9b59b6">南亚</text>
+  <text x="150" y="30" font-size="11" fill="#e67e22">中亚</text>
+  <text x="70" y="50" font-size="11" fill="#e74c3c">西亚</text>
+  <text x="30" y="120" font-size="11" fill="#333">北亚</text>
+  <ellipse cx="200" cy="60" rx="25" ry="20" fill="#e74c3c" opacity="0.2" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="205" y="65" font-size="10" fill="#e74c3c">中国</text>
+</svg>

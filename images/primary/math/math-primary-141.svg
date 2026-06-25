@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" font-family="Arial">
+  <text x="400" y="25" text-anchor="middle" font-size="18" fill="#333">下面哪个图形不能一笔画成（笔不能离纸、不重复画线）？</text>
+  <!-- A: 五角星（可一笔画） -->
+  <g transform="translate(100,50)">
+    <polygon points="50,5 61,40 98,40 68,60 79,95 50,73 21,95 32,60 2,40 39,40"
+      fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="130" text-anchor="middle" font-size="16">A</text>
+    <text x="50" y="150" text-anchor="middle" font-size="12" fill="#2a2">可一笔画</text>
+  </g>
+  <!-- B: 两个分离的圆（不可） -->
+  <g transform="translate(300,50)">
+    <circle cx="25" cy="65" r="22" fill="none" stroke="black" stroke-width="2"/>
+    <circle cx="75" cy="65" r="22" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="130" text-anchor="middle" font-size="16">B</text>
+    <text x="50" y="150" text-anchor="middle" font-size="12" fill="#d00">不可一笔画</text>
+  </g>
+  <!-- C: 三个分离正方形（不可） -->
+  <g transform="translate(500,50)">
+    <rect x="5" y="35" width="25" height="25" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="40" y="35" width="25" height="25" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="22" y="5" width="25" height="25" fill="none" stroke="black" stroke-width="2"/>
+    <text x="50" y="130" text-anchor="middle" font-size="16">C</text>
+    <text x="50" y="150" text-anchor="middle" font-size="12" fill="#d00">不可一笔画</text>
+  </g>
+  <!-- D: 椭圆（可） -->
+  <g transform="translate(700,50)">
+    <ellipse cx="30" cy="65" rx="28" ry="18" fill="none" stroke="black" stroke-width="2"/>
+    <text x="30" y="130" text-anchor="middle" font-size="16">D</text>
+    <text x="30" y="150" text-anchor="middle" font-size="12" fill="#2a2">可一笔画</text>
+  </g>
+</svg>

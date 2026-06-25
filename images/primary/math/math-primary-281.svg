@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="Arial">
+  <text x="400" y="25" text-anchor="middle" font-size="18" fill="#333">下面四个图形中，哪个图形的面积最大？</text>
+  <!-- A: 正方形 4x4=16 -->
+  <g transform="translate(80,60)">
+    <rect x="0" y="0" width="60" height="60" fill="none" stroke="black" stroke-width="2"/>
+    <text x="30" y="-8" text-anchor="middle" font-size="14" fill="#555">4cm×4cm</text>
+    <text x="30" y="85" text-anchor="middle" font-size="16">A</text>
+  </g>
+  <!-- B: 长方形 6x2=12 -->
+  <g transform="translate(250,60)">
+    <rect x="0" y="0" width="90" height="30" fill="none" stroke="black" stroke-width="2"/>
+    <text x="45" y="-8" text-anchor="middle" font-size="14" fill="#555">6cm×2cm</text>
+    <text x="45" y="55" text-anchor="middle" font-size="16">B</text>
+  </g>
+  <!-- C: 平行四边形 底6高4=24 -->
+  <g transform="translate(440,60)">
+    <polygon points="0,50 90,50 70,10 0,10" fill="none" stroke="black" stroke-width="2"/>
+    <text x="45" y="-8" text-anchor="middle" font-size="14" fill="#555">底6cm 高4cm</text>
+    <text x="45" y="80" text-anchor="middle" font-size="16">C</text>
+    <text x="45" y="98" text-anchor="middle" font-size="13" fill="#2a2">面积=24</text>
+  </g>
+  <!-- D: 三角形 底8高3=12 -->
+  <g transform="translate(640,60)">
+    <polygon points="0,60 80,60 80,20" fill="none" stroke="black" stroke-width="2"/>
+    <text x="40" y="-8" text-anchor="middle" font-size="14" fill="#555">底8cm 高3cm</text>
+    <text x="40" y="85" text-anchor="middle" font-size="16">D</text>
+  </g>
+</svg>

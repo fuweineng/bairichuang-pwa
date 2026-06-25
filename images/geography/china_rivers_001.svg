@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#f8f9fa"/>
+  <text x="10" y="22" font-size="13" fill="#333">中国主要河流分布示意图</text>
+  <path d="M50,30 L80,20 L120,25 L160,15 L200,30 L240,25 L270,40 L280,70 L270,100 L260,130 L240,160 L200,180 L160,190 L120,185 L80,175 L40,160 L20,120 L15,80 L25,50 Z" fill="none" stroke="#888" stroke-width="1.5"/>
+  <path d="M180,40 Q170,80 175,120 Q180,160 200,180" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="200" y="185" font-size="11" fill="#2563eb">长江</text>
+  <path d="M140,30 Q150,70 160,100 Q170,140 190,160" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+  <text x="195" y="165" font-size="11" fill="#e74c3c">黄河</text>
+  <path d="M100,60 Q90,90 85,120" fill="none" stroke="#27ae60" stroke-width="2"/>
+  <text x="75" y="125" font-size="11" fill="#27ae60">珠江</text>
+  <path d="M200,70 Q205,100 220,120" fill="none" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="210" y="125" font-size="11" fill="#9b59b6">淮河</text>
+  <rect x="10" y="140" width="15" height="3" fill="#2563eb"/><text x="30" y="147" font-size="10">外流河</text>
+  <rect x="10" y="155" width="15" height="3" fill="#888"/><text x="30" y="162" font-size="10">内流河</text>
+</svg>

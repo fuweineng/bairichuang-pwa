@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220">
+  <rect width="320" height="220" fill="#fffdf7"/>
+  <rect x="36" y="28" width="248" height="164" rx="18" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <rect x="54" y="46" width="212" height="128" rx="16" fill="#f0fdf4" stroke="#86efac" stroke-width="3"/>
+  <circle cx="210" cy="98" r="28" fill="#c7d2fe" stroke="#4f46e5" stroke-width="4"/>
+  <circle cx="110" cy="92" r="18" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+  <circle cx="152" cy="138" r="16" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+  <rect x="82" y="148" width="50" height="18" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/>
+  <text x="224" y="102" font-size="14" fill="#1f2937">细胞核</text>
+  <text x="92" y="88" font-size="12" fill="#166534">叶绿体</text>
+  <text x="142" y="142" font-size="12" fill="#166534">叶绿体</text>
+  <text x="86" y="162" font-size="12" fill="#1d4ed8">液泡</text>
+</svg>

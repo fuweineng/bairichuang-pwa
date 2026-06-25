@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="Arial">
+  <text x="400" y="25" text-anchor="middle" font-size="18" fill="#333">三个相同小正方体拼成的L形物体，从左边看，形状是？</text>
+  <!-- L形立体示意（2D俯视） -->
+  <g transform="translate(60,50)">
+    <rect x="0" y="0" width="40" height="40" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="40" y="0" width="40" height="40" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="0" y="40" width="40" height="40" fill="none" stroke="black" stroke-width="2"/>
+    <text x="40" y="105" text-anchor="middle" font-size="14" fill="#555">L形物体</text>
+    <text x="40" y="125" text-anchor="middle" font-size="12" fill="#888">（俯视图）</text>
+  </g>
+  <!-- A: L形侧视 -->
+  <g transform="translate(250,50)">
+    <rect x="0" y="0" width="20" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="20" y="40" width="20" height="40" fill="none" stroke="black" stroke-width="2"/>
+    <text x="20" y="105" text-anchor="middle" font-size="16" font-weight="bold">A</text>
+  </g>
+  <!-- B: 方形 -->
+  <g transform="translate(420,50)">
+    <rect x="0" y="0" width="40" height="80" fill="none" stroke="black" stroke-width="2"/>
+    <text x="20" y="105" text-anchor="middle" font-size="16" font-weight="bold">B</text>
+  </g>
+  <!-- C: T形 -->
+  <g transform="translate(590,50)">
+    <rect x="0" y="0" width="40" height="30" fill="none" stroke="black" stroke-width="2"/>
+    <rect x="10" y="30" width="20" height="50" fill="none" stroke="black" stroke-width="2"/>
+    <text x="20" y="105" text-anchor="middle" font-size="16" font-weight="bold">C</text>
+  </g>
+</svg>
