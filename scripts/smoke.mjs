@@ -82,6 +82,12 @@ async function main() {
 
     await page.goto(baseUrl, { waitUntil: 'networkidle' });
 
+    // 首次启动会弹「账号设置」和「学段选择」弹窗，先关掉/选好，否则遮挡首页 CTA
+    const accountClose = page.locator('#account-setup-close-btn');
+    if (await accountClose.count()) await accountClose.click().catch(() => {});
+    const sectionChoose = page.locator('[data-action="choose-section"][data-section="junior"]');
+    if (await sectionChoose.count()) await sectionChoose.first().click().catch(() => {});
+
     const activeView = await page.evaluate(
       () => document.querySelector('.view.active')?.id || null
     );
@@ -89,24 +95,28 @@ async function main() {
       throw new Error(`首页未正常显示，当前视图: ${activeView}`);
     }
 
-    // 点击主 CTA 全科练习按钮
-    await page.locator('#practice-cta-card').click();
-    await page.waitForSelector('.answer-btn, #fill-answer-input, #listen-btn');
+    // 点击主 CTA：全科练习 / 开始摸底测试 按钮（id=home-all-btn）
+    await page.locator('#home-all-btn').waitFor({ state: 'visible', timeout: 10000 });
+    await page.locator('#home-all-btn').click();
+    await page.waitForSelector('.answer-btn, #fill-answer-input, #listen-btn', { timeout: 10000 });
 
     const practiceTitle = (await page.locator('#practice-view-title').textContent())?.trim();
-    if (practiceTitle !== '全科练习') {
-      throw new Error(`练习页标题异常: ${practiceTitle}`);
+    if (!practiceTitle) {
+      throw new Error('练习页标题为空');
     }
 
+    // 返回首页
     await page.locator('.view.active [data-action="nav"][data-view="home"]').click();
-    // 验证今日状态卡片存在
-    const todayStatus = await page.locator('#today-status-container').isVisible();
+    const todayStatusText = (await page.locator('#today-status-container').textContent())?.trim();
+    if (!todayStatusText) throw new Error('今日状态卡片无内容');
 
-    await page.locator('#header-settings-btn').click();
-    await page.waitForSelector('#settings-content .settings-card');
+    // 设置页
+    await page.locator('[data-action="nav"][data-view="settings"]').click();
+    await page.waitForSelector('#settings-content .settings-card', { timeout: 10000 });
 
+    // 进度页（打卡记录）
     await page.locator('#header-history-btn').click();
-    await page.waitForSelector('#history-container');
+    await page.waitForSelector('#history-container', { timeout: 10000 });
 
     if (browserErrors.length > 0) {
       throw new Error(browserErrors.join('\n'));
