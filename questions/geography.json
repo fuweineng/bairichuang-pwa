@@ -4209,5 +4209,346 @@
     "answer": "B",
     "grade": 9,
     "explanation": "A把东部高原、西部平原说反，C青藏高原非最小，D四川盆地非最大，均错，排除后只剩B正确。"
+  },
+  {
+    "id": "geo-kz-007",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球与地图"
+    ],
+    "question": "地球公转产生的地理现象是",
+    "options": [
+      {
+        "label": "A",
+        "text": "昼夜更替"
+      },
+      {
+        "label": "B",
+        "text": "时间差异"
+      },
+      {
+        "label": "C",
+        "text": "四季变化"
+      },
+      {
+        "label": "D",
+        "text": "太阳东升西落"
+      }
+    ],
+    "answer": "C",
+    "explanation": "公转产生四季变化五带划分"
+  },
+  {
+    "id": "geo-kz-008",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "黄河发源于",
+    "options": [
+      {
+        "label": "A",
+        "text": "唐古拉山"
+      },
+      {
+        "label": "B",
+        "text": "巴颜喀拉山"
+      },
+      {
+        "label": "C",
+        "text": "昆仑山"
+      },
+      {
+        "label": "D",
+        "text": "天山"
+      }
+    ],
+    "answer": "B",
+    "explanation": "黄河发源于巴颜喀拉山"
+  },
+  {
+    "id": "geo-kz-009",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "长江中下游地区的气候类型是",
+    "options": [
+      {
+        "label": "A",
+        "text": "温带季风气候"
+      },
+      {
+        "label": "B",
+        "text": "亚热带季风气候"
+      },
+      {
+        "label": "C",
+        "text": "温带大陆性气候"
+      },
+      {
+        "label": "D",
+        "text": "热带季风气候"
+      }
+    ],
+    "answer": "B",
+    "explanation": "长江中下游为亚热带季风气候"
+  },
+  {
+    "id": "geo-kz-010",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国少数民族最多的省级行政区是",
+    "options": [
+      {
+        "label": "A",
+        "text": "云南"
+      },
+      {
+        "label": "B",
+        "text": "贵州"
+      },
+      {
+        "label": "C",
+        "text": "广西"
+      },
+      {
+        "label": "D",
+        "text": "新疆"
+      }
+    ],
+    "answer": "A",
+    "explanation": "云南是我国少数民族最多的省份"
+  },
+  {
+    "id": "geo-kz-011",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "制约西北地区农业发展的主要自然因素是",
+    "options": [
+      {
+        "label": "A",
+        "text": "热量不足"
+      },
+      {
+        "label": "B",
+        "text": "水资源短缺"
+      },
+      {
+        "label": "C",
+        "text": "地形崎岖"
+      },
+      {
+        "label": "D",
+        "text": "土壤贫瘠"
+      }
+    ],
+    "answer": "B",
+    "explanation": "西北地区深居内陆降水少水资源短缺"
+  },
+  {
+    "id": "geo-kz-012",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "世界上面积最大的国家是",
+    "options": [
+      {
+        "label": "A",
+        "text": "加拿大"
+      },
+      {
+        "label": "B",
+        "text": "中国"
+      },
+      {
+        "label": "C",
+        "text": "俄罗斯"
+      },
+      {
+        "label": "D",
+        "text": "美国"
+      }
+    ],
+    "answer": "C",
+    "explanation": "俄罗斯面积约1700万km2最大"
+  },
+  {
+    "id": "geo-kz-013",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "连接太平洋和大西洋的海上通道是",
+    "options": [
+      {
+        "label": "A",
+        "text": "苏伊士运河"
+      },
+      {
+        "label": "B",
+        "text": "巴拿马运河"
+      },
+      {
+        "label": "C",
+        "text": "马六甲海峡"
+      },
+      {
+        "label": "D",
+        "text": "直布罗陀海峡"
+      }
+    ],
+    "answer": "B",
+    "explanation": "巴拿马运河沟通太平洋和大西洋"
+  },
+  {
+    "id": "geo-kz-014",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "撒哈拉沙漠以南非洲面临的主要问题是",
+    "options": [
+      {
+        "label": "A",
+        "text": "人口粮食环境"
+      },
+      {
+        "label": "B",
+        "text": "资源枯竭"
+      },
+      {
+        "label": "C",
+        "text": "海平面上升"
+      },
+      {
+        "label": "D",
+        "text": "火山地震"
+      }
+    ],
+    "answer": "A",
+    "explanation": "人口过快增长粮食短缺环境恶化三大问题"
+  },
+  {
+    "id": "geo-kz-015",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地图"
+    ],
+    "question": "比例尺1:1000000表示图上1cm代表实地距离",
+    "options": [
+      {
+        "label": "A",
+        "text": "1km"
+      },
+      {
+        "label": "B",
+        "text": "10km"
+      },
+      {
+        "label": "C",
+        "text": "100km"
+      },
+      {
+        "label": "D",
+        "text": "1000km"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1:1000000表示1cm=1000000cm=10km"
+  },
+  {
+    "id": "geo-kz-016",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "气候"
+    ],
+    "question": "温带海洋性气候的特征是",
+    "options": [
+      {
+        "label": "A",
+        "text": "终年高温多雨"
+      },
+      {
+        "label": "B",
+        "text": "夏季高温多雨冬季寒冷干燥"
+      },
+      {
+        "label": "C",
+        "text": "终年温和湿润"
+      },
+      {
+        "label": "D",
+        "text": "终年炎热干燥"
+      }
+    ],
+    "answer": "C",
+    "explanation": "温带海洋性气候终年温和湿润"
+  },
+  {
+    "id": "geo-kz-017",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球运动"
+    ],
+    "question": "太阳直射点南北移动的范围是",
+    "options": [
+      {
+        "label": "A",
+        "text": "南北回归线之间"
+      },
+      {
+        "label": "B",
+        "text": "南北极圈之间"
+      },
+      {
+        "label": "C",
+        "text": "赤道与回归线之间"
+      },
+      {
+        "label": "D",
+        "text": "全球"
+      }
+    ],
+    "answer": "A",
+    "explanation": "太阳直射点在南北回归线之间移动"
   }
 ]

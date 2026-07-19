@@ -5968,5 +5968,470 @@
     "answer": "B",
     "grade": 9,
     "explanation": "# 凸透镜成像问题解析\n\n## 一、已知条件\n- 焦距 f = 15 cm\n- 物距 u = 40 cm\n\n## 二、运用凸透镜成像公式计算像距\n\n凸透镜成像公式：$$\\frac{1}{u} + \\frac{1}{v} = \\frac{1}{f}$$\n\n代入已知数据：\n$$\\frac{1}{v} = \\frac{1}{f} - \\frac{1}{u} = \\frac{1}{15} - \\frac{1}{40}$$\n\n通分计算：\n$$\\frac{1}{v} = \\frac{8 - 3}{120} = \\frac{5}{120} = \\frac{1}{24}$$\n\n**解得像距：v = 24 cm**\n\n## 三、分析物距与焦距的关系\n\n比较 u 与 2f：\n- 2f = 2 × 15 cm = 30 cm\n- u = 40 cm > 30 cm，即 **u > 2f**\n\n## 四、逐一分析各选项\n\n### 选项A：正立、放大的虚像\n- **错误原因**：正立虚像只在 u < f 时出现，且虚像不可能是倒立的。此选项与计算结果不符。\n\n### 选项B：倒立、缩小的实像\n- **正确**。验证：u > 2f 时，符合\"倒立、缩小、实像\"的成像规律，且计算得 v = 24 cm，落在 (f, 2f) 区间内。\n\n### 选项C：正立、缩小的虚像\n- **错误原因**：正立必为虚像，但虚像不可能缩小。u < f 时虚像放大，此选项自相矛盾。\n\n### 选项D：倒立、放大的实像\n- **错误原因**：要成放大实像，需要 f < u < 2f，但此处 u = 40 cm > 2f = 30 cm，不满足放大实像的条件。\n\n## 五、结论\n\n物距 u = 40 cm > 2f = 30 cm，满足凸透镜成倒立、缩小实像的条件，且计算得到的像距 v = 24 cm 符合 f < v < 2f 的规律。\n\n**因此选 B**"
+  },
+  {
+    "id": "phy-kz-012",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "机械运动"
+    ],
+    "question": "下列长度单位换算关系正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "1km=100m"
+      },
+      {
+        "label": "B",
+        "text": "1m=10dm"
+      },
+      {
+        "label": "C",
+        "text": "1dm=100cm"
+      },
+      {
+        "label": "D",
+        "text": "1cm=10mm"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1m=10dm=100cm=1000mm"
+  },
+  {
+    "id": "phy-kz-013",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "力学"
+    ],
+    "question": "两个相互接触的物体发生相对运动时会产生",
+    "options": [
+      {
+        "label": "A",
+        "text": "重力"
+      },
+      {
+        "label": "B",
+        "text": "摩擦力"
+      },
+      {
+        "label": "C",
+        "text": "压力"
+      },
+      {
+        "label": "D",
+        "text": "浮力"
+      }
+    ],
+    "answer": "B",
+    "explanation": "接触面相对运动产生摩擦力"
+  },
+  {
+    "id": "phy-kz-014",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "力与运动"
+    ],
+    "question": "运动员踢出的足球在草地上滚动时慢慢停下是因为受到",
+    "options": [
+      {
+        "label": "A",
+        "text": "重力"
+      },
+      {
+        "label": "B",
+        "text": "支持力"
+      },
+      {
+        "label": "C",
+        "text": "摩擦力"
+      },
+      {
+        "label": "D",
+        "text": "动力"
+      }
+    ],
+    "answer": "C",
+    "explanation": "地面摩擦力使足球减速停下"
+  },
+  {
+    "id": "phy-kz-015",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "简单机械"
+    ],
+    "question": "使用动滑轮可以",
+    "options": [
+      {
+        "label": "A",
+        "text": "改变力的方向"
+      },
+      {
+        "label": "B",
+        "text": "省一半力"
+      },
+      {
+        "label": "C",
+        "text": "省功"
+      },
+      {
+        "label": "D",
+        "text": "费力"
+      }
+    ],
+    "answer": "B",
+    "explanation": "动滑轮省一半力但不能改变方向"
+  },
+  {
+    "id": "phy-kz-016",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "简单机械"
+    ],
+    "question": "使用滑轮组提升重物时，承担物重的绳子段数越多则",
+    "options": [
+      {
+        "label": "A",
+        "text": "越省力"
+      },
+      {
+        "label": "B",
+        "text": "越费力"
+      },
+      {
+        "label": "C",
+        "text": "速度越快"
+      },
+      {
+        "label": "D",
+        "text": "做功越多"
+      }
+    ],
+    "answer": "A",
+    "explanation": "n越大每段绳承受拉力越小越省力"
+  },
+  {
+    "id": "phy-kz-017",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "浮力"
+    ],
+    "question": "阿基米德原理指出浸在液体中的物体受到向上的浮力大小等于",
+    "options": [
+      {
+        "label": "A",
+        "text": "物体重力"
+      },
+      {
+        "label": "B",
+        "text": "排开液体所受的重力"
+      },
+      {
+        "label": "C",
+        "text": "物体体积"
+      },
+      {
+        "label": "D",
+        "text": "液体密度"
+      }
+    ],
+    "answer": "B",
+    "explanation": "浮力等于排开液体所受重力"
+  },
+  {
+    "id": "phy-kz-018",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "浮力"
+    ],
+    "question": "质量相同的铁块和木块放入水中，铁块下沉木块漂浮是因为",
+    "options": [
+      {
+        "label": "A",
+        "text": "铁块密度大于水"
+      },
+      {
+        "label": "B",
+        "text": "木块受浮力大"
+      },
+      {
+        "label": "C",
+        "text": "铁块不受浮力"
+      },
+      {
+        "label": "D",
+        "text": "木块重力小"
+      }
+    ],
+    "answer": "A",
+    "explanation": "铁密度大于水下沉，木密度小于水漂浮"
+  },
+  {
+    "id": "phy-kz-019",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "声现象"
+    ],
+    "question": "声音不能在哪种介质中传播",
+    "options": [
+      {
+        "label": "A",
+        "text": "固体"
+      },
+      {
+        "label": "B",
+        "text": "液体"
+      },
+      {
+        "label": "C",
+        "text": "气体"
+      },
+      {
+        "label": "D",
+        "text": "真空"
+      }
+    ],
+    "answer": "D",
+    "explanation": "声音传播需要介质，真空不能传声"
+  },
+  {
+    "id": "phy-kz-020",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "光现象"
+    ],
+    "question": "下列现象中属于光的折射的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "水中倒影"
+      },
+      {
+        "label": "B",
+        "text": "小孔成像"
+      },
+      {
+        "label": "C",
+        "text": "海市蜃楼"
+      },
+      {
+        "label": "D",
+        "text": "影子的形成"
+      }
+    ],
+    "answer": "C",
+    "explanation": "海市蜃楼是光折射形成的虚像"
+  },
+  {
+    "id": "phy-kz-021",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "透镜"
+    ],
+    "question": "凸透镜对光线有",
+    "options": [
+      {
+        "label": "A",
+        "text": "发散作用"
+      },
+      {
+        "label": "B",
+        "text": "会聚作用"
+      },
+      {
+        "label": "C",
+        "text": "平行作用"
+      },
+      {
+        "label": "D",
+        "text": "无作用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "凸透镜对光有会聚作用"
+  },
+  {
+    "id": "phy-kz-022",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "物态变化"
+    ],
+    "question": "冬天窗户玻璃上的冰花是水蒸气",
+    "options": [
+      {
+        "label": "A",
+        "text": "汽化"
+      },
+      {
+        "label": "B",
+        "text": "液化"
+      },
+      {
+        "label": "C",
+        "text": "升华"
+      },
+      {
+        "label": "D",
+        "text": "凝华"
+      }
+    ],
+    "answer": "D",
+    "explanation": "水蒸气直接变成固态冰花是凝华"
+  },
+  {
+    "id": "phy-kz-023",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "内能"
+    ],
+    "question": "改变物体内能的方式有做功和",
+    "options": [
+      {
+        "label": "A",
+        "text": "摩擦"
+      },
+      {
+        "label": "B",
+        "text": "热传递"
+      },
+      {
+        "label": "C",
+        "text": "做功"
+      },
+      {
+        "label": "D",
+        "text": "辐射"
+      }
+    ],
+    "answer": "B",
+    "explanation": "做功和热传递都能改变内能"
+  },
+  {
+    "id": "phy-kz-024",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "电学"
+    ],
+    "question": "形成持续电流的条件是电路中有电源且",
+    "options": [
+      {
+        "label": "A",
+        "text": "有开关"
+      },
+      {
+        "label": "B",
+        "text": "电路闭合"
+      },
+      {
+        "label": "C",
+        "text": "有用电器"
+      },
+      {
+        "label": "D",
+        "text": "电压为零"
+      }
+    ],
+    "answer": "B",
+    "explanation": "持续电流需要电源且电路闭合"
+  },
+  {
+    "id": "phy-kz-025",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "电功率"
+    ],
+    "question": "标有220V40W和220V100W的两盏灯串联在220V电路中发光较亮的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "40W的灯"
+      },
+      {
+        "label": "B",
+        "text": "100W的灯"
+      },
+      {
+        "label": "C",
+        "text": "一样亮"
+      },
+      {
+        "label": "D",
+        "text": "都不亮"
+      }
+    ],
+    "answer": "A",
+    "explanation": "串联时电阻大的分压多功率大40W电阻大更亮"
+  },
+  {
+    "id": "phy-kz-026",
+    "type": "choice",
+    "subject": "physics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "磁现象"
+    ],
+    "question": "指南针能够指南北是因为受到",
+    "options": [
+      {
+        "label": "A",
+        "text": "重力"
+      },
+      {
+        "label": "B",
+        "text": "地磁场作用"
+      },
+      {
+        "label": "C",
+        "text": "月球引力"
+      },
+      {
+        "label": "D",
+        "text": "风力"
+      }
+    ],
+    "answer": "B",
+    "explanation": "地球周围存在磁场指南针受其作用"
   }
 ]

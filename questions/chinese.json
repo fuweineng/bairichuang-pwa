@@ -12151,5 +12151,315 @@
     ],
     "answer": "B",
     "explanation": "杜甫被誉为诗圣，李白为诗仙"
+  },
+  {
+    "id": "chn-kz-011",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "修辞"
+    ],
+    "question": "下列句子使用比喻修辞的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "他像他爸爸"
+      },
+      {
+        "label": "B",
+        "text": "月亮像银盘"
+      },
+      {
+        "label": "C",
+        "text": "他似乎明白了"
+      },
+      {
+        "label": "D",
+        "text": "这本书和他的一样"
+      }
+    ],
+    "answer": "B",
+    "explanation": "把月亮比作银盘是比喻"
+  },
+  {
+    "id": "chn-kz-012",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "屠自后断其股中股的意思是",
+    "options": [
+      {
+        "label": "A",
+        "text": "屁股"
+      },
+      {
+        "label": "B",
+        "text": "大腿"
+      },
+      {
+        "label": "C",
+        "text": "脚"
+      },
+      {
+        "label": "D",
+        "text": "身体"
+      }
+    ],
+    "answer": "B",
+    "explanation": "股在古文中指大腿"
+  },
+  {
+    "id": "chn-kz-013",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "现代文阅读"
+    ],
+    "question": "记叙文的六要素不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "时间"
+      },
+      {
+        "label": "B",
+        "text": "地点"
+      },
+      {
+        "label": "C",
+        "text": "人物"
+      },
+      {
+        "label": "D",
+        "text": "修辞手法"
+      }
+    ],
+    "answer": "D",
+    "explanation": "记叙要素为时间地点人物起因经过结果"
+  },
+  {
+    "id": "chn-kz-014",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "说明文"
+    ],
+    "question": "说明文中举例子作用的说明方法是",
+    "options": [
+      {
+        "label": "A",
+        "text": "使说明更具体更有说服力"
+      },
+      {
+        "label": "B",
+        "text": "使说明更生动"
+      },
+      {
+        "label": "C",
+        "text": "使说明更准确"
+      },
+      {
+        "label": "D",
+        "text": "使说明更条理"
+      }
+    ],
+    "answer": "A",
+    "explanation": "举例子使说明具体有说服力"
+  },
+  {
+    "id": "chn-kz-015",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列句子标点使用正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "他说:你来"
+      },
+      {
+        "label": "B",
+        "text": "他说:你来。"
+      },
+      {
+        "label": "C",
+        "text": "他去北京、上海、广州"
+      },
+      {
+        "label": "D",
+        "text": "你去不去?"
+      }
+    ],
+    "answer": "C",
+    "explanation": "并列词语用顿号分隔正确"
+  },
+  {
+    "id": "chn-kz-016",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "词语"
+    ],
+    "question": "下列加点字读音与其他三项不同的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "差别"
+      },
+      {
+        "label": "B",
+        "text": "差错"
+      },
+      {
+        "label": "C",
+        "text": "出差"
+      },
+      {
+        "label": "D",
+        "text": "差距"
+      }
+    ],
+    "answer": "C",
+    "explanation": "出差中差读chāi，其他读chā"
+  },
+  {
+    "id": "chn-kz-017",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "议论文"
+    ],
+    "question": "议论文三要素是",
+    "options": [
+      {
+        "label": "A",
+        "text": "论点论据论证"
+      },
+      {
+        "label": "B",
+        "text": "开头主体结尾"
+      },
+      {
+        "label": "C",
+        "text": "立论驳论"
+      },
+      {
+        "label": "D",
+        "text": "举例引用对比"
+      }
+    ],
+    "answer": "A",
+    "explanation": "议论文三要素论点论据论证"
+  },
+  {
+    "id": "chn-kz-018",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "鲁迅的散文集是",
+    "options": [
+      {
+        "label": "A",
+        "text": "朝花夕拾"
+      },
+      {
+        "label": "B",
+        "text": "呐喊"
+      },
+      {
+        "label": "C",
+        "text": "彷徨"
+      },
+      {
+        "label": "D",
+        "text": "野草"
+      }
+    ],
+    "answer": "A",
+    "explanation": "朝花夕拾是散文集，呐喊彷徨是小说集"
+  },
+  {
+    "id": "chn-kz-019",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "文言文"
+    ],
+    "question": "醉翁之意不在酒中醉翁指",
+    "options": [
+      {
+        "label": "A",
+        "text": "欧阳修"
+      },
+      {
+        "label": "B",
+        "text": "苏轼"
+      },
+      {
+        "label": "C",
+        "text": "柳宗元"
+      },
+      {
+        "label": "D",
+        "text": "范仲淹"
+      }
+    ],
+    "answer": "A",
+    "explanation": "醉翁是欧阳修的自称"
+  },
+  {
+    "id": "chn-kz-020",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "成语"
+    ],
+    "question": "下列成语出自历史故事的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "守株待兔"
+      },
+      {
+        "label": "B",
+        "text": "完璧归赵"
+      },
+      {
+        "label": "C",
+        "text": "画蛇添足"
+      },
+      {
+        "label": "D",
+        "text": "拔苗助长"
+      }
+    ],
+    "answer": "B",
+    "explanation": "完璧归赵出自蔺相如完璧归赵的历史故事"
   }
 ]

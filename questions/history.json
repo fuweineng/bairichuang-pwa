@@ -4783,5 +4783,315 @@
     ],
     "answer": "A",
     "explanation": "\"一国两制\"是邓小平为解决台湾问题而提出的创造性构想，后成功用于香港、澳门回归"
+  },
+  {
+    "id": "hist-kz-011",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "造纸术的发明者是我国古代的",
+    "options": [
+      {
+        "label": "A",
+        "text": "蔡伦"
+      },
+      {
+        "label": "B",
+        "text": "毕昇"
+      },
+      {
+        "label": "C",
+        "text": "张衡"
+      },
+      {
+        "label": "D",
+        "text": "祖冲之"
+      }
+    ],
+    "answer": "A",
+    "explanation": "蔡伦改进造纸术"
+  },
+  {
+    "id": "hist-kz-012",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "我国有文字可考的历史从哪个朝代开始",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏朝"
+      },
+      {
+        "label": "B",
+        "text": "商朝"
+      },
+      {
+        "label": "C",
+        "text": "周朝"
+      },
+      {
+        "label": "D",
+        "text": "秦朝"
+      }
+    ],
+    "answer": "B",
+    "explanation": "商朝甲骨文是我国最早成熟文字"
+  },
+  {
+    "id": "hist-kz-013",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "科举制正式确立于",
+    "options": [
+      {
+        "label": "A",
+        "text": "隋朝"
+      },
+      {
+        "label": "B",
+        "text": "唐朝"
+      },
+      {
+        "label": "C",
+        "text": "宋朝"
+      },
+      {
+        "label": "D",
+        "text": "明朝"
+      }
+    ],
+    "answer": "A",
+    "explanation": "隋炀帝设进士科科举制确立"
+  },
+  {
+    "id": "hist-kz-014",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "郑和下西洋最远到达",
+    "options": [
+      {
+        "label": "A",
+        "text": "印度洋"
+      },
+      {
+        "label": "B",
+        "text": "非洲东海岸和红海沿岸"
+      },
+      {
+        "label": "C",
+        "text": "欧洲"
+      },
+      {
+        "label": "D",
+        "text": "美洲"
+      }
+    ],
+    "answer": "B",
+    "explanation": "郑和船队最远到达非洲东海岸和红海沿岸"
+  },
+  {
+    "id": "hist-kz-015",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "戊戌变法的领导者是",
+    "options": [
+      {
+        "label": "A",
+        "text": "洪秀全"
+      },
+      {
+        "label": "B",
+        "text": "康有为梁启超"
+      },
+      {
+        "label": "C",
+        "text": "孙中山"
+      },
+      {
+        "label": "D",
+        "text": "李鸿章"
+      }
+    ],
+    "answer": "B",
+    "explanation": "康有为梁启超领导戊戌变法"
+  },
+  {
+    "id": "hist-kz-016",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "洋务运动的根本目的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "学习西方技术"
+      },
+      {
+        "label": "B",
+        "text": "维护清朝统治"
+      },
+      {
+        "label": "C",
+        "text": "发展资本主义"
+      },
+      {
+        "label": "D",
+        "text": "抵抗外来侵略"
+      }
+    ],
+    "answer": "B",
+    "explanation": "洋务运动根本目的是维护清朝封建统治"
+  },
+  {
+    "id": "hist-kz-017",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "蒸汽机的改良者瓦特是哪国人",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "英国"
+      },
+      {
+        "label": "C",
+        "text": "法国"
+      },
+      {
+        "label": "D",
+        "text": "德国"
+      }
+    ],
+    "answer": "B",
+    "explanation": "瓦特是英国人"
+  },
+  {
+    "id": "hist-kz-018",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第二次工业革命的重要标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "蒸汽机广泛应用"
+      },
+      {
+        "label": "B",
+        "text": "电力广泛应用"
+      },
+      {
+        "label": "C",
+        "text": "计算机出现"
+      },
+      {
+        "label": "D",
+        "text": "核能利用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "第二次工业革命以电力广泛应用为标志"
+  },
+  {
+    "id": "hist-kz-019",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第二次世界大战的转折点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "莫斯科保卫战"
+      },
+      {
+        "label": "B",
+        "text": "斯大林格勒战役"
+      },
+      {
+        "label": "C",
+        "text": "诺曼底登陆"
+      },
+      {
+        "label": "D",
+        "text": "珍珠港事件"
+      }
+    ],
+    "answer": "B",
+    "explanation": "斯大林格勒战役是二战转折点"
+  },
+  {
+    "id": "hist-kz-020",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "我国第一颗原子弹爆炸成功是在",
+    "options": [
+      {
+        "label": "A",
+        "text": "1964年"
+      },
+      {
+        "label": "B",
+        "text": "1966年"
+      },
+      {
+        "label": "C",
+        "text": "1970年"
+      },
+      {
+        "label": "D",
+        "text": "1956年"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1964年10月16日第一颗原子弹爆炸成功"
   }
 ]

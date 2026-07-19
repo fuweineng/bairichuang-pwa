@@ -3533,5 +3533,284 @@
     ],
     "answer": "A",
     "explanation": "依法纳税是公民的基本义务，BCD是权利"
+  },
+  {
+    "id": "pol-kz-009",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "下列属于高雅生活情趣的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "沉迷网络游戏"
+      },
+      {
+        "label": "B",
+        "text": "阅读经典名著"
+      },
+      {
+        "label": "C",
+        "text": "盲目追星"
+      },
+      {
+        "label": "D",
+        "text": "通宵看电视"
+      }
+    ],
+    "answer": "B",
+    "explanation": "阅读经典是高雅生活情趣"
+  },
+  {
+    "id": "pol-kz-010",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育"
+    ],
+    "question": "法律区别于道德等行为规范的最主要特征是",
+    "options": [
+      {
+        "label": "A",
+        "text": "由国家制定或认可"
+      },
+      {
+        "label": "B",
+        "text": "靠社会舆论约束"
+      },
+      {
+        "label": "C",
+        "text": "由国家强制力保证实施"
+      },
+      {
+        "label": "D",
+        "text": "调整人际关系"
+      }
+    ],
+    "answer": "C",
+    "explanation": "法律靠国家强制力保证实施"
+  },
+  {
+    "id": "pol-kz-011",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "我国现阶段的基本经济制度是",
+    "options": [
+      {
+        "label": "A",
+        "text": "单一公有制"
+      },
+      {
+        "label": "B",
+        "text": "公有制为主体多种所有制经济共同发展"
+      },
+      {
+        "label": "C",
+        "text": "私有制"
+      },
+      {
+        "label": "D",
+        "text": "集体所有制"
+      }
+    ],
+    "answer": "B",
+    "explanation": "公有制为主体多种所有制经济共同发展"
+  },
+  {
+    "id": "pol-kz-012",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "科学发展观的第一要义是",
+    "options": [
+      {
+        "label": "A",
+        "text": "以人为本"
+      },
+      {
+        "label": "B",
+        "text": "发展"
+      },
+      {
+        "label": "C",
+        "text": "全面协调可持续"
+      },
+      {
+        "label": "D",
+        "text": "统筹兼顾"
+      }
+    ],
+    "answer": "B",
+    "explanation": "科学发展观第一要义是发展"
+  },
+  {
+    "id": "pol-kz-013",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "诚信的基本要求是",
+    "options": [
+      {
+        "label": "A",
+        "text": "对人守信对事负责"
+      },
+      {
+        "label": "B",
+        "text": "说老实话"
+      },
+      {
+        "label": "C",
+        "text": "不虚假"
+      },
+      {
+        "label": "D",
+        "text": "言行一致"
+      }
+    ],
+    "answer": "A",
+    "explanation": "诚信基本要求是对人守信对事负责"
+  },
+  {
+    "id": "pol-kz-014",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "受教育既是公民的权利又是公民的",
+    "options": [
+      {
+        "label": "A",
+        "text": "权力"
+      },
+      {
+        "label": "B",
+        "text": "义务"
+      },
+      {
+        "label": "C",
+        "text": "责任"
+      },
+      {
+        "label": "D",
+        "text": "自由"
+      }
+    ],
+    "answer": "B",
+    "explanation": "受教育既是权利又是义务"
+  },
+  {
+    "id": "pol-kz-015",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "我国处理民族关系的基本原则不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族平等"
+      },
+      {
+        "label": "B",
+        "text": "民族团结"
+      },
+      {
+        "label": "C",
+        "text": "各民族共同繁荣"
+      },
+      {
+        "label": "D",
+        "text": "民族融合"
+      }
+    ],
+    "answer": "D",
+    "explanation": "基本原则为平等团结共同繁荣"
+  },
+  {
+    "id": "pol-kz-016",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "挫折对人产生的影响是",
+    "options": [
+      {
+        "label": "A",
+        "text": "只有消极作用"
+      },
+      {
+        "label": "B",
+        "text": "只有积极作用"
+      },
+      {
+        "label": "C",
+        "text": "既有积极作用也有消极作用"
+      },
+      {
+        "label": "D",
+        "text": "没有影响"
+      }
+    ],
+    "answer": "C",
+    "explanation": "挫折影响具有两面性"
+  },
+  {
+    "id": "pol-kz-017",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育"
+    ],
+    "question": "下列属于违法行为的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "违反校纪"
+      },
+      {
+        "label": "B",
+        "text": "闯红灯"
+      },
+      {
+        "label": "C",
+        "text": "迟到"
+      },
+      {
+        "label": "D",
+        "text": "不写作业"
+      }
+    ],
+    "answer": "B",
+    "explanation": "闯红灯违反交通法规是违法行为"
   }
 ]

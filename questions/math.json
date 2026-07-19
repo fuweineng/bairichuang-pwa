@@ -9414,5 +9414,315 @@
     ],
     "answer": "B",
     "explanation": "过一二四象限k小于0 b大于0"
+  },
+  {
+    "id": "math-kz-027",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "有理数"
+    ],
+    "question": "在-3，0，2，-1这四个数中最小的数是",
+    "options": [
+      {
+        "label": "A",
+        "text": "-3"
+      },
+      {
+        "label": "B",
+        "text": "0"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "-1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "负数小于0和正数，-3最小"
+  },
+  {
+    "id": "math-kz-028",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "代数式"
+    ],
+    "question": "当a=2，b=3时，代数式2a-b的值是",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "7"
+      },
+      {
+        "label": "C",
+        "text": "-1"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "2×2-3=1"
+  },
+  {
+    "id": "math-kz-029",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "整式"
+    ],
+    "question": "单项式-3x²y的系数和次数分别是",
+    "options": [
+      {
+        "label": "A",
+        "text": "-3和3"
+      },
+      {
+        "label": "B",
+        "text": "3和3"
+      },
+      {
+        "label": "C",
+        "text": "-3和2"
+      },
+      {
+        "label": "D",
+        "text": "3和2"
+      }
+    ],
+    "answer": "A",
+    "explanation": "系数为-3次数为2+1=3"
+  },
+  {
+    "id": "math-kz-030",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "方程"
+    ],
+    "question": "方程3x+1=2x-4的解是",
+    "options": [
+      {
+        "label": "A",
+        "text": "x=5"
+      },
+      {
+        "label": "B",
+        "text": "x=-5"
+      },
+      {
+        "label": "C",
+        "text": "x=3"
+      },
+      {
+        "label": "D",
+        "text": "x=-3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "3x-2x=-4-1，x=-5"
+  },
+  {
+    "id": "math-kz-031",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "二元一次方程组"
+    ],
+    "question": "方程组x+y=5，x-y=1的解是",
+    "options": [
+      {
+        "label": "A",
+        "text": "x=3,y=2"
+      },
+      {
+        "label": "B",
+        "text": "x=2,y=3"
+      },
+      {
+        "label": "C",
+        "text": "x=4,y=1"
+      },
+      {
+        "label": "D",
+        "text": "x=1,y=4"
+      }
+    ],
+    "answer": "A",
+    "explanation": "两式相加2x=6得x=3，y=2"
+  },
+  {
+    "id": "math-kz-032",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "统计"
+    ],
+    "question": "数据1,2,2,3,4的平均数是",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "2.4"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2.5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "(1+2+2+3+4)/5=2.4"
+  },
+  {
+    "id": "math-kz-033",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "概率"
+    ],
+    "question": "掷一枚均匀的骰子，向上一面的点数为偶数的概率是",
+    "options": [
+      {
+        "label": "A",
+        "text": "1/6"
+      },
+      {
+        "label": "B",
+        "text": "1/2"
+      },
+      {
+        "label": "C",
+        "text": "1/3"
+      },
+      {
+        "label": "D",
+        "text": "2/3"
+      }
+    ],
+    "answer": "B",
+    "explanation": "偶数2/4/6共3个，P=3/6=1/2"
+  },
+  {
+    "id": "math-kz-034",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "圆"
+    ],
+    "question": "两圆半径分别为3和5，圆心距为7，则两圆的位置关系是",
+    "options": [
+      {
+        "label": "A",
+        "text": "外离"
+      },
+      {
+        "label": "B",
+        "text": "外切"
+      },
+      {
+        "label": "C",
+        "text": "相交"
+      },
+      {
+        "label": "D",
+        "text": "内切"
+      }
+    ],
+    "answer": "C",
+    "explanation": "R-r=2<d=7<R+r=8，两圆相交"
+  },
+  {
+    "id": "math-kz-035",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "二次函数"
+    ],
+    "question": "抛物线y=x²-2x-3与x轴的交点坐标是",
+    "options": [
+      {
+        "label": "A",
+        "text": "(-1,0)(3,0)"
+      },
+      {
+        "label": "B",
+        "text": "(1,0)(-3,0)"
+      },
+      {
+        "label": "C",
+        "text": "(-1,0)(-3,0)"
+      },
+      {
+        "label": "D",
+        "text": "(1,0)(3,0)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "令y=0解得x=3或x=-1"
+  },
+  {
+    "id": "math-kz-036",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "相似"
+    ],
+    "question": "在△ABC中，DE∥BC，AD:DB=1:2，则△ADE与△ABC的面积比为",
+    "options": [
+      {
+        "label": "A",
+        "text": "1:2"
+      },
+      {
+        "label": "B",
+        "text": "1:3"
+      },
+      {
+        "label": "C",
+        "text": "1:4"
+      },
+      {
+        "label": "D",
+        "text": "1:9"
+      }
+    ],
+    "answer": "C",
+    "explanation": "相似比1:3，面积比1:9"
   }
 ]
