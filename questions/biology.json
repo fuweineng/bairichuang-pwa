@@ -2677,7 +2677,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（间期）。"
   },
   {
     "id": "biology-221",
@@ -2850,7 +2851,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（主动脉）。"
   },
   {
     "id": "biology-227",

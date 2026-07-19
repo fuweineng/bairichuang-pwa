@@ -1,998 +1,259 @@
 [
   {
-    "id": "history-senior-1",
+    "id": "history-001",
     "type": "choice",
-    "question": "从夏、商到西周，先秦政治制度的主要变化是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "从部落联盟的血缘统治转向封建分封制"
-      },
-      {
-        "label": "B",
-        "text": "从世袭君主制转向选举制"
-      },
-      {
-        "label": "C",
-        "text": "从分封制转向郡县制"
-      },
-      {
-        "label": "D",
-        "text": "从礼乐制度转向法家制度"
-      }
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "朝代"
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "先秦政治制度演变",
-    "explanation": "解析：在夏、商时期，政治组织主要以部落联盟和血缘关系为纽带；西周实行分封制，将土地分封给贵族，以稳固统治，形成封建制度。选项A准确概括了这一历史演变。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-2",
-    "type": "choice",
-    "question": "秦始皇统一六国后，为加强中央集权，实行了哪项制度？",
+    "question": "我国历史上第一个统一的中央集权的封建国家是：",
     "options": [
       {
         "label": "A",
-        "text": "实行分封制，封贵族为诸侯"
+        "text": "夏朝"
       },
       {
         "label": "B",
-        "text": "推行郡县制，废除分封"
+        "text": "商朝"
       },
       {
         "label": "C",
-        "text": "继续沿用周朝的礼乐制度"
+        "text": "秦朝"
       },
       {
         "label": "D",
-        "text": "允许地方自治，仅保留少量税赋"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "秦朝中央集权制度",
-    "explanation": "解析：秦始皇在统一后，为了削弱地方贵族势力，巩固统治，采用了郡县制取代原有的分封制，建立了从中央到地方的垂直管理体系，实现了真正的中央集权。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-3",
-    "type": "choice",
-    "question": "以下关于郡县制与分封制的比较，正确的是",
-    "options": [
-      {
-        "label": "A",
-        "text": "郡县制下，地方官员由皇帝直接任命并可随时撤换，而分封制下诸侯世袭并拥有相对独立的军政权力"
-      },
-      {
-        "label": "B",
-        "text": "郡县制与分封制在权力结构上没有区别，均实现了地方高度自治"
-      },
-      {
-        "label": "C",
-        "text": "郡县制只在秦朝实施，西汉以后被废除"
-      },
-      {
-        "label": "D",
-        "text": "分封制的核心是郡县划分"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "郡县制与分封制比较",
-    "explanation": "解析：郡县制通过皇帝直接任命和调动地方官员，实现对地方的直接控制，防止诸侯割据；分封制则通过世袭诸侯行使相对独立的军政权力，导致地方割据。选项A正确描述了两者在官员任命和权力来源上的根本区别；选项B、C、D均与史实不符。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-4",
-    "type": "choice",
-    "question": "汉代刺史制度的主要职能是什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "统领地方军队进行防御"
-      },
-      {
-        "label": "B",
-        "text": "监督地方官员并向朝廷报告其政绩"
-      },
-      {
-        "label": "C",
-        "text": "负责征收赋税并管理国家财政"
-      },
-      {
-        "label": "D",
-        "text": "主管地方的教育与科举考试"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "汉朝刺史制度",
-    "explanation": "解析：汉代设立的刺史主要负责监督地方官员的政务，并向朝廷报告，以加强中央集权，防止地方割据。其他选项如统领军队、征收赋税、主管教育科举并非刺史的主要职能。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-5",
-    "type": "choice",
-    "question": "在唐朝的三省六部制中，负责审议并批准中书省起草的诏令的机构是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "中书省负责起草诏令。"
-      },
-      {
-        "label": "B",
-        "text": "门下省负责审议并批准诏令。"
-      },
-      {
-        "label": "C",
-        "text": "尚书省负责执行诏令。"
-      },
-      {
-        "label": "D",
-        "text": "御史台负责监察百官。"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "唐朝三省六部制",
-    "explanation": "解析：唐朝的三省六部制中，中书省负责起草诏令，门下省负责审议并批准，尚书省负责执行，御史台则负责监察百官。因此正确答案是B。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-6",
-    "type": "choice",
-    "question": "科举制度在以下哪个朝代进入全面完善的阶段？",
-    "options": [
-      {
-        "label": "A",
-        "text": "隋代时首次出现科举制度的雏形。"
-      },
-      {
-        "label": "B",
-        "text": "唐代对科举制度进行初步改革，扩大考生范围。"
-      },
-      {
-        "label": "C",
-        "text": "宋代对科举制度进行系统化完善，形成三级考试制度。"
-      },
-      {
-        "label": "D",
-        "text": "元代对科举制度进行大幅削减，恢复世袭官职。"
+        "text": "汉朝"
       }
     ],
     "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "科举制度形成与完善",
-    "explanation": "解析：科举制度在隋代出现雏形，唐代进行初步改革，但真正的系统化、完善化出现在宋代。宋代建立了乡试、会试、殿试三级考试制度，并采用糊名等防作弊措施，使科举制度趋于成熟并在全国范围内广泛实施。因此，选项C正确。",
-    "subject": "history"
+    "explanation": "秦朝(公元前221年)是我国历史上第一个统一的多民族中央集权封建国家。"
   },
   {
-    "id": "history-senior-7",
+    "id": "history-002",
     "type": "choice",
-    "question": "明代内阁的主要职能是（ ）。",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争爆发的年份是：",
     "options": [
       {
         "label": "A",
-        "text": "负责制定国家法律"
+        "text": "1839年"
       },
       {
         "label": "B",
-        "text": "协助皇帝处理政务并起草诏令"
+        "text": "1840年"
       },
       {
         "label": "C",
-        "text": "统领六部，执行全国行政事务"
+        "text": "1841年"
       },
       {
         "label": "D",
-        "text": "负责监察百官，弹劾官员"
+        "text": "1856年"
       }
     ],
     "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "明朝内阁制度",
-    "explanation": "解析：明代内阁设立于永乐年间，成员为皇帝亲信，主要职责是协助皇帝批阅奏章、起草诏令、审议政务，而不是制定法律、统领六部或监察百官。因此正确选项为B。",
-    "subject": "history"
+    "explanation": "鸦片战争爆发于1840年，英国以林则徐虎门销烟为借口发动侵略战争。"
   },
   {
-    "id": "history-senior-8",
-    "type": "choice",
-    "question": "以下关于清朝军机处的说法，哪项最符合史实？",
-    "options": [
-      {
-        "label": "A",
-        "text": "军机处是负责审理皇室内部司法案件的专门机构。"
-      },
-      {
-        "label": "B",
-        "text": "军机处在雍正年间设立，最初是为处理西北战事而设立的临时机构。"
-      },
-      {
-        "label": "C",
-        "text": "军机处是清廷的最高行政机构，负责全国政务的决策。"
-      },
-      {
-        "label": "D",
-        "text": "康熙皇帝于1670年设立军机处，以削弱内阁的权力。"
-      }
+    "id": "history-003",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "洋务运动"
     ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "清朝军机处",
-    "explanation": "解析：军机处于1729年（雍正七年）设立，最初是为应对西北战事而设立的临时机构，负责呈报军情、传达皇帝谕旨，并非审理司法案件，也非最高行政机构，更不是康熙皇帝设立。",
-    "subject": "history"
+    "question": "洋务运动的指导思想是'______，师夷长技以自强'。",
+    "options": [],
+    "answer": "中学为体",
+    "explanation": "洋务运动以'中学为体，西学为用'为指导思想。",
+    "acceptAnswers": [
+      "中学为体"
+    ]
   },
   {
-    "id": "history-senior-9",
+    "id": "history-004",
     "type": "choice",
-    "question": "唐代实行的两税法的主要内容是（ ）。",
-    "options": [
-      {
-        "label": "A",
-        "text": "取消土地税，仅对人口征收人口税"
-      },
-      {
-        "label": "B",
-        "text": "将租、庸、调三项税收合并为夏季和秋季两次征收"
-      },
-      {
-        "label": "C",
-        "text": "只对商人征收商业税，废除土地税"
-      },
-      {
-        "label": "D",
-        "text": "实行按亩计征的单一土地税"
-      }
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "辛亥革命"
     ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "中国古代赋税制度",
-    "explanation": "解析：唐代在780年推行两税法，保留了原有的租（土地税）、庸（劳役）和调（产品税）三种税收的基本功能，但将其合并为夏季和秋季两次征收，形成“夏税”与“秋税”，以适应农业收获的季节性。选项B正确描述了这一点。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-10",
-    "type": "choice",
-    "question": "在雅典的直接民主制度中，下列哪项不是其核心特征？",
+    "question": "辛亥革命的历史意义不包括：",
     "options": [
       {
         "label": "A",
-        "text": "公民大会是最高决策机构"
+        "text": "推翻了清朝统治"
       },
       {
         "label": "B",
-        "text": "官职大多数通过抽签产生"
+        "text": "结束了我国两千多年的封建制度"
       },
       {
         "label": "C",
-        "text": "只有成年男性公民拥有投票权"
+        "text": "建立了资产阶级共和国"
       },
       {
         "label": "D",
-        "text": "所有居民包括奴隶均享有投票权"
+        "text": "使中国真正成为独立国家"
       }
     ],
     "answer": "D",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "雅典民主政治特点",
-    "explanation": "解析：雅典的直接民主强调公民直接参与政治，官职多以抽签方式产生，投票权仅限成年男性公民，奴隶和外国人没有投票权，因此选项D不符合实际。",
-    "subject": "history"
+    "explanation": "辛亥革命推翻了清朝统治，但中国半殖民地半封建社会的性质没有改变。"
   },
   {
-    "id": "history-senior-11",
+    "id": "history-005",
     "type": "choice",
-    "question": "以下关于罗马法发展演变的叙述，哪项是正确的？",
-    "options": [
-      {
-        "label": "A",
-        "text": "《十二铜表法》是罗马最早的成文法，颁布于公元前5世纪中叶，奠定了罗马法的基础。"
-      },
-      {
-        "label": "B",
-        "text": "罗马法在帝政时期已完全停止发展，所有法律均由皇帝口谕决定。"
-      },
-      {
-        "label": "C",
-        "text": "《民法大全》仅包括《法典》与《法学阶梯》，未收录其他法典。"
-      },
-      {
-        "label": "D",
-        "text": "罗马法从《十二铜表法》直接过渡到《查士丁尼法典》，中间没有其他重要法典。"
-      }
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界史",
+      "工业革命"
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "罗马法发展演变",
-    "explanation": "解析：A选项正确，《十二铜表法》是罗马第一部成文法，出现在公元前5世纪，为后世罗马法奠定基础；B错误，帝政时期罗马法仍在发展，如皇帝敕令和法典；C错误，《民法大全》（Corpus Iuris Civilis）包括《法典》《法学阶梯》《学说汇纂》和《新律》，并非仅两部；D错误，罗马法经历了从《十二铜表法》到后来的《最高敕令》《狄奥多西法典》等多次法典编纂，才最终形成《查士丁尼法典》。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-12",
-    "type": "choice",
-    "question": "1688年光荣革命后，英国君主立宪制正式确立的标志是？",
+    "question": "工业革命首先发生在哪个国家？",
     "options": [
       {
         "label": "A",
-        "text": "《权利法案》在1689年通过，限制王权"
+        "text": "法国"
       },
       {
         "label": "B",
-        "text": "《大宪章》在1215年签署，确认贵族特权"
+        "text": "德国"
       },
       {
         "label": "C",
-        "text": "《议会法案》在1911年通过，扩大议会权力"
+        "text": "英国"
       },
       {
         "label": "D",
-        "text": "《宪法法案》在1701年通过，确立王位继承规则"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "英国君主立宪制确立",
-    "explanation": "解析：1688年光荣革命后，议会通过了《权利法案》（1689），正式以法律形式限制王权，确立君主立宪制的基本框架，因而A为正确选项。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-13",
-    "type": "choice",
-    "question": "在美国联邦制形成过程中，以下哪项最能说明其核心特征？",
-    "options": [
-      {
-        "label": "A",
-        "text": "大妥协创立了两院制国会，众议院按人口比例代表，参议院每州平等两名议员。"
-      },
-      {
-        "label": "B",
-        "text": "《邦联条例》赋予中央政府强大的权力，以实现全国统一管理。"
-      },
-      {
-        "label": "C",
-        "text": "《联邦党人文集》主张通过强调州权来争取宪法批准。"
-      },
-      {
-        "label": "D",
-        "text": "《权利法案》限制了联邦政府的权力，从而确立了邦联制度。"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "美国联邦制形成",
-    "explanation": "解析：本题考查美国联邦制形成的关键事件。大妥协（Great Compromise）在1787年制宪会议上达成，确立了国会的两院结构——众议院按各州人口比例分配席位，参议院每州两名议员，保证了小州与大州之间的权力平衡，奠定了美国联邦制的基本框架。其他选项均与历史事实不符：《邦联条例》时期中央政府软弱；《联邦党人文集》重点是推动宪法批准而非强调州权；《权利法案》是对联邦权力的限制，但不构成邦联制度。因此正确答案为A。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-14",
-    "type": "choice",
-    "question": "以下关于法国第三共和国宪法通过年份的说法，哪项是正确的？",
-    "options": [
-      {
-        "label": "A",
-        "text": "宪法于 1870 年普法战争结束后立即通过。"
-      },
-      {
-        "label": "B",
-        "text": "宪法于 1871 年的《凡尔赛条约》后通过。"
-      },
-      {
-        "label": "C",
-        "text": "宪法于 1875 年通过的三部宪法性法律，正式确立议会共和制。"
-      },
-      {
-        "label": "D",
-        "text": "宪法于 1880 年在巴黎世博会上正式公布。"
+        "text": "美国"
       }
     ],
     "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "法国共和制确立",
-    "explanation": "解析：1870 年普法战争结束后，法兰西第二帝国崩溃，第三共和国宣告成立，但当时尚未有完整的宪法。直到 1875 年，法国议会通过了《宪法性法律》三部，确立了议会共和制的基本框架，故正确答案为 C。",
-    "subject": "history"
+    "explanation": "第一次工业革命首先在英国发生(18世纪60年代)，以蒸汽机的发明和应用为标志。"
   },
   {
-    "id": "history-senior-15",
+    "id": "history-006",
     "type": "choice",
-    "question": "1871年《德意志帝国宪法》规定，皇帝对以下哪项拥有最终决定权？",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "赤壁之战"
+    ],
+    "question": "赤壁之战发生在哪两个集团之间：",
     "options": [
       {
         "label": "A",
-        "text": "任免首相（宰相）"
+        "text": "曹操 vs 刘备孙权"
       },
       {
         "label": "B",
-        "text": "制定帝国法律"
+        "text": "刘备 vs 曹操"
       },
       {
         "label": "C",
-        "text": "选举帝国议会成员"
+        "text": "孙权 vs 曹操"
       },
       {
         "label": "D",
-        "text": "批准联邦预算"
+        "text": "袁绍 vs 曹操"
       }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "德意志帝国宪法",
-    "explanation": "解析：根据《德意志帝国宪法》，皇帝是帝国的最高元首，拥有对宰相（首相）的任免权；其他选项如制定法律属于帝国议会和联邦参议院，选举议会成员采用男性普选，预算批准则由联邦参议院负责。",
-    "subject": "history"
+    "explanation": "赤壁之战是曹操与刘备、孙权联军在长江赤壁一带进行的一场大战。"
   },
   {
-    "id": "history-senior-16",
+    "id": "history-007",
     "type": "choice",
-    "question": "以下哪一项最能体现古希腊人文精神的核心内涵？",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "三国鼎立"
+    ],
+    "question": "三国鼎立局面正式形成的标志是：",
     "options": [
       {
         "label": "A",
-        "text": "苏格拉底强调“认识你自己”，主张通过理性反省实现人的自我提升。"
+        "text": "曹操称魏王"
       },
       {
         "label": "B",
-        "text": "柏拉图提出“理想国”，认为城邦的治理应当由哲学王主导，强调集体利益。"
+        "text": "刘备称汉中王"
       },
       {
         "label": "C",
-        "text": "亚里士多德系统化了形式逻辑，专注于自然科学的客观规律。"
+        "text": "孙权称吴王"
       },
       {
         "label": "D",
-        "text": "亚历山大大帝通过军事扩张将希腊文化传播至东方，强调帝国的强大。"
+        "text": "曹丕废汉献帝"
+      }
+    ],
+    "answer": "D",
+    "explanation": "220年曹丕废汉献帝建立魏国，221年刘备建立蜀汉，229年孙权建立东吴，三国鼎立正式形成。"
+  },
+  {
+    "id": "history-008",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "科举制度"
+    ],
+    "question": "科举制度正式创立的朝代是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "隋朝"
+      },
+      {
+        "label": "B",
+        "text": "唐朝"
+      },
+      {
+        "label": "C",
+        "text": "宋朝"
+      },
+      {
+        "label": "D",
+        "text": "明朝"
       }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "古希腊人文精神内涵",
-    "explanation": "解析：古希腊人文精神强调以人为中心，重视理性思考和个人自我反省。苏格拉底的‘认识你自己’正是这种精神的典型体现，因此A为正确答案。B、C、D分别侧重于政治、逻辑学和军事扩张，未直接体现人文精神的核心。",
-    "subject": "history"
+    "explanation": "科举制度创立于隋炀帝大业元年（605年），唐朝继承并完善。"
   },
   {
-    "id": "history-senior-17",
+    "id": "history-009",
     "type": "choice",
-    "question": "文艺复兴的核心思想强调对人和自然的关注，以下哪项最能体现文艺复兴的核心思想？",
-    "options": [
-      {
-        "label": "A",
-        "text": "强调神权高于一切，以宗教为中心的世界观"
-      },
-      {
-        "label": "B",
-        "text": "主张回归古希腊罗马文化，重视人的价值和理性"
-      },
-      {
-        "label": "C",
-        "text": "主张巩固封建制度，维持严格的等级秩序"
-      },
-      {
-        "label": "D",
-        "text": "强调集体主义，抑制个人才能的发挥"
-      }
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "贞观之治"
     ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "文艺复兴核心思想",
-    "explanation": "解析：文艺复兴是一场以人文主义为核心的思想文化运动，强调人的尊严、个性和理性，主张通过学习古希腊罗马的文化来重新认识人本身。选项B准确描述了这种回归古典、重视人的价值的思想，而其他选项分别体现了宗教专制、封建保守和集体主义，均与文艺复兴的核心思想不符。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-18",
-    "type": "choice",
-    "question": "以下关于宗教改革主要内容的描述，正确的是（　　）",
+    "question": "贞观之治出现在哪位皇帝统治时期：",
     "options": [
       {
         "label": "A",
-        "text": "强调信徒通过行善和守律获得救赎"
-      },
-      {
-        "label": "B",
-        "text": "主张信徒个人可以直接阅读《圣经》并与上帝建立个人关系"
-      },
-      {
-        "label": "C",
-        "text": "坚持教皇在教会事务中的最高权威"
-      },
-      {
-        "label": "D",
-        "text": "要求保留所有天主教的宗教仪式"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "宗教改革主要内容",
-    "explanation": "解析：宗教改革的核心主张包括“因信称义”“唯独圣经”“信徒皆祭司”。选项B体现了“唯独圣经”和“信徒皆祭司”的精神，即信徒可以自行阅读《圣经》并直接与上帝建立关系；而A、C、D均为天主教传统或与改革精神相悖。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-19",
-    "type": "choice",
-    "question": "下列哪位启蒙思想家明确提出“人是生而自由平等的”这一观点？",
-    "options": [
-      {
-        "label": "A",
-        "text": "伏尔泰主张言论自由和宗教宽容，强调法律下的自由"
-      },
-      {
-        "label": "B",
-        "text": "孟德斯鸠提出三权分立，主张政治权力的制衡"
-      },
-      {
-        "label": "C",
-        "text": "卢梭在《社会契约论》中提出“人是生而自由平等的”，强调自然状态中人的自由与道德"
-      },
-      {
-        "label": "D",
-        "text": "狄德罗主编《百科全书》，倡导科学知识和理性教育"
-      }
-    ],
-    "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "启蒙运动思想家观点",
-    "explanation": "解析：卢梭在其著作《社会契约论》中提出“人是生而自由平等的”，认为在自然状态下人拥有天赋的自由，只有在社会契约中才形成对自由的限制。其他选项的思想家虽也强调自由，但其核心观点与题干不符。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-20",
-    "type": "choice",
-    "question": "以下哪项最能概括启蒙运动对近代西方政治制度的历史意义？",
-    "options": [
-      {
-        "label": "A",
-        "text": "巩固了封建君主专制制度的统治基础"
-      },
-      {
-        "label": "B",
-        "text": "推动了理性、科学和民主思想的传播，为后来的革命提供了思想基础"
-      },
-      {
-        "label": "C",
-        "text": "使教会权威重新成为政治决策的主导力量"
-      },
-      {
-        "label": "D",
-        "text": "强化了贵族特权并扩大了封建庄园经济"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "启蒙运动历史意义",
-    "explanation": "解析：启蒙运动强调理性、科学和人的自然权利，推动了自由、平等、民主思想的广泛传播，这些思想为后来的美国独立战争、法国大革命等提供了理论依据，深刻影响了近代西方政治制度的形成。因此，正确答案是B。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-21",
-    "type": "choice",
-    "question": "以下关于英国工业革命前提条件的说法，正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "只有发明蒸汽机才能引发工业革命"
-      },
-      {
-        "label": "B",
-        "text": "圈地运动导致农村劳动力大量涌入城市，为工厂提供劳动力"
-      },
-      {
-        "label": "C",
-        "text": "英国没有对外殖民扩张，仅依赖本土资源"
-      },
-      {
-        "label": "D",
-        "text": "工业革命的前提是政府对工业的严格监管"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "英国工业革命前提",
-    "explanation": "解析：本题考查英国工业革命的前提条件。圈地运动（Enclosure Movement）把大量小块土地合并为大规模农场，导致农民失去土地，涌入城市寻找工作，形成了工业所需的劳动力市场；同时农业革命提高了粮食产量，支撑了城市人口的增长。选项A、C、D均不符合历史事实：蒸汽机的发明是工业革命过程中的关键技术创新，而非前提；英国通过殖民扩张获取原料和市场，是重要的前提之一；政府对工业的监管相对宽松，主要是市场自发推动。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-22",
-    "type": "choice",
-    "question": "1769年，詹姆斯·瓦特在哪项关键改进使蒸汽机效率大幅提升，为工业革命提供了可靠动力？",
-    "options": [
-      {
-        "label": "A",
-        "text": "发明分离式冷凝器，使蒸汽在单独容器中冷却，显著提升效率"
-      },
-      {
-        "label": "B",
-        "text": "引入高压锅炉，使蒸汽压力更高，提升输出功率"
-      },
-      {
-        "label": "C",
-        "text": "改进旋转式阀门，实现更平稳的往复运动"
-      },
-      {
-        "label": "D",
-        "text": "设计双缸往复式发动机，解决单缸的振动问题"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "工业革命重大发明",
-    "explanation": "解析：1769年瓦特对蒸汽机的关键改进是发明分离式冷凝器，将蒸汽冷却过程与气缸分离，避免了气缸的热损失，使蒸汽机的热效率从约1%提升至约5%‑8%，从而实现了工业生产中的大规模动力供应，推动了纺织、采矿等行业机械化进程。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-23",
-    "type": "choice",
-    "question": "工业革命对英国社会结构产生的最显著影响是什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "城市人口快速增长，农村人口大幅下降"
-      },
-      {
-        "label": "B",
-        "text": "农业技术提升导致农村人口增加"
-      },
-      {
-        "label": "C",
-        "text": "贵族政治权力进一步增强"
-      },
-      {
-        "label": "D",
-        "text": "手工业完全被机器取代，手工艺人消失"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "工业革命社会影响",
-    "explanation": "解析：工业革命后，机器生产和工厂制度需要大量劳动力，促使大量农村劳动力迁移到城市，导致城市人口快速增长，农村人口相对下降，这成为当时最显著的社会影响。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-24",
-    "type": "choice",
-    "question": "下列关于马克思主义诞生的说法，哪项是正确的？",
-    "options": [
-      {
-        "label": "A",
-        "text": "《共产党宣言》于1848年在伦敦出版，标志着马克思主义的诞生。"
-      },
-      {
-        "label": "B",
-        "text": "《资本论》第一卷于1848年出版，是马克思主义诞生的标志。"
-      },
-      {
-        "label": "C",
-        "text": "马克思主义主要由恩格斯独立创立，马克思仅参与后期修改。"
-      },
-      {
-        "label": "D",
-        "text": "马克思主义于19世纪70年代在俄国得到正式确立。"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "马克思主义诞生",
-    "explanation": "解析：《共产党宣言》于1848年2月在伦敦匿名出版，首次系统阐述科学社会主义基本原理，标志马克思主义的诞生；《资本论》第一卷出版于1867年，晚于宣言，不能视为马克思主义诞生的标志；马克思主义是马克思和恩格斯共同创立的，并非恩格斯单独完成；俄国马克思主义的正式确立是在19世纪末的布尔什维克运动中，晚于马克思主义诞生的时间。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-25",
-    "type": "choice",
-    "question": "巴黎公社的历史意义主要体现在以下哪一点？",
-    "options": [
-      {
-        "label": "A",
-        "text": "它是无产阶级首次尝试建立自己的政权"
-      },
-      {
-        "label": "B",
-        "text": "它直接导致了资本主义制度的彻底崩溃"
-      },
-      {
-        "label": "C",
-        "text": "它证明了暴力革命在任何情况下都不可行"
-      },
-      {
-        "label": "D",
-        "text": "它对后来的社会主义运动没有产生任何影响"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "巴黎公社历史意义",
-    "explanation": "解析：巴黎公社虽然在短期内被镇压，但它是工人阶级第一次尝试建立自己的政权，展示了无产阶级专政的雏形，对后来的国际社会主义运动产生了深远影响。因此，B、C、D的说法均不符合历史事实。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-26",
-    "type": "choice",
-    "question": "下列关于俄国十月革命意义的表述，哪项最准确？",
-    "options": [
-      {
-        "label": "A",
-        "text": "它标志着世界上第一个社会主义国家的建立。"
-      },
-      {
-        "label": "B",
-        "text": "它使俄国结束内战并实现永久和平。"
-      },
-      {
-        "label": "C",
-        "text": "它直接导致第一次世界大战的结束。"
-      },
-      {
-        "label": "D",
-        "text": "它使俄国恢复了资本主义制度。"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "俄国十月革命意义",
-    "explanation": "解析：十月革命于1917年推翻了临时政府，建立了以布尔什维克党为核心的苏维埃政权，随后宣布成立苏维埃俄国，成为世界上第一个社会主义国家。因此选项A正确。选项B错误，十月革命后随即爆发内战；选项C错误，十月革命并未直接结束一战；选项D错误，十月革命彻底摧毁了资本主义制度。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-27",
-    "type": "choice",
-    "question": "以下哪项政策最能体现美国在冷战初期对苏联的遏制战略，标志着两极格局的形成？",
-    "options": [
-      {
-        "label": "A",
-        "text": "杜鲁门主义是美国在1947年对苏联及其盟国实行的遏制政策"
-      },
-      {
-        "label": "B",
-        "text": "马歇尔计划是美国在1948年向欧洲提供经济援助的计划"
-      },
-      {
-        "label": "C",
-        "text": "艾森豪威尔主义是美国在20世纪50年代提出的对外政策"
-      },
-      {
-        "label": "D",
-        "text": "罗斯福新政是美国在大萧条时期的国内改革措施"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "两极格局形成",
-    "explanation": "解析：杜鲁门主义于1947年3月12日由美国总统杜鲁门在国会演说中提出，明确表示美国将遏制任何国家的共产主义扩张，标志着美国对苏联的遏制政策正式形成，是两极格局形成的关键节点。其他选项虽与冷战有关，但并非直接体现美国对苏联的遏制战略。难度适中，考查学生对冷战初期美国对外政策的理解。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-28",
-    "type": "choice",
-    "question": "1962年古巴导弹危机期间，苏联为对抗美国在土耳其部署的导弹，采取了什么主要行动？",
-    "options": [
-      {
-        "label": "A",
-        "text": "在古巴部署中程弹道导弹"
-      },
-      {
-        "label": "B",
-        "text": "撤回在古巴的全部导弹"
-      },
-      {
-        "label": "C",
-        "text": "向美国提供经济援助"
-      },
-      {
-        "label": "D",
-        "text": "在联合国提出对美国的制裁草案"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "美苏冷战表现",
-    "explanation": "解析：本题考查美苏冷战期间的具体表现之一——古巴导弹危机。1962年，苏联为对抗美国在土耳其部署的导弹以及保护古巴，向古巴秘密部署了中程弹道导弹，以提升其核威慑能力。选项A正确描述了苏联的主要行动；选项B、C、D均不符合历史事实。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-29",
-    "type": "choice",
-    "question": "不结盟运动正式成立的标志性事件是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "1955年亚非会议的召开"
-      },
-      {
-        "label": "B",
-        "text": "1961年在贝尔格莱德举行的第一次不结盟国家首脑会议"
-      },
-      {
-        "label": "C",
-        "text": "1973年第四次中东战争后形成的石油禁运"
-      },
-      {
-        "label": "D",
-        "text": "1991年苏联解体后世界格局的重组"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "不结盟运动兴起",
-    "explanation": "解析：不结盟运动于1961年在南斯拉夫贝尔格莱德召开第一次不结盟国家首脑会议，正式宣布成立，这被视为该运动兴起的标志性事件。选项A的亚非会议（万隆会议）虽为不结盟思想的萌芽，但并非正式成立；选项C的石油禁运和选项D的苏联解体与不结盟运动的正式成立无关。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-30",
-    "type": "choice",
-    "question": "以下哪项最能体现20世纪90年代后期至21世纪初的世界多极化趋势？",
-    "options": [
-      {
-        "label": "A",
-        "text": "美国的政治和经济影响力继续扩大"
-      },
-      {
-        "label": "B",
-        "text": "欧盟通过《欧盟宪法条约》（后改为《里斯本条约》）加强政治一体化"
-      },
-      {
-        "label": "C",
-        "text": "俄罗斯在苏联解体后迅速恢复超级大国地位"
-      },
-      {
-        "label": "D",
-        "text": "日本经济重新崛起并在亚太地区主导"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "世界多极化趋势",
-    "explanation": "解析：冷战结束后，单极化的美国优势逐渐受到挑战，欧盟通过《里斯本条约》等举措实现了更紧密的政治一体化，在国际事务中发出统一声音，体现了多极化趋势。其他选项要么是美国单极优势的延续，要么不符合当时的实际发展情况。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-31",
-    "type": "choice",
-    "question": "1937年9月，平型关战役的主要指挥官是（ ）。",
-    "options": [
-      {
-        "label": "A",
-        "text": "朱德"
-      },
-      {
-        "label": "B",
-        "text": "林彪"
-      },
-      {
-        "label": "C",
-        "text": "刘伯承"
-      },
-      {
-        "label": "D",
-        "text": "贺龙"
-      }
-    ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "抗日战争重要战役",
-    "explanation": "解析：平型关战役是八路军115师在山西平型关对日军的伏击战，具体指挥由师长林彪负责，故答案为B。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-32",
-    "type": "choice",
-    "question": "以下关于解放战争三大战役的时间顺序，正确的是哪一项？",
-    "options": [
-      {
-        "label": "A",
-        "text": "辽沈战役 → 淮海战役 → 平津战役"
-      },
-      {
-        "label": "B",
-        "text": "淮海战役 → 辽沈战役 → 平津战役"
-      },
-      {
-        "label": "C",
-        "text": "平津战役 → 辽沈战役 → 淮海战役"
-      },
-      {
-        "label": "D",
-        "text": "辽沈战役 → 平津战役 → 淮海战役"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "解放战争三大战役",
-    "explanation": "解析：辽沈战役于1948年9月至11月进行，是三大战役中最早发起的；随后于1948年11月至1949年1月展开淮海战役；平津战役则在1948年12月至1949年1月进行，排在淮海战役之后。因此正确的时间顺序是辽沈战役→淮海战役→平津战役，对应选项A。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-33",
-    "type": "choice",
-    "question": "以下关于新中国成立意义的表述，哪一项是正确的？",
-    "options": [
-      {
-        "label": "A",
-        "text": "标志着中国结束了半殖民地半封建社会，实现了民族独立和人民解放"
-      },
-      {
-        "label": "B",
-        "text": "标志着中国进入了社会主义初级阶段，实现了生产资料公有化"
-      },
-      {
-        "label": "C",
-        "text": "标志着中国实现了完全的市场经济体制，加入了全球化进程"
-      },
-      {
-        "label": "D",
-        "text": "标志着中国完成了全盘西化的社会制度转型"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "新中国成立意义",
-    "explanation": "解析：新中国成立标志着中华民族结束了自鸦片战争以来的半殖民地半封建社会，获得了民族独立和人民解放，这是新中国成立最根本的历史意义。其他选项均不符合历史实际。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-34",
-    "type": "choice",
-    "question": "科举制度正式确立于以下哪个朝代？",
-    "options": [
-      {
-        "label": "A",
-        "text": "秦"
-      },
-      {
-        "label": "B",
-        "text": "汉"
-      },
-      {
-        "label": "C",
-        "text": "隋"
-      },
-      {
-        "label": "D",
-        "text": "唐"
-      }
-    ],
-    "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "科举制度形成与完善",
-    "explanation": "科举制度最早由隋炀帝于605年设立，虽在唐代得到完善，但正式创立是在隋朝。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-35",
-    "type": "choice",
-    "question": "下列哪位皇帝在位期间，实行“开元之治”，国家政治清明，经济繁荣？",
-    "options": [
-      {
-        "label": "A",
-        "text": "汉武帝"
+        "text": "唐高祖"
       },
       {
         "label": "B",
@@ -1004,194 +265,307 @@
       },
       {
         "label": "D",
-        "text": "宋太祖"
-      }
-    ],
-    "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "唐朝盛世",
-    "explanation": "唐玄宗（712‑756年在位）早期开创开元之治，政治稳定，经济繁荣。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-36",
-    "type": "choice",
-    "question": "秦统一六国后，采取了统一度量衡、书同文、车同轨等措施，最重要的立法成果是哪一部法律？",
-    "options": [
-      {
-        "label": "A",
-        "text": "《秦律》"
-      },
-      {
-        "label": "B",
-        "text": "《九章律》"
-      },
-      {
-        "label": "C",
-        "text": "《永乐大典》"
-      },
-      {
-        "label": "D",
-        "text": "《律令》"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "秦朝中央集权制度",
-    "explanation": "秦始皇统一后制定了《秦律》，统一法律制度，为后世法律奠定基础。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-37",
-    "type": "choice",
-    "question": "“三国”中的魏国是由谁建立的？",
-    "options": [
-      {
-        "label": "A",
-        "text": "曹操"
-      },
-      {
-        "label": "B",
-        "text": "曹丕"
-      },
-      {
-        "label": "C",
-        "text": "刘备"
-      },
-      {
-        "label": "D",
-        "text": "孙权"
+        "text": "武则天"
       }
     ],
     "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "魏晋南北朝",
-    "explanation": "魏国于220年由曹丕正式称帝建立，曹操是其奠基人但未称帝。",
-    "subject": "history"
+    "explanation": "唐太宗李世民统治时期，政治清明，经济发展，史称'贞观之治'。"
   },
   {
-    "id": "history-senior-38",
+    "id": "history-010",
     "type": "choice",
-    "question": "唐代对外交流的重要港口是（），当时是东西方文化交流的中心之一。",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "鉴真东渡"
+    ],
+    "question": "鉴真东渡的目的是：",
     "options": [
       {
         "label": "A",
-        "text": "广州"
+        "text": "传播佛教"
       },
       {
         "label": "B",
-        "text": "宁波"
+        "text": "学习佛法"
       },
       {
         "label": "C",
-        "text": "扬州"
+        "text": "贸易往来"
       },
       {
         "label": "D",
-        "text": "泉州"
+        "text": "考察日本"
       }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "唐代对外交流",
-    "explanation": "唐代广州是对外贸易的关键港口，设有市舶司管理海外贸易，促进了东西方文化交汇。",
-    "subject": "history"
+    "explanation": "唐朝高僧鉴真东渡日本，传播佛教和文化，被日本尊为'文化之父'。"
   },
   {
-    "id": "history-senior-39",
+    "id": "history-011",
     "type": "choice",
-    "question": "宋代的“交子”是世界上最早的什么？",
-    "options": [
-      {
-        "label": "A",
-        "text": "纸币"
-      },
-      {
-        "label": "B",
-        "text": "金属货币"
-      },
-      {
-        "label": "C",
-        "text": "银行存款"
-      },
-      {
-        "label": "D",
-        "text": "信用票据"
-      }
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "活字印刷"
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "宋代商品经济发展",
-    "explanation": "交子是北宋发行的官方纸币，被视为世界上最早的政府发行纸币。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-40",
-    "type": "choice",
-    "question": "清朝实行“摊丁入亩”政策的目的主要是？",
+    "question": "活字印刷术的发明者是：",
     "options": [
       {
         "label": "A",
-        "text": "加强中央集权"
+        "text": "蔡伦"
       },
       {
         "label": "B",
-        "text": "调整税收"
+        "text": "毕昇"
       },
       {
         "label": "C",
-        "text": "促进人口流动"
+        "text": "张衡"
       },
       {
         "label": "D",
-        "text": "抑制商业"
+        "text": "李时珍"
       }
     ],
     "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "清朝赋税制度",
-    "explanation": "“摊丁入亩”是清代土地税制改革，把丁税并入田赋，简化税收结构。",
-    "subject": "history"
+    "explanation": "北宋毕昇发明活字印刷术，开创了印刷史的新纪元。"
   },
   {
-    "id": "history-senior-41",
+    "id": "history-012",
     "type": "choice",
-    "question": "郑和下西洋的主要目的不包括以下哪项？",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "明朝专制"
+    ],
+    "question": "明朝废除丞相制度的是：",
     "options": [
       {
         "label": "A",
-        "text": "宣示明朝国威"
+        "text": "明太祖朱元璋"
       },
       {
         "label": "B",
-        "text": "开展海外贸易"
+        "text": "明成祖朱棣"
       },
       {
         "label": "C",
-        "text": "寻求海外宗教传播"
+        "text": "明神宗"
       },
       {
         "label": "D",
-        "text": "收集海外情报"
+        "text": "建文帝"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1380年，明太祖朱元璋以谋反罪诛杀胡惟庸，废除丞相制度，六部直接对皇帝负责。"
+  },
+  {
+    "id": "history-013",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史",
+      "郑和下西洋"
+    ],
+    "question": "郑和下西洋最远到达：",
+    "options": [
+      {
+        "label": "A",
+        "text": "印度洋"
+      },
+      {
+        "label": "B",
+        "text": "阿拉伯半岛"
+      },
+      {
+        "label": "C",
+        "text": "非洲东海岸"
+      },
+      {
+        "label": "D",
+        "text": "欧洲"
       }
     ],
     "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "明朝对外交流",
-    "explanation": "郑和下西洋主要目的是宣扬国威、发展朝贡贸易以及搜集情报，而非传播宗教。",
-    "subject": "history"
+    "explanation": "郑和七次下西洋，最远到达非洲东海岸和红海沿岸。"
   },
   {
-    "id": "history-senior-42",
+    "id": "history-014",
     "type": "choice",
-    "question": "《清明上河图》描绘的是哪个城市的市井生活？",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争爆发的导火线是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "虎门销烟"
+      },
+      {
+        "label": "B",
+        "text": "英国商船走私鸦片"
+      },
+      {
+        "label": "C",
+        "text": "中英贸易纠纷"
+      },
+      {
+        "label": "D",
+        "text": "林则徐被撤职"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1839年林则徐在虎门销毁鸦片，成为鸦片战争的直接导火线。"
+  },
+  {
+    "id": "history-015",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "甲午战争"
+    ],
+    "question": "甲午战争中，北洋水师全军覆没的战役是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "丰岛海战"
+      },
+      {
+        "label": "B",
+        "text": "黄海海战"
+      },
+      {
+        "label": "C",
+        "text": "威海卫战役"
+      },
+      {
+        "label": "D",
+        "text": "辽东半岛战役"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1895年，日军围攻威海卫，北洋水师在刘公岛全军覆没。"
+  },
+  {
+    "id": "history-021",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "春秋时期，第一个称霸的诸侯国是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "齐国"
+      },
+      {
+        "label": "B",
+        "text": "晋国"
+      },
+      {
+        "label": "C",
+        "text": "楚国"
+      },
+      {
+        "label": "D",
+        "text": "秦国"
+      }
+    ],
+    "answer": "A",
+    "explanation": "齐桓公在管仲辅佐下，率先称霸，是春秋五霸之首"
+  },
+  {
+    "id": "history-022",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "商鞅变法发生在哪个诸侯国？",
+    "options": [
+      {
+        "label": "A",
+        "text": "韩国"
+      },
+      {
+        "label": "B",
+        "text": "楚国"
+      },
+      {
+        "label": "C",
+        "text": "秦国"
+      },
+      {
+        "label": "D",
+        "text": "齐国"
+      }
+    ],
+    "answer": "C",
+    "explanation": "商鞅在秦国实行变法，奠定了秦国统一六国的基础"
+  },
+  {
+    "id": "history-023",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "秦始皇统一六国后，采用的货币是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "刀币"
+      },
+      {
+        "label": "B",
+        "text": "圆形方孔钱"
+      },
+      {
+        "label": "C",
+        "text": "布币"
+      },
+      {
+        "label": "D",
+        "text": "蚁鼻钱"
+      }
+    ],
+    "answer": "B",
+    "explanation": "秦始皇统一度量衡的同时，也统一了货币，圆形方孔钱成为此后两千多年的主要货币形式"
+  },
+  {
+    "id": "history-024",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "丝绸之路的起点是：",
     "options": [
       {
         "label": "A",
@@ -1199,28 +573,611 @@
       },
       {
         "label": "B",
-        "text": "开封"
-      },
-      {
-        "label": "C",
-        "text": "扬州"
-      },
-      {
-        "label": "D",
         "text": "洛阳"
+      },
+      {
+        "label": "C",
+        "text": "敦煌"
+      },
+      {
+        "label": "D",
+        "text": "新疆"
+      }
+    ],
+    "answer": "A",
+    "explanation": "丝绸之路以长安（今西安）为起点，经甘肃、新疆，到达中亚和欧洲"
+  },
+  {
+    "id": "history-025",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "东汉末年，曹操以少胜多击败袁绍的战役是_____。",
+    "answer": "官渡之战",
+    "explanation": "官渡之战（200年）是曹操与袁绍的决战，曹操以少胜多，奠定了统一北方的基础",
+    "acceptAnswers": [
+      "官渡之战"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-026",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "《史记》的作者是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "司马光"
+      },
+      {
+        "label": "B",
+        "text": "司马迁"
+      },
+      {
+        "label": "C",
+        "text": "班固"
+      },
+      {
+        "label": "D",
+        "text": "陈寿"
       }
     ],
     "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "宋代城市生活",
-    "explanation": "《清明上河图》以北宋都城开封为背景，细致刻画了城市的繁华景象。",
-    "subject": "history"
+    "explanation": "司马迁，西汉史学家，著有《史记》是中国第一部纪传体通史"
   },
   {
-    "id": "history-senior-43",
+    "id": "history-027",
     "type": "choice",
-    "question": "第一次工业革命的发源地是（）",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "三国鼎立局面最终形成的标志是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "赤壁之战"
+      },
+      {
+        "label": "B",
+        "text": "曹丕称帝"
+      },
+      {
+        "label": "C",
+        "text": "刘备称帝"
+      },
+      {
+        "label": "D",
+        "text": "孙权称帝"
+      }
+    ],
+    "answer": "B",
+    "explanation": "220年曹丕废汉献帝建立魏国，221年刘备建立蜀汉，229年孙权建立东吴，三国鼎立正式形成"
+  },
+  {
+    "id": "history-028",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "世界上现存最早的有明确时间记载的印刷品是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "《诗经》"
+      },
+      {
+        "label": "B",
+        "text": "《金刚经》"
+      },
+      {
+        "label": "C",
+        "text": "《史记》"
+      },
+      {
+        "label": "D",
+        "text": "《资治通鉴》"
+      }
+    ],
+    "answer": "B",
+    "explanation": "868年印刷的《金刚经》是现存最早有明确日期的雕版印刷品，现藏于英国大英博物馆"
+  },
+  {
+    "id": "history-029",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "唐朝由盛转衰的转折点是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "安史之乱"
+      },
+      {
+        "label": "B",
+        "text": "黄巢起义"
+      },
+      {
+        "label": "C",
+        "text": "玄武门之变"
+      },
+      {
+        "label": "D",
+        "text": "武则天称帝"
+      }
+    ],
+    "answer": "A",
+    "explanation": "安史之乱（755-763年）是唐朝由盛转衰的转折点，此后唐朝元气大伤"
+  },
+  {
+    "id": "history-030",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "宋代著名的科学家沈括所著的科技著作是《_____》。",
+    "answer": "梦溪笔谈",
+    "explanation": "沈括的《梦溪笔谈》被英国科学史家李约瑟称为中国科学史上的里程碑",
+    "acceptAnswers": [
+      "梦溪笔谈"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-031",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "明代开始科举考试采用的文体是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "八股文"
+      },
+      {
+        "label": "B",
+        "text": "策论"
+      },
+      {
+        "label": "C",
+        "text": "诗赋"
+      },
+      {
+        "label": "D",
+        "text": "经义"
+      }
+    ],
+    "answer": "A",
+    "explanation": "明太祖朱元璋开始推行八股文取士，束缚了知识分子的思想"
+  },
+  {
+    "id": "history-032",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "近代中国第一个不平等条约是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "《南京条约》"
+      },
+      {
+        "label": "B",
+        "text": "《马关条约》"
+      },
+      {
+        "label": "C",
+        "text": "《辛丑条约》"
+      },
+      {
+        "label": "D",
+        "text": "《北京条约》"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1842年《南京条约》是中国近代第一个不平等条约，被迫开放五口通商，割让香港岛"
+  },
+  {
+    "id": "history-033",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "洋务运动的代表人物不包括：",
+    "options": [
+      {
+        "label": "A",
+        "text": "曾国藩"
+      },
+      {
+        "label": "B",
+        "text": "李鸿章"
+      },
+      {
+        "label": "C",
+        "text": "康有为"
+      },
+      {
+        "label": "D",
+        "text": "左宗棠"
+      }
+    ],
+    "answer": "C",
+    "explanation": "洋务派代表：曾国藩、李鸿章、左宗棠、张之洞；康有为是维新变法代表"
+  },
+  {
+    "id": "history-034",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "甲午战争后，清政府被迫签订的不平等条约是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "《南京条约》"
+      },
+      {
+        "label": "B",
+        "text": "《天津条约》"
+      },
+      {
+        "label": "C",
+        "text": "《马关条约》"
+      },
+      {
+        "label": "D",
+        "text": "《辛丑条约》"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1895年《马关条约》割让台湾，赔款白银二亿两，开放沙市、重庆等为商埠"
+  },
+  {
+    "id": "history-035",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "中国近代史的开端是_____战争。",
+    "answer": "鸦片",
+    "explanation": "1840年鸦片战争是中国近代史的开端，中国社会性质开始沦为半殖民地半封建社会",
+    "acceptAnswers": [
+      "鸦片"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-036",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "戊戌变法的领导人是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "林则徐、魏源"
+      },
+      {
+        "label": "B",
+        "text": "康有为、梁启超"
+      },
+      {
+        "label": "C",
+        "text": "孙中山、黄兴"
+      },
+      {
+        "label": "D",
+        "text": "陈独秀、李大钊"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1898年康有为、梁启超等发动戊戌变法，又称百日维新，仅维持103天便失败"
+  },
+  {
+    "id": "history-037",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "辛亥革命爆发的标志是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "同盟会成立"
+      },
+      {
+        "label": "B",
+        "text": "武昌起义"
+      },
+      {
+        "label": "C",
+        "text": "中华民国成立"
+      },
+      {
+        "label": "D",
+        "text": "清帝退位"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1911年10月10日武昌起义是辛亥革命的标志，成立了湖北军政府"
+  },
+  {
+    "id": "history-038",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "新文化运动的两面旗帜是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "民主与科学"
+      },
+      {
+        "label": "B",
+        "text": "自由与平等"
+      },
+      {
+        "label": "C",
+        "text": "富强与民主"
+      },
+      {
+        "label": "D",
+        "text": "科学与富强"
+      }
+    ],
+    "answer": "A",
+    "explanation": "新文化运动以民主（Democracy）和科学（Science）为旗帜，简称德先生和赛先生"
+  },
+  {
+    "id": "history-039",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界古代史"
+    ],
+    "question": "古代埃及文明产生的地理环境是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "两河流域"
+      },
+      {
+        "label": "B",
+        "text": "尼罗河流域"
+      },
+      {
+        "label": "C",
+        "text": "印度河流域"
+      },
+      {
+        "label": "D",
+        "text": "黄河流域"
+      }
+    ],
+    "answer": "B",
+    "explanation": "古代埃及文明发源于尼罗河流域，尼罗河的定期泛滥为农业提供了肥沃的土壤"
+  },
+  {
+    "id": "history-040",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界古代史"
+    ],
+    "question": "古巴比伦王国制定的《汉谟拉比法典》是世界上现存的古代第_____部比较完整的成文法典。",
+    "answer": "一",
+    "explanation": "《汉谟拉比法典》是古巴比伦国王汉谟拉比颁布的，是世界上现存最完整的古代法典",
+    "acceptAnswers": [
+      "一"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-041",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界古代史"
+    ],
+    "question": "西方文明的发源地是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "古代埃及"
+      },
+      {
+        "label": "B",
+        "text": "古代巴比伦"
+      },
+      {
+        "label": "C",
+        "text": "古代希腊"
+      },
+      {
+        "label": "D",
+        "text": "古代罗马"
+      }
+    ],
+    "answer": "C",
+    "explanation": "古希腊是西方文明的发源地，创造了辉煌的城邦文明，产生了苏格拉底、柏拉图、亚里士多德等思想家"
+  },
+  {
+    "id": "history-042",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "文艺复兴运动的中心是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "英国"
+      },
+      {
+        "label": "B",
+        "text": "法国"
+      },
+      {
+        "label": "C",
+        "text": "意大利"
+      },
+      {
+        "label": "D",
+        "text": "西班牙"
+      }
+    ],
+    "answer": "C",
+    "explanation": "意大利是文艺复兴运动的中心，14世纪从佛罗伦萨开始，扩展到整个欧洲"
+  },
+  {
+    "id": "history-043",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "英国资产阶级革命开始的标志是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "光荣革命"
+      },
+      {
+        "label": "B",
+        "text": "长期国会召开"
+      },
+      {
+        "label": "C",
+        "text": "处死查理一世"
+      },
+      {
+        "label": "D",
+        "text": "《权利法案》颁布"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1640年长期国会的召开标志着英国资产阶级革命开始"
+  },
+  {
+    "id": "history-044",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "美国独立战争的转折点是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "波士顿倾茶事件"
+      },
+      {
+        "label": "B",
+        "text": "《独立宣言》发表"
+      },
+      {
+        "label": "C",
+        "text": "萨拉托加战役"
+      },
+      {
+        "label": "D",
+        "text": "约克镇战役"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1777年萨拉托加战役是美国独立战争的转折点，此后法国公开参战，帮助美国"
+  },
+  {
+    "id": "history-045",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "法国大革命彻底摧毁封建制度的文件是《_____》。",
+    "answer": "拿破仑法典",
+    "explanation": "《拿破仑法典》（民法典）是一部典型的资产阶级法典，确立了 Napoleonic code",
+    "acceptAnswers": [
+      "拿破仑法典"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-046",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "工业革命最先发生在哪个国家？",
     "options": [
       {
         "label": "A",
@@ -1240,190 +1197,80 @@
       }
     ],
     "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "工业革命",
-    "explanation": "第一次工业革命于18世纪后期在英国首先展开，并逐步向其他欧洲国家传播。",
-    "subject": "history"
+    "explanation": "18世纪60年代，工业革命首先在英国发生，以纺织业的机械化开始"
   },
   {
-    "id": "history-senior-44",
+    "id": "history-047",
     "type": "choice",
-    "question": "《人权宣言》是由哪个国家的革命制定并颁布的？",
-    "options": [
-      {
-        "label": "A",
-        "text": "美国"
-      },
-      {
-        "label": "B",
-        "text": "法国"
-      },
-      {
-        "label": "C",
-        "text": "英国"
-      },
-      {
-        "label": "D",
-        "text": "德国"
-      }
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
     ],
-    "answer": "B",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "法国大革命",
-    "explanation": "1789年法国大革命期间颁布《人权与公民权宣言》，即《人权宣言》。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-45",
-    "type": "choice",
-    "question": "1905年的俄国革命常被称为（）",
+    "question": "马克思主义诞生的标志是：",
     "options": [
       {
         "label": "A",
-        "text": "第一次资产阶级民主革命"
+        "text": "《共产党宣言》发表"
       },
       {
         "label": "B",
-        "text": "俄国革命"
+        "text": "第一国际成立"
       },
       {
         "label": "C",
-        "text": "十月革命"
+        "text": "巴黎公社成立"
       },
       {
         "label": "D",
-        "text": "布尔什维克革命"
+        "text": "《资本论》出版"
       }
     ],
     "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "俄国革命",
-    "explanation": "1905年革命被视为俄国的首次资产阶级民主革命，为1917年的革命提供了经验。",
-    "subject": "history"
+    "explanation": "1848年《共产党宣言》的发表标志着马克思主义的诞生"
   },
   {
-    "id": "history-senior-46",
+    "id": "history-048",
     "type": "choice",
-    "question": "马克思主义理论在（）得到首次实践并取得政权。",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界近代史"
+    ],
+    "question": "美国南北战争爆发的根本原因是：",
     "options": [
       {
         "label": "A",
-        "text": "法国"
+        "text": "林肯当选总统"
       },
       {
         "label": "B",
-        "text": "德国"
+        "text": "南方挑起战争"
       },
       {
         "label": "C",
-        "text": "俄国"
+        "text": "黑人奴隶制度"
       },
       {
         "label": "D",
-        "text": "中国"
+        "text": "北方工业与南方种植园的矛盾"
       }
     ],
-    "answer": "C",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "马克思主义诞生与传播",
-    "explanation": "1917年十月革命在俄国取得成功，首次将马克思主义理论付诸国家政权实践。",
-    "subject": "history"
+    "answer": "D",
+    "explanation": "根本原因是北方资本主义工业与南方种植园奴隶制经济之间的矛盾，即关税和奴隶制问题"
   },
   {
-    "id": "history-senior-47",
+    "id": "history-049",
     "type": "choice",
-    "question": "1945年第二次世界大战结束后，以下哪个组织被设立以维护国际和平与安全？",
-    "options": [
-      {
-        "label": "A",
-        "text": "联合国"
-      },
-      {
-        "label": "B",
-        "text": "国际联盟"
-      },
-      {
-        "label": "C",
-        "text": "北约"
-      },
-      {
-        "label": "D",
-        "text": "华约"
-      }
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界现代史"
     ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "中国古代史与世界近现代史",
-    "explanation": "联合国于1945年成立，旨在促进国际合作、维护世界和平与安全。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-48",
-    "type": "choice",
-    "question": "美国在20世纪60年代实行的“民权运动”主要目标是（）",
-    "options": [
-      {
-        "label": "A",
-        "text": "争取种族平等"
-      },
-      {
-        "label": "B",
-        "text": "扩大选举权"
-      },
-      {
-        "label": "C",
-        "text": "促进女性平等"
-      },
-      {
-        "label": "D",
-        "text": "推动教育改革"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "美国民权运动",
-    "explanation": "美国民权运动的核心诉求是结束种族隔离，争取非裔美国人在政治、教育和就业等方面的平等权利。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-49",
-    "type": "choice",
-    "question": "20世纪初，哪位科学家提出了相对论，颠覆了经典物理学的框架？",
-    "options": [
-      {
-        "label": "A",
-        "text": "爱因斯坦"
-      },
-      {
-        "label": "B",
-        "text": "牛顿"
-      },
-      {
-        "label": "C",
-        "text": "居里夫人"
-      },
-      {
-        "label": "D",
-        "text": "费米"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 2,
-    "grade": 10,
-    "knowledge": "现代科技发展",
-    "explanation": "爱因斯坦于1905年提出狭义相对论，随后1915年提出广义相对论，彻底改变了人们对时空的理解。",
-    "subject": "history"
-  },
-  {
-    "id": "history-senior-50",
-    "type": "choice",
-    "question": "第一次世界大战的导火索是（）",
+    "question": "第一次世界大战的导火线是：",
     "options": [
       {
         "label": "A",
@@ -1431,22 +1278,4762 @@
       },
       {
         "label": "B",
-        "text": "德国对法国的侵略"
+        "text": "同盟国与协约国的形成"
       },
       {
         "label": "C",
-        "text": "俄国革命"
+        "text": "争夺殖民地"
       },
       {
         "label": "D",
-        "text": "经济危机"
+        "text": "奥匈帝国向塞尔维亚宣战"
       }
     ],
     "answer": "A",
+    "explanation": "1914年6月28日萨拉热窝事件是一战的导火线，此后奥匈帝国向塞尔维亚宣战"
+  },
+  {
+    "id": "history-050",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界现代史"
+    ],
+    "question": "第二次世界大战全面爆发的标志是_____入侵波兰。",
+    "answer": "德国",
+    "explanation": "1939年9月1日德国入侵波兰，标志着第二次世界大战的全面爆发",
+    "acceptAnswers": [
+      "德国"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-201",
+    "type": "choice",
+    "subject": "history",
     "difficulty": 2,
-    "grade": 10,
-    "knowledge": "中国古代史与世界近现代史",
-    "explanation": "1914年6月28日的萨拉热窝事件直接引发了奥匈帝国向塞尔维亚宣战，从而导致第一次世界大战全面爆发。",
-    "subject": "history"
+    "grade": 8,
+    "knowledgeTags": [
+      "维新变法",
+      "广东历史人物"
+    ],
+    "question": "戊戌变法时期，提出变法主张、籍贯为广东南海的重要人物是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "林则徐"
+      },
+      {
+        "label": "B",
+        "text": "康有为"
+      },
+      {
+        "label": "C",
+        "text": "孙中山"
+      },
+      {
+        "label": "D",
+        "text": "梁启超"
+      }
+    ],
+    "answer": "B",
+    "explanation": "康有为是广东南海人，是维新变法的重要代表人物。"
+  },
+  {
+    "id": "history-202",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史",
+      "虎门销烟"
+    ],
+    "question": "1839年在广东虎门主持销烟的民族英雄是______。",
+    "answer": "林则徐",
+    "explanation": "林则徐主持虎门销烟，体现了中华民族反抗外来侵略的决心。",
+    "acceptAnswers": [
+      "林则徐"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-053",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "秦朝"
+    ],
+    "question": "秦始皇统一六国后，为加强中央集权采取的措施不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "统一文字、货币、度量衡"
+      },
+      {
+        "label": "B",
+        "text": "建立郡县制"
+      },
+      {
+        "label": "C",
+        "text": "实行分封制"
+      },
+      {
+        "label": "D",
+        "text": "修筑长城"
+      }
+    ],
+    "answer": "C",
+    "explanation": "秦始皇废除了分封制，建立了郡县制，加强了中央集权。统一文字、货币、度量衡、修筑长城都是他的重要举措。"
+  },
+  {
+    "id": "history-054",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争爆发的根本原因是",
+    "options": [
+      {
+        "label": "A",
+        "text": "林则徐虎门销烟"
+      },
+      {
+        "label": "B",
+        "text": "英国想打开中国市场"
+      },
+      {
+        "label": "C",
+        "text": "中国人民反抗侵略"
+      },
+      {
+        "label": "D",
+        "text": "道光帝腐败无能"
+      }
+    ],
+    "answer": "B",
+    "explanation": "鸦片战争是英国为打开中国市场、倾销商品而发动的侵略战争。虎门销烟只是战争的直接导火索。"
+  },
+  {
+    "id": "history-055",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国近代史",
+      "辛亥革命"
+    ],
+    "question": "辛亥革命的历史意义是",
+    "options": [
+      {
+        "label": "A",
+        "text": "推翻了清朝统治，建立了中华民国"
+      },
+      {
+        "label": "B",
+        "text": "推翻了封建君主专制制度"
+      },
+      {
+        "label": "C",
+        "text": "改变了中国半殖民地半封建社会的性质"
+      },
+      {
+        "label": "D",
+        "text": "完全实现了民族独立"
+      }
+    ],
+    "answer": "B",
+    "explanation": "辛亥革命最大的历史功绩是推翻了统治中国两千多年的封建君主专制制度，建立了共和制的中华民国。"
+  },
+  {
+    "id": "history-056",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界古代史",
+      "古希腊民主"
+    ],
+    "question": "伯里克利时代雅典民主政治达到顶峰，其民主制度的特点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "全体公民直接参与国政"
+      },
+      {
+        "label": "B",
+        "text": "成年男性公民当家作主"
+      },
+      {
+        "label": "C",
+        "text": "所有人都享有同等权利"
+      },
+      {
+        "label": "D",
+        "text": "没有贫富差距"
+      }
+    ],
+    "answer": "B",
+    "explanation": "雅典民主是直接民主，但享有民主权利的只是成年男性公民，妇女、奴隶、外邦人被排除在外。"
+  },
+  {
+    "id": "history-057",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界近代史",
+      "文艺复兴"
+    ],
+    "question": "文艺复兴运动的实质是",
+    "options": [
+      {
+        "label": "A",
+        "text": "古希腊罗马文化的复兴"
+      },
+      {
+        "label": "B",
+        "text": "资产阶级思想解放运动"
+      },
+      {
+        "label": "C",
+        "text": "反对宗教神学的运动"
+      },
+      {
+        "label": "D",
+        "text": "文学艺术的创新"
+      }
+    ],
+    "answer": "B",
+    "explanation": "文艺复兴表面上是复兴古希腊罗马文化，实质上是资产阶级在意识形态领域反对封建神学的思想解放运动。"
+  },
+  {
+    "id": "history-058",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界近代史",
+      "法国大革命"
+    ],
+    "question": "法国大革命期间发表的《人权宣言》的核心内容是",
+    "options": [
+      {
+        "label": "A",
+        "text": "废除封建土地制度"
+      },
+      {
+        "label": "B",
+        "text": "人生而自由平等，权利不可剥夺"
+      },
+      {
+        "label": "C",
+        "text": "建立资产阶级民主共和国"
+      },
+      {
+        "label": "D",
+        "text": "废除君主制"
+      }
+    ],
+    "answer": "B",
+    "explanation": "《人权宣言》提出：人生来是而且始终是自由平等的；自由、财产、安全和反抗压迫是人的不可剥夺的权利。"
+  },
+  {
+    "id": "history-059",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "中国改革开放的起点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "1949年新中国成立"
+      },
+      {
+        "label": "B",
+        "text": "1978年党的十一届三中全会"
+      },
+      {
+        "label": "C",
+        "text": "1992年邓小平南方谈话"
+      },
+      {
+        "label": "D",
+        "text": "2001年加入WTO"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1978年党的十一届三中全会确立了解放思想、实事求是的指导思想，作出了把党和国家工作重心转移到经济建设上来、实行改革开放的伟大决策。"
+  },
+  {
+    "id": "history-060",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界现代史",
+      "两次世界大战"
+    ],
+    "question": "第二次世界大战的转折点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "日本偷袭珍珠港"
+      },
+      {
+        "label": "B",
+        "text": "斯大林格勒战役"
+      },
+      {
+        "label": "C",
+        "text": "诺曼底登陆"
+      },
+      {
+        "label": "D",
+        "text": "柏林战役"
+      }
+    ],
+    "answer": "B",
+    "explanation": "斯大林格勒战役（1942-1943）是苏德战场的转折点，也是第二次世界大战的转折点。"
+  },
+  {
+    "id": "history-061",
+    "type": "short_answer",
+    "subject": "history",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "史料分析"
+    ],
+    "question": "材料：卫鞅曰：治世不一道，便国不法古。故汤武不循古而王，夏殷不易礼而亡。反古者不可非，而循礼者不足多。孝公曰：善。以为田不开，可寐，而秦国之积寡……\n\n问题：①这段材料反映的是哪次变法？②请概括这次变法的主要措施。",
+    "answer": "（1）这是商鞅变法（战国时期秦国的变法）。\n\n（2）主要措施：①废除井田制，允许土地自由买卖；②奖励军功，根据军功大小授予爵位和土地；③建立县制，由国君直接派官吏治理；④统一度量衡。",
+    "explanation": "商鞅变法是战国时期最彻底的一次变法，通过奖励耕战、建立县制等措施，为秦统一六国奠定了基础。",
+    "acceptAnswers": [
+      "（1）这是商鞅变法（战国时期秦国的变法）。\n\n（2）主要措施：①废除井田制，允许土地自由买卖；②奖励军功，根据军功大小授予爵位和土地；③建立县制，由国君直接派官吏治理；④统一度量衡。"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-062",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "秦朝"
+    ],
+    "question": "中国历史上第一个统一的多民族中央集权国家是_____朝。",
+    "answer": "秦",
+    "explanation": "根据历史知识填写：秦",
+    "acceptAnswers": [
+      "秦"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-063",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国古代史",
+      "唐朝"
+    ],
+    "question": "唐代最著名的对外贸易港口是_____，海上丝绸之路由此出发。",
+    "answer": "广州",
+    "explanation": "根据历史知识填写：广州",
+    "acceptAnswers": [
+      "广州"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-064",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国近代史",
+      "鸦片战争"
+    ],
+    "question": "鸦片战争后，中国被迫签订了《南京条约》，开放了广州、厦门、福州、宁波、_____五处通商口岸。",
+    "answer": "上海",
+    "explanation": "根据历史知识填写：上海",
+    "acceptAnswers": [
+      "上海"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-065",
+    "type": "fill",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-世界近代史",
+      "一战"
+    ],
+    "question": "第一次世界大战的导火线是_____事件。",
+    "answer": "萨拉热窝",
+    "explanation": "根据历史知识填写：萨拉热窝",
+    "acceptAnswers": [
+      "萨拉热窝"
+    ],
+    "options": []
+  },
+  {
+    "id": "history-203",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国远古人类",
+    "question": "以下哪一个中国远古人类的生活年代最早？",
+    "options": [
+      {
+        "label": "A",
+        "text": "北京人（Peking Man），约70万至40万年前"
+      },
+      {
+        "label": "B",
+        "text": "元谋人（Yuanmou Man），约170万年前"
+      },
+      {
+        "label": "C",
+        "text": "蓝田人（Lantian Man），约80万年前"
+      },
+      {
+        "label": "D",
+        "text": "山顶洞人（Upper Cave Man），约3万年前"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "比较四个选项的年代，距今年代越早越靠前。元谋人约170万年前，早于北京人、蓝田人，山顶洞人最晚。故选B。"
+  },
+  {
+    "id": "history-204",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "夏商周制度",
+    "question": "以下关于夏、商、周三代的政治制度，哪项描述是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏朝实行分封制，建立诸侯国管理地方。"
+      },
+      {
+        "label": "B",
+        "text": "商朝的王位继承采用世袭制，但官职实行分封制。"
+      },
+      {
+        "label": "C",
+        "text": "周朝在分封制的基础上，进一步确立了宗法制和礼乐制度。"
+      },
+      {
+        "label": "D",
+        "text": "周朝实行郡县制，削弱诸侯势力。"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（周朝在分封制的基础上，进一步确立了宗法制和礼乐制度。）。"
+  },
+  {
+    "id": "history-205",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "春秋战国百家争鸣",
+    "question": "以下哪位思想家主张‘以法治国’，并提出‘法、术、势’相结合的政治理论？",
+    "options": [
+      {
+        "label": "A",
+        "text": "孔子"
+      },
+      {
+        "label": "B",
+        "text": "孟子"
+      },
+      {
+        "label": "C",
+        "text": "老子"
+      },
+      {
+        "label": "D",
+        "text": "韩非子"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "韩非子为先秦法家代表，主张以法治国，系统提出‘法、术、势’相结合的政治理论，强调法律强制与君主权势的配合。"
+  },
+  {
+    "id": "history-206",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "秦统一中国",
+    "question": "秦始皇完成统一六国的时间是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "公元前221年"
+      },
+      {
+        "label": "B",
+        "text": "公元前230年"
+      },
+      {
+        "label": "C",
+        "text": "公元前206年"
+      },
+      {
+        "label": "D",
+        "text": "公元前260年"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "秦始皇于公元前221年灭齐，完成六国统一，故选A。"
+  },
+  {
+    "id": "history-207",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "汉武帝大一统",
+    "question": "汉武帝为削弱诸侯王势力而采取的主要措施是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "废除郡县制"
+      },
+      {
+        "label": "B",
+        "text": "实行推恩令"
+      },
+      {
+        "label": "C",
+        "text": "实行分封制"
+      },
+      {
+        "label": "D",
+        "text": "扩大相权"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "汉武帝为削弱诸侯王势力，颁布推恩令，要求诸侯王分封诸子，将封地划小，削弱其势力。其他选项不符合历史事实。"
+  },
+  {
+    "id": "history-208",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "三国鼎立",
+    "question": "三国鼎立的局面正式形成的年份是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "208年"
+      },
+      {
+        "label": "B",
+        "text": "220年"
+      },
+      {
+        "label": "C",
+        "text": "222年"
+      },
+      {
+        "label": "D",
+        "text": "229年"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "220年曹丕称帝，刘备已在蜀称帝，孙权虽229年称帝，但三国已形成对峙，三国鼎立局面于220年正式形成。"
+  },
+  {
+    "id": "history-209",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "唐朝盛世",
+    "question": "以下关于唐朝盛世的说法，错误的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "长安是当时世界上规模最大、人口最多的城市之一"
+      },
+      {
+        "label": "B",
+        "text": "科举制度在唐朝得到进一步发展和完善"
+      },
+      {
+        "label": "C",
+        "text": "唐朝的对外战争频繁，边疆冲突不断"
+      },
+      {
+        "label": "D",
+        "text": "出现了以李白、杜甫为代表的诗歌创作高峰"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（唐朝的对外战争频繁，边疆冲突不断）。"
+  },
+  {
+    "id": "history-210",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "宋代经济",
+    "question": "以下关于宋代商业的描述，错误的一项是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "出现了纸币‘交子’，促进了商品流通"
+      },
+      {
+        "label": "B",
+        "text": "宋代出现了‘市’和‘坊’，城市商业中心形成"
+      },
+      {
+        "label": "C",
+        "text": "宋代实行‘海禁’政策，禁止对外贸易"
+      },
+      {
+        "label": "D",
+        "text": "宋代手工业如丝绸、瓷器生产规模扩大"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（宋代实行‘海禁’政策，禁止对外贸易）。"
+  },
+  {
+    "id": "history-211",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "元朝大一统",
+    "question": "元朝完成全国大一统的标志性事件是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "成吉思汗统一蒙古各部"
+      },
+      {
+        "label": "B",
+        "text": "忽必烈改国号为“大元”并灭宋，完成全中国统一"
+      },
+      {
+        "label": "C",
+        "text": "设立行省制度"
+      },
+      {
+        "label": "D",
+        "text": "建立大都（今北京）为都城"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "元朝完成全国大一统的标志是忽必烈改国号为“大元”，并灭宋，实现全中国统一。其他选项仅涉及内部统一、制度或都城，未完成全国统一。"
+  },
+  {
+    "id": "history-212",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "明朝专制",
+    "question": "以下哪项措施最能体现明朝加强君主专制的特点？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设立锦衣卫监视官员"
+      },
+      {
+        "label": "B",
+        "text": "实行科举制度选拔人才"
+      },
+      {
+        "label": "C",
+        "text": "允许地方官员自行征税"
+      },
+      {
+        "label": "D",
+        "text": "设立分封制给皇子"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "明朝为强化皇权设立锦衣卫，专司监视官员、收集情报，直接体现专制统治。A项最符合题意。B科举是选官制度，C、D削弱中央集权。"
+  },
+  {
+    "id": "history-213",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "清朝疆域",
+    "question": "清朝在其鼎盛时期（约18世纪中叶），其疆域最北端大致到达今天的哪个地区？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国东北的漠河地区"
+      },
+      {
+        "label": "B",
+        "text": "蒙古国的北部边界"
+      },
+      {
+        "label": "C",
+        "text": "俄罗斯的贝加尔湖地区"
+      },
+      {
+        "label": "D",
+        "text": "哈萨克斯坦的北部地区"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "18世纪中叶，清朝北部疆域已达今蒙古国北部，远超东北漠河，排除A；贝加尔湖在俄国，排除C；哈萨克斯坦更西，排除D。因此正确答案为B。"
+  },
+  {
+    "id": "history-214",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "鸦片战争",
+    "question": "1842年，清政府在第一次鸦片战争后被迫签订的第一个不平等条约是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "《天津条约》"
+      },
+      {
+        "label": "B",
+        "text": "《南京条约》"
+      },
+      {
+        "label": "C",
+        "text": "《北京条约》"
+      },
+      {
+        "label": "D",
+        "text": "《马关条约》"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（《南京条约》）。"
+  },
+  {
+    "id": "history-215",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "洋务运动",
+    "question": "洋务运动的核心目的是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "推翻清朝统治"
+      },
+      {
+        "label": "B",
+        "text": "学习西方先进科技"
+      },
+      {
+        "label": "C",
+        "text": "传播基督教"
+      },
+      {
+        "label": "D",
+        "text": "实行民主制度"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（学习西方先进科技）。"
+  },
+  {
+    "id": "history-216",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "甲午战争",
+    "question": "以下哪项不是《马关条约》的内容？",
+    "options": [
+      {
+        "label": "A",
+        "text": "清政府割让辽东半岛"
+      },
+      {
+        "label": "B",
+        "text": "清政府赔偿白银2亿两"
+      },
+      {
+        "label": "C",
+        "text": "允许日本在通商口岸设立工厂"
+      },
+      {
+        "label": "D",
+        "text": "归还台湾给清朝"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "《马关条约》内容包括割让辽东半岛、赔款2亿两白银、允许在通商口岸设厂，条约将台湾割让给日本而非归还清政府，故D项不属于条约内容。"
+  },
+  {
+    "id": "history-217",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "戊戌变法",
+    "question": "戊戌变法的主要目的是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "推翻清朝统治"
+      },
+      {
+        "label": "B",
+        "text": "学习西方，实行君主立宪制度"
+      },
+      {
+        "label": "C",
+        "text": "恢复科举制度"
+      },
+      {
+        "label": "D",
+        "text": "摆脱外国侵略，实现民族独立"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（学习西方，实行君主立宪制度）。"
+  },
+  {
+    "id": "history-218",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "辛亥革命",
+    "question": "辛亥革命最重要的历史意义是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "结束了两千多年的封建君主专制制度"
+      },
+      {
+        "label": "B",
+        "text": "建立了中华民国"
+      },
+      {
+        "label": "C",
+        "text": "促进了中国资本主义的发展"
+      },
+      {
+        "label": "D",
+        "text": "实现了国家统一和民族独立"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "辛亥革命的根本意义在于推翻君主专制，结束两千多年封建制度，为民主共和奠定基础。B、C、D虽重要，但不是首要意义。"
+  },
+  {
+    "id": "history-219",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "五四运动",
+    "question": "1919年5月4日，北京学生因不满巴黎和会上关于山东问题的决定，发起了五四运动。该决定的主要内容是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "将德国在山东的权益转让给日本"
+      },
+      {
+        "label": "B",
+        "text": "将德国在山东的权益归还给中国"
+      },
+      {
+        "label": "C",
+        "text": "将德国在山东的权益转让给英法两国"
+      },
+      {
+        "label": "D",
+        "text": "将德国在山东的权益保留给德国"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（将德国在山东的权益转让给日本）。"
+  },
+  {
+    "id": "history-220",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中共一大",
+    "question": "1921年7月，中国共产党第一次全国代表大会在上海举行，后因安全原因转移至浙江嘉兴，继续在什么船上进行？",
+    "options": [
+      {
+        "label": "A",
+        "text": "红船"
+      },
+      {
+        "label": "B",
+        "text": "光明号"
+      },
+      {
+        "label": "C",
+        "text": "自由号"
+      },
+      {
+        "label": "D",
+        "text": "金星号"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "一大在上海被迫中断后，为安全转移至嘉兴，在红船上继续进行。红船象征中共创建历史，故选A。"
+  },
+  {
+    "id": "history-221",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "抗日战争",
+    "question": "1938 年的武汉会战结束后，抗日战争进入了哪个阶段？",
+    "options": [
+      {
+        "label": "A",
+        "text": "全面爆发"
+      },
+      {
+        "label": "B",
+        "text": "相持阶段"
+      },
+      {
+        "label": "C",
+        "text": "胜利阶段"
+      },
+      {
+        "label": "D",
+        "text": "结束阶段"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "武汉会战1938年结束，日军占领武汉后，战争进入持久对峙，双方战线僵持，进入相持阶段。"
+  },
+  {
+    "id": "history-222",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "解放战争",
+    "question": "以下哪一项不属于解放战争的三大战役？",
+    "options": [
+      {
+        "label": "A",
+        "text": "辽沈战役"
+      },
+      {
+        "label": "B",
+        "text": "淮海战役"
+      },
+      {
+        "label": "C",
+        "text": "平津战役"
+      },
+      {
+        "label": "D",
+        "text": "渡江战役"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "解放战争三大战役分别是辽沈、淮海、平津，渡江战役是后续的全国性作战，不属于三大战役，故选D。"
+  },
+  {
+    "id": "history-223",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "新中国成立",
+    "question": "1949年10月1日，在北京天安门广场举行的标志着新中国成立的仪式是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "中华民国政府成立仪式"
+      },
+      {
+        "label": "B",
+        "text": "中华人民共和国开国大典"
+      },
+      {
+        "label": "C",
+        "text": "中华人民共和国宪法颁布仪式"
+      },
+      {
+        "label": "D",
+        "text": "中国人民政治协商会议第一次全体会议"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "1949年10月1日在天安门广场举行的是中华人民共和国开国大典，宣告新中国成立；中华民国已结束，宪法颁布和政协会议不在该日该地。"
+  },
+  {
+    "id": "history-224",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "改革开放",
+    "question": "家庭联产承包责任制首次在以下哪个地区试行？",
+    "options": [
+      {
+        "label": "A",
+        "text": "安徽凤阳"
+      },
+      {
+        "label": "B",
+        "text": "江苏苏州"
+      },
+      {
+        "label": "C",
+        "text": "浙江温州"
+      },
+      {
+        "label": "D",
+        "text": "广东深圳"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "1978年，安徽凤阳县小岗村率先试行家庭联产承包责任制，拉开了农村改革的序幕，故选A。"
+  },
+  {
+    "id": "history-225",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "古代丝绸之路",
+    "question": "以下关于古代丝绸之路的说法，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "丝绸之路的起点是埃及的亚历山大港"
+      },
+      {
+        "label": "B",
+        "text": "丝绸之路仅在中国境内运行"
+      },
+      {
+        "label": "C",
+        "text": "丝绸之路的名称来源于古代中国的丝绸出口"
+      },
+      {
+        "label": "D",
+        "text": "丝绸之路只在汉代开通，唐代后结束"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（丝绸之路的名称来源于古代中国的丝绸出口）。"
+  },
+  {
+    "id": "history-226",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "古代四大发明",
+    "question": "以下哪项不属于中国古代的四大发明？",
+    "options": [
+      {
+        "label": "A",
+        "text": "造纸术"
+      },
+      {
+        "label": "B",
+        "text": "活字印刷"
+      },
+      {
+        "label": "C",
+        "text": "指南针"
+      },
+      {
+        "label": "D",
+        "text": "炼铁技术"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "四大发明是造纸术、印刷术、指南针和火药，A、B、C均在其中，D炼铁技术不属于。"
+  },
+  {
+    "id": "history-227",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "文艺复兴",
+    "question": "文艺复兴时期，哪座城市成为艺术与科学的中心？",
+    "options": [
+      {
+        "label": "A",
+        "text": "伦敦"
+      },
+      {
+        "label": "B",
+        "text": "巴黎"
+      },
+      {
+        "label": "C",
+        "text": "罗马"
+      },
+      {
+        "label": "D",
+        "text": "佛罗伦萨"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "佛罗伦萨在文艺复兴时期是美第奇家族赞助的艺术中心，聚集了达·芬奇、米开朗基罗等大师，故选D。"
+  },
+  {
+    "id": "history-228",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "启蒙运动",
+    "question": "启蒙运动的核心精神是（　）",
+    "options": [
+      {
+        "label": "A",
+        "text": "盲目崇拜权威"
+      },
+      {
+        "label": "B",
+        "text": "科学理性"
+      },
+      {
+        "label": "C",
+        "text": "传统保守"
+      },
+      {
+        "label": "D",
+        "text": "军事扩张"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "启蒙运动以理性、科学为核心，反对盲从权威、保守和军事扩张，故选B。"
+  },
+  {
+    "id": "history-229",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "工业革命",
+    "question": "工业革命的核心标志是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "蒸汽机的广泛使用"
+      },
+      {
+        "label": "B",
+        "text": "计算机的出现"
+      },
+      {
+        "label": "C",
+        "text": "石油的开采"
+      },
+      {
+        "label": "D",
+        "text": "纺织机器的发明"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（蒸汽机的广泛使用）。"
+  },
+  {
+    "id": "history-230",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国远古人类",
+    "question": "以下哪一种古人类是目前已知中国境内最早的古人类？",
+    "options": [
+      {
+        "label": "A",
+        "text": "北京人"
+      },
+      {
+        "label": "B",
+        "text": "元谋人"
+      },
+      {
+        "label": "C",
+        "text": "丁村人"
+      },
+      {
+        "label": "D",
+        "text": "蓝田人"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "元谋人是中国已知最早的古人类，距今约170万年，发现于云南元谋早于北京人、丁村人、蓝田人。"
+  },
+  {
+    "id": "history-231",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "夏商周制度",
+    "question": "以下关于夏、商、周三代政治制度的描述，哪一项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏朝实行分封制，诸侯世袭，形成封建体制"
+      },
+      {
+        "label": "B",
+        "text": "商朝实行王位世袭制，王权集中，设官分职管理国家"
+      },
+      {
+        "label": "C",
+        "text": "周朝采用井田制，把土地划分为九块，由农民共同耕作"
+      },
+      {
+        "label": "D",
+        "text": "夏商周三代都使用礼乐制度来规范贵族与平民的行为"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "夏、商、周三代中，只有商朝确立王位世袭且设官分职，王权集中；夏朝无分封，周朝无井田制，礼乐制度在周代才完善。故选B。"
+  },
+  {
+    "id": "history-232",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "春秋战国百家争鸣",
+    "question": "以下哪位思想家提出了‘民为贵，社稷次之，君为轻’的政治理念？",
+    "options": [
+      {
+        "label": "A",
+        "text": "孔子"
+      },
+      {
+        "label": "B",
+        "text": "孟子"
+      },
+      {
+        "label": "C",
+        "text": "庄子"
+      },
+      {
+        "label": "D",
+        "text": "墨子"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "此句出自《孟子》，孟子强调‘民贵君轻’，体现了以民为本的政治思想，故选B。"
+  },
+  {
+    "id": "history-233",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "秦统一中国",
+    "question": "秦始皇统一六国后，为了巩固统一、加强中央集权，推行了哪项重要的政治制度？",
+    "options": [
+      {
+        "label": "A",
+        "text": "分封制"
+      },
+      {
+        "label": "B",
+        "text": "郡县制"
+      },
+      {
+        "label": "C",
+        "text": "采邑制"
+      },
+      {
+        "label": "D",
+        "text": "世袭制"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "秦始皇统一六国后，废除分封制，采用郡县制，由中央直接任命郡守、县令，有效加强中央集权，防止地方割据。"
+  },
+  {
+    "id": "history-234",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "汉武帝大一统",
+    "question": "汉武帝为削弱诸侯王势力、加强中央集权，实行了哪项重要措施？",
+    "options": [
+      {
+        "label": "A",
+        "text": "恢复分封制度"
+      },
+      {
+        "label": "B",
+        "text": "实行推恩令"
+      },
+      {
+        "label": "C",
+        "text": "设立科举制度"
+      },
+      {
+        "label": "D",
+        "text": "推行盐铁官营"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "汉武帝为削弱诸侯王势力，实行推恩令，将诸侯封地分封给诸子，使其势力逐渐削弱，符合题意。"
+  },
+  {
+    "id": "history-235",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "三国鼎立",
+    "question": "下列关于三国鼎立形成的时间顺序，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "魏→蜀→吴"
+      },
+      {
+        "label": "B",
+        "text": "吴→魏→蜀"
+      },
+      {
+        "label": "C",
+        "text": "蜀→魏→吴"
+      },
+      {
+        "label": "D",
+        "text": "魏→吴→蜀"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "魏220年曹丕称帝，蜀221年刘备称帝，吴229年孙权称帝，顺序为魏→蜀→吴。"
+  },
+  {
+    "id": "history-236",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "唐朝盛世",
+    "question": "唐代盛世的表现不包括以下哪项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济繁荣，商贸活跃"
+      },
+      {
+        "label": "B",
+        "text": "对外开放，文化交流频繁"
+      },
+      {
+        "label": "C",
+        "text": "大规模农民起义频繁"
+      },
+      {
+        "label": "D",
+        "text": "政治制度相对稳定，中央集权巩固"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "唐代盛世表现为经济繁荣、对外开放和政局稳定。大规模农民起义频繁则是衰世特征，故C不符合。"
+  },
+  {
+    "id": "history-237",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "宋代经济",
+    "question": "以下哪项最能体现宋代商品经济的繁荣？",
+    "options": [
+      {
+        "label": "A",
+        "text": "农业技术停滞，仅依靠人力耕作"
+      },
+      {
+        "label": "B",
+        "text": "城市中出现大量市集和夜市，商业活动频繁"
+      },
+      {
+        "label": "C",
+        "text": "手工业全部由官府垄断，民间不得参与"
+      },
+      {
+        "label": "D",
+        "text": "对外贸易受限，仅在边境进行小额交换"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "宋代商品经济繁荣体现在城市中设有大量市集、夜市，商业活动频繁，反映了商品流通和消费需求提升。"
+  },
+  {
+    "id": "history-238",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "元朝大一统",
+    "question": "以下关于元朝“大一统”的叙述，正确的是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "元朝只统治了北方地区，南方仍在南宋的控制下。"
+      },
+      {
+        "label": "B",
+        "text": "元世祖忽必烈于1271年称帝，建立元朝，标志着元朝实现了对全中国的统一。"
+      },
+      {
+        "label": "C",
+        "text": "元朝统一后实行科举制度，使汉族士大夫的地位大幅提升。"
+      },
+      {
+        "label": "D",
+        "text": "元朝统一后废除了行省制度，改设州县进行管理。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "元世祖1271年称帝建立元朝，正式统一全中国；A错误，元已灭南宋；C错误，元未行科举，汉族士大夫地位下降；D错误，元未废行省，行省制继续实行。"
+  },
+  {
+    "id": "history-239",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "明朝专制",
+    "question": "明成祖永乐帝为巩固皇权，设立了下列哪个机构？",
+    "options": [
+      {
+        "label": "A",
+        "text": "锦衣卫"
+      },
+      {
+        "label": "B",
+        "text": "东厂"
+      },
+      {
+        "label": "C",
+        "text": "科举制度"
+      },
+      {
+        "label": "D",
+        "text": "三司制度"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "明成祖永乐帝为强化皇权，于永乐八年增设东厂，监视官员、镇压反对势力。其他选项：锦衣卫设于洪武，科举制源于隋唐，三司制亦早于永乐。故正确答案为B。"
+  },
+  {
+    "id": "history-240",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "清朝疆域",
+    "question": "以下关于清朝疆域的说法，哪一项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "清朝的疆域仅包括长城以内的地区"
+      },
+      {
+        "label": "B",
+        "text": "清朝疆域最西端到达新疆的喀什地区"
+      },
+      {
+        "label": "C",
+        "text": "清朝疆域最北端在今俄罗斯的贝加尔湖地区"
+      },
+      {
+        "label": "D",
+        "text": "清朝的疆域在鸦片战争后大幅扩张"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "A错，清包含蒙古、西藏等；C错，北界在漠北；D错，鸦片战争后疆域缩小；B正确，喀什是新疆最西端。"
+  },
+  {
+    "id": "history-241",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "鸦片战争",
+    "question": "以下关于鸦片战争的描述，正确的是（）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "战争爆发的根本原因是英国的贸易逆差，主要因中国茶叶进口导致。"
+      },
+      {
+        "label": "B",
+        "text": "鸦片战争的结果是《南京条约》签订，迫使中国开放五口通商并割让香港。"
+      },
+      {
+        "label": "C",
+        "text": "战争全程在中国境内进行，没有在海外发生任何战役。"
+      },
+      {
+        "label": "D",
+        "text": "鸦片战争直接导致了清朝的统治巩固和国家统一。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "A错在把茶叶视为根本原因，实际是贸易逆差与鸦片走私；B符合史实，《南京条约》确实开五口、割香港；C过于绝对；D表述错误，战后清廷削弱。"
+  },
+  {
+    "id": "history-242",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "洋务运动",
+    "question": "洋务运动的主要目的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "推翻清朝统治，建立民主共和"
+      },
+      {
+        "label": "B",
+        "text": "学习西方技术，强兵富国，维护清朝统治"
+      },
+      {
+        "label": "C",
+        "text": "进行土地改革，发展资本主义经济"
+      },
+      {
+        "label": "D",
+        "text": "实行君主立宪，改革政治制度"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "洋务运动旨在学习西方先进技术，增强军事力量，实现富国强兵，以维护清朝统治。A、C、D分别涉及推翻、土地改革、君主立宪，与运动目标不符。"
+  },
+  {
+    "id": "history-243",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "甲午战争",
+    "question": "以下关于甲午战争的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "战争起因于鸦片贸易的冲突"
+      },
+      {
+        "label": "B",
+        "text": "战争的决定性战役是黄海海战"
+      },
+      {
+        "label": "C",
+        "text": "战争结束后，清政府被迫签署《辛丑条约》"
+      },
+      {
+        "label": "D",
+        "text": "日本在战争中完全占领了中国本土"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "甲午战争因朝鲜问题和列强竞争而起，决定性战役是黄海海战；其他选项与史实不符。"
+  },
+  {
+    "id": "history-244",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "戊戌变法",
+    "question": "以下关于戊戌变法的描述，哪一项是错误的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "戊戌变法又被称作百日维新"
+      },
+      {
+        "label": "B",
+        "text": "变法期间成立了京师大学堂，推动了新式教育"
+      },
+      {
+        "label": "C",
+        "text": "戊戌变法成功实现了君主立宪制度"
+      },
+      {
+        "label": "D",
+        "text": "康有为是戊戌变法的主要策划者之一"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "A、B、D均正确，C错在声称变法成功实现君主立宪，实际失败，未实现。"
+  },
+  {
+    "id": "history-245",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "辛亥革命",
+    "question": "辛亥革命最重要的历史意义是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "建立了中华民国，结束了两千多年的封建帝制"
+      },
+      {
+        "label": "B",
+        "text": "实现了民族独立"
+      },
+      {
+        "label": "C",
+        "text": "完成了土地改革"
+      },
+      {
+        "label": "D",
+        "text": "建立了社会主义制度"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "辛亥革命推翻清朝，结束两千多年帝制，建立中华民国，标志着封建制度的崩溃。故选A。"
+  },
+  {
+    "id": "history-246",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "五四运动",
+    "question": "五四运动爆发的直接导火索是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "俄国十月革命的影响"
+      },
+      {
+        "label": "B",
+        "text": "辛亥革命的后续"
+      },
+      {
+        "label": "C",
+        "text": "巴黎和会把德国在山东的权益转给日本"
+      },
+      {
+        "label": "D",
+        "text": "学生的爱国热情"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "五四运动的直接导火索是巴黎和会决定将德国在山东的权益转给日本，引发学生抗议，故选C。"
+  },
+  {
+    "id": "history-247",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中共一大",
+    "question": "因上海会场受到干扰，中国共产党第一次全国代表大会随后转移至浙江嘉兴的哪里继续进行？",
+    "options": [
+      {
+        "label": "A",
+        "text": "南湖的游船"
+      },
+      {
+        "label": "B",
+        "text": "东湖的渔船"
+      },
+      {
+        "label": "C",
+        "text": "西湖的画舫"
+      },
+      {
+        "label": "D",
+        "text": "洞庭湖的舢板"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "由于上海租界受干扰，会议决定转移至嘉兴南湖，租用一条游船继续进行，最终完成一大议程。"
+  },
+  {
+    "id": "history-248",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "抗日战争",
+    "question": "全国性抗日战争的开始的标志是哪一事件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "七七事变（1937年）"
+      },
+      {
+        "label": "B",
+        "text": "九一八事变（1931年）"
+      },
+      {
+        "label": "C",
+        "text": "西安事变（1936年）"
+      },
+      {
+        "label": "D",
+        "text": "南京大屠杀（1937年12月）"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "七七事变是1937年7月7日爆发的，标志全民族抗日战争正式开始；九一八事变是东北沦陷的开始，西安事变促成统一战线，南京大屠杀是战争期间的暴行，不是起点。"
+  },
+  {
+    "id": "history-249",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "解放战争",
+    "question": "1948年9月至11月，中国人民解放军发动的哪场战役，为后续的淮海、平津两大战役奠定了基础，标志着解放军由防御转入进攻？",
+    "options": [
+      {
+        "label": "A",
+        "text": "淮海战役"
+      },
+      {
+        "label": "B",
+        "text": "辽沈战役"
+      },
+      {
+        "label": "C",
+        "text": "平津战役"
+      },
+      {
+        "label": "D",
+        "text": "渡江战役"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "1948年9-11月，解放军在东北发动辽沈战役，消灭国民党精锐，为随后淮海、平津战役创造条件，标志我军由防御转入进攻。"
+  },
+  {
+    "id": "history-250",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "新中国成立",
+    "question": "1949年10月1日，毛泽东在天安门城楼上庄严宣告中华人民共和国成立，这标志着？",
+    "options": [
+      {
+        "label": "A",
+        "text": "新民主主义革命的胜利"
+      },
+      {
+        "label": "B",
+        "text": "抗日战争的胜利"
+      },
+      {
+        "label": "C",
+        "text": "辛亥革命的成功"
+      },
+      {
+        "label": "D",
+        "text": "文化大革命的开始"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "1949年10月1日，毛泽东宣告新中国成立，标志着新民主主义革命的胜利，旧中国半殖民地半封建社会结束，进入社会主义建设阶段。"
+  },
+  {
+    "id": "history-251",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "改革开放",
+    "question": "1978年，中国共产党在十一届三中全会上确定了改革开放的基本国策。这次会议的关键意义是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "提出了“和平统一、一国两制”方针"
+      },
+      {
+        "label": "B",
+        "text": "确立了以经济建设为中心的改革开放路线"
+      },
+      {
+        "label": "C",
+        "text": "确定了“农村包围城市”革命路线"
+      },
+      {
+        "label": "D",
+        "text": "确立了“社会主义初级阶段”理论"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（确立了以经济建设为中心的改革开放路线）。"
+  },
+  {
+    "id": "history-252",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "古代丝绸之路",
+    "question": "古代丝绸之路的东方起点，一般指今天的哪座城市？",
+    "options": [
+      {
+        "label": "A",
+        "text": "洛阳"
+      },
+      {
+        "label": "B",
+        "text": "西安"
+      },
+      {
+        "label": "C",
+        "text": "敦煌"
+      },
+      {
+        "label": "D",
+        "text": "喀什"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "丝绸之路的东方起点在汉唐时期的长安，即今天的西安。该城是当时的首都和政治中心，商旅多从此出发，故答案为B。"
+  },
+  {
+    "id": "history-253",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "古代四大发明",
+    "question": "以下关于古代四大发明的描述，错误的是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "造纸术最早出现于西汉时期。"
+      },
+      {
+        "label": "B",
+        "text": "火药最早在唐代被炼丹术士发现。"
+      },
+      {
+        "label": "C",
+        "text": "活字印刷术在北宋时期由毕升发明。"
+      },
+      {
+        "label": "D",
+        "text": "指南针的最早形式是指南鱼，出现于春秋时期。"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "A造纸术西汉出现，B火药唐代炼丹发现，C活字印刷北宋毕升，D指南针最早形式是司南，出现于战国，春秋无指南鱼，故D错误。"
+  },
+  {
+    "id": "history-254",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "文艺复兴",
+    "question": "文艺复兴时期的文学和艺术作品普遍倡导的思想是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "人文主义"
+      },
+      {
+        "label": "B",
+        "text": "科学主义"
+      },
+      {
+        "label": "C",
+        "text": "宗教专制"
+      },
+      {
+        "label": "D",
+        "text": "封建主义"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "文艺复兴强调人的价值与创造力，回归古典文化，摆脱宗教束缚，倡导人文主义，故答案为A。"
+  },
+  {
+    "id": "history-255",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "启蒙运动",
+    "question": "启蒙运动中，以下哪位思想家提出了‘三权分立’的政治理论？",
+    "options": [
+      {
+        "label": "A",
+        "text": "洛克"
+      },
+      {
+        "label": "B",
+        "text": "卢梭"
+      },
+      {
+        "label": "C",
+        "text": "孟德斯鸠"
+      },
+      {
+        "label": "D",
+        "text": "伏尔泰"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（孟德斯鸠）。"
+  },
+  {
+    "id": "history-256",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "工业革命",
+    "question": "工业革命最早在哪一个行业实现了机械化？",
+    "options": [
+      {
+        "label": "A",
+        "text": "纺织业"
+      },
+      {
+        "label": "B",
+        "text": "农业"
+      },
+      {
+        "label": "C",
+        "text": "煤炭业"
+      },
+      {
+        "label": "D",
+        "text": "冶金业"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "工业革命起始于18世纪英国，机械化最先在纺织业实现，珍妮纺纱机和动力织机大幅提高生产效率，标志着工业化的开端。"
+  },
+  {
+    "id": "history-257",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国远古人类",
+    "question": "关于北京人的考古发现，以下哪项描述是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "北京人已经能够种植水稻，发展农业。"
+      },
+      {
+        "label": "B",
+        "text": "北京人能够使用火，并制作打制石器。"
+      },
+      {
+        "label": "C",
+        "text": "北京人是最早的现代人，脑容量与现代人相当。"
+      },
+      {
+        "label": "D",
+        "text": "北京人遗址位于四川盆地，属于南方古人类。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "北京人属于旧石器时代早期古人类，已会用火并制作打制石器；无农业种植，非现代人，遗址在北京周口店，非四川。故选B。"
+  },
+  {
+    "id": "history-258",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "夏商周制度",
+    "question": "夏、商、周三代中，哪一代开始确立世袭的王位继承制度？",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏"
+      },
+      {
+        "label": "B",
+        "text": "商"
+      },
+      {
+        "label": "C",
+        "text": "周"
+      },
+      {
+        "label": "D",
+        "text": "以上都不是"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（商）。"
+  },
+  {
+    "id": "history-259",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "春秋战国百家争鸣",
+    "question": "春秋战国时期，诸侯争霸，君主想要通过严厉的法制来巩固统治，最符合其需求的学派是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "儒家（主张仁政、德治）"
+      },
+      {
+        "label": "B",
+        "text": "道家（主张无为而治）"
+      },
+      {
+        "label": "C",
+        "text": "法家（主张以法治国、严刑峻法）"
+      },
+      {
+        "label": "D",
+        "text": "墨家（主张兼爱、非攻）"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "法家主张以法治国、严刑峻法，强调君权至上，正好满足君主用严厉法制巩固统治的需求。"
+  },
+  {
+    "id": "history-260",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "秦统一中国",
+    "question": "秦始皇在统一六国后，为加强中央集权，实行了哪种行政区划制度？",
+    "options": [
+      {
+        "label": "A",
+        "text": "井田制"
+      },
+      {
+        "label": "B",
+        "text": "郡县制"
+      },
+      {
+        "label": "C",
+        "text": "分封制"
+      },
+      {
+        "label": "D",
+        "text": "宗法制"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "秦始皇统一六国后废除分封，采用郡县制，把全国划分为郡和县，由中央直接任免官员，以强化中央集权。"
+  },
+  {
+    "id": "history-261",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "汉武帝大一统",
+    "question": "汉武帝为加强中央集权，实行了多项改革措施。下列哪项不是汉武帝在实现‘大一统’过程中推行的主要政策？",
+    "options": [
+      {
+        "label": "A",
+        "text": "推恩令（削弱诸侯王势力）"
+      },
+      {
+        "label": "B",
+        "text": "盐铁官营（国家垄断盐铁生产销售）"
+      },
+      {
+        "label": "C",
+        "text": "罢黜百家，独尊儒术（确立儒家为官方思想）"
+      },
+      {
+        "label": "D",
+        "text": "实行分封制度（重新授予诸侯王封地）"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "汉武帝为加强中央集权，实行推恩令、盐铁官营、罢黜百家独尊儒术，均属削藩、统制经济与统一思想。分封制度是汉初旧制，武帝未再推行，故D为非其政策。"
+  },
+  {
+    "id": "history-262",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "三国鼎立",
+    "question": "三国鼎立局面正式形成的标志是以下哪一事件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "黄巾起义（184年）"
+      },
+      {
+        "label": "B",
+        "text": "赤壁之战（208年）"
+      },
+      {
+        "label": "C",
+        "text": "曹丕篡汉（220年）"
+      },
+      {
+        "label": "D",
+        "text": "刘备在成都称帝（221年）"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "黄巾起义只是动乱，赤壁之战奠定格局。三国鼎立需各国正式称帝。曹丕220年代汉称帝，建立魏；随后刘备221年、孙权229年称帝，形成鼎立局面。"
+  },
+  {
+    "id": "history-263",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "唐朝盛世",
+    "question": "以下关于唐代盛世的描述，哪项是错误的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "农业丰收，手工业发达"
+      },
+      {
+        "label": "B",
+        "text": "长安成为当时的国际大都会"
+      },
+      {
+        "label": "C",
+        "text": "丝绸之路贸易繁荣，对外交流频繁"
+      },
+      {
+        "label": "D",
+        "text": "实行分封制，巩固皇权"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "唐代实行科举和均田制等集权制度，未实行分封制，故D错误；A、B、C描述均符合史实。"
+  },
+  {
+    "id": "history-264",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "宋代经济",
+    "question": "以下关于宋代经济发展特点的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "宋代实行严格的户籍制度，限制了人口流动"
+      },
+      {
+        "label": "B",
+        "text": "宋代出现了世界上最早的纸币——交子"
+      },
+      {
+        "label": "C",
+        "text": "宋代手工业以纺织业为主，棉纺织业最为发达"
+      },
+      {
+        "label": "D",
+        "text": "宋代经济以重工业为主，钢铁产量居世界前列"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "A项错，宋代人口流动较自由；C项错，以丝织为主，棉纺织元代才盛；D项错，以农业手工业为主；B项正确，交子是北宋四川发行的纸币，世界首例。"
+  },
+  {
+    "id": "history-265",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "元朝大一统",
+    "question": "元朝实现大一统后，在政治制度上最主要的创新是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "实行分封制"
+      },
+      {
+        "label": "B",
+        "text": "设立行省制度"
+      },
+      {
+        "label": "C",
+        "text": "采用科举制度"
+      },
+      {
+        "label": "D",
+        "text": "实行郡县制"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "元朝统一后，设立行省制度，将全国划分为行省，设置行中书省等机构，加强中央集权，替代前代分封制、郡县制等，形成创新。"
+  },
+  {
+    "id": "history-266",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "明朝专制",
+    "question": "下列哪项不是明朝专制制度的表现？",
+    "options": [
+      {
+        "label": "A",
+        "text": "皇帝直接掌握军政大权"
+      },
+      {
+        "label": "B",
+        "text": "实行科举制度选拔官员"
+      },
+      {
+        "label": "C",
+        "text": "设立锦衣卫、东厂等特务机构"
+      },
+      {
+        "label": "D",
+        "text": "实行分封制，地方权力相对独立"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "本题要求选出不是明朝专制表现。明朝专制体现在皇权集中、科举选拔、特务监视。分封制在明朝已废止，地方权力由中央指派官员，故D不符合。"
+  },
+  {
+    "id": "history-267",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "清朝疆域",
+    "question": "关于清朝（1644‑1912）全盛时期的疆域，下列说法正确的是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "清朝的疆域仅在中原地区，尚未延伸至西北和北方的大漠地区。"
+      },
+      {
+        "label": "B",
+        "text": "清朝全盛时期疆域包括今天的蒙古高原、青藏高原以及新疆等地区。"
+      },
+      {
+        "label": "C",
+        "text": "清朝的东北疆域止于辽东半岛，未包括黑龙江流域和松花江流域。"
+      },
+      {
+        "label": "D",
+        "text": "清朝在鸦片战争后疆域大幅扩张，新增了大量领土。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "全盛时期疆域北至蒙古高原，西达新疆，南抵青藏高原，东包东北全境，B项准确；A、C、D均与史实不符。"
+  },
+  {
+    "id": "history-268",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "鸦片战争",
+    "question": "1840年爆发的第一次鸦片战争的根本原因是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "英国为扭转对华贸易逆差，向中国大量走私鸦片"
+      },
+      {
+        "label": "B",
+        "text": "清朝官员腐败，导致国内鸦片泛滥"
+      },
+      {
+        "label": "C",
+        "text": "中国对外闭关锁国，英国想打开中国市场"
+      },
+      {
+        "label": "D",
+        "text": "林则徐的强硬禁烟措施引起英国不满"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "战争根本原因是英国为扭转对华贸易逆差，利用鸦片走私获取白银，打开中国市场，故选A。"
+  },
+  {
+    "id": "history-269",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "洋务运动",
+    "question": "以下关于洋务运动的描述，哪项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "洋务运动彻底改变了清朝的政治制度"
+      },
+      {
+        "label": "B",
+        "text": "洋务运动主要是学习西方先进的科学技术"
+      },
+      {
+        "label": "C",
+        "text": "洋务运动在甲午战争中取得决定性胜利"
+      },
+      {
+        "label": "D",
+        "text": "洋务运动得到全体官员的一致支持"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "洋务运动旨在学习西方科技以自强，未改变政治制度，甲午战争失败，且遭部分官员反对，故正确答案为B。"
+  },
+  {
+    "id": "history-270",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "甲午战争",
+    "question": "甲午战争的直接导火索是（  ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "明治维新"
+      },
+      {
+        "label": "B",
+        "text": "朝鲜的东学党起义"
+      },
+      {
+        "label": "C",
+        "text": "太平天国运动"
+      },
+      {
+        "label": "D",
+        "text": "英法联军的侵略"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "1894年朝鲜东学党起义引发清朝出兵，日本借机侵华，直接导致甲午战争爆发，故选B。"
+  },
+  {
+    "id": "history-271",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "戊戌变法",
+    "question": "戊戌变法期间，清政府提出的改革措施中，不包括以下哪项？",
+    "options": [
+      {
+        "label": "A",
+        "text": "设立新式学堂"
+      },
+      {
+        "label": "B",
+        "text": "实行君主立宪"
+      },
+      {
+        "label": "C",
+        "text": "改革军制"
+      },
+      {
+        "label": "D",
+        "text": "实行土地改革"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "戊戌变法主要涉及教育、军事、政治改革，未涉及土地制度。因此选项D（实行土地改革）不在改革措施之列。"
+  },
+  {
+    "id": "history-272",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "辛亥革命",
+    "question": "辛亥革命最重要的历史意义是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "结束了两千多年的封建君主专制制度"
+      },
+      {
+        "label": "B",
+        "text": "建立了统一的民主共和国"
+      },
+      {
+        "label": "C",
+        "text": "完成了全民族的独立"
+      },
+      {
+        "label": "D",
+        "text": "建立了社会主义制度"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "辛亥革命结束了两千多年的封建君主专制，打开了共和新纪元；其他选项要么不符史实，要么为后事，故选A。"
+  },
+  {
+    "id": "history-273",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "五四运动",
+    "question": "1919 年五四运动的导火索是哪一事件？",
+    "options": [
+      {
+        "label": "A",
+        "text": "辛亥革命的爆发"
+      },
+      {
+        "label": "B",
+        "text": "巴黎和会上决定将德国在山东的权益转让给日本"
+      },
+      {
+        "label": "C",
+        "text": "中国共产党的成立"
+      },
+      {
+        "label": "D",
+        "text": "新文化运动的兴起"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "五四运动爆发的直接导火索是巴黎和会上决定将德国在山东的权益转让给日本，引发国内抗议，导致学生上街示威。"
+  },
+  {
+    "id": "history-274",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中共一大",
+    "question": "关于中国共产党第一次全国代表大会（中共一大），下列说法正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "1921年7月1日在北京召开"
+      },
+      {
+        "label": "B",
+        "text": "1921年7月23日在上海法租界召开"
+      },
+      {
+        "label": "C",
+        "text": "参加会议的代表全部来自学生组织"
+      },
+      {
+        "label": "D",
+        "text": "会议决定成立中华民国临时政府"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "中共一大于1921年7月23日在上海法租界望志路106号开幕。选项A时间地点错误；C代表不全是学生；D决定成立中华民国临时政府亦不符史实。"
+  },
+  {
+    "id": "history-275",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "抗日战争",
+    "question": "下列关于抗日战争的战役描述，哪项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "平型关大捷是中国军队在抗日战争中的首次大捷"
+      },
+      {
+        "label": "B",
+        "text": "台儿庄战役是一次失败的战役"
+      },
+      {
+        "label": "C",
+        "text": "淞沪会战是中国军队的全败"
+      },
+      {
+        "label": "D",
+        "text": "百团大战发生在1931年"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "平型关大捷是1937年9月八路军首次大规模对日胜利，符合‘首次大捷’，其他选项均与史实不符。"
+  },
+  {
+    "id": "history-276",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "解放战争",
+    "question": "1947年，人民解放军向____地区的挺进，被视为解放战争由防御转入进攻的标志？",
+    "options": [
+      {
+        "label": "A",
+        "text": "大别山"
+      },
+      {
+        "label": "B",
+        "text": "长江三角洲"
+      },
+      {
+        "label": "C",
+        "text": "西北地区"
+      },
+      {
+        "label": "D",
+        "text": "东北地区"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "1947年，解放军挺进大别山，标志从防御转向进攻，是解放战争的转折点。"
+  },
+  {
+    "id": "history-277",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "新中国成立",
+    "question": "1949年10月1日，毛泽东在天安门城楼上庄严宣布中华人民共和国成立，这次开国大典标志着（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国进入社会主义初级阶段"
+      },
+      {
+        "label": "B",
+        "text": "中国进入新民主主义社会"
+      },
+      {
+        "label": "C",
+        "text": "实现了中华民族的完全独立和人民当家作主"
+      },
+      {
+        "label": "D",
+        "text": "完成了全民族的大一统"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "开国大典标志着中华民族彻底摆脱外来压迫，取得完全独立，国家权力交给人民，实现人民当家作主。A、B、D均不符合当时实际，故选C。"
+  },
+  {
+    "id": "history-278",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "改革开放",
+    "question": "1978年，中国共产党第十一届三中全会确定了改革开放的总方针，这一决定标志着中国进入了什么历史时期？",
+    "options": [
+      {
+        "label": "A",
+        "text": "计划经济发展阶段"
+      },
+      {
+        "label": "B",
+        "text": "现代化建设新阶段"
+      },
+      {
+        "label": "C",
+        "text": "文化大革命时期"
+      },
+      {
+        "label": "D",
+        "text": "农业合作化阶段"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "1978年十一届三中全会决定实行改革开放，标志着中国从计划经济向现代化建设新阶段转变，进入改革开放和现代化建设的新时期。"
+  },
+  {
+    "id": "history-279",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "古代丝绸之路",
+    "question": "以下关于古代丝绸之路的描述，正确的是？",
+    "options": [
+      {
+        "label": "A",
+        "text": "丝绸之路全长约7000公里，仅有陆路。"
+      },
+      {
+        "label": "B",
+        "text": "丝绸之路的开通促进了东西方的经济、文化交流。"
+      },
+      {
+        "label": "C",
+        "text": "丝绸之路的起点是长安，终点是罗马。"
+      },
+      {
+        "label": "D",
+        "text": "丝绸之路只在汉代出现，唐代没有贸易往来。"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "选项A错误，因丝绸之路包括陆海两条路径；C不准确，终点并非单一；D错误，唐代仍有繁荣贸易。B正确，丝路开通促进东西方经济、文化交流。"
+  },
+  {
+    "id": "history-280",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "古代四大发明",
+    "question": "下列关于古代四大发明的说法，哪一项是错误的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "指南针最早出现于战国时期"
+      },
+      {
+        "label": "B",
+        "text": "火药最初是道家炼丹时偶然发现"
+      },
+      {
+        "label": "C",
+        "text": "造纸术在东汉蔡伦改进后才普及"
+      },
+      {
+        "label": "D",
+        "text": "活字印刷术是北宋时期沈括发明的"
+      }
+    ],
+    "answer": "D",
+    "grade": 9,
+    "explanation": "活字印刷是北宋毕升发明的，而非沈括；其他三项说法均符合史实，故选D。"
+  },
+  {
+    "id": "history-281",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "文艺复兴",
+    "question": "文艺复兴时期的核心思想是（ ）。",
+    "options": [
+      {
+        "label": "A",
+        "text": "人文主义"
+      },
+      {
+        "label": "B",
+        "text": "宗教神学"
+      },
+      {
+        "label": "C",
+        "text": "绝对君权"
+      },
+      {
+        "label": "D",
+        "text": "农业经济"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "文艺复兴以人为中心，强调人文主义，强调个人价值、古典文化的研究，区别于宗教神学、绝对君权和农业经济。"
+  },
+  {
+    "id": "history-282",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "启蒙运动",
+    "question": "以下哪位启蒙思想家在其著作《社会契约论》中系统阐述了“人民主权”和“社会契约”的概念？",
+    "options": [
+      {
+        "label": "A",
+        "text": "约翰·洛克"
+      },
+      {
+        "label": "B",
+        "text": "孟德斯鸠"
+      },
+      {
+        "label": "C",
+        "text": "让-雅克·卢梭"
+      },
+      {
+        "label": "D",
+        "text": "伏尔泰"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "《社会契约论》系统阐释人民主权与社会契约，是卢梭代表作；洛克、孟德斯鸠、伏尔泰的著作侧重不同，故选C。"
+  },
+  {
+    "id": "history-283",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "工业革命",
+    "question": "工业革命首先在哪个国家开始？",
+    "options": [
+      {
+        "label": "A",
+        "text": "英国"
+      },
+      {
+        "label": "B",
+        "text": "法国"
+      },
+      {
+        "label": "C",
+        "text": "德国"
+      },
+      {
+        "label": "D",
+        "text": "美国"
+      }
+    ],
+    "answer": "A",
+    "grade": 9,
+    "explanation": "工业革命起源于18世纪英国的纺织业技术革新和煤铁资源丰富，瓦特改良蒸汽机、工厂制度确立，使其成为首个完成工业化的国家。"
+  },
+  {
+    "id": "history-284",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "中国远古人类",
+    "question": "在已发现的中国远古人类化石中，哪一种被认为是最早的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "北京人"
+      },
+      {
+        "label": "B",
+        "text": "元谋人"
+      },
+      {
+        "label": "C",
+        "text": "山顶洞人"
+      },
+      {
+        "label": "D",
+        "text": "蓝田人"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "元谋人距今约170万年，是已知最早的人类化石。北京人、蓝田人稍晚，山顶洞人仅约2万年。选B。"
+  },
+  {
+    "id": "history-285",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "夏商周制度",
+    "question": "西周实施分封制的主要目的是什么？",
+    "options": [
+      {
+        "label": "A",
+        "text": "加强中央集权"
+      },
+      {
+        "label": "B",
+        "text": "巩固统治并分配土地"
+      },
+      {
+        "label": "C",
+        "text": "建立商业网络"
+      },
+      {
+        "label": "D",
+        "text": "促进科学技术创新"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "西周分封制把土地和人民分给宗亲和功臣，以巩固统治、建立宗法秩序，而非加强中央集权或促进商业、科技。"
+  },
+  {
+    "id": "history-286",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "春秋战国百家争鸣",
+    "question": "以下关于春秋战国时期各家思想的描述，哪一项是正确的？",
+    "options": [
+      {
+        "label": "A",
+        "text": "孔子提倡“法治”，主张用法律来约束人民"
+      },
+      {
+        "label": "B",
+        "text": "墨子提出“兼爱”，强调无差别的爱"
+      },
+      {
+        "label": "C",
+        "text": "老子主张“仁政”，强调君主要以德治国"
+      },
+      {
+        "label": "D",
+        "text": "庄子强调“以法治国”，提倡严厉的法律制度"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "孔子主张仁爱、礼治，非法治。墨子提倡兼爱、无差别的爱，符合题意。老子强调无为、顺其自然，庄子主张逍遥，亦非法治。故选B。"
+  },
+  {
+    "id": "history-287",
+    "subject": "history",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "秦统一中国",
+    "question": "秦始皇在统一六国后，为巩固统治，实行了哪项重要的制度改革？",
+    "options": [
+      {
+        "label": "A",
+        "text": "恢复分封制"
+      },
+      {
+        "label": "B",
+        "text": "建立郡县制"
+      },
+      {
+        "label": "C",
+        "text": "推行科举制"
+      },
+      {
+        "label": "D",
+        "text": "实行议会制"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "秦始皇统一六国后，为削弱诸侯势力、加强对地方的控制，废除分封，实行郡县制，由中央直接任命官员，有效巩固统一。"
+  },
+  {
+    "id": "history-modern-001",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中华人民共和国成立于（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1945年"
+      },
+      {
+        "label": "B",
+        "text": "1949年"
+      },
+      {
+        "label": "C",
+        "text": "1950年"
+      },
+      {
+        "label": "D",
+        "text": "1951年"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1949年10月1日，毛泽东在天安门城楼庄严宣告中华人民共和国中央人民政府成立"
+  },
+  {
+    "id": "history-modern-002",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "抗美援朝战争中，中国人民志愿军的司令员是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "朱德"
+      },
+      {
+        "label": "B",
+        "text": "彭德怀"
+      },
+      {
+        "label": "C",
+        "text": "林彪"
+      },
+      {
+        "label": "D",
+        "text": "刘伯承"
+      }
+    ],
+    "answer": "B",
+    "explanation": "彭德怀任中国人民志愿军司令员兼政治委员，率部赴朝作战"
+  },
+  {
+    "id": "history-modern-003",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "我国第一个五年计划实施的时间是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1949-1953年"
+      },
+      {
+        "label": "B",
+        "text": "1953-1957年"
+      },
+      {
+        "label": "C",
+        "text": "1956-1960年"
+      },
+      {
+        "label": "D",
+        "text": "1958-1962年"
+      }
+    ],
+    "answer": "B",
+    "explanation": "第一个五年计划（1953-1957年），优先发展重工业，初步奠定了社会主义工业化的基础"
+  },
+  {
+    "id": "history-modern-004",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "作出改革开放重大决策的会议是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "中共八大"
+      },
+      {
+        "label": "B",
+        "text": "中共十一届三中全会"
+      },
+      {
+        "label": "C",
+        "text": "中共十四大"
+      },
+      {
+        "label": "D",
+        "text": "中共十五大"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1978年12月召开的中共十一届三中全会，确立了改革开放的重大战略决策"
+  },
+  {
+    "id": "history-modern-005",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "中国第一个经济特区是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "深圳"
+      },
+      {
+        "label": "B",
+        "text": "珠海"
+      },
+      {
+        "label": "C",
+        "text": "汕头"
+      },
+      {
+        "label": "D",
+        "text": "海南"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1980年，深圳、珠海、汕头、厦门成为首批经济特区，其中深圳发展最快，被誉为\"一夜崛起之城\""
+  },
+  {
+    "id": "history-modern-006",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "万隆会议召开于（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1953年"
+      },
+      {
+        "label": "B",
+        "text": "1954年"
+      },
+      {
+        "label": "C",
+        "text": "1955年"
+      },
+      {
+        "label": "D",
+        "text": "1956年"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1955年4月，周恩来率团参加在印度尼西亚万隆举行的亚非会议，提出\"求同存异\"原则"
+  },
+  {
+    "id": "history-modern-007",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "1997年回归祖国的是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "台湾"
+      },
+      {
+        "label": "B",
+        "text": "香港"
+      },
+      {
+        "label": "C",
+        "text": "澳门"
+      },
+      {
+        "label": "D",
+        "text": "澳门半岛"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1997年7月1日，香港回归祖国；1999年12月20日，澳门回归祖国"
+  },
+  {
+    "id": "history-modern-008",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国恢复在联合国的合法席位是在（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1949年"
+      },
+      {
+        "label": "B",
+        "text": "1955年"
+      },
+      {
+        "label": "C",
+        "text": "1971年"
+      },
+      {
+        "label": "D",
+        "text": "1978年"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1971年10月25日，第26届联合国大会通过决议，恢复中华人民共和国在联合国的一切合法权利"
+  },
+  {
+    "id": "history-modern-009",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "中国加入世界贸易组织（WTO）的时间是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1995年"
+      },
+      {
+        "label": "B",
+        "text": "1999年"
+      },
+      {
+        "label": "C",
+        "text": "2001年"
+      },
+      {
+        "label": "D",
+        "text": "2003年"
+      }
+    ],
+    "answer": "C",
+    "explanation": "2001年12月11日，中国正式成为世界贸易组织成员，标志着中国对外开放进入新阶段"
+  },
+  {
+    "id": "history-modern-010",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "1970年，中国成功发射的第一颗人造地球卫星是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "东方红一号"
+      },
+      {
+        "label": "B",
+        "text": "神舟一号"
+      },
+      {
+        "label": "C",
+        "text": "长征一号"
+      },
+      {
+        "label": "D",
+        "text": "风云一号"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1970年4月24日，东方红一号卫星发射成功，使中国成为世界上第五个能独立发射人造卫星的国家"
+  },
+  {
+    "id": "history-modern-011",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "2008年，中国成功举办奥运会是在（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "北京"
+      },
+      {
+        "label": "B",
+        "text": "上海"
+      },
+      {
+        "label": "C",
+        "text": "广州"
+      },
+      {
+        "label": "D",
+        "text": "深圳"
+      }
+    ],
+    "answer": "A",
+    "explanation": "2008年8月8日，北京第29届夏季奥林匹克运动会开幕，中国金牌数居首位"
+  },
+  {
+    "id": "history-modern-012",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "标志着\"改革开放\"起步的历史事件是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "十一届三中全会的召开"
+      },
+      {
+        "label": "B",
+        "text": "深圳等经济特区的建立"
+      },
+      {
+        "label": "C",
+        "text": "农村家庭联产承包责任制"
+      },
+      {
+        "label": "D",
+        "text": "国有企业改革"
+      }
+    ],
+    "answer": "A",
+    "explanation": "十一届三中全会是改革开放的起点，此后才有经济特区等具体措施"
+  },
+  {
+    "id": "history-modern-013",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国第一部社会主义宪法制定于（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1949年"
+      },
+      {
+        "label": "B",
+        "text": "1950年"
+      },
+      {
+        "label": "C",
+        "text": "1954年"
+      },
+      {
+        "label": "D",
+        "text": "1975年"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1954年9月，第一届全国人民代表大会通过《中华人民共和国宪法》，这是中国第一部社会主义宪法"
+  },
+  {
+    "id": "history-modern-014",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "周恩来在外交方面的主要贡献不包括（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "提出和平共处五项原则"
+      },
+      {
+        "label": "B",
+        "text": "出席万隆会议"
+      },
+      {
+        "label": "C",
+        "text": "尼克松访华的幕后推手"
+      },
+      {
+        "label": "D",
+        "text": "领导改革开放"
+      }
+    ],
+    "answer": "D",
+    "explanation": "周恩来在外交上有重大贡献，但领导改革开放的是邓小平等，邓小平是改革开放的总设计师"
+  },
+  {
+    "id": "history-modern-015",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "1999年12月20日，澳门回归祖国，其行政长官是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "何厚铧"
+      },
+      {
+        "label": "B",
+        "text": "崔世安"
+      },
+      {
+        "label": "C",
+        "text": "林郑月娥"
+      },
+      {
+        "label": "D",
+        "text": "梁振英"
+      }
+    ],
+    "answer": "A",
+    "explanation": "何厚铧是澳门特别行政区第一任行政长官（1999-2009年），澳门从此回到祖国怀抱"
+  },
+  {
+    "id": "history-modern-016",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国成功爆炸第一颗原子弹的时间是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1960年"
+      },
+      {
+        "label": "B",
+        "text": "1964年"
+      },
+      {
+        "label": "C",
+        "text": "1967年"
+      },
+      {
+        "label": "D",
+        "text": "1970年"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1964年10月16日，中国在新疆罗布泊成功爆炸第一颗原子弹，打破了超级大国的核垄断"
+  },
+  {
+    "id": "history-modern-017",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史",
+      "改革开放"
+    ],
+    "question": "邓小平被称为中国改革开放的总设计师，主要因为他（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "指挥了抗日战争"
+      },
+      {
+        "label": "B",
+        "text": "领导了新民主主义革命"
+      },
+      {
+        "label": "C",
+        "text": "创立了社会主义市场经济理论"
+      },
+      {
+        "label": "D",
+        "text": "设计了中国现代化蓝图"
+      }
+    ],
+    "answer": "D",
+    "explanation": "邓小平为中国设计了\"三步走\"发展战略和改革开放的宏伟蓝图，被称为\"改革开放的总设计师\""
+  },
+  {
+    "id": "history-modern-018",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "中国进入特色社会主义新时代的标志是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "中共十五大"
+      },
+      {
+        "label": "B",
+        "text": "中共十八大"
+      },
+      {
+        "label": "C",
+        "text": "中共十九大"
+      },
+      {
+        "label": "D",
+        "text": "中共二十大"
+      }
+    ],
+    "answer": "C",
+    "explanation": "2017年中共十九大宣告，中国特色社会主义进入了新时代，这是我国发展的新的历史方位"
+  },
+  {
+    "id": "history-modern-019",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "土地改革运动完成的时间是（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "1950年"
+      },
+      {
+        "label": "B",
+        "text": "1951年"
+      },
+      {
+        "label": "C",
+        "text": "1952年"
+      },
+      {
+        "label": "D",
+        "text": "1953年"
+      }
+    ],
+    "answer": "C",
+    "explanation": "1950-1952年，新中国进行了土地改革，彻底废除了封建土地所有制，农民成为土地的主人"
+  },
+  {
+    "id": "history-modern-020",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "历史-中国现代史"
+    ],
+    "question": "\"一国两制\"构想首次提出是为了解决（）",
+    "options": [
+      {
+        "label": "A",
+        "text": "台湾问题"
+      },
+      {
+        "label": "B",
+        "text": "香港问题"
+      },
+      {
+        "label": "C",
+        "text": "澳门问题"
+      },
+      {
+        "label": "D",
+        "text": "西藏问题"
+      }
+    ],
+    "answer": "A",
+    "explanation": "\"一国两制\"是邓小平为解决台湾问题而提出的创造性构想，后成功用于香港、澳门回归"
+  },
+  {
+    "id": "hist-kz-011",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "造纸术的发明者是我国古代的",
+    "options": [
+      {
+        "label": "A",
+        "text": "蔡伦"
+      },
+      {
+        "label": "B",
+        "text": "毕昇"
+      },
+      {
+        "label": "C",
+        "text": "张衡"
+      },
+      {
+        "label": "D",
+        "text": "祖冲之"
+      }
+    ],
+    "answer": "A",
+    "explanation": "蔡伦改进造纸术"
+  },
+  {
+    "id": "hist-kz-012",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "我国有文字可考的历史从哪个朝代开始",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏朝"
+      },
+      {
+        "label": "B",
+        "text": "商朝"
+      },
+      {
+        "label": "C",
+        "text": "周朝"
+      },
+      {
+        "label": "D",
+        "text": "秦朝"
+      }
+    ],
+    "answer": "B",
+    "explanation": "商朝甲骨文是我国最早成熟文字"
+  },
+  {
+    "id": "hist-kz-013",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "科举制正式确立于",
+    "options": [
+      {
+        "label": "A",
+        "text": "隋朝"
+      },
+      {
+        "label": "B",
+        "text": "唐朝"
+      },
+      {
+        "label": "C",
+        "text": "宋朝"
+      },
+      {
+        "label": "D",
+        "text": "明朝"
+      }
+    ],
+    "answer": "A",
+    "explanation": "隋炀帝设进士科科举制确立"
+  },
+  {
+    "id": "hist-kz-014",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "郑和下西洋最远到达",
+    "options": [
+      {
+        "label": "A",
+        "text": "印度洋"
+      },
+      {
+        "label": "B",
+        "text": "非洲东海岸和红海沿岸"
+      },
+      {
+        "label": "C",
+        "text": "欧洲"
+      },
+      {
+        "label": "D",
+        "text": "美洲"
+      }
+    ],
+    "answer": "B",
+    "explanation": "郑和船队最远到达非洲东海岸和红海沿岸"
+  },
+  {
+    "id": "hist-kz-015",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "戊戌变法的领导者是",
+    "options": [
+      {
+        "label": "A",
+        "text": "洪秀全"
+      },
+      {
+        "label": "B",
+        "text": "康有为梁启超"
+      },
+      {
+        "label": "C",
+        "text": "孙中山"
+      },
+      {
+        "label": "D",
+        "text": "李鸿章"
+      }
+    ],
+    "answer": "B",
+    "explanation": "康有为梁启超领导戊戌变法"
+  },
+  {
+    "id": "hist-kz-016",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "洋务运动的根本目的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "学习西方技术"
+      },
+      {
+        "label": "B",
+        "text": "维护清朝统治"
+      },
+      {
+        "label": "C",
+        "text": "发展资本主义"
+      },
+      {
+        "label": "D",
+        "text": "抵抗外来侵略"
+      }
+    ],
+    "answer": "B",
+    "explanation": "洋务运动根本目的是维护清朝封建统治"
+  },
+  {
+    "id": "hist-kz-017",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "蒸汽机的改良者瓦特是哪国人",
+    "options": [
+      {
+        "label": "A",
+        "text": "美国"
+      },
+      {
+        "label": "B",
+        "text": "英国"
+      },
+      {
+        "label": "C",
+        "text": "法国"
+      },
+      {
+        "label": "D",
+        "text": "德国"
+      }
+    ],
+    "answer": "B",
+    "explanation": "瓦特是英国人"
+  },
+  {
+    "id": "hist-kz-018",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第二次工业革命的重要标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "蒸汽机广泛应用"
+      },
+      {
+        "label": "B",
+        "text": "电力广泛应用"
+      },
+      {
+        "label": "C",
+        "text": "计算机出现"
+      },
+      {
+        "label": "D",
+        "text": "核能利用"
+      }
+    ],
+    "answer": "B",
+    "explanation": "第二次工业革命以电力广泛应用为标志"
+  },
+  {
+    "id": "hist-kz-019",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第二次世界大战的转折点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "莫斯科保卫战"
+      },
+      {
+        "label": "B",
+        "text": "斯大林格勒战役"
+      },
+      {
+        "label": "C",
+        "text": "诺曼底登陆"
+      },
+      {
+        "label": "D",
+        "text": "珍珠港事件"
+      }
+    ],
+    "answer": "B",
+    "explanation": "斯大林格勒战役是二战转折点"
+  },
+  {
+    "id": "hist-kz-020",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "我国第一颗原子弹爆炸成功是在",
+    "options": [
+      {
+        "label": "A",
+        "text": "1964年"
+      },
+      {
+        "label": "B",
+        "text": "1966年"
+      },
+      {
+        "label": "C",
+        "text": "1970年"
+      },
+      {
+        "label": "D",
+        "text": "1956年"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1964年10月16日第一颗原子弹爆炸成功"
+  },
+  {
+    "id": "hist-kz-021",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "我国第一部纪传体通史是",
+    "options": [
+      {
+        "label": "A",
+        "text": "汉书"
+      },
+      {
+        "label": "B",
+        "text": "史记"
+      },
+      {
+        "label": "C",
+        "text": "资治通鉴"
+      },
+      {
+        "label": "D",
+        "text": "春秋"
+      }
+    ],
+    "answer": "B",
+    "explanation": "司马迁史记是我国第一部纪传体通史"
+  },
+  {
+    "id": "hist-kz-022",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "秦始皇巩固统一的措施中在文化上的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "统一货币"
+      },
+      {
+        "label": "B",
+        "text": "统一文字"
+      },
+      {
+        "label": "C",
+        "text": "统一度量衡"
+      },
+      {
+        "label": "D",
+        "text": "修筑长城"
+      }
+    ],
+    "answer": "B",
+    "explanation": "文化上统一文字以小篆为标准"
+  },
+  {
+    "id": "hist-kz-023",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "汉武帝巩固大一统王朝在思想上采取的措施是",
+    "options": [
+      {
+        "label": "A",
+        "text": "焚书坑儒"
+      },
+      {
+        "label": "B",
+        "text": "罢黜百家独尊儒术"
+      },
+      {
+        "label": "C",
+        "text": "八股取士"
+      },
+      {
+        "label": "D",
+        "text": "文字狱"
+      }
+    ],
+    "answer": "B",
+    "explanation": "汉武帝采纳董仲舒罢黜百家独尊儒术"
+  },
+  {
+    "id": "hist-kz-024",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "丝绸之路的东方起点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "洛阳"
+      },
+      {
+        "label": "B",
+        "text": "长安"
+      },
+      {
+        "label": "C",
+        "text": "敦煌"
+      },
+      {
+        "label": "D",
+        "text": "北京"
+      }
+    ],
+    "answer": "B",
+    "explanation": "丝绸之路从长安出发"
+  },
+  {
+    "id": "hist-kz-025",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "三国鼎立局面形成的关键战役是",
+    "options": [
+      {
+        "label": "A",
+        "text": "官渡之战"
+      },
+      {
+        "label": "B",
+        "text": "赤壁之战"
+      },
+      {
+        "label": "C",
+        "text": "淝水之战"
+      },
+      {
+        "label": "D",
+        "text": "巨鹿之战"
+      }
+    ],
+    "answer": "B",
+    "explanation": "赤壁之战奠定三国鼎立基础"
+  },
+  {
+    "id": "hist-kz-026",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "隋朝大运河的中心是",
+    "options": [
+      {
+        "label": "A",
+        "text": "涿郡"
+      },
+      {
+        "label": "B",
+        "text": "洛阳"
+      },
+      {
+        "label": "C",
+        "text": "余杭"
+      },
+      {
+        "label": "D",
+        "text": "长安"
+      }
+    ],
+    "answer": "B",
+    "explanation": "隋朝大运河以洛阳为中心"
+  },
+  {
+    "id": "hist-kz-027",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "唐朝进入全盛时期是在",
+    "options": [
+      {
+        "label": "A",
+        "text": "贞观之治"
+      },
+      {
+        "label": "B",
+        "text": "开元盛世"
+      },
+      {
+        "label": "C",
+        "text": "康乾盛世"
+      },
+      {
+        "label": "D",
+        "text": "文景之治"
+      }
+    ],
+    "answer": "B",
+    "explanation": "唐玄宗开元年间唐朝进入全盛"
+  },
+  {
+    "id": "hist-kz-028",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "活字印刷术的发明者是",
+    "options": [
+      {
+        "label": "A",
+        "text": "蔡伦"
+      },
+      {
+        "label": "B",
+        "text": "毕昇"
+      },
+      {
+        "label": "C",
+        "text": "张衡"
+      },
+      {
+        "label": "D",
+        "text": "祖冲之"
+      }
+    ],
+    "answer": "B",
+    "explanation": "北宋毕昇发明活字印刷术"
+  },
+  {
+    "id": "hist-kz-029",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "宋代商业繁荣南方经济发展的原因不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "北方人口南迁带来劳力技术"
+      },
+      {
+        "label": "B",
+        "text": "南方自然条件优越"
+      },
+      {
+        "label": "C",
+        "text": "政治中心南移"
+      },
+      {
+        "label": "D",
+        "text": "闭关锁国"
+      }
+    ],
+    "answer": "D",
+    "explanation": "宋代没有闭关锁国政策"
+  },
+  {
+    "id": "hist-kz-030",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "元朝时期形成了一个新的民族是",
+    "options": [
+      {
+        "label": "A",
+        "text": "回族"
+      },
+      {
+        "label": "B",
+        "text": "蒙古族"
+      },
+      {
+        "label": "C",
+        "text": "满族"
+      },
+      {
+        "label": "D",
+        "text": "维吾尔族"
+      }
+    ],
+    "answer": "A",
+    "explanation": "元朝时期形成回族"
+  },
+  {
+    "id": "hist-kz-031",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "明朝加强君权的措施有",
+    "options": [
+      {
+        "label": "A",
+        "text": "设丞相"
+      },
+      {
+        "label": "B",
+        "text": "废丞相设厂卫"
+      },
+      {
+        "label": "C",
+        "text": "开科举"
+      },
+      {
+        "label": "D",
+        "text": "削藩"
+      }
+    ],
+    "answer": "B",
+    "explanation": "明太祖废丞相设锦衣卫加强君权"
+  },
+  {
+    "id": "hist-kz-032",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "郑和七下西洋发生在",
+    "options": [
+      {
+        "label": "A",
+        "text": "唐朝"
+      },
+      {
+        "label": "B",
+        "text": "宋朝"
+      },
+      {
+        "label": "C",
+        "text": "明朝"
+      },
+      {
+        "label": "D",
+        "text": "清朝"
+      }
+    ],
+    "answer": "C",
+    "explanation": "郑和下西洋在明朝永乐年间"
+  },
+  {
+    "id": "hist-kz-033",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "第二次鸦片战争期间英法联军火烧的皇家园林是",
+    "options": [
+      {
+        "label": "A",
+        "text": "颐和园"
+      },
+      {
+        "label": "B",
+        "text": "圆明园"
+      },
+      {
+        "label": "C",
+        "text": "故宫"
+      },
+      {
+        "label": "D",
+        "text": "承德避暑山庄"
+      }
+    ],
+    "answer": "B",
+    "explanation": "英法联军火烧圆明园"
+  },
+  {
+    "id": "hist-kz-034",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "甲午中日战争后签订的不平等条约是",
+    "options": [
+      {
+        "label": "A",
+        "text": "南京条约"
+      },
+      {
+        "label": "B",
+        "text": "马关条约"
+      },
+      {
+        "label": "C",
+        "text": "辛丑条约"
+      },
+      {
+        "label": "D",
+        "text": "北京条约"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1895年签订马关条约"
+  },
+  {
+    "id": "hist-kz-035",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "戊戌变法持续了大约",
+    "options": [
+      {
+        "label": "A",
+        "text": "100天"
+      },
+      {
+        "label": "B",
+        "text": "10天"
+      },
+      {
+        "label": "C",
+        "text": "一年"
+      },
+      {
+        "label": "D",
+        "text": "一个月"
+      }
+    ],
+    "answer": "A",
+    "explanation": "戊戌变法又称百日维新持续约103天"
+  },
+  {
+    "id": "hist-kz-036",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "辛亥革命最伟大的历史功绩是",
+    "options": [
+      {
+        "label": "A",
+        "text": "推翻清朝"
+      },
+      {
+        "label": "B",
+        "text": "结束两千多年封建帝制"
+      },
+      {
+        "label": "C",
+        "text": "建立共和国"
+      },
+      {
+        "label": "D",
+        "text": "发展资本主义"
+      }
+    ],
+    "answer": "B",
+    "explanation": "辛亥革命结束君主专制制度"
+  },
+  {
+    "id": "hist-kz-037",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "我国社会主义制度基本建立的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "新中国成立"
+      },
+      {
+        "label": "B",
+        "text": "三大改造基本完成"
+      },
+      {
+        "label": "C",
+        "text": "改革开放"
+      },
+      {
+        "label": "D",
+        "text": "土地改革"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1956年三大改造完成社会主义制度建立"
+  },
+  {
+    "id": "hist-kz-038",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "新航路开辟的根本原因是",
+    "options": [
+      {
+        "label": "A",
+        "text": "航海技术进步"
+      },
+      {
+        "label": "B",
+        "text": "欧洲商品经济发展资本主义萌芽"
+      },
+      {
+        "label": "C",
+        "text": "传教需要"
+      },
+      {
+        "label": "D",
+        "text": "寻找黄金"
+      }
+    ],
+    "answer": "B",
+    "explanation": "资本主义萌芽是新航路开辟经济根源"
+  },
+  {
+    "id": "hist-kz-039",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "英国资产阶级革命结束的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "处死查理一世"
+      },
+      {
+        "label": "B",
+        "text": "光荣革命"
+      },
+      {
+        "label": "C",
+        "text": "权利法案颁布"
+      },
+      {
+        "label": "D",
+        "text": "内战结束"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1688年光荣革命标志革命完成"
+  },
+  {
+    "id": "hist-kz-040",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "美国独立战争开始的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "来克星顿枪声"
+      },
+      {
+        "label": "B",
+        "text": "波士顿倾茶事件"
+      },
+      {
+        "label": "C",
+        "text": "独立宣言发表"
+      },
+      {
+        "label": "D",
+        "text": "萨拉托加战役"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1775年来克星顿枪声标志独立战争开始"
+  },
+  {
+    "id": "hist-kz-041",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "法国大革命中颁布的纲领性文件是",
+    "options": [
+      {
+        "label": "A",
+        "text": "权利法案"
+      },
+      {
+        "label": "B",
+        "text": "人权宣言"
+      },
+      {
+        "label": "C",
+        "text": "独立宣言"
+      },
+      {
+        "label": "D",
+        "text": "法典"
+      }
+    ],
+    "answer": "B",
+    "explanation": "人权宣言是法国大革命纲领性文件"
+  },
+  {
+    "id": "hist-kz-042",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "马克思主义诞生的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "共产主义者同盟成立"
+      },
+      {
+        "label": "B",
+        "text": "共产党宣言发表"
+      },
+      {
+        "label": "C",
+        "text": "第一国际成立"
+      },
+      {
+        "label": "D",
+        "text": "巴黎公社建立"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1848年共产党宣言发表标志马克思主义诞生"
+  },
+  {
+    "id": "hist-kz-043",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "俄国1861年改革的性质是",
+    "options": [
+      {
+        "label": "A",
+        "text": "资产阶级革命"
+      },
+      {
+        "label": "B",
+        "text": "自上而下的资产阶级改革"
+      },
+      {
+        "label": "C",
+        "text": "无产阶级革命"
+      },
+      {
+        "label": "D",
+        "text": "农奴起义"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1861年改革是自上而下的资产阶级性质改革"
+  },
+  {
+    "id": "hist-kz-044",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第一次世界大战爆发的年份是",
+    "options": [
+      {
+        "label": "A",
+        "text": "1914年"
+      },
+      {
+        "label": "B",
+        "text": "1918年"
+      },
+      {
+        "label": "C",
+        "text": "1939年"
+      },
+      {
+        "label": "D",
+        "text": "1945年"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1914年萨拉热窝事件引发一战"
+  },
+  {
+    "id": "hist-kz-045",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第二次世界大战全面爆发的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "德国突袭波兰"
+      },
+      {
+        "label": "B",
+        "text": "珍珠港事件"
+      },
+      {
+        "label": "C",
+        "text": "诺曼底登陆"
+      },
+      {
+        "label": "D",
+        "text": "德国进攻苏联"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1939年德国突袭波兰二战全面爆发"
+  },
+  {
+    "id": "hist-kz-046",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "冷战开始的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "杜鲁门主义出台"
+      },
+      {
+        "label": "B",
+        "text": "马歇尔计划"
+      },
+      {
+        "label": "C",
+        "text": "北约成立"
+      },
+      {
+        "label": "D",
+        "text": "华约成立"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1947年杜鲁门主义出台标志冷战开始"
+  },
+  {
+    "id": "hist-kz-047",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "我国第一颗人造地球卫星是",
+    "options": [
+      {
+        "label": "A",
+        "text": "东方红一号"
+      },
+      {
+        "label": "B",
+        "text": "神舟一号"
+      },
+      {
+        "label": "C",
+        "text": "嫦娥一号"
+      },
+      {
+        "label": "D",
+        "text": "北斗"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1970年发射东方红一号卫星"
+  },
+  {
+    "id": "hist-kz-048",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "经济特区中位于广东省的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "深圳珠海汕头"
+      },
+      {
+        "label": "B",
+        "text": "厦门"
+      },
+      {
+        "label": "C",
+        "text": "海南"
+      },
+      {
+        "label": "D",
+        "text": "上海浦东"
+      }
+    ],
+    "answer": "A",
+    "explanation": "深圳珠海汕头都在广东"
+  },
+  {
+    "id": "hist-kz-049",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "科举制在哪一时期被废除",
+    "options": [
+      {
+        "label": "A",
+        "text": "隋朝"
+      },
+      {
+        "label": "B",
+        "text": "唐朝"
+      },
+      {
+        "label": "C",
+        "text": "明朝"
+      },
+      {
+        "label": "D",
+        "text": "清朝末年"
+      }
+    ],
+    "answer": "D",
+    "explanation": "1905年清政府废除科举制"
+  },
+  {
+    "id": "hist-kz-050",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "五四运动爆发的直接原因是",
+    "options": [
+      {
+        "label": "A",
+        "text": "巴黎和会外交失败"
+      },
+      {
+        "label": "B",
+        "text": "辛亥革命"
+      },
+      {
+        "label": "C",
+        "text": "新文化运动"
+      },
+      {
+        "label": "D",
+        "text": "甲午战争"
+      }
+    ],
+    "answer": "A",
+    "explanation": "巴黎和会中国外交失败引发五四运动"
   }
 ]

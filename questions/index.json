@@ -2,50 +2,51 @@
   "version": "20260415-1",
   "updatedAt": "2026-07-19",
   "subjects": {
+    "chinese": {
+      "file": "chinese.json",
+      "count": 420,
+      "version": "20260719-1"
+    },
     "math": {
       "file": "math.json",
       "count": 336,
-      "version": "20260415-1"
+      "version": "20260719-1"
     },
     "english": {
       "file": "english.json",
       "count": 523,
-      "version": "20260415-1"
-    },
-    "chinese": {
-      "file": "chinese.json",
-      "count": 420,
-      "version": "20260415-1"
+      "version": "20260719-1"
     },
     "physics": {
       "file": "physics.json",
       "count": 215,
-      "version": "20260415-1"
+      "version": "20260719-1"
     },
     "chemistry": {
       "file": "chemistry.json",
       "count": 229,
-      "version": "20260415-1"
+      "version": "20260719-1"
     },
     "biology": {
       "file": "biology.json",
       "count": 232,
-      "version": "20260415-1"
+      "version": "20260719-1"
     },
     "history": {
       "file": "history.json",
-      "count": 175,
-      "version": "20260415-1"
+      "count": 205,
+      "version": "20260719-1"
     },
     "geography": {
       "file": "geography.json",
-      "count": 156,
-      "version": "20260415-1"
+      "count": 202,
+      "version": "20260719-1"
     },
     "politics": {
       "file": "politics.json",
-      "count": 132,
-      "version": "20260415-1"
+      "count": 202,
+      "version": "20260719-1"
     }
-  }
+  },
+  "questionBankVersion": "20260719-1"
 }

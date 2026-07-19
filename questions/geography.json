@@ -4550,5 +4550,1431 @@
     ],
     "answer": "A",
     "explanation": "太阳直射点在南北回归线之间移动"
+  },
+  {
+    "id": "geo-kz-018",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球与地图"
+    ],
+    "question": "赤道是",
+    "options": [
+      {
+        "label": "A",
+        "text": "0°纬线"
+      },
+      {
+        "label": "B",
+        "text": "0°经线"
+      },
+      {
+        "label": "C",
+        "text": "最长的经线"
+      },
+      {
+        "label": "D",
+        "text": "南北半球分界线但不是纬度"
+      }
+    ],
+    "answer": "A",
+    "explanation": "赤道是0°纬线也是南北半球分界线"
+  },
+  {
+    "id": "geo-kz-019",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国地势第二级阶梯和第三级阶梯的分界线是",
+    "options": [
+      {
+        "label": "A",
+        "text": "昆仑山祁连山横断山"
+      },
+      {
+        "label": "B",
+        "text": "大兴安岭太行山巫山雪峰山"
+      },
+      {
+        "label": "C",
+        "text": "秦岭淮河"
+      },
+      {
+        "label": "D",
+        "text": "天山阴山"
+      }
+    ],
+    "answer": "B",
+    "explanation": "二三级阶梯分界线为大兴安岭太行山巫山雪峰山"
+  },
+  {
+    "id": "geo-kz-020",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国最大的盆地是",
+    "options": [
+      {
+        "label": "A",
+        "text": "塔里木盆地"
+      },
+      {
+        "label": "B",
+        "text": "准噶尔盆地"
+      },
+      {
+        "label": "C",
+        "text": "柴达木盆地"
+      },
+      {
+        "label": "D",
+        "text": "四川盆地"
+      }
+    ],
+    "answer": "A",
+    "explanation": "塔里木盆地是我国最大盆地"
+  },
+  {
+    "id": "geo-kz-021",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "长江被称为黄金水道是因为",
+    "options": [
+      {
+        "label": "A",
+        "text": "水能丰富"
+      },
+      {
+        "label": "B",
+        "text": "航运价值高"
+      },
+      {
+        "label": "C",
+        "text": "水量大"
+      },
+      {
+        "label": "D",
+        "text": "流域面积广"
+      }
+    ],
+    "answer": "B",
+    "explanation": "长江航运价值高被称为黄金水道"
+  },
+  {
+    "id": "geo-kz-022",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "南方地区和北方地区的分界线大致是",
+    "options": [
+      {
+        "label": "A",
+        "text": "400mm等降水量线"
+      },
+      {
+        "label": "B",
+        "text": "秦岭淮河一线"
+      },
+      {
+        "label": "C",
+        "text": "长江"
+      },
+      {
+        "label": "D",
+        "text": "南岭"
+      }
+    ],
+    "answer": "B",
+    "explanation": "秦岭淮河是南北方分界线"
+  },
+  {
+    "id": "geo-kz-023",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国人口分布的特点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "均匀分布"
+      },
+      {
+        "label": "B",
+        "text": "东多西少"
+      },
+      {
+        "label": "C",
+        "text": "南多北少"
+      },
+      {
+        "label": "D",
+        "text": "西多东少"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国人口东多西少分布不均"
+  },
+  {
+    "id": "geo-kz-024",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "解决我国水资源时空分布不均的主要措施是",
+    "options": [
+      {
+        "label": "A",
+        "text": "开采地下水"
+      },
+      {
+        "label": "B",
+        "text": "跨流域调水和修建水库"
+      },
+      {
+        "label": "C",
+        "text": "海水淡化"
+      },
+      {
+        "label": "D",
+        "text": "限制用水"
+      }
+    ],
+    "answer": "B",
+    "explanation": "南水北调跨流域调水建水库调蓄"
+  },
+  {
+    "id": "geo-kz-025",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "亚洲的地势特征是",
+    "options": [
+      {
+        "label": "A",
+        "text": "中间高四周低"
+      },
+      {
+        "label": "B",
+        "text": "西高东低"
+      },
+      {
+        "label": "C",
+        "text": "南高北低"
+      },
+      {
+        "label": "D",
+        "text": "东高西低"
+      }
+    ],
+    "answer": "A",
+    "explanation": "亚洲地势中间高四周低"
+  },
+  {
+    "id": "geo-kz-026",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "东南亚位于哪两大洲之间",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚洲和欧洲"
+      },
+      {
+        "label": "B",
+        "text": "亚洲和大洋洲"
+      },
+      {
+        "label": "C",
+        "text": "亚洲和非洲"
+      },
+      {
+        "label": "D",
+        "text": "亚洲和美洲"
+      }
+    ],
+    "answer": "B",
+    "explanation": "东南亚位于亚洲与大洋洲之间"
+  },
+  {
+    "id": "geo-kz-027",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "世界上人口最多的大洲是",
+    "options": [
+      {
+        "label": "A",
+        "text": "亚洲"
+      },
+      {
+        "label": "B",
+        "text": "非洲"
+      },
+      {
+        "label": "C",
+        "text": "欧洲"
+      },
+      {
+        "label": "D",
+        "text": "美洲"
+      }
+    ],
+    "answer": "A",
+    "explanation": "亚洲人口约46亿居世界第一"
+  },
+  {
+    "id": "geo-kz-028",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "中东地区冲突不断的主要原因不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "石油资源"
+      },
+      {
+        "label": "B",
+        "text": "水资源"
+      },
+      {
+        "label": "C",
+        "text": "民族宗教"
+      },
+      {
+        "label": "D",
+        "text": "人口密度小"
+      }
+    ],
+    "answer": "D",
+    "explanation": "冲突主因是石油水源民族宗教非人口密度"
+  },
+  {
+    "id": "geo-kz-029",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "气候"
+    ],
+    "question": "温带季风气候的特征是",
+    "options": [
+      {
+        "label": "A",
+        "text": "终年高温多雨"
+      },
+      {
+        "label": "B",
+        "text": "夏季高温多雨冬季寒冷干燥"
+      },
+      {
+        "label": "C",
+        "text": "终年温和湿润"
+      },
+      {
+        "label": "D",
+        "text": "终年炎热干燥"
+      }
+    ],
+    "answer": "B",
+    "explanation": "温带季风夏季高温多雨冬季寒冷干燥"
+  },
+  {
+    "id": "geo-kz-030",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地图"
+    ],
+    "question": "在地图上判断方向最常用的方法是",
+    "options": [
+      {
+        "label": "A",
+        "text": "上南下北"
+      },
+      {
+        "label": "B",
+        "text": "上北下南左西右东"
+      },
+      {
+        "label": "C",
+        "text": "随意判断"
+      },
+      {
+        "label": "D",
+        "text": "看颜色"
+      }
+    ],
+    "answer": "B",
+    "explanation": "一般地图方向为上北下南左西右东"
+  },
+  {
+    "id": "geo-kz-031",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "影响我国气候的主要因素有",
+    "options": [
+      {
+        "label": "A",
+        "text": "纬度位置和海陆位置"
+      },
+      {
+        "label": "B",
+        "text": "仅有纬度"
+      },
+      {
+        "label": "C",
+        "text": "仅有海陆"
+      },
+      {
+        "label": "D",
+        "text": "仅有地形"
+      }
+    ],
+    "answer": "A",
+    "explanation": "纬度位置海陆位置地形影响我国气候"
+  },
+  {
+    "id": "geo-kz-032",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国少数民族集中分布在",
+    "options": [
+      {
+        "label": "A",
+        "text": "东南沿海"
+      },
+      {
+        "label": "B",
+        "text": "东北西北西南"
+      },
+      {
+        "label": "C",
+        "text": "华北平原"
+      },
+      {
+        "label": "D",
+        "text": "长江中下游"
+      }
+    ],
+    "answer": "B",
+    "explanation": "少数民族多分布在东北西北西南地区"
+  },
+  {
+    "id": "geo-kz-033",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "欧洲西部畜牧业发达的主要自然条件是",
+    "options": [
+      {
+        "label": "A",
+        "text": "地形平坦气候温和湿润"
+      },
+      {
+        "label": "B",
+        "text": "劳动力丰富"
+      },
+      {
+        "label": "C",
+        "text": "市场广阔"
+      },
+      {
+        "label": "D",
+        "text": "科技先进"
+      }
+    ],
+    "answer": "A",
+    "explanation": "温和湿润的温带海洋性气候适宜牧草生长"
+  },
+  {
+    "id": "geo-kz-034",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "下列城市中属于直辖市的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "深圳"
+      },
+      {
+        "label": "B",
+        "text": "重庆"
+      },
+      {
+        "label": "C",
+        "text": "青岛"
+      },
+      {
+        "label": "D",
+        "text": "大连"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国直辖市为京津沪渝重庆是之一"
+  },
+  {
+    "id": "geo-kz-035",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "乡土地理"
+    ],
+    "question": "保护生态环境我们应该",
+    "options": [
+      {
+        "label": "A",
+        "text": "随意排放污水"
+      },
+      {
+        "label": "B",
+        "text": "植树造林节约资源"
+      },
+      {
+        "label": "C",
+        "text": "过度放牧"
+      },
+      {
+        "label": "D",
+        "text": "滥砍滥伐"
+      }
+    ],
+    "answer": "B",
+    "explanation": "植树造林节约资源保护生态环境"
+  },
+  {
+    "id": "geo-kz-036",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球运动"
+    ],
+    "question": "地球公转一周的时间是",
+    "options": [
+      {
+        "label": "A",
+        "text": "一天"
+      },
+      {
+        "label": "B",
+        "text": "一年"
+      },
+      {
+        "label": "C",
+        "text": "一月"
+      },
+      {
+        "label": "D",
+        "text": "一小时"
+      }
+    ],
+    "answer": "B",
+    "explanation": "地球公转一周约365天即一年"
+  },
+  {
+    "id": "geo-kz-037",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国夏季气温最低的地区是",
+    "options": [
+      {
+        "label": "A",
+        "text": "漠河"
+      },
+      {
+        "label": "B",
+        "text": "青藏高原"
+      },
+      {
+        "label": "C",
+        "text": "吐鲁番"
+      },
+      {
+        "label": "D",
+        "text": "海南岛"
+      }
+    ],
+    "answer": "B",
+    "explanation": "青藏高原海拔高气温低"
+  },
+  {
+    "id": "geo-kz-038",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "黄河下游被称为地上河是因为",
+    "options": [
+      {
+        "label": "A",
+        "text": "河水清澈"
+      },
+      {
+        "label": "B",
+        "text": "泥沙淤积河床高于堤外地面"
+      },
+      {
+        "label": "C",
+        "text": "河道狭窄"
+      },
+      {
+        "label": "D",
+        "text": "水量小"
+      }
+    ],
+    "answer": "B",
+    "explanation": "黄河下游泥沙淤积使河床高于地面成地上河"
+  },
+  {
+    "id": "geo-kz-039",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "下列国家中位于南半球的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国"
+      },
+      {
+        "label": "B",
+        "text": "美国"
+      },
+      {
+        "label": "C",
+        "text": "澳大利亚"
+      },
+      {
+        "label": "D",
+        "text": "日本"
+      }
+    ],
+    "answer": "C",
+    "explanation": "澳大利亚位于南半球"
+  },
+  {
+    "id": "geo-kz-040",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "西气东输工程将天然气从西部地区输送到",
+    "options": [
+      {
+        "label": "A",
+        "text": "西部地区"
+      },
+      {
+        "label": "B",
+        "text": "东部地区"
+      },
+      {
+        "label": "C",
+        "text": "南部地区"
+      },
+      {
+        "label": "D",
+        "text": "北部地区"
+      }
+    ],
+    "answer": "B",
+    "explanation": "西气东输将西部天然气送往东部地区"
+  },
+  {
+    "id": "geo-kz-041",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "大洲大洋"
+    ],
+    "question": "被亚洲欧洲北美洲包围的大洋是",
+    "options": [
+      {
+        "label": "A",
+        "text": "太平洋"
+      },
+      {
+        "label": "B",
+        "text": "大西洋"
+      },
+      {
+        "label": "C",
+        "text": "印度洋"
+      },
+      {
+        "label": "D",
+        "text": "北冰洋"
+      }
+    ],
+    "answer": "D",
+    "explanation": "北冰洋被亚欧美三洲包围"
+  },
+  {
+    "id": "geo-kz-042",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国领土最南端在",
+    "options": [
+      {
+        "label": "A",
+        "text": "漠河"
+      },
+      {
+        "label": "B",
+        "text": "曾母暗沙"
+      },
+      {
+        "label": "C",
+        "text": "帕米尔高原"
+      },
+      {
+        "label": "D",
+        "text": "黑龙江"
+      }
+    ],
+    "answer": "B",
+    "explanation": "我国最南端为南沙群岛曾母暗沙"
+  },
+  {
+    "id": "geo-kz-043",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "日本工业集中分布在太平洋沿岸和濑户内海沿岸的主要原因是",
+    "options": [
+      {
+        "label": "A",
+        "text": "资源丰富"
+      },
+      {
+        "label": "B",
+        "text": "多优良港湾便于进口出口"
+      },
+      {
+        "label": "C",
+        "text": "劳动力廉价"
+      },
+      {
+        "label": "D",
+        "text": "气候温暖"
+      }
+    ],
+    "answer": "B",
+    "explanation": "沿海多良港便于原料进口产品出口"
+  },
+  {
+    "id": "geo-kz-044",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "世界上流量最大的河流是",
+    "options": [
+      {
+        "label": "A",
+        "text": "尼罗河"
+      },
+      {
+        "label": "B",
+        "text": "亚马孙河"
+      },
+      {
+        "label": "C",
+        "text": "长江"
+      },
+      {
+        "label": "D",
+        "text": "密西西比河"
+      }
+    ],
+    "answer": "B",
+    "explanation": "亚马孙河流量居世界首位"
+  },
+  {
+    "id": "geo-kz-045",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国四大地理区域中面积最大的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "北方地区"
+      },
+      {
+        "label": "B",
+        "text": "南方地区"
+      },
+      {
+        "label": "C",
+        "text": "西北地区"
+      },
+      {
+        "label": "D",
+        "text": "青藏地区"
+      }
+    ],
+    "answer": "C",
+    "explanation": "西北地区面积约占全国30%最大"
+  },
+  {
+    "id": "geo-kz-046",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "地球与地图"
+    ],
+    "question": "等高线地形图上坡度陡缓与等高线疏密的关系是",
+    "options": [
+      {
+        "label": "A",
+        "text": "等高线越密坡度越缓"
+      },
+      {
+        "label": "B",
+        "text": "等高线越密坡度越陡"
+      },
+      {
+        "label": "C",
+        "text": "无关"
+      },
+      {
+        "label": "D",
+        "text": "等高线闭合坡度缓"
+      }
+    ],
+    "answer": "B",
+    "explanation": "等高线越密表示坡度越陡"
+  },
+  {
+    "id": "geo-kz-047",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "北极地区代表性的动物是",
+    "options": [
+      {
+        "label": "A",
+        "text": "企鹅"
+      },
+      {
+        "label": "B",
+        "text": "北极熊"
+      },
+      {
+        "label": "C",
+        "text": "大象"
+      },
+      {
+        "label": "D",
+        "text": "袋鼠"
+      }
+    ],
+    "answer": "B",
+    "explanation": "北极熊是北极代表动物企鹅在南极"
+  },
+  {
+    "id": "geo-kz-048",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国南方地区的主要粮食作物是",
+    "options": [
+      {
+        "label": "A",
+        "text": "小麦"
+      },
+      {
+        "label": "B",
+        "text": "水稻"
+      },
+      {
+        "label": "C",
+        "text": "玉米"
+      },
+      {
+        "label": "D",
+        "text": "高粱"
+      }
+    ],
+    "answer": "B",
+    "explanation": "南方水热充足主要粮食作物为水稻"
+  },
+  {
+    "id": "geo-kz-049",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国降水的空间分布规律是",
+    "options": [
+      {
+        "label": "A",
+        "text": "从东南沿海向西北内陆递减"
+      },
+      {
+        "label": "B",
+        "text": "南少北多"
+      },
+      {
+        "label": "C",
+        "text": "均匀分布"
+      },
+      {
+        "label": "D",
+        "text": "东少西多"
+      }
+    ],
+    "answer": "A",
+    "explanation": "降水从东南沿海向西北内陆递减"
+  },
+  {
+    "id": "geo-kz-050",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "下列地形区位于第一级阶梯的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "黄土高原"
+      },
+      {
+        "label": "B",
+        "text": "青藏高原"
+      },
+      {
+        "label": "C",
+        "text": "华北平原"
+      },
+      {
+        "label": "D",
+        "text": "四川盆地"
+      }
+    ],
+    "answer": "B",
+    "explanation": "青藏高原位于第一级阶梯"
+  },
+  {
+    "id": "geo-kz-051",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国跨经度最广的省区是",
+    "options": [
+      {
+        "label": "A",
+        "text": "新疆"
+      },
+      {
+        "label": "B",
+        "text": "内蒙古"
+      },
+      {
+        "label": "C",
+        "text": "西藏"
+      },
+      {
+        "label": "D",
+        "text": "黑龙江"
+      }
+    ],
+    "answer": "B",
+    "explanation": "内蒙古跨经度最广"
+  },
+  {
+    "id": "geo-kz-052",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "长江上游水能丰富的主要原因是",
+    "options": [
+      {
+        "label": "A",
+        "text": "水量小"
+      },
+      {
+        "label": "B",
+        "text": "落差大水量大"
+      },
+      {
+        "label": "C",
+        "text": "河道宽"
+      },
+      {
+        "label": "D",
+        "text": "流速慢"
+      }
+    ],
+    "answer": "B",
+    "explanation": "上游落差大水量大水能丰富"
+  },
+  {
+    "id": "geo-kz-053",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "世界上面积最大的国家是",
+    "options": [
+      {
+        "label": "A",
+        "text": "中国"
+      },
+      {
+        "label": "B",
+        "text": "俄罗斯"
+      },
+      {
+        "label": "C",
+        "text": "加拿大"
+      },
+      {
+        "label": "D",
+        "text": "美国"
+      }
+    ],
+    "answer": "B",
+    "explanation": "俄罗斯面积世界第一"
+  },
+  {
+    "id": "geo-kz-054",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "下列山脉位于板块交界地震频繁的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "阿尔卑斯喜马拉雅带"
+      },
+      {
+        "label": "B",
+        "text": "天山"
+      },
+      {
+        "label": "C",
+        "text": "大兴安岭"
+      },
+      {
+        "label": "D",
+        "text": "太行山"
+      }
+    ],
+    "answer": "A",
+    "explanation": "阿尔卑斯喜马拉雅位于板块交界多地震"
+  },
+  {
+    "id": "geo-kz-055",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国西北地区的自然景观由东向西大致为",
+    "options": [
+      {
+        "label": "A",
+        "text": "草原荒漠草原荒漠"
+      },
+      {
+        "label": "B",
+        "text": "荒漠草原荒漠草原"
+      },
+      {
+        "label": "C",
+        "text": "森林草原荒漠"
+      },
+      {
+        "label": "D",
+        "text": "荒漠森林草原"
+      }
+    ],
+    "answer": "A",
+    "explanation": "自东向西降水减少呈草原荒漠草原荒漠"
+  },
+  {
+    "id": "geo-kz-056",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "台湾岛隔台湾海峡与哪个省相望",
+    "options": [
+      {
+        "label": "A",
+        "text": "广东"
+      },
+      {
+        "label": "B",
+        "text": "福建"
+      },
+      {
+        "label": "C",
+        "text": "浙江"
+      },
+      {
+        "label": "D",
+        "text": "海南"
+      }
+    ],
+    "answer": "B",
+    "explanation": "台湾与福建隔海相望"
+  },
+  {
+    "id": "geo-kz-057",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "撒哈拉以南非洲面临的主要问题是",
+    "options": [
+      {
+        "label": "A",
+        "text": "人口粮食环境"
+      },
+      {
+        "label": "B",
+        "text": "仅人口"
+      },
+      {
+        "label": "C",
+        "text": "仅环境"
+      },
+      {
+        "label": "D",
+        "text": "仅粮食"
+      }
+    ],
+    "answer": "A",
+    "explanation": "人口粮食环境三大问题突出"
+  },
+  {
+    "id": "geo-kz-058",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "世界地理"
+    ],
+    "question": "世界上最长的山脉是",
+    "options": [
+      {
+        "label": "A",
+        "text": "安第斯山脉"
+      },
+      {
+        "label": "B",
+        "text": "喜马拉雅山脉"
+      },
+      {
+        "label": "C",
+        "text": "阿尔卑斯山脉"
+      },
+      {
+        "label": "D",
+        "text": "落基山脉"
+      }
+    ],
+    "answer": "A",
+    "explanation": "安第斯山脉世界最长"
+  },
+  {
+    "id": "geo-kz-059",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "有利于我国农业可持续发展的措施有",
+    "options": [
+      {
+        "label": "A",
+        "text": "退耕还林还草"
+      },
+      {
+        "label": "B",
+        "text": "过度开垦"
+      },
+      {
+        "label": "C",
+        "text": "大水漫灌"
+      },
+      {
+        "label": "D",
+        "text": "滥施化肥"
+      }
+    ],
+    "answer": "A",
+    "explanation": "退耕还林还草利于可持续发展"
+  },
+  {
+    "id": "geo-kz-060",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "京杭大运河沟通的水系自北向南不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "海河黄河淮河"
+      },
+      {
+        "label": "B",
+        "text": "长江钱塘江"
+      },
+      {
+        "label": "C",
+        "text": "珠江"
+      },
+      {
+        "label": "D",
+        "text": "黄河长江"
+      }
+    ],
+    "answer": "C",
+    "explanation": "京杭运河未沟通珠江"
+  },
+  {
+    "id": "geo-kz-061",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "气候"
+    ],
+    "question": "地中海气候的特征是",
+    "options": [
+      {
+        "label": "A",
+        "text": "夏季炎热干燥冬季温和多雨"
+      },
+      {
+        "label": "B",
+        "text": "终年温和多雨"
+      },
+      {
+        "label": "C",
+        "text": "终年炎热多雨"
+      },
+      {
+        "label": "D",
+        "text": "终年寒冷干燥"
+      }
+    ],
+    "answer": "A",
+    "explanation": "地中海气候夏干冬雨"
+  },
+  {
+    "id": "geo-kz-062",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国地理"
+    ],
+    "question": "我国自然灾害多发的主要原因有",
+    "options": [
+      {
+        "label": "A",
+        "text": "地处板块交界和季风气候显著"
+      },
+      {
+        "label": "B",
+        "text": "仅有地形"
+      },
+      {
+        "label": "C",
+        "text": "仅有纬度"
+      },
+      {
+        "label": "D",
+        "text": "人烟稀少"
+      }
+    ],
+    "answer": "A",
+    "explanation": "板块交界和季风气候使灾害多发"
+  },
+  {
+    "id": "geo-kz-063",
+    "type": "choice",
+    "subject": "geography",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "地球与地图"
+    ],
+    "question": "比例尺越大表示的范围越",
+    "options": [
+      {
+        "label": "A",
+        "text": "小内容越详细"
+      },
+      {
+        "label": "B",
+        "text": "大内容越简略"
+      },
+      {
+        "label": "C",
+        "text": "无关"
+      },
+      {
+        "label": "D",
+        "text": "不变"
+      }
+    ],
+    "answer": "A",
+    "explanation": "比例尺越大范围越小内容越详细"
   }
 ]

@@ -1760,7 +1760,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（周朝在分封制的基础上，进一步确立了宗法制和礼乐制度。）。"
   },
   {
     "id": "history-205",
@@ -1904,7 +1905,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（唐朝的对外战争频繁，边疆冲突不断）。"
   },
   {
     "id": "history-210",
@@ -1932,7 +1934,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（宋代实行‘海禁’政策，禁止对外贸易）。"
   },
   {
     "id": "history-211",
@@ -2047,7 +2050,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（《南京条约》）。"
   },
   {
     "id": "history-215",
@@ -2075,7 +2079,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（学习西方先进科技）。"
   },
   {
     "id": "history-216",
@@ -2132,7 +2137,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（学习西方，实行君主立宪制度）。"
   },
   {
     "id": "history-218",
@@ -2189,7 +2195,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（将德国在山东的权益转让给日本）。"
   },
   {
     "id": "history-220",
@@ -2362,7 +2369,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（丝绸之路的名称来源于古代中国的丝绸出口）。"
   },
   {
     "id": "history-226",
@@ -2477,7 +2485,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（蒸汽机的广泛使用）。"
   },
   {
     "id": "history-230",
@@ -3114,7 +3123,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（确立了以经济建设为中心的改革开放路线）。"
   },
   {
     "id": "history-252",
@@ -3229,7 +3239,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（孟德斯鸠）。"
   },
   {
     "id": "history-256",
@@ -3315,7 +3326,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（商）。"
   },
   {
     "id": "history-259",
@@ -5093,5 +5105,935 @@
     ],
     "answer": "A",
     "explanation": "1964年10月16日第一颗原子弹爆炸成功"
+  },
+  {
+    "id": "hist-kz-021",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "我国第一部纪传体通史是",
+    "options": [
+      {
+        "label": "A",
+        "text": "汉书"
+      },
+      {
+        "label": "B",
+        "text": "史记"
+      },
+      {
+        "label": "C",
+        "text": "资治通鉴"
+      },
+      {
+        "label": "D",
+        "text": "春秋"
+      }
+    ],
+    "answer": "B",
+    "explanation": "司马迁史记是我国第一部纪传体通史"
+  },
+  {
+    "id": "hist-kz-022",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "秦始皇巩固统一的措施中在文化上的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "统一货币"
+      },
+      {
+        "label": "B",
+        "text": "统一文字"
+      },
+      {
+        "label": "C",
+        "text": "统一度量衡"
+      },
+      {
+        "label": "D",
+        "text": "修筑长城"
+      }
+    ],
+    "answer": "B",
+    "explanation": "文化上统一文字以小篆为标准"
+  },
+  {
+    "id": "hist-kz-023",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "汉武帝巩固大一统王朝在思想上采取的措施是",
+    "options": [
+      {
+        "label": "A",
+        "text": "焚书坑儒"
+      },
+      {
+        "label": "B",
+        "text": "罢黜百家独尊儒术"
+      },
+      {
+        "label": "C",
+        "text": "八股取士"
+      },
+      {
+        "label": "D",
+        "text": "文字狱"
+      }
+    ],
+    "answer": "B",
+    "explanation": "汉武帝采纳董仲舒罢黜百家独尊儒术"
+  },
+  {
+    "id": "hist-kz-024",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "丝绸之路的东方起点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "洛阳"
+      },
+      {
+        "label": "B",
+        "text": "长安"
+      },
+      {
+        "label": "C",
+        "text": "敦煌"
+      },
+      {
+        "label": "D",
+        "text": "北京"
+      }
+    ],
+    "answer": "B",
+    "explanation": "丝绸之路从长安出发"
+  },
+  {
+    "id": "hist-kz-025",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "三国鼎立局面形成的关键战役是",
+    "options": [
+      {
+        "label": "A",
+        "text": "官渡之战"
+      },
+      {
+        "label": "B",
+        "text": "赤壁之战"
+      },
+      {
+        "label": "C",
+        "text": "淝水之战"
+      },
+      {
+        "label": "D",
+        "text": "巨鹿之战"
+      }
+    ],
+    "answer": "B",
+    "explanation": "赤壁之战奠定三国鼎立基础"
+  },
+  {
+    "id": "hist-kz-026",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "隋朝大运河的中心是",
+    "options": [
+      {
+        "label": "A",
+        "text": "涿郡"
+      },
+      {
+        "label": "B",
+        "text": "洛阳"
+      },
+      {
+        "label": "C",
+        "text": "余杭"
+      },
+      {
+        "label": "D",
+        "text": "长安"
+      }
+    ],
+    "answer": "B",
+    "explanation": "隋朝大运河以洛阳为中心"
+  },
+  {
+    "id": "hist-kz-027",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "唐朝进入全盛时期是在",
+    "options": [
+      {
+        "label": "A",
+        "text": "贞观之治"
+      },
+      {
+        "label": "B",
+        "text": "开元盛世"
+      },
+      {
+        "label": "C",
+        "text": "康乾盛世"
+      },
+      {
+        "label": "D",
+        "text": "文景之治"
+      }
+    ],
+    "answer": "B",
+    "explanation": "唐玄宗开元年间唐朝进入全盛"
+  },
+  {
+    "id": "hist-kz-028",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "活字印刷术的发明者是",
+    "options": [
+      {
+        "label": "A",
+        "text": "蔡伦"
+      },
+      {
+        "label": "B",
+        "text": "毕昇"
+      },
+      {
+        "label": "C",
+        "text": "张衡"
+      },
+      {
+        "label": "D",
+        "text": "祖冲之"
+      }
+    ],
+    "answer": "B",
+    "explanation": "北宋毕昇发明活字印刷术"
+  },
+  {
+    "id": "hist-kz-029",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "宋代商业繁荣南方经济发展的原因不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "北方人口南迁带来劳力技术"
+      },
+      {
+        "label": "B",
+        "text": "南方自然条件优越"
+      },
+      {
+        "label": "C",
+        "text": "政治中心南移"
+      },
+      {
+        "label": "D",
+        "text": "闭关锁国"
+      }
+    ],
+    "answer": "D",
+    "explanation": "宋代没有闭关锁国政策"
+  },
+  {
+    "id": "hist-kz-030",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "元朝时期形成了一个新的民族是",
+    "options": [
+      {
+        "label": "A",
+        "text": "回族"
+      },
+      {
+        "label": "B",
+        "text": "蒙古族"
+      },
+      {
+        "label": "C",
+        "text": "满族"
+      },
+      {
+        "label": "D",
+        "text": "维吾尔族"
+      }
+    ],
+    "answer": "A",
+    "explanation": "元朝时期形成回族"
+  },
+  {
+    "id": "hist-kz-031",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "明朝加强君权的措施有",
+    "options": [
+      {
+        "label": "A",
+        "text": "设丞相"
+      },
+      {
+        "label": "B",
+        "text": "废丞相设厂卫"
+      },
+      {
+        "label": "C",
+        "text": "开科举"
+      },
+      {
+        "label": "D",
+        "text": "削藩"
+      }
+    ],
+    "answer": "B",
+    "explanation": "明太祖废丞相设锦衣卫加强君权"
+  },
+  {
+    "id": "hist-kz-032",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "郑和七下西洋发生在",
+    "options": [
+      {
+        "label": "A",
+        "text": "唐朝"
+      },
+      {
+        "label": "B",
+        "text": "宋朝"
+      },
+      {
+        "label": "C",
+        "text": "明朝"
+      },
+      {
+        "label": "D",
+        "text": "清朝"
+      }
+    ],
+    "answer": "C",
+    "explanation": "郑和下西洋在明朝永乐年间"
+  },
+  {
+    "id": "hist-kz-033",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "第二次鸦片战争期间英法联军火烧的皇家园林是",
+    "options": [
+      {
+        "label": "A",
+        "text": "颐和园"
+      },
+      {
+        "label": "B",
+        "text": "圆明园"
+      },
+      {
+        "label": "C",
+        "text": "故宫"
+      },
+      {
+        "label": "D",
+        "text": "承德避暑山庄"
+      }
+    ],
+    "answer": "B",
+    "explanation": "英法联军火烧圆明园"
+  },
+  {
+    "id": "hist-kz-034",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "甲午中日战争后签订的不平等条约是",
+    "options": [
+      {
+        "label": "A",
+        "text": "南京条约"
+      },
+      {
+        "label": "B",
+        "text": "马关条约"
+      },
+      {
+        "label": "C",
+        "text": "辛丑条约"
+      },
+      {
+        "label": "D",
+        "text": "北京条约"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1895年签订马关条约"
+  },
+  {
+    "id": "hist-kz-035",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "戊戌变法持续了大约",
+    "options": [
+      {
+        "label": "A",
+        "text": "100天"
+      },
+      {
+        "label": "B",
+        "text": "10天"
+      },
+      {
+        "label": "C",
+        "text": "一年"
+      },
+      {
+        "label": "D",
+        "text": "一个月"
+      }
+    ],
+    "answer": "A",
+    "explanation": "戊戌变法又称百日维新持续约103天"
+  },
+  {
+    "id": "hist-kz-036",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "辛亥革命最伟大的历史功绩是",
+    "options": [
+      {
+        "label": "A",
+        "text": "推翻清朝"
+      },
+      {
+        "label": "B",
+        "text": "结束两千多年封建帝制"
+      },
+      {
+        "label": "C",
+        "text": "建立共和国"
+      },
+      {
+        "label": "D",
+        "text": "发展资本主义"
+      }
+    ],
+    "answer": "B",
+    "explanation": "辛亥革命结束君主专制制度"
+  },
+  {
+    "id": "hist-kz-037",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "我国社会主义制度基本建立的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "新中国成立"
+      },
+      {
+        "label": "B",
+        "text": "三大改造基本完成"
+      },
+      {
+        "label": "C",
+        "text": "改革开放"
+      },
+      {
+        "label": "D",
+        "text": "土地改革"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1956年三大改造完成社会主义制度建立"
+  },
+  {
+    "id": "hist-kz-038",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "新航路开辟的根本原因是",
+    "options": [
+      {
+        "label": "A",
+        "text": "航海技术进步"
+      },
+      {
+        "label": "B",
+        "text": "欧洲商品经济发展资本主义萌芽"
+      },
+      {
+        "label": "C",
+        "text": "传教需要"
+      },
+      {
+        "label": "D",
+        "text": "寻找黄金"
+      }
+    ],
+    "answer": "B",
+    "explanation": "资本主义萌芽是新航路开辟经济根源"
+  },
+  {
+    "id": "hist-kz-039",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "英国资产阶级革命结束的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "处死查理一世"
+      },
+      {
+        "label": "B",
+        "text": "光荣革命"
+      },
+      {
+        "label": "C",
+        "text": "权利法案颁布"
+      },
+      {
+        "label": "D",
+        "text": "内战结束"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1688年光荣革命标志革命完成"
+  },
+  {
+    "id": "hist-kz-040",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "美国独立战争开始的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "来克星顿枪声"
+      },
+      {
+        "label": "B",
+        "text": "波士顿倾茶事件"
+      },
+      {
+        "label": "C",
+        "text": "独立宣言发表"
+      },
+      {
+        "label": "D",
+        "text": "萨拉托加战役"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1775年来克星顿枪声标志独立战争开始"
+  },
+  {
+    "id": "hist-kz-041",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "法国大革命中颁布的纲领性文件是",
+    "options": [
+      {
+        "label": "A",
+        "text": "权利法案"
+      },
+      {
+        "label": "B",
+        "text": "人权宣言"
+      },
+      {
+        "label": "C",
+        "text": "独立宣言"
+      },
+      {
+        "label": "D",
+        "text": "法典"
+      }
+    ],
+    "answer": "B",
+    "explanation": "人权宣言是法国大革命纲领性文件"
+  },
+  {
+    "id": "hist-kz-042",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "马克思主义诞生的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "共产主义者同盟成立"
+      },
+      {
+        "label": "B",
+        "text": "共产党宣言发表"
+      },
+      {
+        "label": "C",
+        "text": "第一国际成立"
+      },
+      {
+        "label": "D",
+        "text": "巴黎公社建立"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1848年共产党宣言发表标志马克思主义诞生"
+  },
+  {
+    "id": "hist-kz-043",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "俄国1861年改革的性质是",
+    "options": [
+      {
+        "label": "A",
+        "text": "资产阶级革命"
+      },
+      {
+        "label": "B",
+        "text": "自上而下的资产阶级改革"
+      },
+      {
+        "label": "C",
+        "text": "无产阶级革命"
+      },
+      {
+        "label": "D",
+        "text": "农奴起义"
+      }
+    ],
+    "answer": "B",
+    "explanation": "1861年改革是自上而下的资产阶级性质改革"
+  },
+  {
+    "id": "hist-kz-044",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第一次世界大战爆发的年份是",
+    "options": [
+      {
+        "label": "A",
+        "text": "1914年"
+      },
+      {
+        "label": "B",
+        "text": "1918年"
+      },
+      {
+        "label": "C",
+        "text": "1939年"
+      },
+      {
+        "label": "D",
+        "text": "1945年"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1914年萨拉热窝事件引发一战"
+  },
+  {
+    "id": "hist-kz-045",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "第二次世界大战全面爆发的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "德国突袭波兰"
+      },
+      {
+        "label": "B",
+        "text": "珍珠港事件"
+      },
+      {
+        "label": "C",
+        "text": "诺曼底登陆"
+      },
+      {
+        "label": "D",
+        "text": "德国进攻苏联"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1939年德国突袭波兰二战全面爆发"
+  },
+  {
+    "id": "hist-kz-046",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "世界史"
+    ],
+    "question": "冷战开始的标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "杜鲁门主义出台"
+      },
+      {
+        "label": "B",
+        "text": "马歇尔计划"
+      },
+      {
+        "label": "C",
+        "text": "北约成立"
+      },
+      {
+        "label": "D",
+        "text": "华约成立"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1947年杜鲁门主义出台标志冷战开始"
+  },
+  {
+    "id": "hist-kz-047",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "我国第一颗人造地球卫星是",
+    "options": [
+      {
+        "label": "A",
+        "text": "东方红一号"
+      },
+      {
+        "label": "B",
+        "text": "神舟一号"
+      },
+      {
+        "label": "C",
+        "text": "嫦娥一号"
+      },
+      {
+        "label": "D",
+        "text": "北斗"
+      }
+    ],
+    "answer": "A",
+    "explanation": "1970年发射东方红一号卫星"
+  },
+  {
+    "id": "hist-kz-048",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国现代史"
+    ],
+    "question": "经济特区中位于广东省的有",
+    "options": [
+      {
+        "label": "A",
+        "text": "深圳珠海汕头"
+      },
+      {
+        "label": "B",
+        "text": "厦门"
+      },
+      {
+        "label": "C",
+        "text": "海南"
+      },
+      {
+        "label": "D",
+        "text": "上海浦东"
+      }
+    ],
+    "answer": "A",
+    "explanation": "深圳珠海汕头都在广东"
+  },
+  {
+    "id": "hist-kz-049",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "中国古代史"
+    ],
+    "question": "科举制在哪一时期被废除",
+    "options": [
+      {
+        "label": "A",
+        "text": "隋朝"
+      },
+      {
+        "label": "B",
+        "text": "唐朝"
+      },
+      {
+        "label": "C",
+        "text": "明朝"
+      },
+      {
+        "label": "D",
+        "text": "清朝末年"
+      }
+    ],
+    "answer": "D",
+    "explanation": "1905年清政府废除科举制"
+  },
+  {
+    "id": "hist-kz-050",
+    "type": "choice",
+    "subject": "history",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "中国近代史"
+    ],
+    "question": "五四运动爆发的直接原因是",
+    "options": [
+      {
+        "label": "A",
+        "text": "巴黎和会外交失败"
+      },
+      {
+        "label": "B",
+        "text": "辛亥革命"
+      },
+      {
+        "label": "C",
+        "text": "新文化运动"
+      },
+      {
+        "label": "D",
+        "text": "甲午战争"
+      }
+    ],
+    "answer": "A",
+    "explanation": "巴黎和会中国外交失败引发五四运动"
   }
 ]
