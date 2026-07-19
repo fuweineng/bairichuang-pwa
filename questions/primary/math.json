@@ -31,69 +31,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g1-002",
-    "type": "choice",
-    "question": "下列关于10以内数的认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "10以内数的认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "10以内数的认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "10以内数的认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "10以内数的认识只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "10以内数的认识"
-    ],
-    "grade": 1,
-    "explanation": "10以内数的认识是10以内数的认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g1-004",
-    "type": "choice",
-    "question": "下列关于10以内加减法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "10以内加减法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "10以内加减法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "10以内加减法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "10以内加减法只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "10以内加减法"
-    ],
-    "grade": 1,
-    "explanation": "10以内加减法是10以内加减法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g1-005",
     "type": "choice",
     "question": "下列关于10以内加减法的说法正确的是？",
     "options": [
@@ -155,69 +93,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g1-008",
-    "type": "choice",
-    "question": "下列关于20以内进位加法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "20以内进位加法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "20以内进位加法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "20以内进位加法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "20以内进位加法只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "20以内进位加法"
-    ],
-    "grade": 1,
-    "explanation": "20以内进位加法是20以内进位加法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g1-010",
-    "type": "choice",
-    "question": "下列关于20以内退位减法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "20以内退位减法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "20以内退位减法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "20以内退位减法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "20以内退位减法只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "20以内退位减法"
-    ],
-    "grade": 1,
-    "explanation": "20以内退位减法是20以内退位减法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g1-011",
     "type": "choice",
     "question": "下列关于20以内退位减法的说法正确的是？",
     "options": [
@@ -279,69 +155,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g1-014",
-    "type": "choice",
-    "question": "下列关于认识图形的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "认识图形是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "认识图形的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "认识图形是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "认识图形只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "认识图形"
-    ],
-    "grade": 1,
-    "explanation": "认识图形是认识图形的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g1-016",
-    "type": "choice",
-    "question": "下列关于位置与顺序的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "位置与顺序是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "位置与顺序的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "位置与顺序是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "位置与顺序只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "位置与顺序"
-    ],
-    "grade": 1,
-    "explanation": "位置与顺序是位置与顺序的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g1-017",
     "type": "choice",
     "question": "下列关于位置与顺序的说法正确的是？",
     "options": [
@@ -403,69 +217,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g1-020",
-    "type": "choice",
-    "question": "下列关于分类与比较的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "分类与比较是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "分类与比较的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "分类与比较是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "分类与比较只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "分类与比较"
-    ],
-    "grade": 1,
-    "explanation": "分类与比较是分类与比较的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g1-022",
-    "type": "choice",
-    "question": "下列关于规律填数的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "规律填数是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "规律填数的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "规律填数是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "规律填数只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "规律填数"
-    ],
-    "grade": 1,
-    "explanation": "规律填数是规律填数的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g1-023",
     "type": "choice",
     "question": "下列关于规律填数的说法正确的是？",
     "options": [
@@ -527,69 +279,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g2-002",
-    "type": "choice",
-    "question": "下列关于100以内数的认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "100以内数的认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "100以内数的认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "100以内数的认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "100以内数的认识只在特定条件下成立"
-      }
-    ],
-    "answer": "D",
-    "knowledgeTags": [
-      "100以内数的认识"
-    ],
-    "grade": 2,
-    "explanation": "100以内数的认识是100以内数的认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g2-005",
-    "type": "choice",
-    "question": "下列关于100以内加减法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "100以内加减法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "100以内加减法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "100以内加减法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "100以内加减法只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "100以内加减法"
-    ],
-    "grade": 2,
-    "explanation": "100以内加减法是100以内加减法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g2-006",
     "type": "choice",
     "question": "下列关于100以内加减法的说法正确的是？",
     "options": [
@@ -651,69 +341,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g2-010",
-    "type": "choice",
-    "question": "下列关于表内乘法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "表内乘法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "表内乘法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "表内乘法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "表内乘法只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "表内乘法"
-    ],
-    "grade": 2,
-    "explanation": "表内乘法是表内乘法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g2-013",
-    "type": "choice",
-    "question": "下列关于表内除法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "表内除法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "表内除法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "表内除法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "表内除法只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "表内除法"
-    ],
-    "grade": 2,
-    "explanation": "表内除法是表内除法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g2-014",
     "type": "choice",
     "question": "下列关于表内除法的说法正确的是？",
     "options": [
@@ -775,69 +403,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g2-018",
-    "type": "choice",
-    "question": "下列关于认识人民币的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "认识人民币是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "认识人民币的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "认识人民币是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "认识人民币只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "认识人民币"
-    ],
-    "grade": 2,
-    "explanation": "认识人民币是认识人民币的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g2-021",
-    "type": "choice",
-    "question": "下列关于认识时钟的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "认识时钟是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "认识时钟的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "认识时钟是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "认识时钟只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "认识时钟"
-    ],
-    "grade": 2,
-    "explanation": "认识时钟是认识时钟的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g2-022",
     "type": "choice",
     "question": "下列关于认识时钟的说法正确的是？",
     "options": [
@@ -899,69 +465,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g2-026",
-    "type": "choice",
-    "question": "下列关于观察物体的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "观察物体是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "观察物体的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "观察物体是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "观察物体只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "观察物体"
-    ],
-    "grade": 2,
-    "explanation": "观察物体是观察物体的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g2-029",
-    "type": "choice",
-    "question": "下列关于搭配问题的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "搭配问题是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "搭配问题的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "搭配问题是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "搭配问题只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "搭配问题"
-    ],
-    "grade": 2,
-    "explanation": "搭配问题是搭配问题的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g2-030",
     "type": "choice",
     "question": "下列关于搭配问题的说法正确的是？",
     "options": [
@@ -1023,69 +527,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g3-002",
-    "type": "choice",
-    "question": "下列关于万以内数的认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "万以内数的认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "万以内数的认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "万以内数的认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "万以内数的认识只在特定条件下成立"
-      }
-    ],
-    "answer": "D",
-    "knowledgeTags": [
-      "万以内数的认识"
-    ],
-    "grade": 3,
-    "explanation": "万以内数的认识是万以内数的认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g3-005",
-    "type": "choice",
-    "question": "下列关于万以内加减法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "万以内加减法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "万以内加减法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "万以内加减法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "万以内加减法只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "万以内加减法"
-    ],
-    "grade": 3,
-    "explanation": "万以内加减法是万以内加减法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g3-006",
     "type": "choice",
     "question": "下列关于万以内加减法的说法正确的是？",
     "options": [
@@ -1147,69 +589,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g3-010",
-    "type": "choice",
-    "question": "下列关于乘法竖式的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "乘法竖式是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "乘法竖式的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "乘法竖式是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "乘法竖式只在特定条件下成立"
-      }
-    ],
-    "answer": "D",
-    "knowledgeTags": [
-      "乘法竖式"
-    ],
-    "grade": 3,
-    "explanation": "乘法竖式是乘法竖式的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g3-013",
-    "type": "choice",
-    "question": "下列关于除法竖式的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "除法竖式是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "除法竖式的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "除法竖式是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "除法竖式只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "除法竖式"
-    ],
-    "grade": 3,
-    "explanation": "除法竖式是除法竖式的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g3-014",
     "type": "choice",
     "question": "下列关于除法竖式的说法正确的是？",
     "options": [
@@ -1271,69 +651,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g3-018",
-    "type": "choice",
-    "question": "下列关于四边形认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "四边形认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "四边形认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "四边形认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "四边形认识只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "四边形认识"
-    ],
-    "grade": 3,
-    "explanation": "四边形认识是四边形认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g3-021",
-    "type": "choice",
-    "question": "下列关于周长计算的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "周长计算是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "周长计算的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "周长计算是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "周长计算只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "周长计算"
-    ],
-    "grade": 3,
-    "explanation": "周长计算是周长计算的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g3-022",
     "type": "choice",
     "question": "下列关于周长计算的说法正确的是？",
     "options": [
@@ -1395,69 +713,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g3-026",
-    "type": "choice",
-    "question": "下列关于分数的初步认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "分数的初步认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "分数的初步认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "分数的初步认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "分数的初步认识只在特定条件下成立"
-      }
-    ],
-    "answer": "D",
-    "knowledgeTags": [
-      "分数的初步认识"
-    ],
-    "grade": 3,
-    "explanation": "分数的初步认识是分数的初步认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
     "id": "math-g3-029",
-    "type": "choice",
-    "question": "下列关于重量单位的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "重量单位是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "重量单位的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "重量单位是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "重量单位只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "重量单位"
-    ],
-    "grade": 3,
-    "explanation": "重量单位是重量单位的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "easy",
-    "subject": "math"
-  },
-  {
-    "id": "math-g3-030",
     "type": "choice",
     "question": "下列关于重量单位的说法正确的是？",
     "options": [
@@ -1519,69 +775,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g4-002",
-    "type": "choice",
-    "question": "下列关于大数的认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "大数的认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "大数的认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "大数的认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "大数的认识只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "大数的认识"
-    ],
-    "grade": 4,
-    "explanation": "大数的认识是大数的认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g4-005",
-    "type": "choice",
-    "question": "下列关于公顷和平方千米的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "公顷和平方千米是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "公顷和平方千米的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "公顷和平方千米是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "公顷和平方千米只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "公顷和平方千米"
-    ],
-    "grade": 4,
-    "explanation": "公顷和平方千米是公顷和平方千米的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g4-006",
     "type": "choice",
     "question": "下列关于公顷和平方千米的说法正确的是？",
     "options": [
@@ -1643,69 +837,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g4-010",
-    "type": "choice",
-    "question": "下列关于角的度量的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "角的度量是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "角的度量的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "角的度量是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "角的度量只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "角的度量"
-    ],
-    "grade": 4,
-    "explanation": "角的度量是角的度量的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g4-013",
-    "type": "choice",
-    "question": "下列关于垂线与平行线的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "垂线与平行线是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "垂线与平行线的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "垂线与平行线是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "垂线与平行线只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "垂线与平行线"
-    ],
-    "grade": 4,
-    "explanation": "垂线与平行线是垂线与平行线的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g4-014",
     "type": "choice",
     "question": "下列关于垂线与平行线的说法正确的是？",
     "options": [
@@ -1767,69 +899,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g4-018",
-    "type": "choice",
-    "question": "下列关于三位数乘两位数的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "三位数乘两位数是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "三位数乘两位数的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "三位数乘两位数是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "三位数乘两位数只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "三位数乘两位数"
-    ],
-    "grade": 4,
-    "explanation": "三位数乘两位数是三位数乘两位数的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g4-021",
-    "type": "choice",
-    "question": "下列关于除数是两位数的除法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "除数是两位数的除法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "除数是两位数的除法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "除数是两位数的除法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "除数是两位数的除法只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "除数是两位数的除法"
-    ],
-    "grade": 4,
-    "explanation": "除数是两位数的除法是除数是两位数的除法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g4-022",
     "type": "choice",
     "question": "下列关于除数是两位数的除法的说法正确的是？",
     "options": [
@@ -1891,69 +961,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g4-026",
-    "type": "choice",
-    "question": "下列关于条形统计图的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "条形统计图是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "条形统计图的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "条形统计图是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "条形统计图只在特定条件下成立"
-      }
-    ],
-    "answer": "D",
-    "knowledgeTags": [
-      "条形统计图"
-    ],
-    "grade": 4,
-    "explanation": "条形统计图是条形统计图的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g4-029",
-    "type": "choice",
-    "question": "下列关于烙饼问题的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "烙饼问题是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "烙饼问题的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "烙饼问题是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "烙饼问题只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "烙饼问题"
-    ],
-    "grade": 4,
-    "explanation": "烙饼问题是烙饼问题的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g4-030",
     "type": "choice",
     "question": "下列关于烙饼问题的说法正确的是？",
     "options": [
@@ -2015,69 +1023,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g5-002",
-    "type": "choice",
-    "question": "下列关于小数认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小数认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "小数认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "小数认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "小数认识只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "小数认识"
-    ],
-    "grade": 5,
-    "explanation": "小数认识是小数认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g5-005",
-    "type": "choice",
-    "question": "下列关于小数加减法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小数加减法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "小数加减法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "小数加减法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "小数加减法只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "小数加减法"
-    ],
-    "grade": 5,
-    "explanation": "小数加减法是小数加减法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g5-006",
     "type": "choice",
     "question": "下列关于小数加减法的说法正确的是？",
     "options": [
@@ -2139,69 +1085,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g5-010",
-    "type": "choice",
-    "question": "下列关于三角形特性的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "三角形特性是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "三角形特性的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "三角形特性是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "三角形特性只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "三角形特性"
-    ],
-    "grade": 5,
-    "explanation": "三角形特性是三角形特性的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g5-013",
-    "type": "choice",
-    "question": "下列关于位置与坐标的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "位置与坐标是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "位置与坐标的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "位置与坐标是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "位置与坐标只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "位置与坐标"
-    ],
-    "grade": 5,
-    "explanation": "位置与坐标是位置与坐标的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g5-014",
     "type": "choice",
     "question": "下列关于位置与坐标的说法正确的是？",
     "options": [
@@ -2263,69 +1147,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g5-018",
-    "type": "choice",
-    "question": "下列关于小数乘法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小数乘法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "小数乘法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "小数乘法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "小数乘法只在特定条件下成立"
-      }
-    ],
-    "answer": "D",
-    "knowledgeTags": [
-      "小数乘法"
-    ],
-    "grade": 5,
-    "explanation": "小数乘法是小数乘法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g5-021",
-    "type": "choice",
-    "question": "下列关于小数除法的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "小数除法是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "小数除法的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "小数除法是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "小数除法只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "小数除法"
-    ],
-    "grade": 5,
-    "explanation": "小数除法是小数除法的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g5-022",
     "type": "choice",
     "question": "下列关于小数除法的说法正确的是？",
     "options": [
@@ -2387,69 +1209,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g5-026",
-    "type": "choice",
-    "question": "下列关于折线统计图的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "折线统计图是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "折线统计图的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "折线统计图是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "折线统计图只在特定条件下成立"
-      }
-    ],
-    "answer": "D",
-    "knowledgeTags": [
-      "折线统计图"
-    ],
-    "grade": 5,
-    "explanation": "折线统计图是折线统计图的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g5-029",
-    "type": "choice",
-    "question": "下列关于植树问题的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "植树问题是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "植树问题的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "植树问题是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "植树问题只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "植树问题"
-    ],
-    "grade": 5,
-    "explanation": "植树问题是植树问题的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g5-030",
     "type": "choice",
     "question": "下列关于植树问题的说法正确的是？",
     "options": [
@@ -2511,69 +1271,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g6-002",
-    "type": "choice",
-    "question": "下列关于分数的意义的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "分数的意义是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "分数的意义的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "分数的意义是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "分数的意义只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "分数的意义"
-    ],
-    "grade": 6,
-    "explanation": "分数的意义是分数的意义的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g6-005",
-    "type": "choice",
-    "question": "下列关于分数的基本性质的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "分数的基本性质是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "分数的基本性质的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "分数的基本性质是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "分数的基本性质只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "分数的基本性质"
-    ],
-    "grade": 6,
-    "explanation": "分数的基本性质是分数的基本性质的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g6-006",
     "type": "choice",
     "question": "下列关于分数的基本性质的说法正确的是？",
     "options": [
@@ -2635,69 +1333,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g6-010",
-    "type": "choice",
-    "question": "下列关于百分数的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "百分数是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "百分数的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "百分数是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "百分数只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "百分数"
-    ],
-    "grade": 6,
-    "explanation": "百分数是百分数的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g6-013",
-    "type": "choice",
-    "question": "下列关于圆的认识的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "圆的认识是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "圆的认识的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "圆的认识是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "圆的认识只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "圆的认识"
-    ],
-    "grade": 6,
-    "explanation": "圆的认识是圆的认识的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g6-014",
     "type": "choice",
     "question": "下列关于圆的认识的说法正确的是？",
     "options": [
@@ -2759,69 +1395,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g6-018",
-    "type": "choice",
-    "question": "下列关于圆的周长的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "圆的周长是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "圆的周长的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "圆的周长是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "圆的周长只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "圆的周长"
-    ],
-    "grade": 6,
-    "explanation": "圆的周长是圆的周长的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g6-021",
-    "type": "choice",
-    "question": "下列关于圆的面积的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "圆的面积是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "圆的面积的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "圆的面积是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "圆的面积只在特定条件下成立"
-      }
-    ],
-    "answer": "B",
-    "knowledgeTags": [
-      "圆的面积"
-    ],
-    "grade": 6,
-    "explanation": "圆的面积是圆的面积的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g6-022",
     "type": "choice",
     "question": "下列关于圆的面积的说法正确的是？",
     "options": [
@@ -2883,69 +1457,7 @@
     "subject": "math"
   },
   {
-    "id": "math-g6-026",
-    "type": "choice",
-    "question": "下列关于扇形统计图的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "扇形统计图是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "扇形统计图的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "扇形统计图是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "扇形统计图只在特定条件下成立"
-      }
-    ],
-    "answer": "C",
-    "knowledgeTags": [
-      "扇形统计图"
-    ],
-    "grade": 6,
-    "explanation": "扇形统计图是扇形统计图的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
     "id": "math-g6-029",
-    "type": "choice",
-    "question": "下列关于鸡兔同笼的说法正确的是？",
-    "options": [
-      {
-        "label": "A",
-        "text": "鸡兔同笼是正确的说法"
-      },
-      {
-        "label": "B",
-        "text": "鸡兔同笼的说法需要补充条件"
-      },
-      {
-        "label": "C",
-        "text": "鸡兔同笼是完全错误的"
-      },
-      {
-        "label": "D",
-        "text": "鸡兔同笼只在特定条件下成立"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "鸡兔同笼"
-    ],
-    "grade": 6,
-    "explanation": "鸡兔同笼是鸡兔同笼的重要内容。解题时需要理解基本概念，注意区分易错点。",
-    "difficulty": "medium",
-    "subject": "math"
-  },
-  {
-    "id": "math-g6-030",
     "type": "choice",
     "question": "下列关于鸡兔同笼的说法正确的是？",
     "options": [
@@ -12679,58 +11191,6 @@
     "subject": "math"
   },
   {
-    "id": "math-primary-289",
-    "type": "choice",
-    "question": "下面哪个图形是轴对称图形？",
-    "options": [
-      {
-        "label": "A",
-        "text": "正方形"
-      },
-      {
-        "label": "B",
-        "text": "平行四边形"
-      },
-      {
-        "label": "C",
-        "text": "任意三角形"
-      },
-      {
-        "label": "D",
-        "text": "不规则四边形"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 6,
-    "knowledge": "认识轴对称图形",
-    "explanation": "正方形有两条对称轴，沿对称轴对折后两部分完全重合，因此是轴对称图形。",
-    "audio": "audio/math_289_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/math_289_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/math_289_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/math_289_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/math_289_d.mp3"
-      }
-    ],
-    "knowledgeTags": [
-      "图形的变换",
-      "三角形内角和"
-    ],
-    "subject": "math"
-  },
-  {
     "id": "math-primary-290",
     "type": "choice",
     "question": "把一个正方形先向右平移3格，再绕左上角顺时针旋转90°，得到的图形与原图形相比（ ）。",
@@ -15043,58 +13503,6 @@
     "subject": "math"
   },
   {
-    "id": "math-primary-89",
-    "type": "choice",
-    "question": "下面哪个图形是轴对称图形？",
-    "options": [
-      {
-        "label": "A",
-        "text": "正方形"
-      },
-      {
-        "label": "B",
-        "text": "任意不规则四边形"
-      },
-      {
-        "label": "C",
-        "text": "不等边三角形"
-      },
-      {
-        "label": "D",
-        "text": "平行四边形"
-      }
-    ],
-    "answer": "A",
-    "difficulty": 1,
-    "grade": 6,
-    "knowledge": "认识轴对称图形",
-    "explanation": "正方形可以沿对角线或中线对折，两半完全重合，符合轴对称图形的定义。",
-    "audio": "audio/math_089_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/math_089_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/math_089_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/math_089_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/math_089_d.mp3"
-      }
-    ],
-    "knowledgeTags": [
-      "图形的变换",
-      "三角形内角和"
-    ],
-    "subject": "math"
-  },
-  {
     "id": "math-primary-90",
     "type": "choice",
     "question": "下面哪种运动属于平移？",
@@ -15705,56 +14113,6 @@
       {
         "key": "D",
         "audio": "audio/math_002_d.mp3"
-      }
-    ]
-  },
-  {
-    "id": "primary-math-003",
-    "type": "choice",
-    "subject": "math",
-    "difficulty": 1,
-    "grade": 3,
-    "knowledgeTags": [
-      "乘法口诀"
-    ],
-    "question": "7 × 8 = ?",
-    "options": [
-      {
-        "label": "A",
-        "text": "56"
-      },
-      {
-        "label": "B",
-        "text": "54"
-      },
-      {
-        "label": "C",
-        "text": "64"
-      },
-      {
-        "label": "D",
-        "text": "48"
-      }
-    ],
-    "answer": "A",
-    "explanation": "七八五十六",
-    "audio": "audio/math_003_q.mp3",
-    "optionAudio": [
-      {
-        "key": "A",
-        "audio": "audio/math_003_a.mp3"
-      },
-      {
-        "key": "B",
-        "audio": "audio/math_003_b.mp3"
-      },
-      {
-        "key": "C",
-        "audio": "audio/math_003_c.mp3"
-      },
-      {
-        "key": "D",
-        "audio": "audio/math_003_d.mp3"
       }
     ]
   },

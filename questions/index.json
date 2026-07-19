@@ -1,6 +1,6 @@
 {
   "version": "20260415-1",
-  "updatedAt": "2026-04-15",
+  "updatedAt": "2026-07-19",
   "subjects": {
     "math": {
       "file": "math.json",
@@ -34,17 +34,17 @@
     },
     "history": {
       "file": "history.json",
-      "count": 170,
+      "count": 165,
       "version": "20260415-1"
     },
     "geography": {
       "file": "geography.json",
-      "count": 150,
+      "count": 145,
       "version": "20260415-1"
     },
     "politics": {
       "file": "politics.json",
-      "count": 120,
+      "count": 115,
       "version": "20260415-1"
     }
   }

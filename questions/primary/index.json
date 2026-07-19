@@ -1,7 +1,7 @@
 {
   "section": "primary",
   "questionBankVersion": "20260417-1",
-  "updatedAt": "2026-04-17",
+  "updatedAt": "2026-07-19",
   "subjects": {
     "chinese": {
       "file": "chinese.json",
@@ -10,7 +10,7 @@
     },
     "math": {
       "file": "math.json",
-      "count": 296,
+      "count": 341,
       "version": "20260417-1"
     },
     "english": {
