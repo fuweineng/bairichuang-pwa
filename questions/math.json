@@ -9197,5 +9197,222 @@
     ],
     "answer": "B",
     "explanation": "抽取部分个体进行调查属于抽样调查"
+  },
+  {
+    "id": "math-kz-020",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "相似三角形"
+    ],
+    "question": "两个相似三角形的相似比为1:2则对应角平分线的比为",
+    "options": [
+      {
+        "label": "A",
+        "text": "1:2"
+      },
+      {
+        "label": "B",
+        "text": "1:4"
+      },
+      {
+        "label": "C",
+        "text": "2:1"
+      },
+      {
+        "label": "D",
+        "text": "1:1"
+      }
+    ],
+    "answer": "A",
+    "explanation": "相似三角形对应线段的比等于相似比"
+  },
+  {
+    "id": "math-kz-021",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "圆"
+    ],
+    "question": "圆的半径为6cm圆心到直线的距离为5cm则直线与圆",
+    "options": [
+      {
+        "label": "A",
+        "text": "相离"
+      },
+      {
+        "label": "B",
+        "text": "相切"
+      },
+      {
+        "label": "C",
+        "text": "相交"
+      },
+      {
+        "label": "D",
+        "text": "无法判断"
+      }
+    ],
+    "answer": "C",
+    "explanation": "d=5小于r=6直线与圆相交"
+  },
+  {
+    "id": "math-kz-022",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "二次函数"
+    ],
+    "question": "二次函数y=-x2+2x+3的开口方向和对称轴为",
+    "options": [
+      {
+        "label": "A",
+        "text": "向上x=1"
+      },
+      {
+        "label": "B",
+        "text": "向下x=1"
+      },
+      {
+        "label": "C",
+        "text": "向上x=-1"
+      },
+      {
+        "label": "D",
+        "text": "向下x=-1"
+      }
+    ],
+    "answer": "B",
+    "explanation": "a=-1小于0开口向下x=-b/(2a)=1"
+  },
+  {
+    "id": "math-kz-023",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "实数"
+    ],
+    "question": "下列实数中是无理数的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "3.14"
+      },
+      {
+        "label": "B",
+        "text": "根号4"
+      },
+      {
+        "label": "C",
+        "text": "根号2"
+      },
+      {
+        "label": "D",
+        "text": "22/7"
+      }
+    ],
+    "answer": "C",
+    "explanation": "根号2是无限不循环小数是无理数"
+  },
+  {
+    "id": "math-kz-024",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 7,
+    "knowledgeTags": [
+      "幂的运算"
+    ],
+    "question": "计算x的三次方乘以x的平方的结果是",
+    "options": [
+      {
+        "label": "A",
+        "text": "x的5次方"
+      },
+      {
+        "label": "B",
+        "text": "x的6次方"
+      },
+      {
+        "label": "C",
+        "text": "x"
+      },
+      {
+        "label": "D",
+        "text": "x的9次方"
+      }
+    ],
+    "answer": "A",
+    "explanation": "同底数幂相乘指数相加"
+  },
+  {
+    "id": "math-kz-025",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "因式分解"
+    ],
+    "question": "多项式x的平方减4y的平方因式分解的结果是",
+    "options": [
+      {
+        "label": "A",
+        "text": "(x-2y)的平方"
+      },
+      {
+        "label": "B",
+        "text": "(x+2y)(x-2y)"
+      },
+      {
+        "label": "C",
+        "text": "(x+4y)(x-4y)"
+      },
+      {
+        "label": "D",
+        "text": "(x-2y)平方"
+      }
+    ],
+    "answer": "B",
+    "explanation": "平方差公式a平方减b平方等于(a+b)(a-b)"
+  },
+  {
+    "id": "math-kz-026",
+    "type": "choice",
+    "subject": "math",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "函数综合"
+    ],
+    "question": "一次函数y=kx+b的图像经过一二四象限则k和b的取值范围是",
+    "options": [
+      {
+        "label": "A",
+        "text": "k大于0 b大于0"
+      },
+      {
+        "label": "B",
+        "text": "k小于0 b大于0"
+      },
+      {
+        "label": "C",
+        "text": "k大于0 b小于0"
+      },
+      {
+        "label": "D",
+        "text": "k小于0 b小于0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "过一二四象限k小于0 b大于0"
   }
 ]

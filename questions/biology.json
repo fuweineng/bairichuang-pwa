@@ -6221,5 +6221,253 @@
     ],
     "answer": "B",
     "explanation": "烟草花叶病毒（TMV）是RNA病毒的代表，由RNA核心和蛋白质外壳组成，营寄生生活"
+  },
+  {
+    "id": "bio-kz-001",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "人体细胞与植物细胞相比没有的结构是",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞膜"
+      },
+      {
+        "label": "B",
+        "text": "细胞质"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "叶绿体"
+      }
+    ],
+    "answer": "D",
+    "explanation": "动物细胞没有叶绿体"
+  },
+  {
+    "id": "bio-kz-002",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "控制细胞生命活动的中心是",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞膜"
+      },
+      {
+        "label": "B",
+        "text": "细胞质"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "线粒体"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细胞核含有遗传物质，是控制中心"
+  },
+  {
+    "id": "bio-kz-003",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物生理"
+    ],
+    "question": "光合作用的主要产物是",
+    "options": [
+      {
+        "label": "A",
+        "text": "二氧化碳和水"
+      },
+      {
+        "label": "B",
+        "text": "有机物和氧气"
+      },
+      {
+        "label": "C",
+        "text": "水和氧气"
+      },
+      {
+        "label": "D",
+        "text": "有机物和二氧化碳"
+      }
+    ],
+    "answer": "B",
+    "explanation": "光合作用产生有机物和氧气"
+  },
+  {
+    "id": "bio-kz-004",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体内消化和吸收营养物质的主要器官是",
+    "options": [
+      {
+        "label": "A",
+        "text": "口腔"
+      },
+      {
+        "label": "B",
+        "text": "胃"
+      },
+      {
+        "label": "C",
+        "text": "小肠"
+      },
+      {
+        "label": "D",
+        "text": "大肠"
+      }
+    ],
+    "answer": "C",
+    "explanation": "小肠是消化和吸收的主要器官"
+  },
+  {
+    "id": "bio-kz-005",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "血液中运输氧的功能由哪种细胞完成",
+    "options": [
+      {
+        "label": "A",
+        "text": "白细胞"
+      },
+      {
+        "label": "B",
+        "text": "血小板"
+      },
+      {
+        "label": "C",
+        "text": "红细胞"
+      },
+      {
+        "label": "D",
+        "text": "血浆"
+      }
+    ],
+    "answer": "C",
+    "explanation": "红细胞中的血红蛋白运输氧"
+  },
+  {
+    "id": "bio-kz-006",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生态系统中能将有机物分解为无机物的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产者"
+      },
+      {
+        "label": "B",
+        "text": "消费者"
+      },
+      {
+        "label": "C",
+        "text": "分解者"
+      },
+      {
+        "label": "D",
+        "text": "非生物成分"
+      }
+    ],
+    "answer": "C",
+    "explanation": "分解者将有机物分解为无机物"
+  },
+  {
+    "id": "bio-kz-007",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "人的体细胞中染色体的数目是",
+    "options": [
+      {
+        "label": "A",
+        "text": "23条"
+      },
+      {
+        "label": "B",
+        "text": "46条"
+      },
+      {
+        "label": "C",
+        "text": "23对"
+      },
+      {
+        "label": "D",
+        "text": "46对"
+      }
+    ],
+    "answer": "C",
+    "explanation": "人体细胞染色体23对(46条)"
+  },
+  {
+    "id": "bio-kz-008",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "微生物"
+    ],
+    "question": "细菌与真菌相比最大的区别是细菌没有",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "细胞膜"
+      },
+      {
+        "label": "C",
+        "text": "成形的细胞核"
+      },
+      {
+        "label": "D",
+        "text": "细胞质"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细菌是原核生物，无成形的细胞核"
   }
 ]

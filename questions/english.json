@@ -15434,5 +15434,377 @@
     ],
     "answer": "A",
     "explanation": "interesting有趣的；enjoy listening to English songs喜欢听英文歌；watching English movies看英文电影；learn English well学好英语；practice speaking练习口语；study abroad出国学习；wonderful subject精彩的科目；active in learning English积极参与英语学习。"
+  },
+  {
+    "id": "eng-kz-001",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "一般现在时"
+    ],
+    "question": "My mother ___ breakfast for us every morning.",
+    "options": [
+      {
+        "label": "A",
+        "text": "cook"
+      },
+      {
+        "label": "B",
+        "text": "cooks"
+      },
+      {
+        "label": "C",
+        "text": "cooking"
+      },
+      {
+        "label": "D",
+        "text": "cooked"
+      }
+    ],
+    "answer": "B",
+    "explanation": "主语my mother是三单，用cooks"
+  },
+  {
+    "id": "eng-kz-002",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "现在进行时"
+    ],
+    "question": "Listen! The girl ___ in the next room.",
+    "options": [
+      {
+        "label": "A",
+        "text": "sings"
+      },
+      {
+        "label": "B",
+        "text": "sang"
+      },
+      {
+        "label": "C",
+        "text": "is singing"
+      },
+      {
+        "label": "D",
+        "text": "will sing"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Listen提示正在发生，用现在进行时"
+  },
+  {
+    "id": "eng-kz-003",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "现在完成时"
+    ],
+    "question": "I ___ already ___ my homework.",
+    "options": [
+      {
+        "label": "A",
+        "text": "have...finished"
+      },
+      {
+        "label": "B",
+        "text": "has...finished"
+      },
+      {
+        "label": "C",
+        "text": "did...finish"
+      },
+      {
+        "label": "D",
+        "text": "will...finish"
+      }
+    ],
+    "answer": "A",
+    "explanation": "already提示用现在完成时，主语I用have"
+  },
+  {
+    "id": "eng-kz-004",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "被动语态"
+    ],
+    "question": "The bridge ___ in 2019.",
+    "options": [
+      {
+        "label": "A",
+        "text": "built"
+      },
+      {
+        "label": "B",
+        "text": "was built"
+      },
+      {
+        "label": "C",
+        "text": "is built"
+      },
+      {
+        "label": "D",
+        "text": "builds"
+      }
+    ],
+    "answer": "B",
+    "explanation": "桥是被建造的，2019年用一般过去时被动"
+  },
+  {
+    "id": "eng-kz-005",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "代词"
+    ],
+    "question": "This is not my book. It's ___.",
+    "options": [
+      {
+        "label": "A",
+        "text": "her"
+      },
+      {
+        "label": "B",
+        "text": "she"
+      },
+      {
+        "label": "C",
+        "text": "hers"
+      },
+      {
+        "label": "D",
+        "text": "herself"
+      }
+    ],
+    "answer": "C",
+    "explanation": "名词性物主代词作表语，hers=her book"
+  },
+  {
+    "id": "eng-kz-006",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "形容词比较级"
+    ],
+    "question": "Which season do you like ___，summer or winter?",
+    "options": [
+      {
+        "label": "A",
+        "text": "well"
+      },
+      {
+        "label": "B",
+        "text": "good"
+      },
+      {
+        "label": "C",
+        "text": "better"
+      },
+      {
+        "label": "D",
+        "text": "best"
+      }
+    ],
+    "answer": "C",
+    "explanation": "两者比较用比较级better"
+  },
+  {
+    "id": "eng-kz-007",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "情态动词"
+    ],
+    "question": "You ___ cross the street when the traffic light is red.",
+    "options": [
+      {
+        "label": "A",
+        "text": "must"
+      },
+      {
+        "label": "B",
+        "text": "mustn't"
+      },
+      {
+        "label": "C",
+        "text": "can"
+      },
+      {
+        "label": "D",
+        "text": "need"
+      }
+    ],
+    "answer": "B",
+    "explanation": "红灯时禁止过马路，用mustn't"
+  },
+  {
+    "id": "eng-kz-008",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "宾语从句"
+    ],
+    "question": "Could you tell me ___?",
+    "options": [
+      {
+        "label": "A",
+        "text": "where is the station"
+      },
+      {
+        "label": "B",
+        "text": "where the station is"
+      },
+      {
+        "label": "C",
+        "text": "where was the station"
+      },
+      {
+        "label": "D",
+        "text": "the station is where"
+      }
+    ],
+    "answer": "B",
+    "explanation": "宾语从句用陈述语序"
+  },
+  {
+    "id": "eng-kz-009",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "非谓语动词"
+    ],
+    "question": "I enjoy ___ to music in my free time.",
+    "options": [
+      {
+        "label": "A",
+        "text": "listen"
+      },
+      {
+        "label": "B",
+        "text": "listening"
+      },
+      {
+        "label": "C",
+        "text": "to listen"
+      },
+      {
+        "label": "D",
+        "text": "listened"
+      }
+    ],
+    "answer": "B",
+    "explanation": "enjoy doing sth. 固定搭配"
+  },
+  {
+    "id": "eng-kz-010",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "词汇"
+    ],
+    "question": "There are twelve ___ in a year.",
+    "options": [
+      {
+        "label": "A",
+        "text": "month"
+      },
+      {
+        "label": "B",
+        "text": "months"
+      },
+      {
+        "label": "C",
+        "text": "month's"
+      },
+      {
+        "label": "D",
+        "text": "months'"
+      }
+    ],
+    "answer": "B",
+    "explanation": "twelve后用可数名词复数months"
+  },
+  {
+    "id": "eng-kz-011",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "形容词比较级"
+    ],
+    "question": "Tom is ___ than his brother.",
+    "options": [
+      {
+        "label": "A",
+        "text": "tall"
+      },
+      {
+        "label": "B",
+        "text": "taller"
+      },
+      {
+        "label": "C",
+        "text": "tallest"
+      },
+      {
+        "label": "D",
+        "text": "more tall"
+      }
+    ],
+    "answer": "B",
+    "explanation": "两者比较用比较级taller"
+  },
+  {
+    "id": "eng-kz-012",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "非谓语动词"
+    ],
+    "question": "We should pay attention to ___ the environment.",
+    "options": [
+      {
+        "label": "A",
+        "text": "protect"
+      },
+      {
+        "label": "B",
+        "text": "protecting"
+      },
+      {
+        "label": "C",
+        "text": "protected"
+      },
+      {
+        "label": "D",
+        "text": "protects"
+      }
+    ],
+    "answer": "B",
+    "explanation": "介词to后接动名词protecting"
   }
 ]

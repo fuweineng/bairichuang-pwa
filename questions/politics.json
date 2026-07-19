@@ -3285,5 +3285,253 @@
     "answer": "B",
     "grade": 9,
     "explanation": "面对学习挫折，应积极面对。选项B提出分析失败原因、调整方法并坚持努力，这是成长关键；其他选项均为逃避或消极，对成长无益。"
+  },
+  {
+    "id": "pol-kz-001",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "宪法"
+    ],
+    "question": "我国宪法规定国家的根本任务是",
+    "options": [
+      {
+        "label": "A",
+        "text": "发展经济"
+      },
+      {
+        "label": "B",
+        "text": "改革开放"
+      },
+      {
+        "label": "C",
+        "text": "沿着中国特色社会主义道路进行现代化建设"
+      },
+      {
+        "label": "D",
+        "text": "保护环境"
+      }
+    ],
+    "answer": "C",
+    "explanation": "宪法规定根本任务是进行现代化建设"
+  },
+  {
+    "id": "pol-kz-002",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "我国处理民族关系的基本原则是",
+    "options": [
+      {
+        "label": "A",
+        "text": "平等团结互助和谐"
+      },
+      {
+        "label": "B",
+        "text": "共同繁荣"
+      },
+      {
+        "label": "C",
+        "text": "民族自治"
+      },
+      {
+        "label": "D",
+        "text": "融合发展"
+      }
+    ],
+    "answer": "A",
+    "explanation": "民族关系基本原则为平等团结互助和谐"
+  },
+  {
+    "id": "pol-kz-003",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "公民最基本的人身权利是",
+    "options": [
+      {
+        "label": "A",
+        "text": "肖像权"
+      },
+      {
+        "label": "B",
+        "text": "生命健康权"
+      },
+      {
+        "label": "C",
+        "text": "隐私权"
+      },
+      {
+        "label": "D",
+        "text": "名誉权"
+      }
+    ],
+    "answer": "B",
+    "explanation": "生命健康权是最基本的人身权利"
+  },
+  {
+    "id": "pol-kz-004",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "当我们与老师发生矛盾时正确的做法是",
+    "options": [
+      {
+        "label": "A",
+        "text": "顶撞老师"
+      },
+      {
+        "label": "B",
+        "text": "冷战不理"
+      },
+      {
+        "label": "C",
+        "text": "告诉家长"
+      },
+      {
+        "label": "D",
+        "text": "主动沟通化解矛盾"
+      }
+    ],
+    "answer": "D",
+    "explanation": "主动沟通是化解师生矛盾的正确方式"
+  },
+  {
+    "id": "pol-kz-005",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "己所不欲勿施于人体现了什么品德",
+    "options": [
+      {
+        "label": "A",
+        "text": "换位思考"
+      },
+      {
+        "label": "B",
+        "text": "诚实守信"
+      },
+      {
+        "label": "C",
+        "text": "自强不息"
+      },
+      {
+        "label": "D",
+        "text": "艰苦奋斗"
+      }
+    ],
+    "answer": "A",
+    "explanation": "己所不欲勿施于人体现了换位思考的品德"
+  },
+  {
+    "id": "pol-kz-006",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "中国梦的本质是",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济发展"
+      },
+      {
+        "label": "B",
+        "text": "国家富强民族振兴人民幸福"
+      },
+      {
+        "label": "C",
+        "text": "世界和平"
+      },
+      {
+        "label": "D",
+        "text": "全面小康"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国梦的本质是国家富强民族振兴人民幸福"
+  },
+  {
+    "id": "pol-kz-007",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育"
+    ],
+    "question": "我国未成年人保护法规定对未成年人实行",
+    "options": [
+      {
+        "label": "A",
+        "text": "家庭保护学校保护社会保护司法保护"
+      },
+      {
+        "label": "B",
+        "text": "家庭保护学校保护"
+      },
+      {
+        "label": "C",
+        "text": "社会保护司法保护"
+      },
+      {
+        "label": "D",
+        "text": "家庭保护社会保护"
+      }
+    ],
+    "answer": "A",
+    "explanation": "四大保护：家庭、学校、社会、司法"
+  },
+  {
+    "id": "pol-kz-008",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "下列属于公民基本义务的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "依法纳税"
+      },
+      {
+        "label": "B",
+        "text": "人身自由"
+      },
+      {
+        "label": "C",
+        "text": "受教育权"
+      },
+      {
+        "label": "D",
+        "text": "选举权"
+      }
+    ],
+    "answer": "A",
+    "explanation": "依法纳税是公民的基本义务，BCD是权利"
   }
 ]

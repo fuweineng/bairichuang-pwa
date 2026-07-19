@@ -11841,5 +11841,315 @@
     ],
     "answer": "A",
     "grade": 9
+  },
+  {
+    "id": "chn-kz-001",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "下列加点字注音全部正确的一组是",
+    "options": [
+      {
+        "label": "A",
+        "text": "星宿(xiù)"
+      },
+      {
+        "label": "B",
+        "text": "应届(ying)"
+      },
+      {
+        "label": "C",
+        "text": "哺育(pu)"
+      },
+      {
+        "label": "D",
+        "text": "粗犷(kuang)"
+      }
+    ],
+    "answer": "A",
+    "explanation": "B应yīng，C哺bǔ，D犷guǎng"
+  },
+  {
+    "id": "chn-kz-002",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语书写完全正确的一组是",
+    "options": [
+      {
+        "label": "A",
+        "text": "再接再励"
+      },
+      {
+        "label": "B",
+        "text": "谈笑风声"
+      },
+      {
+        "label": "C",
+        "text": "川流不息"
+      },
+      {
+        "label": "D",
+        "text": "迫不急待"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A厉B生D及"
+  },
+  {
+    "id": "chn-kz-003",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "成语运用"
+    ],
+    "question": "下列句子中成语使用不恰当的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "故宫的建筑富丽堂皇"
+      },
+      {
+        "label": "B",
+        "text": "他目不转睛地盯着屏幕"
+      },
+      {
+        "label": "C",
+        "text": "老师讲的道理深入浅出"
+      },
+      {
+        "label": "D",
+        "text": "这次失败让他无动于衷"
+      }
+    ],
+    "answer": "D",
+    "explanation": "无动于衷是贬义，语境不合适"
+  },
+  {
+    "id": "chn-kz-004",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句"
+    ],
+    "question": "下列句子没有语病的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "他的写作水平有了明显的提高"
+      },
+      {
+        "label": "B",
+        "text": "是否努力是取得好成绩的关键"
+      },
+      {
+        "label": "C",
+        "text": "通过这次活动使我们增长了见识"
+      },
+      {
+        "label": "D",
+        "text": "他不但学习好而且品德好但是身体不好"
+      }
+    ],
+    "answer": "A",
+    "explanation": "B两面对一面，C缺主语，D关联词不当"
+  },
+  {
+    "id": "chn-kz-005",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "海内存知己的下半句是",
+    "options": [
+      {
+        "label": "A",
+        "text": "天涯若比邻"
+      },
+      {
+        "label": "B",
+        "text": "万里尚为邻"
+      },
+      {
+        "label": "C",
+        "text": "天涯共此时"
+      },
+      {
+        "label": "D",
+        "text": "天涯何处无芳草"
+      }
+    ],
+    "answer": "A",
+    "explanation": "王勃送杜少府之任蜀州"
+  },
+  {
+    "id": "chn-kz-006",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "病树前头万木春的上半句是",
+    "options": [
+      {
+        "label": "A",
+        "text": "沉舟侧畔千帆过"
+      },
+      {
+        "label": "B",
+        "text": "轻舟已过万重山"
+      },
+      {
+        "label": "C",
+        "text": "孤帆远影碧空尽"
+      },
+      {
+        "label": "D",
+        "text": "千帆过尽皆不是"
+      }
+    ],
+    "answer": "A",
+    "explanation": "刘禹锡酬乐天扬州初逢席上见赠"
+  },
+  {
+    "id": "chn-kz-007",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "西北望射天狼的上半句是",
+    "options": [
+      {
+        "label": "A",
+        "text": "会挽雕弓如满月"
+      },
+      {
+        "label": "B",
+        "text": "欲挽天河洗甲兵"
+      },
+      {
+        "label": "C",
+        "text": "弯弓辞汉月"
+      },
+      {
+        "label": "D",
+        "text": "弓如霹雳弦惊"
+      }
+    ],
+    "answer": "A",
+    "explanation": "苏轼江城子密州出猎"
+  },
+  {
+    "id": "chn-kz-008",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "之字用法与何陋之有相同的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "水陆草木之花"
+      },
+      {
+        "label": "B",
+        "text": "予独爱莲之出淤泥"
+      },
+      {
+        "label": "C",
+        "text": "怅恨久之"
+      },
+      {
+        "label": "D",
+        "text": "宋何罪之有"
+      }
+    ],
+    "answer": "D",
+    "explanation": "何陋之有与何罪之有都是宾语前置标志"
+  },
+  {
+    "id": "chn-kz-009",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "名著阅读"
+    ],
+    "question": "水浒传中智取生辰纲的组织者是",
+    "options": [
+      {
+        "label": "A",
+        "text": "宋江"
+      },
+      {
+        "label": "B",
+        "text": "吴用"
+      },
+      {
+        "label": "C",
+        "text": "林冲"
+      },
+      {
+        "label": "D",
+        "text": "武松"
+      }
+    ],
+    "answer": "B",
+    "explanation": "吴用绰号智多星，智取生辰纲的策划者"
+  },
+  {
+    "id": "chn-kz-010",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "被称为诗圣的唐代诗人是",
+    "options": [
+      {
+        "label": "A",
+        "text": "李白"
+      },
+      {
+        "label": "B",
+        "text": "杜甫"
+      },
+      {
+        "label": "C",
+        "text": "白居易"
+      },
+      {
+        "label": "D",
+        "text": "王维"
+      }
+    ],
+    "answer": "B",
+    "explanation": "杜甫被誉为诗圣，李白为诗仙"
   }
 ]
