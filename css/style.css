@@ -145,9 +145,34 @@ body[data-theme="night"] {
   --theme-info-bar-bg: #1a2018;
   --theme-sub-progress-bg: #201e14;
 }
+body[data-theme="midnight"] {
+  --bg: #0a0a14;
+  --theme-bg-1: #0a0a14;
+  --theme-bg-2: #12121e;
+  --theme-accent: #5c6bc0;
+  --theme-text: #b0b8d4;
+  --theme-text-primary: #cfd4e8;
+  --theme-text-secondary: #8890b0;
+  --theme-text-muted: #5a6080;
+  --theme-btn-bg: #303f9f;
+  --theme-btn-text: #e8eaf6;
+  --theme-surface: #12121e;
+  --theme-border: #202040;
+  --theme-surface-2: #1a1a2e;
+  --theme-header-bg: #0a0a14;
+  --theme-header-text: #b0b8d4;
+  --theme-modal-overlay: rgba(0,0,0,0.80);
+  --theme-modal-card: #16162a;
+  --theme-modal-text: #b0b8d4;
+  --theme-input-bg: #1a1a2e;
+  --theme-input-border: #2a2a50;
+  --theme-card-bg: #12121e;
+  --theme-weak-bg: #18101a;
+  --theme-info-bar-bg: #101018;
+  --theme-sub-progress-bg: #18101a;
+}
 
-
-
+:root {
   /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
@@ -2844,7 +2869,6 @@ main {
   border: 1px solid #81c784;
 }
 .btn-mastered:hover { background: #c8e6c9; }
-}
 
 .update-badge {
   display: inline-block;
@@ -3579,4 +3603,159 @@ body[data-theme="night"] #answer-feedback {
   color: var(--theme-text-primary);
   border-radius: 8px;
   padding: 12px;
+}
+
+/***** 每日目标进度条 *****/
+.goal-compact {
+  background: var(--theme-surface);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.goal-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  margin-bottom: 6px;
+}
+.goal-label { color: var(--theme-text-muted); }
+.goal-nums { font-weight: 600; color: var(--theme-text-primary); }
+.goal-bar {
+  height: 6px;
+  background: var(--theme-surface-2);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.goal-fill {
+  height: 100%;
+  background: var(--theme-accent, #4CAF50);
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+
+/***** 错题精选入口（首页） *****/
+.review-entry-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--theme-surface);
+  border-radius: 12px;
+  padding: 12px 14px;
+  cursor: pointer;
+}
+.review-entry-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.review-entry-icon { font-size: 1.4rem; }
+.review-entry-info { min-width: 0; }
+.review-entry-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--theme-text-primary);
+}
+.review-entry-sub {
+  font-size: 0.75rem;
+  color: var(--theme-text-muted);
+}
+.review-entry-arrow { color: var(--theme-text-muted); font-size: 1.1rem; }
+
+/***** 错题精选页 *****/
+.review-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 12px 14px 0;
+}
+.filter-pill {
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--theme-border);
+  background: var(--theme-surface);
+  color: var(--theme-text-primary);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.filter-pill.active {
+  background: var(--theme-accent, #2196F3);
+  color: #fff;
+  border-color: var(--theme-accent, #2196F3);
+}
+.review-list {
+  padding: 10px 14px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.review-card {
+  background: var(--theme-surface);
+  border-radius: 12px;
+  padding: 14px;
+}
+.review-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.review-subject-tag {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--theme-surface-2);
+  color: var(--theme-text-secondary);
+}
+.review-wrong-badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #ffebee;
+  color: #d32f2f;
+}
+.review-question-text {
+  font-size: 0.9rem;
+  color: var(--theme-text-primary);
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.review-answers {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.review-answer-row {
+  display: flex;
+  gap: 8px;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.review-answer-row.wrong { background: #fff3f3; color: #c62828; }
+.review-answer-row.correct { background: #f1f8e9; color: #2e7d32; }
+.review-answer-label { flex-shrink: 0; font-weight: 600; }
+.review-answer-val { word-break: break-all; }
+.review-explanation {
+  font-size: 0.82rem;
+  color: var(--theme-text-secondary);
+  background: var(--theme-surface-2);
+  border-radius: 8px;
+  padding: 10px;
+  line-height: 1.5;
+}
+.review-practice-btn { font-size: 0.82rem; }
+.review-empty { padding: 20px 0; }
+
+/***** night mode: review page *****/
+body[data-theme="night"] .review-wrong-badge {
+  background: #4a1a1a;
+  color: #ef9a9a;
+}
+body[data-theme="night"] .review-answer-row.wrong {
+  background: #3a1010;
+  color: #ef9a9a;
+}
+body[data-theme="night"] .review-answer-row.correct {
+  background: #1a3a10;
+  color: #a5d6a7;
 }

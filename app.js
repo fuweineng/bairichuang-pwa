@@ -2,12 +2,10 @@
 
 import { get, set, clear, del } from './js/idb-keyval.mjs';
 import {
-  formatDateKeyLabel,
-  formatDateKeyShort,
-  getLocalDateKey,
-  listRecentDateKeys,
-  shiftDate,
-} from './js/date-utils.mjs';
+  todayKey, dateLabel, getWeekDays, shuffle, subjectName, showToast, escapeHTML,
+  compareVersion, stripMarkdown, normalizeAnswerText, splitAnswerParts,
+  formatAnswerForDisplay, isAnswerMatch, getLocalDateKey, formatDateKeyLabel,
+} from './js/utils.js';
 
 'use strict';
 
@@ -39,7 +37,7 @@ const state = {
   sessions: [],
   meta: {},
   account: null,
-  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.6', audioVersion: '', questionBankVersion: '', soundEnabled: true },
+  settings: { section: 'junior', sectionVersions: {}, weakThreshold: 0.6, lastQuestionBankUpdate: null, appVersion: '9.8.6', audioVersion: '', questionBankVersion: '', soundEnabled: true, dailyGoal: 20 },
   remoteVersions: null,
 };
 
@@ -58,7 +56,6 @@ const K = {
 
 const VERSION_URL = 'https://raw.githubusercontent.com/fuweineng/bairichuang-pwa/main/version.json';
 const SUPPORTERS_URL = 'supporters.json';
-const INDEX_URL = 'questions/index.json';
 const SUBJECTS_ALL = ['chinese', 'math', 'english', 'physics', 'chemistry', 'biology', 'history', 'geography', 'politics'];
 
 const SUBJECTS_BY_SECTION = {
@@ -78,12 +75,6 @@ const SECTION_INDEX_URLS = {
   senior:      'questions/senior/index.json', // 初中（命名混乱，实际是初高中旧数据）
   'senior-high': 'questions/senior-high/index.json', // 高中（新建，9科235题）
 };
-
-// Legacy — kept for migration
-const SUBJECTS = SUBJECTS_ALL;
-
-// Legacy key — kept for migration
-const LEGACY_QB_CACHE = 'question_bank_cache';
 
 // ============================================================
 // THEME SYSTEM
@@ -119,7 +110,7 @@ function getTimeGreeting() {
   if (h >= 5  && h < 7)  return GREETINGS.morning;
   if (h >= 7  && h < 12) return GREETINGS.morning;
   if (h >= 12 && h < 14) return GREETINGS.afternoon;
-  if (h >= 14 && h < 18) return GREETINGS.morning; // "下午好，继续加油"
+  if (h >= 14 && h < 18) return GREETINGS.afternoon; // "下午好，继续加油"
   if (h >= 18 && h < 20) return GREETINGS.evening;
   if (h >= 20 && h < 23) return GREETINGS.night;
   return GREETINGS.midnight;
@@ -155,23 +146,6 @@ function initTheme() {
 
 function createEmptyQuestionBank() {
   return { math: [], english: [], chinese: [], physics: [], chemistry: [], biology: [], history: [], geography: [], politics: [] };
-}
-
-// Migrate legacy question_bank_cache to new per-subject index.json format
-async function migrateLegacyQB() {
-  // Also clean up orphaned old-format keys from previous partial runs
-  for (const subj of SUBJECTS_ALL) {
-    await del('qb_' + subj);
-  }
-
-  const cached = await get(LEGACY_QB_CACHE);
-  if (!cached || typeof cached !== 'object') return null;
-  // Already migrated (flat map)?
-  if (Array.isArray(cached)) return null;
-  const migrated = await fetchQuestionPack({ force: true });
-  await del(LEGACY_QB_CACHE);
-  console.log('[QB] 迁移: legacy question_bank_cache → index.json 格式');
-  return migrated;
 }
 
 async function fetchQuestionPack({ section, force = false } = {}) {
@@ -237,7 +211,7 @@ async function init() {
     const vr = await fetch('version.json?_=' + Date.now(), { cache: 'no-store' });
     if (vr.ok) {
       const vdata = await vr.json();
-      state.settings.appVersion = vdata.version || '';
+      state.settings.appVersion = vdata.semver || String(vdata.version || '');
     }
   } catch(e) {}
 
@@ -247,19 +221,9 @@ async function init() {
   // Check for app shell and question pack updates
   state.remoteVersions = await checkForAppUpdate();
 
-  // Load question bank: cache first, then refresh from network if cache is stale
-  // Migrate legacy flat question_bank_cache if present
-  const legacyCached = await get(LEGACY_QB_CACHE);
-  if (legacyCached && typeof legacyCached === 'object' && !Array.isArray(legacyCached)) {
-    // Legacy format found — migrate to new per-subject format
-    const migrated = await fetchQuestionPack({ section: state.settings.section, force: true });
-    await del(LEGACY_QB_CACHE);
-    state.questionBank = migrated;
-    await set(K.QB_CACHE, migrated);
-  } else {
-    const cached = await get(K.QB_CACHE);
-    state.questionBank = cached || createEmptyQuestionBank();
-  }
+  // Load question bank from cache, then refresh from network
+  const cached = await get(K.QB_CACHE);
+  state.questionBank = cached || createEmptyQuestionBank();
   fetchQuestionPack({ section: state.settings.section, force: true })
     .then(async (grouped) => {
       state.questionBank = grouped;
@@ -350,21 +314,6 @@ async function init() {
   console.log('百日闯 PWA 初始化完成');
 }
 
-// 比较两个 X.Y.Z-YYYYMMDD 版本号：return positive if a > b
-function compareVersion(a, b) {
-  // Parse semver X.Y.Z, ignoring any -YYYYMMDD date suffix
-  const parse = v => {
-    const core = String(v || '0.0.0').split('-')[0];
-    const parts = core.split('.').map(Number);
-    return { major: parts[0] || 0, minor: parts[1] || 0, patch: parts[2] || 0 };
-  };
-  const va = parse(a), vb = parse(b);
-  if (va.major !== vb.major) return va.major - vb.major;
-  if (va.minor !== vb.minor) return va.minor - vb.minor;
-  if (va.patch !== vb.patch) return va.patch - vb.patch;
-  return 0;
-}
-
 // ============================================================
 // APP UPDATE
 // ============================================================
@@ -374,17 +323,17 @@ async function checkForAppUpdate() {
     if (!resp.ok) return null;
     const remote = await resp.json();
 
-    const localVer = state.settings.appVersion || '0.0.0';
-    if (remote.version && compareVersion(remote.version, localVer) > 0) {
-      showUpdateBanner(remote);
+  const localVer = state.settings.appVersion || '0.0.0';
+    const remoteVer = remote.semver || remote.version;
+    if (remoteVer && compareVersion(remoteVer, localVer) > 0) {
+      showUpdateBanner({ ...remote, version: remoteVer });
     }
 
-    // Always save audio version for cache-busting
-    if (remote.audioVersion) {
-      state.settings.audioVersion = remote.audioVersion;
-      await set(K.SETTINGS, state.settings);
-    }
-    return remote;
+  if (remote.audioVersion) {
+    state.settings.audioVersion = remote.audioVersion;
+    await set(K.SETTINGS, state.settings);
+  }
+  return remote;
   } catch(e) {
     console.warn('Update check failed:', e);
     return null;
@@ -410,7 +359,7 @@ async function doManualAppUpdateCheck() {
     } else if (compareVersion(remote.version, state.settings.appVersion || '0.0.0') <= 0) {
       showToast('已是最新版本');
     } else {
-      if (confirm(`发现新版本 v${remote.version}，是否更新？\n\n${remote.changelog || ''}`)) {
+      if (confirm(`发现新版本 v${remote.semver || remote.version}，是否更新？\n\n${remote.changelog || ''}`)) {
         doAppUpgrade(remote);
         return;
       }
@@ -427,7 +376,7 @@ async function doAppUpgrade(remote) {
   if (banner) banner.querySelector('.update-text').textContent = '正在更新...';
 
   // 1. Save new versions (keep QB cache — it survives app updates)
-  state.settings.appVersion = remote.version;
+  state.settings.appVersion = remote.semver || remote.version;
   state.settings.audioVersion = remote.audioVersion || '';
   await set(K.SETTINGS, state.settings);
 
@@ -474,6 +423,7 @@ function renderAll() {
     case 'home':     renderHome();    break;
     case 'practice': renderPractice(); break;
     case 'progress': renderProgress(); break;
+    case 'review':   renderReview();  break;
     case 'settings': renderSettings(); break;
   }
 }
@@ -511,6 +461,9 @@ async function renderHome() {
 
   // 今日状态
   renderTodayStatus();
+
+  // 错题精选入口
+  renderReviewEntry();
 
   // 全科练习大按钮 — 柱状图下方，主题色
   let allBtn = document.getElementById('home-all-btn');
@@ -630,11 +583,8 @@ function renderTodayStatus() {
           <div class="today-status-sub">每天坚持，终有收获</div>
         </div>
       </div>`;
-    return;
-  }
-
-  if (!todayData || todayData.questionsCount === 0) {
-    el.innerHTML = ''; return;
+  } else if (!todayData || todayData.questionsCount === 0) {
+    el.innerHTML = '';
   } else {
     const acc = todayData.accuracy || Math.round((todayData.correct / todayData.questionsCount) * 100);
     el.innerHTML = `
@@ -642,11 +592,32 @@ function renderTodayStatus() {
         <span class="today-status-icon">✅</span>
         <div class="today-status-info">
           <div class="today-status-title">今日已完成 ${todayData.questionsCount} 题</div>
-          <div class="today-status-sub">正确率 ${acc}%</div>
+          <div class="today-status-sub">正确率 ${acc}%${todayData.duration ? ` · 学习 ${formatDuration(todayData.duration)}` : ''}</div>
         </div>
         <button class="primary-btn" data-action="start-subject" data-subject="all" style="padding:6px 14px;font-size:0.8rem">继续练习</button>
       </div>`;
   }
+  const goal = state.settings.dailyGoal;
+  if (goal > 0) {
+    const done = todayData ? todayData.questionsCount : 0;
+    const pct = Math.min(100, Math.round(done / goal * 100));
+    el.innerHTML += `
+      <div class="goal-compact" style="margin-top:8px">
+        <div class="goal-meta">
+          <span class="goal-label">今日目标</span>
+          <span class="goal-nums">${done}/${goal} 题</span>
+        </div>
+        <div class="goal-bar"><div class="goal-fill" style="width:${pct}%"></div></div>
+      </div>`;
+  }
+}
+
+function formatDuration(ms) {
+  if (!ms) return '';
+  const m = Math.floor(ms / 60000);
+  const s = Math.floor((ms % 60000) / 1000);
+  if (m > 0) return `${m}分${s}秒`;
+  return `${s}秒`;
 }
 
 function getPracticeMode() {
@@ -842,96 +813,6 @@ function playSoundEffect(type) {
   } catch (e) {
     console.warn('Sound effect failed:', e);
   }
-}
-
-function normalizeAnswerText(value) {
-  return String(value)
-    .replace(/^"(.*)"$/, '$1')
-    .toLowerCase()
-    .replace(/\s+/g, ' ')
-    .replace(/[，、；;]/g, ',')
-    .trim();
-}
-
-function splitAnswerParts(value) {
-  return normalizeAnswerText(value)
-    .split(/[,\n/|]+/)
-    .map(part => part.trim())
-    .filter(Boolean);
-}
-
-function formatAnswerForDisplay(answer) {
-  return Array.isArray(answer) ? answer.join('，') : answer;
-}
-
-function isAnswerMatch(userAnswer, correctAnswer, question = null) {
-  const normalizedUser = normalizeAnswerText(userAnswer);
-
-  if (question?.acceptAnswers?.length) {
-    return question.acceptAnswers.some(answer => isAnswerMatch(userAnswer, answer));
-  }
-
-  if (Array.isArray(correctAnswer)) {
-    const expected = correctAnswer.map(item => normalizeAnswerText(item));
-    const joinCandidates = [
-      expected.join(','),
-      expected.join(' '),
-      expected.join('/'),
-    ];
-    if (joinCandidates.includes(normalizedUser)) return true;
-
-    const userParts = splitAnswerParts(userAnswer);
-    if (userParts.length === expected.length && userParts.every((part, index) => part === expected[index])) {
-      return true;
-    }
-
-    return expected.every(part => normalizedUser.includes(part));
-  }
-
-  if (question?.keywords?.length) {
-    return question.keywords.every(keyword => normalizedUser.includes(normalizeAnswerText(keyword)));
-  }
-
-  const normalizedAnswer = normalizeAnswerText(correctAnswer);
-  return normalizedUser === normalizedAnswer
-    || normalizedUser === normalizedAnswer.replace(/\s+/g, '')
-    || userAnswer === String(correctAnswer)
-    || normalizedUser.startsWith(normalizedAnswer.replace(/\s+/g, ''));
-}
-
-function stripMarkdown(text) {
-  if (!text) return '';
-  return text
-    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-    .replace(/```[\s\S]*?```/g, '')
-    .replace(/`([^`]+)`/g, '$1')
-    // LaTeX inline math: $...$ → just content
-    .replace(/\$+([^$\n]+)\$+/g, '$1')
-    // LaTeX block: $$...$$ → remove
-    .replace(/\$\$[\s\S]*?\$\$/g, '')
-    // Image/links: ![alt](url) → alt, [text](url) → text
-    .replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    // Headings: ## 中文标题 → just text (strip leading ## and spaces)
-    .replace(/^#{1,6}\s+[\u4e00-\u9fa5a-zA-Z0-9].*/gm, m => m.replace(/^#{1,6}\s+/, ''))
-    // Bold with space inside: ** 65° ** → 65°
-    .replace(/\*\*\s*([^*]+?)\s*\*\*/g, '$1')
-    // Bold standard: **text** → text
-    .replace(/\*\*([^*]+)\*\*/g, '$1')
-    // Italic with space: * text * → text
-    .replace(/(?<!\*)\*([^*]+?)\*(?!\*)/g, '$1')
-    .replace(/__([^_]+)__/g, '$1')
-    .replace(/_(?![*])([^_]+)_(?![*_])/g, '$1')
-    // List markers: "- item" or "* item" → "· item"
-    .replace(/^[-*+]\s+(?=[^\n])/gm, '· ')
-    // Numbered list: "1. item" → "· item"
-    .replace(/^\d+\.\s+(?=[^\n])/gm, '· ')
-    // Horizontal rules and dashes
-    .replace(/^---\s*$/gm, '')
-    .replace(/---/g, '')
-    // Collapse blank lines
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
 }
 
 function appendExplanation(fb, questionLike, skipPassage = false) {
@@ -1740,6 +1621,8 @@ async function renderSessionEnd() {
   const sessionAcc = total > 0 ? Math.round(correct / total * 100) : 0;
   const newScore = Math.round((totalAll + 1) * acc);
 
+  const duration = state.sessionStartTime ? Date.now() - state.sessionStartTime : 0;
+
   state.daily[today] = {
     practiced: existing.practiced + 1,
     questionsCount: totalAll,
@@ -1747,6 +1630,7 @@ async function renderSessionEnd() {
     accuracy: acc,
     score: newScore,
     bySubject: byS,
+    duration: (existing.duration || 0) + duration,
   };
   await set(K.DAILY, state.daily);
 
@@ -1801,7 +1685,7 @@ async function renderSessionEnd() {
         <span class="big-num">${correct}/${total} (${sessionAcc}%)</span>
       </div>
       <div class="session-daily">
-        <p>今日累计: ${state.daily[today].questionsCount}题 | 得分: ${state.daily[today].score}</p>
+        <p>今日累计: ${state.daily[today].questionsCount}题 | 得分: ${state.daily[today].score} ${duration ? `| 学习 ${formatDuration(duration)}` : ''}</p>
         <p>已坚持 <strong>${streak}</strong> 天（累计 <strong>${totalDays}</strong> 天）</p>
       </div>
       <button class="primary-btn" data-action="back-home" style="margin-top:16px">返回首页</button>
@@ -1855,7 +1739,7 @@ function renderProgress() {
     return `<div class="history-row">
       <span class="history-date">${label}</span>
       <span class="history-score">${d.score}分</span>
-      <span class="history-detail">${d.questionsCount}题/${Math.round(d.accuracy*100)}%</span>
+      <span class="history-detail">${d.questionsCount}题/${Math.round(d.accuracy*100)}%${d.duration ? '/' + formatDuration(d.duration) : ''}</span>
     </div>`;
   }).join('');
 
@@ -1869,6 +1753,86 @@ function renderProgress() {
     <div class="chart-container" id="chart-svg">${chartSVG}</div>
     <div class="history-list">${rows || '<p class="placeholder">还没有打卡记录</p>'}</div>
   `;
+}
+
+// REVIEW VIEW
+function renderReview() {
+  const container = document.getElementById('review-content');
+  const mode = 'weak';
+  const weakQuestions = [];
+  const subjects = getSubjects(state.settings.section);
+
+  subjects.forEach(subj => {
+    const questions = state.questionBank[subj] || [];
+    questions.forEach(q => {
+      if ((state.progress[q.id] || {}).status === 'weak') {
+        weakQuestions.push({ ...q, subject: subj });
+      }
+    });
+  });
+
+  if (weakQuestions.length === 0) {
+    container.innerHTML = `
+      <div class="review-empty">
+        <p style="text-align:center;padding:40px 16px;color:var(--theme-text-muted)">🎉 暂无错题，继续保持！</p>
+      </div>`;
+    return;
+  }
+
+  const filterSubj = state.subject || 'all';
+  const filtered = filterSubj === 'all' ? weakQuestions : weakQuestions.filter(q => q.subject === filterSubj);
+  const subjPills = subjects.filter(s => weakQuestions.some(q => q.subject === s));
+
+  container.innerHTML = `
+    <div class="review-filter-bar">
+      <button class="filter-pill${filterSubj === 'all' ? ' active' : ''}" data-action="review-filter" data-value="all">全部 (${weakQuestions.length})</button>
+      ${subjPills.map(s => `<button class="filter-pill${filterSubj === s ? ' active' : ''}" data-action="review-filter" data-value="${s}">${subjectName(s)} (${weakQuestions.filter(q => q.subject === s).length})</button>`).join('')}
+    </div>
+    <div class="review-list">
+      ${filtered.map(q => {
+        const prog = state.progress[q.id] || {};
+        const ua = prog.userAnswer;
+        const displayUA = ua ? (Array.isArray(ua) ? ua.map(v => q.choices?.[v] || v).join('、') : q.choices?.[ua] != null ? q.choices[ua] : ua) : '未作答';
+        const caDisplay = q.answer != null ? (q.choices?.[q.answer] != null ? q.choices[q.answer] : q.answer) : '';
+        return `<div class="review-card">
+          <div class="review-card-header">
+            <span class="review-subject-tag">${subjectName(q.subject)}</span>
+            <span class="review-wrong-badge">答错</span>
+          </div>
+          <div class="review-question-text">${escapeHTML(q.question || '')}</div>
+          <div class="review-answers">
+            <div class="review-answer-row wrong">
+              <span class="review-answer-label">你的答案</span>
+              <span class="review-answer-val">${escapeHTML(displayUA)}</span>
+            </div>
+            <div class="review-answer-row correct">
+              <span class="review-answer-label">正确答案</span>
+              <span class="review-answer-val">${escapeHTML(caDisplay)}</span>
+            </div>
+          </div>
+          ${q.explanation ? `<div class="review-explanation">${escapeHTML(q.explanation)}</div>` : ''}
+          <button class="secondary-btn review-practice-btn" data-action="review-practice" data-subject="${q.subject}" style="width:100%;margin-top:8px">练习 ${subjectName(q.subject)}</button>
+        </div>`;
+      }).join('')}
+    </div>`;
+}
+
+function renderReviewEntry() {
+  const el = document.getElementById('review-entry-container');
+  if (!el) return;
+  const weakCount = Object.values(state.progress).filter(p => p.status === 'weak').length;
+  if (weakCount === 0) { el.innerHTML = ''; return; }
+  el.innerHTML = `
+    <div class="review-entry-card" data-action="nav" data-view="review">
+      <div class="review-entry-left">
+        <span class="review-entry-icon">📝</span>
+        <div class="review-entry-info">
+          <div class="review-entry-title">错题精选</div>
+          <div class="review-entry-sub">${weakCount} 道题需要复习</div>
+        </div>
+      </div>
+      <span class="review-entry-arrow">→</span>
+    </div>`;
 }
 
 // 柱状图 — 各科掌握情况，每科目独立 易错题库/熟练掌握 按钮
@@ -2001,6 +1965,14 @@ async function renderSettings() {
       </div>
       ` : '<div class="settings-hint" style="padding:8px 0">未设置账号</div>'}
       <div class="settings-row" style="padding:8px 0">
+        <div class="settings-label" style="margin:0">每日目标</div>
+        <div class="settings-stepper">
+          <button class="stepper-btn" data-action="goal-minus">−</button>
+          <span class="stepper-val" id="goal-val">${state.settings.dailyGoal || 0}题</span>
+          <button class="stepper-btn" data-action="goal-plus">+</button>
+        </div>
+      </div>
+      <div class="settings-row" style="padding:8px 0">
         <div class="settings-label" style="margin:0">易错阈值</div>
         <div class="settings-stepper">
           <button class="stepper-btn" data-action="thresh-minus">−</button>
@@ -2126,10 +2098,6 @@ function renderSupporters(data) {
     </div>`;
   }).join('');
   container.innerHTML = list;
-}
-
-function escapeHTML(str) {
-  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 async function upgradeQuestionBank() {
@@ -2328,6 +2296,16 @@ async function handleClick(e) {
       saveSettingsAndUpdate();
       break;
 
+    case 'goal-minus':
+      state.settings.dailyGoal = Math.max(0, state.settings.dailyGoal - 5);
+      saveSettingsAndUpdate();
+      break;
+
+    case 'goal-plus':
+      state.settings.dailyGoal = Math.min(200, state.settings.dailyGoal + 5);
+      saveSettingsAndUpdate();
+      break;
+
     case 'set-theme':
       state.settings.theme = e.target.dataset.value || null;
       saveSettingsAndUpdate();
@@ -2452,6 +2430,17 @@ async function handleClick(e) {
     case 'choose-section':
       await chooseSection(t.dataset.section);
       break;
+
+    case 'review-filter':
+      state.subject = t.dataset.value;
+      renderReview();
+      break;
+
+    case 'review-practice':
+      state.subject = t.dataset.subject;
+      state.entry = 'weak';
+      navigate('#/practice/' + t.dataset.subject + '?entry=weak');
+      break;
   }
 }
 
@@ -2494,43 +2483,6 @@ async function clearAllData() {
   await upgradeQuestionBank();
   renderHome();
   showToast('数据已清除，题库已重新加载');
-}
-
-// ============================================================
-// UTILITIES
-// ============================================================
-function todayKey() {
-  return getLocalDateKey();
-}
-
-function dateLabel(iso) {
-  return formatDateKeyLabel(iso);
-}
-
-function getWeekDays() {
-  return listRecentDateKeys(7).reverse();
-}
-
-function shuffle(arr) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function subjectName(subj) {
-  return { math:'数学', chinese:'语文', english:'英语', physics:'物理', chemistry:'化学',
-    biology:'生物', history:'历史', geography:'地理', politics:'道法' }[subj] || subj;
-}
-
-function showToast(msg, duration) {
-  const t = document.getElementById('toast');
-  if (!t) return;
-  t.textContent = msg;
-  t.style.display = 'block';
-  setTimeout(() => { t.style.display = 'none'; }, duration || 2500);
 }
 
 // ============================================================
@@ -2900,10 +2852,6 @@ async function chooseSection(section) {
   // Also refresh subject badges if on practice view
   renderSubjectBadges();
   showToast('已切换到' + (section === 'junior' ? '初中' : section === 'primary' ? '小学' : '高中'));
-}
-
-function updateSectionDisplay() {
-  // Update any section indicator in the header if needed
 }
 
 // ============================================================

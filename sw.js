@@ -1,5 +1,4 @@
-// Service Worker — Cache-First strategy (per-subject lazy loading)
-const CACHE_NAME = 'bairichuang-v20260420-1';
+const CACHE_NAME = 'bairichuang-v2';
 
 const PRECACHE = [
   './',
@@ -7,28 +6,26 @@ const PRECACHE = [
   './app.js',
   './css/style.css',
   './manifest.webmanifest',
+  './version.json',
   './icons/icon-192.png',
   './icons/icon-192-maskable.png',
   './icons/icon-512.png',
   './icons/icon-512-maskable.png',
   './js/idb-keyval.mjs',
   './js/date-utils.mjs',
+  './js/utils.js',
 ];
 
-// Install — pre-cache shell
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return Promise.allSettled(
-        PRECACHE.map(url => cache.add(url).catch(err => {
-          console.warn('Precache failed for:', url, err);
-        }))
-      );
-    }).then(() => self.skipWaiting())
+    caches.open(CACHE_NAME).then(cache =>
+      Promise.allSettled(
+        PRECACHE.map(url => cache.add(url).catch(() => {}))
+      )
+    ).then(() => self.skipWaiting())
   );
 });
 
-// Activate — clean old caches
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys().then(keys =>
@@ -39,11 +36,8 @@ self.addEventListener('activate', e => {
   );
 });
 
-// Fetch — per-subject lazy loading strategy
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
-
-  // Skip non-GET
   if (e.request.method !== 'GET') return;
 
   const pathname = url.pathname;
@@ -51,7 +45,6 @@ self.addEventListener('fetch', e => {
   const isIndex = pathname.endsWith('questions/index.json');
   const isVersionFile = pathname.endsWith('version.json');
 
-  // index.json and version.json — always network-first (version control)
   if (isIndex || isVersionFile) {
     e.respondWith(
       fetch(e.request)
@@ -67,7 +60,6 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Per-subject question files — cache-first, background refresh
   if (isQuestionFile) {
     e.respondWith(
       caches.match(e.request).then(cached => {
@@ -84,7 +76,6 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Everything else — cache first, network fallback
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
@@ -94,7 +85,7 @@ self.addEventListener('fetch', e => {
           caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
         }
         return resp;
-      });
+      }).catch(() => caches.match('./index.html'));
     })
   );
 });
