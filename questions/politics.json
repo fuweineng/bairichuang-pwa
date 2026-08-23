@@ -1,5 +1,148 @@
 [
   {
+    "id": "politics-011",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "道德教育",
+      "诚信"
+    ],
+    "question": "下列体现诚信品质的是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "抄袭作业"
+      },
+      {
+        "label": "B",
+        "text": "考试作弊"
+      },
+      {
+        "label": "C",
+        "text": "守时守约"
+      },
+      {
+        "label": "D",
+        "text": "说谎推卸责任"
+      }
+    ],
+    "answer": "C",
+    "explanation": "诚信就是诚实守信。守时守约是诚信的表现。"
+  },
+  {
+    "id": "politics-012",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育",
+      "法律作用"
+    ],
+    "question": "法律最主要的特征是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "由国家制定或认可"
+      },
+      {
+        "label": "B",
+        "text": "靠国家强制力保证实施"
+      },
+      {
+        "label": "C",
+        "text": "对全体社会成员具有普遍约束力"
+      },
+      {
+        "label": "D",
+        "text": "维护公平正义"
+      }
+    ],
+    "answer": "B",
+    "explanation": "法律有三个特征，最主要的是靠国家强制力保证实施。"
+  },
+  {
+    "id": "politics-013",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "我国宪法规定，公民的基本权利有政治权利和自由、人身自由权利、社会经济权利、______和教育的权利等。",
+    "options": [],
+    "answer": "宗教信仰自由",
+    "explanation": "我国公民的基本权利包括政治权利和自由、人身自由权利、社会经济权利、宗教信仰自由等。",
+    "acceptAnswers": [
+      "宗教信仰自由"
+    ]
+  },
+  {
+    "id": "politics-014",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "依法纳税是公民的：",
+    "options": [
+      {
+        "label": "A",
+        "text": "基本权利"
+      },
+      {
+        "label": "B",
+        "text": "基本义务"
+      },
+      {
+        "label": "C",
+        "text": "道德义务"
+      },
+      {
+        "label": "D",
+        "text": "自愿行为"
+      }
+    ],
+    "answer": "B",
+    "explanation": "依法纳税是公民的基本义务。我国宪法规定公民有依照法律纳税的义务。"
+  },
+  {
+    "id": "politics-015",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "责任意识"
+    ],
+    "question": "下列行为体现了社会责任意识的是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "过马路闯红灯"
+      },
+      {
+        "label": "B",
+        "text": "主动参加社区志愿服务"
+      },
+      {
+        "label": "C",
+        "text": "在文物上刻字留念"
+      },
+      {
+        "label": "D",
+        "text": "随手乱扔垃圾"
+      }
+    ],
+    "answer": "B",
+    "explanation": "参加社区志愿服务是服务社会、奉献社会的表现，体现了良好的社会责任意识。"
+  },
+  {
     "id": "politics-001",
     "type": "choice",
     "subject": "politics",
@@ -310,132 +453,6 @@
     "explanation": "未满16周岁的未成年人违反治安管理处罚法，会被从轻或减轻处罚；满16周岁才承担完全刑事责任。"
   },
   {
-    "id": "politics-011",
-    "type": "choice",
-    "subject": "politics",
-    "difficulty": 1,
-    "grade": 8,
-    "knowledgeTags": [
-      "道德教育",
-      "诚信"
-    ],
-    "question": "下列体现诚信品质的是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "抄袭作业"
-      },
-      {
-        "label": "B",
-        "text": "考试作弊"
-      },
-      {
-        "label": "C",
-        "text": "守时守约"
-      },
-      {
-        "label": "D",
-        "text": "说谎推卸责任"
-      }
-    ],
-    "answer": "C",
-    "explanation": "诚信就是诚实守信。守时守约是诚信的表现。"
-  },
-  {
-    "id": "politics-012",
-    "type": "choice",
-    "subject": "politics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "法治教育",
-      "法律作用"
-    ],
-    "question": "法律最主要的特征是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "由国家制定或认可"
-      },
-      {
-        "label": "B",
-        "text": "靠国家强制力保证实施"
-      },
-      {
-        "label": "C",
-        "text": "对全体社会成员具有普遍约束力"
-      },
-      {
-        "label": "D",
-        "text": "维护公平正义"
-      }
-    ],
-    "answer": "B",
-    "explanation": "法律有三个特征，最主要的是靠国家强制力保证实施。"
-  },
-  {
-    "id": "politics-014",
-    "type": "choice",
-    "subject": "politics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "公民义务"
-    ],
-    "question": "依法纳税是公民的：",
-    "options": [
-      {
-        "label": "A",
-        "text": "基本权利"
-      },
-      {
-        "label": "B",
-        "text": "基本义务"
-      },
-      {
-        "label": "C",
-        "text": "道德义务"
-      },
-      {
-        "label": "D",
-        "text": "自愿行为"
-      }
-    ],
-    "answer": "B",
-    "explanation": "依法纳税是公民的基本义务。我国宪法规定公民有依照法律纳税的义务。"
-  },
-  {
-    "id": "politics-015",
-    "type": "choice",
-    "subject": "politics",
-    "difficulty": 2,
-    "grade": 8,
-    "knowledgeTags": [
-      "责任意识"
-    ],
-    "question": "下列行为体现了社会责任意识的是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "过马路闯红灯"
-      },
-      {
-        "label": "B",
-        "text": "主动参加社区志愿服务"
-      },
-      {
-        "label": "C",
-        "text": "在文物上刻字留念"
-      },
-      {
-        "label": "D",
-        "text": "随手乱扔垃圾"
-      }
-    ],
-    "answer": "B",
-    "explanation": "参加社区志愿服务是服务社会、奉献社会的表现，体现了良好的社会责任意识。"
-  },
-  {
     "id": "politics-021",
     "type": "choice",
     "subject": "politics",
@@ -558,6 +575,23 @@
     ],
     "answer": "C",
     "explanation": "情绪的成分包括：内在体验（感受）、外在表现（表情）、生理唤醒（生理变化）"
+  },
+  {
+    "id": "politics-025",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "自尊是既不向别人卑躬屈膝，也不允许别人歧视、侮辱的_____。",
+    "answer": "思想品质",
+    "explanation": "自尊是一种自己尊重自己、爱护自己，并期望受到他人、集体和社会尊重的内心体验，是一种积极的心理品质",
+    "acceptAnswers": [
+      "思想品质"
+    ],
+    "options": []
   },
   {
     "id": "politics-026",
@@ -684,6 +718,23 @@
     "explanation": "行为与后果具有一致性，有行为就必然产生后果，行为不同后果也不同"
   },
   {
+    "id": "politics-030",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "我国宪法规定，公民有言论、出版、集会、结社、游行、示威的_____。",
+    "answer": "自由权利",
+    "explanation": "这是我国公民享有的政治自由权利，是公民参与国家政治生活的基础",
+    "acceptAnswers": [
+      "自由权利"
+    ],
+    "options": []
+  },
+  {
     "id": "politics-031",
     "type": "choice",
     "subject": "politics",
@@ -808,6 +859,23 @@
     "explanation": "一般违法行为和犯罪都违反法律，但社会危害性大小不同，犯罪是严重违法行为"
   },
   {
+    "id": "politics-035",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "挫折应对"
+    ],
+    "question": "面对挫折时，我们要学会一些应对方法，如请求帮助、_____和自我疏导等。",
+    "answer": "自我疏导",
+    "explanation": "应对挫折的方法包括：请求帮助、自我疏导（写日记、倾诉）、心理安慰、目标调整等",
+    "acceptAnswers": [
+      "自我疏导"
+    ],
+    "options": []
+  },
+  {
     "id": "politics-036",
     "type": "choice",
     "subject": "politics",
@@ -930,6 +998,77 @@
     ],
     "answer": "B",
     "explanation": "情绪ABC理论：A是诱发性事件（Activating event），B是信念和想法（Belief），C是行为和结果（Consequence）"
+  },
+  {
+    "id": "politics-040",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律意识"
+    ],
+    "question": "《中华人民共和国未成年人保护法》从1992年1月1日起施行，于2007年和2012年进行了两次_____。",
+    "answer": "修订",
+    "explanation": "《未成年人保护法》于2007年和2012年进行了修订，不断完善对未成年人的保护",
+    "acceptAnswers": [
+      "修订"
+    ],
+    "options": []
+  },
+  {
+    "id": "politics-201",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公共秩序",
+      "规则意识"
+    ],
+    "question": "在地铁站排队安检时，有同学想插队赶时间。你更恰当的做法是：",
+    "options": [
+      {
+        "label": "A",
+        "text": "假装没看见，免得惹麻烦"
+      },
+      {
+        "label": "B",
+        "text": "和他一起插队节省时间"
+      },
+      {
+        "label": "C",
+        "text": "提醒他遵守秩序，并自觉排队"
+      },
+      {
+        "label": "D",
+        "text": "当众嘲笑他没有素质"
+      }
+    ],
+    "answer": "C",
+    "explanation": "遵守公共秩序既是规则意识的体现，也是对他人权利的尊重。"
+  },
+  {
+    "id": "politics-202",
+    "type": "short_answer",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "网络生活",
+      "理性参与"
+    ],
+    "question": "面对来源不明的网络消息，青少年应怎样做？请概括两点。",
+    "answer": "不信谣、不传谣，核实信息来源，理性表达",
+    "keywords": [
+      "核实",
+      "不传谣"
+    ],
+    "explanation": "核心在于提高媒介素养，先核实再表达，不造谣、不传谣。",
+    "acceptAnswers": [
+      "不信谣、不传谣，核实信息来源，理性表达"
+    ],
+    "options": []
   },
   {
     "id": "politics-043",
@@ -1188,36 +1327,108 @@
     ]
   },
   {
-    "id": "politics-201",
-    "type": "choice",
+    "id": "politics-051",
+    "type": "short_answer",
     "subject": "politics",
-    "difficulty": 2,
-    "grade": 8,
+    "difficulty": 3,
+    "grade": 9,
     "knowledgeTags": [
-      "公共秩序",
-      "规则意识"
+      "道法-心理健康",
+      "材料分析"
     ],
-    "question": "在地铁站排队安检时，有同学想插队赶时间。你更恰当的做法是：",
-    "options": [
-      {
-        "label": "A",
-        "text": "假装没看见，免得惹麻烦"
-      },
-      {
-        "label": "B",
-        "text": "和他一起插队节省时间"
-      },
-      {
-        "label": "C",
-        "text": "提醒他遵守秩序，并自觉排队"
-      },
-      {
-        "label": "D",
-        "text": "当众嘲笑他没有素质"
-      }
+    "question": "材料：小明在班级里经常独来独往，不愿意参加集体活动，觉得一个人更自在。\n\n问题：请从闭锁心理和融入集体的角度，分析小明的心理和行为，并给他提出建议。",
+    "answer": "（1）小明的行为属于闭锁心理的表现。闭锁心理是一种正常的心理现象，但如果过于封闭自己，会影响与同学的交往，阻碍健康成长。\n\n（2）建议：①认识闭锁心理的危害，主动开放自己；②积极参加集体活动，在活动中锻炼交往能力；③与同学建立平等、信任的友谊关系；④学会调控情绪，保持积极乐观的心态。",
+    "explanation": "闭锁心理是青少年常见的心理现象，关键是要认识其危害，主动走出自我封闭，积极融入集体。",
+    "acceptAnswers": [
+      "（1）小明的行为属于闭锁心理的表现。闭锁心理是一种正常的心理现象，但如果过于封闭自己，会影响与同学的交往，阻碍健康成长。\n\n（2）建议：①认识闭锁心理的危害，主动开放自己；②积极参加集体活动，在活动中锻炼交往能力；③与同学建立平等、信任的友谊关系；④学会调控情绪，保持积极乐观的心态。"
     ],
-    "answer": "C",
-    "explanation": "遵守公共秩序既是规则意识的体现，也是对他人权利的尊重。"
+    "options": []
+  },
+  {
+    "id": "politics-052",
+    "type": "short_answer",
+    "subject": "politics",
+    "difficulty": 3,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-法治教育",
+      "材料分析"
+    ],
+    "question": "材料：某学生在校园里被高年级同学索要保护费，如果不交就会被打。该学生向学校报告后，学校及时处理了这起校园欺凌事件。\n\n问题：①校园欺凌有什么危害？②如果你遇到校园欺凌，应该怎么做？",
+    "answer": "（1）危害：侵害受害学生的人身权、财产权；损害学生身心健康；破坏正常的教育教学秩序；甚至可能引发违法行为。\n\n（2）应对：①依法进行自我保护，及时告诉老师、家长或报警；②保留证据（照片、聊天记录等）；③必要时可向法律援助机构求助；④不私了，不以暴制暴。",
+    "explanation": "面对校园欺凌，学生应学会依法自我保护，及时报告学校、家长或报警，不能忍气吞声或以暴制暴。",
+    "acceptAnswers": [
+      "（1）危害：侵害受害学生的人身权、财产权；损害学生身心健康；破坏正常的教育教学秩序；甚至可能引发违法行为。\n\n（2）应对：①依法进行自我保护，及时告诉老师、家长或报警；②保留证据（照片、聊天记录等）；③必要时可向法律援助机构求助；④不私了，不以暴制暴。"
+    ],
+    "options": []
+  },
+  {
+    "id": "politics-053",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-社会主义核心价值观"
+    ],
+    "question": "社会主义核心价值观个人层面的内容是：爱国、敬业、_____、友善。",
+    "answer": "诚信",
+    "explanation": "根据道法知识填写：诚信",
+    "acceptAnswers": [
+      "诚信"
+    ],
+    "options": []
+  },
+  {
+    "id": "politics-054",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-犯罪"
+    ],
+    "question": "犯罪具有三个基本特征：严重社会危害性、刑事违法性和_____性。",
+    "answer": "刑罚当罚",
+    "explanation": "根据道法知识填写：刑罚当罚",
+    "acceptAnswers": [
+      "刑罚当罚"
+    ],
+    "options": []
+  },
+  {
+    "id": "politics-055",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-自我保护"
+    ],
+    "question": "遇到火灾时，应该拨打火警电话_____。",
+    "answer": "119",
+    "explanation": "根据道法知识填写：119",
+    "acceptAnswers": [
+      "119"
+    ],
+    "options": []
+  },
+  {
+    "id": "politics-056",
+    "type": "fill",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "道法-宪法"
+    ],
+    "question": "我国宪法是国家的根本大法，具有最高的法律效力和_____效力。",
+    "answer": "法律",
+    "explanation": "根据道法知识填写：法律",
+    "acceptAnswers": [
+      "法律"
+    ],
+    "options": []
   },
   {
     "id": "politics-203",
@@ -2206,6 +2417,35 @@
     "explanation": "网络文明强调尊重他人、理性表达。B选项在论坛发表理性、建设性言论，符合文明交往原则；其余选项均涉及隐私泄露、未核实信息或攻击，违背网络文明。"
   },
   {
+    "id": "politics-237",
+    "subject": "politics",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "诚信做人",
+    "question": "以下哪种行为最能体现诚信做人的原则？",
+    "options": [
+      {
+        "label": "A",
+        "text": "在考试前向老师询问试题，以获取优势"
+      },
+      {
+        "label": "B",
+        "text": "婉拒同学的作业抄写邀请，并鼓励其独立完成"
+      },
+      {
+        "label": "C",
+        "text": "把朋友的秘密随意告诉其他人，以显示自己的“可信”"
+      },
+      {
+        "label": "D",
+        "text": "为了赢得同学的好感，答应帮助其作弊"
+      }
+    ],
+    "answer": "B",
+    "grade": 9,
+    "explanation": "诚信要求实事求是、不欺骗、不作弊。B选项婉拒抄袭并鼓励独立完成，符合诚信原则；A、C、D均涉及欺骗或违规，违背诚信。"
+  },
+  {
     "id": "politics-238",
     "subject": "politics",
     "type": "choice",
@@ -2728,6 +2968,35 @@
     "explanation": "受教育权是宪法规定的未成年人基本权利，任何组织或个人不得非法剥夺，其他选项均违背这一原则。"
   },
   {
+    "id": "politics-256",
+    "subject": "politics",
+    "type": "choice",
+    "difficulty": 2,
+    "tag": "公民基本义务",
+    "question": "以下哪项不属于我国公民的基本义务？",
+    "options": [
+      {
+        "label": "A",
+        "text": "依法纳税"
+      },
+      {
+        "label": "B",
+        "text": "保守国家秘密"
+      },
+      {
+        "label": "C",
+        "text": "行使选举权"
+      },
+      {
+        "label": "D",
+        "text": "维护国家统一和民族团结"
+      }
+    ],
+    "answer": "C",
+    "grade": 9,
+    "explanation": "依法纳税、保守国家秘密、维护国家统一和民族团结均为公民的基本义务，而行使选举权是公民的权利而非义务，故选C。"
+  },
+  {
     "id": "politics-257",
     "subject": "politics",
     "type": "choice",
@@ -3016,6 +3285,2703 @@
     "answer": "B",
     "grade": 9,
     "explanation": "面对学习挫折，应积极面对。选项B提出分析失败原因、调整方法并坚持努力，这是成长关键；其他选项均为逃避或消极，对成长无益。"
+  },
+  {
+    "id": "pol-kz-001",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "宪法"
+    ],
+    "question": "我国宪法规定国家的根本任务是",
+    "options": [
+      {
+        "label": "A",
+        "text": "发展经济"
+      },
+      {
+        "label": "B",
+        "text": "改革开放"
+      },
+      {
+        "label": "C",
+        "text": "沿着中国特色社会主义道路进行现代化建设"
+      },
+      {
+        "label": "D",
+        "text": "保护环境"
+      }
+    ],
+    "answer": "C",
+    "explanation": "宪法规定根本任务是进行现代化建设"
+  },
+  {
+    "id": "pol-kz-002",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "我国处理民族关系的基本原则是",
+    "options": [
+      {
+        "label": "A",
+        "text": "平等团结互助和谐"
+      },
+      {
+        "label": "B",
+        "text": "共同繁荣"
+      },
+      {
+        "label": "C",
+        "text": "民族自治"
+      },
+      {
+        "label": "D",
+        "text": "融合发展"
+      }
+    ],
+    "answer": "A",
+    "explanation": "民族关系基本原则为平等团结互助和谐"
+  },
+  {
+    "id": "pol-kz-003",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "公民最基本的人身权利是",
+    "options": [
+      {
+        "label": "A",
+        "text": "肖像权"
+      },
+      {
+        "label": "B",
+        "text": "生命健康权"
+      },
+      {
+        "label": "C",
+        "text": "隐私权"
+      },
+      {
+        "label": "D",
+        "text": "名誉权"
+      }
+    ],
+    "answer": "B",
+    "explanation": "生命健康权是最基本的人身权利"
+  },
+  {
+    "id": "pol-kz-004",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "当我们与老师发生矛盾时正确的做法是",
+    "options": [
+      {
+        "label": "A",
+        "text": "顶撞老师"
+      },
+      {
+        "label": "B",
+        "text": "冷战不理"
+      },
+      {
+        "label": "C",
+        "text": "告诉家长"
+      },
+      {
+        "label": "D",
+        "text": "主动沟通化解矛盾"
+      }
+    ],
+    "answer": "D",
+    "explanation": "主动沟通是化解师生矛盾的正确方式"
+  },
+  {
+    "id": "pol-kz-005",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "己所不欲勿施于人体现了什么品德",
+    "options": [
+      {
+        "label": "A",
+        "text": "换位思考"
+      },
+      {
+        "label": "B",
+        "text": "诚实守信"
+      },
+      {
+        "label": "C",
+        "text": "自强不息"
+      },
+      {
+        "label": "D",
+        "text": "艰苦奋斗"
+      }
+    ],
+    "answer": "A",
+    "explanation": "己所不欲勿施于人体现了换位思考的品德"
+  },
+  {
+    "id": "pol-kz-006",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "中国梦的本质是",
+    "options": [
+      {
+        "label": "A",
+        "text": "经济发展"
+      },
+      {
+        "label": "B",
+        "text": "国家富强民族振兴人民幸福"
+      },
+      {
+        "label": "C",
+        "text": "世界和平"
+      },
+      {
+        "label": "D",
+        "text": "全面小康"
+      }
+    ],
+    "answer": "B",
+    "explanation": "中国梦的本质是国家富强民族振兴人民幸福"
+  },
+  {
+    "id": "pol-kz-007",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育"
+    ],
+    "question": "我国未成年人保护法规定对未成年人实行",
+    "options": [
+      {
+        "label": "A",
+        "text": "家庭保护学校保护社会保护司法保护"
+      },
+      {
+        "label": "B",
+        "text": "家庭保护学校保护"
+      },
+      {
+        "label": "C",
+        "text": "社会保护司法保护"
+      },
+      {
+        "label": "D",
+        "text": "家庭保护社会保护"
+      }
+    ],
+    "answer": "A",
+    "explanation": "四大保护：家庭、学校、社会、司法"
+  },
+  {
+    "id": "pol-kz-008",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "下列属于公民基本义务的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "依法纳税"
+      },
+      {
+        "label": "B",
+        "text": "人身自由"
+      },
+      {
+        "label": "C",
+        "text": "受教育权"
+      },
+      {
+        "label": "D",
+        "text": "选举权"
+      }
+    ],
+    "answer": "A",
+    "explanation": "依法纳税是公民的基本义务，BCD是权利"
+  },
+  {
+    "id": "pol-kz-009",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "下列属于高雅生活情趣的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "沉迷网络游戏"
+      },
+      {
+        "label": "B",
+        "text": "阅读经典名著"
+      },
+      {
+        "label": "C",
+        "text": "盲目追星"
+      },
+      {
+        "label": "D",
+        "text": "通宵看电视"
+      }
+    ],
+    "answer": "B",
+    "explanation": "阅读经典是高雅生活情趣"
+  },
+  {
+    "id": "pol-kz-010",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育"
+    ],
+    "question": "法律区别于道德等行为规范的最主要特征是",
+    "options": [
+      {
+        "label": "A",
+        "text": "由国家制定或认可"
+      },
+      {
+        "label": "B",
+        "text": "靠社会舆论约束"
+      },
+      {
+        "label": "C",
+        "text": "由国家强制力保证实施"
+      },
+      {
+        "label": "D",
+        "text": "调整人际关系"
+      }
+    ],
+    "answer": "C",
+    "explanation": "法律靠国家强制力保证实施"
+  },
+  {
+    "id": "pol-kz-011",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "我国现阶段的基本经济制度是",
+    "options": [
+      {
+        "label": "A",
+        "text": "单一公有制"
+      },
+      {
+        "label": "B",
+        "text": "公有制为主体多种所有制经济共同发展"
+      },
+      {
+        "label": "C",
+        "text": "私有制"
+      },
+      {
+        "label": "D",
+        "text": "集体所有制"
+      }
+    ],
+    "answer": "B",
+    "explanation": "公有制为主体多种所有制经济共同发展"
+  },
+  {
+    "id": "pol-kz-012",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "科学发展观的第一要义是",
+    "options": [
+      {
+        "label": "A",
+        "text": "以人为本"
+      },
+      {
+        "label": "B",
+        "text": "发展"
+      },
+      {
+        "label": "C",
+        "text": "全面协调可持续"
+      },
+      {
+        "label": "D",
+        "text": "统筹兼顾"
+      }
+    ],
+    "answer": "B",
+    "explanation": "科学发展观第一要义是发展"
+  },
+  {
+    "id": "pol-kz-013",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "诚信的基本要求是",
+    "options": [
+      {
+        "label": "A",
+        "text": "对人守信对事负责"
+      },
+      {
+        "label": "B",
+        "text": "说老实话"
+      },
+      {
+        "label": "C",
+        "text": "不虚假"
+      },
+      {
+        "label": "D",
+        "text": "言行一致"
+      }
+    ],
+    "answer": "A",
+    "explanation": "诚信基本要求是对人守信对事负责"
+  },
+  {
+    "id": "pol-kz-014",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "受教育既是公民的权利又是公民的",
+    "options": [
+      {
+        "label": "A",
+        "text": "权力"
+      },
+      {
+        "label": "B",
+        "text": "义务"
+      },
+      {
+        "label": "C",
+        "text": "责任"
+      },
+      {
+        "label": "D",
+        "text": "自由"
+      }
+    ],
+    "answer": "B",
+    "explanation": "受教育既是权利又是义务"
+  },
+  {
+    "id": "pol-kz-015",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "国情教育"
+    ],
+    "question": "我国处理民族关系的基本原则不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族平等"
+      },
+      {
+        "label": "B",
+        "text": "民族团结"
+      },
+      {
+        "label": "C",
+        "text": "各民族共同繁荣"
+      },
+      {
+        "label": "D",
+        "text": "民族融合"
+      }
+    ],
+    "answer": "D",
+    "explanation": "基本原则为平等团结共同繁荣"
+  },
+  {
+    "id": "pol-kz-016",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "道德教育"
+    ],
+    "question": "挫折对人产生的影响是",
+    "options": [
+      {
+        "label": "A",
+        "text": "只有消极作用"
+      },
+      {
+        "label": "B",
+        "text": "只有积极作用"
+      },
+      {
+        "label": "C",
+        "text": "既有积极作用也有消极作用"
+      },
+      {
+        "label": "D",
+        "text": "没有影响"
+      }
+    ],
+    "answer": "C",
+    "explanation": "挫折影响具有两面性"
+  },
+  {
+    "id": "pol-kz-017",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法治教育"
+    ],
+    "question": "下列属于违法行为的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "违反校纪"
+      },
+      {
+        "label": "B",
+        "text": "闯红灯"
+      },
+      {
+        "label": "C",
+        "text": "迟到"
+      },
+      {
+        "label": "D",
+        "text": "不写作业"
+      }
+    ],
+    "answer": "B",
+    "explanation": "闯红灯违反交通法规是违法行为"
+  },
+  {
+    "id": "pol-kz-018",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "青春期身体发育的重要特点是",
+    "options": [
+      {
+        "label": "A",
+        "text": "身高体重迅速增长"
+      },
+      {
+        "label": "B",
+        "text": "智力下降"
+      },
+      {
+        "label": "C",
+        "text": "停止生长"
+      },
+      {
+        "label": "D",
+        "text": "体重减轻"
+      }
+    ],
+    "answer": "A",
+    "explanation": "青春期身高体重迅速增长是显著特点"
+  },
+  {
+    "id": "pol-kz-019",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "心理健康"
+    ],
+    "question": "当我们遇到挫折时正确的做法是",
+    "options": [
+      {
+        "label": "A",
+        "text": "灰心丧气"
+      },
+      {
+        "label": "B",
+        "text": "冷静分析积极应对"
+      },
+      {
+        "label": "C",
+        "text": "逃避现实"
+      },
+      {
+        "label": "D",
+        "text": "责怪他人"
+      }
+    ],
+    "answer": "B",
+    "explanation": "冷静分析积极应对是正确态度"
+  },
+  {
+    "id": "pol-kz-020",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自尊自信"
+    ],
+    "question": "自尊的重要表现是",
+    "options": [
+      {
+        "label": "A",
+        "text": "知耻"
+      },
+      {
+        "label": "B",
+        "text": "虚荣"
+      },
+      {
+        "label": "C",
+        "text": "自负"
+      },
+      {
+        "label": "D",
+        "text": "自卑"
+      }
+    ],
+    "answer": "A",
+    "explanation": "知耻是自尊的重要表现"
+  },
+  {
+    "id": "pol-kz-021",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "自信"
+    ],
+    "question": "自信的基础是",
+    "options": [
+      {
+        "label": "A",
+        "text": "发现自己的长处"
+      },
+      {
+        "label": "B",
+        "text": "别人的夸奖"
+      },
+      {
+        "label": "C",
+        "text": "成绩好"
+      },
+      {
+        "label": "D",
+        "text": "外貌好"
+      }
+    ],
+    "answer": "A",
+    "explanation": "发现自己的长处是自信的基础"
+  },
+  {
+    "id": "pol-kz-022",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自立"
+    ],
+    "question": "培养自立能力最基本的做法是",
+    "options": [
+      {
+        "label": "A",
+        "text": "遇事依赖父母"
+      },
+      {
+        "label": "B",
+        "text": "立足自己当前生活从小事做起"
+      },
+      {
+        "label": "C",
+        "text": "等长大再说"
+      },
+      {
+        "label": "D",
+        "text": "完全靠自己不求助"
+      }
+    ],
+    "answer": "B",
+    "explanation": "从小事做起立足当前生活是培养自立基础"
+  },
+  {
+    "id": "pol-kz-023",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自强"
+    ],
+    "question": "自强的航标是",
+    "options": [
+      {
+        "label": "A",
+        "text": "理想"
+      },
+      {
+        "label": "B",
+        "text": "金钱"
+      },
+      {
+        "label": "C",
+        "text": "成绩"
+      },
+      {
+        "label": "D",
+        "text": "朋友"
+      }
+    ],
+    "answer": "A",
+    "explanation": "理想是自强的航标"
+  },
+  {
+    "id": "pol-kz-024",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "违法与犯罪"
+    ],
+    "question": "一般违法与犯罪的区别主要在于",
+    "options": [
+      {
+        "label": "A",
+        "text": "是否违法"
+      },
+      {
+        "label": "B",
+        "text": "对社会危害程度和应受处罚不同"
+      },
+      {
+        "label": "C",
+        "text": "是否被人发现"
+      },
+      {
+        "label": "D",
+        "text": "年龄大小"
+      }
+    ],
+    "answer": "B",
+    "explanation": "犯罪具有严重社会危害性应受刑罚处罚"
+  },
+  {
+    "id": "pol-kz-025",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律特征"
+    ],
+    "question": "法律是由谁制定或认可的",
+    "options": [
+      {
+        "label": "A",
+        "text": "学校"
+      },
+      {
+        "label": "B",
+        "text": "国家"
+      },
+      {
+        "label": "C",
+        "text": "家庭"
+      },
+      {
+        "label": "D",
+        "text": "社会"
+      }
+    ],
+    "answer": "B",
+    "explanation": "法律由国家制定或认可"
+  },
+  {
+    "id": "pol-kz-026",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "宪法"
+    ],
+    "question": "宪法是国家的根本大法因为",
+    "options": [
+      {
+        "label": "A",
+        "text": "它规定国家生活中最根本问题"
+      },
+      {
+        "label": "B",
+        "text": "它篇幅最长"
+      },
+      {
+        "label": "C",
+        "text": "它制定最早"
+      },
+      {
+        "label": "D",
+        "text": "它修改最少"
+      }
+    ],
+    "answer": "A",
+    "explanation": "宪法规定国家根本问题具有最高法律效力"
+  },
+  {
+    "id": "pol-kz-027",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民权利"
+    ],
+    "question": "言论自由属于公民的",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治权利和自由"
+      },
+      {
+        "label": "B",
+        "text": "人身自由"
+      },
+      {
+        "label": "C",
+        "text": "社会经济权利"
+      },
+      {
+        "label": "D",
+        "text": "文化教育权利"
+      }
+    ],
+    "answer": "A",
+    "explanation": "言论自由属于政治权利和自由"
+  },
+  {
+    "id": "pol-kz-028",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公民义务"
+    ],
+    "question": "维护国家安全荣誉和利益是公民的",
+    "options": [
+      {
+        "label": "A",
+        "text": "权利"
+      },
+      {
+        "label": "B",
+        "text": "基本义务"
+      },
+      {
+        "label": "C",
+        "text": "自由"
+      },
+      {
+        "label": "D",
+        "text": "权力"
+      }
+    ],
+    "answer": "B",
+    "explanation": "维护国家安全荣誉利益是基本义务"
+  },
+  {
+    "id": "pol-kz-029",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "监督权"
+    ],
+    "question": "公民行使监督权的合法渠道不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "向人大代表反映"
+      },
+      {
+        "label": "B",
+        "text": "通过媒体监督"
+      },
+      {
+        "label": "C",
+        "text": "聚众闹事"
+      },
+      {
+        "label": "D",
+        "text": "信访举报"
+      }
+    ],
+    "answer": "C",
+    "explanation": "聚众闹事不是合法渠道"
+  },
+  {
+    "id": "pol-kz-030",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "消费者权益"
+    ],
+    "question": "消费者享有的权利不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "知情权"
+      },
+      {
+        "label": "B",
+        "text": "公平交易权"
+      },
+      {
+        "label": "C",
+        "text": "强制交易权"
+      },
+      {
+        "label": "D",
+        "text": "依法求偿权"
+      }
+    ],
+    "answer": "C",
+    "explanation": "强制交易不是消费者权利"
+  },
+  {
+    "id": "pol-kz-031",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "集体利益"
+    ],
+    "question": "个人利益与集体利益的关系是",
+    "options": [
+      {
+        "label": "A",
+        "text": "个人利益高于集体利益"
+      },
+      {
+        "label": "B",
+        "text": "集体利益高于个人利益"
+      },
+      {
+        "label": "C",
+        "text": "两者根本上一致"
+      },
+      {
+        "label": "D",
+        "text": "两者完全对立"
+      }
+    ],
+    "answer": "C",
+    "explanation": "个人利益与集体利益在根本上是一致的"
+  },
+  {
+    "id": "pol-kz-032",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "网络交往"
+    ],
+    "question": "在网络交往中我们应该",
+    "options": [
+      {
+        "label": "A",
+        "text": "随意泄露个人信息"
+      },
+      {
+        "label": "B",
+        "text": "提高警惕学会自我保护"
+      },
+      {
+        "label": "C",
+        "text": "相信所有网友"
+      },
+      {
+        "label": "D",
+        "text": "见面随意约"
+      }
+    ],
+    "answer": "B",
+    "explanation": "网络交往要提高警惕学会自我保护"
+  },
+  {
+    "id": "pol-kz-033",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "责任"
+    ],
+    "question": "承担责任往往伴随着获得",
+    "options": [
+      {
+        "label": "A",
+        "text": "回报的权利"
+      },
+      {
+        "label": "B",
+        "text": "惩罚"
+      },
+      {
+        "label": "C",
+        "text": "嘲笑"
+      },
+      {
+        "label": "D",
+        "text": "损失"
+      }
+    ],
+    "answer": "A",
+    "explanation": "承担责任往往伴随获得回报的权利"
+  },
+  {
+    "id": "pol-kz-034",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "公平"
+    ],
+    "question": "维护社会公平的意义在于",
+    "options": [
+      {
+        "label": "A",
+        "text": "让少数人获利"
+      },
+      {
+        "label": "B",
+        "text": "促进社会稳定和和谐"
+      },
+      {
+        "label": "C",
+        "text": "降低效率"
+      },
+      {
+        "label": "D",
+        "text": "消除竞争"
+      }
+    ],
+    "answer": "B",
+    "explanation": "公平有利于社会稳定和和谐"
+  },
+  {
+    "id": "pol-kz-035",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "正义"
+    ],
+    "question": "下列属于正义行为的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "敲诈勒索"
+      },
+      {
+        "label": "B",
+        "text": "见义勇为"
+      },
+      {
+        "label": "C",
+        "text": "弄虚作假"
+      },
+      {
+        "label": "D",
+        "text": "恃强凌弱"
+      }
+    ],
+    "answer": "B",
+    "explanation": "见义勇为是正义行为"
+  },
+  {
+    "id": "pol-kz-036",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "社会主义核心价值观"
+    ],
+    "question": "社会主义核心价值观个人层面的价值准则是",
+    "options": [
+      {
+        "label": "A",
+        "text": "富强民主文明和谐"
+      },
+      {
+        "label": "B",
+        "text": "自由平等公正法治"
+      },
+      {
+        "label": "C",
+        "text": "爱国敬业诚信友善"
+      },
+      {
+        "label": "D",
+        "text": "民主文明和谐美丽"
+      }
+    ],
+    "answer": "C",
+    "explanation": "个人层面:爱国敬业诚信友善"
+  },
+  {
+    "id": "pol-kz-037",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生命价值"
+    ],
+    "question": "生命的价值在于",
+    "options": [
+      {
+        "label": "A",
+        "text": "长短"
+      },
+      {
+        "label": "B",
+        "text": "对社会的贡献"
+      },
+      {
+        "label": "C",
+        "text": "财富多少"
+      },
+      {
+        "label": "D",
+        "text": "地位高低"
+      }
+    ],
+    "answer": "B",
+    "explanation": "生命价值在于对社会的贡献"
+  },
+  {
+    "id": "pol-kz-038",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "友谊"
+    ],
+    "question": "真正的友谊是",
+    "options": [
+      {
+        "label": "A",
+        "text": "讲哥们义气"
+      },
+      {
+        "label": "B",
+        "text": "平等坦诚互助"
+      },
+      {
+        "label": "C",
+        "text": "互相利用"
+      },
+      {
+        "label": "D",
+        "text": "一味迁就"
+      }
+    ],
+    "answer": "B",
+    "explanation": "真正友谊平等坦诚互助"
+  },
+  {
+    "id": "pol-kz-039",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "竞争合作"
+    ],
+    "question": "在竞争中合作应体现",
+    "options": [
+      {
+        "label": "A",
+        "text": "双赢原则"
+      },
+      {
+        "label": "B",
+        "text": "你死我活"
+      },
+      {
+        "label": "C",
+        "text": "不择手段"
+      },
+      {
+        "label": "D",
+        "text": "单打独斗"
+      }
+    ],
+    "answer": "A",
+    "explanation": "竞争中合作体现双赢原则"
+  },
+  {
+    "id": "pol-kz-040",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "艰苦奋斗"
+    ],
+    "question": "艰苦奋斗精神集中表现为",
+    "options": [
+      {
+        "label": "A",
+        "text": "创业精神"
+      },
+      {
+        "label": "B",
+        "text": "享乐主义"
+      },
+      {
+        "label": "C",
+        "text": "奢侈浪费"
+      },
+      {
+        "label": "D",
+        "text": "好逸恶劳"
+      }
+    ],
+    "answer": "A",
+    "explanation": "艰苦奋斗集中表现为创业精神"
+  },
+  {
+    "id": "pol-kz-041",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "民族精神"
+    ],
+    "question": "中华民族精神的核心是",
+    "options": [
+      {
+        "label": "A",
+        "text": "爱好和平"
+      },
+      {
+        "label": "B",
+        "text": "爱国主义"
+      },
+      {
+        "label": "C",
+        "text": "勤劳勇敢"
+      },
+      {
+        "label": "D",
+        "text": "自强不息"
+      }
+    ],
+    "answer": "B",
+    "explanation": "爱国主义是中华民族精神核心"
+  },
+  {
+    "id": "pol-kz-042",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "传统文化"
+    ],
+    "question": "对待中华传统文化我们应该",
+    "options": [
+      {
+        "label": "A",
+        "text": "全盘继承"
+      },
+      {
+        "label": "B",
+        "text": "全盘否定"
+      },
+      {
+        "label": "C",
+        "text": "取其精华去其糟粕"
+      },
+      {
+        "label": "D",
+        "text": "漠不关心"
+      }
+    ],
+    "answer": "C",
+    "explanation": "对待传统文化应取其精华去其糟粕"
+  },
+  {
+    "id": "pol-kz-043",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "生态文明"
+    ],
+    "question": "建设生态文明的基础是",
+    "options": [
+      {
+        "label": "A",
+        "text": "资源环境承载能力"
+      },
+      {
+        "label": "B",
+        "text": "经济发展速度"
+      },
+      {
+        "label": "C",
+        "text": "人口数量"
+      },
+      {
+        "label": "D",
+        "text": "技术水平"
+      }
+    ],
+    "answer": "A",
+    "explanation": "生态文明以资源环境承载能力为基础"
+  },
+  {
+    "id": "pol-kz-044",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "参与政治生活"
+    ],
+    "question": "公民参与国家管理的基础和标志是",
+    "options": [
+      {
+        "label": "A",
+        "text": "政治自由"
+      },
+      {
+        "label": "B",
+        "text": "选举权和被选举权"
+      },
+      {
+        "label": "C",
+        "text": "监督权"
+      },
+      {
+        "label": "D",
+        "text": "言论自由"
+      }
+    ],
+    "answer": "B",
+    "explanation": "选举权和被选举权是参与国家管理的基础"
+  },
+  {
+    "id": "pol-kz-045",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公共利益"
+    ],
+    "question": "公共利益和个人利益发生冲突时应",
+    "options": [
+      {
+        "label": "A",
+        "text": "优先个人利益"
+      },
+      {
+        "label": "B",
+        "text": "优先公共利益"
+      },
+      {
+        "label": "C",
+        "text": "两者同等优先"
+      },
+      {
+        "label": "D",
+        "text": "无所谓"
+      }
+    ],
+    "answer": "B",
+    "explanation": "冲突时应优先公共利益"
+  },
+  {
+    "id": "pol-kz-046",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "礼貌"
+    ],
+    "question": "与人交往中礼貌的表现是",
+    "options": [
+      {
+        "label": "A",
+        "text": "语言文明态度亲和举止端庄"
+      },
+      {
+        "label": "B",
+        "text": "大声呵斥"
+      },
+      {
+        "label": "C",
+        "text": "冷漠无视"
+      },
+      {
+        "label": "D",
+        "text": "随意打断"
+      }
+    ],
+    "answer": "A",
+    "explanation": "礼貌表现为语言文明态度亲和举止端庄"
+  },
+  {
+    "id": "pol-kz-047",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "诚信"
+    ],
+    "question": "诚信的基本要求是对人守信对事负责，其核心是",
+    "options": [
+      {
+        "label": "A",
+        "text": "善"
+      },
+      {
+        "label": "B",
+        "text": "真"
+      },
+      {
+        "label": "C",
+        "text": "美"
+      },
+      {
+        "label": "D",
+        "text": "信"
+      }
+    ],
+    "answer": "A",
+    "explanation": "诚信的核心是善"
+  },
+  {
+    "id": "pol-kz-048",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "宽容"
+    ],
+    "question": "宽容指的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "事事迁就"
+      },
+      {
+        "label": "B",
+        "text": "宽大有气量原谅和不计较"
+      },
+      {
+        "label": "C",
+        "text": "不分是非"
+      },
+      {
+        "label": "D",
+        "text": "软弱"
+      }
+    ],
+    "answer": "B",
+    "explanation": "宽容是宽大有气量原谅不计较"
+  },
+  {
+    "id": "pol-kz-049",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "依法维权"
+    ],
+    "question": "当合法权益受到侵害时应该",
+    "options": [
+      {
+        "label": "A",
+        "text": "忍气吞声"
+      },
+      {
+        "label": "B",
+        "text": "以牙还牙"
+      },
+      {
+        "label": "C",
+        "text": "依法维权"
+      },
+      {
+        "label": "D",
+        "text": "自认倒霉"
+      }
+    ],
+    "answer": "C",
+    "explanation": "合法权益受侵害应依法维权"
+  },
+  {
+    "id": "pol-kz-050",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人生价值"
+    ],
+    "question": "实现人生价值的重要途径是",
+    "options": [
+      {
+        "label": "A",
+        "text": "干大事"
+      },
+      {
+        "label": "B",
+        "text": "从日常生活的点滴小事做起"
+      },
+      {
+        "label": "C",
+        "text": "等待机会"
+      },
+      {
+        "label": "D",
+        "text": "依赖他人"
+      }
+    ],
+    "answer": "B",
+    "explanation": "从日常点滴小事做起实现人生价值"
+  },
+  {
+    "id": "pol-kz-051",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "学习效率"
+    ],
+    "question": "下列属于良好学习习惯的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "边看电视边写作业"
+      },
+      {
+        "label": "B",
+        "text": "课前预习课后复习"
+      },
+      {
+        "label": "C",
+        "text": "临时抱佛脚"
+      },
+      {
+        "label": "D",
+        "text": "抄袭作业"
+      }
+    ],
+    "answer": "B",
+    "explanation": "课前预习课后复习是好习惯"
+  },
+  {
+    "id": "pol-kz-052",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "法治精神"
+    ],
+    "question": "建设社会主义法治国家要求公民",
+    "options": [
+      {
+        "label": "A",
+        "text": "只享受权利"
+      },
+      {
+        "label": "B",
+        "text": "树立法治观念依法办事"
+      },
+      {
+        "label": "C",
+        "text": "无视法律"
+      },
+      {
+        "label": "D",
+        "text": "只在需要时守法"
+      }
+    ],
+    "answer": "B",
+    "explanation": "要求公民树立法治观念依法办事"
+  },
+  {
+    "id": "pol-kz-053",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "公共利益"
+    ],
+    "question": "公共利益由个人利益组成的正确理解是",
+    "options": [
+      {
+        "label": "A",
+        "text": "公共利益等于个人利益总和"
+      },
+      {
+        "label": "B",
+        "text": "公共利益是个人利益有机整合"
+      },
+      {
+        "label": "C",
+        "text": "公共利益与个人利益无关"
+      },
+      {
+        "label": "D",
+        "text": "公共利益排斥个人利益"
+      }
+    ],
+    "answer": "B",
+    "explanation": "公共利益是个人利益的有机整合"
+  },
+  {
+    "id": "pol-kz-054",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "情绪"
+    ],
+    "question": "调节不良情绪的方法有",
+    "options": [
+      {
+        "label": "A",
+        "text": "压抑不表达"
+      },
+      {
+        "label": "B",
+        "text": "合理宣泄转移注意"
+      },
+      {
+        "label": "C",
+        "text": "迁怒他人"
+      },
+      {
+        "label": "D",
+        "text": "借酒消愁"
+      }
+    ],
+    "answer": "B",
+    "explanation": "合理宣泄转移注意是调节情绪方法"
+  },
+  {
+    "id": "pol-kz-055",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "责任与角色"
+    ],
+    "question": "不同的角色承担不同的责任这说明",
+    "options": [
+      {
+        "label": "A",
+        "text": "责任可以随意选择"
+      },
+      {
+        "label": "B",
+        "text": "责任与角色同在"
+      },
+      {
+        "label": "C",
+        "text": "只有成年人才有责任"
+      },
+      {
+        "label": "D",
+        "text": "责任是固定的"
+      }
+    ],
+    "answer": "B",
+    "explanation": "责任与角色同在不同角色不同责任"
+  },
+  {
+    "id": "pol-kz-056",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "政治文明"
+    ],
+    "question": "我国处理民族关系的基本原则是",
+    "options": [
+      {
+        "label": "A",
+        "text": "民族平等民族团结各民族共同繁荣"
+      },
+      {
+        "label": "B",
+        "text": "民族自治"
+      },
+      {
+        "label": "C",
+        "text": "民族同化"
+      },
+      {
+        "label": "D",
+        "text": "民族隔离"
+      }
+    ],
+    "answer": "A",
+    "explanation": "民族平等团结共同繁荣是基本原则"
+  },
+  {
+    "id": "pol-kz-057",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "政治制度"
+    ],
+    "question": "我国的根本政治制度是",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民代表大会制度"
+      },
+      {
+        "label": "B",
+        "text": "政治协商制度"
+      },
+      {
+        "label": "C",
+        "text": "民族区域自治"
+      },
+      {
+        "label": "D",
+        "text": "基层群众自治"
+      }
+    ],
+    "answer": "A",
+    "explanation": "人民代表大会制度是根本政治制度"
+  },
+  {
+    "id": "pol-kz-058",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "经济制度"
+    ],
+    "question": "我国的基本经济制度是",
+    "options": [
+      {
+        "label": "A",
+        "text": "公有制为主体多种所有制经济共同发展"
+      },
+      {
+        "label": "B",
+        "text": "私有制"
+      },
+      {
+        "label": "C",
+        "text": "单一公有制"
+      },
+      {
+        "label": "D",
+        "text": "外资经济"
+      }
+    ],
+    "answer": "A",
+    "explanation": "公有制为主体多种所有制共同发展"
+  },
+  {
+    "id": "pol-kz-059",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国家性质"
+    ],
+    "question": "我国是人民民主专政的社会主义国家这表明",
+    "options": [
+      {
+        "label": "A",
+        "text": "国家一切权力属于人民"
+      },
+      {
+        "label": "B",
+        "text": "国家一切权力属于政府"
+      },
+      {
+        "label": "C",
+        "text": "少数人统治"
+      },
+      {
+        "label": "D",
+        "text": "无阶级"
+      }
+    ],
+    "answer": "A",
+    "explanation": "人民民主专政国家一切权力属于人民"
+  },
+  {
+    "id": "pol-kz-060",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "法律作用"
+    ],
+    "question": "法律具有规范作用和",
+    "options": [
+      {
+        "label": "A",
+        "text": "保护作用"
+      },
+      {
+        "label": "B",
+        "text": "惩罚作用"
+      },
+      {
+        "label": "C",
+        "text": "教育作用"
+      },
+      {
+        "label": "D",
+        "text": "强制作用"
+      }
+    ],
+    "answer": "A",
+    "explanation": "法律具有规范和保护作用"
+  },
+  {
+    "id": "pol-kz-061",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "权利保障"
+    ],
+    "question": "公民最基本最重要的权利是",
+    "options": [
+      {
+        "label": "A",
+        "text": "人身自由"
+      },
+      {
+        "label": "B",
+        "text": "政治权利"
+      },
+      {
+        "label": "C",
+        "text": "财产权"
+      },
+      {
+        "label": "D",
+        "text": "受教育权"
+      }
+    ],
+    "answer": "A",
+    "explanation": "人身自由是最基本最重要的权利"
+  },
+  {
+    "id": "pol-kz-062",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "受教育权"
+    ],
+    "question": "受教育既是公民的权利也是公民的",
+    "options": [
+      {
+        "label": "A",
+        "text": "自由"
+      },
+      {
+        "label": "B",
+        "text": "义务"
+      },
+      {
+        "label": "C",
+        "text": "权力"
+      },
+      {
+        "label": "D",
+        "text": "福利"
+      }
+    ],
+    "answer": "B",
+    "explanation": "受教育既是权利也是义务"
+  },
+  {
+    "id": "pol-kz-063",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "财产所有权"
+    ],
+    "question": "公民合法的私有财产不受侵犯这体现了保护",
+    "options": [
+      {
+        "label": "A",
+        "text": "财产所有权"
+      },
+      {
+        "label": "B",
+        "text": "名誉权"
+      },
+      {
+        "label": "C",
+        "text": "肖像权"
+      },
+      {
+        "label": "D",
+        "text": "隐私权"
+      }
+    ],
+    "answer": "A",
+    "explanation": "法律保护公民财产所有权"
+  },
+  {
+    "id": "pol-kz-064",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "知识产权"
+    ],
+    "question": "著作权专利商标权属于",
+    "options": [
+      {
+        "label": "A",
+        "text": "知识产权"
+      },
+      {
+        "label": "B",
+        "text": "物权"
+      },
+      {
+        "label": "C",
+        "text": "债权"
+      },
+      {
+        "label": "D",
+        "text": "人身权"
+      }
+    ],
+    "answer": "A",
+    "explanation": "著作专利商标属于知识产权"
+  },
+  {
+    "id": "pol-kz-065",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "社会公平"
+    ],
+    "question": "制度保障公平要求在立法上",
+    "options": [
+      {
+        "label": "A",
+        "text": "偏袒强者"
+      },
+      {
+        "label": "B",
+        "text": "公平对待每个人"
+      },
+      {
+        "label": "C",
+        "text": "忽视弱者"
+      },
+      {
+        "label": "D",
+        "text": "区别对待"
+      }
+    ],
+    "answer": "B",
+    "explanation": "制度保障公平要求公平对待每个人"
+  },
+  {
+    "id": "pol-kz-066",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "全球观念"
+    ],
+    "question": "面对全球化我们应有的态度是",
+    "options": [
+      {
+        "label": "A",
+        "text": "封闭自守"
+      },
+      {
+        "label": "B",
+        "text": "开放包容合作共赢"
+      },
+      {
+        "label": "C",
+        "text": "排斥外来"
+      },
+      {
+        "label": "D",
+        "text": "唯我独尊"
+      }
+    ],
+    "answer": "B",
+    "explanation": "应开放包容合作共赢"
+  },
+  {
+    "id": "pol-kz-067",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 9,
+    "knowledgeTags": [
+      "职业规划"
+    ],
+    "question": "进行职业生涯规划首先要",
+    "options": [
+      {
+        "label": "A",
+        "text": "了解自己兴趣和特长"
+      },
+      {
+        "label": "B",
+        "text": "看别人做什么"
+      },
+      {
+        "label": "C",
+        "text": "选热门"
+      },
+      {
+        "label": "D",
+        "text": "随意决定"
+      }
+    ],
+    "answer": "A",
+    "explanation": "规划职业先了解自己兴趣特长"
+  },
+  {
+    "id": "pol-kz-068",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "亲社会行为"
+    ],
+    "question": "下列属于亲社会行为的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "谦让分享帮助他人"
+      },
+      {
+        "label": "B",
+        "text": "损人利己"
+      },
+      {
+        "label": "C",
+        "text": "冷漠旁观"
+      },
+      {
+        "label": "D",
+        "text": "破坏公物"
+      }
+    ],
+    "answer": "A",
+    "explanation": "谦让分享助人属亲社会行为"
+  },
+  {
+    "id": "pol-kz-069",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "规则"
+    ],
+    "question": "社会规则明确社会秩序的内容并",
+    "options": [
+      {
+        "label": "A",
+        "text": "保障社会秩序的实现"
+      },
+      {
+        "label": "B",
+        "text": "限制自由"
+      },
+      {
+        "label": "C",
+        "text": "增加麻烦"
+      },
+      {
+        "label": "D",
+        "text": "无关紧要"
+      }
+    ],
+    "answer": "A",
+    "explanation": "社会规则保障社会秩序实现"
+  },
+  {
+    "id": "pol-kz-070",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国家主权"
+    ],
+    "question": "国家主权的特征包括对内最高性和",
+    "options": [
+      {
+        "label": "A",
+        "text": "对外独立性"
+      },
+      {
+        "label": "B",
+        "text": "对内独立性"
+      },
+      {
+        "label": "C",
+        "text": "对外从属性"
+      },
+      {
+        "label": "D",
+        "text": "可分割性"
+      }
+    ],
+    "answer": "A",
+    "explanation": "主权对内最高对外独立"
+  },
+  {
+    "id": "pol-kz-071",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "改革开放"
+    ],
+    "question": "改革开放是",
+    "options": [
+      {
+        "label": "A",
+        "text": "立国之本"
+      },
+      {
+        "label": "B",
+        "text": "强国之路"
+      },
+      {
+        "label": "C",
+        "text": "根本政治制度"
+      },
+      {
+        "label": "D",
+        "text": "基本国策"
+      }
+    ],
+    "answer": "B",
+    "explanation": "改革开放是强国之路"
+  },
+  {
+    "id": "pol-kz-072",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "共同富裕"
+    ],
+    "question": "社会主义的根本原则是",
+    "options": [
+      {
+        "label": "A",
+        "text": "共同富裕"
+      },
+      {
+        "label": "B",
+        "text": "同步富裕"
+      },
+      {
+        "label": "C",
+        "text": "两极分化"
+      },
+      {
+        "label": "D",
+        "text": "平均主义"
+      }
+    ],
+    "answer": "A",
+    "explanation": "共同富裕是社会主义根本原则"
+  },
+  {
+    "id": "pol-kz-073",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "集体"
+    ],
+    "question": "集体的力量来源于成员",
+    "options": [
+      {
+        "label": "A",
+        "text": "共同的目标和团结协作"
+      },
+      {
+        "label": "B",
+        "text": "人数众多"
+      },
+      {
+        "label": "C",
+        "text": "各自为战"
+      },
+      {
+        "label": "D",
+        "text": "听从一人"
+      }
+    ],
+    "answer": "A",
+    "explanation": "集体力量源于共同目标和团结"
+  },
+  {
+    "id": "pol-kz-074",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "民主"
+    ],
+    "question": "社会主义民主政治的本质特征是",
+    "options": [
+      {
+        "label": "A",
+        "text": "人民当家作主"
+      },
+      {
+        "label": "B",
+        "text": "精英治国"
+      },
+      {
+        "label": "C",
+        "text": "政府决定一切"
+      },
+      {
+        "label": "D",
+        "text": "少数服从多数"
+      }
+    ],
+    "answer": "A",
+    "explanation": "人民当家作主是本质特征"
+  },
+  {
+    "id": "pol-kz-075",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "国家安全"
+    ],
+    "question": "维护国家安全是每个公民的",
+    "options": [
+      {
+        "label": "A",
+        "text": "权利"
+      },
+      {
+        "label": "B",
+        "text": "法定义务"
+      },
+      {
+        "label": "C",
+        "text": "自愿行为"
+      },
+      {
+        "label": "D",
+        "text": "道德要求"
+      }
+    ],
+    "answer": "B",
+    "explanation": "维护国家安全是法定义务"
+  },
+  {
+    "id": "pol-kz-076",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态环境"
+    ],
+    "question": "绿水青山就是金山银山启示我们要",
+    "options": [
+      {
+        "label": "A",
+        "text": "牺牲环境换经济"
+      },
+      {
+        "label": "B",
+        "text": "坚持绿色发展"
+      },
+      {
+        "label": "C",
+        "text": "停止开发"
+      },
+      {
+        "label": "D",
+        "text": "先污染后治理"
+      }
+    ],
+    "answer": "B",
+    "explanation": "绿水青山理念要求绿色发展"
+  },
+  {
+    "id": "pol-kz-077",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "文化交流"
+    ],
+    "question": "中外文化交流有利于",
+    "options": [
+      {
+        "label": "A",
+        "text": "文化趋同"
+      },
+      {
+        "label": "B",
+        "text": "取长补短共同发展"
+      },
+      {
+        "label": "C",
+        "text": "文化冲突"
+      },
+      {
+        "label": "D",
+        "text": "文化封闭"
+      }
+    ],
+    "answer": "B",
+    "explanation": "文化交流取长补短共同发展"
+  },
+  {
+    "id": "pol-kz-078",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "自我防范"
+    ],
+    "question": "面对违法犯罪我们应",
+    "options": [
+      {
+        "label": "A",
+        "text": "挺身而出不顾一切"
+      },
+      {
+        "label": "B",
+        "text": "见义智为善于斗争"
+      },
+      {
+        "label": "C",
+        "text": "视而不见"
+      },
+      {
+        "label": "D",
+        "text": "参与违法"
+      }
+    ],
+    "answer": "B",
+    "explanation": "见义智为善于斗争保护自身"
+  },
+  {
+    "id": "pol-kz-079",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "学习"
+    ],
+    "question": "打开学习之窗学习不只局限在学校还表现在",
+    "options": [
+      {
+        "label": "A",
+        "text": "只有课堂"
+      },
+      {
+        "label": "B",
+        "text": "生活处处可学习"
+      },
+      {
+        "label": "C",
+        "text": "只有书本"
+      },
+      {
+        "label": "D",
+        "text": "只有考试"
+      }
+    ],
+    "answer": "B",
+    "explanation": "学习不仅在学校生活处处可学"
+  },
+  {
+    "id": "pol-kz-080",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "法治政府"
+    ],
+    "question": "建设法治政府要求政府",
+    "options": [
+      {
+        "label": "A",
+        "text": "依法行政"
+      },
+      {
+        "label": "B",
+        "text": "以言代法"
+      },
+      {
+        "label": "C",
+        "text": "随意决策"
+      },
+      {
+        "label": "D",
+        "text": "不受监督"
+      }
+    ],
+    "answer": "A",
+    "explanation": "法治政府要求政府依法行政"
+  },
+  {
+    "id": "pol-kz-081",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "创新驱动"
+    ],
+    "question": "创新是引领发展的",
+    "options": [
+      {
+        "label": "A",
+        "text": "第一动力"
+      },
+      {
+        "label": "B",
+        "text": "次要因素"
+      },
+      {
+        "label": "C",
+        "text": "障碍"
+      },
+      {
+        "label": "D",
+        "text": "负担"
+      }
+    ],
+    "answer": "A",
+    "explanation": "创新是引领发展的第一动力"
+  },
+  {
+    "id": "pol-kz-082",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "厉行法治"
+    ],
+    "question": "厉行法治要求全体社会成员在宪法和法律范围内",
+    "options": [
+      {
+        "label": "A",
+        "text": "行使权利履行义务"
+      },
+      {
+        "label": "B",
+        "text": "随意行动"
+      },
+      {
+        "label": "C",
+        "text": "只享受权利"
+      },
+      {
+        "label": "D",
+        "text": "无视义务"
+      }
+    ],
+    "answer": "A",
+    "explanation": "厉行法治要求依法行使权利履行义务"
+  },
+  {
+    "id": "pol-kz-083",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "民主选举"
+    ],
+    "question": "民主选举要遵循公开公平和",
+    "options": [
+      {
+        "label": "A",
+        "text": "公正原则"
+      },
+      {
+        "label": "B",
+        "text": "秘密原则"
+      },
+      {
+        "label": "C",
+        "text": "随机原则"
+      },
+      {
+        "label": "D",
+        "text": "指定原则"
+      }
+    ],
+    "answer": "A",
+    "explanation": "民主选举遵循公开公平公正原则"
+  },
+  {
+    "id": "pol-kz-084",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "绿色发展"
+    ],
+    "question": "走绿色发展道路要处理好经济发展与",
+    "options": [
+      {
+        "label": "A",
+        "text": "生态环境保护的关系"
+      },
+      {
+        "label": "B",
+        "text": "人口增长的关系"
+      },
+      {
+        "label": "C",
+        "text": "城市建设的关系"
+      },
+      {
+        "label": "D",
+        "text": "国际贸易的关系"
+      }
+    ],
+    "answer": "A",
+    "explanation": "绿色发展要处理好经济与生态关系"
+  },
+  {
+    "id": "pol-kz-085",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "友谊"
+    ],
+    "question": "网络交往可以满足我们的一些心理需要但也要",
+    "options": [
+      {
+        "label": "A",
+        "text": "慎重结交网友"
+      },
+      {
+        "label": "B",
+        "text": "随意见面"
+      },
+      {
+        "label": "C",
+        "text": "泄露隐私"
+      },
+      {
+        "label": "D",
+        "text": "沉迷网络"
+      }
+    ],
+    "answer": "A",
+    "explanation": "网络交往要慎重结交网友"
+  },
+  {
+    "id": "pol-kz-086",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "国家机构"
+    ],
+    "question": "我国最高国家行政机关是",
+    "options": [
+      {
+        "label": "A",
+        "text": "国务院"
+      },
+      {
+        "label": "B",
+        "text": "全国人大"
+      },
+      {
+        "label": "C",
+        "text": "最高法院"
+      },
+      {
+        "label": "D",
+        "text": "中央军委"
+      }
+    ],
+    "answer": "A",
+    "explanation": "国务院即中央人民政府是最高行政机关"
+  },
+  {
+    "id": "pol-kz-087",
+    "type": "choice",
+    "subject": "politics",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "宪法监督"
+    ],
+    "question": "加强宪法监督需要全国人大及其常委会行使",
+    "options": [
+      {
+        "label": "A",
+        "text": "宪法监督职权"
+      },
+      {
+        "label": "B",
+        "text": "审判权"
+      },
+      {
+        "label": "C",
+        "text": "检察权"
+      },
+      {
+        "label": "D",
+        "text": "行政权"
+      }
+    ],
+    "answer": "A",
+    "explanation": "全国人大及其常委会行使宪法监督职权"
   },
   {
     "id": "politics-g7-001",

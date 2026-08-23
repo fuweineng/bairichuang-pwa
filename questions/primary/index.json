@@ -1,31 +1,22 @@
 {
   "section": "primary",
-  "questionBankVersion": "20260501-01",
-  "updatedAt": "2026-05-01",
+  "questionBankVersion": "20260417-1",
+  "updatedAt": "2026-07-19",
   "subjects": {
     "chinese": {
       "file": "chinese.json",
-      "count": 96,
-      "version": "20260501-01",
-      "qb_version": "20260501-01"
+      "count": 50,
+      "version": "20260417-1"
     },
     "math": {
       "file": "math.json",
-      "count": 392,
-      "version": "20260501-01",
-      "qb_version": "20260501-01"
+      "count": 341,
+      "version": "20260417-1"
     },
     "english": {
       "file": "english.json",
-      "count": 182,
-      "version": "20260501-01",
-      "qb_version": "20260501-01"
-    },
-    "science": {
-      "file": "science.json",
-      "count": 36,
-      "version": "20260501-01",
-      "qb_version": "20260501-01"
+      "count": 50,
+      "version": "20260417-1"
     }
   }
 }

@@ -7,9 +7,12 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="description" content="百日闯 - 100天提升PWA">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' https://cdn.jsdelivr.net https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cdn.jsdelivr.net; connect-src 'self' https://raw.githubusercontent.com https://cdn.jsdelivr.net; media-src 'self' https://cdn.jsdelivr.net;">
   <title>百日闯 - 100天提升</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://raw.githubusercontent.com">
 </head>
 <body>
 <div id="app">
@@ -30,6 +33,7 @@
       <span class="subtitle">100天提升</span>
     </div>
     <div class="header-right" id="header-right-container">
+      <button class="header-history-btn" id="header-history-btn" data-action="nav" data-view="progress" title="打卡记录">📅</button>
       <button class="header-settings-btn" data-action="nav" data-view="settings">⚙️</button>
     </div>
   </header>
@@ -46,6 +50,9 @@
 
       <!-- 今日状态卡片 -->
       <div id="today-status-container" class="home-section" style="order:3"></div>
+
+      <!-- 错题精选入口 -->
+      <div id="review-entry-container" class="home-section" style="order:4"></div>
 
     </section>
 
@@ -70,6 +77,17 @@
         <span class="view-title">打卡记录</span>
       </div>
       <div id="history-container">
+        <p class="placeholder">加载中...</p>
+      </div>
+    </section>
+
+    <!-- ===== REVIEW VIEW ===== -->
+    <section id="view-review" class="view">
+      <div class="view-toolbar">
+        <button class="back-home-btn" data-action="nav" data-view="home">← 返回</button>
+        <span class="view-title">错题精选</span>
+      </div>
+      <div id="review-content">
         <p class="placeholder">加载中...</p>
       </div>
     </section>
@@ -126,7 +144,7 @@
     <div style="display:flex;flex-direction:column;gap:10px">
       <button class="primary-btn" data-action="select-section" data-value="primary" style="padding:14px;font-size:1rem">小学</button>
       <button class="primary-btn" data-action="select-section" data-value="junior" style="padding:14px;font-size:1rem">初中</button>
-      <button class="primary-btn" data-action="select-section" data-value="senior" style="padding:14px;font-size:1rem">高中</button>
+      <button class="primary-btn" data-action="select-section" data-value="senior-high" style="padding:14px;font-size:1rem">高中</button>
     </div>
   </div>
 </div>
@@ -208,7 +226,7 @@
         <div class="section-card-name">初中</div>
         <div class="section-card-desc">语数英物化生史地政</div>
       </div>
-      <div class="section-setup-card" data-action="choose-section" data-section="senior">
+      <div class="section-setup-card" data-action="choose-section" data-section="senior-high">
         <div class="section-card-icon">📙</div>
         <div class="section-card-name">高中</div>
         <div class="section-card-desc">语数英物化生史地政</div>
@@ -277,9 +295,9 @@
 </div>
 
 <!-- QR + compression CDNs -->
-    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js" integrity="sha384-HGmnkDZJy7mRkoARekrrj0VjEFSh9a0Z8qxGri/kTTAJkgR8hqD1lHsYSh3JdzRi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/lz-string@1.5.0/libs/lz-string.min.js" integrity="sha384-0d+Gr7vM4Drod8E3hXKgciWJSWbjD/opKLLygI9ktiWbuvlDwQLzU46wJ9s5gsp7" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/html5-qrcode@2.3.8/html5-qrcode.min.js" integrity="sha384-c9d8RFSL+u3exBOJ4Yp3HUJXS4znl9f+z66d1y54ig+ea249SpqR+w1wyvXz/lk+" crossorigin="anonymous"></script>
 
 <!-- ===== SCRIPTS ===== -->
 <script type="module" src="app.js"></script>

@@ -186,6 +186,23 @@
     "explanation": "雄蕊和雌蕊是花的主要繁殖结构，与果实和种子的形成直接相关。"
   },
   {
+    "id": "biology-007",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "呼吸作用"
+    ],
+    "question": "植物的光合作用在 _____ 中进行。",
+    "answer": "叶绿体",
+    "explanation": "光合作用必须在叶绿体中进行，因为叶绿体含有叶绿素。",
+    "acceptAnswers": [
+      "叶绿体"
+    ],
+    "options": []
+  },
+  {
     "id": "biology-008",
     "type": "choice",
     "subject": "biology",
@@ -403,6 +420,23 @@
     "explanation": "鲸鱼是哺乳动物，用肺呼吸，胎生哺乳。鸭子是鸟类，蛇和乌龟是爬行动物。"
   },
   {
+    "id": "biology-015",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体最大的消化腺是 _____。",
+    "answer": "肝脏",
+    "explanation": "肝脏是人体最大的消化腺，分泌胆汁储存在胆囊中，帮助消化脂肪。",
+    "acceptAnswers": [
+      "肝脏"
+    ],
+    "options": []
+  },
+  {
     "id": "biology-016",
     "type": "choice",
     "subject": "biology",
@@ -527,6 +561,23 @@
     "explanation": "生物体长大靠细胞分裂增加细胞数量，靠细胞生长增大细胞体积。"
   },
   {
+    "id": "biology-020",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "DNA的中文名称是 _____。",
+    "answer": "脱氧核糖核酸",
+    "explanation": "DNA即脱氧核糖核酸，是遗传信息的载体，位于细胞核染色体上。",
+    "acceptAnswers": [
+      "脱氧核糖核酸"
+    ],
+    "options": []
+  },
+  {
     "id": "biology-021",
     "type": "choice",
     "subject": "biology",
@@ -649,6 +700,23 @@
     ],
     "answer": "B",
     "explanation": "胚芽发育成茎和叶，胚根发育成根，胚轴发育成连接根和茎的部分，子叶或胚乳提供营养。"
+  },
+  {
+    "id": "biology-025",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "神经系统结构和功能的基本单位是 _____。",
+    "answer": "神经元",
+    "explanation": "神经元（神经细胞）是神经系统结构和功能的基本单位，包括细胞体、树突和轴突。",
+    "acceptAnswers": [
+      "神经元"
+    ],
+    "options": []
   },
   {
     "id": "biology-026",
@@ -806,6 +874,23 @@
     "explanation": "蒸腾作用主要是叶片通过气孔散失水分的过程，是植物水分运输的动力"
   },
   {
+    "id": "biology-031",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体血液循环包括体循环和_____循环。",
+    "answer": "肺",
+    "explanation": "血液循环包括体循环和肺循环，体循环输送氧，肺循环交换气体",
+    "acceptAnswers": [
+      "肺"
+    ],
+    "options": []
+  },
+  {
     "id": "biology-032",
     "type": "choice",
     "subject": "biology",
@@ -961,6 +1046,23 @@
     "explanation": "食物链中营养级越高，受影响越大，因为能量逐级递减，鹰营养级最高"
   },
   {
+    "id": "biology-037",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "细胞壁的功能是支持和_____植物细胞。",
+    "answer": "保护",
+    "explanation": "细胞壁位于植物细胞最外层，功能是支持和保护植物细胞",
+    "acceptAnswers": [
+      "保护"
+    ],
+    "options": []
+  },
+  {
     "id": "biology-038",
     "type": "choice",
     "subject": "biology",
@@ -1083,6 +1185,23 @@
     ],
     "answer": "A",
     "explanation": "女性染色体XX，男性XY，父亲提供X或Y，母亲只能提供X，所以性别由父亲决定"
+  },
+  {
+    "id": "biology-042",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "呼吸作用"
+    ],
+    "question": "植物呼吸作用的公式：有机物 + 氧气 -> 二氧化碳 + 水 + _____。",
+    "answer": "能量",
+    "explanation": "呼吸作用分解有机物，释放能量，公式：有机物 + 氧气 -> 二氧化碳 + 水 + 能量",
+    "acceptAnswers": [
+      "能量"
+    ],
+    "options": []
   },
   {
     "id": "biology-043",
@@ -1238,6 +1357,23 @@
     ],
     "answer": "B",
     "explanation": "生物圈是地球表面全部生物及其生活环境的总和，包括大气圈下层、水圈和岩石圈上层"
+  },
+  {
+    "id": "biology-048",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "动物行为"
+    ],
+    "question": "动物的行为按获得方式分为先天性行为和_____行为。",
+    "answer": "学习",
+    "explanation": "先天性行为是生来就有的本能，学习行为是通过后天经验和学习获得的",
+    "acceptAnswers": [
+      "学习"
+    ],
+    "options": []
   },
   {
     "id": "biology-049",
@@ -1424,6 +1560,23 @@
     ],
     "answer": "C",
     "explanation": "听觉形成：声波 -> 耳廓 -> 外耳道 -> 鼓膜（振动）-> 听小骨 -> 耳蜗（感音）-> 听神经 -> 大脑"
+  },
+  {
+    "id": "biology-055",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生态系统中，非生物成分包括阳光、水、空气和_____等。",
+    "answer": "土壤",
+    "explanation": "非生物成分包括阳光、水、空气、土壤、温度等；生物成分包括生产者、消费者、分解者",
+    "acceptAnswers": [
+      "土壤"
+    ],
+    "options": []
   },
   {
     "id": "biology-056",
@@ -1837,6 +1990,92 @@
     "explanation": "膝跳反射是非条件反射，神经中枢在脊髓。大脑皮层是高级神经中枢，控制条件反射等活动。"
   },
   {
+    "id": "biology-071",
+    "type": "short_answer",
+    "subject": "biology",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-植物",
+      "实验探究"
+    ],
+    "question": "某同学为探究光合作用的条件，设计实验如下：将一株天竺葵放在暗处2天后，选一片叶子，用黑纸片把A处上下两面遮住，B处不遮，然后放到阳光下照射4小时，摘下该叶片，酒精脱色后滴加碘液。\n\n问题：①A处和B处颜色变化是什么？②说明原因。",
+    "answer": "（1）A处（遮光部分）：不变蓝（黄白色）；B处（见光部分）：变蓝。\n\n（2）原因：A处被黑纸遮住，不见光，不能进行光合作用，没有淀粉生成，滴加碘液不变蓝；B处见光，能进行光合作用，合成淀粉，滴加碘液变蓝。这说明光是光合作用的必要条件。",
+    "explanation": "本实验通过遮光和见光的对照，证明光是光合作用的必要条件，淀粉是光合作用的产物。",
+    "acceptAnswers": [
+      "（1）A处（遮光部分）：不变蓝（黄白色）；B处（见光部分）：变蓝。\n\n（2）原因：A处被黑纸遮住，不见光，不能进行光合作用，没有淀粉生成，滴加碘液不变蓝；B处见光，能进行光合作用，合成淀粉，滴加碘液变蓝。这说明光是光合作用的必要条件。"
+    ],
+    "options": []
+  },
+  {
+    "id": "biology-072",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-消化系统"
+    ],
+    "question": "人体最大的消化腺是_____。",
+    "answer": "肝脏",
+    "explanation": "根据生物知识填写：肝脏",
+    "acceptAnswers": [
+      "肝脏"
+    ],
+    "options": []
+  },
+  {
+    "id": "biology-073",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-光合作用"
+    ],
+    "question": "植物光合作用：二氧化碳 + 水 → 有机物 + _____。",
+    "answer": "氧气",
+    "explanation": "根据生物知识填写：氧气",
+    "acceptAnswers": [
+      "氧气"
+    ],
+    "options": []
+  },
+  {
+    "id": "biology-074",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-神经系统"
+    ],
+    "question": "神经系统结构和功能的基本单位是_____。",
+    "answer": "神经元",
+    "explanation": "根据生物知识填写：神经元",
+    "acceptAnswers": [
+      "神经元"
+    ],
+    "options": []
+  },
+  {
+    "id": "biology-075",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物-遗传"
+    ],
+    "question": "ABO血型系统中，A型血型的基因型是AA或_____。",
+    "answer": "AO",
+    "explanation": "根据生物知识填写：AO",
+    "acceptAnswers": [
+      "AO"
+    ],
+    "options": []
+  },
+  {
     "id": "biology-201",
     "type": "choice",
     "subject": "biology",
@@ -1868,6 +2107,24 @@
     ],
     "answer": "B",
     "explanation": "叶绿体中含有叶绿素，是植物进行光合作用的主要场所。"
+  },
+  {
+    "id": "biology-202",
+    "type": "fill",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统",
+      "食物链"
+    ],
+    "question": "在“草→蝗虫→青蛙”这条食物链中，生产者是______。",
+    "answer": "草",
+    "explanation": "绿色植物能制造有机物，因此是生态系统中的生产者。",
+    "acceptAnswers": [
+      "草"
+    ],
+    "options": []
   },
   {
     "id": "biology-203",
@@ -2420,7 +2677,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（间期）。"
   },
   {
     "id": "biology-221",
@@ -2593,7 +2851,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（主动脉）。"
   },
   {
     "id": "biology-227",
@@ -5496,166 +5755,6 @@
     "explanation": "传染病流行三环节：传染源、传播途径、易感人群。选项D“医疗设施”不属于其中，故选D。"
   },
   {
-    "id": "biology-g7-001",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 1,
-    "grade": 7,
-    "knowledgeTags": [
-      "细胞结构"
-    ],
-    "question": "绿色植物细胞和动物细胞都有的结构是?",
-    "options": [
-      {
-        "label": "A",
-        "text": "细胞壁"
-      },
-      {
-        "label": "B",
-        "text": "叶绿体"
-      },
-      {
-        "label": "C",
-        "text": "细胞核"
-      },
-      {
-        "label": "D",
-        "text": "液泡"
-      }
-    ],
-    "answer": "C",
-    "explanation": "本题涉及细胞结构知识点。正确答案是C：细胞核。",
-    "image": "/questions/biology/img/biology-g7-001.svg"
-  },
-  {
-    "id": "biology-g7-002",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 1,
-    "grade": 7,
-    "knowledgeTags": [
-      "细胞结构"
-    ],
-    "question": "植物光合作用的产物是?",
-    "options": [
-      {
-        "label": "A",
-        "text": "二氧化碳和水"
-      },
-      {
-        "label": "B",
-        "text": "有机物和氧气"
-      },
-      {
-        "label": "C",
-        "text": "无机盐"
-      },
-      {
-        "label": "D",
-        "text": "光能"
-      }
-    ],
-    "answer": "B",
-    "explanation": "本题涉及细胞结构知识点。正确答案是B：有机物和氧气。",
-    "image": null
-  },
-  {
-    "id": "biology-g7-003",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 1,
-    "grade": 7,
-    "knowledgeTags": [
-      "细胞结构"
-    ],
-    "question": "植物呼吸作用的场所是?",
-    "options": [
-      {
-        "label": "A",
-        "text": "细胞核"
-      },
-      {
-        "label": "B",
-        "text": "叶绿体"
-      },
-      {
-        "label": "C",
-        "text": "线粒体"
-      },
-      {
-        "label": "D",
-        "text": "细胞膜"
-      }
-    ],
-    "answer": "C",
-    "explanation": "本题涉及细胞结构知识点。正确答案是C：线粒体。",
-    "image": null
-  },
-  {
-    "id": "biology-g7-004",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 1,
-    "grade": 7,
-    "knowledgeTags": [
-      "细胞结构"
-    ],
-    "question": "花的主要结构是?",
-    "options": [
-      {
-        "label": "A",
-        "text": "花瓣"
-      },
-      {
-        "label": "B",
-        "text": "花萼"
-      },
-      {
-        "label": "C",
-        "text": "雄蕊和雌蕊"
-      },
-      {
-        "label": "D",
-        "text": "花托"
-      }
-    ],
-    "answer": "C",
-    "explanation": "本题涉及细胞结构知识点。正确答案是C：雄蕊和雌蕊。",
-    "image": null
-  },
-  {
-    "id": "biology-g7-005",
-    "type": "choice",
-    "subject": "biology",
-    "difficulty": 1,
-    "grade": 7,
-    "knowledgeTags": [
-      "细胞结构"
-    ],
-    "question": "细胞中能控制物质进出的结构是?",
-    "options": [
-      {
-        "label": "A",
-        "text": "细胞壁"
-      },
-      {
-        "label": "B",
-        "text": "细胞膜"
-      },
-      {
-        "label": "C",
-        "text": "细胞核"
-      },
-      {
-        "label": "D",
-        "text": "线粒体"
-      }
-    ],
-    "answer": "B",
-    "explanation": "本题涉及细胞结构知识点。正确答案是B：细胞膜。",
-    "image": null
-  },
-  {
     "id": "biology-immune-001",
     "type": "choice",
     "subject": "biology",
@@ -6124,6 +6223,724 @@
     ],
     "answer": "B",
     "explanation": "烟草花叶病毒（TMV）是RNA病毒的代表，由RNA核心和蛋白质外壳组成，营寄生生活"
+  },
+  {
+    "id": "bio-kz-001",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "人体细胞与植物细胞相比没有的结构是",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞膜"
+      },
+      {
+        "label": "B",
+        "text": "细胞质"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "叶绿体"
+      }
+    ],
+    "answer": "D",
+    "explanation": "动物细胞没有叶绿体"
+  },
+  {
+    "id": "bio-kz-002",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "控制细胞生命活动的中心是",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞膜"
+      },
+      {
+        "label": "B",
+        "text": "细胞质"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "线粒体"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细胞核含有遗传物质，是控制中心"
+  },
+  {
+    "id": "bio-kz-003",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物生理"
+    ],
+    "question": "光合作用的主要产物是",
+    "options": [
+      {
+        "label": "A",
+        "text": "二氧化碳和水"
+      },
+      {
+        "label": "B",
+        "text": "有机物和氧气"
+      },
+      {
+        "label": "C",
+        "text": "水和氧气"
+      },
+      {
+        "label": "D",
+        "text": "有机物和二氧化碳"
+      }
+    ],
+    "answer": "B",
+    "explanation": "光合作用产生有机物和氧气"
+  },
+  {
+    "id": "bio-kz-004",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体内消化和吸收营养物质的主要器官是",
+    "options": [
+      {
+        "label": "A",
+        "text": "口腔"
+      },
+      {
+        "label": "B",
+        "text": "胃"
+      },
+      {
+        "label": "C",
+        "text": "小肠"
+      },
+      {
+        "label": "D",
+        "text": "大肠"
+      }
+    ],
+    "answer": "C",
+    "explanation": "小肠是消化和吸收的主要器官"
+  },
+  {
+    "id": "bio-kz-005",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "血液中运输氧的功能由哪种细胞完成",
+    "options": [
+      {
+        "label": "A",
+        "text": "白细胞"
+      },
+      {
+        "label": "B",
+        "text": "血小板"
+      },
+      {
+        "label": "C",
+        "text": "红细胞"
+      },
+      {
+        "label": "D",
+        "text": "血浆"
+      }
+    ],
+    "answer": "C",
+    "explanation": "红细胞中的血红蛋白运输氧"
+  },
+  {
+    "id": "bio-kz-006",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生态系统"
+    ],
+    "question": "生态系统中能将有机物分解为无机物的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "生产者"
+      },
+      {
+        "label": "B",
+        "text": "消费者"
+      },
+      {
+        "label": "C",
+        "text": "分解者"
+      },
+      {
+        "label": "D",
+        "text": "非生物成分"
+      }
+    ],
+    "answer": "C",
+    "explanation": "分解者将有机物分解为无机物"
+  },
+  {
+    "id": "bio-kz-007",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "人的体细胞中染色体的数目是",
+    "options": [
+      {
+        "label": "A",
+        "text": "23条"
+      },
+      {
+        "label": "B",
+        "text": "46条"
+      },
+      {
+        "label": "C",
+        "text": "23对"
+      },
+      {
+        "label": "D",
+        "text": "46对"
+      }
+    ],
+    "answer": "C",
+    "explanation": "人体细胞染色体23对(46条)"
+  },
+  {
+    "id": "bio-kz-008",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "微生物"
+    ],
+    "question": "细菌与真菌相比最大的区别是细菌没有",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "细胞膜"
+      },
+      {
+        "label": "C",
+        "text": "成形的细胞核"
+      },
+      {
+        "label": "D",
+        "text": "细胞质"
+      }
+    ],
+    "answer": "C",
+    "explanation": "细菌是原核生物，无成形的细胞核"
+  },
+  {
+    "id": "bio-kz-009",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "绿色植物进行光合作用的主要场所是",
+    "options": [
+      {
+        "label": "A",
+        "text": "线粒体"
+      },
+      {
+        "label": "B",
+        "text": "叶绿体"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "液泡"
+      }
+    ],
+    "answer": "B",
+    "explanation": "叶绿体是光合作用的场所"
+  },
+  {
+    "id": "bio-kz-010",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "生物分类"
+    ],
+    "question": "下列动物中属于哺乳动物的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "鲸鱼"
+      },
+      {
+        "label": "B",
+        "text": "鲨鱼"
+      },
+      {
+        "label": "C",
+        "text": "娃娃鱼"
+      },
+      {
+        "label": "D",
+        "text": "鳄鱼"
+      }
+    ],
+    "answer": "A",
+    "explanation": "鲸鱼是哺乳动物，其他都不是"
+  },
+  {
+    "id": "bio-kz-011",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体血液循环中体循环的途径是",
+    "options": [
+      {
+        "label": "A",
+        "text": "左心室动脉全身毛细血管静脉右心房"
+      },
+      {
+        "label": "B",
+        "text": "右心室肺动脉肺部毛细血管肺静脉左心房"
+      },
+      {
+        "label": "C",
+        "text": "左心房肺静脉肺部毛细血管肺动脉右心室"
+      },
+      {
+        "label": "D",
+        "text": "右心房静脉全身毛细血管动脉左心室"
+      }
+    ],
+    "answer": "A",
+    "explanation": "体循环:左心室到全身再回到右心房"
+  },
+  {
+    "id": "bio-kz-012",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "植物生理"
+    ],
+    "question": "植物根部吸收的水分主要用于",
+    "options": [
+      {
+        "label": "A",
+        "text": "光合作用"
+      },
+      {
+        "label": "B",
+        "text": "蒸腾作用"
+      },
+      {
+        "label": "C",
+        "text": "呼吸作用"
+      },
+      {
+        "label": "D",
+        "text": "贮藏"
+      }
+    ],
+    "answer": "B",
+    "explanation": "植物吸收的水分约99%用于蒸腾作用"
+  },
+  {
+    "id": "bio-kz-013",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "神经系统结构和功能的基本单位是",
+    "options": [
+      {
+        "label": "A",
+        "text": "突触"
+      },
+      {
+        "label": "B",
+        "text": "神经元"
+      },
+      {
+        "label": "C",
+        "text": "脊髓"
+      },
+      {
+        "label": "D",
+        "text": "反射弧"
+      }
+    ],
+    "answer": "B",
+    "explanation": "神经元是神经系统基本单位"
+  },
+  {
+    "id": "bio-kz-014",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "生物多样性"
+    ],
+    "question": "保护生物多样性最为有效的措施是",
+    "options": [
+      {
+        "label": "A",
+        "text": "建立自然保护区"
+      },
+      {
+        "label": "B",
+        "text": "迁地保护"
+      },
+      {
+        "label": "C",
+        "text": "人工繁殖"
+      },
+      {
+        "label": "D",
+        "text": "立法保护"
+      }
+    ],
+    "answer": "A",
+    "explanation": "就地保护(自然保护区)是最有效措施"
+  },
+  {
+    "id": "bio-kz-015",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "遗传变异"
+    ],
+    "question": "在生物学中被称为遗传物质的载体的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "蛋白质"
+      },
+      {
+        "label": "B",
+        "text": "染色体"
+      },
+      {
+        "label": "C",
+        "text": "糖类"
+      },
+      {
+        "label": "D",
+        "text": "脂肪"
+      }
+    ],
+    "answer": "B",
+    "explanation": "染色体是遗传物质的载体"
+  },
+  {
+    "id": "bio-kz-016",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "微生物"
+    ],
+    "question": "制作馒头和面包时使用的微生物是",
+    "options": [
+      {
+        "label": "A",
+        "text": "乳酸菌"
+      },
+      {
+        "label": "B",
+        "text": "酵母菌"
+      },
+      {
+        "label": "C",
+        "text": "醋酸菌"
+      },
+      {
+        "label": "D",
+        "text": "霉菌"
+      }
+    ],
+    "answer": "B",
+    "explanation": "酵母菌发酵产生二氧化碳使面团疏松"
+  },
+  {
+    "id": "bio-kz-017",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "植物结构"
+    ],
+    "question": "种子萌发不需要的外界条件是",
+    "options": [
+      {
+        "label": "A",
+        "text": "适宜的温度"
+      },
+      {
+        "label": "B",
+        "text": "一定的水分"
+      },
+      {
+        "label": "C",
+        "text": "充足的空气"
+      },
+      {
+        "label": "D",
+        "text": "肥沃的土壤"
+      }
+    ],
+    "answer": "D",
+    "explanation": "种子萌发需要水温度空气，无需肥沃土壤"
+  },
+  {
+    "id": "bio-kz-018",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "人体系统"
+    ],
+    "question": "人体排出代谢废物不需要通过的系统是",
+    "options": [
+      {
+        "label": "A",
+        "text": "呼吸系统"
+      },
+      {
+        "label": "B",
+        "text": "泌尿系统"
+      },
+      {
+        "label": "C",
+        "text": "循环系统"
+      },
+      {
+        "label": "D",
+        "text": "生殖系统"
+      }
+    ],
+    "answer": "D",
+    "explanation": "生殖系统不参与排泄"
+  },
+  {
+    "id": "biology-g7-001",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "绿色植物细胞和动物细胞都有的结构是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "叶绿体"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "液泡"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及细胞结构知识点。正确答案是C：细胞核。",
+    "image": "/questions/biology/img/biology-g7-001.svg"
+  },
+  {
+    "id": "biology-g7-002",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "植物光合作用的产物是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "二氧化碳和水"
+      },
+      {
+        "label": "B",
+        "text": "有机物和氧气"
+      },
+      {
+        "label": "C",
+        "text": "无机盐"
+      },
+      {
+        "label": "D",
+        "text": "光能"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及细胞结构知识点。正确答案是B：有机物和氧气。",
+    "image": null
+  },
+  {
+    "id": "biology-g7-003",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "植物呼吸作用的场所是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞核"
+      },
+      {
+        "label": "B",
+        "text": "叶绿体"
+      },
+      {
+        "label": "C",
+        "text": "线粒体"
+      },
+      {
+        "label": "D",
+        "text": "细胞膜"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及细胞结构知识点。正确答案是C：线粒体。",
+    "image": null
+  },
+  {
+    "id": "biology-g7-004",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "花的主要结构是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "花瓣"
+      },
+      {
+        "label": "B",
+        "text": "花萼"
+      },
+      {
+        "label": "C",
+        "text": "雄蕊和雌蕊"
+      },
+      {
+        "label": "D",
+        "text": "花托"
+      }
+    ],
+    "answer": "C",
+    "explanation": "本题涉及细胞结构知识点。正确答案是C：雄蕊和雌蕊。",
+    "image": null
+  },
+  {
+    "id": "biology-g7-005",
+    "type": "choice",
+    "subject": "biology",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "细胞结构"
+    ],
+    "question": "细胞中能控制物质进出的结构是?",
+    "options": [
+      {
+        "label": "A",
+        "text": "细胞壁"
+      },
+      {
+        "label": "B",
+        "text": "细胞膜"
+      },
+      {
+        "label": "C",
+        "text": "细胞核"
+      },
+      {
+        "label": "D",
+        "text": "线粒体"
+      }
+    ],
+    "answer": "B",
+    "explanation": "本题涉及细胞结构知识点。正确答案是B：细胞膜。",
+    "image": null
   },
   {
     "id": "biology-光合作用-8-NEW",

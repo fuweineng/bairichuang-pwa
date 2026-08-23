@@ -28,7 +28,8 @@
     "grade": 1,
     "explanation": "植物认识是生命科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g1-001.png"
   },
   {
     "id": "science-g1-003",
@@ -59,7 +60,8 @@
     "grade": 1,
     "explanation": "动物认识是生命科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g1-003.png"
   },
   {
     "id": "science-g1-005",
@@ -90,7 +92,8 @@
     "grade": 1,
     "explanation": "天气变化是地球与宇宙中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g1-005.png"
   },
   {
     "id": "science-g1-007",
@@ -121,7 +124,8 @@
     "grade": 1,
     "explanation": "季节变换是地球与宇宙中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g1-007.png"
   },
   {
     "id": "science-g1-009",
@@ -152,7 +156,8 @@
     "grade": 1,
     "explanation": "水的状态是物质科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g1-009.png"
   },
   {
     "id": "science-g1-011",
@@ -183,7 +188,8 @@
     "grade": 1,
     "explanation": "磁铁性质是物质科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g1-011.png"
   },
   {
     "id": "science-g2-001",
@@ -214,7 +220,8 @@
     "grade": 2,
     "explanation": "植物生长是生命科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g2-001.png"
   },
   {
     "id": "science-g2-003",
@@ -245,7 +252,8 @@
     "grade": 2,
     "explanation": "动物分类是生命科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g2-003.png"
   },
   {
     "id": "science-g2-005",
@@ -276,7 +284,8 @@
     "grade": 2,
     "explanation": "材料认识是物质科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g2-005.png"
   },
   {
     "id": "science-g2-007",
@@ -307,7 +316,8 @@
     "grade": 2,
     "explanation": "沉浮现象是物质科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g2-007.png"
   },
   {
     "id": "science-g2-009",
@@ -338,7 +348,8 @@
     "grade": 2,
     "explanation": "太阳月亮是地球与宇宙中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g2-009.png"
   },
   {
     "id": "science-g2-011",
@@ -369,7 +380,8 @@
     "grade": 2,
     "explanation": "风向风力是地球与宇宙中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g2-011.png"
   },
   {
     "id": "science-g3-001",
@@ -400,7 +412,8 @@
     "grade": 3,
     "explanation": "植物根茎叶是生命科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g3-001.png"
   },
   {
     "id": "science-g3-003",
@@ -431,7 +444,8 @@
     "grade": 3,
     "explanation": "动物栖息地是生命科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g3-003.png"
   },
   {
     "id": "science-g3-005",
@@ -462,7 +476,8 @@
     "grade": 3,
     "explanation": "水的循环是地球与宇宙中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g3-005.png"
   },
   {
     "id": "science-g3-007",
@@ -493,7 +508,8 @@
     "grade": 3,
     "explanation": "空气的存在是物质科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g3-007.png"
   },
   {
     "id": "science-g3-009",
@@ -524,7 +540,8 @@
     "grade": 3,
     "explanation": "力的认识是物质科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g3-009.png"
   },
   {
     "id": "science-g3-011",
@@ -555,7 +572,8 @@
     "grade": 3,
     "explanation": "声音产生是物质科学中的重要知识点。",
     "difficulty": "easy",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g3-011.png"
   },
   {
     "id": "science-g4-001",
@@ -586,7 +604,8 @@
     "grade": 4,
     "explanation": "电的认识是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g4-001.png"
   },
   {
     "id": "science-g4-003",
@@ -617,7 +636,8 @@
     "grade": 4,
     "explanation": "溶解现象是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g4-003.png"
   },
   {
     "id": "science-g4-005",
@@ -648,7 +668,8 @@
     "grade": 4,
     "explanation": "岩石土壤是地球与宇宙中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g4-005.png"
   },
   {
     "id": "science-g4-007",
@@ -679,7 +700,8 @@
     "grade": 4,
     "explanation": "声音传播是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g4-007.png"
   },
   {
     "id": "science-g4-009",
@@ -710,7 +732,8 @@
     "grade": 4,
     "explanation": "光的认识是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g4-009.png"
   },
   {
     "id": "science-g4-011",
@@ -741,7 +764,8 @@
     "grade": 4,
     "explanation": "动物行为是生命科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g4-011.png"
   },
   {
     "id": "science-g5-001",
@@ -772,7 +796,8 @@
     "grade": 5,
     "explanation": "水的净化是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g5-001.png"
   },
   {
     "id": "science-g5-003",
@@ -803,7 +828,8 @@
     "grade": 5,
     "explanation": "热传导是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g5-003.png"
   },
   {
     "id": "science-g5-005",
@@ -834,7 +860,8 @@
     "grade": 5,
     "explanation": "地球运动是地球与宇宙中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g5-005.png"
   },
   {
     "id": "science-g5-007",
@@ -865,7 +892,8 @@
     "grade": 5,
     "explanation": "生态系统是生命科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g5-007.png"
   },
   {
     "id": "science-g5-009",
@@ -896,7 +924,8 @@
     "grade": 5,
     "explanation": "杠杆原理是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g5-009.png"
   },
   {
     "id": "science-g5-011",
@@ -927,7 +956,8 @@
     "grade": 5,
     "explanation": "简单机械是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g5-011.png"
   },
   {
     "id": "science-g6-001",
@@ -958,7 +988,8 @@
     "grade": 6,
     "explanation": "太阳系是地球与宇宙中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g6-001.png"
   },
   {
     "id": "science-g6-003",
@@ -989,7 +1020,8 @@
     "grade": 6,
     "explanation": "能量转化是物质科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g6-003.png"
   },
   {
     "id": "science-g6-005",
@@ -1020,7 +1052,8 @@
     "grade": 6,
     "explanation": "遗传变异是生命科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g6-005.png"
   },
   {
     "id": "science-g6-007",
@@ -1051,7 +1084,8 @@
     "grade": 6,
     "explanation": "进化论基础是生命科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g6-007.png"
   },
   {
     "id": "science-g6-009",
@@ -1082,7 +1116,8 @@
     "grade": 6,
     "explanation": "环境保护是地球与宇宙中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g6-009.png"
   },
   {
     "id": "science-g6-011",
@@ -1113,6 +1148,7 @@
     "grade": 6,
     "explanation": "健康生活是生命科学中的重要知识点。",
     "difficulty": "medium",
-    "subject": "science"
+    "subject": "science",
+    "image": "primary/science/science-g6-011.png"
   }
 ]

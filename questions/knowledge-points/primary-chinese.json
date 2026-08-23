@@ -1,24 +1,126 @@
-{
-  "segment": "primary",
-  "subject": "chinese",
-  "knowledgePoints": [
-    {"code": "PC-GY-001", "name": "多音字辨析", "description": "区分同一字在不同词语或语境中的读音"},
-    {"code": "PC-GY-002", "name": "声调辨析", "description": "判断汉字的声调及变调规则"},
-    {"code": "PC-GY-003", "name": "声母辨析", "description": "判断汉字的声母是否正确"},
-    {"code": "PC-GY-004", "name": "整体认读音节", "description": "识别整体认读音节的数量或完整性"},
-    {"code": "PC-GY-005", "name": "笔画顺序", "description": "判断汉字的书写笔画数或最后一笔"},
-    {"code": "PC-GY-006", "name": "汉字结构", "description": "判断汉字的上下、左右、包围等结构类型"},
-    {"code": "PC-GY-007", "name": "偏旁部首", "description": "判断汉字的部首是什么"},
-    {"code": "PC-GY-008", "name": "形声字", "description": "识别形声字及其形旁声旁"},
-    {"code": "PC-GY-009", "name": "错别字辨识", "description": "识别词语或成语中的错别字"},
-    {"code": "PC-GY-010", "name": "词义理解", "description": "理解词语在具体语境中的含义"},
-    {"code": "PC-GY-011", "name": "成语含义", "description": "理解成语的意思及用法"},
-    {"code": "PC-GY-012", "name": "成语典故", "description": "了解成语的出处和背景故事"},
-    {"code": "PC-GY-013", "name": "古诗词上下句", "description": "默写古诗的上句或下句"},
-    {"code": "PC-GY-014", "name": "诗意理解", "description": "理解古诗词中字词句的含义"},
-    {"code": "PC-GY-015", "name": "诗人朝代", "description": "判断诗人所处的朝代"},
-    {"code": "PC-GY-016", "name": "古诗出处", "description": "判断诗句出自哪首诗"},
-    {"code": "PC-GY-017", "name": "量词理解", "description": "理解量词的含义及本义"},
-    {"code": "PC-GY-018", "name": "阅读理解", "description": "根据短文内容回答问题"}
-  ]
-}
+[
+  {
+    "id": "kp-pc-001",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "字音"
+    ],
+    "question": "下列加点字的读音全部正确的一组是",
+    "options": [
+      {
+        "label": "A",
+        "text": "春(chūn)天"
+      },
+      {
+        "label": "B",
+        "text": "夏(xià)天"
+      },
+      {
+        "label": "C",
+        "text": "秋(qūi)天"
+      },
+      {
+        "label": "D",
+        "text": "冬(dōng)天"
+      }
+    ],
+    "answer": "A",
+    "explanation": "A正确，'秋'应读qiū"
+  },
+  {
+    "id": "kp-pc-002",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "字形"
+    ],
+    "question": "下列词语书写完全正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "公圆"
+      },
+      {
+        "label": "B",
+        "text": "公园"
+      },
+      {
+        "label": "C",
+        "text": "公原"
+      },
+      {
+        "label": "D",
+        "text": "公员"
+      }
+    ],
+    "answer": "B",
+    "explanation": "公园是正确写法"
+  },
+  {
+    "id": "kp-pc-003",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "成语理解"
+    ],
+    "question": "'亡羊补牢'这个成语告诉我们",
+    "options": [
+      {
+        "label": "A",
+        "text": "出了问题及时补救"
+      },
+      {
+        "label": "B",
+        "text": "丢了东西就算了"
+      },
+      {
+        "label": "C",
+        "text": "要多养羊"
+      },
+      {
+        "label": "D",
+        "text": "修羊圈很重要"
+      }
+    ],
+    "answer": "A",
+    "explanation": "比喻出了问题后想办法补救，防止继续损失"
+  },
+  {
+    "id": "kp-pc-004",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 3,
+    "knowledgeTags": [
+      "古诗文"
+    ],
+    "question": "'春眠不觉晓'的下一句是",
+    "options": [
+      {
+        "label": "A",
+        "text": "处处闻啼鸟"
+      },
+      {
+        "label": "B",
+        "text": "夜来风雨声"
+      },
+      {
+        "label": "C",
+        "text": "花落知多少"
+      },
+      {
+        "label": "D",
+        "text": "春风吹又生"
+      }
+    ],
+    "answer": "A",
+    "explanation": "孟浩然《春晓》：春眠不觉晓，处处闻啼鸟"
+  }
+]

@@ -1,2792 +1,312 @@
 [
   {
-    "id": "english-g10-001",
+    "id": "eng-sh-001",
     "type": "choice",
-    "question": "Which of the following is correct about 定语从句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "定语从句 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "定语从句 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "定语从句 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "定语从句 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 10,
     "knowledgeTags": [
       "定语从句"
     ],
+    "question": "The book ___ on the desk is mine.",
+    "options": [
+      {
+        "label": "A",
+        "text": "who"
+      },
+      {
+        "label": "B",
+        "text": "whom"
+      },
+      {
+        "label": "C",
+        "text": "which"
+      },
+      {
+        "label": "D",
+        "text": "whose"
+      }
+    ],
+    "answer": "C",
+    "explanation": "先行词是物，用which引导定语从句"
+  },
+  {
+    "id": "eng-sh-002",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
     "grade": 10,
-    "explanation": "定语从句是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-002",
-    "type": "choice",
-    "question": "Which of the following is correct about 定语从句?",
+    "knowledgeTags": [
+      "状语从句时态"
+    ],
+    "question": "If it ___ tomorrow, we will stay at home.",
     "options": [
       {
         "label": "A",
-        "text": "定语从句 is an important part of 语法"
+        "text": "will rain"
       },
       {
         "label": "B",
-        "text": "定语从句 is rarely tested in exams"
+        "text": "rains"
       },
       {
         "label": "C",
-        "text": "定语从句 is not related to 语法"
+        "text": "rained"
       },
       {
         "label": "D",
-        "text": "定语从句 is only for extracurricular learning"
+        "text": "would rain"
       }
     ],
-    "answer": "A",
-    "knowledgeTags": [
-      "定语从句"
-    ],
+    "answer": "B",
+    "explanation": "条件状语从句用一般现在时表将来"
+  },
+  {
+    "id": "eng-sh-003",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
     "grade": 10,
-    "explanation": "定语从句是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-004",
-    "type": "choice",
-    "question": "Which sentence correctly uses 定语从句?",
+    "knowledgeTags": [
+      "过去完成时"
+    ],
+    "question": "She said she ___ the work already.",
     "options": [
       {
         "label": "A",
-        "text": "This sentence correctly applies 定语从句"
+        "text": "finishes"
       },
       {
         "label": "B",
-        "text": "This sentence has an error in 定语从句"
+        "text": "finished"
       },
       {
         "label": "C",
-        "text": "定语从句 is not applicable here"
+        "text": "will finish"
       },
       {
         "label": "D",
-        "text": "This is an example of 定语从句 misuse"
+        "text": "had finished"
       }
     ],
-    "answer": "A",
-    "knowledgeTags": [
-      "定语从句"
-    ],
+    "answer": "D",
+    "explanation": "过去完成时表示'过去的过去'"
+  },
+  {
+    "id": "eng-sh-004",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 2,
     "grade": 10,
-    "explanation": "理解定语从句的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-005",
-    "type": "choice",
-    "question": "Which of the following is correct about 名词性从句?",
+    "knowledgeTags": [
+      "被动语态"
+    ],
+    "question": "The experiment ___ by the students now.",
     "options": [
       {
         "label": "A",
-        "text": "名词性从句 is an important part of 语法"
+        "text": "is doing"
       },
       {
         "label": "B",
-        "text": "名词性从句 is rarely tested in exams"
+        "text": "is being done"
       },
       {
         "label": "C",
-        "text": "名词性从句 is not related to 语法"
+        "text": "has done"
       },
       {
         "label": "D",
-        "text": "名词性从句 is only for extracurricular learning"
+        "text": "was done"
       }
     ],
-    "answer": "A",
-    "knowledgeTags": [
-      "名词性从句"
-    ],
+    "answer": "B",
+    "explanation": "现在进行时的被动语态"
+  },
+  {
+    "id": "eng-sh-005",
+    "type": "choice",
+    "subject": "english",
+    "difficulty": 1,
     "grade": 10,
-    "explanation": "名词性从句是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-006",
-    "type": "choice",
-    "question": "Which of the following is correct about 名词性从句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "名词性从句 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "名词性从句 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "名词性从句 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "名词性从句 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "名词性从句"
-    ],
-    "grade": 10,
-    "explanation": "名词性从句是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-008",
-    "type": "choice",
-    "question": "Which sentence correctly uses 名词性从句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 名词性从句"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 名词性从句"
-      },
-      {
-        "label": "C",
-        "text": "名词性从句 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 名词性从句 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "名词性从句"
-    ],
-    "grade": 10,
-    "explanation": "理解名词性从句的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-009",
-    "type": "choice",
-    "question": "Which of the following is correct about 现在分词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "现在分词 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "现在分词 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "现在分词 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "现在分词 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "现在分词"
-    ],
-    "grade": 10,
-    "explanation": "现在分词是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-010",
-    "type": "choice",
-    "question": "Which of the following is correct about 现在分词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "现在分词 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "现在分词 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "现在分词 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "现在分词 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "现在分词"
-    ],
-    "grade": 10,
-    "explanation": "现在分词是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-012",
-    "type": "choice",
-    "question": "Which sentence correctly uses 现在分词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 现在分词"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 现在分词"
-      },
-      {
-        "label": "C",
-        "text": "现在分词 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 现在分词 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "现在分词"
-    ],
-    "grade": 10,
-    "explanation": "理解现在分词的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-013",
-    "type": "choice",
-    "question": "Which of the following is correct about 过去分词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "过去分词 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "过去分词 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "过去分词 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "过去分词 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "过去分词"
-    ],
-    "grade": 10,
-    "explanation": "过去分词是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-014",
-    "type": "choice",
-    "question": "Which of the following is correct about 过去分词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "过去分词 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "过去分词 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "过去分词 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "过去分词 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "过去分词"
-    ],
-    "grade": 10,
-    "explanation": "过去分词是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-016",
-    "type": "choice",
-    "question": "Which sentence correctly uses 过去分词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 过去分词"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 过去分词"
-      },
-      {
-        "label": "C",
-        "text": "过去分词 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 过去分词 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "过去分词"
-    ],
-    "grade": 10,
-    "explanation": "理解过去分词的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-017",
-    "type": "choice",
-    "question": "Which of the following is correct about 完形填空?",
-    "options": [
-      {
-        "label": "A",
-        "text": "完形填空 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "完形填空 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "完形填空 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "完形填空 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "完形填空"
-    ],
-    "grade": 10,
-    "explanation": "完形填空是阅读中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-018",
-    "type": "choice",
-    "question": "Which of the following is correct about 完形填空?",
-    "options": [
-      {
-        "label": "A",
-        "text": "完形填空 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "完形填空 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "完形填空 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "完形填空 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "完形填空"
-    ],
-    "grade": 10,
-    "explanation": "完形填空是阅读中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-020",
-    "type": "choice",
-    "question": "Which sentence correctly uses 完形填空?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 完形填空"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 完形填空"
-      },
-      {
-        "label": "C",
-        "text": "完形填空 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 完形填空 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "完形填空"
-    ],
-    "grade": 10,
-    "explanation": "理解完形填空的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-021",
-    "type": "choice",
-    "question": "Which of the following is correct about 阅读理解?",
-    "options": [
-      {
-        "label": "A",
-        "text": "阅读理解 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "阅读理解 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "阅读理解 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "阅读理解 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "grade": 10,
-    "explanation": "阅读理解是阅读中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-022",
-    "type": "choice",
-    "question": "Which of the following is correct about 阅读理解?",
-    "options": [
-      {
-        "label": "A",
-        "text": "阅读理解 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "阅读理解 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "阅读理解 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "阅读理解 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "grade": 10,
-    "explanation": "阅读理解是阅读中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-024",
-    "type": "choice",
-    "question": "Which sentence correctly uses 阅读理解?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 阅读理解"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 阅读理解"
-      },
-      {
-        "label": "C",
-        "text": "阅读理解 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 阅读理解 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "阅读理解"
-    ],
-    "grade": 10,
-    "explanation": "理解阅读理解的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-025",
-    "type": "choice",
-    "question": "Which of the following is correct about 七选五阅读?",
-    "options": [
-      {
-        "label": "A",
-        "text": "七选五阅读 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "七选五阅读 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "七选五阅读 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "七选五阅读 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "七选五阅读"
-    ],
-    "grade": 10,
-    "explanation": "七选五阅读是阅读中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-026",
-    "type": "choice",
-    "question": "Which of the following is correct about 七选五阅读?",
-    "options": [
-      {
-        "label": "A",
-        "text": "七选五阅读 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "七选五阅读 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "七选五阅读 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "七选五阅读 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "七选五阅读"
-    ],
-    "grade": 10,
-    "explanation": "七选五阅读是阅读中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-028",
-    "type": "choice",
-    "question": "Which sentence correctly uses 七选五阅读?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 七选五阅读"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 七选五阅读"
-      },
-      {
-        "label": "C",
-        "text": "七选五阅读 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 七选五阅读 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "七选五阅读"
-    ],
-    "grade": 10,
-    "explanation": "理解七选五阅读的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-029",
-    "type": "choice",
-    "question": "Which of the following is correct about 应用文写作?",
-    "options": [
-      {
-        "label": "A",
-        "text": "应用文写作 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "应用文写作 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "应用文写作 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "应用文写作 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "应用文写作"
-    ],
-    "grade": 10,
-    "explanation": "应用文写作是写作中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-030",
-    "type": "choice",
-    "question": "Which of the following is correct about 应用文写作?",
-    "options": [
-      {
-        "label": "A",
-        "text": "应用文写作 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "应用文写作 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "应用文写作 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "应用文写作 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "应用文写作"
-    ],
-    "grade": 10,
-    "explanation": "应用文写作是写作中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-032",
-    "type": "choice",
-    "question": "Which sentence correctly uses 应用文写作?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 应用文写作"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 应用文写作"
-      },
-      {
-        "label": "C",
-        "text": "应用文写作 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 应用文写作 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "应用文写作"
-    ],
-    "grade": 10,
-    "explanation": "理解应用文写作的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-033",
-    "type": "choice",
-    "question": "Which of the following is correct about 词汇运用?",
-    "options": [
-      {
-        "label": "A",
-        "text": "词汇运用 is an important part of 词汇"
-      },
-      {
-        "label": "B",
-        "text": "词汇运用 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "词汇运用 is not related to 词汇"
-      },
-      {
-        "label": "D",
-        "text": "词汇运用 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "词汇运用"
-    ],
-    "grade": 10,
-    "explanation": "词汇运用是词汇中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-034",
-    "type": "choice",
-    "question": "Which of the following is correct about 词汇运用?",
-    "options": [
-      {
-        "label": "A",
-        "text": "词汇运用 is an important part of 词汇"
-      },
-      {
-        "label": "B",
-        "text": "词汇运用 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "词汇运用 is not related to 词汇"
-      },
-      {
-        "label": "D",
-        "text": "词汇运用 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "词汇运用"
-    ],
-    "grade": 10,
-    "explanation": "词汇运用是词汇中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-036",
-    "type": "choice",
-    "question": "Which sentence correctly uses 词汇运用?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 词汇运用"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 词汇运用"
-      },
-      {
-        "label": "C",
-        "text": "词汇运用 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 词汇运用 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "词汇运用"
-    ],
-    "grade": 10,
-    "explanation": "理解词汇运用的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-037",
-    "type": "choice",
-    "question": "Which of the following is correct about 短文改错?",
-    "options": [
-      {
-        "label": "A",
-        "text": "短文改错 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "短文改错 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "短文改错 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "短文改错 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "短文改错"
-    ],
-    "grade": 10,
-    "explanation": "短文改错是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-038",
-    "type": "choice",
-    "question": "Which of the following is correct about 短文改错?",
-    "options": [
-      {
-        "label": "A",
-        "text": "短文改错 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "短文改错 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "短文改错 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "短文改错 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "短文改错"
-    ],
-    "grade": 10,
-    "explanation": "短文改错是语法中的重要知识点。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g10-040",
-    "type": "choice",
-    "question": "Which sentence correctly uses 短文改错?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 短文改错"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 短文改错"
-      },
-      {
-        "label": "C",
-        "text": "短文改错 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 短文改错 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "短文改错"
-    ],
-    "grade": 10,
-    "explanation": "理解短文改错的用法要注意语境和语法规则。",
-    "difficulty": "medium",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-001",
-    "type": "choice",
-    "question": "Which of the following is correct about 虚拟语气?",
-    "options": [
-      {
-        "label": "A",
-        "text": "虚拟语气 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "虚拟语气 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "虚拟语气 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "虚拟语气 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "虚拟语气"
-    ],
-    "grade": 11,
-    "explanation": "虚拟语气是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-002",
-    "type": "choice",
-    "question": "Which of the following is correct about 虚拟语气?",
-    "options": [
-      {
-        "label": "A",
-        "text": "虚拟语气 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "虚拟语气 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "虚拟语气 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "虚拟语气 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "虚拟语气"
-    ],
-    "grade": 11,
-    "explanation": "虚拟语气是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-004",
-    "type": "choice",
-    "question": "Which sentence correctly uses 虚拟语气?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 虚拟语气"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 虚拟语气"
-      },
-      {
-        "label": "C",
-        "text": "虚拟语气 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 虚拟语气 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "虚拟语气"
-    ],
-    "grade": 11,
-    "explanation": "理解虚拟语气的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-005",
-    "type": "choice",
-    "question": "Which of the following is correct about 倒装句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "倒装句 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "倒装句 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "倒装句 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "倒装句 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "倒装句"
-    ],
-    "grade": 11,
-    "explanation": "倒装句是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-006",
-    "type": "choice",
-    "question": "Which of the following is correct about 倒装句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "倒装句 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "倒装句 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "倒装句 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "倒装句 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "倒装句"
-    ],
-    "grade": 11,
-    "explanation": "倒装句是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-008",
-    "type": "choice",
-    "question": "Which sentence correctly uses 倒装句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 倒装句"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 倒装句"
-      },
-      {
-        "label": "C",
-        "text": "倒装句 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 倒装句 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "倒装句"
-    ],
-    "grade": 11,
-    "explanation": "理解倒装句的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-009",
-    "type": "choice",
-    "question": "Which of the following is correct about 强调句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "强调句 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "强调句 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "强调句 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "强调句 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "强调句"
-    ],
-    "grade": 11,
-    "explanation": "强调句是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-010",
-    "type": "choice",
-    "question": "Which of the following is correct about 强调句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "强调句 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "强调句 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "强调句 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "强调句 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "强调句"
-    ],
-    "grade": 11,
-    "explanation": "强调句是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-012",
-    "type": "choice",
-    "question": "Which sentence correctly uses 强调句?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 强调句"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 强调句"
-      },
-      {
-        "label": "C",
-        "text": "强调句 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 强调句 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "强调句"
-    ],
-    "grade": 11,
-    "explanation": "理解强调句的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-013",
-    "type": "choice",
-    "question": "Which of the following is correct about 非谓语动词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "非谓语动词 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "非谓语动词 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "非谓语动词 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "非谓语动词 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
     "knowledgeTags": [
       "非谓语动词"
     ],
-    "grade": 11,
-    "explanation": "非谓语动词是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-014",
-    "type": "choice",
-    "question": "Which of the following is correct about 非谓语动词?",
+    "question": "Would you mind ___ the window?",
     "options": [
       {
         "label": "A",
-        "text": "非谓语动词 is an important part of 语法"
+        "text": "open"
       },
       {
         "label": "B",
-        "text": "非谓语动词 is rarely tested in exams"
+        "text": "opening"
       },
       {
         "label": "C",
-        "text": "非谓语动词 is not related to 语法"
+        "text": "to open"
       },
       {
         "label": "D",
-        "text": "非谓语动词 is only for extracurricular learning"
+        "text": "opened"
       }
     ],
-    "answer": "A",
-    "knowledgeTags": [
-      "非谓语动词"
-    ],
-    "grade": 11,
-    "explanation": "非谓语动词是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
+    "answer": "B",
+    "explanation": "mind doing sth. 固定搭配"
   },
   {
-    "id": "english-g11-016",
+    "id": "eng-sh-006",
     "type": "choice",
-    "question": "Which sentence correctly uses 非谓语动词?",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 10,
+    "knowledgeTags": [
+      "虚拟语气"
+    ],
+    "question": "It is essential that every student ___ on time.",
     "options": [
       {
         "label": "A",
-        "text": "This sentence correctly applies 非谓语动词"
+        "text": "be"
       },
       {
         "label": "B",
-        "text": "This sentence has an error in 非谓语动词"
+        "text": "is"
       },
       {
         "label": "C",
-        "text": "非谓语动词 is not applicable here"
+        "text": "was"
       },
       {
         "label": "D",
-        "text": "This is an example of 非谓语动词 misuse"
+        "text": "will be"
       }
     ],
     "answer": "A",
-    "knowledgeTags": [
-      "非谓语动词"
-    ],
-    "grade": 11,
-    "explanation": "理解非谓语动词的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
+    "explanation": "essential后的that从句用虚拟语气(should)be"
   },
   {
-    "id": "english-g11-017",
+    "id": "eng-sh-007",
     "type": "choice",
-    "question": "Which of the following is correct about 阅读技巧?",
+    "subject": "english",
+    "difficulty": 3,
+    "grade": 10,
+    "knowledgeTags": [
+      "倒装句"
+    ],
+    "question": "Not only ___ the exam, but he also got a scholarship.",
     "options": [
       {
         "label": "A",
-        "text": "阅读技巧 is an important part of 阅读"
+        "text": "did he pass"
       },
       {
         "label": "B",
-        "text": "阅读技巧 is rarely tested in exams"
+        "text": "did he pass"
       },
       {
         "label": "C",
-        "text": "阅读技巧 is not related to 阅读"
+        "text": "he passed"
       },
       {
         "label": "D",
-        "text": "阅读技巧 is only for extracurricular learning"
+        "text": "he had passed"
       }
     ],
-    "answer": "A",
-    "knowledgeTags": [
-      "阅读技巧"
-    ],
-    "grade": 11,
-    "explanation": "阅读技巧是阅读中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
+    "answer": "B",
+    "explanation": "Not only位于句首要部分倒装"
   },
   {
-    "id": "english-g11-018",
+    "id": "eng-sh-008",
     "type": "choice",
-    "question": "Which of the following is correct about 阅读技巧?",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "主谓一致"
+    ],
+    "question": "The number of students ___ increasing year by year.",
     "options": [
       {
         "label": "A",
-        "text": "阅读技巧 is an important part of 阅读"
+        "text": "is"
       },
       {
         "label": "B",
-        "text": "阅读技巧 is rarely tested in exams"
+        "text": "are"
       },
       {
         "label": "C",
-        "text": "阅读技巧 is not related to 阅读"
+        "text": "have"
       },
       {
         "label": "D",
-        "text": "阅读技巧 is only for extracurricular learning"
+        "text": "were"
       }
     ],
     "answer": "A",
-    "knowledgeTags": [
-      "阅读技巧"
-    ],
-    "grade": 11,
-    "explanation": "阅读技巧是阅读中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
+    "explanation": "the number of +复数名词，谓语用单数"
   },
   {
-    "id": "english-g11-020",
+    "id": "eng-sh-009",
     "type": "choice",
-    "question": "Which sentence correctly uses 阅读技巧?",
+    "subject": "english",
+    "difficulty": 1,
+    "grade": 10,
+    "knowledgeTags": [
+      "固定搭配"
+    ],
+    "question": "I prefer reading ___ watching TV.",
     "options": [
       {
         "label": "A",
-        "text": "This sentence correctly applies 阅读技巧"
+        "text": "to"
       },
       {
         "label": "B",
-        "text": "This sentence has an error in 阅读技巧"
+        "text": "than"
       },
       {
         "label": "C",
-        "text": "阅读技巧 is not applicable here"
+        "text": "over"
       },
       {
         "label": "D",
-        "text": "This is an example of 阅读技巧 misuse"
+        "text": "rather"
       }
     ],
     "answer": "A",
-    "knowledgeTags": [
-      "阅读技巧"
-    ],
-    "grade": 11,
-    "explanation": "理解阅读技巧的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
+    "explanation": "prefer A to B"
   },
   {
-    "id": "english-g11-021",
+    "id": "eng-sh-010",
     "type": "choice",
-    "question": "Which of the following is correct about 读后续写?",
+    "subject": "english",
+    "difficulty": 2,
+    "grade": 10,
+    "knowledgeTags": [
+      "让步状语"
+    ],
+    "question": "___ hard you try, you won't succeed without a proper plan.",
     "options": [
       {
         "label": "A",
-        "text": "读后续写 is an important part of 写作"
+        "text": "However"
       },
       {
         "label": "B",
-        "text": "读后续写 is rarely tested in exams"
+        "text": "Whatever"
       },
       {
         "label": "C",
-        "text": "读后续写 is not related to 写作"
+        "text": "Whenever"
       },
       {
         "label": "D",
-        "text": "读后续写 is only for extracurricular learning"
+        "text": "Wherever"
       }
     ],
     "answer": "A",
-    "knowledgeTags": [
-      "读后续写"
-    ],
-    "grade": 11,
-    "explanation": "读后续写是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-022",
-    "type": "choice",
-    "question": "Which of the following is correct about 读后续写?",
-    "options": [
-      {
-        "label": "A",
-        "text": "读后续写 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "读后续写 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "读后续写 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "读后续写 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "读后续写"
-    ],
-    "grade": 11,
-    "explanation": "读后续写是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-024",
-    "type": "choice",
-    "question": "Which sentence correctly uses 读后续写?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 读后续写"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 读后续写"
-      },
-      {
-        "label": "C",
-        "text": "读后续写 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 读后续写 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "读后续写"
-    ],
-    "grade": 11,
-    "explanation": "理解读后续写的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-025",
-    "type": "choice",
-    "question": "Which of the following is correct about 概要写作?",
-    "options": [
-      {
-        "label": "A",
-        "text": "概要写作 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "概要写作 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "概要写作 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "概要写作 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "概要写作"
-    ],
-    "grade": 11,
-    "explanation": "概要写作是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-026",
-    "type": "choice",
-    "question": "Which of the following is correct about 概要写作?",
-    "options": [
-      {
-        "label": "A",
-        "text": "概要写作 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "概要写作 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "概要写作 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "概要写作 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "概要写作"
-    ],
-    "grade": 11,
-    "explanation": "概要写作是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-028",
-    "type": "choice",
-    "question": "Which sentence correctly uses 概要写作?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 概要写作"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 概要写作"
-      },
-      {
-        "label": "C",
-        "text": "概要写作 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 概要写作 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "概要写作"
-    ],
-    "grade": 11,
-    "explanation": "理解概要写作的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-029",
-    "type": "choice",
-    "question": "Which of the following is correct about 高级词汇?",
-    "options": [
-      {
-        "label": "A",
-        "text": "高级词汇 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "高级词汇 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "高级词汇 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "高级词汇 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高级词汇"
-    ],
-    "grade": 11,
-    "explanation": "高级词汇是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-030",
-    "type": "choice",
-    "question": "Which of the following is correct about 高级词汇?",
-    "options": [
-      {
-        "label": "A",
-        "text": "高级词汇 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "高级词汇 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "高级词汇 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "高级词汇 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高级词汇"
-    ],
-    "grade": 11,
-    "explanation": "高级词汇是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-032",
-    "type": "choice",
-    "question": "Which sentence correctly uses 高级词汇?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 高级词汇"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 高级词汇"
-      },
-      {
-        "label": "C",
-        "text": "高级词汇 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 高级词汇 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高级词汇"
-    ],
-    "grade": 11,
-    "explanation": "理解高级词汇的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-033",
-    "type": "choice",
-    "question": "Which of the following is correct about 长难句分析?",
-    "options": [
-      {
-        "label": "A",
-        "text": "长难句分析 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "长难句分析 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "长难句分析 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "长难句分析 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "长难句分析"
-    ],
-    "grade": 11,
-    "explanation": "长难句分析是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-034",
-    "type": "choice",
-    "question": "Which of the following is correct about 长难句分析?",
-    "options": [
-      {
-        "label": "A",
-        "text": "长难句分析 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "长难句分析 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "长难句分析 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "长难句分析 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "长难句分析"
-    ],
-    "grade": 11,
-    "explanation": "长难句分析是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-036",
-    "type": "choice",
-    "question": "Which sentence correctly uses 长难句分析?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 长难句分析"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 长难句分析"
-      },
-      {
-        "label": "C",
-        "text": "长难句分析 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 长难句分析 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "长难句分析"
-    ],
-    "grade": 11,
-    "explanation": "理解长难句分析的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-037",
-    "type": "choice",
-    "question": "Which of the following is correct about 文化差异?",
-    "options": [
-      {
-        "label": "A",
-        "text": "文化差异 is an important part of 语言运用"
-      },
-      {
-        "label": "B",
-        "text": "文化差异 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "文化差异 is not related to 语言运用"
-      },
-      {
-        "label": "D",
-        "text": "文化差异 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "文化差异"
-    ],
-    "grade": 11,
-    "explanation": "文化差异是语言运用中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-038",
-    "type": "choice",
-    "question": "Which of the following is correct about 文化差异?",
-    "options": [
-      {
-        "label": "A",
-        "text": "文化差异 is an important part of 语言运用"
-      },
-      {
-        "label": "B",
-        "text": "文化差异 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "文化差异 is not related to 语言运用"
-      },
-      {
-        "label": "D",
-        "text": "文化差异 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "文化差异"
-    ],
-    "grade": 11,
-    "explanation": "文化差异是语言运用中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g11-040",
-    "type": "choice",
-    "question": "Which sentence correctly uses 文化差异?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 文化差异"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 文化差异"
-      },
-      {
-        "label": "C",
-        "text": "文化差异 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 文化差异 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "文化差异"
-    ],
-    "grade": 11,
-    "explanation": "理解文化差异的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-001",
-    "type": "choice",
-    "question": "Which of the following is correct about 语法整合?",
-    "options": [
-      {
-        "label": "A",
-        "text": "语法整合 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "语法整合 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "语法整合 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "语法整合 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "语法整合"
-    ],
-    "grade": 12,
-    "explanation": "语法整合是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-002",
-    "type": "choice",
-    "question": "Which of the following is correct about 语法整合?",
-    "options": [
-      {
-        "label": "A",
-        "text": "语法整合 is an important part of 语法"
-      },
-      {
-        "label": "B",
-        "text": "语法整合 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "语法整合 is not related to 语法"
-      },
-      {
-        "label": "D",
-        "text": "语法整合 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "语法整合"
-    ],
-    "grade": 12,
-    "explanation": "语法整合是语法中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-004",
-    "type": "choice",
-    "question": "Which sentence correctly uses 语法整合?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 语法整合"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 语法整合"
-      },
-      {
-        "label": "C",
-        "text": "语法整合 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 语法整合 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "语法整合"
-    ],
-    "grade": 12,
-    "explanation": "理解语法整合的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-005",
-    "type": "choice",
-    "question": "Which of the following is correct about 阅读策略?",
-    "options": [
-      {
-        "label": "A",
-        "text": "阅读策略 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "阅读策略 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "阅读策略 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "阅读策略 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "阅读策略"
-    ],
-    "grade": 12,
-    "explanation": "阅读策略是阅读中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-006",
-    "type": "choice",
-    "question": "Which of the following is correct about 阅读策略?",
-    "options": [
-      {
-        "label": "A",
-        "text": "阅读策略 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "阅读策略 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "阅读策略 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "阅读策略 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "阅读策略"
-    ],
-    "grade": 12,
-    "explanation": "阅读策略是阅读中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-008",
-    "type": "choice",
-    "question": "Which sentence correctly uses 阅读策略?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 阅读策略"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 阅读策略"
-      },
-      {
-        "label": "C",
-        "text": "阅读策略 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 阅读策略 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "阅读策略"
-    ],
-    "grade": 12,
-    "explanation": "理解阅读策略的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-009",
-    "type": "choice",
-    "question": "Which of the following is correct about 写作提升?",
-    "options": [
-      {
-        "label": "A",
-        "text": "写作提升 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "写作提升 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "写作提升 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "写作提升 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "写作提升"
-    ],
-    "grade": 12,
-    "explanation": "写作提升是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-010",
-    "type": "choice",
-    "question": "Which of the following is correct about 写作提升?",
-    "options": [
-      {
-        "label": "A",
-        "text": "写作提升 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "写作提升 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "写作提升 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "写作提升 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "写作提升"
-    ],
-    "grade": 12,
-    "explanation": "写作提升是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-012",
-    "type": "choice",
-    "question": "Which sentence correctly uses 写作提升?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 写作提升"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 写作提升"
-      },
-      {
-        "label": "C",
-        "text": "写作提升 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 写作提升 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "写作提升"
-    ],
-    "grade": 12,
-    "explanation": "理解写作提升的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-013",
-    "type": "choice",
-    "question": "Which of the following is correct about 高频词汇?",
-    "options": [
-      {
-        "label": "A",
-        "text": "高频词汇 is an important part of 词汇"
-      },
-      {
-        "label": "B",
-        "text": "高频词汇 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "高频词汇 is not related to 词汇"
-      },
-      {
-        "label": "D",
-        "text": "高频词汇 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高频词汇"
-    ],
-    "grade": 12,
-    "explanation": "高频词汇是词汇中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-014",
-    "type": "choice",
-    "question": "Which of the following is correct about 高频词汇?",
-    "options": [
-      {
-        "label": "A",
-        "text": "高频词汇 is an important part of 词汇"
-      },
-      {
-        "label": "B",
-        "text": "高频词汇 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "高频词汇 is not related to 词汇"
-      },
-      {
-        "label": "D",
-        "text": "高频词汇 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高频词汇"
-    ],
-    "grade": 12,
-    "explanation": "高频词汇是词汇中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-016",
-    "type": "choice",
-    "question": "Which sentence correctly uses 高频词汇?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 高频词汇"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 高频词汇"
-      },
-      {
-        "label": "C",
-        "text": "高频词汇 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 高频词汇 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高频词汇"
-    ],
-    "grade": 12,
-    "explanation": "理解高频词汇的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-017",
-    "type": "choice",
-    "question": "Which of the following is correct about 完形技巧?",
-    "options": [
-      {
-        "label": "A",
-        "text": "完形技巧 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "完形技巧 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "完形技巧 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "完形技巧 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "完形技巧"
-    ],
-    "grade": 12,
-    "explanation": "完形技巧是阅读中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-018",
-    "type": "choice",
-    "question": "Which of the following is correct about 完形技巧?",
-    "options": [
-      {
-        "label": "A",
-        "text": "完形技巧 is an important part of 阅读"
-      },
-      {
-        "label": "B",
-        "text": "完形技巧 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "完形技巧 is not related to 阅读"
-      },
-      {
-        "label": "D",
-        "text": "完形技巧 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "完形技巧"
-    ],
-    "grade": 12,
-    "explanation": "完形技巧是阅读中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-020",
-    "type": "choice",
-    "question": "Which sentence correctly uses 完形技巧?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 完形技巧"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 完形技巧"
-      },
-      {
-        "label": "C",
-        "text": "完形技巧 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 完形技巧 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "完形技巧"
-    ],
-    "grade": 12,
-    "explanation": "理解完形技巧的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-021",
-    "type": "choice",
-    "question": "Which of the following is correct about 真题演练?",
-    "options": [
-      {
-        "label": "A",
-        "text": "真题演练 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "真题演练 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "真题演练 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "真题演练 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "真题演练"
-    ],
-    "grade": 12,
-    "explanation": "真题演练是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-022",
-    "type": "choice",
-    "question": "Which of the following is correct about 真题演练?",
-    "options": [
-      {
-        "label": "A",
-        "text": "真题演练 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "真题演练 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "真题演练 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "真题演练 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "真题演练"
-    ],
-    "grade": 12,
-    "explanation": "真题演练是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-024",
-    "type": "choice",
-    "question": "Which sentence correctly uses 真题演练?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 真题演练"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 真题演练"
-      },
-      {
-        "label": "C",
-        "text": "真题演练 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 真题演练 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "真题演练"
-    ],
-    "grade": 12,
-    "explanation": "理解真题演练的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-025",
-    "type": "choice",
-    "question": "Which of the following is correct about 易错点?",
-    "options": [
-      {
-        "label": "A",
-        "text": "易错点 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "易错点 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "易错点 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "易错点 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "易错点"
-    ],
-    "grade": 12,
-    "explanation": "易错点是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-026",
-    "type": "choice",
-    "question": "Which of the following is correct about 易错点?",
-    "options": [
-      {
-        "label": "A",
-        "text": "易错点 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "易错点 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "易错点 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "易错点 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "易错点"
-    ],
-    "grade": 12,
-    "explanation": "易错点是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-028",
-    "type": "choice",
-    "question": "Which sentence correctly uses 易错点?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 易错点"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 易错点"
-      },
-      {
-        "label": "C",
-        "text": "易错点 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 易错点 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "易错点"
-    ],
-    "grade": 12,
-    "explanation": "理解易错点的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-029",
-    "type": "choice",
-    "question": "Which of the following is correct about 应试技巧?",
-    "options": [
-      {
-        "label": "A",
-        "text": "应试技巧 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "应试技巧 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "应试技巧 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "应试技巧 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "应试技巧"
-    ],
-    "grade": 12,
-    "explanation": "应试技巧是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-030",
-    "type": "choice",
-    "question": "Which of the following is correct about 应试技巧?",
-    "options": [
-      {
-        "label": "A",
-        "text": "应试技巧 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "应试技巧 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "应试技巧 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "应试技巧 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "应试技巧"
-    ],
-    "grade": 12,
-    "explanation": "应试技巧是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-032",
-    "type": "choice",
-    "question": "Which sentence correctly uses 应试技巧?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 应试技巧"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 应试技巧"
-      },
-      {
-        "label": "C",
-        "text": "应试技巧 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 应试技巧 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "应试技巧"
-    ],
-    "grade": 12,
-    "explanation": "理解应试技巧的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-033",
-    "type": "choice",
-    "question": "Which of the following is correct about 高分作文?",
-    "options": [
-      {
-        "label": "A",
-        "text": "高分作文 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "高分作文 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "高分作文 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "高分作文 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高分作文"
-    ],
-    "grade": 12,
-    "explanation": "高分作文是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-034",
-    "type": "choice",
-    "question": "Which of the following is correct about 高分作文?",
-    "options": [
-      {
-        "label": "A",
-        "text": "高分作文 is an important part of 写作"
-      },
-      {
-        "label": "B",
-        "text": "高分作文 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "高分作文 is not related to 写作"
-      },
-      {
-        "label": "D",
-        "text": "高分作文 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高分作文"
-    ],
-    "grade": 12,
-    "explanation": "高分作文是写作中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-036",
-    "type": "choice",
-    "question": "Which sentence correctly uses 高分作文?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 高分作文"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 高分作文"
-      },
-      {
-        "label": "C",
-        "text": "高分作文 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 高分作文 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "高分作文"
-    ],
-    "grade": 12,
-    "explanation": "理解高分作文的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-037",
-    "type": "choice",
-    "question": "Which of the following is correct about 综合训练?",
-    "options": [
-      {
-        "label": "A",
-        "text": "综合训练 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "综合训练 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "综合训练 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "综合训练 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "综合训练"
-    ],
-    "grade": 12,
-    "explanation": "综合训练是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-038",
-    "type": "choice",
-    "question": "Which of the following is correct about 综合训练?",
-    "options": [
-      {
-        "label": "A",
-        "text": "综合训练 is an important part of 综合"
-      },
-      {
-        "label": "B",
-        "text": "综合训练 is rarely tested in exams"
-      },
-      {
-        "label": "C",
-        "text": "综合训练 is not related to 综合"
-      },
-      {
-        "label": "D",
-        "text": "综合训练 is only for extracurricular learning"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "综合训练"
-    ],
-    "grade": 12,
-    "explanation": "综合训练是综合中的重要知识点。",
-    "difficulty": "hard",
-    "subject": "english"
-  },
-  {
-    "id": "english-g12-040",
-    "type": "choice",
-    "question": "Which sentence correctly uses 综合训练?",
-    "options": [
-      {
-        "label": "A",
-        "text": "This sentence correctly applies 综合训练"
-      },
-      {
-        "label": "B",
-        "text": "This sentence has an error in 综合训练"
-      },
-      {
-        "label": "C",
-        "text": "综合训练 is not applicable here"
-      },
-      {
-        "label": "D",
-        "text": "This is an example of 综合训练 misuse"
-      }
-    ],
-    "answer": "A",
-    "knowledgeTags": [
-      "综合训练"
-    ],
-    "grade": 12,
-    "explanation": "理解综合训练的用法要注意语境和语法规则。",
-    "difficulty": "hard",
-    "subject": "english"
+    "explanation": "however+adj./adv.引导让步状语"
   }
 ]

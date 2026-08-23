@@ -64,6 +64,24 @@
     "explanation": "迫不急待→迫不及待，直接了当→直截了当，走头无路→走投无路。"
   },
   {
+    "id": "chinese-003",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "字音",
+      "多音字"
+    ],
+    "question": "根据拼音写汉字：他把东西____(cáng)起来了，怕被人发现。",
+    "options": [],
+    "answer": "藏",
+    "explanation": "藏在这里读cáng，动词，躲藏的意思。",
+    "acceptAnswers": [
+      "藏"
+    ]
+  },
+  {
     "id": "chinese-004",
     "type": "choice",
     "subject": "chinese",
@@ -155,6 +173,23 @@
     ],
     "answer": "C",
     "explanation": "A句缺主语，B句两面对一面不搭配，D句'越来越'搭配不当。"
+  },
+  {
+    "id": "chinese-007",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "句子成分"
+    ],
+    "question": "指出下列句子的主干：'小明今天早上在教室里认真地写作业。' 主语是____，谓语是____，宾语是____。",
+    "options": [],
+    "answer": "小明, 写, 作业",
+    "explanation": "主语回答'谁'，谓语回答'做什么'，宾语回答'什么'。",
+    "acceptAnswers": [
+      "小明, 写, 作业"
+    ]
   },
   {
     "id": "chinese-008",
@@ -285,6 +320,27 @@
     "explanation": "'发于畎亩'是被起用之意，属于意念上的被动句。"
   },
   {
+    "id": "chinese-012",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗理解性默写"
+    ],
+    "question": "《望岳》中表达诗人远大抱负的诗句是：______，______。",
+    "options": [],
+    "answer": [
+      "会当凌绝顶",
+      "一览众山小"
+    ],
+    "explanation": "这两句诗表达了杜甫想要登上泰山顶峰、俯瞰众山的雄心壮志，象征着远大抱负。",
+    "acceptAnswers": [
+      "会当凌绝顶",
+      "一览众山小"
+    ]
+  },
+  {
     "id": "chinese-013",
     "type": "choice",
     "subject": "chinese",
@@ -315,6 +371,24 @@
     ],
     "answer": "C",
     "explanation": "'大漠'对'长河'，'孤烟直'对'落日圆'，字数相等、结构相同，是对偶。"
+  },
+  {
+    "id": "chinese-014",
+    "type": "short_answer",
+    "subject": "chinese",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "现代文阅读",
+      "人物形象分析"
+    ],
+    "question": "阅读《背影》片段，回答问题：父亲攀爬月台买橘子的背影，表达了怎样的思想感情？",
+    "options": [],
+    "answer": "感激、思念和愧疚，深沉父爱",
+    "explanation": "通过描写父亲送别儿子时爬月台买橘子的背影，表达了儿子对父亲深深的感激、思念和愧疚之情，体现了深沉而真挚的父爱。",
+    "acceptAnswers": [
+      "感激、思念和愧疚，深沉父爱"
+    ]
   },
   {
     "id": "chinese-015",
@@ -562,6 +636,23 @@
     "explanation": "因感叹时事，看到花鸟也流泪惊心，深刻表现忧国忧民之情"
   },
   {
+    "id": "chinese-023",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "海内存知己，_____。",
+    "answer": "天涯若比邻",
+    "explanation": "出自王勃《送杜少府之任蜀州》",
+    "acceptAnswers": [
+      "天涯若比邻"
+    ],
+    "options": []
+  },
+  {
     "id": "chinese-024",
     "type": "choice",
     "subject": "chinese",
@@ -715,6 +806,23 @@
     ],
     "answer": "A",
     "explanation": "喜出望外：意料之外的喜悦，含有盼望、期待的意思"
+  },
+  {
+    "id": "chinese-029",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "春风得意，_____。",
+    "answer": "骏马奔驰",
+    "explanation": "出自孟郊《登科后》，全诗：昔日龌龊不足夸，今朝放荡思无涯。春风得意马蹄疾，一日看尽长安花。",
+    "acceptAnswers": [
+      "骏马奔驰"
+    ],
+    "options": []
   },
   {
     "id": "chinese-030",
@@ -872,6 +980,23 @@
     "explanation": "简直表示完全如此，语气强烈，后一分句像一阵风是比喻"
   },
   {
+    "id": "chinese-035",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "会当凌绝顶，_____。",
+    "answer": "一览众山小",
+    "explanation": "出自杜甫《望岳》：荡胸生层云，决眦入归鸟。会当凌绝顶，一览众山小。",
+    "acceptAnswers": [
+      "一览众山小"
+    ],
+    "options": []
+  },
+  {
     "id": "chinese-036",
     "type": "choice",
     "subject": "chinese",
@@ -994,6 +1119,23 @@
     ],
     "answer": "C",
     "explanation": "王安石是北宋文学家，唐代诗人有李白、杜甫、白居易、李商隐等"
+  },
+  {
+    "id": "chinese-040",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "两岸猿声啼不住，_____。",
+    "answer": "轻舟已过万重山",
+    "explanation": "出自李白《早发白帝城》：朝辞白帝彩云间，千里江陵一日还。两岸猿声啼不住，轻舟已过万重山。",
+    "acceptAnswers": [
+      "轻舟已过万重山"
+    ],
+    "options": []
   },
   {
     "id": "chinese-041",
@@ -1120,6 +1262,23 @@
     "explanation": "轻风指柔和的风，这里轻形容风的柔和程度"
   },
   {
+    "id": "chinese-045",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "请写出《观沧海》中描写草木的句子：",
+    "answer": "树木丛生，百草丰茂。",
+    "explanation": "曹操《观沧海》：东临碣石，以观沧海。水何澹澹，山岛竦峙。树木丛生，百草丰茂。秋风萧瑟，洪波涌起。",
+    "acceptAnswers": [
+      "树木丛生，百草丰茂。"
+    ],
+    "options": []
+  },
+  {
     "id": "chinese-046",
     "type": "choice",
     "subject": "chinese",
@@ -1213,6 +1372,23 @@
     "explanation": "出自文天祥《过零丁洋》，表现了崇高的爱国精神"
   },
   {
+    "id": "chinese-049",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "出淤泥而不染，_____。",
+    "answer": "濯清涟而不妖",
+    "explanation": "出自周敦颐《爱莲说》，描写莲花的品质，出淤泥而不染，濯清涟而不妖",
+    "acceptAnswers": [
+      "濯清涟而不妖"
+    ],
+    "options": []
+  },
+  {
     "id": "chinese-050",
     "type": "choice",
     "subject": "chinese",
@@ -1304,6 +1480,23 @@
     ],
     "answer": "A",
     "explanation": "把洞庭湖比作白银盘，把君山比作青螺"
+  },
+  {
+    "id": "chinese-053",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "大漠孤烟直，_____。",
+    "answer": "长河落日圆",
+    "explanation": "出自王维《使至塞上》，描写边塞壮阔景象",
+    "acceptAnswers": [
+      "长河落日圆"
+    ],
+    "options": []
   },
   {
     "id": "chinese-054",
@@ -1523,6 +1716,23 @@
     "explanation": "草船借箭是诸葛亮利用大雾天气，用草船向曹操借箭的故事"
   },
   {
+    "id": "chinese-061",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "落红不是无情物，_____。",
+    "answer": "化作春泥更护花",
+    "explanation": "出自龚自珍《己亥杂诗》，以落红化作春泥比喻奉献精神",
+    "acceptAnswers": [
+      "化作春泥更护花"
+    ],
+    "options": []
+  },
+  {
     "id": "chinese-062",
     "type": "choice",
     "subject": "chinese",
@@ -1734,6 +1944,23 @@
     ],
     "answer": "A",
     "explanation": "柳宗元《江雪》：千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。"
+  },
+  {
+    "id": "chinese-069",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "旧时王谢堂前燕，_____。",
+    "answer": "飞入寻常百姓家",
+    "explanation": "出自刘禹锡《乌衣巷》，感叹世事变迁，昔日王谢贵族已衰落",
+    "acceptAnswers": [
+      "飞入寻常百姓家"
+    ],
+    "options": []
   },
   {
     "id": "chinese-070",
@@ -2635,6 +2862,23 @@
     "explanation": "引人入胜：吸引人进入优美的境界，胜是优美的意思"
   },
   {
+    "id": "chinese-099",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "填写：问君能有几多愁？_____。",
+    "answer": "恰似一江春水向东流",
+    "explanation": "出自李煜《虞美人》：春花秋月何时了，往事知多少。小楼昨夜又东风，故国不堪回首月明中。雕栏玉砌应犹在，只是朱颜改。问君能有几多愁？恰似一江春水向东流。",
+    "acceptAnswers": [
+      "恰似一江春水向东流"
+    ],
+    "options": []
+  },
+  {
     "id": "chinese-100",
     "type": "choice",
     "subject": "chinese",
@@ -3280,6 +3524,254 @@
     ],
     "answer": "D",
     "explanation": "A、B、C是状语+动词；D是重叠形容词+动词，且多了状语"
+  },
+  {
+    "id": "chinese-201",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "词语运用",
+      "岭南文化"
+    ],
+    "question": "依次填入句中横线处的词语，最恰当的一项是：佛山秋色巡游把醒狮、武术、粤剧等元素自然地______在一起，让整座城市的文化气质更加______。",
+    "options": [
+      {
+        "label": "A",
+        "text": "堆砌 鲜亮"
+      },
+      {
+        "label": "B",
+        "text": "融合 鲜明"
+      },
+      {
+        "label": "C",
+        "text": "拼凑 热闹"
+      },
+      {
+        "label": "D",
+        "text": "组合 朴素"
+      }
+    ],
+    "answer": "B",
+    "explanation": "“融合”强调自然结合，“鲜明”更适合形容文化气质特点突出。"
+  },
+  {
+    "id": "chinese-202",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写",
+      "爱国情怀"
+    ],
+    "question": "补写杜甫《春望》中的名句：______，______。",
+    "answer": [
+      "感时花溅泪",
+      "恨别鸟惊心"
+    ],
+    "explanation": "“感时花溅泪，恨别鸟惊心”通过移情手法写出诗人忧国思家的情感。",
+    "acceptAnswers": [
+      "感时花溅泪",
+      "恨别鸟惊心"
+    ],
+    "options": []
+  },
+  {
+    "id": "chinese-203",
+    "type": "short_answer",
+    "subject": "chinese",
+    "difficulty": 3,
+    "grade": 8,
+    "knowledgeTags": [
+      "现代文阅读",
+      "内容理解"
+    ],
+    "question": "阅读句子“鼓点一起，狮头忽而昂起，忽而俯冲，像把整条老街都唤醒了”。这句话突出了醒狮表演怎样的特点？",
+    "answer": "动作有力，气氛热烈，富有感染力",
+    "keywords": [
+      "有力",
+      "热烈",
+      "感染力"
+    ],
+    "explanation": "句中通过“昂起”“俯冲”“唤醒”写出表演节奏强、场面热烈、感染力强。",
+    "acceptAnswers": [
+      "动作有力，气氛热烈，富有感染力"
+    ],
+    "options": []
+  },
+  {
+    "id": "chinese-121",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《送杜少府之任蜀州》"
+    ],
+    "question": "王勃《送杜少府之任蜀州》中表达真挚友情、成为千古名句的两句是：___，___。",
+    "options": [],
+    "answer": "海内存知己，天涯若比邻",
+    "explanation": "出自王勃《送杜少府之任蜀州》，意思是四海之内有知心朋友，即使远在天涯也如同近邻，表达了真挚深厚的友情。",
+    "acceptAnswers": [
+      "海内存知己，天涯若比邻"
+    ]
+  },
+  {
+    "id": "chinese-122",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《使至塞上》"
+    ],
+    "question": "王维《使至塞上》中描绘塞外壮观景色的名句是：___，___。",
+    "options": [],
+    "answer": "大漠孤烟直，长河落日圆",
+    "explanation": "此联以工整对仗写出塞外苍茫壮阔的景象，\"直\"字写烟柱竖立，\"圆\"字写落日浑圆，被誉为\"千古壮观\"之句。",
+    "acceptAnswers": [
+      "大漠孤烟直，长河落日圆"
+    ]
+  },
+  {
+    "id": "chinese-123",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《春望》"
+    ],
+    "question": "杜甫《春望》中感时伤世、以花鸟拟人的两句是：___，___。",
+    "options": [],
+    "answer": "感时花溅泪，恨别鸟惊心",
+    "explanation": "诗人以\"感时\"和\"恨别\"两个情感为核心，花因感时而溅泪，鸟因恨别而惊心，移情于物，表达了忧国思家之情。",
+    "acceptAnswers": [
+      "感时花溅泪，恨别鸟惊心"
+    ]
+  },
+  {
+    "id": "chinese-124",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《岳阳楼记》"
+    ],
+    "question": "范仲淹《岳阳楼记》中体现\"先忧后乐\"精神的千古名句是：___，___。",
+    "options": [],
+    "answer": "先天下之忧而忧，后天下之乐而乐",
+    "explanation": "范仲淹借\"古仁人之心\"道出自己的政治抱负：忧在天下人之前，乐在天下人之后，体现了忧国忧民的高尚情怀。",
+    "acceptAnswers": [
+      "先天下之忧而忧，后天下之乐而乐"
+    ]
+  },
+  {
+    "id": "chinese-125",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《醉翁亭记》"
+    ],
+    "question": "欧阳修《醉翁亭记》中点明全文主旨\"与民同乐\"的句子是：___，___也。",
+    "options": [],
+    "answer": "人知从太守游而乐，而不知太守之乐其乐也",
+    "explanation": "此句揭示了文章主旨：百姓知道跟着太守游玩的快乐，却不知道太守以百姓的快乐为快乐，体现了欧阳修\"与民同乐\"的思想。",
+    "acceptAnswers": [
+      "人知从太守游而乐，而不知太守之乐其乐也"
+    ]
+  },
+  {
+    "id": "chinese-126",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《出师表》"
+    ],
+    "question": "诸葛亮《出师表》中表明自己临危受命的句子是：___，___。",
+    "options": [],
+    "answer": "受任于败军之际，奉命于危难之间",
+    "explanation": "这两句话回顾了诸葛亮接受刘备托付时的艰难处境，表明了他忠贞不渝、鞠躬尽瘁的精神。",
+    "acceptAnswers": [
+      "受任于败军之际，奉命于危难之间"
+    ]
+  },
+  {
+    "id": "chinese-127",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 7,
+    "level": "easy",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《次北固山下》"
+    ],
+    "question": "王湾《次北固山下》中蕴含新旧事物更替哲理的名句是：___，___。",
+    "options": [],
+    "answer": "海日生残夜，江春入旧年",
+    "explanation": "残夜未尽，红日已生；旧年未尽，春意已至。此联在描写景物中蕴含了新旧交替、时序推移的哲理，给人以积极向上的力量。",
+    "acceptAnswers": [
+      "海日生残夜，江春入旧年"
+    ]
+  },
+  {
+    "id": "chinese-128",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《茅屋为秋风所破歌》"
+    ],
+    "question": "杜甫《茅屋为秋风所破歌》中表达推己及人、忧国忧民的名句是：___，___！",
+    "options": [],
+    "answer": "安得广厦千万间，大庇天下寒士俱欢颜",
+    "explanation": "诗人由自身的遭遇想到天下寒士，表达了宁愿自己受苦也要让天下人得到幸福的博大情怀。",
+    "acceptAnswers": [
+      "安得广厦千万间，大庇天下寒士俱欢颜"
+    ]
+  },
+  {
+    "id": "chinese-129",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 3,
+    "grade": 9,
+    "level": "hard",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《水调歌头》"
+    ],
+    "question": "苏轼《水调歌头》中表达对远方亲人美好祝愿的名句是：___，___，___。",
+    "options": [],
+    "answer": "但愿人长久，千里共婵娟",
+    "explanation": "词人由月圆月缺联想到人的离合悲欢，最终以美好祝愿作结：愿人们长久平安，即使相隔千里也能共享这一轮明月。",
+    "acceptAnswers": [
+      "但愿人长久，千里共婵娟"
+    ]
   },
   {
     "id": "chinese-130",
@@ -4579,6 +5071,101 @@
     "explanation": "宋濂写自己借书抄书、衣食不足、行路之苦等求学经历，是为了与马生的优越学习条件形成对比，目的是勉励马生珍惜条件、勤奋读书，而非炫耀或抱怨。"
   },
   {
+    "id": "chinese-169",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《渔家傲·秋思》"
+    ],
+    "question": "范仲淹《渔家傲·秋思》中，写戍边将士思乡却又不能归的矛盾心情的句子是：___，___。",
+    "options": [],
+    "answer": "浊酒一杯家万里，燕然未勒归无计",
+    "explanation": "喝一杯浑浊的酒，想起家乡在万里之外，功业未成（燕然未勒），无法归家。表达了戍边将士思乡却又不得不坚守边关的复杂矛盾心情。",
+    "acceptAnswers": [
+      "浊酒一杯家万里，燕然未勒归无计"
+    ]
+  },
+  {
+    "id": "chinese-170",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《江城子·密州出猎》"
+    ],
+    "question": "苏轼《江城子·密州出猎》中，直接表达渴望为国效力的词句是：___，___，射天狼。",
+    "options": [],
+    "answer": "会挽雕弓如满月，西北望",
+    "explanation": "\"会挽雕弓如满月，西北望，射天狼\"——拉弓如满月，向西北瞄准，射向天狼（象征侵边之敌），表达了词人渴望为国御敌、建功立业的豪情壮志。",
+    "acceptAnswers": [
+      "会挽雕弓如满月，西北望"
+    ]
+  },
+  {
+    "id": "chinese-171",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 3,
+    "grade": 9,
+    "level": "hard",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《白雪歌送武判官归京》"
+    ],
+    "question": "岑参《白雪歌送武判官归京》中，以梨花喻雪的千古名句是：___，___。",
+    "options": [],
+    "answer": "忽如一夜春风来，千树万树梨花开",
+    "explanation": "诗人以春风中梨花盛开的美景比喻雪后千树银妆，想象奇特，以春景写冬景，将北方雪景写得壮美而浪漫，是咏雪的千古绝唱。",
+    "acceptAnswers": [
+      "忽如一夜春风来，千树万树梨花开"
+    ]
+  },
+  {
+    "id": "chinese-172",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 7,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《论语》"
+    ],
+    "question": "《论语》中，孔子论述学习与思考关系的名句是：___，___。",
+    "options": [],
+    "answer": "学而不思则罔，思而不学则殆",
+    "explanation": "此句出自《论语·为政》，意思是只学习不思考，就会迷惘；只思考不学习，就会疑惑。强调学习和思考必须结合，相辅相成，不可偏废。",
+    "acceptAnswers": [
+      "学而不思则罔，思而不学则殆"
+    ]
+  },
+  {
+    "id": "chinese-173",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《行路难》"
+    ],
+    "question": "李白《行路难》中，表达乐观自信、勇往直前精神的名句是：___，___。",
+    "options": [],
+    "answer": "长风破浪会有时，直挂云帆济沧海",
+    "explanation": "此联出自李白《行路难》，意思是终有一天会乘长风破万里浪，扬起云帆渡过沧海。表达了诗人面对困难不屈服、对理想执着追求的乐观精神。",
+    "acceptAnswers": [
+      "长风破浪会有时，直挂云帆济沧海"
+    ]
+  },
+  {
     "id": "chinese-174",
     "type": "choice",
     "subject": "chinese",
@@ -5281,6 +5868,63 @@
     "explanation": "菲利普夫妇在于勒有钱时把他视为\"福星\"，在他穷困潦倒时避而远之，深刻揭示了资本主义社会中金钱至上、亲情冷漠的社会现实，是批判现实主义文学的经典之作。"
   },
   {
+    "id": "chinese-195",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《望岳》"
+    ],
+    "question": "杜甫《望岳》中，表达诗人勇攀高峰、俯视一切豪情壮志的名句是：___，___。",
+    "options": [],
+    "answer": "会当凌绝顶，一览众山小",
+    "explanation": "诗人用\"会当凌绝顶，一览众山小\"表达了不畏艰难、勇攀高峰的壮志豪情，也蕴含了登高望远、俯视一切的宏大气魄，成为激励后人积极进取的千古名句。",
+    "acceptAnswers": [
+      "会当凌绝顶，一览众山小"
+    ]
+  },
+  {
+    "id": "chinese-196",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "level": "medium",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《酬乐天扬州初逢席上见赠》"
+    ],
+    "question": "刘禹锡《酬乐天扬州初逢席上见赠》中，常被用来比喻新事物代替旧事物的句子是：___，___。",
+    "options": [],
+    "answer": "沉舟侧畔千帆过，病树前头万木春",
+    "explanation": "此联出自刘禹锡的七律，原意是以沉舟、病树自比，以千帆、万木比喻新生事物，表达了诗人乐观豁达的精神。后人借用此联，比喻新生事物必然代替旧事物的自然规律。",
+    "acceptAnswers": [
+      "沉舟侧畔千帆过，病树前头万木春"
+    ]
+  },
+  {
+    "id": "chinese-197",
+    "type": "fill",
+    "subject": "chinese",
+    "difficulty": 3,
+    "grade": 9,
+    "level": "hard",
+    "knowledgeTags": [
+      "古诗文默写",
+      "《生于忧患，死于安乐》"
+    ],
+    "question": "《孟子》\"生于忧患，死于安乐\"中，从个人角度论述成才必经磨难的句子（人才被大任之前的六种磨炼）首句是：___。",
+    "options": [],
+    "answer": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为",
+    "explanation": "孟子认为上天要将重大使命交给某人之前，必先让其受苦：心志受苦、筋骨劳苦、体肤饥饿、身体匮乏、行为受阻，通过这六种磨炼使其增长才干，这是\"生于忧患\"的具体阐释。",
+    "acceptAnswers": [
+      "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为"
+    ]
+  },
+  {
     "id": "chinese-198",
     "type": "choice",
     "subject": "chinese",
@@ -5347,36 +5991,24 @@
     "explanation": "\"汗青\"指史册、历史，源于古代书写竹简时需先烤干竹子，烤时渗出的水分如汗，故称\"汗青\"，如\"留取丹心照汗青\"意为留下忠诚之心照耀史册。与鲜血无关。"
   },
   {
-    "id": "chinese-201",
-    "type": "choice",
+    "id": "chinese-200",
+    "type": "short_answer",
     "subject": "chinese",
-    "difficulty": 2,
-    "grade": 8,
+    "difficulty": 3,
+    "grade": 9,
+    "level": "hard",
     "knowledgeTags": [
-      "词语运用",
-      "岭南文化"
+      "综合运用",
+      "语言表达",
+      "情境写作"
     ],
-    "question": "依次填入句中横线处的词语，最恰当的一项是：佛山秋色巡游把醒狮、武术、粤剧等元素自然地______在一起，让整座城市的文化气质更加______。",
-    "options": [
-      {
-        "label": "A",
-        "text": "堆砌 鲜亮"
-      },
-      {
-        "label": "B",
-        "text": "融合 鲜明"
-      },
-      {
-        "label": "C",
-        "text": "拼凑 热闹"
-      },
-      {
-        "label": "D",
-        "text": "组合 朴素"
-      }
-    ],
-    "answer": "B",
-    "explanation": "“融合”强调自然结合，“鲜明”更适合形容文化气质特点突出。"
+    "question": "请根据以下情境，写一段80字左右的劝说词：\n情境：你的同学小华最近沉迷于手机游戏，学习成绩下降明显。请你劝说他合理使用手机，把精力放在学习上。\n要求：语言得体，有理有据，不少于两个理由。",
+    "options": [],
+    "answer": "示例：小华，我理解游戏很吸引人，但你有没有发现最近成绩下降了很多？适度娱乐可以放松心情，但沉迷其中会占用大量学习时间，影响未来的发展。初中是打基础的关键阶段，现在的努力会为将来打开更多大门。我们可以约定每天学习完成后玩半小时游戏，既不耽误学习，也有放松的时间，你觉得怎么样？",
+    "explanation": "劝说词要注意：①称呼得体，用朋友口吻而非说教；②理由充分，至少提出学习重要性和合理安排时间两个理由；③提出可行的解决方案；④语气委婉诚恳，避免生硬批评。",
+    "acceptAnswers": [
+      "示例：小华，我理解游戏很吸引人，但你有没有发现最近成绩下降了很多？适度娱乐可以放松心情，但沉迷其中会占用大量学习时间，影响未来的发展。初中是打基础的关键阶段，现在的努力会为将来打开更多大门。我们可以约定每天学习完成后玩半小时游戏，既不耽误学习，也有放松的时间，你觉得怎么样？"
+    ]
   },
   {
     "id": "chinese-204",
@@ -8660,7 +9292,8 @@
       }
     ],
     "answer": "D",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是D（chūnfēng）。"
   },
   {
     "id": "chinese-310",
@@ -8688,7 +9321,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（回）。"
   },
   {
     "id": "chinese-311",
@@ -8716,7 +9350,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（他们离婚后破镜重圆，重新组建了幸福的家庭。）。"
   },
   {
     "id": "chinese-312",
@@ -8744,7 +9379,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（通过这次活动，我们认识到团结的重要性。）。"
   },
   {
     "id": "chinese-313",
@@ -8772,7 +9408,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（我被老师表扬了。）。"
   },
   {
     "id": "chinese-314",
@@ -8800,7 +9437,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（比喻）。"
   },
   {
     "id": "chinese-315",
@@ -8828,7 +9466,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（我喜欢读小说、散文和诗歌。）。"
   },
   {
     "id": "chinese-316",
@@ -8856,7 +9495,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（《诗经》收录了从西周至春秋时期的诗歌，共305篇）。"
   },
   {
     "id": "chinese-317",
@@ -8884,7 +9524,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（江枫渔火对愁眠）。"
   },
   {
     "id": "chinese-318",
@@ -8912,7 +9553,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（感慨时光易逝的惆怅）。"
   },
   {
     "id": "chinese-319",
@@ -8940,7 +9582,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（因为他放下了农具而去守在树旁）。"
   },
   {
     "id": "chinese-320",
@@ -8968,7 +9611,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（赞扬诚实和关爱动物的美德）。"
   },
   {
     "id": "chinese-321",
@@ -8996,7 +9640,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（描述光的折射现象及其原理）。"
   },
   {
     "id": "chinese-322",
@@ -9024,7 +9669,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（诚信是人际关系的基石，是个人立足社会的根本。）。"
   },
   {
     "id": "chinese-323",
@@ -9052,7 +9698,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（审题时应当先确定文体和要求）。"
   },
   {
     "id": "chinese-324",
@@ -9080,7 +9727,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（立意是指确定文章的中心思想，决定全文的主题与写作方向。）。"
   },
   {
     "id": "chinese-325",
@@ -9108,7 +9756,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（天气预报）。"
   },
   {
     "id": "chinese-326",
@@ -9136,7 +9785,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（chūn mián bù jué xiǎo）。"
   },
   {
     "id": "chinese-327",
@@ -9164,7 +9814,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（男）。"
   },
   {
     "id": "chinese-328",
@@ -9192,7 +9843,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（这幅画本来已经很完美了，再加上一笔，真是画蛇添足。）。"
   },
   {
     "id": "chinese-329",
@@ -9220,7 +9872,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（通过学习，我提高了水平。）。"
   },
   {
     "id": "chinese-330",
@@ -9248,7 +9901,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（尽管他很忙，他还是抽时间帮助我们。）。"
   },
   {
     "id": "chinese-331",
@@ -9276,7 +9930,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（暗喻）。"
   },
   {
     "id": "chinese-332",
@@ -9304,7 +9959,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（他大声喊道：“快来帮忙！”）。"
   },
   {
     "id": "chinese-333",
@@ -9332,7 +9988,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（风、雅、颂）。"
   },
   {
     "id": "chinese-334",
@@ -9360,7 +10017,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（把每句翻译成现代汉语并配图联想）。"
   },
   {
     "id": "chinese-335",
@@ -9388,7 +10046,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（使用了夸张手法）。"
   },
   {
     "id": "chinese-336",
@@ -9416,7 +10075,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（经常复习旧的知识，能够得到新的理解）。"
   },
   {
     "id": "chinese-337",
@@ -9444,7 +10104,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（深厚的父子情感与不舍）。"
   },
   {
     "id": "chinese-338",
@@ -9472,7 +10133,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（当光从一种介质进入折射率不同的另一种介质时，光会改变传播方向。）。"
   },
   {
     "id": "chinese-339",
@@ -9500,7 +10162,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（对比论证）。"
   },
   {
     "id": "chinese-340",
@@ -9528,7 +10191,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（直接开始写第一段）。"
   },
   {
     "id": "chinese-341",
@@ -9556,7 +10220,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（立意要求作者围绕一个明确的主题展开，使文章内容紧凑、中心突出。）。"
   },
   {
     "id": "chinese-342",
@@ -9584,7 +10249,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（细致观察和体验日常生活）。"
   },
   {
     "id": "chinese-343",
@@ -9612,7 +10278,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（电脑 → diànnǎo）。"
   },
   {
     "id": "chinese-344",
@@ -9640,7 +10307,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（国）。"
   },
   {
     "id": "chinese-345",
@@ -9668,7 +10336,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（老师已经把要点讲得很清楚了，你再去解释一遍，简直是画蛇添足。）。"
   },
   {
     "id": "chinese-346",
@@ -9696,7 +10365,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（通过学习，我受益匪浅。）。"
   },
   {
     "id": "chinese-347",
@@ -9724,7 +10394,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（作业被老师批改了。）。"
   },
   {
     "id": "chinese-348",
@@ -9752,7 +10423,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（她的眼睛是两汪清泉。）。"
   },
   {
     "id": "chinese-349",
@@ -9780,7 +10452,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（春天来了，花开了。）。"
   },
   {
     "id": "chinese-350",
@@ -9808,7 +10481,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（罗贯中）。"
   },
   {
     "id": "chinese-351",
@@ -9836,7 +10510,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（春眠不觉晓，处处闻啼鸟，夜来风雨声，花落知多少）。"
   },
   {
     "id": "chinese-352",
@@ -9864,7 +10539,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（喜爱和赞美）。"
   },
   {
     "id": "chinese-353",
@@ -9892,7 +10568,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（学习并按时复习，是令人喜悦的事；有志同道合的朋友从远方来，也是令人愉快的；别人不了解自己也不怨恨，这才算是君子。）。"
   },
   {
     "id": "chinese-354",
@@ -9920,7 +10597,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（主旨是记叙文的六要素之一。）。"
   },
   {
     "id": "chinese-355",
@@ -9948,7 +10626,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（水的使用与挑战）。"
   },
   {
     "id": "chinese-356",
@@ -9976,7 +10655,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（作者认为网络阅读对青少年学习弊大于利。）。"
   },
   {
     "id": "chinese-357",
@@ -10004,7 +10684,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（找出关键词‘难忘’）。"
   },
   {
     "id": "chinese-358",
@@ -10032,7 +10713,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（作文题目要求写‘我的理想’，应先明确自己的理想是什么，再围绕理想展开，体现出对未来的思考和追求。）。"
   },
   {
     "id": "chinese-359",
@@ -10060,7 +10742,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（鲁迅的小说《呐喊》）。"
   },
   {
     "id": "chinese-360",
@@ -10088,7 +10771,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（第一个 a (māma)）。"
   },
   {
     "id": "chinese-361",
@@ -10116,7 +10800,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（德）。"
   },
   {
     "id": "chinese-362",
@@ -10144,7 +10829,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（结婚后，他和妻子举案齐眉，生活幸福。）。"
   },
   {
     "id": "chinese-363",
@@ -10172,7 +10858,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（他买了两斤苹果。）。"
   },
   {
     "id": "chinese-364",
@@ -10200,7 +10887,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（我把窗户打开。）。"
   },
   {
     "id": "chinese-365",
@@ -10228,7 +10916,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（拟人）。"
   },
   {
     "id": "chinese-366",
@@ -10256,7 +10945,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（表示并列词语之间的停顿）。"
   },
   {
     "id": "chinese-367",
@@ -10284,7 +10974,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（风、雅、颂）。"
   },
   {
     "id": "chinese-368",
@@ -10312,7 +11003,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（城春草木深）。"
   },
   {
     "id": "chinese-369",
@@ -10340,7 +11032,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（夸张）。"
   },
   {
     "id": "chinese-370",
@@ -10368,7 +11061,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（学习与思考同等重要，二者缺一不可。）。"
   },
   {
     "id": "chinese-371",
@@ -10396,7 +11090,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（第一人称视角）。"
   },
   {
     "id": "chinese-372",
@@ -10424,7 +11119,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（垃圾分类可以有效防止垃圾对土壤和水源的污染。）。"
   },
   {
     "id": "chinese-373",
@@ -10452,7 +11148,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（先说明诚信的定义，再通过历史典故论证诚信的价值，最后提出加强诚信建设的建议。）。"
   },
   {
     "id": "chinese-374",
@@ -10480,7 +11177,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（抓住“春天的记忆”这一主题，围绕春天中的具体经历和感受展开叙述。）。"
   },
   {
     "id": "chinese-375",
@@ -10508,7 +11206,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（围绕小明的坚持和团队合作，突出积极向上的精神。）。"
   },
   {
     "id": "chinese-376",
@@ -10536,7 +11235,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（素材可以来源于亲身经历、阅读和社会观察）。"
   },
   {
     "id": "chinese-377",
@@ -10564,7 +11264,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（zhīshi）。"
   },
   {
     "id": "chinese-378",
@@ -10592,7 +11293,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（匠）。"
   },
   {
     "id": "chinese-379",
@@ -10620,7 +11322,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（他写的作文内容已经完整，可他偏偏在结尾再加一句，真是画蛇添足。）。"
   },
   {
     "id": "chinese-380",
@@ -10648,7 +11351,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（因为天气不好，我们不得不取消比赛。）。"
   },
   {
     "id": "chinese-381",
@@ -10676,7 +11380,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（教室被老师打扫得干干净净。）。"
   },
   {
     "id": "chinese-382",
@@ -10704,7 +11409,8 @@
       }
     ],
     "answer": "D",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是D（星星在夜空中眨眼，好像在跟我们说话。）。"
   },
   {
     "id": "chinese-383",
@@ -10732,7 +11438,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（“今天天气真好呀！”小明高兴地说。）。"
   },
   {
     "id": "chinese-384",
@@ -10760,7 +11467,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（婉约派）。"
   },
   {
     "id": "chinese-385",
@@ -10788,7 +11496,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（黄河入海流）。"
   },
   {
     "id": "chinese-386",
@@ -10816,7 +11525,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（对仗）。"
   },
   {
     "id": "chinese-387",
@@ -10844,7 +11554,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（用道德来治理国家）。"
   },
   {
     "id": "chinese-388",
@@ -10872,7 +11583,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（插叙）。"
   },
   {
     "id": "chinese-389",
@@ -10900,7 +11612,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（说明文通过对事物的客观描写，介绍其特征、性质、功能等）。"
   },
   {
     "id": "chinese-390",
@@ -10928,7 +11641,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（手机的过度使用对青少年有负面影响，应合理使用。）。"
   },
   {
     "id": "chinese-391",
@@ -10956,7 +11670,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（本题要求写一篇记叙文，重点是记叙一次具体的烦恼经历，并加入心理描写。）。"
   },
   {
     "id": "chinese-392",
@@ -10984,7 +11699,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（立意要抓住文章的中心思想，突出主题，立意新颖且紧扣题意。）。"
   },
   {
     "id": "chinese-393",
@@ -11012,7 +11728,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（每天阅读课外书籍）。"
   },
   {
     "id": "chinese-394",
@@ -11040,7 +11757,8 @@
       }
     ],
     "answer": "D",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是D（“学习” xúexí）。"
   },
   {
     "id": "chinese-395",
@@ -11068,7 +11786,8 @@
       }
     ],
     "answer": "C",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是C（半包围结构是一种合体结构）。"
   },
   {
     "id": "chinese-396",
@@ -11096,7 +11815,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（面对考试，她胸有成竹，信心十足。）。"
   },
   {
     "id": "chinese-397",
@@ -11124,7 +11844,8 @@
       }
     ],
     "answer": "B",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是B（通过这次活动，我们认识到团队合作的重要性。）。"
   },
   {
     "id": "chinese-398",
@@ -11152,7 +11873,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（小明被老师表扬了。）。"
   },
   {
     "id": "chinese-399",
@@ -11180,7 +11902,8 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（雨点儿在屋顶上跳舞。）。"
   },
   {
     "id": "chinese-400",
@@ -11208,166 +11931,627 @@
       }
     ],
     "answer": "A",
-    "grade": 9
+    "grade": 9,
+    "explanation": "本题考查相关知识点。正确答案是A（明天是中秋节，我们全家要一起赏月、吃月饼。）。"
   },
   {
-    "id": "chinese-g7-001",
+    "id": "chn-kz-001",
     "type": "choice",
     "subject": "chinese",
-    "difficulty": 2,
+    "difficulty": 1,
     "grade": 7,
     "knowledgeTags": [
-      "文言文阅读"
+      "字音"
     ],
-    "question": "下列哪个是象形字?",
+    "question": "下列加点字注音全部正确的一组是",
     "options": [
       {
         "label": "A",
-        "text": "日"
+        "text": "星宿(xiù)"
       },
       {
         "label": "B",
-        "text": "明"
+        "text": "应届(ying)"
       },
       {
         "label": "C",
-        "text": "林"
+        "text": "哺育(pu)"
       },
       {
         "label": "D",
-        "text": "休"
+        "text": "粗犷(kuang)"
       }
     ],
     "answer": "A",
-    "explanation": "本题涉及文言文阅读知识点。正确答案是A：日。",
-    "image": null
+    "explanation": "B应yīng，C哺bǔ，D犷guǎng"
   },
   {
-    "id": "chinese-g7-002",
+    "id": "chn-kz-002",
     "type": "choice",
     "subject": "chinese",
-    "difficulty": 2,
+    "difficulty": 1,
     "grade": 7,
     "knowledgeTags": [
-      "文言文阅读"
+      "字形"
     ],
-    "question": "'学习'中'学'的读音是?",
+    "question": "下列词语书写完全正确的一组是",
     "options": [
       {
         "label": "A",
-        "text": "xué"
+        "text": "再接再励"
       },
       {
         "label": "B",
-        "text": "xiáo"
+        "text": "谈笑风声"
       },
       {
         "label": "C",
-        "text": "jué"
+        "text": "川流不息"
       },
       {
         "label": "D",
-        "text": "xiào"
-      }
-    ],
-    "answer": "A",
-    "explanation": "本题涉及文言文阅读知识点。正确答案是A：xué。",
-    "image": null
-  },
-  {
-    "id": "chinese-g7-003",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 7,
-    "knowledgeTags": [
-      "文言文阅读"
-    ],
-    "question": "下列哪个字是形声字?",
-    "options": [
-      {
-        "label": "A",
-        "text": "明"
-      },
-      {
-        "label": "B",
-        "text": "林"
-      },
-      {
-        "label": "C",
-        "text": "休"
-      },
-      {
-        "label": "D",
-        "text": "河"
-      }
-    ],
-    "answer": "D",
-    "explanation": "本题涉及文言文阅读知识点。正确答案是D：河。",
-    "image": null
-  },
-  {
-    "id": "chinese-g7-004",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 7,
-    "knowledgeTags": [
-      "文言文阅读"
-    ],
-    "question": "'美丽'的近义词是?",
-    "options": [
-      {
-        "label": "A",
-        "text": "漂亮"
-      },
-      {
-        "label": "B",
-        "text": "丑陋"
-      },
-      {
-        "label": "C",
-        "text": "高大"
-      },
-      {
-        "label": "D",
-        "text": "矮小"
-      }
-    ],
-    "answer": "A",
-    "explanation": "本题涉及文言文阅读知识点。正确答案是A：漂亮。",
-    "image": null
-  },
-  {
-    "id": "chinese-g7-005",
-    "type": "choice",
-    "subject": "chinese",
-    "difficulty": 2,
-    "grade": 7,
-    "knowledgeTags": [
-      "文言文阅读"
-    ],
-    "question": "下列哪个是贬义词?",
-    "options": [
-      {
-        "label": "A",
-        "text": "勇敢"
-      },
-      {
-        "label": "B",
-        "text": "善良"
-      },
-      {
-        "label": "C",
-        "text": "虚伪"
-      },
-      {
-        "label": "D",
-        "text": "诚实"
+        "text": "迫不急待"
       }
     ],
     "answer": "C",
-    "explanation": "本题涉及文言文阅读知识点。正确答案是C：虚伪。",
-    "image": null
+    "explanation": "A厉B生D及"
+  },
+  {
+    "id": "chn-kz-003",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "成语运用"
+    ],
+    "question": "下列句子中成语使用不恰当的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "故宫的建筑富丽堂皇"
+      },
+      {
+        "label": "B",
+        "text": "他目不转睛地盯着屏幕"
+      },
+      {
+        "label": "C",
+        "text": "老师讲的道理深入浅出"
+      },
+      {
+        "label": "D",
+        "text": "这次失败让他无动于衷"
+      }
+    ],
+    "answer": "D",
+    "explanation": "无动于衷是贬义，语境不合适"
+  },
+  {
+    "id": "chn-kz-004",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "病句"
+    ],
+    "question": "下列句子没有语病的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "他的写作水平有了明显的提高"
+      },
+      {
+        "label": "B",
+        "text": "是否努力是取得好成绩的关键"
+      },
+      {
+        "label": "C",
+        "text": "通过这次活动使我们增长了见识"
+      },
+      {
+        "label": "D",
+        "text": "他不但学习好而且品德好但是身体不好"
+      }
+    ],
+    "answer": "A",
+    "explanation": "B两面对一面，C缺主语，D关联词不当"
+  },
+  {
+    "id": "chn-kz-005",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "海内存知己的下半句是",
+    "options": [
+      {
+        "label": "A",
+        "text": "天涯若比邻"
+      },
+      {
+        "label": "B",
+        "text": "万里尚为邻"
+      },
+      {
+        "label": "C",
+        "text": "天涯共此时"
+      },
+      {
+        "label": "D",
+        "text": "天涯何处无芳草"
+      }
+    ],
+    "answer": "A",
+    "explanation": "王勃送杜少府之任蜀州"
+  },
+  {
+    "id": "chn-kz-006",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "病树前头万木春的上半句是",
+    "options": [
+      {
+        "label": "A",
+        "text": "沉舟侧畔千帆过"
+      },
+      {
+        "label": "B",
+        "text": "轻舟已过万重山"
+      },
+      {
+        "label": "C",
+        "text": "孤帆远影碧空尽"
+      },
+      {
+        "label": "D",
+        "text": "千帆过尽皆不是"
+      }
+    ],
+    "answer": "A",
+    "explanation": "刘禹锡酬乐天扬州初逢席上见赠"
+  },
+  {
+    "id": "chn-kz-007",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "古诗文默写"
+    ],
+    "question": "西北望射天狼的上半句是",
+    "options": [
+      {
+        "label": "A",
+        "text": "会挽雕弓如满月"
+      },
+      {
+        "label": "B",
+        "text": "欲挽天河洗甲兵"
+      },
+      {
+        "label": "C",
+        "text": "弯弓辞汉月"
+      },
+      {
+        "label": "D",
+        "text": "弓如霹雳弦惊"
+      }
+    ],
+    "answer": "A",
+    "explanation": "苏轼江城子密州出猎"
+  },
+  {
+    "id": "chn-kz-008",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "文言虚词"
+    ],
+    "question": "之字用法与何陋之有相同的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "水陆草木之花"
+      },
+      {
+        "label": "B",
+        "text": "予独爱莲之出淤泥"
+      },
+      {
+        "label": "C",
+        "text": "怅恨久之"
+      },
+      {
+        "label": "D",
+        "text": "宋何罪之有"
+      }
+    ],
+    "answer": "D",
+    "explanation": "何陋之有与何罪之有都是宾语前置标志"
+  },
+  {
+    "id": "chn-kz-009",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "名著阅读"
+    ],
+    "question": "水浒传中智取生辰纲的组织者是",
+    "options": [
+      {
+        "label": "A",
+        "text": "宋江"
+      },
+      {
+        "label": "B",
+        "text": "吴用"
+      },
+      {
+        "label": "C",
+        "text": "林冲"
+      },
+      {
+        "label": "D",
+        "text": "武松"
+      }
+    ],
+    "answer": "B",
+    "explanation": "吴用绰号智多星，智取生辰纲的策划者"
+  },
+  {
+    "id": "chn-kz-010",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "被称为诗圣的唐代诗人是",
+    "options": [
+      {
+        "label": "A",
+        "text": "李白"
+      },
+      {
+        "label": "B",
+        "text": "杜甫"
+      },
+      {
+        "label": "C",
+        "text": "白居易"
+      },
+      {
+        "label": "D",
+        "text": "王维"
+      }
+    ],
+    "answer": "B",
+    "explanation": "杜甫被誉为诗圣，李白为诗仙"
+  },
+  {
+    "id": "chn-kz-011",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "修辞"
+    ],
+    "question": "下列句子使用比喻修辞的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "他像他爸爸"
+      },
+      {
+        "label": "B",
+        "text": "月亮像银盘"
+      },
+      {
+        "label": "C",
+        "text": "他似乎明白了"
+      },
+      {
+        "label": "D",
+        "text": "这本书和他的一样"
+      }
+    ],
+    "answer": "B",
+    "explanation": "把月亮比作银盘是比喻"
+  },
+  {
+    "id": "chn-kz-012",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文言实词"
+    ],
+    "question": "屠自后断其股中股的意思是",
+    "options": [
+      {
+        "label": "A",
+        "text": "屁股"
+      },
+      {
+        "label": "B",
+        "text": "大腿"
+      },
+      {
+        "label": "C",
+        "text": "脚"
+      },
+      {
+        "label": "D",
+        "text": "身体"
+      }
+    ],
+    "answer": "B",
+    "explanation": "股在古文中指大腿"
+  },
+  {
+    "id": "chn-kz-013",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 8,
+    "knowledgeTags": [
+      "现代文阅读"
+    ],
+    "question": "记叙文的六要素不包括",
+    "options": [
+      {
+        "label": "A",
+        "text": "时间"
+      },
+      {
+        "label": "B",
+        "text": "地点"
+      },
+      {
+        "label": "C",
+        "text": "人物"
+      },
+      {
+        "label": "D",
+        "text": "修辞手法"
+      }
+    ],
+    "answer": "D",
+    "explanation": "记叙要素为时间地点人物起因经过结果"
+  },
+  {
+    "id": "chn-kz-014",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "说明文"
+    ],
+    "question": "说明文中举例子作用的说明方法是",
+    "options": [
+      {
+        "label": "A",
+        "text": "使说明更具体更有说服力"
+      },
+      {
+        "label": "B",
+        "text": "使说明更生动"
+      },
+      {
+        "label": "C",
+        "text": "使说明更准确"
+      },
+      {
+        "label": "D",
+        "text": "使说明更条理"
+      }
+    ],
+    "answer": "A",
+    "explanation": "举例子使说明具体有说服力"
+  },
+  {
+    "id": "chn-kz-015",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "标点符号"
+    ],
+    "question": "下列句子标点使用正确的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "他说:你来"
+      },
+      {
+        "label": "B",
+        "text": "他说:你来。"
+      },
+      {
+        "label": "C",
+        "text": "他去北京、上海、广州"
+      },
+      {
+        "label": "D",
+        "text": "你去不去?"
+      }
+    ],
+    "answer": "C",
+    "explanation": "并列词语用顿号分隔正确"
+  },
+  {
+    "id": "chn-kz-016",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 7,
+    "knowledgeTags": [
+      "词语"
+    ],
+    "question": "下列加点字读音与其他三项不同的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "差别"
+      },
+      {
+        "label": "B",
+        "text": "差错"
+      },
+      {
+        "label": "C",
+        "text": "出差"
+      },
+      {
+        "label": "D",
+        "text": "差距"
+      }
+    ],
+    "answer": "C",
+    "explanation": "出差中差读chāi，其他读chā"
+  },
+  {
+    "id": "chn-kz-017",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "议论文"
+    ],
+    "question": "议论文三要素是",
+    "options": [
+      {
+        "label": "A",
+        "text": "论点论据论证"
+      },
+      {
+        "label": "B",
+        "text": "开头主体结尾"
+      },
+      {
+        "label": "C",
+        "text": "立论驳论"
+      },
+      {
+        "label": "D",
+        "text": "举例引用对比"
+      }
+    ],
+    "answer": "A",
+    "explanation": "议论文三要素论点论据论证"
+  },
+  {
+    "id": "chn-kz-018",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "文学常识"
+    ],
+    "question": "鲁迅的散文集是",
+    "options": [
+      {
+        "label": "A",
+        "text": "朝花夕拾"
+      },
+      {
+        "label": "B",
+        "text": "呐喊"
+      },
+      {
+        "label": "C",
+        "text": "彷徨"
+      },
+      {
+        "label": "D",
+        "text": "野草"
+      }
+    ],
+    "answer": "A",
+    "explanation": "朝花夕拾是散文集，呐喊彷徨是小说集"
+  },
+  {
+    "id": "chn-kz-019",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 2,
+    "grade": 9,
+    "knowledgeTags": [
+      "文言文"
+    ],
+    "question": "醉翁之意不在酒中醉翁指",
+    "options": [
+      {
+        "label": "A",
+        "text": "欧阳修"
+      },
+      {
+        "label": "B",
+        "text": "苏轼"
+      },
+      {
+        "label": "C",
+        "text": "柳宗元"
+      },
+      {
+        "label": "D",
+        "text": "范仲淹"
+      }
+    ],
+    "answer": "A",
+    "explanation": "醉翁是欧阳修的自称"
+  },
+  {
+    "id": "chn-kz-020",
+    "type": "choice",
+    "subject": "chinese",
+    "difficulty": 1,
+    "grade": 8,
+    "knowledgeTags": [
+      "成语"
+    ],
+    "question": "下列成语出自历史故事的是",
+    "options": [
+      {
+        "label": "A",
+        "text": "守株待兔"
+      },
+      {
+        "label": "B",
+        "text": "完璧归赵"
+      },
+      {
+        "label": "C",
+        "text": "画蛇添足"
+      },
+      {
+        "label": "D",
+        "text": "拔苗助长"
+      }
+    ],
+    "answer": "B",
+    "explanation": "完璧归赵出自蔺相如完璧归赵的历史故事"
   }
 ]
