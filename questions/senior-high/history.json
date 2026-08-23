@@ -29,7 +29,7 @@
     ],
     "answer": "A",
     "explanation": "世界古代史要注意四大文明古国、希腊罗马文明、伊斯兰文明。正确答案是A：夏朝。",
-    "image": null
+    "image": "images/senior-high/history/history-g10-001.png"
   },
   {
     "id": "history-g10-002",
@@ -60,7 +60,8 @@
     "grade": 10,
     "explanation": "中国古代政治是政治史中的重要历史知识点。",
     "difficulty": "medium",
-    "subject": "history"
+    "subject": "history",
+    "image": "images/senior-high/history/history-g10-002.png"
   },
   {
     "id": "history-g10-005",
@@ -92,7 +93,7 @@
     ],
     "answer": "D",
     "explanation": "世界古代史要注意四大文明古国、希腊罗马文明、伊斯兰文明。正确答案是D：伊斯兰教。",
-    "image": null
+    "image": "images/senior-high/history/history-g10-005.png"
   },
   {
     "id": "history-g10-006",

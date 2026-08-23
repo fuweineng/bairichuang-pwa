@@ -29,7 +29,7 @@
     ],
     "answer": "A",
     "explanation": "本题涉及现代文阅读知识点。正确答案是A：日。",
-    "image": null
+    "image": "images/senior-high/chinese/chinese-g10-001.png"
   },
   {
     "id": "chinese-g10-002",
@@ -60,7 +60,8 @@
     "grade": 10,
     "explanation": "现代文阅读是阅读理解中的重要考查点。",
     "difficulty": "medium",
-    "subject": "chinese"
+    "subject": "chinese",
+    "image": "images/senior-high/chinese/chinese-g10-002.png"
   },
   {
     "id": "chinese-g10-005",
@@ -123,7 +124,8 @@
     "grade": 10,
     "explanation": "古诗文阅读是古诗文中的重要考查点。",
     "difficulty": "medium",
-    "subject": "chinese"
+    "subject": "chinese",
+    "image": "images/senior-high/chinese/chinese-g10-006.png"
   },
   {
     "id": "chinese-g10-009",
@@ -155,7 +157,7 @@
     ],
     "answer": "D",
     "explanation": "本题涉及现代文阅读知识点。正确答案是D：河。",
-    "image": null
+    "image": "images/senior-high/chinese/chinese-g10-009.png"
   },
   {
     "id": "chinese-g10-010",
@@ -186,7 +188,8 @@
     "grade": 10,
     "explanation": "语言文字运用是语言运用中的重要考查点。",
     "difficulty": "medium",
-    "subject": "chinese"
+    "subject": "chinese",
+    "image": "images/senior-high/chinese/chinese-g10-010.png"
   },
   {
     "id": "chinese-g10-013",
@@ -218,7 +221,7 @@
     ],
     "answer": "A",
     "explanation": "本题涉及现代文阅读知识点。正确答案是A：漂亮。",
-    "image": null
+    "image": "images/senior-high/chinese/chinese-g10-013.png"
   },
   {
     "id": "chinese-g10-014",
@@ -249,7 +252,8 @@
     "grade": 10,
     "explanation": "写作基础是写作中的重要考查点。",
     "difficulty": "medium",
-    "subject": "chinese"
+    "subject": "chinese",
+    "image": "images/senior-high/chinese/chinese-g10-014.png"
   },
   {
     "id": "chinese-g10-017",
@@ -281,7 +285,7 @@
     ],
     "answer": "C",
     "explanation": "本题涉及现代文阅读知识点。正确答案是C：虚伪。",
-    "image": null
+    "image": "images/senior-high/chinese/chinese-g10-017.png"
   },
   {
     "id": "chinese-g10-018",

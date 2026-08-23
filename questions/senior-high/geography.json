@@ -29,7 +29,7 @@
     ],
     "answer": "B",
     "explanation": "本题涉及自然地理知识点。正确答案是B：两极略扁的不规则球体。",
-    "image": null
+    "image": "images/senior-high/geography/geography-g10-001.png"
   },
   {
     "id": "geography-g10-002",
@@ -60,7 +60,8 @@
     "grade": 10,
     "explanation": "地球运动是自然地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-002.png"
   },
   {
     "id": "geography-g10-005",
@@ -92,7 +93,7 @@
     ],
     "answer": "A",
     "explanation": "本题涉及自然地理知识点。正确答案是A：自西向东。",
-    "image": null
+    "image": "images/senior-high/geography/geography-g10-005.png"
   },
   {
     "id": "geography-g10-006",
@@ -123,7 +124,8 @@
     "grade": 10,
     "explanation": "大气环流是自然地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-006.png"
   },
   {
     "id": "geography-g10-009",
@@ -155,7 +157,7 @@
     ],
     "answer": "A",
     "explanation": "本题涉及自然地理知识点。正确答案是A：24小时。",
-    "image": null
+    "image": "images/senior-high/geography/geography-g10-009.png"
   },
   {
     "id": "geography-g10-010",
@@ -186,7 +188,8 @@
     "grade": 10,
     "explanation": "水循环是自然地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-010.png"
   },
   {
     "id": "geography-g10-013",
@@ -249,7 +252,8 @@
     "grade": 10,
     "explanation": "岩石圈是自然地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-014.png"
   },
   {
     "id": "geography-g10-017",
@@ -281,7 +285,7 @@
     ],
     "answer": "A",
     "explanation": "本题涉及自然地理知识点。正确答案是A：0度。",
-    "image": null
+    "image": "images/senior-high/geography/geography-g10-017.png"
   },
   {
     "id": "geography-g10-018",
@@ -312,7 +316,8 @@
     "grade": 10,
     "explanation": "自然地理差异是自然地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-018.png"
   },
   {
     "id": "geography-g10-021",
@@ -343,7 +348,8 @@
     "grade": 10,
     "explanation": "人口与城市是人文地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-021.png"
   },
   {
     "id": "geography-g10-022",
@@ -374,7 +380,8 @@
     "grade": 10,
     "explanation": "人口与城市是人文地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-022.png"
   },
   {
     "id": "geography-g10-025",
@@ -405,7 +412,8 @@
     "grade": 10,
     "explanation": "农业地域是人文地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-025.png"
   },
   {
     "id": "geography-g10-026",
@@ -436,7 +444,8 @@
     "grade": 10,
     "explanation": "农业地域是人文地理学习中的重要知识点。",
     "difficulty": "medium",
-    "subject": "geography"
+    "subject": "geography",
+    "image": "images/senior-high/geography/geography-g10-026.png"
   },
   {
     "id": "geography-g10-029",

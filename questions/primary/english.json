@@ -29,7 +29,7 @@
     ],
     "answer": "B",
     "explanation": "本题涉及字母认知知识点。正确答案是B：B。",
-    "image": null
+    "image": "images/primary/english/english-g3-001.png"
   },
   {
     "id": "english-g3-002",
@@ -60,7 +60,8 @@
     "grade": 3,
     "explanation": "26个字母是语音与词汇学习中的重要内容。",
     "difficulty": "easy",
-    "subject": "english"
+    "subject": "english",
+    "image": "images/primary/english/english-g3-002.png"
   },
   {
     "id": "english-g3-004",
@@ -92,7 +93,7 @@
     ],
     "answer": "A",
     "explanation": "本题涉及词汇识记知识点。正确答案是A：苹果。",
-    "image": null
+    "image": "images/primary/english/english-g3-004.png"
   },
   {
     "id": "english-g3-005",
@@ -123,7 +124,8 @@
     "grade": 3,
     "explanation": "问候语是口语交际学习中的重要内容。",
     "difficulty": "easy",
-    "subject": "english"
+    "subject": "english",
+    "image": "images/primary/english/english-g3-005.png"
   },
   {
     "id": "english-g3-007",

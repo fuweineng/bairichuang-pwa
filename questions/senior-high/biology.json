@@ -29,7 +29,7 @@
     ],
     "answer": "C",
     "explanation": "本题涉及细胞代谢知识点。正确答案是C：细胞核。",
-    "image": null
+    "image": "images/senior-high/biology/biology-g10-001.png"
   },
   {
     "id": "biology-g10-002",
@@ -60,7 +60,8 @@
     "grade": 10,
     "explanation": "细胞结构是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-002.png"
   },
   {
     "id": "biology-g10-003",
@@ -91,7 +92,8 @@
     "grade": 10,
     "explanation": "细胞结构是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-003.png"
   },
   {
     "id": "biology-g10-007",
@@ -123,7 +125,7 @@
     ],
     "answer": "B",
     "explanation": "本题涉及细胞代谢知识点。正确答案是B：有机物和氧气。",
-    "image": null
+    "image": "images/senior-high/biology/biology-g10-007.png"
   },
   {
     "id": "biology-g10-008",
@@ -154,7 +156,8 @@
     "grade": 10,
     "explanation": "组成细胞的分子是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-008.png"
   },
   {
     "id": "biology-g10-009",
@@ -185,7 +188,8 @@
     "grade": 10,
     "explanation": "组成细胞的分子是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-009.png"
   },
   {
     "id": "biology-g10-013",
@@ -217,7 +221,7 @@
     ],
     "answer": "C",
     "explanation": "本题涉及细胞代谢知识点。正确答案是C：线粒体。",
-    "image": null
+    "image": "images/senior-high/biology/biology-g10-013.png"
   },
   {
     "id": "biology-g10-014",
@@ -248,7 +252,8 @@
     "grade": 10,
     "explanation": "物质进出细胞是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-014.png"
   },
   {
     "id": "biology-g10-015",
@@ -279,7 +284,8 @@
     "grade": 10,
     "explanation": "物质进出细胞是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-015.png"
   },
   {
     "id": "biology-g10-019",
@@ -311,7 +317,7 @@
     ],
     "answer": "C",
     "explanation": "本题涉及细胞代谢知识点。正确答案是C：雄蕊和雌蕊。",
-    "image": null
+    "image": "images/senior-high/biology/biology-g10-019.png"
   },
   {
     "id": "biology-g10-020",
@@ -342,7 +348,8 @@
     "grade": 10,
     "explanation": "酶与ATP是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-020.png"
   },
   {
     "id": "biology-g10-021",
@@ -373,7 +380,8 @@
     "grade": 10,
     "explanation": "酶与ATP是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-021.png"
   },
   {
     "id": "biology-g10-025",
@@ -405,7 +413,7 @@
     ],
     "answer": "B",
     "explanation": "本题涉及细胞代谢知识点。正确答案是B：细胞膜。",
-    "image": null
+    "image": "images/senior-high/biology/biology-g10-025.png"
   },
   {
     "id": "biology-g10-026",
@@ -436,7 +444,8 @@
     "grade": 10,
     "explanation": "光合作用是分子与细胞中的重点内容。",
     "difficulty": "medium",
-    "subject": "biology"
+    "subject": "biology",
+    "image": "images/senior-high/biology/biology-g10-026.png"
   },
   {
     "id": "biology-g10-027",
