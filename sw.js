@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bairichuang-v2';
+const CACHE_NAME = 'bairichuang-v3';
 
 const PRECACHE = [
   './',
@@ -36,9 +36,24 @@ self.addEventListener('activate', e => {
   );
 });
 
+function offlineFallback() {
+  return new Response(JSON.stringify({ error: 'offline', cached: false }), {
+    status: 503,
+    headers: { 'Content-Type': 'application/json' }
+  });
+}
+
 self.addEventListener('fetch', e => {
-  const url = new URL(e.request.url);
-  if (e.request.method !== 'GET') return;
+  const req = e.request;
+  if (req.method !== 'GET') return;
+
+  let url;
+  try {
+    url = new URL(req.url);
+  } catch {
+    return;
+  }
+  if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
 
   const pathname = url.pathname;
   const isQuestionFile = pathname.startsWith('/questions/') && pathname.endsWith('.json');
@@ -47,45 +62,52 @@ self.addEventListener('fetch', e => {
 
   if (isIndex || isVersionFile) {
     e.respondWith(
-      fetch(e.request)
+      fetch(req)
         .then(resp => {
-          if (resp.ok) {
+          if (resp && resp.ok) {
             const clone = resp.clone();
-            caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+            caches.open(CACHE_NAME).then(c => c.put(req, clone)).catch(() => {});
           }
           return resp;
         })
-        .catch(() => caches.match(e.request))
+        .catch(() =>
+          caches.match(req, { ignoreSearch: true })
+            .then(c => c || offlineFallback())
+        )
     );
     return;
   }
 
   if (isQuestionFile) {
     e.respondWith(
-      caches.match(e.request).then(cached => {
-        const networkFetch = fetch(e.request).then(resp => {
-          if (resp.ok) {
+      caches.match(req, { ignoreSearch: true }).then(cached => {
+        if (cached) return cached;
+        return fetch(req).then(resp => {
+          if (resp && resp.ok) {
             const clone = resp.clone();
-            caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+            caches.open(CACHE_NAME).then(c => c.put(req, clone)).catch(() => {});
           }
           return resp;
-        }).catch(() => null);
-        return cached || networkFetch;
+        }).catch(offlineFallback);
       })
     );
     return;
   }
 
   e.respondWith(
-    caches.match(e.request).then(cached => {
+    caches.match(req, { ignoreSearch: true }).then(cached => {
       if (cached) return cached;
-      return fetch(e.request).then(resp => {
-        if (resp.ok && resp.type === 'basic') {
+      return fetch(req).then(resp => {
+        if (resp && resp.ok && resp.type === 'basic' && url.origin === self.location.origin) {
           const clone = resp.clone();
-          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+          caches.open(CACHE_NAME).then(c => c.put(req, clone)).catch(() => {});
         }
         return resp;
-      }).catch(() => caches.match('./index.html'));
+      }).catch(() =>
+        req.mode === 'navigate'
+          ? (caches.match('./index.html').then(c => c || Response.error()))
+          : Response.error()
+      );
     })
   );
 });
